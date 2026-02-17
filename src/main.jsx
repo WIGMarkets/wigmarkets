@@ -1,6 +1,17 @@
 import { useState, useEffect, useRef } from "react";
 import ReactDOM from "react-dom/client";
 
+const TICKERS = ["pkn","pko","pzu","kgh","cdr","lpp","ale","peo","dnp","jsw","ccc","pge"];
+
+async function fetchStooq(symbol) {
+  try {
+    const res = await fetch(`/api/stooq?symbol=${symbol}`);
+    const data = await res.json();
+    return data;
+  } catch {
+    return null;
+  }
+}
 const STOCKS = [
   { id: 1, ticker: "PKN", name: "PKN ORLEN", sector: "Energetyka", price: 58.42, change1h: 0.34, change24h: -1.82, change7d: 3.45, cap: 74500, vol: 312, pe: 8.2, div: 5.1 },
   { id: 2, ticker: "PKO", name: "PKO Bank Polski", sector: "Banki", price: 47.18, change1h: -0.12, change24h: 2.14, change7d: 5.67, cap: 58200, vol: 287, pe: 10.1, div: 6.8 },
@@ -180,15 +191,16 @@ export default function WigMarkets() {
   const PER_PAGE = 10;
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setPrices(prev => {
-        const updated = { ...prev };
-        STOCKS.forEach(s => {
-          updated[s.ticker] = Math.max(1, prev[s.ticker] * (1 + (Math.random() - 0.499) * 0.002));
-        });
-        return updated;
-      });
-    }, 2000);
+    const fetchAll = async () => {
+      for (const ticker of TICKERS) {
+        const data = await fetchStooq(ticker);
+        if (data?.close) {
+          setPrices(prev => ({ ...prev, [ticker.toUpperCase()]: data.close }));
+        }
+      }
+    };
+    fetchAll();
+    const interval = setInterval(fetchAll, 60000);
     return () => clearInterval(interval);
   }, []);
 
