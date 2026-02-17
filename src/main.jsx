@@ -1,16 +1,15 @@
 import { useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 
-const TICKERS = ["pkn","pko","pzu","kgh","cdr","lpp","ale","peo","dnp","jsw","ccc","pge"];
+const TICKERS_GPW = ["pkn","pko","pzu","kgh","cdr","lpp","ale","peo","dnp","jsw","ccc","pge","kty","dno","mrc","mbk","opl","spx","pcr","tpe","eng","eur","bdi","cig","acp","pge","krk","gtc","amr","gpw"];
+const TICKERS_COMMODITIES = ["xau","xag","cl.f","ng.f","hg.f","weat.us","corn.us","soy.us"];
 
 async function fetchStooq(symbol) {
   try {
     const res = await fetch(`/api/stooq?symbol=${symbol}`);
     const data = await res.json();
     return data;
-  } catch {
-    return null;
-  }
+  } catch { return null; }
 }
 
 async function fetchHistory(symbol) {
@@ -18,24 +17,39 @@ async function fetchHistory(symbol) {
     const res = await fetch(`/api/history?symbol=${symbol}`);
     const data = await res.json();
     return data;
-  } catch {
-    return null;
-  }
+  } catch { return null; }
 }
 
 const STOCKS = [
-  { id: 1, ticker: "PKN", name: "PKN ORLEN", sector: "Energetyka", price: 58.42, change24h: -1.82, change7d: 3.45, cap: 74500, vol: 312, pe: 8.2, div: 5.1 },
-  { id: 2, ticker: "PKO", name: "PKO Bank Polski", sector: "Banki", price: 47.18, change24h: 2.14, change7d: 5.67, cap: 58200, vol: 287, pe: 10.1, div: 6.8 },
-  { id: 3, ticker: "PZU", name: "PZU SA", sector: "Ubezpieczenia", price: 34.56, change24h: -0.45, change7d: -1.23, cap: 41800, vol: 145, pe: 11.3, div: 8.2 },
-  { id: 4, ticker: "KGH", name: "KGHM Polska Miedź", sector: "Surowce", price: 148.90, change24h: 4.32, change7d: 8.91, cap: 35600, vol: 198, pe: 12.8, div: 3.5 },
-  { id: 5, ticker: "CDR", name: "CD Projekt", sector: "Technologia", price: 182.40, change24h: -2.90, change7d: -4.15, cap: 17200, vol: 423, pe: 35.6, div: 0.0 },
-  { id: 6, ticker: "LPP", name: "LPP SA", sector: "Handel", price: 16840.00, change24h: 1.15, change7d: 2.87, cap: 31400, vol: 56, pe: 28.4, div: 1.2 },
-  { id: 7, ticker: "ALE", name: "Allegro.eu", sector: "E-commerce", price: 38.72, change24h: -3.21, change7d: -6.54, cap: 24600, vol: 389, pe: 22.1, div: 0.0 },
-  { id: 8, ticker: "PEO", name: "Bank Pekao", sector: "Banki", price: 142.80, change24h: 1.78, change7d: 4.23, cap: 18700, vol: 112, pe: 9.5, div: 7.4 },
-  { id: 9, ticker: "DNP", name: "Dino Polska", sector: "Handel", price: 378.20, change24h: 0.67, change7d: 1.94, cap: 15300, vol: 78, pe: 24.7, div: 0.0 },
-  { id: 10, ticker: "JSW", name: "JSW SA", sector: "Surowce", price: 24.36, change24h: 5.80, change7d: -12.30, cap: 4200, vol: 534, pe: 4.1, div: 0.0 },
-  { id: 11, ticker: "CCC", name: "CCC SA", sector: "Handel", price: 82.10, change24h: -4.10, change7d: -8.20, cap: 6800, vol: 678, pe: 0, div: 0.0 },
-  { id: 12, ticker: "PGE", name: "PGE Polska Grupa Energetyczna", sector: "Energetyka", price: 8.94, change24h: 0.34, change7d: 1.12, cap: 14100, vol: 267, pe: 6.8, div: 4.2 },
+  { id: 1, ticker: "PKN", name: "PKN ORLEN", sector: "Energetyka", price: 106, change24h: 0, change7d: 0, cap: 74500, vol: 312, pe: 8.2, div: 5.1 },
+  { id: 2, ticker: "PKO", name: "PKO Bank Polski", sector: "Banki", price: 89, change24h: 0, change7d: 0, cap: 58200, vol: 287, pe: 10.1, div: 6.8 },
+  { id: 3, ticker: "PZU", name: "PZU SA", sector: "Ubezpieczenia", price: 68, change24h: 0, change7d: 0, cap: 41800, vol: 145, pe: 11.3, div: 8.2 },
+  { id: 4, ticker: "KGH", name: "KGHM Polska Miedź", sector: "Surowce", price: 285, change24h: 0, change7d: 0, cap: 35600, vol: 198, pe: 12.8, div: 3.5 },
+  { id: 5, ticker: "CDR", name: "CD Projekt", sector: "Technologia", price: 244, change24h: 0, change7d: 0, cap: 17200, vol: 423, pe: 35.6, div: 0 },
+  { id: 6, ticker: "LPP", name: "LPP SA", sector: "Handel", price: 20470, change24h: 0, change7d: 0, cap: 31400, vol: 56, pe: 28.4, div: 1.2 },
+  { id: 7, ticker: "ALE", name: "Allegro.eu", sector: "E-commerce", price: 29, change24h: 0, change7d: 0, cap: 24600, vol: 389, pe: 22.1, div: 0 },
+  { id: 8, ticker: "PEO", name: "Bank Pekao", sector: "Banki", price: 224, change24h: 0, change7d: 0, cap: 18700, vol: 112, pe: 9.5, div: 7.4 },
+  { id: 9, ticker: "DNP", name: "Dino Polska", sector: "Handel", price: 398, change24h: 0, change7d: 0, cap: 15300, vol: 78, pe: 24.7, div: 0 },
+  { id: 10, ticker: "JSW", name: "JSW SA", sector: "Surowce", price: 24, change24h: 0, change7d: 0, cap: 4200, vol: 534, pe: 4.1, div: 0 },
+  { id: 11, ticker: "CCC", name: "CCC SA", sector: "Handel", price: 82, change24h: 0, change7d: 0, cap: 6800, vol: 678, pe: 0, div: 0 },
+  { id: 12, ticker: "PGE", name: "PGE Polska Grupa Energetyczna", sector: "Energetyka", price: 10, change24h: 0, change7d: 0, cap: 14100, vol: 267, pe: 6.8, div: 4.2 },
+  { id: 13, ticker: "KTY", name: "Grupa Kęty", sector: "Przemysł", price: 580, change24h: 0, change7d: 0, cap: 5200, vol: 45, pe: 14.2, div: 3.8 },
+  { id: 14, ticker: "MBK", name: "mBank", sector: "Banki", price: 620, change24h: 0, change7d: 0, cap: 8900, vol: 89, pe: 11.8, div: 2.1 },
+  { id: 15, ticker: "OPL", name: "Orange Polska", sector: "Telekomunikacja", price: 9.2, change24h: 0, change7d: 0, cap: 6100, vol: 234, pe: 18.4, div: 5.5 },
+  { id: 16, ticker: "PCR", name: "Polskie Górnictwo Naftowe", sector: "Energetyka", price: 6.8, change24h: 0, change7d: 0, cap: 11200, vol: 456, pe: 7.2, div: 6.1 },
+  { id: 17, ticker: "TPE", name: "Tauron Polska Energia", sector: "Energetyka", price: 3.4, change24h: 0, change7d: 0, cap: 4800, vol: 678, pe: 5.9, div: 0 },
+  { id: 18, ticker: "GPW", name: "Giełda Papierów Wartościowych", sector: "Finanse", price: 42, change24h: 0, change7d: 0, cap: 1700, vol: 34, pe: 16.3, div: 7.2 },
+  { id: 19, ticker: "ACP", name: "Asseco Poland", sector: "Technologia", price: 78, change24h: 0, change7d: 0, cap: 4100, vol: 67, pe: 19.8, div: 4.3 },
+  { id: 20, ticker: "GTC", name: "Globe Trade Centre", sector: "Nieruchomości", price: 5.2, change24h: 0, change7d: 0, cap: 1900, vol: 123, pe: 0, div: 3.2 },
+];
+
+const COMMODITIES = [
+  { id: 101, ticker: "XAU", stooq: "xau", name: "Złoto", sector: "Metal szlachetny", price: 0, change24h: 0, change7d: 0, unit: "USD/oz" },
+  { id: 102, ticker: "XAG", stooq: "xag", name: "Srebro", sector: "Metal szlachetny", price: 0, change24h: 0, change7d: 0, unit: "USD/oz" },
+  { id: 103, ticker: "CL", stooq: "cl.f", name: "Ropa naftowa WTI", sector: "Energia", price: 0, change24h: 0, change7d: 0, unit: "USD/bbl" },
+  { id: 104, ticker: "NG", stooq: "ng.f", name: "Gaz ziemny", sector: "Energia", price: 0, change24h: 0, change7d: 0, unit: "USD/MMBtu" },
+  { id: 105, ticker: "HG", stooq: "hg.f", name: "Miedź", sector: "Metal przemysłowy", price: 0, change24h: 0, change7d: 0, unit: "USD/lb" },
+  { id: 106, ticker: "WEAT", stooq: "weat.us", name: "Pszenica", sector: "Rolnictwo", price: 0, change24h: 0, change7d: 0, unit: "USD/bu" },
 ];
 
 const INDICES = [
@@ -62,13 +76,8 @@ function generateSparkline(trend) {
     val = Math.max(20, Math.min(80, val));
     points.push(val);
   }
-  const min = Math.min(...points);
-  const max = Math.max(...points);
-  return points.map((p, i) => {
-    const x = (i / 19) * 100;
-    const y = 40 - ((p - min) / (max - min + 1)) * 36;
-    return `${x},${y}`;
-  }).join(" ");
+  const min = Math.min(...points), max = Math.max(...points);
+  return points.map((p, i) => `${(i / 19) * 100},${40 - ((p - min) / (max - min + 1)) * 36}`).join(" ");
 }
 
 function Sparkline({ trend }) {
@@ -84,14 +93,9 @@ function Sparkline({ trend }) {
 function MiniChart({ data, color }) {
   if (!data || data.length < 2) return <div style={{ color: "#8b949e", fontSize: 12, textAlign: "center", padding: "40px 0" }}>Ładowanie wykresu...</div>;
   const prices = data.map(d => d.close);
-  const min = Math.min(...prices);
-  const max = Math.max(...prices);
+  const min = Math.min(...prices), max = Math.max(...prices);
   const w = 600, h = 160;
-  const pts = prices.map((p, i) => {
-    const x = (i / (prices.length - 1)) * w;
-    const y = h - ((p - min) / (max - min + 0.01)) * (h - 20) - 10;
-    return `${x},${y}`;
-  }).join(" ");
+  const pts = prices.map((p, i) => `${(i / (prices.length - 1)) * w},${h - ((p - min) / (max - min + 0.01)) * (h - 20) - 10}`).join(" ");
   return (
     <svg width="100%" viewBox={`0 0 ${w} ${h}`} style={{ display: "block" }}>
       <defs>
@@ -112,10 +116,11 @@ function StockModal({ stock, price, change24h, change7d, onClose }) {
   const fmtN = (n, d = 2) => n?.toLocaleString("pl-PL", { minimumFractionDigits: d, maximumFractionDigits: d }) ?? "—";
   const changeFmt = (v) => `${v > 0 ? "+" : ""}${fmtN(v)}%`;
   const color = change24h >= 0 ? "#00c896" : "#ff4d6d";
+  const stooqSymbol = stock.stooq || stock.ticker.toLowerCase();
 
   useEffect(() => {
-    fetchHistory(stock.ticker.toLowerCase()).then(d => setHistory(d?.prices || null));
-  }, [stock.ticker]);
+    fetchHistory(stooqSymbol).then(d => setHistory(d?.prices || null));
+  }, [stooqSymbol]);
 
   const filterHistory = () => {
     if (!history) return [];
@@ -126,7 +131,6 @@ function StockModal({ stock, price, change24h, change7d, onClose }) {
   return (
     <div style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,0.85)", zIndex: 1000, display: "flex", alignItems: "center", justifyContent: "center", padding: 24 }} onClick={onClose}>
       <div style={{ background: "#0d1117", border: "1px solid #30363d", borderRadius: 20, padding: 32, width: "100%", maxWidth: 720, maxHeight: "90vh", overflowY: "auto" }} onClick={e => e.stopPropagation()}>
-
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 24 }}>
           <div style={{ display: "flex", gap: 14, alignItems: "center" }}>
             <div style={{ width: 48, height: 48, borderRadius: 12, background: "linear-gradient(135deg, #1f6feb22, #58a6ff33)", border: "1px solid #58a6ff44", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 16, fontWeight: 800, color: "#58a6ff" }}>{stock.ticker.slice(0, 2)}</div>
@@ -137,31 +141,27 @@ function StockModal({ stock, price, change24h, change7d, onClose }) {
           </div>
           <button onClick={onClose} style={{ background: "#21262d", border: "none", borderRadius: 8, color: "#8b949e", width: 32, height: 32, fontSize: 18, cursor: "pointer" }}>×</button>
         </div>
-
         <div style={{ marginBottom: 24 }}>
-          <div style={{ fontSize: 36, fontWeight: 800, color: "#e6edf3" }}>{fmtN(price)} zł</div>
+          <div style={{ fontSize: 36, fontWeight: 800, color: "#e6edf3" }}>{fmtN(price)} {stock.unit || "zł"}</div>
           <div style={{ display: "flex", gap: 12, marginTop: 8 }}>
             <span style={{ padding: "4px 12px", borderRadius: 6, background: `${color}20`, color, fontWeight: 700, fontSize: 13 }}>24h: {changeFmt(change24h)}</span>
             <span style={{ padding: "4px 12px", borderRadius: 6, background: `${color}20`, color, fontWeight: 700, fontSize: 13 }}>7d: {changeFmt(change7d)}</span>
           </div>
         </div>
-
         <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>
           {["1W", "1M", "3M", "1R"].map(r => (
             <button key={r} onClick={() => setRange(r)} style={{ padding: "4px 14px", borderRadius: 6, border: "1px solid", borderColor: range === r ? "#58a6ff" : "#30363d", background: range === r ? "#1f6feb22" : "transparent", color: range === r ? "#58a6ff" : "#8b949e", fontSize: 12, cursor: "pointer", fontFamily: "inherit" }}>{r}</button>
           ))}
         </div>
-
         <div style={{ background: "#010409", borderRadius: 12, padding: "16px 8px", marginBottom: 24 }}>
           <MiniChart data={filterHistory()} color={color} />
         </div>
-
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginBottom: 20 }}>
           {[
-            ["Kapitalizacja", `${fmtN(stock.cap, 0)} mln zł`],
+            ["Kapitalizacja", stock.cap ? `${fmtN(stock.cap, 0)} mln zł` : "—"],
             ["C/Z (P/E)", stock.pe > 0 ? fmtN(stock.pe) : "—"],
             ["Dywidenda", stock.div > 0 ? `${fmtN(stock.div)}%` : "Brak"],
-            ["Wolumen", `${stock.vol}K`],
+            ["Wolumen", stock.vol ? `${stock.vol}K` : "—"],
           ].map(([label, val]) => (
             <div key={label} style={{ background: "#161b22", borderRadius: 10, padding: "14px 16px" }}>
               <div style={{ fontSize: 11, color: "#8b949e", marginBottom: 4 }}>{label}</div>
@@ -169,9 +169,7 @@ function StockModal({ stock, price, change24h, change7d, onClose }) {
             </div>
           ))}
         </div>
-
-        <a href={`https://stooq.pl/q/?s=${stock.ticker.toLowerCase()}`} target="_blank" rel="noreferrer"
-          style={{ display: "block", textAlign: "center", color: "#58a6ff", fontSize: 12, textDecoration: "none" }}>
+        <a href={`https://stooq.pl/q/?s=${stooqSymbol}`} target="_blank" rel="noreferrer" style={{ display: "block", textAlign: "center", color: "#58a6ff", fontSize: 12, textDecoration: "none" }}>
           Zobacz pełne dane na stooq.pl →
         </a>
       </div>
@@ -229,40 +227,45 @@ function FearGauge({ value = 62 }) {
 const fmt = (n, d = 2) => n?.toLocaleString("pl-PL", { minimumFractionDigits: d, maximumFractionDigits: d }) ?? "—";
 
 export default function WigMarkets() {
+  const [tab, setTab] = useState("akcje");
   const [search, setSearch] = useState("");
   const [sortBy, setSortBy] = useState("cap");
   const [sortDir, setSortDir] = useState("desc");
   const [filter, setFilter] = useState("all");
   const [page, setPage] = useState(1);
-  const [prices, setPrices] = useState(() => Object.fromEntries(STOCKS.map(s => [s.ticker, s.price])));
+  const [prices, setPrices] = useState(() => Object.fromEntries([...STOCKS, ...COMMODITIES].map(s => [s.ticker, s.price])));
   const [changes, setChanges] = useState({});
   const [selected, setSelected] = useState(null);
-  const PER_PAGE = 10;
+  const PER_PAGE = 15;
 
   useEffect(() => {
     const fetchAll = async () => {
-      for (const ticker of TICKERS) {
-        const data = await fetchStooq(ticker);
+      const allItems = tab === "akcje" ? STOCKS : COMMODITIES;
+      for (const item of allItems) {
+        const symbol = item.stooq || item.ticker.toLowerCase();
+        const data = await fetchStooq(symbol);
         if (data?.close) {
-          setPrices(prev => ({ ...prev, [ticker.toUpperCase()]: data.close }));
-          setChanges(prev => ({ ...prev, [ticker.toUpperCase()]: { change24h: data.change24h ?? 0, change7d: data.change7d ?? 0 } }));
+          setPrices(prev => ({ ...prev, [item.ticker]: data.close }));
+          setChanges(prev => ({ ...prev, [item.ticker]: { change24h: data.change24h ?? 0, change7d: data.change7d ?? 0 } }));
         }
       }
     };
     fetchAll();
     const interval = setInterval(fetchAll, 60000);
     return () => clearInterval(interval);
-  }, []);
+  }, [tab]);
 
-  const sectors = ["all", ...Array.from(new Set(STOCKS.map(s => s.sector)))];
-  const filtered = STOCKS
+  const activeData = tab === "akcje" ? STOCKS : COMMODITIES;
+  const sectors = ["all", ...Array.from(new Set(activeData.map(s => s.sector)))];
+
+  const filtered = activeData
     .filter(s => filter === "all" || s.sector === filter)
     .filter(s => s.name.toLowerCase().includes(search.toLowerCase()) || s.ticker.toLowerCase().includes(search.toLowerCase()))
     .sort((a, b) => {
-      let av = a[sortBy], bv = b[sortBy];
+      let av = a[sortBy] ?? 0, bv = b[sortBy] ?? 0;
       if (sortBy === "price") { av = prices[a.ticker]; bv = prices[b.ticker]; }
-      if (sortBy === "change24h") { av = changes[a.ticker]?.change24h ?? a.change24h; bv = changes[b.ticker]?.change24h ?? b.change24h; }
-      if (sortBy === "change7d") { av = changes[a.ticker]?.change7d ?? a.change7d; bv = changes[b.ticker]?.change7d ?? b.change7d; }
+      if (sortBy === "change24h") { av = changes[a.ticker]?.change24h ?? 0; bv = changes[b.ticker]?.change24h ?? 0; }
+      if (sortBy === "change7d") { av = changes[a.ticker]?.change7d ?? 0; bv = changes[b.ticker]?.change7d ?? 0; }
       return sortDir === "desc" ? bv - av : av - bv;
     });
 
@@ -280,7 +283,7 @@ export default function WigMarkets() {
   return (
     <div style={{ minHeight: "100vh", background: "#010409", color: "#c9d1d9", fontFamily: "'IBM Plex Mono', 'Courier New', monospace" }}>
 
-      {selected && <StockModal stock={selected} price={prices[selected.ticker]} change24h={changes[selected.ticker]?.change24h ?? selected.change24h} change7d={changes[selected.ticker]?.change7d ?? selected.change7d} onClose={() => setSelected(null)} />}
+      {selected && <StockModal stock={selected} price={prices[selected.ticker]} change24h={changes[selected.ticker]?.change24h ?? 0} change7d={changes[selected.ticker]?.change7d ?? 0} onClose={() => setSelected(null)} />}
 
       <div style={{ background: "#0d1117", borderBottom: "1px solid #21262d", padding: "0 24px", overflowX: "auto" }}>
         <div style={{ display: "flex", gap: 32, padding: "12px 0" }}>
@@ -291,24 +294,31 @@ export default function WigMarkets() {
               <span style={{ fontSize: 12, color: idx.change.startsWith("+") ? "#00c896" : "#ff4d6d" }}>{idx.change}</span>
             </div>
           ))}
-          <div style={{ marginLeft: "auto", fontSize: 11, color: "#8b949e", whiteSpace: "nowrap", alignSelf: "center" }}>🟢 Rynek otwarty · GPW Warszawa · {new Date().toLocaleTimeString("pl-PL")}</div>
+          <div style={{ marginLeft: "auto", fontSize: 11, color: "#8b949e", whiteSpace: "nowrap", alignSelf: "center" }}>🟢 GPW Warszawa · {new Date().toLocaleTimeString("pl-PL")}</div>
         </div>
       </div>
 
       <div style={{ padding: "32px 24px 0", maxWidth: 1400, margin: "0 auto" }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 6 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 24 }}>
           <div style={{ width: 36, height: 36, borderRadius: 8, background: "linear-gradient(135deg, #1f6feb, #58a6ff)", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 900, fontSize: 16, color: "#fff" }}>W</div>
           <div>
             <div style={{ fontWeight: 800, fontSize: 22, color: "#e6edf3", letterSpacing: -0.5 }}>WIG<span style={{ color: "#58a6ff" }}>markets</span></div>
             <div style={{ fontSize: 11, color: "#8b949e", letterSpacing: 1 }}>NOTOWANIA GPW W CZASIE RZECZYWISTYM</div>
           </div>
         </div>
+
+        {/* Tabs */}
+        <div style={{ display: "flex", gap: 4, marginBottom: 20 }}>
+          {[["akcje", "🏛️ Akcje GPW"], ["surowce", "🥇 Surowce"]].map(([key, label]) => (
+            <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); }} style={{ padding: "8px 20px", borderRadius: 8, border: "1px solid", borderColor: tab === key ? "#58a6ff" : "#30363d", background: tab === key ? "#1f6feb22" : "transparent", color: tab === key ? "#58a6ff" : "#8b949e", fontSize: 13, fontWeight: tab === key ? 700 : 400, cursor: "pointer", fontFamily: "inherit" }}>{label}</button>
+          ))}
+        </div>
       </div>
 
-      <div style={{ maxWidth: 1400, margin: "24px auto", display: "grid", gridTemplateColumns: "1fr 280px", gap: 24, padding: "0 24px" }}>
+      <div style={{ maxWidth: 1400, margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 280px", gap: 24, padding: "0 24px" }}>
         <div>
           <div style={{ display: "flex", gap: 12, marginBottom: 16, flexWrap: "wrap" }}>
-            <input value={search} onChange={e => { setSearch(e.target.value); setPage(1); }} placeholder="Szukaj spółki lub tickera..."
+            <input value={search} onChange={e => { setSearch(e.target.value); setPage(1); }} placeholder="Szukaj..."
               style={{ flex: 1, minWidth: 200, background: "#0d1117", border: "1px solid #30363d", borderRadius: 8, padding: "8px 14px", color: "#c9d1d9", fontSize: 13, outline: "none", fontFamily: "inherit" }} />
             <select value={filter} onChange={e => { setFilter(e.target.value); setPage(1); }}
               style={{ background: "#0d1117", border: "1px solid #30363d", borderRadius: 8, padding: "8px 12px", color: "#c9d1d9", fontSize: 12, cursor: "pointer", fontFamily: "inherit", outline: "none" }}>
@@ -321,16 +331,18 @@ export default function WigMarkets() {
               <thead>
                 <tr>
                   {col("#", "id", false)}
-                  <th style={{ padding: "10px 16px", textAlign: "left", fontSize: 11, color: "#8b949e", borderBottom: "1px solid #21262d", fontWeight: 600, letterSpacing: 1, textTransform: "uppercase" }}>Spółka</th>
-                  {col("Kurs", "price")}{col("24h %", "change24h")}{col("7d %", "change7d")}{col("Kap. (mln zł)", "cap")}{col("Wolumen", "vol")}{col("C/Z", "pe")}
+                  <th style={{ padding: "10px 16px", textAlign: "left", fontSize: 11, color: "#8b949e", borderBottom: "1px solid #21262d", fontWeight: 600, letterSpacing: 1, textTransform: "uppercase" }}>Instrument</th>
+                  {col("Kurs", "price")}{col("24h %", "change24h")}{col("7d %", "change7d")}
+                  {tab === "akcje" && col("Kap. (mln zł)", "cap")}
+                  {tab === "akcje" && col("C/Z", "pe")}
                   <th style={{ padding: "10px 16px", textAlign: "right", fontSize: 11, color: "#8b949e", borderBottom: "1px solid #21262d", fontWeight: 600, letterSpacing: 1 }}>7D</th>
                 </tr>
               </thead>
               <tbody>
                 {visible.map((s, i) => {
                   const currentPrice = prices[s.ticker];
-                  const c24h = changes[s.ticker]?.change24h ?? s.change24h;
-                  const c7d = changes[s.ticker]?.change7d ?? s.change7d;
+                  const c24h = changes[s.ticker]?.change24h ?? 0;
+                  const c7d = changes[s.ticker]?.change7d ?? 0;
                   const priceColor = c24h > 0 ? "#00c896" : c24h < 0 ? "#ff4d6d" : "#c9d1d9";
                   return (
                     <tr key={s.id} onClick={() => setSelected(s)} style={{ borderBottom: "1px solid #161b22", transition: "background 0.15s", cursor: "pointer" }}
@@ -346,14 +358,13 @@ export default function WigMarkets() {
                           </div>
                         </div>
                       </td>
-                      <td style={{ padding: "12px 16px", textAlign: "right", fontWeight: 700, color: priceColor, transition: "color 0.3s" }}>{fmt(currentPrice)} zł</td>
+                      <td style={{ padding: "12px 16px", textAlign: "right", fontWeight: 700, color: priceColor }}>{fmt(currentPrice)} {s.unit || "zł"}</td>
                       <td style={{ padding: "12px 16px", textAlign: "right" }}>
                         <span style={{ padding: "3px 8px", borderRadius: 6, fontSize: 12, fontWeight: 700, background: c24h > 0 ? "#00c89620" : "#ff4d6d20", color: changeColor(c24h) }}>{changeFmt(c24h)}</span>
                       </td>
                       <td style={{ padding: "12px 16px", textAlign: "right", color: changeColor(c7d) }}>{changeFmt(c7d)}</td>
-                      <td style={{ padding: "12px 16px", textAlign: "right", color: "#8b949e" }}>{fmt(s.cap, 0)}</td>
-                      <td style={{ padding: "12px 16px", textAlign: "right", color: "#8b949e" }}>{s.vol}K</td>
-                      <td style={{ padding: "12px 16px", textAlign: "right", color: "#8b949e" }}>{s.pe > 0 ? fmt(s.pe) : "—"}</td>
+                      {tab === "akcje" && <td style={{ padding: "12px 16px", textAlign: "right", color: "#8b949e" }}>{fmt(s.cap, 0)}</td>}
+                      {tab === "akcje" && <td style={{ padding: "12px 16px", textAlign: "right", color: "#8b949e" }}>{s.pe > 0 ? fmt(s.pe) : "—"}</td>}
                       <td style={{ padding: "12px 16px", textAlign: "right" }}><Sparkline trend={c7d} /></td>
                     </tr>
                   );
@@ -361,7 +372,7 @@ export default function WigMarkets() {
               </tbody>
             </table>
             <div style={{ padding: "12px 16px", display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: "1px solid #21262d" }}>
-              <div style={{ fontSize: 12, color: "#8b949e" }}>Pokazuje {(page - 1) * PER_PAGE + 1}–{Math.min(page * PER_PAGE, filtered.length)} z {filtered.length} spółek</div>
+              <div style={{ fontSize: 12, color: "#8b949e" }}>Pokazuje {(page - 1) * PER_PAGE + 1}–{Math.min(page * PER_PAGE, filtered.length)} z {filtered.length} instrumentów</div>
               <div style={{ display: "flex", gap: 6 }}>
                 {Array.from({ length: totalPages }, (_, i) => i + 1).map(p => (
                   <button key={p} onClick={() => setPage(p)} style={{ width: 28, height: 28, borderRadius: 6, border: "1px solid", borderColor: p === page ? "#58a6ff" : "#30363d", background: p === page ? "#1f6feb22" : "transparent", color: p === page ? "#58a6ff" : "#8b949e", fontSize: 12, cursor: "pointer", fontFamily: "inherit" }}>{p}</button>
@@ -375,28 +386,28 @@ export default function WigMarkets() {
           <FearGauge value={62} />
           <div style={{ background: "#0d1117", border: "1px solid #21262d", borderRadius: 16, padding: 20 }}>
             <div style={{ fontSize: 11, color: "#8b949e", letterSpacing: 2, textTransform: "uppercase", marginBottom: 14 }}>Top wzrosty 24h</div>
-            {[...STOCKS].sort((a, b) => (changes[b.ticker]?.change24h ?? b.change24h) - (changes[a.ticker]?.change24h ?? a.change24h)).slice(0, 5).map(s => (
+            {[...STOCKS].sort((a, b) => (changes[b.ticker]?.change24h ?? 0) - (changes[a.ticker]?.change24h ?? 0)).slice(0, 5).map(s => (
               <div key={s.ticker} onClick={() => setSelected(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "7px 0", borderBottom: "1px solid #161b22", cursor: "pointer" }}>
                 <div><div style={{ fontWeight: 700, fontSize: 12, color: "#e6edf3" }}>{s.ticker}</div><div style={{ fontSize: 10, color: "#8b949e" }}>{s.sector}</div></div>
-                <span style={{ padding: "3px 8px", borderRadius: 6, fontSize: 12, fontWeight: 700, background: "#00c89620", color: "#00c896" }}>{changeFmt(changes[s.ticker]?.change24h ?? s.change24h)}</span>
+                <span style={{ padding: "3px 8px", borderRadius: 6, fontSize: 12, fontWeight: 700, background: "#00c89620", color: "#00c896" }}>{changeFmt(changes[s.ticker]?.change24h ?? 0)}</span>
               </div>
             ))}
           </div>
           <div style={{ background: "#0d1117", border: "1px solid #21262d", borderRadius: 16, padding: 20 }}>
             <div style={{ fontSize: 11, color: "#8b949e", letterSpacing: 2, textTransform: "uppercase", marginBottom: 14 }}>Top spadki 24h</div>
-            {[...STOCKS].sort((a, b) => (changes[a.ticker]?.change24h ?? a.change24h) - (changes[b.ticker]?.change24h ?? b.change24h)).slice(0, 5).map(s => (
+            {[...STOCKS].sort((a, b) => (changes[a.ticker]?.change24h ?? 0) - (changes[b.ticker]?.change24h ?? 0)).slice(0, 5).map(s => (
               <div key={s.ticker} onClick={() => setSelected(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "7px 0", borderBottom: "1px solid #161b22", cursor: "pointer" }}>
                 <div><div style={{ fontWeight: 700, fontSize: 12, color: "#e6edf3" }}>{s.ticker}</div><div style={{ fontSize: 10, color: "#8b949e" }}>{s.sector}</div></div>
-                <span style={{ padding: "3px 8px", borderRadius: 6, fontSize: 12, fontWeight: 700, background: "#ff4d6d20", color: "#ff4d6d" }}>{changeFmt(changes[s.ticker]?.change24h ?? s.change24h)}</span>
+                <span style={{ padding: "3px 8px", borderRadius: 6, fontSize: 12, fontWeight: 700, background: "#ff4d6d20", color: "#ff4d6d" }}>{changeFmt(changes[s.ticker]?.change24h ?? 0)}</span>
               </div>
             ))}
           </div>
           <div style={{ background: "#0d1117", border: "1px solid #21262d", borderRadius: 16, padding: 20 }}>
             <div style={{ fontSize: 11, color: "#8b949e", letterSpacing: 2, textTransform: "uppercase", marginBottom: 14 }}>Statystyki rynku</div>
             {[
-              ["Spółki rosnące", `${STOCKS.filter(s => (changes[s.ticker]?.change24h ?? s.change24h) > 0).length}/${STOCKS.length}`, "#00c896"],
+              ["Spółki rosnące", `${STOCKS.filter(s => (changes[s.ticker]?.change24h ?? 0) > 0).length}/${STOCKS.length}`, "#00c896"],
               ["Łączna kap. (mld zł)", fmt(STOCKS.reduce((a, s) => a + s.cap, 0) / 1000, 1), "#58a6ff"],
-              ["Śr. zmiana 24h", changeFmt(STOCKS.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? s.change24h), 0) / STOCKS.length), "#ffd700"],
+              ["Śr. zmiana 24h", changeFmt(STOCKS.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0) / STOCKS.length), "#ffd700"],
             ].map(([label, val, color]) => (
               <div key={label} style={{ display: "flex", justifyContent: "space-between", padding: "8px 0", borderBottom: "1px solid #161b22", fontSize: 12 }}>
                 <span style={{ color: "#8b949e" }}>{label}</span>
