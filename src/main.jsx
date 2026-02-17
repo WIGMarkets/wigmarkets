@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import ReactDOM from "react-dom/client";
 
 const STOCKS = [
   { id: 1, ticker: "PKN", name: "PKN ORLEN", sector: "Energetyka", price: 58.42, change1h: 0.34, change24h: -1.82, change7d: 3.45, cap: 74500, vol: 312, pe: 8.2, div: 5.1 },
@@ -464,3 +465,4 @@ export default function WigMarkets() {
     </div>
   );
 }
+ReactDOM.createRoot(document.getElementById("root")).render(<WigMarkets />);
