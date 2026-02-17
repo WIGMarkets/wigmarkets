@@ -12,6 +12,7 @@ async function fetchStooq(symbol) {
     return null;
   }
 }
+
 const STOCKS = [
   { id: 1, ticker: "PKN", name: "PKN ORLEN", sector: "Energetyka", price: 58.42, change1h: 0.34, change24h: -1.82, change7d: 3.45, cap: 74500, vol: 312, pe: 8.2, div: 5.1 },
   { id: 2, ticker: "PKO", name: "PKO Bank Polski", sector: "Banki", price: 47.18, change1h: -0.12, change24h: 2.14, change7d: 5.67, cap: 58200, vol: 287, pe: 10.1, div: 6.8 },
@@ -188,6 +189,7 @@ export default function WigMarkets() {
   const [filter, setFilter] = useState("all");
   const [page, setPage] = useState(1);
   const [prices, setPrices] = useState(() => Object.fromEntries(STOCKS.map(s => [s.ticker, s.price])));
+  const [changes, setChanges] = useState({});
   const PER_PAGE = 10;
 
   useEffect(() => {
@@ -196,6 +198,10 @@ export default function WigMarkets() {
         const data = await fetchStooq(ticker);
         if (data?.close) {
           setPrices(prev => ({ ...prev, [ticker.toUpperCase()]: data.close }));
+          setChanges(prev => ({ ...prev, [ticker.toUpperCase()]: {
+            change24h: data.change24h ?? 0,
+            change7d: data.change7d ?? 0,
+          }}));
         }
       }
     };
@@ -212,6 +218,8 @@ export default function WigMarkets() {
     .sort((a, b) => {
       let av = a[sortBy], bv = b[sortBy];
       if (sortBy === "price") { av = prices[a.ticker]; bv = prices[b.ticker]; }
+      if (sortBy === "change24h") { av = changes[a.ticker]?.change24h ?? a.change24h; bv = changes[b.ticker]?.change24h ?? b.change24h; }
+      if (sortBy === "change7d") { av = changes[a.ticker]?.change7d ?? a.change7d; bv = changes[b.ticker]?.change7d ?? b.change7d; }
       return sortDir === "desc" ? bv - av : av - bv;
     });
 
@@ -328,7 +336,6 @@ export default function WigMarkets() {
                   {col("#", "id", false)}
                   <th style={{ padding: "10px 16px", textAlign: "left", fontSize: 11, color: "#8b949e", borderBottom: "1px solid #21262d", fontWeight: 600, letterSpacing: 1, textTransform: "uppercase" }}>Spółka</th>
                   {col("Kurs", "price")}
-                  {col("1h %", "change1h")}
                   {col("24h %", "change24h")}
                   {col("7d %", "change7d")}
                   {col("Kap. (mln zł)", "cap")}
@@ -340,7 +347,9 @@ export default function WigMarkets() {
               <tbody>
                 {visible.map((s, i) => {
                   const currentPrice = prices[s.ticker];
-                  const priceColor = currentPrice > s.price ? "#00c896" : currentPrice < s.price ? "#ff4d6d" : "#c9d1d9";
+                  const c24h = changes[s.ticker]?.change24h ?? s.change24h;
+                  const c7d = changes[s.ticker]?.change7d ?? s.change7d;
+                  const priceColor = c24h > 0 ? "#00c896" : c24h < 0 ? "#ff4d6d" : "#c9d1d9";
                   return (
                     <tr key={s.id} style={{
                       borderBottom: "1px solid #161b22",
@@ -369,20 +378,19 @@ export default function WigMarkets() {
                       <td style={{ padding: "12px 16px", textAlign: "right", fontWeight: 700, color: priceColor, transition: "color 0.3s" }}>
                         {fmt(currentPrice)} zł
                       </td>
-                      <td style={{ padding: "12px 16px", textAlign: "right", color: changeColor(s.change1h) }}>{changeFmt(s.change1h)}</td>
                       <td style={{ padding: "12px 16px", textAlign: "right" }}>
                         <span style={{
                           padding: "3px 8px", borderRadius: 6, fontSize: 12, fontWeight: 700,
-                          background: s.change24h > 0 ? "#00c89620" : "#ff4d6d20",
-                          color: changeColor(s.change24h),
-                        }}>{changeFmt(s.change24h)}</span>
+                          background: c24h > 0 ? "#00c89620" : "#ff4d6d20",
+                          color: changeColor(c24h),
+                        }}>{changeFmt(c24h)}</span>
                       </td>
-                      <td style={{ padding: "12px 16px", textAlign: "right", color: changeColor(s.change7d) }}>{changeFmt(s.change7d)}</td>
+                      <td style={{ padding: "12px 16px", textAlign: "right", color: changeColor(c7d) }}>{changeFmt(c7d)}</td>
                       <td style={{ padding: "12px 16px", textAlign: "right", color: "#8b949e" }}>{fmt(s.cap, 0)}</td>
                       <td style={{ padding: "12px 16px", textAlign: "right", color: "#8b949e" }}>{s.vol}K</td>
                       <td style={{ padding: "12px 16px", textAlign: "right", color: "#8b949e" }}>{s.pe > 0 ? fmt(s.pe) : "—"}</td>
                       <td style={{ padding: "12px 16px", textAlign: "right" }}>
-                        <Sparkline trend={s.change7d} />
+                        <Sparkline trend={c7d} />
                       </td>
                     </tr>
                   );
@@ -419,7 +427,7 @@ export default function WigMarkets() {
             <div style={{ fontSize: 11, color: "#8b949e", letterSpacing: 2, textTransform: "uppercase", marginBottom: 14 }}>
               Top wzrosty 24h
             </div>
-            {[...STOCKS].sort((a, b) => b.change24h - a.change24h).slice(0, 5).map(s => (
+            {[...STOCKS].sort((a, b) => (changes[b.ticker]?.change24h ?? b.change24h) - (changes[a.ticker]?.change24h ?? a.change24h)).slice(0, 5).map(s => (
               <div key={s.ticker} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "7px 0", borderBottom: "1px solid #161b22" }}>
                 <div>
                   <div style={{ fontWeight: 700, fontSize: 12, color: "#e6edf3" }}>{s.ticker}</div>
@@ -428,7 +436,7 @@ export default function WigMarkets() {
                 <span style={{
                   padding: "3px 8px", borderRadius: 6, fontSize: 12, fontWeight: 700,
                   background: "#00c89620", color: "#00c896",
-                }}>{changeFmt(s.change24h)}</span>
+                }}>{changeFmt(changes[s.ticker]?.change24h ?? s.change24h)}</span>
               </div>
             ))}
           </div>
@@ -438,7 +446,7 @@ export default function WigMarkets() {
             <div style={{ fontSize: 11, color: "#8b949e", letterSpacing: 2, textTransform: "uppercase", marginBottom: 14 }}>
               Top spadki 24h
             </div>
-            {[...STOCKS].sort((a, b) => a.change24h - b.change24h).slice(0, 5).map(s => (
+            {[...STOCKS].sort((a, b) => (changes[a.ticker]?.change24h ?? a.change24h) - (changes[b.ticker]?.change24h ?? b.change24h)).slice(0, 5).map(s => (
               <div key={s.ticker} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "7px 0", borderBottom: "1px solid #161b22" }}>
                 <div>
                   <div style={{ fontWeight: 700, fontSize: 12, color: "#e6edf3" }}>{s.ticker}</div>
@@ -447,7 +455,7 @@ export default function WigMarkets() {
                 <span style={{
                   padding: "3px 8px", borderRadius: 6, fontSize: 12, fontWeight: 700,
                   background: "#ff4d6d20", color: "#ff4d6d",
-                }}>{changeFmt(s.change24h)}</span>
+                }}>{changeFmt(changes[s.ticker]?.change24h ?? s.change24h)}</span>
               </div>
             ))}
           </div>
@@ -458,9 +466,9 @@ export default function WigMarkets() {
               Statystyki rynku
             </div>
             {[
-              ["Spółki rosnące", `${STOCKS.filter(s => s.change24h > 0).length}/${STOCKS.length}`, "#00c896"],
+              ["Spółki rosnące", `${STOCKS.filter(s => (changes[s.ticker]?.change24h ?? s.change24h) > 0).length}/${STOCKS.length}`, "#00c896"],
               ["Łączna kap. (mld zł)", fmt(STOCKS.reduce((a, s) => a + s.cap, 0) / 1000, 1), "#58a6ff"],
-              ["Śr. zmiana 24h", `${changeFmt(STOCKS.reduce((a, s) => a + s.change24h, 0) / STOCKS.length)}`, "#ffd700"],
+              ["Śr. zmiana 24h", changeFmt(STOCKS.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? s.change24h), 0) / STOCKS.length), "#ffd700"],
             ].map(([label, val, color]) => (
               <div key={label} style={{ display: "flex", justifyContent: "space-between", padding: "8px 0", borderBottom: "1px solid #161b22", fontSize: 12 }}>
                 <span style={{ color: "#8b949e" }}>{label}</span>
@@ -472,9 +480,10 @@ export default function WigMarkets() {
       </div>
 
       <div style={{ textAlign: "center", padding: "32px 24px", fontSize: 11, color: "#484f58" }}>
-        WIGmarkets © 2026 · Dane przykładowe (demo) · Nie stanowią rekomendacji inwestycyjnej
+        WIGmarkets © 2026 · Dane z GPW via stooq.pl · Nie stanowią rekomendacji inwestycyjnej
       </div>
     </div>
   );
 }
+
 ReactDOM.createRoot(document.getElementById("root")).render(<WigMarkets />);
