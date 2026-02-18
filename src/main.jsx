@@ -1,6 +1,32 @@
 import { useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 
+const DARK_THEME = {
+  bgPage: "#010409",
+  bgCard: "#0d1117",
+  bgCardAlt: "#161b22",
+  border: "#21262d",
+  borderInput: "#30363d",
+  text: "#c9d1d9",
+  textSecondary: "#8b949e",
+  textBright: "#e6edf3",
+  accent: "#58a6ff",
+  fearGaugeBg: "linear-gradient(135deg, #0d1117 0%, #161b22 100%)",
+};
+
+const LIGHT_THEME = {
+  bgPage: "#f6f8fa",
+  bgCard: "#ffffff",
+  bgCardAlt: "#f0f2f5",
+  border: "#d0d7de",
+  borderInput: "#d0d7de",
+  text: "#24292f",
+  textSecondary: "#656d76",
+  textBright: "#1f2328",
+  accent: "#0969da",
+  fearGaugeBg: "linear-gradient(135deg, #ffffff 0%, #f0f2f5 100%)",
+};
+
 async function fetchStooq(symbol) {
   try {
     const res = await fetch(`/api/stooq?symbol=${symbol}`);
@@ -15,6 +41,14 @@ async function fetchHistory(symbol) {
     const data = await res.json();
     return data;
   } catch { return null; }
+}
+
+async function fetchIndices() {
+  try {
+    const res = await fetch("/api/indices");
+    const data = await res.json();
+    return Array.isArray(data) ? data : [];
+  } catch { return []; }
 }
 
 const STOCKS = [
@@ -93,13 +127,6 @@ const COMMODITIES = [
   { id: 110, ticker: "XPD", stooq: "xpd", name: "Pallad", sector: "Metal szlachetny", price: 0, change24h: 0, change7d: 0, unit: "USD/oz" },
 ];
 
-const INDICES = [
-  { name: "WIG20", value: "2 341,87", change: "+0,82%" },
-  { name: "WIG", value: "84 521,30", change: "+0,61%" },
-  { name: "mWIG40", value: "5 892,44", change: "-0,14%" },
-  { name: "sWIG80", value: "21 034,10", change: "+1,20%" },
-];
-
 const FEAR_COMPONENTS = [
   { label: "Momentum rynku", val: 68 },
   { label: "Siła wolumenu", val: 55 },
@@ -161,7 +188,7 @@ function MiniChart({ data, color }) {
   );
 }
 
-function StockModal({ stock, price, change24h, change7d, onClose }) {
+function StockModal({ stock, price, change24h, change7d, onClose, theme }) {
   const [history, setHistory] = useState(null);
   const [range, setRange] = useState("1M");
   const isMobile = useIsMobile();
@@ -186,19 +213,19 @@ function StockModal({ stock, price, change24h, change7d, onClose }) {
 
   return (
     <div style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,0.85)", zIndex: 1000, display: "flex", alignItems: "center", justifyContent: "center", padding: isMobile ? 8 : 24 }} onClick={onClose}>
-      <div style={{ background: "#0d1117", border: "1px solid #30363d", borderRadius: 20, padding: isMobile ? 20 : 32, width: "100%", maxWidth: 720, maxHeight: "95vh", overflowY: "auto" }} onClick={e => e.stopPropagation()}>
+      <div style={{ background: theme.bgCard, border: `1px solid ${theme.borderInput}`, borderRadius: 20, padding: isMobile ? 20 : 32, width: "100%", maxWidth: 720, maxHeight: "95vh", overflowY: "auto" }} onClick={e => e.stopPropagation()}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 20 }}>
           <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
-            <div style={{ width: 44, height: 44, borderRadius: 10, background: "linear-gradient(135deg, #1f6feb22, #58a6ff33)", border: "1px solid #58a6ff44", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 14, fontWeight: 800, color: "#58a6ff" }}>{stock.ticker.slice(0, 2)}</div>
+            <div style={{ width: 44, height: 44, borderRadius: 10, background: "linear-gradient(135deg, #1f6feb22, #58a6ff33)", border: "1px solid #58a6ff44", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 14, fontWeight: 800, color: theme.accent }}>{stock.ticker.slice(0, 2)}</div>
             <div>
-              <div style={{ fontWeight: 800, fontSize: isMobile ? 16 : 20, color: "#e6edf3" }}>{stock.ticker}</div>
-              <div style={{ fontSize: 11, color: "#8b949e" }}>{stock.name} · {stock.sector}</div>
+              <div style={{ fontWeight: 800, fontSize: isMobile ? 16 : 20, color: theme.textBright }}>{stock.ticker}</div>
+              <div style={{ fontSize: 11, color: theme.textSecondary }}>{stock.name} · {stock.sector}</div>
             </div>
           </div>
-          <button onClick={onClose} style={{ background: "#21262d", border: "none", borderRadius: 8, color: "#8b949e", width: 32, height: 32, fontSize: 18, cursor: "pointer" }}>×</button>
+          <button onClick={onClose} style={{ background: theme.bgCardAlt, border: "none", borderRadius: 8, color: theme.textSecondary, width: 32, height: 32, fontSize: 18, cursor: "pointer" }}>×</button>
         </div>
         <div style={{ marginBottom: 20 }}>
-          <div style={{ fontSize: isMobile ? 28 : 36, fontWeight: 800, color: "#e6edf3" }}>{fmtN(price)} {stock.unit || "zł"}</div>
+          <div style={{ fontSize: isMobile ? 28 : 36, fontWeight: 800, color: theme.textBright }}>{fmtN(price)} {stock.unit || "zł"}</div>
           <div style={{ display: "flex", gap: 10, marginTop: 8, flexWrap: "wrap" }}>
             <span style={{ padding: "4px 12px", borderRadius: 6, background: `${color}20`, color, fontWeight: 700, fontSize: 13 }}>24h: {changeFmt(change24h)}</span>
             <span style={{ padding: "4px 12px", borderRadius: 6, background: `${color}20`, color, fontWeight: 700, fontSize: 13 }}>7d: {changeFmt(change7d)}</span>
@@ -206,10 +233,10 @@ function StockModal({ stock, price, change24h, change7d, onClose }) {
         </div>
         <div style={{ display: "flex", gap: 6, marginBottom: 12 }}>
           {["1W", "1M", "3M", "1R"].map(r => (
-            <button key={r} onClick={() => setRange(r)} style={{ padding: "4px 12px", borderRadius: 6, border: "1px solid", borderColor: range === r ? "#58a6ff" : "#30363d", background: range === r ? "#1f6feb22" : "transparent", color: range === r ? "#58a6ff" : "#8b949e", fontSize: 12, cursor: "pointer", fontFamily: "inherit" }}>{r}</button>
+            <button key={r} onClick={() => setRange(r)} style={{ padding: "4px 12px", borderRadius: 6, border: "1px solid", borderColor: range === r ? theme.accent : theme.borderInput, background: range === r ? "#1f6feb22" : "transparent", color: range === r ? theme.accent : theme.textSecondary, fontSize: 12, cursor: "pointer", fontFamily: "inherit" }}>{r}</button>
           ))}
         </div>
-        <div style={{ background: "#010409", borderRadius: 12, padding: "12px 8px", marginBottom: 20 }}>
+        <div style={{ background: theme.bgPage, borderRadius: 12, padding: "12px 8px", marginBottom: 20 }}>
           <MiniChart data={filterHistory()} color={color} />
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginBottom: 16 }}>
@@ -219,21 +246,21 @@ function StockModal({ stock, price, change24h, change7d, onClose }) {
             ["Dywidenda", stock.div > 0 ? `${fmtN(stock.div)}%` : "Brak"],
             ["Sektor", stock.sector],
           ].map(([label, val]) => (
-            <div key={label} style={{ background: "#161b22", borderRadius: 10, padding: "12px 14px" }}>
-              <div style={{ fontSize: 11, color: "#8b949e", marginBottom: 4 }}>{label}</div>
-              <div style={{ fontSize: 14, fontWeight: 700, color: "#e6edf3" }}>{val}</div>
+            <div key={label} style={{ background: theme.bgCardAlt, borderRadius: 10, padding: "12px 14px" }}>
+              <div style={{ fontSize: 11, color: theme.textSecondary, marginBottom: 4 }}>{label}</div>
+              <div style={{ fontSize: 14, fontWeight: 700, color: theme.textBright }}>{val}</div>
             </div>
           ))}
         </div>
         <div style={{ marginBottom: 20 }}>
-          <div style={{ fontSize: 11, color: "#8b949e", letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>
+          <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>
             Najnowsze wiadomości
           </div>
           {news === null && (
-            <div style={{ color: "#8b949e", fontSize: 12, padding: "12px 0" }}>Ładowanie wiadomości...</div>
+            <div style={{ color: theme.textSecondary, fontSize: 12, padding: "12px 0" }}>Ładowanie wiadomości...</div>
           )}
           {news !== null && news.length === 0 && (
-            <div style={{ color: "#8b949e", fontSize: 12, padding: "12px 0" }}>Brak wiadomości.</div>
+            <div style={{ color: theme.textSecondary, fontSize: 12, padding: "12px 0" }}>Brak wiadomości.</div>
           )}
           {news !== null && news.map((item, i) => (
             <a
@@ -241,17 +268,17 @@ function StockModal({ stock, price, change24h, change7d, onClose }) {
               href={item.link}
               target="_blank"
               rel="noreferrer"
-              style={{ display: "block", textDecoration: "none", padding: "10px 0", borderBottom: "1px solid #21262d" }}
+              style={{ display: "block", textDecoration: "none", padding: "10px 0", borderBottom: `1px solid ${theme.border}` }}
             >
-              <div style={{ fontSize: 13, color: "#e6edf3", lineHeight: 1.4, marginBottom: 4 }}>{item.title}</div>
-              <div style={{ display: "flex", gap: 12, fontSize: 11, color: "#8b949e" }}>
+              <div style={{ fontSize: 13, color: theme.textBright, lineHeight: 1.4, marginBottom: 4 }}>{item.title}</div>
+              <div style={{ display: "flex", gap: 12, fontSize: 11, color: theme.textSecondary }}>
                 {item.source && <span>{item.source}</span>}
                 {item.pubDate && <span>{new Date(item.pubDate).toLocaleDateString("pl-PL")}</span>}
               </div>
             </a>
           ))}
         </div>
-        <a href={`https://stooq.pl/q/?s=${stock.stooq || stock.ticker.toLowerCase()}`} target="_blank" rel="noreferrer" style={{ display: "block", textAlign: "center", color: "#58a6ff", fontSize: 12, textDecoration: "none" }}>
+        <a href={`https://stooq.pl/q/?s=${stock.stooq || stock.ticker.toLowerCase()}`} target="_blank" rel="noreferrer" style={{ display: "block", textAlign: "center", color: theme.accent, fontSize: 12, textDecoration: "none" }}>
           Zobacz pełne dane na stooq.pl →
         </a>
       </div>
@@ -259,7 +286,7 @@ function StockModal({ stock, price, change24h, change7d, onClose }) {
   );
 }
 
-function FearGauge({ value = 62, isMobile }) {
+function FearGauge({ value = 62, isMobile, theme }) {
   const [animated, setAnimated] = useState(false);
   useEffect(() => { setTimeout(() => setAnimated(true), 400); }, []);
   const getLabel = (v) => { if (v < 20) return "Skrajna panika"; if (v < 40) return "Strach"; if (v < 60) return "Neutralny"; if (v < 80) return "Chciwość"; return "Ekstremalna chciwość"; };
@@ -273,16 +300,16 @@ function FearGauge({ value = 62, isMobile }) {
     return <path d={`M ${x1} ${y1} A ${r} ${r} 0 ${endDeg - startDeg > 180 ? 1 : 0} 1 ${x2} ${y2}`} fill="none" stroke={c} strokeWidth="10" strokeLinecap="round" opacity="0.85" />;
   };
   return (
-    <div style={{ background: "linear-gradient(135deg, #0d1117 0%, #161b22 100%)", border: "1px solid #21262d", borderRadius: 16, padding: "20px", display: "flex", flexDirection: isMobile ? "row" : "column", alignItems: "center", gap: isMobile ? 16 : 0 }}>
+    <div style={{ background: theme.fearGaugeBg, border: `1px solid ${theme.border}`, borderRadius: 16, padding: "20px", display: "flex", flexDirection: isMobile ? "row" : "column", alignItems: "center", gap: isMobile ? 16 : 0 }}>
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-        <div style={{ color: "#8b949e", fontSize: 10, letterSpacing: 2, textTransform: "uppercase", marginBottom: 8 }}>Fear & Greed</div>
+        <div style={{ color: theme.textSecondary, fontSize: 10, letterSpacing: 2, textTransform: "uppercase", marginBottom: 8 }}>Fear & Greed</div>
         <svg width={isMobile ? 140 : 200} height={isMobile ? 77 : 110} viewBox="0 0 200 110">
           {arcPath(0, 36, 75, "#ff2244")}{arcPath(36, 72, 75, "#ff6b35")}{arcPath(72, 108, 75, "#ffd700")}{arcPath(108, 144, 75, "#7ecb5f")}{arcPath(144, 180, 75, "#00e676")}
           <g transform={`rotate(${angle}, 100, 90)`} style={{ transition: "transform 1.2s cubic-bezier(0.34,1.2,0.64,1)" }}>
             <line x1="100" y1="90" x2="100" y2="24" stroke={color} strokeWidth="2.5" strokeLinecap="round" />
             <circle cx="100" cy="90" r="5" fill={color} />
           </g>
-          <circle cx="100" cy="90" r="3" fill="#0d1117" />
+          <circle cx="100" cy="90" r="3" fill={theme.bgCard} />
         </svg>
         <div style={{ fontSize: 32, fontWeight: 800, color, lineHeight: 1, marginTop: -6 }}>{value}</div>
         <div style={{ fontSize: 13, fontWeight: 600, color, marginTop: 4 }}>{getLabel(value)}</div>
@@ -291,10 +318,10 @@ function FearGauge({ value = 62, isMobile }) {
         <div style={{ marginTop: 16, width: "100%" }}>
           {FEAR_COMPONENTS.map((f) => (
             <div key={f.label} style={{ marginBottom: 7 }}>
-              <div style={{ display: "flex", justifyContent: "space-between", fontSize: 10, color: "#8b949e", marginBottom: 2 }}>
+              <div style={{ display: "flex", justifyContent: "space-between", fontSize: 10, color: theme.textSecondary, marginBottom: 2 }}>
                 <span>{f.label}</span><span style={{ color: getColor(f.val) }}>{f.val}</span>
               </div>
-              <div style={{ height: 3, background: "#21262d", borderRadius: 4 }}>
+              <div style={{ height: 3, background: theme.border, borderRadius: 4 }}>
                 <div style={{ height: "100%", borderRadius: 4, width: animated ? `${f.val}%` : "0%", background: getColor(f.val), transition: "width 1s cubic-bezier(0.34,1.2,0.64,1)", transitionDelay: "0.3s" }} />
               </div>
             </div>
@@ -319,7 +346,25 @@ export default function WigMarkets() {
   const [changes, setChanges] = useState({});
   const [selected, setSelected] = useState(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => localStorage.getItem("theme") !== "light");
+  const [indices, setIndices] = useState([]);
   const PER_PAGE = isMobile ? 20 : 20;
+  const theme = darkMode ? DARK_THEME : LIGHT_THEME;
+
+  useEffect(() => {
+    localStorage.setItem("theme", darkMode ? "dark" : "light");
+    document.body.style.background = theme.bgPage;
+  }, [darkMode, theme.bgPage]);
+
+  useEffect(() => {
+    const load = async () => {
+      const data = await fetchIndices();
+      if (data.length) setIndices(data);
+    };
+    load();
+    const interval = setInterval(load, 60000);
+    return () => clearInterval(interval);
+  }, []);
 
   useEffect(() => {
     const activeData = tab === "akcje" ? STOCKS : COMMODITIES;
@@ -355,37 +400,43 @@ export default function WigMarkets() {
   const visible = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
   const handleSort = (col) => { if (sortBy === col) setSortDir(d => d === "desc" ? "asc" : "desc"); else { setSortBy(col); setSortDir("desc"); } };
   const col = (label, key, right = true) => (
-    <th onClick={() => handleSort(key)} style={{ padding: isMobile ? "8px 8px" : "10px 16px", textAlign: right ? "right" : "left", fontSize: 10, color: sortBy === key ? "#58a6ff" : "#8b949e", cursor: "pointer", whiteSpace: "nowrap", userSelect: "none", borderBottom: "1px solid #21262d", fontWeight: 600, letterSpacing: 1, textTransform: "uppercase" }}>
+    <th onClick={() => handleSort(key)} style={{ padding: isMobile ? "8px 8px" : "10px 16px", textAlign: right ? "right" : "left", fontSize: 10, color: sortBy === key ? theme.accent : theme.textSecondary, cursor: "pointer", whiteSpace: "nowrap", userSelect: "none", borderBottom: `1px solid ${theme.border}`, fontWeight: 600, letterSpacing: 1, textTransform: "uppercase" }}>
       {label} {sortBy === key ? (sortDir === "desc" ? "↓" : "↑") : ""}
     </th>
   );
   const changeColor = (v) => v > 0 ? "#00c896" : v < 0 ? "#ff4d6d" : "#8b949e";
   const changeFmt = (v) => `${v > 0 ? "+" : ""}${fmt(v)}%`;
 
-  return (
-    <div style={{ minHeight: "100vh", background: "#010409", color: "#c9d1d9", fontFamily: "'Space Grotesk', 'Inter', sans-serif" }}>
+  const fmtIdx = (v) => v != null ? v.toLocaleString("pl-PL", { maximumFractionDigits: 2 }) : "—";
+  const fmtIdxChange = (v) => v != null ? `${v >= 0 ? "+" : ""}${v.toFixed(2)}%` : "—";
 
-      {selected && <StockModal stock={selected} price={prices[selected.ticker]} change24h={changes[selected.ticker]?.change24h ?? 0} change7d={changes[selected.ticker]?.change7d ?? 0} onClose={() => setSelected(null)} />}
+  return (
+    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Space Grotesk', 'Inter', sans-serif" }}>
+
+      {selected && <StockModal stock={selected} price={prices[selected.ticker]} change24h={changes[selected.ticker]?.change24h ?? 0} change7d={changes[selected.ticker]?.change7d ?? 0} onClose={() => setSelected(null)} theme={theme} />}
 
       {/* Top bar */}
-      <div style={{ background: "#0d1117", borderBottom: "1px solid #21262d", padding: "0 16px", overflowX: "auto" }}>
+      <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, padding: "0 16px", overflowX: "auto" }}>
         <div style={{ display: "flex", gap: isMobile ? 16 : 32, padding: "10px 0", alignItems: "center" }}>
-          <div style={{ fontWeight: 800, fontSize: 16, color: "#e6edf3", whiteSpace: "nowrap" }}>WIG<span style={{ color: "#58a6ff" }}>markets</span></div>
-          {!isMobile && INDICES.map(idx => (
+          <div style={{ fontWeight: 800, fontSize: 16, color: theme.textBright, whiteSpace: "nowrap" }}>WIG<span style={{ color: theme.accent }}>markets</span></div>
+          {!isMobile && indices.map(idx => (
             <div key={idx.name} style={{ display: "flex", gap: 8, alignItems: "baseline", whiteSpace: "nowrap" }}>
-              <span style={{ color: "#58a6ff", fontWeight: 700, fontSize: 11 }}>{idx.name}</span>
-              <span style={{ fontSize: 12, color: "#e6edf3" }}>{idx.value}</span>
-              <span style={{ fontSize: 11, color: idx.change.startsWith("+") ? "#00c896" : "#ff4d6d" }}>{idx.change}</span>
+              <span style={{ color: theme.accent, fontWeight: 700, fontSize: 11 }}>{idx.name}</span>
+              <span style={{ fontSize: 12, color: theme.textBright }}>{fmtIdx(idx.value)}</span>
+              <span style={{ fontSize: 11, color: idx.change24h >= 0 ? "#00c896" : "#ff4d6d" }}>{fmtIdxChange(idx.change24h)}</span>
             </div>
           ))}
-          {isMobile && INDICES.slice(0, 2).map(idx => (
+          {isMobile && indices.slice(0, 2).map(idx => (
             <div key={idx.name} style={{ display: "flex", gap: 6, alignItems: "baseline", whiteSpace: "nowrap" }}>
-              <span style={{ color: "#58a6ff", fontWeight: 700, fontSize: 10 }}>{idx.name}</span>
-              <span style={{ fontSize: 11, color: idx.change.startsWith("+") ? "#00c896" : "#ff4d6d" }}>{idx.change}</span>
+              <span style={{ color: theme.accent, fontWeight: 700, fontSize: 10 }}>{idx.name}</span>
+              <span style={{ fontSize: 11, color: idx.change24h >= 0 ? "#00c896" : "#ff4d6d" }}>{fmtIdxChange(idx.change24h)}</span>
             </div>
           ))}
+          <button onClick={() => setDarkMode(d => !d)} style={{ marginLeft: "auto", background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "4px 10px", fontSize: 13, cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>
+            {darkMode ? "☀️" : "🌙"}
+          </button>
           {isMobile && (
-            <button onClick={() => setSidebarOpen(o => !o)} style={{ marginLeft: "auto", background: "#21262d", border: "none", borderRadius: 6, color: "#8b949e", padding: "4px 10px", fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>
+            <button onClick={() => setSidebarOpen(o => !o)} style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "4px 10px", fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>
               {sidebarOpen ? "✕" : "📊"}
             </button>
           )}
@@ -394,8 +445,8 @@ export default function WigMarkets() {
 
       {/* Mobile sidebar overlay */}
       {isMobile && sidebarOpen && (
-        <div style={{ padding: "16px", background: "#0d1117", borderBottom: "1px solid #21262d" }}>
-          <FearGauge value={62} isMobile={true} />
+        <div style={{ padding: "16px", background: theme.bgCard, borderBottom: `1px solid ${theme.border}` }}>
+          <FearGauge value={62} isMobile={true} theme={theme} />
         </div>
       )}
 
@@ -403,7 +454,7 @@ export default function WigMarkets() {
         {/* Tabs */}
         <div style={{ display: "flex", gap: 4, marginBottom: 16 }}>
           {[["akcje", "🏛️ Akcje GPW"], ["surowce", "🥇 Surowce"]].map(([key, label]) => (
-            <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); }} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: tab === key ? "#58a6ff" : "#30363d", background: tab === key ? "#1f6feb22" : "transparent", color: tab === key ? "#58a6ff" : "#8b949e", fontSize: isMobile ? 12 : 13, fontWeight: tab === key ? 700 : 400, cursor: "pointer", fontFamily: "inherit" }}>{label}</button>
+            <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); }} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: tab === key ? theme.accent : theme.borderInput, background: tab === key ? "#1f6feb22" : "transparent", color: tab === key ? theme.accent : theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: tab === key ? 700 : 400, cursor: "pointer", fontFamily: "inherit" }}>{label}</button>
           ))}
         </div>
       </div>
@@ -413,26 +464,26 @@ export default function WigMarkets() {
           {/* Controls */}
           <div style={{ display: "flex", gap: 8, marginBottom: 12, flexWrap: "wrap" }}>
             <input value={search} onChange={e => { setSearch(e.target.value); setPage(1); }} placeholder="Szukaj..."
-              style={{ flex: 1, minWidth: 140, background: "#0d1117", border: "1px solid #30363d", borderRadius: 8, padding: "7px 12px", color: "#c9d1d9", fontSize: 12, outline: "none", fontFamily: "inherit" }} />
+              style={{ flex: 1, minWidth: 140, background: theme.bgCard, border: `1px solid ${theme.borderInput}`, borderRadius: 8, padding: "7px 12px", color: theme.text, fontSize: 12, outline: "none", fontFamily: "inherit" }} />
             <select value={filter} onChange={e => { setFilter(e.target.value); setPage(1); }}
-              style={{ background: "#0d1117", border: "1px solid #30363d", borderRadius: 8, padding: "7px 10px", color: "#c9d1d9", fontSize: 11, cursor: "pointer", fontFamily: "inherit", outline: "none" }}>
+              style={{ background: theme.bgCard, border: `1px solid ${theme.borderInput}`, borderRadius: 8, padding: "7px 10px", color: theme.text, fontSize: 11, cursor: "pointer", fontFamily: "inherit", outline: "none" }}>
               {sectors.map(s => <option key={s} value={s}>{s === "all" ? "Wszystkie sektory" : s}</option>)}
             </select>
           </div>
 
           {/* Table */}
-          <div style={{ background: "#0d1117", border: "1px solid #21262d", borderRadius: 12, overflow: "hidden" }}>
+          <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 12, overflow: "hidden" }}>
             <div style={{ overflowX: "auto" }}>
               <table style={{ width: "100%", borderCollapse: "collapse", fontSize: isMobile ? 12 : 13, minWidth: isMobile ? "auto" : 600 }}>
                 <thead>
                   <tr>
                     {!isMobile && col("#", "id", false)}
-                    <th style={{ padding: isMobile ? "8px 10px" : "10px 16px", textAlign: "left", fontSize: 10, color: "#8b949e", borderBottom: "1px solid #21262d", fontWeight: 600, letterSpacing: 1, textTransform: "uppercase" }}>Instrument</th>
+                    <th style={{ padding: isMobile ? "8px 10px" : "10px 16px", textAlign: "left", fontSize: 10, color: theme.textSecondary, borderBottom: `1px solid ${theme.border}`, fontWeight: 600, letterSpacing: 1, textTransform: "uppercase" }}>Instrument</th>
                     {col("Kurs", "price")}
                     {col("24h %", "change24h")}
                     {!isMobile && col("7d %", "change7d")}
                     {!isMobile && tab === "akcje" && col("Kap.", "cap")}
-                    {!isMobile && <th style={{ padding: "10px 16px", textAlign: "right", fontSize: 10, color: "#8b949e", borderBottom: "1px solid #21262d", fontWeight: 600 }}>7D</th>}
+                    {!isMobile && <th style={{ padding: "10px 16px", textAlign: "right", fontSize: 10, color: theme.textSecondary, borderBottom: `1px solid ${theme.border}`, fontWeight: 600 }}>7D</th>}
                   </tr>
                 </thead>
                 <tbody>
@@ -442,17 +493,17 @@ export default function WigMarkets() {
                     const c7d = changes[s.ticker]?.change7d ?? 0;
                     const priceColor = c24h > 0 ? "#00c896" : c24h < 0 ? "#ff4d6d" : "#c9d1d9";
                     return (
-                      <tr key={s.id} onClick={() => setSelected(s)} style={{ borderBottom: "1px solid #161b22", cursor: "pointer" }}
-                        onMouseEnter={e => e.currentTarget.style.background = "#161b22"}
+                      <tr key={s.id} onClick={() => setSelected(s)} style={{ borderBottom: `1px solid ${theme.bgCardAlt}`, cursor: "pointer" }}
+                        onMouseEnter={e => e.currentTarget.style.background = theme.bgCardAlt}
                         onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
-                        {!isMobile && <td style={{ padding: "10px 16px", color: "#8b949e", fontSize: 11 }}>{(page - 1) * PER_PAGE + i + 1}</td>}
+                        {!isMobile && <td style={{ padding: "10px 16px", color: theme.textSecondary, fontSize: 11 }}>{(page - 1) * PER_PAGE + i + 1}</td>}
                         <td style={{ padding: isMobile ? "10px 10px" : "10px 16px" }}>
                           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
                             <div style={{ width: 28, height: 28, borderRadius: 6, background: "linear-gradient(135deg, #1f6feb22, #58a6ff33)", border: "1px solid #58a6ff44", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 9, fontWeight: 800, color: "#58a6ff", flexShrink: 0 }}>{s.ticker.slice(0, 2)}</div>
                             <div>
-                              <div style={{ fontWeight: 700, color: "#e6edf3", fontSize: isMobile ? 12 : 13 }}>{s.ticker}</div>
-                              {!isMobile && <div style={{ fontSize: 10, color: "#8b949e" }}>{s.name}</div>}
-                              {isMobile && <div style={{ fontSize: 10, color: "#8b949e", maxWidth: 120, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.name}</div>}
+                              <div style={{ fontWeight: 700, color: theme.textBright, fontSize: isMobile ? 12 : 13 }}>{s.ticker}</div>
+                              {!isMobile && <div style={{ fontSize: 10, color: theme.textSecondary }}>{s.name}</div>}
+                              {isMobile && <div style={{ fontSize: 10, color: theme.textSecondary, maxWidth: 120, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.name}</div>}
                             </div>
                           </div>
                         </td>
@@ -461,7 +512,7 @@ export default function WigMarkets() {
                           <span style={{ padding: "2px 6px", borderRadius: 5, fontSize: isMobile ? 11 : 12, fontWeight: 700, background: c24h > 0 ? "#00c89620" : "#ff4d6d20", color: changeColor(c24h), whiteSpace: "nowrap" }}>{changeFmt(c24h)}</span>
                         </td>
                         {!isMobile && <td style={{ padding: "10px 16px", textAlign: "right", color: changeColor(c7d), fontSize: 12 }}>{changeFmt(c7d)}</td>}
-                        {!isMobile && tab === "akcje" && <td style={{ padding: "10px 16px", textAlign: "right", color: "#8b949e", fontSize: 12 }}>{fmt(s.cap, 0)}</td>}
+                        {!isMobile && tab === "akcje" && <td style={{ padding: "10px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12 }}>{fmt(s.cap, 0)}</td>}
                         {!isMobile && <td style={{ padding: "10px 16px", textAlign: "right" }}><Sparkline trend={c7d} /></td>}
                       </tr>
                     );
@@ -469,11 +520,11 @@ export default function WigMarkets() {
                 </tbody>
               </table>
             </div>
-            <div style={{ padding: "10px 12px", display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: "1px solid #21262d", flexWrap: "wrap", gap: 8 }}>
-              <div style={{ fontSize: 11, color: "#8b949e" }}>{(page - 1) * PER_PAGE + 1}–{Math.min(page * PER_PAGE, filtered.length)} z {filtered.length}</div>
+            <div style={{ padding: "10px 12px", display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: `1px solid ${theme.border}`, flexWrap: "wrap", gap: 8 }}>
+              <div style={{ fontSize: 11, color: theme.textSecondary }}>{(page - 1) * PER_PAGE + 1}–{Math.min(page * PER_PAGE, filtered.length)} z {filtered.length}</div>
               <div style={{ display: "flex", gap: 4, flexWrap: "wrap" }}>
                 {Array.from({ length: Math.min(totalPages, 10) }, (_, i) => i + 1).map(p => (
-                  <button key={p} onClick={() => setPage(p)} style={{ width: 26, height: 26, borderRadius: 5, border: "1px solid", borderColor: p === page ? "#58a6ff" : "#30363d", background: p === page ? "#1f6feb22" : "transparent", color: p === page ? "#58a6ff" : "#8b949e", fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>{p}</button>
+                  <button key={p} onClick={() => setPage(p)} style={{ width: 26, height: 26, borderRadius: 5, border: "1px solid", borderColor: p === page ? theme.accent : theme.borderInput, background: p === page ? "#1f6feb22" : "transparent", color: p === page ? theme.accent : theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>{p}</button>
                 ))}
               </div>
             </div>
@@ -483,34 +534,34 @@ export default function WigMarkets() {
         {/* Desktop sidebar */}
         {!isMobile && (
           <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-            <FearGauge value={62} isMobile={false} />
-            <div style={{ background: "#0d1117", border: "1px solid #21262d", borderRadius: 16, padding: 18 }}>
-              <div style={{ fontSize: 10, color: "#8b949e", letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Top wzrosty 24h</div>
+            <FearGauge value={62} isMobile={false} theme={theme} />
+            <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: 18 }}>
+              <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Top wzrosty 24h</div>
               {[...STOCKS].sort((a, b) => (changes[b.ticker]?.change24h ?? 0) - (changes[a.ticker]?.change24h ?? 0)).slice(0, 5).map(s => (
-                <div key={s.ticker} onClick={() => setSelected(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "6px 0", borderBottom: "1px solid #161b22", cursor: "pointer" }}>
-                  <div><div style={{ fontWeight: 700, fontSize: 12, color: "#e6edf3" }}>{s.ticker}</div><div style={{ fontSize: 10, color: "#8b949e" }}>{s.sector}</div></div>
+                <div key={s.ticker} onClick={() => setSelected(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "6px 0", borderBottom: `1px solid ${theme.bgCardAlt}`, cursor: "pointer" }}>
+                  <div><div style={{ fontWeight: 700, fontSize: 12, color: theme.textBright }}>{s.ticker}</div><div style={{ fontSize: 10, color: theme.textSecondary }}>{s.sector}</div></div>
                   <span style={{ padding: "2px 7px", borderRadius: 5, fontSize: 11, fontWeight: 700, background: "#00c89620", color: "#00c896" }}>{changeFmt(changes[s.ticker]?.change24h ?? 0)}</span>
                 </div>
               ))}
             </div>
-            <div style={{ background: "#0d1117", border: "1px solid #21262d", borderRadius: 16, padding: 18 }}>
-              <div style={{ fontSize: 10, color: "#8b949e", letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Top spadki 24h</div>
+            <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: 18 }}>
+              <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Top spadki 24h</div>
               {[...STOCKS].sort((a, b) => (changes[a.ticker]?.change24h ?? 0) - (changes[b.ticker]?.change24h ?? 0)).slice(0, 5).map(s => (
-                <div key={s.ticker} onClick={() => setSelected(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "6px 0", borderBottom: "1px solid #161b22", cursor: "pointer" }}>
-                  <div><div style={{ fontWeight: 700, fontSize: 12, color: "#e6edf3" }}>{s.ticker}</div><div style={{ fontSize: 10, color: "#8b949e" }}>{s.sector}</div></div>
+                <div key={s.ticker} onClick={() => setSelected(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "6px 0", borderBottom: `1px solid ${theme.bgCardAlt}`, cursor: "pointer" }}>
+                  <div><div style={{ fontWeight: 700, fontSize: 12, color: theme.textBright }}>{s.ticker}</div><div style={{ fontSize: 10, color: theme.textSecondary }}>{s.sector}</div></div>
                   <span style={{ padding: "2px 7px", borderRadius: 5, fontSize: 11, fontWeight: 700, background: "#ff4d6d20", color: "#ff4d6d" }}>{changeFmt(changes[s.ticker]?.change24h ?? 0)}</span>
                 </div>
               ))}
             </div>
-            <div style={{ background: "#0d1117", border: "1px solid #21262d", borderRadius: 16, padding: 18 }}>
-              <div style={{ fontSize: 10, color: "#8b949e", letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Statystyki rynku</div>
+            <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: 18 }}>
+              <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Statystyki rynku</div>
               {[
                 ["Spółki rosnące", `${STOCKS.filter(s => (changes[s.ticker]?.change24h ?? 0) > 0).length}/${STOCKS.length}`, "#00c896"],
                 ["Kap. łączna (mld zł)", fmt(STOCKS.reduce((a, s) => a + s.cap, 0) / 1000, 1), "#58a6ff"],
                 ["Śr. zmiana 24h", changeFmt(STOCKS.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0) / STOCKS.length), "#ffd700"],
               ].map(([label, val, color]) => (
-                <div key={label} style={{ display: "flex", justifyContent: "space-between", padding: "7px 0", borderBottom: "1px solid #161b22", fontSize: 11 }}>
-                  <span style={{ color: "#8b949e" }}>{label}</span>
+                <div key={label} style={{ display: "flex", justifyContent: "space-between", padding: "7px 0", borderBottom: `1px solid ${theme.bgCardAlt}`, fontSize: 11 }}>
+                  <span style={{ color: theme.textSecondary }}>{label}</span>
                   <span style={{ fontWeight: 700, color }}>{val}</span>
                 </div>
               ))}
@@ -519,7 +570,7 @@ export default function WigMarkets() {
         )}
       </div>
 
-      <div style={{ textAlign: "center", padding: "24px", fontSize: 10, color: "#484f58" }}>
+      <div style={{ textAlign: "center", padding: "24px", fontSize: 10, color: theme.textSecondary }}>
         WIGmarkets © 2026 · Dane z GPW via stooq.pl · Nie stanowią rekomendacji inwestycyjnej
       </div>
     </div>
