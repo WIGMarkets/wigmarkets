@@ -1,0 +1,12 @@
+{
+  "name": "WIGmarkets",
+  "short_name": "WIGmarkets",
+  "description": "Notowania GPW w czasie rzeczywistym",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#010409",
+  "theme_color": "#0d1117",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
