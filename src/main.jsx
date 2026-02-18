@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import ReactDOM from "react-dom/client";
 
 const DARK_THEME = {
@@ -136,6 +136,10 @@ const FEAR_COMPONENTS = [
   { label: "Popyt na bezpieczne aktywa", val: 38 },
 ];
 
+const fmt = (n, d = 2) => n?.toLocaleString("pl-PL", { minimumFractionDigits: d, maximumFractionDigits: d }) ?? "—";
+const changeColor = (v) => v > 0 ? "#00c896" : v < 0 ? "#ff4d6d" : "#8b949e";
+const changeFmt = (v) => `${v > 0 ? "+" : ""}${fmt(v)}%`;
+
 function useIsMobile() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   useEffect(() => {
@@ -159,7 +163,7 @@ function generateSparkline(trend) {
 }
 
 function Sparkline({ trend }) {
-  const path = generateSparkline(trend);
+  const path = useMemo(() => generateSparkline(trend), [trend]);
   const color = trend >= 0 ? "#00c896" : "#ff4d6d";
   return (
     <svg width="60" height="32" viewBox="0 0 100 40" style={{ display: "block" }}>
@@ -170,6 +174,7 @@ function Sparkline({ trend }) {
 
 function MiniChart({ data, color }) {
   if (!data || data.length < 2) return <div style={{ color: "#8b949e", fontSize: 12, textAlign: "center", padding: "40px 0" }}>Ładowanie wykresu...</div>;
+  const gradId = `cg-${color.replace("#", "")}`;
   const prices = data.map(d => d.close);
   const min = Math.min(...prices), max = Math.max(...prices);
   const w = 600, h = 160;
@@ -177,12 +182,12 @@ function MiniChart({ data, color }) {
   return (
     <svg width="100%" viewBox={`0 0 ${w} ${h}`} style={{ display: "block" }}>
       <defs>
-        <linearGradient id="cg" x1="0" y1="0" x2="0" y2="1">
+        <linearGradient id={gradId} x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor={color} stopOpacity="0.3" />
           <stop offset="100%" stopColor={color} stopOpacity="0" />
         </linearGradient>
       </defs>
-      <polyline points={`0,${h} ${pts} ${w},${h}`} fill="url(#cg)" stroke="none" />
+      <polyline points={`0,${h} ${pts} ${w},${h}`} fill={`url(#${gradId})`} stroke="none" />
       <polyline points={pts} fill="none" stroke={color} strokeWidth="2" strokeLinejoin="round" strokeLinecap="round" />
     </svg>
   );
@@ -274,8 +279,6 @@ function StockModal({ stock, price, change24h, change7d, onClose, theme }) {
   const [range, setRange] = useState("1M");
   const isMobile = useIsMobile();
   const [news, setNews] = useState(null);
-  const fmtN = (n, d = 2) => n?.toLocaleString("pl-PL", { minimumFractionDigits: d, maximumFractionDigits: d }) ?? "—";
-  const changeFmt = (v) => `${v > 0 ? "+" : ""}${fmtN(v)}%`;
   const color = change24h >= 0 ? "#00c896" : "#ff4d6d";
 
   useEffect(() => {
@@ -286,11 +289,11 @@ function StockModal({ stock, price, change24h, change7d, onClose, theme }) {
       .catch(() => setNews([]));
   }, [stock.ticker, stock.name]);
 
-  const filterHistory = () => {
+  const filteredHistory = useMemo(() => {
     if (!history) return [];
     const days = { "1W": 7, "1M": 30, "3M": 90, "1R": 365 };
     return history.slice(-(days[range] || 30));
-  };
+  }, [history, range]);
 
   return (
     <div style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,0.85)", zIndex: 1000, display: "flex", alignItems: "center", justifyContent: "center", padding: isMobile ? 8 : 24 }} onClick={onClose}>
@@ -306,7 +309,7 @@ function StockModal({ stock, price, change24h, change7d, onClose, theme }) {
           <button onClick={onClose} style={{ background: theme.bgCardAlt, border: "none", borderRadius: 8, color: theme.textSecondary, width: 32, height: 32, fontSize: 18, cursor: "pointer" }}>×</button>
         </div>
         <div style={{ marginBottom: 20 }}>
-          <div style={{ fontSize: isMobile ? 28 : 36, fontWeight: 800, color: theme.textBright }}>{fmtN(price)} {stock.unit || "zł"}</div>
+          <div style={{ fontSize: isMobile ? 28 : 36, fontWeight: 800, color: theme.textBright }}>{fmt(price)} {stock.unit || "zł"}</div>
           <div style={{ display: "flex", gap: 10, marginTop: 8, flexWrap: "wrap" }}>
             <span style={{ padding: "4px 12px", borderRadius: 6, background: `${color}20`, color, fontWeight: 700, fontSize: 13 }}>24h: {changeFmt(change24h)}</span>
             <span style={{ padding: "4px 12px", borderRadius: 6, background: `${color}20`, color, fontWeight: 700, fontSize: 13 }}>7d: {changeFmt(change7d)}</span>
@@ -318,13 +321,13 @@ function StockModal({ stock, price, change24h, change7d, onClose, theme }) {
           ))}
         </div>
         <div style={{ background: theme.bgPage, borderRadius: 12, padding: "12px 8px", marginBottom: 20 }}>
-          <MiniChart data={filterHistory()} color={color} />
+          <MiniChart data={filteredHistory} color={color} />
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginBottom: 16 }}>
           {[
-            ["Kapitalizacja", stock.cap ? `${fmtN(stock.cap, 0)} mln zł` : "—"],
+            ["Kapitalizacja", stock.cap ? `${fmt(stock.cap, 0)} mln zł` : "—"],
             ["C/Z (P/E)", stock.pe > 0 ? fmtN(stock.pe) : "—"],
-            ["Dywidenda", stock.div > 0 ? `${fmtN(stock.div)}%` : "Brak"],
+            ["Dywidenda", stock.div > 0 ? `${fmt(stock.div)}%` : "Brak"],
             ["Sektor", stock.sector],
           ].map(([label, val]) => (
             <div key={label} style={{ background: theme.bgCardAlt, borderRadius: 10, padding: "12px 14px" }}>
@@ -413,8 +416,6 @@ function FearGauge({ value = 62, isMobile, theme }) {
   );
 }
 
-const fmt = (n, d = 2) => n?.toLocaleString("pl-PL", { minimumFractionDigits: d, maximumFractionDigits: d }) ?? "—";
-
 export default function WigMarkets() {
   const isMobile = useIsMobile();
   const [tab, setTab] = useState("akcje");
@@ -430,7 +431,7 @@ export default function WigMarkets() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem("theme") !== "light");
   const [indices, setIndices] = useState([]);
-  const PER_PAGE = isMobile ? 20 : 20;
+  const PER_PAGE = 20;
   const theme = darkMode ? DARK_THEME : LIGHT_THEME;
 
   useEffect(() => {
@@ -451,12 +452,21 @@ export default function WigMarkets() {
   useEffect(() => {
     const activeData = tab === "akcje" ? STOCKS : COMMODITIES;
     const fetchAll = async () => {
-      for (const item of activeData) {
-        const data = await fetchStooq(item.stooq || item.ticker.toLowerCase());
-        if (data?.close) {
-          setPrices(prev => ({ ...prev, [item.ticker]: data.close }));
-          setChanges(prev => ({ ...prev, [item.ticker]: { change24h: data.change24h ?? 0, change7d: data.change7d ?? 0 } }));
+      const results = await Promise.allSettled(
+        activeData.map(item => fetchStooq(item.stooq || item.ticker.toLowerCase()).then(data => ({ ticker: item.ticker, data })))
+      );
+      const newPrices = {};
+      const newChanges = {};
+      for (const result of results) {
+        if (result.status === "fulfilled" && result.value.data?.close) {
+          const { ticker, data } = result.value;
+          newPrices[ticker] = data.close;
+          newChanges[ticker] = { change24h: data.change24h ?? 0, change7d: data.change7d ?? 0 };
         }
+      }
+      if (Object.keys(newPrices).length) {
+        setPrices(prev => ({ ...prev, ...newPrices }));
+        setChanges(prev => ({ ...prev, ...newChanges }));
       }
     };
     fetchAll();
@@ -465,18 +475,21 @@ export default function WigMarkets() {
   }, [tab]);
 
   const activeData = tab === "akcje" ? STOCKS : COMMODITIES;
-  const sectors = ["all", ...Array.from(new Set(activeData.map(s => s.sector)))];
+  const sectors = useMemo(() => ["all", ...Array.from(new Set(activeData.map(s => s.sector)))], [activeData]);
 
-  const filtered = activeData
-    .filter(s => filter === "all" || s.sector === filter)
-    .filter(s => s.name.toLowerCase().includes(search.toLowerCase()) || s.ticker.toLowerCase().includes(search.toLowerCase()))
-    .sort((a, b) => {
-      let av = a[sortBy] ?? 0, bv = b[sortBy] ?? 0;
-      if (sortBy === "price") { av = prices[a.ticker] || 0; bv = prices[b.ticker] || 0; }
-      if (sortBy === "change24h") { av = changes[a.ticker]?.change24h ?? 0; bv = changes[b.ticker]?.change24h ?? 0; }
-      if (sortBy === "change7d") { av = changes[a.ticker]?.change7d ?? 0; bv = changes[b.ticker]?.change7d ?? 0; }
-      return sortDir === "desc" ? bv - av : av - bv;
-    });
+  const filtered = useMemo(() => {
+    const q = search.toLowerCase();
+    return activeData
+      .filter(s => filter === "all" || s.sector === filter)
+      .filter(s => s.name.toLowerCase().includes(q) || s.ticker.toLowerCase().includes(q))
+      .sort((a, b) => {
+        let av = a[sortBy] ?? 0, bv = b[sortBy] ?? 0;
+        if (sortBy === "price") { av = prices[a.ticker] || 0; bv = prices[b.ticker] || 0; }
+        if (sortBy === "change24h") { av = changes[a.ticker]?.change24h ?? 0; bv = changes[b.ticker]?.change24h ?? 0; }
+        if (sortBy === "change7d") { av = changes[a.ticker]?.change7d ?? 0; bv = changes[b.ticker]?.change7d ?? 0; }
+        return sortDir === "desc" ? bv - av : av - bv;
+      });
+  }, [activeData, filter, search, sortBy, sortDir, prices, changes]);
 
   const totalPages = Math.ceil(filtered.length / PER_PAGE);
   const visible = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
@@ -486,11 +499,22 @@ export default function WigMarkets() {
       {label} {sortBy === key ? (sortDir === "desc" ? "↓" : "↑") : ""}
     </th>
   );
-  const changeColor = (v) => v > 0 ? "#00c896" : v < 0 ? "#ff4d6d" : "#8b949e";
-  const changeFmt = (v) => `${v > 0 ? "+" : ""}${fmt(v)}%`;
-
   const fmtIdx = (v) => v != null ? v.toLocaleString("pl-PL", { maximumFractionDigits: 2 }) : "—";
   const fmtIdxChange = (v) => v != null ? `${v >= 0 ? "+" : ""}${v.toFixed(2)}%` : "—";
+
+  const topGainers = useMemo(() =>
+    [...STOCKS].sort((a, b) => (changes[b.ticker]?.change24h ?? 0) - (changes[a.ticker]?.change24h ?? 0)).slice(0, 5),
+    [changes]
+  );
+  const topLosers = useMemo(() =>
+    [...STOCKS].sort((a, b) => (changes[a.ticker]?.change24h ?? 0) - (changes[b.ticker]?.change24h ?? 0)).slice(0, 5),
+    [changes]
+  );
+  const marketStats = useMemo(() => [
+    ["Spółki rosnące", `${STOCKS.filter(s => (changes[s.ticker]?.change24h ?? 0) > 0).length}/${STOCKS.length}`, "#00c896"],
+    ["Kap. łączna (mld zł)", fmt(STOCKS.reduce((a, s) => a + s.cap, 0) / 1000, 1), "#58a6ff"],
+    ["Śr. zmiana 24h", changeFmt(STOCKS.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0) / STOCKS.length), "#ffd700"],
+  ], [changes]);
 
   return (
     <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Space Grotesk', 'Inter', sans-serif" }}>
@@ -630,7 +654,7 @@ export default function WigMarkets() {
             <FearGauge value={62} isMobile={false} theme={theme} />
             <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: 18 }}>
               <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Top wzrosty 24h</div>
-              {[...STOCKS].sort((a, b) => (changes[b.ticker]?.change24h ?? 0) - (changes[a.ticker]?.change24h ?? 0)).slice(0, 5).map(s => (
+              {topGainers.map(s => (
                 <div key={s.ticker} onClick={() => setSelected(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "6px 0", borderBottom: `1px solid ${theme.bgCardAlt}`, cursor: "pointer" }}>
                   <div><div style={{ fontWeight: 700, fontSize: 12, color: theme.textBright }}>{s.ticker}</div><div style={{ fontSize: 10, color: theme.textSecondary }}>{s.sector}</div></div>
                   <span style={{ padding: "2px 7px", borderRadius: 5, fontSize: 11, fontWeight: 700, background: "#00c89620", color: "#00c896" }}>{changeFmt(changes[s.ticker]?.change24h ?? 0)}</span>
@@ -639,7 +663,7 @@ export default function WigMarkets() {
             </div>
             <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: 18 }}>
               <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Top spadki 24h</div>
-              {[...STOCKS].sort((a, b) => (changes[a.ticker]?.change24h ?? 0) - (changes[b.ticker]?.change24h ?? 0)).slice(0, 5).map(s => (
+              {topLosers.map(s => (
                 <div key={s.ticker} onClick={() => setSelected(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "6px 0", borderBottom: `1px solid ${theme.bgCardAlt}`, cursor: "pointer" }}>
                   <div><div style={{ fontWeight: 700, fontSize: 12, color: theme.textBright }}>{s.ticker}</div><div style={{ fontSize: 10, color: theme.textSecondary }}>{s.sector}</div></div>
                   <span style={{ padding: "2px 7px", borderRadius: 5, fontSize: 11, fontWeight: 700, background: "#ff4d6d20", color: "#ff4d6d" }}>{changeFmt(changes[s.ticker]?.change24h ?? 0)}</span>
@@ -648,11 +672,7 @@ export default function WigMarkets() {
             </div>
             <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: 18 }}>
               <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Statystyki rynku</div>
-              {[
-                ["Spółki rosnące", `${STOCKS.filter(s => (changes[s.ticker]?.change24h ?? 0) > 0).length}/${STOCKS.length}`, "#00c896"],
-                ["Kap. łączna (mld zł)", fmt(STOCKS.reduce((a, s) => a + s.cap, 0) / 1000, 1), "#58a6ff"],
-                ["Śr. zmiana 24h", changeFmt(STOCKS.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0) / STOCKS.length), "#ffd700"],
-              ].map(([label, val, color]) => (
+              {marketStats.map(([label, val, color]) => (
                 <div key={label} style={{ display: "flex", justifyContent: "space-between", padding: "7px 0", borderBottom: `1px solid ${theme.bgCardAlt}`, fontSize: 11 }}>
                   <span style={{ color: theme.textSecondary }}>{label}</span>
                   <span style={{ fontWeight: 700, color }}>{val}</span>
