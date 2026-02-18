@@ -113,6 +113,7 @@ function MiniChart({ data, color }) {
 function StockModal({ stock, price, change24h, change7d, onClose }) {
   const [history, setHistory] = useState(null);
   const [range, setRange] = useState("1M");
+  const [news, setNews] = useState(null);
   const fmtN = (n, d = 2) => n?.toLocaleString("pl-PL", { minimumFractionDigits: d, maximumFractionDigits: d }) ?? "—";
   const changeFmt = (v) => `${v > 0 ? "+" : ""}${fmtN(v)}%`;
   const color = change24h >= 0 ? "#00c896" : "#ff4d6d";
@@ -120,7 +121,11 @@ function StockModal({ stock, price, change24h, change7d, onClose }) {
 
   useEffect(() => {
     fetchHistory(stooqSymbol).then(d => setHistory(d?.prices || null));
-  }, [stooqSymbol]);
+    fetch(`/api/news?q=${encodeURIComponent(stock.name)}`)
+      .then(r => r.json())
+      .then(d => setNews(d?.items || []))
+      .catch(() => setNews([]));
+  }, [stooqSymbol, stock.name]);
 
   const filterHistory = () => {
     if (!history) return [];
@@ -167,6 +172,32 @@ function StockModal({ stock, price, change24h, change7d, onClose }) {
               <div style={{ fontSize: 11, color: "#8b949e", marginBottom: 4 }}>{label}</div>
               <div style={{ fontSize: 16, fontWeight: 700, color: "#e6edf3" }}>{val}</div>
             </div>
+          ))}
+        </div>
+        <div style={{ marginBottom: 20 }}>
+          <div style={{ fontSize: 11, color: "#8b949e", letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>
+            Najnowsze wiadomości
+          </div>
+          {news === null && (
+            <div style={{ color: "#8b949e", fontSize: 12, padding: "12px 0" }}>Ładowanie wiadomości...</div>
+          )}
+          {news !== null && news.length === 0 && (
+            <div style={{ color: "#8b949e", fontSize: 12, padding: "12px 0" }}>Brak wiadomości.</div>
+          )}
+          {news !== null && news.map((item, i) => (
+            <a
+              key={i}
+              href={item.link}
+              target="_blank"
+              rel="noreferrer"
+              style={{ display: "block", textDecoration: "none", padding: "10px 0", borderBottom: "1px solid #21262d" }}
+            >
+              <div style={{ fontSize: 13, color: "#e6edf3", lineHeight: 1.4, marginBottom: 4 }}>{item.title}</div>
+              <div style={{ display: "flex", gap: 12, fontSize: 11, color: "#8b949e" }}>
+                {item.source && <span>{item.source}</span>}
+                {item.pubDate && <span>{new Date(item.pubDate).toLocaleDateString("pl-PL")}</span>}
+              </div>
+            </a>
           ))}
         </div>
         <a href={`https://stooq.pl/q/?s=${stooqSymbol}`} target="_blank" rel="noreferrer" style={{ display: "block", textAlign: "center", color: "#58a6ff", fontSize: 12, textDecoration: "none" }}>
