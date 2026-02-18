@@ -16,6 +16,18 @@
     <style>
       * { margin: 0; padding: 0; box-sizing: border-box; }
       html, body { background: #010409; width: 100%; overflow-x: hidden; }
+      @keyframes flashUp {
+        0%   { background: #00c89650; }
+        60%  { background: #00c89628; }
+        100% { background: transparent; }
+      }
+      @keyframes flashDown {
+        0%   { background: #ff4d6d50; }
+        60%  { background: #ff4d6d28; }
+        100% { background: transparent; }
+      }
+      .price-flash-up   { animation: flashUp   2s ease forwards; border-radius: 4px; }
+      .price-flash-down { animation: flashDown 2s ease forwards; border-radius: 4px; }
     </style>
   </head>
   <body>
