@@ -363,7 +363,7 @@ export default function WigMarkets() {
   const changeFmt = (v) => `${v > 0 ? "+" : ""}${fmt(v)}%`;
 
   return (
-    <div style={{ minHeight: "100vh", background: "#010409", color: "#c9d1d9", fontFamily: "'IBM Plex Mono', 'Courier New', monospace" }}>
+    <div style={{ minHeight: "100vh", background: "#010409", color: "#c9d1d9", fontFamily: "'Space Grotesk', 'Inter', sans-serif" }}>
 
       {selected && <StockModal stock={selected} price={prices[selected.ticker]} change24h={changes[selected.ticker]?.change24h ?? 0} change7d={changes[selected.ticker]?.change7d ?? 0} onClose={() => setSelected(null)} />}
 
