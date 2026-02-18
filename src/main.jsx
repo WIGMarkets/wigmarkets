@@ -193,6 +193,207 @@ function MiniChart({ data, color }) {
   );
 }
 
+/* ─── Marquee Ticker ──────────────────────────────────────────── */
+function MarqueeTicker({ stocks, prices, changes, theme, onSelect }) {
+  const items = stocks.filter(s => prices[s.ticker]);
+  if (!items.length) return null;
+  const row = items.map(s => {
+    const c = changes[s.ticker]?.change24h ?? 0;
+    return (
+      <span key={s.ticker} onClick={() => onSelect(s)} style={{ display: "inline-flex", alignItems: "center", gap: 6, padding: "0 18px", cursor: "pointer", whiteSpace: "nowrap", flexShrink: 0 }}>
+        <span style={{ fontWeight: 700, fontSize: 11, color: theme.textBright }}>{s.ticker}</span>
+        <span style={{ fontSize: 11, color: theme.text }}>{fmt(prices[s.ticker])}</span>
+        <span style={{ fontSize: 10, fontWeight: 700, color: changeColor(c) }}>{changeFmt(c)}</span>
+      </span>
+    );
+  });
+  return (
+    <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, overflow: "hidden", position: "relative", height: 32, display: "flex", alignItems: "center" }}>
+      <style>{`@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}`}</style>
+      <div style={{ display: "flex", animation: "marquee 60s linear infinite", width: "max-content" }}>
+        {row}{row}
+      </div>
+    </div>
+  );
+}
+
+/* ─── Heatmap (Treemap) ──────────────────────────────────────── */
+function Heatmap({ stocks, prices, changes, theme, onSelect }) {
+  const items = stocks
+    .map(s => ({ ...s, cap: s.cap || 1, c24h: changes[s.ticker]?.change24h ?? 0, price: prices[s.ticker] }))
+    .filter(s => s.price)
+    .sort((a, b) => b.cap - a.cap);
+  const totalCap = items.reduce((a, s) => a + s.cap, 0);
+  if (!totalCap) return null;
+
+  // Simple squarified treemap layout
+  const layoutRows = (items, x, y, w, h) => {
+    if (!items.length) return [];
+    const rects = [];
+    let remaining = [...items];
+    let cx = x, cy = y, cw = w, ch = h;
+
+    while (remaining.length) {
+      const total = remaining.reduce((a, s) => a + s.cap, 0);
+      const isWide = cw >= ch;
+      const side = isWide ? ch : cw;
+      let row = [remaining[0]];
+      let rowSum = remaining[0].cap;
+
+      for (let i = 1; i < remaining.length; i++) {
+        const nextSum = rowSum + remaining[i].cap;
+        const rowFrac = rowSum / total;
+        const nextFrac = nextSum / total;
+        const rowThick = rowFrac * (isWide ? cw : ch);
+        const nextThick = nextFrac * (isWide ? cw : ch);
+        // worst aspect ratio for current row vs adding next item
+        const worstCur = row.reduce((worst, s) => {
+          const len = (s.cap / rowSum) * side;
+          const ar = Math.max(rowThick / len, len / rowThick);
+          return Math.max(worst, ar);
+        }, 0);
+        const worstNext = [...row, remaining[i]].reduce((worst, s) => {
+          const len = (s.cap / nextSum) * side;
+          const ar = Math.max(nextThick / len, len / nextThick);
+          return Math.max(worst, ar);
+        }, 0);
+        if (worstNext <= worstCur) {
+          row.push(remaining[i]);
+          rowSum = nextSum;
+        } else break;
+      }
+
+      const rowFrac = rowSum / total;
+      const thick = rowFrac * (isWide ? cw : ch);
+      let offset = 0;
+      for (const s of row) {
+        const frac = s.cap / rowSum;
+        const len = frac * side;
+        const rx = isWide ? cx : cx + offset;
+        const ry = isWide ? cy + offset : cy;
+        const rw = isWide ? thick : len;
+        const rh = isWide ? len : thick;
+        rects.push({ ...s, rx, ry, rw, rh });
+        offset += len;
+      }
+
+      remaining = remaining.slice(row.length);
+      if (isWide) { cx += thick; cw -= thick; }
+      else { cy += thick; ch -= thick; }
+    }
+    return rects;
+  };
+
+  const rects = layoutRows(items, 0, 0, 100, 100);
+  const maxAbs = Math.max(...items.map(s => Math.abs(s.c24h)), 3);
+
+  const heatColor = (v) => {
+    const t = Math.min(Math.abs(v) / maxAbs, 1);
+    if (v >= 0) return `rgba(0,200,150,${0.15 + t * 0.65})`;
+    return `rgba(255,77,109,${0.15 + t * 0.65})`;
+  };
+
+  return (
+    <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 12, overflow: "hidden", marginBottom: 16 }}>
+      <div style={{ padding: "12px 16px", borderBottom: `1px solid ${theme.border}`, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+        <div style={{ fontSize: 11, fontWeight: 700, color: theme.textBright, textTransform: "uppercase", letterSpacing: 1 }}>Heatmapa rynku</div>
+        <div style={{ display: "flex", gap: 8, fontSize: 10, color: theme.textSecondary }}>
+          <span style={{ display: "flex", alignItems: "center", gap: 3 }}><span style={{ width: 8, height: 8, borderRadius: 2, background: "#ff4d6d" }} /> Spadek</span>
+          <span style={{ display: "flex", alignItems: "center", gap: 3 }}><span style={{ width: 8, height: 8, borderRadius: 2, background: "#444" }} /> 0%</span>
+          <span style={{ display: "flex", alignItems: "center", gap: 3 }}><span style={{ width: 8, height: 8, borderRadius: 2, background: "#00c896" }} /> Wzrost</span>
+        </div>
+      </div>
+      <div style={{ position: "relative", width: "100%", paddingBottom: "50%", overflow: "hidden" }}>
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none" style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}>
+          {rects.map(r => (
+            <g key={r.ticker} onClick={() => onSelect(r)} style={{ cursor: "pointer" }}>
+              <rect x={r.rx} y={r.ry} width={Math.max(r.rw - 0.15, 0)} height={Math.max(r.rh - 0.15, 0)} rx="0.3"
+                fill={heatColor(r.c24h)} stroke={theme.border} strokeWidth="0.15" />
+              {r.rw > 6 && r.rh > 5 && (
+                <>
+                  <text x={r.rx + r.rw / 2} y={r.ry + r.rh / 2 - (r.rh > 10 ? 1.2 : 0)} textAnchor="middle" dominantBaseline="central"
+                    fill={theme.textBright} fontSize={r.rw > 12 ? 2.2 : 1.6} fontWeight="800" fontFamily="'Space Grotesk',sans-serif">{r.ticker}</text>
+                  {r.rh > 10 && (
+                    <text x={r.rx + r.rw / 2} y={r.ry + r.rh / 2 + 2.2} textAnchor="middle" dominantBaseline="central"
+                      fill={changeColor(r.c24h)} fontSize={1.5} fontWeight="700" fontFamily="'Space Grotesk',sans-serif">
+                      {r.c24h > 0 ? "+" : ""}{r.c24h.toFixed(1)}%
+                    </text>
+                  )}
+                </>
+              )}
+            </g>
+          ))}
+        </svg>
+      </div>
+    </div>
+  );
+}
+
+/* ─── Sector Donut Chart ─────────────────────────────────────── */
+function SectorDonut({ stocks, theme }) {
+  const sectorCaps = {};
+  for (const s of stocks) {
+    sectorCaps[s.sector] = (sectorCaps[s.sector] || 0) + (s.cap || 0);
+  }
+  const sorted = Object.entries(sectorCaps).sort((a, b) => b[1] - a[1]);
+  const total = sorted.reduce((a, [, v]) => a + v, 0);
+  if (!total) return null;
+
+  const COLORS = ["#58a6ff", "#00c896", "#ff4d6d", "#ffd700", "#a371f7", "#f78166", "#3fb950", "#d2a8ff", "#79c0ff", "#f0883e", "#7ee787", "#ff7b72", "#d29922", "#56d364"];
+  const cx = 50, cy = 50, r = 38, ir = 24;
+  let angle = -90;
+  const slices = sorted.map(([sector, cap], i) => {
+    const frac = cap / total;
+    const startAngle = angle;
+    const sweep = frac * 360;
+    angle += sweep;
+    const endAngle = angle;
+    const large = sweep > 180 ? 1 : 0;
+    const s1 = (startAngle * Math.PI) / 180, e1 = (endAngle * Math.PI) / 180;
+    const x1 = cx + r * Math.cos(s1), y1 = cy + r * Math.sin(s1);
+    const x2 = cx + r * Math.cos(e1), y2 = cy + r * Math.sin(e1);
+    const x3 = cx + ir * Math.cos(e1), y3 = cy + ir * Math.sin(e1);
+    const x4 = cx + ir * Math.cos(s1), y4 = cy + ir * Math.sin(s1);
+    const d = `M${x1},${y1} A${r},${r} 0 ${large} 1 ${x2},${y2} L${x3},${y3} A${ir},${ir} 0 ${large} 0 ${x4},${y4} Z`;
+    return { sector, cap, frac, d, color: COLORS[i % COLORS.length] };
+  });
+
+  return (
+    <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: 18 }}>
+      <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Dominacja sektorowa</div>
+      <div style={{ display: "flex", justifyContent: "center", marginBottom: 12 }}>
+        <svg width="140" height="140" viewBox="0 0 100 100">
+          {slices.map(s => <path key={s.sector} d={s.d} fill={s.color} opacity="0.85" stroke={theme.bgCard} strokeWidth="0.5" />)}
+          <text x="50" y="47" textAnchor="middle" fill={theme.textBright} fontSize="7" fontWeight="800" fontFamily="'Space Grotesk',sans-serif">{(total / 1000).toFixed(0)}</text>
+          <text x="50" y="56" textAnchor="middle" fill={theme.textSecondary} fontSize="3.5" fontFamily="'Space Grotesk',sans-serif">mld zł</text>
+        </svg>
+      </div>
+      {sorted.slice(0, 6).map(([sector, cap], i) => (
+        <div key={sector} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "4px 0", fontSize: 11 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+            <span style={{ width: 8, height: 8, borderRadius: 2, background: COLORS[i % COLORS.length], flexShrink: 0 }} />
+            <span style={{ color: theme.text }}>{sector}</span>
+          </div>
+          <span style={{ color: theme.textSecondary, fontSize: 10 }}>{(cap / total * 100).toFixed(1)}%</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+/* ─── Watchlist Star ─────────────────────────────────────────── */
+function WatchStar({ active, onClick, theme }) {
+  return (
+    <span
+      onClick={e => { e.stopPropagation(); onClick(); }}
+      style={{ cursor: "pointer", fontSize: 14, lineHeight: 1, color: active ? "#ffd700" : theme.borderInput, transition: "color 0.15s", userSelect: "none" }}
+      title={active ? "Usuń z obserwowanych" : "Dodaj do obserwowanych"}
+    >
+      {active ? "★" : "☆"}
+    </span>
+  );
+}
+
 function ProfitCalculatorModal({ stock, currentPrice, onClose, theme }) {
   const [shares, setShares] = useState("");
   const [buyPrice, setBuyPrice] = useState("");
@@ -326,7 +527,7 @@ function StockModal({ stock, price, change24h, change7d, onClose, theme }) {
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginBottom: 16 }}>
           {[
             ["Kapitalizacja", stock.cap ? `${fmt(stock.cap, 0)} mln zł` : "—"],
-            ["C/Z (P/E)", stock.pe > 0 ? fmtN(stock.pe) : "—"],
+            ["C/Z (P/E)", stock.pe > 0 ? fmt(stock.pe) : "—"],
             ["Dywidenda", stock.div > 0 ? `${fmt(stock.div)}%` : "Brak"],
             ["Sektor", stock.sector],
           ].map(([label, val]) => (
@@ -431,6 +632,11 @@ export default function WigMarkets() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem("theme") !== "light");
   const [indices, setIndices] = useState([]);
+  const [viewMode, setViewMode] = useState("table");
+  const [watchlist, setWatchlist] = useState(() => {
+    try { return new Set(JSON.parse(localStorage.getItem("watchlist") || "[]")); } catch { return new Set(); }
+  });
+  const [watchFilter, setWatchFilter] = useState(false);
   const PER_PAGE = 20;
   const theme = darkMode ? DARK_THEME : LIGHT_THEME;
 
@@ -438,6 +644,15 @@ export default function WigMarkets() {
     localStorage.setItem("theme", darkMode ? "dark" : "light");
     document.body.style.background = theme.bgPage;
   }, [darkMode, theme.bgPage]);
+
+  const toggleWatch = (ticker) => {
+    setWatchlist(prev => {
+      const next = new Set(prev);
+      next.has(ticker) ? next.delete(ticker) : next.add(ticker);
+      localStorage.setItem("watchlist", JSON.stringify([...next]));
+      return next;
+    });
+  };
 
   useEffect(() => {
     const load = async () => {
@@ -480,6 +695,7 @@ export default function WigMarkets() {
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
     return activeData
+      .filter(s => !watchFilter || watchlist.has(s.ticker))
       .filter(s => filter === "all" || s.sector === filter)
       .filter(s => s.name.toLowerCase().includes(q) || s.ticker.toLowerCase().includes(q))
       .sort((a, b) => {
@@ -489,7 +705,7 @@ export default function WigMarkets() {
         if (sortBy === "change7d") { av = changes[a.ticker]?.change7d ?? 0; bv = changes[b.ticker]?.change7d ?? 0; }
         return sortDir === "desc" ? bv - av : av - bv;
       });
-  }, [activeData, filter, search, sortBy, sortDir, prices, changes]);
+  }, [activeData, filter, search, sortBy, sortDir, prices, changes, watchFilter, watchlist]);
 
   const totalPages = Math.ceil(filtered.length / PER_PAGE);
   const visible = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
@@ -550,6 +766,9 @@ export default function WigMarkets() {
         </div>
       </div>
 
+      {/* Marquee ticker */}
+      <MarqueeTicker stocks={[...STOCKS, ...COMMODITIES]} prices={prices} changes={changes} theme={theme} onSelect={setSelected} />
+
       {/* Mobile sidebar overlay */}
       {isMobile && sidebarOpen && (
         <div style={{ padding: "16px", background: theme.bgCard, borderBottom: `1px solid ${theme.border}` }}>
@@ -558,16 +777,33 @@ export default function WigMarkets() {
       )}
 
       <div style={{ padding: isMobile ? "16px 12px 0" : "24px 24px 0", maxWidth: 1400, margin: "0 auto" }}>
-        {/* Tabs */}
-        <div style={{ display: "flex", gap: 4, marginBottom: 16 }}>
+        {/* Tabs + View toggle */}
+        <div style={{ display: "flex", gap: 4, marginBottom: 16, flexWrap: "wrap", alignItems: "center" }}>
           {[["akcje", "🏛️ Akcje GPW"], ["surowce", "🥇 Surowce"]].map(([key, label]) => (
-            <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); }} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: tab === key ? theme.accent : theme.borderInput, background: tab === key ? "#1f6feb22" : "transparent", color: tab === key ? theme.accent : theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: tab === key ? 700 : 400, cursor: "pointer", fontFamily: "inherit" }}>{label}</button>
+            <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); setWatchFilter(false); }} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: tab === key ? theme.accent : theme.borderInput, background: tab === key ? "#1f6feb22" : "transparent", color: tab === key ? theme.accent : theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: tab === key ? 700 : 400, cursor: "pointer", fontFamily: "inherit" }}>{label}</button>
           ))}
+          <div style={{ marginLeft: "auto", display: "flex", gap: 4 }}>
+            <button onClick={() => setWatchFilter(f => !f)} style={{ padding: isMobile ? "6px 10px" : "8px 14px", borderRadius: 8, border: "1px solid", borderColor: watchFilter ? "#ffd700" : theme.borderInput, background: watchFilter ? "#ffd70022" : "transparent", color: watchFilter ? "#ffd700" : theme.textSecondary, fontSize: isMobile ? 11 : 12, cursor: "pointer", fontFamily: "inherit", fontWeight: watchFilter ? 700 : 400 }}>
+              ★ Obserwowane{watchlist.size > 0 ? ` (${watchlist.size})` : ""}
+            </button>
+            {tab === "akcje" && !isMobile && (
+              <div style={{ display: "flex", borderRadius: 8, border: `1px solid ${theme.borderInput}`, overflow: "hidden" }}>
+                {[["table", "Tabela"], ["heatmap", "Heatmapa"]].map(([key, label]) => (
+                  <button key={key} onClick={() => setViewMode(key)} style={{ padding: "8px 14px", border: "none", background: viewMode === key ? "#1f6feb22" : "transparent", color: viewMode === key ? theme.accent : theme.textSecondary, fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: viewMode === key ? 700 : 400 }}>{label}</button>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
       </div>
 
       <div style={{ maxWidth: 1400, margin: "0 auto", display: isMobile ? "block" : "grid", gridTemplateColumns: "1fr 280px", gap: 24, padding: isMobile ? "0 12px" : "0 24px" }}>
         <div>
+          {/* Heatmap view */}
+          {viewMode === "heatmap" && tab === "akcje" && !isMobile && (
+            <Heatmap stocks={STOCKS} prices={prices} changes={changes} theme={theme} onSelect={setSelected} />
+          )}
+
           {/* Controls */}
           <div style={{ display: "flex", gap: 8, marginBottom: 12, flexWrap: "wrap" }}>
             <input value={search} onChange={e => { setSearch(e.target.value); setPage(1); }} placeholder="Szukaj..."
@@ -584,6 +820,7 @@ export default function WigMarkets() {
               <table style={{ width: "100%", borderCollapse: "collapse", fontSize: isMobile ? 12 : 13, minWidth: isMobile ? "auto" : 600 }}>
                 <thead>
                   <tr>
+                    <th style={{ padding: isMobile ? "8px 4px" : "10px 8px", borderBottom: `1px solid ${theme.border}`, width: 28 }}></th>
                     {!isMobile && col("#", "id", false)}
                     <th style={{ padding: isMobile ? "8px 10px" : "10px 16px", textAlign: "left", fontSize: 10, color: theme.textSecondary, borderBottom: `1px solid ${theme.border}`, fontWeight: 600, letterSpacing: 1, textTransform: "uppercase" }}>Instrument</th>
                     {col("Kurs", "price")}
@@ -604,6 +841,9 @@ export default function WigMarkets() {
                       <tr key={s.id} onClick={() => setSelected(s)} style={{ borderBottom: `1px solid ${theme.bgCardAlt}`, cursor: "pointer" }}
                         onMouseEnter={e => e.currentTarget.style.background = theme.bgCardAlt}
                         onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
+                        <td style={{ padding: isMobile ? "10px 4px" : "10px 8px", textAlign: "center" }}>
+                          <WatchStar active={watchlist.has(s.ticker)} onClick={() => toggleWatch(s.ticker)} theme={theme} />
+                        </td>
                         {!isMobile && <td style={{ padding: "10px 16px", color: theme.textSecondary, fontSize: 11 }}>{(page - 1) * PER_PAGE + i + 1}</td>}
                         <td style={{ padding: isMobile ? "10px 10px" : "10px 16px" }}>
                           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
@@ -652,6 +892,7 @@ export default function WigMarkets() {
         {!isMobile && (
           <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
             <FearGauge value={62} isMobile={false} theme={theme} />
+            {tab === "akcje" && <SectorDonut stocks={STOCKS} theme={theme} />}
             <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: 18 }}>
               <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Top wzrosty 24h</div>
               {topGainers.map(s => (
