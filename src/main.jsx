@@ -35,6 +35,13 @@ async function fetchStooq(symbol) {
   } catch { return null; }
 }
 
+async function fetchBulk(symbols) {
+  try {
+    const res = await fetch(`/api/gpw-bulk?symbols=${symbols.join(",")}`);
+    return await res.json();
+  } catch { return {}; }
+}
+
 async function fetchHistory(symbol) {
   try {
     const res = await fetch(`/api/history?symbol=${symbol}`);
@@ -52,66 +59,139 @@ async function fetchIndices() {
 }
 
 const STOCKS = [
-  { id: 1, ticker: "PKN", stooq: "pkn", name: "PKN ORLEN", sector: "Energetyka", price: 106, change24h: 0, change7d: 0, cap: 74500, pe: 8.2, div: 5.1 },
-  { id: 2, ticker: "PKO", stooq: "pko", name: "PKO Bank Polski", sector: "Banki", price: 89, change24h: 0, change7d: 0, cap: 58200, pe: 10.1, div: 6.8 },
-  { id: 3, ticker: "PZU", stooq: "pzu", name: "PZU SA", sector: "Ubezpieczenia", price: 68, change24h: 0, change7d: 0, cap: 41800, pe: 11.3, div: 8.2 },
-  { id: 4, ticker: "KGH", stooq: "kgh", name: "KGHM Polska Miedź", sector: "Surowce", price: 285, change24h: 0, change7d: 0, cap: 35600, pe: 12.8, div: 3.5 },
-  { id: 5, ticker: "CDR", stooq: "cdr", name: "CD Projekt", sector: "Technologia", price: 244, change24h: 0, change7d: 0, cap: 17200, pe: 35.6, div: 0 },
-  { id: 6, ticker: "LPP", stooq: "lpp", name: "LPP SA", sector: "Handel", price: 20470, change24h: 0, change7d: 0, cap: 31400, pe: 28.4, div: 1.2 },
-  { id: 7, ticker: "ALE", stooq: "ale", name: "Allegro.eu", sector: "E-commerce", price: 29, change24h: 0, change7d: 0, cap: 24600, pe: 22.1, div: 0 },
-  { id: 8, ticker: "PEO", stooq: "peo", name: "Bank Pekao", sector: "Banki", price: 224, change24h: 0, change7d: 0, cap: 18700, pe: 9.5, div: 7.4 },
-  { id: 9, ticker: "DNP", stooq: "dnp", name: "Dino Polska", sector: "Handel", price: 398, change24h: 0, change7d: 0, cap: 15300, pe: 24.7, div: 0 },
-  { id: 10, ticker: "JSW", stooq: "jsw", name: "JSW SA", sector: "Surowce", price: 24, change24h: 0, change7d: 0, cap: 4200, pe: 4.1, div: 0 },
-  { id: 11, ticker: "CCC", stooq: "ccc", name: "CCC SA", sector: "Handel", price: 82, change24h: 0, change7d: 0, cap: 6800, pe: 0, div: 0 },
-  { id: 12, ticker: "PGE", stooq: "pge", name: "PGE Polska Grupa Energetyczna", sector: "Energetyka", price: 10, change24h: 0, change7d: 0, cap: 14100, pe: 6.8, div: 4.2 },
-  { id: 13, ticker: "KTY", stooq: "kty", name: "Grupa Kęty", sector: "Przemysł", price: 580, change24h: 0, change7d: 0, cap: 5200, pe: 14.2, div: 3.8 },
-  { id: 14, ticker: "MBK", stooq: "mbk", name: "mBank", sector: "Banki", price: 620, change24h: 0, change7d: 0, cap: 8900, pe: 11.8, div: 2.1 },
-  { id: 15, ticker: "OPL", stooq: "opl", name: "Orange Polska", sector: "Telekomunikacja", price: 9.2, change24h: 0, change7d: 0, cap: 6100, pe: 18.4, div: 5.5 },
-  { id: 16, ticker: "PCR", stooq: "pcr", name: "Polskie Górnictwo Naftowe", sector: "Energetyka", price: 6.8, change24h: 0, change7d: 0, cap: 11200, pe: 7.2, div: 6.1 },
-  { id: 17, ticker: "TPE", stooq: "tpe", name: "Tauron Polska Energia", sector: "Energetyka", price: 3.4, change24h: 0, change7d: 0, cap: 4800, pe: 5.9, div: 0 },
-  { id: 18, ticker: "GPW", stooq: "gpw", name: "Giełda Papierów Wartościowych", sector: "Finanse", price: 42, change24h: 0, change7d: 0, cap: 1700, pe: 16.3, div: 7.2 },
-  { id: 19, ticker: "ACP", stooq: "acp", name: "Asseco Poland", sector: "Technologia", price: 78, change24h: 0, change7d: 0, cap: 4100, pe: 19.8, div: 4.3 },
-  { id: 20, ticker: "GTC", stooq: "gtc", name: "Globe Trade Centre", sector: "Nieruchomości", price: 5.2, change24h: 0, change7d: 0, cap: 1900, pe: 0, div: 3.2 },
-  { id: 21, ticker: "BDX", stooq: "bdx", name: "Budimex", sector: "Budownictwo", price: 890, change24h: 0, change7d: 0, cap: 5900, pe: 18.2, div: 6.1 },
-  { id: 22, ticker: "ENG", stooq: "eng", name: "Energa", sector: "Energetyka", price: 8.2, change24h: 0, change7d: 0, cap: 3400, pe: 9.1, div: 3.2 },
-  { id: 23, ticker: "EUR", stooq: "eur", name: "Eurocash", sector: "Handel", price: 14.5, change24h: 0, change7d: 0, cap: 1800, pe: 12.4, div: 2.1 },
-  { id: 24, ticker: "MRC", stooq: "mrc", name: "Mercator Medical", sector: "Medycyna", price: 42, change24h: 0, change7d: 0, cap: 890, pe: 8.7, div: 0 },
-  { id: 25, ticker: "AMR", stooq: "amr", name: "Amrest Holdings", sector: "Restauracje", price: 6.8, change24h: 0, change7d: 0, cap: 2100, pe: 0, div: 0 },
-  { id: 26, ticker: "BIO", stooq: "bio", name: "Biomed-Lublin", sector: "Medycyna", price: 3.2, change24h: 0, change7d: 0, cap: 210, pe: 0, div: 0 },
-  { id: 27, ticker: "CIG", stooq: "cig", name: "Cinema City International", sector: "Rozrywka", price: 8.9, change24h: 0, change7d: 0, cap: 1200, pe: 0, div: 0 },
-  { id: 28, ticker: "ING", stooq: "ing", name: "ING Bank Śląski", sector: "Banki", price: 240, change24h: 0, change7d: 0, cap: 12800, pe: 13.2, div: 5.8 },
-  { id: 29, ticker: "SNK", stooq: "snk", name: "Sanok Rubber Company", sector: "Przemysł", price: 28, change24h: 0, change7d: 0, cap: 620, pe: 11.4, div: 4.2 },
-  { id: 30, ticker: "MIL", stooq: "mil", name: "Bank Millennium", sector: "Banki", price: 9.8, change24h: 0, change7d: 0, cap: 4200, pe: 8.9, div: 3.1 },
-  { id: 31, ticker: "ALR", stooq: "alr", name: "Alior Bank", sector: "Banki", price: 78, change24h: 0, change7d: 0, cap: 3800, pe: 7.2, div: 2.4 },
-  { id: 32, ticker: "CAR", stooq: "car", name: "Carrefour Polska", sector: "Handel", price: 18.4, change24h: 0, change7d: 0, cap: 2100, pe: 14.1, div: 3.8 },
-  { id: 33, ticker: "ATT", stooq: "att", name: "Amica", sector: "AGD", price: 98, change24h: 0, change7d: 0, cap: 780, pe: 12.3, div: 3.5 },
-  { id: 34, ticker: "TEN", stooq: "ten", name: "Tenders.pl", sector: "Technologia", price: 4.2, change24h: 0, change7d: 0, cap: 320, pe: 0, div: 0 },
-  { id: 35, ticker: "VGO", stooq: "vgo", name: "Vigo Photonics", sector: "Technologia", price: 210, change24h: 0, change7d: 0, cap: 890, pe: 28.4, div: 0 },
-  { id: 36, ticker: "ZEP", stooq: "zep", name: "ZE PAK", sector: "Energetyka", price: 34, change24h: 0, change7d: 0, cap: 1200, pe: 6.4, div: 4.1 },
-  { id: 37, ticker: "TRK", stooq: "trk", name: "Trakcja", sector: "Budownictwo", price: 2.8, change24h: 0, change7d: 0, cap: 280, pe: 0, div: 0 },
-  { id: 38, ticker: "HRP", stooq: "hrp", name: "Harper Hygienics", sector: "FMCG", price: 5.6, change24h: 0, change7d: 0, cap: 180, pe: 14.2, div: 2.1 },
-  { id: 39, ticker: "PCO", stooq: "pco", name: "Polskie Centrum Opieki", sector: "Medycyna", price: 12.4, change24h: 0, change7d: 0, cap: 420, pe: 18.9, div: 0 },
-  { id: 40, ticker: "VRG", stooq: "vrg", name: "VRG SA", sector: "Handel", price: 6.2, change24h: 0, change7d: 0, cap: 580, pe: 9.8, div: 3.4 },
-  { id: 41, ticker: "ACG", stooq: "acg", name: "Accolade", sector: "Nieruchomości", price: 38, change24h: 0, change7d: 0, cap: 1400, pe: 0, div: 4.2 },
-  { id: 42, ticker: "MAB", stooq: "mab", name: "Mabion", sector: "Biotechnologia", price: 28, change24h: 0, change7d: 0, cap: 420, pe: 0, div: 0 },
-  { id: 43, ticker: "PKP", stooq: "pkp", name: "PKP Cargo", sector: "Transport", price: 24, change24h: 0, change7d: 0, cap: 890, pe: 0, div: 0 },
-  { id: 44, ticker: "EMC", stooq: "emc", name: "EMC Instytut Medyczny", sector: "Medycyna", price: 18, change24h: 0, change7d: 0, cap: 230, pe: 16.4, div: 2.8 },
-  { id: 45, ticker: "ABS", stooq: "abs", name: "Abstra", sector: "Technologia", price: 8.4, change24h: 0, change7d: 0, cap: 140, pe: 0, div: 0 },
-  { id: 46, ticker: "PCX", stooq: "pcx", name: "Polimex-Mostostal", sector: "Budownictwo", price: 3.8, change24h: 0, change7d: 0, cap: 680, pe: 0, div: 0 },
-  { id: 47, ticker: "NTT", stooq: "ntt", name: "NTT System", sector: "Technologia", price: 2.4, change24h: 0, change7d: 0, cap: 98, pe: 12.1, div: 0 },
-  { id: 48, ticker: "OAT", stooq: "oat", name: "Oat Foods", sector: "Spożywczy", price: 4.8, change24h: 0, change7d: 0, cap: 210, pe: 14.8, div: 1.2 },
-  { id: 49, ticker: "KRU", stooq: "kru", name: "Kruk SA", sector: "Finanse", price: 380, change24h: 0, change7d: 0, cap: 4800, pe: 12.4, div: 3.8 },
-  { id: 50, ticker: "HBP", stooq: "hbp", name: "Huuuge Games", sector: "Gry", price: 18, change24h: 0, change7d: 0, cap: 680, pe: 0, div: 0 },
-  { id: 51, ticker: "SGN", stooq: "sgn", name: "Selvita", sector: "Biotechnologia", price: 62, change24h: 0, change7d: 0, cap: 580, pe: 0, div: 0 },
-  { id: 52, ticker: "CNT", stooq: "cnt", name: "Centurion Finance", sector: "Finanse", price: 1.8, change24h: 0, change7d: 0, cap: 89, pe: 0, div: 0 },
-  { id: 53, ticker: "BFT", stooq: "bft", name: "Benefit Systems", sector: "HR/Benefity", price: 580, change24h: 0, change7d: 0, cap: 3200, pe: 24.8, div: 2.1 },
-  { id: 54, ticker: "RFK", stooq: "rfk", name: "Rafako", sector: "Przemysł", price: 1.2, change24h: 0, change7d: 0, cap: 210, pe: 0, div: 0 },
-  { id: 55, ticker: "SKA", stooq: "ska", name: "Skarbiec Holding", sector: "Finanse", price: 28, change24h: 0, change7d: 0, cap: 180, pe: 14.2, div: 5.8 },
-  { id: 56, ticker: "WAR", stooq: "war", name: "Wawel SA", sector: "Spożywczy", price: 980, change24h: 0, change7d: 0, cap: 890, pe: 16.4, div: 4.2 },
-  { id: 57, ticker: "MWT", stooq: "mwt", name: "Mewa Textil", sector: "Przemysł", price: 12, change24h: 0, change7d: 0, cap: 140, pe: 8.9, div: 3.1 },
-  { id: 58, ticker: "PHN", stooq: "phn", name: "Polski Holding Nieruchomości", sector: "Nieruchomości", price: 42, change24h: 0, change7d: 0, cap: 1800, pe: 0, div: 4.8 },
-  { id: 59, ticker: "FCE", stooq: "fce", name: "Force Entertainment", sector: "Rozrywka", price: 3.4, change24h: 0, change7d: 0, cap: 120, pe: 0, div: 0 },
-  { id: 60, ticker: "ELT", stooq: "elt", name: "Eltel Networks", sector: "Telekomunikacja", price: 8.9, change24h: 0, change7d: 0, cap: 340, pe: 0, div: 0 },
+  // ─── WIG20 ───────────────────────────────────────────────────
+  { id: 1, ticker: "PKN", stooq: "pkn", name: "PKN ORLEN", sector: "Energetyka", price: 0, cap: 74500, pe: 8.2, div: 5.1 },
+  { id: 2, ticker: "PKO", stooq: "pko", name: "PKO Bank Polski", sector: "Banki", price: 0, cap: 58200, pe: 10.1, div: 6.8 },
+  { id: 3, ticker: "PZU", stooq: "pzu", name: "PZU SA", sector: "Ubezpieczenia", price: 0, cap: 41800, pe: 11.3, div: 8.2 },
+  { id: 4, ticker: "KGH", stooq: "kgh", name: "KGHM Polska Miedź", sector: "Surowce", price: 0, cap: 35600, pe: 12.8, div: 3.5 },
+  { id: 5, ticker: "CDR", stooq: "cdr", name: "CD Projekt", sector: "Gry", price: 0, cap: 17200, pe: 35.6, div: 0 },
+  { id: 6, ticker: "LPP", stooq: "lpp", name: "LPP SA", sector: "Handel", price: 0, cap: 31400, pe: 28.4, div: 1.2 },
+  { id: 7, ticker: "ALE", stooq: "ale", name: "Allegro.eu", sector: "E-commerce", price: 0, cap: 24600, pe: 22.1, div: 0 },
+  { id: 8, ticker: "PEO", stooq: "peo", name: "Bank Pekao", sector: "Banki", price: 0, cap: 18700, pe: 9.5, div: 7.4 },
+  { id: 9, ticker: "DNP", stooq: "dnp", name: "Dino Polska", sector: "Handel", price: 0, cap: 15300, pe: 24.7, div: 0 },
+  { id: 10, ticker: "SPL", stooq: "spl", name: "Santander Bank Polska", sector: "Banki", price: 0, cap: 14200, pe: 10.8, div: 5.2 },
+  { id: 11, ticker: "CPS", stooq: "cps", name: "Cyfrowy Polsat", sector: "Media", price: 0, cap: 12400, pe: 9.2, div: 4.8 },
+  { id: 12, ticker: "ING", stooq: "ing", name: "ING Bank Śląski", sector: "Banki", price: 0, cap: 12800, pe: 13.2, div: 5.8 },
+  { id: 13, ticker: "PGE", stooq: "pge", name: "PGE Polska Grupa Energetyczna", sector: "Energetyka", price: 0, cap: 14100, pe: 6.8, div: 4.2 },
+  { id: 14, ticker: "MBK", stooq: "mbk", name: "mBank", sector: "Banki", price: 0, cap: 8900, pe: 11.8, div: 2.1 },
+  { id: 15, ticker: "KTY", stooq: "kty", name: "Grupa Kęty", sector: "Przemysł", price: 0, cap: 5200, pe: 14.2, div: 3.8 },
+  { id: 16, ticker: "JSW", stooq: "jsw", name: "JSW SA", sector: "Surowce", price: 0, cap: 4200, pe: 4.1, div: 0 },
+  { id: 17, ticker: "BDX", stooq: "bdx", name: "Budimex", sector: "Budownictwo", price: 0, cap: 5900, pe: 18.2, div: 6.1 },
+  { id: 18, ticker: "KRU", stooq: "kru", name: "Kruk SA", sector: "Finanse", price: 0, cap: 4800, pe: 12.4, div: 3.8 },
+  { id: 19, ticker: "CCC", stooq: "ccc", name: "CCC SA", sector: "Handel", price: 0, cap: 6800, pe: 0, div: 0 },
+  { id: 20, ticker: "OPL", stooq: "opl", name: "Orange Polska", sector: "Telekomunikacja", price: 0, cap: 6100, pe: 18.4, div: 5.5 },
+  // ─── mWIG40 ──────────────────────────────────────────────────
+  { id: 21, ticker: "TPE", stooq: "tpe", name: "Tauron Polska Energia", sector: "Energetyka", price: 0, cap: 4800, pe: 5.9, div: 0 },
+  { id: 22, ticker: "ACP", stooq: "acp", name: "Asseco Poland", sector: "Technologia", price: 0, cap: 4100, pe: 19.8, div: 4.3 },
+  { id: 23, ticker: "ALR", stooq: "alr", name: "Alior Bank", sector: "Banki", price: 0, cap: 3800, pe: 7.2, div: 2.4 },
+  { id: 24, ticker: "MIL", stooq: "mil", name: "Bank Millennium", sector: "Banki", price: 0, cap: 4200, pe: 8.9, div: 3.1 },
+  { id: 25, ticker: "BHW", stooq: "bhw", name: "Bank Handlowy", sector: "Banki", price: 0, cap: 3600, pe: 10.4, div: 8.2 },
+  { id: 26, ticker: "AMR", stooq: "eat", name: "AmRest Holdings", sector: "Restauracje", price: 0, cap: 2100, pe: 0, div: 0 },
+  { id: 27, ticker: "BFT", stooq: "bft", name: "Benefit Systems", sector: "HR/Benefity", price: 0, cap: 3200, pe: 24.8, div: 2.1 },
+  { id: 28, ticker: "CMR", stooq: "cmr", name: "Comarch", sector: "Technologia", price: 0, cap: 2800, pe: 22.4, div: 1.8 },
+  { id: 29, ticker: "DOM", stooq: "dom", name: "Dom Development", sector: "Nieruchomości", price: 0, cap: 3100, pe: 8.4, div: 9.2 },
+  { id: 30, ticker: "ENA", stooq: "ena", name: "Enea SA", sector: "Energetyka", price: 0, cap: 4200, pe: 5.4, div: 0 },
+  { id: 31, ticker: "EUR", stooq: "eur", name: "Eurocash", sector: "Handel", price: 0, cap: 1800, pe: 12.4, div: 2.1 },
+  { id: 32, ticker: "GPW", stooq: "gpw", name: "Giełda Papierów Wartościowych", sector: "Finanse", price: 0, cap: 1700, pe: 16.3, div: 7.2 },
+  { id: 33, ticker: "GTC", stooq: "gtc", name: "Globe Trade Centre", sector: "Nieruchomości", price: 0, cap: 1900, pe: 0, div: 3.2 },
+  { id: 34, ticker: "LVC", stooq: "lvc", name: "LiveChat Software", sector: "Technologia", price: 0, cap: 2800, pe: 18.6, div: 4.1 },
+  { id: 35, ticker: "NEU", stooq: "neu", name: "Neuca SA", sector: "Medycyna", price: 0, cap: 2400, pe: 14.2, div: 3.2 },
+  { id: 36, ticker: "CIE", stooq: "cie", name: "Ciech SA", sector: "Chemia", price: 0, cap: 2100, pe: 8.6, div: 0 },
+  { id: 37, ticker: "DVL", stooq: "dvl", name: "Develia", sector: "Nieruchomości", price: 0, cap: 1800, pe: 6.2, div: 5.8 },
+  { id: 38, ticker: "ECH", stooq: "ech", name: "Echo Investment", sector: "Nieruchomości", price: 0, cap: 1600, pe: 7.8, div: 6.4 },
+  { id: 39, ticker: "ENG", stooq: "eng", name: "Energa SA", sector: "Energetyka", price: 0, cap: 3400, pe: 9.1, div: 3.2 },
+  { id: 40, ticker: "XTB", stooq: "xtb", name: "XTB SA", sector: "Finanse", price: 0, cap: 6200, pe: 9.8, div: 8.4 },
+  { id: 41, ticker: "TXT", stooq: "txt", name: "Text SA (LiveChat)", sector: "Technologia", price: 0, cap: 3400, pe: 16.2, div: 4.8 },
+  { id: 42, ticker: "WPL", stooq: "wpl", name: "Wirtualna Polska", sector: "Media", price: 0, cap: 2200, pe: 14.8, div: 2.4 },
+  { id: 43, ticker: "ASE", stooq: "ase", name: "Asseco SEE", sector: "Technologia", price: 0, cap: 2100, pe: 16.8, div: 2.8 },
+  { id: 44, ticker: "MRC", stooq: "mrc", name: "Mercator Medical", sector: "Medycyna", price: 0, cap: 890, pe: 8.7, div: 0 },
+  { id: 45, ticker: "LWB", stooq: "lwb", name: "Bogdanka (LW Bogdanka)", sector: "Surowce", price: 0, cap: 2400, pe: 6.2, div: 5.4 },
+  { id: 46, ticker: "ATT", stooq: "att", name: "Grupa Azoty", sector: "Chemia", price: 0, cap: 2800, pe: 0, div: 0 },
+  { id: 47, ticker: "PHN", stooq: "phn", name: "Polski Holding Nieruchomości", sector: "Nieruchomości", price: 0, cap: 1800, pe: 0, div: 4.8 },
+  { id: 48, ticker: "MAB", stooq: "mab", name: "Mabion", sector: "Biotechnologia", price: 0, cap: 420, pe: 0, div: 0 },
+  { id: 49, ticker: "CAR", stooq: "car", name: "Inter Cars", sector: "Motoryzacja", price: 0, cap: 4200, pe: 12.1, div: 2.4 },
+  { id: 50, ticker: "PXM", stooq: "pxm", name: "Polimex-Mostostal", sector: "Budownictwo", price: 0, cap: 680, pe: 0, div: 0 },
+  { id: 51, ticker: "STP", stooq: "stp", name: "Stalprodukt", sector: "Przemysł", price: 0, cap: 1200, pe: 10.4, div: 4.2 },
+  { id: 52, ticker: "APR", stooq: "apr", name: "Auto Partner", sector: "Motoryzacja", price: 0, cap: 1600, pe: 11.2, div: 2.8 },
+  { id: 53, ticker: "PKP", stooq: "pkp", name: "PKP Cargo", sector: "Transport", price: 0, cap: 890, pe: 0, div: 0 },
+  { id: 54, ticker: "ATC", stooq: "atc", name: "Arctic Paper", sector: "Przemysł", price: 0, cap: 920, pe: 5.8, div: 6.2 },
+  { id: 55, ticker: "1AT", stooq: "1at", name: "Atal SA", sector: "Nieruchomości", price: 0, cap: 2100, pe: 7.4, div: 8.6 },
+  // ─── sWIG80 (wybrane) ────────────────────────────────────────
+  { id: 56, ticker: "VGO", stooq: "vgo", name: "Vigo Photonics", sector: "Technologia", price: 0, cap: 890, pe: 28.4, div: 0 },
+  { id: 57, ticker: "WAR", stooq: "war", name: "Wawel SA", sector: "Spożywczy", price: 0, cap: 890, pe: 16.4, div: 4.2 },
+  { id: 58, ticker: "SNK", stooq: "snk", name: "Sanok Rubber Company", sector: "Przemysł", price: 0, cap: 620, pe: 11.4, div: 4.2 },
+  { id: 59, ticker: "SGN", stooq: "sgn", name: "Selvita", sector: "Biotechnologia", price: 0, cap: 580, pe: 0, div: 0 },
+  { id: 60, ticker: "SKA", stooq: "ska", name: "Skarbiec Holding", sector: "Finanse", price: 0, cap: 180, pe: 14.2, div: 5.8 },
+  { id: 61, ticker: "11B", stooq: "11b", name: "11 bit studios", sector: "Gry", price: 0, cap: 1400, pe: 32.6, div: 0 },
+  { id: 62, ticker: "HUG", stooq: "hug", name: "Huuuge Inc.", sector: "Gry", price: 0, cap: 680, pe: 0, div: 0 },
+  { id: 63, ticker: "TEN", stooq: "ten", name: "Ten Square Games", sector: "Gry", price: 0, cap: 320, pe: 0, div: 0 },
+  { id: 64, ticker: "PCR", stooq: "pcr", name: "PGNiG (zintegrowane z PKN)", sector: "Energetyka", price: 0, cap: 11200, pe: 7.2, div: 6.1 },
+  { id: 65, ticker: "NTT", stooq: "ntt", name: "NTT System", sector: "Technologia", price: 0, cap: 98, pe: 12.1, div: 0 },
+  { id: 66, ticker: "ZEP", stooq: "zep", name: "ZE PAK", sector: "Energetyka", price: 0, cap: 1200, pe: 6.4, div: 4.1 },
+  { id: 67, ticker: "VRG", stooq: "vrg", name: "VRG SA", sector: "Handel", price: 0, cap: 580, pe: 9.8, div: 3.4 },
+  { id: 68, ticker: "TRK", stooq: "trk", name: "Trakcja SA", sector: "Budownictwo", price: 0, cap: 280, pe: 0, div: 0 },
+  { id: 69, ticker: "VOX", stooq: "vox", name: "Voxel SA", sector: "Medycyna", price: 0, cap: 480, pe: 14.2, div: 2.8 },
+  { id: 70, ticker: "TOA", stooq: "toa", name: "Toya SA", sector: "Handel", price: 0, cap: 320, pe: 8.4, div: 3.2 },
+  { id: 71, ticker: "KER", stooq: "ker", name: "Kernel Holding", sector: "Rolnictwo", price: 0, cap: 1200, pe: 0, div: 0 },
+  { id: 72, ticker: "ENT", stooq: "ent", name: "Enter Air", sector: "Transport", price: 0, cap: 420, pe: 6.8, div: 0 },
+  { id: 73, ticker: "CLN", stooq: "cln", name: "Clovin SA", sector: "FMCG", price: 0, cap: 140, pe: 0, div: 0 },
+  { id: 74, ticker: "WLT", stooq: "wlt", name: "Wielton SA", sector: "Przemysł", price: 0, cap: 680, pe: 8.4, div: 3.2 },
+  { id: 75, ticker: "RFK", stooq: "rfk", name: "Rafako SA", sector: "Przemysł", price: 0, cap: 210, pe: 0, div: 0 },
+  { id: 76, ticker: "RBW", stooq: "rbw", name: "Rainbow Tours", sector: "Turystyka", price: 0, cap: 680, pe: 10.2, div: 2.4 },
+  { id: 77, ticker: "IZO", stooq: "izo", name: "Izolacja Jarocin", sector: "Budownictwo", price: 0, cap: 120, pe: 0, div: 0 },
+  { id: 78, ticker: "ABS", stooq: "abs", name: "Asseco Business Solutions", sector: "Technologia", price: 0, cap: 1400, pe: 18.4, div: 4.2 },
+  { id: 79, ticker: "AGO", stooq: "ago", name: "Agora SA", sector: "Media", price: 0, cap: 620, pe: 0, div: 0 },
+  { id: 80, ticker: "AMC", stooq: "amc", name: "Amica SA", sector: "AGD", price: 0, cap: 780, pe: 12.3, div: 3.5 },
+  { id: 81, ticker: "BIO", stooq: "bio", name: "Bioton SA", sector: "Biotechnologia", price: 0, cap: 210, pe: 0, div: 0 },
+  { id: 82, ticker: "EMC", stooq: "emc", name: "EMC Instytut Medyczny", sector: "Medycyna", price: 0, cap: 230, pe: 16.4, div: 2.8 },
+  { id: 83, ticker: "EAT", stooq: "eat", name: "AmRest Holdings", sector: "Restauracje", price: 0, cap: 4200, pe: 18.2, div: 0 },
+  { id: 84, ticker: "CIG", stooq: "cig", name: "CI Games", sector: "Gry", price: 0, cap: 1200, pe: 0, div: 0 },
+  { id: 85, ticker: "MBR", stooq: "mbr", name: "Mo-BRUK", sector: "Ekologia", price: 0, cap: 1800, pe: 14.2, div: 5.8 },
+  { id: 86, ticker: "MFO", stooq: "mfo", name: "MFO SA", sector: "Przemysł", price: 0, cap: 320, pe: 8.4, div: 6.2 },
+  { id: 87, ticker: "PLW", stooq: "plw", name: "Playway SA", sector: "Gry", price: 0, cap: 1600, pe: 12.8, div: 6.4 },
+  { id: 88, ticker: "SLV", stooq: "slv", name: "Silvair", sector: "Technologia", price: 0, cap: 80, pe: 0, div: 0 },
+  { id: 89, ticker: "GRN", stooq: "grn", name: "Grenevia (Famur)", sector: "Przemysł", price: 0, cap: 1400, pe: 0, div: 0 },
+  { id: 90, ticker: "TOR", stooq: "tor", name: "Torowa", sector: "Budownictwo", price: 0, cap: 180, pe: 0, div: 0 },
+  { id: 91, ticker: "UNI", stooq: "uni", name: "Unimot SA", sector: "Energetyka", price: 0, cap: 680, pe: 6.4, div: 4.2 },
+  { id: 92, ticker: "ZWC", stooq: "zwc", name: "Żywiec SA", sector: "Spożywczy", price: 0, cap: 2800, pe: 18.4, div: 6.8 },
+  { id: 93, ticker: "MRB", stooq: "mrb", name: "Mirbud SA", sector: "Budownictwo", price: 0, cap: 680, pe: 6.8, div: 3.2 },
+  { id: 94, ticker: "KST", stooq: "kst", name: "Konsorcjum Stali", sector: "Przemysł", price: 0, cap: 420, pe: 8.2, div: 4.8 },
+  { id: 95, ticker: "MOL", stooq: "mol", name: "Monnari Trade", sector: "Handel", price: 0, cap: 140, pe: 0, div: 0 },
+  { id: 96, ticker: "STX", stooq: "stx", name: "Stalprofil SA", sector: "Przemysł", price: 0, cap: 320, pe: 6.2, div: 5.4 },
+  { id: 97, ticker: "WWL", stooq: "wwl", name: "Wawrzaszek ISS", sector: "Technologia", price: 0, cap: 80, pe: 0, div: 0 },
+  { id: 98, ticker: "MLB", stooq: "mlb", name: "Milog SA", sector: "Transport", price: 0, cap: 120, pe: 0, div: 0 },
+  { id: 99, ticker: "OPN", stooq: "opn", name: "Oponeo.pl", sector: "E-commerce", price: 0, cap: 480, pe: 14.2, div: 2.4 },
+  { id: 100, ticker: "KGN", stooq: "kgn", name: "Kogeneracja SA", sector: "Energetyka", price: 0, cap: 890, pe: 10.2, div: 4.8 },
+  { id: 101, ticker: "IMP", stooq: "imp", name: "Impel SA", sector: "Usługi", price: 0, cap: 280, pe: 0, div: 0 },
+  { id: 102, ticker: "ELT", stooq: "elt", name: "Elemental Holding", sector: "Surowce", price: 0, cap: 340, pe: 0, div: 0 },
+  { id: 103, ticker: "RPC", stooq: "rpc", name: "Relpol SA", sector: "Przemysł", price: 0, cap: 80, pe: 12.4, div: 4.8 },
+  { id: 104, ticker: "PEP", stooq: "pep", name: "Pepco Group", sector: "Handel", price: 0, cap: 8400, pe: 18.4, div: 0 },
+  { id: 105, ticker: "ZAP", stooq: "zap", name: "Grupa Azoty Puławy", sector: "Chemia", price: 0, cap: 1800, pe: 0, div: 0 },
+  { id: 106, ticker: "FMF", stooq: "fmf", name: "Ferro SA", sector: "Przemysł", price: 0, cap: 420, pe: 8.4, div: 5.2 },
+  { id: 107, ticker: "ACE", stooq: "ace", name: "Asseco Central Europe", sector: "Technologia", price: 0, cap: 680, pe: 14.8, div: 3.8 },
+  { id: 108, ticker: "AST", stooq: "ast", name: "ASBISc Enterprises", sector: "Technologia", price: 0, cap: 1200, pe: 6.4, div: 4.2 },
+  { id: 109, ticker: "KPL", stooq: "kpl", name: "Kęty Profiles (KETY)", sector: "Przemysł", price: 0, cap: 180, pe: 0, div: 0 },
+  { id: 110, ticker: "VIN", stooq: "vin", name: "Vindexus SA", sector: "Finanse", price: 0, cap: 140, pe: 8.2, div: 5.4 },
+  { id: 111, ticker: "DCR", stooq: "dcr", name: "Decora SA", sector: "Budownictwo", price: 0, cap: 320, pe: 10.8, div: 4.2 },
+  { id: 112, ticker: "SES", stooq: "ses", name: "Sescom SA", sector: "Technologia", price: 0, cap: 80, pe: 0, div: 0 },
+  { id: 113, ticker: "CNT", stooq: "cnt", name: "Centrum Nowoczesnych Technologii", sector: "Budownictwo", price: 0, cap: 89, pe: 0, div: 0 },
+  { id: 114, ticker: "SWG", stooq: "swg", name: "Śnieżka SA", sector: "Chemia", price: 0, cap: 1200, pe: 16.4, div: 4.8 },
+  { id: 115, ticker: "KRK", stooq: "krk", name: "Krka d.d.", sector: "Farmacja", price: 0, cap: 4800, pe: 12.8, div: 4.2 },
+  { id: 116, ticker: "ERB", stooq: "erb", name: "ERBud SA", sector: "Budownictwo", price: 0, cap: 420, pe: 5.8, div: 3.4 },
+  { id: 117, ticker: "ATA", stooq: "ata", name: "Atende SA", sector: "Technologia", price: 0, cap: 98, pe: 0, div: 0 },
+  { id: 118, ticker: "HRS", stooq: "hrs", name: "Horsehead Holding", sector: "Przemysł", price: 0, cap: 120, pe: 0, div: 0 },
+  { id: 119, ticker: "PGN", stooq: "pgn", name: "Polskie Górnictwo Naftowe i Gazownictwo", sector: "Energetyka", price: 0, cap: 11200, pe: 7.2, div: 6.1 },
+  { id: 120, ticker: "MSW", stooq: "msw", name: "Mostostal Warszawa", sector: "Budownictwo", price: 0, cap: 320, pe: 8.4, div: 0 },
+  { id: 121, ticker: "OVO", stooq: "ovo", name: "OVOcard SA", sector: "Finanse", price: 0, cap: 80, pe: 0, div: 0 },
+  { id: 122, ticker: "NET", stooq: "net", name: "Netia SA", sector: "Telekomunikacja", price: 0, cap: 620, pe: 12.4, div: 0 },
+  { id: 123, ticker: "MLG", stooq: "mlg", name: "ML System", sector: "Technologia", price: 0, cap: 320, pe: 0, div: 0 },
+  { id: 124, ticker: "SFG", stooq: "sfg", name: "Synektik SA", sector: "Medycyna", price: 0, cap: 480, pe: 22.4, div: 0 },
+  { id: 125, ticker: "VOT", stooq: "vot", name: "Votum SA", sector: "Finanse", price: 0, cap: 280, pe: 8.6, div: 4.2 },
+  { id: 126, ticker: "TIM", stooq: "tim", name: "TIM SA", sector: "Handel", price: 0, cap: 480, pe: 10.2, div: 3.8 },
+  { id: 127, ticker: "MDG", stooq: "mdg", name: "Medicalgorithmics", sector: "Medycyna", price: 0, cap: 140, pe: 0, div: 0 },
+  { id: 128, ticker: "APN", stooq: "apn", name: "Action SA", sector: "Technologia", price: 0, cap: 320, pe: 6.8, div: 2.4 },
+  { id: 129, ticker: "LBW", stooq: "lbw", name: "Lubawa SA", sector: "Obronność", price: 0, cap: 420, pe: 12.4, div: 2.8 },
+  { id: 130, ticker: "PCE", stooq: "pce", name: "PCC Exol", sector: "Chemia", price: 0, cap: 280, pe: 10.4, div: 4.8 },
 ];
 
 const COMMODITIES = [
@@ -625,7 +705,7 @@ export default function WigMarkets() {
   const [sortDir, setSortDir] = useState("desc");
   const [filter, setFilter] = useState("all");
   const [page, setPage] = useState(1);
-  const [prices, setPrices] = useState(() => Object.fromEntries([...STOCKS, ...COMMODITIES].map(s => [s.ticker, s.price])));
+  const [prices, setPrices] = useState({});
   const [changes, setChanges] = useState({});
   const [selected, setSelected] = useState(null);
   const [calcStock, setCalcStock] = useState(null);
@@ -666,17 +746,17 @@ export default function WigMarkets() {
 
   useEffect(() => {
     const activeData = tab === "akcje" ? STOCKS : COMMODITIES;
+    const symbols = activeData.map(item => item.stooq || item.ticker.toLowerCase());
     const fetchAll = async () => {
-      const results = await Promise.allSettled(
-        activeData.map(item => fetchStooq(item.stooq || item.ticker.toLowerCase()).then(data => ({ ticker: item.ticker, data })))
-      );
+      const bulk = await fetchBulk(symbols);
       const newPrices = {};
       const newChanges = {};
-      for (const result of results) {
-        if (result.status === "fulfilled" && result.value.data?.close) {
-          const { ticker, data } = result.value;
-          newPrices[ticker] = data.close;
-          newChanges[ticker] = { change24h: data.change24h ?? 0, change7d: data.change7d ?? 0 };
+      for (const item of activeData) {
+        const sym = item.stooq || item.ticker.toLowerCase();
+        const data = bulk[sym];
+        if (data?.close) {
+          newPrices[item.ticker] = data.close;
+          newChanges[item.ticker] = { change24h: data.change24h ?? 0, change7d: data.change7d ?? 0 };
         }
       }
       if (Object.keys(newPrices).length) {
