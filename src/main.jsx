@@ -188,6 +188,87 @@ function MiniChart({ data, color }) {
   );
 }
 
+function ProfitCalculatorModal({ stock, currentPrice, onClose, theme }) {
+  const [shares, setShares] = useState("");
+  const [buyPrice, setBuyPrice] = useState("");
+  const isMobile = useIsMobile();
+
+  const sharesNum = parseFloat(shares) || 0;
+  const buyPriceNum = parseFloat(buyPrice.replace(",", ".")) || 0;
+
+  const purchaseCost = sharesNum * buyPriceNum;
+  const currentValue = sharesNum * (currentPrice || 0);
+  const profitPLN = currentValue - purchaseCost;
+  const profitPct = buyPriceNum > 0 ? ((currentPrice - buyPriceNum) / buyPriceNum) * 100 : 0;
+  const hasCalc = sharesNum > 0 && buyPriceNum > 0;
+  const color = profitPLN >= 0 ? "#00c896" : "#ff4d6d";
+  const sign = (v) => (v >= 0 ? "+" : "");
+
+  return (
+    <div style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,0.85)", zIndex: 2000, display: "flex", alignItems: "center", justifyContent: "center", padding: isMobile ? 8 : 24 }} onClick={onClose}>
+      <div style={{ background: theme.bgCard, border: `1px solid ${theme.borderInput}`, borderRadius: 20, padding: isMobile ? 20 : 32, width: "100%", maxWidth: 460 }} onClick={e => e.stopPropagation()}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 22 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <div style={{ width: 40, height: 40, borderRadius: 10, background: "linear-gradient(135deg, #1f6feb22, #58a6ff33)", border: "1px solid #58a6ff44", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 18 }}>🧮</div>
+            <div>
+              <div style={{ fontWeight: 800, fontSize: 15, color: theme.textBright }}>Kalkulator zysku/straty</div>
+              <div style={{ fontSize: 11, color: theme.textSecondary }}>{stock.ticker} · {stock.name}</div>
+            </div>
+          </div>
+          <button onClick={onClose} style={{ background: theme.bgCardAlt, border: "none", borderRadius: 8, color: theme.textSecondary, width: 32, height: 32, fontSize: 18, cursor: "pointer" }}>×</button>
+        </div>
+
+        <div style={{ background: theme.bgCardAlt, borderRadius: 10, padding: "10px 14px", marginBottom: 20, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+          <span style={{ fontSize: 12, color: theme.textSecondary }}>Kurs bieżący</span>
+          <span style={{ fontWeight: 800, fontSize: 15, color: theme.textBright }}>{fmt(currentPrice)} {stock.unit || "zł"}</span>
+        </div>
+
+        <div style={{ display: "flex", flexDirection: "column", gap: 12, marginBottom: 20 }}>
+          <div>
+            <label style={{ display: "block", fontSize: 10, color: theme.textSecondary, marginBottom: 5, fontWeight: 600, textTransform: "uppercase", letterSpacing: 1 }}>Liczba akcji</label>
+            <input type="number" value={shares} onChange={e => setShares(e.target.value)} placeholder="np. 100" min="0"
+              style={{ width: "100%", background: theme.bgPage, border: `1px solid ${theme.borderInput}`, borderRadius: 8, padding: "10px 12px", color: theme.text, fontSize: 14, fontFamily: "inherit", outline: "none", boxSizing: "border-box" }} />
+          </div>
+          <div>
+            <label style={{ display: "block", fontSize: 10, color: theme.textSecondary, marginBottom: 5, fontWeight: 600, textTransform: "uppercase", letterSpacing: 1 }}>Cena zakupu ({stock.unit || "zł"})</label>
+            <input type="number" value={buyPrice} onChange={e => setBuyPrice(e.target.value)} placeholder={`np. ${fmt(currentPrice)}`} min="0" step="0.01"
+              style={{ width: "100%", background: theme.bgPage, border: `1px solid ${theme.borderInput}`, borderRadius: 8, padding: "10px 12px", color: theme.text, fontSize: 14, fontFamily: "inherit", outline: "none", boxSizing: "border-box" }} />
+          </div>
+        </div>
+
+        {hasCalc ? (
+          <div style={{ borderRadius: 12, border: `1px solid ${color}44`, background: `${color}0f`, padding: 20 }}>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginBottom: 16 }}>
+              <div style={{ background: theme.bgCardAlt, borderRadius: 8, padding: "10px 12px" }}>
+                <div style={{ fontSize: 10, color: theme.textSecondary, marginBottom: 4 }}>Wartość zakupu</div>
+                <div style={{ fontSize: 13, fontWeight: 700, color: theme.textBright }}>{fmt(purchaseCost)} {stock.unit || "zł"}</div>
+              </div>
+              <div style={{ background: theme.bgCardAlt, borderRadius: 8, padding: "10px 12px" }}>
+                <div style={{ fontSize: 10, color: theme.textSecondary, marginBottom: 4 }}>Wartość bieżąca</div>
+                <div style={{ fontSize: 13, fontWeight: 700, color: theme.textBright }}>{fmt(currentValue)} {stock.unit || "zł"}</div>
+              </div>
+            </div>
+            <div style={{ borderTop: `1px solid ${color}33`, paddingTop: 16, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+              <div>
+                <div style={{ fontSize: 10, color: theme.textSecondary, marginBottom: 4 }}>Zysk / Strata</div>
+                <div style={{ fontSize: isMobile ? 22 : 26, fontWeight: 800, color }}>{sign(profitPLN)}{fmt(profitPLN)} {stock.unit || "zł"}</div>
+              </div>
+              <div style={{ textAlign: "right" }}>
+                <div style={{ fontSize: 10, color: theme.textSecondary, marginBottom: 4 }}>Zwrot</div>
+                <div style={{ fontSize: isMobile ? 22 : 26, fontWeight: 800, color }}>{sign(profitPct)}{fmt(profitPct)}%</div>
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div style={{ textAlign: "center", padding: "20px 0", color: theme.textSecondary, fontSize: 12 }}>
+            Wprowadź liczbę akcji i cenę zakupu, aby zobaczyć wynik
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 function StockModal({ stock, price, change24h, change7d, onClose, theme }) {
   const [history, setHistory] = useState(null);
   const [range, setRange] = useState("1M");
@@ -345,6 +426,7 @@ export default function WigMarkets() {
   const [prices, setPrices] = useState(() => Object.fromEntries([...STOCKS, ...COMMODITIES].map(s => [s.ticker, s.price])));
   const [changes, setChanges] = useState({});
   const [selected, setSelected] = useState(null);
+  const [calcStock, setCalcStock] = useState(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem("theme") !== "light");
   const [indices, setIndices] = useState([]);
@@ -414,6 +496,7 @@ export default function WigMarkets() {
     <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Space Grotesk', 'Inter', sans-serif" }}>
 
       {selected && <StockModal stock={selected} price={prices[selected.ticker]} change24h={changes[selected.ticker]?.change24h ?? 0} change7d={changes[selected.ticker]?.change7d ?? 0} onClose={() => setSelected(null)} theme={theme} />}
+      {calcStock && <ProfitCalculatorModal stock={calcStock} currentPrice={prices[calcStock.ticker]} onClose={() => setCalcStock(null)} theme={theme} />}
 
       {/* Top bar */}
       <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, padding: "0 16px", overflowX: "auto" }}>
@@ -484,6 +567,7 @@ export default function WigMarkets() {
                     {!isMobile && col("7d %", "change7d")}
                     {!isMobile && tab === "akcje" && col("Kap.", "cap")}
                     {!isMobile && <th style={{ padding: "10px 16px", textAlign: "right", fontSize: 10, color: theme.textSecondary, borderBottom: `1px solid ${theme.border}`, fontWeight: 600 }}>7D</th>}
+                    <th style={{ padding: isMobile ? "8px 8px" : "10px 16px", borderBottom: `1px solid ${theme.border}` }}></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -514,6 +598,15 @@ export default function WigMarkets() {
                         {!isMobile && <td style={{ padding: "10px 16px", textAlign: "right", color: changeColor(c7d), fontSize: 12 }}>{changeFmt(c7d)}</td>}
                         {!isMobile && tab === "akcje" && <td style={{ padding: "10px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12 }}>{fmt(s.cap, 0)}</td>}
                         {!isMobile && <td style={{ padding: "10px 16px", textAlign: "right" }}><Sparkline trend={c7d} /></td>}
+                        <td style={{ padding: isMobile ? "6px 8px" : "10px 16px", textAlign: "right" }}>
+                          <button
+                            onClick={e => { e.stopPropagation(); setCalcStock(s); }}
+                            style={{ padding: isMobile ? "4px 7px" : "5px 11px", borderRadius: 6, border: `1px solid ${theme.borderInput}`, background: "transparent", color: theme.textSecondary, fontSize: isMobile ? 12 : 11, cursor: "pointer", fontFamily: "inherit", whiteSpace: "nowrap", lineHeight: 1.2 }}
+                            title="Kalkulator zysku/straty"
+                          >
+                            {isMobile ? "🧮" : "Kalkulator"}
+                          </button>
+                        </td>
                       </tr>
                     );
                   })}
