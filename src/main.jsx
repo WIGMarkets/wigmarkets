@@ -270,12 +270,6 @@ export default function WigMarkets() {
               <span style={{ fontSize: 11, color: idx.change24h >= 0 ? "#00c896" : "#ff4d6d" }}>{fmtIdxChange(idx.change24h)}</span>
             </div>
           ))}
-          {isMobile && indices.slice(0, 2).map(idx => (
-            <div key={idx.name} style={{ display: "flex", gap: 6, alignItems: "baseline", whiteSpace: "nowrap" }}>
-              <span style={{ color: theme.accent, fontWeight: 700, fontSize: 10 }}>{idx.name}</span>
-              <span style={{ fontSize: 11, color: idx.change24h >= 0 ? "#00c896" : "#ff4d6d" }}>{fmtIdxChange(idx.change24h)}</span>
-            </div>
-          ))}
           <button onClick={() => setDarkMode(d => !d)} style={{ marginLeft: "auto", background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "4px 10px", fontSize: 13, cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>
             {darkMode ? "Jasny" : "Ciemny"}
           </button>
@@ -293,20 +287,6 @@ export default function WigMarkets() {
       {/* Market Overview */}
       <div style={{ maxWidth: 1400, margin: "0 auto", padding: isMobile ? "10px 12px 0" : "16px 24px 0" }}>
         <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 12, display: "flex", overflowX: "auto", WebkitOverflowScrolling: "touch", scrollbarWidth: "none", msOverflowStyle: "none" }}>
-
-          {/* WIG20 */}
-          <div onClick={navigateToFearGreed} style={{ display: "flex", alignItems: "center", gap: 10, padding: isMobile ? "10px 14px" : "12px 20px", cursor: "pointer", flexShrink: 0 }}
-            onMouseEnter={e => e.currentTarget.style.background = theme.bgCardAlt}
-            onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
-            <MiniSpark data={wig20History} color={(indices[0]?.change24h ?? 0) >= 0 ? "#00c896" : "#ff4d6d"} />
-            <div>
-              <div style={{ fontSize: 9, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: 1, fontWeight: 700 }}>WIG20</div>
-              <div style={{ fontSize: 14, fontWeight: 800, color: theme.textBright }}>{indices[0]?.value ? fmtIdx(indices[0].value) : "—"}</div>
-              <div style={{ fontSize: 11, fontWeight: 700, color: (indices[0]?.change24h ?? 0) >= 0 ? "#00c896" : "#ff4d6d" }}>{fmtIdxChange(indices[0]?.change24h)}</div>
-            </div>
-          </div>
-
-          <div style={{ width: 1, background: theme.border, margin: "8px 0", flexShrink: 0 }} />
 
           {/* Top wzrost */}
           {topGainers[0] && (
