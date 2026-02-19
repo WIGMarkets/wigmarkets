@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import ReactDOM from "react-dom/client";
 import { DARK_THEME, LIGHT_THEME } from "./themes.js";
-import { fetchBulk, fetchIndices, fetchRedditTrends, fetchHistory } from "./api.js";
+import { fetchBulk, fetchIndices, fetchRedditTrends, fetchHistory, fetchDynamicList } from "./api.js";
 import { STOCKS, COMMODITIES, FOREX } from "./data/stocks.js";
 import { FEAR_HISTORY_YEAR } from "./data/constants.js";
 import { fmt, changeFmt, changeColor } from "./utils.js";
@@ -131,6 +131,10 @@ export default function WigMarkets() {
   const [alerts, setAlerts] = useState(loadAlerts);
   const [showPE, setShowPE] = useState(false);
   const [showDiv, setShowDiv] = useState(false);
+  // Dynamic stock list loaded from Vercel KV (populated by daily cron).
+  // Falls back to the hardcoded STOCKS array when KV is unavailable.
+  const [liveStocks, setLiveStocks] = useState(STOCKS);
+  const allInstruments = useMemo(() => [...liveStocks, ...COMMODITIES, ...FOREX], [liveStocks]);
   const searchRef = useRef(null);
   const PER_PAGE = 20;
   const theme = darkMode ? DARK_THEME : LIGHT_THEME;
@@ -191,6 +195,26 @@ export default function WigMarkets() {
     });
   };
 
+  // Load dynamic stock list from Vercel KV on mount (updated by daily cron).
+  // Also seeds initial quote prices so the table isn't blank on first render.
+  useEffect(() => {
+    fetchDynamicList().then(data => {
+      if (!data) return;
+      setLiveStocks(data.stocks);
+      const newPrices = {}, newChanges = {};
+      for (const [ticker, q] of Object.entries(data.quotes || {})) {
+        if (q?.close) {
+          newPrices[ticker] = q.close;
+          newChanges[ticker] = { change24h: q.change24h ?? 0, change7d: q.change7d ?? 0, volume: q.volume ?? 0 };
+        }
+      }
+      if (Object.keys(newPrices).length) {
+        setPrices(prev => ({ ...prev, ...newPrices }));
+        setChanges(prev => ({ ...prev, ...newChanges }));
+      }
+    });
+  }, []);
+
   useEffect(() => {
     const load = async () => {
       const data = await fetchIndices();
@@ -202,7 +226,7 @@ export default function WigMarkets() {
   }, []);
 
   useEffect(() => {
-    const activeData = tab === "watchlist" ? ALL_INSTRUMENTS : tab === "forex" ? FOREX : (tab === "akcje" || tab === "screener" || tab === "popularne") ? STOCKS : COMMODITIES;
+    const activeData = tab === "watchlist" ? allInstruments : tab === "forex" ? FOREX : (tab === "akcje" || tab === "screener" || tab === "popularne") ? liveStocks : COMMODITIES;
     const symbols = activeData.map(item => item.stooq || item.ticker.toLowerCase());
     const fetchAll = async () => {
       const bulk = await fetchBulk(symbols);
@@ -224,7 +248,7 @@ export default function WigMarkets() {
     fetchAll();
     const interval = setInterval(fetchAll, 60000);
     return () => clearInterval(interval);
-  }, [tab]);
+  }, [tab, liveStocks]);
 
   const [wig20History, setWig20History] = useState([]);
   useEffect(() => {
@@ -233,7 +257,7 @@ export default function WigMarkets() {
 
   useEffect(() => {
     if (tab !== "popularne") return;
-    const tickers = STOCKS.map(s => s.ticker);
+    const tickers = liveStocks.map(s => s.ticker);
     const load = () =>
       fetchRedditTrends(tickers).then(data =>
         setRedditData({ ...data, loading: false })
@@ -244,7 +268,7 @@ export default function WigMarkets() {
     return () => clearInterval(interval);
   }, [tab]);
 
-  const activeData = tab === "forex" ? FOREX : (tab === "akcje" || tab === "screener" || tab === "popularne") ? STOCKS : COMMODITIES;
+  const activeData = tab === "forex" ? FOREX : (tab === "akcje" || tab === "screener" || tab === "popularne") ? liveStocks : COMMODITIES;
   const sectors = useMemo(() => ["all", ...Array.from(new Set(activeData.map(s => s.sector)))], [activeData]);
 
   const filtered = useMemo(() => {
@@ -681,7 +705,7 @@ export default function WigMarkets() {
               onMouseLeave={e => e.currentTarget.style.opacity = "1"}>
               <FearGauge value={62} isMobile={false} theme={theme} />
             </div>
-            {tab === "akcje" && <SectorDonut stocks={STOCKS} theme={theme} />}
+            {tab === "akcje" && <SectorDonut stocks={liveStocks} theme={theme} />}
             <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: 18 }}>
               <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Top wzrosty 24h</div>
               {topGainers.map(s => (
