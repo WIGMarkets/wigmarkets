@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
 import ReactDOM from "react-dom/client";
 
 const DARK_THEME = {
@@ -651,6 +651,282 @@ function StockModal({ stock, price, change24h, change7d, onClose, theme }) {
   );
 }
 
+/* ─── RSI Calculation ─────────────────────────────────────────── */
+function calculateRSI(prices, period = 14) {
+  if (!prices || prices.length < period + 1) return null;
+  const closes = prices.map(p => p.close);
+  let gains = 0, losses = 0;
+  for (let i = 1; i <= period; i++) {
+    const diff = closes[i] - closes[i - 1];
+    if (diff >= 0) gains += diff; else losses -= diff;
+  }
+  let avgGain = gains / period;
+  let avgLoss = losses / period;
+  for (let i = period + 1; i < closes.length; i++) {
+    const diff = closes[i] - closes[i - 1];
+    avgGain = (avgGain * (period - 1) + (diff > 0 ? diff : 0)) / period;
+    avgLoss = (avgLoss * (period - 1) + (diff < 0 ? -diff : 0)) / period;
+  }
+  if (avgLoss === 0) return 100;
+  const rs = avgGain / avgLoss;
+  return 100 - 100 / (1 + rs);
+}
+
+function RSIGauge({ value, theme }) {
+  if (value == null) return <div style={{ color: theme.textSecondary, fontSize: 12 }}>Ładowanie RSI...</div>;
+  const label = value > 70 ? "Wykupiony" : value < 30 ? "Wyprzedany" : "Neutralny";
+  const color = value > 70 ? "#ff4d6d" : value < 30 ? "#00c896" : "#ffd700";
+  const pct = Math.min(Math.max(value / 100, 0), 1);
+  return (
+    <div>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 6 }}>
+        <span style={{ fontSize: 11, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: 1, fontWeight: 600 }}>RSI (14)</span>
+        <div style={{ display: "flex", alignItems: "baseline", gap: 8 }}>
+          <span style={{ fontSize: 22, fontWeight: 800, color }}>{value.toFixed(1)}</span>
+          <span style={{ fontSize: 11, fontWeight: 600, color }}>{label}</span>
+        </div>
+      </div>
+      <div style={{ height: 8, background: theme.border, borderRadius: 6, position: "relative", overflow: "hidden" }}>
+        <div style={{
+          position: "absolute", left: 0, top: 0, bottom: 0, borderRadius: 6,
+          width: `${pct * 100}%`, background: `linear-gradient(90deg, #00c896, #ffd700, #ff4d6d)`,
+          transition: "width 0.6s ease"
+        }} />
+      </div>
+      <div style={{ display: "flex", justifyContent: "space-between", fontSize: 9, color: theme.textSecondary, marginTop: 3 }}>
+        <span>Wyprzedany (0)</span><span>Neutralny (50)</span><span>Wykupiony (100)</span>
+      </div>
+    </div>
+  );
+}
+
+/* ─── Large Chart for StockPage ──────────────────────────────── */
+function LargeChart({ data, color, theme }) {
+  if (!data || data.length < 2) return <div style={{ color: theme.textSecondary, fontSize: 12, textAlign: "center", padding: "60px 0" }}>Ładowanie wykresu...</div>;
+  const gradId = `lg-${color.replace("#", "")}`;
+  const prices = data.map(d => d.close);
+  const min = Math.min(...prices), max = Math.max(...prices);
+  const range = max - min || 1;
+  const w = 800, h = 280, padTop = 20, padBot = 30, padLeft = 60, padRight = 20;
+  const chartW = w - padLeft - padRight, chartH = h - padTop - padBot;
+
+  const pts = prices.map((p, i) => {
+    const x = padLeft + (i / (prices.length - 1)) * chartW;
+    const y = padTop + chartH - ((p - min) / range) * chartH;
+    return `${x},${y}`;
+  }).join(" ");
+
+  const gridLines = 5;
+  const yLabels = Array.from({ length: gridLines + 1 }, (_, i) => {
+    const val = min + (range * i) / gridLines;
+    const y = padTop + chartH - (i / gridLines) * chartH;
+    return { val, y };
+  });
+
+  const dateStep = Math.max(1, Math.floor(data.length / 6));
+  const xLabels = data.filter((_, i) => i % dateStep === 0 || i === data.length - 1).map((d, _, arr) => {
+    const idx = data.indexOf(d);
+    const x = padLeft + (idx / (data.length - 1)) * chartW;
+    return { date: d.date, x };
+  });
+
+  return (
+    <svg width="100%" viewBox={`0 0 ${w} ${h}`} style={{ display: "block" }}>
+      <defs>
+        <linearGradient id={gradId} x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stopColor={color} stopOpacity="0.25" />
+          <stop offset="100%" stopColor={color} stopOpacity="0" />
+        </linearGradient>
+      </defs>
+      {yLabels.map((l, i) => (
+        <g key={i}>
+          <line x1={padLeft} y1={l.y} x2={w - padRight} y2={l.y} stroke={theme.border} strokeWidth="0.5" strokeDasharray="4,3" />
+          <text x={padLeft - 8} y={l.y + 3} textAnchor="end" fill={theme.textSecondary} fontSize="9" fontFamily="'Space Grotesk',sans-serif">{l.val.toFixed(2)}</text>
+        </g>
+      ))}
+      {xLabels.map((l, i) => (
+        <text key={i} x={l.x} y={h - 6} textAnchor="middle" fill={theme.textSecondary} fontSize="8" fontFamily="'Space Grotesk',sans-serif">
+          {new Date(l.date).toLocaleDateString("pl-PL", { day: "numeric", month: "short" })}
+        </text>
+      ))}
+      <polyline points={`${padLeft},${padTop + chartH} ${pts} ${w - padRight},${padTop + chartH}`} fill={`url(#${gradId})`} stroke="none" />
+      <polyline points={pts} fill="none" stroke={color} strokeWidth="2" strokeLinejoin="round" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+/* ─── Stock Page (dedicated company page) ────────────────────── */
+function StockPage({ stock, prices, changes, onBack, theme }) {
+  const [history, setHistory] = useState(null);
+  const [range, setRange] = useState("3M");
+  const [news, setNews] = useState(null);
+  const isMobile = useIsMobile();
+
+  const currentPrice = prices[stock.ticker];
+  const c24h = changes[stock.ticker]?.change24h ?? 0;
+  const c7d = changes[stock.ticker]?.change7d ?? 0;
+  const color = c24h >= 0 ? "#00c896" : "#ff4d6d";
+
+  useEffect(() => {
+    fetchHistory(stock.stooq || stock.ticker.toLowerCase()).then(d => setHistory(d?.prices || null));
+    fetch(`/api/news?q=${encodeURIComponent(stock.name)}`)
+      .then(r => r.json())
+      .then(d => setNews(d?.items || []))
+      .catch(() => setNews([]));
+  }, [stock.ticker, stock.name, stock.stooq]);
+
+  useEffect(() => {
+    document.title = `${stock.name} (${stock.ticker}) — kurs akcji, wykres, wiadomości | WIGmarkets`;
+    let meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute("content", `Aktualny kurs ${stock.name} (${stock.ticker}) na GPW. Wykres, zmiana 24h/7d, wskaźnik RSI, kapitalizacja, C/Z, dywidenda. Dane na żywo z GPW.`);
+  }, [stock.ticker, stock.name]);
+
+  const filteredHistory = useMemo(() => {
+    if (!history) return [];
+    const days = { "1W": 7, "1M": 30, "3M": 90, "1R": 365 };
+    return history.slice(-(days[range] || 90));
+  }, [history, range]);
+
+  const rsi = useMemo(() => calculateRSI(history), [history]);
+
+  return (
+    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Space Grotesk', 'Inter', sans-serif" }}>
+      {/* Header */}
+      <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, padding: "0 16px" }}>
+        <div style={{ display: "flex", gap: 16, padding: "10px 0", alignItems: "center", maxWidth: 1100, margin: "0 auto" }}>
+          <button onClick={onBack} style={{
+            display: "flex", alignItems: "center", gap: 6, background: theme.bgCardAlt, border: `1px solid ${theme.border}`,
+            borderRadius: 8, color: theme.textSecondary, padding: "6px 14px", fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: 600
+          }}>
+            ← Wstecz
+          </button>
+          <div style={{ fontWeight: 800, fontSize: 16, color: theme.textBright, whiteSpace: "nowrap", cursor: "pointer" }} onClick={onBack}>
+            WIG<span style={{ color: theme.accent }}>markets</span>
+          </div>
+        </div>
+      </div>
+
+      <div style={{ maxWidth: 1100, margin: "0 auto", padding: isMobile ? "20px 12px" : "32px 24px" }}>
+        {/* Stock header */}
+        <div style={{ display: "flex", gap: 16, alignItems: "center", marginBottom: 24, flexWrap: "wrap" }}>
+          <div style={{
+            width: 56, height: 56, borderRadius: 14, background: "linear-gradient(135deg, #1f6feb22, #58a6ff33)",
+            border: "1px solid #58a6ff44", display: "flex", alignItems: "center", justifyContent: "center",
+            fontSize: 18, fontWeight: 800, color: theme.accent
+          }}>{stock.ticker.slice(0, 2)}</div>
+          <div style={{ flex: 1 }}>
+            <div style={{ fontSize: isMobile ? 22 : 28, fontWeight: 800, color: theme.textBright }}>{stock.ticker}</div>
+            <div style={{ fontSize: 13, color: theme.textSecondary }}>{stock.name} · {stock.sector}</div>
+          </div>
+          <div style={{ textAlign: "right" }}>
+            <div style={{ fontSize: isMobile ? 28 : 36, fontWeight: 800, color: theme.textBright }}>{fmt(currentPrice)} {stock.unit || "zł"}</div>
+            <div style={{ display: "flex", gap: 8, marginTop: 6, justifyContent: "flex-end", flexWrap: "wrap" }}>
+              <span style={{ padding: "4px 14px", borderRadius: 8, background: `${changeColor(c24h)}20`, color: changeColor(c24h), fontWeight: 700, fontSize: 13 }}>24h: {changeFmt(c24h)}</span>
+              <span style={{ padding: "4px 14px", borderRadius: 8, background: `${changeColor(c7d)}20`, color: changeColor(c7d), fontWeight: 700, fontSize: 13 }}>7d: {changeFmt(c7d)}</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Chart section */}
+        <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: isMobile ? 16 : 24, marginBottom: 24 }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16, flexWrap: "wrap", gap: 8 }}>
+            <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", fontWeight: 600 }}>Wykres historyczny</div>
+            <div style={{ display: "flex", gap: 6 }}>
+              {["1W", "1M", "3M", "1R"].map(r => (
+                <button key={r} onClick={() => setRange(r)} style={{
+                  padding: "6px 16px", borderRadius: 8, border: "1px solid",
+                  borderColor: range === r ? theme.accent : theme.borderInput,
+                  background: range === r ? "#1f6feb22" : "transparent",
+                  color: range === r ? theme.accent : theme.textSecondary,
+                  fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: range === r ? 700 : 400
+                }}>{r}</button>
+              ))}
+            </div>
+          </div>
+          <div style={{ background: theme.bgPage, borderRadius: 12, padding: "16px 8px" }}>
+            <LargeChart data={filteredHistory} color={color} theme={theme} />
+          </div>
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr", gap: 24, marginBottom: 24 }}>
+          {/* Key metrics */}
+          <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: isMobile ? 16 : 24 }}>
+            <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 16, fontWeight: 600 }}>Dane spółki</div>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
+              {[
+                ["Kurs", currentPrice ? `${fmt(currentPrice)} ${stock.unit || "zł"}` : "—"],
+                ["Zmiana 24h", changeFmt(c24h)],
+                ["Zmiana 7d", changeFmt(c7d)],
+                ["Kapitalizacja", stock.cap ? `${fmt(stock.cap, 0)} mln zł` : "—"],
+                ["C/Z (P/E)", stock.pe > 0 ? fmt(stock.pe) : "—"],
+                ["Dywidenda", stock.div > 0 ? `${fmt(stock.div)}%` : "Brak"],
+              ].map(([label, val]) => (
+                <div key={label} style={{ background: theme.bgCardAlt, borderRadius: 10, padding: "14px 16px" }}>
+                  <div style={{ fontSize: 10, color: theme.textSecondary, marginBottom: 5, fontWeight: 600, textTransform: "uppercase", letterSpacing: 0.5 }}>{label}</div>
+                  <div style={{ fontSize: 15, fontWeight: 700, color: label.includes("Zmiana") ? changeColor(label.includes("24h") ? c24h : c7d) : theme.textBright }}>{val}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* RSI indicator */}
+          <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
+            <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: isMobile ? 16 : 24 }}>
+              <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 16, fontWeight: 600 }}>Wskaźnik techniczny</div>
+              <RSIGauge value={rsi} theme={theme} />
+            </div>
+            <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: isMobile ? 16 : 24 }}>
+              <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 12, fontWeight: 600 }}>Informacje</div>
+              <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                {[
+                  ["Sektor", stock.sector],
+                  ["Ticker stooq", stock.stooq || stock.ticker.toLowerCase()],
+                ].map(([label, val]) => (
+                  <div key={label} style={{ display: "flex", justifyContent: "space-between", padding: "6px 0", borderBottom: `1px solid ${theme.bgCardAlt}`, fontSize: 12 }}>
+                    <span style={{ color: theme.textSecondary }}>{label}</span>
+                    <span style={{ fontWeight: 600, color: theme.textBright }}>{val}</span>
+                  </div>
+                ))}
+              </div>
+              <a href={`https://stooq.pl/q/?s=${stock.stooq || stock.ticker.toLowerCase()}`} target="_blank" rel="noreferrer"
+                style={{ display: "block", textAlign: "center", color: theme.accent, fontSize: 12, textDecoration: "none", marginTop: 14, fontWeight: 600 }}>
+                Zobacz pełne dane na stooq.pl →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* News section */}
+        <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: isMobile ? 16 : 24, marginBottom: 32 }}>
+          <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 16, fontWeight: 600 }}>
+            Najnowsze wiadomości
+          </div>
+          {news === null && (
+            <div style={{ color: theme.textSecondary, fontSize: 12, padding: "16px 0" }}>Ładowanie wiadomości...</div>
+          )}
+          {news !== null && news.length === 0 && (
+            <div style={{ color: theme.textSecondary, fontSize: 12, padding: "16px 0" }}>Brak wiadomości dla {stock.name}.</div>
+          )}
+          {news !== null && news.map((item, i) => (
+            <a key={i} href={item.link} target="_blank" rel="noreferrer"
+              style={{ display: "block", textDecoration: "none", padding: "14px 0", borderBottom: i < news.length - 1 ? `1px solid ${theme.border}` : "none" }}>
+              <div style={{ fontSize: 14, color: theme.textBright, lineHeight: 1.5, marginBottom: 6, fontWeight: 500 }}>{item.title}</div>
+              <div style={{ display: "flex", gap: 12, fontSize: 11, color: theme.textSecondary }}>
+                {item.source && <span style={{ fontWeight: 600 }}>{item.source}</span>}
+                {item.pubDate && <span>{new Date(item.pubDate).toLocaleDateString("pl-PL", { day: "numeric", month: "long", year: "numeric" })}</span>}
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <div style={{ textAlign: "center", padding: "24px", fontSize: 10, color: theme.textSecondary }}>
+        WIGmarkets © 2026 · Dane z GPW via stooq.pl · Nie stanowią rekomendacji inwestycyjnej
+      </div>
+    </div>
+  );
+}
+
 function FearGauge({ value = 62, isMobile, theme }) {
   const [animated, setAnimated] = useState(false);
   useEffect(() => { setTimeout(() => setAnimated(true), 400); }, []);
@@ -697,6 +973,18 @@ function FearGauge({ value = 62, isMobile, theme }) {
   );
 }
 
+const ALL_INSTRUMENTS = [...STOCKS, ...COMMODITIES];
+
+function getRouteFromPath(pathname) {
+  const match = pathname.match(/^\/spolka\/([A-Za-z0-9]+)$/);
+  if (match) {
+    const ticker = match[1].toUpperCase();
+    const stock = ALL_INSTRUMENTS.find(s => s.ticker === ticker);
+    if (stock) return { page: "stock", stock };
+  }
+  return { page: "home", stock: null };
+}
+
 export default function WigMarkets() {
   const isMobile = useIsMobile();
   const [tab, setTab] = useState("akcje");
@@ -717,8 +1005,29 @@ export default function WigMarkets() {
     try { return new Set(JSON.parse(localStorage.getItem("watchlist") || "[]")); } catch { return new Set(); }
   });
   const [watchFilter, setWatchFilter] = useState(false);
+  const [route, setRoute] = useState(() => getRouteFromPath(window.location.pathname));
   const PER_PAGE = 20;
   const theme = darkMode ? DARK_THEME : LIGHT_THEME;
+
+  // SPA routing
+  useEffect(() => {
+    const onPopState = () => setRoute(getRouteFromPath(window.location.pathname));
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, []);
+
+  const navigateToStock = useCallback((stock) => {
+    window.history.pushState(null, "", `/spolka/${stock.ticker}`);
+    setRoute({ page: "stock", stock });
+  }, []);
+
+  const navigateHome = useCallback(() => {
+    window.history.pushState(null, "", "/");
+    setRoute({ page: "home", stock: null });
+    document.title = "WIGmarkets - Notowania GPW";
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute("content", "Notowania GPW w czasie rzeczywistym");
+  }, []);
 
   useEffect(() => {
     localStorage.setItem("theme", darkMode ? "dark" : "light");
@@ -812,6 +1121,16 @@ export default function WigMarkets() {
     ["Śr. zmiana 24h", changeFmt(STOCKS.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0) / STOCKS.length), "#ffd700"],
   ], [changes]);
 
+  // Route: dedicated stock page
+  if (route.page === "stock" && route.stock) {
+    return (
+      <>
+        {calcStock && <ProfitCalculatorModal stock={calcStock} currentPrice={prices[calcStock.ticker]} onClose={() => setCalcStock(null)} theme={theme} />}
+        <StockPage stock={route.stock} prices={prices} changes={changes} onBack={navigateHome} theme={theme} />
+      </>
+    );
+  }
+
   return (
     <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Space Grotesk', 'Inter', sans-serif" }}>
 
@@ -847,7 +1166,7 @@ export default function WigMarkets() {
       </div>
 
       {/* Marquee ticker */}
-      <MarqueeTicker stocks={[...STOCKS, ...COMMODITIES]} prices={prices} changes={changes} theme={theme} onSelect={setSelected} />
+      <MarqueeTicker stocks={[...STOCKS, ...COMMODITIES]} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
 
       {/* Mobile sidebar overlay */}
       {isMobile && sidebarOpen && (
@@ -881,7 +1200,7 @@ export default function WigMarkets() {
         <div>
           {/* Heatmap view */}
           {viewMode === "heatmap" && tab === "akcje" && !isMobile && (
-            <Heatmap stocks={STOCKS} prices={prices} changes={changes} theme={theme} onSelect={setSelected} />
+            <Heatmap stocks={STOCKS} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
           )}
 
           {/* Controls */}
@@ -918,7 +1237,7 @@ export default function WigMarkets() {
                     const c7d = changes[s.ticker]?.change7d ?? 0;
                     const priceColor = c24h > 0 ? "#00c896" : c24h < 0 ? "#ff4d6d" : "#c9d1d9";
                     return (
-                      <tr key={s.id} onClick={() => setSelected(s)} style={{ borderBottom: `1px solid ${theme.bgCardAlt}`, cursor: "pointer" }}
+                      <tr key={s.id} onClick={() => navigateToStock(s)} style={{ borderBottom: `1px solid ${theme.bgCardAlt}`, cursor: "pointer" }}
                         onMouseEnter={e => e.currentTarget.style.background = theme.bgCardAlt}
                         onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
                         <td style={{ padding: isMobile ? "10px 4px" : "10px 8px", textAlign: "center" }}>
@@ -976,7 +1295,7 @@ export default function WigMarkets() {
             <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: 18 }}>
               <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Top wzrosty 24h</div>
               {topGainers.map(s => (
-                <div key={s.ticker} onClick={() => setSelected(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "6px 0", borderBottom: `1px solid ${theme.bgCardAlt}`, cursor: "pointer" }}>
+                <div key={s.ticker} onClick={() => navigateToStock(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "6px 0", borderBottom: `1px solid ${theme.bgCardAlt}`, cursor: "pointer" }}>
                   <div><div style={{ fontWeight: 700, fontSize: 12, color: theme.textBright }}>{s.ticker}</div><div style={{ fontSize: 10, color: theme.textSecondary }}>{s.sector}</div></div>
                   <span style={{ padding: "2px 7px", borderRadius: 5, fontSize: 11, fontWeight: 700, background: "#00c89620", color: "#00c896" }}>{changeFmt(changes[s.ticker]?.change24h ?? 0)}</span>
                 </div>
@@ -985,7 +1304,7 @@ export default function WigMarkets() {
             <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: 18 }}>
               <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Top spadki 24h</div>
               {topLosers.map(s => (
-                <div key={s.ticker} onClick={() => setSelected(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "6px 0", borderBottom: `1px solid ${theme.bgCardAlt}`, cursor: "pointer" }}>
+                <div key={s.ticker} onClick={() => navigateToStock(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "6px 0", borderBottom: `1px solid ${theme.bgCardAlt}`, cursor: "pointer" }}>
                   <div><div style={{ fontWeight: 700, fontSize: 12, color: theme.textBright }}>{s.ticker}</div><div style={{ fontSize: 10, color: theme.textSecondary }}>{s.sector}</div></div>
                   <span style={{ padding: "2px 7px", borderRadius: 5, fontSize: 11, fontWeight: 700, background: "#ff4d6d20", color: "#ff4d6d" }}>{changeFmt(changes[s.ticker]?.change24h ?? 0)}</span>
                 </div>
