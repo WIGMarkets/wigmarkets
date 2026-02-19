@@ -7,7 +7,7 @@ export default async function handler(req, res) {
     const text = await response.text();
     const lines = text.trim().split("\n").filter(l => l && !l.startsWith("Date"));
     
-    if (lines.length < 2) {
+    if (lines.length < 1) {
       return res.status(404).json({ error: "No data" });
     }
 
@@ -17,7 +17,7 @@ export default async function handler(req, res) {
     };
 
     const today = parse(lines[lines.length - 1]);
-    const yesterday = parse(lines[lines.length - 2]);
+    const yesterday = lines.length >= 2 ? parse(lines[lines.length - 2]) : today;
     const weekAgo = lines.length >= 6 ? parse(lines[lines.length - 6]) : yesterday;
 
     const change24h = ((today.close - yesterday.close) / yesterday.close) * 100;
