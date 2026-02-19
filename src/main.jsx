@@ -15,11 +15,13 @@ import ProfitCalculatorModal from "./components/ProfitCalculatorModal.jsx";
 import StockModal from "./components/StockModal.jsx";
 import StockLogo from "./components/StockLogo.jsx";
 import StockPage from "./components/StockPage.jsx";
+import FearGreedPage from "./components/FearGreedPage.jsx";
 import ScreenerView from "./components/ScreenerView.jsx";
 
 const ALL_INSTRUMENTS = [...STOCKS, ...COMMODITIES];
 
 function getRouteFromPath(pathname) {
+  if (pathname === "/indeks") return { page: "feargreed" };
   const match = pathname.match(/^\/spolka\/([A-Z0-9]+)$/i);
   if (match) {
     const ticker = match[1].toUpperCase();
@@ -64,6 +66,11 @@ export default function WigMarkets() {
   const navigateToStock = useCallback((stock) => {
     window.history.pushState(null, "", `/spolka/${stock.ticker}`);
     setRoute({ page: "stock", stock });
+  }, []);
+
+  const navigateToFearGreed = useCallback(() => {
+    window.history.pushState(null, "", "/indeks");
+    setRoute({ page: "feargreed" });
   }, []);
 
   const navigateHome = useCallback(() => {
@@ -195,6 +202,11 @@ export default function WigMarkets() {
     ["Kap. łączna (mld zł)", fmt(STOCKS.reduce((a, s) => a + s.cap, 0) / 1000, 1), "#58a6ff"],
     ["Śr. zmiana 24h", changeFmt(STOCKS.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0) / STOCKS.length), "#ffd700"],
   ], [changes]);
+
+  // Route: Fear & Greed index page
+  if (route.page === "feargreed") {
+    return <FearGreedPage onBack={navigateHome} theme={theme} />;
+  }
 
   // Route: dedicated stock page
   if (route.page === "stock" && route.stock) {
@@ -425,7 +437,11 @@ export default function WigMarkets() {
         {/* Desktop sidebar */}
         {!isMobile && (
           <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-            <FearGauge value={62} isMobile={false} theme={theme} />
+            <div onClick={navigateToFearGreed} style={{ cursor: "pointer" }}
+              onMouseEnter={e => e.currentTarget.style.opacity = "0.82"}
+              onMouseLeave={e => e.currentTarget.style.opacity = "1"}>
+              <FearGauge value={62} isMobile={false} theme={theme} />
+            </div>
             {tab === "akcje" && <SectorDonut stocks={STOCKS} theme={theme} />}
             <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: 18 }}>
               <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Top wzrosty 24h</div>
