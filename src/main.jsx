@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo, useCallback } from "react";
 import ReactDOM from "react-dom/client";
 import { DARK_THEME, LIGHT_THEME } from "./themes.js";
 import { fetchBulk, fetchIndices, fetchRedditTrends, fetchHistory } from "./api.js";
-import { STOCKS, COMMODITIES } from "./data/stocks.js";
+import { STOCKS, COMMODITIES, FOREX } from "./data/stocks.js";
 import { FEAR_HISTORY_YEAR } from "./data/constants.js";
 import { fmt, changeFmt, changeColor } from "./utils.js";
 import { useIsMobile } from "./hooks/useIsMobile.js";
@@ -20,7 +20,7 @@ import FearGreedPage from "./components/FearGreedPage.jsx";
 import NewsPage from "./components/NewsPage.jsx";
 import ScreenerView from "./components/ScreenerView.jsx";
 
-const ALL_INSTRUMENTS = [...STOCKS, ...COMMODITIES];
+const ALL_INSTRUMENTS = [...STOCKS, ...COMMODITIES, ...FOREX];
 
 function getRouteFromPath(pathname) {
   if (pathname === "/indeks") return { page: "feargreed" };
@@ -119,7 +119,7 @@ export default function WigMarkets() {
   }, []);
 
   useEffect(() => {
-    const activeData = (tab === "akcje" || tab === "screener" || tab === "popularne") ? STOCKS : COMMODITIES;
+    const activeData = tab === "forex" ? FOREX : (tab === "akcje" || tab === "screener" || tab === "popularne") ? STOCKS : COMMODITIES;
     const symbols = activeData.map(item => item.stooq || item.ticker.toLowerCase());
     const fetchAll = async () => {
       const bulk = await fetchBulk(symbols);
@@ -161,7 +161,7 @@ export default function WigMarkets() {
     return () => clearInterval(interval);
   }, [tab]);
 
-  const activeData = (tab === "akcje" || tab === "screener" || tab === "popularne") ? STOCKS : COMMODITIES;
+  const activeData = tab === "forex" ? FOREX : (tab === "akcje" || tab === "screener" || tab === "popularne") ? STOCKS : COMMODITIES;
   const sectors = useMemo(() => ["all", ...Array.from(new Set(activeData.map(s => s.sector)))], [activeData]);
 
   const filtered = useMemo(() => {
@@ -282,7 +282,7 @@ export default function WigMarkets() {
       </div>
 
       {/* Marquee ticker */}
-      <MarqueeTicker stocks={[...STOCKS, ...COMMODITIES]} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
+      <MarqueeTicker stocks={[...STOCKS, ...COMMODITIES, ...FOREX]} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
 
       {/* Market Overview */}
       <div style={{ maxWidth: 1400, margin: "0 auto", padding: isMobile ? "10px 12px 0" : "16px 24px 0" }}>
@@ -336,7 +336,7 @@ export default function WigMarkets() {
       <div style={{ padding: isMobile ? "16px 12px 0" : "24px 24px 0", maxWidth: 1400, margin: "0 auto" }}>
         {/* Tabs + View toggle */}
         <div style={{ display: "flex", gap: 4, marginBottom: 16, flexWrap: "nowrap", alignItems: "center", overflowX: "auto", WebkitOverflowScrolling: "touch", msOverflowStyle: "none", scrollbarWidth: "none", paddingBottom: 2 }}>
-          {[["akcje", "Akcje GPW"], ["popularne", "Popularne"], ["surowce", "Surowce"], ["screener", "Screener"]].map(([key, label]) => (
+          {[["akcje", "Akcje GPW"], ["popularne", "Popularne"], ["surowce", "Surowce"], ["forex", "Forex"], ["screener", "Screener"]].map(([key, label]) => (
             <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); setWatchFilter(false); }} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: tab === key ? theme.accent : theme.borderInput, background: tab === key ? "#1f6feb22" : "transparent", color: tab === key ? theme.accent : theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: tab === key ? 700 : 400, cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>{label}</button>
           ))}
           <button onClick={navigateToNews} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: theme.borderInput, background: "transparent", color: theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>Wiadomości</button>
@@ -357,7 +357,7 @@ export default function WigMarkets() {
         </div>
       </div>
 
-      <div style={{ maxWidth: 1400, margin: "0 auto", display: isMobile ? "block" : "grid", gridTemplateColumns: tab === "screener" ? "1fr" : "1fr 280px", gap: 24, padding: isMobile ? "0 12px" : "0 24px" }}>
+      <div style={{ maxWidth: 1400, margin: "0 auto", display: isMobile ? "block" : "grid", gridTemplateColumns: (tab === "screener" || tab === "forex") ? "1fr" : "1fr 280px", gap: 24, padding: isMobile ? "0 12px" : "0 24px" }}>
         {tab === "screener" ? (
           <ScreenerView prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
         ) : (<>
@@ -443,7 +443,7 @@ export default function WigMarkets() {
                     {col("Kurs", "price")}
                     {col("24h %", "change24h")}
                     {!isMobile && col("7d %", "change7d")}
-                    {!isMobile && tab === "akcje" && col("Kap.", "cap")}
+                    {!isMobile && (tab === "akcje" || tab === "screener") && col("Kap.", "cap")}
                     {!isMobile && <th style={{ padding: "10px 16px", textAlign: "right", fontSize: 10, color: theme.textSecondary, borderBottom: `1px solid ${theme.border}`, fontWeight: 600 }}>7D</th>}
                     {!isMobile && <th style={{ padding: "10px 16px", borderBottom: `1px solid ${theme.border}` }}></th>}
                   </tr>
@@ -477,7 +477,7 @@ export default function WigMarkets() {
                           <span style={{ padding: "2px 6px", borderRadius: 5, fontSize: isMobile ? 11 : 12, fontWeight: 700, background: c24h > 0 ? "#00c89620" : "#ff4d6d20", color: changeColor(c24h), whiteSpace: "nowrap" }}>{changeFmt(c24h)}</span>
                         </td>
                         {!isMobile && <td style={{ padding: "10px 16px", textAlign: "right", color: changeColor(c7d), fontSize: 12 }}>{changeFmt(c7d)}</td>}
-                        {!isMobile && tab === "akcje" && <td style={{ padding: "10px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12 }}>{fmt(s.cap, 0)}</td>}
+                        {!isMobile && (tab === "akcje" || tab === "screener") && <td style={{ padding: "10px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12 }}>{fmt(s.cap, 0)}</td>}
                         {!isMobile && <td style={{ padding: "10px 16px", textAlign: "right" }}><Sparkline trend={c7d} /></td>}
                         {!isMobile && (
                           <td style={{ padding: "10px 16px", textAlign: "right" }}>

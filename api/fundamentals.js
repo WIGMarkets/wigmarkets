@@ -1,5 +1,17 @@
 const YAHOO_MAP = {
-  "dia": "DIAG.WA",
+  "dia":  "DIAG.WA",
+  "11b":  "11B.WA",
+  "1at":  "1AT.WA",
+  "grn":  "GRN.WA",
+  "sfg":  "SFG.WA",
+  "r22":  "R22.WA",
+  "zab":  "ZAB.WA",
+  "gpp":  "GPP.WA",
+  "sho":  "SHO.WA",
+  "vrc":  "VRC.WA",
+  "sts":  "STS.WA",
+  "dad":  "DAD.WA",
+  "pct":  "PCF.WA",
   "xau":     "GC=F",
   "xag":     "SI=F",
   "cl.f":    "CL=F",
@@ -12,9 +24,13 @@ const YAHOO_MAP = {
   "xpd":     "PA=F",
 };
 
+const FOREX_RE = /^[a-z]{6}$/;
+
 function toYahoo(stooq) {
   const s = stooq.toLowerCase();
-  return YAHOO_MAP[s] || (s.toUpperCase() + ".WA");
+  if (YAHOO_MAP[s]) return YAHOO_MAP[s];
+  if (FOREX_RE.test(s)) return s.toUpperCase() + "=X";
+  return s.toUpperCase() + ".WA";
 }
 
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36";

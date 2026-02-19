@@ -1,9 +1,21 @@
 // Mapping: stooq symbol → Yahoo Finance symbol
 // GPW stocks: default is uppercase(stooq) + ".WA" (e.g. "pkn" → "PKN.WA")
-// Commodities and special cases are listed explicitly.
+// Commodities, forex, and special cases are listed explicitly.
 const YAHOO_MAP = {
-  // Diagnostyka: stooq uses short "dia", Yahoo uses full ticker DIAG
-  "dia": "DIAG.WA",
+  // GPW stocks with non-standard Yahoo Finance tickers
+  "dia":  "DIAG.WA",   // Diagnostyka
+  "11b":  "11B.WA",    // 11 bit studios
+  "1at":  "1AT.WA",    // Atal SA
+  "grn":  "GRN.WA",    // Grenevia (ex-Famur)
+  "sfg":  "SFG.WA",    // Synektik
+  "r22":  "R22.WA",    // R22 SA
+  "zab":  "ZAB.WA",    // Żabka Group
+  "gpp":  "GPP.WA",    // Grupa Pracuj
+  "sho":  "SHO.WA",    // Shoper
+  "vrc":  "VRC.WA",    // Vercom
+  "sts":  "STS.WA",    // STS Holding
+  "dad":  "DAD.WA",    // Dadelo
+  "pct":  "PCF.WA",    // PCF Group
   // Commodities
   "xau":     "GC=F",    // Złoto (Gold futures)
   "xag":     "SI=F",    // Srebro (Silver futures)
@@ -17,9 +29,14 @@ const YAHOO_MAP = {
   "xpd":     "PA=F",    // Pallad (Palladium futures)
 };
 
+// Detect forex pairs (6 lowercase letters like "usdpln") → "USDPLN=X"
+const FOREX_RE = /^[a-z]{6}$/;
+
 function toYahoo(stooq) {
   const s = stooq.toLowerCase();
-  return YAHOO_MAP[s] || (s.toUpperCase() + ".WA");
+  if (YAHOO_MAP[s]) return YAHOO_MAP[s];
+  if (FOREX_RE.test(s)) return s.toUpperCase() + "=X";
+  return s.toUpperCase() + ".WA";
 }
 
 const YF_HEADERS = {
@@ -31,34 +48,46 @@ const YF_HEADERS = {
 const BATCH_SIZE = 15;
 const BATCH_DELAY_MS = 100;
 
-async function fetchYahooSymbol(yahooSymbol) {
+async function fetchYahooSymbol(yahooSymbol, retries = 2) {
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?interval=1d&range=10d`;
-  const response = await fetch(url, { headers: YF_HEADERS });
-  const json = await response.json();
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const response = await fetch(url, { headers: YF_HEADERS });
+      if (response.status === 429 || response.status >= 500) {
+        if (attempt < retries) { await new Promise(r => setTimeout(r, 500 * (attempt + 1))); continue; }
+        return null;
+      }
+      const json = await response.json();
 
-  const result = json?.chart?.result?.[0];
-  if (!result) return null;
+      const result = json?.chart?.result?.[0];
+      if (!result) return null;
 
-  const rawCloses = result.indicators?.quote?.[0]?.close || [];
-  const closes = rawCloses.filter(c => c !== null && !isNaN(c));
-  if (closes.length < 1) return null;
+      const rawCloses = result.indicators?.quote?.[0]?.close || [];
+      const closes = rawCloses.filter(c => c !== null && !isNaN(c));
+      if (closes.length < 1) return null;
 
-  const today = closes[closes.length - 1];
-  const yesterday = closes.length >= 2 ? closes[closes.length - 2] : today;
-  const weekAgo   = closes.length >= 6 ? closes[closes.length - 6] : yesterday;
+      const today = closes[closes.length - 1];
+      const yesterday = closes.length >= 2 ? closes[closes.length - 2] : today;
+      const weekAgo   = closes.length >= 6 ? closes[closes.length - 6] : yesterday;
 
-  const rawVolumes = result.indicators?.quote?.[0]?.volume || [];
-  const volume = rawVolumes[rawVolumes.length - 1] || 0;
+      const rawVolumes = result.indicators?.quote?.[0]?.volume || [];
+      const volume = rawVolumes[rawVolumes.length - 1] || 0;
 
-  const change24h = yesterday ? ((today - yesterday) / yesterday) * 100 : 0;
-  const change7d  = weekAgo   ? ((today - weekAgo)   / weekAgo)   * 100 : 0;
+      const change24h = yesterday ? ((today - yesterday) / yesterday) * 100 : 0;
+      const change7d  = weekAgo   ? ((today - weekAgo)   / weekAgo)   * 100 : 0;
 
-  return {
-    close:     today,
-    volume,
-    change24h: parseFloat(change24h.toFixed(2)),
-    change7d:  parseFloat(change7d.toFixed(2)),
-  };
+      return {
+        close:     today,
+        volume,
+        change24h: parseFloat(change24h.toFixed(2)),
+        change7d:  parseFloat(change7d.toFixed(2)),
+      };
+    } catch {
+      if (attempt < retries) { await new Promise(r => setTimeout(r, 500 * (attempt + 1))); continue; }
+      return null;
+    }
+  }
+  return null;
 }
 
 export default async function handler(req, res) {
