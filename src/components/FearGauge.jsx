@@ -70,8 +70,8 @@ export default function FearGauge({ value = 62, isMobile, theme }) {
 
       <div style={{ marginTop: 2 }}>
         <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 3 }}>
-          <span style={{ fontSize: 9, color: theme.textSecondary, letterSpacing: 1, textTransform: "uppercase", opacity: 0.6 }}>30 dni</span>
-          <span style={{ fontSize: 9, color: theme.textSecondary, opacity: 0.6 }}>Historia</span>
+          <span style={{ fontSize: 9, color: theme.textMuted ?? theme.text, letterSpacing: 1, textTransform: "uppercase", fontWeight: 600 }}>30 dni</span>
+          <span style={{ fontSize: 9, color: theme.textMuted ?? theme.text, fontWeight: 600 }}>Historia</span>
         </div>
         <svg width="100%" height={SH + 2} viewBox={`0 0 ${SW} ${SH + 2}`} preserveAspectRatio="none" style={{ display: "block" }}>
           <defs>
@@ -89,13 +89,13 @@ export default function FearGauge({ value = 62, isMobile, theme }) {
       {!isMobile && (
         <div style={{ marginTop: 10, paddingTop: 10, borderTop: `1px solid ${theme.bgCardAlt}` }}>
           {FEAR_COMPONENTS.map((f) => (
-            <div key={f.label} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "3px 0" }}>
-              <span style={{ fontSize: 10, color: theme.textSecondary }}>{f.label}</span>
+            <div key={f.label} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "4px 0" }}>
+              <span style={{ fontSize: 11, color: theme.textMuted ?? theme.text }}>{f.label}</span>
               <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-                <div style={{ width: 44, height: 2, background: theme.bgCardAlt, borderRadius: 1, overflow: "hidden" }}>
+                <div style={{ width: 48, height: 3, background: theme.bgCardAlt, borderRadius: 2, overflow: "hidden" }}>
                   <div style={{ width: `${f.val}%`, height: "100%", background: getColor(f.val) }} />
                 </div>
-                <span style={{ fontSize: 10, color: theme.textSecondary, width: 18, textAlign: "right" }}>{f.val}</span>
+                <span style={{ fontSize: 11, fontWeight: 600, color: getColor(f.val), width: 20, textAlign: "right" }}>{f.val}</span>
               </div>
             </div>
           ))}

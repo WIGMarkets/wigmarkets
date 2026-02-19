@@ -36,15 +36,15 @@ export default function SectorDonut({ stocks, theme }) {
           <text x="50" y="56" textAnchor="middle" fill={theme.textSecondary} fontSize="3.5" fontFamily="'Inter',sans-serif">mld zł</text>
         </svg>
       </div>
-      {sorted.slice(0, 6).map(([sector, cap], i) => (
-        <div key={sector} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "4px 0", fontSize: 11 }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4px 8px" }}>
+        {sorted.slice(0, 8).map(([sector, cap], i) => (
+          <div key={sector} style={{ display: "flex", alignItems: "center", gap: 5, overflow: "hidden" }}>
             <span style={{ width: 8, height: 8, borderRadius: 2, background: COLORS[i % COLORS.length], flexShrink: 0 }} />
-            <span style={{ color: theme.text }}>{sector}</span>
+            <span style={{ fontSize: 11, color: theme.textMuted ?? theme.text, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", flex: 1 }}>{sector}</span>
+            <span style={{ fontSize: 11, fontWeight: 600, color: COLORS[i % COLORS.length], flexShrink: 0 }}>{(cap / total * 100).toFixed(0)}%</span>
           </div>
-          <span style={{ color: theme.textSecondary, fontSize: 10 }}>{(cap / total * 100).toFixed(1)}%</span>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }
