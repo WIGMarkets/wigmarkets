@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { fetchHistory, fetchIntraday } from "../api.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
-import { fmt, changeFmt, getYahooSymbol } from "../utils.js";
+import { fmt, changeFmt, getYahooSymbol, isForex, isCommodity } from "../utils.js";
 import MiniChart from "./MiniChart.jsx";
 
 export default function StockModal({ stock, price, change24h, change7d, onClose, onCalc, theme }) {
@@ -71,13 +71,15 @@ export default function StockModal({ stock, price, change24h, change7d, onClose,
           </div>
         </div>
         <div style={{ background: theme.bgPage, borderRadius: 12, padding: "12px 8px", marginBottom: 20 }}>
-          <MiniChart data={chartData} color={color} type={chartType} isIntraday={isIntraday} />
+          <MiniChart data={chartData} color={color} type={chartType} isIntraday={isIntraday} theme={theme} />
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginBottom: 16 }}>
           {[
-            ["Kapitalizacja", stock.cap ? `${fmt(stock.cap, 0)} mln zł` : "—"],
-            ["C/Z (P/E)", stock.pe > 0 ? fmt(stock.pe) : "—"],
-            ["Dywidenda", stock.div > 0 ? `${fmt(stock.div)}%` : "Brak"],
+            ...(!isForex(stock) && !isCommodity(stock) ? [
+              ["Kapitalizacja", stock.cap ? `${fmt(stock.cap, 0)} mln zł` : "—"],
+              ["C/Z (P/E)", stock.pe > 0 ? fmt(stock.pe) : "—"],
+              ["Dywidenda", stock.div > 0 ? `${fmt(stock.div)}%` : "Brak"],
+            ] : []),
             ["Sektor", stock.sector],
           ].map(([label, val]) => (
             <div key={label} style={{ background: theme.bgCardAlt, borderRadius: 10, padding: "12px 14px" }}>

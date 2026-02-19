@@ -226,6 +226,13 @@ const SECTOR_COLORS = {
   "Metal szlachetny": "#BF8F00",
   "Energia":          "#E65100",
   "Metal przemysłowy":"#546E7A",
+  "PLN":              "#B71C1C",
+  "Główne":           "#1565C0",
+  "EUR":              "#0D47A1",
+  "GBP":              "#1A237E",
+  "Krzyżowe":         "#4A148C",
+  "Egzotyczne":       "#BF360C",
+  "Logistyka":        "#E65100",
 };
 
 function getColor(ticker, sector) {

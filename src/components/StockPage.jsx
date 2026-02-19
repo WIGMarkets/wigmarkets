@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { fetchHistory, fetchFundamentals, fetchIntraday } from "../api.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
-import { fmt, changeFmt, changeColor, calculateRSI, getYahooSymbol } from "../utils.js";
+import { fmt, changeFmt, changeColor, calculateRSI, getYahooSymbol, isForex, isCommodity } from "../utils.js";
 import LargeChart from "./LargeChart.jsx";
 import FundamentalsSection from "./FundamentalsSection.jsx";
 import RSIGauge from "./RSIGauge.jsx";
@@ -31,9 +31,13 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
       .then(d => setNews(d?.items || []))
       .catch(() => setNews([]));
     setFundLoading(true);
-    fetchFundamentals(sym)
-      .then(d => { setFundamentals(d); setFundLoading(false); })
-      .catch(() => { setFundamentals(null); setFundLoading(false); });
+    if (isStock) {
+      fetchFundamentals(sym)
+        .then(d => { setFundamentals(d); setFundLoading(false); })
+        .catch(() => { setFundamentals(null); setFundLoading(false); });
+    } else {
+      setFundLoading(false);
+    }
   }, [stock.ticker, stock.name, stock.stooq]);
 
   useEffect(() => {
@@ -42,10 +46,13 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
     fetchIntraday(sym).then(d => setIntraday(d?.prices || []));
   }, [range, sym]);
 
+  const isStock = !isForex(stock) && !isCommodity(stock);
+
   useEffect(() => {
-    document.title = `${stock.name} (${stock.ticker}) — kurs akcji, wykres, wiadomości | WIGmarkets`;
+    const kind = isForex(stock) ? "kurs walutowy" : isCommodity(stock) ? "notowania" : "kurs akcji";
+    document.title = `${stock.name} (${stock.ticker}) — ${kind}, wykres | WIGmarkets`;
     let meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute("content", `Aktualny kurs ${stock.name} (${stock.ticker}) na GPW. Wykres, zmiana 24h/7d, wskaźnik RSI, kapitalizacja, C/Z, dywidenda. Dane na żywo z GPW.`);
+    if (meta) meta.setAttribute("content", `Aktualny ${kind} ${stock.name} (${stock.ticker}). Wykres, zmiana 24h/7d. Dane na żywo.`);
   }, [stock.ticker, stock.name]);
 
   const filteredHistory = useMemo(() => {
@@ -109,19 +116,25 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
           </div>
         </div>
 
-        <FundamentalsSection stock={stock} fundamentals={fundamentals} loading={fundLoading} currentPrice={currentPrice} theme={theme} isMobile={isMobile} />
+        {isStock && <FundamentalsSection stock={stock} fundamentals={fundamentals} loading={fundLoading} currentPrice={currentPrice} theme={theme} isMobile={isMobile} />}
 
         <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr", gap: 24, marginBottom: 24 }}>
           <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: isMobile ? 16 : 24 }}>
-            <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 16, fontWeight: 600 }}>Dane spółki</div>
+            <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 16, fontWeight: 600 }}>
+              {isForex(stock) ? "Dane waluty" : isCommodity(stock) ? "Dane surowca" : "Dane spółki"}
+            </div>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
               {[
                 ["Kurs", currentPrice ? `${fmt(currentPrice)} ${stock.unit || "zł"}` : "—"],
                 ["Zmiana 24h", changeFmt(c24h)],
                 ["Zmiana 7d", changeFmt(c7d)],
-                ["Kapitalizacja", stock.cap ? `${fmt(stock.cap, 0)} mln zł` : "—"],
-                ["C/Z (P/E)", stock.pe > 0 ? fmt(stock.pe) : "—"],
-                ["Dywidenda", stock.div > 0 ? `${fmt(stock.div)}%` : "Brak"],
+                ...(isStock ? [
+                  ["Kapitalizacja", stock.cap ? `${fmt(stock.cap, 0)} mln zł` : "—"],
+                  ["C/Z (P/E)", stock.pe > 0 ? fmt(stock.pe) : "—"],
+                  ["Dywidenda", stock.div > 0 ? `${fmt(stock.div)}%` : "Brak"],
+                ] : [
+                  ["Sektor", stock.sector],
+                ]),
               ].map(([label, val]) => (
                 <div key={label} style={{ background: theme.bgCardAlt, borderRadius: 10, padding: "14px 16px" }}>
                   <div style={{ fontSize: 10, color: theme.textSecondary, marginBottom: 5, fontWeight: 600, textTransform: "uppercase", letterSpacing: 0.5 }}>{label}</div>

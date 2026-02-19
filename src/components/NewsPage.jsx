@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { NEWS } from "../data/news.js";
-import { STOCKS, COMMODITIES } from "../data/stocks.js";
+import { STOCKS, COMMODITIES, FOREX } from "../data/stocks.js";
 
-const ALL_INSTRUMENTS = [...STOCKS, ...COMMODITIES];
+const ALL_INSTRUMENTS = [...STOCKS, ...COMMODITIES, ...FOREX];
 
 const PERIODS = [
   { key: "dzis",    label: "Dziś" },
