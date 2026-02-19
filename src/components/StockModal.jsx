@@ -4,7 +4,7 @@ import { useIsMobile } from "../hooks/useIsMobile.js";
 import { fmt, changeFmt, getYahooSymbol } from "../utils.js";
 import MiniChart from "./MiniChart.jsx";
 
-export default function StockModal({ stock, price, change24h, change7d, onClose, theme }) {
+export default function StockModal({ stock, price, change24h, change7d, onClose, onCalc, theme }) {
   const [history, setHistory] = useState(null);
   const [intraday, setIntraday] = useState(null);
   const [range, setRange] = useState("1M");
@@ -101,6 +101,11 @@ export default function StockModal({ stock, price, change24h, change7d, onClose,
             </a>
           ))}
         </div>
+        {onCalc && (
+          <button onClick={onCalc} style={{ display: "block", width: "100%", marginBottom: 14, padding: "10px 0", borderRadius: 10, border: `1px solid ${theme.borderInput}`, background: theme.bgCardAlt, color: theme.textBright, fontSize: 13, fontWeight: 600, cursor: "pointer", fontFamily: "inherit" }}>
+            Kalkulator zysku / straty
+          </button>
+        )}
         <a href={`https://finance.yahoo.com/quote/${getYahooSymbol(stock.stooq || stock.ticker)}`} target="_blank" rel="noreferrer" style={{ display: "block", textAlign: "center", color: theme.accent, fontSize: 12, textDecoration: "none" }}>
           Zobacz pełne dane na Yahoo Finance →
         </a>
