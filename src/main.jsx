@@ -120,7 +120,7 @@ const STOCKS = [
   { id: 15, ticker: "KTY", stooq: "kty", name: "Grupa Kęty", sector: "Przemysł", price: 0, cap: 5200, pe: 14.2, div: 3.8 },
   { id: 16, ticker: "BDX", stooq: "bdx", name: "Budimex", sector: "Budownictwo", price: 0, cap: 5900, pe: 18.2, div: 6.1 },
   { id: 17, ticker: "CCC", stooq: "ccc", name: "CCC SA", sector: "Handel", price: 0, cap: 6800, pe: 0, div: 0 },
-  { id: 18, ticker: "PEP", stooq: "pep", name: "Pepco Group", sector: "Handel", price: 0, cap: 8400, pe: 18.4, div: 0 },
+  { id: 18, ticker: "PCO", stooq: "pco", name: "Pepco Group", sector: "Handel", price: 0, cap: 8400, pe: 18.4, div: 0 },
   { id: 19, ticker: "ALR", stooq: "alr", name: "Alior Bank", sector: "Banki", price: 0, cap: 3800, pe: 7.2, div: 2.4 },
   { id: 20, ticker: "ZAB", stooq: "zab", name: "Żabka Group", sector: "Handel", price: 0, cap: 18000, pe: 0, div: 0 },
   // ─── mWIG40 (40 średnich spółek) ───────────────────────────────
@@ -158,7 +158,7 @@ const STOCKS = [
   { id: 52, ticker: "GTC", stooq: "gtc", name: "Globe Trade Centre", sector: "Nieruchomości", price: 0, cap: 1900, pe: 0, div: 3.2 },
   { id: 53, ticker: "BNP", stooq: "bnp", name: "BNP Paribas Bank Polska", sector: "Banki", price: 0, cap: 5200, pe: 0, div: 0 },
   { id: 54, ticker: "GPP", stooq: "gpp", name: "Grupa Pracuj", sector: "Technologia", price: 0, cap: 5800, pe: 0, div: 0 },
-  { id: 55, ticker: "PEN", stooq: "pen", name: "Polenergia SA", sector: "Energetyka", price: 0, cap: 2400, pe: 0, div: 0 },
+  { id: 55, ticker: "PEP", stooq: "pep", name: "Polenergia SA", sector: "Energetyka", price: 0, cap: 2400, pe: 0, div: 0 },
   { id: 56, ticker: "KGN", stooq: "kgn", name: "Kogeneracja SA", sector: "Energetyka", price: 0, cap: 890, pe: 10.2, div: 4.8 },
   { id: 57, ticker: "STP", stooq: "stp", name: "Stalprodukt", sector: "Przemysł", price: 0, cap: 1200, pe: 10.4, div: 4.2 },
   { id: 58, ticker: "MAB", stooq: "mab", name: "Mabion", sector: "Biotechnologia", price: 0, cap: 420, pe: 0, div: 0 },
@@ -169,7 +169,7 @@ const STOCKS = [
   { id: 62, ticker: "WAR", stooq: "war", name: "Wawel SA", sector: "Spożywczy", price: 0, cap: 890, pe: 16.4, div: 4.2 },
   { id: 63, ticker: "SNK", stooq: "snk", name: "Sanok Rubber Company", sector: "Przemysł", price: 0, cap: 620, pe: 11.4, div: 4.2 },
   { id: 64, ticker: "SGN", stooq: "sgn", name: "Selvita", sector: "Biotechnologia", price: 0, cap: 580, pe: 0, div: 0 },
-  { id: 65, ticker: "SKA", stooq: "ska", name: "Skarbiec Holding", sector: "Finanse", price: 0, cap: 180, pe: 14.2, div: 5.8 },
+  { id: 65, ticker: "SKA", stooq: "ska", name: "Śnieżka SA", sector: "Chemia", price: 0, cap: 1200, pe: 16.4, div: 4.8 },
   { id: 66, ticker: "11B", stooq: "11b", name: "11 bit studios", sector: "Gry", price: 0, cap: 1400, pe: 32.6, div: 0 },
   { id: 67, ticker: "HUG", stooq: "hug", name: "Huuuge Inc.", sector: "Gry", price: 0, cap: 680, pe: 0, div: 0 },
   { id: 68, ticker: "TEN", stooq: "ten", name: "Ten Square Games", sector: "Gry", price: 0, cap: 320, pe: 0, div: 0 },
@@ -199,7 +199,7 @@ const STOCKS = [
   { id: 92, ticker: "ATC", stooq: "atc", name: "Arctic Paper", sector: "Przemysł", price: 0, cap: 920, pe: 5.8, div: 6.2 },
   { id: 93, ticker: "PXM", stooq: "pxm", name: "Polimex-Mostostal", sector: "Budownictwo", price: 0, cap: 680, pe: 0, div: 0 },
   { id: 94, ticker: "PKP", stooq: "pkp", name: "PKP Cargo", sector: "Transport", price: 0, cap: 890, pe: 0, div: 0 },
-  { id: 95, ticker: "SWG", stooq: "swg", name: "Śnieżka SA", sector: "Chemia", price: 0, cap: 1200, pe: 16.4, div: 4.8 },
+  { id: 95, ticker: "SWG", stooq: "swg", name: "Seco/Warwick SA", sector: "Przemysł", price: 0, cap: 480, pe: 0, div: 0 },
   { id: 96, ticker: "ERB", stooq: "erb", name: "ERBud SA", sector: "Budownictwo", price: 0, cap: 420, pe: 5.8, div: 3.4 },
   { id: 97, ticker: "ACE", stooq: "ace", name: "Asseco Central Europe", sector: "Technologia", price: 0, cap: 680, pe: 14.8, div: 3.8 },
   { id: 98, ticker: "AST", stooq: "ast", name: "ASBISc Enterprises", sector: "Technologia", price: 0, cap: 1200, pe: 6.4, div: 4.2 },
@@ -275,6 +275,17 @@ const STOCKS = [
   { id: 167, ticker: "DPL", stooq: "dpl", name: "Drozapol SA", sector: "Handel", price: 0, cap: 80, pe: 0, div: 0 },
   { id: 168, ticker: "EFK", stooq: "efk", name: "Efekt SA", sector: "Handel", price: 0, cap: 80, pe: 0, div: 0 },
   { id: 169, ticker: "KMP", stooq: "kmp", name: "Kompap SA", sector: "Przemysł", price: 0, cap: 80, pe: 0, div: 0 },
+  // ─── Spółki z poprawionymi nazwami (weryfikacja stooq) ─────────
+  { id: 170, ticker: "KRK", stooq: "krk", name: "Krka d.d.", sector: "Farmacja", price: 0, cap: 4800, pe: 12.8, div: 4.2 },
+  { id: 171, ticker: "IZO", stooq: "izo", name: "Izolacja Jarocin SA", sector: "Budownictwo", price: 0, cap: 120, pe: 0, div: 0 },
+  { id: 172, ticker: "ENG", stooq: "eng", name: "Energa SA", sector: "Energetyka", price: 0, cap: 3400, pe: 9.1, div: 3.2 },
+  { id: 173, ticker: "RFK", stooq: "rfk", name: "Rafako SA", sector: "Przemysł", price: 0, cap: 20, pe: 0, div: 0 },
+  { id: 174, ticker: "CLN", stooq: "cln", name: "Celon Pharma SA", sector: "Farmacja", price: 0, cap: 480, pe: 0, div: 0 },
+  { id: 175, ticker: "HRS", stooq: "hrs", name: "Herkules SA", sector: "Przemysł", price: 0, cap: 120, pe: 0, div: 0 },
+  { id: 176, ticker: "OVO", stooq: "ovo", name: "Ovostar Union PCL", sector: "Rolnictwo", price: 0, cap: 280, pe: 0, div: 0 },
+  { id: 177, ticker: "KPL", stooq: "kpl", name: "Kino Polska TV SA", sector: "Media", price: 0, cap: 320, pe: 0, div: 0 },
+  { id: 178, ticker: "IMP", stooq: "imp", name: "Imperio ASI SA", sector: "Finanse", price: 0, cap: 80, pe: 0, div: 0 },
+  { id: 179, ticker: "SKH", stooq: "skh", name: "Skarbiec Holding SA", sector: "Finanse", price: 0, cap: 180, pe: 14.2, div: 5.8 },
 ];
 
 const COMMODITIES = [
