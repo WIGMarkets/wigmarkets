@@ -16,12 +16,14 @@ import StockModal from "./components/StockModal.jsx";
 import StockLogo from "./components/StockLogo.jsx";
 import StockPage from "./components/StockPage.jsx";
 import FearGreedPage from "./components/FearGreedPage.jsx";
+import NewsPage from "./components/NewsPage.jsx";
 import ScreenerView from "./components/ScreenerView.jsx";
 
 const ALL_INSTRUMENTS = [...STOCKS, ...COMMODITIES];
 
 function getRouteFromPath(pathname) {
   if (pathname === "/indeks") return { page: "feargreed" };
+  if (pathname === "/wiadomosci") return { page: "news" };
   const match = pathname.match(/^\/spolka\/([A-Z0-9]+)$/i);
   if (match) {
     const ticker = match[1].toUpperCase();
@@ -71,6 +73,11 @@ export default function WigMarkets() {
   const navigateToFearGreed = useCallback(() => {
     window.history.pushState(null, "", "/indeks");
     setRoute({ page: "feargreed" });
+  }, []);
+
+  const navigateToNews = useCallback(() => {
+    window.history.pushState(null, "", "/wiadomosci");
+    setRoute({ page: "news" });
   }, []);
 
   const navigateHome = useCallback(() => {
@@ -208,6 +215,11 @@ export default function WigMarkets() {
     return <FearGreedPage onBack={navigateHome} theme={theme} />;
   }
 
+  // Route: News page
+  if (route.page === "news") {
+    return <NewsPage onBack={navigateHome} theme={theme} onSelectStock={navigateToStock} />;
+  }
+
   // Route: dedicated stock page
   if (route.page === "stock" && route.stock) {
     return (
@@ -268,6 +280,7 @@ export default function WigMarkets() {
           {[["akcje", "Akcje GPW"], ["popularne", "Popularne"], ["surowce", "Surowce"], ["screener", "Screener"]].map(([key, label]) => (
             <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); setWatchFilter(false); }} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: tab === key ? theme.accent : theme.borderInput, background: tab === key ? "#1f6feb22" : "transparent", color: tab === key ? theme.accent : theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: tab === key ? 700 : 400, cursor: "pointer", fontFamily: "inherit" }}>{label}</button>
           ))}
+          <button onClick={navigateToNews} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: theme.borderInput, background: "transparent", color: theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "inherit" }}>Wiadomości</button>
           {tab !== "screener" && tab !== "popularne" && (
           <div style={{ marginLeft: "auto", display: "flex", gap: 4 }}>
             <button onClick={() => setWatchFilter(f => !f)} style={{ padding: isMobile ? "6px 10px" : "8px 14px", borderRadius: 8, border: "1px solid", borderColor: watchFilter ? "#ffd700" : theme.borderInput, background: watchFilter ? "#ffd70022" : "transparent", color: watchFilter ? "#ffd700" : theme.textSecondary, fontSize: isMobile ? 11 : 12, cursor: "pointer", fontFamily: "inherit", fontWeight: watchFilter ? 700 : 400 }}>
