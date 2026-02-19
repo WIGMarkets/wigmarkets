@@ -21,6 +21,14 @@ export async function fetchHistory(symbol) {
   } catch { return null; }
 }
 
+export async function fetchIntraday(symbol) {
+  try {
+    const res = await fetch(`/api/intraday?symbol=${symbol}`);
+    const data = await res.json();
+    return data;
+  } catch { return null; }
+}
+
 export async function fetchIndices() {
   try {
     const res = await fetch("/api/indices");
