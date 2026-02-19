@@ -242,6 +242,29 @@ export default function WigMarkets() {
         </div>
       </div>
 
+      {tab !== "screener" && (
+        <div style={{ maxWidth: 1400, margin: "0 auto", padding: isMobile ? "0 12px 12px" : "0 24px 16px" }}>
+          <div style={{ display: "flex", gap: 8, overflowX: "auto", paddingBottom: 4, scrollbarWidth: "none" }}>
+            {[...topGainers.slice(0, 4), ...topLosers.slice(0, 4)].map(s => {
+              const c = changes[s.ticker]?.change24h ?? 0;
+              const isUp = c >= 0;
+              return (
+                <div key={s.ticker} onClick={() => navigateToStock(s)} style={{ flexShrink: 0, background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 10, padding: "8px 12px", cursor: "pointer", display: "flex", alignItems: "center", gap: 8, minWidth: 140 }}
+                  onMouseEnter={e => e.currentTarget.style.borderColor = isUp ? "#00c89666" : "#ff4d6d66"}
+                  onMouseLeave={e => e.currentTarget.style.borderColor = theme.border}>
+                  <StockLogo ticker={s.ticker} size={28} borderRadius={6} sector={s.sector} />
+                  <div style={{ minWidth: 0 }}>
+                    <div style={{ fontWeight: 700, fontSize: 12, color: theme.textBright }}>{s.ticker}</div>
+                    <div style={{ fontSize: 10, color: theme.textSecondary, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", maxWidth: 90 }}>{s.name}</div>
+                  </div>
+                  <span style={{ marginLeft: "auto", padding: "2px 6px", borderRadius: 5, fontSize: 11, fontWeight: 700, background: isUp ? "#00c89620" : "#ff4d6d20", color: isUp ? "#00c896" : "#ff4d6d", whiteSpace: "nowrap" }}>{changeFmt(c)}</span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
       <div style={{ maxWidth: 1400, margin: "0 auto", display: isMobile ? "block" : "grid", gridTemplateColumns: tab === "screener" ? "1fr" : "1fr 280px", gap: 24, padding: isMobile ? "0 12px" : "0 24px" }}>
         {tab === "screener" ? (
           <ScreenerView prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
