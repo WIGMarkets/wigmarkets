@@ -17,7 +17,7 @@ export default function Sparkline({ trend }) {
   const color = trend >= 0 ? "#00c896" : "#ff4d6d";
   return (
     <svg width="60" height="32" viewBox="0 0 100 40" style={{ display: "block" }}>
-      <polyline points={path} fill="none" stroke={color} strokeWidth="1.5" strokeLinejoin="round" strokeLinecap="round" opacity="0.9" />
+      <polyline points={path} fill="none" stroke={color} strokeWidth="2.5" strokeLinejoin="round" strokeLinecap="round" opacity="0.9" />
     </svg>
   );
 }

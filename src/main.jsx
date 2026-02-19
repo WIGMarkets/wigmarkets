@@ -52,31 +52,31 @@ function TableRow({ s, i, rank, isMobile, tab, theme, prices, changes, watchlist
       onMouseLeave={e => { if (!isKeyboardActive) e.currentTarget.style.background = ""; }}
       style={{ borderBottom: `1px solid ${theme.bgCardAlt}`, cursor: "pointer", transition: "background 0.15s", background: isKeyboardActive ? theme.bgCardAlt : "" }}
     >
-      <td style={{ padding: isMobile ? "10px 4px" : "10px 8px", textAlign: "center" }}>
+      <td style={{ padding: isMobile ? "12px 4px" : "13px 8px", textAlign: "center" }}>
         <WatchStar active={watchlist.has(s.ticker)} onClick={() => toggleWatch(s.ticker)} theme={theme} />
       </td>
-      {!isMobile && <td style={{ padding: "10px 16px", color: theme.textSecondary, fontSize: 11 }}>{rank}</td>}
-      <td style={{ padding: isMobile ? "10px 10px" : "10px 16px" }}>
+      {!isMobile && <td style={{ padding: "13px 16px", color: theme.textSecondary, fontSize: 11 }}>{rank}</td>}
+      <td style={{ padding: isMobile ? "12px 10px" : "13px 16px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
           <StockLogo ticker={s.ticker} size={28} borderRadius={6} sector={s.sector} />
           <div>
             <div style={{ fontWeight: 700, color: theme.textBright, fontSize: isMobile ? 12 : 13 }}>{s.ticker}</div>
-            <div style={{ fontSize: 10, color: theme.textSecondary, maxWidth: isMobile ? 120 : undefined, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.name}</div>
+            <div style={{ fontSize: 10, color: theme.textMuted, maxWidth: isMobile ? 120 : undefined, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.name}</div>
           </div>
         </div>
       </td>
-      <td style={{ padding: isMobile ? "10px 8px" : "10px 16px", textAlign: "right", fontWeight: 700, color: priceColor, fontSize: isMobile ? 12 : 13, whiteSpace: "nowrap", fontVariantNumeric: "tabular-nums" }}>{fmt(currentPrice)} {s.unit || "zł"}</td>
-      <td style={{ padding: isMobile ? "10px 8px" : "10px 16px", textAlign: "right", fontVariantNumeric: "tabular-nums" }}>
+      <td style={{ padding: isMobile ? "12px 8px" : "13px 16px", textAlign: "right", fontWeight: 700, color: priceColor, fontSize: isMobile ? 12 : 13, whiteSpace: "nowrap", fontVariantNumeric: "tabular-nums" }}>{fmt(currentPrice)} {s.unit || "zł"}</td>
+      <td style={{ padding: isMobile ? "12px 8px" : "13px 16px", textAlign: "right", fontVariantNumeric: "tabular-nums" }}>
         <span style={{ padding: "2px 6px", borderRadius: 5, fontSize: isMobile ? 11 : 12, fontWeight: 700, background: c24h > 0 ? "#00c89620" : "#ff4d6d20", color: changeColor(c24h), whiteSpace: "nowrap" }}>{changeFmt(c24h)}</span>
       </td>
-      {!isMobile && <td style={{ padding: "10px 16px", textAlign: "right", color: changeColor(c7d), fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{changeFmt(c7d)}</td>}
-      {!isMobile && (tab === "akcje" || tab === "screener") && <td style={{ padding: "10px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{fmt(s.cap, 0)}</td>}
-      {!isMobile && tab !== "screener" && <td style={{ padding: "10px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{fmtVolume(volume)}</td>}
-      {!isMobile && tab === "akcje" && showPE  && <td style={{ padding: "10px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{s.pe ? fmt(s.pe) : "—"}</td>}
-      {!isMobile && tab === "akcje" && showDiv && <td style={{ padding: "10px 16px", textAlign: "right", color: s.div > 0 ? "#00c896" : theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{s.div ? `${fmt(s.div)}%` : "—"}</td>}
-      {!isMobile && <td style={{ padding: "10px 16px", textAlign: "right" }}><Sparkline trend={c7d} /></td>}
+      {!isMobile && <td style={{ padding: "13px 16px", textAlign: "right", color: changeColor(c7d), fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{changeFmt(c7d)}</td>}
+      {!isMobile && (tab === "akcje" || tab === "screener") && <td style={{ padding: "13px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{fmt(s.cap, 0)}</td>}
+      {!isMobile && tab !== "screener" && <td style={{ padding: "13px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{fmtVolume(volume)}</td>}
+      {!isMobile && tab === "akcje" && showPE  && <td style={{ padding: "13px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{s.pe ? fmt(s.pe) : "—"}</td>}
+      {!isMobile && tab === "akcje" && showDiv && <td style={{ padding: "13px 16px", textAlign: "right", color: s.div > 0 ? "#00c896" : theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{s.div ? `${fmt(s.div)}%` : "—"}</td>}
+      {!isMobile && <td style={{ padding: "13px 16px", textAlign: "right" }}><Sparkline trend={c7d} /></td>}
       {!isMobile && (
-        <td style={{ padding: "10px 16px", textAlign: "right" }}>
+        <td style={{ padding: "13px 16px", textAlign: "right" }}>
           <button
             onClick={e => { e.stopPropagation(); setCalcStock(s); }}
             style={{ padding: "5px 11px", borderRadius: 6, border: `1px solid ${theme.borderInput}`, background: "transparent", color: theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit", whiteSpace: "nowrap", lineHeight: 1.2 }}
@@ -286,7 +286,10 @@ export default function WigMarkets() {
   const handleSort = (col) => { if (sortBy === col) setSortDir(d => d === "desc" ? "asc" : "desc"); else { setSortBy(col); setSortDir("desc"); } };
   const col = (label, key, right = true) => (
     <th onClick={() => handleSort(key)} style={{ padding: isMobile ? "8px 8px" : "10px 16px", textAlign: right ? "right" : "left", fontSize: 10, color: sortBy === key ? theme.accent : theme.textSecondary, cursor: "pointer", whiteSpace: "nowrap", userSelect: "none", borderBottom: `1px solid ${theme.border}`, fontWeight: 600, letterSpacing: 1, textTransform: "uppercase" }}>
-      {label} {sortBy === key ? (sortDir === "desc" ? "↓" : "↑") : ""}
+      {label}{" "}
+      {sortBy === key
+        ? (sortDir === "desc" ? "↓" : "↑")
+        : <span style={{ opacity: 0.3, fontSize: 9 }}>↕</span>}
     </th>
   );
   const exportCSV = () => {
@@ -475,14 +478,24 @@ export default function WigMarkets() {
 
           <div style={{ width: 1, background: theme.border, margin: "8px 0", flexShrink: 0 }} />
 
-          {/* Fear & Greed */}
-          <div onClick={navigateToFearGreed} style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: isMobile ? "10px 14px" : "12px 20px", cursor: "pointer", flexShrink: 0 }}
-            onMouseEnter={e => e.currentTarget.style.background = theme.bgCardAlt}
-            onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
-            <div style={{ fontSize: 9, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: 1, fontWeight: 700, marginBottom: 3 }}>Fear & Greed</div>
-            <div style={{ fontSize: 22, fontWeight: 800, color: fgColor, lineHeight: 1 }}>{fgValue}</div>
-            <div style={{ fontSize: 10, fontWeight: 600, color: fgColor, marginTop: 2 }}>{fgLabel}</div>
-          </div>
+          {/* WIG20 / obrót rynkowy zamiast duplikatu F&G */}
+          {indices[0] ? (
+            <div onClick={navigateToFearGreed} style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: isMobile ? "10px 14px" : "12px 20px", cursor: "pointer", flexShrink: 0 }}
+              onMouseEnter={e => e.currentTarget.style.background = theme.bgCardAlt}
+              onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
+              <div style={{ fontSize: 9, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: 1, fontWeight: 700, marginBottom: 3 }}>{indices[0].name}</div>
+              <div style={{ fontSize: 20, fontWeight: 800, color: theme.textBright, lineHeight: 1, fontVariantNumeric: "tabular-nums" }}>{fmtIdx(indices[0].value)}</div>
+              <div style={{ fontSize: 10, fontWeight: 600, color: (indices[0].change24h ?? 0) >= 0 ? "#00c896" : "#ff4d6d", marginTop: 2 }}>{fmtIdxChange(indices[0].change24h)}</div>
+            </div>
+          ) : (
+            <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: isMobile ? "10px 14px" : "12px 20px", flexShrink: 0 }}>
+              <div style={{ fontSize: 9, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: 1, fontWeight: 700, marginBottom: 3 }}>Obrót GPW</div>
+              <div style={{ fontSize: 18, fontWeight: 800, color: theme.textBright, lineHeight: 1, fontVariantNumeric: "tabular-nums" }}>
+                {(() => { const v = STOCKS.reduce((a, s) => a + (changes[s.ticker]?.volume ?? 0) * (prices[s.ticker] ?? 0), 0); return v >= 1e9 ? `${(v/1e9).toFixed(2)} mld` : v >= 1e6 ? `${(v/1e6).toFixed(0)} mln` : "—"; })()}
+              </div>
+              <div style={{ fontSize: 10, color: theme.textSecondary, marginTop: 2 }}>zł dzisiaj</div>
+            </div>
+          )}
 
         </div>
       </div>
@@ -498,7 +511,7 @@ export default function WigMarkets() {
         {/* Tabs + View toggle */}
         <div style={{ display: "flex", gap: 4, marginBottom: 16, flexWrap: "nowrap", alignItems: "center", overflowX: "auto", WebkitOverflowScrolling: "touch", msOverflowStyle: "none", scrollbarWidth: "none", paddingBottom: 2 }}>
           {[["akcje", "Akcje GPW"], ["popularne", "Popularne"], ["surowce", "Surowce"], ["forex", "Forex"], ["screener", "Screener"], ["watchlist", `⭐ Obserwowane${watchlist.size ? ` (${watchlist.size})` : ""}`]].map(([key, label]) => (
-            <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); setWatchFilter(false); }} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: tab === key ? theme.accent : theme.borderInput, background: tab === key ? "#1f6feb22" : "transparent", color: tab === key ? theme.accent : theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: tab === key ? 700 : 400, cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>{label}</button>
+            <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); setWatchFilter(false); }} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: tab === key ? theme.accent : theme.borderInput, background: tab === key ? `${theme.accent}28` : "transparent", color: tab === key ? theme.accent : theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: tab === key ? 700 : 400, cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>{label}</button>
           ))}
           <button onClick={navigateToNews} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: theme.borderInput, background: "transparent", color: theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>Wiadomości</button>
           <button onClick={navigateToPortfolio} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: theme.borderInput, background: "transparent", color: theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>Portfolio</button>
