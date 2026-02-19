@@ -60,7 +60,7 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
   const rsi = useMemo(() => calculateRSI(history), [history]);
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Space Grotesk', 'Inter', sans-serif" }}>
+    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif" }}>
       <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, padding: "0 16px" }}>
         <div style={{ display: "flex", gap: 16, padding: "10px 0", alignItems: "center", maxWidth: 1100, margin: "0 auto" }}>
           <button onClick={onBack} style={{ display: "flex", alignItems: "center", gap: 6, background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 8, color: theme.textSecondary, padding: "6px 14px", fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: 600 }}>

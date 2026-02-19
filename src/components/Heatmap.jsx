@@ -79,10 +79,10 @@ export default function Heatmap({ stocks, prices, changes, theme, onSelect }) {
               {r.rw > 6 && r.rh > 5 && (
                 <>
                   <text x={r.rx + r.rw / 2} y={r.ry + r.rh / 2 - (r.rh > 10 ? 1.2 : 0)} textAnchor="middle" dominantBaseline="central"
-                    fill={theme.textBright} fontSize={r.rw > 12 ? 2.2 : 1.6} fontWeight="800" fontFamily="'Space Grotesk',sans-serif">{r.ticker}</text>
+                    fill={theme.textBright} fontSize={r.rw > 12 ? 2.2 : 1.6} fontWeight="800" fontFamily="'Inter',sans-serif">{r.ticker}</text>
                   {r.rh > 10 && (
                     <text x={r.rx + r.rw / 2} y={r.ry + r.rh / 2 + 2.2} textAnchor="middle" dominantBaseline="central"
-                      fill={changeColor(r.c24h)} fontSize={1.5} fontWeight="700" fontFamily="'Space Grotesk',sans-serif">
+                      fill={changeColor(r.c24h)} fontSize={1.5} fontWeight="700" fontFamily="'Inter',sans-serif">
                       {r.c24h > 0 ? "+" : ""}{r.c24h.toFixed(1)}%
                     </text>
                   )}
