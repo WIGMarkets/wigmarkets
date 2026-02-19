@@ -36,3 +36,10 @@ export async function fetchFundamentals(symbol) {
     return data?.error ? null : data;
   } catch { return null; }
 }
+
+export async function fetchRedditTrends(tickers) {
+  try {
+    const res = await fetch(`/api/reddit?tickers=${tickers.join(",")}`);
+    return await res.json();
+  } catch { return { ranked: [], postsScanned: 0 }; }
+}
