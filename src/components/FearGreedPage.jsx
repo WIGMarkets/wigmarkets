@@ -31,7 +31,7 @@ const RANGES = [
   { key: "30d",  label: "30d",  days: 30 },
   { key: "90d",  label: "90d",  days: 90 },
   { key: "1r",   label: "1r",   days: 365 },
-  { key: "max",  label: "Max",  days: 365 },
+  { key: "max",  label: "Max",  days: 730 },
 ];
 
 function formatDate(d) {
@@ -62,7 +62,7 @@ export default function FearGreedPage({ onBack, theme }) {
   const yesterday = FEAR_HISTORY_YEAR[FEAR_HISTORY_YEAR.length - 2];
   const weekAgo   = FEAR_HISTORY_YEAR[FEAR_HISTORY_YEAR.length - 8];
   const monthAgo  = FEAR_HISTORY_YEAR[FEAR_HISTORY_YEAR.length - 31];
-  const yearAgo   = FEAR_HISTORY_YEAR[0];
+  const yearAgo   = FEAR_HISTORY_YEAR[FEAR_HISTORY_YEAR.length - 366];
   const minYear   = Math.min(...FEAR_HISTORY_YEAR);
   const maxYear   = Math.max(...FEAR_HISTORY_YEAR);
 
@@ -128,7 +128,7 @@ export default function FearGreedPage({ onBack, theme }) {
   };
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bg ?? theme.bgPage, color: theme.text, fontFamily: "inherit" }}>
+    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Space Grotesk', 'Inter', sans-serif" }}>
       {/* Header */}
       <div style={{
         background: theme.bgCard,
