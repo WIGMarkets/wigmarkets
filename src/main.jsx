@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import ReactDOM from "react-dom/client";
 import { DARK_THEME, LIGHT_THEME } from "./themes.js";
-import { fetchBulk, fetchIndices } from "./api.js";
+import { fetchBulk, fetchIndices, fetchRedditTrends } from "./api.js";
 import { STOCKS, COMMODITIES } from "./data/stocks.js";
 import { fmt, changeFmt, changeColor } from "./utils.js";
 import { useIsMobile } from "./hooks/useIsMobile.js";
@@ -39,6 +39,7 @@ export default function WigMarkets() {
   const [page, setPage] = useState(1);
   const [prices, setPrices] = useState({});
   const [changes, setChanges] = useState({});
+  const [redditData, setRedditData] = useState({ ranked: [], postsScanned: 0, loading: false });
   const [selected, setSelected] = useState(null);
   const [calcStock, setCalcStock] = useState(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -98,7 +99,7 @@ export default function WigMarkets() {
   }, []);
 
   useEffect(() => {
-    const activeData = (tab === "akcje" || tab === "screener") ? STOCKS : COMMODITIES;
+    const activeData = (tab === "akcje" || tab === "screener" || tab === "popularne") ? STOCKS : COMMODITIES;
     const symbols = activeData.map(item => item.stooq || item.ticker.toLowerCase());
     const fetchAll = async () => {
       const bulk = await fetchBulk(symbols);
@@ -122,7 +123,20 @@ export default function WigMarkets() {
     return () => clearInterval(interval);
   }, [tab]);
 
-  const activeData = (tab === "akcje" || tab === "screener") ? STOCKS : COMMODITIES;
+  useEffect(() => {
+    if (tab !== "popularne") return;
+    const tickers = STOCKS.map(s => s.ticker);
+    const load = () =>
+      fetchRedditTrends(tickers).then(data =>
+        setRedditData({ ...data, loading: false })
+      );
+    setRedditData(d => ({ ...d, loading: true }));
+    load();
+    const interval = setInterval(load, 300_000);
+    return () => clearInterval(interval);
+  }, [tab]);
+
+  const activeData = (tab === "akcje" || tab === "screener" || tab === "popularne") ? STOCKS : COMMODITIES;
   const sectors = useMemo(() => ["all", ...Array.from(new Set(activeData.map(s => s.sector)))], [activeData]);
 
   const filtered = useMemo(() => {
@@ -158,6 +172,15 @@ export default function WigMarkets() {
   const topLosers = useMemo(() =>
     [...STOCKS].sort((a, b) => (changes[a.ticker]?.change24h ?? 0) - (changes[b.ticker]?.change24h ?? 0)).slice(0, 5),
     [changes]
+  );
+  const popularStocks = useMemo(() =>
+    redditData.ranked
+      .map(({ ticker, mentions }) => {
+        const stock = STOCKS.find(s => s.ticker === ticker);
+        return stock ? { ...stock, mentions } : null;
+      })
+      .filter(Boolean),
+    [redditData.ranked]
   );
   const marketStats = useMemo(() => [
     ["Spółki rosnące", `${STOCKS.filter(s => (changes[s.ticker]?.change24h ?? 0) > 0).length}/${STOCKS.length}`, "#00c896"],
@@ -222,10 +245,10 @@ export default function WigMarkets() {
       <div style={{ padding: isMobile ? "16px 12px 0" : "24px 24px 0", maxWidth: 1400, margin: "0 auto" }}>
         {/* Tabs + View toggle */}
         <div style={{ display: "flex", gap: 4, marginBottom: 16, flexWrap: "wrap", alignItems: "center" }}>
-          {[["akcje", "Akcje GPW"], ["surowce", "Surowce"], ["screener", "Screener"]].map(([key, label]) => (
+          {[["akcje", "Akcje GPW"], ["popularne", "Popularne"], ["surowce", "Surowce"], ["screener", "Screener"]].map(([key, label]) => (
             <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); setWatchFilter(false); }} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: tab === key ? theme.accent : theme.borderInput, background: tab === key ? "#1f6feb22" : "transparent", color: tab === key ? theme.accent : theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: tab === key ? 700 : 400, cursor: "pointer", fontFamily: "inherit" }}>{label}</button>
           ))}
-          {tab !== "screener" && (
+          {tab !== "screener" && tab !== "popularne" && (
           <div style={{ marginLeft: "auto", display: "flex", gap: 4 }}>
             <button onClick={() => setWatchFilter(f => !f)} style={{ padding: isMobile ? "6px 10px" : "8px 14px", borderRadius: 8, border: "1px solid", borderColor: watchFilter ? "#ffd700" : theme.borderInput, background: watchFilter ? "#ffd70022" : "transparent", color: watchFilter ? "#ffd700" : theme.textSecondary, fontSize: isMobile ? 11 : 12, cursor: "pointer", fontFamily: "inherit", fontWeight: watchFilter ? 700 : 400 }}>
               Obserwowane{watchlist.size > 0 ? ` (${watchlist.size})` : ""}
@@ -247,11 +270,60 @@ export default function WigMarkets() {
           <ScreenerView prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
         ) : (<>
         <div>
+          {/* Popularne tab */}
+          {tab === "popularne" && (
+            <div>
+              <div style={{ marginBottom: 16, fontSize: 12, color: theme.textSecondary }}>
+                Trendy z Reddit (r/inwestowanie, r/gielda){redditData.postsScanned > 0 && ` · ${redditData.postsScanned} postów`}
+              </div>
+              {redditData.loading && (
+                <div style={{ textAlign: "center", padding: 48, color: theme.textSecondary }}>Ładowanie danych Reddit...</div>
+              )}
+              {!redditData.loading && popularStocks.length === 0 && (
+                <div style={{ textAlign: "center", padding: 48, color: theme.textSecondary }}>Brak wzmianek spółek GPW w ostatnich postach Reddit.</div>
+              )}
+              {!redditData.loading && popularStocks.length > 0 && (
+                <div style={{ display: "grid", gridTemplateColumns: isMobile ? "repeat(2, 1fr)" : "repeat(3, 1fr)", gap: isMobile ? 10 : 16 }}>
+                  {popularStocks.map((s, i) => {
+                    const price = prices[s.ticker];
+                    const c24h = changes[s.ticker]?.change24h ?? 0;
+                    const borderColor = c24h > 0 ? "#00c89640" : c24h < 0 ? "#ff4d6d40" : theme.border;
+                    return (
+                      <div key={s.ticker} onClick={() => navigateToStock(s)}
+                        style={{ background: theme.bgCard, border: `1px solid ${borderColor}`, borderRadius: 12, padding: isMobile ? 12 : 16, cursor: "pointer", position: "relative" }}
+                        onMouseEnter={e => e.currentTarget.style.borderColor = theme.accent}
+                        onMouseLeave={e => e.currentTarget.style.borderColor = borderColor}
+                      >
+                        <div style={{ position: "absolute", top: 10, right: 10, fontSize: 10, color: theme.textSecondary, fontWeight: 700 }}>#{i + 1}</div>
+                        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 8 }}>
+                          <StockLogo ticker={s.ticker} size={32} borderRadius={8} sector={s.sector} />
+                          <div>
+                            <div style={{ fontWeight: 700, color: theme.textBright, fontSize: 14 }}>{s.ticker}</div>
+                            <div style={{ fontSize: 10, color: theme.textSecondary }}>{s.sector}</div>
+                          </div>
+                        </div>
+                        <div style={{ fontSize: isMobile ? 11 : 12, color: theme.text, marginBottom: 10, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.name}</div>
+                        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                          <div style={{ fontWeight: 700, color: c24h > 0 ? "#00c896" : c24h < 0 ? "#ff4d6d" : theme.text, fontSize: 13 }}>{fmt(price)} zł</div>
+                          <span style={{ padding: "2px 7px", borderRadius: 5, fontSize: 11, fontWeight: 700, background: c24h > 0 ? "#00c89620" : "#ff4d6d20", color: changeColor(c24h) }}>{changeFmt(c24h)}</span>
+                        </div>
+                        <div style={{ marginTop: 8, fontSize: 10, color: "#ff6314", fontWeight: 600 }}>
+                          {s.mentions} {s.mentions === 1 ? "wzmianka" : s.mentions < 5 ? "wzmianki" : "wzmianek"} na Reddit
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+          )}
+
           {/* Heatmap view */}
           {viewMode === "heatmap" && tab === "akcje" && !isMobile && (
             <Heatmap stocks={STOCKS} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
           )}
 
+          {tab !== "popularne" && (<>
           {/* Controls */}
           <div style={{ display: "flex", gap: 8, marginBottom: 12, flexWrap: "wrap" }}>
             <input value={search} onChange={e => { setSearch(e.target.value); setPage(1); }} placeholder="Szukaj..."
@@ -334,6 +406,7 @@ export default function WigMarkets() {
               </div>
             </div>
           </div>
+          </>)}
         </div>
 
         {/* Desktop sidebar */}
