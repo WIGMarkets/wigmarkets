@@ -1,8 +1,9 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import ReactDOM from "react-dom/client";
 import { DARK_THEME, LIGHT_THEME } from "./themes.js";
-import { fetchBulk, fetchIndices, fetchRedditTrends } from "./api.js";
+import { fetchBulk, fetchIndices, fetchRedditTrends, fetchHistory } from "./api.js";
 import { STOCKS, COMMODITIES } from "./data/stocks.js";
+import { FEAR_HISTORY_YEAR } from "./data/constants.js";
 import { fmt, changeFmt, changeColor } from "./utils.js";
 import { useIsMobile } from "./hooks/useIsMobile.js";
 import Sparkline from "./components/Sparkline.jsx";
@@ -142,6 +143,11 @@ export default function WigMarkets() {
     return () => clearInterval(interval);
   }, [tab]);
 
+  const [wig20History, setWig20History] = useState([]);
+  useEffect(() => {
+    fetchHistory("wig20").then(d => setWig20History((d?.prices || []).slice(-7)));
+  }, []);
+
   useEffect(() => {
     if (tab !== "popularne") return;
     const tickers = STOCKS.map(s => s.ticker);
@@ -215,6 +221,18 @@ export default function WigMarkets() {
     ["Śr. zmiana 24h", changeFmt(STOCKS.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0) / STOCKS.length), "#ffd700"],
   ], [changes]);
 
+  const fgValue = FEAR_HISTORY_YEAR[FEAR_HISTORY_YEAR.length - 1];
+  const fgLabel = fgValue < 25 ? "Skrajna panika" : fgValue < 45 ? "Strach" : fgValue < 55 ? "Neutralny" : fgValue < 75 ? "Chciwość" : "Ekstremalna chciwość";
+  const fgColor = fgValue < 25 ? "#dc2626" : fgValue < 45 ? "#ea580c" : fgValue < 55 ? "#ca8a04" : fgValue < 75 ? "#16a34a" : "#15803d";
+
+  function MiniSpark({ data, color }) {
+    if (!data || data.length < 2) return <div style={{ width: 60, height: 24 }} />;
+    const vals = data.map(d => d.close);
+    const mn = Math.min(...vals), mx = Math.max(...vals), rng = mx - mn || 1;
+    const pts = vals.map((v, i) => `${(i / (vals.length - 1)) * 60},${24 - ((v - mn) / rng) * 22}`).join(" ");
+    return <svg width="60" height="24" style={{ display: "block" }}><polyline points={pts} fill="none" stroke={color} strokeWidth="1.5" strokeLinejoin="round" /></svg>;
+  }
+
   // Route: Fear & Greed index page
   if (route.page === "feargreed") {
     return <FearGreedPage onBack={navigateHome} theme={theme} />;
@@ -272,32 +290,61 @@ export default function WigMarkets() {
       {/* Marquee ticker */}
       <MarqueeTicker stocks={[...STOCKS, ...COMMODITIES]} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
 
-      {/* Market stat cards */}
-      {(() => {
-        const growing = STOCKS.filter(s => (changes[s.ticker]?.change24h ?? 0) > 0).length;
-        const totalCap = STOCKS.reduce((a, s) => a + s.cap, 0) / 1000;
-        const avgChg = STOCKS.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0) / STOCKS.length;
-        const cards = [
-          { label: "Kapitalizacja GPW", value: `${fmt(totalCap, 1)} mld`, sub: "łączna wartość rynkowa (zł)", color: "#58a6ff", glow: "#1f6feb" },
-          { label: "Spółki rosnące", value: `${growing} / ${STOCKS.length}`, sub: "dziś na plusie", color: growing >= STOCKS.length / 2 ? "#00c896" : "#ff4d6d", glow: growing >= STOCKS.length / 2 ? "#00c896" : "#ff4d6d" },
-          { label: "Śr. zmiana WIG20", value: changeFmt(avgChg), sub: "średnia 24h GPW", color: avgChg >= 0 ? "#00c896" : "#ff4d6d", glow: avgChg >= 0 ? "#00c896" : "#ff4d6d" },
-        ];
-        return (
-          <div style={{ maxWidth: 1400, margin: "0 auto", padding: isMobile ? "12px 12px 0" : "20px 24px 0" }}>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: isMobile ? 8 : 16 }}>
-              {cards.map(({ label, value, sub, color, glow }) => (
-                <div key={label} style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: isMobile ? 12 : 18, padding: isMobile ? "14px 12px" : "24px 28px", position: "relative", overflow: "hidden" }}>
-                  <div style={{ position: "absolute", top: -30, right: -30, width: 100, height: 100, borderRadius: "50%", background: glow + "18", pointerEvents: "none" }} />
-                  <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: 2, background: `linear-gradient(90deg, ${glow}00, ${glow}55, ${glow}00)`, pointerEvents: "none" }} />
-                  <div style={{ fontSize: isMobile ? 8 : 10, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: isMobile ? 1 : 1.5, fontWeight: 700, marginBottom: isMobile ? 4 : 8 }}>{label}</div>
-                  <div style={{ fontSize: isMobile ? 20 : 34, fontWeight: 800, color, lineHeight: 1, fontFamily: "'Space Grotesk', sans-serif", marginBottom: isMobile ? 3 : 6 }}>{value}</div>
-                  <div style={{ fontSize: isMobile ? 9 : 11, color: theme.textSecondary }}>{sub}</div>
-                </div>
-              ))}
+      {/* Market Overview */}
+      <div style={{ maxWidth: 1400, margin: "0 auto", padding: isMobile ? "10px 12px 0" : "16px 24px 0" }}>
+        <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 12, display: "flex", overflowX: "auto", WebkitOverflowScrolling: "touch", scrollbarWidth: "none", msOverflowStyle: "none" }}>
+
+          {/* WIG20 */}
+          <div onClick={navigateToFearGreed} style={{ display: "flex", alignItems: "center", gap: 10, padding: isMobile ? "10px 14px" : "12px 20px", cursor: "pointer", flexShrink: 0 }}
+            onMouseEnter={e => e.currentTarget.style.background = theme.bgCardAlt}
+            onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
+            <MiniSpark data={wig20History} color={(indices[0]?.change24h ?? 0) >= 0 ? "#00c896" : "#ff4d6d"} />
+            <div>
+              <div style={{ fontSize: 9, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: 1, fontWeight: 700 }}>WIG20</div>
+              <div style={{ fontSize: 14, fontWeight: 800, color: theme.textBright }}>{indices[0]?.value ? fmtIdx(indices[0].value) : "—"}</div>
+              <div style={{ fontSize: 11, fontWeight: 700, color: (indices[0]?.change24h ?? 0) >= 0 ? "#00c896" : "#ff4d6d" }}>{fmtIdxChange(indices[0]?.change24h)}</div>
             </div>
           </div>
-        );
-      })()}
+
+          <div style={{ width: 1, background: theme.border, margin: "8px 0", flexShrink: 0 }} />
+
+          {/* Top wzrost */}
+          {topGainers[0] && (
+            <div onClick={() => navigateToStock(topGainers[0])} style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: isMobile ? "10px 14px" : "12px 20px", cursor: "pointer", flexShrink: 0 }}
+              onMouseEnter={e => e.currentTarget.style.background = theme.bgCardAlt}
+              onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
+              <div style={{ fontSize: 9, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: 1, fontWeight: 700, marginBottom: 3 }}>Top wzrost</div>
+              <div style={{ fontSize: 14, fontWeight: 800, color: theme.textBright }}>{topGainers[0].ticker}</div>
+              <div style={{ fontSize: 12, fontWeight: 700, color: "#00c896" }}>{changeFmt(changes[topGainers[0].ticker]?.change24h ?? 0)}</div>
+            </div>
+          )}
+
+          <div style={{ width: 1, background: theme.border, margin: "8px 0", flexShrink: 0 }} />
+
+          {/* Top spadek */}
+          {topLosers[0] && (
+            <div onClick={() => navigateToStock(topLosers[0])} style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: isMobile ? "10px 14px" : "12px 20px", cursor: "pointer", flexShrink: 0 }}
+              onMouseEnter={e => e.currentTarget.style.background = theme.bgCardAlt}
+              onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
+              <div style={{ fontSize: 9, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: 1, fontWeight: 700, marginBottom: 3 }}>Top spadek</div>
+              <div style={{ fontSize: 14, fontWeight: 800, color: theme.textBright }}>{topLosers[0].ticker}</div>
+              <div style={{ fontSize: 12, fontWeight: 700, color: "#ff4d6d" }}>{changeFmt(changes[topLosers[0].ticker]?.change24h ?? 0)}</div>
+            </div>
+          )}
+
+          <div style={{ width: 1, background: theme.border, margin: "8px 0", flexShrink: 0 }} />
+
+          {/* Fear & Greed */}
+          <div onClick={navigateToFearGreed} style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: isMobile ? "10px 14px" : "12px 20px", cursor: "pointer", flexShrink: 0 }}
+            onMouseEnter={e => e.currentTarget.style.background = theme.bgCardAlt}
+            onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
+            <div style={{ fontSize: 9, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: 1, fontWeight: 700, marginBottom: 3 }}>Fear & Greed</div>
+            <div style={{ fontSize: 22, fontWeight: 800, color: fgColor, lineHeight: 1 }}>{fgValue}</div>
+            <div style={{ fontSize: 10, fontWeight: 600, color: fgColor, marginTop: 2 }}>{fgLabel}</div>
+          </div>
+
+        </div>
+      </div>
 
       {/* Mobile sidebar overlay */}
       {isMobile && sidebarOpen && (
