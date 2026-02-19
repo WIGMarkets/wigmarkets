@@ -1,29 +1,42 @@
 import { useState, useEffect, useMemo } from "react";
-import { fetchHistory } from "../api.js";
+import { fetchHistory, fetchIntraday } from "../api.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { fmt, changeFmt, getYahooSymbol } from "../utils.js";
 import MiniChart from "./MiniChart.jsx";
 
 export default function StockModal({ stock, price, change24h, change7d, onClose, theme }) {
   const [history, setHistory] = useState(null);
+  const [intraday, setIntraday] = useState(null);
   const [range, setRange] = useState("1M");
+  const [chartType, setChartType] = useState("line");
   const isMobile = useIsMobile();
   const [news, setNews] = useState(null);
   const color = change24h >= 0 ? "#00c896" : "#ff4d6d";
 
+  const sym = stock.stooq || stock.ticker.toLowerCase();
+
   useEffect(() => {
-    fetchHistory(stock.stooq || stock.ticker.toLowerCase()).then(d => setHistory(d?.prices || null));
+    fetchHistory(sym).then(d => setHistory(d?.prices || null));
     fetch(`/api/news?q=${encodeURIComponent(stock.name)}`)
       .then(r => r.json())
       .then(d => setNews(d?.items || []))
       .catch(() => setNews([]));
   }, [stock.ticker, stock.name]);
 
+  useEffect(() => {
+    if (range !== "1D") return;
+    setIntraday(null);
+    fetchIntraday(sym).then(d => setIntraday(d?.prices || []));
+  }, [range, sym]);
+
   const filteredHistory = useMemo(() => {
     if (!history) return [];
     const days = { "1W": 7, "1M": 30, "3M": 90, "1R": 365 };
     return history.slice(-(days[range] || 30));
   }, [history, range]);
+
+  const chartData   = range === "1D" ? (intraday ?? []) : filteredHistory;
+  const isIntraday  = range === "1D";
 
   return (
     <div style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,0.85)", zIndex: 1000, display: "flex", alignItems: "center", justifyContent: "center", padding: isMobile ? 8 : 24 }} onClick={onClose}>
@@ -45,13 +58,20 @@ export default function StockModal({ stock, price, change24h, change7d, onClose,
             <span style={{ padding: "4px 12px", borderRadius: 6, background: `${color}20`, color, fontWeight: 700, fontSize: 13 }}>7d: {changeFmt(change7d)}</span>
           </div>
         </div>
-        <div style={{ display: "flex", gap: 6, marginBottom: 12 }}>
-          {["1W", "1M", "3M", "1R"].map(r => (
-            <button key={r} onClick={() => setRange(r)} style={{ padding: "4px 12px", borderRadius: 6, border: "1px solid", borderColor: range === r ? theme.accent : theme.borderInput, background: range === r ? "#1f6feb22" : "transparent", color: range === r ? theme.accent : theme.textSecondary, fontSize: 12, cursor: "pointer", fontFamily: "inherit" }}>{r}</button>
-          ))}
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12, flexWrap: "wrap", gap: 8 }}>
+          <div style={{ display: "flex", gap: 6 }}>
+            {["1D", "1W", "1M", "3M", "1R"].map(r => (
+              <button key={r} onClick={() => setRange(r)} style={{ padding: "4px 12px", borderRadius: 6, border: "1px solid", borderColor: range === r ? theme.accent : theme.borderInput, background: range === r ? "#1f6feb22" : "transparent", color: range === r ? theme.accent : theme.textSecondary, fontSize: 12, cursor: "pointer", fontFamily: "inherit" }}>{r}</button>
+            ))}
+          </div>
+          <div style={{ display: "flex", gap: 4 }}>
+            {[{ key: "line", label: "Linia" }, { key: "candle", label: "Świece" }].map(({ key, label }) => (
+              <button key={key} onClick={() => setChartType(key)} style={{ padding: "4px 10px", borderRadius: 6, border: "1px solid", borderColor: chartType === key ? theme.accent : theme.borderInput, background: chartType === key ? "#1f6feb22" : "transparent", color: chartType === key ? theme.accent : theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>{label}</button>
+            ))}
+          </div>
         </div>
         <div style={{ background: theme.bgPage, borderRadius: 12, padding: "12px 8px", marginBottom: 20 }}>
-          <MiniChart data={filteredHistory} color={color} />
+          <MiniChart data={chartData} color={color} type={chartType} isIntraday={isIntraday} />
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginBottom: 16 }}>
           {[

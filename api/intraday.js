@@ -1,5 +1,5 @@
 const YAHOO_MAP = {
-  "dia": "DIAG.WA",
+  "dia":     "DIAG.WA",
   "xau":     "GC=F",
   "xag":     "SI=F",
   "cl.f":    "CL=F",
@@ -28,7 +28,7 @@ export default async function handler(req, res) {
   if (!symbol) return res.status(400).json({ error: "Symbol is required" });
 
   const yahooSymbol = toYahoo(symbol);
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?interval=1d&range=1y`;
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?interval=5m&range=1d`;
 
   try {
     const response = await fetch(url, { headers: YF_HEADERS });
@@ -38,17 +38,17 @@ export default async function handler(req, res) {
     if (!result) return res.status(404).json({ error: "No data" });
 
     const timestamps = result.timestamp || [];
-    const quote      = result.indicators?.quote?.[0] || {};
-    const rawOpens   = quote.open  || [];
-    const rawHighs   = quote.high  || [];
-    const rawLows    = quote.low   || [];
-    const rawCloses  = quote.close || [];
+    const quote = result.indicators?.quote?.[0] || {};
+    const rawOpens  = quote.open  || [];
+    const rawHighs  = quote.high  || [];
+    const rawLows   = quote.low   || [];
+    const rawCloses = quote.close || [];
 
     if (timestamps.length < 2) return res.status(404).json({ error: "No data" });
 
     const prices = timestamps
       .map((ts, i) => ({
-        date:  new Date(ts * 1000).toISOString().slice(0, 10),
+        time:  new Date(ts * 1000).toLocaleTimeString("pl-PL", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Warsaw" }),
         open:  rawOpens[i],
         high:  rawHighs[i],
         low:   rawLows[i],
