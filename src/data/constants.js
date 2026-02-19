@@ -47,3 +47,19 @@ export const FEAR_HISTORY = [
   43, 48, 55, 59, 63, 61, 57, 54, 58, 63,
   67, 71, 68, 65, 60, 57, 59, 63, 61, 62,
 ];
+
+// 365-day mock history for Fear & Greed full page chart (ends with FEAR_HISTORY values)
+function makeFearYear() {
+  const result = [];
+  let v = 35;
+  for (let i = 0; i < 365; i++) {
+    const noise = Math.sin(i * 2.3) * 6 + Math.sin(i * 0.71) * 4 + Math.sin(i * 5.13) * 2.5;
+    const meanRev = (50 - v) * 0.035;
+    v = Math.min(94, Math.max(6, v + meanRev + noise * 0.45));
+    result.push(Math.round(v));
+  }
+  const h30 = [48,44,41,38,42,47,50,53,49,46,43,48,55,59,63,61,57,54,58,63,67,71,68,65,60,57,59,63,61,62];
+  for (let i = 0; i < 30; i++) result[335 + i] = h30[i];
+  return result;
+}
+export const FEAR_HISTORY_YEAR = makeFearYear();
