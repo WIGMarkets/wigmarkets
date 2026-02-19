@@ -101,6 +101,18 @@ const SECTOR_AVERAGES = {
   "default":        { pe: 12.4, pb: 1.6,  evEbitda: 9.2,  div: 3.8 },
 };
 
+const YAHOO_SYMBOL_MAP = {
+  "dia": "DIAG.WA",
+  "xau": "GC=F", "xag": "SI=F",
+  "cl.f": "CL=F", "ng.f": "NG=F", "hg.f": "HG=F",
+  "weat.us": "WEAT", "corn.us": "CORN", "soy.us": "SOYB",
+  "xpt": "PL=F", "xpd": "PA=F",
+};
+function getYahooSymbol(stooq) {
+  const s = (stooq || "").toLowerCase();
+  return YAHOO_SYMBOL_MAP[s] || (s.toUpperCase() + ".WA");
+}
+
 const STOCKS = [
   // ─── WIG20 (20 największych spółek) ────────────────────────────
   { id: 1, ticker: "PKN", stooq: "pkn", name: "PKN ORLEN", sector: "Energetyka", price: 0, cap: 74500, pe: 8.2, div: 5.1 },
@@ -756,8 +768,8 @@ function StockModal({ stock, price, change24h, change7d, onClose, theme }) {
             </a>
           ))}
         </div>
-        <a href={`https://stooq.pl/q/?s=${stock.stooq || stock.ticker.toLowerCase()}`} target="_blank" rel="noreferrer" style={{ display: "block", textAlign: "center", color: theme.accent, fontSize: 12, textDecoration: "none" }}>
-          Zobacz pełne dane na stooq.pl →
+        <a href={`https://finance.yahoo.com/quote/${getYahooSymbol(stock.stooq || stock.ticker)}`} target="_blank" rel="noreferrer" style={{ display: "block", textAlign: "center", color: theme.accent, fontSize: 12, textDecoration: "none" }}>
+          Zobacz pełne dane na Yahoo Finance →
         </a>
       </div>
     </div>
@@ -1231,7 +1243,7 @@ function FundamentalsSection({ stock, fundamentals, loading, currentPrice, theme
         <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 16, fontWeight: 600 }}>Dane fundamentalne</div>
         {!hasCurrentData ? (
           <div style={{ color: theme.textSecondary, fontSize: 12, textAlign: "center", padding: "16px 0" }}>
-            Brak danych fundamentalnych dla tej spółki w stooq.pl
+            Brak danych fundamentalnych dla tej spółki w Yahoo Finance
           </div>
         ) : (
           <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr 1fr" : "repeat(3, 1fr)", gap: 12 }}>
@@ -1516,7 +1528,7 @@ function StockPage({ stock, prices, changes, onBack, theme }) {
               <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
                 {[
                   ["Sektor", stock.sector],
-                  ["Ticker stooq", stock.stooq || stock.ticker.toLowerCase()],
+                  ["Yahoo Finance", getYahooSymbol(stock.stooq || stock.ticker)],
                 ].map(([label, val]) => (
                   <div key={label} style={{ display: "flex", justifyContent: "space-between", padding: "6px 0", borderBottom: `1px solid ${theme.bgCardAlt}`, fontSize: 12 }}>
                     <span style={{ color: theme.textSecondary }}>{label}</span>
@@ -1524,9 +1536,9 @@ function StockPage({ stock, prices, changes, onBack, theme }) {
                   </div>
                 ))}
               </div>
-              <a href={`https://stooq.pl/q/?s=${stock.stooq || stock.ticker.toLowerCase()}`} target="_blank" rel="noreferrer"
+              <a href={`https://finance.yahoo.com/quote/${getYahooSymbol(stock.stooq || stock.ticker)}`} target="_blank" rel="noreferrer"
                 style={{ display: "block", textAlign: "center", color: theme.accent, fontSize: 12, textDecoration: "none", marginTop: 14, fontWeight: 600 }}>
-                Zobacz pełne dane na stooq.pl →
+                Zobacz pełne dane na Yahoo Finance →
               </a>
             </div>
           </div>
@@ -1557,7 +1569,7 @@ function StockPage({ stock, prices, changes, onBack, theme }) {
       </div>
 
       <div style={{ textAlign: "center", padding: "24px", fontSize: 10, color: theme.textSecondary }}>
-        WIGmarkets © 2026 · Dane z GPW via stooq.pl · Nie stanowią rekomendacji inwestycyjnej
+        WIGmarkets © 2026 · Dane z GPW via Yahoo Finance · Nie stanowią rekomendacji inwestycyjnej
       </div>
     </div>
   );
@@ -1966,7 +1978,7 @@ export default function WigMarkets() {
       </div>
 
       <div style={{ textAlign: "center", padding: "24px", fontSize: 10, color: theme.textSecondary }}>
-        WIGmarkets © 2026 · Dane z GPW via stooq.pl · Nie stanowią rekomendacji inwestycyjnej
+        WIGmarkets © 2026 · Dane z GPW via Yahoo Finance · Nie stanowią rekomendacji inwestycyjnej
       </div>
     </div>
   );
