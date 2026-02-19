@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { toast } from "../components/ToastContainer.jsx";
 
 const LS_KEY = "price_alerts_v1";
 
@@ -11,7 +12,7 @@ export function saveAlerts(alerts) {
 
 /**
  * Runs on every prices update.
- * For each alert: if condition met → fire browser notification, mark as triggered.
+ * For each alert: if condition met → fire toast + browser notification, mark as triggered.
  */
 export function usePriceAlerts(prices, setAlerts) {
   const firedRef = useRef(new Set()); // already fired this session
@@ -29,14 +30,18 @@ export function usePriceAlerts(prices, setAlerts) {
       alert.triggered = true;
       changed = true;
 
+      const condLabel = alert.condition === "above" ? "≥" : "≤";
+      const msg = `🔔 ${alert.ticker} ${condLabel} ${alert.target} · kurs: ${price.toFixed(2)}`;
+
+      // In-app toast (always fires)
+      toast(msg, "warning");
+
       // Browser notification
-      const msg = `${alert.ticker} ${alert.condition === "above" ? "≥" : "≤"} ${alert.target} · bieżący kurs: ${price.toFixed(2)}`;
       if (Notification.permission === "granted") {
-        new Notification(`WIGmarkets — Alert cenowy`, { body: msg, icon: "/icon.svg" });
+        new Notification("WIGmarkets — Alert cenowy", { body: msg, icon: "/icon.svg" });
       } else {
-        // fallback: document title flash
         const orig = document.title;
-        document.title = `🔔 ${msg}`;
+        document.title = msg;
         setTimeout(() => { document.title = orig; }, 5000);
       }
     });

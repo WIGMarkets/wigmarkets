@@ -5,9 +5,10 @@ import { useEffect } from "react";
  *  /         → focus search input
  *  Esc       → close modal / clear search
  *  j / k     → navigate rows down / up
+ *  Enter     → open hovered row
  *  ?         → toggle shortcuts help
  */
-export function useKeyboardShortcuts({ onSlash, onEsc, onDown, onUp, onHelp, enabled = true }) {
+export function useKeyboardShortcuts({ onSlash, onEsc, onDown, onUp, onEnter, onHelp, enabled = true }) {
   useEffect(() => {
     if (!enabled) return;
     const handler = (e) => {
@@ -19,9 +20,10 @@ export function useKeyboardShortcuts({ onSlash, onEsc, onDown, onUp, onHelp, ena
       if (e.key === "/" || e.key === "f") { e.preventDefault(); onSlash?.(); return; }
       if (e.key === "j" || e.key === "ArrowDown") { e.preventDefault(); onDown?.(); return; }
       if (e.key === "k" || e.key === "ArrowUp")   { e.preventDefault(); onUp?.(); return; }
+      if (e.key === "Enter") { e.preventDefault(); onEnter?.(); return; }
       if (e.key === "?") { onHelp?.(); return; }
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [enabled, onSlash, onEsc, onDown, onUp, onHelp]);
+  }, [enabled, onSlash, onEsc, onDown, onUp, onEnter, onHelp]);
 }
