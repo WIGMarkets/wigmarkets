@@ -48,52 +48,70 @@ function NewsCard({ item, theme, onSelectStock }) {
       background: theme.bgCard,
       border: `1px solid ${theme.border}`,
       borderRadius: 12,
-      padding: "18px 20px",
+      overflow: "hidden",
       cursor: "pointer",
     }}
       onClick={() => setExpanded(e => !e)}
     >
-      {/* Header row */}
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 12, marginBottom: 8 }}>
-        <div style={{ flex: 1 }}>
-          <div style={{ fontSize: 14, fontWeight: 700, color: theme.textBright, lineHeight: 1.4, marginBottom: 4 }}>
-            {item.title}
+      {/* Image — full width when expanded, thumbnail when collapsed */}
+      {expanded ? (
+        <img
+          src={item.image}
+          alt=""
+          style={{ width: "100%", height: 180, objectFit: "cover", display: "block" }}
+          loading="lazy"
+        />
+      ) : null}
+
+      <div style={{ padding: "14px 18px" }}>
+        {/* Header row: text + thumbnail */}
+        <div style={{ display: "flex", gap: 14, alignItems: "flex-start" }}>
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <div style={{ fontSize: 14, fontWeight: 700, color: theme.textBright, lineHeight: 1.4, marginBottom: 6 }}>
+              {item.title}
+            </div>
+            <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap", marginBottom: item.tickers.length ? 8 : 0 }}>
+              <span style={{ fontSize: 11, color: theme.textSecondary }}>{item.date}</span>
+              <span style={{ fontSize: 11, color: theme.textSecondary, opacity: 0.4 }}>·</span>
+              <span style={{ fontSize: 11, color: theme.accent, fontWeight: 600 }}>{item.source}</span>
+              <span style={{ marginLeft: "auto", fontSize: 12, color: theme.textSecondary }}>{expanded ? "▲" : "▼"}</span>
+            </div>
+            {/* Tickers */}
+            {item.tickers.length > 0 && (
+              <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}
+                onClick={e => e.stopPropagation()}
+              >
+                {item.tickers.map(t => (
+                  <TickerChip key={t} ticker={t} theme={theme} onSelect={onSelectStock} />
+                ))}
+              </div>
+            )}
           </div>
-          <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
-            <span style={{ fontSize: 11, color: theme.textSecondary }}>{item.date}</span>
-            <span style={{ fontSize: 11, color: theme.textSecondary, opacity: 0.5 }}>·</span>
-            <span style={{ fontSize: 11, color: theme.accent, fontWeight: 600 }}>{item.source}</span>
-          </div>
+          {/* Thumbnail — only when collapsed */}
+          {!expanded && (
+            <img
+              src={item.image}
+              alt=""
+              style={{ width: 90, height: 62, objectFit: "cover", borderRadius: 8, flexShrink: 0 }}
+              loading="lazy"
+            />
+          )}
         </div>
-        <span style={{ color: theme.textSecondary, fontSize: 14, flexShrink: 0, marginTop: 2 }}>
-          {expanded ? "▲" : "▼"}
-        </span>
+
+        {/* Expandable summary */}
+        {expanded && (
+          <div style={{
+            fontSize: 13,
+            color: theme.text,
+            lineHeight: 1.7,
+            borderTop: `1px solid ${theme.border}`,
+            paddingTop: 12,
+            marginTop: 12,
+          }}>
+            {item.summary}
+          </div>
+        )}
       </div>
-
-      {/* Tickers */}
-      {item.tickers.length > 0 && (
-        <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: expanded ? 12 : 0 }}
-          onClick={e => e.stopPropagation()}
-        >
-          {item.tickers.map(t => (
-            <TickerChip key={t} ticker={t} theme={theme} onSelect={onSelectStock} />
-          ))}
-        </div>
-      )}
-
-      {/* Expandable summary */}
-      {expanded && (
-        <div style={{
-          fontSize: 13,
-          color: theme.text,
-          lineHeight: 1.7,
-          borderTop: `1px solid ${theme.border}`,
-          paddingTop: 12,
-          marginTop: 4,
-        }}>
-          {item.summary}
-        </div>
-      )}
     </div>
   );
 }
