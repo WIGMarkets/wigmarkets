@@ -1,7 +1,7 @@
 import { fmt, changeColor, changeFmt } from "../utils.js";
 
 export default function MarqueeTicker({ stocks, prices, changes, theme, onSelect }) {
-  const items = stocks.filter(s => prices[s.ticker]);
+  const items = stocks.filter(s => prices[s.ticker]).sort((a, b) => (b.cap || 0) - (a.cap || 0)).slice(0, 40);
   if (!items.length) return null;
   const row = items.map(s => {
     const c = changes[s.ticker]?.change24h ?? 0;
