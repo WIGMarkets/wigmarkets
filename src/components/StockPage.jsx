@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from "react";
-import { fetchHistory, fetchFundamentals } from "../api.js";
+import { fetchHistory, fetchFundamentals, fetchIntraday } from "../api.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { fmt, changeFmt, changeColor, calculateRSI, getYahooSymbol } from "../utils.js";
 import LargeChart from "./LargeChart.jsx";
@@ -9,7 +9,9 @@ import StockLogo from "./StockLogo.jsx";
 
 export default function StockPage({ stock, prices, changes, onBack, theme }) {
   const [history, setHistory] = useState(null);
+  const [intraday, setIntraday] = useState(null);
   const [range, setRange] = useState("3M");
+  const [chartType, setChartType] = useState("line");
   const [news, setNews] = useState(null);
   const [fundamentals, setFundamentals] = useState(null);
   const [fundLoading, setFundLoading] = useState(true);
@@ -20,17 +22,25 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
   const c7d = changes[stock.ticker]?.change7d ?? 0;
   const color = c24h >= 0 ? "#00c896" : "#ff4d6d";
 
+  const sym = stock.stooq || stock.ticker.toLowerCase();
+
   useEffect(() => {
-    fetchHistory(stock.stooq || stock.ticker.toLowerCase()).then(d => setHistory(d?.prices || null));
+    fetchHistory(sym).then(d => setHistory(d?.prices || null));
     fetch(`/api/news?q=${encodeURIComponent(stock.name)}`)
       .then(r => r.json())
       .then(d => setNews(d?.items || []))
       .catch(() => setNews([]));
     setFundLoading(true);
-    fetchFundamentals(stock.stooq || stock.ticker.toLowerCase())
+    fetchFundamentals(sym)
       .then(d => { setFundamentals(d); setFundLoading(false); })
       .catch(() => { setFundamentals(null); setFundLoading(false); });
   }, [stock.ticker, stock.name, stock.stooq]);
+
+  useEffect(() => {
+    if (range !== "1D") return;
+    setIntraday(null);
+    fetchIntraday(sym).then(d => setIntraday(d?.prices || []));
+  }, [range, sym]);
 
   useEffect(() => {
     document.title = `${stock.name} (${stock.ticker}) — kurs akcji, wykres, wiadomości | WIGmarkets`;
@@ -43,6 +53,9 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
     const days = { "1W": 7, "1M": 30, "3M": 90, "1R": 365 };
     return history.slice(-(days[range] || 90));
   }, [history, range]);
+
+  const chartData  = range === "1D" ? (intraday ?? []) : filteredHistory;
+  const isIntraday = range === "1D";
 
   const rsi = useMemo(() => calculateRSI(history), [history]);
 
@@ -77,15 +90,22 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
 
         <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: isMobile ? 16 : 24, marginBottom: 24 }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16, flexWrap: "wrap", gap: 8 }}>
-            <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", fontWeight: 600 }}>Wykres historyczny</div>
-            <div style={{ display: "flex", gap: 6 }}>
-              {["1W", "1M", "3M", "1R"].map(r => (
-                <button key={r} onClick={() => setRange(r)} style={{ padding: "6px 16px", borderRadius: 8, border: "1px solid", borderColor: range === r ? theme.accent : theme.borderInput, background: range === r ? "#1f6feb22" : "transparent", color: range === r ? theme.accent : theme.textSecondary, fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: range === r ? 700 : 400 }}>{r}</button>
-              ))}
+            <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", fontWeight: 600 }}>Wykres</div>
+            <div style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center" }}>
+              <div style={{ display: "flex", gap: 6 }}>
+                {["1D", "1W", "1M", "3M", "1R"].map(r => (
+                  <button key={r} onClick={() => setRange(r)} style={{ padding: "6px 14px", borderRadius: 8, border: "1px solid", borderColor: range === r ? theme.accent : theme.borderInput, background: range === r ? "#1f6feb22" : "transparent", color: range === r ? theme.accent : theme.textSecondary, fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: range === r ? 700 : 400 }}>{r}</button>
+                ))}
+              </div>
+              <div style={{ display: "flex", gap: 4, marginLeft: 4 }}>
+                {[{ key: "line", label: "Linia" }, { key: "candle", label: "Świece" }].map(({ key, label }) => (
+                  <button key={key} onClick={() => setChartType(key)} style={{ padding: "6px 12px", borderRadius: 8, border: "1px solid", borderColor: chartType === key ? theme.accent : theme.borderInput, background: chartType === key ? "#1f6feb22" : "transparent", color: chartType === key ? theme.accent : theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit", fontWeight: chartType === key ? 700 : 400 }}>{label}</button>
+                ))}
+              </div>
             </div>
           </div>
           <div style={{ background: theme.bgPage, borderRadius: 12, padding: "16px 8px" }}>
-            <LargeChart data={filteredHistory} color={color} theme={theme} />
+            <LargeChart data={chartData} color={color} theme={theme} type={chartType} isIntraday={isIntraday} />
           </div>
         </div>
 
