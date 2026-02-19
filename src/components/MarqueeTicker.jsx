@@ -1,7 +1,7 @@
 import { fmt, changeColor, changeFmt } from "../utils.js";
 
 export default function MarqueeTicker({ stocks, prices, changes, theme, onSelect }) {
-  const items = stocks.filter(s => prices[s.ticker]);
+  const items = stocks.filter(s => prices[s.ticker]).sort((a, b) => (b.cap || 0) - (a.cap || 0)).slice(0, 40);
   if (!items.length) return null;
   const row = items.map(s => {
     const c = changes[s.ticker]?.change24h ?? 0;
@@ -16,7 +16,7 @@ export default function MarqueeTicker({ stocks, prices, changes, theme, onSelect
   return (
     <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, overflow: "hidden", position: "relative", height: 32, display: "flex", alignItems: "center" }}>
       <style>{`@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}`}</style>
-      <div style={{ display: "flex", animation: "marquee 60s linear infinite", width: "max-content" }}>
+      <div style={{ display: "flex", animation: "marquee 120s linear infinite", width: "max-content" }}>
         {row}{row}
       </div>
     </div>
