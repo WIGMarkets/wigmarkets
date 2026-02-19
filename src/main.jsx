@@ -182,6 +182,14 @@ export default function WigMarkets() {
       .filter(Boolean),
     [redditData.ranked]
   );
+  const topMovers = useMemo(() =>
+    [...STOCKS]
+      .filter(s => (changes[s.ticker]?.change24h ?? 0) !== 0)
+      .sort((a, b) => Math.abs(changes[b.ticker]?.change24h ?? 0) - Math.abs(changes[a.ticker]?.change24h ?? 0))
+      .slice(0, 12)
+      .map(s => ({ ...s, mentions: null })),
+    [changes]
+  );
   const marketStats = useMemo(() => [
     ["Spółki rosnące", `${STOCKS.filter(s => (changes[s.ticker]?.change24h ?? 0) > 0).length}/${STOCKS.length}`, "#00c896"],
     ["Kap. łączna (mld zł)", fmt(STOCKS.reduce((a, s) => a + s.cap, 0) / 1000, 1), "#58a6ff"],
@@ -271,20 +279,22 @@ export default function WigMarkets() {
         ) : (<>
         <div>
           {/* Popularne tab */}
-          {tab === "popularne" && (
+          {tab === "popularne" && (() => {
+            const isReddit = popularStocks.length > 0;
+            const displayStocks = isReddit ? popularStocks : topMovers;
+            return (
             <div>
               <div style={{ marginBottom: 16, fontSize: 12, color: theme.textSecondary }}>
-                Trendy z Reddit (r/inwestowanie, r/gielda){redditData.postsScanned > 0 && ` · ${redditData.postsScanned} postów`}
+                {isReddit
+                  ? `Trendy z Reddit (r/inwestowanie, r/gielda) · ${redditData.postsScanned} postów`
+                  : "Najbardziej aktywne spółki dziś" + (redditData.loading ? " · sprawdzam Reddit..." : " · brak wzmianek na Reddit")}
               </div>
-              {redditData.loading && (
-                <div style={{ textAlign: "center", padding: 48, color: theme.textSecondary }}>Ładowanie danych Reddit...</div>
+              {displayStocks.length === 0 && (
+                <div style={{ textAlign: "center", padding: 48, color: theme.textSecondary }}>Ładowanie danych...</div>
               )}
-              {!redditData.loading && popularStocks.length === 0 && (
-                <div style={{ textAlign: "center", padding: 48, color: theme.textSecondary }}>Brak wzmianek spółek GPW w ostatnich postach Reddit.</div>
-              )}
-              {!redditData.loading && popularStocks.length > 0 && (
+              {displayStocks.length > 0 && (
                 <div style={{ display: "grid", gridTemplateColumns: isMobile ? "repeat(2, 1fr)" : "repeat(3, 1fr)", gap: isMobile ? 10 : 16 }}>
-                  {popularStocks.map((s, i) => {
+                  {displayStocks.map((s, i) => {
                     const price = prices[s.ticker];
                     const c24h = changes[s.ticker]?.change24h ?? 0;
                     const borderColor = c24h > 0 ? "#00c89640" : c24h < 0 ? "#ff4d6d40" : theme.border;
@@ -307,8 +317,10 @@ export default function WigMarkets() {
                           <div style={{ fontWeight: 700, color: c24h > 0 ? "#00c896" : c24h < 0 ? "#ff4d6d" : theme.text, fontSize: 13 }}>{fmt(price)} zł</div>
                           <span style={{ padding: "2px 7px", borderRadius: 5, fontSize: 11, fontWeight: 700, background: c24h > 0 ? "#00c89620" : "#ff4d6d20", color: changeColor(c24h) }}>{changeFmt(c24h)}</span>
                         </div>
-                        <div style={{ marginTop: 8, fontSize: 10, color: "#ff6314", fontWeight: 600 }}>
-                          {s.mentions} {s.mentions === 1 ? "wzmianka" : s.mentions < 5 ? "wzmianki" : "wzmianek"} na Reddit
+                        <div style={{ marginTop: 8, fontSize: 10, fontWeight: 600, color: s.mentions !== null ? "#ff6314" : theme.textSecondary }}>
+                          {s.mentions !== null
+                            ? `${s.mentions} ${s.mentions === 1 ? "wzmianka" : s.mentions < 5 ? "wzmianki" : "wzmianek"} na Reddit`
+                            : `zmiana 24h: ${changeFmt(c24h)}`}
                         </div>
                       </div>
                     );
@@ -316,7 +328,8 @@ export default function WigMarkets() {
                 </div>
               )}
             </div>
-          )}
+            );
+          })()}
 
           {/* Heatmap view */}
           {viewMode === "heatmap" && tab === "akcje" && !isMobile && (
