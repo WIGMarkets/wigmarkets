@@ -1,7 +1,7 @@
 import { useState } from "react";
 
+// Clearbit logo domains (fallback to branded color if image fails)
 const LOGOS = {
-  // WIG20
   "PKN":  "orlen.pl",
   "PKO":  "pkobp.pl",
   "PZU":  "pzu.pl",
@@ -22,7 +22,6 @@ const LOGOS = {
   "PCO":  "pepcogroup.com",
   "ALR":  "aliorbank.pl",
   "ZAB":  "zabka.pl",
-  // mWIG40
   "ING":  "ing.pl",
   "CPS":  "cyfrowypolsat.pl",
   "TPE":  "tauron.pl",
@@ -58,11 +57,8 @@ const LOGOS = {
   "BNP":  "bnpparibas.pl",
   "GPP":  "pracuj.pl",
   "PEP":  "polenergia.pl",
-  // sWIG80
   "VGO":  "vigophotonics.com",
   "WAR":  "wawel.com.pl",
-  "SNK":  "sanok-rubber.com",
-  "SLV":  "selvita.com",
   "11B":  "11bitstudios.com",
   "HUG":  "huuuge.com",
   "TEN":  "tensquaregames.com",
@@ -71,7 +67,6 @@ const LOGOS = {
   "ABS":  "asseco-bs.pl",
   "AGO":  "agora.pl",
   "AMC":  "amica.pl",
-  "BIO":  "bioton.pl",
   "ECH":  "echo.com.pl",
   "CIE":  "ciech.com",
   "OPN":  "oponeo.pl",
@@ -84,9 +79,7 @@ const LOGOS = {
   "RBW":  "rainbowtours.pl",
   "APR":  "auto-partner.pl",
   "ZWC":  "grupazywiec.pl",
-  // inne
   "DIAG": "diagnostyka.pl",
-  "SYG":  "sygnity.pl",
   "NWG":  "newag.pl",
   "ASB":  "asbis.com",
   "STS":  "sts.pl",
@@ -109,16 +102,149 @@ const LOGOS = {
   "PCC":  "pcc.eu",
 };
 
-export default function StockLogo({ ticker, size = 28, borderRadius = 6 }) {
+// Company brand colors (fallback when logo image fails)
+const BRAND_COLORS = {
+  "PKN":  "#C0001C",
+  "PKO":  "#003087",
+  "PZU":  "#00843D",
+  "KGH":  "#8B4513",
+  "CDR":  "#BC1C3F",
+  "LPP":  "#1B3C6E",
+  "ALE":  "#FF5A00",
+  "PEO":  "#005DAA",
+  "DNP":  "#E41C24",
+  "SPL":  "#EC0016",
+  "PGE":  "#2E7D32",
+  "MBK":  "#CC0000",
+  "OPL":  "#FF7900",
+  "KRU":  "#0A3251",
+  "KTY":  "#3E5C73",
+  "BDX":  "#D4A017",
+  "CCC":  "#1A1A1A",
+  "PCO":  "#EF7D00",
+  "ALR":  "#004499",
+  "ZAB":  "#006B3F",
+  "ING":  "#FF6200",
+  "CPS":  "#D80012",
+  "TPE":  "#F5821F",
+  "ACP":  "#003380",
+  "MIL":  "#C41230",
+  "BHW":  "#003A9B",
+  "BFT":  "#E8002A",
+  "CMR":  "#003F78",
+  "DOM":  "#1E4D8C",
+  "ENA":  "#007A33",
+  "EUR":  "#2DAE2E",
+  "GPW":  "#004B87",
+  "XTB":  "#1F3A6E",
+  "TXT":  "#7B5EA7",
+  "WPL":  "#E8001B",
+  "ASE":  "#003380",
+  "LWB":  "#1F3A6E",
+  "CAR":  "#D4252C",
+  "JSW":  "#1A3A6E",
+  "EAT":  "#D3001C",
+  "PHN":  "#2E5090",
+  "GRN":  "#2E7D32",
+  "NEU":  "#1565C0",
+  "MBR":  "#1B5E20",
+  "ATT":  "#1565C0",
+  "MRC":  "#B71C1C",
+  "1AT":  "#C41230",
+  "PLW":  "#7B1FA2",
+  "DVL":  "#1565C0",
+  "CIG":  "#212121",
+  "11B":  "#1A1A2E",
+  "HUG":  "#9C27B0",
+  "TEN":  "#E91E63",
+  "ZEP":  "#2E7D32",
+  "VRG":  "#C62828",
+  "ARC":  "#1565C0",
+  "SHO":  "#4527A0",
+  "STS":  "#1B5E20",
+  "VRC":  "#0277BD",
+  "DAT":  "#006064",
+  "R22":  "#BF360C",
+  "GPP":  "#D32F2F",
+  "ASB":  "#1A237E",
+  "DIAG": "#0277BD",
+  "NWG":  "#1565C0",
+  "ENG":  "#2E7D32",
+  "AGO":  "#C62828",
+  "KRK":  "#1565C0",
+  "ENT":  "#01579B",
+  "RBW":  "#00695C",
+  "ZWC":  "#33691E",
+  "OPN":  "#E65100",
+  "SPH":  "#4527A0",
+  "SWG":  "#C62828",
+  // Commodities
+  "XAU":  "#BF8F00",
+  "XAG":  "#9E9E9E",
+  "CL":   "#37474F",
+  "NG":   "#0288D1",
+  "HG":   "#8B4513",
+  "WEAT": "#C8A951",
+  "CORN": "#F9A825",
+  "SOY":  "#558B2F",
+  "XPT":  "#546E7A",
+  "XPD":  "#455A64",
+};
+
+// Sector fallback colors for unlisted companies
+const SECTOR_COLORS = {
+  "Banki":            "#1565C0",
+  "Energetyka":       "#E65100",
+  "Gry":              "#6A1B9A",
+  "Handel":           "#1B5E20",
+  "Technologia":      "#006064",
+  "Surowce":          "#4E342E",
+  "Ubezpieczenia":    "#0D47A1",
+  "Medycyna":         "#B71C1C",
+  "Nieruchomości":    "#37474F",
+  "Budownictwo":      "#4E342E",
+  "E-commerce":       "#AD1457",
+  "Media":            "#283593",
+  "Transport":        "#01579B",
+  "Finanse":          "#1A237E",
+  "Chemia":           "#4A148C",
+  "Przemysł":         "#424242",
+  "Telekomunikacja":  "#006064",
+  "Spożywczy":        "#33691E",
+  "Biotechnologia":   "#880E4F",
+  "Motoryzacja":      "#1A237E",
+  "Rolnictwo":        "#33691E",
+  "Obronność":        "#263238",
+  "Farmacja":         "#B71C1C",
+  "Restauracje":      "#BF360C",
+  "Turystyka":        "#00695C",
+  "HR/Benefity":      "#E65100",
+  "Rozrywka":         "#6A1B9A",
+  "Ekologia":         "#2E7D32",
+  "AGD":              "#37474F",
+  "Meble":            "#4E342E",
+  "Metal szlachetny": "#BF8F00",
+  "Energia":          "#E65100",
+  "Metal przemysłowy":"#546E7A",
+};
+
+function getColor(ticker, sector) {
+  return BRAND_COLORS[ticker] || SECTOR_COLORS[sector] || "#1f6feb";
+}
+
+export default function StockLogo({ ticker, size = 28, borderRadius = 6, sector = "" }) {
   const [failed, setFailed] = useState(false);
   const domain = LOGOS[ticker];
+  const color = getColor(ticker, sector);
+  const fontSize = Math.round(size * 0.33);
+  const label = ticker.length <= 3 ? ticker : ticker.slice(0, 3);
 
   if (domain && !failed) {
     return (
       <div style={{
         width: size, height: size, borderRadius,
-        background: "rgba(255,255,255,0.92)",
-        border: "1px solid rgba(88,166,255,0.2)",
+        background: "rgba(255,255,255,0.94)",
+        border: "1px solid rgba(0,0,0,0.08)",
         display: "flex", alignItems: "center", justifyContent: "center",
         flexShrink: 0, overflow: "hidden",
       }}>
@@ -135,12 +261,13 @@ export default function StockLogo({ ticker, size = 28, borderRadius = 6 }) {
   return (
     <div style={{
       width: size, height: size, borderRadius,
-      background: "linear-gradient(135deg, #1f6feb22, #58a6ff33)",
-      border: "1px solid #58a6ff44",
+      background: color,
       display: "flex", alignItems: "center", justifyContent: "center",
-      fontSize: Math.round(size * 0.32), fontWeight: 800, color: "#58a6ff", flexShrink: 0,
+      fontSize, fontWeight: 800, color: "#ffffff",
+      flexShrink: 0, letterSpacing: "-0.5px",
+      fontFamily: "'Inter', 'Segoe UI', sans-serif",
     }}>
-      {ticker.slice(0, 2)}
+      {label}
     </div>
   );
 }

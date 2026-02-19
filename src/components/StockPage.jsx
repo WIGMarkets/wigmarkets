@@ -61,7 +61,7 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
 
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: isMobile ? "20px 12px" : "32px 24px" }}>
         <div style={{ display: "flex", gap: 16, alignItems: "center", marginBottom: 24, flexWrap: "wrap" }}>
-          <StockLogo ticker={stock.ticker} size={56} borderRadius={14} />
+          <StockLogo ticker={stock.ticker} size={56} borderRadius={14} sector={stock.sector} />
           <div style={{ flex: 1 }}>
             <div style={{ fontSize: isMobile ? 22 : 28, fontWeight: 800, color: theme.textBright }}>{stock.ticker}</div>
             <div style={{ fontSize: 13, color: theme.textSecondary }}>{stock.name} · {stock.sector}</div>
