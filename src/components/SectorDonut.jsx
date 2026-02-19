@@ -32,8 +32,8 @@ export default function SectorDonut({ stocks, theme }) {
       <div style={{ display: "flex", justifyContent: "center", marginBottom: 12 }}>
         <svg width="140" height="140" viewBox="0 0 100 100">
           {slices.map(s => <path key={s.sector} d={s.d} fill={s.color} opacity="0.85" stroke={theme.bgCard} strokeWidth="0.5" />)}
-          <text x="50" y="47" textAnchor="middle" fill={theme.textBright} fontSize="7" fontWeight="800" fontFamily="'Space Grotesk',sans-serif">{(total / 1000).toFixed(0)}</text>
-          <text x="50" y="56" textAnchor="middle" fill={theme.textSecondary} fontSize="3.5" fontFamily="'Space Grotesk',sans-serif">mld zł</text>
+          <text x="50" y="47" textAnchor="middle" fill={theme.textBright} fontSize="7" fontWeight="800" fontFamily="'Inter',sans-serif">{(total / 1000).toFixed(0)}</text>
+          <text x="50" y="56" textAnchor="middle" fill={theme.textSecondary} fontSize="3.5" fontFamily="'Inter',sans-serif">mld zł</text>
         </svg>
       </div>
       {sorted.slice(0, 6).map(([sector, cap], i) => (

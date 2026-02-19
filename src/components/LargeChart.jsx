@@ -55,11 +55,11 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
         {yLabels.map((l, i) => (
           <g key={i}>
             <line x1={padLeft} y1={l.y} x2={w - padRight} y2={l.y} stroke={theme.border} strokeWidth="0.5" strokeDasharray="4,3" />
-            <text x={padLeft - 8} y={l.y + 3} textAnchor="end" fill={theme.textSecondary} fontSize="9" fontFamily="'Space Grotesk',sans-serif">{fmtY(l.val)}</text>
+            <text x={padLeft - 8} y={l.y + 3} textAnchor="end" fill={theme.textSecondary} fontSize="9" fontFamily="'Inter',sans-serif">{fmtY(l.val)}</text>
           </g>
         ))}
         {xLabels.map((l, i) => (
-          <text key={i} x={l.x} y={h - 6} textAnchor="middle" fill={theme.textSecondary} fontSize="8" fontFamily="'Space Grotesk',sans-serif">{l.label}</text>
+          <text key={i} x={l.x} y={h - 6} textAnchor="middle" fill={theme.textSecondary} fontSize="8" fontFamily="'Inter',sans-serif">{l.label}</text>
         ))}
         {data.map((d, i) => {
           const open  = d.open  != null && !isNaN(d.open)  ? d.open  : d.close;
@@ -98,11 +98,11 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
       {yLabels.map((l, i) => (
         <g key={i}>
           <line x1={padLeft} y1={l.y} x2={w - padRight} y2={l.y} stroke={theme.border} strokeWidth="0.5" strokeDasharray="4,3" />
-          <text x={padLeft - 8} y={l.y + 3} textAnchor="end" fill={theme.textSecondary} fontSize="9" fontFamily="'Space Grotesk',sans-serif">{fmtY(l.val)}</text>
+          <text x={padLeft - 8} y={l.y + 3} textAnchor="end" fill={theme.textSecondary} fontSize="9" fontFamily="'Inter',sans-serif">{fmtY(l.val)}</text>
         </g>
       ))}
       {xLabels.map((l, i) => (
-        <text key={i} x={l.x} y={h - 6} textAnchor="middle" fill={theme.textSecondary} fontSize="8" fontFamily="'Space Grotesk',sans-serif">{l.label}</text>
+        <text key={i} x={l.x} y={h - 6} textAnchor="middle" fill={theme.textSecondary} fontSize="8" fontFamily="'Inter',sans-serif">{l.label}</text>
       ))}
       <polyline points={`${first} ${pts} ${last}`} fill={`url(#${gradId})`} stroke="none" />
       <polyline points={pts} fill="none" stroke={color} strokeWidth="2" strokeLinejoin="round" strokeLinecap="round" />

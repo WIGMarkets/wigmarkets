@@ -131,7 +131,7 @@ export default function NewsPage({ onBack, theme, onSelectStock }) {
   })).filter(p => p.items.length > 0);
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Space Grotesk', 'Inter', sans-serif" }}>
+    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif" }}>
       {/* Header */}
       <div style={{
         background: theme.bgCard,

@@ -254,7 +254,7 @@ export default function WigMarkets() {
   }
 
   return (
-    <div style={{ minHeight: "100vh", background: bgGradient, color: theme.text, fontFamily: "'Space Grotesk', 'Inter', sans-serif" }}>
+    <div style={{ minHeight: "100vh", background: bgGradient, color: theme.text, fontFamily: "'Inter', sans-serif" }}>
 
       {selected && <StockModal stock={selected} price={prices[selected.ticker]} change24h={changes[selected.ticker]?.change24h ?? 0} change7d={changes[selected.ticker]?.change7d ?? 0} onClose={() => setSelected(null)} onCalc={() => { setCalcStock(selected); }} theme={theme} />}
       {calcStock && <ProfitCalculatorModal stock={calcStock} currentPrice={prices[calcStock.ticker]} onClose={() => setCalcStock(null)} theme={theme} />}
