@@ -58,6 +58,49 @@ async function fetchIndices() {
   } catch { return []; }
 }
 
+async function fetchFundamentals(symbol) {
+  try {
+    const res = await fetch(`/api/fundamentals?symbol=${symbol}`);
+    const data = await res.json();
+    return data?.error ? null : data;
+  } catch { return null; }
+}
+
+/* ─── Sector averages for valuation comparison (GPW market data) ── */
+const SECTOR_AVERAGES = {
+  "Banki":          { pe: 9.8,  pb: 1.15, evEbitda: null, div: 6.2 },
+  "Energetyka":     { pe: 7.5,  pb: 0.85, evEbitda: 5.2,  div: 4.8 },
+  "Surowce":        { pe: 9.2,  pb: 1.1,  evEbitda: 6.1,  div: 4.2 },
+  "Handel":         { pe: 18.4, pb: 2.8,  evEbitda: 11.2, div: 2.1 },
+  "Gry":            { pe: 28.6, pb: 4.8,  evEbitda: 16.4, div: 1.2 },
+  "Technologia":    { pe: 18.2, pb: 2.9,  evEbitda: 13.1, div: 3.2 },
+  "Nieruchomości":  { pe: 8.1,  pb: 0.92, evEbitda: 14.2, div: 6.4 },
+  "Ubezpieczenia":  { pe: 10.8, pb: 1.82, evEbitda: null, div: 7.8 },
+  "Finanse":        { pe: 11.4, pb: 1.65, evEbitda: 9.2,  div: 6.4 },
+  "Budownictwo":    { pe: 9.4,  pb: 1.48, evEbitda: 7.8,  div: 4.2 },
+  "Media":          { pe: 14.2, pb: 1.9,  evEbitda: 8.4,  div: 4.1 },
+  "Telekomunikacja":{ pe: 16.8, pb: 2.1,  evEbitda: 9.2,  div: 5.2 },
+  "Chemia":         { pe: 11.2, pb: 1.4,  evEbitda: 6.8,  div: 2.4 },
+  "Przemysł":       { pe: 12.4, pb: 1.8,  evEbitda: 8.6,  div: 4.2 },
+  "E-commerce":     { pe: 20.2, pb: 3.4,  evEbitda: 14.8, div: 0   },
+  "Medycyna":       { pe: 15.8, pb: 2.4,  evEbitda: 11.2, div: 2.8 },
+  "Biotechnologia": { pe: null, pb: 2.2,  evEbitda: null, div: 0   },
+  "Spożywczy":      { pe: 16.2, pb: 2.8,  evEbitda: 9.6,  div: 4.8 },
+  "Transport":      { pe: 8.4,  pb: 1.2,  evEbitda: 5.8,  div: 2.4 },
+  "Motoryzacja":    { pe: 11.8, pb: 1.7,  evEbitda: 7.2,  div: 2.6 },
+  "Farmacja":       { pe: 14.2, pb: 2.4,  evEbitda: 9.8,  div: 3.8 },
+  "HR/Benefity":    { pe: 22.4, pb: 3.2,  evEbitda: 14.8, div: 1.8 },
+  "Restauracje":    { pe: 16.4, pb: 2.4,  evEbitda: 10.2, div: 0   },
+  "Rolnictwo":      { pe: null, pb: 0.8,  evEbitda: 6.4,  div: 0   },
+  "FMCG":           { pe: 18.4, pb: 2.6,  evEbitda: 12.2, div: 2.4 },
+  "Turystyka":      { pe: 9.8,  pb: 1.6,  evEbitda: 6.4,  div: 2.4 },
+  "AGD":            { pe: 11.8, pb: 1.8,  evEbitda: 8.2,  div: 3.2 },
+  "Ekologia":       { pe: 13.4, pb: 2.0,  evEbitda: 9.4,  div: 4.8 },
+  "Obronność":      { pe: 14.8, pb: 2.2,  evEbitda: 10.4, div: 2.8 },
+  "Usługi":         { pe: 12.4, pb: 1.8,  evEbitda: 8.8,  div: 3.2 },
+  "default":        { pe: 12.4, pb: 1.6,  evEbitda: 9.2,  div: 3.8 },
+};
+
 const STOCKS = [
   // ─── WIG20 ───────────────────────────────────────────────────
   { id: 1, ticker: "PKN", stooq: "pkn", name: "PKN ORLEN", sector: "Energetyka", price: 0, cap: 74500, pe: 8.2, div: 5.1 },
@@ -963,6 +1006,250 @@ function RSIGauge({ value, theme }) {
   );
 }
 
+/* ─── Financial Bar Chart ────────────────────────────────────── */
+function FinancialBarChart({ annual, theme }) {
+  const data = (annual || []).filter(d => d.revenue !== null || d.netIncome !== null).slice(0, 4).reverse();
+  if (data.length === 0) return (
+    <div style={{ color: theme.textSecondary, fontSize: 12, textAlign: "center", padding: "32px 0" }}>Brak danych historycznych</div>
+  );
+
+  const allVals = data.flatMap(d => [d.revenue ?? 0, Math.abs(d.netIncome ?? 0)]);
+  const maxVal = Math.max(...allVals, 1);
+
+  const fmtVal = (v) => {
+    if (v === null || v === undefined) return "";
+    const abs = Math.abs(v);
+    if (abs >= 1000) return `${(v / 1000).toFixed(1)}B`;
+    if (abs >= 1) return `${v.toFixed(0)}M`;
+    return `${v.toFixed(2)}`;
+  };
+
+  const W = 580, H = 200, padL = 10, padR = 10, padT = 28, padB = 24;
+  const chartW = W - padL - padR;
+  const chartH = H - padT - padB;
+  const n = data.length;
+  const groupW = chartW / n;
+  const barW = Math.min(groupW * 0.32, 42);
+  const hasRevenue = data.some(d => d.revenue !== null);
+  const hasNetIncome = data.some(d => d.netIncome !== null);
+
+  return (
+    <svg width="100%" viewBox={`0 0 ${W} ${H}`} style={{ display: "block", overflow: "visible" }}>
+      {/* Legend */}
+      {hasRevenue && <>
+        <rect x={padL} y={8} width={9} height={9} fill="#58a6ff" opacity="0.85" rx="2" />
+        <text x={padL + 13} y={16} fill={theme.textSecondary} fontSize="9" fontFamily="'Space Grotesk',sans-serif">Przychody</text>
+      </>}
+      {hasNetIncome && <>
+        <rect x={padL + 82} y={8} width={9} height={9} fill="#00c896" opacity="0.85" rx="2" />
+        <text x={padL + 95} y={16} fill={theme.textSecondary} fontSize="9" fontFamily="'Space Grotesk',sans-serif">Zysk netto</text>
+      </>}
+
+      {data.map((d, i) => {
+        const cx = padL + i * groupW + groupW / 2;
+        const revH = d.revenue !== null ? Math.max(3, (Math.abs(d.revenue) / maxVal) * chartH) : 0;
+        const netH = d.netIncome !== null ? Math.max(3, (Math.abs(d.netIncome) / maxVal) * chartH) : 0;
+        const netColor = (d.netIncome ?? 0) >= 0 ? "#00c896" : "#ff4d6d";
+        const gap = 3;
+
+        return (
+          <g key={d.year}>
+            {d.revenue !== null && hasRevenue && (
+              <>
+                <rect x={cx - barW - gap} y={padT + chartH - revH} width={barW} height={revH}
+                  fill="#58a6ff" opacity="0.85" rx="2" />
+                <text x={cx - barW / 2 - gap} y={padT + chartH - revH - 4}
+                  textAnchor="middle" fill={theme.textSecondary} fontSize="7"
+                  fontFamily="'Space Grotesk',sans-serif">{fmtVal(d.revenue)}</text>
+              </>
+            )}
+            {d.netIncome !== null && hasNetIncome && (
+              <>
+                <rect x={cx + gap} y={padT + chartH - netH} width={barW} height={netH}
+                  fill={netColor} opacity="0.85" rx="2" />
+                <text x={cx + barW / 2 + gap} y={padT + chartH - netH - 4}
+                  textAnchor="middle" fill={theme.textSecondary} fontSize="7"
+                  fontFamily="'Space Grotesk',sans-serif">{fmtVal(d.netIncome)}</text>
+              </>
+            )}
+            <text x={cx} y={H - 6} textAnchor="middle" fill={theme.textSecondary} fontSize="10"
+              fontFamily="'Space Grotesk',sans-serif">{d.year}</text>
+          </g>
+        );
+      })}
+    </svg>
+  );
+}
+
+/* ─── Fundamentals Section ───────────────────────────────────── */
+function FundamentalsSection({ stock, fundamentals, loading, currentPrice, theme, isMobile }) {
+  const sectorAvg = SECTOR_AVERAGES[stock.sector] || SECTOR_AVERAGES["default"];
+
+  const fmtBig = (v) => {
+    if (v === null || v === undefined) return "—";
+    const abs = Math.abs(v);
+    if (abs >= 1000) return `${(v / 1000).toFixed(1)} mld`;
+    if (abs >= 1) return `${v.toFixed(0)} mln`;
+    return `${v.toFixed(2)}`;
+  };
+  const fmtSmall = (v, decimals = 2) => v !== null && v !== undefined ? v.toFixed(decimals) : "—";
+
+  const cur = fundamentals?.current || {};
+  const bvps = cur.bookValue ?? null;
+  const pb = (bvps && bvps > 0 && currentPrice) ? parseFloat((currentPrice / bvps).toFixed(2)) : null;
+
+  // EV/EBITDA: stock.cap in mln PLN, netDebt assumed same unit as EBITDA (mln)
+  const ebitdaVal = cur.ebitda ?? null;
+  const netDebtVal = cur.netDebt ?? null;
+  const evEbitda = (() => {
+    if (!ebitdaVal || ebitdaVal <= 0 || !stock.cap) return null;
+    const ev = stock.cap + (netDebtVal ?? 0);
+    const ratio = parseFloat((ev / ebitdaVal).toFixed(1));
+    return (ratio > 0 && ratio < 200) ? ratio : null;
+  })();
+
+  const pe = stock.pe > 0 ? stock.pe : null;
+  const div = stock.div > 0 ? stock.div : null;
+
+  // Valuation status helper
+  const valStatus = (value, sectorVal, higherIsBad) => {
+    if (!value || !sectorVal) return null;
+    const r = value / sectorVal;
+    if (higherIsBad) {
+      if (r < 0.8) return { label: "Tania", color: "#00c896" };
+      if (r > 1.2) return { label: "Droga", color: "#ff4d6d" };
+      return { label: "Neutralna", color: "#ffd700" };
+    } else {
+      if (r > 1.2) return { label: "Wysoka", color: "#00c896" };
+      if (r < 0.8) return { label: "Niska", color: "#ff4d6d" };
+      return { label: "Średnia", color: "#ffd700" };
+    }
+  };
+
+  const metricCards = [
+    { abbr: "P",   label: "Przychody (TTM)", value: fmtBig(cur.revenue),   color: "#58a6ff" },
+    { abbr: "ZN",  label: "Zysk netto (TTM)", value: fmtBig(cur.netIncome), color: cur.netIncome >= 0 ? "#00c896" : "#ff4d6d" },
+    { abbr: "EB",  label: "EBITDA",            value: fmtBig(cur.ebitda),    color: "#a371f7" },
+    { abbr: "EPS", label: "EPS",               value: cur.eps !== null ? `${fmtSmall(cur.eps)} PLN` : "—", color: "#ffd700" },
+    { abbr: "WK",  label: "Wart. księgowa/akcję", value: bvps !== null ? `${fmtSmall(bvps)} PLN` : "—", color: "#58a6ff" },
+    { abbr: "DN",  label: "Zadłużenie netto",  value: fmtBig(cur.netDebt),  color: "#ff4d6d" },
+  ];
+
+  const valuations = [
+    { label: "C/Z (P/E)",       value: pe,       unit: "x",  sectorVal: sectorAvg.pe,       higherIsBad: true,  desc: `Śr. sektor: ${sectorAvg.pe ?? "—"}x` },
+    { label: "C/WK (P/B)",      value: pb,       unit: "x",  sectorVal: sectorAvg.pb,       higherIsBad: true,  desc: `Śr. sektor: ${sectorAvg.pb ?? "—"}x` },
+    { label: "EV/EBITDA",       value: evEbitda, unit: "x",  sectorVal: sectorAvg.evEbitda, higherIsBad: true,  desc: sectorAvg.evEbitda ? `Śr. sektor: ${sectorAvg.evEbitda}x` : "Brak danych sektora" },
+    { label: "Stopa dywidendy", value: div,      unit: "%",  sectorVal: sectorAvg.div,      higherIsBad: false, desc: `Śr. sektor: ${sectorAvg.div ?? 0}%` },
+  ];
+
+  if (loading) {
+    return (
+      <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: isMobile ? 16 : 24, marginBottom: 24 }}>
+        <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 16, fontWeight: 600 }}>Dane fundamentalne</div>
+        <div style={{ color: theme.textSecondary, fontSize: 12, padding: "24px 0", textAlign: "center" }}>Ładowanie danych fundamentalnych...</div>
+      </div>
+    );
+  }
+
+  const hasAnnual = (fundamentals?.annual || []).some(d => d.revenue !== null || d.netIncome !== null);
+  const hasCurrentData = Object.values(cur).some(v => v !== null);
+
+  return (
+    <>
+      {/* Key fundamentals metrics grid */}
+      <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: isMobile ? 16 : 24, marginBottom: 24 }}>
+        <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 16, fontWeight: 600 }}>Dane fundamentalne</div>
+        {!hasCurrentData ? (
+          <div style={{ color: theme.textSecondary, fontSize: 12, textAlign: "center", padding: "16px 0" }}>
+            Brak danych fundamentalnych dla tej spółki w stooq.pl
+          </div>
+        ) : (
+          <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr 1fr" : "repeat(3, 1fr)", gap: 12 }}>
+            {metricCards.map(({ abbr, label, value, color }) => (
+              <div key={label} style={{ background: theme.bgCardAlt, borderRadius: 12, padding: "14px 16px", display: "flex", gap: 12, alignItems: "flex-start" }}>
+                <div style={{
+                  width: 34, height: 34, borderRadius: 9, flexShrink: 0,
+                  background: `${color}18`, border: `1px solid ${color}44`,
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                  fontSize: 10, fontWeight: 800, color, letterSpacing: -0.5
+                }}>{abbr}</div>
+                <div>
+                  <div style={{ fontSize: 10, color: theme.textSecondary, marginBottom: 4, fontWeight: 600, textTransform: "uppercase", letterSpacing: 0.3 }}>{label}</div>
+                  <div style={{ fontSize: 16, fontWeight: 700, color: theme.textBright }}>{value}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* Revenue / Net income bar chart */}
+      {hasAnnual && (
+        <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: isMobile ? 16 : 24, marginBottom: 24 }}>
+          <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 4, fontWeight: 600 }}>Przychody i zysk netto — ostatnie lata</div>
+          <div style={{ fontSize: 10, color: theme.textSecondary, marginBottom: 16 }}>Wartości w mln PLN (M) lub mld PLN (B)</div>
+          <div style={{ background: theme.bgPage, borderRadius: 12, padding: "12px 8px" }}>
+            <FinancialBarChart annual={fundamentals.annual} theme={theme} />
+          </div>
+        </div>
+      )}
+
+      {/* Valuation ratios vs sector */}
+      <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: isMobile ? 16 : 24, marginBottom: 24 }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 4, flexWrap: "wrap", gap: 6 }}>
+          <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", fontWeight: 600 }}>Wskaźniki wyceny vs sektor</div>
+          <div style={{ fontSize: 11, background: `${theme.accent}18`, color: theme.accent, borderRadius: 6, padding: "3px 10px", fontWeight: 600 }}>{stock.sector}</div>
+        </div>
+        <div style={{ fontSize: 10, color: theme.textSecondary, marginBottom: 20 }}>Porównanie do średniej sektorowej GPW</div>
+        <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr", gap: 16 }}>
+          {valuations.map(({ label, value, unit, sectorVal, higherIsBad, desc }) => {
+            const status = valStatus(value, sectorVal, higherIsBad);
+            const pct = (value && sectorVal) ? Math.min(Math.max((value / sectorVal) * 50, 5), 95) : 50;
+            return (
+              <div key={label} style={{ background: theme.bgCardAlt, borderRadius: 12, padding: "16px 18px" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
+                  <div>
+                    <div style={{ fontSize: 10, color: theme.textSecondary, fontWeight: 600, textTransform: "uppercase", letterSpacing: 0.5 }}>{label}</div>
+                    <div style={{ fontSize: 20, fontWeight: 800, color: theme.textBright, marginTop: 2 }}>
+                      {value !== null ? `${typeof value === "number" ? (Number.isInteger(value) ? value : value.toFixed(1)) : value}${unit}` : "—"}
+                    </div>
+                  </div>
+                  {status && (
+                    <div style={{ background: `${status.color}20`, color: status.color, borderRadius: 8, padding: "5px 12px", fontSize: 12, fontWeight: 700 }}>
+                      {status.label}
+                    </div>
+                  )}
+                </div>
+                {/* Comparison bar */}
+                <div style={{ position: "relative", height: 6, background: theme.border, borderRadius: 4, marginBottom: 8 }}>
+                  {/* Sector average marker */}
+                  <div style={{ position: "absolute", left: "50%", top: -3, width: 2, height: 12, background: theme.textSecondary, borderRadius: 2, transform: "translateX(-50%)" }} />
+                  {/* Value indicator */}
+                  {value !== null && sectorVal !== null && (
+                    <div style={{
+                      position: "absolute", left: `${pct}%`, top: "50%",
+                      width: 10, height: 10, borderRadius: "50%",
+                      background: status?.color || theme.accent,
+                      border: `2px solid ${theme.bgCard}`,
+                      transform: "translate(-50%, -50%)",
+                      boxShadow: `0 0 6px ${status?.color || theme.accent}88`
+                    }} />
+                  )}
+                </div>
+                <div style={{ display: "flex", justifyContent: "space-between", fontSize: 10, color: theme.textSecondary }}>
+                  <span>Tani</span>
+                  <span style={{ color: theme.textSecondary }}>{desc}</span>
+                  <span>Drogi</span>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </>
+  );
+}
+
 /* ─── Large Chart for StockPage ──────────────────────────────── */
 function LargeChart({ data, color, theme }) {
   if (!data || data.length < 2) return <div style={{ color: theme.textSecondary, fontSize: 12, textAlign: "center", padding: "60px 0" }}>Ładowanie wykresu...</div>;
@@ -1023,6 +1310,8 @@ function StockPage({ stock, prices, changes, onBack, theme }) {
   const [history, setHistory] = useState(null);
   const [range, setRange] = useState("3M");
   const [news, setNews] = useState(null);
+  const [fundamentals, setFundamentals] = useState(null);
+  const [fundLoading, setFundLoading] = useState(true);
   const isMobile = useIsMobile();
 
   const currentPrice = prices[stock.ticker];
@@ -1036,6 +1325,10 @@ function StockPage({ stock, prices, changes, onBack, theme }) {
       .then(r => r.json())
       .then(d => setNews(d?.items || []))
       .catch(() => setNews([]));
+    setFundLoading(true);
+    fetchFundamentals(stock.stooq || stock.ticker.toLowerCase())
+      .then(d => { setFundamentals(d); setFundLoading(false); })
+      .catch(() => { setFundamentals(null); setFundLoading(false); });
   }, [stock.ticker, stock.name, stock.stooq]);
 
   useEffect(() => {
@@ -1110,6 +1403,16 @@ function StockPage({ stock, prices, changes, onBack, theme }) {
             <LargeChart data={filteredHistory} color={color} theme={theme} />
           </div>
         </div>
+
+        {/* Fundamentals section */}
+        <FundamentalsSection
+          stock={stock}
+          fundamentals={fundamentals}
+          loading={fundLoading}
+          currentPrice={currentPrice}
+          theme={theme}
+          isMobile={isMobile}
+        />
 
         <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr", gap: 24, marginBottom: 24 }}>
           {/* Key metrics */}
