@@ -5,6 +5,7 @@ import { fmt, changeFmt, changeColor, calculateRSI, getYahooSymbol } from "../ut
 import LargeChart from "./LargeChart.jsx";
 import FundamentalsSection from "./FundamentalsSection.jsx";
 import RSIGauge from "./RSIGauge.jsx";
+import StockLogo from "./StockLogo.jsx";
 
 export default function StockPage({ stock, prices, changes, onBack, theme }) {
   const [history, setHistory] = useState(null);
@@ -60,9 +61,7 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
 
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: isMobile ? "20px 12px" : "32px 24px" }}>
         <div style={{ display: "flex", gap: 16, alignItems: "center", marginBottom: 24, flexWrap: "wrap" }}>
-          <div style={{ width: 56, height: 56, borderRadius: 14, background: "linear-gradient(135deg, #1f6feb22, #58a6ff33)", border: "1px solid #58a6ff44", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 18, fontWeight: 800, color: theme.accent }}>
-            {stock.ticker.slice(0, 2)}
-          </div>
+          <StockLogo ticker={stock.ticker} size={56} borderRadius={14} />
           <div style={{ flex: 1 }}>
             <div style={{ fontSize: isMobile ? 22 : 28, fontWeight: 800, color: theme.textBright }}>{stock.ticker}</div>
             <div style={{ fontSize: 13, color: theme.textSecondary }}>{stock.name} · {stock.sector}</div>

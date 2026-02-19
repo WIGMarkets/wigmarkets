@@ -13,6 +13,7 @@ import WatchStar from "./components/WatchStar.jsx";
 import FearGauge from "./components/FearGauge.jsx";
 import ProfitCalculatorModal from "./components/ProfitCalculatorModal.jsx";
 import StockModal from "./components/StockModal.jsx";
+import StockLogo from "./components/StockLogo.jsx";
 import StockPage from "./components/StockPage.jsx";
 import ScreenerView from "./components/ScreenerView.jsx";
 
@@ -294,7 +295,7 @@ export default function WigMarkets() {
                         {!isMobile && <td style={{ padding: "10px 16px", color: theme.textSecondary, fontSize: 11 }}>{(page - 1) * PER_PAGE + i + 1}</td>}
                         <td style={{ padding: isMobile ? "10px 10px" : "10px 16px" }}>
                           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                            <div style={{ width: 28, height: 28, borderRadius: 6, background: "linear-gradient(135deg, #1f6feb22, #58a6ff33)", border: "1px solid #58a6ff44", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 9, fontWeight: 800, color: "#58a6ff", flexShrink: 0 }}>{s.ticker.slice(0, 2)}</div>
+                            <StockLogo ticker={s.ticker} size={28} borderRadius={6} />
                             <div>
                               <div style={{ fontWeight: 700, color: theme.textBright, fontSize: isMobile ? 12 : 13 }}>{s.ticker}</div>
                               {!isMobile && <div style={{ fontSize: 10, color: theme.textSecondary }}>{s.name}</div>}
