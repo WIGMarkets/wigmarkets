@@ -48,18 +48,43 @@ export const FEAR_HISTORY = [
   67, 71, 68, 65, 60, 57, 59, 63, 61, 62,
 ];
 
-// 365-day mock history for Fear & Greed full page chart (ends with FEAR_HISTORY values)
-function makeFearYear() {
+// 730-day mock history for Fear & Greed full page chart (ends with FEAR_HISTORY values)
+// Simulates realistic GPW sentiment cycles with dramatic fear/greed swings
+function makeFearHistory() {
+  const DAYS = 730;
   const result = [];
-  let v = 35;
-  for (let i = 0; i < 365; i++) {
-    const noise = Math.sin(i * 2.3) * 6 + Math.sin(i * 0.71) * 4 + Math.sin(i * 5.13) * 2.5;
-    const meanRev = (50 - v) * 0.035;
-    v = Math.min(94, Math.max(6, v + meanRev + noise * 0.45));
-    result.push(Math.round(v));
+  // Scripted anchor points to create realistic-looking cycles
+  const anchors = [
+    { i: 0,   v: 28 },  // 2 years ago: fear
+    { i: 60,  v: 18 },  // extreme panic
+    { i: 130, v: 52 },  // recovery to neutral
+    { i: 200, v: 76 },  // greed rally
+    { i: 260, v: 81 },  // extreme greed peak
+    { i: 320, v: 55 },  // cooling off
+    { i: 370, v: 32 },  // fear correction
+    { i: 420, v: 22 },  // another panic
+    { i: 470, v: 48 },  // stabilise
+    { i: 520, v: 65 },  // greed building
+    { i: 580, v: 72 },  // strong greed
+    { i: 630, v: 58 },  // slight pullback
+    { i: 660, v: 44 },  // mild fear
+    { i: 700, v: 48 },  // transition to current
+    { i: DAYS - 1, v: 62 },
+  ];
+  // Interpolate between anchors with noise
+  for (let i = 0; i < DAYS; i++) {
+    let a = anchors[0], b = anchors[1];
+    for (let k = 0; k < anchors.length - 1; k++) {
+      if (i >= anchors[k].i && i <= anchors[k + 1].i) { a = anchors[k]; b = anchors[k + 1]; break; }
+    }
+    const t = (i - a.i) / (b.i - a.i);
+    const base = a.v + (b.v - a.v) * (3 * t * t - 2 * t * t * t); // smoothstep
+    const noise = Math.sin(i * 1.7) * 2.8 + Math.sin(i * 3.9) * 1.6 + Math.sin(i * 7.3) * 0.9;
+    result.push(Math.min(95, Math.max(5, Math.round(base + noise))));
   }
+  // Force last 30 to match FEAR_HISTORY exactly
   const h30 = [48,44,41,38,42,47,50,53,49,46,43,48,55,59,63,61,57,54,58,63,67,71,68,65,60,57,59,63,61,62];
-  for (let i = 0; i < 30; i++) result[335 + i] = h30[i];
+  for (let i = 0; i < 30; i++) result[DAYS - 30 + i] = h30[i];
   return result;
 }
-export const FEAR_HISTORY_YEAR = makeFearYear();
+export const FEAR_HISTORY_YEAR = makeFearHistory();
