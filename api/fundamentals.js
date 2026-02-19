@@ -17,11 +17,43 @@ function toYahoo(stooq) {
   return YAHOO_MAP[s] || (s.toUpperCase() + ".WA");
 }
 
-const YF_HEADERS = {
-  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-  "Accept": "application/json, text/plain, */*",
-  "Accept-Language": "en-US,en;q=0.9",
-};
+const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36";
+
+async function getYahooCrumb() {
+  // Step 1: Get cookies from Yahoo Finance homepage
+  const cookieRes = await fetch("https://finance.yahoo.com/", {
+    headers: {
+      "User-Agent": UA,
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.9",
+    },
+    redirect: "follow",
+  });
+
+  // getSetCookie() is modern Node 18+ API; fall back to get("set-cookie") for older runtimes
+  let rawCookies = [];
+  if (typeof cookieRes.headers.getSetCookie === "function") {
+    rawCookies = cookieRes.headers.getSetCookie();
+  } else {
+    const raw = cookieRes.headers.get("set-cookie") || "";
+    rawCookies = raw ? raw.split(/,(?=[^ ])/) : [];
+  }
+  const cookieStr = rawCookies.map(c => c.split(";")[0].trim()).filter(Boolean).join("; ");
+
+  // Step 2: Get crumb using the session cookie
+  const crumbRes = await fetch("https://query1.finance.yahoo.com/v1/test/getcrumb", {
+    headers: {
+      "User-Agent": UA,
+      "Cookie": cookieStr,
+      "Accept": "text/plain, */*",
+    },
+  });
+  const crumb = (await crumbRes.text()).trim();
+  if (!crumb || crumb.startsWith("{") || crumb.length > 20) {
+    throw new Error(`Invalid crumb received: ${crumb.slice(0, 50)}`);
+  }
+  return { crumb, cookieStr };
+}
 
 export default async function handler(req, res) {
   const { symbol } = req.query;
@@ -29,14 +61,24 @@ export default async function handler(req, res) {
 
   const yahooSymbol = toYahoo(symbol);
   const modules = "incomeStatementHistory,balanceSheetHistory,defaultKeyStatistics";
-  const url = `https://query1.finance.yahoo.com/v10/finance/quoteSummary/${encodeURIComponent(yahooSymbol)}?modules=${modules}`;
 
   try {
-    const response = await fetch(url, { headers: YF_HEADERS });
+    const { crumb, cookieStr } = await getYahooCrumb();
+
+    const url = `https://query1.finance.yahoo.com/v10/finance/quoteSummary/${encodeURIComponent(yahooSymbol)}?modules=${modules}&crumb=${encodeURIComponent(crumb)}`;
+    const response = await fetch(url, {
+      headers: {
+        "User-Agent": UA,
+        "Cookie": cookieStr,
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+      },
+    });
+
     const json = await response.json();
 
     const summary = json?.quoteSummary?.result?.[0];
-    if (!summary) return res.status(404).json({ error: "No data" });
+    if (!summary) return res.status(404).json({ error: "No data", raw: json?.quoteSummary?.error });
 
     const income  = summary.incomeStatementHistory?.incomeStatementHistory || [];
     const balance = summary.balanceSheetHistory?.balanceSheetStatements   || [];
@@ -50,29 +92,33 @@ export default async function handler(req, res) {
     const ebitda    = income.map(s => s.ebitda?.raw          ?? null).slice(0, 4);
     const eps       = stats.trailingEps?.raw ?? null;
 
-    const bookValue = balance.map(s => s.totalStockholderEquity?.raw ?? null).slice(0, 4);
-    const netDebt   = balance.map(s => {
+    // bookValue per share comes from defaultKeyStatistics (already PLN/share)
+    const bvps    = stats.bookValue?.raw ?? null;
+    const netDebt = balance.map(s => {
       const debt = (s.shortLongTermDebt?.raw ?? 0) + (s.longTermDebt?.raw ?? 0);
       const cash = s.cash?.raw ?? 0;
       return debt - cash;
     }).slice(0, 4);
+
+    // Divide financials by 1e6 so frontend fmtBig() displays values in millions
+    const toMln = v => (v !== null && v !== undefined) ? v / 1e6 : null;
 
     res.status(200).json({
       symbol: symbol.toLowerCase(),
       years,
       annual: years.map((year, i) => ({
         year,
-        revenue:   revenue[i]   ?? null,
-        netIncome: netIncome[i] ?? null,
-        ebitda:    ebitda[i]    ?? null,
+        revenue:   toMln(revenue[i]),
+        netIncome: toMln(netIncome[i]),
+        ebitda:    toMln(ebitda[i]),
       })),
       current: {
-        revenue:   revenue[0]   ?? null,
-        netIncome: netIncome[0] ?? null,
-        ebitda:    ebitda[0]    ?? null,
+        revenue:   toMln(revenue[0]),
+        netIncome: toMln(netIncome[0]),
+        ebitda:    toMln(ebitda[0]),
         eps,
-        bookValue: bookValue[0] ?? null,
-        netDebt:   netDebt[0]   ?? null,
+        bookValue: bvps,
+        netDebt:   toMln(netDebt[0]),
       },
     });
   } catch (error) {
