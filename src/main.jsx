@@ -341,6 +341,13 @@ const FEAR_COMPONENTS = [
   { label: "Popyt na bezpieczne aktywa", val: 38 },
 ];
 
+// 30-day mock history for Fear & Greed sparkline (ends at current value 62)
+const FEAR_HISTORY = [
+  48, 44, 41, 38, 42, 47, 50, 53, 49, 46,
+  43, 48, 55, 59, 63, 61, 57, 54, 58, 63,
+  67, 71, 68, 65, 60, 57, 59, 63, 61, 62,
+];
+
 const fmt = (n, d = 2) => n?.toLocaleString("pl-PL", { minimumFractionDigits: d, maximumFractionDigits: d }) ?? "—";
 const changeColor = (v) => v > 0 ? "#00c896" : v < 0 ? "#ff4d6d" : "#8b949e";
 const changeFmt = (v) => `${v > 0 ? "+" : ""}${fmt(v)}%`;
@@ -594,7 +601,7 @@ function WatchStar({ active, onClick, theme }) {
       style={{ cursor: "pointer", fontSize: 14, lineHeight: 1, color: active ? "#ffd700" : theme.borderInput, transition: "color 0.15s", userSelect: "none" }}
       title={active ? "Usuń z obserwowanych" : "Dodaj do obserwowanych"}
     >
-      {active ? "★" : "☆"}
+      {active ? "●" : "○"}
     </span>
   );
 }
@@ -620,7 +627,7 @@ function ProfitCalculatorModal({ stock, currentPrice, onClose, theme }) {
       <div style={{ background: theme.bgCard, border: `1px solid ${theme.borderInput}`, borderRadius: 20, padding: isMobile ? 20 : 32, width: "100%", maxWidth: 460 }} onClick={e => e.stopPropagation()}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 22 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <div style={{ width: 40, height: 40, borderRadius: 10, background: "linear-gradient(135deg, #1f6feb22, #58a6ff33)", border: "1px solid #58a6ff44", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 18 }}>🧮</div>
+            <div style={{ width: 40, height: 40, borderRadius: 8, background: theme.bgCardAlt, border: `1px solid ${theme.border}`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 14, color: theme.accent, fontWeight: 700, fontFamily: "inherit" }}>P/L</div>
             <div>
               <div style={{ fontWeight: 800, fontSize: 15, color: theme.textBright }}>Kalkulator zysku/straty</div>
               <div style={{ fontSize: 11, color: theme.textSecondary }}>{stock.ticker} · {stock.name}</div>
@@ -1577,41 +1584,104 @@ function StockPage({ stock, prices, changes, onBack, theme }) {
 
 function FearGauge({ value = 62, isMobile, theme }) {
   const [animated, setAnimated] = useState(false);
-  useEffect(() => { setTimeout(() => setAnimated(true), 400); }, []);
-  const getLabel = (v) => { if (v < 20) return "Skrajna panika"; if (v < 40) return "Strach"; if (v < 60) return "Neutralny"; if (v < 80) return "Chciwość"; return "Ekstremalna chciwość"; };
-  const getColor = (v) => { if (v < 20) return "#ff2244"; if (v < 40) return "#ff6b35"; if (v < 60) return "#ffd700"; if (v < 80) return "#7ecb5f"; return "#00e676"; };
-  const angle = animated ? (value / 100) * 180 - 90 : -90;
-  const color = getColor(value);
-  const arcPath = (startDeg, endDeg, r, c) => {
-    const cx = 100, cy = 90, s = (startDeg * Math.PI) / 180, e = (endDeg * Math.PI) / 180;
-    const x1 = cx + r * Math.cos(s - Math.PI), y1 = cy + r * Math.sin(s - Math.PI);
-    const x2 = cx + r * Math.cos(e - Math.PI), y2 = cy + r * Math.sin(e - Math.PI);
-    return <path d={`M ${x1} ${y1} A ${r} ${r} 0 ${endDeg - startDeg > 180 ? 1 : 0} 1 ${x2} ${y2}`} fill="none" stroke={c} strokeWidth="10" strokeLinecap="round" opacity="0.85" />;
+  useEffect(() => { setTimeout(() => setAnimated(true), 300); }, []);
+
+  const getLabel = (v) => {
+    if (v < 25) return "Skrajna panika";
+    if (v < 45) return "Strach";
+    if (v < 55) return "Neutralny";
+    if (v < 75) return "Chciwość";
+    return "Ekstremalna chciwość";
   };
+  const getColor = (v) => {
+    if (v < 25) return "#dc2626";
+    if (v < 45) return "#ea580c";
+    if (v < 55) return "#ca8a04";
+    if (v < 75) return "#16a34a";
+    return "#15803d";
+  };
+
+  const color = getColor(value);
+  const angle = animated ? (value / 100) * 180 - 90 : -90;
+
+  // Arc path helper: deg 0 = left, 90 = top, 180 = right
+  const arcD = (deg1, deg2, r = 70) => {
+    const toRad = (d) => ((d - 180) * Math.PI) / 180;
+    const cx = 100, cy = 88;
+    const x1 = cx + r * Math.cos(toRad(deg1)), y1 = cy + r * Math.sin(toRad(deg1));
+    const x2 = cx + r * Math.cos(toRad(deg2)), y2 = cy + r * Math.sin(toRad(deg2));
+    return `M ${x1.toFixed(2)} ${y1.toFixed(2)} A ${r} ${r} 0 ${deg2 - deg1 >= 180 ? 1 : 0} 1 ${x2.toFixed(2)} ${y2.toFixed(2)}`;
+  };
+  const fillDeg = Math.min(Math.max((value / 100) * 180, 1), 179);
+
+  // Sparkline
+  const SW = 240, SH = 36;
+  const vmin = 20, vmax = 90;
+  const sparkPts = FEAR_HISTORY.map((v, i) => {
+    const x = 2 + (i / (FEAR_HISTORY.length - 1)) * (SW - 4);
+    const y = SH - 2 - ((v - vmin) / (vmax - vmin)) * (SH - 5);
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  }).join(" ");
+  const lastPt = FEAR_HISTORY[FEAR_HISTORY.length - 1];
+  const lastX = (SW - 2).toFixed(1);
+  const lastY = (SH - 2 - ((lastPt - vmin) / (vmax - vmin)) * (SH - 5)).toFixed(1);
+
   return (
-    <div style={{ background: theme.fearGaugeBg, border: `1px solid ${theme.border}`, borderRadius: 16, padding: "20px", display: "flex", flexDirection: isMobile ? "row" : "column", alignItems: "center", gap: isMobile ? 16 : 0 }}>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-        <div style={{ color: theme.textSecondary, fontSize: 10, letterSpacing: 2, textTransform: "uppercase", marginBottom: 8 }}>Fear & Greed</div>
-        <svg width={isMobile ? 140 : 200} height={isMobile ? 77 : 110} viewBox="0 0 200 110">
-          {arcPath(0, 36, 75, "#ff2244")}{arcPath(36, 72, 75, "#ff6b35")}{arcPath(72, 108, 75, "#ffd700")}{arcPath(108, 144, 75, "#7ecb5f")}{arcPath(144, 180, 75, "#00e676")}
-          <g transform={`rotate(${angle}, 100, 90)`} style={{ transition: "transform 1.2s cubic-bezier(0.34,1.2,0.64,1)" }}>
-            <line x1="100" y1="90" x2="100" y2="24" stroke={color} strokeWidth="2.5" strokeLinecap="round" />
-            <circle cx="100" cy="90" r="5" fill={color} />
-          </g>
-          <circle cx="100" cy="90" r="3" fill={theme.bgCard} />
-        </svg>
-        <div style={{ fontSize: 32, fontWeight: 800, color, lineHeight: 1, marginTop: -6 }}>{value}</div>
-        <div style={{ fontSize: 13, fontWeight: 600, color, marginTop: 4 }}>{getLabel(value)}</div>
+    <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 10, padding: "16px" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 4 }}>
+        <span style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: 1.5, textTransform: "uppercase", fontWeight: 600 }}>Fear & Greed Index</span>
+        <div style={{ textAlign: "right" }}>
+          <div style={{ fontSize: 26, fontWeight: 700, color, lineHeight: 1 }}>{value}</div>
+          <div style={{ fontSize: 10, color, fontWeight: 600, marginTop: 2 }}>{getLabel(value)}</div>
+        </div>
       </div>
+
+      {/* Gauge */}
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <svg width={190} height={102} viewBox="0 0 200 102">
+          <path d={arcD(0, 180)} fill="none" stroke={theme.bgCardAlt} strokeWidth="7" strokeLinecap="butt" />
+          <path d={arcD(0, fillDeg)} fill="none" stroke={color} strokeWidth="7" strokeLinecap="butt"
+            style={{ transition: animated ? undefined : "none" }} />
+          <g transform={`rotate(${angle}, 100, 88)`}
+            style={{ transition: "transform 0.9s cubic-bezier(0.22,0.61,0.36,1)" }}>
+            <line x1="100" y1="88" x2="100" y2="26" stroke={theme.textBright} strokeWidth="1.5" strokeLinecap="round" opacity="0.65" />
+          </g>
+          <circle cx="100" cy="88" r="4" fill={theme.bgCard} stroke={theme.border} strokeWidth="1.5" />
+          <text x="16" y="102" fill={theme.textSecondary} fontSize="7.5" textAnchor="middle" opacity="0.6" fontFamily="inherit">Panika</text>
+          <text x="184" y="102" fill={theme.textSecondary} fontSize="7.5" textAnchor="middle" opacity="0.6" fontFamily="inherit">Chciwość</text>
+        </svg>
+      </div>
+
+      {/* 30-day sparkline */}
+      <div style={{ marginTop: 2 }}>
+        <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 3 }}>
+          <span style={{ fontSize: 9, color: theme.textSecondary, letterSpacing: 1, textTransform: "uppercase", opacity: 0.6 }}>30 dni</span>
+          <span style={{ fontSize: 9, color: theme.textSecondary, opacity: 0.6 }}>Historia</span>
+        </div>
+        <svg width="100%" height={SH + 2} viewBox={`0 0 ${SW} ${SH + 2}`} preserveAspectRatio="none" style={{ display: "block" }}>
+          <defs>
+            <linearGradient id="fgAreaGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stopColor={color} stopOpacity="0.18" />
+              <stop offset="100%" stopColor={color} stopOpacity="0.02" />
+            </linearGradient>
+          </defs>
+          <polygon points={`2,${SH} ${sparkPts} ${SW - 2},${SH}`} fill="url(#fgAreaGrad)" />
+          <polyline points={sparkPts} fill="none" stroke={color} strokeWidth="1.5" strokeLinejoin="round" opacity="0.65" />
+          <circle cx={lastX} cy={lastY} r="2.5" fill={color} />
+        </svg>
+      </div>
+
+      {/* Sub-indicators */}
       {!isMobile && (
-        <div style={{ marginTop: 16, width: "100%" }}>
+        <div style={{ marginTop: 10, paddingTop: 10, borderTop: `1px solid ${theme.bgCardAlt}` }}>
           {FEAR_COMPONENTS.map((f) => (
-            <div key={f.label} style={{ marginBottom: 7 }}>
-              <div style={{ display: "flex", justifyContent: "space-between", fontSize: 10, color: theme.textSecondary, marginBottom: 2 }}>
-                <span>{f.label}</span><span style={{ color: getColor(f.val) }}>{f.val}</span>
-              </div>
-              <div style={{ height: 3, background: theme.border, borderRadius: 4 }}>
-                <div style={{ height: "100%", borderRadius: 4, width: animated ? `${f.val}%` : "0%", background: getColor(f.val), transition: "width 1s cubic-bezier(0.34,1.2,0.64,1)", transitionDelay: "0.3s" }} />
+            <div key={f.label} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "3px 0" }}>
+              <span style={{ fontSize: 10, color: theme.textSecondary }}>{f.label}</span>
+              <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+                <div style={{ width: 44, height: 2, background: theme.bgCardAlt, borderRadius: 1, overflow: "hidden" }}>
+                  <div style={{ width: `${f.val}%`, height: "100%", background: getColor(f.val) }} />
+                </div>
+                <span style={{ fontSize: 10, color: theme.textSecondary, width: 18, textAlign: "right" }}>{f.val}</span>
               </div>
             </div>
           ))}
@@ -1803,11 +1873,11 @@ export default function WigMarkets() {
             </div>
           ))}
           <button onClick={() => setDarkMode(d => !d)} style={{ marginLeft: "auto", background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "4px 10px", fontSize: 13, cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>
-            {darkMode ? "☀️" : "🌙"}
+            {darkMode ? "Jasny" : "Ciemny"}
           </button>
           {isMobile && (
             <button onClick={() => setSidebarOpen(o => !o)} style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "4px 10px", fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>
-              {sidebarOpen ? "✕" : "📊"}
+              {sidebarOpen ? "✕" : "Wykres"}
             </button>
           )}
         </div>
@@ -1826,13 +1896,13 @@ export default function WigMarkets() {
       <div style={{ padding: isMobile ? "16px 12px 0" : "24px 24px 0", maxWidth: 1400, margin: "0 auto" }}>
         {/* Tabs + View toggle */}
         <div style={{ display: "flex", gap: 4, marginBottom: 16, flexWrap: "wrap", alignItems: "center" }}>
-          {[["akcje", "🏛️ Akcje GPW"], ["surowce", "🥇 Surowce"], ["screener", "🔍 Screener"]].map(([key, label]) => (
+          {[["akcje", "Akcje GPW"], ["surowce", "Surowce"], ["screener", "Screener"]].map(([key, label]) => (
             <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); setWatchFilter(false); }} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: tab === key ? theme.accent : theme.borderInput, background: tab === key ? "#1f6feb22" : "transparent", color: tab === key ? theme.accent : theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: tab === key ? 700 : 400, cursor: "pointer", fontFamily: "inherit" }}>{label}</button>
           ))}
           {tab !== "screener" && (
           <div style={{ marginLeft: "auto", display: "flex", gap: 4 }}>
             <button onClick={() => setWatchFilter(f => !f)} style={{ padding: isMobile ? "6px 10px" : "8px 14px", borderRadius: 8, border: "1px solid", borderColor: watchFilter ? "#ffd700" : theme.borderInput, background: watchFilter ? "#ffd70022" : "transparent", color: watchFilter ? "#ffd700" : theme.textSecondary, fontSize: isMobile ? 11 : 12, cursor: "pointer", fontFamily: "inherit", fontWeight: watchFilter ? 700 : 400 }}>
-              ★ Obserwowane{watchlist.size > 0 ? ` (${watchlist.size})` : ""}
+              Obserwowane{watchlist.size > 0 ? ` (${watchlist.size})` : ""}
             </button>
             {tab === "akcje" && !isMobile && (
               <div style={{ display: "flex", borderRadius: 8, border: `1px solid ${theme.borderInput}`, overflow: "hidden" }}>
@@ -1920,7 +1990,7 @@ export default function WigMarkets() {
                             style={{ padding: isMobile ? "4px 7px" : "5px 11px", borderRadius: 6, border: `1px solid ${theme.borderInput}`, background: "transparent", color: theme.textSecondary, fontSize: isMobile ? 12 : 11, cursor: "pointer", fontFamily: "inherit", whiteSpace: "nowrap", lineHeight: 1.2 }}
                             title="Kalkulator zysku/straty"
                           >
-                            {isMobile ? "🧮" : "Kalkulator"}
+                            Kalkulator
                           </button>
                         </td>
                       </tr>
