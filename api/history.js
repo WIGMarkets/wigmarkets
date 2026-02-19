@@ -1,20 +1,53 @@
+const YAHOO_MAP = {
+  "dia": "DIAG.WA",
+  "xau":     "GC=F",
+  "xag":     "SI=F",
+  "cl.f":    "CL=F",
+  "ng.f":    "NG=F",
+  "hg.f":    "HG=F",
+  "weat.us": "WEAT",
+  "corn.us": "CORN",
+  "soy.us":  "SOYB",
+  "xpt":     "PL=F",
+  "xpd":     "PA=F",
+};
+
+function toYahoo(stooq) {
+  const s = stooq.toLowerCase();
+  return YAHOO_MAP[s] || (s.toUpperCase() + ".WA");
+}
+
+const YF_HEADERS = {
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+  "Accept": "application/json, text/plain, */*",
+  "Accept-Language": "en-US,en;q=0.9",
+};
+
 export default async function handler(req, res) {
   const { symbol } = req.query;
   if (!symbol) return res.status(400).json({ error: "Symbol is required" });
 
-  const url = `https://stooq.pl/q/d/l/?s=${symbol}&i=d`;
+  const yahooSymbol = toYahoo(symbol);
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?interval=1d&range=1y`;
 
   try {
-    const response = await fetch(url);
-    const text = await response.text();
-    const lines = text.trim().split("\n").filter(l => l && !l.startsWith("Date"));
+    const response = await fetch(url, { headers: YF_HEADERS });
+    const json = await response.json();
 
-    if (lines.length < 2) return res.status(404).json({ error: "No data" });
+    const result = json?.chart?.result?.[0];
+    if (!result) return res.status(404).json({ error: "No data" });
 
-    const prices = lines.slice(-365).map(line => {
-      const cols = line.split(",");
-      return { date: cols[0], close: parseFloat(cols[4]) };
-    }).filter(p => !isNaN(p.close));
+    const timestamps = result.timestamp || [];
+    const rawCloses  = result.indicators?.quote?.[0]?.close || [];
+
+    if (timestamps.length < 2) return res.status(404).json({ error: "No data" });
+
+    const prices = timestamps
+      .map((ts, i) => ({
+        date:  new Date(ts * 1000).toISOString().slice(0, 10),
+        close: rawCloses[i],
+      }))
+      .filter(p => p.close !== null && !isNaN(p.close));
 
     res.status(200).json({ prices });
   } catch (error) {

@@ -1,34 +1,63 @@
-const BATCH_SIZE = 10;
-const BATCH_DELAY_MS = 150;
+// Mapping: stooq symbol → Yahoo Finance symbol
+// GPW stocks: default is uppercase(stooq) + ".WA" (e.g. "pkn" → "PKN.WA")
+// Commodities and special cases are listed explicitly.
+const YAHOO_MAP = {
+  // Diagnostyka: stooq uses short "dia", Yahoo uses full ticker DIAG
+  "dia": "DIAG.WA",
+  // Commodities
+  "xau":     "GC=F",    // Złoto (Gold futures)
+  "xag":     "SI=F",    // Srebro (Silver futures)
+  "cl.f":    "CL=F",    // Ropa WTI (Crude Oil futures)
+  "ng.f":    "NG=F",    // Gaz ziemny (Natural Gas futures)
+  "hg.f":    "HG=F",    // Miedź (Copper futures)
+  "weat.us": "WEAT",    // Pszenica (Teucrium Wheat ETF)
+  "corn.us": "CORN",    // Kukurydza (Teucrium Corn ETF)
+  "soy.us":  "SOYB",    // Soja (Teucrium Soybean ETF)
+  "xpt":     "PL=F",    // Platyna (Platinum futures)
+  "xpd":     "PA=F",    // Pallad (Palladium futures)
+};
 
-async function fetchSymbol(symbol) {
-  const url = `https://stooq.pl/q/d/l/?s=${symbol}&i=d`;
-  const response = await fetch(url);
-  const text = await response.text();
-  const lines = text.trim().split("\n").filter(l => l && !l.startsWith("Date"));
+function toYahoo(stooq) {
+  const s = stooq.toLowerCase();
+  return YAHOO_MAP[s] || (s.toUpperCase() + ".WA");
+}
 
-  if (lines.length < 1) return { symbol, error: "no data" };
+const YF_HEADERS = {
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+  "Accept": "application/json, text/plain, */*",
+  "Accept-Language": "en-US,en;q=0.9",
+};
 
-  const parse = (line) => {
-    const cols = line.split(",");
-    return { close: parseFloat(cols[4]), volume: parseFloat(cols[5]) };
-  };
+const BATCH_SIZE = 15;
+const BATCH_DELAY_MS = 100;
 
-  const today = parse(lines[lines.length - 1]);
-  const yesterday = lines.length >= 2 ? parse(lines[lines.length - 2]) : today;
-  const weekAgo = lines.length >= 6 ? parse(lines[lines.length - 6]) : yesterday;
+async function fetchYahooSymbol(yahooSymbol) {
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?interval=1d&range=10d`;
+  const response = await fetch(url, { headers: YF_HEADERS });
+  const json = await response.json();
 
-  if (isNaN(today.close)) return { symbol, error: "invalid data" };
+  const result = json?.chart?.result?.[0];
+  if (!result) return null;
 
-  const change24h = ((today.close - yesterday.close) / yesterday.close) * 100;
-  const change7d = ((today.close - weekAgo.close) / weekAgo.close) * 100;
+  const rawCloses = result.indicators?.quote?.[0]?.close || [];
+  const closes = rawCloses.filter(c => c !== null && !isNaN(c));
+  if (closes.length < 1) return null;
+
+  const today = closes[closes.length - 1];
+  const yesterday = closes.length >= 2 ? closes[closes.length - 2] : today;
+  const weekAgo   = closes.length >= 6 ? closes[closes.length - 6] : yesterday;
+
+  const rawVolumes = result.indicators?.quote?.[0]?.volume || [];
+  const volume = rawVolumes[rawVolumes.length - 1] || 0;
+
+  const change24h = yesterday ? ((today - yesterday) / yesterday) * 100 : 0;
+  const change7d  = weekAgo   ? ((today - weekAgo)   / weekAgo)   * 100 : 0;
 
   return {
-    symbol,
-    close: today.close,
-    volume: today.volume || 0,
+    close:     today,
+    volume,
     change24h: parseFloat(change24h.toFixed(2)),
-    change7d: parseFloat(change7d.toFixed(2)),
+    change7d:  parseFloat(change7d.toFixed(2)),
   };
 }
 
@@ -38,21 +67,24 @@ export default async function handler(req, res) {
 
   const list = symbols.split(",").map(s => s.trim().toLowerCase()).filter(Boolean).slice(0, 300);
 
-  const allResults = [];
-  for (let i = 0; i < list.length; i += BATCH_SIZE) {
-    const batch = list.slice(i, i + BATCH_SIZE);
-    const results = await Promise.allSettled(batch.map(fetchSymbol));
-    allResults.push(...results);
-    if (i + BATCH_SIZE < list.length) {
-      await new Promise(r => setTimeout(r, BATCH_DELAY_MS));
-    }
-  }
+  // Build stooq→yahoo mapping for this request
+  const entries = list.map(s => ({ stooq: s, yahoo: toYahoo(s) }));
 
   const data = {};
-  for (const result of allResults) {
-    if (result.status === "fulfilled" && result.value && !result.value.error) {
-      const { symbol, ...rest } = result.value;
-      data[symbol] = rest;
+
+  for (let i = 0; i < entries.length; i += BATCH_SIZE) {
+    const batch = entries.slice(i, i + BATCH_SIZE);
+    const results = await Promise.allSettled(
+      batch.map(({ yahoo }) => fetchYahooSymbol(yahoo))
+    );
+    for (let j = 0; j < batch.length; j++) {
+      const r = results[j];
+      if (r.status === "fulfilled" && r.value) {
+        data[batch[j].stooq] = r.value;
+      }
+    }
+    if (i + BATCH_SIZE < entries.length) {
+      await new Promise(r => setTimeout(r, BATCH_DELAY_MS));
     }
   }
 
