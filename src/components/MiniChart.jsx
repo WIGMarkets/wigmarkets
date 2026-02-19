@@ -7,21 +7,21 @@ function fmtP(v) {
   return v >= 1000 ? v.toFixed(0) : v >= 100 ? v.toFixed(1) : v.toFixed(2);
 }
 
-function YAxis({ min, max }) {
+function YAxis({ min, max, theme }) {
   const steps = [0, 0.5, 1];
   return steps.map(t => {
     const v = min + (max - min) * t;
     const y = PAD_T + CH * (1 - t);
     return (
       <g key={t}>
-        <line x1={PAD_L} y1={y} x2={PAD_L + CW} y2={y} stroke="#30363d" strokeWidth="1" strokeDasharray="3 3" />
-        <text x={PAD_L - 4} y={y + 4} fill="#8b949e" fontSize="9.5" textAnchor="end" fontFamily="monospace">{fmtP(v)}</text>
+        <line x1={PAD_L} y1={y} x2={PAD_L + CW} y2={y} stroke={theme.border} strokeWidth="1" strokeDasharray="3 3" />
+        <text x={PAD_L - 4} y={y + 4} fill={theme.textSecondary} fontSize="9.5" textAnchor="end" fontFamily="monospace">{fmtP(v)}</text>
       </g>
     );
   });
 }
 
-function XLabels({ data, xOf, labelKey }) {
+function XLabels({ data, xOf, labelKey, theme }) {
   if (data.length < 2) return null;
   const step = Math.max(1, Math.floor(data.length / 5));
   return data
@@ -29,16 +29,17 @@ function XLabels({ data, xOf, labelKey }) {
     .map((d, _, arr) => {
       const idx = data.indexOf(d);
       return (
-        <text key={idx} x={xOf(idx)} y={H - 3} fill="#8b949e" fontSize="9" textAnchor="middle" fontFamily="monospace">
+        <text key={idx} x={xOf(idx)} y={H - 3} fill={theme.textSecondary} fontSize="9" textAnchor="middle" fontFamily="monospace">
           {d[labelKey]}
         </text>
       );
     });
 }
 
-export default function MiniChart({ data, color, type = "line", isIntraday = false }) {
+export default function MiniChart({ data, color, type = "line", isIntraday = false, theme = {} }) {
+  const t = { border: theme.border || "#30363d", textSecondary: theme.textSecondary || "#8b949e" };
   if (!data || data.length < 2) return (
-    <div style={{ color: "#8b949e", fontSize: 12, textAlign: "center", padding: "40px 0" }}>
+    <div style={{ color: t.textSecondary, fontSize: 12, textAlign: "center", padding: "40px 0" }}>
       Ładowanie wykresu...
     </div>
   );
@@ -63,8 +64,8 @@ export default function MiniChart({ data, color, type = "line", isIntraday = fal
 
     return (
       <svg width="100%" viewBox={`0 0 ${W} ${H}`} style={{ display: "block" }}>
-        <YAxis min={min} max={max} />
-        <XLabels data={data} xOf={toX} labelKey={labelKey} />
+        <YAxis min={min} max={max} theme={t} />
+        <XLabels data={data} xOf={toX} labelKey={labelKey} theme={t} />
         {data.map((d, i) => {
           const open  = d.open  != null && !isNaN(d.open)  ? d.open  : d.close;
           const high  = d.high  != null && !isNaN(d.high)  ? d.high  : d.close;

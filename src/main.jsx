@@ -509,7 +509,7 @@ export default function WigMarkets() {
         </div>
 
         {/* Desktop sidebar */}
-        {!isMobile && (
+        {!isMobile && tab !== "forex" && (
           <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
             <div onClick={navigateToFearGreed} style={{ cursor: "pointer" }}
               onMouseEnter={e => e.currentTarget.style.opacity = "0.82"}

@@ -1,49 +1,4 @@
-// Mapping: stooq symbol → Yahoo Finance symbol
-// GPW stocks: default is uppercase(stooq) + ".WA" (e.g. "pkn" → "PKN.WA")
-// Commodities, forex, and special cases are listed explicitly.
-const YAHOO_MAP = {
-  // GPW stocks with non-standard Yahoo Finance tickers
-  "dia":  "DIAG.WA",   // Diagnostyka
-  "11b":  "11B.WA",    // 11 bit studios
-  "1at":  "1AT.WA",    // Atal SA
-  "grn":  "GRN.WA",    // Grenevia (ex-Famur)
-  "sfg":  "SFG.WA",    // Synektik
-  "r22":  "R22.WA",    // R22 SA
-  "zab":  "ZAB.WA",    // Żabka Group
-  "gpp":  "GPP.WA",    // Grupa Pracuj
-  "sho":  "SHO.WA",    // Shoper
-  "vrc":  "VRC.WA",    // Vercom
-  "sts":  "STS.WA",    // STS Holding
-  "dad":  "DAD.WA",    // Dadelo
-  "pct":  "PCF.WA",    // PCF Group
-  // Commodities
-  "xau":     "GC=F",    // Złoto (Gold futures)
-  "xag":     "SI=F",    // Srebro (Silver futures)
-  "cl.f":    "CL=F",    // Ropa WTI (Crude Oil futures)
-  "ng.f":    "NG=F",    // Gaz ziemny (Natural Gas futures)
-  "hg.f":    "HG=F",    // Miedź (Copper futures)
-  "weat.us": "WEAT",    // Pszenica (Teucrium Wheat ETF)
-  "corn.us": "CORN",    // Kukurydza (Teucrium Corn ETF)
-  "soy.us":  "SOYB",    // Soja (Teucrium Soybean ETF)
-  "xpt":     "PL=F",    // Platyna (Platinum futures)
-  "xpd":     "PA=F",    // Pallad (Palladium futures)
-};
-
-// Detect forex pairs (6 lowercase letters like "usdpln") → "USDPLN=X"
-const FOREX_RE = /^[a-z]{6}$/;
-
-function toYahoo(stooq) {
-  const s = stooq.toLowerCase();
-  if (YAHOO_MAP[s]) return YAHOO_MAP[s];
-  if (FOREX_RE.test(s)) return s.toUpperCase() + "=X";
-  return s.toUpperCase() + ".WA";
-}
-
-const YF_HEADERS = {
-  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-  "Accept": "application/json, text/plain, */*",
-  "Accept-Language": "en-US,en;q=0.9",
-};
+import { toYahoo, YF_HEADERS } from "./yahoo-map.js";
 
 const BATCH_SIZE = 15;
 const BATCH_DELAY_MS = 100;
@@ -95,10 +50,7 @@ export default async function handler(req, res) {
   if (!symbols) return res.status(400).json({ error: "symbols parameter required (comma-separated)" });
 
   const list = symbols.split(",").map(s => s.trim().toLowerCase()).filter(Boolean).slice(0, 300);
-
-  // Build stooq→yahoo mapping for this request
   const entries = list.map(s => ({ stooq: s, yahoo: toYahoo(s) }));
-
   const data = {};
 
   for (let i = 0; i < entries.length; i += BATCH_SIZE) {

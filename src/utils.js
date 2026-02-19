@@ -3,16 +3,37 @@ export const changeColor = (v) => v > 0 ? "#00c896" : v < 0 ? "#ff4d6d" : "#8b94
 export const changeFmt = (v) => `${v > 0 ? "+" : ""}${fmt(v)}%`;
 
 const YAHOO_SYMBOL_MAP = {
-  "dia": "DIAG.WA",
+  "dia": "DIAG.WA", "11b": "11B.WA", "1at": "1AT.WA", "grn": "GRN.WA",
+  "sfg": "SFG.WA", "r22": "R22.WA", "zab": "ZAB.WA", "gpp": "GPP.WA",
+  "sho": "SHO.WA", "vrc": "VRC.WA", "sts": "STS.WA", "dad": "DAD.WA", "pct": "PCF.WA",
   "xau": "GC=F", "xag": "SI=F",
   "cl.f": "CL=F", "ng.f": "NG=F", "hg.f": "HG=F",
   "weat.us": "WEAT", "corn.us": "CORN", "soy.us": "SOYB",
   "xpt": "PL=F", "xpd": "PA=F",
 };
 
+const FOREX_RE = /^[a-z]{6}$/;
+
 export function getYahooSymbol(stooq) {
   const s = (stooq || "").toLowerCase();
-  return YAHOO_SYMBOL_MAP[s] || (s.toUpperCase() + ".WA");
+  if (YAHOO_SYMBOL_MAP[s]) return YAHOO_SYMBOL_MAP[s];
+  if (FOREX_RE.test(s)) return s.toUpperCase() + "=X";
+  return s.toUpperCase() + ".WA";
+}
+
+export function isForex(stock) {
+  return stock.id >= 301 && stock.id <= 400;
+}
+
+export function isCommodity(stock) {
+  return stock.id >= 201 && stock.id <= 300;
+}
+
+export function getUnit(stock) {
+  if (stock.unit) return stock.unit;
+  if (isForex(stock)) return "";
+  if (isCommodity(stock)) return "";
+  return "zł";
 }
 
 export function calculateRSI(prices, period = 14) {
