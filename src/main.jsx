@@ -278,7 +278,7 @@ export default function WigMarkets() {
         const totalCap = STOCKS.reduce((a, s) => a + s.cap, 0) / 1000;
         const avgChg = STOCKS.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0) / STOCKS.length;
         const cards = [
-          { label: "Kapitalizacja GPW", value: `${fmt(totalCap, 1)} mld zł`, sub: "łączna wartość rynkowa", color: "#58a6ff", glow: "#1f6feb" },
+          { label: "Kapitalizacja GPW", value: `${fmt(totalCap, 1)} mld`, sub: "łączna wartość rynkowa (zł)", color: "#58a6ff", glow: "#1f6feb" },
           { label: "Spółki rosnące", value: `${growing} / ${STOCKS.length}`, sub: "dziś na plusie", color: growing >= STOCKS.length / 2 ? "#00c896" : "#ff4d6d", glow: growing >= STOCKS.length / 2 ? "#00c896" : "#ff4d6d" },
           { label: "Śr. zmiana WIG20", value: changeFmt(avgChg), sub: "średnia 24h GPW", color: avgChg >= 0 ? "#00c896" : "#ff4d6d", glow: avgChg >= 0 ? "#00c896" : "#ff4d6d" },
         ];
