@@ -295,7 +295,7 @@ export default function WigMarkets() {
                         {!isMobile && <td style={{ padding: "10px 16px", color: theme.textSecondary, fontSize: 11 }}>{(page - 1) * PER_PAGE + i + 1}</td>}
                         <td style={{ padding: isMobile ? "10px 10px" : "10px 16px" }}>
                           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                            <StockLogo ticker={s.ticker} size={28} borderRadius={6} />
+                            <StockLogo ticker={s.ticker} size={28} borderRadius={6} sector={s.sector} />
                             <div>
                               <div style={{ fontWeight: 700, color: theme.textBright, fontSize: isMobile ? 12 : 13 }}>{s.ticker}</div>
                               {!isMobile && <div style={{ fontSize: 10, color: theme.textSecondary }}>{s.name}</div>}
