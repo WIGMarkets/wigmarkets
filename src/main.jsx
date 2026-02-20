@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import ReactDOM from "react-dom/client";
 import { DARK_THEME, LIGHT_THEME } from "./themes.js";
-import { fetchBulk, fetchIndices, fetchRedditTrends, fetchHistory, fetchDynamicList } from "./api.js";
+import { fetchBulk, fetchRedditTrends, fetchHistory, fetchDynamicList } from "./api.js";
 import { STOCKS, COMMODITIES, FOREX } from "./data/stocks.js";
 import { FEAR_HISTORY_YEAR } from "./data/constants.js";
 import { fmt, changeFmt, changeColor } from "./utils.js";
@@ -259,9 +259,25 @@ export default function WigMarkets() {
   }, []);
 
   useEffect(() => {
+    // Używamy TEGO SAMEGO fetchBulk co dla spółek — ten sam endpoint, te same retry.
+    // gpw-bulk mapuje "wig20" → ^WIG20, "wig" → ^WIG (poprawne symbole YF dla indeksów).
+    // sparkline z gpw-bulk to number[] — konwertujemy na [{close}] dla IndexSparkline.
     const load = async () => {
-      const data = await fetchIndices();
-      if (data.length) setIndices(data);
+      const bulk = await fetchBulk(["wig20", "wig"]);
+      const built = [
+        { name: "WIG20", stooq: "wig20" },
+        { name: "WIG",   stooq: "wig"   },
+      ].map(({ name, stooq }) => {
+        const d = bulk[stooq];
+        if (!d?.close) return { name, value: null, change24h: null, sparkline: [] };
+        return {
+          name,
+          value:     d.close,
+          change24h: d.change24h ?? null,
+          sparkline: (d.sparkline || []).map(c => ({ close: c })),
+        };
+      });
+      if (built.some(i => i.value !== null)) setIndices(built);
     };
     load();
     const interval = setInterval(load, 60000);
