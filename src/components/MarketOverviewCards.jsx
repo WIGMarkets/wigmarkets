@@ -44,7 +44,6 @@ function IndexSparkline({ prices, trend, height = 32, gradId }) {
     el.style.transition = "none";
     el.style.strokeDasharray = `${len}`;
     el.style.strokeDashoffset = `${len}`;
-    // Dwa rAF wymuszają repaint przed startem animacji
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
         if (el) {
@@ -55,44 +54,43 @@ function IndexSparkline({ prices, trend, height = 32, gradId }) {
     });
   }, [linePath]);
 
-  if (!linePath) return <div style={{ height, marginTop: 8 }} />;
-
   return (
-    <svg
-      width="100%"
-      height={height}
-      viewBox="0 0 100 100"
-      preserveAspectRatio="none"
-      style={{ display: "block", marginTop: 8 }}
-    >
-      <defs>
-        <linearGradient id={gradId} x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%"   stopColor={color} stopOpacity="0.18" />
-          <stop offset="100%" stopColor={color} stopOpacity="0.01" />
-        </linearGradient>
-      </defs>
-      <path d={areaPath} fill={`url(#${gradId})`} />
-      <path
-        ref={pathRef}
-        d={linePath}
-        fill="none"
-        stroke={color}
-        strokeWidth="2.5"
-        strokeLinejoin="round"
-        strokeLinecap="round"
-        vectorEffect="non-scaling-stroke"
-        opacity="0.9"
-      />
-    </svg>
+    <div style={{ height, marginTop: 8, width: "100%" }}>
+      {linePath ? (
+        <svg
+          width="100%"
+          height={height}
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+          style={{ display: "block" }}
+        >
+          <defs>
+            <linearGradient id={gradId} x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%"   stopColor={color} stopOpacity="0.18" />
+              <stop offset="100%" stopColor={color} stopOpacity="0.01" />
+            </linearGradient>
+          </defs>
+          <path d={areaPath} fill={`url(#${gradId})`} />
+          <path
+            ref={pathRef}
+            d={linePath}
+            fill="none"
+            stroke={color}
+            strokeWidth="2.5"
+            strokeLinejoin="round"
+            strokeLinecap="round"
+            vectorEffect="non-scaling-stroke"
+            opacity="0.9"
+          />
+        </svg>
+      ) : null}
+    </div>
   );
 }
 
 /**
  * MarketOverviewCards — rząd 4 kompaktowych kart Market Overview Dashboard.
- *
- * Karty: WIG20 (sparkline), WIG (sparkline), Top Wzrost dnia, Top Spadek dnia.
- * Desktop: flex row (4 kolumny). Mobile: 2×2 grid.
- * Staggered fade-in + sparkline draw animation.
+ * Desktop: grid 4 kolumny (minmax(0, 1fr)). Mobile: 2×2.
  */
 export default function MarketOverviewCards({
   indices, topGainers, topLosers,
@@ -113,24 +111,39 @@ export default function MarketOverviewCards({
   const topG  = topGainers[0] ?? null;
   const topL  = topLosers[0]  ?? null;
 
-  function card(delay) {
+  // Bug 2 fix: minmax(0, 1fr) garantuje równe kolumny niezależnie od treści
+  const gridStyle = {
+    display: "grid",
+    gridTemplateColumns: isMobile ? "1fr 1fr" : "repeat(4, minmax(0, 1fr))",
+    gap: isMobile ? 8 : 12,
+  };
+
+  function card(accentColor) {
     return {
       background: theme.bgCard,
       border: `1px solid ${theme.border}`,
+      borderTop: `2px solid ${accentColor}`,
       borderRadius: 12,
       padding: isMobile ? "12px 14px" : "16px 20px",
-      flex: 1,
-      minWidth: 0,
       cursor: "pointer",
       transition: "border-color 150ms ease, background 150ms ease",
       animation: "ovCardIn 0.35s ease both",
-      animationDelay: `${delay}ms`,
+      overflow: "hidden",    // Bug 2 fix: uniemożliwia rozszerzenie poza 1fr
+      minWidth: 0,           // Bug 2 fix: dodatkowe zabezpieczenie w grid
     };
   }
 
   const hover = {
-    onMouseEnter: e => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.2)"; },
-    onMouseLeave: e => { e.currentTarget.style.borderColor = theme.border; },
+    onMouseEnter: e => {
+      e.currentTarget.style.borderLeftColor   = "rgba(255,255,255,0.2)";
+      e.currentTarget.style.borderRightColor  = "rgba(255,255,255,0.2)";
+      e.currentTarget.style.borderBottomColor = "rgba(255,255,255,0.2)";
+    },
+    onMouseLeave: e => {
+      e.currentTarget.style.borderLeftColor   = theme.border;
+      e.currentTarget.style.borderRightColor  = theme.border;
+      e.currentTarget.style.borderBottomColor = theme.border;
+    },
   };
 
   const labelStyle = {
@@ -153,29 +166,43 @@ export default function MarketOverviewCards({
     fontFamily: "var(--font-mono)",
     fontVariantNumeric: "tabular-nums",
     lineHeight: 1.1,
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+    whiteSpace: "nowrap",
   };
+
+  // Kolor akcentu dla borderu górnego
+  const ACCENT_IDX  = "#3b82f6";  // niebieski dla indeksów
+  const ACCENT_UP   = "#22c55e";  // zielony dla wzrostu
+  const ACCENT_DOWN = "#ef4444";  // czerwony dla spadku
 
   return (
     <>
-      <style>{`@keyframes ovCardIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}`}</style>
+      <style>{`
+        @keyframes ovCardIn {
+          from { opacity: 0; transform: translateY(6px); }
+          to   { opacity: 1; transform: translateY(0); }
+        }
+      `}</style>
 
-      <div style={{
-        display: "grid",
-        gridTemplateColumns: isMobile ? "1fr 1fr" : "repeat(4, 1fr)",
-        gap: isMobile ? 8 : 12,
-      }}>
+      <div style={gridStyle}>
 
         {/* ── Karta 1: WIG20 ── */}
-        <div style={card(0)} onClick={navigateToFearGreed} {...hover}>
+        <div
+          style={{ ...card(ACCENT_IDX), animationDelay: "0ms" }}
+          onClick={navigateToFearGreed}
+          {...hover}
+        >
           <div style={labelStyle}>WIG20</div>
           <div style={idxValueStyle}>{fmtIdx(wig20?.value)}</div>
-          {wig20 && (
+          {/* Bug 1 fix: wyświetl zmianę tylko gdy jest wartość */}
+          {wig20?.change24h != null && (
             <div style={{
               fontSize: 12, fontWeight: 500, marginTop: 2,
-              color: (wig20.change24h ?? 0) >= 0 ? "#22c55e" : "#ef4444",
+              color: wig20.change24h >= 0 ? "#22c55e" : "#ef4444",
               fontFamily: "var(--font-mono)",
             }}>
-              {(wig20.change24h ?? 0) >= 0 ? "▲" : "▼"} {fmtIdxChange(wig20.change24h)}
+              {wig20.change24h >= 0 ? "▲" : "▼"} {fmtIdxChange(wig20.change24h)}
             </div>
           )}
           <IndexSparkline
@@ -187,16 +214,20 @@ export default function MarketOverviewCards({
         </div>
 
         {/* ── Karta 2: WIG ── */}
-        <div style={card(50)} onClick={navigateToFearGreed} {...hover}>
+        <div
+          style={{ ...card(ACCENT_IDX), animationDelay: "50ms" }}
+          onClick={navigateToFearGreed}
+          {...hover}
+        >
           <div style={labelStyle}>WIG</div>
           <div style={idxValueStyle}>{fmtIdx(wig?.value)}</div>
-          {wig && (
+          {wig?.change24h != null && (
             <div style={{
               fontSize: 12, fontWeight: 500, marginTop: 2,
-              color: (wig.change24h ?? 0) >= 0 ? "#22c55e" : "#ef4444",
+              color: wig.change24h >= 0 ? "#22c55e" : "#ef4444",
               fontFamily: "var(--font-mono)",
             }}>
-              {(wig.change24h ?? 0) >= 0 ? "▲" : "▼"} {fmtIdxChange(wig.change24h)}
+              {wig.change24h >= 0 ? "▲" : "▼"} {fmtIdxChange(wig.change24h)}
             </div>
           )}
           <IndexSparkline
@@ -208,18 +239,23 @@ export default function MarketOverviewCards({
         </div>
 
         {/* ── Karta 3: Top Wzrost ── */}
-        <div style={card(100)} onClick={topG ? () => navigateToStock(topG) : undefined} {...hover}>
+        <div
+          style={{ ...card(ACCENT_UP), animationDelay: "100ms" }}
+          onClick={topG ? () => navigateToStock(topG) : undefined}
+          {...hover}
+        >
           <div style={labelStyle}>
             <Icon name="trending-up" size={11} /> Top wzrost
           </div>
           {topG ? (
             <>
-              <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4, overflow: "hidden" }}>
                 <CompanyMonogram ticker={topG.ticker} sector={topG.sector} size={28} />
                 <div style={{ minWidth: 0 }}>
                   <div style={{
                     fontSize: isMobile ? 14 : 16, fontWeight: 700,
                     color: theme.textBright, fontFamily: "var(--font-ui)", lineHeight: 1.1,
+                    overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
                   }}>{topG.ticker}</div>
                   <div style={{
                     fontSize: 9, color: theme.textSecondary,
@@ -230,12 +266,14 @@ export default function MarketOverviewCards({
               <div style={{
                 fontSize: isMobile ? 18 : 22, fontWeight: 700,
                 color: "#22c55e", fontFamily: "var(--font-mono)", lineHeight: 1,
+                overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
               }}>
                 +{(changes[topG.ticker]?.change24h ?? 0).toFixed(2)}%
               </div>
+              {/* Cena: mniejsza, przytłumiona — nie konkuruje z procentem */}
               <div style={{
-                fontSize: 11, color: theme.textSecondary,
-                fontFamily: "var(--font-mono)", marginTop: 2,
+                fontSize: 10, color: theme.textSecondary,
+                fontFamily: "var(--font-mono)", marginTop: 3,
                 fontVariantNumeric: "tabular-nums",
               }}>
                 {fmt2(prices[topG.ticker])} {topG.unit || "zł"}
@@ -247,18 +285,23 @@ export default function MarketOverviewCards({
         </div>
 
         {/* ── Karta 4: Top Spadek ── */}
-        <div style={card(150)} onClick={topL ? () => navigateToStock(topL) : undefined} {...hover}>
+        <div
+          style={{ ...card(ACCENT_DOWN), animationDelay: "150ms" }}
+          onClick={topL ? () => navigateToStock(topL) : undefined}
+          {...hover}
+        >
           <div style={labelStyle}>
             <Icon name="trending-down" size={11} /> Top spadek
           </div>
           {topL ? (
             <>
-              <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4, overflow: "hidden" }}>
                 <CompanyMonogram ticker={topL.ticker} sector={topL.sector} size={28} />
                 <div style={{ minWidth: 0 }}>
                   <div style={{
                     fontSize: isMobile ? 14 : 16, fontWeight: 700,
                     color: theme.textBright, fontFamily: "var(--font-ui)", lineHeight: 1.1,
+                    overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
                   }}>{topL.ticker}</div>
                   <div style={{
                     fontSize: 9, color: theme.textSecondary,
@@ -269,12 +312,13 @@ export default function MarketOverviewCards({
               <div style={{
                 fontSize: isMobile ? 18 : 22, fontWeight: 700,
                 color: "#ef4444", fontFamily: "var(--font-mono)", lineHeight: 1,
+                overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
               }}>
                 {(changes[topL.ticker]?.change24h ?? 0).toFixed(2)}%
               </div>
               <div style={{
-                fontSize: 11, color: theme.textSecondary,
-                fontFamily: "var(--font-mono)", marginTop: 2,
+                fontSize: 10, color: theme.textSecondary,
+                fontFamily: "var(--font-mono)", marginTop: 3,
                 fontVariantNumeric: "tabular-nums",
               }}>
                 {fmt2(prices[topL.ticker])} {topL.unit || "zł"}
