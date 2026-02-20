@@ -4,6 +4,7 @@ import { useIsMobile } from "../hooks/useIsMobile.js";
 import { fmt, changeFmt, getYahooSymbol, isForex, isCommodity } from "../utils.js";
 import MiniChart from "./MiniChart.jsx";
 import Icon from "./edukacja/Icon.jsx";
+import CompanyMonogram from "./CompanyMonogram.jsx";
 
 export default function StockModal({ stock, price, change24h, change7d, onClose, onCalc, theme }) {
   const [history, setHistory] = useState(null);
@@ -53,7 +54,7 @@ export default function StockModal({ stock, price, change24h, change7d, onClose,
       <div style={{ background: theme.bgCard, border: `1px solid ${theme.borderInput}`, borderRadius: 20, padding: isMobile ? 20 : 32, width: "100%", maxWidth: 720, maxHeight: "95vh", overflowY: "auto" }} onClick={e => e.stopPropagation()}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 20 }}>
           <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
-            <div style={{ width: 44, height: 44, borderRadius: 10, background: "linear-gradient(135deg, #3b82f622, #3b82f633)", border: "1px solid #3b82f644", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 14, fontWeight: 800, color: theme.accent }}>{stock.ticker.slice(0, 2)}</div>
+            <CompanyMonogram ticker={stock.ticker} sector={stock.sector} size={44} />
             <div>
               <div style={{ fontWeight: 800, fontSize: isMobile ? 16 : 20, color: theme.textBright }}>{stock.ticker}</div>
               <div style={{ fontSize: 11, color: theme.textSecondary }}>{stock.name} · {stock.sector}</div>

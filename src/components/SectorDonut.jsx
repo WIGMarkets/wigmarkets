@@ -1,3 +1,5 @@
+import { getSectorPalette } from "./CompanyMonogram.jsx";
+
 export default function SectorDonut({ stocks, theme }) {
   const sectorCaps = {};
   for (const s of stocks) {
@@ -7,10 +9,10 @@ export default function SectorDonut({ stocks, theme }) {
   const total = sorted.reduce((a, [, v]) => a + v, 0);
   if (!total) return null;
 
-  const COLORS = ["#3b82f6", "#22c55e", "#ef4444", "#ffd700", "#a371f7", "#f78166", "#3fb950", "#d2a8ff", "#79c0ff", "#f0883e", "#7ee787", "#ff7b72", "#d29922", "#56d364"];
+  // Używamy accent kolorów z palety monogramów — spójność wizualna
   const cx = 50, cy = 50, r = 38, ir = 24;
   let angle = -90;
-  const slices = sorted.map(([sector, cap], i) => {
+  const slices = sorted.map(([sector, cap]) => {
     const frac = cap / total;
     const startAngle = angle;
     const sweep = frac * 360;
@@ -23,7 +25,8 @@ export default function SectorDonut({ stocks, theme }) {
     const x3 = cx + ir * Math.cos(e1), y3 = cy + ir * Math.sin(e1);
     const x4 = cx + ir * Math.cos(s1), y4 = cy + ir * Math.sin(s1);
     const d = `M${x1},${y1} A${r},${r} 0 ${large} 1 ${x2},${y2} L${x3},${y3} A${ir},${ir} 0 ${large} 0 ${x4},${y4} Z`;
-    return { sector, cap, frac, d, color: COLORS[i % COLORS.length] };
+    const color = getSectorPalette(sector).accent;
+    return { sector, cap, frac, d, color };
   });
 
   return (
@@ -39,9 +42,9 @@ export default function SectorDonut({ stocks, theme }) {
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4px 8px" }}>
         {sorted.slice(0, 8).map(([sector, cap], i) => (
           <div key={sector} style={{ display: "flex", alignItems: "center", gap: 5, overflow: "hidden" }}>
-            <span style={{ width: 8, height: 8, borderRadius: 2, background: COLORS[i % COLORS.length], flexShrink: 0 }} />
+            <span style={{ width: 8, height: 8, borderRadius: 2, background: slices[i].color, flexShrink: 0 }} />
             <span style={{ fontSize: 11, color: theme.textMuted ?? theme.text, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", flex: 1 }}>{sector}</span>
-            <span style={{ fontSize: 11, fontWeight: 600, color: COLORS[i % COLORS.length], flexShrink: 0 }}>{(cap / total * 100).toFixed(0)}%</span>
+            <span style={{ fontSize: 11, fontWeight: 600, color: slices[i].color, flexShrink: 0 }}>{(cap / total * 100).toFixed(0)}%</span>
           </div>
         ))}
       </div>
