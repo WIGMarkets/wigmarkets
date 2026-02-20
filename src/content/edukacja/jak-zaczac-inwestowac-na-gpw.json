@@ -111,7 +111,7 @@
     },
     {
       "type": "info",
-      "text": "Limit wpłat na IKE w 2026 roku wynosi 3-krotność prognozowanego przeciętnego wynagrodzenia miesięcznego (ok. 26-27 tys. zł rocznie). Limit IKZE to 1,5-krotność tego wynagrodzenia dla osób prowadzących działalność gospodarcze (ok. 13-14 tys. zł) lub ok. 9 tys. zł dla pozostałych. Sprawdź aktualne limity na stronie KNF."
+      "text": "Limit wpłat na IKE w 2026 roku wynosi 3-krotność prognozowanego przeciętnego wynagrodzenia miesięcznego, czyli 28 260 zł rocznie. Limit IKZE to 1,8-krotność tego wynagrodzenia dla osób prowadzących działalność gospodarczą (16 956 zł) lub 1,2-krotność, czyli 11 304 zł dla pozostałych."
     },
     {
       "type": "heading",
@@ -120,7 +120,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Koszty inwestowania to jeden z najważniejszych czynników wpływających na długoterminowy wynik portfela. Inwestorzy, szczególnie początkujący, często bagatelizują prowizje i inne opłaty, co może znacząco obniżać ostateczną stopę zwrotu. Prowizja maklerska to opłata pobierana przez brokera za każdą transakcję. Na polskim rynku waha się zazwyczaj od 0% (niektórzy brokerzy zagraniczni, jak Revolut czy eToro, oferują handel bez prowizji, ale zarabiają na spreadzie) do 0,38% dla kont online. Standardowo polskie domy maklerskie pobierają 0,19%-0,29% wartości transakcji, z minimalną opłatą 3-5 złotych. Dla aktywnego inwestora, który handluje często, prowizje mogą pochłonąć znaczącą część zysku — dlatego strategia kup i trzymaj (buy and hold) jest z natury bardziej kosztowo efektywna. Poza prowizjami zwróć uwagę na: spread (różnica między ceną kupna i sprzedaży — szczególnie ważna przy ETF-ach i akcjach małych spółek), opłatę za przechowywanie papierów wartościowych (niektórzy brokerzy pobierają roczną opłatę za prowadzenie rachunku, np. 0,1-0,2% wartości aktywów), opłatę za dane rynkowe (wykresy real-time często kosztują extra, choć coraz więcej brokerów oferuje je za darmo), koszt przewalutowania (przy zakupie zagranicznych akcji lub ETF-ów), oraz opłatę za inaktywność (niektórzy brokerzy karzą opłatą, gdy przez długi czas nie składasz zleceń). Przy wyborze brokera porównaj całkowity koszt posiadania (total cost of ownership), nie tylko prowizję za transakcję."
+      "text": "Koszty inwestowania to jeden z najważniejszych czynników wpływających na długoterminowy wynik portfela. Inwestorzy, szczególnie początkujący, często bagatelizują prowizje i inne opłaty, co może znacząco obniżać ostateczną stopę zwrotu. Prowizja maklerska to opłata pobierana przez brokera za każdą transakcję. Na polskim rynku waha się zazwyczaj od 0% (niektórzy brokerzy zagraniczni, jak Revolut czy eToro, oferują handel bez prowizji, ale zarabiają na spreadzie) do 0,39% dla kont online. Standardowo polskie domy maklerskie pobierają 0,38%-0,39% wartości transakcji, z minimalną opłatą 5 złotych, choć XTB oferuje 0% prowizji do 100 000 EUR obrotu miesięcznie. Dla aktywnego inwestora, który handluje często, prowizje mogą pochłonąć znaczącą część zysku — dlatego strategia kup i trzymaj (buy and hold) jest z natury bardziej kosztowo efektywna. Poza prowizjami zwróć uwagę na: spread (różnica między ceną kupna i sprzedaży — szczególnie ważna przy ETF-ach i akcjach małych spółek), opłatę za przechowywanie papierów wartościowych (niektórzy brokerzy pobierają roczną opłatę za prowadzenie rachunku, np. 0,1-0,2% wartości aktywów), opłatę za dane rynkowe (wykresy real-time często kosztują extra, choć coraz więcej brokerów oferuje je za darmo), koszt przewalutowania (przy zakupie zagranicznych akcji lub ETF-ów), oraz opłatę za inaktywność (niektórzy brokerzy karzą opłatą, gdy przez długi czas nie składasz zleceń). Przy wyborze brokera porównaj całkowity koszt posiadania (total cost of ownership), nie tylko prowizję za transakcję."
     },
     {
       "type": "heading",
@@ -161,7 +161,7 @@
     },
     {
       "question": "Czy inwestowanie na giełdzie jest bezpieczne?",
-      "answer": "Inwestowanie na giełdzie wiąże się z ryzykiem — wartość akcji może zarówno rosnąć, jak i spadać. Jednak przy długoterminowym podejściu (horyzont 10+ lat), szerokim zdywersyfikowaniu portfela i inwestowaniu tylko środków, które możesz zamrozić na długi czas, ryzyko jest akceptowalne. Historycznie szeroki rynek akcji zawsze odrabiał straty po bessach i osiągał nowe szczyty. Konto maklerskie w Polsce jest objęte ochroną KDPW do 100% wartości (do równowartości 22 000 euro), co chroni Cię przed upadłością brokera."
+      "answer": "Inwestowanie na giełdzie wiąże się z ryzykiem — wartość akcji może zarówno rosnąć, jak i spadać. Jednak przy długoterminowym podejściu (horyzont 10+ lat), szerokim zdywersyfikowaniu portfela i inwestowaniu tylko środków, które możesz zamrozić na długi czas, ryzyko jest akceptowalne. Historycznie szeroki rynek akcji zawsze odrabiał straty po bessach i osiągał nowe szczyty. Konto maklerskie w Polsce jest objęte systemem rekompensat KDPW (100% do 3 000 EUR i 90% nadwyżki do 22 000 EUR), a Twoje papiery wartościowe są przechowywane w KDPW oddzielnie od aktywów brokera."
     },
     {
       "question": "Jak długo trwa otwarcie konta maklerskiego?",

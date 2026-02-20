@@ -40,7 +40,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Przed otwarciem konta maklerskiego warto rozważyć kilka kluczowych kryteriów. Przede wszystkim prowizje od transakcji na GPW — standardowo wynoszą od 0,15% do 0,25% wartości zlecenia, z minimalną opłatą 3–5 zł. Przy małych kwotach minimalna prowizja ma ogromne znaczenie: przy inwestycji 500 zł prowizja 5 zł to aż 1% kosztu. Kolejna kwestia to dostęp do rynków zagranicznych — jeśli planujesz inwestować w ETF-y lub akcje spółek z NYSE czy NASDAQ, sprawdź prowizje za te transakcje oraz dostępne giełdy. Ważna jest też platforma handlowa — jedni preferują aplikacje mobilne, inni rozbudowane platformy webowe. Zwróć uwagę na wykresy, dostępność zleceń warunkowych (stop loss, take profit) i czytelność interfejsu. Wreszcie, jeśli planujesz długoterminowe inwestowanie, sprawdź czy broker oferuje IKE (Indywidualne Konto Emerytalne) lub IKZE (Indywidualne Konto Zabezpieczenia Emerytalnego), które pozwalają uniknąć podatku Belki."
+      "text": "Przed otwarciem konta maklerskiego warto rozważyć kilka kluczowych kryteriów. Przede wszystkim prowizje od transakcji na GPW — standardowo wynoszą od 0% (XTB do limitu obrotu) do 0,39% wartości zlecenia, z minimalną opłatą 5 zł u tradycyjnych brokerów. Przy małych kwotach minimalna prowizja ma ogromne znaczenie: przy inwestycji 500 zł prowizja 5 zł to aż 1% kosztu. Kolejna kwestia to dostęp do rynków zagranicznych — jeśli planujesz inwestować w ETF-y lub akcje spółek z NYSE czy NASDAQ, sprawdź prowizje za te transakcje oraz dostępne giełdy. Ważna jest też platforma handlowa — jedni preferują aplikacje mobilne, inni rozbudowane platformy webowe. Zwróć uwagę na wykresy, dostępność zleceń warunkowych (stop loss, take profit) i czytelność interfejsu. Wreszcie, jeśli planujesz długoterminowe inwestowanie, sprawdź czy broker oferuje IKE (Indywidualne Konto Emerytalne) lub IKZE (Indywidualne Konto Zabezpieczenia Emerytalnego), które pozwalają uniknąć podatku Belki."
     },
     {
       "type": "heading",
@@ -49,7 +49,7 @@
     },
     {
       "type": "paragraph",
-      "text": "XTB to broker o zasięgu europejskim, notowany na GPW, oferujący zerowe prowizje na akcjach i ETF-ach do miesięcznego obrotu 100 000 EUR. To przełomowa oferta dla indywidualnych inwestorów, bo w praktyce większość detalicznych inwestorów nie przekracza tego limitu. Platforma xStation 5 jest uznawana za jedną z najlepszych na rynku — intuicyjna, szybka, dostępna jako aplikacja mobilna i wersja webowa. XTB oferuje dostęp do ponad 3000 akcji z 16 giełd światowych oraz ETF-y. Wadą jest brak kont IKE i IKZE, co może być istotne dla inwestorów nastawionych na długi horyzont. Konto demo jest dostępne bezpłatnie, co jest świetną opcją dla osób stawiających pierwsze kroki."
+      "text": "XTB to broker o zasięgu europejskim, notowany na GPW, oferujący zerowe prowizje na akcjach i ETF-ach do miesięcznego obrotu 100 000 EUR. To przełomowa oferta dla indywidualnych inwestorów, bo w praktyce większość detalicznych inwestorów nie przekracza tego limitu. Platforma xStation 5 jest uznawana za jedną z najlepszych na rynku — intuicyjna, szybka, dostępna jako aplikacja mobilna i wersja webowa. XTB oferuje dostęp do ponad 5 800 instrumentów z 16 giełd światowych oraz ETF-y. XTB prowadzi również rachunki IKE i IKZE — konta emerytalne w XTB dają dostęp do instrumentów notowanych na GPW, co pozwala korzystać z ulg podatkowych przy inwestowaniu w polskie akcje i ETF-y. Konto demo jest dostępne bezpłatnie, co jest świetną opcją dla osób stawiających pierwsze kroki."
     },
     {
       "type": "tip",
@@ -62,7 +62,7 @@
     },
     {
       "type": "paragraph",
-      "text": "mBank eMakler jest doskonałym wyborem dla osób, które już korzystają z konta bankowego w mBanku. Integracja z kontem osobistym jest bezproblemowa — środki można błyskawicznie przelewać między kontem a rachunkiem maklerskim. Prowizja na GPW wynosi 0,19% (minimum 3 zł), co jest kompetytywną stawką. mBank oferuje IKE, co jest dużą zaletą dla długoterminowych inwestorów. Platforma eMakler jest funkcjonalna, choć nie tak zaawansowana jak xStation. Dostęp do rynków zagranicznych jest możliwy, ale prowizje (0,29%, min. 19 zł) są wyraźnie wyższe niż na GPW."
+      "text": "mBank eMakler jest doskonałym wyborem dla osób, które już korzystają z konta bankowego w mBanku. Integracja z kontem osobistym jest bezproblemowa — środki można błyskawicznie przelewać między kontem a rachunkiem maklerskim. Prowizja na GPW wynosi 0,39% (minimum 5 zł). mBank oferuje IKE i IKZE, co jest dużą zaletą dla długoterminowych inwestorów. Platforma eMakler jest funkcjonalna, choć nie tak zaawansowana jak xStation. Dostęp do rynków zagranicznych jest możliwy, ale prowizje (0,29%, min. 19 zł) są wyraźnie wyższe niż na GPW."
     },
     {
       "type": "heading",
@@ -71,7 +71,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Dom Maklerski Banku Ochrony Środowiska (DM BOŚ) to jeden z największych i najbardziej doświadczonych brokerów w Polsce. Oferuje jeden z najszerszych dostępów do produktów inwestycyjnych: akcje GPW, ETF-y, obligacje skarbowe (Catalyst), derywaty (kontrakty terminowe, opcje) oraz rynki zagraniczne. Prowizja na GPW wynosi 0,18% (min. 3 zł) — jedna z niższych na rynku. Duży plus to dostępność zarówno IKE, jak i IKZE. BossaWeb (platforma internetowa) i bossaMobile to solidne narzędzia z rozbudowaną analizą techniczną. DM BOŚ oferuje też konto demo (SuperDemo), co umożliwia bezpieczne zapoznanie się z platformą."
+      "text": "Dom Maklerski Banku Ochrony Środowiska (DM BOŚ) to jeden z największych i najbardziej doświadczonych brokerów w Polsce. Oferuje jeden z najszerszych dostępów do produktów inwestycyjnych: akcje GPW, ETF-y, obligacje skarbowe (Catalyst), derywaty (kontrakty terminowe, opcje) oraz rynki zagraniczne. Prowizja na GPW wynosi 0,38% (min. 5 zł). Duży plus to dostępność zarówno IKE, jak i IKZE. BossaWeb (platforma internetowa) i bossaMobile to solidne narzędzia z rozbudowaną analizą techniczną. DM BOŚ oferuje też konto demo (SuperDemo), co umożliwia bezpieczne zapoznanie się z platformą."
     },
     {
       "type": "heading",
@@ -102,11 +102,11 @@
     },
     {
       "type": "paragraph",
-      "text": "IKE (Indywidualne Konto Emerytalne) i IKZE (Indywidualne Konto Zabezpieczenia Emerytalnego) to specjalne rachunki maklerskie z preferencjami podatkowymi. W ramach IKE roczny limit wpłat wynosi 3-krotność przeciętnego wynagrodzenia (w 2026 ok. 24 000 zł). Zyski z inwestycji na IKE są zwolnione z podatku Belki — warunkiem jest utrzymanie konta do 60. roku życia (lub 55 lat przy wcześniejszej emeryturze). IKZE oferuje wyższe ulgi podatkowe — wpłaty można odliczyć od podstawy podatku dochodowego (limit w 2026 ok. 9 300 zł rocznie dla osoby fizycznej), ale przy wypłacie płaci się 10% zryczałtowanego podatku. Przy długoterminowym inwestowaniu korzyść podatkowa z obu produktów jest bardzo istotna — efekt procentu składanego bez corocznych ubytków podatkowych znacząco powiększa końcowy kapitał."
+      "text": "IKE (Indywidualne Konto Emerytalne) i IKZE (Indywidualne Konto Zabezpieczenia Emerytalnego) to specjalne rachunki maklerskie z preferencjami podatkowymi. W ramach IKE roczny limit wpłat wynosi 3-krotność przeciętnego wynagrodzenia (w 2026 roku: 28 260 zł). Zyski z inwestycji na IKE są zwolnione z podatku Belki — warunkiem jest utrzymanie konta do 60. roku życia (lub 55 lat przy wcześniejszej emeryturze). IKZE oferuje wyższe ulgi podatkowe — wpłaty można odliczyć od podstawy podatku dochodowego (limit w 2026 roku: 11 304 zł dla osoby zatrudnionej, 16 956 zł dla osoby prowadzącej działalność), ale przy wypłacie płaci się 10% zryczałtowanego podatku. Przy długoterminowym inwestowaniu korzyść podatkowa z obu produktów jest bardzo istotna — efekt procentu składanego bez corocznych ubytków podatkowych znacząco powiększa końcowy kapitał."
     },
     {
       "type": "info",
-      "text": "W 2026 roku limit wpłat na IKE wynosi około 24 000 zł, a na IKZE około 9 300 zł (dla osoby fizycznej prowadzącej działalność jest wyższy). Sprawdź aktualne limity na stronie KNF."
+      "text": "W 2026 roku limit wpłat na IKE wynosi 28 260 zł, a na IKZE 11 304 zł (dla osoby prowadzącej działalność gospodarczą: 16 956 zł)."
     },
     {
       "type": "heading",
@@ -142,7 +142,7 @@
     },
     {
       "question": "Czy mogę mieć konta maklerskie w kilku biurach?",
-      "answer": "Tak, możesz mieć konta u wielu brokerów jednocześnie. Pamiętaj jednak, że IKE możesz posiadać tylko jedno — w jednej instytucji. Wielu inwestorów ma np. konto w XTB (zero prowizji do limitu) i IKE w DM BOŚ."
+      "answer": "Tak, możesz mieć konta u wielu brokerów jednocześnie. Pamiętaj jednak, że IKE możesz posiadać tylko jedno — w jednej instytucji. Wielu inwestorów ma np. konto w XTB (zero prowizji do limitu) i dodatkowe IKE w DM BOŚ z pełnym dostępem do obligacji i instrumentów pochodnych."
     },
     {
       "question": "Czy moje środki są bezpieczne u brokera?",
