@@ -1,36 +1,37 @@
 import { useIsMobile } from "../../hooks/useIsMobile.js";
+import Icon from "./Icon.jsx";
 
 const CTA_CONFIGS = {
   screener: {
-    icon: "🔍",
+    iconName: "search",
     title: "Sprawdź to w praktyce",
     description: "Skorzystaj z naszego screenera i przeszukaj wszystkie spółki GPW według własnych kryteriów.",
     buttonText: "Otwórz screener GPW",
     link: "/",
   },
   portfolio: {
-    icon: "📊",
+    iconName: "wallet",
     title: "Śledź swój portfel",
     description: "Dodaj spółki do swojego wirtualnego portfela i śledź wyniki w czasie rzeczywistym.",
     buttonText: "Przejdź do portfela",
     link: "/portfolio",
   },
   news: {
-    icon: "📰",
+    iconName: "newspaper",
     title: "Bądź na bieżąco",
     description: "Czytaj najnowsze wiadomości z rynków finansowych i GPW.",
     buttonText: "Czytaj wiadomości",
     link: "/wiadomosci",
   },
   feargreed: {
-    icon: "📉",
+    iconName: "trending-down",
     title: "Sprawdź nastroje rynku",
     description: "Zobacz aktualny indeks Fear & Greed dla GPW i oceń nastroje inwestorów.",
     buttonText: "Indeks Fear & Greed",
     link: "/indeks",
   },
   default: {
-    icon: "📈",
+    iconName: "trending-up",
     title: "Sprawdź aktualne notowania GPW",
     description: "Przeglądaj notowania wszystkich spółek z Giełdy Papierów Wartościowych w czasie rzeczywistym.",
     buttonText: "Otwórz notowania GPW",
@@ -57,7 +58,7 @@ export default function CTABox({ ctaType = "default", ctaText, ctaLink, theme, o
       gap: 12,
     }}>
       <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-        <span style={{ fontSize: 28 }}>{cfg.icon}</span>
+        <span style={{ color: theme.accent }}><Icon name={cfg.iconName} size={28} /></span>
         <div style={{ fontSize: isMobile ? 16 : 18, fontWeight: 800, color: theme.textBright }}>{cfg.title}</div>
       </div>
       <p style={{ margin: 0, fontSize: 15, color: theme.text, lineHeight: 1.6 }}>{cfg.description}</p>
@@ -82,7 +83,7 @@ export default function CTABox({ ctaType = "default", ctaText, ctaLink, theme, o
           onMouseEnter={e => e.currentTarget.style.opacity = "0.85"}
           onMouseLeave={e => e.currentTarget.style.opacity = "1"}
         >
-          {text} →
+          <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>{text} <Icon name="arrow-right" size={16} /></span>
         </a>
       </div>
     </div>

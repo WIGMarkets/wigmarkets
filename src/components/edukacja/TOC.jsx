@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Icon from "./Icon.jsx";
 
 function slugify(text) {
   return text
@@ -48,7 +49,7 @@ export default function TOC({ items, theme, isMobile }) {
             minHeight: 48,
           }}
         >
-          <span>📋 Spis treści</span>
+          <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}><Icon name="clipboard-list" size={16} /> Spis treści</span>
           <span style={{ fontSize: 12, color: theme.textSecondary }}>{open ? "▲" : "▼"}</span>
         </button>
         {open && (

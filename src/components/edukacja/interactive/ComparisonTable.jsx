@@ -1,12 +1,23 @@
 import { useIsMobile } from "../../../hooks/useIsMobile.js";
+import Icon from "../Icon.jsx";
+
+function StarRating({ value, max = 5 }) {
+  return (
+    <span style={{ display: "inline-flex", gap: 1 }}>
+      {Array.from({ length: max }, (_, i) => (
+        <Icon key={i} name={i < value ? "star-filled" : "star"} size={14} color={i < value ? "#f0883e" : "#484f58"} />
+      ))}
+    </span>
+  );
+}
 
 const BROKER_DATA = [
-  { name: "XTB", minDeposit: "0 zł", commissionGPW: "0% (do 100k EUR/m-c)", commissionUS: "0% (do 100k EUR/m-c)", platform: "xStation 5", demo: "Tak", ikeIkze: "Nie", rating: "★★★★★" },
-  { name: "mBank eMakler", minDeposit: "0 zł", commissionGPW: "0,19% (min. 3 zł)", commissionUS: "0,29% (min. 19 zł)", platform: "eMakler", demo: "Nie", ikeIkze: "Tak (IKE)", rating: "★★★★☆" },
-  { name: "DM BOŚ", minDeposit: "0 zł", commissionGPW: "0,18% (min. 3 zł)", commissionUS: "0,29% (min. 19 zł)", platform: "BossaWeb", demo: "Tak", ikeIkze: "Tak (IKE+IKZE)", rating: "★★★★☆" },
-  { name: "PKO BP BM", minDeposit: "0 zł", commissionGPW: "0,20% (min. 5 zł)", commissionUS: "0,30% (min. 19 zł)", platform: "iPKO Inwestycje", demo: "Nie", ikeIkze: "Tak (IKE+IKZE)", rating: "★★★☆☆" },
-  { name: "Pekao BM", minDeposit: "0 zł", commissionGPW: "0,19% (min. 5 zł)", commissionUS: "0,30% (min. 19 zł)", platform: "Pekao24 Makler", demo: "Nie", ikeIkze: "Tak (IKE+IKZE)", rating: "★★★☆☆" },
-  { name: "Santander BM", minDeposit: "0 zł", commissionGPW: "0,19% (min. 3 zł)", commissionUS: "0,29% (min. 19 zł)", platform: "Santander Makler", demo: "Nie", ikeIkze: "Tak (IKE)", rating: "★★★☆☆" },
+  { name: "XTB", minDeposit: "0 zł", commissionGPW: "0% (do 100k EUR/m-c)", commissionUS: "0% (do 100k EUR/m-c)", platform: "xStation 5", demo: "Tak", ikeIkze: "Nie", rating: 5 },
+  { name: "mBank eMakler", minDeposit: "0 zł", commissionGPW: "0,19% (min. 3 zł)", commissionUS: "0,29% (min. 19 zł)", platform: "eMakler", demo: "Nie", ikeIkze: "Tak (IKE)", rating: 4 },
+  { name: "DM BOŚ", minDeposit: "0 zł", commissionGPW: "0,18% (min. 3 zł)", commissionUS: "0,29% (min. 19 zł)", platform: "BossaWeb", demo: "Tak", ikeIkze: "Tak (IKE+IKZE)", rating: 4 },
+  { name: "PKO BP BM", minDeposit: "0 zł", commissionGPW: "0,20% (min. 5 zł)", commissionUS: "0,30% (min. 19 zł)", platform: "iPKO Inwestycje", demo: "Nie", ikeIkze: "Tak (IKE+IKZE)", rating: 3 },
+  { name: "Pekao BM", minDeposit: "0 zł", commissionGPW: "0,19% (min. 5 zł)", commissionUS: "0,30% (min. 19 zł)", platform: "Pekao24 Makler", demo: "Nie", ikeIkze: "Tak (IKE+IKZE)", rating: 3 },
+  { name: "Santander BM", minDeposit: "0 zł", commissionGPW: "0,19% (min. 3 zł)", commissionUS: "0,29% (min. 19 zł)", platform: "Santander Makler", demo: "Nie", ikeIkze: "Tak (IKE)", rating: 3 },
 ];
 
 const ETF_DATA = [
@@ -42,19 +53,19 @@ const OBLIGACJE_DATA = [
 ];
 
 const APP_DATA = [
-  { name: "XTB xStation", gpw: "Tak", rynkiZagr: "16 giełd", prowizje: "0% (do 100k EUR)", ui: "★★★★★", minWplata: "0 zł", demo: "Tak", rating: "★★★★★" },
-  { name: "mBank eMakler", gpw: "Tak", rynkiZagr: "6 giełd", prowizje: "0,19% (min. 3 zł)", ui: "★★★★☆", minWplata: "0 zł", demo: "Nie", rating: "★★★★☆" },
-  { name: "Bossa Mobile", gpw: "Tak", rynkiZagr: "8 giełd", prowizje: "0,18% (min. 3 zł)", ui: "★★★☆☆", minWplata: "0 zł", demo: "Tak", rating: "★★★★☆" },
-  { name: "Revolut", gpw: "Nie", rynkiZagr: "USA, EU", prowizje: "0% (do limitu)", ui: "★★★★★", minWplata: "0 zł", demo: "Nie", rating: "★★★☆☆" },
-  { name: "eToro", gpw: "Nie", rynkiZagr: "17 giełd", prowizje: "0% (akcje), spread (CFD)", ui: "★★★★☆", minWplata: "200 USD", demo: "Tak", rating: "★★★☆☆" },
+  { name: "XTB xStation", gpw: "Tak", rynkiZagr: "16 giełd", prowizje: "0% (do 100k EUR)", ui: 5, minWplata: "0 zł", demo: "Tak", rating: 5 },
+  { name: "mBank eMakler", gpw: "Tak", rynkiZagr: "6 giełd", prowizje: "0,19% (min. 3 zł)", ui: 4, minWplata: "0 zł", demo: "Nie", rating: 4 },
+  { name: "Bossa Mobile", gpw: "Tak", rynkiZagr: "8 giełd", prowizje: "0,18% (min. 3 zł)", ui: 3, minWplata: "0 zł", demo: "Tak", rating: 4 },
+  { name: "Revolut", gpw: "Nie", rynkiZagr: "USA, EU", prowizje: "0% (do limitu)", ui: 5, minWplata: "0 zł", demo: "Nie", rating: 3 },
+  { name: "eToro", gpw: "Nie", rynkiZagr: "17 giełd", prowizje: "0% (akcje), spread (CFD)", ui: 4, minWplata: "200 USD", demo: "Tak", rating: 3 },
 ];
 
 const ZLECENIA_DATA = [
   { typ: "Z limitem ceny", opis: "Kupno/sprzedaż po określonej cenie lub lepszej", kiedy: "Gdy chcesz kontrolować cenę", ryzyko: "Niskie", realizacja: "Może nie być zrealizowane", szybkosc: "Wolna" },
   { typ: "PKC (Po Każdej Cenie)", opis: "Realizacja natychmiast po najlepszej dostępnej cenie", kiedy: "Gdy zależy ci na szybkości", ryzyko: "Średnie (slippage)", realizacja: "Natychmiastowa", szybkosc: "Bardzo szybka" },
   { typ: "PCR (Po Cenie Rynkowej)", opis: "Jak PKC, ale konwertuje się na limit po pierwszej transakcji", kiedy: "Kompromis między PKC a limitem", ryzyko: "Niskie-średnie", realizacja: "Szybka", szybkosc: "Szybka" },
-  { typ: "Stop Loss", opis: "Automatyczna sprzedaż gdy cena spadnie do poziomu", kiedy: "Ochrona przed stratami", ryzyko: "Luki cenowe", realizacja: "Po aktywacji → PKC", szybkosc: "Warunkowa" },
-  { typ: "Stop Limit", opis: "Jak stop loss, ale po aktywacji → zlecenie z limitem", kiedy: "Ochrona z kontrolą ceny", ryzyko: "Może nie być zrealizowane", realizacja: "Po aktywacji → limit", szybkosc: "Warunkowa" },
+  { typ: "Stop Loss", opis: "Automatyczna sprzedaż gdy cena spadnie do poziomu", kiedy: "Ochrona przed stratami", ryzyko: "Luki cenowe", realizacja: "Po aktywacji: PKC", szybkosc: "Warunkowa" },
+  { typ: "Stop Limit", opis: "Jak stop loss, ale po aktywacji: zlecenie z limitem", kiedy: "Ochrona z kontrolą ceny", ryzyko: "Może nie być zrealizowane", realizacja: "Po aktywacji: limit", szybkosc: "Warunkowa" },
   { typ: "Take Profit", opis: "Automatyczna sprzedaż gdy cena wzrośnie do celu", kiedy: "Realizacja zysków", ryzyko: "Niskie", realizacja: "Po osiągnięciu celu", szybkosc: "Warunkowa" },
   { typ: "Trailing Stop", opis: "Stop loss podążający za ceną w górę", kiedy: "Ochrona rosnących zysków", ryzyko: "Luki cenowe", realizacja: "Dynamiczna", szybkosc: "Warunkowa" },
 ];
@@ -63,7 +74,7 @@ const TABLE_CONFIG = {
   brokerComparison: {
     headers: ["Broker", "Min. depozyt", "Prowizja GPW", "Prowizja USA", "Platforma", "Demo", "IKE/IKZE", "Ocena"],
     rows: BROKER_DATA,
-    getRow: (row) => [row.name, row.minDeposit, row.commissionGPW, row.commissionUS, row.platform, row.demo, row.ikeIkze, row.rating],
+    getRow: (row) => [row.name, row.minDeposit, row.commissionGPW, row.commissionUS, row.platform, row.demo, row.ikeIkze, <StarRating value={row.rating} />],
     subtitle: "Dane na luty 2026 · Zawsze sprawdzaj aktualne warunki u brokera",
   },
   etfComparison: {
@@ -87,7 +98,7 @@ const TABLE_CONFIG = {
   appComparison: {
     headers: ["Aplikacja", "GPW", "Rynki zagr.", "Prowizje", "UI/UX", "Min. wpłata", "Demo", "Ocena"],
     rows: APP_DATA,
-    getRow: (row) => [row.name, row.gpw, row.rynkiZagr, row.prowizje, row.ui, row.minWplata, row.demo, row.rating],
+    getRow: (row) => [row.name, row.gpw, row.rynkiZagr, row.prowizje, <StarRating value={row.ui} />, row.minWplata, row.demo, <StarRating value={row.rating} />],
     subtitle: "Dane na luty 2026 · Warunki mogą się zmieniać",
   },
   zleceniaComparison: {
@@ -102,7 +113,7 @@ function ScrollHint({ theme }) {
   return (
     <div style={{ fontSize: 11, color: theme.textSecondary, textAlign: "right", padding: "6px 12px", display: "flex", alignItems: "center", justifyContent: "flex-end", gap: 4 }}>
       <span>Przewiń tabelę</span>
-      <span style={{ fontSize: 14 }}>→</span>
+      <Icon name="arrow-right" size={14} />
     </div>
   );
 }

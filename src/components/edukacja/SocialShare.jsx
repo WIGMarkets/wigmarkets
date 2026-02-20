@@ -1,11 +1,15 @@
+import { useState } from "react";
+import Icon from "./Icon.jsx";
+
 export default function SocialShare({ title, url, theme }) {
+  const [copied, setCopied] = useState(false);
   const encodedTitle = encodeURIComponent(title);
   const encodedUrl = encodeURIComponent(url || window.location.href);
 
   const buttons = [
     {
       label: "Twitter/X",
-      icon: "𝕏",
+      icon: "X",
       href: `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`,
       color: "#1da1f2",
     },
@@ -25,8 +29,8 @@ export default function SocialShare({ title, url, theme }) {
 
   function copyLink() {
     navigator.clipboard.writeText(window.location.href).then(() => {
-      const btn = document.getElementById("copy-link-btn");
-      if (btn) { btn.textContent = "✓ Skopiowano!"; setTimeout(() => { btn.textContent = "🔗 Kopiuj link"; }, 2000); }
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
     });
   }
 
@@ -56,14 +60,17 @@ export default function SocialShare({ title, url, theme }) {
         </a>
       ))}
       <button
-        id="copy-link-btn"
         onClick={copyLink}
         style={{
           padding: "10px 16px", borderRadius: 8, border: `1px solid ${theme.border}`,
           background: theme.bgCardAlt, color: theme.textSecondary,
           fontFamily: "inherit", fontSize: 13, cursor: "pointer", minHeight: 44,
         }}
-      >🔗 Kopiuj link</button>
+      >
+        <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
+          {copied ? <><Icon name="check" size={14} color="#00c896" /> Skopiowano!</> : <><Icon name="link" size={14} /> Kopiuj link</>}
+        </span>
+      </button>
     </div>
   );
 }

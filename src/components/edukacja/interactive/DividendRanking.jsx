@@ -1,4 +1,5 @@
 import { useIsMobile } from "../../../hooks/useIsMobile.js";
+import Icon from "../Icon.jsx";
 
 const DIVIDEND_DATA = [
   { ticker: "PKN", name: "PKN Orlen", sector: "Energetyka", divYield: 6.8, div: 5.5, pe: 8.1, payoutRatio: "55%", frequency: "Roczna" },
@@ -15,7 +16,7 @@ function ScrollHint({ theme }) {
   return (
     <div style={{ fontSize: 11, color: theme.textSecondary, textAlign: "right", padding: "6px 12px", display: "flex", alignItems: "center", justifyContent: "flex-end", gap: 4 }}>
       <span>Przewiń tabelę</span>
-      <span style={{ fontSize: 14 }}>→</span>
+      <Icon name="arrow-right" size={14} />
     </div>
   );
 }
@@ -33,7 +34,7 @@ export default function DividendRanking({ theme }) {
     }}>
       <div style={{ padding: isMobile ? "12px 16px" : "16px 20px", borderBottom: `1px solid ${theme.border}`, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 8 }}>
         <div>
-          <div style={{ fontSize: 13, fontWeight: 700, color: theme.textBright }}>🏆 Ranking spółek dywidendowych GPW 2026</div>
+          <div style={{ fontSize: 13, fontWeight: 700, color: theme.textBright, display: "flex", alignItems: "center", gap: 6 }}><Icon name="trophy" size={16} color="#f0883e" /> Ranking spółek dywidendowych GPW 2026</div>
           <div style={{ fontSize: 11, color: theme.textSecondary, marginTop: 2 }}>Dane szacunkowe · Dywidendy mogą ulec zmianie</div>
         </div>
         <span style={{ background: "#00c89620", color: "#00c896", fontSize: 11, fontWeight: 700, padding: "3px 10px", borderRadius: 20 }}>

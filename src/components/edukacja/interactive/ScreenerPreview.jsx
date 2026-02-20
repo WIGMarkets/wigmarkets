@@ -1,4 +1,5 @@
 import { useIsMobile } from "../../../hooks/useIsMobile.js";
+import Icon from "../Icon.jsx";
 
 const PREVIEW_STOCKS = [
   { ticker: "CDR", name: "CD Projekt", sector: "IT", change24h: 2.1, pe: 28.5, div: 0.0 },
@@ -12,7 +13,7 @@ function ScrollHint({ theme }) {
   return (
     <div style={{ fontSize: 11, color: theme.textSecondary, textAlign: "right", padding: "6px 12px", display: "flex", alignItems: "center", justifyContent: "flex-end", gap: 4 }}>
       <span>Przewiń tabelę</span>
-      <span style={{ fontSize: 14 }}>→</span>
+      <Icon name="arrow-right" size={14} />
     </div>
   );
 }
@@ -30,7 +31,7 @@ export default function ScreenerPreview({ theme, onNavigate }) {
     }}>
       <div style={{ padding: isMobile ? "12px 16px" : "16px 20px", borderBottom: `1px solid ${theme.border}`, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 8 }}>
         <div>
-          <div style={{ fontSize: 13, fontWeight: 700, color: theme.textBright }}>🔍 Screener GPW — podgląd</div>
+          <div style={{ fontSize: 13, fontWeight: 700, color: theme.textBright, display: "flex", alignItems: "center", gap: 6 }}><Icon name="search" size={16} /> Screener GPW — podgląd</div>
           <div style={{ fontSize: 11, color: theme.textSecondary, marginTop: 2 }}>Przykładowe dane · Filtruj spółki według własnych kryteriów</div>
         </div>
         <a
@@ -38,7 +39,7 @@ export default function ScreenerPreview({ theme, onNavigate }) {
           onClick={e => { e.preventDefault(); onNavigate?.("/"); }}
           style={{ fontSize: 12, color: "#58a6ff", textDecoration: "none", fontWeight: 600, padding: "8px 14px", border: "1px solid #58a6ff40", borderRadius: 8, minHeight: 44, display: "inline-flex", alignItems: "center" }}
         >
-          Pełny screener →
+          <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>Pełny screener <Icon name="arrow-right" size={14} /></span>
         </a>
       </div>
       {isMobile && <ScrollHint theme={theme} />}
@@ -83,7 +84,7 @@ export default function ScreenerPreview({ theme, onNavigate }) {
           onClick={e => { e.preventDefault(); onNavigate?.("/"); }}
           style={{ fontSize: 13, color: "#58a6ff", fontWeight: 600, textDecoration: "none", display: "inline-block", padding: "8px 0", minHeight: 44, lineHeight: "28px" }}
         >
-          Zobacz wszystkie spółki GPW z filtrami →
+          <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>Zobacz wszystkie spółki GPW z filtrami <Icon name="arrow-right" size={14} /></span>
         </a>
       </div>
     </div>

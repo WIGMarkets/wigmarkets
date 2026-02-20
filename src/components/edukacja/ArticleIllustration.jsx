@@ -546,7 +546,7 @@ function IllustKupnoAkcji() {
       <rect x="60" y="155" width="80" height="10" rx="3" fill={BORDER} />
       <rect x="70" y="130" width="40" height="18" rx="3" fill={GREEN} opacity="0.3" />
       <circle cx="100" cy="200" r="6" fill={ACCENT} opacity="0.4" />
-      {/* Arrow 1→2 */}
+      {/* Arrow 1 to 2 */}
       <line x1="160" y1="170" x2="220" y2="170" stroke={ACCENT} strokeWidth="2" strokeDasharray="4 3" />
       <polygon points="220,164 232,170 220,176" fill={ACCENT} />
       {/* Step 2 - Search/Screen */}
@@ -556,7 +556,7 @@ function IllustKupnoAkcji() {
       <rect x="278" y="166" width="50" height="8" rx="3" fill={BORDER} opacity="0.4" />
       <circle cx="265" cy="190" r="8" fill={GREEN} opacity="0.2" />
       <rect x="278" y="186" width="45" height="8" rx="3" fill={BORDER} opacity="0.4" />
-      {/* Arrow 2→3 */}
+      {/* Arrow 2 to 3 */}
       <line x1="360" y1="170" x2="420" y2="170" stroke={ACCENT} strokeWidth="2" strokeDasharray="4 3" />
       <polygon points="420,164 432,170 420,176" fill={ACCENT} />
       {/* Step 3 - Order/Click */}
@@ -565,7 +565,7 @@ function IllustKupnoAkcji() {
       <rect x="465" y="155" width="50" height="10" rx="4" fill={GREEN} opacity="0.5" />
       <rect x="455" y="185" width="30" height="8" rx="3" fill={BORDER} opacity="0.4" />
       <rect x="495" y="185" width="30" height="8" rx="3" fill={ORANGE} opacity="0.4" />
-      {/* Arrow 3→4 */}
+      {/* Arrow 3 to 4 */}
       <line x1="560" y1="170" x2="620" y2="170" stroke={ACCENT} strokeWidth="2" strokeDasharray="4 3" />
       <polygon points="620,164 632,170 620,176" fill={ACCENT} />
       {/* Step 4 - Rising chart */}
