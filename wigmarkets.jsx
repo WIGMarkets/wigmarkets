@@ -221,7 +221,7 @@ export default function WigMarkets() {
         textTransform: "uppercase",
       }}
     >
-      {label} {sortBy === key ? (sortDir === "desc" ? "↓" : "↑") : ""}
+      {label} {sortBy === key ? (sortDir === "desc" ? <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ verticalAlign: "middle" }}><polyline points="6 9 12 15 18 9" /></svg> : <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ verticalAlign: "middle" }}><polyline points="18 15 12 9 6 15" /></svg>) : ""}
     </th>
   );
 
@@ -250,8 +250,8 @@ export default function WigMarkets() {
               <span style={{ fontSize: 12, color: idx.change.startsWith("+") ? "#00c896" : "#ff4d6d" }}>{idx.change}</span>
             </div>
           ))}
-          <div style={{ marginLeft: "auto", fontSize: 11, color: "#8b949e", whiteSpace: "nowrap", alignSelf: "center" }}>
-            🟢 Rynek otwarty · GPW Warszawa · {new Date().toLocaleTimeString("pl-PL")}
+          <div style={{ marginLeft: "auto", fontSize: 11, color: "#8b949e", whiteSpace: "nowrap", alignSelf: "center", display: "flex", alignItems: "center", gap: 6 }}>
+            <span style={{ display: "inline-block", width: 8, height: 8, borderRadius: "50%", background: "#00c896" }} /> Rynek otwarty · GPW Warszawa · {new Date().toLocaleTimeString("pl-PL")}
           </div>
         </div>
       </div>

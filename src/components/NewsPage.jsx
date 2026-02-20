@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { fetchMarketNews } from "../api.js";
+import Icon from "./edukacja/Icon.jsx";
 
 const PERIODS = [
   { key: "dzis",    label: "Dziś" },
@@ -48,7 +49,7 @@ function NewsCard({ item, theme }) {
               <span style={{ fontSize: 11, color: theme.accent, fontWeight: 600 }}>{item.source}</span>
             </>
           )}
-          <span style={{ marginLeft: "auto", fontSize: 11, color: theme.textSecondary }}>↗</span>
+          <span style={{ marginLeft: "auto" }}><Icon name="external-link" size={12} color={theme.textSecondary} /></span>
         </div>
       </div>
     </a>
@@ -99,9 +100,12 @@ export default function NewsPage({ onBack, theme, onSelectStock }) {
             cursor: "pointer",
             fontSize: 13,
             fontFamily: "inherit",
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 6,
           }}
         >
-          ← Powrót
+          <Icon name="arrow-left" size={14} /> Powrót
         </button>
         <div>
           <div style={{ fontWeight: 700, fontSize: 17, color: theme.textBright }}>Wiadomości rynkowe</div>

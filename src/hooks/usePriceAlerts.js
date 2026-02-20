@@ -31,7 +31,7 @@ export function usePriceAlerts(prices, setAlerts) {
       changed = true;
 
       const condLabel = alert.condition === "above" ? "≥" : "≤";
-      const msg = `🔔 ${alert.ticker} ${condLabel} ${alert.target} · kurs: ${price.toFixed(2)}`;
+      const msg = `[!] ${alert.ticker} ${condLabel} ${alert.target} · kurs: ${price.toFixed(2)}`;
 
       // In-app toast (always fires)
       toast(msg, "warning");

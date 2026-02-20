@@ -2,6 +2,7 @@ import { useState, useMemo } from "react";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { fmt, changeFmt, changeColor } from "../utils.js";
 import StockLogo from "./StockLogo.jsx";
+import Icon from "./edukacja/Icon.jsx";
 
 const LS_KEY = "portfolio_v1";
 
@@ -85,7 +86,7 @@ export default function PortfolioPage({ onBack, theme, prices, allInstruments })
     <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif" }}>
       {/* Header */}
       <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, padding: "12px 24px", display: "flex", alignItems: "center", gap: 14 }}>
-        <button onClick={onBack} style={{ background: "none", border: `1px solid ${theme.border}`, color: theme.text, borderRadius: 8, padding: "6px 14px", cursor: "pointer", fontSize: 13, fontFamily: "inherit" }}>← Powrót</button>
+        <button onClick={onBack} style={{ background: "none", border: `1px solid ${theme.border}`, color: theme.text, borderRadius: 8, padding: "6px 14px", cursor: "pointer", fontSize: 13, fontFamily: "inherit", display: "inline-flex", alignItems: "center", gap: 6 }}><Icon name="arrow-left" size={14} /> Powrót</button>
         <div>
           <div style={{ fontWeight: 700, fontSize: 17, color: theme.textBright }}>Portfolio</div>
           <div style={{ fontSize: 11, color: theme.textSecondary }}>Śledź swoje pozycje w czasie rzeczywistym</div>
@@ -144,7 +145,7 @@ export default function PortfolioPage({ onBack, theme, prices, allInstruments })
         {/* Positions list */}
         {positions.length === 0 ? (
           <div style={{ textAlign: "center", padding: "48px 0", color: theme.textSecondary }}>
-            <div style={{ fontSize: 32, marginBottom: 12 }}>📊</div>
+            <div style={{ marginBottom: 12, color: theme.textSecondary }}><Icon name="chart-bar" size={32} /></div>
             <div style={{ fontSize: 15, fontWeight: 600, color: theme.text, marginBottom: 6 }}>Brak pozycji</div>
             <div style={{ fontSize: 13 }}>Dodaj pierwszą pozycję powyżej</div>
           </div>
