@@ -22,6 +22,9 @@ import FearGreedPage from "./components/FearGreedPage.jsx";
 import NewsPage from "./components/NewsPage.jsx";
 import ScreenerView from "./components/ScreenerView.jsx";
 import PortfolioPage from "./components/PortfolioPage.jsx";
+import EdukacjaHome from "./components/edukacja/EdukacjaHome.jsx";
+import CategoryPage from "./components/edukacja/CategoryPage.jsx";
+import ArticlePage from "./components/edukacja/ArticlePage.jsx";
 import SkeletonRow from "./components/SkeletonRow.jsx";
 import ToastContainer, { toast } from "./components/ToastContainer.jsx";
 import AlertsModal from "./components/AlertsModal.jsx";
@@ -104,10 +107,17 @@ function TableRow({ s, i, rank, isMobile, tab, theme, prices, changes, watchlist
   );
 }
 
+const EDUKACJA_CATEGORIES = ["podstawy", "analiza", "strategia"];
+
 function getRouteFromPath(pathname) {
   if (pathname === "/indeks") return { page: "feargreed" };
   if (pathname === "/wiadomosci") return { page: "news" };
   if (pathname === "/portfolio") return { page: "portfolio" };
+  if (pathname === "/edukacja") return { page: "edukacja" };
+  const catMatch = pathname.match(/^\/edukacja\/(podstawy|analiza|strategia)$/);
+  if (catMatch) return { page: "edukacja-category", category: catMatch[1] };
+  const slugMatch = pathname.match(/^\/edukacja\/([a-z0-9-]+)$/);
+  if (slugMatch) return { page: "edukacja-article", slug: slugMatch[1] };
   const match = pathname.match(/^\/spolka\/([A-Z0-9]+)$/i);
   if (match) {
     const ticker = match[1].toUpperCase();
@@ -188,6 +198,21 @@ export default function WigMarkets() {
     document.title = "WIGmarkets - Notowania GPW";
     const meta = document.querySelector('meta[name="description"]');
     if (meta) meta.setAttribute("content", "Notowania GPW w czasie rzeczywistym");
+  }, []);
+
+  const navigateToEdukacja = useCallback(() => {
+    window.history.pushState(null, "", "/edukacja");
+    setRoute({ page: "edukacja" });
+  }, []);
+
+  const navigateToEdukacjaCategory = useCallback((category) => {
+    window.history.pushState(null, "", `/edukacja/${category}`);
+    setRoute({ page: "edukacja-category", category });
+  }, []);
+
+  const navigateToEdukacjaArticle = useCallback((slug) => {
+    window.history.pushState(null, "", `/edukacja/${slug}`);
+    setRoute({ page: "edukacja-article", slug });
   }, []);
 
   const bgGradient = darkMode
@@ -397,6 +422,17 @@ export default function WigMarkets() {
     return <svg width="60" height="24" style={{ display: "block" }}><polyline points={pts} fill="none" stroke={color} strokeWidth="1.5" strokeLinejoin="round" /></svg>;
   }
 
+  // Route: Edukacja pages
+  if (route.page === "edukacja") {
+    return <EdukacjaHome theme={theme} onBack={navigateHome} onNavigateCategory={navigateToEdukacjaCategory} onNavigateArticle={navigateToEdukacjaArticle} />;
+  }
+  if (route.page === "edukacja-category") {
+    return <CategoryPage theme={theme} category={route.category} onBack={navigateToEdukacja} onNavigateArticle={navigateToEdukacjaArticle} onNavigateHome={navigateHome} />;
+  }
+  if (route.page === "edukacja-article") {
+    return <ArticlePage theme={theme} slug={route.slug} onBack={navigateToEdukacja} onNavigateCategory={navigateToEdukacjaCategory} onNavigateArticle={navigateToEdukacjaArticle} onNavigateHome={navigateHome} />;
+  }
+
   // Route: Fear & Greed index page
   if (route.page === "feargreed") {
     return <FearGreedPage onBack={navigateHome} theme={theme} />;
@@ -553,6 +589,7 @@ export default function WigMarkets() {
           ))}
           <button onClick={navigateToNews} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: theme.borderInput, background: "transparent", color: theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>Wiadomości</button>
           <button onClick={navigateToPortfolio} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: theme.borderInput, background: "transparent", color: theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>Portfolio</button>
+          <button onClick={navigateToEdukacja} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: "#58a6ff40", background: "#58a6ff10", color: "#58a6ff", fontSize: isMobile ? 12 : 13, fontWeight: 600, cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>📚 Edukacja</button>
           {tab !== "screener" && tab !== "popularne" && tab !== "watchlist" && (
           <div style={{ marginLeft: "auto", display: "flex", gap: 4, flexShrink: 0 }}>
             <button onClick={() => setWatchFilter(f => !f)} style={{ padding: isMobile ? "6px 10px" : "8px 14px", borderRadius: 8, border: "1px solid", borderColor: watchFilter ? "#ffd700" : theme.borderInput, background: watchFilter ? "#ffd70022" : "transparent", color: watchFilter ? "#ffd700" : theme.textSecondary, fontSize: isMobile ? 11 : 12, cursor: "pointer", fontFamily: "inherit", fontWeight: watchFilter ? 700 : 400, flexShrink: 0 }}>

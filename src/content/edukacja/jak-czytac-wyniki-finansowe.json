@@ -1,0 +1,211 @@
+{
+  "slug": "jak-czytac-wyniki-finansowe",
+  "title": "Jak czytać wyniki finansowe spółki giełdowej",
+  "metaTitle": "Jak czytać wyniki finansowe spółki — analiza bilansu | WIGmarkets.pl",
+  "metaDescription": "Naucz się czytać sprawozdania finansowe spółek GPW: bilans, rachunek zysków i strat, cash flow. Poradnik dla inwestora indywidualnego.",
+  "category": "analiza",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-20",
+  "updatedDate": "2026-02-20",
+  "readingTime": 16,
+  "featuredImage": "/images/edukacja/jak-czytac-wyniki-finansowe.webp",
+  "featuredImageAlt": "Sprawozdania finansowe spółek giełdowych — bilans i rachunek zysków",
+  "tags": [
+    "wyniki finansowe",
+    "bilans",
+    "rachunek zysków i strat",
+    "cash flow",
+    "EBITDA",
+    "GPW",
+    "analiza fundamentalna"
+  ],
+  "relatedSlugs": [
+    "wskaznik-pe",
+    "spolki-dywidendowe-gpw",
+    "analiza-techniczna-podstawy"
+  ],
+  "ctaType": "screener",
+  "ctaText": "Sprawdź wskaźniki finansowe spółek GPW",
+  "ctaLink": "/",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dlaczego warto czytać wyniki finansowe spółek?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sprawozdania finansowe to fundament analizy fundamentalnej — dostarczają obiektywnych danych o kondycji finansowej spółki, jej rentowności, strukturze zadłużenia oraz zdolności do generowania gotówki. Dla inwestora giełdowego umiejętność czytania wyników finansowych jest nieoceniona: pozwala odróżnić spółkę, która rośnie zdrowo i generuje realną gotówkę, od takiej, która tylko na papierze wygląda dobrze, a w rzeczywistości ma poważne problemy z płynnością lub nadmiernym zadłużeniem. Spółki notowane na GPW mają obowiązek publikowania raportów kwartalnych (raporty za Q1, H1 i Q3) oraz raportu rocznego, zawierającego pełne sprawozdanie finansowe wraz z opinią biegłego rewidenta. Raporty te są dostępne w systemie ESPI (Elektroniczny System Przekazywania Informacji) na stronie KNF oraz na stronach relacji inwestorskich spółek. Inwestor, który rozumie sprawozdania finansowe, ma realną przewagę nad tym, który opiera się wyłącznie na mediach finansowych czy rekomendacjach analityków."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Trzy główne sprawozdania finansowe"
+    },
+    {
+      "type": "paragraph",
+      "text": "Każde pełne sprawozdanie finansowe składa się z trzech kluczowych dokumentów, które wzajemnie się uzupełniają i razem dają pełny obraz kondycji finansowej spółki. Bilans (ang. balance sheet) to zestawienie aktywów i pasywów spółki na określony dzień — pokazuje co spółka posiada i skąd pochodzi finansowanie tych aktywów. Rachunek zysków i strat (RZiS, ang. income statement lub P&L — Profit & Loss) przedstawia przychody, koszty i zyski spółki za dany okres. Rachunek przepływów pieniężnych (cash flow statement) pokazuje rzeczywiste przepływy gotówki — odróżnia zysk księgowy od zysku gotówkowego. Analiza tylko jednego sprawozdania może prowadzić do błędnych wniosków: spółka może wykazywać duże zyski w RZiS, a jednocześnie mieć poważne problemy z płynnością widoczne w rachunku przepływów pieniężnych. Dlatego zawsze należy analizować wszystkie trzy sprawozdania łącznie, szukając spójności i ewentualnych sygnałów ostrzegawczych."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bilans — aktywa i pasywa na koniec okresu (snapshot finansowy spółki)",
+        "Rachunek zysków i strat (RZiS) — przychody, koszty i zyski za okres",
+        "Rachunek przepływów pieniężnych (cash flow) — rzeczywiste ruchy gotówki",
+        "Zestawienie zmian w kapitale własnym — zmiany w strukturze kapitału",
+        "Informacja dodatkowa i noty objaśniające — szczegółowe wyjaśnienia do liczb"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Bilans — aktywa i pasywa"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bilans to zestawienie majątku spółki (aktywa) oraz źródeł jego finansowania (pasywa) na określony dzień, najczęściej na koniec kwartału lub roku. Fundamentalna zasada bilansu to równanie: aktywa = pasywa, czyli aktywa = kapitał własny + zobowiązania. Aktywa dzielą się na trwałe (środki trwałe, wartości niematerialne, nieruchomości, długoterminowe inwestycje) i obrotowe (zapasy, należności, środki pieniężne i ich ekwiwalenty). Aktywa trwałe to zasoby długoterminowe, które spółka wykorzystuje do prowadzenia działalności, natomiast aktywa obrotowe to te, które zostaną zamienione na gotówkę w ciągu roku. Pasywa dzielą się na kapitał własny (wniesiony przez akcjonariuszy plus skumulowane zyski zatrzymane) oraz zobowiązania (krótkoterminowe do 12 miesięcy i długoterminowe powyżej 12 miesięcy). Analiza bilansu pozwala ocenić wypłacalność spółki, strukturę finansowania i potencjalne ryzyka. Duży udział długu długoterminowego przy niskim kapitale własnym może sugerować nadmierne lewarowanie."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rachunek zysków i strat — przychody vs zysk"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rachunek zysków i strat (RZiS) to dokument, który większość inwestorów analizuje jako pierwsze przy publikacji wyników finansowych. Pokazuje on, ile spółka zarobiła w danym okresie. Kluczowe linie RZiS to: przychody ze sprzedaży (top line — najwyższa pozycja), zysk brutto ze sprzedaży (przychody minus koszt własny sprzedaży), zysk operacyjny EBIT (zysk brutto minus koszty sprzedaży i ogólnego zarządu), EBITDA (EBIT plus amortyzacja), zysk przed opodatkowaniem (EBT) oraz zysk netto (bottom line — najniższa pozycja). Ważne jest rozróżnienie między przychodami a zyskim: spółka może mieć wysokie przychody, ale ujemny zysk netto, jeśli koszty są zbyt wysokie. I odwrotnie — spółka z niskimi przychodami może być bardzo rentowna dzięki niskim kosztom. Inwestorzy powinni analizować zarówno poziomy bezwzględne (ile spółka zarabia), jak i dynamikę zmian rok do roku i kwartał do kwartału."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "EBITDA i marże — mierniki rentowności"
+    },
+    {
+      "type": "paragraph",
+      "text": "EBITDA (Earnings Before Interest, Taxes, Depreciation and Amortization) to zysk przed odsetkami, podatkami, deprecjacją i amortyzacją. Jest szeroko stosowany jako przybliżenie przepływu gotówki operacyjnej i pozwala porównywać spółki z różnych branż oraz o różnych strukturach kapitałowych. Marże rentowności to procent przychodów, który zamienia się w zysk na danym poziomie: marża brutto (zysk brutto / przychody) pokazuje efektywność produkcji lub świadczenia usług; marża operacyjna (EBIT / przychody) pokazuje rentowność działalności operacyjnej po kosztach sprzedaży i administracji; marża EBITDA (EBITDA / przychody) jest popularnym miernikiem stosowanym w wycenach przez wskaźnik EV/EBITDA; marża netto (zysk netto / przychody) pokazuje ostateczną rentowność po wszystkich kosztach. Porównując spółki z tej samej branży na GPW, warto skupić się na trendach marż w czasie — kurczące się marże mogą sygnalizować rosnącą presję konkurencyjną lub wzrost kosztów, który spółka nie może przerzucić na klientów."
+    },
+    {
+      "type": "tip",
+      "text": "Przy ocenie wyników finansowych zawsze porównuj dane rok do roku (Year-over-Year, YoY) oraz kwartał do poprzedniego kwartału (Quarter-over-Quarter, QoQ). Jednorazowe zdarzenia, takie jak sprzedaż aktywów czy odpisy, mogą zniekształcać wyniki — szukaj wyników znormalizowanych (adjusted) lub usuń jednorazowe pozycje ręcznie."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "EPS — zysk na akcję"
+    },
+    {
+      "type": "paragraph",
+      "text": "EPS (Earnings Per Share, zysk na akcję) to jeden z najważniejszych wskaźników dla akcjonariuszy. Oblicza się go dzieląc zysk netto przez liczbę akcji w obiegu: EPS = zysk netto / liczba akcji. Wyróżniamy EPS podstawowy (basic EPS) i rozwodniony (diluted EPS), który uwzględnia potencjalne nowe akcje z opcji, warrantów czy obligacji zamiennych. EPS bezpośrednio wpływa na wskaźnik C/Z (P/E), który oblicza się dzieląc cenę akcji przez EPS. Rosnący EPS rok do roku jest pozytywnym sygnałem — spółka zwiększa zyski na akcję. Warto jednak pamiętać, że EPS można sztucznie podnieść przez skup własnych akcji (buyback), zmniejszając mianownik wzoru bez poprawy fundamentalnych wyników operacyjnych. Dlatego zawsze analizuj EPS w kontekście przychodów, marż i przepływów gotówkowych — sam wzrost EPS bez poprawy wyników operacyjnych powinien wzbudzać ostrożność."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ROE i ROA — wskaźniki zwrotu"
+    },
+    {
+      "type": "paragraph",
+      "text": "ROE (Return on Equity, zwrot na kapitale własnym) i ROA (Return on Assets, zwrot na aktywach) to kluczowe wskaźniki rentowności mierzące efektywność zarządzania spółką. ROE = zysk netto / kapitał własny. Mówi, ile złotych zysku netto generuje każdy złoty kapitału własnego wniesionego przez akcjonariuszy. Wysoki ROE (np. powyżej 15-20%) generalnie wskazuje na efektywne zarządzanie, choć może też wynikać z wysokiego lewarowania. ROA = zysk netto / aktywa ogółem. Mierzy efektywność wykorzystania wszystkich aktywów spółki, niezależnie od struktury finansowania. Użyteczny do porównań między spółkami o różnych strukturach kapitałowych. Relacja między ROE a ROA ujawnia efekt dźwigni finansowej: jeśli ROE jest znacznie wyższy od ROA, spółka mocno lewaruje swoje aktywa. Na GPW warto porównywać ROE i ROA firm z tej samej branży oraz śledzić trendy tych wskaźników w czasie, gdyż ich systematyczny spadek może sygnalizować pogarszanie się efektywności operacyjnej spółki."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zadłużenie i wskaźnik D/E"
+    },
+    {
+      "type": "paragraph",
+      "text": "Analiza zadłużenia spółki jest kluczowa dla oceny jej ryzyka finansowego. Najważniejsze wskaźniki to wskaźnik dług do kapitału własnego (D/E — Debt to Equity ratio) oraz wskaźnik dług netto do EBITDA. D/E = całkowite zadłużenie / kapitał własny. Wysoki D/E oznacza, że spółka finansuje swoją działalność głównie długiem, co zwiększa ryzyko finansowe, szczególnie w środowisku wysokich stóp procentowych. Akceptowalny poziom D/E zależy mocno od branży: firmy użyteczności publicznej czy nieruchomości tradycyjnie mają wyższe zadłużenie niż spółki technologiczne. Wskaźnik dług netto do EBITDA (popularny wśród analityków jako 'wielokrotność dźwigni') pokazuje, ile lat EBITDA potrzeba do spłaty długu netto. Generalnie wartość powyżej 3-4x jest uważana za wysoką. Ważne jest też analizowanie struktury zadłużenia: krótkoterminowy dług wymaga szybszej obsługi i refinansowania, co w trudnych rynkach może stanowić poważne ryzyko płynnościowe. Na GPW szczególną uwagę warto zwrócić na spółki deweloperskie i infrastrukturalne, gdzie wysokie zadłużenie jest normą branżową."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rachunek przepływów pieniężnych — cash flow"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rachunek przepływów pieniężnych (cash flow statement) jest często uważany za najtrudniejszy do analizy, ale też jeden z najważniejszych dokumentów finansowych, gdyż pokazuje rzeczywiste przepływy gotówki, a nie tylko wartości księgowe. Dzieli się na trzy sekcje: przepływy z działalności operacyjnej (CFO) — pokazuje gotówkę generowaną przez podstawową działalność spółki, przepływy z działalności inwestycyjnej (CFI) — nakłady na inwestycje (np. zakup środków trwałych, przejęcia) minus wpływy ze sprzedaży aktywów, przepływy z działalności finansowej (CFF) — emisje akcji, zaciąganie i spłata długu, wypłata dywidendy. Kluczowym miernikiem jest wolny przepływ gotówki (Free Cash Flow, FCF) = CFO minus capex (nakłady inwestycyjne). FCF pokazuje, ile gotówki spółka generuje po utrzymaniu i rozbudowie swojej bazy aktywów. Spółka może wykazywać zysk netto, ale ujemny FCF jeśli intensywnie inwestuje lub ma problemy z odzyskiwaniem należności. Rosnący FCF to jeden z najlepszych sygnałów fundamentalnej siły spółki."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Cykl konwersji gotówki i kapitał obrotowy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cykl konwersji gotówki (Cash Conversion Cycle, CCC) mierzy, jak długo trwa zanim spółka zamieni inwestycje w zapasy i inne zasoby z powrotem w przepływy pieniężne. CCC = Dni sprzedaży zapasów (DSI) + Dni sprzedaży należności (DSO) - Dni zobowiązań handlowych (DPO). Krótszy CCC jest generalnie lepszy — oznacza, że spółka szybko obraca swoim kapitałem. Wydłużający się cykl konwersji gotówki może sygnalizować problemy: rosnące zapasy mogą oznaczać słabszą sprzedaż, rosnące należności mogą świadczyć o problemach z odzyskiwaniem płatności od klientów. Kapitał obrotowy netto (aktywa obrotowe minus zobowiązania krótkoterminowe) pokazuje, czy spółka ma wystarczające zasoby do pokrycia bieżących zobowiązań. Ujemny kapitał obrotowy może być normalny dla niektórych branż (np. sieci handlowe, które pobierają płatność przed zapłatą do dostawców), ale dla większości spółek jest sygnałem ostrzegawczym wskazującym potencjalne problemy z płynnością w krótkim terminie."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sezonowość wyników i porównania rok do roku"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wiele spółek notowanych na GPW wykazuje wyraźną sezonowość wyników finansowych, co należy uwzględniać przy interpretacji danych kwartalnych. Przykładowo: spółki detaliczne i e-commerce zazwyczaj osiągają najlepsze wyniki w Q4 (Black Friday, Boże Narodzenie), deweloperzy mieszkaniowi często mają silny Q4 ze względu na oddawanie mieszkań przed końcem roku, spółki z ekspozycją na rolnictwo mają wyniki uzależnione od harmonogramu zbiorów. Dlatego bardziej miarodajne jest porównanie wyników kwartał do tego samego kwartału rok wcześniej (YoY), a nie do poprzedniego kwartału (QoQ). Przy analizowaniu wzrostu warto też sprawdzić, czy dynamika jest trwała: spółka może pokazać świetny wzrost YoY, jeśli rok wcześniej miała wyjątkowo słabe wyniki z powodu jednorazowych zdarzeń. Zawsze warto przeczytać komentarz zarządu do wyników (dostępny w raportach bieżących i prezentacjach dla inwestorów), który pomaga zrozumieć kontekst liczb."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Gdzie i kiedy publikowane są wyniki spółek GPW?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Spółki notowane na GPW mają obowiązek publikowania wyników finansowych zgodnie z harmonogramem raportowania, który podają na początku roku w formie raportu bieżącego do systemu ESPI. Raporty okresowe to: raport za Q1 (wyniki za styczeń-marzec) — zazwyczaj publikowany w maju, raport półroczny H1 (wyniki za styczeń-czerwiec) — zazwyczaj w sierpniu lub wrześniu, raport za Q3 (wyniki za styczeń-wrzesień) — zazwyczaj w listopadzie, raport roczny (wyniki za cały rok) — zazwyczaj w marcu lub kwietniu kolejnego roku. Wyniki można znaleźć w systemie ESPI na stronie KNF (espi.com.pl), na stronach relacji inwestorskich poszczególnych spółek, na platformach takich jak Bankier.pl, Stockwatch.pl czy Biznesradar.pl. Warto śledzić kalendarz wyników i być przygotowanym na potencjalną zmienność kursu po publikacji — rynek często reaguje bardzo ostro na wyniki, które odbiegają od oczekiwań analityków, nawet gdy bezwzględne liczby wyglądają dobrze."
+    },
+    {
+      "type": "info",
+      "text": "W Polsce spółki notowane na GPW stosują Międzynarodowe Standardy Sprawozdawczości Finansowej (MSSF/IFRS) lub Polskie Standardy Rachunkowości (PSR). Spółki z rynku głównego GPW stosują MSSF, co ułatwia porównania z firmami zagranicznymi. Raporty kwartalne w Polsce zawierają zazwyczaj dane skonsolidowane dla całej grupy kapitałowej."
+    },
+    {
+      "type": "interactive",
+      "component": "StockTableWidget",
+      "props": {
+        "title": "Przykładowe wskaźniki spółek GPW",
+        "data": "fundamentals"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jak interpretować wyniki — praktyczne wskazówki"
+    },
+    {
+      "type": "paragraph",
+      "text": "Czytanie sprawozdań finansowych to umiejętność, którą nabywa się z praktyką. Oto kilka praktycznych wskazówek dla inwestorów GPW: zawsze porównuj wyniki z oczekiwaniami rynku — 'dobre' wyniki, które są poniżej konsensusu analityków, mogą spowodować spadek kursu, a słabsze wyniki powyżej oczekiwań — wzrost. Szukaj trendów, a nie jednorazowych wyników — stabilny wzrost przychodów i zysku przez kilka kwartałów jest bardziej wartościowy niż jeden rewelacyjny kwartał. Czytaj noty do sprawozdania — tam ukryte są szczegóły dotyczące zasad rachunkowości, zobowiązań warunkowych, transakcji z podmiotami powiązanymi i innych istotnych informacji. Słuchaj konferencji wynikowych (webcasty dostępne na stronach spółek) — zarząd często dzieli się ważnymi informacjami o perspektywach i strategii, których nie ma w samych liczbach. Porównuj spółkę z konkurencją branżową i ze średnimi branżowymi. Wreszcie, nie ignoruj ostrzeżeń audytora — opinia biegłego rewidenta z zastrzeżeniami lub odmowa wydania opinii to poważny sygnał ostrzegawczy wymagający głębszej analizy."
+    },
+    {
+      "type": "warning",
+      "text": "Uwaga na kreatywną rachunkowość: spółki mają pewną swobodę w stosowaniu zasad rachunkowości, co może wpływać na prezentowane wyniki. Szczególną uwagę zwracaj na duże rozbieżności między zyskiem netto a przepływami gotówkowymi z działalności operacyjnej — mogą one sugerować agresywne polityki rozpoznawania przychodów lub manipulacje kapitałem obrotowym."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dynamika Q4 vs Q1 — typowe wzorce na GPW"
+    },
+    {
+      "type": "paragraph",
+      "text": "Na GPW, podobnie jak na innych rynkach, istnieje pewna sezonowość w dynamice wyników między różnymi kwartałami. Q4 (październik-grudzień) jest często najsilniejszym kwartałem dla spółek konsumenckich, deweloperskich i mediowych. Inwestorzy oczekują mocnych wyników i wyceniają je z wyprzedzeniem, co może prowadzić do wzrostów kursów przed publikacją. Q1 (styczeń-marzec) bywa najsłabszy dla wielu branż — po intensywnym Q4 sprzedaż spada, koszty stałe pozostają, a nowe budżety dopiero ruszają. Spółki budowlane i deweloperskie zazwyczaj mają słaby Q1 ze względu na warunki pogodowe i niską aktywność rynku. Spółki paliwowe, jak PKN Orlen, mogą wykazywać zmienność wyników ze względu na ceny surowców i marże rafineryjne. Warto śledzić historię sezonowości wyników danej spółki przez kilka lat wstecz — pozwala to lepiej ocenić, czy bieżące wyniki są mocne czy słabe względem typowych wzorców sezonowych, co jest kluczowe dla właściwej interpretacji danych."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Gdzie znajdę sprawozdania finansowe spółek z GPW?",
+      "answer": "Sprawozdania finansowe spółek GPW są dostępne w kilku miejscach: w systemie ESPI na stronie Komisji Nadzoru Finansowego (espi.com.pl), bezpośrednio na stronach relacji inwestorskich poszczególnych spółek, na portalach finansowych takich jak Stockwatch.pl, Biznesradar.pl czy Bankier.pl, a także w platformach brokerskich. Raporty roczne i półroczne są najbardziej szczegółowe i zawierają pełne sprawozdania finansowe z notami objaśniającymi i opinią biegłego rewidenta."
+    },
+    {
+      "question": "Co to jest EBITDA i dlaczego jest ważna?",
+      "answer": "EBITDA (Earnings Before Interest, Taxes, Depreciation and Amortization) to zysk operacyjny przed odliczeniem odsetek, podatków, amortyzacji i deprecjacji. Jest szeroko stosowana w analizie finansowej, gdyż pozwala porównywać spółki z różnych krajów (różne systemy podatkowe) i o różnych strukturach kapitałowych. Wskaźnik EV/EBITDA jest popularną miarą wyceny. Jednak EBITDA ma ograniczenia — ignoruje nakłady inwestycyjne niezbędne do utrzymania działalności, dlatego inwestorzy coraz częściej preferują Free Cash Flow jako miarę rzeczywistej generacji gotówki."
+    },
+    {
+      "question": "Jaka różnica między zyskiem netto a przepływami pieniężnymi?",
+      "answer": "Zysk netto to wartość księgowa obliczana metodą memoriałową — rozpoznaje przychody i koszty w momencie ich zaistnienia, nie w momencie przepływu gotówki. Przepływy pieniężne z działalności operacyjnej pokazują rzeczywistą gotówkę wygenerowaną lub zużytą. Różnice mogą wynikać z amortyzacji (koszt niepieniężny), zmian w kapitale obrotowym (np. wzrost należności — spółka zaksięgowała przychód, ale nie otrzymała gotówki) i innych pozycji niepieniężnych. Spółka może mieć duży zysk netto, ale ujemne przepływy operacyjne i odwrotnie. Wolny przepływ gotówki jest często uważany za lepszy miernik rzeczywistej wartości generowanej przez spółkę."
+    },
+    {
+      "question": "Jak ocenić, czy spółka ma za dużo długu?",
+      "answer": "Ocena zadłużenia wymaga uwzględnienia kontekstu branżowego. Ogólnie stosowanym wskaźnikiem jest dług netto do EBITDA — wartość poniżej 2x jest zazwyczaj bezpieczna, 2-3x to umiarkowane zadłużenie, powyżej 4x może być niepokojące, choć zależy od stabilności przepływów gotówkowych spółki. Wskaźnik pokrycia odsetek (EBIT / koszty odsetkowe) powinien wynosić co najmniej 3x, aby spółka miała komfortowy bufor bezpieczeństwa. Warto też ocenić strukturę zadłużenia: czy dominuje dług długoterminowy o stałym oprocentowaniu (bezpieczniejszy), czy krótkoterminowy wymagający częstego refinansowania."
+    },
+    {
+      "question": "Co to jest consensus analityków i jak go interpretować?",
+      "answer": "Consensus analityków to średnia lub mediana prognoz finansowych (przychodów, zysku, EPS) przygotowanych przez analityków sell-side z domów maklerskich pokrywających daną spółkę. Jest dostępny na platformach takich jak Bloomberg, Refinitiv czy Factset, a w Polsce częściowo na Stockwatch.pl i w serwisach brokerskich. Kurs akcji zazwyczaj odzwierciedla oczekiwania rynku, dlatego wyniki powyżej konsensusu (beat) generują wzrosty, a poniżej (miss) — spadki, nawet gdy bezwzględne wyniki są dobre. Dlatego inwestor powinien znać consensus przed publikacją wyników i oceniać je w kontekście tych oczekiwań, a nie tylko w odniesieniu do poprzednich wyników spółki."
+    }
+  ]
+}

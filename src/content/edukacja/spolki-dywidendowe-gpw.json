@@ -1,0 +1,162 @@
+{
+  "slug": "spolki-dywidendowe-gpw",
+  "title": "Spółki dywidendowe GPW — najlepsze dywidendy w Polsce 2026",
+  "metaTitle": "Najlepsze spółki dywidendowe GPW 2026 — ranking i poradnik | WIGmarkets.pl",
+  "metaDescription": "Ranking najlepszych spółek dywidendowych na GPW: PKN Orlen, PZU, KGHM, Asseco i inne. Jak liczyć stopę dywidendową, DRIP, podatek Belki od dywidend, IKE/IKZE.",
+  "category": "strategia",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-20",
+  "updatedDate": "2026-02-20",
+  "readingTime": 16,
+  "featuredImage": "/images/edukacja/spolki-dywidendowe.webp",
+  "featuredImageAlt": "Wykresy wypłat dywidend i portfel inwestycyjny z rosnącymi dochodami pasywnymi",
+  "tags": ["dywidendy", "GPW", "dochód pasywny", "strategia", "IKE", "IKZE", "Belka"],
+  "relatedSlugs": ["jak-zaczac-inwestowac-na-gpw", "wskaznik-pe", "ile-pieniedzy-zeby-zaczac"],
+  "ctaType": "screener",
+  "ctaText": "Sprawdź aktualne notowania spółek dywidendowych GPW",
+  "ctaLink": "/",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Co to jest dywidenda i jak działa?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dywidenda to część zysku netto spółki, którą zarząd i walne zgromadzenie akcjonariuszy postanawiają wypłacić akcjonariuszom — proporcjonalnie do liczby posiadanych akcji. Jest to jeden z dwóch głównych sposobów, w jakie inwestor może zarabiać na akcjach (obok wzrostu kursu). Jeśli posiadasz 1000 akcji spółki i uchwalona dywidenda wynosi 2 złote na akcję, otrzymasz 2000 złotych brutto (przed potrąceniem podatku). Dywidenda jest zatem realną wypłatą gotówki z firmy na Twoje konto maklerskie. Proces dywidendowy przebiega według ściśle określonego harmonogramu. Najpierw walne zgromadzenie akcjonariuszy (WZA) uchwala podział zysku i określa wysokość dywidendy na akcję. Następnie ustala się dwie kluczowe daty: datę ustalenia prawa do dywidendy (record date) — musisz posiadać akcje w tym dniu, aby mieć prawo do dywidendy — oraz datę wypłaty dywidendy. Ze względu na zasadę rozliczenia T+2 obowiązującą na GPW, aby być akcjonariuszem w dniu ustalenia prawa do dywidendy, musisz kupić akcje co najmniej 2 dni robocze wcześniej (tzw. last day to buy lub ex-dividend date minus jeden dzień). W dniu ex-dividend (dzień po dacie ustalenia prawa) kurs akcji zazwyczaj spada o kwotę dywidendy netto — to naturalna korekta rynkowa odzwierciedlająca fakt, że nowi nabywcy akcji już nie mają prawa do bieżącej dywidendy. Dywidendy na GPW są zazwyczaj wypłacane raz lub dwa razy do roku, choć zdarzają się spółki płacące kwartalnie lub wypłacające dywidendę zaliczkową."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jak obliczyć stopę dywidendową?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stopa dywidendowa (dividend yield) to jeden z najważniejszych wskaźników przy ocenie atrakcyjności inwestycji dywidendowej. Oblicza się ją jako: Stopa dywidendowa = (Dywidenda roczna na akcję / Cena rynkowa akcji) × 100%. Przykład: Spółka PZU wypłaca 4 złote dywidendy rocznie na akcję, a jej cena rynkowa wynosi 50 złotych. Stopa dywidendowa = (4 / 50) × 100% = 8%. To oznacza, że przy zakupie akcji PZU po 50 złotych i utrzymaniu ich przez rok, z tytułu dywidendy zarobisz 8% zainwestowanego kapitału (brutto, przed podatkiem). Stopa dywidendowa jest dynamiczna — zmienia się wraz z ceną akcji. Jeśli kurs akcji wzrośnie do 60 złotych, a dywidenda pozostanie niezmieniona, stopa spada do (4/60) × 100% = 6,7%. Dlatego spadki kursu akcji często oznaczają wzrost stopy dywidendowej — co może być atrakcyjne dla inwestorów dochodowych, ale też sygnałem problemów w spółce (tzw. pułapka dywidendowa). Przy ocenie stopy dywidendowej kluczowe jest sprawdzenie, czy dywidenda jest zrównoważona (sustainable) — czy spółka ma wystarczające zyski i przepływy gotówkowe, aby wypłacać dywidendę bez zadłużania się lub uszczuplania rezerw. Wskaźnik wypłaty dywidendy (dividend payout ratio) = Dywidenda / Zysk netto pokazuje, jaki procent zysku spółka przeznacza na dywidendy. Payout ratio powyżej 100% oznacza, że spółka wypłaca więcej niż zarabia — co jest nie do utrzymania w długim terminie. Bezpieczny poziom payout ratio to zazwyczaj 30-70% — zostawia spółce środki na reinwestycje i bufor bezpieczeństwa."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ranking najlepszych spółek dywidendowych na GPW"
+    },
+    {
+      "type": "interactive",
+      "component": "DividendRanking",
+      "props": {
+        "title": "Ranking spółek dywidendowych GPW 2026",
+        "data": "dividendRanking"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "PKN Orlen — dywidendowy gigant po fuzji"
+    },
+    {
+      "type": "paragraph",
+      "text": "PKN Orlen to największa spółka w Polsce pod względem przychodów i jedna z największych grup energetycznych w Europie Środkowej. Po historycznych fuzjach z Grupą Lotos (2022) i PGNiG (2022), Orlen stał się zintegrowanym gigantem obejmującym rafinację, petrochemię, dystrybucję paliw (stacje Orlen, Bliska, Star), energetykę odnawialną, gaz i media (przejęcie Polska Press). Polityka dywidendowa Orlenu ewoluowała przez lata. Zarząd deklaruje rosnącą dywidendę co roku w ramach długoterminowej strategii — co czyni Orlen jednym z polskich kandydatów do miana 'dywidendowego arystokraty'. W ostatnich latach stopa dywidendowa Orlenu wahała się od 4% do nawet 8-10% w latach szczególnie korzystnych dla sektora rafineryjnego. Warto pamiętać, że wyniki Orlenu są silnie uzależnione od marż rafineryjnych (crack spreads), cen ropy Brent, kursu dolara i złotego oraz politycznych decyzji dotyczących cen paliw. To sprawia, że zyski — a tym samym dywidendy — mogą być zmienne rok do roku. Orlen ma jednak solidny bilans i strategiczne znaczenie dla polskiej energetyki, co ogranicza ryzyko dramatycznego cięcia dywidendy. Inwestorzy dywidendowi powinni traktować Orlen jako składnik dywidendowy z ekspozycją na sektor energetyczny — nie jako instrument defensywny, ale jako spółkę cykliczną z potencjalnie atrakcyjną stopą zwrotu w dobry roku dla sektora paliwowego. Ticker na GPW: PKN."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "PZU — ubezpieczeniowy lider z rekordowymi dywidendami"
+    },
+    {
+      "type": "paragraph",
+      "text": "PZU (Powszechny Zakład Ubezpieczeń) to największa polska firma ubezpieczeniowa i jeden z najregularniej wypłacających dywidendy podmiotów na GPW. PZU prowadzi działalność w ubezpieczeniach majątkowych i komunikacyjnych, ubezpieczeniach na życie, a po przejęciu pakietów w Pekao i Alior Bank — również w bankowości. Polityka dywidendowa PZU jest jedną z najbardziej hojnych na GPW — spółka dąży do wypłacania 50-100% zysku netto w formie dywidendy, co w praktyce oznacza stopy dywidendowe rzędu 6-12% rocznie w sprzyjających warunkach. Rekordowa dywidenda PZU przypadła na rok wypłaty za wyniki 2022 i 2023, kiedy to rosnące stopy procentowe znacząco poprawiły wyniki portfela inwestycyjnego ubezpieczyciela. PZU jest spółką defensywną — ludzie płacą ubezpieczenia niezależnie od koniunktury, co sprawia, że zyski PZU są stosunkowo stabilne w cyklu. Największe ryzyko dla dywidendy PZU to katastrofy naturalne (powodzie, burze) powodujące duże wypłaty odszkodowań, zmiany regulacyjne w sektorze ubezpieczeniowym oraz ogólna sytuacja na rynku finansowym wpływająca na portfel inwestycyjny spółki. Głównym akcjonariuszem PZU jest Skarb Państwa (ok. 35%), co z jednej strony daje pewną stabilność, ale z drugiej — może oznaczać polityczny wpływ na decyzje operacyjne i dywidendowe. Ticker: PZU."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "KGHM — miedź i srebro z hojną dywidendą"
+    },
+    {
+      "type": "paragraph",
+      "text": "KGHM Polska Miedź to jeden z największych na świecie producentów miedzi i srebra — i jeden z najbardziej rozpoznawalnych polskich podmiotów na globalnych rynkach surowcowych. Spółka posiada kopalnie i zakłady przetwórcze w Polsce (Legnica, Głogów, Lubin), Chile (Sierra Gorda) i Kanadzie. Dywidendy KGHM są silnie uzależnione od cen miedzi i srebra na rynkach globalnych. W latach wysokich cen miedzi (2021-2022, gdy cena przekroczyła 10 000 USD za tonę) KGHM osiągał rekordowe zyski i wypłacał hojne dywidendy — stopy dywidendowe sięgały 8-15%. W latach niskich cen surowców dywidenda znacznie się obniżała lub w ogóle nie była wypłacana. To czyni KGHM spółką wybitnie cykliczną i nieodpowiednią jako fundament portfela dywidendowego dla osób szukających stabilnych, przewidywalnych przychodów. KGHM jest jednak świetnym narzędziem do ekspozycji na surowce — szczególnie miedź, której zapotrzebowanie systematycznie rośnie w związku z elektryfikacją gospodarki (kable energetyczne, silniki elektryczne, fotowoltaika). Jako instrument hybrydowy — dywidendowo-surowcowy — KGHM sprawdza się w dywersyfikowanym portfelu, ale nie powinien być jedyną lub dominującą dywidendową pozycją. Ticker: KGH."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Asseco, LPP, Dino — dywidendy z sektorów wzrostowych"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nie każda spółka dywidendowa to powolna, dojrzała firma ze stabilnym, lecz ograniczonym wzrostem. Na GPW istnieje szereg spółek, które łączą regularną wypłatę dywidendy z dynamicznym rozwojem biznesu. Asseco Poland to największa polska firma informatyczna, dostarczająca oprogramowanie i systemy IT dla banków, ubezpieczycieli, administracji publicznej i sektora healthcare w całej Europie. Asseco konsekwentnie od lat wypłaca rosnącą dywidendę — polityka spółki zakłada wypłatę co najmniej 2 złotych dywidendy na akcję rocznie, przy stopie dywidendowej zazwyczaj w przedziale 3-5%. Co ważne, Asseco to spółka IT z niskim ryzykiem cyklicznym — systemy informatyczne dla banków i administracji generują stabilne, długoterminowe przychody abonamentowe. LPP to polska firma modowa (marki Reserved, Cropp, House, Mohito, Sinsay) z ekspansją globalną, handlująca w ponad 40 krajach. LPP przez wiele lat było spółką wzrostową bez dywidendy, ale po osiągnięciu dojrzałości biznesowej zaczęło regularnie wypłacać dywidendy. Stopy dywidendowe LPP są umiarkowane (2-4%), ale spółka oferuje też wzrost kapitałowy. Dino Polska, właściciel sieci supermarketów o tej samej nazwie, przez długi czas nie wypłacało dywidendy — reinwestując cały zysk w ekspansję sieci. Regularność dywidend Dino jest niższa niż Orlenu czy PZU, ale potencjał wzrostu kursu akcji wraz z rozwojem sieci jest istotnym dopełnieniem stopy zwrotu. Ticker Asseco: ACP, LPP: LPP, Dino: DNP."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Podatek od dywidend — 19% podatku Belki"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dywidendy otrzymane przez polskich inwestorów od spółek notowanych na GPW podlegają 19% podatkowi od zysków kapitałowych, potocznie zwanemu podatkiem Belki. Podatek ten jest pobierany u źródła — oznacza to, że broker automatycznie potrąca 19% z wypłaconej dywidendy i przekazuje je do urzędu skarbowego. Inwestor otrzymuje na swój rachunek maklerski kwotę netto (po potrąceniu podatku). Przykład: spółka wypłaca 5 złotych dywidendy na akcję. Podatek: 5 × 19% = 0,95 zł. Inwestor otrzymuje 5 - 0,95 = 4,05 zł netto na akcję. W przypadku dywidend od zagranicznych spółek (np. akcji z NYSE lub Nasdaq) sytuacja jest bardziej skomplikowana — niektóre kraje mają umowy o unikaniu podwójnego opodatkowania z Polską, co może skutkować niższym podatkiem pobranym u źródła zagranicą (np. USA pobiera 15% dla polskich inwestorów zamiast standardowych 30%, dzięki umowie DTAA). Różnicę między zagranicznym podatkiem u źródła a polskim 19% rozliczasz samodzielnie w PIT-38. Najlepszym sposobem na uniknięcie podatku Belki od dywidend jest korzystanie z konta IKE (Indywidualne Konto Emerytalne). Na koncie IKE dywidendy otrzymane od polskich spółek GPW są wolne od podatku Belki — warunek to trzymanie środków na IKE do 60. roku życia. To potężna różnica w długim terminie: przy dywidendzie 5% rocznie i portfelu 200 000 złotych zaoszczędzasz rocznie 1900 złotych podatku (= 200 000 × 5% × 19%)."
+    },
+    {
+      "type": "warning",
+      "text": "Uwaga na pułapkę dywidendową: bardzo wysoka stopa dywidendowa (powyżej 12-15%) może sygnalizować, że rynek spodziewa się cięcia dywidendy lub poważnych problemów w spółce. Zawsze sprawdzaj, czy dywidenda jest zrównoważona (payout ratio, Cash Flow) przed zakupem akcji wyłącznie dla wysokiej stopy dywidendowej."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "DRIP — automatyczne reinwestowanie dywidend"
+    },
+    {
+      "type": "paragraph",
+      "text": "DRIP (Dividend Reinvestment Plan) to strategia automatycznego reinwestowania otrzymanych dywidend w zakup kolejnych akcji tej samej spółki. Zamiast wypłacać dywidendę gotówką na rachunek inwestora, DRIP automatycznie zakupuje za nią nowe akcje — bez prowizji transakcyjnej. W USA DRIP jest powszechnie oferowany przez spółki i brokerów. W Polsce mechanizm jest mniej rozwinięty — polskie domy maklerskie zazwyczaj nie oferują automatycznego DRIP w tak wygodnej formie jak brokerzy amerykańscy, ale inwestor może ręcznie reinwestować otrzymane dywidendy, kupując kolejne akcje tuż po ich wpływie na rachunek. DRIP jest jednym z najsilniejszych narzędzi efektu procenta składanego w długim terminie. Przykład: portfel 100 000 złotych ze stopą dywidendową 5% rocznie. Bez reinwestowania dywidend: po 30 latach przy zakładanym 5% wzroście kursu — portfel rośnie do ok. 430 000 złotych, plus 150 000 złotych dywidend (łącznie ok. 580 000 złotych). Z reinwestowaniem dywidend (DRIP) i zakładanym łącznym zwrotem 10% rocznie (5% wzrost + 5% reinwestowane dywidendy): po 30 latach portfel urośnie do ok. 1 750 000 złotych. To prawie trzykrotna różnica! W Polsce DRIP można zrealizować ręcznie: gdy dywidenda wpłynie na konto, od razu przeznacz ją na zakup kolejnych akcji tej samej lub innej spółki dywidendowej. Automatyzację (zlecenie stałe na reinwestycję) możesz osiągnąć przez zlecenie stałe przelewu z konta maklerskiego na zakup ETF-ów dywidendowych, jeśli Twój broker to oferuje."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Strategia dywidendowa — jak zbudować portfel dywidendowy?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Budowanie portfela dywidendowego to proces wymagający cierpliwości i systematyczności, ale dający długoterminowo jeden z najbardziej satysfakcjonujących efektów — regularny, rosnący dochód pasywny. Oto kluczowe zasady budowania portfela dywidendowego na GPW. Zasada 1: Dywersyfikacja sektorowa. Nie koncentruj dywidend w jednym sektorze — np. nie buduj portfela składającego się wyłącznie z banków. Choć banki często mają wysokie stopy dywidendowe, są one wrażliwe na zmiany stóp procentowych. Rozłóż portfel na banki, ubezpieczycieli, energetykę, IT, handel i przemysł. Zasada 2: Sprawdzaj historię wypłat. Spółka, która wypłacała dywidendę przez ostatnie 10 lat bez przerwy, jest bardziej wiarygodna dywidendowo niż taka, która wypłaciła dywidendę tylko raz. Na GPW do dywidendowych arystokratów (regularnych płatników) należą: PZU, PKO BP, Asseco Poland, mBank, Dino, Budimex. Zasada 3: Analizuj stopień wzrostu dywidendy. Spółka rosnąca dywidendę o 5-10% rocznie jest bardziej wartościowa niż ta z wysoką, ale stagnującą dywidendą — bo rosnąca dywidenda chroni przed inflacją i sygnalizuje zdrowie finansowe firmy. Zasada 4: Patrz na całkowity zwrot. Dywidenda to tylko część zysku z akcji. Spółka z 8% dywidendą, ale kursem spadającym o 10% rocznie, przynosi stratę netto. Szukaj spółek z rosnącymi dywidendami i stabilnym lub rosnącym kursem. Zasada 5: Korzystaj z IKE i IKZE. Reinwestuj dywidendy na koncie IKE, żeby uniknąć podatku Belki — to potężna przewaga w długim terminie."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "IKE i IKZE a dywidendy — jak oszczędzać na podatku?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Konta IKE (Indywidualne Konto Emerytalne) i IKZE (Indywidualne Konto Zabezpieczenia Emerytalnego) maklerskie to jedyne legalne sposoby na uniknięcie lub minimalizację podatku Belki od dywidend w Polsce. Funkcjonują jak zwykłe rachunki maklerskie — możesz na nich kupować i sprzedawać akcje, ETF-y i obligacje dostępne na GPW — ale z preferencjami podatkowymi. Na koncie IKE maklerskim dywidendy od polskich spółek GPW są wypłacane w pełnej wysokości — bez potrącenia podatku Belki, pod warunkiem spełnienia warunków IKE (wypłata po 60. roku życia lub po 55. roku z uprawnieniami emerytalnymi). To oznacza, że jeśli PZU wypłaca 5 złotych dywidendy na akcję, na koncie IKE otrzymujesz pełne 5 złotych zamiast 4,05 złotych (po 19% podatku na zwykłym koncie). Różnica wynosi 95 groszy na akcję, ale przy 1000 akcjach to 950 złotych rocznie zaoszczędzonego podatku — a z efektem procenta składanego przez 20-30 lat to dziesiątki tysięcy złotych. Na koncie IKZE sytuacja jest nieco bardziej skomplikowana — wpłaty odliczasz od PIT w roku wpłaty (ulga podatkowa), ale przy wypłacie po 65. roku życia płacisz 10% podatku ryczałtowego od całości (nie tylko zysku). Dla dywidend na IKZE w trakcie trwania konta sytuacja jest analogiczna jak IKE — brak podatku Belki u źródła. Jeśli masz środki na IKE i IKZE, priorytetowo wypełniaj te limity przed inwestowaniem na zwykłym rachunku maklerskim — szczególnie jeśli realizujesz strategię dywidendową nastawioną na długi termin."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kiedy kupić akcje przed dywidendą — praktyczny poradnik"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jednym z najczęstszych pytań inwestorów dywidendowych jest: 'Kiedy dokładnie muszę kupić akcje, żeby dostać dywidendę?' Odpowiedź wymaga zrozumienia mechanizmu dat dywidendowych na GPW. Kluczowe daty w procesie dywidendowym to: Data walnego zgromadzenia (WZA) — spółka ogłasza decyzję o dywidendzie, jej wysokości oraz datach. Najczęściej odbywa się maj-czerwiec dla spółek rozliczających rok kalendarzowy. Data ustalenia prawa do dywidendy (record date) — musisz być zarejestrowanym akcjonariuszem na koniec tego dnia, aby otrzymać dywidendę. Ze względu na zasadę T+2 (rozliczenie transakcji następuje 2 dni robocze po zawarciu), aby być akcjonariuszem w record date, musisz kupić akcje co najmniej 2 dni robocze wcześniej. Data ex-dividend — pierwszy dzień, w którym kupno akcji NIE daje prawa do bieżącej dywidendy. Jest to dzień roboczy bezpośrednio przed record date. W dniu ex-dividend kurs akcji zazwyczaj spada o kwotę dywidendy netto, odzwierciedlając fakt, że nowi nabywcy nie dostaną dywidendy. Data wypłaty dywidendy — dzień, w którym dywidenda trafia na rachunki maklerskie uprawnionych akcjonariuszy. Zazwyczaj kilka tygodni do 2 miesięcy po record date. Praktyczna zasada: jeśli record date przypada na czwartek 15 maja, musisz kupić akcje najpóźniej we wtorek 13 maja (2 dni robocze wcześniej). Próba kupienia akcji w środę 14 maja lub później oznacza, że mimo posiadania akcji NIE będziesz miał prawa do dywidendy za ten rok, bo rozliczenie nastąpi dopiero w piątek — po record date. Strategia kupowania akcji tuż przed datą ex-dividend i sprzedawania zaraz po to 'łapanie dywidendy' (dividend capturing) — w teorii brzmi atrakcyjnie, ale w praktyce jest trudna do efektywnej realizacji, bo prowizje i podatek często zjadają korzyść."
+    },
+    {
+      "type": "tip",
+      "text": "Daty dywidend dla wszystkich spółek GPW możesz śledzić w kalendarzu dywidend na GPW.pl lub w serwisach jak StockWatch.pl i Bankier.pl. Ustaw powiadomienia dla spółek ze swojego portfela, żeby nie przegapić ważnych dat. Pamiętaj, że spółki mają obowiązek ogłoszenia daty i wysokości dywidendy przez system ESPI przed WZA."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Ile wynosi podatek od dywidend w Polsce?",
+      "answer": "Podatek od dywidend w Polsce wynosi 19% (podatek Belki od zysków kapitałowych). Jest pobierany automatycznie u źródła przez brokera — inwestor otrzymuje kwotę netto (po potrąceniu podatku) na swój rachunek maklerski. Wyjątek: na kontach IKE dywidendy od polskich spółek GPW są wypłacane bez podatku Belki, pod warunkiem trzymania środków do 60. roku życia. Na IKZE podobnie — brak podatku Belki w trakcie trwania konta, ale 10% ryczałt przy wypłacie po 65. roku życia."
+    },
+    {
+      "question": "Kiedy trzeba kupić akcje, żeby dostać dywidendę?",
+      "answer": "Aby dostać dywidendę, musisz posiadać akcje w dniu ustalenia prawa do dywidendy (record date). Ze względu na zasadę rozliczenia T+2 na GPW, akcje musisz kupić co najmniej 2 dni robocze przed record date. Dzień bezpośrednio poprzedzający record date to data ex-dividend — jeśli kupisz akcje w tym dniu lub później, nie dostaniesz dywidendy. Daty dywidend dla wszystkich spółek GPW są dostępne w systemie ESPI i serwisach finansowych."
+    },
+    {
+      "question": "Jakie spółki na GPW płacą najwyższe dywidendy?",
+      "answer": "Historycznie do spółek z najwyższymi stopami dywidendowymi na GPW należą: PZU (6-12%), PKN Orlen (4-10% w zależności od cen ropy), PKO BP (5-9%), KGHM (4-15%, bardzo zmienna), Budimex (5-10%), Asseco Poland (3-5%). Stopy dywidendowe zmieniają się w zależności od wyników spółki i kursu akcji. Zawsze sprawdzaj aktualną stopę dywidendową i historię wypłat przed inwestycją, bo wysoka stopa może sygnalizować problemy w spółce (pułapka dywidendowa)."
+    },
+    {
+      "question": "Co to jest DRIP i czy działa na GPW?",
+      "answer": "DRIP (Dividend Reinvestment Plan) to automatyczne reinwestowanie dywidend w zakup kolejnych akcji spółki, zazwyczaj bez prowizji. W Polsce polskie domy maklerskie nie oferują automatycznego DRIP w takiej formie jak brokerzy amerykańscy. Inwestor może jednak ręcznie reinwestować dywidendy — kupując kolejne akcje tuż po ich wpływie na rachunek. Efekt jest tożsamy z DRIP, choć wymaga ręcznego działania i wiąże się z normalną prowizją transakcyjną. W długim terminie reinwestowanie dywidend ma ogromny wpływ na końcowy wynik portfela dzięki procentowi składanemu."
+    },
+    {
+      "question": "Czy warto inwestować w spółki dywidendowe na IKE?",
+      "answer": "Tak — konto IKE maklerskie jest idealnym narzędziem do strategii dywidendowej. Dywidendy na IKE są wypłacane bez 19% podatku Belki, co przy reinwestowaniu dywidend daje potężny efekt procenta składanego w długim terminie. Przy portfelu 200 000 złotych i stopie dywidendowej 5% rocznie oszczędzasz 1900 złotych podatku rocznie (19% z 10 000 zł dywidend). Przez 20-30 lat reinwestowania to dziesiątki lub setki tysięcy złotych różnicy w końcowej wartości portfela. Każdy inwestor dywidendowy powinien w pierwszej kolejności wypełnić limit IKE, zanim zainwestuje na zwykłym rachunku maklerskim."
+    }
+  ]
+}

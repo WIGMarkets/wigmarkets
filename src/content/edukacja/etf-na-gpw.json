@@ -1,0 +1,128 @@
+{
+  "slug": "etf-na-gpw",
+  "title": "ETF na GPW — co warto wiedzieć w 2026",
+  "metaTitle": "ETF na GPW — jak inwestować w fundusze ETF w Polsce 2026 | WIGmarkets.pl",
+  "metaDescription": "Dowiedz się czym są ETF-y, jakie ETF-y są dostępne na GPW, jak działają i dlaczego warto je uwzględnić w portfelu. Kompletny poradnik 2026.",
+  "category": "podstawy",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-10",
+  "updatedDate": "2026-02-20",
+  "readingTime": 12,
+  "featuredImage": "/images/edukacja/etf-na-gpw.webp",
+  "featuredImageAlt": "ETF fundusze indeksowe GPW",
+  "tags": [
+    "ETF",
+    "fundusz indeksowy",
+    "GPW",
+    "pasywne inwestowanie",
+    "WIG20",
+    "S&P500"
+  ],
+  "relatedSlugs": [
+    "jak-zaczac-inwestowac-na-gpw",
+    "wig20-mwig40-swig80",
+    "najlepsze-konto-maklerskie"
+  ],
+  "ctaType": "screener",
+  "ctaText": "Sprawdź notowania ETF-ów na GPW",
+  "ctaLink": "/",
+  "sections": [
+    {
+      "type": "paragraph",
+      "text": "ETF (Exchange-Traded Fund) to fundusz inwestycyjny notowany na giełdzie, który naśladuje zachowanie określonego indeksu, sektora lub klasy aktywów. ETF-y łączą zalety akcji (możliwość kupna i sprzedaży w czasie sesji, pełna przejrzystość) z zaletami funduszy inwestycyjnych (dywersyfikacja, niskie koszty). W Stanach Zjednoczonych i Europie Zachodniej ETF-y są niezwykle popularne — w Polsce rynek ETF dopiero dojrzewa, ale oferta dostępna na GPW stale rośnie i pozwala polskim inwestorom tanio zdywersyfikować portfel zarówno na rynku krajowym, jak i globalnym."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Czym różni się ETF od zwykłego funduszu inwestycyjnego?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Klasyczny fundusz inwestycyjny (FIO, SFIO) jest zarządzany aktywnie przez analityków, którzy sami dobierają akcje do portfela w nadziei na pobicie rynku. Za tę pracę pobierają opłatę zarządzania — w Polsce zazwyczaj 1,5–3,5% rocznie od wartości aktywów. ETF natomiast pasywnie odwzorowuje indeks — automatycznie kupuje akcje wchodzące w skład WIG20, S&P 500 czy Nasdaq-100 w proporcjach wynikających ze składu indeksu. Nie ma tu kosztownego zarządu analityków. Opłata zarządzania ETF (TER — Total Expense Ratio) wynosi zazwyczaj 0,05–0,55% rocznie. To kolosalna różnica na przestrzeni 20–30 lat inwestowania. Badania akademickie (Fama, French, Sharpe) wielokrotnie wykazały, że aktywnie zarządzane fundusze przez długi czas nie biją rynku — co sprawia, że pasywne ETF-y są dla większości inwestorów lepszym wyborem."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ETF-y dostępne na GPW w 2026"
+    },
+    {
+      "type": "interactive",
+      "component": "ComparisonTable",
+      "props": {
+        "title": "ETF-y dostępne na GPW w 2026",
+        "data": "etfComparison"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Beta ETF — polskie ETF-y na GPW"
+    },
+    {
+      "type": "paragraph",
+      "text": "AgioFunds TFI oferuje rodzinę funduszy Beta ETF dostępnych na GPW. Są to: Beta ETF WIG20TR (naśladuje indeks WIG20 TR — Total Return, czyli z reinwestowanymi dywidendami), Beta ETF mWIG40TR (indeks mWIG40 z dywidendami) oraz ekspozycja na zagraniczne indeksy jak S&P 500 i Nasdaq-100 w PLN. TER wynosi 0,50–0,55%, co jest wyższe niż w przypadku ETF-ów notowanych na Xetrze czy Euronext, ale dla polskiego inwestora kupującego na GPW eliminuje ryzyko walutowe przy zakupie (rozliczenie w PLN). Płynność Beta ETF-ów jest ograniczona w porównaniu do zagranicznych odpowiedników, ale dla inwestora długoterminowego nie stanowi problemu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zagraniczne ETF-y dostępne przez polskich brokerów"
+    },
+    {
+      "type": "paragraph",
+      "text": "Przez polskie domy maklerskie (XTB, DM BOŚ, mBank) możesz kupić tysiące ETF-ów notowanych na europejskich giełdach: Xetra (Frankfurt), Euronext Amsterdam, London Stock Exchange. Najpopularniejsze ETF-y dla polskich inwestorów to: iShares Core MSCI World UCITS ETF (ticker IWDA na LSE lub SWDA na Xetrze) — TER 0,20%, globalnie zdywersyfikowany; Vanguard FTSE All-World UCITS ETF (VWRL) — jeszcze szersza dywersyfikacja; iShares Core S&P 500 UCITS ETF — ekspozycja na USA, TER 0,07%. Zakup zagranicznych ETF-ów wiąże się z ryzykiem walutowym (zakup w EUR lub USD) oraz koniecznością wypełnienia formularzy podatkowych dla dywidend zagranicznych."
+    },
+    {
+      "type": "tip",
+      "text": "ETF-y z dopiskiem 'Acc' (Accumulating) automatycznie reinwestują dywidendy — nie wypłacają ich. ETF-y 'Dist' (Distributing) wypłacają dywidendy. Na IKE lepiej trzymać ETF-y Acc, bo dywidendy i tak są chronione przed podatkiem."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Replikacja fizyczna vs syntetyczna"
+    },
+    {
+      "type": "paragraph",
+      "text": "ETF-y mogą śledzić indeks na dwa sposoby. Replikacja fizyczna oznacza, że fundusz faktycznie kupuje akcje wchodzące w skład indeksu. To bezpieczniejsze rozwiązanie — nie ma dodatkowego ryzyka kontrahenta. Replikacja syntetyczna polega na użyciu instrumentów pochodnych (swap z bankiem inwestycyjnym) do odwzorowania zwrotu z indeksu. Jest tańsza w utrzymaniu, ale niesie ryzyko niewypłacalności kontrahenta (ograniczone przepisami UCITS do 10% aktywów). Większość renomowanych ETF-ów (iShares, Vanguard, SPDR) stosuje replikację fizyczną."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ETF vs. akcje pojedynczych spółek — kiedy co wybrać?"
+    },
+    {
+      "type": "paragraph",
+      "text": "ETF-y są idealnym wyborem dla inwestorów, którzy: nie mają czasu na analizę indywidualnych spółek, chcą prostą, niskokoszową dywersyfikację, wierzą w hipotezę rynku efektywnego (że aktywna selekcja nie bije długoterminowo rynku), inwestują regularnie małe kwoty (DCA). Akcje pojedynczych spółek mają sens, gdy: masz czas i umiejętności do analizy fundamentalnej, chcesz inwestować w konkretne spółki, które uważasz za przewartościowane przez rynek, zależy Ci na dywidendach z konkretnych polskich spółek na IKE. Wielu doświadczonych inwestorów łączy oba podejścia: rdzeń portfela stanowią ETF-y na szerokie indeksy, a mniejszą część — starannie wyselekcjonowane akcje."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jak kupić ETF na GPW?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kupno ETF przez polskie konto maklerskie jest identyczne jak kupno akcji. Otwierasz platformę brokera, wyszukujesz ticker ETF-a (np. BETAW20TR dla Beta ETF WIG20TR), określasz liczbę jednostek i składasz zlecenie. Rozliczenie następuje T+2. Prowizja jest taka sama jak dla akcji — zazwyczaj 0,19–0,20% na GPW (min. 3–5 zł). ETF-y zagraniczne przez polskich brokerów mają wyższe prowizje (0,29–0,35% z minimum 15–19 zł). Pamiętaj, że przy zakupie ETF-ów zagranicznych denominowanych w EUR, Twój broker automatycznie przelicza PLN na EUR po aktualnym kursie (z marżą). Spread walutowy to dodatkowy ukryty koszt."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czy ETF-y są bezpieczniejsze niż akcje?",
+      "answer": "ETF-y są zdywersyfikowane — trzymają dziesiątki lub setki spółek, więc upadek jednej firmy nie niszczy całego portfela. To bezpieczniejsze niż inwestowanie w pojedyncze akcje. Jednak całe ETF-y mogą tracić wartość — jeśli indeks spada, ETF też spada. Nie ma inwestycji bez ryzyka."
+    },
+    {
+      "question": "Jaki ETF na GPW jest najlepszy dla początkującego?",
+      "answer": "Dla polskiego początkoującego inwestora dobry start to Beta ETF WIG20TR (ekspozycja na największe polskie spółki) i ETF na MSCI World lub S&P 500 (globalna dywersyfikacja). Łącząc oba, masz zdywersyfikowany portfel krajowy i globalny."
+    },
+    {
+      "question": "Czy ETF-y wypłacają dywidendę?",
+      "answer": "Zależy od typu ETF. ETF-y 'Distributing' (Dist) regularnie wypłacają dywidendy, które zebrały od spółek w portfelu. ETF-y 'Accumulating' (Acc) reinwestują dywidendy automatycznie — kurs ETF rośnie, zamiast wypłaty gotówki. Na długi termin ETF-y Acc są bardziej efektywne podatkowo (zwłaszcza poza IKE)."
+    },
+    {
+      "question": "Ile kosztuje inwestowanie w ETF-y?",
+      "answer": "TER (Total Expense Ratio) to roczna opłata za zarządzanie ETF-em, odliczana automatycznie z jego aktywów. Najlepsze globalne ETF-y (Vanguard, iShares) mają TER 0,07–0,20%. Beta ETF-y na GPW mają TER 0,50–0,55%. Do tego dochodzi prowizja brokerska przy kupnie/sprzedaży."
+    },
+    {
+      "question": "Czy mogę trzymać ETF-y na IKE?",
+      "answer": "Tak, większość brokerów (DM BOŚ, mBank, CDM Pekao) oferuje IKE maklerskie, na którym możesz trzymać ETF-y notowane na GPW. To idealne połączenie — ETF-y Acc na IKE nie płacą podatku od reinwestowanych dywidend, a po 60. roku życia całość jest zwolniona z podatku."
+    }
+  ]
+}

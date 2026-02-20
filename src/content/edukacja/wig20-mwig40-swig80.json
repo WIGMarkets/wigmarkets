@@ -1,0 +1,176 @@
+{
+  "slug": "wig20-mwig40-swig80",
+  "title": "WIG20 vs mWIG40 vs sWIG80 — czym się różnią indeksy",
+  "metaTitle": "WIG20, mWIG40, sWIG80 — różnice i jak inwestować | WIGmarkets.pl",
+  "metaDescription": "Wyjaśniamy czym różnią się indeksy WIG20, mWIG40 i sWIG80. Które spółki wchodzą w skład, jak są ważone i jak w nie inwestować przez ETF.",
+  "category": "podstawy",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-20",
+  "updatedDate": "2026-02-20",
+  "readingTime": 10,
+  "featuredImage": "/images/edukacja/wig20-mwig40-swig80.webp",
+  "featuredImageAlt": "Indeksy GPW — WIG20, mWIG40 i sWIG80",
+  "tags": [
+    "WIG20",
+    "mWIG40",
+    "sWIG80",
+    "GPW",
+    "indeksy giełdowe",
+    "ETF",
+    "inwestowanie"
+  ],
+  "relatedSlugs": [
+    "etf-na-gpw",
+    "co-to-jest-gpw",
+    "analiza-techniczna-podstawy"
+  ],
+  "ctaType": "screener",
+  "ctaText": "Sprawdź skład i notowania indeksów GPW",
+  "ctaLink": "/",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Historia indeksów giełdowych GPW"
+    },
+    {
+      "type": "paragraph",
+      "text": "Giełda Papierów Wartościowych w Warszawie (GPW) uruchomiła swoją działalność w 1991 roku po transformacji ustrojowej Polski. Pierwszym indeksem był WIG (Warszawski Indeks Giełdowy), który zaczął być obliczany od 16 kwietnia 1991 roku z bazą 1000 punktów. WIG jest najstarszym i najszerszym polskim indeksem giełdowym — obejmuje wszystkie spółki krajowe notowane na Głównym Rynku GPW spełniające minimalne kryteria płynności. W miarę jak polska giełda rosła i dojrzewała, pojawiła się potrzeba stworzenia indeksów segmentowych, które lepiej odzwierciedlałyby zachowanie różnych segmentów rynku. WIG20 pojawił się w 1994 roku, grupując 20 największych i najbardziej płynnych spółek. W 1997 roku uruchomiono MIDWIG (poprzednik mWIG40), a w 2004 roku zastąpiono go mWIG40. Indeks sWIG80 zadebiutował w 2007 roku, zastępując WIRR. Dziś polska giełda dysponuje bogatym ekosystemem indeksów, w tym branżowymi (WIG-Banki, WIG-Energia, WIG-Nieruchomości), indeksem dywidendowym WIGdiv oraz indeksami ESG i technologicznymi."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "WIG — szeroki indeks polskiego rynku"
+    },
+    {
+      "type": "paragraph",
+      "text": "WIG (Warszawski Indeks Giełdowy) to główny indeks cenowo-dochodowy GPW — uwzględnia zarówno zmiany cen akcji, jak i dochody z dywidend, prawa poboru i inne dochody. Obejmuje wszystkie polskie spółki notowane na Rynku Głównym GPW, które spełniają warunki uczestnictwa dotyczące minimalnej kapitalizacji i płynności. Liczba spółek w WIG wynosi ponad 300 i zmienia się w zależności od wejść i wyjść z giełdy. WIG jest indeksem ważonym kapitalizacją wolną (free-float), co oznacza, że pod uwagę brana jest tylko ta część akcji, która realnie jest w obrocie, a nie całkowita liczba akcji — blokady strategiczne czy akcje w rękach Skarbu Państwa są wykluczone. WIG służy głównie jako benchmark dla szerokiego rynku i jest bazą dla wielu statystyk dotyczących polskiej giełdy. Z uwagi na swoją szerokość i niską płynność wielu składników, WIG jest rzadziej stosowany jako benchmark przez instytucje inwestycyjne niż WIG20 lub mWIG40. Inwestorzy indywidualni często posługują się WIG jako ogólnym wskaźnikiem koniunktury na polskiej giełdzie."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "WIG20 — indeks blue chipów GPW"
+    },
+    {
+      "type": "paragraph",
+      "text": "WIG20 to flagowy indeks GPW, skupiający 20 największych i najbardziej płynnych spółek notowanych na Rynku Głównym. Jest indeksem cenowym (nie uwzględnia dywidend) i ważonym kapitalizacją z korektą o free-float. Wprowadzono limit wagowy — żadna spółka nie może stanowić więcej niż 15% indeksu, co zapobiega dominacji jednego podmiotu. W skład WIG20 wchodzą polskie blue chipy: PKO BP (największy bank w Polsce), PKN Orlen (jeden z największych koncernów paliwowych w regionie CEE), Allegro (największa platforma e-commerce w Polsce), KGHM (globalny producent miedzi i srebra), PZU (największa firma ubezpieczeniowa w Polsce), Pekao (drugi co do wielkości bank w Polsce), Dino Polska (dynamicznie rosnąca sieć supermarketów), mBank, LPP, CD Projekt, Cyfrowy Polsat i inne. WIG20 jest najpopularniejszym benchmarkiem dla instytucji inwestycyjnych i jest śledzony przez Beta ETF WIG20TR oraz kontrakty futures WIG20 notowane na GPW. Wysoka płynność i przejrzystość składu sprawiają, że WIG20 jest preferowanym indeksem dla aktywnych inwestorów i funduszy instytucjonalnych."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "PKO BP — największy bank w Polsce, dominujący udział w rynku",
+        "PKN Orlen — koncern paliwowy, po fuzji z Lotosem i PGNiG jeden z największych w CEE",
+        "Allegro — lider e-commerce w Polsce i Europie Środkowej",
+        "KGHM — globalny producent miedzi i srebra, aktywa na 4 kontynentach",
+        "PZU — największa firma ubezpieczeniowa w Polsce",
+        "Pekao — drugi co do wielkości bank w Polsce",
+        "Dino Polska — jedna z najszybciej rosnących sieci handlowych w Polsce",
+        "CD Projekt — twórca The Witcher i Cyberpunk 2077, globalny deweloper gier",
+        "LPP — właściciel marek odzieżowych Reserved, Cropp, House, Mohito",
+        "mBank — innowacyjny bank cyfrowy, spółka zależna Commerzbanku"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "mWIG40 — indeks spółek średnich"
+    },
+    {
+      "type": "paragraph",
+      "text": "mWIG40 (medium WIG40) obejmuje 40 spółek o średniej kapitalizacji, które pod względem płynności i kapitalizacji plasują się bezpośrednio po spółkach z WIG20. Indeks ten jest indeksem dochodowym — uwzględnia dywidendy i prawa do akcji, w przeciwieństwie do WIG20, który jest indeksem cenowym. mWIG40 zawiera spółki z wielu branż: bankowość i finanse (np. Alior Bank, Handlowy, ING Bank Śląski), retail i konsumpcja, producenci przemysłowi, deweloperzy nieruchomości, spółki energetyczne i mediowe. Indeks ten jest często uważany za potencjalnie bardziej atrakcyjny inwestycyjnie niż WIG20, gdyż spółki średnie mają zazwyczaj większy potencjał wzrostu niż giganci z WIG20, przy jednoczesnej lepszej płynności niż małe spółki z sWIG80. Historycznie mWIG40 miał okresy znacznie lepszych stóp zwrotu niż WIG20, ale też okresy gorszych wyników. Możliwość bezpośredniego inwestowania w mWIG40 przez ETF (Beta ETF mWIG40TR) jest dostępna od kilku lat i przyciąga rosnące zainteresowanie inwestorów szukających ekspozycji na polskie spółki wzrostowe średniej wielkości."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "sWIG80 — indeks małych spółek"
+    },
+    {
+      "type": "paragraph",
+      "text": "sWIG80 (small WIG80) obejmuje 80 spółek o małej kapitalizacji, które w rankingu płynności i wielkości plasują się po spółkach z WIG20 i mWIG40. Jest to segment rynku o największym potencjale wzrostu, ale też największym ryzyku — małe spółki są bardziej podatne na kryzysy gospodarcze, mają mniejsze możliwości finansowe i są mniej dywersyfikowane. Wiele spółek z sWIG80 to liderzy w niszowych segmentach rynku, dynamicznie rozwijające się firmy rodzinne lub spółki, które jeszcze nie urosły do poziomu mWIG40. Niska płynność wielu składników sWIG80 sprawia, że ceny mogą być bardziej podatne na manipulację i gwałtowne wahania — szeroki spread bid-ask to norma, a duże zlecenia mogą znacząco wpłynąć na kurs. Analiza techniczna jest mniej wiarygodna dla spółek z sWIG80 ze względu na małe wolumeny. Z drugiej strony, wielu doświadczonych inwestorów indywidualnych specjalizuje się właśnie w tym segmencie, szukając perełek, które mogą wielokrotnie wzrosnąć w ciągu kilku lat — to segment, gdzie staranny stock-picking może przynieść ponadprzeciętne zyski niedostępne dla dużych instytucji."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Metodologia ważenia indeksów GPW"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wszystkie główne indeksy GPW (WIG, WIG20, mWIG40, sWIG80) są ważone kapitalizacją z korektą o free-float (liczbę akcji dostępnych w wolnym obrocie). Free-float wyklucza akcje posiadane przez strategicznych akcjonariuszy (np. Skarb Państwa, dominujący akcjonariusz z ponad 5% udziałem), gdyż te akcje nie trafiają realnie na rynek. Korekta o free-float sprawia, że indeks lepiej odzwierciedla rzeczywistą możliwość inwestowania — kupując ETF śledzący WIG20, faktycznie możesz kupić akcje w proporcji zbliżonej do wag indeksu. Dla WIG20 zastosowano dodatkowo limit 15% dla pojedynczej spółki — gdy waga PKN Orlen lub PKO BP zbliżałaby się do 20-25% (co jest możliwe przy ich kapitalizacji), ich waga jest obcinana do 15%, a nadwyżka jest rozdzielana proporcjonalnie między pozostałe spółki. Wagi indeksów są przeliczane przy każdej sesji, a pełne przeglądy składu przeprowadzane są dwa razy w roku (marzec i wrzesień), gdy mogą nastąpić zmiany w składzie poszczególnych indeksów."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rewizje składu indeksów — marzec i wrzesień"
+    },
+    {
+      "type": "paragraph",
+      "text": "Skład indeksów GPW jest rewidowany dwa razy w roku — w marcu i wrześniu. Podczas rewizji zarząd GPW ocenia wszystkie spółki pod kątem kryteriów wejścia do poszczególnych indeksów: kapitalizacji free-float, wartości obrotów, liczby dni sesyjnych z transakcjami i innych parametrów płynności. Spółki, które spełniają kryteria wyższego indeksu, mogą zostać awansowane: ze sWIG80 do mWIG40, a z mWIG40 do WIG20. Analogicznie, spółki, które nie spełniają już kryteriów, mogą zostać zdegradowane do niższego indeksu. Awans do WIG20 to prestiżowe wydarzenie dla spółki i często wiąże się z wzrostem zainteresowania inwestorów instytucjonalnych (m.in. ze względu na zakup przez ETF-y śledzące WIG20). Degradacja z WIG20 może natomiast wywołać presję sprzedażową, gdyż fundusze indeksowe muszą sprzedać akcje usuniętej spółki. Inwestorzy śledzący spółki bliskie progu awansu lub degradacji mogą próbować antycypować te ruchy i zarabiać na wynikających z nich zmianach cen — jest to tzw. strategia 'index rebalancing'."
+    },
+    {
+      "type": "tip",
+      "text": "Warto śledzić harmonogram rewizji indeksów GPW (zazwyczaj ogłaszany z kilkutygodniowym wyprzedzeniem przez GPW). Spółki, które wejdą do WIG20 lub mWIG40, często zwyżkują przed datą oficjalnego włączenia, gdyż ETF-y muszą je kupić. Podobnie, spółki wypadające z indeksu mogą odczuwać presję sprzedażową."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Indeksy sektorowe GPW"
+    },
+    {
+      "type": "paragraph",
+      "text": "Poza głównymi indeksami segmentowymi, GPW oblicza też liczne indeksy sektorowe, które pozwalają śledzić zachowanie wybranych branż. Najważniejsze z nich to: WIG-Banki (skupiający banki notowane na GPW, jeden z największych sektorów polskiej giełdy), WIG-Energia (spółki energetyczne, w tym PGE, Tauron, Enea, Energa), WIG-Nieruchomości (deweloperzy mieszkaniowi i komercyjni), WIG-Spożywczy (producenci żywności), WIG-Telekomunikacja, WIG-Media, WIG-Technologia i kilkanaście innych. Indeksy sektorowe są przydatne dla inwestorów chcących ocenić siłę lub słabość poszczególnych branż w porównaniu z szerokim rynkiem — analiza rotacji sektorowej to zaawansowana technika zarządzania portfelem stosowana przez instytucje. Warto też wspomnieć o indeksie WIGdiv, który skupia spółki o regularnej polityce dywidendowej i może być interesujący dla inwestorów poszukujących dochodu pasywnego z polskich akcji. Indeks WIG-ESG jest z kolei skierowany do inwestorów zwracających uwagę na aspekty środowiskowe, społeczne i ładu korporacyjnego."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Historyczne stopy zwrotu indeksów GPW"
+    },
+    {
+      "type": "paragraph",
+      "text": "Analiza historycznych stóp zwrotu polskich indeksów dostarcza wielu cennych wniosków dla inwestorów. W długim horyzoncie (20+ lat) WIG wykazał znaczący wzrost od poziomu 1000 punktów w 1991 roku do ponad kilkudziesięciu tysięcy punktów, odzwierciedlając dynamiczny rozwój polskiej gospodarki po transformacji. Jednak droga do tych zysk nie była prosta — polska giełda przeszła przez kilka poważnych krachów: kryzys rosyjski 1998, pęknięcie bańki dot-com 2000-2002, globalny kryzys finansowy 2008-2009, pandemia COVID-19 w 2020 roku. Każdy z tych krachów przyniósł spadki o 50-75% od szczytów, ale indeks każdorazowo odrabiał straty. Interesującym zjawiskiem jest relatywna słabość WIG20 w porównaniu z mWIG40 i sWIG80 w długim terminie — duże spółki z WIG20, często z udziałem Skarbu Państwa, rosły wolniej niż małe i średnie spółki prywatne. mWIG40 historycznie osiągał wyższe stopy zwrotu niż WIG20 w horyzoncie dekady, choć przy wyższej zmienności. sWIG80 miał okresy spektakularnych wzrostów (np. 2004-2007) i głębokich korekt. Dywersyfikacja między indeksami może pomóc w optymalizacji relacji zysk/ryzyko portfela."
+    },
+    {
+      "type": "interactive",
+      "component": "StockTableWidget",
+      "props": {
+        "title": "Największe spółki w WIG20",
+        "data": "wig20"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jak inwestować w indeksy GPW przez ETF?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najłatwiejszym sposobem na inwestowanie w indeksy GPW dla inwestora indywidualnego jest zakup ETF-ów śledzących te indeksy. Beta ETF WIG20TR śledzi WIG20 Total Return (czyli WIG20 plus dywidendy ze spółek), a Beta ETF mWIG40TR — mWIG40 Total Return. Kupując te ETF-y przez standardowy rachunek maklerski lub rachunek IKE/IKZE, inwestujesz w cały indeks za cenę jednej jednostki (kilkadziesiąt złotych). Alternatywą dla zaawansowanych inwestorów są kontrakty futures na WIG20 notowane na GPW, ale wymagają wyższego kapitału, znajomości dźwigni finansowej i wiążą się z wyższym ryzykiem. Fundusze parasolowe TFI oferujące subfundusze indeksowe to kolejna opcja, jednak zazwyczaj z wyższymi kosztami niż ETF-y. Dla inwestorów sWIG80 brak jest dedykowanego ETF-u na polskim rynku, co oznacza, że ekspozycja na ten segment wymaga bezpośredniego zakupu akcji lub inwestowania przez aktywny fundusz TFI specjalizujący się w małych spółkach. Wielu doświadczonych inwestorów łączy pasywne ETF-y na WIG20 i mWIG40 z aktywnym stock-pickingiem w segmencie sWIG80, próbując osiągnąć lepsze wyniki niż sam rynek."
+    },
+    {
+      "type": "info",
+      "text": "GPW regularnie publikuje skład i wagi indeksów na swojej stronie internetowej (gpw.pl/indeksy). Rewizje składu ogłaszane są z kilkutygodniowym wyprzedzeniem, zazwyczaj w marcu i wrześniu każdego roku. Warto śledzić te ogłoszenia, gdyż wejście spółki do indeksu często wiąże się z zakupami przez fundusze indeksowe."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Ile spółek wchodzi w skład WIG20, mWIG40 i sWIG80?",
+      "answer": "WIG20 skupia 20 największych i najbardziej płynnych spółek na GPW. mWIG40 obejmuje kolejne 40 spółek (pozycje 21-60 w rankingu). sWIG80 zawiera następne 80 spółek (pozycje 61-140). Łącznie indeksy te obejmują 140 spółek. Do tych indeksów wlicza się tylko polskie spółki krajowe — zagraniczne spółki notowane na GPW są wykluczone. Skład jest rewidowany dwa razy w roku, w marcu i wrześniu."
+    },
+    {
+      "question": "Czy WIG20 uwzględnia dywidendy?",
+      "answer": "Standardowy indeks WIG20 jest indeksem cenowym i nie uwzględnia dywidend — mierzy tylko zmiany cen akcji. Jednak GPW oblicza też WIG20 Total Return (WIG20TR), który uwzględnia dywidendy i prawa do akcji. Beta ETF WIG20TR śledzi właśnie ten indeks dochodowy, co jest korzystniejsze dla inwestorów długoterminowych. Warto zwrócić na to uwagę przy porównywaniu wyników WIG20 z wynikami ETF-u — nominalny WIG20 może wyglądać na niższy od wartości ETF właśnie dlatego, że ETF reinwestuje dywidendy."
+    },
+    {
+      "question": "Która spółka ma największy udział w WIG20?",
+      "answer": "Wagi spółek w WIG20 zmieniają się wraz z cenami akcji i są przeliczane przy każdej sesji. Historycznie największe wagi w WIG20 miały: PKO BP (największy bank w Polsce, często 10-15% indeksu), PKN Orlen (koncern paliwowo-energetyczny, 10-15%), Allegro (platforma e-commerce, 8-12%) i KGHM (producent miedzi, 5-8%). Żadna spółka nie może przekroczyć 15% indeksu — gdy jej waga zbliża się do tego limitu, jest ona obcinana podczas rewizji. Aktualne wagi są dostępne na stronie gpw.pl."
+    },
+    {
+      "question": "Jak często zmienia się skład WIG20?",
+      "answer": "Skład WIG20 jest formalnie rewidowany dwa razy w roku — po sesji w marcu i wrześniu. GPW ogłasza zmiany z kilkutygodniowym wyprzedzeniem, zazwyczaj na kilka tygodni przed datą obowiązywania nowego składu. W szczególnych przypadkach (np. wycofanie spółki z obrotu, zawieszenie notowań, bankructwo) mogą nastąpić doraźne zmiany poza standardowym harmonogramem rewizji. W ciągu roku zazwyczaj 1-3 spółki wchodzą lub wychodzą z WIG20."
+    },
+    {
+      "question": "Dlaczego WIG20 rośnie wolniej niż S&P 500?",
+      "answer": "WIG20 historycznie rósł wolniej niż S&P 500 z kilku powodów: polska gospodarka, choć dynamiczna, jest mniejsza i mniej odporna na globalne turbulencje; duży udział Skarbu Państwa w wielu spółkach z WIG20 (PKO BP, PKN Orlen, PZU, PGE) ogranicza ich efektywność i wzrost wartości dla akcjonariuszy; brak w WIG20 globalnych liderów technologicznych (jak Apple, Microsoft, Nvidia w S&P 500); S&P 500 jest indeksem dochodowym i uwzględnia dywidendy. Jednak po uwzględnieniu różnic walutowych (umocnienie złotego) i dywidend, wyniki WIG20TR nie są dramatycznie gorsze od S&P 500 w niektórych okresach. Dywersyfikacja geograficzna portfela przez kombinację ETF-ów na GPW i rynki zagraniczne jest rozsądną strategią."
+    }
+  ]
+}
