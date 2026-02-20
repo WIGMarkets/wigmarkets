@@ -18,6 +18,7 @@ import ProfitCalculatorModal from "./components/ProfitCalculatorModal.jsx";
 import StockModal from "./components/StockModal.jsx";
 import StockLogo from "./components/StockLogo.jsx";
 import CompanyMonogram from "./components/CompanyMonogram.jsx";
+import MarketOverviewCards from "./components/MarketOverviewCards.jsx";
 import StockPage from "./components/StockPage.jsx";
 import FearGreedPage from "./components/FearGreedPage.jsx";
 import NewsPage from "./components/NewsPage.jsx";
@@ -524,56 +525,19 @@ export default function WigMarkets() {
       {/* Marquee ticker */}
       <MarqueeTicker stocks={[...liveStocks, ...COMMODITIES, ...FOREX]} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
 
-      {/* Market Overview */}
+      {/* Market Overview Dashboard */}
       <div style={{ maxWidth: 1400, margin: "0 auto", padding: isMobile ? "10px 12px 0" : "16px 24px 0" }}>
-        <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 12, display: "flex", overflowX: "auto", WebkitOverflowScrolling: "touch", scrollbarWidth: "none", msOverflowStyle: "none" }}>
-
-          {/* Top wzrost */}
-          {topGainers[0] && (
-            <div onClick={() => navigateToStock(topGainers[0])} style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: isMobile ? "10px 14px" : "12px 20px", cursor: "pointer", flexShrink: 0 }}
-              onMouseEnter={e => e.currentTarget.style.background = theme.bgCardAlt}
-              onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
-              <div style={{ fontSize: 9, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: "0.06em", fontWeight: 600, marginBottom: 3, fontFamily: "var(--font-ui)" }}>Top wzrost</div>
-              <div style={{ fontSize: 14, fontWeight: 700, color: theme.textBright, fontFamily: "var(--font-ui)" }}>{topGainers[0].ticker}</div>
-              <div style={{ fontSize: 12, fontWeight: 600, color: "#22c55e", fontFamily: "var(--font-mono)" }}>{changeFmt(changes[topGainers[0].ticker]?.change24h ?? 0)}</div>
-            </div>
-          )}
-
-          <div style={{ width: 1, background: theme.border, margin: "8px 0", flexShrink: 0 }} />
-
-          {/* Top spadek */}
-          {topLosers[0] && (
-            <div onClick={() => navigateToStock(topLosers[0])} style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: isMobile ? "10px 14px" : "12px 20px", cursor: "pointer", flexShrink: 0 }}
-              onMouseEnter={e => e.currentTarget.style.background = theme.bgCardAlt}
-              onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
-              <div style={{ fontSize: 9, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: "0.06em", fontWeight: 600, marginBottom: 3, fontFamily: "var(--font-ui)" }}>Top spadek</div>
-              <div style={{ fontSize: 14, fontWeight: 700, color: theme.textBright, fontFamily: "var(--font-ui)" }}>{topLosers[0].ticker}</div>
-              <div style={{ fontSize: 12, fontWeight: 600, color: "#ef4444", fontFamily: "var(--font-mono)" }}>{changeFmt(changes[topLosers[0].ticker]?.change24h ?? 0)}</div>
-            </div>
-          )}
-
-          <div style={{ width: 1, background: theme.border, margin: "8px 0", flexShrink: 0 }} />
-
-          {/* WIG20 / obrót rynkowy zamiast duplikatu F&G */}
-          {indices[0] ? (
-            <div onClick={navigateToFearGreed} style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: isMobile ? "10px 14px" : "12px 20px", cursor: "pointer", flexShrink: 0 }}
-              onMouseEnter={e => e.currentTarget.style.background = theme.bgCardAlt}
-              onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
-              <div style={{ fontSize: 9, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: "0.06em", fontWeight: 600, marginBottom: 3, fontFamily: "var(--font-ui)" }}>{indices[0].name}</div>
-              <div style={{ fontSize: 20, fontWeight: 700, color: theme.textBright, lineHeight: 1, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{fmtIdx(indices[0].value)}</div>
-              <div style={{ fontSize: 10, fontWeight: 600, color: (indices[0].change24h ?? 0) >= 0 ? "#22c55e" : "#ef4444", marginTop: 2, fontFamily: "var(--font-mono)" }}>{fmtIdxChange(indices[0].change24h)}</div>
-            </div>
-          ) : (
-            <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: isMobile ? "10px 14px" : "12px 20px", flexShrink: 0 }}>
-              <div style={{ fontSize: 9, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: "0.06em", fontWeight: 600, marginBottom: 3, fontFamily: "var(--font-ui)" }}>Obrót GPW</div>
-              <div style={{ fontSize: 18, fontWeight: 700, color: theme.textBright, lineHeight: 1, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>
-                {(() => { const v = liveStocks.reduce((a, s) => a + (changes[s.ticker]?.volume ?? 0) * (prices[s.ticker] ?? 0), 0); return v >= 1e9 ? `${(v/1e9).toFixed(2)} mld` : v >= 1e6 ? `${(v/1e6).toFixed(0)} mln` : "—"; })()}
-              </div>
-              <div style={{ fontSize: 10, color: theme.textSecondary, marginTop: 2 }}>zł dzisiaj</div>
-            </div>
-          )}
-
-        </div>
+        <MarketOverviewCards
+          indices={indices}
+          topGainers={topGainers}
+          topLosers={topLosers}
+          changes={changes}
+          prices={prices}
+          navigateToStock={navigateToStock}
+          navigateToFearGreed={navigateToFearGreed}
+          theme={theme}
+          isMobile={isMobile}
+        />
       </div>
 
       {/* Mobile sidebar overlay */}
