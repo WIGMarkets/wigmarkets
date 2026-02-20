@@ -17,6 +17,7 @@ import FearGauge from "./components/FearGauge.jsx";
 import ProfitCalculatorModal from "./components/ProfitCalculatorModal.jsx";
 import StockModal from "./components/StockModal.jsx";
 import StockLogo from "./components/StockLogo.jsx";
+import CompanyMonogram from "./components/CompanyMonogram.jsx";
 import StockPage from "./components/StockPage.jsx";
 import FearGreedPage from "./components/FearGreedPage.jsx";
 import NewsPage from "./components/NewsPage.jsx";
@@ -763,22 +764,28 @@ export default function WigMarkets() {
             <div style={{ background: `linear-gradient(135deg, ${theme.bgCardAlt} 0%, ${theme.bgCard} 100%)`, border: `1px solid rgba(255,255,255,0.06)`, borderRadius: 14, padding: 20 }}>
               <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 14, fontWeight: 600, fontFamily: "var(--font-ui)" }}>Top wzrosty 24h</div>
               {topGainers.map(s => (
-                <div key={s.ticker} onClick={() => navigateToStock(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "8px 0", borderBottom: `1px solid ${theme.border}`, cursor: "pointer", transition: "background 0.15s" }}
+                <div key={s.ticker} onClick={() => navigateToStock(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8, padding: "8px 0", borderBottom: `1px solid ${theme.border}`, cursor: "pointer", transition: "background 0.15s" }}
                   onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,0.03)"}
                   onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
-                  <div><div style={{ fontWeight: 600, fontSize: 12, color: theme.textBright, fontFamily: "var(--font-ui)" }}>{s.ticker}</div><div style={{ fontSize: 10, color: theme.textMuted }}>{s.sector}</div></div>
-                  <span style={{ padding: "3px 8px", borderRadius: 6, fontSize: 11, fontWeight: 600, background: "rgba(34,197,94,0.12)", color: "#22c55e", fontFamily: "var(--font-mono)" }}>{changeFmt(changes[s.ticker]?.change24h ?? 0)}</span>
+                  <div style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 0 }}>
+                    <CompanyMonogram ticker={s.ticker} sector={s.sector} size={24} />
+                    <div style={{ minWidth: 0 }}><div style={{ fontWeight: 600, fontSize: 12, color: theme.textBright, fontFamily: "var(--font-ui)" }}>{s.ticker}</div><div style={{ fontSize: 10, color: theme.textMuted, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.sector}</div></div>
+                  </div>
+                  <span style={{ padding: "3px 8px", borderRadius: 6, fontSize: 11, fontWeight: 600, background: "rgba(34,197,94,0.12)", color: "#22c55e", fontFamily: "var(--font-mono)", flexShrink: 0 }}>{changeFmt(changes[s.ticker]?.change24h ?? 0)}</span>
                 </div>
               ))}
             </div>
             <div style={{ background: `linear-gradient(135deg, ${theme.bgCardAlt} 0%, ${theme.bgCard} 100%)`, border: `1px solid rgba(255,255,255,0.06)`, borderRadius: 14, padding: 20 }}>
               <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 14, fontWeight: 600, fontFamily: "var(--font-ui)" }}>Top spadki 24h</div>
               {topLosers.map(s => (
-                <div key={s.ticker} onClick={() => navigateToStock(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "8px 0", borderBottom: `1px solid ${theme.border}`, cursor: "pointer", transition: "background 0.15s" }}
+                <div key={s.ticker} onClick={() => navigateToStock(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8, padding: "8px 0", borderBottom: `1px solid ${theme.border}`, cursor: "pointer", transition: "background 0.15s" }}
                   onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,0.03)"}
                   onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
-                  <div><div style={{ fontWeight: 600, fontSize: 12, color: theme.textBright, fontFamily: "var(--font-ui)" }}>{s.ticker}</div><div style={{ fontSize: 10, color: theme.textMuted }}>{s.sector}</div></div>
-                  <span style={{ padding: "3px 8px", borderRadius: 6, fontSize: 11, fontWeight: 600, background: "rgba(239,68,68,0.12)", color: "#ef4444", fontFamily: "var(--font-mono)" }}>{changeFmt(changes[s.ticker]?.change24h ?? 0)}</span>
+                  <div style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 0 }}>
+                    <CompanyMonogram ticker={s.ticker} sector={s.sector} size={24} />
+                    <div style={{ minWidth: 0 }}><div style={{ fontWeight: 600, fontSize: 12, color: theme.textBright, fontFamily: "var(--font-ui)" }}>{s.ticker}</div><div style={{ fontSize: 10, color: theme.textMuted, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.sector}</div></div>
+                  </div>
+                  <span style={{ padding: "3px 8px", borderRadius: 6, fontSize: 11, fontWeight: 600, background: "rgba(239,68,68,0.12)", color: "#ef4444", fontFamily: "var(--font-mono)", flexShrink: 0 }}>{changeFmt(changes[s.ticker]?.change24h ?? 0)}</span>
                 </div>
               ))}
             </div>
