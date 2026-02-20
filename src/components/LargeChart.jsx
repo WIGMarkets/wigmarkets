@@ -128,11 +128,11 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
           {yLabels.map((l, i) => (
             <g key={i}>
               <line x1={padLeft} y1={l.y} x2={w - padRight} y2={l.y} stroke={theme.border} strokeWidth="0.5" strokeDasharray="4,3" />
-              <text x={padLeft - 8} y={l.y + 3} textAnchor="end" fill={theme.textSecondary} fontSize="9" fontFamily="'Inter',sans-serif">{fmtY(l.val)}</text>
+              <text x={padLeft - 8} y={l.y + 3} textAnchor="end" fill={theme.textSecondary} fontSize="9" fontFamily="'IBM Plex Mono',monospace">{fmtY(l.val)}</text>
             </g>
           ))}
           {xLabels.map((l, i) => (
-            <text key={i} x={l.x} y={h - 6} textAnchor="middle" fill={theme.textSecondary} fontSize="8" fontFamily="'Inter',sans-serif">{l.label}</text>
+            <text key={i} x={l.x} y={h - 6} textAnchor="middle" fill={theme.textSecondary} fontSize="8" fontFamily="'IBM Plex Mono',monospace">{l.label}</text>
           ))}
           {data.map((d, i) => {
             const open  = d.open  != null && !isNaN(d.open)  ? d.open  : d.close;
@@ -140,7 +140,7 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
             const low   = d.low   != null && !isNaN(d.low)   ? d.low   : d.close;
             const close = d.close;
             const x = toX(i);
-            const c = close >= open ? "#00c896" : "#ff4d6d";
+            const c = close >= open ? "#22c55e" : "#ef4444";
             const bodyY1 = toY(Math.max(open, close));
             const bodyY2 = toY(Math.min(open, close));
             const bodyH  = Math.max(1, bodyY2 - bodyY1);
@@ -175,11 +175,11 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
         {yLabels.map((l, i) => (
           <g key={i}>
             <line x1={padLeft} y1={l.y} x2={w - padRight} y2={l.y} stroke={theme.border} strokeWidth="0.5" strokeDasharray="4,3" />
-            <text x={padLeft - 8} y={l.y + 3} textAnchor="end" fill={theme.textSecondary} fontSize="9" fontFamily="'Inter',sans-serif">{fmtY(l.val)}</text>
+            <text x={padLeft - 8} y={l.y + 3} textAnchor="end" fill={theme.textSecondary} fontSize="9" fontFamily="'IBM Plex Mono',monospace">{fmtY(l.val)}</text>
           </g>
         ))}
         {xLabels.map((l, i) => (
-          <text key={i} x={l.x} y={h - 6} textAnchor="middle" fill={theme.textSecondary} fontSize="8" fontFamily="'Inter',sans-serif">{l.label}</text>
+          <text key={i} x={l.x} y={h - 6} textAnchor="middle" fill={theme.textSecondary} fontSize="8" fontFamily="'IBM Plex Mono',monospace">{l.label}</text>
         ))}
         <polyline points={`${first} ${pts} ${last}`} fill={`url(#${gradId})`} stroke="none" />
         <polyline points={pts} fill="none" stroke={color} strokeWidth="2" strokeLinejoin="round" strokeLinecap="round" />

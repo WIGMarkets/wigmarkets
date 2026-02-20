@@ -13,7 +13,7 @@ function generateSparkline(trend) {
 }
 
 export default function Sparkline({ prices, trend = 0 }) {
-  const color = trend >= 0 ? "#00c896" : "#ff4d6d";
+  const color = trend >= 0 ? "#22c55e" : "#ef4444";
 
   const path = useMemo(() => {
     if (prices && prices.length >= 2) {
@@ -30,7 +30,7 @@ export default function Sparkline({ prices, trend = 0 }) {
 
   return (
     <svg width="60" height="32" viewBox="0 0 100 40" style={{ display: "block" }}>
-      <polyline points={path} fill="none" stroke={color} strokeWidth="2.5" strokeLinejoin="round" strokeLinecap="round" opacity="0.9" />
+      <polyline points={path} fill="none" stroke={color} strokeWidth="2" strokeLinejoin="round" strokeLinecap="round" opacity="0.8" />
     </svg>
   );
 }

@@ -10,12 +10,12 @@ import { slugify } from "./TOC.jsx";
 function TipIcon() {
   return (
     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: 0 }}>
-      <circle cx="10" cy="8" r="5" stroke="#00c896" strokeWidth="1.5" fill="none" />
-      <line x1="10" y1="13" x2="10" y2="16" stroke="#00c896" strokeWidth="1.5" strokeLinecap="round" />
-      <line x1="8" y1="15" x2="12" y2="15" stroke="#00c896" strokeWidth="1.5" strokeLinecap="round" />
-      <line x1="8.5" y1="17" x2="11.5" y2="17" stroke="#00c896" strokeWidth="1.5" strokeLinecap="round" />
-      <circle cx="10" cy="6" r="1" fill="#00c896" />
-      <line x1="10" y1="6" x2="10" y2="4" stroke="#00c896" strokeWidth="1.5" strokeLinecap="round" />
+      <circle cx="10" cy="8" r="5" stroke="#22c55e" strokeWidth="1.5" fill="none" />
+      <line x1="10" y1="13" x2="10" y2="16" stroke="#22c55e" strokeWidth="1.5" strokeLinecap="round" />
+      <line x1="8" y1="15" x2="12" y2="15" stroke="#22c55e" strokeWidth="1.5" strokeLinecap="round" />
+      <line x1="8.5" y1="17" x2="11.5" y2="17" stroke="#22c55e" strokeWidth="1.5" strokeLinecap="round" />
+      <circle cx="10" cy="6" r="1" fill="#22c55e" />
+      <line x1="10" y1="6" x2="10" y2="4" stroke="#22c55e" strokeWidth="1.5" strokeLinecap="round" />
     </svg>
   );
 }
@@ -33,9 +33,9 @@ function WarningIcon() {
 function InfoIcon() {
   return (
     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: 0 }}>
-      <circle cx="10" cy="10" r="8" stroke="#58a6ff" strokeWidth="1.5" fill="none" />
-      <line x1="10" y1="9" x2="10" y2="14" stroke="#58a6ff" strokeWidth="1.5" strokeLinecap="round" />
-      <circle cx="10" cy="6.5" r="0.8" fill="#58a6ff" />
+      <circle cx="10" cy="10" r="8" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+      <line x1="10" y1="9" x2="10" y2="14" stroke="#3b82f6" strokeWidth="1.5" strokeLinecap="round" />
+      <circle cx="10" cy="6.5" r="0.8" fill="#3b82f6" />
     </svg>
   );
 }
@@ -47,9 +47,9 @@ const BLOCK_ICONS = {
 };
 
 const BLOCK_STYLES = {
-  tip: { borderColor: "#00c896", bg: "#00c89612" },
+  tip: { borderColor: "#22c55e", bg: "#22c55e12" },
   warning: { borderColor: "#f0883e", bg: "#f0883e12" },
-  info: { borderColor: "#58a6ff", bg: "#58a6ff12" },
+  info: { borderColor: "#3b82f6", bg: "#3b82f612" },
 };
 
 const INTERACTIVE_COMPONENTS = {
@@ -160,7 +160,7 @@ export default function SectionRenderer({ sections, theme, onNavigate }) {
                   WebkitOverflowScrolling: "touch",
                   fontSize: 13,
                   lineHeight: 1.6,
-                  color: "#00c896",
+                  color: "#22c55e",
                   fontFamily: "monospace",
                 }}
               >

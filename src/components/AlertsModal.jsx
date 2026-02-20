@@ -89,7 +89,7 @@ export default function AlertsModal({ onClose, theme, prices, allInstruments, al
             <input style={{ ...inputStyle, width: "100%" }} type="number" placeholder="100.00" min="0" step="0.01" value={form.target} onChange={e => setForm(f => ({ ...f, target: e.target.value }))} onKeyDown={e => e.key === "Enter" && handleAdd()} />
           </div>
         </div>
-        {error && <div style={{ color: "#ff4d6d", fontSize: 12, marginBottom: 8 }}>{error}</div>}
+        {error && <div style={{ color: "#ef4444", fontSize: 12, marginBottom: 8 }}>{error}</div>}
         <button onClick={handleAdd} style={{ width: "100%", padding: "9px 0", borderRadius: 8, border: "none", background: theme.accent, color: "#fff", fontWeight: 700, fontSize: 13, cursor: "pointer", fontFamily: "inherit", marginBottom: 20 }}>
           + Dodaj alert
         </button>
@@ -106,13 +106,13 @@ export default function AlertsModal({ onClose, theme, prices, allInstruments, al
                 <div key={a.id} style={{ background: theme.bgCardAlt, borderRadius: 10, padding: "10px 14px", display: "flex", justifyContent: "space-between", alignItems: "center", opacity: a.triggered ? 0.5 : 1 }}>
                   <div>
                     <div style={{ fontWeight: 700, color: theme.textBright, fontSize: 13 }}>
-                      {a.ticker} {condLabel} {fmt(a.target)} {a.triggered && <span style={{ background: "#00c89622", color: "#00c896", borderRadius: 4, padding: "1px 6px", fontSize: 10, marginLeft: 4 }}>Uruchomiony</span>}
+                      {a.ticker} {condLabel} {fmt(a.target)} {a.triggered && <span style={{ background: "rgba(34,197,94,0.12)", color: "#22c55e", borderRadius: 4, padding: "1px 6px", fontSize: 10, marginLeft: 4 }}>Uruchomiony</span>}
                     </div>
                     <div style={{ fontSize: 11, color: theme.textSecondary }}>Kurs bieżący: {currentPrice ? fmt(currentPrice) : "—"}</div>
                   </div>
                   <div style={{ display: "flex", gap: 6 }}>
                     {a.triggered && <button onClick={() => handleReset(a.id)} style={{ padding: "4px 10px", borderRadius: 6, border: `1px solid ${theme.borderInput}`, background: "transparent", color: theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>Reset</button>}
-                    <button onClick={() => handleDelete(a.id)} style={{ padding: "4px 10px", borderRadius: 6, border: "1px solid #ff4d6d44", background: "transparent", color: "#ff4d6d", fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>Usuń</button>
+                    <button onClick={() => handleDelete(a.id)} style={{ padding: "4px 10px", borderRadius: 6, border: "1px solid rgba(239,68,68,0.27)", background: "transparent", color: "#ef4444", fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>Usuń</button>
                   </div>
                 </div>
               );

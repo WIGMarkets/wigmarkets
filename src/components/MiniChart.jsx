@@ -73,7 +73,7 @@ export default function MiniChart({ data, color, type = "line", isIntraday = fal
           const close = d.close;
           const x = toX(i);
           const up = close >= open;
-          const c  = up ? "#00c896" : "#ff4d6d";
+          const c  = up ? "#22c55e" : "#ef4444";
           const bodyY1 = toY(Math.max(open, close));
           const bodyY2 = toY(Math.min(open, close));
           const bodyH  = Math.max(1, bodyY2 - bodyY1);

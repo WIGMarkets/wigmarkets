@@ -12,17 +12,37 @@
     <meta name="apple-mobile-web-app-title" content="WIGmarkets" />
     <link rel="manifest" href="/manifest.json" />
     <link rel="apple-touch-icon" href="/icon.svg" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
+      :root {
+        --bg-primary: #0f1117;
+        --bg-secondary: #1a1d27;
+        --bg-tertiary: #252830;
+        --border: rgba(255,255,255,0.08);
+        --border-hover: rgba(255,255,255,0.15);
+        --text-primary: #f1f5f9;
+        --text-secondary: #94a3b8;
+        --text-muted: #64748b;
+        --accent: #3b82f6;
+        --green: #22c55e;
+        --red: #ef4444;
+        --green-bg: rgba(34,197,94,0.1);
+        --red-bg: rgba(239,68,68,0.1);
+        --font-ui: 'IBM Plex Sans', 'DM Sans', -apple-system, sans-serif;
+        --font-mono: 'JetBrains Mono', 'IBM Plex Mono', 'Menlo', monospace;
+      }
+
       * { margin: 0; padding: 0; box-sizing: border-box; }
       html, body { background: #010409; width: 100%; overflow-x: hidden; }
 
       @keyframes flash-up {
-        0%   { background-color: #00c89640; }
+        0%   { background-color: rgba(34,197,94,0.25); }
         100% { background-color: transparent; }
       }
       @keyframes flash-down {
-        0%   { background-color: #ff4d6d40; }
+        0%   { background-color: rgba(239,68,68,0.25); }
         100% { background-color: transparent; }
       }
       .price-flash-up   { animation: flash-up   0.8s ease-out; }
@@ -36,6 +56,23 @@
         from { opacity: 0; transform: translateX(40px); }
         to   { opacity: 1; transform: translateX(0); }
       }
+      @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(8px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+      }
+      @keyframes gaugeNeedle {
+        from { transform: rotate(-90deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { filter: drop-shadow(0 0 6px currentColor); }
+        50%      { filter: drop-shadow(0 0 12px currentColor); }
+      }
+      .fade-in-up { animation: fadeInUp 0.35s ease-out both; }
+      .fade-in    { animation: fadeIn 0.3s ease-out both; }
     </style>
   </head>
   <body>

@@ -66,11 +66,11 @@ export default function StockTableWidget({ title = "Wskaźniki fundamentalne sp�
                   <div style={{ fontWeight: 700, color: theme.textBright }}>{row.ticker}</div>
                   <div style={{ fontSize: 11, color: theme.textSecondary }}>{row.name}</div>
                 </td>
-                <td style={{ padding: "10px 14px", color: row.pe > 25 ? "#f0883e" : row.pe < 12 ? "#00c896" : theme.text }}>{row.pe}</td>
+                <td style={{ padding: "10px 14px", color: row.pe > 25 ? "#f0883e" : row.pe < 12 ? "#22c55e" : theme.text }}>{row.pe}</td>
                 <td style={{ padding: "10px 14px", color: theme.text }}>{row.pb}</td>
                 <td style={{ padding: "10px 14px" }}>
                   {row.div > 0 ? (
-                    <span style={{ color: "#00c896", fontWeight: 600 }}>{row.div.toFixed(1)}%</span>
+                    <span style={{ color: "#22c55e", fontWeight: 600 }}>{row.div.toFixed(1)}%</span>
                   ) : <span style={{ color: theme.textSecondary }}>—</span>}
                 </td>
                 <td style={{ padding: "10px 14px", color: theme.textSecondary }}>{row.cap}</td>

@@ -37,7 +37,7 @@ export default function ScreenerPreview({ theme, onNavigate }) {
         <a
           href="/"
           onClick={e => { e.preventDefault(); onNavigate?.("/"); }}
-          style={{ fontSize: 12, color: "#58a6ff", textDecoration: "none", fontWeight: 600, padding: "8px 14px", border: "1px solid #58a6ff40", borderRadius: 8, minHeight: 44, display: "inline-flex", alignItems: "center" }}
+          style={{ fontSize: 12, color: "#3b82f6", textDecoration: "none", fontWeight: 600, padding: "8px 14px", border: "1px solid #3b82f640", borderRadius: 8, minHeight: 44, display: "inline-flex", alignItems: "center" }}
         >
           <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>Pełny screener <Icon name="arrow-right" size={14} /></span>
         </a>
@@ -62,8 +62,8 @@ export default function ScreenerPreview({ theme, onNavigate }) {
                 <td style={{ padding: "9px 14px", color: theme.textSecondary }}>{s.sector}</td>
                 <td style={{ padding: "9px 14px" }}>
                   <span style={{
-                    background: s.change24h >= 0 ? "#00c89620" : "#ff4d6d20",
-                    color: s.change24h >= 0 ? "#00c896" : "#ff4d6d",
+                    background: s.change24h >= 0 ? "rgba(34,197,94,0.12)" : "rgba(239,68,68,0.12)",
+                    color: s.change24h >= 0 ? "#22c55e" : "#ef4444",
                     fontWeight: 700, padding: "2px 7px", borderRadius: 5, fontSize: 12,
                   }}>
                     {s.change24h >= 0 ? "▲" : "▼"} {Math.abs(s.change24h).toFixed(1)}%
@@ -71,7 +71,7 @@ export default function ScreenerPreview({ theme, onNavigate }) {
                 </td>
                 <td style={{ padding: "9px 14px", color: theme.text }}>{s.pe}</td>
                 <td style={{ padding: "9px 14px" }}>
-                  {s.div > 0 ? <span style={{ color: "#00c896", fontWeight: 600 }}>{s.div.toFixed(1)}%</span> : <span style={{ color: theme.textSecondary }}>—</span>}
+                  {s.div > 0 ? <span style={{ color: "#22c55e", fontWeight: 600 }}>{s.div.toFixed(1)}%</span> : <span style={{ color: theme.textSecondary }}>—</span>}
                 </td>
               </tr>
             ))}
@@ -82,7 +82,7 @@ export default function ScreenerPreview({ theme, onNavigate }) {
         <a
           href="/"
           onClick={e => { e.preventDefault(); onNavigate?.("/"); }}
-          style={{ fontSize: 13, color: "#58a6ff", fontWeight: 600, textDecoration: "none", display: "inline-block", padding: "8px 0", minHeight: 44, lineHeight: "28px" }}
+          style={{ fontSize: 13, color: "#3b82f6", fontWeight: 600, textDecoration: "none", display: "inline-block", padding: "8px 0", minHeight: 44, lineHeight: "28px" }}
         >
           <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>Zobacz wszystkie spółki GPW z filtrami <Icon name="arrow-right" size={14} /></span>
         </a>

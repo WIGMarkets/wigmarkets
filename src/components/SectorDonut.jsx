@@ -7,7 +7,7 @@ export default function SectorDonut({ stocks, theme }) {
   const total = sorted.reduce((a, [, v]) => a + v, 0);
   if (!total) return null;
 
-  const COLORS = ["#58a6ff", "#00c896", "#ff4d6d", "#ffd700", "#a371f7", "#f78166", "#3fb950", "#d2a8ff", "#79c0ff", "#f0883e", "#7ee787", "#ff7b72", "#d29922", "#56d364"];
+  const COLORS = ["#3b82f6", "#22c55e", "#ef4444", "#ffd700", "#a371f7", "#f78166", "#3fb950", "#d2a8ff", "#79c0ff", "#f0883e", "#7ee787", "#ff7b72", "#d29922", "#56d364"];
   const cx = 50, cy = 50, r = 38, ir = 24;
   let angle = -90;
   const slices = sorted.map(([sector, cap], i) => {
@@ -27,13 +27,13 @@ export default function SectorDonut({ stocks, theme }) {
   });
 
   return (
-    <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: 18 }}>
-      <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Dominacja sektorowa</div>
+    <div style={{ background: `linear-gradient(135deg, ${theme.bgCardAlt} 0%, ${theme.bgCard} 100%)`, border: `1px solid rgba(255,255,255,0.06)`, borderRadius: 14, padding: 20 }}>
+      <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 12, fontWeight: 600, fontFamily: "var(--font-ui)" }}>Dominacja sektorowa</div>
       <div style={{ display: "flex", justifyContent: "center", marginBottom: 12 }}>
         <svg width="140" height="140" viewBox="0 0 100 100">
           {slices.map(s => <path key={s.sector} d={s.d} fill={s.color} opacity="0.85" stroke={theme.bgCard} strokeWidth="0.5" />)}
-          <text x="50" y="47" textAnchor="middle" fill={theme.textBright} fontSize="7" fontWeight="800" fontFamily="'Inter',sans-serif">{(total / 1000).toFixed(0)}</text>
-          <text x="50" y="56" textAnchor="middle" fill={theme.textSecondary} fontSize="3.5" fontFamily="'Inter',sans-serif">mld zł</text>
+          <text x="50" y="47" textAnchor="middle" fill={theme.textBright} fontSize="7" fontWeight="800" fontFamily="'JetBrains Mono',monospace">{(total / 1000).toFixed(0)}</text>
+          <text x="50" y="56" textAnchor="middle" fill={theme.textSecondary} fontSize="3.5" fontFamily="'JetBrains Mono',monospace">mld zł</text>
         </svg>
       </div>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4px 8px" }}>

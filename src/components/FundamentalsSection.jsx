@@ -33,23 +33,23 @@ export default function FundamentalsSection({ stock, fundamentals, loading, curr
     if (!value || !sectorVal) return null;
     const r = value / sectorVal;
     if (higherIsBad) {
-      if (r < 0.8) return { label: "Tania", color: "#00c896" };
-      if (r > 1.2) return { label: "Droga", color: "#ff4d6d" };
+      if (r < 0.8) return { label: "Tania", color: "#22c55e" };
+      if (r > 1.2) return { label: "Droga", color: "#ef4444" };
       return { label: "Neutralna", color: "#ffd700" };
     } else {
-      if (r > 1.2) return { label: "Wysoka", color: "#00c896" };
-      if (r < 0.8) return { label: "Niska", color: "#ff4d6d" };
+      if (r > 1.2) return { label: "Wysoka", color: "#22c55e" };
+      if (r < 0.8) return { label: "Niska", color: "#ef4444" };
       return { label: "Średnia", color: "#ffd700" };
     }
   };
 
   const metricCards = [
-    { abbr: "P",   label: "Przychody (TTM)",      value: fmtBig(cur.revenue),   color: "#58a6ff" },
-    { abbr: "ZN",  label: "Zysk netto (TTM)",      value: fmtBig(cur.netIncome), color: cur.netIncome >= 0 ? "#00c896" : "#ff4d6d" },
+    { abbr: "P",   label: "Przychody (TTM)",      value: fmtBig(cur.revenue),   color: "#3b82f6" },
+    { abbr: "ZN",  label: "Zysk netto (TTM)",      value: fmtBig(cur.netIncome), color: cur.netIncome >= 0 ? "#22c55e" : "#ef4444" },
     { abbr: "EB",  label: "EBITDA",                value: fmtBig(cur.ebitda),    color: "#a371f7" },
     { abbr: "EPS", label: "EPS",                   value: cur.eps !== null ? `${fmtSmall(cur.eps)} PLN` : "—", color: "#ffd700" },
-    { abbr: "WK",  label: "Wart. księgowa/akcję",  value: bvps !== null ? `${fmtSmall(bvps)} PLN` : "—", color: "#58a6ff" },
-    { abbr: "DN",  label: "Zadłużenie netto",      value: fmtBig(cur.netDebt),  color: "#ff4d6d" },
+    { abbr: "WK",  label: "Wart. księgowa/akcję",  value: bvps !== null ? `${fmtSmall(bvps)} PLN` : "—", color: "#3b82f6" },
+    { abbr: "DN",  label: "Zadłużenie netto",      value: fmtBig(cur.netDebt),  color: "#ef4444" },
   ];
 
   const valuations = [

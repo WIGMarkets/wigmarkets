@@ -22,7 +22,7 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
   const currentPrice = prices[stock.ticker];
   const c24h = changes[stock.ticker]?.change24h ?? 0;
   const c7d = changes[stock.ticker]?.change7d ?? 0;
-  const color = c24h >= 0 ? "#00c896" : "#ff4d6d";
+  const color = c24h >= 0 ? "#22c55e" : "#ef4444";
 
   const sym = stock.stooq || stock.ticker.toLowerCase();
 
@@ -77,7 +77,7 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
   const rsi = useMemo(() => calculateRSI(history), [history]);
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif" }}>
+    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)" }}>
       <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, padding: "0 16px" }}>
         <div style={{ display: "flex", gap: 16, padding: "10px 0", alignItems: "center", maxWidth: 1100, margin: "0 auto" }}>
           <button onClick={onBack} style={{ display: "flex", alignItems: "center", gap: 6, background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 8, color: theme.textSecondary, padding: "6px 14px", fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: 600 }}>
@@ -111,12 +111,12 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
             <div style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center" }}>
               <div style={{ display: "flex", gap: 6 }}>
                 {["1D", "1W", "1M", "3M", "1R"].map(r => (
-                  <button key={r} onClick={() => setRange(r)} style={{ padding: "6px 14px", borderRadius: 8, border: "1px solid", borderColor: range === r ? theme.accent : theme.borderInput, background: range === r ? "#1f6feb22" : "transparent", color: range === r ? theme.accent : theme.textSecondary, fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: range === r ? 700 : 400 }}>{r}</button>
+                  <button key={r} onClick={() => setRange(r)} style={{ padding: "6px 14px", borderRadius: 8, border: "1px solid", borderColor: range === r ? theme.accent : theme.borderInput, background: range === r ? "#3b82f622" : "transparent", color: range === r ? theme.accent : theme.textSecondary, fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: range === r ? 700 : 400 }}>{r}</button>
                 ))}
               </div>
               <div style={{ display: "flex", gap: 4, marginLeft: 4 }}>
                 {[{ key: "line", label: "Linia" }, { key: "candle", label: "Świece" }].map(({ key, label }) => (
-                  <button key={key} onClick={() => setChartType(key)} style={{ padding: "6px 12px", borderRadius: 8, border: "1px solid", borderColor: chartType === key ? theme.accent : theme.borderInput, background: chartType === key ? "#1f6feb22" : "transparent", color: chartType === key ? theme.accent : theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit", fontWeight: chartType === key ? 700 : 400 }}>{label}</button>
+                  <button key={key} onClick={() => setChartType(key)} style={{ padding: "6px 12px", borderRadius: 8, border: "1px solid", borderColor: chartType === key ? theme.accent : theme.borderInput, background: chartType === key ? "#3b82f622" : "transparent", color: chartType === key ? theme.accent : theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit", fontWeight: chartType === key ? 700 : 400 }}>{label}</button>
                 ))}
               </div>
             </div>

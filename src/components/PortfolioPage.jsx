@@ -83,7 +83,7 @@ export default function PortfolioPage({ onBack, theme, prices, allInstruments })
   };
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif" }}>
+    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)" }}>
       {/* Header */}
       <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, padding: "12px 24px", display: "flex", alignItems: "center", gap: 14 }}>
         <button onClick={onBack} style={{ background: "none", border: `1px solid ${theme.border}`, color: theme.text, borderRadius: 8, padding: "6px 14px", cursor: "pointer", fontSize: 13, fontFamily: "inherit", display: "inline-flex", alignItems: "center", gap: 6 }}><Icon name="arrow-left" size={14} /> Powrót</button>
@@ -101,8 +101,8 @@ export default function PortfolioPage({ onBack, theme, prices, allInstruments })
             {[
               ["Wartość portfela", `${fmt(totals.value)} zł`, theme.textBright],
               ["Koszt zakupu", `${fmt(totals.cost)} zł`, theme.textSecondary],
-              ["Zysk / Strata", `${sign(totals.profit)}${fmt(totals.profit)} zł`, totals.profit >= 0 ? "#00c896" : "#ff4d6d"],
-              ["Zwrot", `${sign(totals.profitPct)}${fmt(totals.profitPct)}%`, totals.profit >= 0 ? "#00c896" : "#ff4d6d"],
+              ["Zysk / Strata", `${sign(totals.profit)}${fmt(totals.profit)} zł`, totals.profit >= 0 ? "#22c55e" : "#ef4444"],
+              ["Zwrot", `${sign(totals.profitPct)}${fmt(totals.profitPct)}%`, totals.profit >= 0 ? "#22c55e" : "#ef4444"],
             ].map(([label, val, color]) => (
               <div key={label}>
                 <div style={{ fontSize: 10, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: 1, marginBottom: 4, fontWeight: 600 }}>{label}</div>
@@ -139,7 +139,7 @@ export default function PortfolioPage({ onBack, theme, prices, allInstruments })
               )}
             </div>
           </div>
-          {error && <div style={{ color: "#ff4d6d", fontSize: 12, marginTop: 10 }}>{error}</div>}
+          {error && <div style={{ color: "#ef4444", fontSize: 12, marginTop: 10 }}>{error}</div>}
         </div>
 
         {/* Positions list */}
@@ -152,9 +152,9 @@ export default function PortfolioPage({ onBack, theme, prices, allInstruments })
         ) : (
           <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
             {enriched.map(p => {
-              const color = p.profit >= 0 ? "#00c896" : "#ff4d6d";
+              const color = p.profit >= 0 ? "#22c55e" : "#ef4444";
               return (
-                <div key={p.id} style={{ background: theme.bgCard, border: `1px solid ${p.profit >= 0 ? "#00c89630" : "#ff4d6d30"}`, borderRadius: 12, padding: isMobile ? "12px 14px" : "14px 20px" }}>
+                <div key={p.id} style={{ background: theme.bgCard, border: `1px solid ${p.profit >= 0 ? "rgba(34,197,94,0.19)" : "rgba(239,68,68,0.19)"}`, borderRadius: 12, padding: isMobile ? "12px 14px" : "14px 20px" }}>
                   <div style={{ display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap" }}>
                     <StockLogo ticker={p.ticker} size={36} borderRadius={9} sector={p.instr?.sector} />
                     <div style={{ flex: 1, minWidth: 120 }}>
@@ -180,7 +180,7 @@ export default function PortfolioPage({ onBack, theme, prices, allInstruments })
                     {/* Actions */}
                     <div style={{ display: "flex", gap: 6 }}>
                       <button onClick={() => handleEdit(p)} style={{ padding: "5px 12px", borderRadius: 7, border: `1px solid ${theme.borderInput}`, background: "transparent", color: theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>Edytuj</button>
-                      <button onClick={() => handleDelete(p.id)} style={{ padding: "5px 12px", borderRadius: 7, border: "1px solid #ff4d6d44", background: "transparent", color: "#ff4d6d", fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>Usuń</button>
+                      <button onClick={() => handleDelete(p.id)} style={{ padding: "5px 12px", borderRadius: 7, border: "1px solid rgba(239,68,68,0.27)", background: "transparent", color: "#ef4444", fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>Usuń</button>
                     </div>
                   </div>
                 </div>

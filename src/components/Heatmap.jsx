@@ -56,8 +56,8 @@ export default function Heatmap({ stocks, prices, changes, theme, onSelect }) {
   const maxAbs = Math.max(...items.map(s => Math.abs(s.c24h)), 3);
   const heatColor = (v) => {
     const t = Math.min(Math.abs(v) / maxAbs, 1);
-    if (v >= 0) return `rgba(0,200,150,${0.15 + t * 0.65})`;
-    return `rgba(255,77,109,${0.15 + t * 0.65})`;
+    if (v >= 0) return `rgba(34,197,94,${0.15 + t * 0.65})`;
+    return `rgba(239,68,68,${0.15 + t * 0.65})`;
   };
 
   return (
@@ -65,9 +65,9 @@ export default function Heatmap({ stocks, prices, changes, theme, onSelect }) {
       <div style={{ padding: "12px 16px", borderBottom: `1px solid ${theme.border}`, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
         <div style={{ fontSize: 11, fontWeight: 700, color: theme.textBright, textTransform: "uppercase", letterSpacing: 1 }}>Heatmapa rynku</div>
         <div style={{ display: "flex", gap: 8, fontSize: 10, color: theme.textSecondary }}>
-          <span style={{ display: "flex", alignItems: "center", gap: 3 }}><span style={{ width: 8, height: 8, borderRadius: 2, background: "#ff4d6d" }} /> Spadek</span>
+          <span style={{ display: "flex", alignItems: "center", gap: 3 }}><span style={{ width: 8, height: 8, borderRadius: 2, background: "#ef4444" }} /> Spadek</span>
           <span style={{ display: "flex", alignItems: "center", gap: 3 }}><span style={{ width: 8, height: 8, borderRadius: 2, background: "#444" }} /> 0%</span>
-          <span style={{ display: "flex", alignItems: "center", gap: 3 }}><span style={{ width: 8, height: 8, borderRadius: 2, background: "#00c896" }} /> Wzrost</span>
+          <span style={{ display: "flex", alignItems: "center", gap: 3 }}><span style={{ width: 8, height: 8, borderRadius: 2, background: "#22c55e" }} /> Wzrost</span>
         </div>
       </div>
       <div style={{ position: "relative", width: "100%", paddingBottom: "50%", overflow: "hidden" }}>
@@ -79,10 +79,10 @@ export default function Heatmap({ stocks, prices, changes, theme, onSelect }) {
               {r.rw > 6 && r.rh > 5 && (
                 <>
                   <text x={r.rx + r.rw / 2} y={r.ry + r.rh / 2 - (r.rh > 10 ? 1.2 : 0)} textAnchor="middle" dominantBaseline="central"
-                    fill={theme.textBright} fontSize={r.rw > 12 ? 2.2 : 1.6} fontWeight="800" fontFamily="'Inter',sans-serif">{r.ticker}</text>
+                    fill={theme.textBright} fontSize={r.rw > 12 ? 2.2 : 1.6} fontWeight="800" fontFamily="'IBM Plex Sans',sans-serif">{r.ticker}</text>
                   {r.rh > 10 && (
                     <text x={r.rx + r.rw / 2} y={r.ry + r.rh / 2 + 2.2} textAnchor="middle" dominantBaseline="central"
-                      fill={changeColor(r.c24h)} fontSize={1.5} fontWeight="700" fontFamily="'Inter',sans-serif">
+                      fill={changeColor(r.c24h)} fontSize={1.5} fontWeight="700" fontFamily="'IBM Plex Sans',sans-serif">
                       {r.c24h > 0 ? "+" : ""}{r.c24h.toFixed(1)}%
                     </text>
                   )}

@@ -68,7 +68,7 @@ export default function SocialShare({ title, url, theme }) {
         }}
       >
         <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
-          {copied ? <><Icon name="check" size={14} color="#00c896" /> Skopiowano!</> : <><Icon name="link" size={14} /> Kopiuj link</>}
+          {copied ? <><Icon name="check" size={14} color="#22c55e" /> Skopiowano!</> : <><Icon name="link" size={14} /> Kopiuj link</>}
         </span>
       </button>
     </div>
