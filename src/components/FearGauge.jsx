@@ -13,11 +13,11 @@ export default function FearGauge({ value = 62, isMobile, theme }) {
     return "Ekstremalna chciwość";
   };
   const getColor = (v) => {
-    if (v < 25) return "#dc2626";
-    if (v < 45) return "#ea580c";
-    if (v < 55) return "#ca8a04";
-    if (v < 75) return "#16a34a";
-    return "#15803d";
+    if (v < 25) return "#ef4444";
+    if (v < 45) return "#f97316";
+    if (v < 55) return "#eab308";
+    if (v < 75) return "#22c55e";
+    return "#16a34a";
   };
 
   const color = getColor(value);
@@ -44,12 +44,12 @@ export default function FearGauge({ value = 62, isMobile, theme }) {
   const lastY = (SH - 2 - ((lastPt - vmin) / (vmax - vmin)) * (SH - 5)).toFixed(1);
 
   return (
-    <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 10, padding: "16px" }}>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 4 }}>
-        <span style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: 1.5, textTransform: "uppercase", fontWeight: 600 }}>Fear & Greed Index</span>
+    <div style={{ background: `linear-gradient(135deg, ${theme.bgCardAlt} 0%, ${theme.bgCard} 100%)`, border: `1px solid rgba(255,255,255,0.06)`, borderRadius: 14, padding: 20 }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 6 }}>
+        <span style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: "0.08em", textTransform: "uppercase", fontWeight: 600, fontFamily: "var(--font-ui)" }}>Fear & Greed Index</span>
         <div style={{ textAlign: "right" }}>
-          <div style={{ fontSize: 26, fontWeight: 700, color, lineHeight: 1 }}>{value}</div>
-          <div style={{ fontSize: 10, color, fontWeight: 600, marginTop: 2 }}>{getLabel(value)}</div>
+          <div style={{ fontSize: 32, fontWeight: 700, color, lineHeight: 1, fontFamily: "var(--font-mono)", fontVariantNumeric: "tabular-nums" }}>{value}</div>
+          <div style={{ fontSize: 10, color, fontWeight: 600, marginTop: 3, fontFamily: "var(--font-ui)" }}>{getLabel(value)}</div>
         </div>
       </div>
 
@@ -57,21 +57,21 @@ export default function FearGauge({ value = 62, isMobile, theme }) {
         <svg width={190} height={102} viewBox="0 0 200 102">
           <path d={arcD(0, 180)} fill="none" stroke={theme.bgCardAlt} strokeWidth="7" strokeLinecap="butt" />
           <path d={arcD(0, fillDeg)} fill="none" stroke={color} strokeWidth="7" strokeLinecap="butt"
-            style={{ transition: animated ? undefined : "none" }} />
+            style={{ filter: `drop-shadow(0 0 8px ${color})`, transition: animated ? undefined : "none" }} />
           <g transform={`rotate(${angle}, 100, 88)`}
-            style={{ transition: "transform 0.9s cubic-bezier(0.22,0.61,0.36,1)" }}>
-            <line x1="100" y1="88" x2="100" y2="26" stroke={theme.textBright} strokeWidth="1.5" strokeLinecap="round" opacity="0.65" />
+            style={{ transition: "transform 0.9s cubic-bezier(0.34, 1.56, 0.64, 1)" }}>
+            <line x1="100" y1="88" x2="100" y2="26" stroke={theme.textBright} strokeWidth="1.5" strokeLinecap="round" opacity="0.7" />
           </g>
           <circle cx="100" cy="88" r="4" fill={theme.bgCard} stroke={theme.border} strokeWidth="1.5" />
-          <text x="16" y="102" fill={theme.textSecondary} fontSize="7.5" textAnchor="middle" opacity="0.6" fontFamily="inherit">Panika</text>
-          <text x="184" y="102" fill={theme.textSecondary} fontSize="7.5" textAnchor="middle" opacity="0.6" fontFamily="inherit">Chciwość</text>
+          <text x="16" y="102" fill={theme.textSecondary} fontSize="7.5" textAnchor="middle" opacity="0.6" fontFamily="'IBM Plex Sans',sans-serif">Panika</text>
+          <text x="184" y="102" fill={theme.textSecondary} fontSize="7.5" textAnchor="middle" opacity="0.6" fontFamily="'IBM Plex Sans',sans-serif">Chciwość</text>
         </svg>
       </div>
 
-      <div style={{ marginTop: 2 }}>
-        <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 3 }}>
-          <span style={{ fontSize: 9, color: theme.textMuted ?? theme.text, letterSpacing: 1, textTransform: "uppercase", fontWeight: 600 }}>30 dni</span>
-          <span style={{ fontSize: 9, color: theme.textMuted ?? theme.text, fontWeight: 600 }}>Historia</span>
+      <div style={{ marginTop: 4 }}>
+        <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 4 }}>
+          <span style={{ fontSize: 9, color: theme.textMuted, letterSpacing: "0.06em", textTransform: "uppercase", fontWeight: 600, fontFamily: "var(--font-ui)" }}>30 dni</span>
+          <span style={{ fontSize: 9, color: theme.textMuted, fontWeight: 600, fontFamily: "var(--font-ui)" }}>Historia</span>
         </div>
         <svg width="100%" height={SH + 2} viewBox={`0 0 ${SW} ${SH + 2}`} preserveAspectRatio="none" style={{ display: "block" }}>
           <defs>
@@ -87,15 +87,15 @@ export default function FearGauge({ value = 62, isMobile, theme }) {
       </div>
 
       {!isMobile && (
-        <div style={{ marginTop: 10, paddingTop: 10, borderTop: `1px solid ${theme.bgCardAlt}` }}>
+        <div style={{ marginTop: 12, paddingTop: 12, borderTop: `1px solid ${theme.border}` }}>
           {FEAR_COMPONENTS.map((f) => (
-            <div key={f.label} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "4px 0" }}>
-              <span style={{ fontSize: 11, color: theme.textMuted ?? theme.text }}>{f.label}</span>
+            <div key={f.label} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "5px 0" }}>
+              <span style={{ fontSize: 11, color: theme.textMuted, fontFamily: "var(--font-ui)" }}>{f.label}</span>
               <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
                 <div style={{ width: 48, height: 3, background: theme.bgCardAlt, borderRadius: 2, overflow: "hidden" }}>
-                  <div style={{ width: `${f.val}%`, height: "100%", background: getColor(f.val) }} />
+                  <div style={{ width: `${f.val}%`, height: "100%", background: getColor(f.val), borderRadius: 2, transition: "width 0.4s ease" }} />
                 </div>
-                <span style={{ fontSize: 11, fontWeight: 600, color: getColor(f.val), width: 20, textAlign: "right" }}>{f.val}</span>
+                <span style={{ fontSize: 11, fontWeight: 600, color: getColor(f.val), width: 22, textAlign: "right", fontFamily: "var(--font-mono)", fontVariantNumeric: "tabular-nums" }}>{f.val}</span>
               </div>
             </div>
           ))}

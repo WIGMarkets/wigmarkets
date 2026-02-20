@@ -34,7 +34,7 @@ export function IconTip({ color = "#f0883e", size = 24 }) {
 /* ------------------------------------------------------------------ */
 /* IconWarning - Triangle with exclamation mark                        */
 /* ------------------------------------------------------------------ */
-export function IconWarning({ color = "#ff4d6d", size = 24 }) {
+export function IconWarning({ color = "#ef4444", size = 24 }) {
   return (
     <svg
       viewBox="0 0 24 24"
@@ -61,7 +61,7 @@ export function IconWarning({ color = "#ff4d6d", size = 24 }) {
 /* ------------------------------------------------------------------ */
 /* IconInfo - Circle with "i"                                          */
 /* ------------------------------------------------------------------ */
-export function IconInfo({ color = "#58a6ff", size = 24 }) {
+export function IconInfo({ color = "#3b82f6", size = 24 }) {
   return (
     <svg
       viewBox="0 0 24 24"
@@ -83,7 +83,7 @@ export function IconInfo({ color = "#58a6ff", size = 24 }) {
 /* ------------------------------------------------------------------ */
 /* IconBasics - Open book (for "Podstawy" category)                    */
 /* ------------------------------------------------------------------ */
-export function IconBasics({ color = "#58a6ff", size = 32 }) {
+export function IconBasics({ color = "#3b82f6", size = 32 }) {
   return (
     <svg
       viewBox="0 0 32 32"
@@ -123,7 +123,7 @@ export function IconBasics({ color = "#58a6ff", size = 32 }) {
 /* ------------------------------------------------------------------ */
 /* IconAnalysis - Chart with magnifier (for "Analiza" category)        */
 /* ------------------------------------------------------------------ */
-export function IconAnalysis({ color = "#00c896", size = 32 }) {
+export function IconAnalysis({ color = "#22c55e", size = 32 }) {
   return (
     <svg
       viewBox="0 0 32 32"

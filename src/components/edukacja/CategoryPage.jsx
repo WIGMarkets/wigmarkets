@@ -10,13 +10,13 @@ const CATEGORY_INFO = {
     label: "Podstawy",
     iconName: "book-open",
     description: "Wszystko co musisz wiedzieć na start — jak działa giełda, jak otworzyć konto maklerskie, pierwsze kroki inwestora i podstawowe pojęcia rynku kapitałowego.",
-    color: "#58a6ff",
+    color: "#3b82f6",
   },
   analiza: {
     label: "Analiza",
     iconName: "chart-bar",
     description: "Poznaj narzędzia analizy fundamentalnej i technicznej. Dowiedz się jak czytać sprawozdania finansowe, wskaźniki P/E, RSI, MACD i oceniać wartość spółek.",
-    color: "#00c896",
+    color: "#22c55e",
   },
   strategia: {
     label: "Strategia",
@@ -35,7 +35,7 @@ const SORT_OPTIONS = [
 export default function CategoryPage({ theme, category, onBack, onNavigateArticle, onNavigateHome }) {
   const isMobile = useIsMobile();
   const [sortBy, setSortBy] = useState("newest");
-  const info = CATEGORY_INFO[category] || { label: category, iconName: "file-text", description: "", color: "#58a6ff" };
+  const info = CATEGORY_INFO[category] || { label: category, iconName: "file-text", description: "", color: "#3b82f6" };
 
   let articles = getArticlesByCategory(category);
   if (sortBy === "newest") articles = [...articles].sort((a, b) => b.publishDate.localeCompare(a.publishDate));
@@ -49,7 +49,7 @@ export default function CategoryPage({ theme, category, onBack, onNavigateArticl
   }, [category, info.label, info.description]);
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif", overflowX: "hidden" }}>
+    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)", overflowX: "hidden" }}>
       <div style={{ maxWidth: 1000, margin: "0 auto", padding: isMobile ? 16 : 24, boxSizing: "border-box", width: "100%" }}>
 
         <Breadcrumbs

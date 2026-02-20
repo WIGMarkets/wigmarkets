@@ -70,8 +70,8 @@ export default function Calculator({ type = "compound", title = "Kalkulator inwe
 
       <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(3, 1fr)", gap: 12 }}>
         {[
-          { label: "Łączna wartość portfela", value: `${fmt(result.total)} zł`, color: "#00c896" },
-          { label: "Wpłacony kapitał", value: `${fmt(result.invested)} zł`, color: "#58a6ff" },
+          { label: "Łączna wartość portfela", value: `${fmt(result.total)} zł`, color: "#22c55e" },
+          { label: "Wpłacony kapitał", value: `${fmt(result.invested)} zł`, color: "#3b82f6" },
           { label: "Zysk z inwestycji", value: `${fmt(result.profit)} zł`, color: "#f0883e" },
         ].map(({ label, value, color }) => (
           <div key={label} style={{ background: theme.bgCard, borderRadius: 10, padding: isMobile ? "12px 14px" : "14px 16px", textAlign: "center", border: `1px solid ${theme.border}` }}>

@@ -236,7 +236,7 @@ const SECTOR_COLORS = {
 };
 
 function getColor(ticker, sector) {
-  return BRAND_COLORS[ticker] || SECTOR_COLORS[sector] || "#1f6feb";
+  return BRAND_COLORS[ticker] || SECTOR_COLORS[sector] || "#3b82f6";
 }
 
 export default function StockLogo({ ticker, size = 28, borderRadius = 6, sector = "" }) {
@@ -272,7 +272,7 @@ export default function StockLogo({ ticker, size = 28, borderRadius = 6, sector 
       display: "flex", alignItems: "center", justifyContent: "center",
       fontSize, fontWeight: 800, color: "#ffffff",
       flexShrink: 0, letterSpacing: "-0.5px",
-      fontFamily: "'Inter', 'Segoe UI', sans-serif",
+      fontFamily: "'IBM Plex Sans', 'DM Sans', sans-serif",
     }}>
       {label}
     </div>

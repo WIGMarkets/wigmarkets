@@ -1,5 +1,5 @@
 export const fmt = (n, d = 2) => n?.toLocaleString("pl-PL", { minimumFractionDigits: d, maximumFractionDigits: d }) ?? "—";
-export const changeColor = (v) => v > 0 ? "#00c896" : v < 0 ? "#ff4d6d" : "#8b949e";
+export const changeColor = (v) => v > 0 ? "#22c55e" : v < 0 ? "#ef4444" : "#94a3b8";
 export const changeFmt = (v) => `${v > 0 ? "▲ +" : v < 0 ? "▼ " : ""}${fmt(v)}%`;
 
 const YAHOO_SYMBOL_MAP = {

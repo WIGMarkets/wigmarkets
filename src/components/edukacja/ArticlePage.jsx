@@ -12,7 +12,7 @@ import ArticleIllustration from "./ArticleIllustration.jsx";
 import Icon from "./Icon.jsx";
 
 const CATEGORY_LABELS = { podstawy: "Podstawy", analiza: "Analiza", strategia: "Strategia" };
-const CATEGORY_COLORS = { podstawy: "#58a6ff", analiza: "#00c896", strategia: "#f0883e" };
+const CATEGORY_COLORS = { podstawy: "#3b82f6", analiza: "#22c55e", strategia: "#f0883e" };
 
 function injectSchema(article) {
   ["article-schema", "faq-schema", "breadcrumb-schema"].forEach(id => document.getElementById(id)?.remove());
@@ -93,7 +93,7 @@ export default function ArticlePage({ theme, slug, onBack, onNavigateCategory, o
 
   if (!article) {
     return (
-      <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: 16, padding: 16 }}>
+      <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: 16, padding: 16 }}>
         <div style={{ color: theme.textSecondary }}><Icon name="search" size={48} /></div>
         <div style={{ fontSize: 20, fontWeight: 700, color: theme.textBright }}>Artykuł nie znaleziony</div>
         <div style={{ fontSize: 14, color: theme.textSecondary }}>Artykuł o podanym adresie nie istnieje.</div>
@@ -102,7 +102,7 @@ export default function ArticlePage({ theme, slug, onBack, onNavigateCategory, o
     );
   }
 
-  const catColor = CATEGORY_COLORS[article.category] || "#58a6ff";
+  const catColor = CATEGORY_COLORS[article.category] || "#3b82f6";
   const catLabel = CATEGORY_LABELS[article.category] || article.category;
   const tocItems = buildTOC(article.sections || []);
   const relatedArticles = getArticlesBySlug(article.relatedSlugs || []);
@@ -116,7 +116,7 @@ export default function ArticlePage({ theme, slug, onBack, onNavigateCategory, o
   }
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif", overflowX: "hidden" }}>
+    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)", overflowX: "hidden" }}>
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: isMobile ? "16px" : "24px", boxSizing: "border-box", width: "100%" }}>
 
         <Breadcrumbs

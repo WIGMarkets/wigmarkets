@@ -6,8 +6,8 @@ import Breadcrumbs from "./Breadcrumbs.jsx";
 import Icon from "./Icon.jsx";
 
 const CATEGORIES = [
-  { key: "podstawy", label: "Podstawy", iconName: "book-open", description: "Dowiedz się jak działa giełda, jak otworzyć konto maklerskie i zacząć swoją przygodę z inwestowaniem.", color: "#58a6ff" },
-  { key: "analiza", label: "Analiza", iconName: "chart-bar", description: "Naucz się czytać wykresy, wskaźniki fundamentalne i oceniać wartość spółek.", color: "#00c896" },
+  { key: "podstawy", label: "Podstawy", iconName: "book-open", description: "Dowiedz się jak działa giełda, jak otworzyć konto maklerskie i zacząć swoją przygodę z inwestowaniem.", color: "#3b82f6" },
+  { key: "analiza", label: "Analiza", iconName: "chart-bar", description: "Naucz się czytać wykresy, wskaźniki fundamentalne i oceniać wartość spółek.", color: "#22c55e" },
   { key: "strategia", label: "Strategia", iconName: "target", description: "Poznaj sprawdzone strategie inwestycyjne: dywidendową, value investing, momentum i inne.", color: "#f0883e" },
 ];
 
@@ -69,7 +69,7 @@ export default function EdukacjaHome({ theme, onBack, onNavigateCategory, onNavi
   const popularArticles = POPULAR_SLUGS.map(slug => ARTICLES.find(a => a.slug === slug)).filter(Boolean);
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif", overflowX: "hidden" }}>
+    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)", overflowX: "hidden" }}>
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: isMobile ? "16px" : "24px", boxSizing: "border-box", width: "100%" }}>
 
         <Breadcrumbs theme={theme} items={[{ label: "Strona główna", href: "/", onClick: onBack }, { label: "Edukacja" }]} />

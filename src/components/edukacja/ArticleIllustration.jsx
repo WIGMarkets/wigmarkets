@@ -1,9 +1,9 @@
 import React from "react";
 
-const ACCENT = "#58a6ff";
-const GREEN = "#00c896";
+const ACCENT = "#3b82f6";
+const GREEN = "#22c55e";
 const ORANGE = "#f0883e";
-const RED = "#ff4d6d";
+const RED = "#ef4444";
 const DARK_BG = "#0d1117";
 const CARD_BG = "#161b22";
 const BORDER = "#21262d";

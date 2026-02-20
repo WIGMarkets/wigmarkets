@@ -15,7 +15,7 @@ export default function ProfitCalculatorModal({ stock, currentPrice, onClose, th
   const profitPLN = currentValue - purchaseCost;
   const profitPct = buyPriceNum > 0 ? ((currentPrice - buyPriceNum) / buyPriceNum) * 100 : 0;
   const hasCalc = sharesNum > 0 && buyPriceNum > 0;
-  const color = profitPLN >= 0 ? "#00c896" : "#ff4d6d";
+  const color = profitPLN >= 0 ? "#22c55e" : "#ef4444";
   const sign = (v) => (v >= 0 ? "+" : "");
 
   return (

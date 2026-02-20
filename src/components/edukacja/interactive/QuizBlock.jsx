@@ -73,10 +73,10 @@ export default function QuizBlock({ questions = DEFAULT_QUESTIONS, title = "Spra
 
       {finished ? (
         <div style={{ textAlign: "center", padding: "20px 0" }}>
-          <div style={{ marginBottom: 12, color: score === questions.length ? "#f0883e" : score >= questions.length / 2 ? "#00c896" : "#58a6ff" }}>
+          <div style={{ marginBottom: 12, color: score === questions.length ? "#f0883e" : score >= questions.length / 2 ? "#22c55e" : "#3b82f6" }}>
             <Icon name={score === questions.length ? "trophy" : score >= questions.length / 2 ? "thumbs-up" : "book"} size={48} />
           </div>
-          <div style={{ fontSize: 20, fontWeight: 800, color: "#00c896", marginBottom: 8 }}>
+          <div style={{ fontSize: 20, fontWeight: 800, color: "#22c55e", marginBottom: 8 }}>
             {score}/{questions.length} poprawnych odpowiedzi
           </div>
           <div style={{ fontSize: 14, color: theme.textSecondary, marginBottom: 20 }}>
@@ -84,7 +84,7 @@ export default function QuizBlock({ questions = DEFAULT_QUESTIONS, title = "Spra
           </div>
           <button
             onClick={handleRestart}
-            style={{ padding: "12px 24px", background: "#58a6ff", color: "#000", border: "none", borderRadius: 8, fontWeight: 700, cursor: "pointer", fontFamily: "inherit", fontSize: 14, minHeight: 48 }}
+            style={{ padding: "12px 24px", background: "#3b82f6", color: "#000", border: "none", borderRadius: 8, fontWeight: 700, cursor: "pointer", fontFamily: "inherit", fontSize: 14, minHeight: 48 }}
           >Spróbuj ponownie</button>
         </div>
       ) : (
@@ -94,8 +94,8 @@ export default function QuizBlock({ questions = DEFAULT_QUESTIONS, title = "Spra
             {q.options.map((opt, i) => {
               let bg = theme.bgCard, border = theme.border, color = theme.text;
               if (selected !== null) {
-                if (i === q.correct) { bg = "#00c89620"; border = "#00c896"; color = "#00c896"; }
-                else if (i === selected && i !== q.correct) { bg = "#ff4d6d20"; border = "#ff4d6d"; color = "#ff4d6d"; }
+                if (i === q.correct) { bg = "rgba(34,197,94,0.12)"; border = "#22c55e"; color = "#22c55e"; }
+                else if (i === selected && i !== q.correct) { bg = "rgba(239,68,68,0.12)"; border = "#ef4444"; color = "#ef4444"; }
               }
               return (
                 <button
@@ -111,14 +111,14 @@ export default function QuizBlock({ questions = DEFAULT_QUESTIONS, title = "Spra
             })}
           </div>
           {showExplanation && (
-            <div style={{ background: "#58a6ff15", border: "1px solid #58a6ff40", borderRadius: 8, padding: "12px 16px", marginBottom: 16, fontSize: 14, color: theme.text, lineHeight: 1.6 }}>
+            <div style={{ background: "rgba(59,130,246,0.08)", border: "1px solid rgba(59,130,246,0.25)", borderRadius: 8, padding: "12px 16px", marginBottom: 16, fontSize: 14, color: theme.text, lineHeight: 1.6 }}>
               <span style={{ display: "inline-flex", alignItems: "flex-start", gap: 6 }}><Icon name="lightbulb" size={16} color="#f0883e" style={{ marginTop: 2 }} /> <span>{q.explanation}</span></span>
             </div>
           )}
           {selected !== null && (
             <button
               onClick={handleNext}
-              style={{ padding: "12px 24px", background: "#58a6ff", color: "#000", border: "none", borderRadius: 8, fontWeight: 700, cursor: "pointer", fontFamily: "inherit", fontSize: 14, minHeight: 48 }}
+              style={{ padding: "12px 24px", background: "#3b82f6", color: "#000", border: "none", borderRadius: 8, fontWeight: 700, cursor: "pointer", fontFamily: "inherit", fontSize: 14, minHeight: 48 }}
             ><span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>{current + 1 >= questions.length ? "Zobacz wynik" : <>Następne pytanie <Icon name="arrow-right" size={14} /></>}</span></button>
           )}
         </>

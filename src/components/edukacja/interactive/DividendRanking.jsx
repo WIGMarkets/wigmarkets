@@ -37,7 +37,7 @@ export default function DividendRanking({ theme }) {
           <div style={{ fontSize: 13, fontWeight: 700, color: theme.textBright, display: "flex", alignItems: "center", gap: 6 }}><Icon name="trophy" size={16} color="#f0883e" /> Ranking spółek dywidendowych GPW 2026</div>
           <div style={{ fontSize: 11, color: theme.textSecondary, marginTop: 2 }}>Dane szacunkowe · Dywidendy mogą ulec zmianie</div>
         </div>
-        <span style={{ background: "#00c89620", color: "#00c896", fontSize: 11, fontWeight: 700, padding: "3px 10px", borderRadius: 20 }}>
+        <span style={{ background: "rgba(34,197,94,0.12)", color: "#22c55e", fontSize: 11, fontWeight: 700, padding: "3px 10px", borderRadius: 20 }}>
           Posortowane wg stopy dywidendy
         </span>
       </div>
@@ -61,7 +61,7 @@ export default function DividendRanking({ theme }) {
                 </td>
                 <td style={{ padding: "10px 14px", color: "#c9d1d9", whiteSpace: "nowrap" }}>{row.sector}</td>
                 <td style={{ padding: "10px 14px" }}>
-                  <span style={{ background: "#00c89620", color: "#00c896", fontWeight: 700, padding: "2px 8px", borderRadius: 5 }}>
+                  <span style={{ background: "rgba(34,197,94,0.12)", color: "#22c55e", fontWeight: 700, padding: "2px 8px", borderRadius: 5 }}>
                     {row.divYield.toFixed(1)}%
                   </span>
                 </td>

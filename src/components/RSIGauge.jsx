@@ -1,7 +1,7 @@
 export default function RSIGauge({ value, theme }) {
   if (value == null) return <div style={{ color: theme.textSecondary, fontSize: 12 }}>Ładowanie RSI...</div>;
   const label = value > 70 ? "Wykupiony" : value < 30 ? "Wyprzedany" : "Neutralny";
-  const color = value > 70 ? "#ff4d6d" : value < 30 ? "#00c896" : "#ffd700";
+  const color = value > 70 ? "#ef4444" : value < 30 ? "#22c55e" : "#ffd700";
   const pct = Math.min(Math.max(value / 100, 0), 1);
   return (
     <div>
@@ -15,7 +15,7 @@ export default function RSIGauge({ value, theme }) {
       <div style={{ height: 8, background: theme.border, borderRadius: 6, position: "relative", overflow: "hidden" }}>
         <div style={{
           position: "absolute", left: 0, top: 0, bottom: 0, borderRadius: 6,
-          width: `${pct * 100}%`, background: "linear-gradient(90deg, #00c896, #ffd700, #ff4d6d)",
+          width: `${pct * 100}%`, background: "linear-gradient(90deg, #22c55e, #eab308, #ef4444)",
           transition: "width 0.6s ease"
         }} />
       </div>

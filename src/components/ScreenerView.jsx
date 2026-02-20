@@ -196,7 +196,7 @@ export default function ScreenerView({ stocks, prices, changes, theme, onSelect 
                 const c24h = changes[s.ticker]?.change24h ?? 0;
                 const c7d = changes[s.ticker]?.change7d ?? 0;
                 const rsi = rsiData[s.ticker];
-                const rsiColor = rsi > 70 ? "#ff4d6d" : rsi < 30 ? "#00c896" : "#ffd700";
+                const rsiColor = rsi > 70 ? "#ef4444" : rsi < 30 ? "#22c55e" : "#ffd700";
                 return (
                   <tr key={s.id} onClick={() => onSelect(s)} style={{ borderBottom: `1px solid ${theme.bgCardAlt}`, cursor: "pointer" }}
                     onMouseEnter={e => e.currentTarget.style.background = theme.bgCardAlt}
@@ -204,21 +204,21 @@ export default function ScreenerView({ stocks, prices, changes, theme, onSelect 
                     {!isMobile && <td style={{ padding: "10px 14px", color: theme.textSecondary, fontSize: 11 }}>{(page - 1) * PER_PAGE + i + 1}</td>}
                     <td style={{ padding: isMobile ? "10px 10px" : "10px 14px" }}>
                       <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                        <div style={{ width: 28, height: 28, borderRadius: 6, background: "linear-gradient(135deg, #1f6feb22, #58a6ff33)", border: "1px solid #58a6ff44", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 9, fontWeight: 800, color: "#58a6ff", flexShrink: 0 }}>{s.ticker.slice(0, 2)}</div>
+                        <div style={{ width: 28, height: 28, borderRadius: 6, background: "linear-gradient(135deg, #3b82f622, #3b82f633)", border: "1px solid #3b82f644", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 9, fontWeight: 800, color: "#3b82f6", flexShrink: 0 }}>{s.ticker.slice(0, 2)}</div>
                         <div>
                           <div style={{ fontWeight: 700, color: theme.textBright, fontSize: isMobile ? 12 : 13 }}>{s.ticker}</div>
                           <div style={{ fontSize: 10, color: theme.textSecondary, maxWidth: isMobile ? 100 : 180, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.name}</div>
                         </div>
                       </div>
                     </td>
-                    <td style={{ padding: isMobile ? "10px 6px" : "10px 14px", textAlign: "right", fontWeight: 700, color: c24h > 0 ? "#00c896" : c24h < 0 ? "#ff4d6d" : "#c9d1d9", fontSize: isMobile ? 11 : 13, whiteSpace: "nowrap" }}>{fmt(currentPrice)} zł</td>
+                    <td style={{ padding: isMobile ? "10px 6px" : "10px 14px", textAlign: "right", fontWeight: 700, color: c24h > 0 ? "#22c55e" : c24h < 0 ? "#ef4444" : "#c9d1d9", fontSize: isMobile ? 11 : 13, whiteSpace: "nowrap" }}>{fmt(currentPrice)} zł</td>
                     <td style={{ padding: isMobile ? "10px 6px" : "10px 14px", textAlign: "right" }}>
-                      <span style={{ padding: "2px 6px", borderRadius: 5, fontSize: isMobile ? 11 : 12, fontWeight: 700, background: c24h > 0 ? "#00c89620" : "#ff4d6d20", color: changeColor(c24h), whiteSpace: "nowrap" }}>{changeFmt(c24h)}</span>
+                      <span style={{ padding: "2px 6px", borderRadius: 5, fontSize: isMobile ? 11 : 12, fontWeight: 700, background: c24h > 0 ? "rgba(34,197,94,0.12)" : "rgba(239,68,68,0.12)", color: changeColor(c24h), whiteSpace: "nowrap" }}>{changeFmt(c24h)}</span>
                     </td>
                     {!isMobile && <td style={{ padding: "10px 14px", textAlign: "right", color: changeColor(c7d), fontSize: 12 }}>{changeFmt(c7d)}</td>}
                     <td style={{ padding: isMobile ? "10px 6px" : "10px 14px", textAlign: "right", color: theme.textSecondary, fontSize: 12, whiteSpace: "nowrap" }}>{fmtCap(s.cap)}</td>
                     {!isMobile && <td style={{ padding: "10px 14px", textAlign: "right", color: theme.textSecondary, fontSize: 12 }}>{s.pe > 0 ? fmt(s.pe) : "—"}</td>}
-                    {!isMobile && <td style={{ padding: "10px 14px", textAlign: "right", color: s.div > 0 ? "#00c896" : theme.textSecondary, fontSize: 12, fontWeight: s.div > 0 ? 600 : 400 }}>{s.div > 0 ? `${fmt(s.div)}%` : "—"}</td>}
+                    {!isMobile && <td style={{ padding: "10px 14px", textAlign: "right", color: s.div > 0 ? "#22c55e" : theme.textSecondary, fontSize: 12, fontWeight: s.div > 0 ? 600 : 400 }}>{s.div > 0 ? `${fmt(s.div)}%` : "—"}</td>}
                     <td style={{ padding: isMobile ? "10px 6px" : "10px 14px", textAlign: "right" }}>
                       {rsi != null ? (
                         <span style={{ padding: "2px 8px", borderRadius: 5, fontSize: 11, fontWeight: 700, background: `${rsiColor}20`, color: rsiColor }}>{rsi.toFixed(0)}</span>
@@ -237,7 +237,7 @@ export default function ScreenerView({ stocks, prices, changes, theme, onSelect 
             <div style={{ fontSize: 11, color: theme.textSecondary }}>{(page - 1) * PER_PAGE + 1}–{Math.min(page * PER_PAGE, filtered.length)} z {filtered.length}</div>
             <div style={{ display: "flex", gap: 4, flexWrap: "wrap" }}>
               {Array.from({ length: Math.min(totalPages, 10) }, (_, i) => i + 1).map(p => (
-                <button key={p} onClick={() => setPage(p)} style={{ width: 26, height: 26, borderRadius: 5, border: "1px solid", borderColor: p === page ? theme.accent : theme.borderInput, background: p === page ? "#1f6feb22" : "transparent", color: p === page ? theme.accent : theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>{p}</button>
+                <button key={p} onClick={() => setPage(p)} style={{ width: 26, height: 26, borderRadius: 5, border: "1px solid", borderColor: p === page ? theme.accent : theme.borderInput, background: p === page ? "#3b82f622" : "transparent", color: p === page ? theme.accent : theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>{p}</button>
               ))}
             </div>
           </div>

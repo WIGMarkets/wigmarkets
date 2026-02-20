@@ -129,7 +129,7 @@ export default function FearGreedPage({ onBack, theme }) {
   };
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif" }}>
+    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)" }}>
       {/* Header */}
       <div style={{
         background: theme.bgCard,

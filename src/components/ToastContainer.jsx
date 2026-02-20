@@ -20,10 +20,10 @@ export default function ToastContainer({ theme }) {
   if (!toasts.length) return null;
 
   const colors = {
-    info:    { bg: "#1f6feb22", border: "#1f6feb", text: "#58a6ff" },
-    success: { bg: "#00c89622", border: "#00c896", text: "#00c896" },
+    info:    { bg: "#3b82f622", border: "#3b82f6", text: "#3b82f6" },
+    success: { bg: "rgba(34,197,94,0.12)", border: "#22c55e", text: "#22c55e" },
     warning: { bg: "#ffd70022", border: "#ffd700", text: "#ffd700" },
-    error:   { bg: "#ff4d6d22", border: "#ff4d6d", text: "#ff4d6d" },
+    error:   { bg: "rgba(239,68,68,0.12)", border: "#ef4444", text: "#ef4444" },
   };
 
   return (
