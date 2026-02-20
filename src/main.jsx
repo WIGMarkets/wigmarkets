@@ -667,7 +667,7 @@ export default function WigMarkets() {
 
           {/* Table */}
           <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 12, overflow: "hidden" }}>
-            <div style={{ overflowX: "auto", overflowY: "auto", maxHeight: isMobile ? "none" : "calc(100vh - 320px)", WebkitOverflowScrolling: "touch" }}>
+            <div style={{ overflowX: "auto", WebkitOverflowScrolling: "touch" }}>
               <table style={{ width: "100%", borderCollapse: "collapse", fontSize: isMobile ? 12 : 13, minWidth: isMobile ? "auto" : 600 }}>
                 <thead style={{ position: "sticky", top: 0, zIndex: 2, background: theme.bgCard }}>
                   <tr>
