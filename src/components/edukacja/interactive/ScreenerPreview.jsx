@@ -37,7 +37,7 @@ export default function ScreenerPreview({ theme, onNavigate }) {
         <a
           href="/"
           onClick={e => { e.preventDefault(); onNavigate?.("/"); }}
-          style={{ fontSize: 12, color: "#3b82f6", textDecoration: "none", fontWeight: 600, padding: "8px 14px", border: "1px solid #3b82f640", borderRadius: 8, minHeight: 44, display: "inline-flex", alignItems: "center" }}
+          style={{ fontSize: 12, color: "#3b82f6", textDecoration: "none", fontWeight: 600, padding: "8px 14px", border: "1px solid rgba(59,130,246,0.25)", borderRadius: 8, minHeight: 44, display: "inline-flex", alignItems: "center" }}
         >
           <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>Pełny screener <Icon name="arrow-right" size={14} /></span>
         </a>

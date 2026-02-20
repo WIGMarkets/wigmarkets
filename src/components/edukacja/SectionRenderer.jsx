@@ -47,9 +47,9 @@ const BLOCK_ICONS = {
 };
 
 const BLOCK_STYLES = {
-  tip: { borderColor: "#22c55e", bg: "#22c55e12" },
+  tip: { borderColor: "#22c55e", bg: "rgba(34,197,94,0.07)" },
   warning: { borderColor: "#f0883e", bg: "#f0883e12" },
-  info: { borderColor: "#3b82f6", bg: "#3b82f612" },
+  info: { borderColor: "#3b82f6", bg: "rgba(59,130,246,0.07)" },
 };
 
 const INTERACTIVE_COMPONENTS = {

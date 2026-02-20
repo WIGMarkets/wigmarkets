@@ -111,7 +111,7 @@ export default function QuizBlock({ questions = DEFAULT_QUESTIONS, title = "Spra
             })}
           </div>
           {showExplanation && (
-            <div style={{ background: "#3b82f615", border: "1px solid #3b82f640", borderRadius: 8, padding: "12px 16px", marginBottom: 16, fontSize: 14, color: theme.text, lineHeight: 1.6 }}>
+            <div style={{ background: "rgba(59,130,246,0.08)", border: "1px solid rgba(59,130,246,0.25)", borderRadius: 8, padding: "12px 16px", marginBottom: 16, fontSize: 14, color: theme.text, lineHeight: 1.6 }}>
               <span style={{ display: "inline-flex", alignItems: "flex-start", gap: 6 }}><Icon name="lightbulb" size={16} color="#f0883e" style={{ marginTop: 2 }} /> <span>{q.explanation}</span></span>
             </div>
           )}
