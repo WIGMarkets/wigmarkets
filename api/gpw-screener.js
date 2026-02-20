@@ -121,6 +121,7 @@ async function fetchChart(yahoo, retries = 2) {
         change7d: weekAgo
           ? parseFloat((((today - weekAgo) / weekAgo) * 100).toFixed(2))
           : 0,
+        sparkline: closes,
       };
     } catch {
       if (attempt < retries) {
