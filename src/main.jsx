@@ -29,11 +29,24 @@ import { loadAlerts, usePriceAlerts } from "./hooks/usePriceAlerts.js";
 
 const ALL_INSTRUMENTS = [...STOCKS, ...COMMODITIES, ...FOREX];
 
-function fmtVolume(v) {
+function fmtVolume(v, price) {
   if (!v) return "—";
-  if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M`;
-  if (v >= 1_000) return `${(v / 1_000).toFixed(0)}K`;
-  return String(v);
+  // Show PLN turnover (volume × price) for better readability
+  const pln = price ? v * price : 0;
+  if (pln >= 1e9) return `${(pln / 1e9).toFixed(2)} mld`;
+  if (pln >= 1e6) return `${(pln / 1e6).toFixed(1)} mln`;
+  if (pln >= 1e3) return `${(pln / 1e3).toFixed(0)} tys`;
+  if (pln > 0) return `${Math.round(pln)}`;
+  // Fallback: show share count if no price
+  if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M szt`;
+  if (v >= 1_000) return `${(v / 1_000).toFixed(0)}K szt`;
+  return `${v} szt`;
+}
+
+function fmtCap(cap) {
+  if (!cap) return "—";
+  if (cap >= 1000) return `${(cap / 1000).toFixed(1)} mld`;
+  return `${Math.round(cap)} mln`;
 }
 
 function TableRow({ s, i, rank, isMobile, tab, theme, prices, changes, watchlist, toggleWatch, navigateToStock, setSelected, setCalcStock, isKeyboardActive, onHover, showPE, showDiv }) {
@@ -70,8 +83,8 @@ function TableRow({ s, i, rank, isMobile, tab, theme, prices, changes, watchlist
         <span style={{ padding: "2px 6px", borderRadius: 5, fontSize: isMobile ? 11 : 12, fontWeight: 700, background: c24h > 0 ? "#00c89620" : "#ff4d6d20", color: changeColor(c24h), whiteSpace: "nowrap" }}>{changeFmt(c24h)}</span>
       </td>
       {!isMobile && <td style={{ padding: "13px 16px", textAlign: "right", color: changeColor(c7d), fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{changeFmt(c7d)}</td>}
-      {!isMobile && (tab === "akcje" || tab === "screener") && <td style={{ padding: "13px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{fmt(s.cap, 0)}</td>}
-      {!isMobile && tab !== "screener" && <td style={{ padding: "13px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{fmtVolume(volume)}</td>}
+      {!isMobile && (tab === "akcje" || tab === "screener") && <td style={{ padding: "13px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{fmtCap(s.cap)}</td>}
+      {!isMobile && tab !== "screener" && <td style={{ padding: "13px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{fmtVolume(volume, currentPrice)}</td>}
       {!isMobile && tab === "akcje" && showPE  && <td style={{ padding: "13px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{s.pe ? fmt(s.pe) : "—"}</td>}
       {!isMobile && tab === "akcje" && showDiv && <td style={{ padding: "13px 16px", textAlign: "right", color: s.div > 0 ? "#00c896" : theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{s.div ? `${fmt(s.div)}%` : "—"}</td>}
       {!isMobile && <td style={{ padding: "13px 16px", textAlign: "right" }}><Sparkline trend={c7d} /></td>}
@@ -558,7 +571,7 @@ export default function WigMarkets() {
 
       <div style={{ maxWidth: 1400, margin: "0 auto", display: isMobile ? "block" : "grid", gridTemplateColumns: (tab === "screener" || tab === "forex") ? "1fr" : "1fr 280px", gap: 24, padding: isMobile ? "0 12px" : "0 24px" }}>
         {tab === "screener" ? (
-          <ScreenerView prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
+          <ScreenerView stocks={liveStocks} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
         ) : (<>
         <div>
           {/* Popularne tab */}
@@ -658,8 +671,8 @@ export default function WigMarkets() {
                     {col("Kurs", "price")}
                     {col("24h %", "change24h")}
                     {!isMobile && col("7d %", "change7d")}
-                    {!isMobile && (tab === "akcje" || tab === "screener") && col("Kap.", "cap")}
-                    {!isMobile && tab !== "screener" && col("Wolumen", "volume")}
+                    {!isMobile && (tab === "akcje" || tab === "screener") && col("Kapitalizacja", "cap")}
+                    {!isMobile && tab !== "screener" && col("Obrót", "volume")}
                     {!isMobile && (tab === "akcje") && showPE && col("P/E", "pe")}
                     {!isMobile && (tab === "akcje") && showDiv && col("Dyw %", "div")}
                     {!isMobile && <th style={{ padding: "10px 16px", textAlign: "right", fontSize: 10, color: theme.textSecondary, borderBottom: `1px solid ${theme.border}`, fontWeight: 600 }}>7D</th>}

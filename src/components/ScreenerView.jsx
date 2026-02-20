@@ -1,10 +1,15 @@
 import { useState, useEffect, useMemo } from "react";
-import { STOCKS } from "../data/stocks.js";
 import { fmt, changeFmt, changeColor, calculateRSI } from "../utils.js";
 import { fetchHistory } from "../api.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 
-export default function ScreenerView({ prices, changes, theme, onSelect }) {
+function fmtCap(cap) {
+  if (!cap) return "—";
+  if (cap >= 1000) return `${(cap / 1000).toFixed(1)} mld`;
+  return `${Math.round(cap)} mln`;
+}
+
+export default function ScreenerView({ stocks, prices, changes, theme, onSelect }) {
   const isMobile = useIsMobile();
   const [peMin, setPeMin] = useState("");
   const [peMax, setPeMax] = useState("");
@@ -24,8 +29,8 @@ export default function ScreenerView({ prices, changes, theme, onSelect }) {
     const loadRSI = async () => {
       const batch = {};
       const batchSize = 10;
-      for (let i = 0; i < STOCKS.length; i += batchSize) {
-        const chunk = STOCKS.slice(i, i + batchSize);
+      for (let i = 0; i < stocks.length; i += batchSize) {
+        const chunk = stocks.slice(i, i + batchSize);
         const results = await Promise.all(
           chunk.map(s => fetchHistory(s.stooq || s.ticker.toLowerCase()).then(d => ({ ticker: s.ticker, prices: d?.prices })))
         );
@@ -41,7 +46,7 @@ export default function ScreenerView({ prices, changes, theme, onSelect }) {
     return () => { cancelled = true; };
   }, []);
 
-  const sectors = useMemo(() => ["all", ...Array.from(new Set(STOCKS.map(s => s.sector))).sort()], []);
+  const sectors = useMemo(() => ["all", ...Array.from(new Set(stocks.map(s => s.sector))).sort()], [stocks]);
 
   const resetFilters = () => {
     setPeMin(""); setPeMax(""); setDivMin(""); setCapSize("all");
@@ -50,7 +55,7 @@ export default function ScreenerView({ prices, changes, theme, onSelect }) {
   };
 
   const filtered = useMemo(() => {
-    return STOCKS.filter(s => {
+    return stocks.filter(s => {
       const peMinN = parseFloat(peMin), peMaxN = parseFloat(peMax);
       if (!isNaN(peMinN) && (s.pe <= 0 || s.pe < peMinN)) return false;
       if (!isNaN(peMaxN) && (s.pe <= 0 || s.pe > peMaxN)) return false;
@@ -160,8 +165,8 @@ export default function ScreenerView({ prices, changes, theme, onSelect }) {
         <div style={{ fontSize: 12, color: theme.textSecondary }}>
           Znaleziono <span style={{ fontWeight: 700, color: theme.accent }}>{filtered.length}</span> spółek
         </div>
-        {Object.keys(rsiData).length < STOCKS.length && (
-          <div style={{ fontSize: 10, color: theme.textSecondary }}>RSI: {Object.keys(rsiData).length}/{STOCKS.length}</div>
+        {Object.keys(rsiData).length < stocks.length && (
+          <div style={{ fontSize: 10, color: theme.textSecondary }}>RSI: {Object.keys(rsiData).length}/{stocks.length}</div>
         )}
       </div>
 
@@ -175,7 +180,7 @@ export default function ScreenerView({ prices, changes, theme, onSelect }) {
                 {colHead("Kurs", "price")}
                 {colHead("24h %", "change24h")}
                 {!isMobile && colHead("7d %", "change7d")}
-                {colHead("Kap.", "cap")}
+                {colHead("Kapitalizacja", "cap")}
                 {!isMobile && colHead("C/Z", "pe")}
                 {!isMobile && colHead("Dyw. %", "div")}
                 {colHead("RSI", "rsi")}
@@ -210,7 +215,7 @@ export default function ScreenerView({ prices, changes, theme, onSelect }) {
                       <span style={{ padding: "2px 6px", borderRadius: 5, fontSize: isMobile ? 11 : 12, fontWeight: 700, background: c24h > 0 ? "#00c89620" : "#ff4d6d20", color: changeColor(c24h), whiteSpace: "nowrap" }}>{changeFmt(c24h)}</span>
                     </td>
                     {!isMobile && <td style={{ padding: "10px 14px", textAlign: "right", color: changeColor(c7d), fontSize: 12 }}>{changeFmt(c7d)}</td>}
-                    <td style={{ padding: isMobile ? "10px 6px" : "10px 14px", textAlign: "right", color: theme.textSecondary, fontSize: 12, whiteSpace: "nowrap" }}>{fmt(s.cap, 0)}</td>
+                    <td style={{ padding: isMobile ? "10px 6px" : "10px 14px", textAlign: "right", color: theme.textSecondary, fontSize: 12, whiteSpace: "nowrap" }}>{fmtCap(s.cap)}</td>
                     {!isMobile && <td style={{ padding: "10px 14px", textAlign: "right", color: theme.textSecondary, fontSize: 12 }}>{s.pe > 0 ? fmt(s.pe) : "—"}</td>}
                     {!isMobile && <td style={{ padding: "10px 14px", textAlign: "right", color: s.div > 0 ? "#00c896" : theme.textSecondary, fontSize: 12, fontWeight: s.div > 0 ? 600 : 400 }}>{s.div > 0 ? `${fmt(s.div)}%` : "—"}</td>}
                     <td style={{ padding: isMobile ? "10px 6px" : "10px 14px", textAlign: "right" }}>
