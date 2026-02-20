@@ -19,6 +19,7 @@ import StockModal from "./components/StockModal.jsx";
 import StockLogo from "./components/StockLogo.jsx";
 import CompanyMonogram from "./components/CompanyMonogram.jsx";
 import MarketOverviewCards from "./components/MarketOverviewCards.jsx";
+import WIGMarketsLogo from "./components/WIGMarketsLogo.jsx";
 import StockPage from "./components/StockPage.jsx";
 import FearGreedPage from "./components/FearGreedPage.jsx";
 import NewsPage from "./components/NewsPage.jsx";
@@ -492,33 +493,26 @@ export default function WigMarkets() {
         </div>
       )}
 
-      {/* Top bar */}
-      <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, padding: "0 16px", overflowX: "auto" }}>
-        <div style={{ display: "flex", gap: isMobile ? 16 : 32, padding: "10px 0", alignItems: "center" }}>
-          <div style={{ fontWeight: 800, fontSize: 16, color: theme.textBright, whiteSpace: "nowrap", fontFamily: "var(--font-ui)", letterSpacing: "-0.02em" }}>WIG<span style={{ color: theme.accent }}>markets</span></div>
-          {!isMobile && indices.map(idx => (
-            <div key={idx.name} style={{ display: "flex", gap: 8, alignItems: "baseline", whiteSpace: "nowrap" }}>
-              <span style={{ color: theme.accent, fontWeight: 600, fontSize: 11, fontFamily: "var(--font-ui)" }}>{idx.name}</span>
-              <span style={{ fontSize: 12, color: theme.textBright, fontFamily: "var(--font-mono)", fontVariantNumeric: "tabular-nums" }}>{fmtIdx(idx.value)}</span>
-              <span style={{ fontSize: 11, color: idx.change24h >= 0 ? "#22c55e" : "#ef4444", fontFamily: "var(--font-mono)", fontWeight: 600 }}>{fmtIdxChange(idx.change24h)}</span>
-            </div>
-          ))}
+      {/* Top bar — logo + kontrolki */}
+      <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, padding: "0 16px" }}>
+        <div style={{ display: "flex", alignItems: "center", minHeight: 56 }}>
+          <WIGMarketsLogo size={isMobile ? "small" : "default"} theme={theme} />
           <div style={{ marginLeft: "auto", display: "flex", gap: 6, flexShrink: 0 }}>
-            <button onClick={() => setShowAlerts(s => !s)} title="Alerty cenowe" style={{ position: "relative", background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "4px 10px", fontSize: 13, cursor: "pointer", fontFamily: "inherit" }}>
-              <Icon name="bell" size={16} />{alerts.some(a => a.triggered) && <span style={{ position: "absolute", top: 2, right: 2, width: 6, height: 6, borderRadius: "50%", background: "#ef4444", display: "block" }} />}
+            <button onClick={() => setShowAlerts(s => !s)} title="Alerty cenowe" style={{ position: "relative", background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "6px 10px", fontSize: 13, cursor: "pointer", fontFamily: "inherit", display: "inline-flex", alignItems: "center" }}>
+              <Icon name="bell" size={16} />{alerts.some(a => a.triggered) && <span style={{ position: "absolute", top: 3, right: 3, width: 6, height: 6, borderRadius: "50%", background: "#ef4444", display: "block" }} />}
             </button>
             {!isMobile && (
-              <button onClick={() => setShowShortcuts(s => !s)} title="Skróty klawiszowe (?)" style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "4px 10px", fontSize: 13, cursor: "pointer", fontFamily: "inherit" }}>?</button>
+              <button onClick={() => setShowShortcuts(s => !s)} title="Skróty klawiszowe (?)" style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "6px 12px", fontSize: 13, cursor: "pointer", fontFamily: "inherit" }}>?</button>
             )}
-            <button onClick={() => setDarkMode(d => !d)} style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "4px 10px", fontSize: 13, cursor: "pointer", fontFamily: "inherit" }}>
+            <button onClick={() => setDarkMode(d => !d)} style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "6px 12px", fontSize: 13, cursor: "pointer", fontFamily: "inherit" }}>
               {darkMode ? "Jasny" : "Ciemny"}
             </button>
+            {isMobile && (
+              <button onClick={() => setSidebarOpen(o => !o)} style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "6px 10px", fontSize: 11, cursor: "pointer", fontFamily: "inherit", display: "inline-flex", alignItems: "center" }}>
+                {sidebarOpen ? <Icon name="x" size={14} /> : "Wykres"}
+              </button>
+            )}
           </div>
-          {isMobile && (
-            <button onClick={() => setSidebarOpen(o => !o)} style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "4px 10px", fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>
-              {sidebarOpen ? <Icon name="x" size={14} /> : "Wykres"}
-            </button>
-          )}
         </div>
       </div>
 
@@ -788,8 +782,11 @@ export default function WigMarkets() {
         </div>
       </div>
 
-      <div style={{ textAlign: "center", padding: "16px 24px", fontSize: 10, color: theme.textSecondary }}>
-        WIGmarkets © 2026 · Dane z GPW via Yahoo Finance · Nie stanowią rekomendacji inwestycyjnej
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 6, padding: "20px 24px", borderTop: `1px solid ${theme.border}` }}>
+        <WIGMarketsLogo size="large" theme={theme} />
+        <div style={{ fontSize: 10, color: theme.textSecondary, textAlign: "center" }}>
+          © 2026 · Dane z GPW via Yahoo Finance · Nie stanowią rekomendacji inwestycyjnej
+        </div>
       </div>
 
       <ToastContainer theme={theme} />
