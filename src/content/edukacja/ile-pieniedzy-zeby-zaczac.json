@@ -2,20 +2,23 @@
   "slug": "ile-pieniedzy-zeby-zaczac",
   "title": "Ile pieniędzy potrzebujesz, żeby zacząć inwestować",
   "metaTitle": "Ile pieniędzy potrzeba do inwestowania na GPW? Minimum 2026 | WIGmarkets.pl",
-  "metaDescription": "Ile pieniędzy potrzebujesz żeby zacząć inwestować na giełdzie? Minimalne kwoty, prowizje, przykładowe portfele dla budżetów 500 zł, 1000 zł i 5000 zł.",
+  "metaDescription": "Ile pieniędzy potrzebujesz żeby zacząć inwestować na giełdzie? Minimalne kwoty, prowizje i przykłady portfeli dla różnych budżetów.",
   "category": "podstawy",
   "author": "Redakcja WIGmarkets",
-  "publishDate": "2026-02-05",
+  "publishDate": "2026-02-20",
   "updatedDate": "2026-02-20",
   "readingTime": 10,
-  "featuredImage": "/images/edukacja/ile-pieniedzy.webp",
-  "featuredImageAlt": "Skarbonka i monety symbolizujące oszczędności na inwestycje",
+  "featuredImage": "/images/edukacja/ile-pieniedzy-zeby-zaczac.webp",
+  "featuredImageAlt": "Ile pieniędzy potrzeba do inwestowania na giełdzie",
   "tags": [
-    "początkujący",
-    "minimalna kwota",
+    "inwestowanie",
+    "budżet inwestycyjny",
+    "prowizje",
     "DCA",
     "IKE",
-    "portfel"
+    "IKZE",
+    "GPW",
+    "ETF"
   ],
   "relatedSlugs": [
     "jak-zaczac-inwestowac-na-gpw",
@@ -23,78 +26,103 @@
     "etf-na-gpw"
   ],
   "ctaType": "screener",
-  "ctaText": "Sprawdź spółki GPW odpowiednie dla Twojego portfela",
+  "ctaText": "Zacznij monitorować rynek GPW za darmo",
   "ctaLink": "/",
   "sections": [
     {
+      "type": "heading",
+      "level": 2,
+      "text": "Ile naprawdę potrzebujesz, żeby zacząć?"
+    },
+    {
       "type": "paragraph",
-      "text": "Jedno z najczęstszych pytań zadawanych przez osoby rozważające inwestowanie brzmi: ile pieniędzy potrzebuję na start? Dobra wiadomość jest taka, że formalnie możesz zacząć od bardzo małej kwoty — nawet 100–200 zł. Zła wiadomość: przy tak małych kwotach koszty transakcyjne (prowizje) pochłoną znaczną część Twojego kapitału. W praktyce, aby inwestowanie miało sens ekonomiczny, warto zacząć od co najmniej kilkuset do tysiąca złotych. Ale ważniejsza niż kwota startowa jest regularność i dyscyplina — systematyczne inwestowanie nawet małych kwot przez wiele lat daje lepsze efekty niż jednorazowe duże wpłaty."
+      "text": "To jedno z najczęściej zadawanych pytań przez osoby zainteresowane inwestowaniem. Krótka odpowiedź brzmi: technicznie możesz zacząć inwestować na GPW już od kilkudziesięciu złotych — tyle kosztuje jedna jednostka najtańszego ETF-u lub akcja najtańszej spółki giełdowej. Jednak realistyczna odpowiedź jest nieco bardziej złożona. Minimalna sensowna kwota do zainwestowania zależy od kilku czynników: rodzaju wybranego instrumentu (ETF, akcje, obligacje), brokera i jego prowizji (minimalne prowizje w Polsce wynoszą zazwyczaj 3-5 PLN), Twojej strategii inwestycyjnej oraz — co najważniejsze — Twojej sytuacji finansowej. Inwestowanie z kwot poniżej 500-1000 PLN jednorazowo jest możliwe, ale prowizje transakcyjne pochłaniają relatywnie dużo. Najistotniejsze jednak jest to, że przed inwestowaniem powinieneś mieć stabilną sytuację finansową: brak długów konsumenckich o wysokim oprocentowaniu, fundusz awaryjny pokrywający 3-6 miesięcy wydatków, i inwestować tylko pieniądze, bez których możesz się przez wiele lat obejść. Inwestowanie to maraton, nie sprint — i nawet małe kwoty regularnie inwestowane przez lata dają imponujące efekty dzięki procentowi składanemu."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Zanim zaczniesz inwestować — fundusz awaryjny"
+      "text": "Fundusz awaryjny — pierwszeństwo przed inwestowaniem"
     },
     {
       "type": "paragraph",
-      "text": "Zanim w ogóle pomyślisz o inwestowaniu na giełdzie, upewnij się, że masz zbudowany fundusz awaryjny — oszczędności pokrywające 3–6 miesięcy Twoich wydatków. Fundusz awaryjny powinien być trzymany na bezpiecznym, łatwo dostępnym koncie oszczędnościowym lub lokacie, nie na giełdzie. Dlaczego? Bo giełda jest zmienna — w złym momencie może stracić 30–50% wartości. Jeśli w tym czasie stracisz pracę lub pojawi się nagły wydatek, możesz być zmuszony sprzedać akcje ze stratą. Fundusz awaryjny chroni Cię przed takim scenariuszem i pozwala spokojnie przeczekać bessę bez panicznego wychodzenia z inwestycji."
-    },
-    {
-      "type": "warning",
-      "text": "Nigdy nie inwestuj pieniędzy, których możesz potrzebować w ciągu najbliższych 1–2 lat. Giełda jest odpowiednia tylko dla kapitału z co najmniej 3–5 letnim horyzontem inwestycyjnym."
+      "text": "Zanim zainwestujesz pierwszą złotówkę na giełdzie, powinieneś zgromadzić fundusz awaryjny — bufor finansowy, który pozwoli Ci przetrwać niespodziewane wydatki lub utratę dochodu bez konieczności spieniężania inwestycji w złym momencie. Standardowe zalecenie to 3-6 miesięcy Twoich miesięcznych wydatków, przechowywane w bezpiecznym i płynnym miejscu, takim jak konto oszczędnościowe lub lokaty. Dlaczego fundusz awaryjny jest tak ważny dla inwestora? Giełda bywa nieprzewidywalna i może spaść o 30-50% w czasie kryzysu. Jeśli w takim momencie potrzebujesz gotówki (np. naprawa samochodu, leczenie, utrata pracy), możesz być zmuszony sprzedać akcje ze stratą. Fundusz awaryjny eliminuje tę konieczność — możesz przeczekać bessę bez dotykania portfela inwestycyjnego. Dla osoby z miesięcznymi wydatkami 3000 PLN fundusz awaryjny powinien wynosić 9 000-18 000 PLN. Tę kwotę trzymaj poza giełdą — na koncie oszczędnościowym z najwyżej oprocentowanym oprocentowaniem, jakie możesz znaleźć na polskim rynku. Dopiero gdy masz fundusz awaryjny, możesz spokojnie myśleć o inwestowaniu."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Jak prowizje wpływają na małe kwoty?"
+      "text": "Jak prowizje wpływają na małe kwoty inwestycji?"
     },
     {
       "type": "paragraph",
-      "text": "Prowizja minimalna to największa pułapka dla inwestorów z małym kapitałem. Standardowa minimalna prowizja na GPW wynosi 3–5 zł. Przy transakcji 100 zł, prowizja 4 zł to aż 4% kosztu — musisz zarobić 4%, żeby wyjść na zero. Przy 500 zł to 0,8%, przy 1000 zł — 0,4%, przy 5000 zł — 0,08%. Dla porównania: XTB oferuje zero prowizji do miesięcznego obrotu 100 000 EUR, co eliminuje ten problem. Jeśli korzystasz z brokera z minimalną prowizją, staraj się zawierać transakcje co najmniej za 1500–2000 zł na raz, żeby prowizja stanowiła mniej niż 0,2–0,3% wartości."
+      "text": "Jednym z kluczowych czynników przy inwestowaniu małych kwot są koszty transakcyjne. Polskie domy maklerskie zazwyczaj pobierają prowizję jako procent wartości transakcji (np. 0,29%) z minimalną wartością (np. 3 PLN lub 5 PLN). Gdy inwestujesz 100 PLN, minimalna prowizja 5 PLN stanowi 5% Twojej inwestycji — to ogromny koszt. Przy inwestycji 1 000 PLN ta sama prowizja to tylko 0,5%. Przy 5 000 PLN to 0,1% — praktycznie niezauważalne. To matematyka, która mocno przemawia za inwestowaniem większych kwot rzadziej, zamiast małych kwot bardzo często. Przykłady: inwestowanie 100 PLN co tydzień = 52 transakcje rocznie = 52 x 5 PLN = 260 PLN prowizji rocznie od 5200 PLN inwestycji (5% kosztów). Inwestowanie 433 PLN co miesiąc = 12 transakcji rocznie = 12 x 5 PLN = 60 PLN prowizji rocznie od 5200 PLN inwestycji (1,15% kosztów). Jednorazowe 5200 PLN = 1 transakcja = 5 PLN (0,1% kosztów). Wniosek: im mniej i rzadziej transakcji, tym niższe koszty procentowe. Jeśli regularnie inwestujesz małe kwoty, szukaj brokera z niskim lub zerowym minimum prowizji."
+    },
+    {
+      "type": "tip",
+      "text": "Niektórzy brokerzy (w tym część europejskich) oferują zakup ETF-ów bez prowizji lub z bardzo niskim kosztem. Warto porównać oferty, zwłaszcza jeśli planujesz regularne, małe wpłaty. Sprawdź też, czy Twój broker pozwala inwestować przez IKE lub IKZE — korzyści podatkowe mogą być warte nawet nieco wyższych prowizji."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Kalkulator procentu składanego"
+      "text": "Portfel przy budżecie 500 PLN"
+    },
+    {
+      "type": "paragraph",
+      "text": "Masz 500 PLN i chcesz zacząć inwestować — co możesz zrobić? Przy takiej kwocie najrozsądniejszą opcją jest zakup jednego ETF-u, który zapewni dywersyfikację bez konieczności wybierania pojedynczych akcji. Dobry wybór to Beta ETF WIG20TR (jeśli chcesz inwestować w polskie spółki) lub Beta ETF S&P 500 PLN (jeśli wolisz ekspozycję na globalny rynek USA). Przy cenie jednostki ok. 50-100 PLN możesz kupić 5-10 jednostek. Koszt prowizji to zazwyczaj 3-5 PLN, więc wynosi ok. 0,6-1% od 500 PLN — akceptowalny poziom. Przy 500 PLN nie ma sensu budować zdywersyfikowanego portfela kilku ETF-ów czy akcji — prowizje pochłoną zbyt dużo. Lepiej skupić się na jednym instrumencie i co miesiąc dokupywać. Strategia DCA (Dollar Cost Averaging) jest tu idealna: ustal stały przelew, np. 300-500 PLN miesięcznie na rachunek maklerski i regularnie kupuj ETF. Nie myśl o 500 PLN jako o swojej inwestycji — myśl o niej jako o pierwszym kroku w wieloletnim procesie budowania portfela. Za rok, przy regularnych wpłatach 500 PLN miesięcznie, będziesz mieć portfel wart 6 000 PLN."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Portfel przy budżecie 1000-5000 PLN"
+    },
+    {
+      "type": "paragraph",
+      "text": "Przy 1000-5000 PLN masz już realne możliwości budowania zdywersyfikowanego portfela. Przy 1000 PLN możesz kupić 2 różne ETF-y po 500 PLN każdy — np. Beta ETF WIG20TR i Beta ETF S&P 500 PLN. To zapewni ekspozycję zarówno na polski, jak i globalny rynek akcji przy rozsądnych kosztach prowizji (2 x 5 PLN = 1% kosztów). Przy 3000-5000 PLN możesz zbudować bardziej zrównoważony portfel: 40% w ETF na polskie akcje (WIG20 lub mWIG40), 40% w ETF na globalny rynek (S&P 500 lub MSCI World), 20% w obligacje skarbowe lub ETF obligacyjny. Taki portfel zapewnia dywersyfikację geograficzną i klasową przy kosztach poniżej 0,5% prowizji. Przy tej wielkości portfela warto też rozważyć otwarcie rachunku IKE — limit wpłat na 2026 rok to ok. 23 500 PLN, a zyski na IKE są zwolnione z podatku Belki. Inwestując 5000 PLN przez IKE zamiast standardowego rachunku, zaoszczędzisz 19% podatku od zysków — dla długoterminowego inwestora to bardzo istotna korzyść, która znacząco podnosi efektywną stopę zwrotu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Portfel przy budżecie 10 000 PLN i więcej"
+    },
+    {
+      "type": "paragraph",
+      "text": "Przy 10 000 PLN i więcej masz pełną swobodę w budowaniu dobrze zdywersyfikowanego portfela. Na tym poziomie koszty prowizji stają się marginalnym ułamkiem inwestycji i nie ograniczają już strategii. Możesz zbudować wieloklasowy portfel: rdzeń (core) stanowią ETF-y na szerokie indeksy (WIG20, mWIG40, S&P 500, MSCI World) stanowiące 60-70% portfela, satelity (satellites) to akcje wybranych spółek z GPW lub zagranicznych ETF-ów tematycznych stanowiące 20-30%, a bezpieczna przystań to obligacje skarbowe lub konto oszczędnościowe stanowiące 10-20%. Przy 10 000 PLN rozważ podział między IKE (do limitu rocznego) i IKZE (do limitu rocznego, z korzyścią podatkową w postaci odliczenia od PIT). Pozostałe środki możesz trzymać na standardowym rachunku maklerskim. Na tym poziomie warto też rozważyć rebalansowanie portfela raz lub dwa razy w roku — jeśli jedna klasa aktywów mocno wzrosła i przekroczyła planowaną wagę, sprzedajesz część i dokupujesz inne. Rebalansowanie utrzymuje profil ryzyka portfela zgodny z Twoją strategią i automatycznie realizuje zasadę sprzedawania drogo i kupowania tanio."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "500 PLN: jeden ETF (np. Beta ETF WIG20TR lub S&P 500 PLN), strategia DCA co miesiąc",
+        "1 000 PLN: dwa ETF-y (polski + zagraniczny), pierwsze kroki dywersyfikacji",
+        "3 000 PLN: trzy klasy aktywów (akcje PL + akcje globalne + obligacje), otwarcie IKE",
+        "5 000 PLN: pełny portfel pasywny ETF z IKE i IKZE, rebalansowanie raz w roku",
+        "10 000 PLN+: portfel core-satellite, ETF-y + wybrane akcje, pełne wykorzystanie IKE i IKZE"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "IKE i IKZE — limity i korzyści podatkowe w 2026"
+    },
+    {
+      "type": "paragraph",
+      "text": "IKE (Indywidualne Konto Emerytalne) i IKZE (Indywidualne Konto Zabezpieczenia Emerytalnego) to dwa kluczowe instrumenty wspierania długoterminowego oszczędzania w Polsce, które oferują istotne korzyści podatkowe dla inwestorów giełdowych. IKE: limit wpłat w 2026 roku wynosi ok. 23 472 PLN (3-krotność przeciętnego prognozowanego wynagrodzenia). Zyski kapitałowe i dywidendy na IKE są zwolnione z podatku Belki (19%), pod warunkiem że środki zostaną wypłacone po ukończeniu 60. roku życia (lub 55. roku przy wcześniejszym przejściu na emeryturę). Wcześniejsza wypłata (zwrot) wiąże się z koniecznością zapłaty podatku. IKZE: limit wpłat w 2026 roku wynosi ok. 9 388 PLN (osoby prowadzące działalność gospodarczą mają limit 140% wyższy). Wpłaty na IKZE są odliczane od podstawy opodatkowania podatkiem dochodowym w danym roku podatkowym — przy stawce PIT 32% daje to zwrot nawet 3000 PLN w podatku rocznie. Przy wypłacie po 65. roku życia obowiązuje ryczałtowy podatek 10%. Oba instrumenty można prowadzić jednocześnie. Dla inwestora długoterminowego IKE i IKZE powinny być absolutnym priorytetem — korzyści podatkowe znacząco podnoszą efektywną stopę zwrotu w długim horyzoncie."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dollar Cost Averaging — jak budować portfel stopniowo?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dollar Cost Averaging (DCA), czyli strategia uśredniania kosztu nabycia, to jeden z najskuteczniejszych i psychologicznie najłatwiejszych sposobów budowania portfela inwestycyjnego z ograniczonego budżetu. Zasada jest prosta: zamiast próbować 'wyczuć' rynek i kupować w dołku, inwestujesz stałą kwotę w regularnych odstępach czasu — np. 400 PLN co miesiąc, niezależnie od tego, czy rynek jest wysoko, nisko czy gdzieś pośrodku. W efekcie, gdy rynek spada, Twoje 400 PLN kupuje więcej jednostek ETF-u. Gdy rynek jest wysoki, kupujesz mniej. Przez długi czas Twoja średnia cena zakupu staje się lepsza niż gdybyś próbował kupić wszystko naraz w przypadkowym momencie. Psychologicznie DCA jest też znacznie łatwiejsze — nie musisz podejmować trudnych decyzji o timingu, nie panikujesz podczas spadków (wiesz, że kupujesz taniej), nie odczuwasz euforii na szczytach (bo i tak kupujesz tyle samo). Praktyczny przykład: osoba inwestująca 500 PLN miesięcznie przez 30 lat przy średniej stopie zwrotu 7% rocznie (zbliżona do historycznej stopy zwrotu globalnych rynków akcji po inflacji) zgromadzi portfel o wartości ok. 567 000 PLN, wpłacając łącznie 180 000 PLN. To siła procentu składanego w połączeniu z regularnym inwestowaniem."
     },
     {
       "type": "interactive",
       "component": "Calculator",
       "props": {
         "type": "compound",
-        "title": "Kalkulator procentu składanego — zbuduj portfel stopniowo"
+        "title": "Kalkulator procentu składanego"
       }
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Przykładowe portfele przy różnych budżetach"
-    },
-    {
-      "type": "paragraph",
-      "text": "Przy budżecie 500 zł miesięcznie rozsądnym wyborem jest ETF na WIG20TR lub globalny ETF na MSCI World/S&P 500. Jedna transakcja miesięcznie (DCA — dollar cost averaging) to minimalne koszty transakcyjne. Przy 1000 zł można zacząć budować portfel mieszany: 70% ETF globalny, 30% wybrane polskie spółki. Przy 5000 zł możesz już bardziej zdywersyfikować: kilka ETF-ów, 5–10 spółek dywidendowych z GPW, może część w obligacjach skarbowych. Przy 10 000 zł i więcej warto pomyśleć o stratach podatkowych (tax loss harvesting), IKE/IKZE i bardziej zaawansowanej alokacji aktywów."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "DCA — regularnie, niezależnie od koniunktury"
-    },
-    {
-      "type": "paragraph",
-      "text": "Dollar Cost Averaging (DCA) to strategia regularnego inwestowania stałej kwoty, niezależnie od tego, czy rynek rośnie czy spada. Kupujesz więcej jednostek ETF, gdy są tanie (w bessie), i mniej, gdy są drogie (w hossie). W efekcie Twoja średnia cena zakupu jest niższa niż gdybyś kupił wszystko jednorazowo w szczycie hossy. DCA eliminuje też problem psychologiczny — nie musisz zgadywać, kiedy jest 'dno'. Po prostu inwestujesz 10-go każdego miesiąca i nie zaprzątujesz sobie głowy aktualną ceną. Badania pokazują, że dla przeciętnego inwestora indywidualnego DCA daje porównywalne lub lepsze wyniki niż próba wyczucia rynku."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "IKE i IKZE — zacznij od kont podatkowych"
-    },
-    {
-      "type": "paragraph",
-      "text": "Jeśli inwestujesz z myślą o emeryturze (horyzont 10–30 lat), zacznij od wypełnienia limitów IKE i IKZE przed inwestowaniem na zwykłym rachunku. Oszczędność podatkowa jest zbyt duża, żeby ją zignorować. W 2026 roku limit IKE to ok. 24 000 zł, IKZE to ok. 9 300 zł. Razem to ponad 33 000 zł rocznie, które możesz zainwestować bez podatku Belki. Przy wpłatach 1000 zł miesięcznie przez rok możesz w pełni wykorzystać limit IKZE, a do IKE zostaje jeszcze przestrzeń. Pamiętaj: na IKZE możesz odliczyć wpłaty od dochodu (ulga PIT), co daje natychmiastowy zwrot podatku (15–23% zależnie od progu podatkowego)."
-    },
-    {
-      "type": "tip",
-      "text": "Jeśli dopiero zaczynasz i masz mały kapitał (do 5000 zł), najlepszym wyborem jest jeden ETF na szeroki globalny indeks (MSCI World lub S&P 500) trzymany na IKE. Prosto, tanio, skutecznie."
     },
     {
       "type": "heading",
@@ -103,29 +131,51 @@
     },
     {
       "type": "paragraph",
-      "text": "Inwestowanie małymi kwotami ma jedną ogromną zaletę, której nie doceniasz na początku: uczysz się emocjonalnie zarządzać portfelem bez ryzykowania życiowych oszczędności. Gdy Twoje 500 zł spada o 20% do 400 zł, boli — ale nie boli tak mocno jak gdyby to było 50 000 zł. Budujesz nawyki, rozumiesz mechanizmy rynku i uczysz się swoich emocji. Każda bessa jest pouczająca. Ci, którzy przeszli przez 2008, 2020 i inne krachy z portfelem, wiedzą jak reagują pod presją — i mogą to świadomie kontrolować następnym razem. Zacznij małe, bądź konsekwentny i zwiększaj wpłaty w miarę jak rośnie Twój komfort i wiedza."
+      "text": "Inwestowanie małymi kwotami ma swoją specyficzną psychologię, o której warto wiedzieć. Z jednej strony, małe kwoty zmniejszają stres — strata 100 PLN boli mniej niż strata 10 000 PLN, co ułatwia racjonalne decyzje bez emocji. Z drugiej strony, mali inwestorzy często popełniają błąd myślenia 'to za mała kwota, żeby robić różnicę' i odkładają inwestowanie na 'lepszy moment' lub 'gdy będę mieć więcej pieniędzy'. Ten błąd jest bardzo kosztowny — każdy rok opóźnienia zmniejsza końcową wartość portfela emerytalnego. Inny pułapką jest nadmierna aktywność — przy małych kwotach inwestorzy często dokonują zbyt wielu transakcji, generując niepotrzebne koszty prowizji i podatki. Najlepsza strategia dla małego kapitału to 'ustaw i zapomnij' — skonfiguruj stały przelew, ustal ETF-y do regularnego zakupu i nie loguj się do rachunku maklerskiego codziennie. Im rzadziej sprawdzasz swój portfel, tym mniejsza szansa na paniczną sprzedaż podczas kryzysu. Badania pokazują, że inwestorzy, którzy handlują rzadziej, osiągają lepsze wyniki od tych, którzy handlują często — zarówno ze względu na niższe koszty transakcyjne, jak i lepsze decyzje wynikające z braku emocji."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kiedy NIE powinieneś inwestować na giełdzie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tak samo ważne jak wiedza o tym, jak inwestować, jest wiedza o tym, kiedy nie inwestować. Kilka sytuacji, w których inwestowanie na giełdzie jest złym pomysłem: masz długi konsumenckie o wysokim oprocentowaniu (karty kredytowe, chwilówki, kredyty gotówkowe ze stopą powyżej 10%) — spłata długu gwarantuje zwrot równy stopie procentowej długu, co często bije giełdę; nie masz funduszu awaryjnego — bez buforu jesteś zmuszony sprzedawać inwestycje w najgorszym momencie; inwestujesz pieniądze potrzebne w ciągu 1-3 lat (np. na wkład własny do kredytu, ślub, studia dziecka) — ryzyko konieczności sprzedaży na dołku jest zbyt duże; jesteś w finansowym stresie — decyzje podejmowane pod presją finansową są zazwyczaj błędne; inwestujesz pożyczone pieniądze — dźwignia finansowa może szybko zniszczyć kapitał. Pamiętaj, że inwestowanie na giełdzie to długoterminowa strategia budowania majątku, a nie szybki sposób na zarobek. Jeśli potrzebujesz pieniędzy w krótkim terminie lub Twoja sytuacja finansowa nie jest stabilna, lepiej skupić się najpierw na porządkach w finansach osobistych, a dopiero później zacząć inwestować."
+    },
+    {
+      "type": "warning",
+      "text": "Nigdy nie inwestuj na giełdzie pieniędzy, których możesz potrzebować w ciągu 3 lat lub środków pożyczonych (w tym kredytów inwestycyjnych). Giełda może przez kilka lat z rzędu przynosić straty, a presja czasowa lub finansowa zmusza do sprzedaży w najgorszym momencie, co przekształca papierową stratę w realną i trwałą utratę kapitału."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pierwsze kroki — plan działania krok po kroku"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oto konkretny plan działania dla osoby, która chce zacząć inwestować na GPW z ograniczonym budżetem. Krok 1: Oceń swoją sytuację finansową — spisz przychody, wydatki, długi i oszczędności. Krok 2: Spłać drogie długi — jeśli masz kredyty z oprocentowaniem powyżej 10%, najpierw je spłać. Krok 3: Zbuduj fundusz awaryjny — zaoszczędź 3-6 miesięcy wydatków na koncie oszczędnościowym. Krok 4: Otwórz rachunek maklerski IKE lub IKZE — wybierz brokera z niskimi prowizjami (np. mBroker, BOSSA, DM BOŚ) i otwórz rachunek w formie IKE, by od razu korzystać z ulg podatkowych. Krok 5: Zdefiniuj strategię — wybierz ETF-y do regularnego zakupu i ustal harmonogram (np. 500 PLN co miesiąc w Beta ETF WIG20TR i Beta ETF S&P 500 PLN). Krok 6: Skonfiguruj stały przelew — automatyzacja eliminuje potrzebę aktywnego pamiętania i usuwa emocje z procesu. Krok 7: Edukuj się — przez pierwsze miesiące więcej czytaj i obserwuj, niż handluj. Krok 8: Trzymaj się planu — nie reaguj na każdy nagłówek medialny i nie zmieniaj strategii co kwartał. Konsekwencja i cierpliwość są kluczem do sukcesu w długoterminowym inwestowaniu."
     }
   ],
   "faq": [
     {
-      "question": "Od jakiej minimalnej kwoty warto zacząć inwestować na GPW?",
-      "answer": "Technicznie od kilkudziesięciu złotych (cena jednej akcji), ale ekonomicznie sensowne jest zaczynanie od co najmniej 500–1000 zł. Przy mniejszych kwotach prowizje transakcyjne zbyt mocno obciążają rentowność. XTB z zerową prowizją do limitu umożliwia inwestowanie już od 100–200 zł bez problemu prowizyjnego."
+      "question": "Ile minimalnie potrzebuję, żeby zacząć inwestować na GPW?",
+      "answer": "Technicznie możesz zacząć od kilkudziesięciu złotych — tyle kosztuje jedna jednostka najtańszego ETF-u na GPW. Jednak realistycznie, przy minimalnych prowizjach rzędu 3-5 PLN za transakcję, sensowna minimalna jednorazowa inwestycja to 500-1 000 PLN, by koszty transakcyjne nie przekraczały 1% wartości zakupu. Jeśli możesz odkładać tylko 200-300 PLN miesięcznie, inwestuj co 2-3 miesiące po zebraniu 600-900 PLN, by utrzymać rozsądny poziom kosztów prowizji."
     },
     {
-      "question": "Czy powinienem zainwestować oszczędności jednorazowo czy rozkładać w czasie?",
-      "answer": "Badania statystyczne mówią, że jednorazowe zainwestowanie całości (lump sum) ma historycznie wyższe oczekiwane stopy zwrotu, bo pieniądze dłużej pracują. Ale DCA jest psychologicznie łatwiejsze i chroni przed kupnem na szczycie. Dla większości ludzi DCA to lepsze podejście, bo skłania do trzymania się planu."
+      "question": "Czy warto inwestować 100 PLN miesięcznie?",
+      "answer": "Tak, warto — nawet 100 PLN miesięcznie przez 30 lat przy 7% stopie zwrotu rocznie da ok. 113 000 PLN. Jednak przy prowizji 5 PLN za transakcję, kupowanie ETF-u co miesiąc za 100 PLN oznacza 5% kosztów transakcyjnych — to bardzo dużo. Lepszym rozwiązaniem jest odkładanie 100 PLN przez 3-4 miesiące na koncie oszczędnościowym, a następnie jednorazowe kupowanie ETF za 300-400 PLN, co obniża koszt prowizji do 1,5-2%. Sprawdź też oferty brokerów bez minimalnej prowizji dla ETF-ów."
     },
     {
-      "question": "Czy 100 zł miesięcznie to za mało, żeby zacząć inwestować?",
-      "answer": "Nie za mało, jeśli chodzi o naukę i budowanie nawyku. Przy XTB (zero prowizji do limitu) 100 zł miesięcznie w ETF to ok. 1200 zł rocznie i zaczątek realnego portfela. Po 10 latach przy 7% stopie zwrotu to prawie 18 000 zł. Małe regularnie > duże sporadycznie."
+      "question": "Co to jest IKE i jak może mi pomóc w inwestowaniu?",
+      "answer": "IKE (Indywidualne Konto Emerytalne) to specjalny rachunek maklerski, który pozwala inwestować w akcje i ETF-y bez konieczności płacenia 19% podatku Belki od zysków, jeśli środki zostaną wypłacone po 60. roku życia. Roczny limit wpłat w 2026 roku wynosi ok. 23 472 PLN. Dla długoterminowego inwestora to ogromna korzyść — zamiast oddawać 19% zysku fiskusowi, cały zysk pozostaje w Twoim portfelu i pracuje dalej dzięki procentowi składanemu. Każde polskie biuro maklerskie i wiele TFI oferuje rachunek IKE."
     },
     {
-      "question": "Co powinienem zrobić przed zainwestowaniem: spłacić kredyt czy zacząć inwestować?",
-      "answer": "Zależy od oprocentowania kredytu. Kredyt konsumpcyjny lub karciany (10–25% rocznie) — zawsze spłać najpierw. Kredyt hipoteczny (4–7%) — możesz równolegle inwestować, bo historyczne stopy zwrotu z giełdy (~7–10% rocznie) mogą przewyższyć oprocentowanie kredytu."
+      "question": "Czy lepiej oszczędzać na lokacie czy inwestować na giełdzie?",
+      "answer": "To zależy od Twojego horyzontu czasowego, tolerancji ryzyka i celu. Lokaty są bezpieczne i odpowiednie dla pieniędzy potrzebnych w ciągu 1-3 lat (np. fundusz awaryjny, wkład własny na mieszkanie). Giełda jest odpowiednia dla pieniędzy, bez których możesz się obejść przez minimum 5-10 lat — historycznie akcje przynoszą wyższe stopy zwrotu niż lokaty w długim terminie, ale z wyższą zmiennością. Idealna strategia łączy oba: lokaty lub konto oszczędnościowe dla funduszu awaryjnego i celów krótkoterminowych, giełda dla oszczędności emerytalnych i długoterminowych przez IKE lub IKZE."
     },
     {
-      "question": "Ile procent oszczędności powinienem inwestować na giełdzie?",
-      "answer": "Zależy od Twojego wieku, tolerancji ryzyka i celów. Popularna reguła: (100 - Twój wiek)% w akcjach. Przy 30 latach: 70% akcje, 30% obligacje/gotówka. Im młodszy, tym więcej możesz trzymać w akcjach, bo masz czas na odrobienie strat. Nigdy nie inwestuj środków, których możesz potrzebować w krótkim terminie."
+      "question": "Jak DCA (Dollar Cost Averaging) działa w praktyce?",
+      "answer": "DCA to strategia regularnego inwestowania stałej kwoty niezależnie od cen rynkowych. Przykład: inwestujesz 500 PLN co miesiąc w ETF WIG20. W lutym jednostka kosztuje 100 PLN — kupujesz 5 jednostek. W marcu rynek spada, jednostka kosztuje 80 PLN — kupujesz 6,25 jednostki (więcej za tę samą kwotę). W kwietniu rynek odbija, jednostka kosztuje 110 PLN — kupujesz 4,5 jednostki. Twoja średnia cena zakupu wynosi ok. 96 PLN, mimo że cena wahała się od 80 do 110 PLN. DCA eliminuje ryzyko złego timingu i usuwa emocje z inwestowania — nie musisz zgadywać, kiedy rynek jest 'dość tanio' i inwestujesz regularnie bez względu na nagłówki medialne."
     }
   ]
 }
