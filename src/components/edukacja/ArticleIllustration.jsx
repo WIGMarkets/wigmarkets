@@ -489,6 +489,500 @@ function IllustIlePieniedzy() {
 }
 
 /* ------------------------------------------------------------------ */
+/* 11. xtb-vs-mbank-vs-bossa                                           */
+/*     Three phone screens side by side with different interfaces      */
+/* ------------------------------------------------------------------ */
+function IllustXtbVsMbank() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Phone 1 - XTB */}
+      <rect x="80" y="60" width="160" height="290" rx="16" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      <rect x="95" y="90" width="130" height="230" rx="4" fill={DARK_BG} />
+      <circle cx="160" cy="75" r="4" fill={BORDER} />
+      <polyline points="110,280 130,260 150,270 170,240 190,220 210,200" fill="none" stroke={GREEN} strokeWidth="2" strokeLinecap="round" />
+      <rect x="105" y="105" width="60" height="8" rx="3" fill={ACCENT} opacity="0.5" />
+      <rect x="105" y="120" width="40" height="6" rx="3" fill={BORDER} opacity="0.4" />
+      {/* Phone 2 - mBank */}
+      <rect x="320" y="60" width="160" height="290" rx="16" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      <rect x="335" y="90" width="130" height="230" rx="4" fill={DARK_BG} />
+      <circle cx="400" cy="75" r="4" fill={BORDER} />
+      <rect x="345" y="110" width="110" height="20" rx="4" fill={ACCENT} opacity="0.3" />
+      <rect x="345" y="140" width="110" height="20" rx="4" fill={GREEN} opacity="0.3" />
+      <rect x="345" y="170" width="110" height="20" rx="4" fill={ORANGE} opacity="0.3" />
+      <rect x="345" y="200" width="50" height="8" rx="3" fill={BORDER} opacity="0.4" />
+      <rect x="345" y="260" width="110" height="30" rx="6" fill={ACCENT} opacity="0.2" />
+      {/* Phone 3 - Bossa */}
+      <rect x="560" y="60" width="160" height="290" rx="16" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      <rect x="575" y="90" width="130" height="230" rx="4" fill={DARK_BG} />
+      <circle cx="640" cy="75" r="4" fill={BORDER} />
+      {/* Candlestick mini chart on phone 3 */}
+      {[590, 610, 630, 650, 670, 690].map((x, i) => (
+        <g key={i}>
+          <line x1={x} y1={160 + (i % 3) * 15} x2={x} y2={240 - (i % 2) * 20} stroke={i % 2 === 0 ? GREEN : RED} strokeWidth="1.5" />
+          <rect x={x - 4} y={180 + (i % 3) * 8} width="8" height={20 - (i % 2) * 6} rx="1" fill={i % 2 === 0 ? GREEN : RED} opacity="0.8" />
+        </g>
+      ))}
+      <rect x="585" y="105" width="50" height="8" rx="3" fill={ORANGE} opacity="0.5" />
+      {/* VS labels */}
+      <circle cx="280" cy="200" r="18" fill={ACCENT} opacity="0.15" />
+      <circle cx="520" cy="200" r="18" fill={ACCENT} opacity="0.15" />
+      {/* Bottom line */}
+      <line x1="60" y1="370" x2="740" y2="370" stroke={BORDER} strokeWidth="1.5" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 12. jak-kupic-akcje-krok-po-kroku                                   */
+/*     Steps/arrows from wallet to growing chart                       */
+/* ------------------------------------------------------------------ */
+function IllustKupnoAkcji() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Step 1 - Wallet */}
+      <rect x="60" y="140" width="80" height="60" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      <rect x="60" y="155" width="80" height="10" rx="3" fill={BORDER} />
+      <rect x="70" y="130" width="40" height="18" rx="3" fill={GREEN} opacity="0.3" />
+      <circle cx="100" cy="200" r="6" fill={ACCENT} opacity="0.4" />
+      {/* Arrow 1→2 */}
+      <line x1="160" y1="170" x2="220" y2="170" stroke={ACCENT} strokeWidth="2" strokeDasharray="4 3" />
+      <polygon points="220,164 232,170 220,176" fill={ACCENT} />
+      {/* Step 2 - Search/Screen */}
+      <rect x="240" y="130" width="100" height="80" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      <rect x="255" y="145" width="70" height="8" rx="3" fill={BORDER} opacity="0.5" />
+      <circle cx="265" cy="170" r="8" fill={ACCENT} opacity="0.2" />
+      <rect x="278" y="166" width="50" height="8" rx="3" fill={BORDER} opacity="0.4" />
+      <circle cx="265" cy="190" r="8" fill={GREEN} opacity="0.2" />
+      <rect x="278" y="186" width="45" height="8" rx="3" fill={BORDER} opacity="0.4" />
+      {/* Arrow 2→3 */}
+      <line x1="360" y1="170" x2="420" y2="170" stroke={ACCENT} strokeWidth="2" strokeDasharray="4 3" />
+      <polygon points="420,164 432,170 420,176" fill={ACCENT} />
+      {/* Step 3 - Order/Click */}
+      <rect x="440" y="130" width="100" height="80" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      <rect x="455" y="145" width="70" height="30" rx="6" fill={GREEN} opacity="0.2" />
+      <rect x="465" y="155" width="50" height="10" rx="4" fill={GREEN} opacity="0.5" />
+      <rect x="455" y="185" width="30" height="8" rx="3" fill={BORDER} opacity="0.4" />
+      <rect x="495" y="185" width="30" height="8" rx="3" fill={ORANGE} opacity="0.4" />
+      {/* Arrow 3→4 */}
+      <line x1="560" y1="170" x2="620" y2="170" stroke={ACCENT} strokeWidth="2" strokeDasharray="4 3" />
+      <polygon points="620,164 632,170 620,176" fill={ACCENT} />
+      {/* Step 4 - Rising chart */}
+      <rect x="640" y="100" width="120" height="140" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      <polyline points="660,210 680,195 700,200 720,170 740,140" fill="none" stroke={GREEN} strokeWidth="2.5" strokeLinecap="round" />
+      <polygon points="740,130 735,145 745,145" fill={GREEN} />
+      {/* Step numbers */}
+      {[100, 290, 490, 700].map((cx, i) => (
+        <circle key={i} cx={cx} cy={270} r="16" fill={ACCENT} opacity="0.15" />
+      ))}
+      {/* Ground */}
+      <line x1="40" y1="310" x2="760" y2="310" stroke={BORDER} strokeWidth="1.5" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 13. podatek-belki-pit-38                                            */
+/*     Tax document with calculator and coins                          */
+/* ------------------------------------------------------------------ */
+function IllustPodatekBelki() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Document */}
+      <rect x="200" y="40" width="260" height="330" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      {/* Document header - PIT-38 */}
+      <rect x="220" y="60" width="120" height="20" rx="4" fill={RED} opacity="0.2" />
+      <rect x="220" y="60" width="120" height="20" rx="4" fill="none" stroke={RED} strokeWidth="1" opacity="0.5" />
+      {/* Document lines */}
+      <rect x="220" y="100" width="200" height="8" rx="3" fill={BORDER} opacity="0.5" />
+      <rect x="220" y="120" width="180" height="8" rx="3" fill={BORDER} opacity="0.4" />
+      <rect x="220" y="140" width="220" height="8" rx="3" fill={BORDER} opacity="0.4" />
+      {/* Table in document */}
+      <line x1="220" y1="170" x2="440" y2="170" stroke={BORDER} strokeWidth="1" />
+      <rect x="220" y="180" width="100" height="8" rx="2" fill={BORDER} opacity="0.4" />
+      <rect x="350" y="180" width="80" height="8" rx="2" fill={GREEN} opacity="0.5" />
+      <rect x="220" y="200" width="100" height="8" rx="2" fill={BORDER} opacity="0.4" />
+      <rect x="350" y="200" width="60" height="8" rx="2" fill={RED} opacity="0.5" />
+      <rect x="220" y="220" width="100" height="8" rx="2" fill={BORDER} opacity="0.4" />
+      <rect x="350" y="220" width="70" height="8" rx="2" fill={ORANGE} opacity="0.5" />
+      <line x1="220" y1="240" x2="440" y2="240" stroke={BORDER} strokeWidth="1" />
+      {/* Total line - 19% */}
+      <rect x="220" y="255" width="80" height="12" rx="3" fill={BORDER} opacity="0.5" />
+      <rect x="350" y="255" width="90" height="12" rx="3" fill={RED} opacity="0.3" />
+      {/* Calculator */}
+      <rect x="520" y="100" width="160" height="200" rx="12" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      <rect x="540" y="120" width="120" height="40" rx="6" fill={DARK_BG} />
+      <rect x="550" y="135" width="60" height="12" rx="3" fill={GREEN} opacity="0.6" />
+      {/* Calculator buttons */}
+      {[0, 1, 2, 3, 4, 5, 6, 7, 8].map(i => (
+        <rect key={i} x={540 + (i % 3) * 42} y={180 + Math.floor(i / 3) * 36} width="34" height="28" rx="4" fill={BORDER} opacity="0.5" />
+      ))}
+      {/* Coins */}
+      <circle cx="120" cy="280" r="24" fill={ORANGE} opacity="0.7" />
+      <circle cx="120" cy="280" r="16" fill="none" stroke={DARK_BG} strokeWidth="2" />
+      <circle cx="90" cy="320" r="20" fill={ORANGE} opacity="0.5" />
+      <circle cx="90" cy="320" r="14" fill="none" stroke={DARK_BG} strokeWidth="1.5" />
+      <circle cx="155" cy="330" r="18" fill={ORANGE} opacity="0.6" />
+      <circle cx="155" cy="330" r="12" fill="none" stroke={DARK_BG} strokeWidth="1.5" />
+      {/* 19% indicator */}
+      <rect x="530" y="50" width="80" height="30" rx="8" fill={RED} opacity="0.15" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 14. ike-vs-ikze                                                     */
+/*     Two jars/piggy banks with coins falling in                      */
+/* ------------------------------------------------------------------ */
+function IllustIkeVsIkze() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Jar 1 - IKE */}
+      <rect x="120" y="140" width="180" height="200" rx="14" fill={CARD_BG} stroke={ACCENT} strokeWidth="2" />
+      <rect x="150" y="130" width="120" height="20" rx="6" fill={BORDER} />
+      {/* IKE label */}
+      <rect x="170" y="170" width="80" height="28" rx="8" fill={ACCENT} opacity="0.15" />
+      {/* Coins inside jar 1 */}
+      <circle cx="180" cy="290" r="14" fill={ORANGE} opacity="0.6" />
+      <circle cx="210" cy="300" r="14" fill={ORANGE} opacity="0.5" />
+      <circle cx="240" cy="290" r="14" fill={ORANGE} opacity="0.7" />
+      <circle cx="195" cy="270" r="14" fill={ORANGE} opacity="0.5" />
+      <circle cx="225" cy="275" r="14" fill={ORANGE} opacity="0.6" />
+      {/* Falling coin into jar 1 */}
+      <circle cx="210" cy="90" r="16" fill={ORANGE} opacity="0.8" />
+      <circle cx="210" cy="90" r="10" fill="none" stroke={DARK_BG} strokeWidth="1.5" />
+      <line x1="210" y1="106" x2="210" y2="128" stroke={ORANGE} strokeWidth="1.5" strokeDasharray="3 2" />
+      {/* Jar 2 - IKZE */}
+      <rect x="500" y="140" width="180" height="200" rx="14" fill={CARD_BG} stroke={GREEN} strokeWidth="2" />
+      <rect x="530" y="130" width="120" height="20" rx="6" fill={BORDER} />
+      {/* IKZE label */}
+      <rect x="545" y="170" width="90" height="28" rx="8" fill={GREEN} opacity="0.15" />
+      {/* Coins inside jar 2 */}
+      <circle cx="555" cy="295" r="14" fill={ORANGE} opacity="0.5" />
+      <circle cx="585" cy="300" r="14" fill={ORANGE} opacity="0.6" />
+      <circle cx="625" cy="290" r="14" fill={ORANGE} opacity="0.5" />
+      <circle cx="575" cy="275" r="14" fill={ORANGE} opacity="0.6" />
+      {/* Falling coin into jar 2 */}
+      <circle cx="590" cy="90" r="16" fill={ORANGE} opacity="0.8" />
+      <circle cx="590" cy="90" r="10" fill="none" stroke={DARK_BG} strokeWidth="1.5" />
+      <line x1="590" y1="106" x2="590" y2="128" stroke={ORANGE} strokeWidth="1.5" strokeDasharray="3 2" />
+      {/* VS */}
+      <circle cx="400" cy="230" r="24" fill={BORDER} opacity="0.5" />
+      {/* Arrows up from jars */}
+      <line x1="210" y1="350" x2="210" y2="370" stroke={ACCENT} strokeWidth="2" />
+      <line x1="590" y1="350" x2="590" y2="370" stroke={GREEN} strokeWidth="2" />
+      {/* Ground */}
+      <line x1="60" y1="360" x2="740" y2="360" stroke={BORDER} strokeWidth="1.5" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 15. obligacje-skarbowe-2026                                         */
+/*     Certificate with seal and interest chart                        */
+/* ------------------------------------------------------------------ */
+function IllustObligacje() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Certificate */}
+      <rect x="140" y="50" width="340" height="300" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      {/* Certificate border inner */}
+      <rect x="155" y="65" width="310" height="270" rx="4" fill="none" stroke={BORDER} strokeWidth="1" strokeDasharray="6 3" />
+      {/* Certificate header */}
+      <rect x="200" y="85" width="220" height="16" rx="4" fill={ACCENT} opacity="0.3" />
+      {/* Certificate text lines */}
+      <rect x="180" y="120" width="260" height="8" rx="3" fill={BORDER} opacity="0.5" />
+      <rect x="180" y="140" width="240" height="8" rx="3" fill={BORDER} opacity="0.4" />
+      <rect x="180" y="160" width="260" height="8" rx="3" fill={BORDER} opacity="0.4" />
+      <rect x="180" y="180" width="200" height="8" rx="3" fill={BORDER} opacity="0.3" />
+      {/* Seal */}
+      <circle cx="310" cy="250" r="36" fill={RED} opacity="0.12" />
+      <circle cx="310" cy="250" r="36" fill="none" stroke={RED} strokeWidth="2" opacity="0.4" />
+      <circle cx="310" cy="250" r="26" fill="none" stroke={RED} strokeWidth="1" opacity="0.3" />
+      <circle cx="310" cy="250" r="8" fill={RED} opacity="0.3" />
+      {/* Interest rate chart */}
+      <rect x="540" y="80" width="210" height="260" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <line x1="560" y1="300" x2="730" y2="300" stroke={BORDER} strokeWidth="1" />
+      <line x1="560" y1="100" x2="560" y2="300" stroke={BORDER} strokeWidth="1" />
+      {/* Bar chart for different bond types */}
+      <rect x="575" y="260" width="20" height="40" rx="3" fill={ACCENT} opacity="0.4" />
+      <rect x="605" y="230" width="20" height="70" rx="3" fill={ACCENT} opacity="0.5" />
+      <rect x="635" y="210" width="20" height="90" rx="3" fill={GREEN} opacity="0.6" />
+      <rect x="665" y="190" width="20" height="110" rx="3" fill={GREEN} opacity="0.7" />
+      <rect x="695" y="160" width="20" height="140" rx="3" fill={ORANGE} opacity="0.8" />
+      {/* Rising trend line */}
+      <polyline points="585,255 615,225 645,200 675,180 705,150" fill="none" stroke={GREEN} strokeWidth="2" strokeDasharray="4 3" />
+      {/* Label */}
+      <rect x="570" y="95" width="100" height="12" rx="4" fill={BORDER} opacity="0.4" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 16. najlepsze-aplikacje-do-inwestowania                             */
+/*     Smartphone with trading interface and rating stars              */
+/* ------------------------------------------------------------------ */
+function IllustAplikacje() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Main phone */}
+      <rect x="280" y="30" width="240" height="340" rx="24" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      <rect x="300" y="65" width="200" height="280" rx="6" fill={DARK_BG} />
+      {/* Phone notch */}
+      <rect x="360" y="38" width="80" height="18" rx="9" fill={DARK_BG} />
+      {/* App interface on screen */}
+      <rect x="310" y="80" width="180" height="24" rx="6" fill={CARD_BG} />
+      <rect x="320" y="86" width="60" height="12" rx="4" fill={ACCENT} opacity="0.5" />
+      {/* Chart on phone */}
+      <polyline points="310,200 340,185 370,190 400,160 430,145 460,120 490,100" fill="none" stroke={GREEN} strokeWidth="2.5" strokeLinecap="round" />
+      <polygon points="310,200 340,185 370,190 400,160 430,145 460,120 490,100 490,220 310,220" fill={GREEN} opacity="0.1" />
+      {/* Portfolio items */}
+      <rect x="310" y="235" width="180" height="22" rx="4" fill={CARD_BG} />
+      <rect x="316" y="240" width="40" height="12" rx="3" fill={GREEN} opacity="0.4" />
+      <rect x="440" y="240" width="40" height="12" rx="3" fill={GREEN} opacity="0.6" />
+      <rect x="310" y="265" width="180" height="22" rx="4" fill={CARD_BG} />
+      <rect x="316" y="270" width="40" height="12" rx="3" fill={ACCENT} opacity="0.4" />
+      <rect x="440" y="270" width="35" height="12" rx="3" fill={RED} opacity="0.5" />
+      <rect x="310" y="295" width="180" height="22" rx="4" fill={CARD_BG} />
+      <rect x="316" y="300" width="40" height="12" rx="3" fill={ORANGE} opacity="0.4" />
+      <rect x="440" y="300" width="45" height="12" rx="3" fill={GREEN} opacity="0.5" />
+      {/* Rating stars left */}
+      {[0, 1, 2, 3, 4].map(i => (
+        <polygon key={`l${i}`} points={`${80 + i * 28},200 ${85 + i * 28},186 ${90 + i * 28},200 ${98 + i * 28},202 ${92 + i * 28},212 ${94 + i * 28},226 ${85 + i * 28},218 ${76 + i * 28},226 ${78 + i * 28},212 ${72 + i * 28},202`} fill={i < 4 ? ORANGE : BORDER} opacity={i < 4 ? 0.7 : 0.3} />
+      ))}
+      {/* Rating stars right */}
+      {[0, 1, 2, 3, 4].map(i => (
+        <polygon key={`r${i}`} points={`${580 + i * 28},200 ${585 + i * 28},186 ${590 + i * 28},200 ${598 + i * 28},202 ${592 + i * 28},212 ${594 + i * 28},226 ${585 + i * 28},218 ${576 + i * 28},226 ${578 + i * 28},212 ${572 + i * 28},202`} fill={i < 3 ? ORANGE : BORDER} opacity={i < 3 ? 0.7 : 0.3} />
+      ))}
+      {/* Small app icons */}
+      <rect x="80" y="100" width="50" height="50" rx="12" fill={ACCENT} opacity="0.15" />
+      <rect x="80" y="260" width="50" height="50" rx="12" fill={GREEN} opacity="0.15" />
+      <rect x="670" y="100" width="50" height="50" rx="12" fill={ORANGE} opacity="0.15" />
+      <rect x="670" y="260" width="50" height="50" rx="12" fill={RED} opacity="0.1" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 17. wskazniki-fundamentalne-gpw                                     */
+/*     Dashboard with multiple indicators and charts                   */
+/* ------------------------------------------------------------------ */
+function IllustWskaznikiGPW() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Card 1 - P/E gauge */}
+      <rect x="40" y="40" width="220" height="150" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <rect x="60" y="60" width="60" height="10" rx="3" fill={ACCENT} opacity="0.4" />
+      <path d="M100,160 A50,50 0 0,1 200,160" fill="none" stroke={BORDER} strokeWidth="6" strokeLinecap="round" />
+      <path d="M100,160 A50,50 0 0,1 170,115" fill="none" stroke={GREEN} strokeWidth="6" strokeLinecap="round" />
+      <circle cx="170" cy="115" r="6" fill={GREEN} />
+      {/* Card 2 - ROE bar chart */}
+      <rect x="290" y="40" width="220" height="150" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <rect x="310" y="60" width="60" height="10" rx="3" fill={GREEN} opacity="0.4" />
+      <rect x="310" y="130" width="30" height="40" rx="3" fill={ACCENT} opacity="0.5" />
+      <rect x="350" y="110" width="30" height="60" rx="3" fill={ACCENT} opacity="0.6" />
+      <rect x="390" y="90" width="30" height="80" rx="3" fill={GREEN} opacity="0.7" />
+      <rect x="430" y="100" width="30" height="70" rx="3" fill={GREEN} opacity="0.8" />
+      <rect x="470" y="120" width="30" height="50" rx="3" fill={ORANGE} opacity="0.6" />
+      {/* Card 3 - Pie chart */}
+      <rect x="540" y="40" width="220" height="150" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <rect x="560" y="60" width="60" height="10" rx="3" fill={ORANGE} opacity="0.4" />
+      <circle cx="650" cy="130" r="45" fill={ACCENT} opacity="0.6" />
+      <path d="M650,85 L650,130 L690,105 Z" fill={GREEN} opacity="0.8" />
+      <path d="M650,130 L650,175 L615,160 Z" fill={ORANGE} opacity="0.7" />
+      <path d="M650,130 L615,100 L650,85 Z" fill={RED} opacity="0.5" />
+      {/* Card 4 - Metrics table */}
+      <rect x="40" y="220" width="340" height="150" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      {/* Table header */}
+      <rect x="40" y="220" width="340" height="30" rx="10" fill={BORDER} opacity="0.3" />
+      {/* Table rows */}
+      {[0, 1, 2, 3].map(i => (
+        <g key={i}>
+          <rect x="55" y={262 + i * 26} width="50" height="8" rx="3" fill={BORDER} opacity="0.5" />
+          <rect x="130" y={262 + i * 26} width="40" height="8" rx="3" fill={i < 2 ? GREEN : ORANGE} opacity="0.5" />
+          <rect x="200" y={262 + i * 26} width="35" height="8" rx="3" fill={ACCENT} opacity="0.4" />
+          <rect x="260" y={262 + i * 26} width="50" height="8" rx="3" fill={BORDER} opacity="0.4" />
+          <rect x="335" y={262 + i * 26} width="30" height="8" rx="3" fill={i === 0 ? GREEN : BORDER} opacity="0.5" />
+        </g>
+      ))}
+      {/* Card 5 - Trend */}
+      <rect x="420" y="220" width="340" height="150" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <rect x="440" y="240" width="50" height="10" rx="3" fill={ACCENT} opacity="0.4" />
+      <polyline points="440,340 480,320 520,325 560,300 600,280 640,260 680,240 720,220" fill="none" stroke={GREEN} strokeWidth="2.5" strokeLinecap="round" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 18. jak-budowac-portfel-inwestycyjny                                */
+/*     Pie chart with segments: stocks, bonds, ETF, cash               */
+/* ------------------------------------------------------------------ */
+function IllustPortfel() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Main pie chart */}
+      <circle cx="320" cy="200" r="140" fill={ACCENT} opacity="0.6" />
+      {/* Segment 2: 30% bonds - green */}
+      <path d="M320,200 L320,60 A140,140 0 0,1 441,116 Z" fill={GREEN} opacity="0.7" />
+      {/* Segment 3: 15% ETF - orange */}
+      <path d="M320,200 L441,116 A140,140 0 0,1 460,200 Z" fill={ORANGE} opacity="0.7" />
+      {/* Segment 4: 10% cash - red */}
+      <path d="M320,200 L460,200 A140,140 0 0,1 420,310 Z" fill={RED} opacity="0.5" />
+      {/* Center hole (donut) */}
+      <circle cx="320" cy="200" r="60" fill={DARK_BG} />
+      {/* Center label */}
+      <rect x="290" y="190" width="60" height="20" rx="6" fill={BORDER} opacity="0.4" />
+      {/* Legend */}
+      <rect x="560" y="100" width="190" height="200" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      {/* Legend items */}
+      <rect x="580" y="130" width="14" height="14" rx="3" fill={ACCENT} opacity="0.8" />
+      <rect x="604" y="132" width="80" height="10" rx="3" fill={BORDER} opacity="0.5" />
+      <rect x="700" y="132" width="30" height="10" rx="3" fill={BORDER} opacity="0.4" />
+      <rect x="580" y="165" width="14" height="14" rx="3" fill={GREEN} opacity="0.8" />
+      <rect x="604" y="167" width="80" height="10" rx="3" fill={BORDER} opacity="0.5" />
+      <rect x="700" y="167" width="30" height="10" rx="3" fill={BORDER} opacity="0.4" />
+      <rect x="580" y="200" width="14" height="14" rx="3" fill={ORANGE} opacity="0.8" />
+      <rect x="604" y="202" width="60" height="10" rx="3" fill={BORDER} opacity="0.5" />
+      <rect x="700" y="202" width="30" height="10" rx="3" fill={BORDER} opacity="0.4" />
+      <rect x="580" y="235" width="14" height="14" rx="3" fill={RED} opacity="0.7" />
+      <rect x="604" y="237" width="70" height="10" rx="3" fill={BORDER} opacity="0.5" />
+      <rect x="700" y="237" width="30" height="10" rx="3" fill={BORDER} opacity="0.4" />
+      {/* Legend header */}
+      <rect x="580" y="110" width="100" height="10" rx="3" fill={ACCENT} opacity="0.3" />
+      {/* Small balance scale icon */}
+      <line x1="100" y1="120" x2="100" y2="200" stroke={BORDER} strokeWidth="3" strokeLinecap="round" />
+      <line x1="60" y1="140" x2="140" y2="140" stroke={BORDER} strokeWidth="2" />
+      <path d="M60,140 L50,180 L90,180 Z" fill={ACCENT} opacity="0.2" stroke={BORDER} strokeWidth="1" />
+      <path d="M140,140 L120,180 L160,180 Z" fill={GREEN} opacity="0.2" stroke={BORDER} strokeWidth="1" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 19. rodzaje-zlecen-gieldowych                                       */
+/*     Chart with entry/exit points, stop loss and take profit arrows  */
+/* ------------------------------------------------------------------ */
+function IllustZlecenia() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Axes */}
+      <line x1="80" y1="60" x2="80" y2="350" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="80" y1="350" x2="740" y2="350" stroke={BORDER} strokeWidth="1.5" />
+      {/* Grid */}
+      {[120, 180, 240, 300].map(y => (
+        <line key={y} x1="80" y1={y} x2="740" y2={y} stroke={BORDER} strokeWidth="0.5" strokeDasharray="4 4" />
+      ))}
+      {/* Price line */}
+      <polyline
+        points="100,280 160,260 220,270 280,230 340,200 400,220 460,180 520,150 580,170 640,130 700,120"
+        fill="none"
+        stroke={ACCENT}
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      {/* Entry point (buy) */}
+      <circle cx="280" cy="230" r="8" fill={GREEN} opacity="0.8" />
+      <circle cx="280" cy="230" r="14" fill={GREEN} opacity="0.15" />
+      <line x1="280" y1="248" x2="280" y2="280" stroke={GREEN} strokeWidth="1.5" strokeDasharray="3 2" />
+      <polygon points="274,280 280,292 286,280" fill={GREEN} opacity="0.6" />
+      {/* Stop loss level */}
+      <line x1="280" y1="290" x2="700" y2="290" stroke={RED} strokeWidth="2" strokeDasharray="8 4" />
+      <rect x="700" y="282" width="30" height="16" rx="4" fill={RED} opacity="0.2" />
+      {/* Take profit level */}
+      <line x1="280" y1="130" x2="700" y2="130" stroke={GREEN} strokeWidth="2" strokeDasharray="8 4" />
+      <rect x="700" y="122" width="30" height="16" rx="4" fill={GREEN} opacity="0.2" />
+      {/* Exit point (sell/take profit) */}
+      <circle cx="640" cy="130" r="8" fill={GREEN} opacity="0.8" />
+      <circle cx="640" cy="130" r="14" fill={GREEN} opacity="0.15" />
+      {/* Profit zone fill */}
+      <rect x="280" y="130" width="360" height="100" rx="0" fill={GREEN} opacity="0.04" />
+      {/* Loss zone fill */}
+      <rect x="280" y="230" width="360" height="60" rx="0" fill={RED} opacity="0.04" />
+      {/* Arrow showing trailing stop */}
+      <polyline points="400,250 460,210 520,180 580,200" fill="none" stroke={ORANGE} strokeWidth="1.5" strokeDasharray="4 3" />
+      <polygon points="500,195 520,180 510,200" fill={ORANGE} opacity="0.6" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 20. sezon-wynikow-gpw                                               */
+/*     Calendar with marked dates and chart reacting to results        */
+/* ------------------------------------------------------------------ */
+function IllustSezonWynikow() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Calendar */}
+      <rect x="60" y="60" width="300" height="280" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      {/* Calendar header */}
+      <rect x="60" y="60" width="300" height="44" rx="10" fill={ACCENT} opacity="0.12" />
+      <rect x="130" y="72" width="100" height="14" rx="4" fill={ACCENT} opacity="0.4" />
+      {/* Day grid */}
+      {[0, 1, 2, 3, 4].map(row =>
+        [0, 1, 2, 3, 4, 5, 6].map(col => {
+          const isHighlighted = (row === 1 && col === 2) || (row === 2 && col === 4) || (row === 3 && col === 1) || (row === 4 && col === 5);
+          return (
+            <rect
+              key={`${row}-${col}`}
+              x={80 + col * 38}
+              y={118 + row * 40}
+              width="28"
+              height="28"
+              rx="6"
+              fill={isHighlighted ? GREEN : "transparent"}
+              opacity={isHighlighted ? 0.25 : 1}
+              stroke={isHighlighted ? GREEN : BORDER}
+              strokeWidth={isHighlighted ? 1.5 : 0.5}
+            />
+          );
+        })
+      )}
+      {/* Chart reacting to results */}
+      <rect x="420" y="60" width="340" height="280" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      {/* Mini axes */}
+      <line x1="450" y1="90" x2="450" y2="310" stroke={BORDER} strokeWidth="1" />
+      <line x1="450" y1="310" x2="730" y2="310" stroke={BORDER} strokeWidth="1" />
+      {/* Price line with gap-up on earnings */}
+      <polyline
+        points="460,240 490,235 520,245 550,238 570,240"
+        fill="none"
+        stroke={ACCENT}
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
+      {/* Gap up on good results */}
+      <line x1="570" y1="240" x2="580" y2="180" stroke={GREEN} strokeWidth="2" strokeDasharray="2 2" />
+      <polyline
+        points="580,180 610,170 640,175 670,160 700,150"
+        fill="none"
+        stroke={GREEN}
+        strokeWidth="2.5"
+        strokeLinecap="round"
+      />
+      {/* Results publication marker */}
+      <line x1="575" y1="90" x2="575" y2="310" stroke={ORANGE} strokeWidth="1.5" strokeDasharray="4 3" />
+      <rect x="555" y="90" width="40" height="20" rx="6" fill={ORANGE} opacity="0.2" />
+      {/* Volume bars at bottom */}
+      {[460, 490, 520, 550, 580, 610, 640, 670, 700].map((x, i) => (
+        <rect key={i} x={x} y={i === 4 ? 275 : 290} width="16" height={i === 4 ? 35 : 20} rx="2" fill={i >= 4 ? GREEN : ACCENT} opacity={i === 4 ? 0.7 : 0.3} />
+      ))}
+      {/* Arrow showing gap up */}
+      <polygon points="575,170 569,185 581,185" fill={GREEN} opacity="0.6" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
 /* Illustration registry                                               */
 /* ------------------------------------------------------------------ */
 const ILLUSTRATIONS = {
@@ -502,6 +996,16 @@ const ILLUSTRATIONS = {
   "etf-na-gpw": IllustETF,
   "wig20-mwig40-swig80": IllustWIG20,
   "ile-pieniedzy-zeby-zaczac": IllustIlePieniedzy,
+  "xtb-vs-mbank-vs-bossa": IllustXtbVsMbank,
+  "jak-kupic-akcje-krok-po-kroku": IllustKupnoAkcji,
+  "podatek-belki-pit-38": IllustPodatekBelki,
+  "ike-vs-ikze": IllustIkeVsIkze,
+  "obligacje-skarbowe-2026": IllustObligacje,
+  "najlepsze-aplikacje-do-inwestowania": IllustAplikacje,
+  "wskazniki-fundamentalne-gpw": IllustWskaznikiGPW,
+  "jak-budowac-portfel-inwestycyjny": IllustPortfel,
+  "rodzaje-zlecen-gieldowych": IllustZlecenia,
+  "sezon-wynikow-gpw": IllustSezonWynikow,
 };
 
 /* ------------------------------------------------------------------ */

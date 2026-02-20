@@ -1,0 +1,214 @@
+{
+  "slug": "podatek-belki-pit-38",
+  "title": "Podatek Belki i PIT-38 — jak rozliczyć zyski z giełdy",
+  "metaTitle": "Podatek Belki i PIT-38 — rozliczenie zysków z GPW",
+  "metaDescription": "Jak rozliczyć podatek od zysków giełdowych? Dowiedz się czym jest podatek Belki, jak wypełnić PIT-38 i jak legalnie obniżyć podatek przez IKE/IKZE.",
+  "category": "podstawy",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-20",
+  "updatedDate": "2026-02-20",
+  "readingTime": 13,
+  "featuredImage": "/images/edukacja/podatek-belki.webp",
+  "featuredImageAlt": "Podatek Belki i rozliczenie PIT-38",
+  "tags": ["podatek", "Belka", "PIT-38", "rozliczenie", "podatek od zysków kapitałowych"],
+  "relatedSlugs": ["jak-zaczac-inwestowac-na-gpw", "ike-vs-ikze", "jak-kupic-akcje-krok-po-kroku", "spolki-dywidendowe-gpw"],
+  "ctaType": "screener",
+  "ctaText": "Sprawdź swoje spółki na WIGmarkets",
+  "ctaLink": "/screener",
+  "sections": [
+    {
+      "type": "paragraph",
+      "text": "Każdy inwestor, który osiąga zyski na giełdzie, musi zmierzyć się z kwestią podatków. W Polsce obowiązuje 19-procentowy podatek od zysków kapitałowych, potocznie nazywany podatkiem Belki. Jest to temat, który budzi wiele pytań i wątpliwości, szczególnie wśród osób, które dopiero zaczynają swoją przygodę z inwestowaniem. W tym artykule wyjaśnimy wszystko, co musisz wiedzieć o podatku od zysków giełdowych: czym dokładnie jest podatek Belki, kiedy musisz go zapłacić, jak krok po kroku wypełnić deklarację PIT-38, jak kompensować straty z zyskami oraz jak legalnie uniknąć lub obniżyć podatek, korzystając z rachunków IKE i IKZE. Niezależnie od tego, czy zarobiłeś na giełdzie 100 zł czy 100 000 zł, ten poradnik pomoże Ci prawidłowo rozliczyć się z fiskusem."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Co to jest podatek Belki?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Podatek Belki to potoczna nazwa podatku od dochodów kapitałowych, który w Polsce wynosi 19%. Jego oficjalna nazwa to zryczałtowany podatek dochodowy od osób fizycznych od dochodów z kapitałów pieniężnych. Podatek ten obejmuje zyski z różnych form inwestowania: sprzedaży akcji i innych papierów wartościowych, odsetek od lokat bankowych i obligacji, dywidend, zysków z funduszy inwestycyjnych, a także zysków z instrumentów pochodnych (kontrakty terminowe, opcje). Nazwa \"podatek Belki\" pochodzi od Marka Belki, który jako minister finansów w rządzie Leszka Millera wprowadził ten podatek w 2002 roku. Początkowo stawka wynosiła 20%, ale w 2004 roku została obniżona do obecnych 19%. Co ciekawe, Marek Belka wprowadzając ten podatek, twierdził, że będzie to rozwiązanie tymczasowe — jednak ponad dwie dekady później podatek nadal obowiązuje i nie zanosi się na jego likwidację."
+    },
+    {
+      "type": "paragraph",
+      "text": "Podatek Belki dotyczy wyłącznie zysków — nie płacisz podatku od zainwestowanego kapitału, a jedynie od różnicy między ceną sprzedaży a ceną zakupu (pomniejszoną o koszty transakcyjne). Na przykład, jeśli kupiłeś akcje za 10 000 zł i sprzedałeś je za 12 000 zł, Twój zysk brutto wynosi 2 000 zł. Po odjęciu prowizji maklerskich (powiedzmy łącznie 80 zł za kupno i sprzedaż), dochód podlegający opodatkowaniu wynosi 1 920 zł, a podatek do zapłacenia to 19% z 1 920 zł = 364,80 zł. Twój zysk netto po podatku to zatem 1 555,20 zł. Ważne jest, żeby pamiętać, że prowizje maklerskie stanowią koszt uzyskania przychodu i pomniejszają podstawę opodatkowania — warto więc zachowywać potwierdzenia wszystkich transakcji."
+    },
+    {
+      "type": "info",
+      "text": "Podatek Belki naliczany jest od zysków zrealizowanych, czyli od faktycznej sprzedaży papierów wartościowych. Jeśli kupiłeś akcje za 10 000 zł i ich wartość wzrosła do 15 000 zł, ale nie sprzedałeś — nie musisz płacić żadnego podatku. Podatek powstaje dopiero w momencie sprzedaży z zyskiem."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kiedy trzeba zapłacić podatek od zysków giełdowych?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Obowiązek podatkowy z tytułu zysków giełdowych powstaje w momencie zrealizowania transakcji sprzedaży papierów wartościowych z zyskiem. Jednak w odróżnieniu od podatku od lokat bankowych czy dywidend (które są pobierane automatycznie przez bank lub brokera), podatek od zysków ze sprzedaży akcji musisz rozliczyć samodzielnie w rocznym zeznaniu podatkowym PIT-38. Termin złożenia PIT-38 upływa 30 kwietnia roku następującego po roku podatkowym, w którym osiągnąłeś zyski. Oznacza to, że jeśli sprzedałeś akcje z zyskiem w 2025 roku, musisz złożyć PIT-38 do 30 kwietnia 2026 roku. Podatek od zysków giełdowych rozliczany jest w skali rocznej — nie musisz płacić zaliczek w trakcie roku. Nawet jeśli w ciągu roku zarobiłeś na giełdzie znaczną kwotę, podatek płacisz jednorazowo po złożeniu zeznania rocznego."
+    },
+    {
+      "type": "paragraph",
+      "text": "Istotne jest, że obowiązek złożenia PIT-38 dotyczy Cię również w sytuacji, gdy w danym roku poniosłeś stratę na giełdzie (a nie tylko zysk). Wykazanie straty w PIT-38 jest ważne, ponieważ pozwala na jej kompensację z zyskami w kolejnych latach — o czym więcej piszemy w dalszej części artykułu. Podobnie, jeśli dokonywałeś transakcji giełdowych, ale Twój wynik netto to zero (zyski równe stratom), również musisz złożyć PIT-38. Jedyny wyjątek to sytuacja, gdy w danym roku nie dokonałeś żadnej transakcji sprzedaży papierów wartościowych — wtedy PIT-38 nie jest wymagany, nawet jeśli posiadasz akcje na rachunku."
+    },
+    {
+      "type": "warning",
+      "text": "Niezłożenie PIT-38 w terminie lub niezapłacenie podatku od zysków giełdowych może skutkować karą grzywny. Urząd skarbowy ma dostęp do informacji o Twoich transakcjach giełdowych (za pośrednictwem PIT-8C od brokera), więc nie ma możliwości ukrycia zysków. Zawsze rozliczaj się terminowo, nawet jeśli kwota podatku jest niewielka."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jak wypełnić PIT-38 krok po kroku"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wypełnienie PIT-38 jest prostsze, niż mogłoby się wydawać, szczególnie dzięki systemowi e-PIT udostępnianemu przez Ministerstwo Finansów. W praktyce większość danych potrzebnych do wypełnienia zeznania jest już wstępnie uzupełniona na podstawie informacji przesłanych przez Twojego brokera. Oto jak krok po kroku rozliczyć zyski z giełdy."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Krok 1: Odbierz PIT-8C od brokera"
+    },
+    {
+      "type": "paragraph",
+      "text": "Na początku każdego roku (do końca lutego) Twój dom maklerski wysyła Ci formularz PIT-8C — informację o przychodach z kapitałów pieniężnych. Dokument ten zawiera podsumowanie wszystkich Twoich transakcji z poprzedniego roku: łączny przychód ze sprzedaży papierów wartościowych, koszty uzyskania przychodu (cena zakupu + prowizje) oraz wynikowy dochód lub stratę. PIT-8C znajdziesz w panelu klienta brokera, a jego kopię broker przesyła również do Twojego urzędu skarbowego. Jeśli masz konta u kilku brokerów, otrzymasz osobny PIT-8C od każdego z nich i musisz zsumować dane ze wszystkich formularzy."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Krok 2: Zaloguj się do systemu e-PIT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najwygodniejszą metodą rozliczenia jest skorzystanie z systemu e-PIT na stronie podatki.gov.pl. Po zalogowaniu (profilem zaufanym, e-dowodem lub danymi autoryzacyjnymi) system automatycznie wygeneruje wstępnie wypełnioną deklarację PIT-38 na podstawie danych z PIT-8C przesłanych przez brokerów. Twoim zadaniem jest sprawdzenie poprawności danych, ewentualne uzupełnienie informacji (np. o transakcjach na rynkach zagranicznych) i zatwierdzenie zeznania. System e-PIT automatycznie oblicza kwotę podatku do zapłacenia. W sytuacji gdy korzystałeś tylko z jednego brokera i handlowałeś wyłącznie na GPW, wstępnie wygenerowane zeznanie zazwyczaj jest kompletne i prawidłowe — wystarczy je zweryfikować i zatwierdzić."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Krok 3: Sprawdź i uzupełnij dane"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dokładnie sprawdź następujące pozycje w PIT-38: przychód z odpłatnego zbycia papierów wartościowych (pole C.20), koszty uzyskania przychodu (pole C.21) oraz dochód lub stratę (pole C.22). Jeśli korzystałeś z kilku brokerów, upewnij się, że dane ze wszystkich PIT-8C zostały uwzględnione. Jeśli w poprzednich latach poniosłeś straty, które chcesz odliczyć, uzupełnij odpowiednie pozycje w części D formularza. Po sprawdzeniu wszystkich danych system wyliczy kwotę podatku do zapłacenia lub nadpłatę do zwrotu."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Krok 4: Zatwierdź i zapłać"
+    },
+    {
+      "type": "paragraph",
+      "text": "Po weryfikacji danych zatwierdź zeznanie elektronicznie. System wygeneruje potwierdzenie złożenia deklaracji (UPO — Urzędowe Potwierdzenie Odbioru), które warto zachować. Jeśli wynika z zeznania podatek do zapłacenia, musisz go uiścić do 30 kwietnia na indywidualny mikrorachunek podatkowy. Numer mikrorachunku możesz wygenerować na stronie podatki.gov.pl, podając swój PESEL. Płatność możesz wykonać przelewem bankowym, kartą płatniczą lub w urzędzie skarbowym. Pamiętaj, że za zwłokę w zapłacie podatku naliczane są odsetki za zwłokę."
+    },
+    {
+      "type": "tip",
+      "text": "System e-PIT automatycznie przechowuje wstępne zeznanie PIT-38 — nawet jeśli nie podejmiesz żadnych działań, zeznanie zostanie automatycznie zaakceptowane 30 kwietnia. Jednak zdecydowanie zalecamy aktywne sprawdzenie i zatwierdzenie danych, szczególnie jeśli masz konta u kilku brokerów lub handlowałeś na rynkach zagranicznych."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kompensacja strat z zyskami"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jednym z najważniejszych mechanizmów podatkowych, o których powinien wiedzieć każdy inwestor giełdowy, jest możliwość kompensacji strat z zyskami. Jeśli w danym roku podatkowym poniesiesz stratę na jednych transakcjach, a zysk na innych, Twoja podstawa opodatkowania to różnica netto. Na przykład, jeśli zarobiłeś 5 000 zł na sprzedaży akcji PKN Orlen, ale straciłeś 3 000 zł na akcjach innej spółki, Twój dochód podlegający opodatkowaniu wynosi 2 000 zł (nie 5 000 zł). Podatek zapłacisz tylko od 2 000 zł, co daje 380 zł zamiast 950 zł. Kompensacja następuje automatycznie w ramach jednego roku podatkowego — broker uwzględnia ją w PIT-8C."
+    },
+    {
+      "type": "paragraph",
+      "text": "Co jednak, jeśli Twoja łączna strata w danym roku przewyższa zyski? W takiej sytuacji możesz rozliczyć poniesioną stratę w ciągu pięciu kolejnych lat podatkowych. Oznacza to, że strata z 2025 roku może obniżyć Twój podatek od zysków giełdowych w latach 2026-2030. Istnieją dwa warianty odliczania strat: tradycyjny — maksymalnie 50% straty w jednym roku podatkowym (rozłożenie na minimum 2 lata), oraz przyśpieszony — jednorazowe odliczenie do 5 000 000 zł straty w jednym roku. W praktyce zdecydowana większość inwestorów indywidualnych korzysta z tradycyjnego wariantu, ponieważ ich straty nie przekraczają tego limitu. Kluczowe jest, żeby zawsze składać PIT-38, nawet gdy ponosisz straty — jeśli nie wykażesz straty w zeznaniu, nie będziesz mógł jej później odliczyć."
+    },
+    {
+      "type": "info",
+      "text": "Kompensacja strat dotyczy wyłącznie tego samego źródła przychodów. Stratę z giełdy możesz kompensować tylko z zyskami giełdowymi — nie możesz jej odliczyć od np. dochodu z pracy czy działalności gospodarczej. Podobnie, strata na lokacie bankowej (teoretycznie — gdy bank upadnie) nie kompensuje się z zyskiem ze sprzedaży akcji."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "IKE i IKZE — jak legalnie uniknąć podatku Belki"
+    },
+    {
+      "type": "paragraph",
+      "text": "Istnieje legalny i bardzo skuteczny sposób na uniknięcie lub znaczące obniżenie podatku Belki — korzystanie z Indywidualnego Konta Emerytalnego (IKE) lub Indywidualnego Konta Zabezpieczenia Emerytalnego (IKZE). Są to specjalne rachunki maklerskie oferowane przez większość polskich brokerów, które zapewniają korzyści podatkowe w zamian za dłuższy horyzont inwestycyjny. Na rachunku IKE inwestujesz z pieniędzy po opodatkowaniu (wpłaty nie zmniejszają Twojego podatku dochodowego), ale za to wszystkie zyski z inwestycji na IKE są całkowicie zwolnione z podatku Belki — pod warunkiem, że nie wypłacisz środków przed ukończeniem 60. roku życia (lub 55 lat, jeśli nabędziesz prawo do wcześniejszej emerytury). Oznacza to, że jeśli przez 30 lat inwestowania na IKE zarobisz na przykład 500 000 zł, nie zapłacisz od tej kwoty ani złotówki podatku (oszczędność: 95 000 zł!)."
+    },
+    {
+      "type": "paragraph",
+      "text": "IKZE działa na nieco innych zasadach. Wpłaty na IKZE możesz odliczyć od podstawy opodatkowania w rocznym PIT — co daje natychmiastową korzyść podatkową. Jeśli wpłacisz na IKZE maksymalną kwotę (w 2026 roku limit wynosi kilkanaście tysięcy złotych), możesz zaoszczędzić na podatku dochodowym nawet kilka tysięcy złotych rocznie. Zyski z inwestycji na IKZE również nie podlegają podatkowi Belki w trakcie oszczędzania. Jednak przy wypłacie środków z IKZE po osiągnięciu wieku emerytalnego zapłacisz zryczałtowany podatek w wysokości 10% od całej wypłacanej kwoty (zamiast 19% podatku Belki). Szczegółowe porównanie IKE i IKZE oraz poradnik, który rachunek wybrać, znajdziesz w naszym artykule IKE vs IKZE."
+    },
+    {
+      "type": "tip",
+      "text": "Jeśli masz długi horyzont inwestycyjny (powyżej 10 lat), korzystanie z IKE lub IKZE powinno być absolutnym priorytetem. Oszczędności podatkowe na przestrzeni lat mogą wynieść dziesiątki, a nawet setki tysięcy złotych dzięki efektowi procentu składanego od kwot, które normalnie oddałbyś fiskusowi. Prowadzenie rachunków IKE i IKZE oferują m.in. mBank eMakler i DM BOŚ Bossa."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Podatek od dywidend"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jeśli inwestujesz w spółki dywidendowe na GPW, musisz wiedzieć, że dywidendy podlegają opodatkowaniu na odrębnych zasadach niż zyski ze sprzedaży akcji. Od dywidendy wypłacanej przez polską spółkę pobierany jest 19% zryczałtowany podatek dochodowy, który jest automatycznie potrącany przez spółkę wypłacającą dywidendę (tzw. podatek u źródła). Oznacza to, że kwota, która trafia na Twój rachunek maklerski, jest już pomniejszona o podatek — nie musisz samodzielnie rozliczać tego podatku w PIT-38. Na przykład, jeśli spółka deklaruje dywidendę w wysokości 5 zł na akcję, na Twój rachunek trafi 4,05 zł (5 zł minus 19% = 0,95 zł podatku). Dywidendy nie są uwzględniane w PIT-38, ponieważ podatek jest już pobrany u źródła."
+    },
+    {
+      "type": "paragraph",
+      "text": "Warto jednak wiedzieć, że dywidendy otrzymywane na rachunku IKE lub IKZE nie podlegają podatkowi u źródła — trafiają na rachunek w pełnej kwocie (brutto), co oznacza dodatkową korzyść w wysokości 19% od każdej dywidendy. Na przestrzeni lat reinwestowane dywidendy brutto generują znacząco wyższy zwrot niż dywidendy netto, dzięki efektowi procentu składanego. To kolejny argument za korzystaniem z rachunków IKE/IKZE, szczególnie dla inwestorów stosujących strategię dywidendową. Jeśli interesują Cię spółki dywidendowe na GPW, sprawdź nasz ranking spółek dywidendowych."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Podatek od zysków na rynkach zagranicznych"
+    },
+    {
+      "type": "paragraph",
+      "text": "Coraz więcej polskich inwestorów kupuje akcje spółek notowanych na giełdach zagranicznych — przede wszystkim w USA (NYSE, NASDAQ), Niemczech (XETRA) i Wielkiej Brytanii (LSE). Zyski z tych transakcji również podlegają opodatkowaniu w Polsce stawką 19%, ale rozliczenie jest nieco bardziej skomplikowane niż w przypadku transakcji na GPW. Przede wszystkim musisz samodzielnie przeliczyć przychody i koszty z walut obcych na złote polskie, stosując średni kurs NBP z dnia poprzedzającego dzień uzyskania przychodu lub poniesienia kosztu. Większość brokerów (np. XTB) automatycznie dokonuje tych przeliczeń i uwzględnia je w PIT-8C, ale warto to zweryfikować."
+    },
+    {
+      "type": "paragraph",
+      "text": "W przypadku dywidend od spółek zagranicznych sytuacja jest bardziej złożona ze względu na zjawisko podwójnego opodatkowania. Na przykład, dywidenda od spółki amerykańskiej podlega 15% podatkowi u źródła w USA (po złożeniu formularza W-8BEN) oraz teoretycznie 19% podatkowi w Polsce. Dzięki umowie o unikaniu podwójnego opodatkowania między Polską a USA, podatek zapłacony w USA możesz odliczyć od polskiego zobowiązania podatkowego. W praktyce oznacza to, że dopłacisz w Polsce jedynie różnicę: 19% - 15% = 4% od kwoty dywidendy. Jeśli nie złożyłeś formularza W-8BEN, amerykański podatek u źródła wynosi 30% — w takiej sytuacji w Polsce nie dopłacasz nic, ale efektywnie tracisz więcej (30% zamiast 19%). Koniecznie upewnij się, że formularz W-8BEN został złożony u Twojego brokera — to kilka minut formalności, które mogą zaoszczędzić Ci znaczącą kwotę."
+    },
+    {
+      "type": "warning",
+      "text": "Jeśli handlujesz na rynkach zagranicznych i Twój broker nie uwzględnia tych transakcji w PIT-8C (np. korzystasz z brokera zagranicznego typu Interactive Brokers lub DEGIRO), musisz samodzielnie obliczyć i wykazać zyski/straty w PIT-38. Przelicz wszystkie kwoty na PLN po kursie NBP i zachowaj dokumentację transakcji na wypadek kontroli skarbowej."
+    },
+    {
+      "type": "interactive",
+      "component": "Calculator",
+      "props": {
+        "title": "Kalkulator podatku od zysków giełdowych",
+        "type": "compound"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Praktyczne wskazówki dotyczące optymalizacji podatkowej"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oprócz korzystania z rachunków IKE i IKZE istnieje kilka legalnych strategii, które mogą pomóc w optymalizacji obciążeń podatkowych z tytułu inwestycji giełdowych. Po pierwsze, rozważ realizację strat podatkowych (ang. tax-loss harvesting) pod koniec roku — jeśli masz w portfelu spółki na stracie i jednocześnie zrealizowałeś zyski, sprzedaż stratnych pozycji przed końcem roku pozwoli skompensować zyski ze stratami i obniżyć podatek. Sprzedane akcje możesz odkupić po kilku dniach, zachowując ekspozycję na daną spółkę. Po drugie, prowizje maklerskie stanowią koszt uzyskania przychodu — im wyższe prowizje, tym niższa podstawa opodatkowania (choć oczywiście lepiej płacić niższe prowizje niż \"oszczędzać\" na podatkach przez wyższe koszty). Po trzecie, jeśli planujesz długoterminowe inwestycje, maksymalizuj wpłaty na IKE i IKZE co roku — nawet jeśli nie wykorzystujesz pełnego limitu, każda złotówka zainwestowana na tych rachunkach pracuje na Ciebie bez obciążenia podatkowego."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pamiętaj również o dokumentowaniu wszystkich transakcji i kosztów związanych z inwestowaniem. Oprócz prowizji maklerskich kosztem uzyskania przychodu mogą być również: opłaty za transfer papierów wartościowych między rachunkami, koszty przewalutowania (przy transakcjach w walutach obcych) oraz opłaty za dostęp do danych rynkowych, jeśli są niezbędne do prowadzenia inwestycji. Każdy prawidłowo udokumentowany koszt obniża Twoją podstawę opodatkowania i pozwala zapłacić mniejszy podatek. Zachowuj potwierdzenia transakcji i wyciągi z rachunków maklerskich przez co najmniej pięć lat — tyle wynosi okres przedawnienia zobowiązań podatkowych."
+    },
+    {
+      "type": "info",
+      "text": "Od 2024 roku system e-PIT automatycznie generuje wstępne zeznanie PIT-38 na podstawie danych z PIT-8C od brokerów. Jeśli korzystasz wyłącznie z polskich brokerów i handlujesz tylko na GPW, rozliczenie może być tak proste, jak zalogowanie się do e-PIT i kliknięcie \"Zatwierdź\". System sam obliczy podatek i wskaże kwotę do zapłacenia."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czy broker rozlicza podatek za mnie?",
+      "answer": "Nie — w przypadku zysków ze sprzedaży akcji broker nie pobiera i nie odprowadza podatku automatycznie. Broker jedynie wystawia informację PIT-8C, która zawiera podsumowanie Twoich transakcji. Na podstawie tego dokumentu musisz samodzielnie złożyć zeznanie PIT-38 i zapłacić podatek do 30 kwietnia roku następnego. Wyjątkiem są dywidendy od polskich spółek — w tym przypadku 19% podatek jest automatycznie pobierany u źródła przez spółkę wypłacającą dywidendę."
+    },
+    {
+      "question": "Co jeśli miałem stratę?",
+      "answer": "Jeśli w danym roku podatkowym poniosłeś stratę na transakcjach giełdowych, nadal musisz złożyć PIT-38 — wykazujesz w nim stratę zamiast dochodu. Poniesioną stratę możesz odliczyć od zysków giełdowych w ciągu pięciu kolejnych lat podatkowych, obniżając w ten sposób przyszły podatek. W jednym roku możesz odliczyć maksymalnie 50% poniesionej straty. Jeśli nie złożysz PIT-38 i nie wykażesz straty, stracisz prawo do jej odliczenia w przyszłości."
+    },
+    {
+      "question": "Kiedy składam PIT-38?",
+      "answer": "PIT-38 za dany rok podatkowy należy złożyć do 30 kwietnia roku następnego. Na przykład PIT-38 za rok 2025 składasz do 30 kwietnia 2026. Zeznanie możesz złożyć elektronicznie przez system e-PIT na stronie podatki.gov.pl (najwygodniejsza opcja), osobiście w urzędzie skarbowym lub pocztą. Podatek wynikający z zeznania również należy zapłacić do 30 kwietnia na indywidualny mikrorachunek podatkowy."
+    },
+    {
+      "question": "Czy muszę płacić podatek od dywidend?",
+      "answer": "Tak, dywidendy podlegają 19% podatkowi, ale w przypadku polskich spółek podatek jest automatycznie pobierany u źródła — otrzymujesz dywidendę już pomniejszoną o podatek i nie musisz jej wykazywać w PIT-38. W przypadku dywidend od spółek zagranicznych sytuacja jest bardziej skomplikowana — może być konieczne rozliczenie w PIT-38 z uwzględnieniem umów o unikaniu podwójnego opodatkowania. Dywidendy otrzymywane na rachunku IKE są zwolnione z podatku, a na IKZE — odroczony podatek 10% przy wypłacie."
+    }
+  ]
+}

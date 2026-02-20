@@ -1,0 +1,286 @@
+{
+  "slug": "wskazniki-fundamentalne-gpw",
+  "title": "Najważniejsze wskaźniki fundamentalne — P/E, P/BV, ROE i inne",
+  "metaTitle": "Wskaźniki fundamentalne GPW — P/E, P/BV, ROE",
+  "metaDescription": "Poznaj najważniejsze wskaźniki analizy fundamentalnej: P/E, P/BV, ROE, EPS i inne. Jak je interpretować i stosować przy wyborze spółek na GPW?",
+  "category": "analiza",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-20",
+  "updatedDate": "2026-02-20",
+  "readingTime": 16,
+  "featuredImage": "/images/edukacja/wskazniki-fundamentalne.webp",
+  "featuredImageAlt": "Wskaźniki fundamentalne spółek GPW",
+  "tags": ["analiza fundamentalna", "P/E", "P/BV", "ROE", "EPS", "wskaźniki"],
+  "relatedSlugs": ["wskaznik-pe", "jak-czytac-wyniki-finansowe", "spolki-dywidendowe-gpw", "sezon-wynikow-gpw"],
+  "ctaType": "screener",
+  "ctaText": "Filtruj spółki po wskaźnikach w screenerze WIGmarkets",
+  "ctaLink": "/screener",
+  "sections": [
+    {
+      "type": "paragraph",
+      "text": "Analiza fundamentalna to jeden z dwóch głównych filarów oceny spółek giełdowych — obok analizy technicznej. Polega na badaniu kondycji finansowej przedsiębiorstwa, jego pozycji rynkowej i perspektyw rozwoju na podstawie twardych danych liczbowych. Wskaźniki fundamentalne pozwalają inwestorom porównywać spółki między sobą, oceniać czy dana akcja jest tania czy droga, a przede wszystkim podejmować bardziej świadome decyzje inwestycyjne na Giełdzie Papierów Wartościowych w Warszawie."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Czym jest analiza fundamentalna?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Analiza fundamentalna to metoda wyceny papierów wartościowych oparta na badaniu danych finansowych spółki, jej otoczenia makroekonomicznego oraz branży, w której działa. W przeciwieństwie do analizy technicznej, która skupia się na wykresach i historycznych ruchach cen, analiza fundamentalna poszukuje wewnętrznej (fundamentalnej) wartości spółki. Jeśli ta wartość jest wyższa od aktualnego kursu giełdowego, mamy do czynienia z potencjalną okazją inwestycyjną — spółką niedowartościowaną. Gdy natomiast wartość wewnętrzna jest niższa od ceny rynkowej, akcje mogą być przewartościowane."
+    },
+    {
+      "type": "paragraph",
+      "text": "Podstawowym źródłem danych dla analizy fundamentalnej są raporty finansowe spółek: bilans, rachunek zysków i strat oraz rachunek przepływów pieniężnych. Na podstawie tych dokumentów oblicza się dziesiątki wskaźników, ale w praktyce inwestor indywidualny może skutecznie korzystać z kilku najważniejszych. W tym artykule omówimy te, które są najczęściej wykorzystywane na polskim rynku kapitałowym i które pomogą Ci ocenić potencjał inwestycyjny spółek notowanych na GPW."
+    },
+    {
+      "type": "paragraph",
+      "text": "Warto pamiętać, że żaden pojedynczy wskaźnik nie daje pełnego obrazu spółki. Dopiero analiza kilku wskaźników jednocześnie, w kontekście branży i sytuacji rynkowej, pozwala na rzetelną ocenę. Dlatego zachęcamy do poznania każdego z opisanych poniżej mierników i korzystania z nich łącznie, a nie w izolacji."
+    },
+    {
+      "type": "info",
+      "text": "Wskaźniki fundamentalne najlepiej porównywać w ramach tej samej branży. P/E = 20 dla spółki technologicznej może być atrakcyjne, ale dla banku — już nie. Zawsze uwzględniaj kontekst sektorowy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wskaźnik P/E (Cena/Zysk)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wskaźnik P/E (ang. Price to Earnings ratio) to najbardziej popularny i najczęściej cytowany wskaźnik analizy fundamentalnej na całym świecie. Oblicza się go dzieląc cenę rynkową jednej akcji przez zysk netto przypadający na jedną akcję (EPS). Wzór wygląda następująco: P/E = Cena akcji / Zysk na akcję (EPS). Wskaźnik ten mówi nam, ile złotych inwestorzy są skłonni zapłacić za każdą złotówkę rocznego zysku spółki. Innymi słowy, P/E informuje nas, po ilu latach inwestycja się zwróci przy założeniu, że zyski spółki pozostaną na niezmienionym poziomie."
+    },
+    {
+      "type": "paragraph",
+      "text": "Co uznajemy za dobry P/E na GPW? Generalnie wartość poniżej 10 uznawana jest za niską i może sugerować niedowartościowanie, wartości 10-20 to poziomy umiarkowane, a powyżej 20 wskazują na spółkę relatywnie drogą lub taką, od której rynek oczekuje dynamicznego wzrostu zysków. Weźmy przykład z GPW: jeżeli akcja PKN Orlen kosztuje 72 zł, a zysk na akcję wynosi 9 zł, to P/E = 72/9 = 8. Oznacza to, że inwestorzy płacą 8 złotych za każdą złotówkę rocznego zysku, co jest wartością stosunkowo niską i może sugerować okazję inwestycyjną — oczywiście pod warunkiem, że zyski utrzymają się na obecnym poziomie lub wzrosną. Ważne jest rozróżnienie między trailing P/E (opartym na historycznych zyskach z ostatnich 12 miesięcy) a forward P/E (opartym na prognozowanych zyskach), który jest często bardziej przydatny."
+    },
+    {
+      "type": "tip",
+      "text": "Porównuj P/E spółki z medianą P/E dla całego sektora. Jeśli średni P/E dla sektora bankowego wynosi 8, a dana spółka ma P/E = 5, może to oznaczać niedowartościowanie lub specyficzne problemy tej konkretnej spółki."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wskaźnik P/BV (Cena/Wartość Księgowa, P/WK)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wskaźnik P/BV (ang. Price to Book Value), po polsku określany jako C/WK (cena do wartości księgowej), porównuje rynkową cenę akcji z wartością księgową przypadającą na jedną akcję. Oblicza się go według wzoru: P/BV = Cena akcji / Wartość księgowa na akcję, gdzie wartość księgowa na akcję to kapitał własny spółki podzielony przez liczbę wyemitowanych akcji. Wskaźnik ten informuje nas, ile rynkowej premii (lub dyskonta) inwestorzy przypisują do majątku netto spółki."
+    },
+    {
+      "type": "paragraph",
+      "text": "P/BV = 1 oznacza, że rynek wycenia spółkę dokładnie na poziomie jej wartości księgowej. Wartość poniżej 1 sugeruje, że spółka jest wyceniana poniżej swojego majątku netto — co może oznaczać okazję lub sygnalizować poważne problemy (np. spodziewane straty). Wartość powyżej 1 oznacza, że inwestorzy widzą dodatkową wartość w spółce — markę, know-how, perspektywy wzrostu. Na GPW banki często notowane są z P/BV w przedziale 0,8-1,5. Przykładowo, jeśli akcja PKO BP kosztuje 56 zł, a wartość księgowa na akcję wynosi 42 zł, to P/BV = 56/42 = 1,33. Oznacza to, że rynek wycenia spółkę o 33% wyżej niż jej wartość księgowa, co dla banku o dobrej rentowności jest uzasadnione. Wskaźnik P/BV jest szczególnie przydatny w sektorze finansowym (banki, ubezpieczyciele), gdzie aktywa są głównie finansowe i łatwe do wyceny."
+    },
+    {
+      "type": "warning",
+      "text": "Niski P/BV nie zawsze oznacza okazję! Spółki z P/BV poniżej 0,5 mogą mieć poważne problemy finansowe, przeterminowane aktywa lub czekać je restrukturyzacja. Zawsze sprawdź, dlaczego rynek wycenia spółkę tak nisko."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wskaźnik EPS (Zysk na akcję)"
+    },
+    {
+      "type": "paragraph",
+      "text": "EPS (ang. Earnings Per Share) to wskaźnik pokazujący, ile zysku netto przypada na jedną akcję spółki. Oblicza się go dzieląc zysk netto spółki (po opodatkowaniu) przez liczbę akcji w obrocie: EPS = Zysk netto / Liczba akcji. EPS to absolutna miara zyskowności spółki w przeliczeniu na pojedynczą akcję i stanowi fundament wielu innych wskaźników — w tym P/E. Rosnący EPS z roku na rok to pozytywny sygnał świadczący o rozwoju spółki."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na GPW EPS jest publikowany w raportach kwartalnych i rocznych. Warto śledzić nie tylko bieżącą wartość, ale przede wszystkim dynamikę zmian — czy EPS rośnie, spada, czy jest stabilny. Przykładowo, jeśli KGHM wygenerował w danym roku zysk netto 4,5 mld zł przy 200 mln akcji w obrocie, to EPS = 4 500 000 000 / 200 000 000 = 22,50 zł. Oznacza to, że na każdą akcję KGHM przypada 22,50 zł zysku netto. Porównując EPS z poprzednim rokiem (np. 18 zł), widzimy wzrost o 25%, co jest sygnałem poprawy wyników operacyjnych. Ważne: sam EPS nie mówi, czy spółka jest tania lub droga — do tego potrzebujemy wskaźnika P/E, który relacjonuje cenę akcji do EPS."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wskaźnik ROE (Rentowność kapitału własnego)"
+    },
+    {
+      "type": "paragraph",
+      "text": "ROE (ang. Return on Equity) to jeden z najważniejszych wskaźników rentowności. Mierzy, ile zysku netto generuje spółka na każdą złotówkę zaangażowanego kapitału własnego. Wzór to: ROE = (Zysk netto / Kapitał własny) × 100%. ROE pokazuje efektywność zarządzania kapitałem akcjonariuszy — im wyższy wskaźnik, tym lepiej spółka potrafi zarabiać na powierzonych jej środkach. Jest to kluczowy miernik dla inwestorów, ponieważ bezpośrednio odnosi się do zwrotu, jaki spółka generuje na zainwestowanym kapitale."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na polskim rynku ROE powyżej 10% uznawane jest za przyzwoite, powyżej 15% za bardzo dobre, a powyżej 20% za wyjątkowe. Przykład z GPW: jeśli LPP (właściciel Reserved) osiągnął zysk netto 1,2 mld zł przy kapitale własnym 5 mld zł, to ROE = (1 200 000 000 / 5 000 000 000) × 100% = 24%. To wynik znakomity, świadczący o bardzo efektywnym wykorzystaniu kapitału. Warto jednak uważać na spółki z niskim kapitałem własnym — mogą mieć sztucznie zawyżone ROE. Jeśli spółka ma bardzo dużo długu, jej kapitał własny jest niski, a ROE może wyglądać imponująco, mimo że ryzyko finansowe jest wysokie. Dlatego ROE najlepiej analizować w połączeniu ze wskaźnikiem zadłużenia."
+    },
+    {
+      "type": "info",
+      "text": "Warren Buffett uważa ROE za jeden z najważniejszych wskaźników. Szuka spółek z konsekwentnym ROE powyżej 15% utrzymywanym przez wiele lat. Stabilnie wysoki ROE świadczy o trwałej przewadze konkurencyjnej spółki."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wskaźnik ROA (Rentowność aktywów)"
+    },
+    {
+      "type": "paragraph",
+      "text": "ROA (ang. Return on Assets) mierzy, jak efektywnie spółka wykorzystuje wszystkie swoje aktywa do generowania zysku. Wzór obliczeniowy to: ROA = (Zysk netto / Aktywa ogółem) × 100%. W odróżnieniu od ROE, które koncentruje się wyłącznie na kapitale własnym, ROA bierze pod uwagę całość majątku spółki — zarówno finansowanego kapitałem własnym, jak i długiem. Dzięki temu ROA lepiej oddaje ogólną efektywność operacyjną przedsiębiorstwa, niezależnie od struktury finansowania."
+    },
+    {
+      "type": "paragraph",
+      "text": "ROA jest szczególnie użyteczny przy porównywaniu spółek z różnymi poziomami zadłużenia w ramach jednego sektora. Na GPW dobry ROA różni się znacznie w zależności od branży: dla banków 1-2% to już dobry wynik (ze względu na ogromne aktywa), podczas gdy dla spółek technologicznych oczekujemy ROA na poziomie 8-15%. Przykładowo, jeśli CD Projekt wygenerował zysk netto 400 mln zł przy aktywach 3 mld zł, to ROA = (400 000 000 / 3 000 000 000) × 100% = 13,3%. To bardzo dobry wynik, świadczący o efektywnym wykorzystaniu zasobów spółki. Porównanie ROE i ROA pozwala ocenić wpływ dźwigni finansowej: jeśli ROE jest znacznie wyższe od ROA, spółka korzysta agresywnie z długu do finansowania swojej działalności."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Stopa dywidendy (Dividend Yield)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stopa dywidendy to wskaźnik wyrażający stosunek dywidendy na akcję do aktualnej ceny akcji, podawany w procentach. Wzór jest prosty: Stopa dywidendy = (Dywidenda na akcję / Cena akcji) × 100%. Wskaźnik ten mówi inwestorowi, jaki procentowy zwrot z samej dywidendy może oczekiwać przy aktualnym kursie akcji. Jest szczególnie istotny dla inwestorów dochodowych, którzy budują portfel generujący regularny przepływ pieniężny."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na GPW za atrakcyjną stopę dywidendy uznaje się wartości powyżej 4-5%. Spółki o stabilnej polityce dywidendowej, takie jak PZU, Pekao czy KGHM, regularnie oferują stopy na poziomie 5-8%. Przykład: jeśli PZU wypłaciło dywidendę 3,50 zł na akcję, a kurs wynosi 48 zł, to stopa dywidendy = (3,50 / 48) × 100% = 7,3%. To bardzo atrakcyjna stopa w porównaniu z lokatami bankowymi. Ważne jest jednak, aby nie patrzeć wyłącznie na wysokość stopy dywidendy. Niezwykle wysoka stopa (powyżej 10-12%) może być sygnałem ostrzegawczym — kurs mógł spaść z powodu problemów spółki, sztucznie zawyżając wskaźnik. Warto zbadać historię wypłat i wskaźnik wypłaty dywidendy (payout ratio), aby ocenić, czy dywidenda jest stabilna i zrównoważona."
+    },
+    {
+      "type": "tip",
+      "text": "Budując portfel dywidendowy na GPW, szukaj spółek, które wypłacają dywidendę regularnie przez co najmniej 5 lat z rzędu i mają wskaźnik payout ratio poniżej 70%. Więcej o tym podejściu znajdziesz w naszym artykule o spółkach dywidendowych na GPW."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wskaźnik C/Z (Cena do Zysku — polska wersja P/E)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wskaźnik C/Z to polska nazwa wskaźnika P/E i w praktyce oznacza dokładnie to samo — stosunek ceny akcji do zysku na akcję. Używamy go zamiennie z oznaczeniem P/E. Na polskim rynku w raportach giełdowych i serwisach finansowych często spotkasz się właśnie z oznaczeniem C/Z zamiast anglojęzycznego P/E, dlatego warto znać oba oznaczenia. Wzór obliczeniowy jest identyczny: C/Z = Cena akcji / Zysk na akcję. Interpretacja i zastosowanie wskaźnika C/Z są takie same jak opisane w sekcji o P/E."
+    },
+    {
+      "type": "paragraph",
+      "text": "W kontekście GPW warto zwrócić uwagę na kilka specyfik polskiego rynku. Średni C/Z dla indeksu WIG20 historycznie oscyluje wokół 10-15. Spółki z indeksów mWIG40 i sWIG80 mogą mieć wyższe C/Z, co odzwierciedla oczekiwania szybszego wzrostu mniejszych firm. Przy porównywaniu C/Z spółek z GPW z ich zagranicznymi odpowiednikami trzeba uwzględnić tzw. dyskonto polskiego rynku — historycznie spółki z GPW są notowane z niższymi wskaźnikami niż porównywalne firmy z rynków zachodnich. Na przykład polska spółka technologiczna może mieć C/Z = 15, podczas gdy analogiczna firma amerykańska — C/Z = 25. Nie oznacza to automatycznie, że polska spółka jest niedowartościowana, ale różnica jest widoczna i warunkowana m.in. ryzykiem geopolitycznym i niższą płynnością."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wskaźnik C/WK (Cena do Wartości Księgowej — polska wersja P/BV)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wskaźnik C/WK to polska nazwa wskaźnika P/BV (Price to Book Value). Stosunek ceny rynkowej akcji do wartości księgowej na akcję. W polskich raportach i analizach giełdowych spotyka się oba oznaczenia zamiennie. Wzór: C/WK = Cena akcji / Wartość księgowa na akcję. Jak wspomniano wcześniej przy P/BV, wskaźnik ten porównuje rynkową wycenę z wartością bilansową — tym, ile wart byłby majątek spółki po spłaceniu wszystkich zobowiązań."
+    },
+    {
+      "type": "paragraph",
+      "text": "C/WK jest szczególnie przydatny w analizie spółek z sektora finansowego i przemysłowego notowanych na GPW. Dla polskich banków wartości C/WK są bardzo zróżnicowane — od 0,6 dla banków z problemami portfela kredytowego po 1,8 dla banków z najlepszą rentownością. Warto pamiętać, że wartość księgowa oparta jest na zasadach rachunkowości i może nie odzwierciedlać rynkowej wartości aktywów. Na przykład spółka deweloperska, która kupiła grunty lata temu po niskich cenach, może mieć je w bilansie po kosztach nabycia, podczas gdy ich aktualna wartość rynkowa jest znacznie wyższa. W takim wypadku C/WK powyżej 1 nie musi oznaczać przewartościowania — ukryta wartość aktywów może tę premię uzasadniać."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wskaźnik Dług/EBITDA"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wskaźnik Dług/EBITDA (ang. Debt to EBITDA) mierzy zdolność spółki do obsługi i spłaty zadłużenia. Oblicza się go dzieląc dług netto spółki przez EBITDA (zysk operacyjny powiększony o amortyzację): Dług/EBITDA = Dług netto / EBITDA. Wynik mówi nam, ile lat potrzebowałaby spółka na spłatę całego zadłużenia, gdyby przeznaczyła na ten cel cały zysk operacyjny powiększony o amortyzację. Jest to jeden z kluczowych wskaźników oceny bezpieczeństwa finansowego spółki i jest szeroko stosowany zarówno przez inwestorów indywidualnych, jak i analityków instytucjonalnych oraz agencje ratingowe."
+    },
+    {
+      "type": "paragraph",
+      "text": "Generalnie Dług/EBITDA poniżej 2 jest uznawany za niski (spółka ma niewielkie zadłużenie), 2-3 to poziom umiarkowany i akceptowalny, 3-4 wymaga uwagi, a powyżej 4-5 sygnalizuje wysokie ryzyko zadłużenia. Na GPW warto analizować ten wskaźnik zwłaszcza w sektorach kapitałochłonnych: energetyka, telekomunikacja, deweloperzy. Przykład: jeśli Cyfrowy Polsat ma dług netto 8 mld zł i EBITDA na poziomie 4 mld zł, to Dług/EBITDA = 8/4 = 2,0. To akceptowalny poziom — spółka potrzebowałaby dwóch lat zysku operacyjnego, aby spłacić całe zadłużenie. Wskaźnik ten jest szczególnie ważny w środowisku rosnących stóp procentowych, kiedy koszt obsługi długu rośnie i spółki wysoko zadłużone mogą mieć problemy z utrzymaniem rentowności."
+    },
+    {
+      "type": "warning",
+      "text": "Spółki z Dług/EBITDA powyżej 5 mogą mieć trudności z refinansowaniem długu, szczególnie w warunkach podwyżek stóp procentowych. Przed inwestycją w takie spółki dokładnie zbadaj harmonogram spłat i strukturę zadłużenia."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jak łączyć wskaźniki w praktyce?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Żaden pojedynczy wskaźnik nie daje pełnego obrazu kondycji spółki. Profesjonalni inwestorzy analizują kilka mierników jednocześnie, tworząc kompleksowy obraz fundamentalnej wartości spółki. Dobrą praktyką jest stosowanie następującej sekwencji analitycznej: najpierw sprawdź rentowność (ROE, ROA) — czy spółka efektywnie zarabia pieniądze; potem oceń wycenę (P/E, P/BV) — czy cena akcji jest adekwatna do wyników; następnie zbadaj bezpieczeństwo finansowe (Dług/EBITDA) — czy spółka nie jest nadmiernie zadłużona; na koniec przeanalizuj dynamikę wzrostu (EPS rok do roku) — czy wyniki się poprawiają."
+    },
+    {
+      "type": "paragraph",
+      "text": "Przykład kompleksowej analizy spółki z GPW: wyobraźmy sobie spółkę X z sektora przemysłowego, która ma P/E = 9, P/BV = 1,2, ROE = 14%, ROA = 7%, Dług/EBITDA = 1,8 i rosnący EPS o 12% rok do roku. Taka spółka ma umiarkowaną wycenę (P/E = 9 przy średniej rynkowej 12), dobrą rentowność, bezpieczne zadłużenie i rosnące zyski. To profil atrakcyjnej fundamentalnie spółki. Pamiętaj jednak, że wskaźniki to punkt wyjścia, a nie cała analiza — warto także zbadać jakość zarządzania, pozycję konkurencyjną, perspektywy branży i potencjalne ryzyka."
+    },
+    {
+      "type": "info",
+      "text": "Screener WIGmarkets pozwala filtrować spółki po wszystkich opisanych wskaźnikach jednocześnie. Ustaw swoje kryteria — np. P/E poniżej 12, ROE powyżej 10%, Dług/EBITDA poniżej 3 — i znajdź fundamentalnie atrakcyjne spółki w kilka sekund."
+    },
+    {
+      "type": "interactive",
+      "component": "StockTableWidget",
+      "props": {
+        "title": "Wskaźniki fundamentalne spółek z GPW (dane poglądowe 2026)",
+        "metric": "fundamentals"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Podsumowanie wskaźników fundamentalnych"
+    },
+    {
+      "type": "paragraph",
+      "text": "Podsumowując, kluczowe wskaźniki analizy fundamentalnej na GPW to: P/E (C/Z) — informuje, czy spółka jest tania lub droga w relacji do zysków; P/BV (C/WK) — porównuje cenę z wartością księgową; EPS — zysk netto na jedną akcję; ROE — rentowność kapitału własnego; ROA — rentowność aktywów ogółem; stopa dywidendy — procentowy zwrot z dywidendy; Dług/EBITDA — ocena bezpieczeństwa zadłużenia. Każdy z tych wskaźników ma swoje zastosowanie i ograniczenia. Kluczem do skutecznej analizy fundamentalnej jest ich łączne stosowanie, porównywanie w ramach sektorów i śledzenie zmian w czasie. Regularne monitorowanie wskaźników fundamentalnych jest szczególnie ważne w sezonie wyników, kiedy spółki publikują kwartalne i roczne raporty finansowe."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "P/E (C/Z) — niższy wskaźnik sugeruje tańszą spółkę, ale zawsze porównuj w ramach sektora",
+        "P/BV (C/WK) — wartość poniżej 1 oznacza wycenę poniżej wartości księgowej",
+        "EPS — śledź dynamikę wzrostu zysku na akcję rok do roku",
+        "ROE — powyżej 15% to bardzo dobry wynik, ale uważaj na efekt dźwigni finansowej",
+        "ROA — bardziej obiektywny niż ROE, niezależny od struktury finansowania",
+        "Stopa dywidendy — powyżej 5% jest atrakcyjna, ale sprawdź stabilność wypłat",
+        "Dług/EBITDA — poniżej 3 to bezpieczny poziom zadłużenia"
+      ]
+    },
+    {
+      "type": "interactive",
+      "component": "QuizBlock",
+      "props": {
+        "title": "Sprawdź czy rozumiesz wskaźniki fundamentalne",
+        "questions": [
+          {
+            "question": "Spółka ma P/E = 8. Co to oznacza?",
+            "options": ["Spółka jest droga", "Inwestorzy płacą 8 zł za 1 zł zysku rocznego", "Spółka wypłaca 8% dywidendy", "Kurs wzrósł o 8%"],
+            "correct": 1,
+            "explanation": "P/E = 8 oznacza, że za każdą złotówkę rocznego zysku spółki inwestorzy płacą 8 złotych. Niski P/E może oznaczać niedowartościowanie."
+          },
+          {
+            "question": "Który wskaźnik mierzy rentowność kapitału własnego?",
+            "options": ["P/E", "EPS", "ROE", "P/BV"],
+            "correct": 2,
+            "explanation": "ROE (Return on Equity) mierzy ile zysku netto generuje spółka na każdą złotówkę kapitału własnego. ROE powyżej 15% jest uznawane za bardzo dobre."
+          },
+          {
+            "question": "Co oznacza P/BV poniżej 1?",
+            "options": ["Spółka jest przewartościowana", "Rynek wycenia spółkę poniżej jej wartości księgowej", "Spółka ma ujemne zyski", "Spółka nie wypłaca dywidendy"],
+            "correct": 1,
+            "explanation": "P/BV poniżej 1 oznacza, że cena rynkowa akcji jest niższa niż wartość księgowa na akcję. Może to oznaczać okazję lub poważne problemy spółki."
+          },
+          {
+            "question": "EPS spółki wynosi 5 zł, a cena akcji 60 zł. Ile wynosi P/E?",
+            "options": ["5", "12", "55", "65"],
+            "correct": 1,
+            "explanation": "P/E = Cena / EPS = 60 / 5 = 12. Inwestorzy płacą 12-krotność rocznego zysku na akcję."
+          },
+          {
+            "question": "Wysoki wskaźnik Dług/EBITDA może oznaczać:",
+            "options": ["Spółka jest bardzo rentowna", "Spółka jest bezpieczna finansowo", "Spółka może mieć problemy ze spłatą zadłużenia", "Spółka wypłaca wysokie dywidendy"],
+            "correct": 2,
+            "explanation": "Wysoki Dług/EBITDA (powyżej 4-5) oznacza, że spółka potrzebowałaby wielu lat zysku operacyjnego do spłaty zadłużenia, co jest ryzykowne."
+          }
+        ]
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "Jaki P/E jest dobry?",
+      "answer": "Nie ma jednej uniwersalnej odpowiedzi — dobry P/E zależy od branży i fazy rozwoju spółki. Generalnie na GPW P/E poniżej 10 uznawane jest za niskie (potencjalnie atrakcyjne), 10-15 za umiarkowane, a powyżej 20 za wysokie. Kluczowe jest porównywanie P/E w ramach sektora: dla banków P/E = 8 może być normalne, podczas gdy dla spółek technologicznych P/E = 25 wcale nie musi oznaczać przewartościowania, jeśli dynamika wzrostu zysków jest odpowiednio wysoka."
+    },
+    {
+      "question": "Czym się różni P/E od P/BV?",
+      "answer": "P/E (cena do zysku) mierzy ile inwestorzy płacą za złotówkę rocznego zysku spółki — ocenia wycenę w relacji do zyskowności. P/BV (cena do wartości księgowej) mierzy ile inwestorzy płacą za złotówkę majątku netto spółki — ocenia wycenę w relacji do wartości bilansowej. P/E jest bardziej przydatny dla spółek z regularnymi zyskami, podczas gdy P/BV lepiej sprawdza się w analizie banków, spółek majątkowych i firm z cyklicznymi zyskami."
+    },
+    {
+      "question": "Czy niski P/E zawsze oznacza okazję?",
+      "answer": "Nie, niski P/E nie zawsze oznacza okazję inwestycyjną. Spółka może mieć niski P/E z uzasadnionych powodów: spadające zyski, problemy w branży, ryzyko regulacyjne, słabe zarządzanie lub jednorazowy wzrost zysku zawyżający EPS. Takie spółki nazywane są value traps — pułapkami wartości. Dlatego zawsze analizuj przyczyny niskiego P/E, dynamikę zysków i perspektywy branży. Niski P/E jest sygnałem do głębszej analizy, a nie automatycznym sygnałem zakupu."
+    },
+    {
+      "question": "Gdzie znaleźć wskaźniki fundamentalne spółek z GPW?",
+      "answer": "Wskaźniki fundamentalne spółek z GPW można znaleźć w kilku źródłach: na stronach giełdowych (gpw.pl, stooq.pl, bankier.pl, biznesradar.pl), w raportach finansowych spółek publikowanych przez system ESPI, w serwisach brokerów (np. mBank, XTB, Bossa) oraz w screenerze WIGmarkets, który pozwala filtrować spółki po wielu wskaźnikach jednocześnie. Najbardziej aktualne dane pojawiają się po publikacji raportów kwartalnych i rocznych."
+    }
+  ]
+}

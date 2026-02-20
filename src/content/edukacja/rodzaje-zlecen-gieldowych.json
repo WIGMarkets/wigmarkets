@@ -1,0 +1,259 @@
+{
+  "slug": "rodzaje-zlecen-gieldowych",
+  "title": "Rodzaje zleceń giełdowych na GPW — limit, PKC, stop loss i inne",
+  "metaTitle": "Rodzaje zleceń giełdowych na GPW — kompletny poradnik",
+  "metaDescription": "Poznaj wszystkie rodzaje zleceń na GPW: limit, PKC, PCR, stop loss, take profit i trailing stop. Dowiedz się kiedy i jak używać każdego typu zlecenia.",
+  "category": "analiza",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-20",
+  "updatedDate": "2026-02-20",
+  "readingTime": 14,
+  "featuredImage": "/images/edukacja/zlecenia-gieldowe.webp",
+  "featuredImageAlt": "Rodzaje zleceń giełdowych na GPW",
+  "tags": ["zlecenia", "GPW", "limit", "PKC", "stop loss", "take profit"],
+  "relatedSlugs": ["jak-kupic-akcje-krok-po-kroku", "analiza-techniczna-podstawy", "jak-zaczac-inwestowac-na-gpw", "xtb-vs-mbank-vs-bossa"],
+  "ctaType": "screener",
+  "ctaText": "Znajdź spółkę i złóż pierwsze zlecenie",
+  "ctaLink": "/screener",
+  "sections": [
+    {
+      "type": "paragraph",
+      "text": "Złożenie zlecenia giełdowego to jeden z najważniejszych momentów w procesie inwestowania na Giełdzie Papierów Wartościowych w Warszawie. To właśnie rodzaj wybranego zlecenia decyduje o tym, po jakiej cenie kupisz lub sprzedasz akcje, jak szybko zostanie ono zrealizowane i jakie ryzyko ponosisz w trakcie transakcji. Początkujący inwestorzy często popełniają kosztowne błędy, składając zlecenia bez pełnego zrozumienia ich mechaniki — na przykład używając zlecenia PKC na niepłynnym rynku i kupując akcje po cenie znacznie wyższej niż oczekiwali. Zrozumienie różnic między poszczególnymi typami zleceń to fundament świadomego inwestowania i skutecznego zarządzania ryzykiem. W tym poradniku szczegółowo omówimy każdy typ zlecenia dostępny na GPW — od najprostszego zlecenia z limitem ceny, przez zlecenia rynkowe PKC i PCR, aż po zaawansowane narzędzia ochrony kapitału, takie jak stop loss, stop limit, take profit i trailing stop. Dla każdego typu podamy konkretne przykłady, zastosowania oraz wskazówki, kiedy warto go używać, a kiedy lepiej wybrać inną opcję."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zlecenie z limitem ceny"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zlecenie z limitem ceny (ang. limit order) to najbardziej podstawowy i jednocześnie najpopularniejszy typ zlecenia na GPW. Jego działanie jest intuicyjne: inwestor określa maksymalną cenę, jaką jest gotów zapłacić przy kupnie, lub minimalną cenę, jaką chce uzyskać przy sprzedaży. Zlecenie zostanie zrealizowane tylko wtedy, gdy na rynku pojawi się oferta spełniająca ten warunek cenowy. Jeśli na przykład chcesz kupić akcje spółki PKN Orlen i ich aktualna cena rynkowa wynosi 106,50 zł, możesz złożyć zlecenie kupna z limitem 105,00 zł. Oznacza to, że Twoje zlecenie zostanie zrealizowane wyłącznie wtedy, gdy cena spadnie do poziomu 105 zł lub niższego. Jeśli cena nie osiągnie tego poziomu w okresie ważności zlecenia, transakcja po prostu nie dojdzie do skutku, a Twoje środki pozostaną na rachunku maklerskim."
+    },
+    {
+      "type": "paragraph",
+      "text": "Główną zaletą zlecenia z limitem jest pełna kontrola nad ceną transakcji. Nigdy nie zapłacisz więcej (przy kupnie) ani nie sprzedasz taniej (przy sprzedaży), niż sam zdecydowałeś. To szczególnie istotne na mniej płynnych rynkach, gdzie różnica między ofertami kupna i sprzedaży (spread) bywa znacząca — na przykład w segmencie małych spółek z indeksu sWIG80. Wadą tego rozwiązania jest ryzyko, że zlecenie nie zostanie zrealizowane w ogóle lub zostanie zrealizowane tylko częściowo. Jeśli ustalisz limit zbyt daleko od aktualnej ceny rynkowej, możesz przegapić okazję inwestycyjną, bo rynek po prostu nie dotrze do Twojego poziomu cenowego. Dlatego składając zlecenie z limitem, warto analizować bieżący arkusz zleceń (tak zwany level 2) i dostosować limit do realistycznych poziomów cenowych. Zlecenia z limitem są szczególnie polecane, gdy nie zależy Ci na natychmiastowej realizacji, a bardziej na uzyskaniu korzystnej ceny. Sprawdzają się doskonale przy inwestowaniu długoterminowym, gdzie kilka groszy różnicy w cenie zakupu nie ma kluczowego znaczenia dla końcowego wyniku."
+    },
+    {
+      "type": "tip",
+      "text": "Przed złożeniem zlecenia z limitem sprawdź arkusz zleceń (book zleceń), aby zobaczyć, jakie oferty są aktualnie dostępne. Pozwoli Ci to ustawić realistyczny limit i zwiększyć szansę na realizację zlecenia."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zlecenie PKC — Po Każdej Cenie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zlecenie PKC (Po Każdej Cenie) to typ zlecenia rynkowego, które priorytetowo traktuje szybkość realizacji kosztem kontroli nad ceną. Składając zlecenie PKC, inwestor deklaruje gotowość do kupna lub sprzedaży po dowolnej cenie dostępnej w danym momencie na rynku. Zlecenie PKC jest realizowane natychmiast — przyjmuje najlepsze dostępne oferty z drugiej strony arkusza zleceń, aż do pełnej realizacji całego wolumenu. Oznacza to, że jeśli chcesz kupić 1000 akcji za pomocą PKC, a w arkuszu na najkorzystniejszym poziomie cenowym jest tylko 500 sztuk, pozostałe 500 zostanie zrealizowane po kolejnej, mniej korzystnej cenie. Zlecenie PKC jest najszybszym sposobem na wejście lub wyjście z pozycji. Sprawdza się idealnie na płynnych instrumentach, takich jak akcje spółek z WIG20 — KGHM, PKO BP, CD Projekt — gdzie dzienny obrót sięga milionów złotych, a spread jest minimalny."
+    },
+    {
+      "type": "paragraph",
+      "text": "Największym ryzykiem związanym ze zleceniem PKC jest tak zwany poślizg cenowy (slippage). Na mało płynnych instrumentach — np. spółkach z NewConnect lub małych spółkach z rynku głównego — cena realizacji może znacząco odbiegać od ostatniej ceny transakcyjnej widocznej na ekranie. Wyobraź sobie sytuację, w której ostatnia cena transakcyjna wynosi 5,00 zł, ale w arkuszu zleceń najlepsza oferta sprzedaży to 5,30 zł, a kolejna to 5,80 zł. Składając PKC na kupno 2000 akcji, możesz kupić pierwsze 500 po 5,30 zł, a pozostałe 1500 po 5,80 zł — średnia cena zakupu wyniesie więc 5,68 zł, czyli o 13,5% więcej niż oczekiwałeś. Z tego powodu zlecenia PKC powinny być używane wyłącznie na płynnych instrumentach lub w sytuacjach, gdy szybkość transakcji jest absolutnie kluczowa — np. przy nagłym komunikacie spółki lub w warunkach gwałtownego ruchu cenowego, gdy każda sekunda zwłoki oznacza gorszą cenę."
+    },
+    {
+      "type": "warning",
+      "text": "Unikaj zleceń PKC na mało płynnych spółkach! Na instrumentach z niskim obrotem dziennym poślizg cenowy może wynieść nawet kilkanaście procent. Zawsze sprawdzaj głębokość arkusza zleceń przed użyciem PKC."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zlecenie PCR — Po Cenie Rynkowej"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zlecenie PCR (Po Cenie Rynkowej) to kompromis między zleceniem z limitem a zleceniem PKC. Działanie PCR polega na tym, że po wprowadzeniu do arkusza zleceń jest ono automatycznie przekształcane w zlecenie z limitem równym najlepszej cenie po przeciwnej stronie arkusza. Innymi słowy, przy zleceniu kupna PCR limitem staje się najlepsza aktualna oferta sprzedaży, a przy sprzedaży — najlepsza oferta kupna. Kluczowa różnica w porównaniu z PKC polega na tym, że PCR realizuje się tylko po jednym poziomie cenowym. Jeśli na danym poziomie nie ma wystarczającej liczby akcji do realizacji całego zlecenia, niezrealizowana część pozostaje w arkuszu jako zlecenie z limitem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zlecenie PCR jest bezpieczniejsze niż PKC, ponieważ chroni przed poślizgiem cenowym — nigdy nie zapłacisz więcej niż cena pierwszego poziomu arkusza. Jednocześnie jest wygodniejsze niż zlecenie z limitem, bo nie musisz samodzielnie sprawdzać i wpisywać konkretnej ceny. Wadą jest to, że przy dużych zleceniach lub na mało płynnych instrumentach znaczna część wolumenu może pozostać niezrealizowana. PCR sprawdza się najlepiej, gdy chcesz szybko zrealizować transakcję na płynnym rynku, ale jednocześnie nie chcesz akceptować ryzyka realizacji po dowolnej cenie. Jest to rozsądny wybór dla inwestorów, którzy handlują na głównym parkiecie GPW i chcą uniknąć zarówno ręcznego ustawiania limitu, jak i niebezpieczeństwa poślizgu cenowego."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Stop loss — ochrona przed stratami"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stop loss to jedno z najważniejszych narzędzi zarządzania ryzykiem dostępnych dla inwestora giełdowego. Jest to zlecenie warunkowe, które aktywuje się automatycznie, gdy cena instrumentu osiągnie określony przez inwestora poziom. Mechanizm działania jest prosty: ustawiasz cenę aktywacji (tzw. trigger price) — gdy cena rynkowa spadnie do tego poziomu lub poniżej, zlecenie stop loss automatycznie zamienia się w zlecenie sprzedaży i trafia do arkusza zleceń. Dzięki temu inwestor jest chroniony przed dalszymi spadkami, nawet jeśli nie monitoruje rynku w danym momencie. Na przykład kupujesz akcje CD Projekt po 230 zł i chcesz ograniczyć potencjalną stratę do 10%. Ustawiasz stop loss na poziomie 207 zł. Jeśli cena spadnie do 207 zł, zlecenie sprzedaży zostanie automatycznie aktywowane."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prawidłowe ustawienie poziomu stop loss wymaga przemyślanej strategii. Zbyt ciasny stop loss (np. 2-3% od ceny zakupu) zostanie aktywowany przez normalne wahania rynkowe i wyrzuci Cię z pozycji przedwcześnie. Zbyt luźny stop loss (np. 30-40%) nie spełni swojej ochronnej funkcji i pozwoli na zbyt dużą stratę. Wielu doświadczonych inwestorów ustawia stop loss na poziomie istotnego wsparcia technicznego — np. pod ostatnim dołkiem cenowym, pod średnią kroczącą 200-sesyjną lub pod dolnym ograniczeniem kanału trendowego. Popularną zasadą jest ustawianie stop lossa na poziomie 5-15% poniżej ceny zakupu, w zależności od zmienności danego instrumentu. Akcje spółek z WIG20 mają zazwyczaj niższą zmienność, więc wystarczy węższy stop loss (5-8%), natomiast małe spółki z sWIG80 wymagają szerszego marginesu (10-15%), aby nie zostać przedwcześnie wyrzuconym z pozycji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Warto pamiętać, że stop loss nie gwarantuje realizacji po dokładnie ustalonej cenie. W przypadku luki cenowej (gap) — na przykład gdy spółka po sesji publikuje negatywne wyniki finansowe i otwarcie następnego dnia jest znacznie niższe — zlecenie stop loss zostanie aktywowane, ale realizacja nastąpi po cenie otwarcia, która może być znacznie niższa od ustalonego triggera. To zjawisko jest szczególnie istotne w okresie publikacji wyników kwartalnych, kiedy luki cenowe na otwarciu sesji mogą sięgać nawet kilkunastu procent. Mimo tego ograniczenia stop loss pozostaje fundamentalnym narzędziem każdego inwestora — dyscyplina w ucinaniu strat jest jedną z najważniejszych cech odróżniających zyskownych traderów od tych, którzy tracą pieniądze na giełdzie."
+    },
+    {
+      "type": "warning",
+      "text": "Stop loss nie gwarantuje realizacji po ustalonej cenie! W przypadku luk cenowych (gap) zlecenie może zostać zrealizowane znacznie poniżej poziomu aktywacji. Szczególną ostrożność zachowaj w okresie publikacji wyników kwartalnych i przy ważnych komunikatach spółek."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Stop limit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zlecenie stop limit łączy cechy zlecenia warunkowego (stop) i zlecenia z limitem ceny. Mechanizm działania obejmuje dwa parametry: cenę aktywacji (stop price) i cenę limitu. Gdy cena rynkowa osiągnie cenę aktywacji, zlecenie nie zamienia się w zlecenie rynkowe (jak zwykły stop loss), lecz w zlecenie z limitem ceny. Oznacza to, że po aktywacji zlecenie trafi do arkusza zleceń, ale zostanie zrealizowane wyłącznie po cenie limitu lub lepszej. Na przykład ustawiasz stop limit z ceną aktywacji 100 zł i limitem 98 zł. Gdy cena spadnie do 100 zł, do arkusza trafi zlecenie sprzedaży z limitem 98 zł — Twoje akcje zostaną sprzedane po cenie 98 zł lub wyższej, ale nigdy niżej."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zaletą stop limitu jest ochrona przed realizacją po bardzo niekorzystnej cenie w warunkach gwałtownych spadków. Jeśli luka cenowa jest tak duża, że cena otwarcia jest znacznie poniżej Twojego limitu, zlecenie po prostu nie zostanie zrealizowane — zachowasz swoje akcje, zamiast sprzedawać je po dramatycznie niskiej cenie. Wadą jest jednak to, że w ekstremalnych sytuacjach rynkowych (panika, krach) zlecenie może pozostać niezrealizowane, a strata dalej narastać. Stop limit sprawdza się szczególnie dobrze w sytuacjach, gdy chcesz ograniczyć stratę, ale nie za wszelką cenę — np. gdy uważasz, że luka cenowa może być przejściowa i cena szybko się odbuduje. Dla większości inwestorów indywidualnych na GPW standardowy stop loss jest jednak rozwiązaniem prostszym i bezpieczniejszym."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Take profit — realizacja zysków"
+    },
+    {
+      "type": "paragraph",
+      "text": "Take profit to zlecenie warunkowe działające odwrotnie do stop loss — aktywuje się, gdy cena instrumentu wzrośnie do określonego poziomu. Jest to narzędzie pozwalające automatycznie realizować zyski bez konieczności ciągłego monitorowania rynku. Ustawiasz cenę aktywacji na poziomie, przy którym chcesz zamknąć pozycję z zyskiem, i zlecenie sprzedaży zostanie automatycznie złożone, gdy rynek osiągnie ten poziom. Na przykład kupujesz akcje KGHM po 150 zł i ustawiasz take profit na 180 zł. Gdy kurs wzrośnie do 180 zł, Twoje akcje zostaną automatycznie wystawione na sprzedaż — realizujesz 20% zysku bez emocjonalnego wahania, czy trzymać dalej, czy sprzedawać."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ustawianie poziomów take profit wymaga analizy potencjału wzrostowego danej spółki. Inwestorzy techniczni często używają poziomów oporu, zniesień Fibonacciego lub mierzenia formacji cenowych do wyznaczenia celów. Inwestorzy fundamentalni mogą ustalać take profit na podstawie wyceny DCF lub wskaźnikowej — np. sprzedaż, gdy wskaźnik C/Z osiągnie średnią sektorową. Dobrą praktyką jest łączenie take profit ze stop loss — na przykład przy zakupie po 100 zł ustawiasz stop loss na 90 zł i take profit na 120 zł. Daje to stosunek zysku do ryzyka (reward-to-risk ratio) wynoszący 2:1, co jest uważane za minimum dla opłacalnego handlu. Wielu traderów stosuje także częściowy take profit — np. sprzedaż 50% pozycji przy zysku 15% i pozostawienie reszty z przesuniętym stop lossem na poziom zakupu."
+    },
+    {
+      "type": "info",
+      "text": "Łącz zawsze stop loss z take profit, aby mieć jasno określone scenariusze dla każdej transakcji. Dobre praktyki sugerują stosunek zysku do ryzyka (reward-to-risk) na poziomie co najmniej 2:1."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Trailing stop"
+    },
+    {
+      "type": "paragraph",
+      "text": "Trailing stop (ruchomy stop loss) to zaawansowana wersja zlecenia stop loss, która automatycznie podąża za rosnącą ceną instrumentu. Zamiast ustawiać stały poziom cenowy, inwestor definiuje odległość od aktualnej ceny — wyrażoną w procentach lub kwotowo. Gdy cena rośnie, trailing stop przesuwa się w górę, utrzymując zadaną odległość. Gdy cena zaczyna spadać, trailing stop pozostaje na najwyższym osiągniętym poziomie i aktywuje się, jeśli cena spadnie do tego poziomu. Na przykład kupujesz akcje po 100 zł i ustawiasz trailing stop z odległością 10%. Początkowo stop jest na 90 zł. Gdy cena wzrośnie do 120 zł, trailing stop automatycznie przesunie się do 108 zł (120 zł minus 10%). Jeśli następnie cena spadnie do 108 zł, zlecenie sprzedaży zostanie aktywowane."
+    },
+    {
+      "type": "paragraph",
+      "text": "Trailing stop jest idealnym narzędziem w sytuacji silnego trendu wzrostowego — pozwala uczestniczyć w ruchu cenowym tak długo, jak trwa trend, jednocześnie automatycznie chroniąc zyski, gdy trend się odwróci. Wybór odpowiedniej odległości zależy od zmienności instrumentu: dla stabilnych blue chipów (WIG20) odległość 5-8% jest zazwyczaj wystarczająca, dla bardziej zmiennych spółek z mWIG40 lub sWIG80 warto zastosować 10-15%, aby nie zostać wyrzuconym z pozycji przez normalną korektę. Trailing stop kwotowy (np. 5 zł poniżej maksimum) jest prostszy w obsłudze, ale procentowy lepiej dostosowuje się do różnych poziomów cenowych. Na GPW nie wszystkie platformy maklerskie oferują automatyczny trailing stop — w takim przypadku inwestor musi ręcznie przesuwać stop loss w miarę wzrostu ceny, co wymaga regularnego monitorowania pozycji."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zlecenia z ważnością czasową"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oprócz typu zlecenia i parametrów cenowych, istotnym elementem każdego zlecenia giełdowego na GPW jest jego ważność czasowa. Określa ona, jak długo zlecenie pozostaje aktywne w systemie transakcyjnym giełdy. Wybór odpowiedniej ważności wpływa na strategię inwestycyjną i wymaga świadomej decyzji. Na GPW dostępne są trzy główne rodzaje ważności czasowej, z których każdy sprawdza się w innej sytuacji inwestycyjnej."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "WIA — Ważne na Czas Aukcji"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zlecenie WIA jest ważne wyłącznie podczas fazy otwarcia lub zamknięcia sesji giełdowej (faza aukcji). Jeśli nie zostanie zrealizowane w trakcie fixingu, automatycznie wygasa. Ten typ ważności stosowany jest przez inwestorów, którzy chcą uczestniczyć wyłącznie w fazie aukcji, gdzie formuje się cena otwarcia lub zamknięcia. Jest to popularne narzędzie wśród traderów instytucjonalnych i algorytmicznych, którzy budują lub likwidują pozycje w oparciu o cenę zamknięcia. Dla inwestorów indywidualnych WIA może być przydatne, gdy chcesz kupić akcje dokładnie po cenie otwarcia i nie chcesz, aby Twoje zlecenie było realizowane w trakcie notowań ciągłych."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "WDA — Ważne do Określonego Dnia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zlecenie WDA (Ważne Do Dnia) pozwala ustawić konkretną datę, do której zlecenie ma być aktywne. Jeśli do końca sesji w wyznaczonym dniu zlecenie nie zostanie zrealizowane, automatycznie wygasa. Na GPW maksymalna ważność zlecenia WDA wynosi zazwyczaj 365 dni. Jest to doskonały wybór, gdy chcesz kupić akcje po określonej cenie, ale nie chcesz, aby zlecenie wisiało w systemie w nieskończoność. Na przykład, jeśli analizujesz wsparcie techniczne na poziomie 50 zł i chcesz kupić akcje tylko wtedy, gdy cena dotrze tam w ciągu najbliższych dwóch tygodni — ustawiasz zlecenie kupna z limitem 50 zł i ważnością WDA na 14 dni. Jeśli cena nie spadnie do tego poziomu w wyznaczonym terminie, zlecenie zniknie z arkusza i nie musisz pamiętać o jego anulowaniu."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "WDC — Ważne do Odwołania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zlecenie WDC (Ważne Do Czasu Anulowania) pozostaje aktywne w systemie do momentu realizacji lub ręcznego anulowania przez inwestora. Na GPW maksymalna ważność takiego zlecenia jest ograniczona regulaminem do 365 dni od momentu złożenia. Po tym czasie zlecenie automatycznie wygasa. WDC jest najwygodniejszym typem ważności dla inwestorów długoterminowych, którzy chcą ustawić zlecenie i o nim zapomnieć — np. zlecenie stop loss chroniące pozycję lub zlecenie take profit na docelowym poziomie zysku. Pamiętaj jednak, że zlecenia WDC wymagają okresowej weryfikacji — zmiany rynkowe, publikacja wyników finansowych czy wydarzenia makroekonomiczne mogą wymagać aktualizacji poziomów cenowych zlecenia."
+    },
+    {
+      "type": "info",
+      "text": "Na GPW ważność zlecenia WDC jest ograniczona do maksymalnie 365 dni. Po tym czasie zlecenie automatycznie wygasa — pamiętaj o regularnym sprawdzaniu swoich aktywnych zleceń."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Porównanie rodzajów zleceń giełdowych"
+    },
+    {
+      "type": "interactive",
+      "component": "ComparisonTable",
+      "props": {
+        "title": "Porównanie rodzajów zleceń giełdowych",
+        "data": "zleceniaComparison"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jakie zlecenie wybrać?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wybór odpowiedniego typu zlecenia zależy od Twojego doświadczenia, stylu inwestowania i konkretnej sytuacji rynkowej. Początkujący inwestorzy powinni skupić się na dwóch podstawowych typach: zleceniu z limitem ceny i zleceniu stop loss. Zlecenie z limitem daje pełną kontrolę nad ceną transakcji i eliminuje ryzyko poślizgu cenowego — jest to najbezpieczniejszy sposób kupowania i sprzedawania akcji. Stop loss powinien towarzyszyć każdej pozycji od samego początku — ustal go na poziomie maksymalnej akceptowalnej straty (np. 8-10% poniżej ceny zakupu) i nie przesuwaj go w dół, nawet jeśli emocje podpowiadają, że cena zaraz się odbije. Unikaj zleceń PKC, dopóki nie nabierzesz doświadczenia — ryzyko poślizgu cenowego jest zbyt duże dla osób nieznających specyfiki poszczególnych instrumentów."
+    },
+    {
+      "type": "paragraph",
+      "text": "Doświadczeni inwestorzy mogą korzystać z pełnej palety zleceń w zależności od strategii. Aktywni traderzy często używają zleceń PKC na płynnych instrumentach z WIG20, gdzie szybkość realizacji jest kluczowa. Swing traderzy stawiają na kombinację stop loss i take profit z odpowiednim stosunkiem zysku do ryzyka. Inwestorzy trendowi chętnie używają trailing stopu, który pozwala jechać z trendem i automatycznie chronić narastające zyski. Kluczowa zasada, niezależnie od poziomu doświadczenia, brzmi: nigdy nie składaj zlecenia, którego mechaniki nie rozumiesz w pełni. Każdy nowy typ zlecenia warto najpierw przetestować na małych kwotach lub na rachunku demonstracyjnym, zanim zaangażujesz w niego poważniejszy kapitał."
+    },
+    {
+      "type": "tip",
+      "text": "Jako początkujący inwestor zacznij od dwóch typów zleceń: zlecenia z limitem ceny (do kupna i sprzedaży) oraz stop loss (do ochrony pozycji). Dopiero gdy nabierzesz pewności, eksperymentuj z bardziej zaawansowanymi typami."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Praktyczne wskazówki dotyczące składania zleceń"
+    },
+    {
+      "type": "paragraph",
+      "text": "Skuteczne korzystanie ze zleceń giełdowych wymaga nie tylko znajomości poszczególnych typów, ale również stosowania kilku praktycznych zasad. Po pierwsze, zawsze sprawdzaj arkusz zleceń przed złożeniem transakcji — pozwoli Ci to ocenić płynność instrumentu i ustawić realistyczne parametry cenowe. Po drugie, unikaj składania dużych zleceń jednorazowo na mało płynnych spółkach — lepiej podzielić zlecenie na kilka mniejszych transzy, aby zminimalizować wpływ na cenę rynkową. Po trzecie, korzystaj z zleceń warunkowych (stop loss, take profit) od momentu otwarcia pozycji — nie odkładaj tego na później, bo emocje mogą sprawić, że nigdy nie ustawisz ochrony. Po czwarte, regularnie przeglądaj swoje aktywne zlecenia i dostosowuj je do zmieniających się warunków rynkowych. Zlecenie stop loss ustawione trzy miesiące temu może wymagać korekty, jeśli zmienił się obraz techniczny spółki lub pojawiły się nowe informacje fundamentalne."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Sprawdź arkusz zleceń i płynność instrumentu przed złożeniem zlecenia",
+        "Na mało płynnych spółkach używaj zawsze zleceń z limitem, nigdy PKC",
+        "Ustawiaj stop loss natychmiast po otwarciu pozycji — nie odkładaj tego na później",
+        "Łącz stop loss z take profit, aby mieć jasny plan dla każdej transakcji",
+        "Regularnie przeglądaj i aktualizuj aktywne zlecenia warunkowe",
+        "Testuj nowe typy zleceń na małych kwotach lub rachunku demo",
+        "Na płynnych instrumentach (WIG20) możesz używać PKC; na mniejszych spółkach — tylko limit",
+        "Unikaj modyfikowania stop lossa w dół pod wpływem emocji — dyscyplina jest kluczowa"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Najczęstsze błędy przy składaniu zleceń"
+    },
+    {
+      "type": "paragraph",
+      "text": "Na zakończenie warto wspomnieć o najczęstszych błędach, które popełniają inwestorzy przy składaniu zleceń giełdowych. Pierwszym i najpowszechniejszym jest brak stop lossa — wielu inwestorów kupuje akcje z nadzieją, że cena wzrośnie, ale nie planuje scenariusza spadkowego. Gdy cena spada, trzymają pozycję coraz dłużej, licząc na odbicie, aż strata staje się tak duża, że sprzedaż wydaje się bezcelowa. Drugim częstym błędem jest używanie PKC na niepłynnych instrumentach — poślizg cenowy potrafi kosztować kilka procent wartości transakcji. Trzecim błędem jest zbyt ciasny stop loss na zmiennych spółkach — ustawianie go 2-3% poniżej ceny zakupu na spółce, która regularnie notuje dzienne wahania 5-7%, to proszenie się o przedwczesną realizację. Czwartym błędem jest przesuwanie stop lossa w dół, gdy cena zbliża się do poziomu aktywacji — to sabotowanie własnej strategii zarządzania ryzykiem i droga do dużych strat. Unikaj tych pułapek, a Twoje inwestowanie na GPW stanie się znacznie bardziej systematyczne i zyskowne."
+    },
+    {
+      "type": "warning",
+      "text": "Nigdy nie przesuwaj stop lossa w dół! Jeśli cena zbliża się do poziomu aktywacji, to Twój plan ochrony działa prawidłowo. Przesuwanie stopu w dół pod wpływem emocji to jeden z najkosztowniejszych błędów inwestorów indywidualnych."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czy stop loss gwarantuje cenę sprzedaży?",
+      "answer": "Nie, stop loss nie gwarantuje realizacji po dokładnie ustalonej cenie. Po aktywacji staje się zleceniem rynkowym (PKC), które jest realizowane po najlepszej dostępnej cenie. W przypadku luki cenowej (gap) — np. po publikacji wyników finansowych po sesji — cena realizacji może być znacznie niższa od poziomu aktywacji stop lossa. Alternatywą jest zlecenie stop limit, które po aktywacji staje się zleceniem z limitem ceny, ale ryzykujesz, że w przypadku dużego gapu zlecenie w ogóle nie zostanie zrealizowane."
+    },
+    {
+      "question": "Jakie zlecenie wybrać jako początkujący?",
+      "answer": "Jako początkujący inwestor powinieneś korzystać przede wszystkim ze zlecenia z limitem ceny do kupna i sprzedaży akcji oraz ze zlecenia stop loss do ochrony pozycji. Zlecenie z limitem daje Ci pełną kontrolę nad ceną transakcji i eliminuje ryzyko poślizgu cenowego. Stop loss natomiast automatycznie chroni Twój kapitał przed dużymi stratami. Unikaj zleceń PKC do czasu, aż nabierzesz doświadczenia w ocenie płynności instrumentów. Bardziej zaawansowane typy, takie jak trailing stop czy stop limit, warto wprowadzać stopniowo."
+    },
+    {
+      "question": "Co to jest zlecenie WIA?",
+      "answer": "Zlecenie WIA (Ważne na Czas Aukcji) to zlecenie, które jest aktywne wyłącznie podczas fazy aukcji na GPW — czyli w czasie fixingu na otwarciu lub zamknięciu sesji. Jeśli zlecenie nie zostanie zrealizowane w trakcie aukcji, automatycznie wygasa. WIA jest używane głównie przez inwestorów instytucjonalnych i traderów algorytmicznych, którzy chcą uczestniczyć wyłącznie w ustalaniu ceny otwarcia lub zamknięcia, bez narażania się na realizację w trakcie notowań ciągłych."
+    },
+    {
+      "question": "Czy można zmienić zlecenie po złożeniu?",
+      "answer": "Tak, na GPW możesz modyfikować lub anulować złożone zlecenie, o ile nie zostało jeszcze w pełni zrealizowane. Modyfikacja może dotyczyć ceny, wolumenu (tylko zmniejszenie) lub ważności czasowej. Pamiętaj jednak, że zmiana ceny zlecenia powoduje utratę priorytetu czasowego w arkuszu zleceń — Twoje zlecenie trafi na koniec kolejki na danym poziomie cenowym. Anulowanie zlecenia jest bezpłatne u większości polskich brokerów. Warto regularnie przeglądać swoje aktywne zlecenia i dostosowywać je do zmieniających się warunków rynkowych."
+    }
+  ]
+}
