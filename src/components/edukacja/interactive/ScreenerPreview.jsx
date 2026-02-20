@@ -1,3 +1,5 @@
+import { useIsMobile } from "../../../hooks/useIsMobile.js";
+
 const PREVIEW_STOCKS = [
   { ticker: "CDR", name: "CD Projekt", sector: "IT", change24h: 2.1, pe: 28.5, div: 0.0 },
   { ticker: "DNP", name: "Dino Polska", sector: "Handel", change24h: -0.8, pe: 24.1, div: 0.0 },
@@ -6,7 +8,18 @@ const PREVIEW_STOCKS = [
   { ticker: "KGHM", name: "KGHM Polska Miedź", sector: "Surowce", change24h: -1.5, pe: 11.2, div: 5.1 },
 ];
 
+function ScrollHint({ theme }) {
+  return (
+    <div style={{ fontSize: 11, color: theme.textSecondary, textAlign: "right", padding: "6px 12px", display: "flex", alignItems: "center", justifyContent: "flex-end", gap: 4 }}>
+      <span>Przewiń tabelę</span>
+      <span style={{ fontSize: 14 }}>→</span>
+    </div>
+  );
+}
+
 export default function ScreenerPreview({ theme, onNavigate }) {
+  const isMobile = useIsMobile();
+
   return (
     <div style={{
       background: theme.bgCardAlt,
@@ -15,7 +28,7 @@ export default function ScreenerPreview({ theme, onNavigate }) {
       overflow: "hidden",
       margin: "24px 0",
     }}>
-      <div style={{ padding: "16px 20px", borderBottom: `1px solid ${theme.border}`, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+      <div style={{ padding: isMobile ? "12px 16px" : "16px 20px", borderBottom: `1px solid ${theme.border}`, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 8 }}>
         <div>
           <div style={{ fontSize: 13, fontWeight: 700, color: theme.textBright }}>🔍 Screener GPW — podgląd</div>
           <div style={{ fontSize: 11, color: theme.textSecondary, marginTop: 2 }}>Przykładowe dane · Filtruj spółki według własnych kryteriów</div>
@@ -23,13 +36,14 @@ export default function ScreenerPreview({ theme, onNavigate }) {
         <a
           href="/"
           onClick={e => { e.preventDefault(); onNavigate?.("/"); }}
-          style={{ fontSize: 12, color: "#58a6ff", textDecoration: "none", fontWeight: 600, padding: "6px 14px", border: "1px solid #58a6ff40", borderRadius: 8 }}
+          style={{ fontSize: 12, color: "#58a6ff", textDecoration: "none", fontWeight: 600, padding: "8px 14px", border: "1px solid #58a6ff40", borderRadius: 8, minHeight: 44, display: "inline-flex", alignItems: "center" }}
         >
           Pełny screener →
         </a>
       </div>
-      <div style={{ overflowX: "auto" }}>
-        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
+      {isMobile && <ScrollHint theme={theme} />}
+      <div style={{ overflowX: "auto", WebkitOverflowScrolling: "touch" }}>
+        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13, minWidth: isMobile ? 450 : "auto" }}>
           <thead>
             <tr style={{ background: theme.bgCard }}>
               {["Spółka", "Sektor", "Zmiana 24h", "P/E", "Dywidenda"].map(h => (
@@ -67,7 +81,7 @@ export default function ScreenerPreview({ theme, onNavigate }) {
         <a
           href="/"
           onClick={e => { e.preventDefault(); onNavigate?.("/"); }}
-          style={{ fontSize: 13, color: "#58a6ff", fontWeight: 600, textDecoration: "none" }}
+          style={{ fontSize: 13, color: "#58a6ff", fontWeight: 600, textDecoration: "none", display: "inline-block", padding: "8px 0", minHeight: 44, lineHeight: "28px" }}
         >
           Zobacz wszystkie spółki GPW z filtrami →
         </a>

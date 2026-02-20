@@ -26,7 +26,7 @@ export default function FAQSection({ items, theme }) {
               onClick={() => setOpen(open === i ? null : i)}
               style={{
                 width: "100%",
-                padding: "16px 20px",
+                padding: "14px 16px",
                 background: "transparent",
                 border: "none",
                 color: theme.textBright,
@@ -39,6 +39,7 @@ export default function FAQSection({ items, theme }) {
                 alignItems: "center",
                 gap: 12,
                 textAlign: "left",
+                minHeight: 48,
               }}
             >
               <span>{item.question}</span>

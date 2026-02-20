@@ -42,10 +42,10 @@ export default function SocialShare({ title, url, theme }) {
           aria-label={`Udostępnij na ${btn.label}`}
           style={{
             display: "inline-flex", alignItems: "center", justifyContent: "center",
-            width: 36, height: 36, borderRadius: 8,
+            width: 44, height: 44, borderRadius: 8,
             background: `${btn.color}20`,
             color: btn.color,
-            fontWeight: 800, fontSize: 14, textDecoration: "none",
+            fontWeight: 800, fontSize: 16, textDecoration: "none",
             border: `1px solid ${btn.color}40`,
             transition: "background 0.15s",
           }}
@@ -59,9 +59,9 @@ export default function SocialShare({ title, url, theme }) {
         id="copy-link-btn"
         onClick={copyLink}
         style={{
-          padding: "6px 14px", borderRadius: 8, border: `1px solid ${theme.border}`,
+          padding: "10px 16px", borderRadius: 8, border: `1px solid ${theme.border}`,
           background: theme.bgCardAlt, color: theme.textSecondary,
-          fontFamily: "inherit", fontSize: 12, cursor: "pointer",
+          fontFamily: "inherit", fontSize: 13, cursor: "pointer", minHeight: 44,
         }}
       >🔗 Kopiuj link</button>
     </div>

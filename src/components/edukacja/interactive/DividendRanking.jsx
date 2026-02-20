@@ -1,3 +1,5 @@
+import { useIsMobile } from "../../../hooks/useIsMobile.js";
+
 const DIVIDEND_DATA = [
   { ticker: "PKN", name: "PKN Orlen", sector: "Energetyka", divYield: 6.8, div: 5.5, pe: 8.1, payoutRatio: "55%", frequency: "Roczna" },
   { ticker: "PZU", name: "PZU SA", sector: "Finanse", divYield: 7.2, div: 3.1, pe: 9.5, payoutRatio: "70%", frequency: "Roczna" },
@@ -9,7 +11,18 @@ const DIVIDEND_DATA = [
   { ticker: "BENEFIT", name: "Benefit Systems", sector: "Usługi", divYield: 2.1, div: 30.0, pe: 28.4, payoutRatio: "45%", frequency: "Roczna" },
 ];
 
+function ScrollHint({ theme }) {
+  return (
+    <div style={{ fontSize: 11, color: theme.textSecondary, textAlign: "right", padding: "6px 12px", display: "flex", alignItems: "center", justifyContent: "flex-end", gap: 4 }}>
+      <span>Przewiń tabelę</span>
+      <span style={{ fontSize: 14 }}>→</span>
+    </div>
+  );
+}
+
 export default function DividendRanking({ theme }) {
+  const isMobile = useIsMobile();
+
   return (
     <div style={{
       background: theme.bgCardAlt,
@@ -18,7 +31,7 @@ export default function DividendRanking({ theme }) {
       overflow: "hidden",
       margin: "24px 0",
     }}>
-      <div style={{ padding: "16px 20px", borderBottom: `1px solid ${theme.border}`, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+      <div style={{ padding: isMobile ? "12px 16px" : "16px 20px", borderBottom: `1px solid ${theme.border}`, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 8 }}>
         <div>
           <div style={{ fontSize: 13, fontWeight: 700, color: theme.textBright }}>🏆 Ranking spółek dywidendowych GPW 2026</div>
           <div style={{ fontSize: 11, color: theme.textSecondary, marginTop: 2 }}>Dane szacunkowe · Dywidendy mogą ulec zmianie</div>
@@ -27,8 +40,9 @@ export default function DividendRanking({ theme }) {
           Posortowane wg stopy dywidendy
         </span>
       </div>
-      <div style={{ overflowX: "auto" }}>
-        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
+      {isMobile && <ScrollHint theme={theme} />}
+      <div style={{ overflowX: "auto", WebkitOverflowScrolling: "touch" }}>
+        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13, minWidth: isMobile ? 600 : "auto" }}>
           <thead>
             <tr style={{ background: theme.bgCard }}>
               {["#", "Spółka", "Sektor", "Stopa dywidendy", "Dywidenda (zł)", "P/E", "Payout ratio", "Częstotliwość"].map(h => (

@@ -1,3 +1,5 @@
+import ArticleIllustration from "./ArticleIllustration.jsx";
+
 const CATEGORY_LABELS = { podstawy: "Podstawy", analiza: "Analiza", strategia: "Strategia" };
 const CATEGORY_COLORS = { podstawy: "#58a6ff", analiza: "#00c896", strategia: "#f0883e" };
 
@@ -27,18 +29,16 @@ export default function ArticleCard({ article, theme, onNavigate, compact = fals
         e.currentTarget.style.transform = "translateY(0)";
       }}
     >
-      {/* Featured image placeholder */}
       {!compact && (
         <div style={{
-          height: 140,
-          background: `linear-gradient(135deg, ${catColor}22 0%, ${catColor}11 100%)`,
           borderBottom: `1px solid ${theme.border}`,
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          fontSize: 40,
+          overflow: "hidden",
+          lineHeight: 0,
         }}>
-          {article.category === "podstawy" ? "📚" : article.category === "analiza" ? "📊" : "♟️"}
+          <ArticleIllustration
+            slug={article.slug}
+            style={{ width: "100%", height: "auto", display: "block" }}
+          />
         </div>
       )}
       <div style={{ padding: compact ? "12px 14px" : "16px 20px", flex: 1, display: "flex", flexDirection: "column", gap: 8 }}>

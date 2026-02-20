@@ -1,3 +1,5 @@
+import { useIsMobile } from "../../../hooks/useIsMobile.js";
+
 const BROKER_DATA = [
   { name: "XTB", minDeposit: "0 zł", commissionGPW: "0% (do 100k EUR/m-c)", commissionUS: "0% (do 100k EUR/m-c)", platform: "xStation 5", demo: "Tak", ikeIkze: "Nie", rating: "★★★★★" },
   { name: "mBank eMakler", minDeposit: "0 zł", commissionGPW: "0,19% (min. 3 zł)", commissionUS: "0,29% (min. 19 zł)", platform: "eMakler", demo: "Nie", ikeIkze: "Tak (IKE)", rating: "★★★★☆" },
@@ -16,7 +18,17 @@ const ETF_DATA = [
   { name: "iShares Core MSCI World", ticker: "IWDA", index: "MSCI World", ter: "0,20%", aum: ">50 mld USD", dywidendy: "Akumulacja", provider: "BlackRock iShares" },
 ];
 
+function ScrollHint({ theme }) {
+  return (
+    <div style={{ fontSize: 11, color: theme.textSecondary, textAlign: "right", padding: "6px 12px", display: "flex", alignItems: "center", justifyContent: "flex-end", gap: 4 }}>
+      <span>Przewiń tabelę</span>
+      <span style={{ fontSize: 14 }}>→</span>
+    </div>
+  );
+}
+
 export default function ComparisonTable({ title = "Porównanie kont maklerskich 2026", data = "brokerComparison", theme }) {
+  const isMobile = useIsMobile();
   const isBroker = data === "brokerComparison";
   const isETF = data === "etfComparison";
   const rows = isBroker ? BROKER_DATA : isETF ? ETF_DATA : BROKER_DATA;
@@ -29,12 +41,13 @@ export default function ComparisonTable({ title = "Porównanie kont maklerskich 
       overflow: "hidden",
       margin: "24px 0",
     }}>
-      <div style={{ padding: "16px 20px", borderBottom: `1px solid ${theme.border}` }}>
+      <div style={{ padding: isMobile ? "12px 16px" : "16px 20px", borderBottom: `1px solid ${theme.border}` }}>
         <div style={{ fontSize: 13, fontWeight: 700, color: theme.textBright }}>{title}</div>
         <div style={{ fontSize: 11, color: theme.textSecondary, marginTop: 2 }}>Dane na luty 2026 · Zawsze sprawdzaj aktualne warunki u brokera</div>
       </div>
-      <div style={{ overflowX: "auto" }}>
-        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
+      {isMobile && <ScrollHint theme={theme} />}
+      <div style={{ overflowX: "auto", WebkitOverflowScrolling: "touch" }}>
+        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13, minWidth: isMobile ? 600 : "auto" }}>
           <thead>
             <tr style={{ background: theme.bgCard }}>
               {isBroker && ["Broker", "Min. depozyt", "Prowizja GPW", "Prowizja USA", "Platforma", "Demo", "IKE/IKZE", "Ocena"].map(h => (

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useIsMobile } from "../../../hooks/useIsMobile.js";
 
 const DEFAULT_QUESTIONS = [
   {
@@ -22,6 +23,7 @@ const DEFAULT_QUESTIONS = [
 ];
 
 export default function QuizBlock({ questions = DEFAULT_QUESTIONS, title = "Sprawdź swoją wiedzę", theme }) {
+  const isMobile = useIsMobile();
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState(null);
   const [score, setScore] = useState(0);
@@ -60,7 +62,7 @@ export default function QuizBlock({ questions = DEFAULT_QUESTIONS, title = "Spra
       background: theme.bgCardAlt,
       border: `1px solid ${theme.border}`,
       borderRadius: 12,
-      padding: 24,
+      padding: isMobile ? 16 : 24,
       margin: "24px 0",
     }}>
       <div style={{ fontWeight: 700, fontSize: 15, color: theme.textBright, marginBottom: 4 }}>🧠 {title}</div>
@@ -81,7 +83,7 @@ export default function QuizBlock({ questions = DEFAULT_QUESTIONS, title = "Spra
           </div>
           <button
             onClick={handleRestart}
-            style={{ padding: "10px 24px", background: "#58a6ff", color: "#000", border: "none", borderRadius: 8, fontWeight: 700, cursor: "pointer", fontFamily: "inherit", fontSize: 14 }}
+            style={{ padding: "12px 24px", background: "#58a6ff", color: "#000", border: "none", borderRadius: 8, fontWeight: 700, cursor: "pointer", fontFamily: "inherit", fontSize: 14, minHeight: 48 }}
           >Spróbuj ponownie</button>
         </div>
       ) : (
@@ -99,23 +101,23 @@ export default function QuizBlock({ questions = DEFAULT_QUESTIONS, title = "Spra
                   key={i}
                   onClick={() => handleAnswer(i)}
                   style={{
-                    background: bg, border: `1px solid ${border}`, borderRadius: 8, padding: "11px 16px",
+                    background: bg, border: `1px solid ${border}`, borderRadius: 8, padding: "12px 16px",
                     color, fontFamily: "inherit", fontSize: 14, cursor: selected !== null ? "default" : "pointer",
-                    textAlign: "left", transition: "all 0.2s",
+                    textAlign: "left", transition: "all 0.2s", minHeight: 48,
                   }}
                 >{opt}</button>
               );
             })}
           </div>
           {showExplanation && (
-            <div style={{ background: "#58a6ff15", border: "1px solid #58a6ff40", borderRadius: 8, padding: "12px 16px", marginBottom: 16, fontSize: 13, color: theme.text, lineHeight: 1.6 }}>
+            <div style={{ background: "#58a6ff15", border: "1px solid #58a6ff40", borderRadius: 8, padding: "12px 16px", marginBottom: 16, fontSize: 14, color: theme.text, lineHeight: 1.6 }}>
               💡 {q.explanation}
             </div>
           )}
           {selected !== null && (
             <button
               onClick={handleNext}
-              style={{ padding: "10px 24px", background: "#58a6ff", color: "#000", border: "none", borderRadius: 8, fontWeight: 700, cursor: "pointer", fontFamily: "inherit", fontSize: 14 }}
+              style={{ padding: "12px 24px", background: "#58a6ff", color: "#000", border: "none", borderRadius: 8, fontWeight: 700, cursor: "pointer", fontFamily: "inherit", fontSize: 14, minHeight: 48 }}
             >{current + 1 >= questions.length ? "Zobacz wynik" : "Następne pytanie →"}</button>
           )}
         </>
