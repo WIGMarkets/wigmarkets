@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
   const { q } = req.query;
   const limit = Math.min(parseInt(req.query.limit) || 10, 30);
-  const query = q ? q + " GPW" : "GPW giełda akcje spółki";
+  const query = q ? q + " GPW when:30d" : "GPW giełda akcje spółki when:30d";
 
   const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=pl&gl=PL&ceid=PL:pl`;
 
@@ -30,6 +30,7 @@ export default async function handler(req, res) {
       }
     }
 
+    items.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
     res.status(200).json({ items });
   } catch (error) {
     res.status(500).json({ error: "Failed to fetch news" });

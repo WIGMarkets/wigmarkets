@@ -155,9 +155,9 @@ export default function NewsPage({ onBack, theme, onSelectStock }) {
           </div>
         )}
 
-        {news !== null && enriched.length === 0 && (
+        {news !== null && filtered.length === 0 && (
           <div style={{ color: theme.textSecondary, fontSize: 13, padding: "32px 0", textAlign: "center" }}>
-            Brak wiadomości.
+            {activePeriod ? "Brak wiadomości z tego okresu." : "Brak wiadomości."}
           </div>
         )}
 
