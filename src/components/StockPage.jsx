@@ -6,6 +6,7 @@ import LargeChart from "./LargeChart.jsx";
 import FundamentalsSection from "./FundamentalsSection.jsx";
 import RSIGauge from "./RSIGauge.jsx";
 import StockLogo from "./StockLogo.jsx";
+import Icon from "./edukacja/Icon.jsx";
 
 export default function StockPage({ stock, prices, changes, onBack, theme }) {
   const [history, setHistory] = useState(null);
@@ -80,7 +81,7 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
       <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, padding: "0 16px" }}>
         <div style={{ display: "flex", gap: 16, padding: "10px 0", alignItems: "center", maxWidth: 1100, margin: "0 auto" }}>
           <button onClick={onBack} style={{ display: "flex", alignItems: "center", gap: 6, background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 8, color: theme.textSecondary, padding: "6px 14px", fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: 600 }}>
-            ← Wstecz
+            <Icon name="arrow-left" size={14} /> Wstecz
           </button>
           <div style={{ fontWeight: 800, fontSize: 16, color: theme.textBright, whiteSpace: "nowrap", cursor: "pointer" }} onClick={onBack}>
             WIG<span style={{ color: theme.accent }}>markets</span>
@@ -173,7 +174,7 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
               </div>
               <a href={`https://finance.yahoo.com/quote/${getYahooSymbol(stock.stooq || stock.ticker)}`} target="_blank" rel="noreferrer"
                 style={{ display: "block", textAlign: "center", color: theme.accent, fontSize: 12, textDecoration: "none", marginTop: 14, fontWeight: 600 }}>
-                Zobacz pełne dane na Yahoo Finance →
+                <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>Zobacz pełne dane na Yahoo Finance <Icon name="external-link" size={12} /></span>
               </a>
             </div>
           </div>

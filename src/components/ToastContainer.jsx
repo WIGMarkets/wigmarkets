@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
+import Icon from "./edukacja/Icon.jsx";
 
 let _addToast = null;
 
@@ -41,8 +42,8 @@ export default function ToastContainer({ theme }) {
             boxShadow: "0 4px 20px rgba(0,0,0,0.4)",
             animation: "toast-in 0.25s ease",
           }}>
-            <span style={{ color: c.text, fontWeight: 700, marginRight: 6 }}>
-              {t.type === "success" ? "✓" : t.type === "warning" ? "⚠" : t.type === "error" ? "✕" : "ℹ"}
+            <span style={{ color: c.text, marginRight: 6, display: "inline-flex", alignItems: "center" }}>
+              {t.type === "success" ? <Icon name="check" size={16} /> : t.type === "warning" ? <Icon name="alert-triangle" size={16} /> : t.type === "error" ? <Icon name="x" size={16} /> : <Icon name="info-circle" size={16} />}
             </span>
             {t.msg}
           </div>

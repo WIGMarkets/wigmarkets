@@ -28,6 +28,7 @@ import ArticlePage from "./components/edukacja/ArticlePage.jsx";
 import SkeletonRow from "./components/SkeletonRow.jsx";
 import ToastContainer, { toast } from "./components/ToastContainer.jsx";
 import AlertsModal from "./components/AlertsModal.jsx";
+import Icon from "./components/edukacja/Icon.jsx";
 import { loadAlerts, usePriceAlerts } from "./hooks/usePriceAlerts.js";
 
 const ALL_INSTRUMENTS = [...STOCKS, ...COMMODITIES, ...FOREX];
@@ -351,8 +352,8 @@ export default function WigMarkets() {
     <th onClick={() => handleSort(key)} style={{ padding: isMobile ? "8px 8px" : "10px 16px", textAlign: right ? "right" : "left", fontSize: 10, color: sortBy === key ? theme.accent : theme.textSecondary, cursor: "pointer", whiteSpace: "nowrap", userSelect: "none", borderBottom: `1px solid ${theme.border}`, fontWeight: 600, letterSpacing: 1, textTransform: "uppercase" }}>
       {label}{" "}
       {sortBy === key
-        ? (sortDir === "desc" ? "↓" : "↑")
-        : <span style={{ opacity: 0.3, fontSize: 9 }}>↕</span>}
+        ? (sortDir === "desc" ? <Icon name="chevron-down" size={12} /> : <Icon name="chevron-up" size={12} />)
+        : <Icon name="chevrons-up-down" size={10} style={{ opacity: 0.3 }} />}
     </th>
   );
   const exportCSV = () => {
@@ -475,8 +476,8 @@ export default function WigMarkets() {
             {[
               ["/  lub  f", "Fokus na wyszukiwarkę"],
               ["Esc", "Zamknij / wyczyść"],
-              ["j  /  ↓", "Następny wiersz"],
-              ["k  /  ↑", "Poprzedni wiersz"],
+              ["j  /  Down", "Następny wiersz"],
+              ["k  /  Up", "Poprzedni wiersz"],
               ["Enter", "Otwórz podświetlony instrument"],
               ["?", "Pokaż / ukryj ten panel"],
             ].map(([key, desc]) => (
@@ -502,7 +503,7 @@ export default function WigMarkets() {
           ))}
           <div style={{ marginLeft: "auto", display: "flex", gap: 6, flexShrink: 0 }}>
             <button onClick={() => setShowAlerts(s => !s)} title="Alerty cenowe" style={{ position: "relative", background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "4px 10px", fontSize: 13, cursor: "pointer", fontFamily: "inherit" }}>
-              🔔{alerts.some(a => a.triggered) && <span style={{ position: "absolute", top: 2, right: 2, width: 6, height: 6, borderRadius: "50%", background: "#ff4d6d", display: "block" }} />}
+              <Icon name="bell" size={16} />{alerts.some(a => a.triggered) && <span style={{ position: "absolute", top: 2, right: 2, width: 6, height: 6, borderRadius: "50%", background: "#ff4d6d", display: "block" }} />}
             </button>
             {!isMobile && (
               <button onClick={() => setShowShortcuts(s => !s)} title="Skróty klawiszowe (?)" style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "4px 10px", fontSize: 13, cursor: "pointer", fontFamily: "inherit" }}>?</button>
@@ -513,7 +514,7 @@ export default function WigMarkets() {
           </div>
           {isMobile && (
             <button onClick={() => setSidebarOpen(o => !o)} style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "4px 10px", fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>
-              {sidebarOpen ? "✕" : "Wykres"}
+              {sidebarOpen ? <Icon name="x" size={14} /> : "Wykres"}
             </button>
           )}
         </div>
@@ -584,12 +585,12 @@ export default function WigMarkets() {
       <div style={{ padding: isMobile ? "16px 12px 0" : "24px 24px 0", maxWidth: 1400, margin: "0 auto" }}>
         {/* Tabs + View toggle */}
         <div style={{ display: "flex", gap: 4, marginBottom: 16, flexWrap: "nowrap", alignItems: "center", overflowX: "auto", WebkitOverflowScrolling: "touch", msOverflowStyle: "none", scrollbarWidth: "none", paddingBottom: 2 }}>
-          {[["akcje", "Akcje GPW"], ["popularne", "Popularne"], ["surowce", "Surowce"], ["forex", "Forex"], ["screener", "Screener"], ["watchlist", `⭐ Obserwowane${watchlist.size ? ` (${watchlist.size})` : ""}`]].map(([key, label]) => (
+          {[["akcje", "Akcje GPW"], ["popularne", "Popularne"], ["surowce", "Surowce"], ["forex", "Forex"], ["screener", "Screener"], ["watchlist", `Obserwowane${watchlist.size ? ` (${watchlist.size})` : ""}`]].map(([key, label]) => (
             <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); setWatchFilter(false); }} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: tab === key ? theme.accent : theme.borderInput, background: tab === key ? `${theme.accent}28` : "transparent", color: tab === key ? theme.accent : theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: tab === key ? 700 : 400, cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>{label}</button>
           ))}
           <button onClick={navigateToNews} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: theme.borderInput, background: "transparent", color: theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>Wiadomości</button>
           <button onClick={navigateToPortfolio} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: theme.borderInput, background: "transparent", color: theme.textSecondary, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>Portfolio</button>
-          <button onClick={navigateToEdukacja} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: "#58a6ff40", background: "#58a6ff10", color: "#58a6ff", fontSize: isMobile ? 12 : 13, fontWeight: 600, cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>📚 Edukacja</button>
+          <button onClick={navigateToEdukacja} style={{ padding: isMobile ? "6px 14px" : "8px 20px", borderRadius: 8, border: "1px solid", borderColor: "#58a6ff40", background: "#58a6ff10", color: "#58a6ff", fontSize: isMobile ? 12 : 13, fontWeight: 600, cursor: "pointer", fontFamily: "inherit", flexShrink: 0, display: "inline-flex", alignItems: "center", gap: 6 }}><Icon name="book-open" size={14} /> Edukacja</button>
           {tab !== "screener" && tab !== "popularne" && tab !== "watchlist" && (
           <div style={{ marginLeft: "auto", display: "flex", gap: 4, flexShrink: 0 }}>
             <button onClick={() => setWatchFilter(f => !f)} style={{ padding: isMobile ? "6px 10px" : "8px 14px", borderRadius: 8, border: "1px solid", borderColor: watchFilter ? "#ffd700" : theme.borderInput, background: watchFilter ? "#ffd70022" : "transparent", color: watchFilter ? "#ffd700" : theme.textSecondary, fontSize: isMobile ? 11 : 12, cursor: "pointer", fontFamily: "inherit", fontWeight: watchFilter ? 700 : 400, flexShrink: 0 }}>
@@ -672,7 +673,7 @@ export default function WigMarkets() {
 
           {tab === "watchlist" && watchlist.size === 0 && (
             <div style={{ textAlign: "center", padding: "60px 0", color: theme.textSecondary }}>
-              <div style={{ fontSize: 36, marginBottom: 14 }}>⭐</div>
+              <div style={{ marginBottom: 14, color: "#ffd700" }}><Icon name="star" size={36} /></div>
               <div style={{ fontSize: 16, fontWeight: 700, color: theme.text, marginBottom: 8 }}>Lista obserwowanych jest pusta</div>
               <div style={{ fontSize: 13 }}>Kliknij gwiazdkę przy instrumencie w zakładce Akcje, Surowce lub Forex</div>
             </div>
@@ -693,7 +694,7 @@ export default function WigMarkets() {
               </>
             )}
             {!isMobile && (
-              <button onClick={exportCSV} title="Pobierz tabelę jako CSV" style={{ padding: "7px 12px", borderRadius: 8, border: `1px solid ${theme.borderInput}`, background: "transparent", color: theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit", whiteSpace: "nowrap" }}>↓ CSV</button>
+              <button onClick={exportCSV} title="Pobierz tabelę jako CSV" style={{ padding: "7px 12px", borderRadius: 8, border: `1px solid ${theme.borderInput}`, background: "transparent", color: theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit", whiteSpace: "nowrap", display: "inline-flex", alignItems: "center", gap: 4 }}><Icon name="download" size={13} /> CSV</button>
             )}
           </div>
 

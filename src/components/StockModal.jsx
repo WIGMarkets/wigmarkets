@@ -3,6 +3,7 @@ import { fetchHistory, fetchHourly, fetchIntraday } from "../api.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { fmt, changeFmt, getYahooSymbol, isForex, isCommodity } from "../utils.js";
 import MiniChart from "./MiniChart.jsx";
+import Icon from "./edukacja/Icon.jsx";
 
 export default function StockModal({ stock, price, change24h, change7d, onClose, onCalc, theme }) {
   const [history, setHistory] = useState(null);
@@ -118,7 +119,7 @@ export default function StockModal({ stock, price, change24h, change7d, onClose,
           </button>
         )}
         <a href={`https://finance.yahoo.com/quote/${getYahooSymbol(stock.stooq || stock.ticker)}`} target="_blank" rel="noreferrer" style={{ display: "block", textAlign: "center", color: theme.accent, fontSize: 12, textDecoration: "none" }}>
-          Zobacz pełne dane na Yahoo Finance →
+          <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>Zobacz pełne dane na Yahoo Finance <Icon name="external-link" size={12} /></span>
         </a>
       </div>
     </div>

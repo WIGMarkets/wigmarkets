@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { FEAR_COMPONENTS, FEAR_HISTORY_YEAR } from "../data/constants.js";
+import Icon from "./edukacja/Icon.jsx";
 
 const DESCS = {
   "Momentum rynku":             "Porównuje bieżące kursy WIG20 do średnich kroczących z 60 i 125 dni. Wzrost ponad średnią oznacza chciwość.",
@@ -151,7 +152,7 @@ export default function FearGreedPage({ onBack, theme }) {
             fontFamily: "inherit",
           }}
         >
-          ← Powrót
+          <Icon name="arrow-left" size={14} /> Powrót
         </button>
         <div>
           <div style={{ fontWeight: 700, fontSize: 17, color: theme.textBright }}>GPW Fear & Greed Index</div>

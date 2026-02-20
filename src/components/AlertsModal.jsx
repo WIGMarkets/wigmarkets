@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { fmt } from "../utils.js";
 import { loadAlerts, saveAlerts } from "../hooks/usePriceAlerts.js";
+import Icon from "./edukacja/Icon.jsx";
 
 export default function AlertsModal({ onClose, theme, prices, allInstruments, alerts, setAlerts }) {
   const [form, setForm] = useState({ ticker: "", condition: "above", target: "" });
@@ -57,7 +58,7 @@ export default function AlertsModal({ onClose, theme, prices, allInstruments, al
       <div style={{ background: theme.bgCard, border: `1px solid ${theme.borderInput}`, borderRadius: 20, padding: 28, width: "100%", maxWidth: 500, maxHeight: "90vh", overflowY: "auto" }} onClick={e => e.stopPropagation()}>
 
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 20 }}>
-          <div style={{ fontWeight: 800, fontSize: 16, color: theme.textBright }}>🔔 Alerty cenowe</div>
+          <div style={{ fontWeight: 800, fontSize: 16, color: theme.textBright, display: "flex", alignItems: "center", gap: 8 }}><Icon name="bell" size={18} /> Alerty cenowe</div>
           <button onClick={onClose} style={{ background: theme.bgCardAlt, border: "none", borderRadius: 8, color: theme.textSecondary, width: 32, height: 32, fontSize: 18, cursor: "pointer" }}>×</button>
         </div>
 

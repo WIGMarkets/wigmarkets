@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo } from "react";
 import { fmt, changeFmt, changeColor, calculateRSI } from "../utils.js";
 import { fetchHistory } from "../api.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
+import Icon from "./edukacja/Icon.jsx";
 
 function fmtCap(cap) {
   if (!cap) return "—";
@@ -95,7 +96,7 @@ export default function ScreenerView({ stocks, prices, changes, theme, onSelect 
 
   const colHead = (label, key, right = true) => (
     <th onClick={() => handleSort(key)} style={{ padding: isMobile ? "8px 6px" : "10px 14px", textAlign: right ? "right" : "left", fontSize: 10, color: sortBy === key ? theme.accent : theme.textSecondary, cursor: "pointer", whiteSpace: "nowrap", userSelect: "none", borderBottom: `1px solid ${theme.border}`, fontWeight: 600, letterSpacing: 1, textTransform: "uppercase" }}>
-      {label} {sortBy === key ? (sortDir === "desc" ? "↓" : "↑") : ""}
+      {label} {sortBy === key ? (sortDir === "desc" ? <Icon name="chevron-down" size={12} /> : <Icon name="chevron-up" size={12} />) : ""}
     </th>
   );
 

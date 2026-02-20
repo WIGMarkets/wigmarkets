@@ -208,6 +208,47 @@ const ICONS = {
       <polyline points="9 18 15 12 9 6" />
     </>
   ),
+  "bell": (
+    <>
+      <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
+      <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+    </>
+  ),
+  "arrow-left": (
+    <>
+      <line x1="19" y1="12" x2="5" y2="12" />
+      <polyline points="12 19 5 12 12 5" />
+    </>
+  ),
+  "chevron-up": (
+    <>
+      <polyline points="18 15 12 9 6 15" />
+    </>
+  ),
+  "chevron-down": (
+    <>
+      <polyline points="6 9 12 15 18 9" />
+    </>
+  ),
+  "chevrons-up-down": (
+    <>
+      <polyline points="7 15 12 20 17 15" />
+      <polyline points="7 9 12 4 17 9" />
+    </>
+  ),
+  "download": (
+    <>
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+      <polyline points="7 10 12 15 17 10" />
+      <line x1="12" y1="15" x2="12" y2="3" />
+    </>
+  ),
+  "x": (
+    <>
+      <line x1="18" y1="6" x2="6" y2="18" />
+      <line x1="6" y1="6" x2="18" y2="18" />
+    </>
+  ),
 };
 
 export default function Icon({ name, size = 20, color, style, className }) {
