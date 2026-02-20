@@ -1,3 +1,5 @@
+import { useIsMobile } from "../../hooks/useIsMobile.js";
+
 const CTA_CONFIGS = {
   screener: {
     icon: "🔍",
@@ -37,6 +39,7 @@ const CTA_CONFIGS = {
 };
 
 export default function CTABox({ ctaType = "default", ctaText, ctaLink, theme, onNavigate }) {
+  const isMobile = useIsMobile();
   const cfg = CTA_CONFIGS[ctaType] || CTA_CONFIGS.default;
   const link = ctaLink || cfg.link;
   const text = ctaText || cfg.buttonText;
@@ -46,7 +49,7 @@ export default function CTABox({ ctaType = "default", ctaText, ctaLink, theme, o
       background: `linear-gradient(135deg, ${theme.accent}18 0%, ${theme.accent}08 100%)`,
       border: `1px solid ${theme.accent}40`,
       borderRadius: 14,
-      padding: "28px 28px",
+      padding: isMobile ? "20px 16px" : "28px 28px",
       marginTop: 40,
       marginBottom: 32,
       display: "flex",
@@ -55,7 +58,7 @@ export default function CTABox({ ctaType = "default", ctaText, ctaLink, theme, o
     }}>
       <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
         <span style={{ fontSize: 28 }}>{cfg.icon}</span>
-        <div style={{ fontSize: 18, fontWeight: 800, color: theme.textBright }}>{cfg.title}</div>
+        <div style={{ fontSize: isMobile ? 16 : 18, fontWeight: 800, color: theme.textBright }}>{cfg.title}</div>
       </div>
       <p style={{ margin: 0, fontSize: 15, color: theme.text, lineHeight: 1.6 }}>{cfg.description}</p>
       <div>
@@ -63,15 +66,18 @@ export default function CTABox({ ctaType = "default", ctaText, ctaLink, theme, o
           href={link}
           onClick={e => { e.preventDefault(); onNavigate?.(link); }}
           style={{
-            display: "inline-block",
+            display: isMobile ? "block" : "inline-block",
             background: theme.accent,
             color: "#000",
-            padding: "12px 24px",
+            padding: "14px 24px",
             borderRadius: 10,
             fontWeight: 700,
             fontSize: 14,
             textDecoration: "none",
+            textAlign: "center",
             transition: "opacity 0.15s",
+            minHeight: 48,
+            boxSizing: "border-box",
           }}
           onMouseEnter={e => e.currentTarget.style.opacity = "0.85"}
           onMouseLeave={e => e.currentTarget.style.opacity = "1"}

@@ -1,6 +1,9 @@
+import { useIsMobile } from "../../hooks/useIsMobile.js";
 import ArticleCard from "./ArticleCard.jsx";
 
 export default function RelatedArticles({ articles, theme, onNavigate }) {
+  const isMobile = useIsMobile();
+
   if (!articles || articles.length === 0) return null;
 
   return (
@@ -10,7 +13,7 @@ export default function RelatedArticles({ articles, theme, onNavigate }) {
       </h2>
       <div style={{
         display: "grid",
-        gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
+        gridTemplateColumns: isMobile ? "1fr" : "repeat(auto-fill, minmax(240px, 1fr))",
         gap: 16,
       }}>
         {articles.map(article => (

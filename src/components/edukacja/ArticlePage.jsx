@@ -8,75 +8,50 @@ import FAQSection from "./FAQSection.jsx";
 import CTABox from "./CTABox.jsx";
 import SocialShare from "./SocialShare.jsx";
 import RelatedArticles from "./RelatedArticles.jsx";
+import ArticleIllustration from "./ArticleIllustration.jsx";
 
 const CATEGORY_LABELS = { podstawy: "Podstawy", analiza: "Analiza", strategia: "Strategia" };
 const CATEGORY_COLORS = { podstawy: "#58a6ff", analiza: "#00c896", strategia: "#f0883e" };
 
 function injectSchema(article) {
-  const existingSchema = document.getElementById("article-schema");
-  if (existingSchema) existingSchema.remove();
-  const existingFAQ = document.getElementById("faq-schema");
-  if (existingFAQ) existingFAQ.remove();
-  const existingBC = document.getElementById("breadcrumb-schema");
-  if (existingBC) existingBC.remove();
-
+  ["article-schema", "faq-schema", "breadcrumb-schema"].forEach(id => document.getElementById(id)?.remove());
   const baseUrl = window.location.origin;
   const articleUrl = `${baseUrl}/edukacja/${article.slug}`;
 
-  // Article schema
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": article.title,
-    "description": article.metaDescription,
-    "image": article.featuredImage ? `${baseUrl}${article.featuredImage}` : undefined,
-    "url": articleUrl,
-    "datePublished": article.publishDate,
-    "dateModified": article.updatedDate,
-    "author": { "@type": "Organization", "name": article.author },
-    "publisher": { "@type": "Organization", "name": "WIGmarkets.pl", "url": baseUrl },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": articleUrl },
+  const addScript = (id, data) => {
+    const s = document.createElement("script");
+    s.id = id;
+    s.type = "application/ld+json";
+    s.textContent = JSON.stringify(data);
+    document.head.appendChild(s);
   };
-  const s1 = document.createElement("script");
-  s1.id = "article-schema";
-  s1.type = "application/ld+json";
-  s1.textContent = JSON.stringify(articleSchema);
-  document.head.appendChild(s1);
 
-  // FAQ schema
-  if (article.faq && article.faq.length > 0) {
-    const faqSchema = {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": article.faq.map(f => ({
-        "@type": "Question",
-        "name": f.question,
-        "acceptedAnswer": { "@type": "Answer", "text": f.answer },
-      })),
-    };
-    const s2 = document.createElement("script");
-    s2.id = "faq-schema";
-    s2.type = "application/ld+json";
-    s2.textContent = JSON.stringify(faqSchema);
-    document.head.appendChild(s2);
+  addScript("article-schema", {
+    "@context": "https://schema.org", "@type": "Article",
+    headline: article.title, description: article.metaDescription,
+    image: article.featuredImage ? `${baseUrl}${article.featuredImage}` : undefined,
+    url: articleUrl, datePublished: article.publishDate, dateModified: article.updatedDate,
+    author: { "@type": "Organization", name: article.author },
+    publisher: { "@type": "Organization", name: "WIGmarkets.pl", url: baseUrl },
+    mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
+  });
+
+  if (article.faq?.length > 0) {
+    addScript("faq-schema", {
+      "@context": "https://schema.org", "@type": "FAQPage",
+      mainEntity: article.faq.map(f => ({ "@type": "Question", name: f.question, acceptedAnswer: { "@type": "Answer", text: f.answer } })),
+    });
   }
 
-  // Breadcrumb schema
-  const bcSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Strona główna", "item": baseUrl },
-      { "@type": "ListItem", "position": 2, "name": "Edukacja", "item": `${baseUrl}/edukacja` },
-      { "@type": "ListItem", "position": 3, "name": CATEGORY_LABELS[article.category] || article.category, "item": `${baseUrl}/edukacja/${article.category}` },
-      { "@type": "ListItem", "position": 4, "name": article.title, "item": articleUrl },
+  addScript("breadcrumb-schema", {
+    "@context": "https://schema.org", "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Strona główna", item: baseUrl },
+      { "@type": "ListItem", position: 2, name: "Edukacja", item: `${baseUrl}/edukacja` },
+      { "@type": "ListItem", position: 3, name: CATEGORY_LABELS[article.category] || article.category, item: `${baseUrl}/edukacja/${article.category}` },
+      { "@type": "ListItem", position: 4, name: article.title, item: articleUrl },
     ],
-  };
-  const s3 = document.createElement("script");
-  s3.id = "breadcrumb-schema";
-  s3.type = "application/ld+json";
-  s3.textContent = JSON.stringify(bcSchema);
-  document.head.appendChild(s3);
+  });
 }
 
 function updateOGTags(article) {
@@ -95,8 +70,6 @@ function updateOGTags(article) {
   setMeta("twitter:card", "summary_large_image", "name");
   setMeta("twitter:title", article.metaTitle, "name");
   setMeta("twitter:description", article.metaDescription, "name");
-
-  // Canonical
   let canonical = document.querySelector("link[rel='canonical']");
   if (!canonical) { canonical = document.createElement("link"); canonical.rel = "canonical"; document.head.appendChild(canonical); }
   canonical.href = url;
@@ -114,21 +87,16 @@ export default function ArticlePage({ theme, slug, onBack, onNavigateCategory, o
     updateOGTags(article);
     injectSchema(article);
     window.scrollTo(0, 0);
-
-    return () => {
-      ["article-schema", "faq-schema", "breadcrumb-schema"].forEach(id => {
-        document.getElementById(id)?.remove();
-      });
-    };
+    return () => { ["article-schema", "faq-schema", "breadcrumb-schema"].forEach(id => document.getElementById(id)?.remove()); };
   }, [article]);
 
   if (!article) {
     return (
-      <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: 16 }}>
+      <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: 16, padding: 16 }}>
         <div style={{ fontSize: 48 }}>🔍</div>
         <div style={{ fontSize: 20, fontWeight: 700, color: theme.textBright }}>Artykuł nie znaleziony</div>
         <div style={{ fontSize: 14, color: theme.textSecondary }}>Artykuł o podanym adresie nie istnieje.</div>
-        <button onClick={onBack} style={{ padding: "10px 20px", background: theme.accent, color: "#000", border: "none", borderRadius: 8, fontWeight: 700, cursor: "pointer", fontFamily: "inherit" }}>Wróć do edukacji</button>
+        <button onClick={onBack} style={{ padding: "12px 24px", background: theme.accent, color: "#000", border: "none", borderRadius: 8, fontWeight: 700, cursor: "pointer", fontFamily: "inherit", minHeight: 48 }}>Wróć do edukacji</button>
       </div>
     );
   }
@@ -140,16 +108,15 @@ export default function ArticlePage({ theme, slug, onBack, onNavigateCategory, o
 
   function handleNavigate(path) {
     if (path.startsWith("/edukacja/")) {
-      const parts = path.replace("/edukacja/", "");
-      onNavigateArticle(parts);
+      onNavigateArticle(path.replace("/edukacja/", ""));
     } else {
       onNavigateHome();
     }
   }
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif" }}>
-      <div style={{ maxWidth: 1100, margin: "0 auto", padding: isMobile ? "16px 16px" : "24px 24px" }}>
+    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif", overflowX: "hidden" }}>
+      <div style={{ maxWidth: 1100, margin: "0 auto", padding: isMobile ? "16px" : "24px", boxSizing: "border-box", width: "100%" }}>
 
         <Breadcrumbs
           theme={theme}
@@ -157,65 +124,58 @@ export default function ArticlePage({ theme, slug, onBack, onNavigateCategory, o
             { label: "Strona główna", href: "/", onClick: onNavigateHome },
             { label: "Edukacja", href: "/edukacja", onClick: onBack },
             { label: catLabel, href: `/edukacja/${article.category}`, onClick: () => onNavigateCategory(article.category) },
-            { label: article.title.length > 50 ? article.title.slice(0, 47) + "…" : article.title },
+            { label: article.title.length > 40 ? article.title.slice(0, 37) + "…" : article.title },
           ]}
         />
 
         {/* Main layout: article + TOC sidebar */}
-        <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 260px", gap: 32, alignItems: "start" }}>
+        <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 260px", gap: isMobile ? 0 : 32, alignItems: "start" }}>
 
-          <article>
+          <article style={{ minWidth: 0, overflowX: "hidden" }}>
+            {/* Article illustration */}
+            <div style={{ marginBottom: 20, borderRadius: 12, overflow: "hidden", border: `1px solid ${theme.border}` }}>
+              <ArticleIllustration slug={slug} style={{ width: "100%", height: "auto", display: "block" }} />
+            </div>
+
             {/* Category badge */}
-            <div style={{ marginBottom: 16 }}>
+            <div style={{ marginBottom: 12 }}>
               <span style={{
-                background: `${catColor}20`,
-                color: catColor,
-                fontSize: 12,
-                fontWeight: 700,
-                padding: "4px 12px",
-                borderRadius: 20,
-                textTransform: "uppercase",
-                letterSpacing: "0.5px",
+                background: `${catColor}20`, color: catColor,
+                fontSize: 12, fontWeight: 700, padding: "4px 12px",
+                borderRadius: 20, textTransform: "uppercase", letterSpacing: "0.5px",
               }}>{catLabel}</span>
             </div>
 
             {/* Title H1 */}
-            <h1 style={{ fontSize: isMobile ? 26 : 36, fontWeight: 900, color: theme.textBright, margin: "0 0 16px", lineHeight: 1.2 }}>
+            <h1 style={{ fontSize: isMobile ? 24 : 36, fontWeight: 900, color: theme.textBright, margin: "0 0 16px", lineHeight: 1.25 }}>
               {article.title}
             </h1>
 
             {/* Meta info */}
-            <div style={{ display: "flex", flexWrap: "wrap", gap: 16, marginBottom: 28, paddingBottom: 20, borderBottom: `1px solid ${theme.border}`, fontSize: 13, color: theme.textSecondary }}>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: isMobile ? 8 : 16, marginBottom: 24, paddingBottom: 16, borderBottom: `1px solid ${theme.border}`, fontSize: 13, color: theme.textSecondary }}>
               <span>✍️ {article.author}</span>
               <span>📅 {article.publishDate}</span>
-              {article.updatedDate && article.updatedDate !== article.publishDate && <span>🔄 Aktualizacja: {article.updatedDate}</span>}
-              <span>⏱️ {article.readingTime} min czytania</span>
+              {article.updatedDate && article.updatedDate !== article.publishDate && <span>🔄 {article.updatedDate}</span>}
+              <span>⏱️ {article.readingTime} min</span>
             </div>
 
-            {/* Mobile TOC */}
+            {/* Mobile TOC — collapsed by default */}
             {isMobile && <TOC items={tocItems} theme={theme} isMobile={true} />}
 
-            {/* Featured image */}
-            {article.featuredImage && (
-              <div style={{ marginBottom: 28, borderRadius: 12, overflow: "hidden", background: `linear-gradient(135deg, ${catColor}22 0%, ${catColor}11 100%)`, height: 200, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 60 }}>
-                {article.category === "podstawy" ? "📚" : article.category === "analiza" ? "📊" : "♟️"}
-              </div>
-            )}
-
             {/* Article body */}
-            <SectionRenderer sections={article.sections} theme={theme} onNavigate={handleNavigate} />
+            <SectionRenderer sections={article.sections} theme={theme} onNavigate={handleNavigate} isMobile={isMobile} />
 
             {/* CTA box */}
-            <CTABox ctaType={article.ctaType} ctaText={article.ctaText} ctaLink={article.ctaLink} theme={theme} onNavigate={handleNavigate} />
+            <CTABox ctaType={article.ctaType} ctaText={article.ctaText} ctaLink={article.ctaLink} theme={theme} onNavigate={handleNavigate} isMobile={isMobile} />
 
             {/* FAQ */}
-            <FAQSection items={article.faq} theme={theme} />
+            <FAQSection items={article.faq} theme={theme} isMobile={isMobile} />
 
             {/* Social share */}
             <SocialShare title={article.title} theme={theme} />
 
             {/* Related articles */}
-            <RelatedArticles articles={relatedArticles} theme={theme} onNavigate={onNavigateArticle} />
+            <RelatedArticles articles={relatedArticles} theme={theme} onNavigate={onNavigateArticle} isMobile={isMobile} />
           </article>
 
           {/* Desktop TOC sidebar */}

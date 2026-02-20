@@ -48,8 +48,8 @@ export default function CategoryPage({ theme, category, onBack, onNavigateArticl
   }, [category, info.label, info.description]);
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif" }}>
-      <div style={{ maxWidth: 1000, margin: "0 auto", padding: isMobile ? "16px 16px" : "24px 24px" }}>
+    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif", overflowX: "hidden" }}>
+      <div style={{ maxWidth: 1000, margin: "0 auto", padding: isMobile ? 16 : 24, boxSizing: "border-box", width: "100%" }}>
 
         <Breadcrumbs
           theme={theme}
@@ -82,22 +82,23 @@ export default function CategoryPage({ theme, category, onBack, onNavigateArticl
           <div style={{ fontSize: 14, color: theme.textSecondary }}>
             <span style={{ color: info.color, fontWeight: 700 }}>{articles.length}</span> artykuł{articles.length === 1 ? "" : "ów"}
           </div>
-          <div style={{ display: "flex", gap: 8 }}>
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
             {SORT_OPTIONS.map(opt => (
               <button
                 key={opt.key}
                 onClick={() => setSortBy(opt.key)}
                 style={{
-                  padding: "6px 14px",
+                  padding: "8px 14px",
                   background: sortBy === opt.key ? info.color : theme.bgCard,
                   color: sortBy === opt.key ? "#000" : theme.textSecondary,
                   border: `1px solid ${sortBy === opt.key ? info.color : theme.border}`,
                   borderRadius: 8,
                   fontFamily: "inherit",
-                  fontSize: 12,
+                  fontSize: 13,
                   fontWeight: sortBy === opt.key ? 700 : 400,
                   cursor: "pointer",
                   transition: "all 0.15s",
+                  minHeight: 44,
                 }}
               >{opt.label}</button>
             ))}

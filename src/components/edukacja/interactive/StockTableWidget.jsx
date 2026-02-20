@@ -1,3 +1,5 @@
+import { useIsMobile } from "../../../hooks/useIsMobile.js";
+
 const DATASETS = {
   fundamentals: [
     { ticker: "CDR", name: "CD Projekt", pe: 28.5, pb: 4.2, div: 0.0, cap: "8.1 mld", roe: "15.2%" },
@@ -21,7 +23,17 @@ const DATASETS = {
   ],
 };
 
+function ScrollHint({ theme }) {
+  return (
+    <div style={{ fontSize: 11, color: theme.textSecondary, textAlign: "right", padding: "6px 12px", display: "flex", alignItems: "center", justifyContent: "flex-end", gap: 4 }}>
+      <span>Przewiń tabelę</span>
+      <span style={{ fontSize: 14 }}>→</span>
+    </div>
+  );
+}
+
 export default function StockTableWidget({ title = "Wskaźniki fundamentalne spółek GPW", data = "fundamentals", theme }) {
+  const isMobile = useIsMobile();
   const rows = DATASETS[data] || DATASETS.fundamentals;
 
   return (
@@ -32,12 +44,13 @@ export default function StockTableWidget({ title = "Wskaźniki fundamentalne sp�
       overflow: "hidden",
       margin: "24px 0",
     }}>
-      <div style={{ padding: "16px 20px", borderBottom: `1px solid ${theme.border}` }}>
+      <div style={{ padding: isMobile ? "12px 16px" : "16px 20px", borderBottom: `1px solid ${theme.border}` }}>
         <div style={{ fontSize: 13, fontWeight: 700, color: theme.textBright }}>{title}</div>
         <div style={{ fontSize: 11, color: theme.textSecondary, marginTop: 2 }}>Dane poglądowe · Aktualne notowania na stronie głównej WIGmarkets</div>
       </div>
-      <div style={{ overflowX: "auto" }}>
-        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
+      {isMobile && <ScrollHint theme={theme} />}
+      <div style={{ overflowX: "auto", WebkitOverflowScrolling: "touch" }}>
+        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13, minWidth: isMobile ? 500 : "auto" }}>
           <thead>
             <tr style={{ background: theme.bgCard }}>
               {["Spółka", "P/E", "P/B", "Stopa dywidendy", "Kapitalizacja", "ROE"].map(h => (

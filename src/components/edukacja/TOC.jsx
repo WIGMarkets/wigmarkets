@@ -45,18 +45,19 @@ export default function TOC({ items, theme, isMobile }) {
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
+            minHeight: 48,
           }}
         >
           <span>📋 Spis treści</span>
           <span style={{ fontSize: 12, color: theme.textSecondary }}>{open ? "▲" : "▼"}</span>
         </button>
         {open && (
-          <ol style={{ margin: 0, padding: "0 16px 16px 32px", display: "flex", flexDirection: "column", gap: 6 }}>
+          <ol style={{ margin: 0, padding: "0 16px 16px 32px", display: "flex", flexDirection: "column", gap: 2 }}>
             {items.map(item => (
               <li key={item.id} style={{ paddingLeft: item.level === 3 ? 12 : 0 }}>
                 <a
                   href={`#${item.id}`}
-                  style={{ color: theme.accent, textDecoration: "none", fontSize: item.level === 3 ? 12 : 13 }}
+                  style={{ color: theme.accent, textDecoration: "none", fontSize: item.level === 3 ? 13 : 14, display: "block", padding: "6px 0", minHeight: 44, lineHeight: "32px" }}
                   onClick={() => setOpen(false)}
                 >
                   {item.text}
