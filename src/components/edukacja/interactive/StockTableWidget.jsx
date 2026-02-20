@@ -1,4 +1,5 @@
 import { useIsMobile } from "../../../hooks/useIsMobile.js";
+import Icon from "../Icon.jsx";
 
 const DATASETS = {
   fundamentals: [
@@ -27,7 +28,7 @@ function ScrollHint({ theme }) {
   return (
     <div style={{ fontSize: 11, color: theme.textSecondary, textAlign: "right", padding: "6px 12px", display: "flex", alignItems: "center", justifyContent: "flex-end", gap: 4 }}>
       <span>Przewiń tabelę</span>
-      <span style={{ fontSize: 14 }}>→</span>
+      <Icon name="arrow-right" size={14} />
     </div>
   );
 }

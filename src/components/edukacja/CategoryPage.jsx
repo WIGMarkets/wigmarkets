@@ -3,23 +3,24 @@ import { useIsMobile } from "../../hooks/useIsMobile.js";
 import { getArticlesByCategory } from "../../content/edukacja/articles.js";
 import ArticleCard from "./ArticleCard.jsx";
 import Breadcrumbs from "./Breadcrumbs.jsx";
+import Icon from "./Icon.jsx";
 
 const CATEGORY_INFO = {
   podstawy: {
     label: "Podstawy",
-    icon: "📚",
+    iconName: "book-open",
     description: "Wszystko co musisz wiedzieć na start — jak działa giełda, jak otworzyć konto maklerskie, pierwsze kroki inwestora i podstawowe pojęcia rynku kapitałowego.",
     color: "#58a6ff",
   },
   analiza: {
     label: "Analiza",
-    icon: "📊",
+    iconName: "chart-bar",
     description: "Poznaj narzędzia analizy fundamentalnej i technicznej. Dowiedz się jak czytać sprawozdania finansowe, wskaźniki P/E, RSI, MACD i oceniać wartość spółek.",
     color: "#00c896",
   },
   strategia: {
     label: "Strategia",
-    icon: "♟️",
+    iconName: "target",
     description: "Sprawdzone strategie inwestycyjne dla GPW: inwestowanie dywidendowe, value investing, growth investing, DCA i budowanie długoterminowego portfela.",
     color: "#f0883e",
   },
@@ -34,7 +35,7 @@ const SORT_OPTIONS = [
 export default function CategoryPage({ theme, category, onBack, onNavigateArticle, onNavigateHome }) {
   const isMobile = useIsMobile();
   const [sortBy, setSortBy] = useState("newest");
-  const info = CATEGORY_INFO[category] || { label: category, icon: "📄", description: "", color: "#58a6ff" };
+  const info = CATEGORY_INFO[category] || { label: category, iconName: "file-text", description: "", color: "#58a6ff" };
 
   let articles = getArticlesByCategory(category);
   if (sortBy === "newest") articles = [...articles].sort((a, b) => b.publishDate.localeCompare(a.publishDate));
@@ -68,7 +69,7 @@ export default function CategoryPage({ theme, category, onBack, onNavigateArticl
           padding: isMobile ? "24px 20px" : "36px 40px",
           marginBottom: 36,
         }}>
-          <div style={{ fontSize: 40, marginBottom: 12 }}>{info.icon}</div>
+          <div style={{ marginBottom: 12, color: info.color }}><Icon name={info.iconName} size={40} /></div>
           <h1 style={{ fontSize: isMobile ? 26 : 34, fontWeight: 900, color: theme.textBright, margin: "0 0 12px", lineHeight: 1.2 }}>
             {info.label}
           </h1>

@@ -1,5 +1,6 @@
 import { useState, useMemo } from "react";
 import { useIsMobile } from "../../../hooks/useIsMobile.js";
+import Icon from "../Icon.jsx";
 
 function fmt(n) {
   return n.toLocaleString("pl-PL", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
@@ -46,7 +47,7 @@ export default function Calculator({ type = "compound", title = "Kalkulator inwe
       padding: isMobile ? 16 : 24,
       margin: "24px 0",
     }}>
-      <div style={{ fontWeight: 700, fontSize: 15, color: theme.textBright, marginBottom: 20 }}>🧮 {title}</div>
+      <div style={{ fontWeight: 700, fontSize: 15, color: theme.textBright, marginBottom: 20, display: "flex", alignItems: "center", gap: 8 }}><Icon name="calculator" size={18} /> {title}</div>
 
       <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr 1fr" : "repeat(4, 1fr)", gap: 12, marginBottom: 24 }}>
         <div>

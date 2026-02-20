@@ -3,11 +3,12 @@ import { useIsMobile } from "../../hooks/useIsMobile.js";
 import { ARTICLES, getArticlesByCategory } from "../../content/edukacja/articles.js";
 import ArticleCard from "./ArticleCard.jsx";
 import Breadcrumbs from "./Breadcrumbs.jsx";
+import Icon from "./Icon.jsx";
 
 const CATEGORIES = [
-  { key: "podstawy", label: "Podstawy", icon: "📚", description: "Dowiedz się jak działa giełda, jak otworzyć konto maklerskie i zacząć swoją przygodę z inwestowaniem.", color: "#58a6ff" },
-  { key: "analiza", label: "Analiza", icon: "📊", description: "Naucz się czytać wykresy, wskaźniki fundamentalne i oceniać wartość spółek.", color: "#00c896" },
-  { key: "strategia", label: "Strategia", icon: "♟️", description: "Poznaj sprawdzone strategie inwestycyjne: dywidendową, value investing, momentum i inne.", color: "#f0883e" },
+  { key: "podstawy", label: "Podstawy", iconName: "book-open", description: "Dowiedz się jak działa giełda, jak otworzyć konto maklerskie i zacząć swoją przygodę z inwestowaniem.", color: "#58a6ff" },
+  { key: "analiza", label: "Analiza", iconName: "chart-bar", description: "Naucz się czytać wykresy, wskaźniki fundamentalne i oceniać wartość spółek.", color: "#00c896" },
+  { key: "strategia", label: "Strategia", iconName: "target", description: "Poznaj sprawdzone strategie inwestycyjne: dywidendową, value investing, momentum i inne.", color: "#f0883e" },
 ];
 
 const POPULAR_SLUGS = [
@@ -92,9 +93,9 @@ export default function EdukacjaHome({ theme, onBack, onNavigateCategory, onNavi
             Praktyczne poradniki, analizy i strategie dla inwestorów indywidualnych na Giełdzie Papierów Wartościowych w Warszawie.
           </p>
           <div style={{ display: "flex", gap: isMobile ? 8 : 12, justifyContent: "center", flexWrap: "wrap" }}>
-            {[{ label: "20 artykułów", icon: "📄" }, { label: "3 kategorie", icon: "🗂️" }, { label: "Bezpłatnie", icon: "✅" }].map(item => (
+            {[{ label: "20 artykułów", iconName: "file-text" }, { label: "3 kategorie", iconName: "folder" }, { label: "Bezpłatnie", iconName: "check-circle" }].map(item => (
               <span key={item.label} style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 8, padding: "6px 12px", fontSize: 12, color: theme.textMuted, display: "flex", alignItems: "center", gap: 6 }}>
-                <span>{item.icon}</span> {item.label}
+                <Icon name={item.iconName} size={16} /> {item.label}
               </span>
             ))}
           </div>
@@ -119,11 +120,11 @@ export default function EdukacjaHome({ theme, onBack, onNavigateCategory, onNavi
               onMouseEnter={e => { e.currentTarget.style.borderColor = cat.color; e.currentTarget.style.transform = "translateY(-2px)"; }}
               onMouseLeave={e => { e.currentTarget.style.borderColor = theme.border; e.currentTarget.style.transform = "translateY(0)"; }}
             >
-              <div style={{ fontSize: 32, marginBottom: 10 }}>{cat.icon}</div>
+              <div style={{ marginBottom: 10, color: cat.color }}><Icon name={cat.iconName} size={32} /></div>
               <div style={{ fontSize: 18, fontWeight: 800, color: theme.textBright, marginBottom: 8 }}>{cat.label}</div>
               <p style={{ margin: "0 0 12px", fontSize: 14, color: theme.textSecondary, lineHeight: 1.6 }}>{cat.description}</p>
               <span style={{ fontSize: 13, color: cat.color, fontWeight: 600 }}>
-                {getArticlesByCategory(cat.key).length} artykułów →
+                {getArticlesByCategory(cat.key).length} artykułów <Icon name="arrow-right" size={14} style={{ display: "inline", verticalAlign: "middle" }} />
               </span>
             </div>
           ))}

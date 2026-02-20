@@ -1,4 +1,5 @@
 import ArticleIllustration from "./ArticleIllustration.jsx";
+import Icon from "./Icon.jsx";
 
 const CATEGORY_LABELS = { podstawy: "Podstawy", analiza: "Analiza", strategia: "Strategia" };
 const CATEGORY_COLORS = { podstawy: "#58a6ff", analiza: "#00c896", strategia: "#f0883e" };
@@ -71,7 +72,7 @@ export default function ArticleCard({ article, theme, onNavigate, compact = fals
         )}
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginTop: compact ? 0 : 4 }}>
           <span style={{ fontSize: 11, color: theme.textSecondary }}>{article.publishDate}</span>
-          <span style={{ fontSize: 12, color: catColor, fontWeight: 600 }}>Czytaj →</span>
+          <span style={{ fontSize: 12, color: catColor, fontWeight: 600, display: "inline-flex", alignItems: "center", gap: 4 }}>Czytaj <Icon name="arrow-right" size={14} /></span>
         </div>
       </div>
     </article>

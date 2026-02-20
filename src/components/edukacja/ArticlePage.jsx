@@ -9,6 +9,7 @@ import CTABox from "./CTABox.jsx";
 import SocialShare from "./SocialShare.jsx";
 import RelatedArticles from "./RelatedArticles.jsx";
 import ArticleIllustration from "./ArticleIllustration.jsx";
+import Icon from "./Icon.jsx";
 
 const CATEGORY_LABELS = { podstawy: "Podstawy", analiza: "Analiza", strategia: "Strategia" };
 const CATEGORY_COLORS = { podstawy: "#58a6ff", analiza: "#00c896", strategia: "#f0883e" };
@@ -93,7 +94,7 @@ export default function ArticlePage({ theme, slug, onBack, onNavigateCategory, o
   if (!article) {
     return (
       <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "'Inter', sans-serif", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: 16, padding: 16 }}>
-        <div style={{ fontSize: 48 }}>🔍</div>
+        <div style={{ color: theme.textSecondary }}><Icon name="search" size={48} /></div>
         <div style={{ fontSize: 20, fontWeight: 700, color: theme.textBright }}>Artykuł nie znaleziony</div>
         <div style={{ fontSize: 14, color: theme.textSecondary }}>Artykuł o podanym adresie nie istnieje.</div>
         <button onClick={onBack} style={{ padding: "12px 24px", background: theme.accent, color: "#000", border: "none", borderRadius: 8, fontWeight: 700, cursor: "pointer", fontFamily: "inherit", minHeight: 48 }}>Wróć do edukacji</button>
@@ -153,10 +154,10 @@ export default function ArticlePage({ theme, slug, onBack, onNavigateCategory, o
 
             {/* Meta info */}
             <div style={{ display: "flex", flexWrap: "wrap", gap: isMobile ? 8 : 16, marginBottom: 24, paddingBottom: 16, borderBottom: `1px solid ${theme.border}`, fontSize: 13, color: theme.textSecondary }}>
-              <span>✍️ {article.author}</span>
-              <span>📅 {article.publishDate}</span>
-              {article.updatedDate && article.updatedDate !== article.publishDate && <span>🔄 {article.updatedDate}</span>}
-              <span>⏱️ {article.readingTime} min</span>
+              <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}><Icon name="user" size={14} /> {article.author}</span>
+              <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}><Icon name="calendar" size={14} /> {article.publishDate}</span>
+              {article.updatedDate && article.updatedDate !== article.publishDate && <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}><Icon name="refresh-cw" size={14} /> {article.updatedDate}</span>}
+              <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}><Icon name="clock" size={14} /> {article.readingTime} min</span>
             </div>
 
             {/* Mobile TOC — collapsed by default */}
