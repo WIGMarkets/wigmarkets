@@ -195,7 +195,7 @@ export default function WigMarkets() {
     });
   };
 
-  // Load dynamic stock list from Vercel KV on mount (updated by daily cron).
+  // Load dynamic stock list from /api/gpw-screener on mount (~300 GPW stocks).
   // Also seeds initial quote prices so the table isn't blank on first render.
   useEffect(() => {
     fetchDynamicList().then(data => {
