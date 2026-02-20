@@ -92,7 +92,7 @@ export default function EdukacjaHome({ theme, onBack, onNavigateCategory, onNavi
             Praktyczne poradniki, analizy i strategie dla inwestorów indywidualnych na Giełdzie Papierów Wartościowych w Warszawie.
           </p>
           <div style={{ display: "flex", gap: isMobile ? 8 : 12, justifyContent: "center", flexWrap: "wrap" }}>
-            {[{ label: "10 artykułów", icon: "📄" }, { label: "3 kategorie", icon: "🗂️" }, { label: "Bezpłatnie", icon: "✅" }].map(item => (
+            {[{ label: "20 artykułów", icon: "📄" }, { label: "3 kategorie", icon: "🗂️" }, { label: "Bezpłatnie", icon: "✅" }].map(item => (
               <span key={item.label} style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 8, padding: "6px 12px", fontSize: 12, color: theme.textMuted, display: "flex", alignItems: "center", gap: 6 }}>
                 <span>{item.icon}</span> {item.label}
               </span>

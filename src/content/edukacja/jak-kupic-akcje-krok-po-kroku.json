@@ -1,0 +1,211 @@
+{
+  "slug": "jak-kupic-akcje-krok-po-kroku",
+  "title": "Jak kupić akcje na GPW — krok po kroku dla początkujących",
+  "metaTitle": "Jak kupić akcje na GPW — poradnik krok po kroku 2026",
+  "metaDescription": "Dowiedz się jak kupić pierwsze akcje na Giełdzie Papierów Wartościowych krok po kroku. Od otwarcia konta maklerskiego po złożenie pierwszego zlecenia na GPW.",
+  "category": "podstawy",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-20",
+  "updatedDate": "2026-02-20",
+  "readingTime": 14,
+  "featuredImage": "/images/edukacja/jak-kupic-akcje.webp",
+  "featuredImageAlt": "Jak kupić akcje na GPW krok po kroku",
+  "tags": ["akcje", "GPW", "kupno akcji", "poradnik", "początkujący"],
+  "relatedSlugs": ["xtb-vs-mbank-vs-bossa", "jak-zaczac-inwestowac-na-gpw", "rodzaje-zlecen-gieldowych", "ile-pieniedzy-zeby-zaczac"],
+  "ctaType": "screener",
+  "ctaText": "Znajdź spółkę do kupienia w naszym screenerze",
+  "ctaLink": "/screener",
+  "sections": [
+    {
+      "type": "paragraph",
+      "text": "Kupno akcji na Giełdzie Papierów Wartościowych w Warszawie nigdy nie było prostsze niż w 2026 roku. Dzięki rozwojowi technologii i rosnącej konkurencji między domami maklerskimi cały proces — od otwarcia konta po zakup pierwszych akcji — można przeprowadzić online w ciągu jednego dnia. Nie potrzebujesz ogromnego kapitału, specjalistycznej wiedzy ani drogiego oprogramowania. Wystarczy smartfon lub komputer, dowód osobisty i minimum kilkuset złotych na start. W tym poradniku przeprowadzimy Cię przez każdy etap kupna akcji na GPW, wyjaśniając wszystko prostym językiem, bez zbędnego żargonu finansowego. Niezależnie od tego, czy chcesz kupić akcje KGHM, CD Projektu czy Orlenu, procedura wygląda tak samo — a po przeczytaniu tego artykułu będziesz dokładnie wiedział, jak to zrobić."
+    },
+    {
+      "type": "info",
+      "text": "Giełda Papierów Wartościowych w Warszawie (GPW) działa od poniedziałku do piątku w godzinach 9:00-17:05. Notowania ciągłe głównych indeksów (WIG20, mWIG40, sWIG80) trwają od 9:00 do 17:00, a fixingi zamykające odbywają się o 17:00-17:05. Zlecenia możesz składać przez całą dobę, ale zostaną zrealizowane dopiero w godzinach sesji."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Krok 1: Otwórz konto maklerskie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pierwszym i najważniejszym krokiem jest otwarcie rachunku maklerskiego, czyli specjalnego konta, które umożliwia kupno i sprzedaż papierów wartościowych na giełdzie. Nie możesz kupić akcji bezpośrednio na GPW — potrzebujesz pośrednika, którym jest dom maklerski (broker). W Polsce działa kilkanaście licencjonowanych domów maklerskich, ale wśród najpopularniejszych wyborów dla początkujących inwestorów wymienić należy XTB, mBank eMakler i DM BOŚ Bossa. Szczegółowe porównanie tych trzech brokerów znajdziesz w naszym artykule XTB vs mBank vs Bossa. Proces otwarcia konta jest w pełni cyfrowy — wystarczy wejść na stronę wybranego brokera, wypełnić formularz rejestracyjny z danymi osobowymi, zweryfikować tożsamość (najczęściej przez selfie z dowodem osobistym lub przelew weryfikacyjny) i poczekać na aktywację. U większości brokerów konto jest gotowe w ciągu jednego dnia roboczego, a u niektórych — nawet w ciągu kilku godzin."
+    },
+    {
+      "type": "tip",
+      "text": "Przed otwarciem konta przygotuj: dowód osobisty lub paszport, numer PESEL, numer rachunku bankowego na swoje imię i nazwisko oraz adres zamieszkania. Warto również mieć pod ręką dane urzędu skarbowego, do którego należysz — broker poprosi o te informacje w formularzu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Krok 2: Wpłać środki na rachunek"
+    },
+    {
+      "type": "paragraph",
+      "text": "Po aktywacji konta maklerskiego musisz zasilić je środkami pieniężnymi. Najczęstszą metodą jest przelew bankowy na indywidualny numer rachunku przypisany do Twojego konta maklerskiego — numer ten znajdziesz w panelu klienta brokera. Przelew z polskiego banku trwa zwykle od kilku godzin do jednego dnia roboczego. Jeśli korzystasz z mBanku i eMaklera, środki są dostępne natychmiast, ponieważ rachunek maklerski jest zintegrowany z kontem bankowym. XTB z kolei oferuje możliwość szybkiego zasilenia konta przez BLIK lub kartę płatniczą, co również zapewnia niemal natychmiastowe księgowanie środków. Minimalna kwota wpłaty nie jest określona regulaminem większości brokerów — formalnie możesz wpłacić nawet 1 zł. Jednak w praktyce warto zacząć od kwoty, która pozwoli na sensowną dywersyfikację, czyli rozłożenie środków na kilka różnych spółek. Dla początkujących rozsądnym minimum jest kwota od 1000 do 5000 zł."
+    },
+    {
+      "type": "warning",
+      "text": "Inwestuj tylko pieniądze, których strata nie wpłynie na Twoje codzienne życie. Nigdy nie inwestuj na giełdzie środków przeznaczonych na podstawowe wydatki (czynsz, rachunki, jedzenie) ani pieniędzy pożyczonych. Przed rozpoczęciem inwestowania zbuduj poduszkę finansową pokrywającą 3-6 miesięcy Twoich wydatków."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Krok 3: Znajdź spółkę"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kiedy środki zostaną zaksięgowane na rachunku maklerskim, możesz przystąpić do wyboru spółki, w którą chcesz zainwestować. To etap, który wymaga przemyślenia — nie kupuj akcji losowo ani pod wpływem emocji lub gorących rekomendacji z internetu. Zacznij od spółek, które znasz i rozumiesz. Jeśli regularnie tankujesz na stacjach Orlenu, kupujesz w Biedronce (właściciel: Dino Polska lub Jeronimo Martins na GPW w Lizbonie), korzystasz z usług CD Projektu lub pracujesz w branży, którą dobrze znasz — to dobre punkty wyjścia. Warto sprawdzić podstawowe wskaźniki fundamentalne spółki: wskaźnik cena/zysk (P/E), stopę dywidendy, dynamikę przychodów i zysków oraz zadłużenie. Nasz screener na WIGmarkets pozwala szybko przefiltrować spółki z GPW według różnych kryteriów i znaleźć te, które najlepiej pasują do Twoich oczekiwań. Możesz również korzystać ze stron takich jak Biznesradar, Stockwatch czy oficjalna strona GPW, aby uzyskać więcej informacji o interesujących Cię firmach."
+    },
+    {
+      "type": "tip",
+      "text": "Na początek skup się na największych spółkach z indeksu WIG20 lub mWIG40. Są to firmy o dużej kapitalizacji, stabilnych wynikach i wysokiej płynności — co oznacza, że łatwo kupić i sprzedać ich akcje bez znaczącego wpływu na cenę. Unikaj na start spółek z NewConnect — ten segment jest przeznaczony dla bardziej doświadczonych inwestorów."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Krok 4: Złóż zlecenie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Znalazłeś spółkę, w którą chcesz zainwestować? Teraz czas złożyć zlecenie kupna. W platformie transakcyjnej brokera wyszukaj ticker (skrót nazwy) interesującej Cię spółki — na przykład PKN dla PKN Orlen, CDR dla CD Projektu czy KGH dla KGHM. Po wybraniu spółki zobaczysz aktualny kurs akcji, spread (różnicę między ceną kupna a sprzedaży), wolumen obrotu i inne dane rynkowe. Następnie musisz określić kilka parametrów zlecenia: kierunek (kupno), liczbę akcji oraz typ zlecenia. To właśnie typ zlecenia jest najważniejszą decyzją na tym etapie, ponieważ określa, po jakiej cenie i w jakich warunkach Twoje zlecenie zostanie zrealizowane."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Zlecenie z limitem ceny (limit order)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zlecenie z limitem ceny to najbezpieczniejszy typ zlecenia dla początkujących. Określasz w nim maksymalną cenę, jaką jesteś gotów zapłacić za jedną akcję. Jeśli na rynku jest oferta sprzedaży po cenie równej lub niższej od Twojego limitu, zlecenie zostanie zrealizowane. Jeśli nie — zlecenie będzie czekać w arkuszu zleceń, aż ktoś zaoferuje sprzedaż po odpowiedniej cenie lub do końca sesji. Zaletą tego typu zlecenia jest pełna kontrola nad ceną zakupu. Na przykład, jeśli akcje PKN Orlen kosztują aktualnie 105,20 zł, możesz złożyć zlecenie kupna z limitem 105,00 zł — zlecenie zostanie zrealizowane tylko wtedy, gdy cena spadnie do tego poziomu lub niżej."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Zlecenie PKC (Po Każdej Cenie)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zlecenie PKC (Po Każdej Cenie) to zlecenie, które zostanie zrealizowane natychmiast po najlepszej dostępnej cenie na rynku. Nie określasz limitu cenowego — akceptujesz każdą cenę, po której ktoś chce sprzedać. Jest to najszybszy sposób na zakup akcji, ale niesie ryzyko, że przy niskopłynnych spółkach cena realizacji może znacząco różnić się od ostatniego kursu. Zlecenia PKC są rekomendowane głównie dla dużych, płynnych spółek z WIG20, gdzie spread jest minimalny i różnica między ceną kupna a sprzedaży wynosi zaledwie kilka groszy. Unikaj zleceń PKC na małych spółkach z niskim obrotem."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Zlecenie PCR (Po Cenie Rynkowej)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zlecenie PCR (Po Cenie Rynkowej) to kompromis między zleceniem z limitem a PKC. Zlecenie PCR jest realizowane po najlepszej cenie dostępnej w momencie złożenia, ale w odróżnieniu od PKC — jeśli na rynku nie ma wystarczającej liczby ofert, niezrealizowana część zlecenia zamieniana jest na zlecenie z limitem po cenie ostatniej transakcji. Oznacza to mniejsze ryzyko niekorzystnej realizacji niż w przypadku PKC, przy jednoczesnym zachowaniu szybkości realizacji. Dla początkujących inwestorów PCR jest dobrym rozwiązaniem pośrednim, choć najlepiej zacząć od zleceń z limitem ceny, aż nabierzesz doświadczenia."
+    },
+    {
+      "type": "info",
+      "text": "Po złożeniu zlecenia kupna masz możliwość jego modyfikacji lub anulowania — dopóki nie zostanie zrealizowane. Jeśli zlecenie zostało częściowo zrealizowane (np. kupiłeś 50 z 100 sztuk), możesz anulować niezrealizowaną część. Wszystkie te operacje są bezpłatne u większości brokerów."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Krok 5: Monitoruj swoją inwestycję"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gratulacje — kupiłeś swoje pierwsze akcje! Teraz zaczyna się równie ważny etap: monitorowanie inwestycji. Nie oznacza to jednak, że musisz wpatrywać się w ekran przez cały dzień i śledzić każde wahanie kursu. Wręcz przeciwnie — nadmierne sprawdzanie cen akcji jest jednym z najczęstszych błędów początkujących inwestorów, które prowadzi do podejmowania emocjonalnych, nieprzemyślanych decyzji. Jeśli inwestujesz długoterminowo, wystarczy regularne (np. cotygodniowe lub comiesięczne) przeglądanie wyników spółek w portfelu, śledzenie raportów kwartalnych i rocznych oraz obserwowanie istotnych wydarzeń makroekonomicznych. WIGmarkets oferuje darmowe notowania w czasie rzeczywistym, które pozwalają na bieżąco śledzić ceny Twoich spółek bez konieczności instalowania dodatkowych aplikacji. Warto również ustawić alerty cenowe — większość brokerów pozwala na automatyczne powiadomienia, gdy cena akcji osiągnie określony poziom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kluczowe pytania, które powinieneś sobie regularnie zadawać, to: czy fundamenty spółki się nie zmieniły? Czy firma nadal generuje rosnące przychody i zyski? Czy nie pojawiło się istotne ryzyko (nowe regulacje, utrata kluczowego klienta, zmiana zarządu)? Czy moja teza inwestycyjna nadal jest aktualna? Jeśli odpowiedzi na te pytania są pozytywne, trzymaj akcje niezależnie od krótkoterminowych wahań kursu. Pamiętaj: Warren Buffett mówi, że jego ulubiony okres trzymania inwestycji to \"na zawsze\" — a jednym z kluczy do sukcesu na giełdzie jest cierpliwość."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Koszty kupna akcji"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kupno akcji na GPW wiąże się z kilkoma rodzajami kosztów, o których musisz wiedzieć. Najważniejszy to prowizja maklerska — opłata pobierana przez brokera za realizację zlecenia. Standardowa prowizja u większości polskich brokerów wynosi 0,38-0,39% wartości transakcji (z minimum 3-5 zł). XTB wyróżnia się zerową prowizją od akcji i ETF-ów do obrotu 100 000 EUR miesięcznie. Oprócz prowizji musisz liczyć się ze spreadem, czyli różnicą między ceną kupna (ask) a ceną sprzedaży (bid). Im bardziej płynna spółka, tym mniejszy spread. Dla spółek z WIG20 spread wynosi zwykle kilka groszy, ale dla małych spółek z NewConnect może sięgać kilku procent. Nie zapomnij również o podatku od zysków kapitałowych (19%, tzw. podatek Belki), który zapłacisz przy sprzedaży akcji z zyskiem. Więcej o rozliczeniu podatkowym przeczytasz w naszym artykule o podatku Belki i PIT-38."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Prowizja maklerska: 0-0,39% wartości transakcji (zależnie od brokera)",
+        "Spread: różnica między ceną kupna a sprzedaży (im większa płynność, tym mniejszy spread)",
+        "Podatek Belki: 19% od zysku (płatny przy sprzedaży z zyskiem)",
+        "Opłata za prowadzenie rachunku: u większości brokerów bezpłatna",
+        "Opłata za przechowywanie papierów: u większości brokerów bezpłatna"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Najczęstsze błędy początkujących"
+    },
+    {
+      "type": "paragraph",
+      "text": "Każdy inwestor popełnia błędy, ale świadomość najczęstszych pułapek pozwala ich uniknąć lub przynajmniej zminimalizować ich konsekwencje. Oto lista najczęstszych błędów, które popełniają osoby kupujące akcje po raz pierwszy — i sposoby, jak ich uniknąć."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Brak planu inwestycyjnego"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najpoważniejszym błędem jest kupowanie akcji bez jasno określonego planu. Zanim kupisz pierwszą akcję, odpowiedz sobie na kilka kluczowych pytań: jaki jest mój horyzont inwestycyjny (miesiące, lata, dekady)? Jaki poziom straty jestem w stanie zaakceptować? Po jakim zysku zamierzam sprzedać? Dlaczego wybrałem właśnie tę spółkę? Plan inwestycyjny nie musi być skomplikowany — wystarczy kilka zdań zapisanych na kartce. Ale bez niego łatwo wpadasz w pułapkę emocji i podejmujesz decyzje pod wpływem strachu lub chciwości, co niemal zawsze kończy się stratami."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Inwestowanie całego kapitału w jedną spółkę"
+    },
+    {
+      "type": "paragraph",
+      "text": "Koncentracja całego portfela w jednej spółce to recepta na katastrofę. Nawet najlepsza firma może doświadczyć nieprzewidzianych problemów — skandal korporacyjny, zmiana regulacji, utrata kluczowego kontraktu. Jeśli 100% Twoich pieniędzy jest w jednej spółce, taki event oznacza straty na całym portfelu. Podstawowa zasada dywersyfikacji mówi, że powinieneś rozłożyć środki na co najmniej 5-10 różnych spółek z różnych sektorów. Jeśli dopiero zaczynasz i masz niewielki kapitał, rozważ zakup ETF-ów — np. ETF na WIG20, który daje ekspozycję na 20 największych spółek na GPW w jednej transakcji."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Podejmowanie decyzji pod wpływem emocji"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rynek giełdowy z natury jest zmienny — ceny akcji rosną i spadają, czasem gwałtownie. Panika podczas spadków i euforia podczas wzrostów to dwa główne wrogowie inwestora. Klasyczny błąd to kupowanie na szczycie (gdy wszyscy mówią o giełdzie i media trąbią o rekordach) i sprzedawanie na dołku (gdy panuje strach i pesymizm). Najlepszą obroną przed emocjonalnymi decyzjami jest trzymanie się wcześniej ustalonego planu inwestycyjnego i regularne dokupywanie akcji niezależnie od aktualnego poziomu cen (strategia DCA — Dollar Cost Averaging, po polsku: uśrednianie ceny zakupu)."
+    },
+    {
+      "type": "warning",
+      "text": "Nigdy nie inwestuj na podstawie tzw. gorących tipów z forów internetowych, grup na Telegramie czy rekomendacji znajomych. Tego typu \u201Epewniaki\u201D często kończą się stratami. Zawsze rób własny research przed zakupem jakichkolwiek akcji. Jeśli nie rozumiesz, czym zajmuje się firma — nie kupuj jej akcji."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ignorowanie kosztów transakcyjnych"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prowizje i spread mogą wydawać się niewielkie przy pojedynczej transakcji, ale przy częstym kupowaniu i sprzedawaniu koszty kumulują się szybko. Jeśli płacisz 0,39% prowizji za kupno i 0,39% za sprzedaż, to przy każdej pełnej transakcji (kupno + sprzedaż) tracisz prawie 0,8% wartości inwestycji — bez uwzględnienia spreadu. Przy małych kwotach minimalna prowizja (3-5 zł) stanowi jeszcze większy procentowy koszt. Na przykład prowizja 3 zł od transakcji na 200 zł to 1,5% — musisz zarobić 1,5% tylko po to, żeby wyjść na zero. Dlatego przy niewielkim kapitale warto korzystać z brokerów z zerową prowizją, takich jak XTB, lub ograniczyć częstotliwość transakcji."
+    },
+    {
+      "type": "tip",
+      "text": "Jeśli chcesz dowiedzieć się więcej o rodzajach zleceń giełdowych, przeczytaj nasz szczegółowy poradnik o rodzajach zleceń na GPW, w którym omawiamy wszystkie typy zleceń dostępne na polskiej giełdzie, w tym zlecenia warunkowe, stop-loss i take-profit."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Ile trwa kupno akcji?",
+      "answer": "Samo złożenie zlecenia kupna trwa kilka sekund. Realizacja zlecenia zależy od jego typu i płynności spółki. Zlecenie PKC na płynnej spółce z WIG20 zostanie zrealizowane w ciągu sekund. Zlecenie z limitem ceny może zostać zrealizowane natychmiast (jeśli jest oferta po Twojej cenie) lub czekać godzinami, a nawet nie zostać zrealizowane w ogóle, jeśli cena nie osiągnie Twojego limitu. Rozrachunek transakcji (formalne przeniesienie własności akcji) trwa T+2, czyli dwa dni robocze od dnia transakcji."
+    },
+    {
+      "question": "Co to jest zlecenie PKC?",
+      "answer": "PKC to skrót od \u201EPo Każdej Cenie\u201D. Jest to typ zlecenia giełdowego, w którym nie określasz limitu cenowego — zgadzasz się kupić (lub sprzedać) akcje po najlepszej cenie aktualnie dostępnej na rynku. Zlecenie PKC gwarantuje natychmiastową realizację, ale nie gwarantuje ceny. Na płynnych rynkach cena realizacji będzie bardzo bliska ostatniemu kursowi, ale na mało płynnych spółkach może znacząco się różnić. Dla początkujących bezpieczniejszą opcją jest zlecenie z limitem ceny."
+    },
+    {
+      "question": "Czy mogę kupić jedną akcję?",
+      "answer": "Tak, na GPW możesz kupić nawet jedną akcję. Nie ma minimalnej liczby akcji wymaganej do zawarcia transakcji. Jednak pamiętaj o minimalnej prowizji — u większości brokerów wynosi ona 3-5 zł, co przy zakupie jednej taniej akcji może stanowić znaczący procentowy koszt. Niektóre spółki mają bardzo wysoką cenę jednostkową (np. ponad 500 zł za akcję), więc kupno jednej akcji może już być sensowną inwestycją. Jeśli chcesz kupić ułamek akcji, sprawdź ofertę XTB, który umożliwia zakup akcji ułamkowych."
+    },
+    {
+      "question": "Kiedy najlepiej kupować akcje?",
+      "answer": "Nie ma jednego idealnego momentu na kupno akcji — gdyby był, każdy byłby milionerem. Badania naukowe konsekwentnie pokazują, że próby \u201Ełapania dołków\u201D (market timing) przynoszą gorsze wyniki niż regularne inwestowanie stałych kwot (DCA). Najlepszą strategią dla początkujących jest regularne kupowanie akcji lub ETF-ów co miesiąc, niezależnie od aktualnego poziomu rynku. Dzięki temu kupujesz zarówno tanio (w dołkach), jak i drogo (na szczytach), a średnia cena zakupu w długim terminie jest korzystna. Unikaj kupowania akcji zaraz po otwarciu sesji (9:00-9:30), gdy zmienność jest najwyższa."
+    }
+  ]
+}
