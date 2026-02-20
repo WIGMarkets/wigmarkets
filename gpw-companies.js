@@ -235,7 +235,7 @@ export const GPW_COMPANIES = [
   { ticker: "MFO", stooq: "mfo", name: "MFO SA", sector: "Przemysł", index: "WIG" },
   { ticker: "MLB", stooq: "mlb", name: "Milog SA", sector: "Transport", index: "WIG" },
   { ticker: "MOJ", stooq: "moj", name: "Moje Bambino SA", sector: "Handel", index: "WIG" },
-  { ticker: "MOL", stooq: "mol", name: "Monnari Trade", sector: "Handel", index: "WIG" },
+  { ticker: "MON", stooq: "mon", name: "Monnari Trade", sector: "Handel", index: "WIG" },
   { ticker: "MSW", stooq: "msw", name: "Mostostal Warszawa", sector: "Budownictwo", index: "WIG" },
   { ticker: "MSZ", stooq: "msz", name: "Mostostal Zabrze", sector: "Budownictwo", index: "WIG" },
   { ticker: "NTT", stooq: "ntt", name: "NTT System", sector: "Technologia", index: "WIG" },
