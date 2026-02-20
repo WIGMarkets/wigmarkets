@@ -1,8 +1,9 @@
 export default async function handler(req, res) {
   const { q } = req.query;
-  if (!q) return res.status(400).json({ error: "Query is required" });
+  const limit = Math.min(parseInt(req.query.limit) || 10, 30);
+  const query = q ? q + " GPW" : "GPW giełda akcje spółki";
 
-  const url = `https://news.google.com/rss/search?q=${encodeURIComponent(q + " GPW")}&hl=pl&gl=PL&ceid=PL:pl`;
+  const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=pl&gl=PL&ceid=PL:pl`;
 
   try {
     const response = await fetch(url, {
@@ -14,7 +15,7 @@ export default async function handler(req, res) {
     const itemRegex = /<item>([\s\S]*?)<\/item>/g;
     let match;
 
-    while ((match = itemRegex.exec(xml)) !== null && items.length < 5) {
+    while ((match = itemRegex.exec(xml)) !== null && items.length < limit) {
       const block = match[1];
 
       const title = (/<title><!\[CDATA\[(.*?)\]\]><\/title>/.exec(block) ||

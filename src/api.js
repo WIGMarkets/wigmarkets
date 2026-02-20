@@ -52,6 +52,13 @@ export async function fetchFundamentals(symbol) {
   } catch { return null; }
 }
 
+export async function fetchMarketNews() {
+  try {
+    const res = await fetch("/api/news?limit=30");
+    return await res.json();
+  } catch { return null; }
+}
+
 export async function fetchRedditTrends(tickers) {
   try {
     const res = await fetch(`/api/reddit?tickers=${tickers.join(",")}`);
