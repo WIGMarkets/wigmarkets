@@ -32,6 +32,7 @@ import ArticlePage from "./components/edukacja/ArticlePage.jsx";
 import SkeletonRow from "./components/SkeletonRow.jsx";
 import ToastContainer, { toast } from "./components/ToastContainer.jsx";
 import AlertsModal from "./components/AlertsModal.jsx";
+import DividendPage from "./components/DividendPage.jsx";
 import Icon from "./components/edukacja/Icon.jsx";
 import { loadAlerts, usePriceAlerts } from "./hooks/usePriceAlerts.js";
 
@@ -118,6 +119,7 @@ function getRouteFromPath(pathname) {
   if (pathname === "/indeks") return { page: "feargreed" };
   if (pathname === "/wiadomosci") return { page: "news" };
   if (pathname === "/portfolio") return { page: "portfolio" };
+  if (pathname === "/dywidendy") return { page: "dywidendy" };
   if (pathname === "/edukacja") return { page: "edukacja" };
   const catMatch = pathname.match(/^\/edukacja\/(podstawy|analiza|strategia)$/);
   if (catMatch) return { page: "edukacja-category", category: catMatch[1] };
@@ -203,6 +205,11 @@ export default function WigMarkets() {
     document.title = "WIGmarkets - Notowania GPW";
     const meta = document.querySelector('meta[name="description"]');
     if (meta) meta.setAttribute("content", "Notowania GPW w czasie rzeczywistym");
+  }, []);
+
+  const navigateToDywidendy = useCallback(() => {
+    window.history.pushState(null, "", "/dywidendy");
+    setRoute({ page: "dywidendy" });
   }, []);
 
   const navigateToEdukacja = useCallback(() => {
@@ -447,6 +454,11 @@ export default function WigMarkets() {
     return <svg width="60" height="24" style={{ display: "block" }}><polyline points={pts} fill="none" stroke={color} strokeWidth="1.5" strokeLinejoin="round" /></svg>;
   }
 
+  // Route: Dywidendy page
+  if (route.page === "dywidendy") {
+    return <DividendPage onBack={navigateHome} theme={theme} onSelectStock={navigateToStock} />;
+  }
+
   // Route: Edukacja pages
   if (route.page === "edukacja") {
     return <EdukacjaHome theme={theme} onBack={navigateHome} onNavigateCategory={navigateToEdukacjaCategory} onNavigateArticle={navigateToEdukacjaArticle} />;
@@ -570,6 +582,7 @@ export default function WigMarkets() {
           ))}
           <button onClick={navigateToNews} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: "2px solid transparent", background: "transparent", color: theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, transition: "all 0.2s ease" }}>Wiadomości</button>
           <button onClick={navigateToPortfolio} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: "2px solid transparent", background: "transparent", color: theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, transition: "all 0.2s ease" }}>Portfolio</button>
+          <button onClick={navigateToDywidendy} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: "2px solid transparent", background: "transparent", color: theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, display: "inline-flex", alignItems: "center", gap: 6, transition: "all 0.2s ease" }}><Icon name="calendar" size={14} /> Dywidendy</button>
           <button onClick={navigateToEdukacja} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: `2px solid ${theme.accent}40`, background: `${theme.accent}10`, color: theme.accent, fontSize: isMobile ? 12 : 13, fontWeight: 600, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, display: "inline-flex", alignItems: "center", gap: 6, transition: "all 0.2s ease" }}><Icon name="book-open" size={14} /> Edukacja</button>
           {tab !== "screener" && tab !== "popularne" && tab !== "watchlist" && tab !== "indeksy" && (
           <div style={{ marginLeft: "auto", display: "flex", gap: 4, flexShrink: 0 }}>
