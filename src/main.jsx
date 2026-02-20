@@ -341,35 +341,35 @@ export default function WigMarkets() {
   const fmtIdxChange = (v) => v != null ? `${v >= 0 ? "+" : ""}${v.toFixed(2)}%` : "—";
 
   const topGainers = useMemo(() =>
-    [...STOCKS].sort((a, b) => (changes[b.ticker]?.change24h ?? 0) - (changes[a.ticker]?.change24h ?? 0)).slice(0, 5),
-    [changes]
+    [...liveStocks].sort((a, b) => (changes[b.ticker]?.change24h ?? 0) - (changes[a.ticker]?.change24h ?? 0)).slice(0, 5),
+    [changes, liveStocks]
   );
   const topLosers = useMemo(() =>
-    [...STOCKS].sort((a, b) => (changes[a.ticker]?.change24h ?? 0) - (changes[b.ticker]?.change24h ?? 0)).slice(0, 5),
-    [changes]
+    [...liveStocks].sort((a, b) => (changes[a.ticker]?.change24h ?? 0) - (changes[b.ticker]?.change24h ?? 0)).slice(0, 5),
+    [changes, liveStocks]
   );
   const popularStocks = useMemo(() =>
     redditData.ranked
       .map(({ ticker, mentions }) => {
-        const stock = STOCKS.find(s => s.ticker === ticker);
+        const stock = liveStocks.find(s => s.ticker === ticker);
         return stock ? { ...stock, mentions } : null;
       })
       .filter(Boolean),
-    [redditData.ranked]
+    [redditData.ranked, liveStocks]
   );
   const topMovers = useMemo(() =>
-    [...STOCKS]
+    [...liveStocks]
       .filter(s => (changes[s.ticker]?.change24h ?? 0) !== 0)
       .sort((a, b) => Math.abs(changes[b.ticker]?.change24h ?? 0) - Math.abs(changes[a.ticker]?.change24h ?? 0))
       .slice(0, 12)
       .map(s => ({ ...s, mentions: null })),
-    [changes]
+    [changes, liveStocks]
   );
   const marketStats = useMemo(() => [
-    ["Spółki rosnące", `${STOCKS.filter(s => (changes[s.ticker]?.change24h ?? 0) > 0).length}/${STOCKS.length}`, "#00c896"],
-    ["Kap. łączna (mld zł)", fmt(STOCKS.reduce((a, s) => a + s.cap, 0) / 1000, 1), "#58a6ff"],
-    ["Śr. zmiana 24h", changeFmt(STOCKS.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0) / STOCKS.length), "#ffd700"],
-  ], [changes]);
+    ["Spółki rosnące", `${liveStocks.filter(s => (changes[s.ticker]?.change24h ?? 0) > 0).length}/${liveStocks.length}`, "#00c896"],
+    ["Kap. łączna (mld zł)", fmt(liveStocks.reduce((a, s) => a + (s.cap || 0), 0) / 1000, 1), "#58a6ff"],
+    ["Śr. zmiana 24h", changeFmt(liveStocks.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0) / liveStocks.length), "#ffd700"],
+  ], [changes, liveStocks]);
 
   const fgValue = FEAR_HISTORY_YEAR[FEAR_HISTORY_YEAR.length - 1];
   const fgLabel = fgValue < 25 ? "Skrajna panika" : fgValue < 45 ? "Strach" : fgValue < 55 ? "Neutralny" : fgValue < 75 ? "Chciwość" : "Ekstremalna chciwość";
@@ -470,7 +470,7 @@ export default function WigMarkets() {
       </div>
 
       {/* Marquee ticker */}
-      <MarqueeTicker stocks={[...STOCKS, ...COMMODITIES, ...FOREX]} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
+      <MarqueeTicker stocks={[...liveStocks, ...COMMODITIES, ...FOREX]} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
 
       {/* Market Overview */}
       <div style={{ maxWidth: 1400, margin: "0 auto", padding: isMobile ? "10px 12px 0" : "16px 24px 0" }}>
@@ -515,7 +515,7 @@ export default function WigMarkets() {
             <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: isMobile ? "10px 14px" : "12px 20px", flexShrink: 0 }}>
               <div style={{ fontSize: 9, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: 1, fontWeight: 700, marginBottom: 3 }}>Obrót GPW</div>
               <div style={{ fontSize: 18, fontWeight: 800, color: theme.textBright, lineHeight: 1, fontVariantNumeric: "tabular-nums" }}>
-                {(() => { const v = STOCKS.reduce((a, s) => a + (changes[s.ticker]?.volume ?? 0) * (prices[s.ticker] ?? 0), 0); return v >= 1e9 ? `${(v/1e9).toFixed(2)} mld` : v >= 1e6 ? `${(v/1e6).toFixed(0)} mln` : "—"; })()}
+                {(() => { const v = liveStocks.reduce((a, s) => a + (changes[s.ticker]?.volume ?? 0) * (prices[s.ticker] ?? 0), 0); return v >= 1e9 ? `${(v/1e9).toFixed(2)} mld` : v >= 1e6 ? `${(v/1e6).toFixed(0)} mln` : "—"; })()}
               </div>
               <div style={{ fontSize: 10, color: theme.textSecondary, marginTop: 2 }}>zł dzisiaj</div>
             </div>
@@ -616,7 +616,7 @@ export default function WigMarkets() {
 
           {/* Heatmap view */}
           {viewMode === "heatmap" && tab === "akcje" && !isMobile && (
-            <Heatmap stocks={STOCKS} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
+            <Heatmap stocks={liveStocks} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
           )}
 
           {tab === "watchlist" && watchlist.size === 0 && (
@@ -742,10 +742,10 @@ export default function WigMarkets() {
       <div style={{ background: theme.bgCard, borderTop: `1px solid ${theme.border}`, overflowX: "auto", WebkitOverflowScrolling: "touch", scrollbarWidth: "none" }}>
         <div style={{ display: "flex", gap: 0, minWidth: "max-content" }}>
           {[
-            { label: "Spółki rosnące", value: `${STOCKS.filter(s => (changes[s.ticker]?.change24h ?? 0) > 0).length} / ${STOCKS.length}`, color: "#00c896" },
-            { label: "Spółki spadające", value: `${STOCKS.filter(s => (changes[s.ticker]?.change24h ?? 0) < 0).length} / ${STOCKS.length}`, color: "#ff4d6d" },
-            { label: "Śr. zmiana 24h", value: changeFmt(STOCKS.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0) / STOCKS.length || 0), color: changeColor(STOCKS.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0)) },
-            { label: "Kap. łączna", value: `${fmt(STOCKS.reduce((a, s) => a + (s.cap || 0), 0) / 1000, 1)} mld zł`, color: "#58a6ff" },
+            { label: "Spółki rosnące", value: `${liveStocks.filter(s => (changes[s.ticker]?.change24h ?? 0) > 0).length} / ${liveStocks.length}`, color: "#00c896" },
+            { label: "Spółki spadające", value: `${liveStocks.filter(s => (changes[s.ticker]?.change24h ?? 0) < 0).length} / ${liveStocks.length}`, color: "#ff4d6d" },
+            { label: "Śr. zmiana 24h", value: changeFmt(liveStocks.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0) / liveStocks.length || 0), color: changeColor(liveStocks.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0)) },
+            { label: "Kap. łączna", value: `${fmt(liveStocks.reduce((a, s) => a + (s.cap || 0), 0) / 1000, 1)} mld zł`, color: "#58a6ff" },
             { label: "Złoto (XAU)", value: prices["XAU"] ? `${fmt(prices["XAU"])} USD` : "—", color: "#ffd700" },
             { label: "Ropa WTI", value: prices["CL"] ? `${fmt(prices["CL"])} USD` : "—", color: "#f0883e" },
             { label: "EUR/PLN", value: prices["EURPLN"] ? fmt(prices["EURPLN"]) : "—", color: theme.textSecondary },

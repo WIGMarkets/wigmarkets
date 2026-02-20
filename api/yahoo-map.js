@@ -17,6 +17,7 @@ const YAHOO_MAP = {
   "sts":  "STS.WA",
   "dad":  "DAD.WA",
   "pct":  "PCF.WA",
+  "inp":  "INPST.AS",  // InPost — listed on Euronext Amsterdam, not GPW
   // Commodities
   "xau":     "GC=F",
   "xag":     "SI=F",
