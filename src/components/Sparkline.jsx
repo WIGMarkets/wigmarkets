@@ -12,9 +12,22 @@ function generateSparkline(trend) {
   return points.map((p, i) => `${(i / 19) * 100},${40 - ((p - min) / (max - min + 1)) * 36}`).join(" ");
 }
 
-export default function Sparkline({ trend }) {
-  const path = useMemo(() => generateSparkline(trend), [trend]);
+export default function Sparkline({ prices, trend = 0 }) {
   const color = trend >= 0 ? "#00c896" : "#ff4d6d";
+
+  const path = useMemo(() => {
+    if (prices && prices.length >= 2) {
+      const min = Math.min(...prices);
+      const max = Math.max(...prices);
+      const range = max - min || 1;
+      const n = prices.length;
+      return prices
+        .map((p, i) => `${(i / (n - 1)) * 100},${40 - ((p - min) / range) * 36}`)
+        .join(" ");
+    }
+    return generateSparkline(trend);
+  }, [prices, trend]);
+
   return (
     <svg width="60" height="32" viewBox="0 0 100 40" style={{ display: "block" }}>
       <polyline points={path} fill="none" stroke={color} strokeWidth="2.5" strokeLinejoin="round" strokeLinecap="round" opacity="0.9" />

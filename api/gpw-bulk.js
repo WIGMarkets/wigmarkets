@@ -36,6 +36,7 @@ async function fetchYahooSymbol(yahooSymbol, retries = 2) {
         volume,
         change24h: parseFloat(change24h.toFixed(2)),
         change7d:  parseFloat(change7d.toFixed(2)),
+        sparkline: closes,
       };
     } catch {
       if (attempt < retries) { await new Promise(r => setTimeout(r, 500 * (attempt + 1))); continue; }

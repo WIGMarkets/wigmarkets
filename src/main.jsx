@@ -51,9 +51,10 @@ function fmtCap(cap) {
 
 function TableRow({ s, i, rank, isMobile, tab, theme, prices, changes, watchlist, toggleWatch, navigateToStock, setSelected, setCalcStock, isKeyboardActive, onHover, showPE, showDiv }) {
   const currentPrice = prices[s.ticker];
-  const c24h   = changes[s.ticker]?.change24h ?? 0;
-  const c7d    = changes[s.ticker]?.change7d  ?? 0;
-  const volume = changes[s.ticker]?.volume ?? 0;
+  const c24h     = changes[s.ticker]?.change24h ?? 0;
+  const c7d      = changes[s.ticker]?.change7d  ?? 0;
+  const volume   = changes[s.ticker]?.volume    ?? 0;
+  const sparkline = changes[s.ticker]?.sparkline ?? null;
   const priceColor = c24h > 0 ? "#00c896" : c24h < 0 ? "#ff4d6d" : "#c9d1d9";
   const flashCls = usePriceFlash(currentPrice);
   return (
@@ -87,7 +88,7 @@ function TableRow({ s, i, rank, isMobile, tab, theme, prices, changes, watchlist
       {!isMobile && tab !== "screener" && <td style={{ padding: "13px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{fmtVolume(volume, currentPrice)}</td>}
       {!isMobile && tab === "akcje" && showPE  && <td style={{ padding: "13px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{s.pe ? fmt(s.pe) : "—"}</td>}
       {!isMobile && tab === "akcje" && showDiv && <td style={{ padding: "13px 16px", textAlign: "right", color: s.div > 0 ? "#00c896" : theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums" }}>{s.div ? `${fmt(s.div)}%` : "—"}</td>}
-      {!isMobile && <td style={{ padding: "13px 16px", textAlign: "right" }}><Sparkline trend={c7d} /></td>}
+      {!isMobile && <td style={{ padding: "13px 16px", textAlign: "right" }}><Sparkline prices={sparkline} trend={c7d} /></td>}
       {!isMobile && (
         <td style={{ padding: "13px 16px", textAlign: "right" }}>
           <button
@@ -218,7 +219,7 @@ export default function WigMarkets() {
       for (const [ticker, q] of Object.entries(data.quotes || {})) {
         if (q?.close) {
           newPrices[ticker] = q.close;
-          newChanges[ticker] = { change24h: q.change24h ?? 0, change7d: q.change7d ?? 0, volume: q.volume ?? 0 };
+          newChanges[ticker] = { change24h: q.change24h ?? 0, change7d: q.change7d ?? 0, volume: q.volume ?? 0, sparkline: q.sparkline ?? null };
         }
       }
       if (Object.keys(newPrices).length) {
@@ -250,7 +251,7 @@ export default function WigMarkets() {
         const data = bulk[sym];
         if (data?.close) {
           newPrices[item.ticker] = data.close;
-          newChanges[item.ticker] = { change24h: data.change24h ?? 0, change7d: data.change7d ?? 0, volume: data.volume ?? 0 };
+          newChanges[item.ticker] = { change24h: data.change24h ?? 0, change7d: data.change7d ?? 0, volume: data.volume ?? 0, sparkline: data.sparkline ?? null };
         }
       }
       if (Object.keys(newPrices).length) {

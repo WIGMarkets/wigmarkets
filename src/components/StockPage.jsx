@@ -112,7 +112,7 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
             </div>
           </div>
           <div style={{ background: theme.bgPage, borderRadius: 12, padding: "16px 8px" }}>
-            <LargeChart data={chartData} color={color} theme={theme} type={chartType} isIntraday={isIntraday} />
+            <LargeChart data={chartData} color={color} theme={theme} type={chartType} isIntraday={isIntraday} unit={stock.unit || "zł"} />
           </div>
         </div>
 
