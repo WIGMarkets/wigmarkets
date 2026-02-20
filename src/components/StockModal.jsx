@@ -1,11 +1,12 @@
 import { useState, useEffect, useMemo } from "react";
-import { fetchHistory, fetchIntraday } from "../api.js";
+import { fetchHistory, fetchHourly, fetchIntraday } from "../api.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { fmt, changeFmt, getYahooSymbol, isForex, isCommodity } from "../utils.js";
 import MiniChart from "./MiniChart.jsx";
 
 export default function StockModal({ stock, price, change24h, change7d, onClose, onCalc, theme }) {
   const [history, setHistory] = useState(null);
+  const [hourly, setHourly] = useState(null);
   const [intraday, setIntraday] = useState(null);
   const [range, setRange] = useState("1M");
   const [chartType, setChartType] = useState("line");
@@ -24,6 +25,12 @@ export default function StockModal({ stock, price, change24h, change7d, onClose,
   }, [stock.ticker, stock.name]);
 
   useEffect(() => {
+    if (range !== "1W") return;
+    setHourly(null);
+    fetchHourly(sym).then(d => setHourly(d?.prices || []));
+  }, [range, sym]);
+
+  useEffect(() => {
     if (range !== "1D") return;
     setIntraday(null);
     fetchIntraday(sym).then(d => setIntraday(d?.prices || []));
@@ -35,8 +42,10 @@ export default function StockModal({ stock, price, change24h, change7d, onClose,
     return history.slice(-(days[range] || 30));
   }, [history, range]);
 
-  const chartData   = range === "1D" ? (intraday ?? []) : filteredHistory;
-  const isIntraday  = range === "1D";
+  const chartData   = range === "1D" ? (intraday ?? [])
+                    : range === "1W" ? (hourly ?? filteredHistory)
+                    : filteredHistory;
+  const isIntraday  = range === "1D" || range === "1W";
 
   return (
     <div style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,0.85)", zIndex: 1000, display: "flex", alignItems: "center", justifyContent: "center", padding: isMobile ? 8 : 24 }} onClick={onClose}>

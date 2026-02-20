@@ -21,6 +21,13 @@ export async function fetchHistory(symbol) {
   } catch { return null; }
 }
 
+export async function fetchHourly(symbol) {
+  try {
+    const res = await fetch(`/api/history?symbol=${symbol}&interval=1h`);
+    return await res.json();
+  } catch { return null; }
+}
+
 export async function fetchIntraday(symbol) {
   try {
     const res = await fetch(`/api/intraday?symbol=${symbol}`);

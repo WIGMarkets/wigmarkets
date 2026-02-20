@@ -1,11 +1,14 @@
 import { toYahoo, YF_HEADERS } from "./yahoo-map.js";
 
 export default async function handler(req, res) {
-  const { symbol } = req.query;
+  const { symbol, interval: reqInterval } = req.query;
   if (!symbol) return res.status(400).json({ error: "Symbol is required" });
 
+  const interval = reqInterval === "1h" ? "1h" : "1d";
+  const range = interval === "1h" ? "7d" : "1y";
+
   const yahooSymbol = toYahoo(symbol);
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?interval=1d&range=1y`;
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?interval=${interval}&range=${range}`;
 
   try {
     const response = await fetch(url, { headers: YF_HEADERS });
@@ -24,13 +27,20 @@ export default async function handler(req, res) {
     if (timestamps.length < 2) return res.status(404).json({ error: "No data" });
 
     const prices = timestamps
-      .map((ts, i) => ({
-        date:  new Date(ts * 1000).toISOString().slice(0, 10),
-        open:  rawOpens[i],
-        high:  rawHighs[i],
-        low:   rawLows[i],
-        close: rawCloses[i],
-      }))
+      .map((ts, i) => {
+        const d = new Date(ts * 1000);
+        const bar = {
+          date:  d.toISOString().slice(0, 10),
+          open:  rawOpens[i],
+          high:  rawHighs[i],
+          low:   rawLows[i],
+          close: rawCloses[i],
+        };
+        if (interval === "1h") {
+          bar.time = d.toLocaleTimeString("pl-PL", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Warsaw" });
+        }
+        return bar;
+      })
       .filter(p => p.close !== null && !isNaN(p.close));
 
     res.status(200).json({ prices });

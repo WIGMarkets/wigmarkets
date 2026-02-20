@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from "react";
-import { fetchHistory, fetchFundamentals, fetchIntraday } from "../api.js";
+import { fetchHistory, fetchHourly, fetchFundamentals, fetchIntraday } from "../api.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { fmt, changeFmt, changeColor, calculateRSI, getYahooSymbol, isForex, isCommodity } from "../utils.js";
 import LargeChart from "./LargeChart.jsx";
@@ -9,6 +9,7 @@ import StockLogo from "./StockLogo.jsx";
 
 export default function StockPage({ stock, prices, changes, onBack, theme }) {
   const [history, setHistory] = useState(null);
+  const [hourly, setHourly] = useState(null);
   const [intraday, setIntraday] = useState(null);
   const [range, setRange] = useState("3M");
   const [chartType, setChartType] = useState("line");
@@ -41,6 +42,12 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
   }, [stock.ticker, stock.name, stock.stooq]);
 
   useEffect(() => {
+    if (range !== "1W") return;
+    setHourly(null);
+    fetchHourly(sym).then(d => setHourly(d?.prices || []));
+  }, [range, sym]);
+
+  useEffect(() => {
     if (range !== "1D") return;
     setIntraday(null);
     fetchIntraday(sym).then(d => setIntraday(d?.prices || []));
@@ -61,8 +68,10 @@ export default function StockPage({ stock, prices, changes, onBack, theme }) {
     return history.slice(-(days[range] || 90));
   }, [history, range]);
 
-  const chartData  = range === "1D" ? (intraday ?? []) : filteredHistory;
-  const isIntraday = range === "1D";
+  const chartData  = range === "1D" ? (intraday ?? [])
+                   : range === "1W" ? (hourly ?? filteredHistory)
+                   : filteredHistory;
+  const isIntraday = range === "1D" || range === "1W";
 
   const rsi = useMemo(() => calculateRSI(history), [history]);
 
