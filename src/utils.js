@@ -3,9 +3,20 @@ export const changeColor = (v) => v > 0 ? "#00c896" : v < 0 ? "#ff4d6d" : "#8b94
 export const changeFmt = (v) => `${v > 0 ? "▲ +" : v < 0 ? "▼ " : ""}${fmt(v)}%`;
 
 const YAHOO_SYMBOL_MAP = {
-  "dia": "DIAG.WA", "11b": "11B.WA", "1at": "1AT.WA", "grn": "GRN.WA",
-  "sfg": "SFG.WA", "r22": "R22.WA", "zab": "ZAB.WA", "gpp": "GPP.WA",
-  "sho": "SHO.WA", "vrc": "VRC.WA", "sts": "STS.WA", "dad": "DAD.WA", "pct": "PCF.WA",
+  // GPW stocks with non-standard Yahoo Finance tickers
+  "dia": "DIAG.WA",  // Diagnostyka: GPW=DIAG, stooq=dia
+  "11b": "11B.WA",   // 11 bit studios (numeric prefix)
+  "1at": "1AT.WA",   // Atal SA (numeric prefix)
+  "grn": "GRN.WA",   // Grenevia SA
+  "sfg": "SFG.WA",   // Synektik SA
+  "r22": "R22.WA",   // R22 SA (numeric in ticker)
+  "zab": "ZAB.WA",   // Żabka Group
+  "sho": "SHO.WA",   // Shoper SA
+  "vrc": "VRC.WA",   // Vercom SA
+  "sts": "STS.WA",   // STS Holding
+  "dad": "DAD.WA",   // Dadelo SA
+  "inp": "INPST.AS", // InPost — listed on Euronext Amsterdam, not GPW
+  // Commodities
   "xau": "GC=F", "xag": "SI=F",
   "cl.f": "CL=F", "ng.f": "NG=F", "hg.f": "HG=F",
   "weat.us": "WEAT", "corn.us": "CORN", "soy.us": "SOYB",
