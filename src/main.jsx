@@ -19,6 +19,7 @@ import StockModal from "./components/StockModal.jsx";
 import StockLogo from "./components/StockLogo.jsx";
 import CompanyMonogram from "./components/CompanyMonogram.jsx";
 import MarketOverviewCards from "./components/MarketOverviewCards.jsx";
+import IndeksyView from "./components/IndeksyView.jsx";
 import WIGMarketsLogo from "./components/WIGMarketsLogo.jsx";
 import StockPage from "./components/StockPage.jsx";
 import FearGreedPage from "./components/FearGreedPage.jsx";
@@ -263,17 +264,21 @@ export default function WigMarkets() {
     // gpw-bulk mapuje "wig20" → ^WIG20, "wig" → ^WIG (poprawne symbole YF dla indeksów).
     // sparkline z gpw-bulk to number[] — konwertujemy na [{close}] dla IndexSparkline.
     const load = async () => {
-      const bulk = await fetchBulk(["wig20", "wig"]);
-      const built = [
-        { name: "WIG20", stooq: "wig20" },
-        { name: "WIG",   stooq: "wig"   },
-      ].map(({ name, stooq }) => {
+      const bulk = await fetchBulk(["wig20", "wig", "mwig40", "swig80"]);
+      const defs = [
+        { name: "WIG20",  stooq: "wig20"  },
+        { name: "WIG",    stooq: "wig"    },
+        { name: "mWIG40", stooq: "mwig40" },
+        { name: "sWIG80", stooq: "swig80" },
+      ];
+      const built = defs.map(({ name, stooq }) => {
         const d = bulk[stooq];
-        if (!d?.close) return { name, value: null, change24h: null, sparkline: [] };
+        if (!d?.close) return { name, value: null, change24h: null, change7d: null, sparkline: [] };
         return {
           name,
           value:     d.close,
           change24h: d.change24h ?? null,
+          change7d:  d.change7d  ?? null,
           sparkline: (d.sparkline || []).map(c => ({ close: c })),
         };
       });
@@ -544,7 +549,7 @@ export default function WigMarkets() {
           changes={changes}
           prices={prices}
           navigateToStock={navigateToStock}
-          navigateToFearGreed={navigateToFearGreed}
+          navigateToFearGreed={() => setTab("indeksy")}
           theme={theme}
           isMobile={isMobile}
         />
@@ -560,13 +565,13 @@ export default function WigMarkets() {
       <div style={{ padding: isMobile ? "16px 12px 0" : "24px 24px 0", maxWidth: 1400, margin: "0 auto" }}>
         {/* Tabs + View toggle */}
         <div style={{ display: "flex", gap: 4, marginBottom: 16, flexWrap: "nowrap", alignItems: "center", overflowX: "auto", WebkitOverflowScrolling: "touch", msOverflowStyle: "none", scrollbarWidth: "none", paddingBottom: 2 }}>
-          {[["akcje", "Akcje GPW"], ["popularne", "Popularne"], ["surowce", "Surowce"], ["forex", "Forex"], ["screener", "Screener"], ["watchlist", `Obserwowane${watchlist.size ? ` (${watchlist.size})` : ""}`]].map(([key, label]) => (
+          {[["akcje", "Akcje GPW"], ["popularne", "Popularne"], ["indeksy", "Indeksy"], ["surowce", "Surowce"], ["forex", "Forex"], ["screener", "Screener"], ["watchlist", `Obserwowane${watchlist.size ? ` (${watchlist.size})` : ""}`]].map(([key, label]) => (
             <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); setWatchFilter(false); }} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: tab === key ? `2px solid ${theme.accent}` : "2px solid transparent", background: tab === key ? `${theme.accent}18` : "transparent", color: tab === key ? theme.accent : theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: tab === key ? 600 : 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, transition: "all 0.2s ease", letterSpacing: "0.01em" }}>{label}</button>
           ))}
           <button onClick={navigateToNews} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: "2px solid transparent", background: "transparent", color: theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, transition: "all 0.2s ease" }}>Wiadomości</button>
           <button onClick={navigateToPortfolio} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: "2px solid transparent", background: "transparent", color: theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, transition: "all 0.2s ease" }}>Portfolio</button>
           <button onClick={navigateToEdukacja} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: `2px solid ${theme.accent}40`, background: `${theme.accent}10`, color: theme.accent, fontSize: isMobile ? 12 : 13, fontWeight: 600, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, display: "inline-flex", alignItems: "center", gap: 6, transition: "all 0.2s ease" }}><Icon name="book-open" size={14} /> Edukacja</button>
-          {tab !== "screener" && tab !== "popularne" && tab !== "watchlist" && (
+          {tab !== "screener" && tab !== "popularne" && tab !== "watchlist" && tab !== "indeksy" && (
           <div style={{ marginLeft: "auto", display: "flex", gap: 4, flexShrink: 0 }}>
             <button onClick={() => setWatchFilter(f => !f)} style={{ padding: isMobile ? "6px 10px" : "8px 14px", borderRadius: 8, border: "1px solid", borderColor: watchFilter ? "#ffd700" : theme.borderInput, background: watchFilter ? "#ffd70022" : "transparent", color: watchFilter ? "#ffd700" : theme.textSecondary, fontSize: isMobile ? 11 : 12, cursor: "pointer", fontFamily: "inherit", fontWeight: watchFilter ? 700 : 400, flexShrink: 0 }}>
               Obserwowane{watchlist.size > 0 ? ` (${watchlist.size})` : ""}
@@ -583,9 +588,11 @@ export default function WigMarkets() {
         </div>
       </div>
 
-      <div style={{ maxWidth: 1400, margin: "0 auto", display: isMobile ? "block" : "grid", gridTemplateColumns: (tab === "screener" || tab === "forex") ? "1fr" : "1fr 280px", gap: 24, padding: isMobile ? "0 12px" : "0 24px" }}>
+      <div style={{ maxWidth: 1400, margin: "0 auto", display: isMobile ? "block" : "grid", gridTemplateColumns: (tab === "screener" || tab === "forex" || tab === "indeksy") ? "1fr" : "1fr 280px", gap: 24, padding: isMobile ? "0 12px" : "0 24px" }}>
         {tab === "screener" ? (
           <ScreenerView stocks={liveStocks} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
+        ) : tab === "indeksy" ? (
+          <IndeksyView indices={indices} theme={theme} isMobile={isMobile} />
         ) : (<>
         <div>
           {/* Popularne tab */}
