@@ -3,11 +3,12 @@
 // Commodities, forex, and special cases are listed explicitly.
 
 const YAHOO_MAP = {
-  // GPW indices — symbole .WA (spójne z resztą spółek GPW)
-  "wig20":  "WIG20.WA",
-  "wig":    "WIG.WA",
-  "mwig40": "MWIG40.WA",
-  "swig80": "SWIG80.WA",
+  // GPW indices — standard Yahoo Finance format (^ prefix, tak jak ^GSPC dla S&P500)
+  // .WA dotyczy wyłącznie spółek GPW, NIE indeksów
+  "wig20":  "^WIG20",
+  "wig":    "^WIG",
+  "mwig40": "^MWIG40",
+  "swig80": "^SWIG80",
   // GPW stocks with non-standard Yahoo Finance tickers
   "dia":  "DIAG.WA",  // Diagnostyka: GPW=DIAG, stooq=dia
   "11b":  "11B.WA",   // 11 bit studios (numeric prefix)
