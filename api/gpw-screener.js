@@ -1,163 +1,108 @@
 /**
- * Returns the 300 largest GPW (WSE) stocks by market cap, fetched directly
- * from the Yahoo Finance screener.
+ * Returns the full GPW stock list (~300 companies) with initial price quotes.
  *
- * No Redis / KV / cron needed. Vercel CDN caches the response for 24 hours
- * (s-maxage=86400), so Yahoo Finance is hit at most once per day per region.
- * stale-while-revalidate=3600 keeps old data serving while the CDN refreshes
- * in the background.
+ * Stock list comes from the static GPW_COMPANIES master file.
+ * Price data comes from Yahoo Finance chart API (v8/finance/chart) in batches.
  *
- * On cache miss the endpoint authenticates with Yahoo Finance (cookie + crumb)
- * and POSTs to the screener — takes ~2–4 s, well within serverless limits.
+ * CDN-cached for 24 hours (s-maxage=86400). No Yahoo auth/crumb needed —
+ * uses the same chart endpoint as gpw-bulk.js which is proven to work.
  *
  * Returns:
- *   { ok: true,  stocks: [...], quotes: {...}, ts: "2025-02-19T05:00:00.000Z" }
+ *   { ok: true,  stocks: [...], quotes: {...}, ts: "..." }
  *   { ok: false, error: "..." }
  */
 
-import { YF_HEADERS } from "./yahoo-map.js";
+import { GPW_COMPANIES } from "../gpw-companies.js";
+import { toYahoo, YF_HEADERS } from "./yahoo-map.js";
 
-const UA = YF_HEADERS["User-Agent"];
+const BATCH = 15;
+const DELAY = 100;
 
-const SECTOR_MAP = {
-  "Basic Materials":        "Surowce",
-  "Communication Services": "Telekomunikacja",
-  "Consumer Cyclical":      "Dobra cykliczne",
-  "Consumer Defensive":     "FMCG",
-  "Energy":                 "Energia",
-  "Financial Services":     "Finanse",
-  "Healthcare":             "Ochrona zdrowia",
-  "Industrials":            "Przemysł",
-  "Real Estate":            "Nieruchomości",
-  "Technology":             "Technologia",
-  "Utilities":              "Usługi komunalne",
-};
+async function fetchChart(yahoo, retries = 2) {
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahoo)}?interval=1d&range=10d`;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const r = await fetch(url, { headers: YF_HEADERS });
+      if (r.status === 429 || r.status >= 500) {
+        if (attempt < retries) { await new Promise(w => setTimeout(w, 500 * (attempt + 1))); continue; }
+        return null;
+      }
+      if (!r.ok) return null;
+      const j = await r.json();
+      const res = j?.chart?.result?.[0];
+      if (!res) return null;
 
-async function getYahooCrumb() {
-  const cookieRes = await fetch("https://finance.yahoo.com/", {
-    headers: {
-      "User-Agent": UA,
-      "Accept": "text/html,application/xhtml+xml,*/*",
-      "Accept-Language": "en-US,en;q=0.9",
-    },
-    redirect: "follow",
-  });
+      const closes = (res.indicators?.quote?.[0]?.close || []).filter(c => c != null && !isNaN(c));
+      if (!closes.length) return null;
 
-  let rawCookies = [];
-  if (typeof cookieRes.headers.getSetCookie === "function") {
-    rawCookies = cookieRes.headers.getSetCookie();
-  } else {
-    const raw = cookieRes.headers.get("set-cookie") || "";
-    rawCookies = raw ? raw.split(/,(?=[^ ])/) : [];
+      const today     = closes[closes.length - 1];
+      const yesterday = closes.length >= 2 ? closes[closes.length - 2] : today;
+      const weekAgo   = closes.length >= 6 ? closes[closes.length - 6] : yesterday;
+      const volume    = (res.indicators?.quote?.[0]?.volume || []).at(-1) || 0;
+
+      return {
+        close:     today,
+        volume,
+        change24h: yesterday ? parseFloat(((today - yesterday) / yesterday * 100).toFixed(2)) : 0,
+        change7d:  weekAgo   ? parseFloat(((today - weekAgo)   / weekAgo   * 100).toFixed(2)) : 0,
+      };
+    } catch {
+      if (attempt < retries) { await new Promise(w => setTimeout(w, 500 * (attempt + 1))); continue; }
+      return null;
+    }
   }
-  const cookieStr = rawCookies.map(c => c.split(";")[0].trim()).filter(Boolean).join("; ");
-
-  const crumbRes = await fetch("https://query1.finance.yahoo.com/v1/test/getcrumb", {
-    headers: { "User-Agent": UA, "Cookie": cookieStr, "Accept": "text/plain, */*" },
-  });
-  const crumb = (await crumbRes.text()).trim();
-  if (!crumb || crumb.startsWith("{") || crumb.length > 20) {
-    throw new Error(`Invalid crumb: "${crumb.slice(0, 50)}"`);
-  }
-  return { crumb, cookieStr };
-}
-
-async function fetchWSEScreener(crumb, cookieStr, size = 300) {
-  const body = {
-    size,
-    offset: 0,
-    sortField: "marketcap",
-    sortType: "DESC",
-    quoteType: "EQUITY",
-    query: {
-      operator: "AND",
-      operands: [{ operator: "EQ", operands: ["exchange", "WSE"] }],
-    },
-    userId: "",
-    userIdType: "guid",
-  };
-
-  const url = `https://query1.finance.yahoo.com/v1/finance/screener?lang=en-US&region=US&crumb=${encodeURIComponent(crumb)}`;
-  const resp = await fetch(url, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "User-Agent": UA,
-      "Cookie": cookieStr,
-      "Accept": "application/json, text/plain, */*",
-      "Accept-Language": "en-US,en;q=0.9",
-    },
-    body: JSON.stringify(body),
-  });
-
-  if (!resp.ok) {
-    const text = await resp.text();
-    throw new Error(`Screener HTTP ${resp.status}: ${text.slice(0, 200)}`);
-  }
-
-  const data = await resp.json();
-  const quotes = data?.finance?.result?.[0]?.quotes;
-  if (!Array.isArray(quotes)) {
-    throw new Error(`Unexpected screener shape: ${JSON.stringify(data).slice(0, 300)}`);
-  }
-  return quotes;
+  return null;
 }
 
 export default async function handler(req, res) {
-  // 24-hour CDN cache — Vercel edge serves cached responses for one day,
-  // then refreshes in the background. Equivalent to a daily cron, zero setup.
   res.setHeader("Cache-Control", "s-maxage=86400, stale-while-revalidate=3600");
 
   try {
-    const { crumb, cookieStr } = await getYahooCrumb();
-    const rawQuotes = await fetchWSEScreener(crumb, cookieStr, 300);
-
     const stocks = [];
     const quotes = {};
+    const entries = GPW_COMPANIES.map((c, i) => ({
+      ...c,
+      id: i + 1,
+      yahoo: toYahoo(c.stooq),
+    }));
 
-    for (let i = 0; i < rawQuotes.length; i++) {
-      const q = rawQuotes[i];
-      if (!q?.symbol) continue;
+    for (let i = 0; i < entries.length; i += BATCH) {
+      const batch = entries.slice(i, i + BATCH);
+      const results = await Promise.allSettled(
+        batch.map(e => fetchChart(e.yahoo))
+      );
 
-      const ticker = q.symbol.replace(/\.WA$/i, "");
-      const stooq  = ticker.toLowerCase();
-      const sector = SECTOR_MAP[q.sector] || q.sector || "Inne";
+      for (let j = 0; j < batch.length; j++) {
+        const e = batch[j];
+        const r = results[j];
 
-      const pe =
-        q.trailingPE && isFinite(q.trailingPE) && q.trailingPE > 0 && q.trailingPE < 10_000
-          ? parseFloat(q.trailingPE.toFixed(1))
-          : null;
+        stocks.push({
+          id:     e.id,
+          ticker: e.ticker,
+          stooq:  e.stooq,
+          name:   e.name,
+          sector: e.sector,
+          cap:    0,
+          pe:     null,
+          div:    null,
+        });
 
-      const divRaw = q.dividendYield ?? q.trailingAnnualDividendYield ?? 0;
-      const div = divRaw > 0
-        ? parseFloat((divRaw < 1 ? divRaw * 100 : divRaw).toFixed(2))
-        : null;
+        if (r.status === "fulfilled" && r.value) {
+          quotes[e.ticker] = r.value;
+        }
+      }
 
-      stocks.push({
-        id: i + 1,
-        ticker,
-        stooq,
-        name:   q.longName || q.shortName || ticker,
-        sector,
-        cap:    q.marketCap ? Math.round(q.marketCap / 1_000_000) : 0,
-        pe,
-        div,
-      });
-
-      if (q.regularMarketPrice) {
-        quotes[ticker] = {
-          close:     q.regularMarketPrice,
-          volume:    q.regularMarketVolume || 0,
-          change24h: q.regularMarketChangePercent != null
-            ? parseFloat(q.regularMarketChangePercent.toFixed(2))
-            : 0,
-          change7d: null,
-        };
+      if (i + BATCH < entries.length) {
+        await new Promise(w => setTimeout(w, DELAY));
       }
     }
 
-    return res.status(200).json({ ok: true, stocks, quotes, ts: new Date().toISOString() });
-
+    return res.status(200).json({
+      ok: true,
+      stocks,
+      quotes,
+      ts: new Date().toISOString(),
+    });
   } catch (err) {
     console.error("[gpw-screener]", err.message);
     return res.status(200).json({ ok: false, error: err.message });
