@@ -1,10 +1,10 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import { fetchHistory, fetchHourly, fetchFundamentals, fetchIntraday } from "../api.js";
+import { fetchHistory, fetchHourly, fetchFundamentals, fetchIntraday } from "../lib/api.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
-import { fmt, changeFmt, changeColor, calculateRSI, calculateSMA, calculateMACD, getYahooSymbol, isForex, isCommodity } from "../utils.js";
+import { fmt, changeFmt, changeColor, calculateRSI, calculateSMA, calculateMACD, getYahooSymbol, isForex, isCommodity } from "../lib/formatters.js";
 import { DIVIDENDS } from "../data/dividends.js";
-import { getByTicker } from "../../gpw-companies.js";
+import { getByTicker } from "../data/gpw-companies.js";
 import LargeChart from "./LargeChart.jsx";
 import FundamentalsSection from "./FundamentalsSection.jsx";
 import RSIGauge from "./RSIGauge.jsx";

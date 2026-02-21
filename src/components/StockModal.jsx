@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from "react";
-import { fetchHistory, fetchHourly, fetchIntraday } from "../api.js";
+import { fetchHistory, fetchHourly, fetchIntraday } from "../lib/api.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
-import { fmt, changeFmt, getYahooSymbol, isForex, isCommodity } from "../utils.js";
+import { fmt, changeFmt, getYahooSymbol, isForex, isCommodity } from "../lib/formatters.js";
 import MiniChart from "./MiniChart.jsx";
 import Icon from "./edukacja/Icon.jsx";
 import CompanyMonogram from "./CompanyMonogram.jsx";

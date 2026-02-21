@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useIsMobile } from "../hooks/useIsMobile.js";
-import { fmt } from "../utils.js";
+import { fmt } from "../lib/formatters.js";
 
 export default function ProfitCalculatorModal({ stock, currentPrice, onClose, theme }) {
   const [shares, setShares] = useState("");

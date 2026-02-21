@@ -1,6 +1,6 @@
 // STOCKS is generated from GPW_COMPANIES master list (~300 entries).
 // This serves as the fallback when /api/gpw-screener is unavailable.
-import { GPW_COMPANIES } from "../../gpw-companies.js";
+import { GPW_COMPANIES } from "./gpw-companies.js";
 
 export const STOCKS = GPW_COMPANIES.map((c, i) => ({
   id: i + 1,

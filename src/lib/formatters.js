@@ -2,6 +2,24 @@ export const fmt = (n, d = 2) => n?.toLocaleString("pl-PL", { minimumFractionDig
 export const changeColor = (v) => v > 0 ? "#22c55e" : v < 0 ? "#ef4444" : "#94a3b8";
 export const changeFmt = (v) => `${v > 0 ? "▲ +" : v < 0 ? "▼ " : ""}${fmt(v)}%`;
 
+export function fmtVolume(v, price) {
+  if (!v) return "—";
+  const pln = price ? v * price : 0;
+  if (pln >= 1e9) return `${(pln / 1e9).toFixed(2)} mld`;
+  if (pln >= 1e6) return `${(pln / 1e6).toFixed(1)} mln`;
+  if (pln >= 1e3) return `${(pln / 1e3).toFixed(0)} tys`;
+  if (pln > 0) return `${Math.round(pln)}`;
+  if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M szt`;
+  if (v >= 1_000) return `${(v / 1_000).toFixed(0)}K szt`;
+  return `${v} szt`;
+}
+
+export function fmtCap(cap) {
+  if (!cap) return "—";
+  if (cap >= 1000) return `${(cap / 1000).toFixed(1)} mld`;
+  return `${Math.round(cap)} mln`;
+}
+
 const YAHOO_SYMBOL_MAP = {
   // GPW stocks with non-standard Yahoo Finance tickers
   "dia": "DIAG.WA",  // Diagnostyka: GPW=DIAG, stooq=dia

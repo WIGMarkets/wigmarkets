@@ -1,4 +1,4 @@
-import { fmt, changeColor, changeFmt } from "../utils.js";
+import { fmt, changeColor, changeFmt } from "../lib/formatters.js";
 
 export default function MarqueeTicker({ stocks, prices, changes, theme, onSelect }) {
   const items = stocks.filter(s => prices[s.ticker]).sort((a, b) => (b.cap || 0) - (a.cap || 0)).slice(0, 40);

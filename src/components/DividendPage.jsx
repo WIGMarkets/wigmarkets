@@ -2,7 +2,7 @@ import { useState, useMemo, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { DIVIDENDS, MONTHS_PL } from "../data/dividends.js";
-import { fmt } from "../utils.js";
+import { fmt } from "../lib/formatters.js";
 import Icon from "./edukacja/Icon.jsx";
 import CompanyMonogram from "./CompanyMonogram.jsx";
 

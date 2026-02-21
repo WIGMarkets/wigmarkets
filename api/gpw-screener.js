@@ -15,7 +15,7 @@
  *   { ok: false, error: "..." }
  */
 
-import { GPW_COMPANIES } from "../gpw-companies.js";
+import { GPW_COMPANIES } from "../src/data/gpw-companies.js";
 import { toYahoo, YF_HEADERS } from "./yahoo-map.js";
 
 const CHART_BATCH = 15;
