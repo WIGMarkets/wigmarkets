@@ -1,4 +1,4 @@
-import { toYahoo, YF_HEADERS } from "./yahoo-map.js";
+import { toYahoo, YF_HEADERS } from "./_yahoo-map.js";
 
 const BATCH_SIZE = 15;
 const BATCH_DELAY_MS = 100;

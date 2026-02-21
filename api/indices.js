@@ -1,4 +1,4 @@
-import { YF_HEADERS } from "./yahoo-map.js";
+import { YF_HEADERS } from "./_yahoo-map.js";
 
 // Indeksy GPW: Yahoo Finance (primary) + Stooq.pl (fallback)
 const INDEX_SYMBOLS = [

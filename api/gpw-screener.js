@@ -16,7 +16,7 @@
  */
 
 import { GPW_COMPANIES } from "../src/data/gpw-companies.js";
-import { toYahoo, YF_HEADERS } from "./yahoo-map.js";
+import { toYahoo, YF_HEADERS } from "./_yahoo-map.js";
 
 const CHART_BATCH = 15;
 const QUOTE_BATCH = 40;
