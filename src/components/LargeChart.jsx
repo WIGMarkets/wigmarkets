@@ -41,8 +41,8 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
 
   const gradId = `lg-${color.replace("#", "")}`;
   const w = 800;
-  const volH = hasVolume ? 60 : 0;
-  const volGap = hasVolume ? 8 : 0;
+  const volH = hasVolume ? 80 : 0;
+  const volGap = hasVolume ? 10 : 0;
   const h = 280 + volH + volGap;
   const padTop = 20, padBot = 30, padLeft = 60, padRight = 20;
   const chartW = w - padLeft - padRight;
@@ -146,7 +146,7 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
     const vol = d.volume || 0;
     const barH = Math.max(1, (vol / maxVol) * (volBottom - volTop));
     const open = d.open != null && !isNaN(d.open) ? d.open : d.close;
-    const barColor = d.close >= open ? "rgba(34,197,94,0.4)" : "rgba(239,68,68,0.4)";
+    const barColor = d.close >= open ? "rgba(34,197,94,0.55)" : "rgba(239,68,68,0.55)";
     const barW = Math.max(1, (chartW / data.length) * 0.65);
     return (
       <rect key={i} x={toX(i) - barW / 2} y={volBottom - barH} width={barW} height={barH} fill={barColor} rx="0.5" />

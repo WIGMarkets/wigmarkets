@@ -43,7 +43,7 @@ export default async function handler(req, res) {
   if (!symbol) return res.status(400).json({ error: "Symbol is required" });
 
   const yahooSymbol = toYahoo(symbol);
-  const modules = "incomeStatementHistory,balanceSheetHistory,defaultKeyStatistics";
+  const modules = "incomeStatementHistory,balanceSheetHistory,defaultKeyStatistics,summaryDetail";
 
   try {
     const { crumb, cookieStr } = await getYahooCrumb();
@@ -66,8 +66,12 @@ export default async function handler(req, res) {
     const income  = summary.incomeStatementHistory?.incomeStatementHistory || [];
     const balance = summary.balanceSheetHistory?.balanceSheetStatements   || [];
     const stats   = summary.defaultKeyStatistics || {};
+    const detail  = summary.summaryDetail || {};
 
-    if (income.length === 0) return res.status(404).json({ error: "No financial data" });
+    // Allow response even without income statements — quote data is still useful
+    if (income.length === 0 && !Object.keys(detail).length) {
+      return res.status(404).json({ error: "No financial data" });
+    }
 
     const years     = income.map(s => new Date(s.endDate.raw * 1000).getFullYear()).slice(0, 4);
     const revenue   = income.map(s => s.totalRevenue?.raw    ?? null).slice(0, 4);
@@ -102,6 +106,15 @@ export default async function handler(req, res) {
         eps,
         bookValue: bvps,
         netDebt:   toMln(netDebt[0]),
+      },
+      quote: {
+        fiftyTwoWeekLow:  detail.fiftyTwoWeekLow?.raw  ?? null,
+        fiftyTwoWeekHigh: detail.fiftyTwoWeekHigh?.raw ?? null,
+        averageVolume:    detail.averageDailyVolume10Day?.raw ?? detail.averageVolume?.raw ?? null,
+        averageVolume3M:  detail.averageVolume?.raw ?? null,
+        marketCap:        detail.marketCap?.raw ?? null,
+        trailingPE:       detail.trailingPE?.raw ?? null,
+        priceToBook:      stats.priceToBook?.raw ?? null,
       },
     });
   } catch (error) {

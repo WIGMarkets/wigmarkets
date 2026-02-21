@@ -17,8 +17,8 @@ function fmtVolume(v) {
   if (!v) return "—";
   if (v >= 1e9) return `${(v / 1e9).toFixed(2)} mld`;
   if (v >= 1e6) return `${(v / 1e6).toFixed(1)} mln`;
-  if (v >= 1e3) return `${(v / 1e3).toFixed(0)} tys`;
-  return `${v}`;
+  if (v >= 1e3) return `${(v / 1e3).toFixed(1)} tys`;
+  return `${Math.round(v)}`;
 }
 
 export default function StockPage({ stock, prices, changes, theme, watchlist, toggleWatch, liveStocks }) {
@@ -28,7 +28,6 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
   const [intraday, setIntraday] = useState(null);
   const [range, setRange] = useState("3M");
   const [chartType, setChartType] = useState("line");
-  const [news, setNews] = useState(null);
   const [fundamentals, setFundamentals] = useState(null);
   const [fundLoading, setFundLoading] = useState(true);
   const [fullscreen, setFullscreen] = useState(false);
@@ -47,10 +46,6 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
 
   useEffect(() => {
     fetchHistory(sym).then(d => setHistory(d?.prices || null));
-    fetch(`/api/news?q=${encodeURIComponent(stock.name)}`)
-      .then(r => r.json())
-      .then(d => setNews(d?.items || []))
-      .catch(() => setNews([]));
     setFundLoading(true);
     if (isStock) {
       fetchFundamentals(sym)
@@ -59,7 +54,7 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
     } else {
       setFundLoading(false);
     }
-  }, [stock.ticker, stock.name, stock.stooq]);
+  }, [stock.ticker, stock.stooq]);
 
   useEffect(() => {
     if (range !== "1W") return;
@@ -218,7 +213,7 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
           </button>
         </div>
       </div>
-      <div style={{ background: theme.bgPage, borderRadius: 12, padding: "16px 8px" }}>
+      <div style={{ background: theme.bgPage, borderRadius: 12, padding: "8px 8px 4px" }}>
         <LargeChart data={chartData} color={color} theme={theme} type={chartType} isIntraday={isIntraday} unit={stock.unit || "zł"} />
       </div>
       {fullscreen && (
@@ -229,6 +224,31 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
     </div>
   );
 
+  // Quote data from fundamentals API (Yahoo summaryDetail)
+  const quoteData = fundamentals?.quote || {};
+  const apiMarketCap = quoteData.marketCap;
+  const api52wLow = quoteData.fiftyTwoWeekLow;
+  const api52wHigh = quoteData.fiftyTwoWeekHigh;
+  const apiAvgVol = quoteData.averageVolume3M || quoteData.averageVolume;
+  const apiPE = quoteData.trailingPE ?? (stock.pe > 0 ? stock.pe : null);
+  const apiPB = quoteData.priceToBook ?? (() => {
+    const bvps = fundamentals?.current?.bookValue;
+    return (bvps && bvps > 0 && currentPrice) ? parseFloat((currentPrice / bvps).toFixed(2)) : null;
+  })();
+
+  // Turnover today (volume × price)
+  const turnoverToday = (volume && currentPrice) ? volume * currentPrice : null;
+
+  // Effective 52-week range: prefer API, fallback to computed from history
+  const w52Low = api52wLow ?? stats52w.low;
+  const w52High = api52wHigh ?? stats52w.high;
+
+  // Effective market cap
+  const effectiveCap = apiMarketCap ? Math.round(apiMarketCap / 1e6) : (stock.cap || null);
+
+  // Effective avg volume
+  const effectiveAvgVol = apiAvgVol || avgVolume30d;
+
   const summarySection = card(
     <>
       {sectionTitle("Podsumowanie")}
@@ -238,17 +258,14 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
         {dataRow("Zmiana 24h", changeFmt(c24h), changeColor(c24h))}
         {dataRow("Zmiana 7d", changeFmt(c7d), changeColor(c7d))}
         {dataRow("Min/Max dziś", todayHighLow.low != null ? `${fmt(todayHighLow.low)} / ${fmt(todayHighLow.high)}` : "—")}
-        {dataRow("Min/Max 52 tyg.", stats52w.low != null ? `${fmt(stats52w.low)} / ${fmt(stats52w.high)}` : "—")}
+        {dataRow("Min/Max 52 tyg.", w52Low != null ? `${fmt(w52Low)} / ${fmt(w52High)}` : "—")}
         {dataRow("Wolumen", fmtVolume(volume))}
-        {dataRow("Śr. wolumen (30d)", avgVolume30d ? fmtVolume(avgVolume30d) : "—")}
-        {isStock && dataRow("Kapitalizacja", stock.cap ? `${fmt(stock.cap, 0)} mln zł` : "—")}
-        {isStock && dataRow("C/Z (P/E)", stock.pe > 0 ? fmt(stock.pe) : "—")}
-        {isStock && dataRow("C/WK (P/B)", (() => {
-          const bvps = fundamentals?.current?.bookValue;
-          return (bvps && bvps > 0 && currentPrice) ? fmt(currentPrice / bvps) : "—";
-        })())}
+        {dataRow("Śr. wolumen (30d)", effectiveAvgVol ? fmtVolume(effectiveAvgVol) : "—")}
+        {isStock && dataRow("Kapitalizacja", effectiveCap ? `${effectiveCap >= 1000 ? `${fmt(effectiveCap / 1000, 1)} mld zł` : `${fmt(effectiveCap, 0)} mln zł`}` : "—")}
+        {dataRow("Obrót dziś", turnoverToday ? fmtVolume(turnoverToday) : "—")}
+        {isStock && dataRow("C/Z (P/E)", apiPE != null ? fmt(apiPE) : "—")}
+        {isStock && dataRow("C/WK (P/BV)", apiPB != null ? fmt(apiPB) : "—")}
         {dataRow("Sektor", stock.sector, theme.textSecondary)}
-        {isStock && dataRow("Dywidenda", stock.div > 0 ? `${fmt(stock.div)}%` : "—")}
       </div>
     </>
   );
@@ -403,41 +420,40 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
       </div>
 
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: isMobile ? "20px 12px" : "32px 24px" }}>
-        {/* ─── HERO ─── */}
-        <div style={{ display: "flex", gap: 16, alignItems: "flex-start", marginBottom: 24, flexWrap: "wrap" }}>
-          <StockLogo ticker={stock.ticker} size={isMobile ? 40 : 52} sector={stock.sector} />
-          <div style={{ flex: 1, minWidth: 0 }}>
-            <div style={{ fontSize: isMobile ? 22 : 28, fontWeight: 800, color: theme.textBright }}>{stock.ticker}</div>
-            <div style={{ fontSize: 13, color: theme.textSecondary }}>{stock.name} · {stock.sector}</div>
-            {/* Action buttons */}
-            <div style={{ display: "flex", gap: 8, marginTop: 10, flexWrap: "wrap" }}>
-              {watchlist && toggleWatch && (
-                <button onClick={() => toggleWatch(stock.ticker)} style={{ display: "inline-flex", alignItems: "center", gap: 6, padding: "6px 14px", borderRadius: 8, border: `1px solid ${watchlist.has(stock.ticker) ? "#ffd700" : theme.borderInput}`, background: watchlist.has(stock.ticker) ? "#ffd70018" : "transparent", color: watchlist.has(stock.ticker) ? "#ffd700" : theme.textSecondary, fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: 600 }}>
-                  <WatchStar active={watchlist.has(stock.ticker)} theme={theme} /> {watchlist.has(stock.ticker) ? "Obserwujesz" : "Obserwuj"}
-                </button>
-              )}
-              <button onClick={handleNavigatePortfolio} style={{ display: "inline-flex", alignItems: "center", gap: 6, padding: "6px 14px", borderRadius: 8, border: `1px solid ${theme.borderInput}`, background: "transparent", color: theme.textSecondary, fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: 600 }}>
-                <Icon name="plus" size={14} /> Dodaj do portfolio
-              </button>
+        {/* ─── HERO (compact) ─── */}
+        <div style={{ marginBottom: 20 }}>
+          {/* Line 1: Logo + ticker + name + sector + price + 24h badge */}
+          <div style={{ display: "flex", alignItems: "center", gap: isMobile ? 10 : 14, flexWrap: "wrap" }}>
+            <StockLogo ticker={stock.ticker} size={isMobile ? 36 : 44} sector={stock.sector} />
+            <div style={{ display: "flex", alignItems: "baseline", gap: 8, minWidth: 0, flex: 1 }}>
+              <span style={{ fontSize: isMobile ? 20 : 24, fontWeight: 800, color: theme.textBright, flexShrink: 0 }}>{stock.ticker}</span>
+              <span style={{ fontSize: 13, color: theme.textSecondary, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{stock.name} · {stock.sector}</span>
+            </div>
+            <div style={{ display: "flex", alignItems: "baseline", gap: 10, flexShrink: 0 }}>
+              <span style={{ fontSize: isMobile ? 22 : 28, fontWeight: 800, color: theme.textBright, fontFamily: "var(--font-mono)", fontVariantNumeric: "tabular-nums" }}>{fmt(currentPrice)} {stock.unit || "zł"}</span>
+              <span style={{ padding: "3px 10px", borderRadius: 6, background: `${changeColor(c24h)}18`, color: changeColor(c24h), fontWeight: 700, fontSize: 13, fontFamily: "var(--font-mono)" }}>{changeFmt(c24h)}</span>
             </div>
           </div>
-          <div style={{ textAlign: "right", flexShrink: 0 }}>
-            <div style={{ fontSize: isMobile ? 28 : 36, fontWeight: 800, color: theme.textBright, fontFamily: "var(--font-mono)", fontVariantNumeric: "tabular-nums" }}>{fmt(currentPrice)} {stock.unit || "zł"}</div>
-            <div style={{ display: "flex", gap: 6, marginTop: 6, justifyContent: "flex-end", flexWrap: "wrap" }}>
-              <span style={{ padding: "3px 10px", borderRadius: 6, background: `${changeColor(c24h)}18`, color: changeColor(c24h), fontWeight: 700, fontSize: 12, fontFamily: "var(--font-mono)" }}>24h: {changeFmt(c24h)}</span>
-              <span style={{ padding: "3px 10px", borderRadius: 6, background: `${changeColor(c7d)}18`, color: changeColor(c7d), fontWeight: 700, fontSize: 12, fontFamily: "var(--font-mono)" }}>7d: {changeFmt(c7d)}</span>
-              {change1M != null && (
-                <span style={{ padding: "3px 10px", borderRadius: 6, background: `${changeColor(change1M)}18`, color: changeColor(change1M), fontWeight: 700, fontSize: 12, fontFamily: "var(--font-mono)" }}>1M: {changeFmt(change1M)}</span>
-              )}
-              {changeYTD != null && (
-                <span style={{ padding: "3px 10px", borderRadius: 6, background: `${changeColor(changeYTD)}18`, color: changeColor(changeYTD), fontWeight: 700, fontSize: 12, fontFamily: "var(--font-mono)" }}>YTD: {changeFmt(changeYTD)}</span>
-              )}
+          {/* Line 2: Buttons + change badges */}
+          <div style={{ display: "flex", alignItems: "center", gap: 8, marginTop: 8, flexWrap: "wrap" }}>
+            {watchlist && toggleWatch && (
+              <button onClick={() => toggleWatch(stock.ticker)} style={{ display: "inline-flex", alignItems: "center", gap: 5, padding: "5px 12px", borderRadius: 7, border: `1px solid ${watchlist.has(stock.ticker) ? "#ffd700" : theme.borderInput}`, background: watchlist.has(stock.ticker) ? "#ffd70018" : "transparent", color: watchlist.has(stock.ticker) ? "#ffd700" : theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit", fontWeight: 600 }}>
+                <WatchStar active={watchlist.has(stock.ticker)} theme={theme} /> {watchlist.has(stock.ticker) ? "Obserwujesz" : "Obserwuj"}
+              </button>
+            )}
+            <button onClick={handleNavigatePortfolio} style={{ display: "inline-flex", alignItems: "center", gap: 5, padding: "5px 12px", borderRadius: 7, border: `1px solid ${theme.borderInput}`, background: "transparent", color: theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit", fontWeight: 600 }}>
+              <Icon name="plus" size={13} /> Portfolio
+            </button>
+            <div style={{ marginLeft: "auto", display: "flex", gap: 6, flexWrap: "wrap" }}>
+              <span style={{ fontSize: 11, color: theme.textSecondary, fontFamily: "var(--font-mono)", fontWeight: 500 }}>7d: <span style={{ color: changeColor(c7d), fontWeight: 700 }}>{changeFmt(c7d)}</span></span>
+              {change1M != null && <span style={{ fontSize: 11, color: theme.textSecondary, fontFamily: "var(--font-mono)", fontWeight: 500 }}>1M: <span style={{ color: changeColor(change1M), fontWeight: 700 }}>{changeFmt(change1M)}</span></span>}
+              {changeYTD != null && <span style={{ fontSize: 11, color: theme.textSecondary, fontFamily: "var(--font-mono)", fontWeight: 500 }}>YTD: <span style={{ color: changeColor(changeYTD), fontWeight: 700 }}>{changeFmt(changeYTD)}</span></span>}
             </div>
           </div>
         </div>
 
         {/* ─── 2-COLUMN LAYOUT: Chart | Sidebar ─── */}
-        <div style={{ display: isMobile ? "flex" : "grid", flexDirection: "column", gridTemplateColumns: "1fr 340px", gap: 24, marginBottom: 24 }}>
+        <div style={{ display: isMobile ? "flex" : "grid", flexDirection: "column", gridTemplateColumns: "3fr 2fr", gap: 24, marginBottom: 24 }}>
           {/* Left: Chart */}
           {chartSection}
 
@@ -462,22 +478,38 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
         {/* ─── SIMILAR COMPANIES ─── */}
         {similarSection}
 
-        {/* ─── NEWS ─── */}
-        {card(
+        {/* ─── PRICE HISTORY TABLE ─── */}
+        {history && history.length > 0 && card(
           <>
-            {sectionTitle("Najnowsze wiadomości")}
-            {news === null && <div style={{ color: theme.textSecondary, fontSize: 12, padding: "16px 0" }}>Ładowanie wiadomości...</div>}
-            {news !== null && news.length === 0 && <div style={{ color: theme.textSecondary, fontSize: 12, padding: "16px 0" }}>Brak wiadomości dla {stock.name}.</div>}
-            {news !== null && news.map((item, i) => (
-              <a key={i} href={item.link} target="_blank" rel="noreferrer"
-                style={{ display: "block", textDecoration: "none", padding: "14px 0", borderBottom: i < news.length - 1 ? `1px solid ${theme.border}` : "none" }}>
-                <div style={{ fontSize: 14, color: theme.textBright, lineHeight: 1.5, marginBottom: 6, fontWeight: 500 }}>{item.title}</div>
-                <div style={{ display: "flex", gap: 12, fontSize: 11, color: theme.textSecondary }}>
-                  {item.source && <span style={{ fontWeight: 600 }}>{item.source}</span>}
-                  {item.pubDate && <span>{new Date(item.pubDate).toLocaleDateString("pl-PL", { day: "numeric", month: "long", year: "numeric" })}</span>}
-                </div>
-              </a>
-            ))}
+            {sectionTitle("Historia cen — ostatnie 10 sesji")}
+            <div style={{ overflowX: "auto" }}>
+              <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12, fontFamily: "var(--font-mono)" }}>
+                <thead>
+                  <tr>
+                    {["Data", "Otwarcie", "Najwyższy", "Najniższy", "Zamknięcie", "Wolumen", "Zmiana"].map(h => (
+                      <th key={h} style={{ padding: "8px 10px", textAlign: h === "Data" ? "left" : "right", fontSize: 10, color: theme.textSecondary, borderBottom: `2px solid ${theme.border}`, fontWeight: 600, letterSpacing: "0.05em", textTransform: "uppercase", fontFamily: "var(--font-ui)", whiteSpace: "nowrap" }}>{h}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {history.slice(-10).reverse().map((d, i, arr) => {
+                    const prevClose = i < arr.length - 1 ? arr[i + 1]?.close : null;
+                    const dayChange = prevClose ? ((d.close - prevClose) / prevClose * 100) : null;
+                    return (
+                      <tr key={d.date} style={{ borderBottom: `1px solid ${theme.bgCardAlt}` }}>
+                        <td style={{ padding: "8px 10px", color: theme.textBright, fontFamily: "var(--font-ui)", fontWeight: 500, whiteSpace: "nowrap" }}>{new Date(d.date).toLocaleDateString("pl-PL", { day: "numeric", month: "short", year: "numeric" })}</td>
+                        <td style={{ padding: "8px 10px", textAlign: "right", fontVariantNumeric: "tabular-nums", color: theme.text }}>{d.open != null ? fmt(d.open) : "—"}</td>
+                        <td style={{ padding: "8px 10px", textAlign: "right", fontVariantNumeric: "tabular-nums", color: theme.text }}>{d.high != null ? fmt(d.high) : "—"}</td>
+                        <td style={{ padding: "8px 10px", textAlign: "right", fontVariantNumeric: "tabular-nums", color: theme.text }}>{d.low != null ? fmt(d.low) : "—"}</td>
+                        <td style={{ padding: "8px 10px", textAlign: "right", fontVariantNumeric: "tabular-nums", color: theme.textBright, fontWeight: 600 }}>{fmt(d.close)}</td>
+                        <td style={{ padding: "8px 10px", textAlign: "right", fontVariantNumeric: "tabular-nums", color: theme.textSecondary }}>{d.volume ? fmtVolume(d.volume) : "—"}</td>
+                        <td style={{ padding: "8px 10px", textAlign: "right", fontVariantNumeric: "tabular-nums", color: dayChange != null ? changeColor(dayChange) : theme.textSecondary, fontWeight: 600 }}>{dayChange != null ? changeFmt(dayChange) : "—"}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
           </>,
           { marginBottom: 32 }
         )}
