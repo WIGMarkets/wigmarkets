@@ -176,7 +176,7 @@ export default function App() {
         prices={prices} changes={changes} theme={theme}
         onSelect={navigateToStock}
       />
-      <Breadcrumbs theme={theme} />
+      <Breadcrumbs theme={theme} allInstruments={allInstruments} />
       <div style={{ flex: 1 }}>
         <Routes>
           <Route path="/spolka/:ticker" element={
