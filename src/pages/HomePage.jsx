@@ -25,6 +25,7 @@ import ToastContainer from "../components/ToastContainer.jsx";
 import Icon from "../components/edukacja/Icon.jsx";
 
 import FilterDropdown from "../components/ui/FilterDropdown.jsx";
+import Pagination from "../components/ui/Pagination.jsx";
 
 const ALL_INSTRUMENTS = [...STOCKS, ...COMMODITIES, ...FOREX];
 
@@ -453,11 +454,7 @@ export default function HomePage({
             </div>
             <div style={{ padding: "12px 16px", display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: `1px solid ${theme.border}`, flexWrap: "wrap", gap: 8 }}>
               <div style={{ fontSize: 11, color: theme.textMuted, fontFamily: "var(--font-ui)" }}>{(page - 1) * PER_PAGE + 1}–{Math.min(page * PER_PAGE, filtered.length)} z {filtered.length}</div>
-              <div style={{ display: "flex", gap: 4, flexWrap: "wrap" }}>
-                {Array.from({ length: Math.min(totalPages, 10) }, (_, i) => i + 1).map(p => (
-                  <button key={p} onClick={() => setPage(p)} style={{ width: 28, height: 28, borderRadius: 6, border: "1px solid", borderColor: p === page ? theme.accent : theme.borderInput, background: p === page ? `${theme.accent}18` : "transparent", color: p === page ? theme.accent : theme.textMuted, fontSize: 11, cursor: "pointer", fontFamily: "var(--font-mono)", fontVariantNumeric: "tabular-nums", transition: "all 0.15s" }}>{p}</button>
-                ))}
-              </div>
+              <Pagination page={page} totalPages={totalPages} onPageChange={setPage} theme={theme} />
             </div>
           </div>
           </>)}
