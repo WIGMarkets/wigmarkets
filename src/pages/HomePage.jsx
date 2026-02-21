@@ -9,7 +9,7 @@ import { FEAR_HISTORY_YEAR, FEAR_COMPONENTS } from "../data/constants.js";
 import StockTableRow from "../components/market/StockTableRow.jsx";
 import MarqueeTicker from "../components/MarqueeTicker.jsx";
 import Heatmap from "../components/Heatmap.jsx";
-import SectorDonut from "../components/SectorDonut.jsx";
+import SessionStats from "../components/SessionStats.jsx";
 import FearGauge from "../components/FearGauge.jsx";
 import ProfitCalculatorModal from "../components/ProfitCalculatorModal.jsx";
 import StockModal from "../components/StockModal.jsx";
@@ -208,11 +208,6 @@ export default function HomePage({
       .map(s => ({ ...s, mentions: null })),
     [changes, liveStocks]
   );
-  const marketStats = useMemo(() => [
-    ["Spółki rosnące", `${liveStocks.filter(s => (changes[s.ticker]?.change24h ?? 0) > 0).length}/${liveStocks.length}`, "#22c55e"],
-    ["Kap. łączna (mld zł)", fmt(liveStocks.reduce((a, s) => a + (s.cap || 0), 0) / 1000, 1), "#3b82f6"],
-    ["Śr. zmiana 24h", changeFmt(liveStocks.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0) / liveStocks.length), "#ffd700"],
-  ], [changes, liveStocks]);
 
   const fgValue = fgData?.current?.value ?? FEAR_HISTORY_YEAR[FEAR_HISTORY_YEAR.length - 1];
   const fgHistory = fgData?.history?.slice(-30).map(h => h.value) ?? null;
@@ -523,50 +518,13 @@ export default function HomePage({
 
         {/* Desktop sidebar */}
         {!isMobile && tab !== "forex" && (
-          <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
             <div onClick={() => navigate("/indeks")} style={{ cursor: "pointer", transition: "opacity 0.2s" }}
               onMouseEnter={e => e.currentTarget.style.opacity = "0.85"}
               onMouseLeave={e => e.currentTarget.style.opacity = "1"}>
               <FearGauge value={fgValue} history={fgHistory} components={fgComponents} isMobile={false} theme={theme} />
             </div>
-            {tab === "akcje" && <SectorDonut stocks={liveStocks} theme={theme} />}
-            <div style={{ background: `linear-gradient(135deg, ${theme.bgCardAlt} 0%, ${theme.bgCard} 100%)`, border: `1px solid rgba(255,255,255,0.06)`, borderRadius: 14, padding: 20 }}>
-              <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 14, fontWeight: 600, fontFamily: "var(--font-ui)" }}>Top wzrosty 24h</div>
-              {topGainers.map(s => (
-                <div key={s.ticker} onClick={() => navigateToStock(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8, padding: "8px 0", borderBottom: `1px solid ${theme.border}`, cursor: "pointer", transition: "background 0.15s" }}
-                  onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,0.03)"}
-                  onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
-                  <div style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 0 }}>
-                    <CompanyMonogram ticker={s.ticker} sector={s.sector} size={24} />
-                    <div style={{ minWidth: 0 }}><div style={{ fontWeight: 600, fontSize: 12, color: theme.textBright, fontFamily: "var(--font-ui)" }}>{s.ticker}</div><div style={{ fontSize: 10, color: theme.textMuted, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.sector}</div></div>
-                  </div>
-                  <span style={{ padding: "3px 8px", borderRadius: 6, fontSize: 11, fontWeight: 600, background: "rgba(34,197,94,0.12)", color: "#22c55e", fontFamily: "var(--font-mono)", flexShrink: 0 }}>{changeFmt(changes[s.ticker]?.change24h ?? 0)}</span>
-                </div>
-              ))}
-            </div>
-            <div style={{ background: `linear-gradient(135deg, ${theme.bgCardAlt} 0%, ${theme.bgCard} 100%)`, border: `1px solid rgba(255,255,255,0.06)`, borderRadius: 14, padding: 20 }}>
-              <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 14, fontWeight: 600, fontFamily: "var(--font-ui)" }}>Top spadki 24h</div>
-              {topLosers.map(s => (
-                <div key={s.ticker} onClick={() => navigateToStock(s)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8, padding: "8px 0", borderBottom: `1px solid ${theme.border}`, cursor: "pointer", transition: "background 0.15s" }}
-                  onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,0.03)"}
-                  onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
-                  <div style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 0 }}>
-                    <CompanyMonogram ticker={s.ticker} sector={s.sector} size={24} />
-                    <div style={{ minWidth: 0 }}><div style={{ fontWeight: 600, fontSize: 12, color: theme.textBright, fontFamily: "var(--font-ui)" }}>{s.ticker}</div><div style={{ fontSize: 10, color: theme.textMuted, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.sector}</div></div>
-                  </div>
-                  <span style={{ padding: "3px 8px", borderRadius: 6, fontSize: 11, fontWeight: 600, background: "rgba(239,68,68,0.12)", color: "#ef4444", fontFamily: "var(--font-mono)", flexShrink: 0 }}>{changeFmt(changes[s.ticker]?.change24h ?? 0)}</span>
-                </div>
-              ))}
-            </div>
-            <div style={{ background: `linear-gradient(135deg, ${theme.bgCardAlt} 0%, ${theme.bgCard} 100%)`, border: `1px solid rgba(255,255,255,0.06)`, borderRadius: 14, padding: 20 }}>
-              <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 14, fontWeight: 600, fontFamily: "var(--font-ui)" }}>Statystyki rynku</div>
-              {marketStats.map(([label, val, color]) => (
-                <div key={label} style={{ display: "flex", justifyContent: "space-between", padding: "8px 0", borderBottom: `1px solid ${theme.border}`, fontSize: 11 }}>
-                  <span style={{ color: theme.textSecondary, fontFamily: "var(--font-ui)" }}>{label}</span>
-                  <span style={{ fontWeight: 600, color, fontFamily: "var(--font-mono)", fontVariantNumeric: "tabular-nums" }}>{val}</span>
-                </div>
-              ))}
-            </div>
+            <SessionStats liveStocks={liveStocks} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
           </div>
         )}
         </>)}
