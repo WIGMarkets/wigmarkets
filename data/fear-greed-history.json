@@ -1509,54 +1509,54 @@
   },
   {
     "date": "2026-02-21",
-    "value": 62,
-    "label": "Chciwość",
-    "color": "#16a34a",
+    "value": 54,
+    "label": "Neutralny",
+    "color": "#ca8a04",
     "indicators": [
       {
         "name": "Momentum rynku",
-        "value": 53,
-        "label": "Neutralny",
-        "description": ""
+        "value": 100,
+        "label": "Skrajna chciwość",
+        "description": "Porównuje bieżący kurs WIG20 do średniej 125-sesyjnej. Wzrost ponad średnią oznacza chciwość. Odchylenie: +10.99%."
       },
       {
         "name": "Siła wolumenu",
-        "value": 61,
-        "label": "Chciwość",
-        "description": ""
+        "value": 51,
+        "label": "Neutralny",
+        "description": "Stosunek wolumenu w dniach wzrostowych do spadkowych na GPW (30 sesji). Przewaga kupujących to sygnał chciwości. Ratio: 1.01."
       },
       {
         "name": "Szerokość rynku",
-        "value": 55,
-        "label": "Neutralny",
-        "description": ""
+        "value": 59,
+        "label": "Chciwość",
+        "description": "Procent spółek GPW notujących powyżej 50-sesyjnej średniej. Im więcej spółek rośnie, tym wyższy wskaźnik. Obecnie 74 z 126 spółek."
       },
       {
         "name": "Zmienność rynku",
-        "value": 54,
-        "label": "Neutralny",
-        "description": ""
+        "value": 0,
+        "label": "Skrajna panika",
+        "description": "Zmienność WIG20 w ostatnich 20 sesjach vs średnia roczna. Wysoka zmienność towarzyszy panice, niska — spokojowi. Bieżąca: 18.2%, średnia: 22.4%."
       },
       {
         "name": "Nowe szczyty vs dołki",
-        "value": 60,
+        "value": 73,
         "label": "Chciwość",
-        "description": ""
+        "description": "Stosunek spółek blisko 52-tygodniowych maksimów do tych blisko minimów. Obecnie 33 spółek blisko szczytów, 12 blisko dołków."
       },
       {
         "name": "Małe vs duże spółki",
-        "value": 63,
-        "label": "Chciwość",
-        "description": ""
+        "value": 18,
+        "label": "Skrajna panika",
+        "description": "Porównanie wyników sWIG80 (małe spółki) do WIG20 (blue chipy) w ostatnich 20 sesjach. Gdy małe spółki wygrywają, inwestorzy szukają ryzyka — to sygnał chciwości. sWIG80: -0.7%, WIG20: +2.6%."
       },
       {
         "name": "Popyt na bezpieczne aktywa",
-        "value": 63,
-        "label": "Chciwość",
-        "description": ""
+        "value": 45,
+        "label": "Neutralny",
+        "description": "Porównanie wyników WIG20 vs złoto w ostatnich 20 sesjach. Gdy akcje wygrywają ze złotem, inwestorzy podejmują ryzyko — to sygnał chciwości. WIG20: +2.6%, Złoto: +3.1%."
       }
     ],
     "indicatorsUsed": 7,
-    "updatedAt": "2026-02-21T16:51:51.982Z"
+    "updatedAt": "2026-02-21T21:16:23.622Z"
   }
 ]
