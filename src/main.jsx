@@ -525,7 +525,7 @@ export default function WigMarkets() {
     return (
       <>
         {calcStock && <ProfitCalculatorModal stock={calcStock} currentPrice={prices[calcStock.ticker]} onClose={() => setCalcStock(null)} theme={theme} />}
-        <StockPage stock={route.stock} prices={prices} changes={changes} onBack={navigateHome} theme={theme} />
+        <StockPage stock={route.stock} prices={prices} changes={changes} onBack={navigateHome} theme={theme} watchlist={watchlist} toggleWatch={toggleWatch} liveStocks={liveStocks} navigateToStock={navigateToStock} navigateToDywidendy={navigateToDywidendy} />
       </>
     );
   }

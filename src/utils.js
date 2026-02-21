@@ -66,3 +66,42 @@ export function calculateRSI(prices, period = 14) {
   const rs = avgGain / avgLoss;
   return 100 - 100 / (1 + rs);
 }
+
+export function calculateSMA(closes, period) {
+  if (!closes || closes.length < period) return null;
+  const slice = closes.slice(-period);
+  return slice.reduce((a, b) => a + b, 0) / period;
+}
+
+function emaArray(values, period) {
+  if (!values || values.length < period) return [];
+  const k = 2 / (period + 1);
+  const result = [values.slice(0, period).reduce((a, b) => a + b, 0) / period];
+  for (let i = period; i < values.length; i++) {
+    result.push(values[i] * k + result[result.length - 1] * (1 - k));
+  }
+  return result;
+}
+
+export function calculateMACD(prices) {
+  if (!prices || prices.length < 35) return null;
+  const closes = prices.map(p => p.close);
+  const ema12 = emaArray(closes, 12);
+  const ema26 = emaArray(closes, 26);
+  if (ema26.length === 0) return null;
+  const offset = 14; // 26 - 12
+  const macdLine = [];
+  for (let i = 0; i < ema26.length; i++) {
+    macdLine.push(ema12[i + offset] - ema26[i]);
+  }
+  if (macdLine.length < 9) return null;
+  const signalArr = emaArray(macdLine, 9);
+  if (signalArr.length === 0) return null;
+  const macd = macdLine[macdLine.length - 1];
+  const signal = signalArr[signalArr.length - 1];
+  return {
+    macd: parseFloat(macd.toFixed(2)),
+    signal: parseFloat(signal.toFixed(2)),
+    histogram: parseFloat((macd - signal).toFixed(2)),
+  };
+}

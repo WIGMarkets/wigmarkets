@@ -1,7 +1,14 @@
-import { useRef, useState, useCallback } from "react";
+import { useRef, useState, useCallback, useMemo } from "react";
 
 function fmtY(v) {
   return v >= 1000 ? v.toFixed(0) : v >= 100 ? v.toFixed(1) : v.toFixed(2);
+}
+
+function fmtVol(v) {
+  if (!v) return "—";
+  if (v >= 1e6) return `${(v / 1e6).toFixed(1)}M`;
+  if (v >= 1e3) return `${(v / 1e3).toFixed(0)}K`;
+  return `${v}`;
 }
 
 function fmtLabel(d, isIntraday) {
@@ -13,6 +20,8 @@ function fmtLabel(d, isIntraday) {
 export default function LargeChart({ data, color, theme, type = "line", isIntraday = false, unit = "zł" }) {
   const svgRef = useRef(null);
   const [hover, setHover] = useState(null);
+
+  const hasVolume = useMemo(() => data?.some(d => d.volume > 0), [data]);
 
   const handleMouseMove = useCallback((e) => {
     if (!svgRef.current || !data?.length) return;
@@ -31,9 +40,13 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
   );
 
   const gradId = `lg-${color.replace("#", "")}`;
-  const w = 800, h = 280, padTop = 20, padBot = 30, padLeft = 60, padRight = 20;
+  const w = 800;
+  const volH = hasVolume ? 60 : 0;
+  const volGap = hasVolume ? 8 : 0;
+  const h = 280 + volH + volGap;
+  const padTop = 20, padBot = 30, padLeft = 60, padRight = 20;
   const chartW = w - padLeft - padRight;
-  const chartH = h - padTop - padBot;
+  const chartH = 280 - padTop - padBot;
 
   const closes = data.map(d => d.close);
   const highs  = data.map(d => (d.high  != null && !isNaN(d.high))  ? d.high  : d.close);
@@ -45,6 +58,12 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
 
   const toY = v => padTop + chartH - ((v - min) / priceRange) * chartH;
   const toX = i => padLeft + (i / Math.max(data.length - 1, 1)) * chartW;
+
+  // Volume
+  const volumes = hasVolume ? data.map(d => d.volume || 0) : [];
+  const maxVol = hasVolume ? Math.max(...volumes, 1) : 1;
+  const volTop = 280 + volGap;
+  const volBottom = volTop + volH - 6;
 
   // Y-axis grid labels
   const gridLines = 5;
@@ -67,12 +86,13 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
       return { label, x };
     });
 
-  // Crosshair + tooltip rendered when hover is active
+  // Crosshair
+  const crosshairEndY = hasVolume ? volBottom : padTop + chartH;
   const crosshair = hover && (
     <>
       <line
         x1={toX(hover.index)} y1={padTop}
-        x2={toX(hover.index)} y2={padTop + chartH}
+        x2={toX(hover.index)} y2={crosshairEndY}
         stroke={theme.textSecondary} strokeWidth="1"
         strokeDasharray="4 3" opacity="0.5"
       />
@@ -92,7 +112,7 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
     return (
       <div style={{
         position: "absolute",
-        left: `clamp(0px, calc(${(hover.ratio * 100).toFixed(1)}% - 65px), calc(100% - 145px))`,
+        left: `clamp(0px, calc(${(hover.ratio * 100).toFixed(1)}% - 75px), calc(100% - 165px))`,
         top: 4,
         background: theme.bgCard,
         border: `1px solid ${theme.border}`,
@@ -100,7 +120,7 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
         padding: "7px 12px",
         pointerEvents: "none",
         zIndex: 10,
-        minWidth: 140,
+        minWidth: 150,
         boxShadow: "0 4px 16px rgba(0,0,0,0.22)",
       }}>
         <div style={{ fontSize: 11, color: theme.textSecondary, marginBottom: 3 }}>
@@ -109,14 +129,29 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
         <div style={{ fontSize: 16, fontWeight: 800, color, lineHeight: 1 }}>
           {fmtY(d.close)} {unit}
         </div>
-        {type === "candle" && (
-          <div style={{ fontSize: 10, color: theme.textSecondary, marginTop: 4, lineHeight: 1.6 }}>
-            O: {fmtY(open)}{"  "}H: {fmtY(high)}{"  "}L: {fmtY(low)}
+        <div style={{ fontSize: 10, color: theme.textSecondary, marginTop: 4, lineHeight: 1.6 }}>
+          O: {fmtY(open)}{"  "}H: {fmtY(high)}{"  "}L: {fmtY(low)}
+        </div>
+        {d.volume > 0 && (
+          <div style={{ fontSize: 10, color: theme.textSecondary, lineHeight: 1.6 }}>
+            Vol: {fmtVol(d.volume)}
           </div>
         )}
       </div>
     );
   })();
+
+  // Volume bars renderer
+  const volumeBars = hasVolume && data.map((d, i) => {
+    const vol = d.volume || 0;
+    const barH = Math.max(1, (vol / maxVol) * (volBottom - volTop));
+    const open = d.open != null && !isNaN(d.open) ? d.open : d.close;
+    const barColor = d.close >= open ? "rgba(34,197,94,0.4)" : "rgba(239,68,68,0.4)";
+    const barW = Math.max(1, (chartW / data.length) * 0.65);
+    return (
+      <rect key={i} x={toX(i) - barW / 2} y={volBottom - barH} width={barW} height={barH} fill={barColor} rx="0.5" />
+    );
+  });
 
   if (type === "candle") {
     const rawCW = (chartW / data.length) * 0.72;
@@ -132,7 +167,7 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
             </g>
           ))}
           {xLabels.map((l, i) => (
-            <text key={i} x={l.x} y={h - 6} textAnchor="middle" fill={theme.textSecondary} fontSize="8" fontFamily="'IBM Plex Mono',monospace">{l.label}</text>
+            <text key={i} x={l.x} y={280 - 6} textAnchor="middle" fill={theme.textSecondary} fontSize="8" fontFamily="'IBM Plex Mono',monospace">{l.label}</text>
           ))}
           {data.map((d, i) => {
             const open  = d.open  != null && !isNaN(d.open)  ? d.open  : d.close;
@@ -151,6 +186,13 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
               </g>
             );
           })}
+          {hasVolume && (
+            <>
+              <line x1={padLeft} y1={volTop - 2} x2={w - padRight} y2={volTop - 2} stroke={theme.border} strokeWidth="0.5" />
+              <text x={padLeft - 8} y={volTop + 10} textAnchor="end" fill={theme.textSecondary} fontSize="7" fontFamily="'IBM Plex Mono',monospace">Vol</text>
+              {volumeBars}
+            </>
+          )}
           {crosshair}
         </svg>
         {tooltip}
@@ -179,10 +221,17 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
           </g>
         ))}
         {xLabels.map((l, i) => (
-          <text key={i} x={l.x} y={h - 6} textAnchor="middle" fill={theme.textSecondary} fontSize="8" fontFamily="'IBM Plex Mono',monospace">{l.label}</text>
+          <text key={i} x={l.x} y={280 - 6} textAnchor="middle" fill={theme.textSecondary} fontSize="8" fontFamily="'IBM Plex Mono',monospace">{l.label}</text>
         ))}
         <polyline points={`${first} ${pts} ${last}`} fill={`url(#${gradId})`} stroke="none" />
         <polyline points={pts} fill="none" stroke={color} strokeWidth="2" strokeLinejoin="round" strokeLinecap="round" />
+        {hasVolume && (
+          <>
+            <line x1={padLeft} y1={volTop - 2} x2={w - padRight} y2={volTop - 2} stroke={theme.border} strokeWidth="0.5" />
+            <text x={padLeft - 8} y={volTop + 10} textAnchor="end" fill={theme.textSecondary} fontSize="7" fontFamily="'IBM Plex Mono',monospace">Vol</text>
+            {volumeBars}
+          </>
+        )}
         {crosshair}
       </svg>
       {tooltip}
