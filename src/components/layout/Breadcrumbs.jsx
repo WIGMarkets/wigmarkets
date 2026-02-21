@@ -1,66 +1,35 @@
-import { useNavigate, useLocation, useParams } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { useIsMobile } from "../../hooks/useIsMobile.js";
 
-const PAGE_NAMES = {
-  "/fear-greed": "Fear & Greed Index",
-  "/dywidendy": "Dywidendy",
-  "/wiadomosci": "Wiadomości",
-  "/portfolio": "Portfolio",
-  "/edukacja": "Edukacja",
-};
-
-export default function Breadcrumbs({ theme, stockName }) {
+export default function Breadcrumbs({ theme, allInstruments }) {
   const navigate = useNavigate();
   const location = useLocation();
   const isMobile = useIsMobile();
 
-  // Don't render on home page
-  if (location.pathname === "/") return null;
+  // Only render on stock detail pages
+  if (!location.pathname.startsWith("/spolka/")) return null;
 
-  const items = [{ label: "Strona główna", href: "/" }];
-
-  // Stock detail page
-  if (location.pathname.startsWith("/spolka/")) {
-    const ticker = location.pathname.split("/")[2]?.toUpperCase();
-    items.push({ label: stockName || ticker || "Spółka" });
-  }
-  // Edukacja subpage
-  else if (location.pathname.startsWith("/edukacja/")) {
-    items.push({ label: "Edukacja", href: "/edukacja" });
-    // The slug page will be handled by its own breadcrumbs
-    return null;
-  }
-  // Known pages
-  else if (PAGE_NAMES[location.pathname]) {
-    items.push({ label: PAGE_NAMES[location.pathname] });
-  }
-  // Edukacja home
-  else if (location.pathname === "/edukacja") {
-    // EdukacjaHome has its own breadcrumbs
-    return null;
-  }
-  else {
-    return null;
-  }
+  const ticker = location.pathname.split("/")[2]?.toUpperCase();
+  const stock = (allInstruments || []).find(s => s.ticker === ticker);
+  const label = stock ? `${stock.ticker} ${stock.name}` : ticker || "Spółka";
 
   return (
     <nav aria-label="Breadcrumb" style={{ maxWidth: 1400, margin: "0 auto", padding: isMobile ? "10px 12px 0" : "12px 24px 0" }}>
-      <ol style={{ display: "flex", flexWrap: "wrap", gap: 4, listStyle: "none", margin: 0, padding: 0, fontSize: 13, color: theme.textSecondary }}>
-        {items.map((item, i) => (
-          <li key={i} style={{ display: "flex", alignItems: "center", gap: 6 }}>
-            {i > 0 && <span style={{ color: theme.textMuted, fontSize: 11 }}>/</span>}
-            {item.href ? (
-              <span
-                onClick={() => navigate(item.href)}
-                style={{ color: theme.accent, cursor: "pointer", padding: "4px 0" }}
-              >
-                {item.label}
-              </span>
-            ) : (
-              <span style={{ color: theme.textSecondary }}>{item.label}</span>
-            )}
-          </li>
-        ))}
+      <ol style={{ display: "flex", flexWrap: "wrap", gap: 6, listStyle: "none", margin: 0, padding: 0, fontSize: 13, color: theme.textMuted }}>
+        <li style={{ display: "flex", alignItems: "center" }}>
+          <span
+            onClick={() => navigate("/")}
+            style={{ color: theme.textSecondary, cursor: "pointer", padding: "4px 0", transition: "color 0.15s" }}
+            onMouseEnter={e => { e.currentTarget.style.color = theme.accent; }}
+            onMouseLeave={e => { e.currentTarget.style.color = theme.textSecondary; }}
+          >
+            Akcje GPW
+          </span>
+        </li>
+        <li style={{ display: "flex", alignItems: "center", gap: 6 }}>
+          <span style={{ color: theme.textMuted, fontSize: 11 }}>/</span>
+          <span style={{ color: theme.textMuted }}>{label}</span>
+        </li>
       </ol>
     </nav>
   );
