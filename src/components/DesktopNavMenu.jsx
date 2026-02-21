@@ -99,29 +99,42 @@ export default function DesktopNavMenu({ theme, darkMode, setDarkMode, tab, setT
     </div>
   );
 
-  const navButton = (label, key, hasDropdown = true) => (
-    <button
-      onClick={() => {
-        if (hasDropdown) setOpenDropdown(o => o === key ? null : key);
-        else if (key === "dywidendy") navigate("/dywidendy");
-        else if (key === "wiadomosci") navigate("/wiadomosci");
-      }}
-      style={{
-        background: "transparent", border: "none",
-        color: openDropdown === key ? theme.accent : theme.textBright,
-        fontSize: 14, fontWeight: 500, cursor: "pointer",
-        padding: "8px 14px", borderRadius: 6,
-        fontFamily: "var(--font-ui)",
-        display: "inline-flex", alignItems: "center", gap: 4,
-        transition: "color 0.15s, background 0.15s",
-      }}
-      onMouseEnter={e => { if (!hasDropdown) e.currentTarget.style.background = `${theme.accent}10`; }}
-      onMouseLeave={e => { e.currentTarget.style.background = "transparent"; }}
-    >
-      {label}
-      {hasDropdown && <Icon name="chevron-down" size={12} style={{ opacity: 0.5 }} />}
-    </button>
-  );
+  const isActivePage = (key) => {
+    const path = typeof window !== "undefined" ? window.location.pathname : "";
+    if (key === "dywidendy") return path === "/dywidendy";
+    if (key === "wiadomosci") return path === "/wiadomosci";
+    if (key === "edukacja") return path.startsWith("/edukacja");
+    return false;
+  };
+
+  const navButton = (label, key, hasDropdown = true) => {
+    const active = !hasDropdown && isActivePage(key);
+    return (
+      <button
+        onClick={() => {
+          if (hasDropdown) setOpenDropdown(o => o === key ? null : key);
+          else if (key === "dywidendy") navigate("/dywidendy");
+          else if (key === "wiadomosci") navigate("/wiadomosci");
+        }}
+        style={{
+          background: active ? `${theme.accent}10` : "transparent",
+          border: "none",
+          borderBottom: active ? `2px solid ${theme.accent}` : "2px solid transparent",
+          color: openDropdown === key || active ? theme.accent : theme.textBright,
+          fontSize: 14, fontWeight: active ? 600 : 500, cursor: "pointer",
+          padding: "8px 14px", borderRadius: "6px 6px 0 0",
+          fontFamily: "var(--font-ui)",
+          display: "inline-flex", alignItems: "center", gap: 4,
+          transition: "color 0.15s, background 0.15s, border-color 0.15s",
+        }}
+        onMouseEnter={e => { if (!hasDropdown && !active) e.currentTarget.style.background = `${theme.accent}10`; }}
+        onMouseLeave={e => { if (!active) e.currentTarget.style.background = "transparent"; }}
+      >
+        {label}
+        {hasDropdown && <Icon name="chevron-down" size={12} style={{ opacity: 0.5 }} />}
+      </button>
+    );
+  };
 
   return (
     <div style={{ display: "flex", alignItems: "center", gap: 2, flex: 1, marginLeft: 24 }}>

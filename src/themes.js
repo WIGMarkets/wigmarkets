@@ -1,7 +1,9 @@
 export const DARK_THEME = {
-  bgPage: "#0f1117",
-  bgCard: "#131620",
-  bgCardAlt: "#1a1d27",
+  bgPage: "#0a0a0f",
+  bgCard: "#12121a",
+  bgCardAlt: "#1a1a25",
+  bgElevated: "#222233",
+  bgHover: "rgba(255,255,255,0.04)",
   border: "rgba(255,255,255,0.08)",
   borderInput: "rgba(255,255,255,0.12)",
   text: "#cbd5e1",
@@ -13,13 +15,15 @@ export const DARK_THEME = {
   red: "#ef4444",
   greenBg: "rgba(34,197,94,0.1)",
   redBg: "rgba(239,68,68,0.1)",
-  fearGaugeBg: "linear-gradient(135deg, #1a1d27 0%, #131620 100%)",
+  fearGaugeBg: "linear-gradient(135deg, #1a1a25 0%, #12121a 100%)",
 };
 
 export const LIGHT_THEME = {
   bgPage: "#f6f8fa",
   bgCard: "#ffffff",
   bgCardAlt: "#f0f2f5",
+  bgElevated: "#e8ecf0",
+  bgHover: "rgba(0,0,0,0.03)",
   border: "#d0d7de",
   borderInput: "#d0d7de",
   text: "#24292f",
