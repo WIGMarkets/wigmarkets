@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { FEAR_COMPONENTS, FEAR_HISTORY_YEAR } from "../data/constants.js";
 import Icon from "./edukacja/Icon.jsx";
@@ -45,7 +46,8 @@ const PAD = { t: 10, b: 28, l: 42, r: 12 };
 function toX(i, len) { return PAD.l + (i / (len - 1)) * (CW - PAD.l - PAD.r); }
 function toY(v) { return PAD.t + (1 - v / 100) * (CH - PAD.t - PAD.b); }
 
-export default function FearGreedPage({ onBack, theme }) {
+export default function FearGreedPage({ theme }) {
+  const navigate = useNavigate();
   const value = FEAR_HISTORY_YEAR[FEAR_HISTORY_YEAR.length - 1];
   const [animated, setAnimated] = useState(false);
   const [range, setRange] = useState("1r");
@@ -140,7 +142,7 @@ export default function FearGreedPage({ onBack, theme }) {
         gap: 14,
       }}>
         <button
-          onClick={onBack}
+          onClick={() => navigate("/")}
           style={{
             background: "none",
             border: `1px solid ${theme.border}`,

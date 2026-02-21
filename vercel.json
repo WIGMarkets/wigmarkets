@@ -2,6 +2,11 @@
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1" },
     { "source": "/spolka/(.*)", "destination": "/index.html" },
-    { "source": "/dywidendy", "destination": "/index.html" }
+    { "source": "/dywidendy", "destination": "/index.html" },
+    { "source": "/indeks", "destination": "/index.html" },
+    { "source": "/wiadomosci", "destination": "/index.html" },
+    { "source": "/portfolio", "destination": "/index.html" },
+    { "source": "/edukacja", "destination": "/index.html" },
+    { "source": "/edukacja/(.*)", "destination": "/index.html" }
   ]
 }

@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route, useNavigate, useParams, useLocation, Navigate } from "react-router-dom";
 import { DARK_THEME, LIGHT_THEME } from "./themes.js";
 import { fetchBulk, fetchRedditTrends, fetchHistory, fetchDynamicList } from "./api.js";
 import { STOCKS, COMMODITIES, FOREX } from "./data/stocks.js";
@@ -116,26 +117,25 @@ function TableRow({ s, i, rank, isMobile, tab, theme, prices, changes, watchlist
 
 const EDUKACJA_CATEGORIES = ["podstawy", "analiza", "strategia"];
 
-function getRouteFromPath(pathname) {
-  if (pathname === "/indeks") return { page: "feargreed" };
-  if (pathname === "/wiadomosci") return { page: "news" };
-  if (pathname === "/portfolio") return { page: "portfolio" };
-  if (pathname === "/dywidendy") return { page: "dywidendy" };
-  if (pathname === "/edukacja") return { page: "edukacja" };
-  const catMatch = pathname.match(/^\/edukacja\/(podstawy|analiza|strategia)$/);
-  if (catMatch) return { page: "edukacja-category", category: catMatch[1] };
-  const slugMatch = pathname.match(/^\/edukacja\/([a-z0-9-]+)$/);
-  if (slugMatch) return { page: "edukacja-article", slug: slugMatch[1] };
-  const match = pathname.match(/^\/spolka\/([A-Z0-9]+)$/i);
-  if (match) {
-    const ticker = match[1].toUpperCase();
-    const stock = ALL_INSTRUMENTS.find(s => s.ticker === ticker);
-    if (stock) return { page: "stock", stock };
+function StockPageRoute({ prices, changes, theme, watchlist, toggleWatch, liveStocks, allInstruments }) {
+  const { ticker } = useParams();
+  const stock = allInstruments.find(s => s.ticker === ticker?.toUpperCase())
+             || liveStocks?.find(s => s.ticker === ticker?.toUpperCase());
+  if (!stock) return <Navigate to="/" replace />;
+  return <StockPage stock={stock} prices={prices} changes={changes} theme={theme} watchlist={watchlist} toggleWatch={toggleWatch} liveStocks={liveStocks} />;
+}
+
+function EdukacjaSlugRoute({ theme }) {
+  const { slug } = useParams();
+  if (EDUKACJA_CATEGORIES.includes(slug)) {
+    return <CategoryPage theme={theme} />;
   }
-  return { page: "home", stock: null };
+  return <ArticlePage theme={theme} />;
 }
 
 export default function WigMarkets() {
+  const navigate = useNavigate();
+  const location = useLocation();
   const isMobile = useIsMobile();
   const [tab, setTab] = useState("akcje");
   const [search, setSearch] = useState("");
@@ -157,7 +157,6 @@ export default function WigMarkets() {
     try { return new Set(JSON.parse(localStorage.getItem("watchlist") || "[]")); } catch { return new Set(); }
   });
   const [watchFilter, setWatchFilter] = useState(false);
-  const [route, setRoute] = useState(() => getRouteFromPath(window.location.pathname));
   const [hoveredRow, setHoveredRow] = useState(0);
   const [showShortcuts, setShowShortcuts] = useState(false);
   const [showAlerts, setShowAlerts] = useState(false);
@@ -174,60 +173,18 @@ export default function WigMarkets() {
 
   usePriceAlerts(prices, setAlerts);
 
-  // SPA routing
-  useEffect(() => {
-    const onPopState = () => setRoute(getRouteFromPath(window.location.pathname));
-    window.addEventListener("popstate", onPopState);
-    return () => window.removeEventListener("popstate", onPopState);
-  }, []);
-
   const navigateToStock = useCallback((stock) => {
-    window.history.pushState(null, "", `/spolka/${stock.ticker}`);
-    setRoute({ page: "stock", stock });
-  }, []);
+    navigate(`/spolka/${stock.ticker}`);
+  }, [navigate]);
 
-  const navigateToFearGreed = useCallback(() => {
-    window.history.pushState(null, "", "/indeks");
-    setRoute({ page: "feargreed" });
-  }, []);
-
-  const navigateToNews = useCallback(() => {
-    window.history.pushState(null, "", "/wiadomosci");
-    setRoute({ page: "news" });
-  }, []);
-
-  const navigateToPortfolio = useCallback(() => {
-    window.history.pushState(null, "", "/portfolio");
-    setRoute({ page: "portfolio" });
-  }, []);
-
-  const navigateHome = useCallback(() => {
-    window.history.pushState(null, "", "/");
-    setRoute({ page: "home", stock: null });
-    document.title = "WIGmarkets - Notowania GPW";
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute("content", "Notowania GPW w czasie rzeczywistym");
-  }, []);
-
-  const navigateToDywidendy = useCallback(() => {
-    window.history.pushState(null, "", "/dywidendy");
-    setRoute({ page: "dywidendy" });
-  }, []);
-
-  const navigateToEdukacja = useCallback(() => {
-    window.history.pushState(null, "", "/edukacja");
-    setRoute({ page: "edukacja" });
-  }, []);
-
-  const navigateToEdukacjaCategory = useCallback((category) => {
-    window.history.pushState(null, "", `/edukacja/${category}`);
-    setRoute({ page: "edukacja-category", category });
-  }, []);
-
-  const navigateToEdukacjaArticle = useCallback((slug) => {
-    window.history.pushState(null, "", `/edukacja/${slug}`);
-    setRoute({ page: "edukacja-article", slug });
-  }, []);
+  // Set home page title/meta when on home route
+  useEffect(() => {
+    if (location.pathname === "/") {
+      document.title = "WIGmarkets - Notowania GPW";
+      const meta = document.querySelector('meta[name="description"]');
+      if (meta) meta.setAttribute("content", "Notowania GPW w czasie rzeczywistym");
+    }
+  }, [location.pathname]);
 
   const bgGradient = darkMode
     ? "linear-gradient(180deg, #0b0d14 0%, #0f1117 100%)"
@@ -400,7 +357,7 @@ export default function WigMarkets() {
 
   // Keyboard shortcuts (must be after visible is defined)
   useKeyboardShortcuts({
-    enabled: route.page === "home",
+    enabled: location.pathname === "/",
     onSlash: () => searchRef.current?.focus(),
     onEsc: () => {
       if (selected)  { setSelected(null); return; }
@@ -489,48 +446,16 @@ export default function WigMarkets() {
     return <svg width="60" height="24" style={{ display: "block" }}><polyline points={pts} fill="none" stroke={color} strokeWidth="1.5" strokeLinejoin="round" /></svg>;
   }
 
-  // Route: Dywidendy page
-  if (route.page === "dywidendy") {
-    return <DividendPage onBack={navigateHome} theme={theme} onSelectStock={navigateToStock} />;
-  }
-
-  // Route: Edukacja pages
-  if (route.page === "edukacja") {
-    return <EdukacjaHome theme={theme} onBack={navigateHome} onNavigateCategory={navigateToEdukacjaCategory} onNavigateArticle={navigateToEdukacjaArticle} />;
-  }
-  if (route.page === "edukacja-category") {
-    return <CategoryPage theme={theme} category={route.category} onBack={navigateToEdukacja} onNavigateArticle={navigateToEdukacjaArticle} onNavigateHome={navigateHome} />;
-  }
-  if (route.page === "edukacja-article") {
-    return <ArticlePage theme={theme} slug={route.slug} onBack={navigateToEdukacja} onNavigateCategory={navigateToEdukacjaCategory} onNavigateArticle={navigateToEdukacjaArticle} onNavigateHome={navigateHome} />;
-  }
-
-  // Route: Fear & Greed index page
-  if (route.page === "feargreed") {
-    return <FearGreedPage onBack={navigateHome} theme={theme} />;
-  }
-
-  // Route: News page
-  if (route.page === "news") {
-    return <NewsPage onBack={navigateHome} theme={theme} onSelectStock={navigateToStock} />;
-  }
-
-  // Route: Portfolio
-  if (route.page === "portfolio") {
-    return <PortfolioPage onBack={navigateHome} theme={theme} prices={prices} allInstruments={ALL_INSTRUMENTS} />;
-  }
-
-  // Route: dedicated stock page
-  if (route.page === "stock" && route.stock) {
-    return (
-      <>
-        {calcStock && <ProfitCalculatorModal stock={calcStock} currentPrice={prices[calcStock.ticker]} onClose={() => setCalcStock(null)} theme={theme} />}
-        <StockPage stock={route.stock} prices={prices} changes={changes} onBack={navigateHome} theme={theme} watchlist={watchlist} toggleWatch={toggleWatch} liveStocks={liveStocks} navigateToStock={navigateToStock} navigateToDywidendy={navigateToDywidendy} />
-      </>
-    );
-  }
-
   return (
+  <Routes>
+    <Route path="/spolka/:ticker" element={<StockPageRoute prices={prices} changes={changes} theme={theme} watchlist={watchlist} toggleWatch={toggleWatch} liveStocks={liveStocks} allInstruments={allInstruments} />} />
+    <Route path="/dywidendy" element={<DividendPage theme={theme} />} />
+    <Route path="/indeks" element={<FearGreedPage theme={theme} />} />
+    <Route path="/wiadomosci" element={<NewsPage theme={theme} />} />
+    <Route path="/portfolio" element={<PortfolioPage theme={theme} prices={prices} allInstruments={allInstruments} />} />
+    <Route path="/edukacja" element={<EdukacjaHome theme={theme} />} />
+    <Route path="/edukacja/:slug" element={<EdukacjaSlugRoute theme={theme} />} />
+    <Route path="/" element={
     <div style={{ minHeight: "100vh", background: bgGradient, color: theme.text, fontFamily: "var(--font-ui)" }}>
 
       {selected && <StockModal stock={selected} price={prices[selected.ticker]} change24h={changes[selected.ticker]?.change24h ?? 0} change7d={changes[selected.ticker]?.change7d ?? 0} onClose={() => setSelected(null)} onCalc={() => { setCalcStock(selected); }} theme={theme} />}
@@ -615,10 +540,10 @@ export default function WigMarkets() {
           {[["akcje", "Akcje GPW"], ["popularne", "Popularne"], ["indeksy", "Indeksy"], ["swiatowe", "Indeksy światowe"], ["surowce", "Surowce"], ["forex", "Forex"], ["screener", "Screener"], ["watchlist", `Obserwowane${watchlist.size ? ` (${watchlist.size})` : ""}`]].map(([key, label]) => (
             <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); setWatchFilter(false); }} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: tab === key ? `2px solid ${theme.accent}` : "2px solid transparent", background: tab === key ? `${theme.accent}18` : "transparent", color: tab === key ? theme.accent : theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: tab === key ? 600 : 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, transition: "all 0.2s ease", letterSpacing: "0.01em" }}>{label}</button>
           ))}
-          <button onClick={navigateToNews} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: "2px solid transparent", background: "transparent", color: theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, transition: "all 0.2s ease" }}>Wiadomości</button>
-          <button onClick={navigateToPortfolio} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: "2px solid transparent", background: "transparent", color: theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, transition: "all 0.2s ease" }}>Portfolio</button>
-          <button onClick={navigateToDywidendy} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: "2px solid transparent", background: "transparent", color: theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, display: "inline-flex", alignItems: "center", gap: 6, transition: "all 0.2s ease" }}><Icon name="calendar" size={14} /> Dywidendy</button>
-          <button onClick={navigateToEdukacja} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: `2px solid ${theme.accent}40`, background: `${theme.accent}10`, color: theme.accent, fontSize: isMobile ? 12 : 13, fontWeight: 600, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, display: "inline-flex", alignItems: "center", gap: 6, transition: "all 0.2s ease" }}><Icon name="book-open" size={14} /> Edukacja</button>
+          <button onClick={() => navigate("/wiadomosci")} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: "2px solid transparent", background: "transparent", color: theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, transition: "all 0.2s ease" }}>Wiadomości</button>
+          <button onClick={() => navigate("/portfolio")} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: "2px solid transparent", background: "transparent", color: theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, transition: "all 0.2s ease" }}>Portfolio</button>
+          <button onClick={() => navigate("/dywidendy")} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: "2px solid transparent", background: "transparent", color: theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, display: "inline-flex", alignItems: "center", gap: 6, transition: "all 0.2s ease" }}><Icon name="calendar" size={14} /> Dywidendy</button>
+          <button onClick={() => navigate("/edukacja")} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: `2px solid ${theme.accent}40`, background: `${theme.accent}10`, color: theme.accent, fontSize: isMobile ? 12 : 13, fontWeight: 600, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, display: "inline-flex", alignItems: "center", gap: 6, transition: "all 0.2s ease" }}><Icon name="book-open" size={14} /> Edukacja</button>
           {tab !== "screener" && tab !== "popularne" && tab !== "watchlist" && tab !== "indeksy" && tab !== "swiatowe" && (
           <div style={{ marginLeft: "auto", display: "flex", gap: 4, flexShrink: 0 }}>
             <button onClick={() => setWatchFilter(f => !f)} style={{ padding: isMobile ? "6px 10px" : "8px 14px", borderRadius: 8, border: "1px solid", borderColor: watchFilter ? "#ffd700" : theme.borderInput, background: watchFilter ? "#ffd70022" : "transparent", color: watchFilter ? "#ffd700" : theme.textSecondary, fontSize: isMobile ? 11 : 12, cursor: "pointer", fontFamily: "inherit", fontWeight: watchFilter ? 700 : 400, flexShrink: 0 }}>
@@ -786,7 +711,7 @@ export default function WigMarkets() {
         {/* Desktop sidebar */}
         {!isMobile && tab !== "forex" && (
           <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-            <div onClick={navigateToFearGreed} style={{ cursor: "pointer", transition: "opacity 0.2s" }}
+            <div onClick={() => navigate("/indeks")} style={{ cursor: "pointer", transition: "opacity 0.2s" }}
               onMouseEnter={e => e.currentTarget.style.opacity = "0.85"}
               onMouseLeave={e => e.currentTarget.style.opacity = "1"}>
               <FearGauge value={62} isMobile={false} theme={theme} />
@@ -864,7 +789,10 @@ export default function WigMarkets() {
 
       <ToastContainer theme={theme} />
     </div>
+    } />
+    <Route path="*" element={<Navigate to="/" replace />} />
+  </Routes>
   );
 }
 
-ReactDOM.createRoot(document.getElementById("root")).render(<WigMarkets />);
+ReactDOM.createRoot(document.getElementById("root")).render(<BrowserRouter><WigMarkets /></BrowserRouter>);

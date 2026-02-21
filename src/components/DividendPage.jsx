@@ -1,4 +1,5 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { DIVIDENDS, MONTHS_PL } from "../data/dividends.js";
 import { fmt } from "../utils.js";
@@ -538,8 +539,12 @@ function CalculatorView({ theme, isMobile }) {
 }
 
 // ─── Main Page Component ───────────────────────────────────────────
-export default function DividendPage({ onBack, theme, onSelectStock }) {
+export default function DividendPage({ theme }) {
+  const navigate = useNavigate();
   const isMobile = useIsMobile();
+  const onSelectStock = useCallback((stock) => {
+    navigate(`/spolka/${stock.ticker}`);
+  }, [navigate]);
   const [activeTab, setActiveTab] = useState("kalendarz");
 
   return (
@@ -548,7 +553,7 @@ export default function DividendPage({ onBack, theme, onSelectStock }) {
       <div style={{ padding: isMobile ? "16px 12px" : "20px 24px", maxWidth: 1400, margin: "0 auto" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 16 }}>
           <button
-            onClick={onBack}
+            onClick={() => navigate("/")}
             style={{ background: "none", border: "none", color: theme.textSecondary, cursor: "pointer", padding: "4px 0", fontSize: 13, display: "flex", alignItems: "center", gap: 4, fontFamily: "var(--font-ui)" }}
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="19" y1="12" x2="5" y2="12" /><polyline points="12 19 5 12 12 5" /></svg>

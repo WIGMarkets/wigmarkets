@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+import { useEffect, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import { useIsMobile } from "../../hooks/useIsMobile.js";
 import { ARTICLES, getArticlesByCategory } from "../../content/edukacja/articles.js";
 import ArticleCard from "./ArticleCard.jsx";
@@ -56,8 +57,11 @@ function Sidebar({ theme, popularArticles, onNavigateArticle }) {
   );
 }
 
-export default function EdukacjaHome({ theme, onBack, onNavigateCategory, onNavigateArticle }) {
+export default function EdukacjaHome({ theme }) {
+  const navigate = useNavigate();
   const isMobile = useIsMobile();
+  const onNavigateCategory = useCallback((cat) => navigate(`/edukacja/${cat}`), [navigate]);
+  const onNavigateArticle = useCallback((slug) => navigate(`/edukacja/${slug}`), [navigate]);
 
   useEffect(() => {
     document.title = "Edukacja inwestycyjna GPW — WIGmarkets.pl";
@@ -72,7 +76,7 @@ export default function EdukacjaHome({ theme, onBack, onNavigateCategory, onNavi
     <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)", overflowX: "hidden" }}>
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: isMobile ? "16px" : "24px", boxSizing: "border-box", width: "100%" }}>
 
-        <Breadcrumbs theme={theme} items={[{ label: "Strona główna", href: "/", onClick: onBack }, { label: "Edukacja" }]} />
+        <Breadcrumbs theme={theme} items={[{ label: "Strona główna", href: "/", onClick: () => navigate("/") }, { label: "Edukacja" }]} />
 
         {/* Hero */}
         <div style={{

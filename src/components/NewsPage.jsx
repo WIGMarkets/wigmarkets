@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { fetchMarketNews } from "../api.js";
 import Icon from "./edukacja/Icon.jsx";
@@ -56,7 +57,8 @@ function NewsCard({ item, theme }) {
   );
 }
 
-export default function NewsPage({ onBack, theme, onSelectStock }) {
+export default function NewsPage({ theme }) {
+  const navigate = useNavigate();
   const isMobile = useIsMobile();
   const [activePeriod, setActivePeriod] = useState(null);
   const [news, setNews] = useState(null);
@@ -90,7 +92,7 @@ export default function NewsPage({ onBack, theme, onSelectStock }) {
         gap: 14,
       }}>
         <button
-          onClick={onBack}
+          onClick={() => navigate("/")}
           style={{
             background: "none",
             border: `1px solid ${theme.border}`,

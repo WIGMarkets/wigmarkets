@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+import { useEffect, useCallback } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 import { useIsMobile } from "../../hooks/useIsMobile.js";
 import { getArticleBySlug, getArticlesBySlug } from "../../content/edukacja/articles.js";
 import Breadcrumbs from "./Breadcrumbs.jsx";
@@ -76,9 +77,12 @@ function updateOGTags(article) {
   canonical.href = url;
 }
 
-export default function ArticlePage({ theme, slug, onBack, onNavigateCategory, onNavigateArticle, onNavigateHome }) {
+export default function ArticlePage({ theme }) {
+  const navigate = useNavigate();
+  const { slug } = useParams();
   const isMobile = useIsMobile();
   const article = getArticleBySlug(slug);
+  const onNavigateArticle = useCallback((s) => navigate(`/edukacja/${s}`), [navigate]);
 
   useEffect(() => {
     if (!article) return;
@@ -97,7 +101,7 @@ export default function ArticlePage({ theme, slug, onBack, onNavigateCategory, o
         <div style={{ color: theme.textSecondary }}><Icon name="search" size={48} /></div>
         <div style={{ fontSize: 20, fontWeight: 700, color: theme.textBright }}>Artykuł nie znaleziony</div>
         <div style={{ fontSize: 14, color: theme.textSecondary }}>Artykuł o podanym adresie nie istnieje.</div>
-        <button onClick={onBack} style={{ padding: "12px 24px", background: theme.accent, color: "#000", border: "none", borderRadius: 8, fontWeight: 700, cursor: "pointer", fontFamily: "inherit", minHeight: 48 }}>Wróć do edukacji</button>
+        <button onClick={() => navigate("/edukacja")} style={{ padding: "12px 24px", background: theme.accent, color: "#000", border: "none", borderRadius: 8, fontWeight: 700, cursor: "pointer", fontFamily: "inherit", minHeight: 48 }}>Wróć do edukacji</button>
       </div>
     );
   }
@@ -109,9 +113,9 @@ export default function ArticlePage({ theme, slug, onBack, onNavigateCategory, o
 
   function handleNavigate(path) {
     if (path.startsWith("/edukacja/")) {
-      onNavigateArticle(path.replace("/edukacja/", ""));
+      navigate(`/edukacja/${path.replace("/edukacja/", "")}`);
     } else {
-      onNavigateHome();
+      navigate("/");
     }
   }
 
@@ -122,9 +126,9 @@ export default function ArticlePage({ theme, slug, onBack, onNavigateCategory, o
         <Breadcrumbs
           theme={theme}
           items={[
-            { label: "Strona główna", href: "/", onClick: onNavigateHome },
-            { label: "Edukacja", href: "/edukacja", onClick: onBack },
-            { label: catLabel, href: `/edukacja/${article.category}`, onClick: () => onNavigateCategory(article.category) },
+            { label: "Strona główna", href: "/", onClick: () => navigate("/") },
+            { label: "Edukacja", href: "/edukacja", onClick: () => navigate("/edukacja") },
+            { label: catLabel, href: `/edukacja/${article.category}`, onClick: () => navigate(`/edukacja/${article.category}`) },
             { label: article.title.length > 40 ? article.title.slice(0, 37) + "…" : article.title },
           ]}
         />

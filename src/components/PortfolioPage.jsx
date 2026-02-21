@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import { useNavigate } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { fmt, changeFmt, changeColor } from "../utils.js";
 import StockLogo from "./StockLogo.jsx";
@@ -15,7 +16,8 @@ function save(positions) {
 
 function sign(v) { return v >= 0 ? "+" : ""; }
 
-export default function PortfolioPage({ onBack, theme, prices, allInstruments }) {
+export default function PortfolioPage({ theme, prices, allInstruments }) {
+  const navigate = useNavigate();
   const isMobile = useIsMobile();
   const [positions, setPositions] = useState(load);
   const [form, setForm] = useState({ ticker: "", shares: "", buyPrice: "" });
@@ -86,7 +88,7 @@ export default function PortfolioPage({ onBack, theme, prices, allInstruments })
     <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)" }}>
       {/* Header */}
       <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, padding: "12px 24px", display: "flex", alignItems: "center", gap: 14 }}>
-        <button onClick={onBack} style={{ background: "none", border: `1px solid ${theme.border}`, color: theme.text, borderRadius: 8, padding: "6px 14px", cursor: "pointer", fontSize: 13, fontFamily: "inherit", display: "inline-flex", alignItems: "center", gap: 6 }}><Icon name="arrow-left" size={14} /> Powrót</button>
+        <button onClick={() => navigate("/")} style={{ background: "none", border: `1px solid ${theme.border}`, color: theme.text, borderRadius: 8, padding: "6px 14px", cursor: "pointer", fontSize: 13, fontFamily: "inherit", display: "inline-flex", alignItems: "center", gap: 6 }}><Icon name="arrow-left" size={14} /> Powrót</button>
         <div>
           <div style={{ fontWeight: 700, fontSize: 17, color: theme.textBright }}>Portfolio</div>
           <div style={{ fontSize: 11, color: theme.textSecondary }}>Śledź swoje pozycje w czasie rzeczywistym</div>
