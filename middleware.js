@@ -54,7 +54,7 @@ export default function middleware(req) {
         title: "GPW Fear & Greed Index — WIGmarkets.pl",
         description:
           "Sprawdź aktualny sentyment rynku GPW. Wskaźnik obliczany z 7 składowych: momentum, szerokość rynku, zmienność, nowe szczyty, wolumen, małe vs duże spółki, popyt na bezpieczne aktywa.",
-        image: `${base}/api/og-fear-greed`,
+        image: `${base}/api/og?type=fear-greed`,
         url: `${base}/fear-greed`,
       }),
       { headers: { "Content-Type": "text/html; charset=utf-8" } }
@@ -69,7 +69,7 @@ export default function middleware(req) {
       htmlShell({
         title: `${ticker} — Notowania GPW — WIGmarkets.pl`,
         description: `Kurs, analiza techniczna i fundamentalna spółki ${ticker} na Giełdzie Papierów Wartościowych.`,
-        image: `${base}/api/og-stock?ticker=${ticker}`,
+        image: `${base}/api/og?type=stock&ticker=${ticker}`,
         url: `${base}/spolka/${ticker}`,
       }),
       { headers: { "Content-Type": "text/html; charset=utf-8" } }

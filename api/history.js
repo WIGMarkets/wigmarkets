@@ -1,4 +1,4 @@
-import { toYahoo, YF_HEADERS } from "./yahoo-map.js";
+import { toYahoo, YF_HEADERS } from "./_yahoo-map.js";
 
 export default async function handler(req, res) {
   const { symbol, interval: reqInterval } = req.query;
