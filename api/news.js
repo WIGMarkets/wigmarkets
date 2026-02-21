@@ -1,38 +1,42 @@
-export default async function handler(req, res) {
-  const { q } = req.query;
-  const limit = Math.min(parseInt(req.query.limit) || 10, 30);
-  const query = q ? q + " GPW when:30d" : "GPW giełda akcje spółki when:30d";
+import fs from 'fs';
+import path from 'path';
 
-  const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=pl&gl=PL&ceid=PL:pl`;
-
+export default function handler(req, res) {
   try {
-    const response = await fetch(url, {
-      headers: { "User-Agent": "Mozilla/5.0 (compatible; WIGmarkets/1.0)" },
-    });
-    const xml = await response.text();
+    const newsPath = path.join(process.cwd(), 'data', 'news.json');
 
-    const items = [];
-    const itemRegex = /<item>([\s\S]*?)<\/item>/g;
-    let match;
-
-    while ((match = itemRegex.exec(xml)) !== null && items.length < limit) {
-      const block = match[1];
-
-      const title = (/<title><!\[CDATA\[(.*?)\]\]><\/title>/.exec(block) ||
-                     /<title>(.*?)<\/title>/.exec(block))?.[1]?.trim() ?? "";
-      const link = (/<link>(.*?)<\/link>/.exec(block) ||
-                    /<link\s[^>]*href="([^"]+)"/.exec(block))?.[1]?.trim() ?? "";
-      const pubDate = /<pubDate>(.*?)<\/pubDate>/.exec(block)?.[1]?.trim() ?? "";
-      const source = (/<source[^>]*>(.*?)<\/source>/.exec(block))?.[1]?.trim() ?? "";
-
-      if (title && link) {
-        items.push({ title, link, pubDate, source });
-      }
+    if (!fs.existsSync(newsPath)) {
+      return res.status(200).json({ articles: [], updatedAt: null });
     }
 
-    items.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-    res.status(200).json({ items });
-  } catch (error) {
-    res.status(500).json({ error: "Failed to fetch news" });
+    const articles = JSON.parse(fs.readFileSync(newsPath, 'utf-8'));
+    const stat = fs.statSync(newsPath);
+
+    const { source, days, limit } = req.query;
+
+    let filtered = articles;
+
+    if (source) {
+      filtered = filtered.filter(a => a.source.toLowerCase().includes(source.toLowerCase()));
+    }
+
+    if (days) {
+      const cutoff = new Date();
+      cutoff.setDate(cutoff.getDate() - parseInt(days));
+      filtered = filtered.filter(a => new Date(a.dateISO) >= cutoff);
+    }
+
+    if (limit) {
+      filtered = filtered.slice(0, parseInt(limit));
+    }
+
+    res.setHeader('Cache-Control', 's-maxage=300');
+    res.json({
+      articles: filtered,
+      total: filtered.length,
+      updatedAt: stat.mtime.toISOString(),
+    });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
   }
 }

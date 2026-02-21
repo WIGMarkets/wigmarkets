@@ -54,7 +54,7 @@ export async function fetchFundamentals(symbol) {
 
 export async function fetchMarketNews() {
   try {
-    const res = await fetch("/api/news?limit=30");
+    const res = await fetch("/api/news");
     return await res.json();
   } catch { return null; }
 }
