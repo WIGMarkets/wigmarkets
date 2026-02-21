@@ -82,40 +82,12 @@ export default function NewsPage({ theme }) {
   })).filter(p => p.items.length > 0);
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)" }}>
-      <div style={{
-        background: theme.bgCard,
-        borderBottom: `1px solid ${theme.border}`,
-        padding: "12px 24px",
-        display: "flex",
-        alignItems: "center",
-        gap: 14,
-      }}>
-        <button
-          onClick={() => navigate("/")}
-          style={{
-            background: "none",
-            border: `1px solid ${theme.border}`,
-            color: theme.text,
-            borderRadius: 8,
-            padding: "6px 14px",
-            cursor: "pointer",
-            fontSize: 13,
-            fontFamily: "inherit",
-            display: "inline-flex",
-            alignItems: "center",
-            gap: 6,
-          }}
-        >
-          <Icon name="arrow-left" size={14} /> Powrót
-        </button>
-        <div>
-          <div style={{ fontWeight: 700, fontSize: 17, color: theme.textBright }}>Wiadomości rynkowe</div>
-          <div style={{ fontSize: 11, color: theme.textSecondary }}>Najważniejsze informacje z rynku GPW</div>
-        </div>
-      </div>
-
+    <div style={{ color: theme.text, fontFamily: "var(--font-ui)" }}>
       <div style={{ maxWidth: 900, margin: "0 auto", padding: isMobile ? "16px 14px" : "28px 32px" }}>
+        <div style={{ marginBottom: 20 }}>
+          <h1 style={{ fontSize: isMobile ? 22 : 28, fontWeight: 800, color: theme.textBright, margin: "0 0 4px" }}>Wiadomości rynkowe</h1>
+          <p style={{ fontSize: 13, color: theme.textSecondary, margin: 0 }}>Najważniejsze informacje z rynku GPW</p>
+        </div>
 
         <div style={{ display: "flex", gap: 8, marginBottom: 24, flexWrap: "wrap" }}>
           <button

@@ -53,7 +53,7 @@ export default function CategoryPage({ theme }) {
   }, [category, info.label, info.description]);
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)", overflowX: "hidden" }}>
+    <div style={{ color: theme.text, fontFamily: "var(--font-ui)", overflowX: "hidden" }}>
       <div style={{ maxWidth: 1000, margin: "0 auto", padding: isMobile ? 16 : 24, boxSizing: "border-box", width: "100%" }}>
 
         <Breadcrumbs

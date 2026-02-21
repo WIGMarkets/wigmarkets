@@ -548,19 +548,9 @@ export default function DividendPage({ theme }) {
   const [activeTab, setActiveTab] = useState("kalendarz");
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)" }}>
+    <div style={{ color: theme.text, fontFamily: "var(--font-ui)" }}>
       {/* Header */}
       <div style={{ padding: isMobile ? "16px 12px" : "20px 24px", maxWidth: 1400, margin: "0 auto" }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 16 }}>
-          <button
-            onClick={() => navigate("/")}
-            style={{ background: "none", border: "none", color: theme.textSecondary, cursor: "pointer", padding: "4px 0", fontSize: 13, display: "flex", alignItems: "center", gap: 4, fontFamily: "var(--font-ui)" }}
-          >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="19" y1="12" x2="5" y2="12" /><polyline points="12 19 5 12 12 5" /></svg>
-            Powrót
-          </button>
-        </div>
-
         <div style={{ marginBottom: 20 }}>
           <h1 style={{ fontSize: isMobile ? 22 : 28, fontWeight: 800, color: theme.textBright, margin: 0, display: "flex", alignItems: "center", gap: 10 }}>
             <Icon name="calendar" size={isMobile ? 24 : 28} color={theme.accent} />

@@ -310,35 +310,7 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
   // ─── RENDER ──────────────────────────────────────────
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)" }}>
-
-      {/* ═══ SECTION 1: Sticky Top Bar ═══ */}
-      <div style={{
-        position: "sticky", top: 0, zIndex: 100,
-        background: `${theme.bgPage}dd`,
-        backdropFilter: "blur(12px)", WebkitBackdropFilter: "blur(12px)",
-        borderBottom: `1px solid ${theme.border}`,
-      }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 12, maxWidth: 1200, margin: "0 auto", padding: isMobile ? "10px 12px" : "10px 24px" }}>
-          <button onClick={() => navigate("/")} style={{ display: "inline-flex", alignItems: "center", gap: 5, padding: "6px 12px", borderRadius: 8, border: `1px solid ${theme.border}`, background: "transparent", color: theme.textSecondary, fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: 500, transition: "all 0.15s" }}
-            onMouseEnter={e => { e.currentTarget.style.borderColor = theme.accent; e.currentTarget.style.color = theme.textBright; }}
-            onMouseLeave={e => { e.currentTarget.style.borderColor = theme.border; e.currentTarget.style.color = theme.textSecondary; }}>
-            <Icon name="arrow-left" size={13} /> Wstecz
-          </button>
-          <div style={{ fontWeight: 800, fontSize: 15, color: theme.textBright, cursor: "pointer", flexShrink: 0, letterSpacing: "-0.01em" }} onClick={() => navigate("/")}>
-            WIG<span style={{ color: theme.accent }}>markets</span>
-          </div>
-          {!isMobile && (
-            <div style={{ display: "flex", alignItems: "center", gap: 4, fontSize: 12, color: theme.textMuted }}>
-              <Icon name="chevron-right" size={12} />
-              <span>{stock.sector}</span>
-              <Icon name="chevron-right" size={12} />
-              <span style={{ color: theme.textSecondary, fontWeight: 600 }}>{stock.ticker}</span>
-            </div>
-          )}
-        </div>
-      </div>
-
+    <div style={{ color: theme.text, fontFamily: "var(--font-ui)" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: isMobile ? "24px 12px 16px" : "36px 24px 24px" }}>
 
         {/* ═══ SECTION 2: Hero ═══ */}
