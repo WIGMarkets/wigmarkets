@@ -527,28 +527,7 @@ export default function HomePage({
         </>)}
       </div>
 
-      {/* Market stats bottom bar */}
-      <div style={{ background: theme.bgCard, borderTop: `1px solid ${theme.border}`, overflowX: "auto", WebkitOverflowScrolling: "touch", scrollbarWidth: "none" }}>
-        <div style={{ display: "flex", gap: 0, minWidth: "max-content" }}>
-          {[
-            { label: "Spółki rosnące", value: `${liveStocks.filter(s => (changes[s.ticker]?.change24h ?? 0) > 0).length} / ${liveStocks.length}`, color: "#22c55e" },
-            { label: "Spółki spadające", value: `${liveStocks.filter(s => (changes[s.ticker]?.change24h ?? 0) < 0).length} / ${liveStocks.length}`, color: "#ef4444" },
-            { label: "Śr. zmiana 24h", value: changeFmt(liveStocks.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0) / liveStocks.length || 0), color: changeColor(liveStocks.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0)) },
-            { label: "Kap. łączna", value: `${fmt(liveStocks.reduce((a, s) => a + (s.cap || 0), 0) / 1000, 1)} mld zł`, color: "#3b82f6" },
-            { label: "Złoto (XAU)", value: prices["XAU"] ? `${fmt(prices["XAU"])} USD` : "—", color: "#ffd700" },
-            { label: "Ropa WTI", value: prices["CL"] ? `${fmt(prices["CL"])} USD` : "—", color: "#f0883e" },
-            { label: "EUR/PLN", value: prices["EURPLN"] ? fmt(prices["EURPLN"]) : "—", color: theme.textSecondary },
-            { label: "USD/PLN", value: prices["USDPLN"] ? fmt(prices["USDPLN"]) : "—", color: theme.textSecondary },
-          ].map(({ label, value, color }, i) => (
-            <div key={label} style={{ display: "flex", alignItems: "center", gap: 8, padding: "8px 18px", borderRight: `1px solid ${theme.border}`, whiteSpace: "nowrap" }}>
-              <span style={{ fontSize: 10, color: theme.textSecondary, fontWeight: 600, textTransform: "uppercase", letterSpacing: 0.5 }}>{label}</span>
-              <span style={{ fontSize: 12, fontWeight: 700, color }}>{value}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 6, padding: "20px 24px", borderTop: `1px solid ${theme.border}` }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 6, padding: "48px 24px 20px", borderTop: `1px solid ${theme.border}` }}>
         <WIGMarketsLogo size="large" theme={theme} />
         <div style={{ fontSize: 10, color: theme.textSecondary, textAlign: "center" }}>
           © 2026 · Dane z GPW via Yahoo Finance · Nie stanowią rekomendacji inwestycyjnej
