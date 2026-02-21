@@ -1,0 +1,39 @@
+name: Update Fear & Greed Index
+
+on:
+  schedule:
+    # Po zamknieciu GPW (17:15 CET = 16:15 UTC zimą, 15:15 UTC latem)
+    # Uruchamiamy o 18:00 UTC (buffer na przetworzenie danych)
+    - cron: '0 18 * * 1-5'
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  calculate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Calculate Fear & Greed Index
+        run: node scripts/calculate-fear-greed.mjs
+
+      - name: Check for changes
+        id: check
+        run: |
+          if git diff --quiet data/fear-greed-history.json 2>/dev/null; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.check.outputs.changed == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'data: update Fear & Greed Index'
+          file_pattern: 'data/fear-greed-history.json'

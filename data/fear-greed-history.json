@@ -1,0 +1,1562 @@
+[
+  {
+    "date": "2026-01-23",
+    "value": 48,
+    "label": "Neutralny",
+    "color": "#ca8a04",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 43,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 44,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 55,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 45,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 47,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 57,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 41,
+        "label": "Strach",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-01-23T16:51:51.982Z"
+  },
+  {
+    "date": "2026-01-24",
+    "value": 44,
+    "label": "Strach",
+    "color": "#ea580c",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 37,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 35,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 53,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 46,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 43,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 53,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 51,
+        "label": "Neutralny",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-01-24T16:51:51.982Z"
+  },
+  {
+    "date": "2026-01-25",
+    "value": 41,
+    "label": "Strach",
+    "color": "#ea580c",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 49,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 32,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 49,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 33,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 37,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 45,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 51,
+        "label": "Neutralny",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-01-25T16:51:51.982Z"
+  },
+  {
+    "date": "2026-01-26",
+    "value": 38,
+    "label": "Strach",
+    "color": "#ea580c",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 28,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 42,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 33,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 46,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 42,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 40,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 38,
+        "label": "Strach",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-01-26T16:51:51.982Z"
+  },
+  {
+    "date": "2026-01-27",
+    "value": 42,
+    "label": "Strach",
+    "color": "#ea580c",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 34,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 48,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 50,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 37,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 41,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 51,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 42,
+        "label": "Strach",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-01-27T16:51:51.982Z"
+  },
+  {
+    "date": "2026-01-28",
+    "value": 47,
+    "label": "Neutralny",
+    "color": "#ca8a04",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 38,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 45,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 50,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 41,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 57,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 49,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 56,
+        "label": "Chciwość",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-01-28T16:51:51.982Z"
+  },
+  {
+    "date": "2026-01-29",
+    "value": 50,
+    "label": "Neutralny",
+    "color": "#ca8a04",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 49,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 53,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 42,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 44,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 42,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 46,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 54,
+        "label": "Neutralny",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-01-29T16:51:51.982Z"
+  },
+  {
+    "date": "2026-01-30",
+    "value": 53,
+    "label": "Neutralny",
+    "color": "#ca8a04",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 48,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 46,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 55,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 47,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 49,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 49,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 60,
+        "label": "Chciwość",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-01-30T16:51:51.982Z"
+  },
+  {
+    "date": "2026-01-31",
+    "value": 49,
+    "label": "Neutralny",
+    "color": "#ca8a04",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 50,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 54,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 41,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 45,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 42,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 47,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 52,
+        "label": "Neutralny",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-01-31T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-01",
+    "value": 46,
+    "label": "Neutralny",
+    "color": "#ca8a04",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 39,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 50,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 53,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 39,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 52,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 48,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 44,
+        "label": "Strach",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-01T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-02",
+    "value": 43,
+    "label": "Strach",
+    "color": "#ea580c",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 38,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 52,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 44,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 44,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 50,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 34,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 50,
+        "label": "Neutralny",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-02T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-03",
+    "value": 48,
+    "label": "Neutralny",
+    "color": "#ca8a04",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 42,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 55,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 48,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 57,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 48,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 40,
+        "label": "Strach",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 52,
+        "label": "Neutralny",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-03T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-04",
+    "value": 55,
+    "label": "Neutralny",
+    "color": "#ca8a04",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 60,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 56,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 52,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 47,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 52,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 57,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 61,
+        "label": "Chciwość",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-04T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-05",
+    "value": 59,
+    "label": "Chciwość",
+    "color": "#16a34a",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 62,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 56,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 60,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 55,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 52,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 67,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 61,
+        "label": "Chciwość",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-05T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-06",
+    "value": 63,
+    "label": "Chciwość",
+    "color": "#16a34a",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 58,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 66,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 56,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 71,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 59,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 69,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 55,
+        "label": "Neutralny",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-06T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-07",
+    "value": 61,
+    "label": "Chciwość",
+    "color": "#16a34a",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 64,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 59,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 65,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 66,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 54,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 63,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 69,
+        "label": "Chciwość",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-07T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-08",
+    "value": 57,
+    "label": "Chciwość",
+    "color": "#16a34a",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 62,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 64,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 63,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 58,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 60,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 51,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 53,
+        "label": "Neutralny",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-08T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-09",
+    "value": 54,
+    "label": "Neutralny",
+    "color": "#ca8a04",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 55,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 50,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 48,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 60,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 51,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 60,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 53,
+        "label": "Neutralny",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-09T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-10",
+    "value": 58,
+    "label": "Chciwość",
+    "color": "#16a34a",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 59,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 62,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 49,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 49,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 65,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 59,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 55,
+        "label": "Neutralny",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-10T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-11",
+    "value": 63,
+    "label": "Chciwość",
+    "color": "#16a34a",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 54,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 64,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 69,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 61,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 56,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 66,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 57,
+        "label": "Chciwość",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-11T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-12",
+    "value": 67,
+    "label": "Chciwość",
+    "color": "#16a34a",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 67,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 66,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 69,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 65,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 69,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 60,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 63,
+        "label": "Chciwość",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-12T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-13",
+    "value": 71,
+    "label": "Chciwość",
+    "color": "#16a34a",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 74,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 79,
+        "label": "Skrajna chciwość",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 64,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 77,
+        "label": "Skrajna chciwość",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 76,
+        "label": "Skrajna chciwość",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 64,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 64,
+        "label": "Chciwość",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-13T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-14",
+    "value": 68,
+    "label": "Chciwość",
+    "color": "#16a34a",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 69,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 73,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 61,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 58,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 69,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 65,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 65,
+        "label": "Chciwość",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-14T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-15",
+    "value": 65,
+    "label": "Chciwość",
+    "color": "#16a34a",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 61,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 68,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 70,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 62,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 66,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 59,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 70,
+        "label": "Chciwość",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-15T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-16",
+    "value": 60,
+    "label": "Chciwość",
+    "color": "#16a34a",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 58,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 58,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 61,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 57,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 56,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 69,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 68,
+        "label": "Chciwość",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-16T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-17",
+    "value": 57,
+    "label": "Chciwość",
+    "color": "#16a34a",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 59,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 65,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 49,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 63,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 64,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 49,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 65,
+        "label": "Chciwość",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-17T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-18",
+    "value": 59,
+    "label": "Chciwość",
+    "color": "#16a34a",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 51,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 57,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 53,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 64,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 60,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 50,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 65,
+        "label": "Chciwość",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-18T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-19",
+    "value": 63,
+    "label": "Chciwość",
+    "color": "#16a34a",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 72,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 65,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 70,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 60,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 60,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 64,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 71,
+        "label": "Chciwość",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-19T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-20",
+    "value": 61,
+    "label": "Chciwość",
+    "color": "#16a34a",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 68,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 52,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 53,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 51,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 64,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 64,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 66,
+        "label": "Chciwość",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-20T16:51:51.982Z"
+  },
+  {
+    "date": "2026-02-21",
+    "value": 62,
+    "label": "Chciwość",
+    "color": "#16a34a",
+    "indicators": [
+      {
+        "name": "Momentum rynku",
+        "value": 53,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Siła wolumenu",
+        "value": 61,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 55,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Zmienność rynku",
+        "value": 54,
+        "label": "Neutralny",
+        "description": ""
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 60,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Małe vs duże spółki",
+        "value": 63,
+        "label": "Chciwość",
+        "description": ""
+      },
+      {
+        "name": "Popyt na bezpieczne aktywa",
+        "value": 63,
+        "label": "Chciwość",
+        "description": ""
+      }
+    ],
+    "indicatorsUsed": 7,
+    "updatedAt": "2026-02-21T16:51:51.982Z"
+  }
+]

@@ -3,9 +3,9 @@ import { useNavigate } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { useKeyboardShortcuts } from "../hooks/useKeyboardShortcuts.js";
 import { fmt, changeFmt, changeColor } from "../lib/formatters.js";
-import { fetchBulk, fetchRedditTrends, fetchHistory } from "../lib/api.js";
+import { fetchBulk, fetchRedditTrends, fetchHistory, fetchFearGreed } from "../lib/api.js";
 import { STOCKS, COMMODITIES, FOREX } from "../data/stocks.js";
-import { FEAR_HISTORY_YEAR } from "../data/constants.js";
+import { FEAR_HISTORY_YEAR, FEAR_COMPONENTS } from "../data/constants.js";
 import StockTableRow from "../components/market/StockTableRow.jsx";
 import MarqueeTicker from "../components/MarqueeTicker.jsx";
 import Heatmap from "../components/Heatmap.jsx";
@@ -58,6 +58,7 @@ export default function HomePage({
   const [showAlerts, setShowAlerts] = useState(false);
   const [showPE, setShowPE] = useState(false);
   const [showDiv, setShowDiv] = useState(false);
+  const [fgData, setFgData] = useState(null);
   const searchRef = useRef(null);
   const PER_PAGE = 20;
 
@@ -70,6 +71,11 @@ export default function HomePage({
     document.title = "WIGmarkets - Notowania GPW";
     const meta = document.querySelector('meta[name="description"]');
     if (meta) meta.setAttribute("content", "Notowania GPW w czasie rzeczywistym");
+  }, []);
+
+  // Fetch Fear & Greed data
+  useEffect(() => {
+    fetchFearGreed().then(data => { if (data) setFgData(data); });
   }, []);
 
   // Refresh active data based on tab
@@ -219,7 +225,9 @@ export default function HomePage({
     ["Śr. zmiana 24h", changeFmt(liveStocks.reduce((a, s) => a + (changes[s.ticker]?.change24h ?? 0), 0) / liveStocks.length), "#ffd700"],
   ], [changes, liveStocks]);
 
-  const fgValue = FEAR_HISTORY_YEAR[FEAR_HISTORY_YEAR.length - 1];
+  const fgValue = fgData?.current?.value ?? FEAR_HISTORY_YEAR[FEAR_HISTORY_YEAR.length - 1];
+  const fgHistory = fgData?.history?.slice(-30).map(h => h.value) ?? null;
+  const fgComponents = fgData?.current?.indicators ?? null;
   const fgLabel = fgValue < 25 ? "Skrajna panika" : fgValue < 45 ? "Strach" : fgValue < 55 ? "Neutralny" : fgValue < 75 ? "Chciwość" : "Ekstremalna chciwość";
   const fgColor = fgValue < 25 ? "#dc2626" : fgValue < 45 ? "#ea580c" : fgValue < 55 ? "#ca8a04" : fgValue < 75 ? "#16a34a" : "#15803d";
 
@@ -325,7 +333,7 @@ export default function HomePage({
       {/* Mobile sidebar overlay */}
       {isMobile && sidebarOpen && (
         <div style={{ padding: "16px", background: theme.bgCard, borderBottom: `1px solid ${theme.border}` }}>
-          <FearGauge value={62} isMobile={true} theme={theme} />
+          <FearGauge value={fgValue} history={fgHistory} components={fgComponents} isMobile={true} theme={theme} />
         </div>
       )}
 
@@ -534,7 +542,7 @@ export default function HomePage({
             <div onClick={() => navigate("/indeks")} style={{ cursor: "pointer", transition: "opacity 0.2s" }}
               onMouseEnter={e => e.currentTarget.style.opacity = "0.85"}
               onMouseLeave={e => e.currentTarget.style.opacity = "1"}>
-              <FearGauge value={62} isMobile={false} theme={theme} />
+              <FearGauge value={fgValue} history={fgHistory} components={fgComponents} isMobile={false} theme={theme} />
             </div>
             {tab === "akcje" && <SectorDonut stocks={liveStocks} theme={theme} />}
             <div style={{ background: `linear-gradient(135deg, ${theme.bgCardAlt} 0%, ${theme.bgCard} 100%)`, border: `1px solid rgba(255,255,255,0.06)`, borderRadius: 14, padding: 20 }}>

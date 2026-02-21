@@ -1,17 +1,9 @@
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile.js";
+import { fetchFearGreed } from "../lib/api.js";
 import { FEAR_COMPONENTS, FEAR_HISTORY_YEAR } from "../data/constants.js";
 import Icon from "./edukacja/Icon.jsx";
-
-const DESCS = {
-  "Momentum rynku":             "Porównuje bieżące kursy WIG20 do średnich kroczących z 60 i 125 dni. Wzrost ponad średnią oznacza chciwość.",
-  "Siła wolumenu":              "Stosunek wolumenu w dniach wzrostowych do dni spadkowych na GPW. Przewaga kupujących to sygnał chciwości.",
-  "Szerokość rynku":            "Procent spółek WIG rosnących powyżej swojej 52-tygodniowej średniej. Im więcej spółek uczestniczy we wzrostach, tym wyższy wskaźnik.",
-  "Zmienność (VIX GPW)":        "Implikowana zmienność opcji na WIG20. Wysoka zmienność towarzyszy panice; niska — spokojowi i chciwości.",
-  "Put/Call ratio":             "Stosunek zakupionych opcji put do call. Wzrost świadczy o zabezpieczaniu portfeli i rosnącym strachu.",
-  "Popyt na bezpieczne aktywa": "Napływy do obligacji skarbowych i złota kosztem akcji GPW. Im wyższy popyt na bezpieczne przystanie, tym niższy wskaźnik.",
-};
 
 function getLabel(v) {
   if (v < 25) return "Skrajna panika";
@@ -28,7 +20,6 @@ function getColor(v) {
   return "#15803d";
 }
 
-const TODAY = new Date(2026, 1, 19);
 const RANGES = [
   { key: "30d",  label: "30d",  days: 30 },
   { key: "90d",  label: "90d",  days: 90 },
@@ -37,6 +28,10 @@ const RANGES = [
 ];
 
 function formatDate(d) {
+  if (typeof d === "string") {
+    const [y, m, day] = d.split("-");
+    return `${day}.${m}.${y}`;
+  }
   return d.toLocaleDateString("pl-PL", { day: "2-digit", month: "2-digit", year: "numeric" });
 }
 
@@ -46,9 +41,46 @@ const PAD = { t: 10, b: 28, l: 42, r: 12 };
 function toX(i, len) { return PAD.l + (i / (len - 1)) * (CW - PAD.l - PAD.r); }
 function toY(v) { return PAD.t + (1 - v / 100) * (CH - PAD.t - PAD.b); }
 
+// Build fallback data from hardcoded constants (used when API is unavailable)
+function buildFallbackData() {
+  const values = FEAR_HISTORY_YEAR;
+  const value = values[values.length - 1];
+  const today = new Date();
+  return {
+    current: {
+      value,
+      label: getLabel(value),
+      color: getColor(value),
+      indicators: FEAR_COMPONENTS.map(f => ({
+        name: f.label,
+        value: f.val,
+        label: getLabel(f.val),
+        description: "",
+      })),
+      indicatorsUsed: FEAR_COMPONENTS.length,
+      updatedAt: null,
+    },
+    historical: {
+      yesterday: values[values.length - 2],
+      weekAgo: values[values.length - 8],
+      monthAgo: values[values.length - 31],
+      yearAgo: values[values.length - 366],
+    },
+    history: values.map((v, i) => {
+      const d = new Date(today);
+      d.setDate(today.getDate() - (values.length - 1 - i));
+      return { date: d.toISOString().slice(0, 10), value: v };
+    }),
+    yearMin: Math.min(...values),
+    yearMax: Math.max(...values),
+    isFallback: true,
+  };
+}
+
 export default function FearGreedPage({ theme }) {
   const navigate = useNavigate();
-  const value = FEAR_HISTORY_YEAR[FEAR_HISTORY_YEAR.length - 1];
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
   const [animated, setAnimated] = useState(false);
   const [range, setRange] = useState("1r");
   const [hover, setHover] = useState(null);
@@ -56,32 +88,50 @@ export default function FearGreedPage({ theme }) {
   const containerRef = useRef(null);
   const isMobile = useIsMobile();
 
-  useEffect(() => { setTimeout(() => setAnimated(true), 300); }, []);
+  useEffect(() => {
+    fetchFearGreed().then(apiData => {
+      setData(apiData || buildFallbackData());
+      setLoading(false);
+    });
+  }, []);
 
+  useEffect(() => { if (!loading) setTimeout(() => setAnimated(true), 300); }, [loading]);
+
+  if (loading || !data) {
+    return (
+      <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <div style={{ textAlign: "center" }}>
+          <div style={{ fontSize: 14, color: theme.textSecondary }}>Ładowanie Fear & Greed Index...</div>
+        </div>
+      </div>
+    );
+  }
+
+  const value = data.current.value;
   const color = getColor(value);
   const label = getLabel(value);
+  const indicators = data.current.indicators || [];
+  const isFallback = data.isFallback === true;
 
   // Historical reference points
-  const yesterday = FEAR_HISTORY_YEAR[FEAR_HISTORY_YEAR.length - 2];
-  const weekAgo   = FEAR_HISTORY_YEAR[FEAR_HISTORY_YEAR.length - 8];
-  const monthAgo  = FEAR_HISTORY_YEAR[FEAR_HISTORY_YEAR.length - 31];
-  const yearAgo   = FEAR_HISTORY_YEAR[FEAR_HISTORY_YEAR.length - 366];
-  const minYear   = Math.min(...FEAR_HISTORY_YEAR);
-  const maxYear   = Math.max(...FEAR_HISTORY_YEAR);
+  const yesterday = data.historical?.yesterday;
+  const weekAgo = data.historical?.weekAgo;
+  const monthAgo = data.historical?.monthAgo;
+  const yearAgo = data.historical?.yearAgo;
+  const minYear = data.yearMin ?? value;
+  const maxYear = data.yearMax ?? value;
 
   // Chart data slice
+  const allHistory = data.history || [];
   const sliceDays = RANGES.find(r => r.key === range)?.days ?? 365;
-  const chartData = FEAR_HISTORY_YEAR.slice(-sliceDays);
-  const chartDates = chartData.map((_, i) => {
-    const d = new Date(TODAY);
-    d.setDate(TODAY.getDate() - (chartData.length - 1 - i));
-    return d;
-  });
+  const chartSlice = allHistory.slice(-sliceDays);
+  const chartData = chartSlice.map(h => h.value);
+  const chartDates = chartSlice.map(h => h.date);
 
   // Mouse interaction
   const handleMouseMove = useCallback((e) => {
     const svg = svgRef.current;
-    if (!svg) return;
+    if (!svg || chartData.length === 0) return;
     const rect = svg.getBoundingClientRect();
     const ratio = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
     const idx = Math.round(ratio * (chartData.length - 1));
@@ -91,16 +141,18 @@ export default function FearGreedPage({ theme }) {
   const handleMouseLeave = useCallback(() => setHover(null), []);
 
   // Build SVG path points
-  const pts = chartData.map((v, i) => `${toX(i, chartData.length).toFixed(1)},${toY(v).toFixed(1)}`).join(" ");
-  const firstX = toX(0, chartData.length).toFixed(1);
-  const lastXv = toX(chartData.length - 1, chartData.length).toFixed(1);
+  const pts = chartData.length > 1
+    ? chartData.map((v, i) => `${toX(i, chartData.length).toFixed(1)},${toY(v).toFixed(1)}`).join(" ")
+    : "";
+  const firstX = chartData.length > 1 ? toX(0, chartData.length).toFixed(1) : "0";
+  const lastXv = chartData.length > 1 ? toX(chartData.length - 1, chartData.length).toFixed(1) : "0";
   const bottomY = (CH - PAD.b).toFixed(1);
 
-  // X-axis date labels (show ~5 evenly spaced)
+  // X-axis date labels
   const xLabelCount = isMobile ? 3 : 5;
-  const xLabelIndices = Array.from({ length: xLabelCount }, (_, i) =>
-    Math.round(i * (chartData.length - 1) / (xLabelCount - 1))
-  );
+  const xLabelIndices = chartData.length > 1
+    ? Array.from({ length: xLabelCount }, (_, i) => Math.round(i * (chartData.length - 1) / (xLabelCount - 1)))
+    : [];
 
   // Gauge
   const cx = 130, cy = 115, R = 90;
@@ -130,6 +182,12 @@ export default function FearGreedPage({ theme }) {
     return Math.min(raw, cw - 148);
   };
 
+  // Update timestamp
+  const updatedAt = data.current.updatedAt;
+  const updatedStr = updatedAt
+    ? new Date(updatedAt).toLocaleString("pl-PL", { day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" })
+    : null;
+
   return (
     <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)" }}>
       {/* Header */}
@@ -158,7 +216,14 @@ export default function FearGreedPage({ theme }) {
         </button>
         <div>
           <div style={{ fontWeight: 700, fontSize: 17, color: theme.textBright }}>GPW Fear & Greed Index</div>
-          <div style={{ fontSize: 11, color: theme.textSecondary }}>Wskaźnik sentymentu rynku Giełdy Papierów Wartościowych</div>
+          <div style={{ fontSize: 11, color: theme.textSecondary }}>
+            Wskaźnik sentymentu rynku Giełdy Papierów Wartościowych
+            {updatedStr && !isFallback && (
+              <span style={{ marginLeft: 8, opacity: 0.7 }}>
+                Aktualizacja: {updatedStr}
+              </span>
+            )}
+          </div>
         </div>
       </div>
 
@@ -206,6 +271,11 @@ export default function FearGreedPage({ theme }) {
             <div style={{ textAlign: "center", marginTop: -4 }}>
               <div style={{ fontSize: 56, fontWeight: 800, color, lineHeight: 1, letterSpacing: -2 }}>{value}</div>
               <div style={{ fontSize: 17, color, fontWeight: 700, marginTop: 4 }}>{label}</div>
+              {!isFallback && data.current.indicatorsUsed != null && data.current.indicatorsUsed < 7 && (
+                <div style={{ fontSize: 9, color: theme.textMuted, marginTop: 4 }}>
+                  Obliczono z {data.current.indicatorsUsed}/7 wskaźników
+                </div>
+              )}
             </div>
 
             {/* Divider */}
@@ -224,10 +294,14 @@ export default function FearGreedPage({ theme }) {
               ].map(({ lbl, val }) => (
                 <div key={lbl} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "5px 0", borderBottom: `1px solid ${theme.border}` }}>
                   <span style={{ color: theme.textSecondary }}>{lbl}</span>
-                  <span style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                    <span style={{ fontWeight: 700, color: getColor(val), fontSize: 15 }}>{val}</span>
-                    <span style={{ fontSize: 10, color: getColor(val), fontWeight: 600, minWidth: 90, textAlign: "right" }}>{getLabel(val)}</span>
-                  </span>
+                  {val != null ? (
+                    <span style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                      <span style={{ fontWeight: 700, color: getColor(val), fontSize: 15 }}>{val}</span>
+                      <span style={{ fontSize: 10, color: getColor(val), fontWeight: 600, minWidth: 90, textAlign: "right" }}>{getLabel(val)}</span>
+                    </span>
+                  ) : (
+                    <span style={{ color: theme.textMuted, fontSize: 12 }}>b.d.</span>
+                  )}
                 </div>
               ))}
             </div>
@@ -314,102 +388,107 @@ export default function FearGreedPage({ theme }) {
               onMouseMove={handleMouseMove}
               onMouseLeave={handleMouseLeave}
             >
-              <svg
-                ref={svgRef}
-                width="100%"
-                height="100%"
-                viewBox={`0 0 ${CW} ${CH}`}
-                preserveAspectRatio="none"
-                style={{ display: "block", cursor: "crosshair" }}
-              >
-                <defs>
-                  <linearGradient id="fgYearGrad" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor={color} stopOpacity="0.25" />
-                    <stop offset="100%" stopColor={color} stopOpacity="0.02" />
-                  </linearGradient>
-                </defs>
+              {chartData.length > 1 ? (
+                <svg
+                  ref={svgRef}
+                  width="100%"
+                  height="100%"
+                  viewBox={`0 0 ${CW} ${CH}`}
+                  preserveAspectRatio="none"
+                  style={{ display: "block", cursor: "crosshair" }}
+                >
+                  <defs>
+                    <linearGradient id="fgYearGrad" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stopColor={color} stopOpacity="0.25" />
+                      <stop offset="100%" stopColor={color} stopOpacity="0.02" />
+                    </linearGradient>
+                  </defs>
 
-                {/* Zone bands */}
-                {zoneBands.map(z => {
-                  const y1 = toY(z.to).toFixed(1);
-                  const y2 = toY(z.from).toFixed(1);
-                  return (
-                    <rect
-                      key={z.from}
-                      x={PAD.l}
-                      y={y1}
-                      width={CW - PAD.l - PAD.r}
-                      height={Number(y2) - Number(y1)}
-                      fill={z.color}
-                    />
-                  );
-                })}
+                  {/* Zone bands */}
+                  {zoneBands.map(z => {
+                    const y1 = toY(z.to).toFixed(1);
+                    const y2 = toY(z.from).toFixed(1);
+                    return (
+                      <rect
+                        key={z.from}
+                        x={PAD.l}
+                        y={y1}
+                        width={CW - PAD.l - PAD.r}
+                        height={Number(y2) - Number(y1)}
+                        fill={z.color}
+                      />
+                    );
+                  })}
 
-                {/* Horizontal gridlines + Y labels */}
-                {[25, 50, 75].map(gv => {
-                  const gy = toY(gv).toFixed(1);
-                  return (
-                    <g key={gv}>
-                      <line x1={PAD.l} y1={gy} x2={CW - PAD.r} y2={gy} stroke={theme.border} strokeWidth="0.8" strokeDasharray="4 4" opacity="0.6" />
-                      <text x={PAD.l - 6} y={Number(gy) + 3.5} fill={theme.textSecondary} fontSize="10" textAnchor="end" fontFamily="inherit" opacity="0.7">{gv}</text>
-                    </g>
-                  );
-                })}
+                  {/* Horizontal gridlines + Y labels */}
+                  {[25, 50, 75].map(gv => {
+                    const gy = toY(gv).toFixed(1);
+                    return (
+                      <g key={gv}>
+                        <line x1={PAD.l} y1={gy} x2={CW - PAD.r} y2={gy} stroke={theme.border} strokeWidth="0.8" strokeDasharray="4 4" opacity="0.6" />
+                        <text x={PAD.l - 6} y={Number(gy) + 3.5} fill={theme.textSecondary} fontSize="10" textAnchor="end" fontFamily="inherit" opacity="0.7">{gv}</text>
+                      </g>
+                    );
+                  })}
 
-                {/* Area fill */}
-                <polygon
-                  points={`${firstX},${bottomY} ${pts} ${lastXv},${bottomY}`}
-                  fill="url(#fgYearGrad)"
-                />
+                  {/* Area fill */}
+                  <polygon
+                    points={`${firstX},${bottomY} ${pts} ${lastXv},${bottomY}`}
+                    fill="url(#fgYearGrad)"
+                  />
 
-                {/* Main line */}
-                <polyline points={pts} fill="none" stroke={color} strokeWidth="1.8" strokeLinejoin="round" />
+                  {/* Main line */}
+                  <polyline points={pts} fill="none" stroke={color} strokeWidth="1.8" strokeLinejoin="round" />
 
-                {/* X-axis date labels */}
-                {xLabelIndices.map(idx => {
-                  const x = toX(idx, chartData.length).toFixed(1);
-                  const d = chartDates[idx];
-                  const dStr = d ? `${String(d.getDate()).padStart(2,"0")}.${String(d.getMonth()+1).padStart(2,"0")}` : "";
-                  return (
-                    <text
-                      key={idx}
-                      x={x}
-                      y={CH - 4}
-                      fill={theme.textSecondary}
-                      fontSize="9"
-                      textAnchor={idx === 0 ? "start" : idx === chartData.length - 1 ? "end" : "middle"}
-                      fontFamily="inherit"
-                      opacity="0.7"
-                    >
-                      {dStr}
-                    </text>
-                  );
-                })}
+                  {/* X-axis date labels */}
+                  {xLabelIndices.map(idx => {
+                    const x = toX(idx, chartData.length).toFixed(1);
+                    const dStr = chartDates[idx] ? chartDates[idx].slice(8, 10) + "." + chartDates[idx].slice(5, 7) : "";
+                    return (
+                      <text
+                        key={idx}
+                        x={x}
+                        y={CH - 4}
+                        fill={theme.textSecondary}
+                        fontSize="9"
+                        textAnchor={idx === 0 ? "start" : idx === chartData.length - 1 ? "end" : "middle"}
+                        fontFamily="inherit"
+                        opacity="0.7"
+                      >
+                        {dStr}
+                      </text>
+                    );
+                  })}
 
-                {/* Hover: vertical cursor line + dot */}
-                {hover && (
-                  <>
-                    <line
-                      x1={toX(hover.index, chartData.length)}
-                      y1={PAD.t}
-                      x2={toX(hover.index, chartData.length)}
-                      y2={CH - PAD.b}
-                      stroke={theme.textSecondary}
-                      strokeWidth="1"
-                      strokeDasharray="4 3"
-                      opacity="0.6"
-                    />
-                    <circle
-                      cx={toX(hover.index, chartData.length)}
-                      cy={toY(hover.value)}
-                      r="4"
-                      fill={getColor(hover.value)}
-                      stroke={theme.bgCard}
-                      strokeWidth="2"
-                    />
-                  </>
-                )}
-              </svg>
+                  {/* Hover: vertical cursor line + dot */}
+                  {hover && (
+                    <>
+                      <line
+                        x1={toX(hover.index, chartData.length)}
+                        y1={PAD.t}
+                        x2={toX(hover.index, chartData.length)}
+                        y2={CH - PAD.b}
+                        stroke={theme.textSecondary}
+                        strokeWidth="1"
+                        strokeDasharray="4 3"
+                        opacity="0.6"
+                      />
+                      <circle
+                        cx={toX(hover.index, chartData.length)}
+                        cy={toY(hover.value)}
+                        r="4"
+                        fill={getColor(hover.value)}
+                        stroke={theme.bgCard}
+                        strokeWidth="2"
+                      />
+                    </>
+                  )}
+                </svg>
+              ) : (
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", color: theme.textMuted, fontSize: 13 }}>
+                  Za mało danych do wyświetlenia wykresu
+                </div>
+              )}
 
               {/* Hover tooltip */}
               {hover && (
@@ -459,25 +538,33 @@ export default function FearGreedPage({ theme }) {
 
         {/* Component breakdown */}
         <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: isMobile ? "16px 12px" : "24px 24px", marginBottom: 20 }}>
-          <div style={{ fontSize: 13, fontWeight: 700, color: theme.textBright, marginBottom: 16 }}>Składowe indeksu</div>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16 }}>
+            <div style={{ fontSize: 13, fontWeight: 700, color: theme.textBright }}>Składowe indeksu</div>
+            {!isFallback && data.current.indicatorsUsed != null && (
+              <div style={{ fontSize: 10, color: theme.textMuted }}>
+                {data.current.indicatorsUsed}/7 aktywnych wskaźników
+              </div>
+            )}
+          </div>
           <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(3, 1fr)", gap: 12 }}>
-            {FEAR_COMPONENTS.map((f) => {
-              const fc = getColor(f.val);
-              const fl = getLabel(f.val);
-              const desc = DESCS[f.label] ?? "";
+            {indicators.map((f) => {
+              const fc = getColor(f.value);
+              const fl = getLabel(f.value);
               return (
-                <div key={f.label} style={{ background: theme.bgCardAlt ?? theme.bg, border: `1px solid ${theme.border}`, borderRadius: 10, padding: "14px 16px" }}>
+                <div key={f.name} style={{ background: theme.bgCardAlt ?? theme.bg, border: `1px solid ${theme.border}`, borderRadius: 10, padding: "14px 16px" }}>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 8 }}>
-                    <div style={{ fontSize: 12, fontWeight: 700, color: theme.textBright, lineHeight: 1.3 }}>{f.label}</div>
+                    <div style={{ fontSize: 12, fontWeight: 700, color: theme.textBright, lineHeight: 1.3 }}>{f.name}</div>
                     <div style={{ textAlign: "right", flexShrink: 0, marginLeft: 8 }}>
-                      <div style={{ fontSize: 20, fontWeight: 800, color: fc, lineHeight: 1 }}>{f.val}</div>
+                      <div style={{ fontSize: 20, fontWeight: 800, color: fc, lineHeight: 1 }}>{f.value}</div>
                       <div style={{ fontSize: 10, color: fc, fontWeight: 600 }}>{fl}</div>
                     </div>
                   </div>
                   <div style={{ background: theme.border, borderRadius: 4, height: 6, marginBottom: 8, overflow: "hidden" }}>
-                    <div style={{ width: `${f.val}%`, height: "100%", background: fc, borderRadius: 4, transition: "width 0.8s ease" }} />
+                    <div style={{ width: `${f.value}%`, height: "100%", background: fc, borderRadius: 4, transition: "width 0.8s ease" }} />
                   </div>
-                  <div style={{ fontSize: 11, color: theme.textSecondary, lineHeight: 1.5 }}>{desc}</div>
+                  {f.description && (
+                    <div style={{ fontSize: 11, color: theme.textSecondary, lineHeight: 1.5 }}>{f.description}</div>
+                  )}
                 </div>
               );
             })}
@@ -485,15 +572,29 @@ export default function FearGreedPage({ theme }) {
         </div>
 
         {/* Methodology */}
-        <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: isMobile ? "16px 12px" : "20px 24px" }}>
+        <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: isMobile ? "16px 12px" : "20px 24px", marginBottom: 20 }}>
           <div style={{ fontSize: 13, fontWeight: 700, color: theme.textBright, marginBottom: 8 }}>Metodologia</div>
           <p style={{ fontSize: 12, color: theme.textSecondary, lineHeight: 1.7, margin: 0 }}>
             GPW Fear & Greed Index to syntetyczny wskaźnik sentymentu inwestorów na Giełdzie Papierów Wartościowych w Warszawie.
-            Obliczany jest jako ważona średnia sześciu składowych: momentum rynku, siły wolumenu, szerokości rynku,
-            zmienności implikowanej, wskaźnika put/call oraz popytu na bezpieczne aktywa.
+            Obliczany jest jako ważona średnia siedmiu składowych: momentum rynku (20%), szerokości rynku (20%),
+            zmienności rynku (15%), nowych szczytów vs dołków (15%), siły wolumenu (10%),
+            małe vs duże spółki (10%) oraz popytu na bezpieczne aktywa (10%).
             Wartości w przedziale 0–24 oznaczają skrajną panikę, 25–44 strach, 45–54 neutralność,
-            55–74 chciwość, a 75–100 ekstremalną chciwość. Dane są aktualizowane raz dziennie.
+            55–74 chciwość, a 75–100 skrajną chciwość. Dane rynkowe pobierane z Yahoo Finance i Stooq.pl,
+            obliczenia wykonywane codziennie po zamknięciu sesji GPW.
           </p>
+        </div>
+
+        {/* Disclaimer */}
+        <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: isMobile ? "14px 12px" : "16px 24px" }}>
+          <div style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
+            <Icon name="alert-triangle" size={16} style={{ color: theme.textMuted, flexShrink: 0, marginTop: 1 }} />
+            <p style={{ fontSize: 11, color: theme.textMuted, lineHeight: 1.6, margin: 0 }}>
+              Fear & Greed Index jest wskaźnikiem eksperymentalnym opartym na publicznie dostępnych danych rynkowych.
+              Nie stanowi rekomendacji inwestycyjnej. Metodologia i wagi poszczególnych składowych mogą ulec zmianie.
+              Decyzje inwestycyjne podejmuj na podstawie własnej analizy.
+            </p>
+          </div>
         </div>
 
       </div>
