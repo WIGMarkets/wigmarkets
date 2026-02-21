@@ -81,6 +81,7 @@ export default function FearGreedPage({ theme }) {
   const navigate = useNavigate();
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   const [animated, setAnimated] = useState(false);
   const [range, setRange] = useState("1r");
   const [hover, setHover] = useState(null);
@@ -89,15 +90,25 @@ export default function FearGreedPage({ theme }) {
   const isMobile = useIsMobile();
 
   useEffect(() => {
-    fetchFearGreed().then(apiData => {
-      setData(apiData || buildFallbackData());
-      setLoading(false);
-    });
+    fetchFearGreed()
+      .then(apiData => {
+        const d = apiData || buildFallbackData();
+        // Validate that the data has the expected shape
+        if (!d?.current || typeof d.current.value !== "number") {
+          setData(buildFallbackData());
+        } else {
+          setData(d);
+        }
+      })
+      .catch(() => {
+        setData(buildFallbackData());
+      })
+      .finally(() => setLoading(false));
   }, []);
 
   useEffect(() => { if (!loading) setTimeout(() => setAnimated(true), 300); }, [loading]);
 
-  if (loading || !data) {
+  if (loading) {
     return (
       <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)", display: "flex", alignItems: "center", justifyContent: "center" }}>
         <div style={{ textAlign: "center" }}>
@@ -107,10 +118,32 @@ export default function FearGreedPage({ theme }) {
     );
   }
 
-  const value = data.current.value;
+  if (error || !data || !data.current) {
+    return (
+      <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <div style={{ textAlign: "center" }}>
+          <div style={{ fontSize: 14, color: theme.textSecondary, marginBottom: 16 }}>
+            {error || "Nie udało się załadować danych Fear & Greed Index"}
+          </div>
+          <button
+            onClick={() => navigate("/")}
+            style={{
+              background: "none", border: `1px solid ${theme.border}`,
+              color: theme.text, borderRadius: 8, padding: "8px 18px",
+              cursor: "pointer", fontSize: 13, fontFamily: "inherit",
+            }}
+          >
+            Powrót do strony głównej
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  const value = data.current?.value ?? 50;
   const color = getColor(value);
   const label = getLabel(value);
-  const indicators = data.current.indicators || [];
+  const indicators = data.current?.indicators || [];
   const isFallback = data.isFallback === true;
 
   // Historical reference points
@@ -183,7 +216,7 @@ export default function FearGreedPage({ theme }) {
   };
 
   // Update timestamp
-  const updatedAt = data.current.updatedAt;
+  const updatedAt = data.current?.updatedAt;
   const updatedStr = updatedAt
     ? new Date(updatedAt).toLocaleString("pl-PL", { day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" })
     : null;
@@ -271,7 +304,7 @@ export default function FearGreedPage({ theme }) {
             <div style={{ textAlign: "center", marginTop: -4 }}>
               <div style={{ fontSize: 56, fontWeight: 800, color, lineHeight: 1, letterSpacing: -2 }}>{value}</div>
               <div style={{ fontSize: 17, color, fontWeight: 700, marginTop: 4 }}>{label}</div>
-              {!isFallback && data.current.indicatorsUsed != null && data.current.indicatorsUsed < 7 && (
+              {!isFallback && data.current?.indicatorsUsed != null && data.current.indicatorsUsed < 7 && (
                 <div style={{ fontSize: 9, color: theme.textMuted, marginTop: 4 }}>
                   Obliczono z {data.current.indicatorsUsed}/7 wskaźników
                 </div>
@@ -540,7 +573,7 @@ export default function FearGreedPage({ theme }) {
         <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 16, padding: isMobile ? "16px 12px" : "24px 24px", marginBottom: 20 }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16 }}>
             <div style={{ fontSize: 13, fontWeight: 700, color: theme.textBright }}>Składowe indeksu</div>
-            {!isFallback && data.current.indicatorsUsed != null && (
+            {!isFallback && data.current?.indicatorsUsed != null && (
               <div style={{ fontSize: 10, color: theme.textMuted }}>
                 {data.current.indicatorsUsed}/7 aktywnych wskaźników
               </div>
