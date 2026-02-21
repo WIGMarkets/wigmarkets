@@ -1,6 +1,12 @@
 import { writeFileSync, existsSync, mkdirSync } from 'fs';
 import { parseStringPromise } from 'xml2js';
 
+const SPAM_KEYWORDS = [
+  'premii', 'premia', 'promocja', 'konto za 0 zł', 'pożyczka',
+  'kredyt gotówkowy', 'cashback', 'bonus za założenie', 'oferta dla',
+  'oprocentowanie', 'lokata',
+];
+
 const RSS_FEEDS = [
   {
     name: 'Bankier.pl',
@@ -206,9 +212,17 @@ async function main() {
     RSS_FEEDS.map(feed => fetchFeed(feed))
   );
 
-  let allArticles = results
-    .filter(r => r.status === 'fulfilled')
-    .flatMap(r => r.value);
+  let allArticles = [];
+  for (let i = 0; i < results.length; i++) {
+    const r = results[i];
+    const feed = RSS_FEEDS[i];
+    if (r.status === 'fulfilled') {
+      console.log(`  [OK] ${feed.name} (${feed.category}): ${r.value.length} articles`);
+      allArticles.push(...r.value);
+    } else {
+      console.log(`  [FAIL] ${feed.name} (${feed.category}): ${r.reason?.message || 'unknown error'}`);
+    }
+  }
 
   console.log(`Fetched ${allArticles.length} articles total`);
 
@@ -221,6 +235,14 @@ async function main() {
     return !isNaN(d.getTime()) && d >= cutoff;
   });
   console.log(`Filtered out ${beforeFilter - allArticles.length} articles older than 30 days`);
+
+  // Filter out spam/ads
+  const beforeSpam = allArticles.length;
+  allArticles = allArticles.filter(article => {
+    const text = `${article.title} ${article.description}`.toLowerCase();
+    return !SPAM_KEYWORDS.some(kw => text.includes(kw));
+  });
+  console.log(`Filtered out ${beforeSpam - allArticles.length} spam/ad articles`);
 
   // Deduplicate by URL
   const seen = new Set();
