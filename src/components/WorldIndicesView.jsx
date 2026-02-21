@@ -64,18 +64,26 @@ const WORLD_INDEX_META = {
 
 const REGIONS = ["USA", "Europa", "Azja", "Polska"];
 
-export default function WorldIndicesView({ worldIndices, theme, isMobile }) {
+export default function WorldIndicesView({ worldIndices, gpwIndices, theme, isMobile }) {
+  // Merge world indices with GPW indices (WIG20, mWIG40, sWIG80) from the
+  // dedicated GPW fetch to avoid duplicate Yahoo Finance requests.
+  const GPW_NAMES = new Set(["WIG20", "mWIG40", "sWIG80"]);
+  const mergedIndices = useMemo(() => {
+    const gpw = (gpwIndices || []).filter(i => GPW_NAMES.has(i.name));
+    return [...(worldIndices || []), ...gpw];
+  }, [worldIndices, gpwIndices]);
+
   const grouped = useMemo(() => {
     const groups = {};
     for (const region of REGIONS) groups[region] = [];
-    for (const idx of worldIndices) {
+    for (const idx of mergedIndices) {
       const meta = WORLD_INDEX_META[idx.name];
       if (meta) groups[meta.region].push(idx);
     }
     return groups;
-  }, [worldIndices]);
+  }, [mergedIndices]);
 
-  const allEmpty = !worldIndices || worldIndices.length === 0 || worldIndices.every(i => i.value == null);
+  const allEmpty = !mergedIndices || mergedIndices.length === 0 || mergedIndices.every(i => i.value == null);
 
   return (
     <div style={{ padding: isMobile ? "8px 0 24px" : "0 0 32px" }}>

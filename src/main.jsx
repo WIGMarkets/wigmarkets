@@ -298,7 +298,8 @@ export default function WigMarkets() {
     return () => clearInterval(interval);
   }, []);
 
-  // World indices (S&P 500, NASDAQ, Dow Jones, DAX, FTSE, CAC, Nikkei, Hang Seng + GPW)
+  // World indices (S&P 500, NASDAQ, Dow Jones, DAX, FTSE, CAC, Nikkei, Hang Seng)
+  // Polish indices (WIG20, mWIG40, sWIG80) are reused from the GPW indices fetch above.
   useEffect(() => {
     const worldDefs = [
       { name: "S&P 500",    stooq: "sp500"  },
@@ -309,9 +310,6 @@ export default function WigMarkets() {
       { name: "CAC 40",     stooq: "cac40"  },
       { name: "Nikkei 225", stooq: "nikkei" },
       { name: "Hang Seng",  stooq: "hsi"    },
-      { name: "WIG20",      stooq: "wig20"  },
-      { name: "mWIG40",     stooq: "mwig40" },
-      { name: "sWIG80",     stooq: "swig80" },
     ];
     const loadWorld = async () => {
       const symbols = worldDefs.map(d => d.stooq);
@@ -644,7 +642,7 @@ export default function WigMarkets() {
         ) : tab === "indeksy" ? (
           <IndeksyView indices={indices} theme={theme} isMobile={isMobile} />
         ) : tab === "swiatowe" ? (
-          <WorldIndicesView worldIndices={worldIndices} theme={theme} isMobile={isMobile} />
+          <WorldIndicesView worldIndices={worldIndices} gpwIndices={indices} theme={theme} isMobile={isMobile} />
         ) : (<>
         <div>
           {/* Popularne tab */}
