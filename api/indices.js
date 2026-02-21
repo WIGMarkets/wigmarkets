@@ -1,20 +1,17 @@
 import { YF_HEADERS } from "./yahoo-map.js";
 
-// Poprawne symbole Yahoo Finance dla indeksów GPW.
-// ^ prefix to standard YF dla indeksów (tak jak ^GSPC dla S&P500).
-// .WA dotyczy tylko SPÓŁEK na GPW, NIE indeksów.
+// Indeksy GPW: Yahoo Finance (primary) + Stooq.pl (fallback)
 const INDEX_SYMBOLS = [
-  { name: "WIG20",  yahoo: "^WIG20"  },
-  { name: "WIG",    yahoo: "^WIG"    },
-  { name: "mWIG40", yahoo: "^MWIG40" },
-  { name: "sWIG80", yahoo: "^SWIG80" },
+  { name: "WIG20",  yahoo: "^WIG20",  stooq: "wig20"  },
+  { name: "WIG",    yahoo: "^WIG",    stooq: "wig"    },
+  { name: "mWIG40", yahoo: "^MWIG40", stooq: "mwig40" },
+  { name: "sWIG80", yahoo: "^SWIG80", stooq: "swig80" },
 ];
 
-// Próbuje fetcha z retry (query1 → query2) i backoffem
+// ─── Yahoo Finance (primary source) ────────────────────
 async function fetchYFChart(symbol, retries = 2) {
   const hosts = ["query1", "query2"];
   const encoded = encodeURIComponent(symbol);
-  // range=1mo: ~22 dni handlowe, zawsze wystarczy danych na sparkline + zmianę 24h
   const path = `/v8/finance/chart/${encoded}?interval=1d&range=1mo`;
 
   for (let attempt = 0; attempt <= retries; attempt++) {
@@ -43,16 +40,13 @@ async function fetchYFChart(symbol, retries = 2) {
   return null;
 }
 
-async function fetchIndex({ name, yahoo }) {
-  const result = await fetchYFChart(yahoo);
-  if (!result) return { name, value: null, change24h: null, sparkline: [] };
+function parseYFResult(name, result) {
+  if (!result) return null;
 
   const timestamps = result.timestamp || [];
   const rawCloses  = result.indicators?.quote?.[0]?.close || [];
-
-  // Filtrujemy null — dzisiejszy bar może być pusty gdy rynek otwarty
   const closes = rawCloses.filter(c => c !== null && c !== undefined && !isNaN(c) && c > 0);
-  if (closes.length < 1) return { name, value: null, change24h: null, sparkline: [] };
+  if (closes.length < 1) return null;
 
   const today     = closes[closes.length - 1];
   const yesterday = closes.length >= 2 ? closes[closes.length - 2] : null;
@@ -60,7 +54,6 @@ async function fetchIndex({ name, yahoo }) {
     ? parseFloat((((today - yesterday) / yesterday) * 100).toFixed(2))
     : null;
 
-  // Sparkline [{date, close}] z timestampów — IndekSparkline w karcie używa .close
   const sparkline = timestamps
     .map((ts, i) => ({
       date:  new Date(ts * 1000).toISOString().slice(0, 10),
@@ -71,13 +64,97 @@ async function fetchIndex({ name, yahoo }) {
   return { name, value: today, change24h, sparkline };
 }
 
+// ─── Stooq.pl (fallback source) ────────────────────────
+// Stooq CSV API: returns daily OHLCV data for Polish indices
+async function fetchFromStooq(stooqSymbol, retries = 1) {
+  const end = new Date();
+  const start = new Date(end);
+  start.setDate(start.getDate() - 35);
+
+  const d1 = start.toISOString().slice(0, 10).replace(/-/g, "");
+  const d2 = end.toISOString().slice(0, 10).replace(/-/g, "");
+  const url = `https://stooq.pl/q/d/l/?s=${stooqSymbol}&d1=${d1}&d2=${d2}&i=d`;
+
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(url, {
+        headers: {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+          "Accept": "text/csv, text/plain, */*",
+        },
+      });
+      if (!res.ok) {
+        if (attempt < retries) { await new Promise(r => setTimeout(r, 300)); continue; }
+        return null;
+      }
+      const text = await res.text();
+      return parseStooqCSV(text);
+    } catch {
+      if (attempt < retries) { await new Promise(r => setTimeout(r, 300)); continue; }
+      return null;
+    }
+  }
+  return null;
+}
+
+function parseStooqCSV(csv) {
+  const lines = csv.trim().split("\n");
+  if (lines.length < 2) return null;
+
+  // Header: Data,Otwarcie,Najwyzszy,Najnizszy,Zamkniecie,Wolumen
+  // (or English: Date,Open,High,Low,Close,Volume)
+  const rows = [];
+  for (let i = 1; i < lines.length; i++) {
+    const cols = lines[i].split(",");
+    if (cols.length < 5) continue;
+    const date  = cols[0].trim();
+    const close = parseFloat(cols[4]);
+    if (isNaN(close) || close <= 0) continue;
+    rows.push({ date, close });
+  }
+
+  if (rows.length < 1) return null;
+
+  // Stooq returns oldest-first, so last row is most recent
+  const latest = rows[rows.length - 1];
+  const prev   = rows.length >= 2 ? rows[rows.length - 2] : null;
+  const change24h = prev
+    ? parseFloat((((latest.close - prev.close) / prev.close) * 100).toFixed(2))
+    : null;
+
+  const sparkline = rows.map(r => ({ date: r.date, close: r.close }));
+
+  return { value: latest.close, change24h, sparkline };
+}
+
+// ─── Fetch single index: Yahoo first, Stooq fallback ───
+async function fetchIndex({ name, yahoo, stooq }) {
+  // Try Yahoo Finance first
+  const yfResult = await fetchYFChart(yahoo);
+  const parsed = parseYFResult(name, yfResult);
+  if (parsed) return parsed;
+
+  // Fallback to Stooq.pl
+  const stooqData = await fetchFromStooq(stooq);
+  if (stooqData) {
+    return {
+      name,
+      value:     stooqData.value,
+      change24h: stooqData.change24h,
+      sparkline: stooqData.sparkline,
+    };
+  }
+
+  // Both sources failed
+  return { name, value: null, change24h: null, sparkline: [] };
+}
+
+// ─── Handler ────────────────────────────────────────────
 export default async function handler(req, res) {
   try {
-    // Sekwencyjnie z małym staggerem — zapobiega rate-limitingowi przy 4 naraz
     const results = [];
     for (const sym of INDEX_SYMBOLS) {
       results.push(await fetchIndex(sym));
-      // 80ms przerwy między requestami, pomija ostatni
       if (sym !== INDEX_SYMBOLS[INDEX_SYMBOLS.length - 1]) {
         await new Promise(r => setTimeout(r, 80));
       }

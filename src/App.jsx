@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { Routes, Route, useNavigate, useLocation, Navigate } from "react-router-dom";
 import { DARK_THEME, LIGHT_THEME } from "./lib/themes.js";
-import { fetchBulk, fetchDynamicList } from "./lib/api.js";
+import { fetchBulk, fetchIndices, fetchDynamicList } from "./lib/api.js";
 import { STOCKS, COMMODITIES, FOREX } from "./data/stocks.js";
 import { loadAlerts, usePriceAlerts } from "./hooks/usePriceAlerts.js";
 import HomePage from "./pages/HomePage.jsx";
@@ -70,28 +70,14 @@ export default function App() {
     });
   }, []);
 
-  // Refresh GPW indices
+  // Refresh GPW indices — uses dedicated /api/indices endpoint
+  // with retry logic and host failover (query1 → query2)
   useEffect(() => {
     const load = async () => {
-      const bulk = await fetchBulk(["wig20", "wig", "mwig40", "swig80"]);
-      const defs = [
-        { name: "WIG20",  stooq: "wig20"  },
-        { name: "WIG",    stooq: "wig"    },
-        { name: "mWIG40", stooq: "mwig40" },
-        { name: "sWIG80", stooq: "swig80" },
-      ];
-      const built = defs.map(({ name, stooq }) => {
-        const d = bulk[stooq];
-        if (!d?.close) return { name, value: null, change24h: null, change7d: null, sparkline: [] };
-        return {
-          name,
-          value:     d.close,
-          change24h: d.change24h ?? null,
-          change7d:  d.change7d  ?? null,
-          sparkline: (d.sparkline || []).map(c => ({ close: c })),
-        };
-      });
-      if (built.some(i => i.value !== null)) setIndices(built);
+      const data = await fetchIndices();
+      if (data.length > 0 && data.some(i => i.value !== null)) {
+        setIndices(data);
+      }
     };
     load();
     const interval = setInterval(load, 60000);
