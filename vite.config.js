@@ -8,7 +8,7 @@ function apiDevPlugin() {
     configureServer(server) {
       server.middlewares.use(async (req, res, next) => {
         const url = new URL(req.url, 'http://localhost')
-        const match = url.pathname.match(/^\/api\/([a-z.]+)$/)
+        const match = url.pathname.match(/^\/api\/([a-z0-9._-]+)$/)
         if (!match) return next()
 
         const handlerPath = new URL(`./api/${match[1]}.js`, import.meta.url).pathname
@@ -18,9 +18,14 @@ function apiDevPlugin() {
           const mockReq = { query, method: req.method }
           const mockRes = {
             statusCode: 200,
+            _headers: {},
             status(code) { this.statusCode = code; return this },
+            setHeader(key, val) { this._headers[key] = val },
             json(data) {
               res.setHeader('Content-Type', 'application/json')
+              for (const [k, v] of Object.entries(this._headers)) {
+                try { res.setHeader(k, v) } catch {}
+              }
               res.statusCode = this.statusCode
               res.end(JSON.stringify(data))
             },

@@ -11,6 +11,7 @@ import FearGreedPage from "./components/FearGreedPage.jsx";
 import NewsPage from "./components/NewsPage.jsx";
 import PortfolioPage from "./components/PortfolioPage.jsx";
 import EdukacjaHome from "./components/edukacja/EdukacjaHome.jsx";
+import ErrorBoundary from "./components/ErrorBoundary.jsx";
 
 export default function App() {
   const navigate = useNavigate();
@@ -158,7 +159,7 @@ export default function App() {
           liveStocks={liveStocks} allInstruments={allInstruments} />
       } />
       <Route path="/dywidendy" element={<DividendPage theme={theme} />} />
-      <Route path="/indeks" element={<FearGreedPage theme={theme} />} />
+      <Route path="/indeks" element={<ErrorBoundary><FearGreedPage theme={theme} /></ErrorBoundary>} />
       <Route path="/wiadomosci" element={<NewsPage theme={theme} />} />
       <Route path="/portfolio" element={<PortfolioPage theme={theme} prices={prices} allInstruments={allInstruments} />} />
       <Route path="/edukacja" element={<EdukacjaHome theme={theme} />} />

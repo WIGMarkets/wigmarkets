@@ -154,12 +154,12 @@ export default function FearGreedPage({ theme }) {
   const minYear = data.yearMin ?? value;
   const maxYear = data.yearMax ?? value;
 
-  // Chart data slice
-  const allHistory = data.history || [];
+  // Chart data slice — filter out entries with invalid values
+  const allHistory = (data.history || []).filter(h => h && typeof h.value === "number" && !isNaN(h.value));
   const sliceDays = RANGES.find(r => r.key === range)?.days ?? 365;
   const chartSlice = allHistory.slice(-sliceDays);
   const chartData = chartSlice.map(h => h.value);
-  const chartDates = chartSlice.map(h => h.date);
+  const chartDates = chartSlice.map(h => h.date || "");
 
   // Mouse interaction
   const handleMouseMove = useCallback((e) => {
@@ -580,20 +580,21 @@ export default function FearGreedPage({ theme }) {
             )}
           </div>
           <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(3, 1fr)", gap: 12 }}>
-            {indicators.map((f) => {
-              const fc = getColor(f.value);
-              const fl = getLabel(f.value);
+            {indicators.filter(f => f && f.name).map((f) => {
+              const fv = typeof f.value === "number" ? f.value : 50;
+              const fc = getColor(fv);
+              const fl = getLabel(fv);
               return (
-                <div key={f.name} style={{ background: theme.bgCardAlt ?? theme.bg, border: `1px solid ${theme.border}`, borderRadius: 10, padding: "14px 16px" }}>
+                <div key={f.name} style={{ background: theme.bgCardAlt ?? theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 10, padding: "14px 16px" }}>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 8 }}>
                     <div style={{ fontSize: 12, fontWeight: 700, color: theme.textBright, lineHeight: 1.3 }}>{f.name}</div>
                     <div style={{ textAlign: "right", flexShrink: 0, marginLeft: 8 }}>
-                      <div style={{ fontSize: 20, fontWeight: 800, color: fc, lineHeight: 1 }}>{f.value}</div>
+                      <div style={{ fontSize: 20, fontWeight: 800, color: fc, lineHeight: 1 }}>{fv}</div>
                       <div style={{ fontSize: 10, color: fc, fontWeight: 600 }}>{fl}</div>
                     </div>
                   </div>
                   <div style={{ background: theme.border, borderRadius: 4, height: 6, marginBottom: 8, overflow: "hidden" }}>
-                    <div style={{ width: `${f.value}%`, height: "100%", background: fc, borderRadius: 4, transition: "width 0.8s ease" }} />
+                    <div style={{ width: `${Math.min(100, Math.max(0, fv))}%`, height: "100%", background: fc, borderRadius: 4, transition: "width 0.8s ease" }} />
                   </div>
                   {f.description && (
                     <div style={{ fontSize: 11, color: theme.textSecondary, lineHeight: 1.5 }}>{f.description}</div>
