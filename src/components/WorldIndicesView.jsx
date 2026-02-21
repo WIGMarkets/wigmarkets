@@ -49,17 +49,17 @@ function MiniSpark({ prices, trend, height = 72, id }) {
 }
 
 const WORLD_INDEX_META = {
-  "S&P 500":  { flag: "🇺🇸", region: "USA",    color: "#3b82f6" },
-  "NASDAQ":   { flag: "🇺🇸", region: "USA",    color: "#8b5cf6" },
-  "Dow Jones":{ flag: "🇺🇸", region: "USA",    color: "#0ea5e9" },
-  "DAX":      { flag: "🇩🇪", region: "Europa", color: "#f59e0b" },
-  "FTSE 100": { flag: "🇬🇧", region: "Europa", color: "#ef4444" },
-  "CAC 40":   { flag: "🇫🇷", region: "Europa", color: "#06b6d4" },
-  "Nikkei 225":{ flag: "🇯🇵", region: "Azja",  color: "#ec4899" },
-  "Hang Seng":{ flag: "🇭🇰", region: "Azja",   color: "#f97316" },
-  "WIG20":    { flag: "🇵🇱", region: "Polska", color: "#dc2626" },
-  "mWIG40":   { flag: "🇵🇱", region: "Polska", color: "#dc2626" },
-  "sWIG80":   { flag: "🇵🇱", region: "Polska", color: "#dc2626" },
+  "S&P 500":  { flag: "US", region: "USA",    color: "#3b82f6" },
+  "NASDAQ":   { flag: "US", region: "USA",    color: "#8b5cf6" },
+  "Dow Jones":{ flag: "US", region: "USA",    color: "#0ea5e9" },
+  "DAX":      { flag: "DE", region: "Europa", color: "#f59e0b" },
+  "FTSE 100": { flag: "GB", region: "Europa", color: "#ef4444" },
+  "CAC 40":   { flag: "FR", region: "Europa", color: "#06b6d4" },
+  "Nikkei 225":{ flag: "JP", region: "Azja",  color: "#ec4899" },
+  "Hang Seng":{ flag: "HK", region: "Azja",   color: "#f97316" },
+  "WIG20":    { flag: "PL", region: "Polska", color: "#dc2626" },
+  "mWIG40":   { flag: "PL", region: "Polska", color: "#dc2626" },
+  "sWIG80":   { flag: "PL", region: "Polska", color: "#dc2626" },
 };
 
 const REGIONS = ["USA", "Europa", "Azja", "Polska"];
@@ -159,7 +159,7 @@ export default function WorldIndicesView({ worldIndices, gpwIndices, theme, isMo
                     >
                       {/* Header */}
                       <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-                        <span style={{ fontSize: isMobile ? 14 : 16 }}>{meta.flag}</span>
+                        <span style={{ fontSize: 10, fontWeight: 700, letterSpacing: "0.04em", color: meta.color, background: `${meta.color}18`, borderRadius: 4, padding: "2px 5px", fontFamily: "var(--font-mono)" }}>{meta.flag}</span>
                         <span style={{
                           fontSize: 11, fontWeight: 700, letterSpacing: "0.06em",
                           textTransform: "uppercase", color: meta.color,
