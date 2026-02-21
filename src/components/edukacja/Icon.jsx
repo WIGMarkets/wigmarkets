@@ -352,6 +352,32 @@ const ICONS = {
       <line x1="3" y1="18" x2="21" y2="18" />
     </>
   ),
+  "share-2": (
+    <>
+      <circle cx="18" cy="5" r="3" />
+      <circle cx="6" cy="12" r="3" />
+      <circle cx="18" cy="19" r="3" />
+      <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+      <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+    </>
+  ),
+  "twitter": (
+    <>
+      <path d="M4 4l6.5 8L4 20h2l5.5-6.8L16 20h4l-7-8.7L19.5 4H18l-5 6.2L9 4H4z" />
+    </>
+  ),
+  "facebook": (
+    <>
+      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+    </>
+  ),
+  "linkedin": (
+    <>
+      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+      <rect x="2" y="9" width="4" height="12" />
+      <circle cx="4" cy="4" r="2" />
+    </>
+  ),
 };
 
 export default function Icon({ name, size = 20, color, style, className }) {
