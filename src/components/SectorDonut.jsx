@@ -9,42 +9,82 @@ export default function SectorDonut({ stocks, theme }) {
   const total = sorted.reduce((a, [, v]) => a + v, 0);
   if (!total) return null;
 
-  // Używamy accent kolorów z palety monogramów — spójność wizualna
-  const cx = 50, cy = 50, r = 38, ir = 24;
-  let angle = -90;
-  const slices = sorted.map(([sector, cap]) => {
-    const frac = cap / total;
-    const startAngle = angle;
-    const sweep = frac * 360;
-    angle += sweep;
-    const endAngle = angle;
-    const large = sweep > 180 ? 1 : 0;
-    const s1 = (startAngle * Math.PI) / 180, e1 = (endAngle * Math.PI) / 180;
-    const x1 = cx + r * Math.cos(s1), y1 = cy + r * Math.sin(s1);
-    const x2 = cx + r * Math.cos(e1), y2 = cy + r * Math.sin(e1);
-    const x3 = cx + ir * Math.cos(e1), y3 = cy + ir * Math.sin(e1);
-    const x4 = cx + ir * Math.cos(s1), y4 = cy + ir * Math.sin(s1);
-    const d = `M${x1},${y1} A${r},${r} 0 ${large} 1 ${x2},${y2} L${x3},${y3} A${ir},${ir} 0 ${large} 0 ${x4},${y4} Z`;
-    const color = getSectorPalette(sector).accent;
-    return { sector, cap, frac, d, color };
-  });
+  const slices = sorted.map(([sector, cap]) => ({
+    sector,
+    cap,
+    pct: (cap / total) * 100,
+    color: getSectorPalette(sector).accent,
+  }));
 
   return (
-    <div style={{ background: `linear-gradient(135deg, ${theme.bgCardAlt} 0%, ${theme.bgCard} 100%)`, border: `1px solid rgba(255,255,255,0.06)`, borderRadius: 14, padding: 20 }}>
-      <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 12, fontWeight: 600, fontFamily: "var(--font-ui)" }}>Dominacja sektorowa</div>
-      <div style={{ display: "flex", justifyContent: "center", marginBottom: 12 }}>
-        <svg width="140" height="140" viewBox="0 0 100 100">
-          {slices.map(s => <path key={s.sector} d={s.d} fill={s.color} opacity="0.85" stroke={theme.bgCard} strokeWidth="0.5" />)}
-          <text x="50" y="47" textAnchor="middle" fill={theme.textBright} fontSize="7" fontWeight="800" fontFamily="'JetBrains Mono',monospace">{(total / 1000).toFixed(0)}</text>
-          <text x="50" y="56" textAnchor="middle" fill={theme.textSecondary} fontSize="3.5" fontFamily="'JetBrains Mono',monospace">mld zł</text>
-        </svg>
+    <div style={{
+      background: `linear-gradient(135deg, ${theme.bgCardAlt} 0%, ${theme.bgCard} 100%)`,
+      border: `1px solid ${theme.border}`,
+      borderRadius: 14, padding: 20,
+    }}>
+      <div style={{
+        display: "flex", justifyContent: "space-between", alignItems: "center",
+        marginBottom: 14,
+      }}>
+        <span style={{
+          fontSize: 11, color: theme.textSecondary, letterSpacing: "0.08em",
+          textTransform: "uppercase", fontWeight: 600, fontFamily: "var(--font-ui)",
+        }}>Dominacja sektorowa</span>
+        <span style={{
+          fontSize: 12, fontWeight: 700, color: theme.textBright,
+          fontFamily: "var(--font-mono)",
+        }}>{(total / 1000).toFixed(0)} mld zł</span>
       </div>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4px 8px" }}>
-        {sorted.slice(0, 8).map(([sector, cap], i) => (
-          <div key={sector} style={{ display: "flex", alignItems: "center", gap: 5, overflow: "hidden" }}>
-            <span style={{ width: 8, height: 8, borderRadius: 2, background: slices[i].color, flexShrink: 0 }} />
-            <span style={{ fontSize: 11, color: theme.textMuted ?? theme.text, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", flex: 1 }}>{sector}</span>
-            <span style={{ fontSize: 11, fontWeight: 600, color: slices[i].color, flexShrink: 0 }}>{(cap / total * 100).toFixed(0)}%</span>
+
+      {/* Horizontal stacked bar */}
+      <div style={{
+        display: "flex", height: 10, borderRadius: 5, overflow: "hidden",
+        marginBottom: 16,
+        background: theme.bgCardAlt,
+      }}>
+        {slices.map(s => (
+          <div
+            key={s.sector}
+            title={`${s.sector}: ${s.pct.toFixed(1)}%`}
+            style={{
+              width: `${s.pct}%`,
+              background: s.color,
+              opacity: 0.85,
+              transition: "opacity 0.15s",
+              minWidth: s.pct > 1 ? 2 : 0,
+            }}
+          />
+        ))}
+      </div>
+
+      {/* Legend */}
+      <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+        {slices.slice(0, 8).map(s => (
+          <div key={s.sector} style={{ display: "flex", alignItems: "center", gap: 8 }}>
+            <span style={{
+              width: 10, height: 10, borderRadius: 3,
+              background: s.color, flexShrink: 0,
+            }} />
+            <span style={{
+              fontSize: 12, color: theme.text,
+              flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
+            }}>{s.sector}</span>
+            {/* Mini bar */}
+            <div style={{
+              width: 60, height: 4, borderRadius: 2,
+              background: theme.bgCardAlt, flexShrink: 0,
+              overflow: "hidden",
+            }}>
+              <div style={{
+                width: `${s.pct}%`, height: "100%",
+                background: s.color, borderRadius: 2,
+              }} />
+            </div>
+            <span style={{
+              fontSize: 11, fontWeight: 600, color: s.color,
+              flexShrink: 0, width: 36, textAlign: "right",
+              fontFamily: "var(--font-mono)", fontVariantNumeric: "tabular-nums",
+            }}>{s.pct.toFixed(0)}%</span>
           </div>
         ))}
       </div>

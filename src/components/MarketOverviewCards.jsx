@@ -13,9 +13,6 @@ const fmt2 = v =>
     ? v.toLocaleString("pl-PL", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
     : "—";
 
-// Mini sparkline z gradientem fill + animacją rysowania linii od lewej.
-// Dane sparkline pochodzą z /api/indices (range=1mo) — nie ma potrzeby
-// osobnego wywołania fetchHistory dla kart WIG20 i WIG.
 function IndexSparkline({ prices, trend, height = 32, gradId }) {
   const pathRef = useRef(null);
   const color = (trend ?? 0) >= 0 ? "#22c55e" : "#ef4444";
@@ -55,15 +52,9 @@ function IndexSparkline({ prices, trend, height = 32, gradId }) {
   }, [linePath]);
 
   return (
-    <div style={{ height, marginTop: 8, width: "100%" }}>
+    <div style={{ height, marginTop: 4, width: "100%" }}>
       {linePath ? (
-        <svg
-          width="100%"
-          height={height}
-          viewBox="0 0 100 100"
-          preserveAspectRatio="none"
-          style={{ display: "block" }}
-        >
+        <svg width="100%" height={height} viewBox="0 0 100 100" preserveAspectRatio="none" style={{ display: "block" }}>
           <defs>
             <linearGradient id={gradId} x1="0" y1="0" x2="0" y2="1">
               <stop offset="0%"   stopColor={color} stopOpacity="0.18" />
@@ -88,11 +79,6 @@ function IndexSparkline({ prices, trend, height = 32, gradId }) {
   );
 }
 
-/**
- * MarketOverviewCards — 4 karty Market Overview Dashboard.
- * Sparkline WIG20/WIG pobierany z prop `indices` (range=1mo z /api/indices).
- * Brak osobnych wywołań fetchHistory — jeden request, spójne dane.
- */
 export default function MarketOverviewCards({
   indices, topGainers, topLosers,
   changes, prices,
@@ -101,14 +87,13 @@ export default function MarketOverviewCards({
 }) {
   const wig20 = indices.find(i => i.name === "WIG20") ?? null;
   const wig   = indices.find(i => i.name === "WIG")   ?? null;
-  const topG  = topGainers[0] ?? null;
-  const topL  = topLosers[0]  ?? null;
+  const top3G = topGainers.slice(0, 3);
+  const top3L = topLosers.slice(0, 3);
 
-  // minmax(0,1fr) zapewnia ściśle równe kolumny niezależnie od treści
   const gridStyle = {
     display: "grid",
-    gridTemplateColumns: isMobile ? "1fr 1fr" : "repeat(4, minmax(0, 1fr))",
-    gap: isMobile ? 8 : 12,
+    gridTemplateColumns: isMobile ? "1fr 1fr" : "2fr 1fr 1fr",
+    gap: isMobile ? 8 : 14,
   };
 
   const ACCENT_IDX  = "#3b82f6";
@@ -119,49 +104,48 @@ export default function MarketOverviewCards({
     return {
       background: theme.bgCard,
       border: `1px solid ${theme.border}`,
-      borderTop: `2px solid ${accentColor}`,
-      borderRadius: 12,
-      padding: isMobile ? "12px 14px" : "16px 20px",
+      borderRadius: 14,
+      padding: isMobile ? "14px 14px" : "18px 22px",
       cursor: "pointer",
-      transition: "border-color 150ms ease",
+      transition: "border-color 200ms ease, box-shadow 200ms ease, transform 150ms ease",
       animation: "ovCardIn 0.35s ease both",
       animationDelay: `${delay}ms`,
       overflow: "hidden",
       minWidth: 0,
+      position: "relative",
     };
   }
 
   function hover(accentColor) {
     return {
       onMouseEnter: e => {
-        e.currentTarget.style.borderLeftColor   = "rgba(255,255,255,0.2)";
-        e.currentTarget.style.borderRightColor  = "rgba(255,255,255,0.2)";
-        e.currentTarget.style.borderBottomColor = "rgba(255,255,255,0.2)";
+        e.currentTarget.style.borderColor = accentColor + "66";
+        e.currentTarget.style.boxShadow = `0 0 24px ${accentColor}15`;
+        e.currentTarget.style.transform = "translateY(-2px)";
       },
       onMouseLeave: e => {
-        e.currentTarget.style.borderTopColor    = accentColor;
-        e.currentTarget.style.borderLeftColor   = theme.border;
-        e.currentTarget.style.borderRightColor  = theme.border;
-        e.currentTarget.style.borderBottomColor = theme.border;
+        e.currentTarget.style.borderColor = theme.border;
+        e.currentTarget.style.boxShadow = "none";
+        e.currentTarget.style.transform = "none";
       },
     };
   }
 
   const labelStyle = {
-    fontSize: 10,
+    fontSize: 11,
     textTransform: "uppercase",
-    letterSpacing: "0.07em",
+    letterSpacing: "0.08em",
     color: theme.textSecondary,
     fontWeight: 600,
     fontFamily: "var(--font-ui)",
-    marginBottom: 5,
+    marginBottom: 8,
     display: "flex",
     alignItems: "center",
-    gap: 4,
+    gap: 5,
   };
 
   const idxValueStyle = {
-    fontSize: isMobile ? 16 : 20,
+    fontSize: isMobile ? 18 : 24,
     fontWeight: 700,
     color: theme.textBright,
     fontFamily: "var(--font-mono)",
@@ -170,6 +154,49 @@ export default function MarketOverviewCards({
     overflow: "hidden",
     textOverflow: "ellipsis",
     whiteSpace: "nowrap",
+  };
+
+  const MoverRow = ({ s, i, isGainer }) => {
+    const c24h = changes[s.ticker]?.change24h ?? 0;
+    const color = isGainer ? ACCENT_UP : ACCENT_DOWN;
+    return (
+      <div
+        onClick={e => { e.stopPropagation(); navigateToStock(s); }}
+        style={{
+          display: "flex", alignItems: "center", gap: 10,
+          padding: "8px 0",
+          borderBottom: i < 2 ? `1px solid ${theme.border}` : "none",
+          cursor: "pointer",
+          transition: "opacity 0.15s",
+        }}
+      >
+        <span style={{
+          fontSize: 10, fontWeight: 700, color: theme.textMuted,
+          fontFamily: "var(--font-mono)", width: 16, textAlign: "center",
+        }}>{i + 1}</span>
+        <CompanyMonogram ticker={s.ticker} sector={s.sector} size={26} />
+        <div style={{ flex: 1, minWidth: 0 }}>
+          <div style={{
+            fontWeight: 600, fontSize: 13, color: theme.textBright,
+            fontFamily: "var(--font-ui)", lineHeight: 1.2,
+          }}>{s.ticker}</div>
+          <div style={{
+            fontSize: 10, color: theme.textMuted,
+            overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
+          }}>{s.name}</div>
+        </div>
+        <div style={{ textAlign: "right", flexShrink: 0 }}>
+          <div style={{
+            fontSize: 13, fontWeight: 700, color,
+            fontFamily: "var(--font-mono)",
+          }}>{isGainer ? "+" : ""}{c24h.toFixed(2)}%</div>
+          <div style={{
+            fontSize: 10, color: theme.textMuted,
+            fontFamily: "var(--font-mono)", fontVariantNumeric: "tabular-nums",
+          }}>{fmt2(prices[s.ticker])} zł</div>
+        </div>
+      </div>
+    );
   };
 
   return (
@@ -183,128 +210,102 @@ export default function MarketOverviewCards({
 
       <div style={gridStyle}>
 
-        {/* ── Karta 1: WIG20 ── */}
-        <div style={card(ACCENT_IDX, 0)} onClick={navigateToFearGreed} {...hover(ACCENT_IDX)}>
-          <div style={labelStyle}>WIG20</div>
-          <div style={idxValueStyle}>{fmtIdx(wig20?.value)}</div>
-          {wig20?.change24h != null && (
-            <div style={{
-              fontSize: 12, fontWeight: 500, marginTop: 2,
-              color: wig20.change24h >= 0 ? "#22c55e" : "#ef4444",
-              fontFamily: "var(--font-mono)",
-            }}>
-              {wig20.change24h >= 0 ? "▲" : "▼"} {fmtIdxChange(wig20.change24h)}
-            </div>
-          )}
-          {/* sparkline z indices prop (range=1mo) */}
-          <IndexSparkline
-            prices={wig20?.sparkline ?? null}
-            trend={wig20?.change24h ?? 0}
-            height={isMobile ? 24 : 32}
-            gradId="ovspWIG20"
-          />
-        </div>
+        {/* WIG20 + WIG combined card (wider) */}
+        <div
+          style={{
+            ...card(ACCENT_IDX, 0),
+            gridColumn: isMobile ? "1 / -1" : "auto",
+          }}
+          onClick={navigateToFearGreed}
+          {...hover(ACCENT_IDX)}
+        >
+          {/* Subtle glow overlay */}
+          <div style={{
+            position: "absolute", top: 0, left: 0, right: 0, height: 3,
+            background: `linear-gradient(90deg, ${ACCENT_IDX}00, ${ACCENT_IDX}40, ${ACCENT_IDX}00)`,
+            borderRadius: "14px 14px 0 0",
+          }} />
 
-        {/* ── Karta 2: WIG ── */}
-        <div style={card(ACCENT_IDX, 50)} onClick={navigateToFearGreed} {...hover(ACCENT_IDX)}>
-          <div style={labelStyle}>WIG</div>
-          <div style={idxValueStyle}>{fmtIdx(wig?.value)}</div>
-          {wig?.change24h != null && (
-            <div style={{
-              fontSize: 12, fontWeight: 500, marginTop: 2,
-              color: wig.change24h >= 0 ? "#22c55e" : "#ef4444",
-              fontFamily: "var(--font-mono)",
-            }}>
-              {wig.change24h >= 0 ? "▲" : "▼"} {fmtIdxChange(wig.change24h)}
-            </div>
-          )}
-          <IndexSparkline
-            prices={wig?.sparkline ?? null}
-            trend={wig?.change24h ?? 0}
-            height={isMobile ? 24 : 32}
-            gradId="ovspWIG"
-          />
-        </div>
-
-        {/* ── Karta 3: Top Wzrost ── */}
-        <div style={card(ACCENT_UP, 100)} onClick={topG ? () => navigateToStock(topG) : undefined} {...hover(ACCENT_UP)}>
-          <div style={labelStyle}>
-            <Icon name="trending-up" size={11} /> Top wzrost
-          </div>
-          {topG ? (
-            <>
-              <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4, overflow: "hidden" }}>
-                <CompanyMonogram ticker={topG.ticker} sector={topG.sector} size={28} />
-                <div style={{ minWidth: 0 }}>
-                  <div style={{
-                    fontSize: isMobile ? 14 : 16, fontWeight: 700,
-                    color: theme.textBright, fontFamily: "var(--font-ui)", lineHeight: 1.1,
-                    overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
-                  }}>{topG.ticker}</div>
-                  <div style={{
-                    fontSize: 9, color: theme.textSecondary,
-                    overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
-                  }}>{topG.name}</div>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: isMobile ? 12 : 20 }}>
+            {/* WIG20 */}
+            <div>
+              <div style={labelStyle}>WIG20</div>
+              <div style={idxValueStyle}>{fmtIdx(wig20?.value)}</div>
+              {wig20?.change24h != null && (
+                <div style={{
+                  fontSize: 13, fontWeight: 600, marginTop: 4,
+                  color: wig20.change24h >= 0 ? ACCENT_UP : ACCENT_DOWN,
+                  fontFamily: "var(--font-mono)",
+                  display: "flex", alignItems: "center", gap: 4,
+                }}>
+                  <Icon name={wig20.change24h >= 0 ? "trending-up" : "trending-down"} size={14} />
+                  {fmtIdxChange(wig20.change24h)}
                 </div>
-              </div>
-              <div style={{
-                fontSize: isMobile ? 18 : 22, fontWeight: 700,
-                color: "#22c55e", fontFamily: "var(--font-mono)", lineHeight: 1,
-                overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
-              }}>
-                +{(changes[topG.ticker]?.change24h ?? 0).toFixed(2)}%
-              </div>
-              <div style={{
-                fontSize: 10, color: theme.textSecondary,
-                fontFamily: "var(--font-mono)", marginTop: 3,
-                fontVariantNumeric: "tabular-nums",
-              }}>
-                {fmt2(prices[topG.ticker])} {topG.unit || "zł"}
-              </div>
-            </>
+              )}
+              <IndexSparkline
+                prices={wig20?.sparkline ?? null}
+                trend={wig20?.change24h ?? 0}
+                height={isMobile ? 28 : 36}
+                gradId="ovspWIG20"
+              />
+            </div>
+
+            {/* WIG */}
+            <div>
+              <div style={labelStyle}>WIG</div>
+              <div style={idxValueStyle}>{fmtIdx(wig?.value)}</div>
+              {wig?.change24h != null && (
+                <div style={{
+                  fontSize: 13, fontWeight: 600, marginTop: 4,
+                  color: wig.change24h >= 0 ? ACCENT_UP : ACCENT_DOWN,
+                  fontFamily: "var(--font-mono)",
+                  display: "flex", alignItems: "center", gap: 4,
+                }}>
+                  <Icon name={wig.change24h >= 0 ? "trending-up" : "trending-down"} size={14} />
+                  {fmtIdxChange(wig.change24h)}
+                </div>
+              )}
+              <IndexSparkline
+                prices={wig?.sparkline ?? null}
+                trend={wig?.change24h ?? 0}
+                height={isMobile ? 28 : 36}
+                gradId="ovspWIG"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* Top Wzrost — top 3 */}
+        <div style={card(ACCENT_UP, 80)} onClick={top3G[0] ? () => navigateToStock(top3G[0]) : undefined} {...hover(ACCENT_UP)}>
+          <div style={{
+            position: "absolute", top: 0, left: 0, right: 0, height: 3,
+            background: `linear-gradient(90deg, ${ACCENT_UP}00, ${ACCENT_UP}40, ${ACCENT_UP}00)`,
+            borderRadius: "14px 14px 0 0",
+          }} />
+          <div style={labelStyle}>
+            <Icon name="trending-up" size={13} /> Top wzrost
+          </div>
+          {top3G.length > 0 ? (
+            top3G.map((s, i) => <MoverRow key={s.ticker} s={s} i={i} isGainer={true} />)
           ) : (
-            <div style={{ fontSize: 12, color: theme.textSecondary, marginTop: 4 }}>Ładowanie…</div>
+            <div style={{ fontSize: 12, color: theme.textSecondary, marginTop: 8 }}>Ładowanie…</div>
           )}
         </div>
 
-        {/* ── Karta 4: Top Spadek ── */}
-        <div style={card(ACCENT_DOWN, 150)} onClick={topL ? () => navigateToStock(topL) : undefined} {...hover(ACCENT_DOWN)}>
+        {/* Top Spadek — top 3 */}
+        <div style={card(ACCENT_DOWN, 140)} onClick={top3L[0] ? () => navigateToStock(top3L[0]) : undefined} {...hover(ACCENT_DOWN)}>
+          <div style={{
+            position: "absolute", top: 0, left: 0, right: 0, height: 3,
+            background: `linear-gradient(90deg, ${ACCENT_DOWN}00, ${ACCENT_DOWN}40, ${ACCENT_DOWN}00)`,
+            borderRadius: "14px 14px 0 0",
+          }} />
           <div style={labelStyle}>
-            <Icon name="trending-down" size={11} /> Top spadek
+            <Icon name="trending-down" size={13} /> Top spadek
           </div>
-          {topL ? (
-            <>
-              <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4, overflow: "hidden" }}>
-                <CompanyMonogram ticker={topL.ticker} sector={topL.sector} size={28} />
-                <div style={{ minWidth: 0 }}>
-                  <div style={{
-                    fontSize: isMobile ? 14 : 16, fontWeight: 700,
-                    color: theme.textBright, fontFamily: "var(--font-ui)", lineHeight: 1.1,
-                    overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
-                  }}>{topL.ticker}</div>
-                  <div style={{
-                    fontSize: 9, color: theme.textSecondary,
-                    overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
-                  }}>{topL.name}</div>
-                </div>
-              </div>
-              <div style={{
-                fontSize: isMobile ? 18 : 22, fontWeight: 700,
-                color: "#ef4444", fontFamily: "var(--font-mono)", lineHeight: 1,
-                overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
-              }}>
-                {(changes[topL.ticker]?.change24h ?? 0).toFixed(2)}%
-              </div>
-              <div style={{
-                fontSize: 10, color: theme.textSecondary,
-                fontFamily: "var(--font-mono)", marginTop: 3,
-                fontVariantNumeric: "tabular-nums",
-              }}>
-                {fmt2(prices[topL.ticker])} {topL.unit || "zł"}
-              </div>
-            </>
+          {top3L.length > 0 ? (
+            top3L.map((s, i) => <MoverRow key={s.ticker} s={s} i={i} isGainer={false} />)
           ) : (
-            <div style={{ fontSize: 12, color: theme.textSecondary, marginTop: 4 }}>Ładowanie…</div>
+            <div style={{ fontSize: 12, color: theme.textSecondary, marginTop: 8 }}>Ładowanie…</div>
           )}
         </div>
 

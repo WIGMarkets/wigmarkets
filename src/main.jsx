@@ -70,6 +70,7 @@ function TableRow({ s, i, rank, isMobile, tab, theme, prices, changes, watchlist
   const sparkline = changes[s.ticker]?.sparkline ?? null;
   const priceColor = c24h > 0 ? "#22c55e" : c24h < 0 ? "#ef4444" : theme.textBright;
   const flashCls = usePriceFlash(currentPrice);
+  const PAD = isMobile ? "16px" : "18px";
   return (
     <tr
       key={s.id}
@@ -77,33 +78,35 @@ function TableRow({ s, i, rank, isMobile, tab, theme, prices, changes, watchlist
       onClick={() => isMobile ? setSelected(s) : navigateToStock(s)}
       onMouseEnter={e => { e.currentTarget.style.background = theme.bgCardAlt; e.currentTarget.style.borderLeftColor = theme.accent; onHover?.(); }}
       onMouseLeave={e => { if (!isKeyboardActive) { e.currentTarget.style.background = ""; e.currentTarget.style.borderLeftColor = "transparent"; } }}
-      style={{ borderBottom: `1px solid ${theme.border}`, borderLeft: `2px solid ${isKeyboardActive ? theme.accent : "transparent"}`, cursor: "pointer", transition: "background 0.15s, border-color 0.15s", background: isKeyboardActive ? theme.bgCardAlt : "", animationDelay: `${i * 20}ms` }}
+      style={{ borderBottom: `1px solid ${theme.border}`, borderLeft: `3px solid ${isKeyboardActive ? theme.accent : "transparent"}`, cursor: "pointer", transition: "background 0.15s, border-color 0.15s", background: isKeyboardActive ? theme.bgCardAlt : "", animationDelay: `${i * 20}ms` }}
     >
-      <td style={{ padding: isMobile ? "14px 4px" : "14px 8px", textAlign: "center" }}>
-        <WatchStar active={watchlist.has(s.ticker)} onClick={() => toggleWatch(s.ticker)} theme={theme} />
+      <td style={{ padding: `${PAD} 10px`, textAlign: "center", width: 40 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+          <WatchStar active={watchlist.has(s.ticker)} onClick={() => toggleWatch(s.ticker)} theme={theme} />
+          {!isMobile && <span style={{ fontSize: 10, color: theme.textMuted, fontFamily: "var(--font-mono)", fontVariantNumeric: "tabular-nums" }}>{rank}</span>}
+        </div>
       </td>
-      {!isMobile && <td style={{ padding: "14px 16px", color: theme.textMuted, fontSize: 11, fontFamily: "var(--font-mono)" }}>{rank}</td>}
-      <td style={{ padding: isMobile ? "14px 10px" : "14px 16px" }}>
+      <td style={{ padding: `${PAD} ${isMobile ? "10px" : "16px"}` }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          <StockLogo ticker={s.ticker} size={28} borderRadius={6} sector={s.sector} />
+          <StockLogo ticker={s.ticker} size={isMobile ? 28 : 32} borderRadius={6} sector={s.sector} />
           <div>
-            <div style={{ fontWeight: 600, color: theme.textBright, fontSize: isMobile ? 12 : 13, fontFamily: "var(--font-ui)", letterSpacing: "0.01em" }}>{s.ticker}</div>
-            <div style={{ fontSize: 10, color: theme.textMuted, maxWidth: isMobile ? 120 : undefined, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.name}</div>
+            <div style={{ fontWeight: 600, color: theme.textBright, fontSize: isMobile ? 12 : 14, fontFamily: "var(--font-ui)", letterSpacing: "0.01em" }}>{s.ticker}</div>
+            <div style={{ fontSize: 11, color: theme.textMuted, maxWidth: isMobile ? 120 : 180, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.name}</div>
           </div>
         </div>
       </td>
-      <td style={{ padding: isMobile ? "14px 8px" : "14px 16px", textAlign: "right", fontWeight: 600, color: priceColor, fontSize: isMobile ? 12 : 13, whiteSpace: "nowrap", fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{fmt(currentPrice)} {s.unit || "zł"}</td>
-      <td style={{ padding: isMobile ? "14px 8px" : "14px 16px", textAlign: "right", fontVariantNumeric: "tabular-nums" }}>
-        <span style={{ display: "inline-block", padding: "3px 8px", borderRadius: 6, fontSize: isMobile ? 11 : 12, fontWeight: 600, background: c24h > 0 ? "rgba(34,197,94,0.12)" : c24h < 0 ? "rgba(239,68,68,0.12)" : "rgba(148,163,184,0.08)", color: changeColor(c24h), whiteSpace: "nowrap", fontFamily: "var(--font-mono)" }}>{changeFmt(c24h)}</span>
+      <td style={{ padding: `${PAD} ${isMobile ? "8px" : "16px"}`, textAlign: "right", fontWeight: 600, color: priceColor, fontSize: isMobile ? 13 : 14, whiteSpace: "nowrap", fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{fmt(currentPrice)} {s.unit || "zł"}</td>
+      <td style={{ padding: `${PAD} ${isMobile ? "8px" : "16px"}`, textAlign: "right", fontVariantNumeric: "tabular-nums" }}>
+        <span style={{ display: "inline-block", padding: "4px 10px", borderRadius: 6, fontSize: isMobile ? 11 : 12, fontWeight: 600, background: c24h > 0 ? "rgba(34,197,94,0.12)" : c24h < 0 ? "rgba(239,68,68,0.12)" : "rgba(148,163,184,0.08)", color: changeColor(c24h), whiteSpace: "nowrap", fontFamily: "var(--font-mono)" }}>{changeFmt(c24h)}</span>
       </td>
-      {!isMobile && <td style={{ padding: "14px 16px", textAlign: "right", color: changeColor(c7d), fontSize: 12, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{changeFmt(c7d)}</td>}
-      {!isMobile && (tab === "akcje" || tab === "screener") && <td style={{ padding: "14px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{fmtCap(s.cap)}</td>}
-      {!isMobile && tab !== "screener" && <td style={{ padding: "14px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{fmtVolume(volume, currentPrice)}</td>}
-      {!isMobile && tab === "akcje" && showPE  && <td style={{ padding: "14px 16px", textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{s.pe ? fmt(s.pe) : "—"}</td>}
-      {!isMobile && tab === "akcje" && showDiv && <td style={{ padding: "14px 16px", textAlign: "right", color: s.div > 0 ? "#22c55e" : theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{s.div ? `${fmt(s.div)}%` : "—"}</td>}
-      {!isMobile && <td style={{ padding: "14px 16px", textAlign: "right" }}><Sparkline prices={sparkline} trend={c7d} /></td>}
+      {!isMobile && <td style={{ padding: `${PAD} 16px`, textAlign: "right", color: changeColor(c7d), fontSize: 12, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{changeFmt(c7d)}</td>}
+      {!isMobile && (tab === "akcje" || tab === "screener") && <td style={{ padding: `${PAD} 16px`, textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{fmtCap(s.cap)}</td>}
+      {!isMobile && tab !== "screener" && <td style={{ padding: `${PAD} 16px`, textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{fmtVolume(volume, currentPrice)}</td>}
+      {!isMobile && tab === "akcje" && showPE  && <td style={{ padding: `${PAD} 16px`, textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{s.pe ? fmt(s.pe) : "—"}</td>}
+      {!isMobile && tab === "akcje" && showDiv && <td style={{ padding: `${PAD} 16px`, textAlign: "right", color: s.div > 0 ? "#22c55e" : theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{s.div ? `${fmt(s.div)}%` : "—"}</td>}
+      {!isMobile && <td style={{ padding: `${PAD} 16px`, textAlign: "right" }}><Sparkline prices={sparkline} trend={c7d} /></td>}
       {!isMobile && (
-        <td style={{ padding: "14px 16px", textAlign: "right" }}>
+        <td style={{ padding: `${PAD} 16px`, textAlign: "right" }}>
           <button
             onClick={e => { e.stopPropagation(); setCalcStock(s); }}
             style={{ padding: "5px 11px", borderRadius: 6, border: `1px solid ${theme.borderInput}`, background: "transparent", color: theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "var(--font-ui)", whiteSpace: "nowrap", lineHeight: 1.2, transition: "all 0.15s" }}
@@ -190,7 +193,7 @@ export default function WigMarkets() {
   }, [location.pathname]);
 
   const bgGradient = darkMode
-    ? "linear-gradient(180deg, #0b0d14 0%, #0f1117 100%)"
+    ? "linear-gradient(180deg, #080810 0%, #0a0a0f 100%)"
     : "linear-gradient(180deg, #eef2f7 0%, #f6f8fa 100%)";
 
   useEffect(() => {
@@ -491,14 +494,17 @@ export default function WigMarkets() {
 
       {/* Top bar — logo + navigation */}
       <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, padding: "0 16px" }}>
-        <div style={{ display: "flex", alignItems: "center", minHeight: 56, maxWidth: 1400, margin: "0 auto" }}>
+        <div style={{ display: "flex", alignItems: "center", minHeight: 58, maxWidth: 1400, margin: "0 auto" }}>
           {/* Mobile: hamburger */}
           {isMobile && (
             <button onClick={() => setDrawerOpen(true)} style={{ background: "transparent", border: "none", color: theme.textBright, cursor: "pointer", padding: "6px 8px 6px 0", lineHeight: 1, fontFamily: "inherit", display: "inline-flex", alignItems: "center" }}>
               <Icon name="menu" size={22} />
             </button>
           )}
-          <WIGMarketsLogo size={isMobile ? "small" : "default"} theme={theme} />
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <WIGMarketsLogo size={isMobile ? "small" : "default"} theme={theme} />
+            {!isMobile && <span style={{ fontSize: 10, color: theme.textMuted, fontFamily: "var(--font-ui)", marginTop: -2, letterSpacing: "0.02em" }}>Notowania GPW w czasie rzeczywistym</span>}
+          </div>
 
           {/* Desktop: mega menu nav */}
           {!isMobile && (
@@ -540,7 +546,7 @@ export default function WigMarkets() {
       <MarqueeTicker stocks={[...liveStocks, ...COMMODITIES, ...FOREX]} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
 
       {/* Market Overview Dashboard */}
-      <div style={{ maxWidth: 1400, margin: "0 auto", padding: isMobile ? "10px 12px 0" : "16px 24px 0" }}>
+      <div style={{ maxWidth: 1400, margin: "0 auto", padding: isMobile ? "12px 12px 0" : "24px 24px 0" }}>
         <MarketOverviewCards
           indices={indices}
           topGainers={topGainers}
@@ -561,9 +567,15 @@ export default function WigMarkets() {
         </div>
       )}
 
-      <div style={{ padding: isMobile ? "12px 12px 0" : "20px 24px 0", maxWidth: 1400, margin: "0 auto" }}>
+      <div style={{ padding: isMobile ? "14px 12px 0" : "28px 24px 0", maxWidth: 1400, margin: "0 auto" }}>
         {/* Quick access pills + view toggles */}
-        <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "nowrap", alignItems: "center", overflowX: "auto", WebkitOverflowScrolling: "touch", msOverflowStyle: "none", scrollbarWidth: "none", paddingBottom: 2 }}>
+        <div style={{
+          display: "flex", gap: 6, marginBottom: 18, flexWrap: "nowrap",
+          alignItems: "center", overflowX: "auto", WebkitOverflowScrolling: "touch",
+          msOverflowStyle: "none", scrollbarWidth: "none", paddingBottom: 2,
+          padding: "10px 14px", background: theme.bgCard,
+          border: `1px solid ${theme.border}`, borderRadius: 12,
+        }}>
           {/* Pill buttons for quick view switching */}
           {[
             ["akcje", "building", "Akcje GPW"],
@@ -573,31 +585,42 @@ export default function WigMarkets() {
           ].map(([key, iconName, label]) => (
             <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); setWatchFilter(key === "watchlist"); }}
               style={{
-                padding: "7px 14px", borderRadius: 20,
-                border: `1px solid ${tab === key ? theme.accent : theme.borderInput}`,
+                padding: "8px 16px", borderRadius: 8,
+                border: "none",
                 background: tab === key ? `${theme.accent}18` : "transparent",
                 color: tab === key ? theme.accent : theme.textSecondary,
-                fontSize: 12, fontWeight: tab === key ? 600 : 400,
+                fontSize: 13, fontWeight: tab === key ? 600 : 400,
                 cursor: "pointer", fontFamily: "var(--font-ui)",
-                flexShrink: 0, transition: "all 0.2s ease",
+                flexShrink: 0, transition: "all 0.15s ease",
                 whiteSpace: "nowrap",
-                display: "inline-flex", alignItems: "center", gap: 5,
+                display: "inline-flex", alignItems: "center", gap: 6,
               }}
-            ><Icon name={iconName} size={14} /> {label}</button>
+            ><Icon name={iconName} size={15} /> {label}</button>
           ))}
 
           {/* View mode toggle (table/heatmap) */}
           {(tab === "akcje" || tab === "watchlist") && !isMobile && (
-            <div style={{ marginLeft: "auto", display: "flex", borderRadius: 20, border: `1px solid ${theme.borderInput}`, overflow: "hidden", flexShrink: 0 }}>
+            <div style={{
+              marginLeft: "auto", display: "flex", borderRadius: 8,
+              background: theme.bgCardAlt, overflow: "hidden", flexShrink: 0,
+              border: `1px solid ${theme.border}`,
+            }}>
               {[["table", "list", "Tabela"], ["heatmap", "grid", "Heatmapa"]].map(([key, iconName, label]) => (
-                <button key={key} onClick={() => setViewMode(key)} style={{ padding: "6px 14px", border: "none", background: viewMode === key ? `${theme.accent}18` : "transparent", color: viewMode === key ? theme.accent : theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit", fontWeight: viewMode === key ? 700 : 400, whiteSpace: "nowrap", display: "inline-flex", alignItems: "center", gap: 4 }}><Icon name={iconName} size={13} /> {label}</button>
+                <button key={key} onClick={() => setViewMode(key)} style={{
+                  padding: "8px 16px", border: "none",
+                  background: viewMode === key ? `${theme.accent}18` : "transparent",
+                  color: viewMode === key ? theme.accent : theme.textSecondary,
+                  fontSize: 12, cursor: "pointer", fontFamily: "inherit",
+                  fontWeight: viewMode === key ? 700 : 400, whiteSpace: "nowrap",
+                  display: "inline-flex", alignItems: "center", gap: 5,
+                }}><Icon name={iconName} size={14} /> {label}</button>
               ))}
             </div>
           )}
         </div>
       </div>
 
-      <div style={{ maxWidth: 1400, margin: "0 auto", display: isMobile ? "block" : "grid", gridTemplateColumns: (tab === "screener" || tab === "forex" || tab === "indeksy" || tab === "swiatowe") ? "1fr" : "1fr 280px", gap: 24, padding: isMobile ? "0 12px" : "0 24px" }}>
+      <div style={{ maxWidth: 1400, margin: "0 auto", display: isMobile ? "block" : "grid", gridTemplateColumns: (tab === "screener" || tab === "forex" || tab === "indeksy" || tab === "swiatowe") ? "1fr" : "1fr 280px", gap: 24, padding: isMobile ? "0 12px" : "0 24px", marginBottom: 32 }}>
         {tab === "screener" ? (
           <ScreenerView stocks={liveStocks} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
         ) : tab === "indeksy" ? (
@@ -699,9 +722,8 @@ export default function WigMarkets() {
               <table style={{ width: "100%", borderCollapse: "collapse", fontSize: isMobile ? 12 : 13, minWidth: isMobile ? "auto" : 600 }}>
                 <thead style={{ position: "sticky", top: 0, zIndex: 2, background: theme.bgCard }}>
                   <tr>
-                    <th style={{ padding: isMobile ? "10px 4px" : "12px 8px", borderBottom: `2px solid ${theme.border}`, width: 28, background: theme.bgCard }}></th>
-                    {!isMobile && col("#", "id", false)}
-                    <th style={{ padding: isMobile ? "10px 10px" : "12px 16px", textAlign: "left", fontSize: 10, color: theme.textMuted, borderBottom: `2px solid ${theme.border}`, fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", fontFamily: "var(--font-ui)" }}>Instrument</th>
+                    <th style={{ padding: isMobile ? "12px 4px" : "14px 10px", borderBottom: `2px solid ${theme.border}`, width: 40, background: theme.bgCard }}></th>
+                    <th style={{ padding: isMobile ? "12px 10px" : "14px 16px", textAlign: "left", fontSize: 10, color: theme.textMuted, borderBottom: `2px solid ${theme.border}`, fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", fontFamily: "var(--font-ui)" }}>Instrument</th>
                     {col("Kurs", "price")}
                     {col("24h %", "change24h")}
                     {!isMobile && col("7d %", "change7d")}
@@ -746,7 +768,7 @@ export default function WigMarkets() {
 
         {/* Desktop sidebar */}
         {!isMobile && tab !== "forex" && (
-          <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
             <div onClick={() => navigate("/indeks")} style={{ cursor: "pointer", transition: "opacity 0.2s" }}
               onMouseEnter={e => e.currentTarget.style.opacity = "0.85"}
               onMouseLeave={e => e.currentTarget.style.opacity = "1"}>
