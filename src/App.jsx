@@ -56,32 +56,66 @@ export default function App() {
     fetchDynamicList().then(data => {
       if (!data) return;
       setLiveStocks(data.stocks);
-      const newPrices = {}, newChanges = {};
+      const newPrices = {};
+      const screenerQuotes = {};
       for (const [ticker, q] of Object.entries(data.quotes || {})) {
         if (q?.close) {
           newPrices[ticker] = q.close;
-          newChanges[ticker] = { change24h: q.change24h ?? 0, change7d: q.change7d ?? 0, volume: q.volume ?? 0, sparkline: q.sparkline ?? null };
+          screenerQuotes[ticker] = q;
         }
       }
       if (Object.keys(newPrices).length) {
         setPrices(prev => ({ ...prev, ...newPrices }));
-        setChanges(prev => ({ ...prev, ...newChanges }));
+        // Screener v7/quote API doesn't have 7d change (always 0).
+        // Preserve any existing non-zero change7d from prior bulk fetches.
+        setChanges(prev => {
+          const merged = { ...prev };
+          for (const [ticker, q] of Object.entries(screenerQuotes)) {
+            merged[ticker] = {
+              ...(prev[ticker] || {}),
+              change24h: q.change24h ?? 0,
+              volume: q.volume ?? 0,
+              sparkline: q.sparkline ?? prev[ticker]?.sparkline ?? null,
+              // Keep existing change7d if screener returns 0
+              change7d: q.change7d || prev[ticker]?.change7d || 0,
+            };
+          }
+          return merged;
+        });
       }
     });
   }, []);
 
   // Refresh GPW indices — uses dedicated /api/indices endpoint
   // with retry logic and host failover (query1 → query2)
+  const [indicesLoaded, setIndicesLoaded] = useState(false);
   useEffect(() => {
     const load = async () => {
       const data = await fetchIndices();
-      if (data.length > 0 && data.some(i => i.value !== null)) {
+      if (data.length > 0) {
+        // Always set indices even if all values are null,
+        // so we can distinguish "loading" from "failed".
         setIndices(data);
+        setIndicesLoaded(true);
       }
     };
     load();
     const interval = setInterval(load, 60000);
-    return () => clearInterval(interval);
+    // Timeout: if indices haven't loaded after 15s, mark as loaded (failed)
+    const timeout = setTimeout(() => {
+      setIndicesLoaded(prev => {
+        if (!prev) {
+          setIndices([
+            { name: "WIG20", value: null, change24h: null, sparkline: [] },
+            { name: "WIG", value: null, change24h: null, sparkline: [] },
+            { name: "mWIG40", value: null, change24h: null, sparkline: [] },
+            { name: "sWIG80", value: null, change24h: null, sparkline: [] },
+          ]);
+        }
+        return true;
+      });
+    }, 15000);
+    return () => { clearInterval(interval); clearTimeout(timeout); };
   }, []);
 
   // World indices

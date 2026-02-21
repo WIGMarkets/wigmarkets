@@ -255,6 +255,8 @@ export default function MarketOverviewCards({
                     gradId="ovspWIG20"
                   />
                 </>
+              ) : wig20 !== null ? (
+                <div style={{ fontSize: 12, color: theme.textMuted, marginTop: 8 }}>Dane chwilowo niedostępne</div>
               ) : (
                 <>
                   <div style={{ height: isMobile ? 22 : 28, borderRadius: 6, background: theme.bgCardAlt, marginBottom: 4, animation: "pulse 1.8s ease-in-out infinite" }} />
@@ -287,6 +289,8 @@ export default function MarketOverviewCards({
                     gradId="ovspWIG"
                   />
                 </>
+              ) : wig !== null ? (
+                <div style={{ fontSize: 12, color: theme.textMuted, marginTop: 8 }}>Dane chwilowo niedostępne</div>
               ) : (
                 <>
                   <div style={{ height: isMobile ? 22 : 28, borderRadius: 6, background: theme.bgCardAlt, marginBottom: 4, animation: "pulse 1.8s ease-in-out infinite" }} />

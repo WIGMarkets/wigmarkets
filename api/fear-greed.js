@@ -19,9 +19,16 @@ export default function handler(req, res) {
     }
 
     const latest = history[history.length - 1];
-    const values = history.map((h) => h.value);
-    const minEntry = history.reduce((a, b) => (a.value < b.value ? a : b));
-    const maxEntry = history.reduce((a, b) => (a.value > b.value ? a : b));
+    if (typeof latest.value !== "number" || isNaN(latest.value)) {
+      return res.status(503).json({ error: "Corrupted history data" });
+    }
+    const values = history.map((h) => h.value).filter(v => typeof v === "number" && !isNaN(v));
+    if (values.length === 0) {
+      return res.status(503).json({ error: "No valid values in history" });
+    }
+    const validHistory = history.filter(h => typeof h.value === "number" && !isNaN(h.value));
+    const minEntry = validHistory.reduce((a, b) => (a.value < b.value ? a : b));
+    const maxEntry = validHistory.reduce((a, b) => (a.value > b.value ? a : b));
 
     // Historical reference points
     const yesterday = history.length >= 2 ? history[history.length - 2].value : null;

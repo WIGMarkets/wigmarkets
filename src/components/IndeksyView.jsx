@@ -80,7 +80,7 @@ export default function IndeksyView({ indices, theme, isMobile }) {
         </p>
       </div>
 
-      {(!indices || indices.length === 0 || indices.every(i => i.value == null)) ? (
+      {(!indices || indices.length === 0) ? (
         <div style={{
           textAlign: "center", padding: 64,
           color: theme.textSecondary, fontFamily: "var(--font-ui)", fontSize: 14,
