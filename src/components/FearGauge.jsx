@@ -1,9 +1,13 @@
 import { useState, useEffect } from "react";
 import { FEAR_COMPONENTS, FEAR_HISTORY } from "../data/constants.js";
 
-export default function FearGauge({ value = 62, isMobile, theme }) {
+export default function FearGauge({ value = 62, history, components, isMobile, theme }) {
   const [animated, setAnimated] = useState(false);
   useEffect(() => { setTimeout(() => setAnimated(true), 300); }, []);
+
+  // Use API data if provided, fall back to hardcoded constants
+  const sparkHistory = history || FEAR_HISTORY;
+  const compList = components || FEAR_COMPONENTS.map(f => ({ name: f.label, value: f.val }));
 
   const getLabel = (v) => {
     if (v < 25) return "Skrajna panika";
@@ -34,12 +38,12 @@ export default function FearGauge({ value = 62, isMobile, theme }) {
 
   const SW = 240, SH = 36;
   const vmin = 20, vmax = 90;
-  const sparkPts = FEAR_HISTORY.map((v, i) => {
-    const x = 2 + (i / (FEAR_HISTORY.length - 1)) * (SW - 4);
+  const sparkPts = sparkHistory.map((v, i) => {
+    const x = 2 + (i / (sparkHistory.length - 1)) * (SW - 4);
     const y = SH - 2 - ((v - vmin) / (vmax - vmin)) * (SH - 5);
     return `${x.toFixed(1)},${y.toFixed(1)}`;
   }).join(" ");
-  const lastPt = FEAR_HISTORY[FEAR_HISTORY.length - 1];
+  const lastPt = sparkHistory[sparkHistory.length - 1];
   const lastX = (SW - 2).toFixed(1);
   const lastY = (SH - 2 - ((lastPt - vmin) / (vmax - vmin)) * (SH - 5)).toFixed(1);
 
@@ -88,17 +92,21 @@ export default function FearGauge({ value = 62, isMobile, theme }) {
 
       {!isMobile && (
         <div style={{ marginTop: 12, paddingTop: 12, borderTop: `1px solid ${theme.border}` }}>
-          {FEAR_COMPONENTS.map((f) => (
-            <div key={f.label} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "5px 0" }}>
-              <span style={{ fontSize: 11, color: theme.textMuted, fontFamily: "var(--font-ui)" }}>{f.label}</span>
-              <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-                <div style={{ width: 48, height: 3, background: theme.bgCardAlt, borderRadius: 2, overflow: "hidden" }}>
-                  <div style={{ width: `${f.val}%`, height: "100%", background: getColor(f.val), borderRadius: 2, transition: "width 0.4s ease" }} />
+          {compList.map((f) => {
+            const fName = f.name || f.label;
+            const fVal = f.value != null ? f.value : f.val;
+            return (
+              <div key={fName} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "5px 0" }}>
+                <span style={{ fontSize: 11, color: theme.textMuted, fontFamily: "var(--font-ui)" }}>{fName}</span>
+                <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+                  <div style={{ width: 48, height: 3, background: theme.bgCardAlt, borderRadius: 2, overflow: "hidden" }}>
+                    <div style={{ width: `${fVal}%`, height: "100%", background: getColor(fVal), borderRadius: 2, transition: "width 0.4s ease" }} />
+                  </div>
+                  <span style={{ fontSize: 11, fontWeight: 600, color: getColor(fVal), width: 22, textAlign: "right", fontFamily: "var(--font-mono)", fontVariantNumeric: "tabular-nums" }}>{fVal}</span>
                 </div>
-                <span style={{ fontSize: 11, fontWeight: 600, color: getColor(f.val), width: 22, textAlign: "right", fontFamily: "var(--font-mono)", fontVariantNumeric: "tabular-nums" }}>{f.val}</span>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       )}
     </div>

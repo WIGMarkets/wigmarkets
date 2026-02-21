@@ -66,6 +66,15 @@ export async function fetchRedditTrends(tickers) {
   } catch { return { ranked: [], postsScanned: 0 }; }
 }
 
+export async function fetchFearGreed() {
+  try {
+    const res = await fetch("/api/fear-greed");
+    if (!res.ok) return null;
+    const data = await res.json();
+    return data?.error ? null : data;
+  } catch { return null; }
+}
+
 /**
  * Load the dynamic GPW stock list from Vercel KV (populated by the daily cron).
  * Returns { stocks, quotes, lastRefresh } on success, or null if KV is unavailable
