@@ -1,9 +1,4 @@
 import { ImageResponse } from "@vercel/og";
-import { readFileSync, existsSync } from "fs";
-import { join, dirname } from "path";
-import { fileURLToPath } from "url";
-
-export const config = { runtime: "edge" };
 
 function getColor(value) {
   if (value <= 24) return "#ef4444";
@@ -22,10 +17,10 @@ function getLabel(value) {
 }
 
 async function getFearGreedData(req) {
-  // In Edge Runtime, try fetching from own API
   try {
-    const url = new URL(req.url);
-    const baseUrl = `${url.protocol}//${url.host}`;
+    const proto = req.headers["x-forwarded-proto"] || "https";
+    const host = req.headers["x-forwarded-host"] || req.headers.host;
+    const baseUrl = `${proto}://${host}`;
     const resp = await fetch(`${baseUrl}/api/fear-greed`, {
       headers: { "User-Agent": "WIGmarkets-OG-Generator" },
     });
@@ -37,22 +32,7 @@ async function getFearGreedData(req) {
   return null;
 }
 
-// Build arc path for semi-circle
-function arcPath(value) {
-  const cx = 140, cy = 140, r = 110;
-  const fullArc = Math.PI; // 180 degrees
-  const pct = Math.min(100, Math.max(0, value)) / 100;
-  const angle = Math.PI + pct * fullArc;
-  const x = cx + r * Math.cos(angle);
-  const y = cy + r * Math.sin(angle);
-  const largeArc = pct > 0.5 ? 1 : 0;
-  // Start from left (180deg = PI)
-  const startX = cx + r * Math.cos(Math.PI);
-  const startY = cy + r * Math.sin(Math.PI);
-  return `M ${startX} ${startY} A ${r} ${r} 0 ${largeArc} 1 ${x} ${y}`;
-}
-
-export default async function handler(req) {
+export default async function handler(req, res) {
   const data = await getFearGreedData(req);
   const value = data?.current?.value ?? 50;
   const label = data?.current?.label ?? getLabel(value);
@@ -64,7 +44,7 @@ export default async function handler(req) {
     year: "numeric",
   });
 
-  return new ImageResponse(
+  const imageResponse = new ImageResponse(
     (
       <div
         style={{
@@ -131,7 +111,7 @@ export default async function handler(req) {
               stroke-width="18"
               stroke-linecap="round"
             />
-            {/* Colored arc segments — 5 color sections */}
+            {/* Colored arc segments */}
             <path
               d="M 20 140 A 110 110 0 0 1 71.3 43.2"
               fill="none"
@@ -248,4 +228,9 @@ export default async function handler(req) {
       height: 630,
     }
   );
+
+  const buffer = Buffer.from(await imageResponse.arrayBuffer());
+  res.setHeader("Content-Type", "image/png");
+  res.setHeader("Cache-Control", "public, s-maxage=3600, stale-while-revalidate=600");
+  res.send(buffer);
 }

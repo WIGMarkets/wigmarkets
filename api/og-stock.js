@@ -1,24 +1,23 @@
 import { ImageResponse } from "@vercel/og";
 
-export const config = { runtime: "edge" };
-
 function formatPrice(v) {
   if (v == null || isNaN(v)) return "b.d.";
   return v.toLocaleString("pl-PL", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " zł";
 }
 
-export default async function handler(req) {
-  const { searchParams } = new URL(req.url);
-  const ticker = (searchParams.get("ticker") || "").toUpperCase();
+export default async function handler(req, res) {
+  const ticker = (req.query?.ticker || "").toUpperCase();
   if (!ticker) {
-    return new Response("Missing ticker parameter", { status: 400 });
+    res.status(400).send("Missing ticker parameter");
+    return;
   }
 
   // Fetch stock data from own API
   let stockData = null;
   try {
-    const url = new URL(req.url);
-    const baseUrl = `${url.protocol}//${url.host}`;
+    const proto = req.headers["x-forwarded-proto"] || "https";
+    const host = req.headers["x-forwarded-host"] || req.headers.host;
+    const baseUrl = `${proto}://${host}`;
     const resp = await fetch(`${baseUrl}/api/stooq?symbol=${ticker.toLowerCase()}`);
     if (resp.ok) stockData = await resp.json();
   } catch {}
@@ -31,7 +30,7 @@ export default async function handler(req) {
   const changeColor = change == null ? "#71717a" : change >= 0 ? "#22c55e" : "#ef4444";
   const changeBg = change == null ? "#71717a15" : change >= 0 ? "#22c55e18" : "#ef444418";
 
-  return new ImageResponse(
+  const imageResponse = new ImageResponse(
     (
       <div
         style={{
@@ -162,4 +161,9 @@ export default async function handler(req) {
       height: 630,
     }
   );
+
+  const buffer = Buffer.from(await imageResponse.arrayBuffer());
+  res.setHeader("Content-Type", "image/png");
+  res.setHeader("Cache-Control", "public, s-maxage=3600, stale-while-revalidate=600");
+  res.send(buffer);
 }
