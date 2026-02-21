@@ -212,6 +212,16 @@ async function main() {
 
   console.log(`Fetched ${allArticles.length} articles total`);
 
+  // Filter out articles older than 30 days
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - 30);
+  const beforeFilter = allArticles.length;
+  allArticles = allArticles.filter(article => {
+    const d = new Date(article.pubDate);
+    return !isNaN(d.getTime()) && d >= cutoff;
+  });
+  console.log(`Filtered out ${beforeFilter - allArticles.length} articles older than 30 days`);
+
   // Deduplicate by URL
   const seen = new Set();
   allArticles = allArticles.filter(article => {
@@ -267,9 +277,14 @@ async function main() {
     mkdirSync('data', { recursive: true });
   }
 
+  const output = {
+    articles: allArticles,
+    updatedAt: new Date().toISOString(),
+  };
+
   writeFileSync(
     'data/news.json',
-    JSON.stringify(allArticles, null, 2),
+    JSON.stringify(output, null, 2),
     'utf-8'
   );
 

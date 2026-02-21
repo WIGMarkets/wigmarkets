@@ -9,8 +9,11 @@ export default function handler(req, res) {
       return res.status(200).json({ articles: [], updatedAt: null });
     }
 
-    const articles = JSON.parse(fs.readFileSync(newsPath, 'utf-8'));
-    const stat = fs.statSync(newsPath);
+    const raw = JSON.parse(fs.readFileSync(newsPath, 'utf-8'));
+
+    // Support both new format { articles, updatedAt } and legacy array format
+    const articles = Array.isArray(raw) ? raw : (raw.articles || []);
+    const updatedAt = raw.updatedAt || fs.statSync(newsPath).mtime.toISOString();
 
     const { source, days, limit } = req.query;
 
@@ -34,7 +37,7 @@ export default function handler(req, res) {
     res.json({
       articles: filtered,
       total: filtered.length,
-      updatedAt: stat.mtime.toISOString(),
+      updatedAt,
     });
   } catch (err) {
     res.status(500).json({ error: err.message });
