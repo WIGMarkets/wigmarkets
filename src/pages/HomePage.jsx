@@ -26,6 +26,7 @@ import AlertsModal from "../components/AlertsModal.jsx";
 import Icon from "../components/edukacja/Icon.jsx";
 import MobileDrawer from "../components/MobileDrawer.jsx";
 import DesktopNavMenu from "../components/DesktopNavMenu.jsx";
+import FilterDropdown from "../components/ui/FilterDropdown.jsx";
 
 const ALL_INSTRUMENTS = [...STOCKS, ...COMMODITIES, ...FOREX];
 
@@ -123,8 +124,17 @@ export default function HomePage({
     return () => clearInterval(interval);
   }, [tab]);
 
-  const activeData = tab === "forex" ? FOREX : (tab === "akcje" || tab === "screener" || tab === "popularne") ? liveStocks : COMMODITIES;
-  const sectors = useMemo(() => ["all", ...Array.from(new Set(activeData.map(s => s.sector)))], [activeData]);
+  const activeData = tab === "watchlist" ? allInstruments : tab === "forex" ? FOREX : (tab === "akcje" || tab === "screener" || tab === "popularne") ? liveStocks : COMMODITIES;
+  const sectors = useMemo(() => ["all", ...Array.from(new Set(activeData.map(s => s.sector))).sort()], [activeData]);
+  const sectorOptions = useMemo(() => {
+    const counts = {};
+    for (const s of activeData) { counts[s.sector] = (counts[s.sector] || 0) + 1; }
+    return sectors.map(s => ({
+      id: s,
+      label: s === "all" ? "Wszystkie sektory" : s,
+      count: s === "all" ? null : counts[s] || 0,
+    }));
+  }, [sectors, activeData]);
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
@@ -172,27 +182,6 @@ export default function HomePage({
         : <Icon name="chevrons-up-down" size={10} style={{ opacity: 0.3 }} />}
     </th>
   );
-
-  const exportCSV = () => {
-    const headers = ["Ticker", "Nazwa", "Sektor", "Kurs", "24h%", "7d%", "Wolumen", "Kap. (mln PLN)", "P/E", "Dyw%"];
-    const rows = filtered.map(s => [
-      s.ticker,
-      s.name,
-      s.sector || "",
-      prices[s.ticker] ?? "",
-      changes[s.ticker]?.change24h ?? "",
-      changes[s.ticker]?.change7d  ?? "",
-      changes[s.ticker]?.volume    ?? "",
-      s.cap ?? "",
-      s.pe  ?? "",
-      s.div ?? "",
-    ]);
-    const csv = [headers, ...rows].map(r => r.map(v => `"${String(v).replace(/"/g, '""')}"`).join(",")).join("\n");
-    const blob = new Blob(["\uFEFF" + csv], { type: "text/csv;charset=utf-8;" });
-    const url  = URL.createObjectURL(blob);
-    const a    = Object.assign(document.createElement("a"), { href: url, download: `wigmarkets_${tab}_${new Date().toISOString().slice(0,10)}.csv` });
-    document.body.appendChild(a); a.click(); document.body.removeChild(a); URL.revokeObjectURL(url);
-  };
 
   const topGainers = useMemo(() =>
     [...liveStocks].sort((a, b) => (changes[b.ticker]?.change24h ?? 0) - (changes[a.ticker]?.change24h ?? 0)).slice(0, 5),
@@ -471,18 +460,14 @@ export default function HomePage({
               onFocus={e => { e.target.style.borderColor = theme.accent; e.target.style.boxShadow = `0 0 0 3px ${theme.accent}18`; }}
               onBlur={e => { e.target.style.borderColor = theme.borderInput; e.target.style.boxShadow = "none"; }}
               style={{ flex: 1, minWidth: 140, height: 40, background: theme.bgCard, border: `1px solid ${theme.borderInput}`, borderRadius: 10, padding: "0 14px", color: theme.text, fontSize: 13, outline: "none", fontFamily: "var(--font-ui)", transition: "border-color 0.2s, box-shadow 0.2s" }} />
-            <select value={filter} onChange={e => { setFilter(e.target.value); setPage(1); }}
-              style={{ height: 40, background: theme.bgCard, border: `1px solid ${theme.borderInput}`, borderRadius: 8, padding: "0 12px", color: theme.text, fontSize: 12, cursor: "pointer", fontFamily: "var(--font-ui)", outline: "none", transition: "border-color 0.15s" }}>
-              {sectors.map(s => <option key={s} value={s}>{s === "all" ? "Wszystkie sektory" : s}</option>)}
-            </select>
+            <div style={{ width: isMobile ? 160 : 200, flexShrink: 0 }}>
+              <FilterDropdown options={sectorOptions} value={filter} onChange={v => { setFilter(v); setPage(1); }} theme={theme} minWidth={220} />
+            </div>
             {!isMobile && tab === "akcje" && (
               <>
                 <button onClick={() => setShowPE(v => !v)} style={{ padding: "8px 16px", borderRadius: 8, border: `1px solid ${showPE ? theme.accent : theme.borderInput}`, background: showPE ? `${theme.accent}18` : "transparent", color: showPE ? theme.accent : theme.textSecondary, fontSize: 12, cursor: "pointer", fontFamily: "var(--font-ui)", whiteSpace: "nowrap", transition: "all 0.15s" }}>P/E</button>
                 <button onClick={() => setShowDiv(v => !v)} style={{ padding: "8px 16px", borderRadius: 8, border: `1px solid ${showDiv ? theme.accent : theme.borderInput}`, background: showDiv ? `${theme.accent}18` : "transparent", color: showDiv ? theme.accent : theme.textSecondary, fontSize: 12, cursor: "pointer", fontFamily: "var(--font-ui)", whiteSpace: "nowrap", transition: "all 0.15s" }}>Dyw %</button>
               </>
-            )}
-            {!isMobile && (
-              <button onClick={exportCSV} title="Pobierz tabelę jako CSV" style={{ padding: "8px 16px", borderRadius: 8, border: `1px solid ${theme.borderInput}`, background: "transparent", color: theme.textSecondary, fontSize: 12, cursor: "pointer", fontFamily: "var(--font-ui)", whiteSpace: "nowrap", display: "inline-flex", alignItems: "center", gap: 4, transition: "all 0.15s" }}><Icon name="download" size={13} /> CSV</button>
             )}
           </div>
 
