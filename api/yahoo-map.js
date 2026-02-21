@@ -9,6 +9,15 @@ const YAHOO_MAP = {
   "wig":    "^WIG",
   "mwig40": "^MWIG40",
   "swig80": "^SWIG80",
+  // World indices
+  "sp500":  "^GSPC",   // S&P 500
+  "nasdaq": "^IXIC",   // NASDAQ Composite
+  "djia":   "^DJI",    // Dow Jones Industrial Average
+  "dax":    "^GDAXI",  // DAX (Germany)
+  "ftse":   "^FTSE",   // FTSE 100 (UK)
+  "cac40":  "^FCHI",   // CAC 40 (France)
+  "nikkei": "^N225",   // Nikkei 225 (Japan)
+  "hsi":    "^HSI",    // Hang Seng (Hong Kong)
   // GPW stocks with non-standard Yahoo Finance tickers
   "dia":  "DIAG.WA",  // Diagnostyka: GPW=DIAG, stooq=dia
   "11b":  "11B.WA",   // 11 bit studios (numeric prefix)
