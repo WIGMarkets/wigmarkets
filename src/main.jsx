@@ -494,8 +494,8 @@ export default function WigMarkets() {
         <div style={{ display: "flex", alignItems: "center", minHeight: 56, maxWidth: 1400, margin: "0 auto" }}>
           {/* Mobile: hamburger */}
           {isMobile && (
-            <button onClick={() => setDrawerOpen(true)} style={{ background: "transparent", border: "none", color: theme.textBright, fontSize: 22, cursor: "pointer", padding: "6px 8px 6px 0", lineHeight: 1, fontFamily: "inherit" }}>
-              {"\u2630"}
+            <button onClick={() => setDrawerOpen(true)} style={{ background: "transparent", border: "none", color: theme.textBright, cursor: "pointer", padding: "6px 8px 6px 0", lineHeight: 1, fontFamily: "inherit", display: "inline-flex", alignItems: "center" }}>
+              <Icon name="menu" size={22} />
             </button>
           )}
           <WIGMarketsLogo size={isMobile ? "small" : "default"} theme={theme} />
@@ -518,7 +518,7 @@ export default function WigMarkets() {
                 <Icon name="bell" size={16} />{alerts.some(a => a.triggered) && <span style={{ position: "absolute", top: 3, right: 3, width: 6, height: 6, borderRadius: "50%", background: "#ef4444", display: "block" }} />}
               </button>
               <button onClick={() => setSidebarOpen(o => !o)} style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "6px 10px", fontSize: 11, cursor: "pointer", fontFamily: "inherit", display: "inline-flex", alignItems: "center" }}>
-                {sidebarOpen ? <Icon name="x" size={14} /> : "\u{1F4CA}"}
+                {sidebarOpen ? <Icon name="x" size={14} /> : <Icon name="chart-bar" size={14} />}
               </button>
             </div>
           )}
@@ -566,11 +566,11 @@ export default function WigMarkets() {
         <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "nowrap", alignItems: "center", overflowX: "auto", WebkitOverflowScrolling: "touch", msOverflowStyle: "none", scrollbarWidth: "none", paddingBottom: 2 }}>
           {/* Pill buttons for quick view switching */}
           {[
-            ["akcje", "\u{1F3DB}\uFE0F Akcje GPW"],
-            ["popularne", "\u{1F525} Popularne"],
-            ["screener", "\u{1F50D} Screener"],
-            ["watchlist", `\u2B50 Obserwowane${watchlist.size ? ` (${watchlist.size})` : ""}`],
-          ].map(([key, label]) => (
+            ["akcje", "building", "Akcje GPW"],
+            ["popularne", "flame", "Popularne"],
+            ["screener", "search", "Screener"],
+            ["watchlist", "star", `Obserwowane${watchlist.size ? ` (${watchlist.size})` : ""}`],
+          ].map(([key, iconName, label]) => (
             <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); setWatchFilter(key === "watchlist"); }}
               style={{
                 padding: "7px 14px", borderRadius: 20,
@@ -581,15 +581,16 @@ export default function WigMarkets() {
                 cursor: "pointer", fontFamily: "var(--font-ui)",
                 flexShrink: 0, transition: "all 0.2s ease",
                 whiteSpace: "nowrap",
+                display: "inline-flex", alignItems: "center", gap: 5,
               }}
-            >{label}</button>
+            ><Icon name={iconName} size={14} /> {label}</button>
           ))}
 
           {/* View mode toggle (table/heatmap) */}
           {(tab === "akcje" || tab === "watchlist") && !isMobile && (
             <div style={{ marginLeft: "auto", display: "flex", borderRadius: 20, border: `1px solid ${theme.borderInput}`, overflow: "hidden", flexShrink: 0 }}>
-              {[["table", "\u{1F4CB} Tabela"], ["heatmap", "\u{1F5FA}\uFE0F Heatmapa"]].map(([key, label]) => (
-                <button key={key} onClick={() => setViewMode(key)} style={{ padding: "6px 14px", border: "none", background: viewMode === key ? `${theme.accent}18` : "transparent", color: viewMode === key ? theme.accent : theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit", fontWeight: viewMode === key ? 700 : 400, whiteSpace: "nowrap" }}>{label}</button>
+              {[["table", "list", "Tabela"], ["heatmap", "grid", "Heatmapa"]].map(([key, iconName, label]) => (
+                <button key={key} onClick={() => setViewMode(key)} style={{ padding: "6px 14px", border: "none", background: viewMode === key ? `${theme.accent}18` : "transparent", color: viewMode === key ? theme.accent : theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit", fontWeight: viewMode === key ? 700 : 400, whiteSpace: "nowrap", display: "inline-flex", alignItems: "center", gap: 4 }}><Icon name={iconName} size={13} /> {label}</button>
               ))}
             </div>
           )}

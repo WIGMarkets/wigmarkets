@@ -1,54 +1,54 @@
 import { useState, useEffect, useRef, useCallback } from "react";
+import Icon from "./edukacja/Icon.jsx";
 
 const MENU = [
   {
-    icon: "\u{1F4C8}", label: "Rynki",
+    icon: "trending-up", label: "Rynki",
     children: [
-      { icon: "\u{1F3DB}\uFE0F", label: "Akcje GPW", tab: "akcje" },
-      { icon: "\u{1F525}", label: "Popularne", tab: "popularne" },
-      { icon: "\u26CF\uFE0F", label: "Surowce", tab: "surowce" },
-      { icon: "\u{1F4B1}", label: "Forex", tab: "forex" },
-      { icon: "\u{1F4CB}", label: "Indeksy GPW", tab: "indeksy" },
-      { icon: "\u{1F30D}", label: "Indeksy \u015Bwiatowe", tab: "swiatowe" },
+      { icon: "building", label: "Akcje GPW", tab: "akcje" },
+      { icon: "flame", label: "Popularne", tab: "popularne" },
+      { icon: "diamond", label: "Surowce", tab: "surowce" },
+      { icon: "dollar-sign", label: "Forex", tab: "forex" },
+      { icon: "list", label: "Indeksy GPW", tab: "indeksy" },
+      { icon: "globe", label: "Indeksy światowe", tab: "swiatowe" },
     ],
   },
   {
-    icon: "\u{1F4CA}", label: "Narz\u0119dzia",
+    icon: "sliders", label: "Narzędzia",
     children: [
-      { icon: "\u{1F50D}", label: "Screener", tab: "screener" },
-      { icon: "\u{1F5FA}\uFE0F", label: "Heatmapa", action: "heatmap" },
-      { icon: "\u{1F9EE}", label: "Kalkulator dywidend", href: "/dywidendy" },
+      { icon: "search", label: "Screener", tab: "screener" },
+      { icon: "grid", label: "Heatmapa", action: "heatmap" },
+      { icon: "calculator", label: "Kalkulator dywidend", href: "/dywidendy" },
     ],
   },
   {
-    icon: "\u{1F4F0}", label: "Informacje",
+    icon: "newspaper", label: "Informacje",
     children: [
-      { icon: "\u{1F4F0}", label: "Wiadomo\u015Bci", href: "/wiadomosci" },
-      { icon: "\u{1F4C5}", label: "Kalendarz dywidend", href: "/dywidendy" },
-      { icon: "\u{1F4C8}", label: "Indeks Fear & Greed", href: "/indeks" },
+      { icon: "newspaper", label: "Wiadomości", href: "/wiadomosci" },
+      { icon: "calendar", label: "Kalendarz dywidend", href: "/dywidendy" },
+      { icon: "activity", label: "Indeks Fear & Greed", href: "/indeks" },
     ],
   },
   {
-    icon: "\u{1F393}", label: "Edukacja",
+    icon: "book-open", label: "Edukacja",
     children: [
-      { icon: "\u{1F4DA}", label: "Podstawy", href: "/edukacja/podstawy" },
-      { icon: "\u{1F4CA}", label: "Analiza", href: "/edukacja/analiza" },
-      { icon: "\u{1F4C8}", label: "Strategia", href: "/edukacja/strategia" },
-      { icon: "\u{1F4DD}", label: "Wszystkie artyku\u0142y", href: "/edukacja" },
+      { icon: "book", label: "Podstawy", href: "/edukacja/podstawy" },
+      { icon: "chart-bar", label: "Analiza", href: "/edukacja/analiza" },
+      { icon: "target", label: "Strategia", href: "/edukacja/strategia" },
+      { icon: "file-text", label: "Wszystkie artykuły", href: "/edukacja" },
     ],
   },
   {
-    icon: "\u{1F464}", label: "Moje",
+    icon: "user", label: "Moje",
     children: [
-      { icon: "\u{1F4BC}", label: "Portfolio", href: "/portfolio" },
-      { icon: "\u2B50", label: "Obserwowane", tab: "watchlist" },
+      { icon: "briefcase", label: "Portfolio", href: "/portfolio" },
+      { icon: "star", label: "Obserwowane", tab: "watchlist" },
     ],
   },
 ];
 
 export default function MobileDrawer({ open, onClose, theme, darkMode, setDarkMode, tab, setTab, navigate, watchlistSize, setViewMode }) {
   const [submenu, setSubmenu] = useState(null);
-  const [slideDir, setSlideDir] = useState("right");
   const drawerRef = useRef(null);
   const touchStartX = useRef(null);
 
@@ -80,28 +80,18 @@ export default function MobileDrawer({ open, onClose, theme, darkMode, setDarkMo
   }, [onClose]);
 
   const openSubmenu = (idx) => {
-    setSlideDir("right");
     setSubmenu(idx);
   };
 
   const closeSubmenu = () => {
-    setSlideDir("left");
     setSubmenu(null);
   };
 
   const handleItemClick = (item) => {
     if (item.tab) {
-      setTab(item.tab);
-      if (item.tab === "watchlist") setTab("akcje");
       onClose();
-      // Navigate to home if we're not there
       navigate("/");
-      if (item.tab === "watchlist") {
-        // Handled via watchFilter in main
-        setTab("watchlist");
-      } else {
-        setTab(item.tab);
-      }
+      setTab(item.tab);
     }
     if (item.href) {
       navigate(item.href);
@@ -115,7 +105,7 @@ export default function MobileDrawer({ open, onClose, theme, darkMode, setDarkMo
     }
   };
 
-  const menuItem = (icon, label, onClick, hasChevron = false, active = false) => (
+  const menuItem = (iconName, label, onClick, hasChevron = false, active = false) => (
     <div
       onClick={onClick}
       style={{
@@ -130,9 +120,9 @@ export default function MobileDrawer({ open, onClose, theme, darkMode, setDarkMo
         borderLeft: active ? `3px solid ${theme.accent}` : "3px solid transparent",
       }}
     >
-      <span style={{ fontSize: 18, width: 24, textAlign: "center", flexShrink: 0 }}>{icon}</span>
+      <Icon name={iconName} size={20} />
       <span style={{ flex: 1, fontFamily: "var(--font-ui)" }}>{label}</span>
-      {hasChevron && <span style={{ color: theme.textMuted, fontSize: 14 }}>\u203A</span>}
+      {hasChevron && <Icon name="chevron-right" size={16} style={{ color: theme.textMuted }} />}
     </div>
   );
 
@@ -183,10 +173,11 @@ export default function MobileDrawer({ open, onClose, theme, darkMode, setDarkMo
             onClick={onClose}
             style={{
               background: "transparent", border: "none",
-              color: theme.textSecondary, fontSize: 22, cursor: "pointer",
+              color: theme.textSecondary, cursor: "pointer",
               padding: "4px 8px", lineHeight: 1,
+              display: "inline-flex", alignItems: "center",
             }}
-          >\u2715</button>
+          ><Icon name="x" size={20} /></button>
         </div>
 
         {/* Content area with animation */}
@@ -234,7 +225,7 @@ export default function MobileDrawer({ open, onClose, theme, darkMode, setDarkMo
                     letterSpacing: "0.05em",
                   }}
                 >
-                  <span style={{ fontSize: 16 }}>\u2190</span>
+                  <Icon name="arrow-left" size={16} />
                   {activeCategory.label}
                 </div>
 
@@ -264,8 +255,9 @@ export default function MobileDrawer({ open, onClose, theme, darkMode, setDarkMo
           display: "flex", alignItems: "center", justifyContent: "space-between",
           flexShrink: 0,
         }}>
-          <span style={{ fontSize: 14, color: theme.textSecondary, fontFamily: "var(--font-ui)" }}>
-            {darkMode ? "\u2600\uFE0F Tryb jasny" : "\u{1F319} Tryb ciemny"}
+          <span style={{ fontSize: 14, color: theme.textSecondary, fontFamily: "var(--font-ui)", display: "flex", alignItems: "center", gap: 8 }}>
+            <Icon name={darkMode ? "sun" : "moon"} size={16} />
+            {darkMode ? "Tryb jasny" : "Tryb ciemny"}
           </span>
           <button
             onClick={() => setDarkMode(d => !d)}
