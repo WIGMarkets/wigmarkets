@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import { fetchHistory, fetchHourly, fetchFundamentals, fetchIntraday } from "../api.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { fmt, changeFmt, changeColor, calculateRSI, calculateSMA, calculateMACD, getYahooSymbol, isForex, isCommodity } from "../utils.js";
@@ -20,7 +21,8 @@ function fmtVolume(v) {
   return `${v}`;
 }
 
-export default function StockPage({ stock, prices, changes, onBack, theme, watchlist, toggleWatch, liveStocks, navigateToStock, navigateToDywidendy }) {
+export default function StockPage({ stock, prices, changes, theme, watchlist, toggleWatch, liveStocks }) {
+  const navigate = useNavigate();
   const [history, setHistory] = useState(null);
   const [hourly, setHourly] = useState(null);
   const [intraday, setIntraday] = useState(null);
@@ -173,9 +175,8 @@ export default function StockPage({ stock, prices, changes, onBack, theme, watch
   }, [stock.ticker, stock.sector, liveStocks, isStock]);
 
   const handleNavigatePortfolio = useCallback(() => {
-    window.history.pushState(null, "", "/portfolio");
-    window.dispatchEvent(new PopStateEvent("popstate"));
-  }, []);
+    navigate("/portfolio");
+  }, [navigate]);
 
   // Card style helper
   const card = (children, style = {}) => (
@@ -349,7 +350,7 @@ export default function StockPage({ stock, prices, changes, onBack, theme, watch
         </>
       )}
       <div
-        onClick={navigateToDywidendy}
+        onClick={() => navigate("/dywidendy")}
         style={{ display: "block", textAlign: "center", color: theme.accent, fontSize: 12, textDecoration: "none", marginTop: 14, fontWeight: 600, cursor: "pointer" }}>
         Zobacz pełny kalendarz dywidend →
       </div>
@@ -364,7 +365,7 @@ export default function StockPage({ stock, prices, changes, onBack, theme, watch
           const p = prices[s.ticker];
           const ch = changes[s.ticker]?.change24h ?? 0;
           return (
-            <div key={s.ticker} onClick={() => navigateToStock(s)}
+            <div key={s.ticker} onClick={() => navigate(`/spolka/${s.ticker}`)}
               style={{ background: theme.bgCardAlt, borderRadius: 12, padding: "14px 16px", cursor: "pointer", transition: "border-color 0.2s, transform 0.15s", border: `1px solid ${theme.border}` }}
               onMouseEnter={e => { e.currentTarget.style.borderColor = theme.accent; e.currentTarget.style.transform = "translateY(-1px)"; }}
               onMouseLeave={e => { e.currentTarget.style.borderColor = theme.border; e.currentTarget.style.transform = "none"; }}>
@@ -392,10 +393,10 @@ export default function StockPage({ stock, prices, changes, onBack, theme, watch
       {/* Top bar */}
       <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, padding: "0 16px" }}>
         <div style={{ display: "flex", gap: 16, padding: "10px 0", alignItems: "center", maxWidth: 1200, margin: "0 auto" }}>
-          <button onClick={onBack} style={{ display: "flex", alignItems: "center", gap: 6, background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 8, color: theme.textSecondary, padding: "6px 14px", fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: 600 }}>
+          <button onClick={() => navigate("/")} style={{ display: "flex", alignItems: "center", gap: 6, background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 8, color: theme.textSecondary, padding: "6px 14px", fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: 600 }}>
             <Icon name="arrow-left" size={14} /> Wstecz
           </button>
-          <div style={{ fontWeight: 800, fontSize: 16, color: theme.textBright, whiteSpace: "nowrap", cursor: "pointer" }} onClick={onBack}>
+          <div style={{ fontWeight: 800, fontSize: 16, color: theme.textBright, whiteSpace: "nowrap", cursor: "pointer" }} onClick={() => navigate("/")}>
             WIG<span style={{ color: theme.accent }}>markets</span>
           </div>
         </div>

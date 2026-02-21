@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 import { useIsMobile } from "../../hooks/useIsMobile.js";
 import { getArticlesByCategory } from "../../content/edukacja/articles.js";
 import ArticleCard from "./ArticleCard.jsx";
@@ -32,7 +33,10 @@ const SORT_OPTIONS = [
   { key: "readingTime", label: "Czas czytania" },
 ];
 
-export default function CategoryPage({ theme, category, onBack, onNavigateArticle, onNavigateHome }) {
+export default function CategoryPage({ theme }) {
+  const navigate = useNavigate();
+  const { slug: category } = useParams();
+  const onNavigateArticle = useCallback((s) => navigate(`/edukacja/${s}`), [navigate]);
   const isMobile = useIsMobile();
   const [sortBy, setSortBy] = useState("newest");
   const info = CATEGORY_INFO[category] || { label: category, iconName: "file-text", description: "", color: "#3b82f6" };
@@ -55,8 +59,8 @@ export default function CategoryPage({ theme, category, onBack, onNavigateArticl
         <Breadcrumbs
           theme={theme}
           items={[
-            { label: "Strona główna", href: "/", onClick: onNavigateHome },
-            { label: "Edukacja", href: "/edukacja", onClick: onBack },
+            { label: "Strona główna", href: "/", onClick: () => navigate("/") },
+            { label: "Edukacja", href: "/edukacja", onClick: () => navigate("/edukacja") },
             { label: info.label },
           ]}
         />
