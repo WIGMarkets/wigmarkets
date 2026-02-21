@@ -212,6 +212,7 @@ export default function HomePage({
   const fgValue = fgData?.current?.value ?? FEAR_HISTORY_YEAR[FEAR_HISTORY_YEAR.length - 1];
   const fgHistory = fgData?.history?.slice(-30).map(h => h.value) ?? null;
   const fgComponents = fgData?.current?.indicators ?? null;
+  const fgHistorical = fgData?.historical ?? null;
   const fgLabel = fgValue < 25 ? "Skrajna panika" : fgValue < 45 ? "Strach" : fgValue < 55 ? "Neutralny" : fgValue < 75 ? "Chciwość" : "Ekstremalna chciwość";
   const fgColor = fgValue < 25 ? "#dc2626" : fgValue < 45 ? "#ea580c" : fgValue < 55 ? "#ca8a04" : fgValue < 75 ? "#16a34a" : "#15803d";
 
@@ -317,7 +318,7 @@ export default function HomePage({
       {/* Mobile sidebar overlay */}
       {isMobile && sidebarOpen && (
         <div style={{ padding: "16px", background: theme.bgCard, borderBottom: `1px solid ${theme.border}` }}>
-          <FearGauge value={fgValue} history={fgHistory} components={fgComponents} isMobile={true} theme={theme} />
+          <FearGauge value={fgValue} history={fgHistory} components={fgComponents} historical={fgHistorical} isMobile={true} theme={theme} />
         </div>
       )}
 
@@ -519,11 +520,7 @@ export default function HomePage({
         {/* Desktop sidebar */}
         {!isMobile && tab !== "forex" && (
           <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
-            <div onClick={() => navigate("/indeks")} style={{ cursor: "pointer", transition: "opacity 0.2s" }}
-              onMouseEnter={e => e.currentTarget.style.opacity = "0.85"}
-              onMouseLeave={e => e.currentTarget.style.opacity = "1"}>
-              <FearGauge value={fgValue} history={fgHistory} components={fgComponents} isMobile={false} theme={theme} />
-            </div>
+            <FearGauge value={fgValue} history={fgHistory} components={fgComponents} historical={fgHistorical} isMobile={false} theme={theme} />
             <SessionStats liveStocks={liveStocks} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
           </div>
         )}

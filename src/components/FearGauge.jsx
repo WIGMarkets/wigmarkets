@@ -1,114 +1,151 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { FEAR_COMPONENTS, FEAR_HISTORY } from "../data/constants.js";
+import FearGreedGauge, { getLabel, getColor } from "./FearGreedGauge.jsx";
 
-export default function FearGauge({ value = 62, history, components, isMobile, theme }) {
-  const [animated, setAnimated] = useState(false);
-  useEffect(() => { setTimeout(() => setAnimated(true), 300); }, []);
+export default function FearGauge({ value = 62, history, components, historical, isMobile, theme }) {
+  const navigate = useNavigate();
 
   // Use API data if provided, fall back to hardcoded constants
-  const sparkHistory = history || FEAR_HISTORY;
   const compList = components || FEAR_COMPONENTS.map(f => ({ name: f.label, value: f.val }));
 
-  const getLabel = (v) => {
-    if (v < 25) return "Skrajna panika";
-    if (v < 45) return "Strach";
-    if (v < 55) return "Neutralny";
-    if (v < 75) return "Chciwość";
-    return "Ekstremalna chciwość";
-  };
-  const getColor = (v) => {
-    if (v < 25) return "#ef4444";
-    if (v < 45) return "#f97316";
-    if (v < 55) return "#eab308";
-    if (v < 75) return "#22c55e";
-    return "#16a34a";
+  // Canonical indicator names for display
+  const INDICATOR_NAMES = [
+    "Momentum rynku", "Szerokość rynku", "Zmienność rynku",
+    "Nowe szczyty", "Siła wolumenu", "Małe vs duże", "Safe haven",
+  ];
+
+  // Short name mapping
+  const SHORT_NAMES = {
+    "Momentum rynku": "Momentum rynku",
+    "Szerokość rynku": "Szerokość rynku",
+    "Zmienność rynku": "Zmienność",
+    "Zmienność (VIX GPW)": "Zmienność",
+    "Nowe szczyty vs dołki": "Nowe szczyty",
+    "Nowe szczyty": "Nowe szczyty",
+    "Siła wolumenu": "Siła wolumenu",
+    "Małe vs duże spółki": "Małe vs duże",
+    "Małe vs duże": "Małe vs duże",
+    "Popyt na bezpieczne aktywa": "Safe haven",
+    "Put/Call ratio": "Put/Call",
   };
 
-  const color = getColor(value);
-  const angle = animated ? (value / 100) * 180 - 90 : -90;
-
-  const arcD = (deg1, deg2, r = 70) => {
-    const toRad = (d) => ((d - 180) * Math.PI) / 180;
-    const cx = 100, cy = 88;
-    const x1 = cx + r * Math.cos(toRad(deg1)), y1 = cy + r * Math.sin(toRad(deg1));
-    const x2 = cx + r * Math.cos(toRad(deg2)), y2 = cy + r * Math.sin(toRad(deg2));
-    return `M ${x1.toFixed(2)} ${y1.toFixed(2)} A ${r} ${r} 0 ${deg2 - deg1 >= 180 ? 1 : 0} 1 ${x2.toFixed(2)} ${y2.toFixed(2)}`;
-  };
-  const fillDeg = Math.min(Math.max((value / 100) * 180, 1), 179);
-
-  const SW = 240, SH = 36;
-  const vmin = 20, vmax = 90;
-  const sparkPts = sparkHistory.map((v, i) => {
-    const x = 2 + (i / (sparkHistory.length - 1)) * (SW - 4);
-    const y = SH - 2 - ((v - vmin) / (vmax - vmin)) * (SH - 5);
-    return `${x.toFixed(1)},${y.toFixed(1)}`;
-  }).join(" ");
-  const lastPt = sparkHistory[sparkHistory.length - 1];
-  const lastX = (SW - 2).toFixed(1);
-  const lastY = (SH - 2 - ((lastPt - vmin) / (vmax - vmin)) * (SH - 5)).toFixed(1);
+  // Diff arrow helper
+  function diffEl(refVal) {
+    if (refVal == null) return null;
+    const diff = value - refVal;
+    if (diff === 0) return <span style={{ fontSize: 11, color: theme.textMuted }}>—</span>;
+    return (
+      <span style={{ fontSize: 11, color: diff > 0 ? "#22c55e" : "#ef4444", fontFamily: "var(--font-mono)" }}>
+        {diff > 0 ? "↑" : "↓"}{Math.abs(diff)}
+      </span>
+    );
+  }
 
   return (
-    <div style={{ background: `linear-gradient(135deg, ${theme.bgCardAlt} 0%, ${theme.bgCard} 100%)`, border: `1px solid rgba(255,255,255,0.06)`, borderRadius: 14, padding: 20 }}>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 6 }}>
-        <span style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: "0.08em", textTransform: "uppercase", fontWeight: 600, fontFamily: "var(--font-ui)" }}>Fear & Greed Index</span>
-        <div style={{ textAlign: "right" }}>
-          <div style={{ fontSize: 32, fontWeight: 700, color, lineHeight: 1, fontFamily: "var(--font-mono)", fontVariantNumeric: "tabular-nums" }}>{value}</div>
-          <div style={{ fontSize: 10, color, fontWeight: 600, marginTop: 3, fontFamily: "var(--font-ui)" }}>{getLabel(value)}</div>
-        </div>
+    <div
+      onClick={() => navigate("/fear-greed")}
+      style={{
+        background: `linear-gradient(135deg, ${theme.bgCardAlt} 0%, ${theme.bgCard} 100%)`,
+        border: `1px solid rgba(255,255,255,0.06)`,
+        borderRadius: 14,
+        padding: 20,
+        cursor: "pointer",
+        transition: "border-color 0.2s, transform 0.15s",
+      }}
+      onMouseEnter={e => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.14)"; e.currentTarget.style.transform = "translateY(-1px)"; }}
+      onMouseLeave={e => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.06)"; e.currentTarget.style.transform = "translateY(0)"; }}
+    >
+      {/* Header */}
+      <div style={{ fontSize: 10, color: theme.textSecondary, letterSpacing: "0.08em", textTransform: "uppercase", fontWeight: 600, fontFamily: "var(--font-ui)", marginBottom: 8 }}>
+        Fear & Greed Index
       </div>
 
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <svg width={190} height={102} viewBox="0 0 200 102">
-          <path d={arcD(0, 180)} fill="none" stroke={theme.bgCardAlt} strokeWidth="7" strokeLinecap="butt" />
-          <path d={arcD(0, fillDeg)} fill="none" stroke={color} strokeWidth="7" strokeLinecap="butt"
-            style={{ filter: `drop-shadow(0 0 8px ${color})`, transition: animated ? undefined : "none" }} />
-          <g transform={`rotate(${angle}, 100, 88)`}
-            style={{ transition: "transform 0.9s cubic-bezier(0.34, 1.56, 0.64, 1)" }}>
-            <line x1="100" y1="88" x2="100" y2="26" stroke={theme.textBright} strokeWidth="1.5" strokeLinecap="round" opacity="0.7" />
-          </g>
-          <circle cx="100" cy="88" r="4" fill={theme.bgCard} stroke={theme.border} strokeWidth="1.5" />
-          <text x="16" y="102" fill={theme.textSecondary} fontSize="7.5" textAnchor="middle" opacity="0.6" fontFamily="'IBM Plex Sans',sans-serif">Panika</text>
-          <text x="184" y="102" fill={theme.textSecondary} fontSize="7.5" textAnchor="middle" opacity="0.6" fontFamily="'IBM Plex Sans',sans-serif">Chciwość</text>
-        </svg>
+      {/* Mini gauge */}
+      <div style={{ display: "flex", justifyContent: "center", marginBottom: 4 }}>
+        <FearGreedGauge value={value} size={160} animate={true} theme={theme} />
       </div>
 
-      <div style={{ marginTop: 4 }}>
-        <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 4 }}>
-          <span style={{ fontSize: 9, color: theme.textMuted, letterSpacing: "0.06em", textTransform: "uppercase", fontWeight: 600, fontFamily: "var(--font-ui)" }}>30 dni</span>
-          <span style={{ fontSize: 9, color: theme.textMuted, fontWeight: 600, fontFamily: "var(--font-ui)" }}>Historia</span>
-        </div>
-        <svg width="100%" height={SH + 2} viewBox={`0 0 ${SW} ${SH + 2}`} preserveAspectRatio="none" style={{ display: "block" }}>
-          <defs>
-            <linearGradient id="fgAreaGrad" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor={color} stopOpacity="0.18" />
-              <stop offset="100%" stopColor={color} stopOpacity="0.02" />
-            </linearGradient>
-          </defs>
-          <polygon points={`2,${SH} ${sparkPts} ${SW - 2},${SH}`} fill="url(#fgAreaGrad)" />
-          <polyline points={sparkPts} fill="none" stroke={color} strokeWidth="1.5" strokeLinejoin="round" opacity="0.65" />
-          <circle cx={lastX} cy={lastY} r="2.5" fill={color} />
-        </svg>
-      </div>
-
-      {!isMobile && (
-        <div style={{ marginTop: 12, paddingTop: 12, borderTop: `1px solid ${theme.border}` }}>
-          {compList.map((f) => {
-            const fName = f.name || f.label;
-            const fVal = f.value != null ? f.value : f.val;
-            return (
-              <div key={fName} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "5px 0" }}>
-                <span style={{ fontSize: 11, color: theme.textMuted, fontFamily: "var(--font-ui)" }}>{fName}</span>
-                <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-                  <div style={{ width: 48, height: 3, background: theme.bgCardAlt, borderRadius: 2, overflow: "hidden" }}>
-                    <div style={{ width: `${fVal}%`, height: "100%", background: getColor(fVal), borderRadius: 2, transition: "width 0.4s ease" }} />
-                  </div>
-                  <span style={{ fontSize: 11, fontWeight: 600, color: getColor(fVal), width: 22, textAlign: "right", fontFamily: "var(--font-mono)", fontVariantNumeric: "tabular-nums" }}>{fVal}</span>
-                </div>
+      {/* Historical comparisons */}
+      {historical && (
+        <div style={{ marginTop: 8, marginBottom: 4 }}>
+          {[
+            { label: "Wczoraj", val: historical.yesterday },
+            { label: "Tydzień", val: historical.weekAgo },
+            { label: "Miesiąc", val: historical.monthAgo },
+          ].filter(h => h.val != null).map(h => (
+            <div key={h.label} style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "4px 0" }}>
+              <span style={{ fontSize: 11, color: theme.textMuted, fontFamily: "var(--font-ui)" }}>{h.label}</span>
+              <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <span style={{ fontSize: 13, fontWeight: 600, color: getColor(h.val), fontFamily: "var(--font-mono)", fontVariantNumeric: "tabular-nums" }}>{h.val}</span>
+                {diffEl(h.val)}
               </div>
-            );
-          })}
+            </div>
+          ))}
         </div>
       )}
+
+      {/* Separator */}
+      <div style={{ borderTop: `1px solid ${theme.border}`, margin: "8px 0" }} />
+
+      {/* Mini progress bars for sub-indicators */}
+      <div>
+        {compList.slice(0, 7).map((f) => {
+          const fName = f.name || f.label;
+          const fVal = f.value != null ? f.value : f.val;
+          const shortName = SHORT_NAMES[fName] || fName;
+          const barColor = getColor(fVal);
+          return (
+            <div key={fName} style={{ display: "flex", alignItems: "center", gap: 6, padding: "3px 0" }}>
+              <span style={{
+                fontSize: 11,
+                color: theme.textMuted,
+                fontFamily: "var(--font-ui)",
+                flex: 1,
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                whiteSpace: "nowrap",
+                minWidth: 0,
+              }}>
+                {shortName}
+              </span>
+              {/* Mini bar */}
+              <div style={{ width: 44, height: 4, background: theme.bgCardAlt, borderRadius: 2, overflow: "hidden", flexShrink: 0 }}>
+                <div style={{
+                  width: `${Math.min(100, Math.max(0, fVal))}%`,
+                  height: "100%",
+                  background: barColor,
+                  borderRadius: 2,
+                  transition: "width 0.4s ease",
+                }} />
+              </div>
+              <span style={{
+                fontSize: 11,
+                fontWeight: 600,
+                color: barColor,
+                fontFamily: "var(--font-mono)",
+                fontVariantNumeric: "tabular-nums",
+                width: 22,
+                textAlign: "right",
+                flexShrink: 0,
+              }}>
+                {fVal}
+              </span>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* See details link */}
+      <div style={{
+        textAlign: "center",
+        marginTop: 10,
+        fontSize: 12,
+        color: theme.textMuted,
+        fontFamily: "var(--font-ui)",
+      }}>
+        Zobacz szczegóły →
+      </div>
     </div>
   );
 }
