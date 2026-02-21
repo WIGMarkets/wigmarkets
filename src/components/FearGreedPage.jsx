@@ -108,6 +108,25 @@ export default function FearGreedPage({ theme }) {
 
   useEffect(() => { if (!loading) setTimeout(() => setAnimated(true), 300); }, [loading]);
 
+  // Compute chart data safely BEFORE any conditional returns (Rules of Hooks)
+  const allHistory = data ? (data.history || []).filter(h => h && typeof h.value === "number" && !isNaN(h.value)) : [];
+  const sliceDays = RANGES.find(r => r.key === range)?.days ?? 365;
+  const chartSlice = allHistory.slice(-sliceDays);
+  const chartData = chartSlice.map(h => h.value);
+  const chartDates = chartSlice.map(h => h.date || "");
+
+  // Mouse interaction — hooks must be called before any early returns
+  const handleMouseMove = useCallback((e) => {
+    const svg = svgRef.current;
+    if (!svg || chartData.length === 0) return;
+    const rect = svg.getBoundingClientRect();
+    const ratio = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+    const idx = Math.round(ratio * (chartData.length - 1));
+    setHover({ index: idx, ratioX: ratio, value: chartData[idx], date: chartDates[idx] });
+  }, [chartData, chartDates]);
+
+  const handleMouseLeave = useCallback(() => setHover(null), []);
+
   if (loading) {
     return (
       <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)", display: "flex", alignItems: "center", justifyContent: "center" }}>
@@ -153,25 +172,6 @@ export default function FearGreedPage({ theme }) {
   const yearAgo = data.historical?.yearAgo;
   const minYear = data.yearMin ?? value;
   const maxYear = data.yearMax ?? value;
-
-  // Chart data slice — filter out entries with invalid values
-  const allHistory = (data.history || []).filter(h => h && typeof h.value === "number" && !isNaN(h.value));
-  const sliceDays = RANGES.find(r => r.key === range)?.days ?? 365;
-  const chartSlice = allHistory.slice(-sliceDays);
-  const chartData = chartSlice.map(h => h.value);
-  const chartDates = chartSlice.map(h => h.date || "");
-
-  // Mouse interaction
-  const handleMouseMove = useCallback((e) => {
-    const svg = svgRef.current;
-    if (!svg || chartData.length === 0) return;
-    const rect = svg.getBoundingClientRect();
-    const ratio = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
-    const idx = Math.round(ratio * (chartData.length - 1));
-    setHover({ index: idx, ratioX: ratio, value: chartData[idx], date: chartDates[idx] });
-  }, [chartData, chartDates]);
-
-  const handleMouseLeave = useCallback(() => setHover(null), []);
 
   // Build SVG path points
   const pts = chartData.length > 1
