@@ -3,10 +3,11 @@
  *
  * Stock list comes from the static GPW_COMPANIES master file.
  *
- * Data strategy (two-tier):
+ * Data strategy (three-tier):
  *   1. Try Yahoo v7/finance/quote (needs crumb) — gives price, volume, change,
  *      PLUS marketCap, trailingPE, dividendYield in one batch call.
  *   2. Fallback: Yahoo v8/finance/chart (no auth) — price/volume/change only.
+ *   3. Fallback: Stooq.pl CSV — for stocks missing from both Yahoo sources.
  *
  * CDN-cached for 24 hours (s-maxage=86400).
  *
@@ -17,6 +18,7 @@
 
 import { GPW_COMPANIES } from "../src/data/gpw-companies.js";
 import { toYahoo, YF_HEADERS } from "./_yahoo-map.js";
+import { fetchStooqBatch } from "./_stooq-fallback.js";
 
 const CHART_BATCH = 15;
 const QUOTE_BATCH = 40;
@@ -224,9 +226,13 @@ export default async function handler(req, res) {
     }
 
     // ── Strategy 2: fallback to v8/finance/chart (prices only) ───
-    if (!quoteOk) {
-      for (let i = 0; i < entries.length; i += CHART_BATCH) {
-        const batch = entries.slice(i, i + CHART_BATCH);
+    // Only for stocks not yet in quotes (if v7 worked, some may still be missing)
+    const missingAfterV7 = entries.filter((e) => !quotes[e.ticker]);
+
+    if (!quoteOk || missingAfterV7.length > 0) {
+      const toFetch = quoteOk ? missingAfterV7 : entries;
+      for (let i = 0; i < toFetch.length; i += CHART_BATCH) {
+        const batch = toFetch.slice(i, i + CHART_BATCH);
         const results = await Promise.allSettled(
           batch.map((e) => fetchChart(e.yahoo))
         );
@@ -234,14 +240,38 @@ export default async function handler(req, res) {
         for (let j = 0; j < batch.length; j++) {
           const e = batch[j];
           const r = results[j];
-          if (r.status === "fulfilled" && r.value) {
+          if (r.status === "fulfilled" && r.value && !quotes[e.ticker]) {
             quotes[e.ticker] = r.value;
           }
         }
 
-        if (i + CHART_BATCH < entries.length) {
+        if (i + CHART_BATCH < toFetch.length) {
           await new Promise((w) => setTimeout(w, DELAY));
         }
+      }
+    }
+
+    // ── Strategy 3: Stooq.pl CSV fallback ────────────────────────
+    const missingAfterYahoo = entries.filter((e) => !quotes[e.ticker]);
+    if (missingAfterYahoo.length > 0) {
+      console.log(
+        `[gpw-screener] ${missingAfterYahoo.length} stocks missing after Yahoo, trying Stooq...`
+      );
+      const stooqSymbols = missingAfterYahoo.map((e) => e.stooq);
+      const stooqData = await fetchStooqBatch(stooqSymbols, 350);
+
+      for (const e of missingAfterYahoo) {
+        const sq = stooqData[e.stooq];
+        if (sq) {
+          quotes[e.ticker] = sq;
+        }
+      }
+
+      const stillMissing = missingAfterYahoo.filter((e) => !quotes[e.ticker]);
+      if (stillMissing.length > 0) {
+        console.log(
+          `[gpw-screener] ${stillMissing.length} stocks still without data: ${stillMissing.map((e) => e.ticker).join(", ")}`
+        );
       }
     }
 

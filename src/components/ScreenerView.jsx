@@ -106,6 +106,12 @@ export default function ScreenerView({ stocks, prices, changes, theme, onSelect 
       if (rsiFilter === "neutral" && (rsi == null || rsi > 70 || rsi < 30)) return false;
       return true;
     }).sort((a, b) => {
+      // Stocks without price data always go to the end
+      const aHasData = prices[a.ticker] != null && prices[a.ticker] > 0;
+      const bHasData = prices[b.ticker] != null && prices[b.ticker] > 0;
+      if (aHasData && !bHasData) return -1;
+      if (!aHasData && bHasData) return 1;
+
       let av = a[sortBy] ?? 0, bv = b[sortBy] ?? 0;
       if (sortBy === "price") { av = prices[a.ticker] || 0; bv = prices[b.ticker] || 0; }
       if (sortBy === "change24h") { av = changes[a.ticker]?.change24h ?? 0; bv = changes[b.ticker]?.change24h ?? 0; }
@@ -114,6 +120,11 @@ export default function ScreenerView({ stocks, prices, changes, theme, onSelect 
       return sortDir === "desc" ? bv - av : av - bv;
     });
   }, [peMin, peMax, divMin, capSize, changeDir, sectorFilter, rsiFilter, sortBy, sortDir, prices, changes, rsiData]);
+
+  const noDataCount = useMemo(() =>
+    filtered.filter(s => prices[s.ticker] == null || prices[s.ticker] <= 0).length,
+    [filtered, prices]
+  );
 
   const totalPages = Math.ceil(filtered.length / PER_PAGE);
   const visible = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
@@ -268,15 +279,17 @@ export default function ScreenerView({ stocks, prices, changes, theme, onSelect 
               )}
               {visible.map((s, i) => {
                 const currentPrice = prices[s.ticker];
+                const hasData = currentPrice != null && currentPrice > 0;
                 const c24h = changes[s.ticker]?.change24h ?? 0;
                 const c7d = changes[s.ticker]?.change7d ?? 0;
                 const rsi = rsiData[s.ticker];
                 const rsiColor = rsi > 70 ? "#ef4444" : rsi < 30 ? "#22c55e" : theme.textSecondary;
                 const rsiBg = rsi > 70 ? "rgba(239,68,68,0.12)" : rsi < 30 ? "rgba(34,197,94,0.12)" : "transparent";
-                const priceColor = c24h > 0 ? "#22c55e" : c24h < 0 ? "#ef4444" : theme.textBright;
+                const priceColor = hasData ? (c24h > 0 ? "#22c55e" : c24h < 0 ? "#ef4444" : theme.textBright) : theme.textMuted;
+                const rowOpacity = hasData ? 1 : 0.35;
                 return (
                   <tr key={s.id} onClick={() => onSelect(s)}
-                    style={{ borderBottom: `1px solid ${theme.border}`, cursor: "pointer", transition: "background 0.15s" }}
+                    style={{ borderBottom: `1px solid ${theme.border}`, cursor: "pointer", transition: "background 0.15s, opacity 0.2s", opacity: rowOpacity }}
                     onMouseEnter={e => e.currentTarget.style.background = theme.bgCardAlt}
                     onMouseLeave={e => e.currentTarget.style.background = "transparent"}
                   >
@@ -285,16 +298,22 @@ export default function ScreenerView({ stocks, prices, changes, theme, onSelect 
                       <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
                         <StockLogo ticker={s.ticker} size={isMobile ? 28 : 32} borderRadius={6} sector={s.sector} />
                         <div>
-                          <div style={{ fontWeight: 600, color: theme.textBright, fontSize: isMobile ? 12 : 14, fontFamily: "var(--font-ui)", letterSpacing: "0.01em" }}>{s.ticker}</div>
+                          <div style={{ fontWeight: 600, color: hasData ? theme.textBright : theme.textMuted, fontSize: isMobile ? 12 : 14, fontFamily: "var(--font-ui)", letterSpacing: "0.01em" }}>{s.ticker}</div>
                           <div style={{ fontSize: 11, color: theme.textMuted, maxWidth: isMobile ? 100 : 180, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.name}</div>
                         </div>
                       </div>
                     </td>
-                    <td style={{ padding: `${PAD} ${isMobile ? "8px" : "16px"}`, textAlign: "right", fontWeight: 600, color: priceColor, fontSize: isMobile ? 12 : 13, whiteSpace: "nowrap", fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{fmt(currentPrice)} zł</td>
-                    <td style={{ padding: `${PAD} ${isMobile ? "8px" : "16px"}`, textAlign: "right", fontVariantNumeric: "tabular-nums" }}>
-                      <span style={{ display: "inline-block", padding: "4px 10px", borderRadius: 6, fontSize: isMobile ? 11 : 12, fontWeight: 600, background: c24h > 0 ? "rgba(34,197,94,0.12)" : c24h < 0 ? "rgba(239,68,68,0.12)" : "rgba(148,163,184,0.08)", color: changeColor(c24h), whiteSpace: "nowrap", fontFamily: "var(--font-mono)" }}>{changeFmt(c24h)}</span>
+                    <td style={{ padding: `${PAD} ${isMobile ? "8px" : "16px"}`, textAlign: "right", fontWeight: 600, color: priceColor, fontSize: hasData ? (isMobile ? 12 : 13) : 12, whiteSpace: "nowrap", fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>
+                      {hasData ? <>{fmt(currentPrice)} zł</> : <span style={{ color: theme.textMuted, fontWeight: 400 }}>Brak danych</span>}
                     </td>
-                    {!isMobile && <td style={{ padding: `${PAD} 16px`, textAlign: "right", color: changeColor(c7d), fontSize: 12, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{changeFmt(c7d)}</td>}
+                    <td style={{ padding: `${PAD} ${isMobile ? "8px" : "16px"}`, textAlign: "right", fontVariantNumeric: "tabular-nums" }}>
+                      {hasData ? (
+                        <span style={{ display: "inline-block", padding: "4px 10px", borderRadius: 6, fontSize: isMobile ? 11 : 12, fontWeight: 600, background: c24h > 0 ? "rgba(34,197,94,0.12)" : c24h < 0 ? "rgba(239,68,68,0.12)" : "rgba(148,163,184,0.08)", color: changeColor(c24h), whiteSpace: "nowrap", fontFamily: "var(--font-mono)" }}>{changeFmt(c24h)}</span>
+                      ) : (
+                        <span style={{ color: theme.textMuted, fontSize: 12 }}>—</span>
+                      )}
+                    </td>
+                    {!isMobile && <td style={{ padding: `${PAD} 16px`, textAlign: "right", color: hasData ? changeColor(c7d) : theme.textMuted, fontSize: 12, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{hasData ? changeFmt(c7d) : "—"}</td>}
                     <td style={{ padding: `${PAD} ${isMobile ? "8px" : "16px"}`, textAlign: "right", color: theme.textSecondary, fontSize: 12, whiteSpace: "nowrap", fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{fmtCap(s.cap)}</td>
                     {!isMobile && <td style={{ padding: `${PAD} 16px`, textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{s.pe > 0 ? fmt(s.pe) : <span style={{ color: theme.textMuted }}>—</span>}</td>}
                     {!isMobile && <td style={{ padding: `${PAD} 16px`, textAlign: "right", fontSize: 12, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)", color: s.div > 0 ? "#22c55e" : theme.textMuted, fontWeight: s.div > 0 ? 600 : 400 }}>{s.div > 0 ? `${fmt(s.div)}%` : "—"}</td>}
@@ -321,10 +340,17 @@ export default function ScreenerView({ stocks, prices, changes, theme, onSelect 
             </tbody>
           </table>
         </div>
-        {totalPages > 1 && (
+        {(totalPages > 1 || noDataCount > 0) && (
           <div style={{ padding: "12px 16px", display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: `1px solid ${theme.border}`, flexWrap: "wrap", gap: 8 }}>
-            <div style={{ fontSize: 11, color: theme.textMuted, fontFamily: "var(--font-ui)" }}>{(page - 1) * PER_PAGE + 1}–{Math.min(page * PER_PAGE, filtered.length)} z {filtered.length}</div>
-            <Pagination page={page} totalPages={totalPages} onPageChange={setPage} theme={theme} />
+            <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+              <div style={{ fontSize: 11, color: theme.textMuted, fontFamily: "var(--font-ui)" }}>{(page - 1) * PER_PAGE + 1}–{Math.min(page * PER_PAGE, filtered.length)} z {filtered.length}</div>
+              {noDataCount > 0 && (
+                <div style={{ fontSize: 11, color: theme.textMuted, fontFamily: "var(--font-ui)", fontStyle: "italic", opacity: 0.7 }}>
+                  {noDataCount} {noDataCount === 1 ? "spółka" : noDataCount < 5 ? "spółki" : "spółek"} bez dostępnych danych
+                </div>
+              )}
+            </div>
+            {totalPages > 1 && <Pagination page={page} totalPages={totalPages} onPageChange={setPage} theme={theme} />}
           </div>
         )}
       </div>
