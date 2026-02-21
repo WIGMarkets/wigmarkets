@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "api/fear-greed.js": {
+      "includeFiles": "data/fear-greed-history.json"
+    }
+  },
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1" },
     { "source": "/spolka/(.*)", "destination": "/index.html" },

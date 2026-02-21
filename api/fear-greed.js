@@ -1,18 +1,41 @@
 import { readFileSync, existsSync } from "fs";
-import { join } from "path";
+import { join, dirname } from "path";
+import { fileURLToPath } from "url";
 
-const HISTORY_PATH = join(process.cwd(), "data", "fear-greed-history.json");
+// Try multiple paths — process.cwd() and __dirname-relative for Vercel compatibility
+function readHistory() {
+  const paths = [
+    join(process.cwd(), "data", "fear-greed-history.json"),
+  ];
+
+  // Also try relative to the API file itself (works on Vercel)
+  try {
+    const dir = typeof __dirname !== "undefined"
+      ? __dirname
+      : dirname(fileURLToPath(import.meta.url));
+    paths.push(join(dir, "..", "data", "fear-greed-history.json"));
+  } catch {}
+
+  for (const p of paths) {
+    try {
+      if (existsSync(p)) {
+        return JSON.parse(readFileSync(p, "utf-8"));
+      }
+    } catch {}
+  }
+  return null;
+}
 
 export default function handler(req, res) {
   try {
-    if (!existsSync(HISTORY_PATH)) {
+    const history = readHistory();
+
+    if (!history) {
       return res.status(503).json({
         error: "Fear & Greed data not yet available",
         message: "Dane indeksu Fear & Greed nie są jeszcze dostępne. Zostaną obliczone przy następnej aktualizacji.",
       });
     }
-
-    const history = JSON.parse(readFileSync(HISTORY_PATH, "utf-8"));
 
     if (!Array.isArray(history) || history.length === 0) {
       return res.status(503).json({ error: "Empty history" });
