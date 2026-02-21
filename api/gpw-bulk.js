@@ -1,4 +1,5 @@
 import { toYahoo, YF_HEADERS } from "./_yahoo-map.js";
+import { fetchStooqBatch } from "./_stooq-fallback.js";
 
 const BATCH_SIZE = 15;
 const BATCH_DELAY_MS = 100;
@@ -54,6 +55,7 @@ export default async function handler(req, res) {
   const entries = list.map(s => ({ stooq: s, yahoo: toYahoo(s) }));
   const data = {};
 
+  // ── Strategy 1: Yahoo Finance ──────────────────────────
   for (let i = 0; i < entries.length; i += BATCH_SIZE) {
     const batch = entries.slice(i, i + BATCH_SIZE);
     const results = await Promise.allSettled(
@@ -67,6 +69,15 @@ export default async function handler(req, res) {
     }
     if (i + BATCH_SIZE < entries.length) {
       await new Promise(r => setTimeout(r, BATCH_DELAY_MS));
+    }
+  }
+
+  // ── Strategy 2: Stooq fallback for missing symbols ─────
+  const missing = list.filter(s => !data[s]);
+  if (missing.length > 0) {
+    const stooqData = await fetchStooqBatch(missing, 350);
+    for (const [sym, quote] of Object.entries(stooqData)) {
+      data[sym] = quote;
     }
   }
 
