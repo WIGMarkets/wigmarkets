@@ -13,6 +13,7 @@
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
+import { toYahoo } from "../api/_yahoo-map.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const HISTORY_PATH = join(__dirname, "..", "data", "fear-greed-history.json");
@@ -165,7 +166,7 @@ async function fetchStockHistories(stocks, range = "1y") {
   for (let i = 0; i < stocks.length; i += BATCH) {
     const batch = stocks.slice(i, i + BATCH);
     const promises = batch.map(async (s) => {
-      const yahoo = s.stooq.toUpperCase() + ".WA";
+      const yahoo = toYahoo(s.stooq);
       const bars = await fetchYFChart(yahoo, range, "1d");
       return { stooq: s.stooq, bars };
     });
