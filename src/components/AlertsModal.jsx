@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { fmt } from "../utils.js";
+import { fmt } from "../lib/formatters.js";
 import { loadAlerts, saveAlerts } from "../hooks/usePriceAlerts.js";
 import Icon from "./edukacja/Icon.jsx";
 

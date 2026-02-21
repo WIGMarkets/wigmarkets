@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile.js";
-import { fetchMarketNews } from "../api.js";
+import { fetchMarketNews } from "../lib/api.js";
 import Icon from "./edukacja/Icon.jsx";
 
 const PERIODS = [

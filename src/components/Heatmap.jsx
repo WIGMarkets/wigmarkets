@@ -1,4 +1,4 @@
-import { changeColor } from "../utils.js";
+import { changeColor } from "../lib/formatters.js";
 
 export default function Heatmap({ stocks, prices, changes, theme, onSelect }) {
   const items = stocks

@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile.js";
-import { fmt, changeFmt, changeColor } from "../utils.js";
+import { fmt, changeFmt, changeColor } from "../lib/formatters.js";
 import StockLogo from "./StockLogo.jsx";
 import Icon from "./edukacja/Icon.jsx";
 

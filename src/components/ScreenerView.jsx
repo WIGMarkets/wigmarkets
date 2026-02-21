@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from "react";
-import { fmt, changeFmt, changeColor, calculateRSI } from "../utils.js";
-import { fetchHistory } from "../api.js";
+import { fmt, changeFmt, changeColor, calculateRSI } from "../lib/formatters.js";
+import { fetchHistory } from "../lib/api.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import Icon from "./edukacja/Icon.jsx";
 
