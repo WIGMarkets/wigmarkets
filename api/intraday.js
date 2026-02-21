@@ -22,6 +22,7 @@ export default async function handler(req, res) {
     const rawHighs  = quote.high  || [];
     const rawLows   = quote.low   || [];
     const rawCloses = quote.close || [];
+    const rawVolumes = quote.volume || [];
 
     if (timestamps.length < 2) return res.status(404).json({ error: "No data" });
 
@@ -36,6 +37,7 @@ export default async function handler(req, res) {
           high:  rawHighs[i],
           low:   rawLows[i],
           close: rawCloses[i],
+          volume: rawVolumes[i] ?? null,
         };
       })
       .filter(p => p.close !== null && !isNaN(p.close));
