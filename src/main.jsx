@@ -37,6 +37,8 @@ import AlertsModal from "./components/AlertsModal.jsx";
 import DividendPage from "./components/DividendPage.jsx";
 import Icon from "./components/edukacja/Icon.jsx";
 import { loadAlerts, usePriceAlerts } from "./hooks/usePriceAlerts.js";
+import MobileDrawer from "./components/MobileDrawer.jsx";
+import DesktopNavMenu from "./components/DesktopNavMenu.jsx";
 
 const ALL_INSTRUMENTS = [...STOCKS, ...COMMODITIES, ...FOREX];
 
@@ -149,6 +151,7 @@ export default function WigMarkets() {
   const [selected, setSelected] = useState(null);
   const [calcStock, setCalcStock] = useState(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [drawerOpen, setDrawerOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem("theme") !== "light");
   const [indices, setIndices] = useState([]);
   const [worldIndices, setWorldIndices] = useState([]);
@@ -486,28 +489,52 @@ export default function WigMarkets() {
         </div>
       )}
 
-      {/* Top bar — logo + kontrolki */}
+      {/* Top bar — logo + navigation */}
       <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, padding: "0 16px" }}>
-        <div style={{ display: "flex", alignItems: "center", minHeight: 56 }}>
+        <div style={{ display: "flex", alignItems: "center", minHeight: 56, maxWidth: 1400, margin: "0 auto" }}>
+          {/* Mobile: hamburger */}
+          {isMobile && (
+            <button onClick={() => setDrawerOpen(true)} style={{ background: "transparent", border: "none", color: theme.textBright, fontSize: 22, cursor: "pointer", padding: "6px 8px 6px 0", lineHeight: 1, fontFamily: "inherit" }}>
+              {"\u2630"}
+            </button>
+          )}
           <WIGMarketsLogo size={isMobile ? "small" : "default"} theme={theme} />
-          <div style={{ marginLeft: "auto", display: "flex", gap: 6, flexShrink: 0 }}>
-            <button onClick={() => setShowAlerts(s => !s)} title="Alerty cenowe" style={{ position: "relative", background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "6px 10px", fontSize: 13, cursor: "pointer", fontFamily: "inherit", display: "inline-flex", alignItems: "center" }}>
-              <Icon name="bell" size={16} />{alerts.some(a => a.triggered) && <span style={{ position: "absolute", top: 3, right: 3, width: 6, height: 6, borderRadius: "50%", background: "#ef4444", display: "block" }} />}
-            </button>
-            {!isMobile && (
-              <button onClick={() => setShowShortcuts(s => !s)} title="Skróty klawiszowe (?)" style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "6px 12px", fontSize: 13, cursor: "pointer", fontFamily: "inherit" }}>?</button>
-            )}
-            <button onClick={() => setDarkMode(d => !d)} style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "6px 12px", fontSize: 13, cursor: "pointer", fontFamily: "inherit" }}>
-              {darkMode ? "Jasny" : "Ciemny"}
-            </button>
-            {isMobile && (
-              <button onClick={() => setSidebarOpen(o => !o)} style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "6px 10px", fontSize: 11, cursor: "pointer", fontFamily: "inherit", display: "inline-flex", alignItems: "center" }}>
-                {sidebarOpen ? <Icon name="x" size={14} /> : "Wykres"}
+
+          {/* Desktop: mega menu nav */}
+          {!isMobile && (
+            <DesktopNavMenu
+              theme={theme} darkMode={darkMode} setDarkMode={setDarkMode}
+              tab={tab} setTab={(t) => { setTab(t); setPage(1); setFilter("all"); setWatchFilter(t === "watchlist"); }}
+              navigate={navigate} watchlistSize={watchlist.size}
+              showAlerts={showAlerts} setShowAlerts={setShowAlerts} alerts={alerts}
+              setViewMode={setViewMode}
+            />
+          )}
+
+          {/* Mobile: right-side controls */}
+          {isMobile && (
+            <div style={{ marginLeft: "auto", display: "flex", gap: 6, flexShrink: 0 }}>
+              <button onClick={() => setShowAlerts(s => !s)} title="Alerty cenowe" style={{ position: "relative", background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "6px 10px", fontSize: 13, cursor: "pointer", fontFamily: "inherit", display: "inline-flex", alignItems: "center" }}>
+                <Icon name="bell" size={16} />{alerts.some(a => a.triggered) && <span style={{ position: "absolute", top: 3, right: 3, width: 6, height: 6, borderRadius: "50%", background: "#ef4444", display: "block" }} />}
               </button>
-            )}
-          </div>
+              <button onClick={() => setSidebarOpen(o => !o)} style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "6px 10px", fontSize: 11, cursor: "pointer", fontFamily: "inherit", display: "inline-flex", alignItems: "center" }}>
+                {sidebarOpen ? <Icon name="x" size={14} /> : "\u{1F4CA}"}
+              </button>
+            </div>
+          )}
         </div>
       </div>
+
+      {/* Mobile drawer */}
+      {isMobile && (
+        <MobileDrawer
+          open={drawerOpen} onClose={() => setDrawerOpen(false)}
+          theme={theme} darkMode={darkMode} setDarkMode={setDarkMode}
+          tab={tab} setTab={(t) => { setTab(t); setPage(1); setFilter("all"); setWatchFilter(t === "watchlist"); }}
+          navigate={navigate} watchlistSize={watchlist.size}
+          setViewMode={setViewMode}
+        />
+      )}
 
       {/* Marquee ticker */}
       <MarqueeTicker stocks={[...liveStocks, ...COMMODITIES, ...FOREX]} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
@@ -534,29 +561,37 @@ export default function WigMarkets() {
         </div>
       )}
 
-      <div style={{ padding: isMobile ? "16px 12px 0" : "24px 24px 0", maxWidth: 1400, margin: "0 auto" }}>
-        {/* Tabs + View toggle */}
-        <div style={{ display: "flex", gap: 4, marginBottom: 16, flexWrap: "nowrap", alignItems: "center", overflowX: "auto", WebkitOverflowScrolling: "touch", msOverflowStyle: "none", scrollbarWidth: "none", paddingBottom: 2 }}>
-          {[["akcje", "Akcje GPW"], ["popularne", "Popularne"], ["indeksy", "Indeksy"], ["swiatowe", "Indeksy światowe"], ["surowce", "Surowce"], ["forex", "Forex"], ["screener", "Screener"], ["watchlist", `Obserwowane${watchlist.size ? ` (${watchlist.size})` : ""}`]].map(([key, label]) => (
-            <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); setWatchFilter(false); }} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: tab === key ? `2px solid ${theme.accent}` : "2px solid transparent", background: tab === key ? `${theme.accent}18` : "transparent", color: tab === key ? theme.accent : theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: tab === key ? 600 : 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, transition: "all 0.2s ease", letterSpacing: "0.01em" }}>{label}</button>
+      <div style={{ padding: isMobile ? "12px 12px 0" : "20px 24px 0", maxWidth: 1400, margin: "0 auto" }}>
+        {/* Quick access pills + view toggles */}
+        <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "nowrap", alignItems: "center", overflowX: "auto", WebkitOverflowScrolling: "touch", msOverflowStyle: "none", scrollbarWidth: "none", paddingBottom: 2 }}>
+          {/* Pill buttons for quick view switching */}
+          {[
+            ["akcje", "\u{1F3DB}\uFE0F Akcje GPW"],
+            ["popularne", "\u{1F525} Popularne"],
+            ["screener", "\u{1F50D} Screener"],
+            ["watchlist", `\u2B50 Obserwowane${watchlist.size ? ` (${watchlist.size})` : ""}`],
+          ].map(([key, label]) => (
+            <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); setWatchFilter(key === "watchlist"); }}
+              style={{
+                padding: "7px 14px", borderRadius: 20,
+                border: `1px solid ${tab === key ? theme.accent : theme.borderInput}`,
+                background: tab === key ? `${theme.accent}18` : "transparent",
+                color: tab === key ? theme.accent : theme.textSecondary,
+                fontSize: 12, fontWeight: tab === key ? 600 : 400,
+                cursor: "pointer", fontFamily: "var(--font-ui)",
+                flexShrink: 0, transition: "all 0.2s ease",
+                whiteSpace: "nowrap",
+              }}
+            >{label}</button>
           ))}
-          <button onClick={() => navigate("/wiadomosci")} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: "2px solid transparent", background: "transparent", color: theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, transition: "all 0.2s ease" }}>Wiadomości</button>
-          <button onClick={() => navigate("/portfolio")} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: "2px solid transparent", background: "transparent", color: theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, transition: "all 0.2s ease" }}>Portfolio</button>
-          <button onClick={() => navigate("/dywidendy")} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: "2px solid transparent", background: "transparent", color: theme.textMuted, fontSize: isMobile ? 12 : 13, fontWeight: 400, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, display: "inline-flex", alignItems: "center", gap: 6, transition: "all 0.2s ease" }}><Icon name="calendar" size={14} /> Dywidendy</button>
-          <button onClick={() => navigate("/edukacja")} style={{ padding: isMobile ? "8px 14px" : "8px 20px", borderRadius: 8, border: "none", borderBottom: `2px solid ${theme.accent}40`, background: `${theme.accent}10`, color: theme.accent, fontSize: isMobile ? 12 : 13, fontWeight: 600, cursor: "pointer", fontFamily: "var(--font-ui)", flexShrink: 0, display: "inline-flex", alignItems: "center", gap: 6, transition: "all 0.2s ease" }}><Icon name="book-open" size={14} /> Edukacja</button>
-          {tab !== "screener" && tab !== "popularne" && tab !== "watchlist" && tab !== "indeksy" && tab !== "swiatowe" && (
-          <div style={{ marginLeft: "auto", display: "flex", gap: 4, flexShrink: 0 }}>
-            <button onClick={() => setWatchFilter(f => !f)} style={{ padding: isMobile ? "6px 10px" : "8px 14px", borderRadius: 8, border: "1px solid", borderColor: watchFilter ? "#ffd700" : theme.borderInput, background: watchFilter ? "#ffd70022" : "transparent", color: watchFilter ? "#ffd700" : theme.textSecondary, fontSize: isMobile ? 11 : 12, cursor: "pointer", fontFamily: "inherit", fontWeight: watchFilter ? 700 : 400, flexShrink: 0 }}>
-              Obserwowane{watchlist.size > 0 ? ` (${watchlist.size})` : ""}
-            </button>
-            {tab === "akcje" && !isMobile && (
-              <div style={{ display: "flex", borderRadius: 8, border: `1px solid ${theme.borderInput}`, overflow: "hidden" }}>
-                {[["table", "Tabela"], ["heatmap", "Heatmapa"]].map(([key, label]) => (
-                  <button key={key} onClick={() => setViewMode(key)} style={{ padding: "8px 14px", border: "none", background: viewMode === key ? `${theme.accent}18` : "transparent", color: viewMode === key ? theme.accent : theme.textSecondary, fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: viewMode === key ? 700 : 400 }}>{label}</button>
-                ))}
-              </div>
-            )}
-          </div>
+
+          {/* View mode toggle (table/heatmap) */}
+          {(tab === "akcje" || tab === "watchlist") && !isMobile && (
+            <div style={{ marginLeft: "auto", display: "flex", borderRadius: 20, border: `1px solid ${theme.borderInput}`, overflow: "hidden", flexShrink: 0 }}>
+              {[["table", "\u{1F4CB} Tabela"], ["heatmap", "\u{1F5FA}\uFE0F Heatmapa"]].map(([key, label]) => (
+                <button key={key} onClick={() => setViewMode(key)} style={{ padding: "6px 14px", border: "none", background: viewMode === key ? `${theme.accent}18` : "transparent", color: viewMode === key ? theme.accent : theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "inherit", fontWeight: viewMode === key ? 700 : 400, whiteSpace: "nowrap" }}>{label}</button>
+              ))}
+            </div>
           )}
         </div>
       </div>
