@@ -73,7 +73,7 @@ export default function EdukacjaHome({ theme }) {
   const popularArticles = POPULAR_SLUGS.map(slug => ARTICLES.find(a => a.slug === slug)).filter(Boolean);
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)", overflowX: "hidden" }}>
+    <div style={{ color: theme.text, fontFamily: "var(--font-ui)", overflowX: "hidden" }}>
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: isMobile ? "16px" : "24px", boxSizing: "border-box", width: "100%" }}>
 
         <Breadcrumbs theme={theme} items={[{ label: "Strona główna", href: "/", onClick: () => navigate("/") }, { label: "Edukacja" }]} />

@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
 import { Routes, Route, useNavigate, useLocation, Navigate } from "react-router-dom";
 import { DARK_THEME, LIGHT_THEME } from "./lib/themes.js";
 import { fetchBulk, fetchIndices, fetchDynamicList } from "./lib/api.js";
@@ -12,6 +12,10 @@ import NewsPage from "./components/NewsPage.jsx";
 import PortfolioPage from "./components/PortfolioPage.jsx";
 import EdukacjaHome from "./components/edukacja/EdukacjaHome.jsx";
 import ErrorBoundary from "./components/ErrorBoundary.jsx";
+import Navbar from "./components/layout/Navbar.jsx";
+import Footer from "./components/layout/Footer.jsx";
+import Breadcrumbs from "./components/layout/Breadcrumbs.jsx";
+import MarqueeTicker from "./components/MarqueeTicker.jsx";
 
 export default function App() {
   const navigate = useNavigate();
@@ -28,6 +32,10 @@ export default function App() {
   const [alerts, setAlerts] = useState(loadAlerts);
   const [liveStocks, setLiveStocks] = useState(STOCKS);
   const allInstruments = useMemo(() => [...liveStocks, ...COMMODITIES, ...FOREX], [liveStocks]);
+
+  // Lifted from HomePage so Navbar can share them
+  const [tab, setTab] = useState("akcje");
+  const [viewMode, setViewMode] = useState("table");
 
   const theme = darkMode ? DARK_THEME : LIGHT_THEME;
   const bgGradient = darkMode
@@ -151,31 +159,53 @@ export default function App() {
     return () => clearInterval(worldInterval);
   }, []);
 
+  const navigateToStock = useCallback((stock) => {
+    navigate(`/spolka/${stock.ticker}`);
+  }, [navigate]);
+
   return (
-    <Routes>
-      <Route path="/spolka/:ticker" element={
-        <StockPageRoute prices={prices} changes={changes} theme={theme}
-          watchlist={watchlist} toggleWatch={toggleWatch}
-          liveStocks={liveStocks} allInstruments={allInstruments} />
-      } />
-      <Route path="/dywidendy" element={<DividendPage theme={theme} />} />
-      <Route path="/fear-greed" element={<ErrorBoundary><FearGreedPage theme={theme} /></ErrorBoundary>} />
-      <Route path="/indeks" element={<Navigate to="/fear-greed" replace />} />
-      <Route path="/wiadomosci" element={<NewsPage theme={theme} />} />
-      <Route path="/portfolio" element={<PortfolioPage theme={theme} prices={prices} allInstruments={allInstruments} />} />
-      <Route path="/edukacja" element={<EdukacjaHome theme={theme} />} />
-      <Route path="/edukacja/:slug" element={<EdukacjaSlugRoute theme={theme} />} />
-      <Route path="/" element={
-        <HomePage
-          theme={theme} darkMode={darkMode} setDarkMode={setDarkMode} bgGradient={bgGradient}
-          prices={prices} setPrices={setPrices} changes={changes} setChanges={setChanges}
-          watchlist={watchlist} toggleWatch={toggleWatch}
-          liveStocks={liveStocks} allInstruments={allInstruments}
-          indices={indices} worldIndices={worldIndices}
-          alerts={alerts} setAlerts={setAlerts}
-        />
-      } />
-      <Route path="*" element={<Navigate to="/" replace />} />
-    </Routes>
+    <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+      <Navbar
+        theme={theme} darkMode={darkMode} setDarkMode={setDarkMode}
+        watchlist={watchlist} alerts={alerts} setAlerts={setAlerts}
+        tab={tab} setTab={setTab} setViewMode={setViewMode}
+        prices={prices} allInstruments={allInstruments}
+      />
+      <MarqueeTicker
+        stocks={[...liveStocks, ...COMMODITIES, ...FOREX]}
+        prices={prices} changes={changes} theme={theme}
+        onSelect={navigateToStock}
+      />
+      <Breadcrumbs theme={theme} />
+      <div style={{ flex: 1 }}>
+        <Routes>
+          <Route path="/spolka/:ticker" element={
+            <StockPageRoute prices={prices} changes={changes} theme={theme}
+              watchlist={watchlist} toggleWatch={toggleWatch}
+              liveStocks={liveStocks} allInstruments={allInstruments} />
+          } />
+          <Route path="/dywidendy" element={<DividendPage theme={theme} />} />
+          <Route path="/fear-greed" element={<ErrorBoundary><FearGreedPage theme={theme} /></ErrorBoundary>} />
+          <Route path="/indeks" element={<Navigate to="/fear-greed" replace />} />
+          <Route path="/wiadomosci" element={<NewsPage theme={theme} />} />
+          <Route path="/portfolio" element={<PortfolioPage theme={theme} prices={prices} allInstruments={allInstruments} />} />
+          <Route path="/edukacja" element={<EdukacjaHome theme={theme} />} />
+          <Route path="/edukacja/:slug" element={<EdukacjaSlugRoute theme={theme} />} />
+          <Route path="/" element={
+            <HomePage
+              theme={theme} darkMode={darkMode} setDarkMode={setDarkMode} bgGradient={bgGradient}
+              prices={prices} setPrices={setPrices} changes={changes} setChanges={setChanges}
+              watchlist={watchlist} toggleWatch={toggleWatch}
+              liveStocks={liveStocks} allInstruments={allInstruments}
+              indices={indices} worldIndices={worldIndices}
+              alerts={alerts} setAlerts={setAlerts}
+              tab={tab} setTab={setTab} viewMode={viewMode} setViewMode={setViewMode}
+            />
+          } />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </div>
+      <Footer theme={theme} />
+    </div>
   );
 }

@@ -7,7 +7,7 @@ import { fetchBulk, fetchRedditTrends, fetchHistory, fetchFearGreed } from "../l
 import { STOCKS, COMMODITIES, FOREX } from "../data/stocks.js";
 import { FEAR_HISTORY_YEAR, FEAR_COMPONENTS } from "../data/constants.js";
 import StockTableRow from "../components/market/StockTableRow.jsx";
-import MarqueeTicker from "../components/MarqueeTicker.jsx";
+
 import Heatmap from "../components/Heatmap.jsx";
 import SessionStats from "../components/SessionStats.jsx";
 import FearGauge from "../components/FearGauge.jsx";
@@ -18,14 +18,12 @@ import CompanyMonogram from "../components/CompanyMonogram.jsx";
 import MarketOverviewCards from "../components/MarketOverviewCards.jsx";
 import IndeksyView from "../components/IndeksyView.jsx";
 import WorldIndicesView from "../components/WorldIndicesView.jsx";
-import WIGMarketsLogo from "../components/WIGMarketsLogo.jsx";
+
 import ScreenerView from "../components/ScreenerView.jsx";
 import SkeletonRow from "../components/SkeletonRow.jsx";
 import ToastContainer from "../components/ToastContainer.jsx";
-import AlertsModal from "../components/AlertsModal.jsx";
 import Icon from "../components/edukacja/Icon.jsx";
-import MobileDrawer from "../components/MobileDrawer.jsx";
-import DesktopNavMenu from "../components/DesktopNavMenu.jsx";
+
 import FilterDropdown from "../components/ui/FilterDropdown.jsx";
 
 const ALL_INSTRUMENTS = [...STOCKS, ...COMMODITIES, ...FOREX];
@@ -37,11 +35,12 @@ export default function HomePage({
   liveStocks, allInstruments,
   indices, worldIndices,
   alerts, setAlerts,
+  tab: tabProp, setTab: setTabProp, viewMode, setViewMode,
 }) {
   const navigate = useNavigate();
   const isMobile = useIsMobile();
 
-  const [tab, setTab] = useState("akcje");
+  const tab = tabProp;
   const [search, setSearch] = useState("");
   const [sortBy, setSortBy] = useState("cap");
   const [sortDir, setSortDir] = useState("desc");
@@ -51,12 +50,15 @@ export default function HomePage({
   const [selected, setSelected] = useState(null);
   const [calcStock, setCalcStock] = useState(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [drawerOpen, setDrawerOpen] = useState(false);
-  const [viewMode, setViewMode] = useState("table");
   const [watchFilter, setWatchFilter] = useState(false);
+  const setTab = useCallback((t) => {
+    setTabProp(t);
+    setPage(1);
+    setFilter("all");
+    setWatchFilter(t === "watchlist");
+  }, [setTabProp]);
   const [hoveredRow, setHoveredRow] = useState(0);
   const [showShortcuts, setShowShortcuts] = useState(false);
-  const [showAlerts, setShowAlerts] = useState(false);
   const [showPE, setShowPE] = useState(false);
   const [showDiv, setShowDiv] = useState(false);
   const [fgData, setFgData] = useState(null);
@@ -217,13 +219,10 @@ export default function HomePage({
   const fgColor = fgValue < 25 ? "#dc2626" : fgValue < 45 ? "#ea580c" : fgValue < 55 ? "#ca8a04" : fgValue < 75 ? "#16a34a" : "#15803d";
 
   return (
-    <div style={{ minHeight: "100vh", background: bgGradient, color: theme.text, fontFamily: "var(--font-ui)" }}>
+    <div style={{ color: theme.text, fontFamily: "var(--font-ui)" }}>
 
       {selected && <StockModal stock={selected} price={prices[selected.ticker]} change24h={changes[selected.ticker]?.change24h ?? 0} change7d={changes[selected.ticker]?.change7d ?? 0} onClose={() => setSelected(null)} onCalc={() => { setCalcStock(selected); }} theme={theme} />}
       {calcStock && <ProfitCalculatorModal stock={calcStock} currentPrice={prices[calcStock.ticker]} onClose={() => setCalcStock(null)} theme={theme} />}
-
-      {/* Alerts modal */}
-      {showAlerts && <AlertsModal onClose={() => setShowAlerts(false)} theme={theme} prices={prices} allInstruments={ALL_INSTRUMENTS} alerts={alerts} setAlerts={setAlerts} />}
 
       {/* Shortcuts help modal */}
       {showShortcuts && (
@@ -246,59 +245,6 @@ export default function HomePage({
           </div>
         </div>
       )}
-
-      {/* Top bar — logo + navigation */}
-      <div style={{ background: theme.bgCard, borderBottom: `1px solid ${theme.border}`, padding: "0 16px" }}>
-        <div style={{ display: "flex", alignItems: "center", minHeight: 58, maxWidth: 1400, margin: "0 auto" }}>
-          {/* Mobile: hamburger */}
-          {isMobile && (
-            <button onClick={() => setDrawerOpen(true)} style={{ background: "transparent", border: "none", color: theme.textBright, cursor: "pointer", padding: "6px 8px 6px 0", lineHeight: 1, fontFamily: "inherit", display: "inline-flex", alignItems: "center" }}>
-              <Icon name="menu" size={22} />
-            </button>
-          )}
-          <div style={{ display: "flex", flexDirection: "column" }}>
-            <WIGMarketsLogo size={isMobile ? "small" : "default"} theme={theme} />
-            {!isMobile && <span style={{ fontSize: 10, color: theme.textMuted, fontFamily: "var(--font-ui)", marginTop: -2, letterSpacing: "0.02em" }}>Notowania GPW w czasie rzeczywistym</span>}
-          </div>
-
-          {/* Desktop: mega menu nav */}
-          {!isMobile && (
-            <DesktopNavMenu
-              theme={theme} darkMode={darkMode} setDarkMode={setDarkMode}
-              tab={tab} setTab={(t) => { setTab(t); setPage(1); setFilter("all"); setWatchFilter(t === "watchlist"); }}
-              navigate={navigate} watchlistSize={watchlist.size}
-              showAlerts={showAlerts} setShowAlerts={setShowAlerts} alerts={alerts}
-              setViewMode={setViewMode}
-            />
-          )}
-
-          {/* Mobile: right-side controls */}
-          {isMobile && (
-            <div style={{ marginLeft: "auto", display: "flex", gap: 6, flexShrink: 0 }}>
-              <button onClick={() => setShowAlerts(s => !s)} title="Alerty cenowe" style={{ position: "relative", background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "6px 10px", fontSize: 13, cursor: "pointer", fontFamily: "inherit", display: "inline-flex", alignItems: "center" }}>
-                <Icon name="bell" size={16} />{alerts.some(a => a.triggered) && <span style={{ position: "absolute", top: 3, right: 3, width: 6, height: 6, borderRadius: "50%", background: "#ef4444", display: "block" }} />}
-              </button>
-              <button onClick={() => setSidebarOpen(o => !o)} style={{ background: theme.bgCardAlt, border: `1px solid ${theme.border}`, borderRadius: 6, color: theme.textSecondary, padding: "6px 10px", fontSize: 11, cursor: "pointer", fontFamily: "inherit", display: "inline-flex", alignItems: "center" }}>
-                {sidebarOpen ? <Icon name="x" size={14} /> : <Icon name="chart-bar" size={14} />}
-              </button>
-            </div>
-          )}
-        </div>
-      </div>
-
-      {/* Mobile drawer */}
-      {isMobile && (
-        <MobileDrawer
-          open={drawerOpen} onClose={() => setDrawerOpen(false)}
-          theme={theme} darkMode={darkMode} setDarkMode={setDarkMode}
-          tab={tab} setTab={(t) => { setTab(t); setPage(1); setFilter("all"); setWatchFilter(t === "watchlist"); }}
-          navigate={navigate} watchlistSize={watchlist.size}
-          setViewMode={setViewMode}
-        />
-      )}
-
-      {/* Marquee ticker */}
-      <MarqueeTicker stocks={[...liveStocks, ...COMMODITIES, ...FOREX]} prices={prices} changes={changes} theme={theme} onSelect={navigateToStock} />
 
       {/* Market Overview Dashboard */}
       <div style={{ maxWidth: 1400, margin: "0 auto", padding: isMobile ? "12px 12px 0" : "24px 24px 0" }}>
@@ -338,7 +284,7 @@ export default function HomePage({
             ["screener", "search", "Screener"],
             ["watchlist", "star", `Obserwowane${watchlist.size ? ` (${watchlist.size})` : ""}`],
           ].map(([key, iconName, label]) => (
-            <button key={key} onClick={() => { setTab(key); setPage(1); setFilter("all"); setWatchFilter(key === "watchlist"); }}
+            <button key={key} onClick={() => setTab(key)}
               style={{
                 padding: "8px 16px", borderRadius: 8,
                 border: "none",
@@ -525,13 +471,6 @@ export default function HomePage({
           </div>
         )}
         </>)}
-      </div>
-
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 6, padding: "48px 24px 20px", borderTop: `1px solid ${theme.border}` }}>
-        <WIGMarketsLogo size="large" theme={theme} />
-        <div style={{ fontSize: 10, color: theme.textSecondary, textAlign: "center" }}>
-          © 2026 · Dane z GPW via Yahoo Finance · Nie stanowią rekomendacji inwestycyjnej
-        </div>
       </div>
 
       <ToastContainer theme={theme} />

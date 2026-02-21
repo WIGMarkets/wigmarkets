@@ -97,7 +97,7 @@ export default function ArticlePage({ theme }) {
 
   if (!article) {
     return (
-      <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: 16, padding: 16 }}>
+      <div style={{ minHeight: "50vh", color: theme.text, fontFamily: "var(--font-ui)", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: 16, padding: 16 }}>
         <div style={{ color: theme.textSecondary }}><Icon name="search" size={48} /></div>
         <div style={{ fontSize: 20, fontWeight: 700, color: theme.textBright }}>Artykuł nie znaleziony</div>
         <div style={{ fontSize: 14, color: theme.textSecondary }}>Artykuł o podanym adresie nie istnieje.</div>
@@ -120,7 +120,7 @@ export default function ArticlePage({ theme }) {
   }
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)", overflowX: "hidden" }}>
+    <div style={{ color: theme.text, fontFamily: "var(--font-ui)", overflowX: "hidden" }}>
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: isMobile ? "16px" : "24px", boxSizing: "border-box", width: "100%" }}>
 
         <Breadcrumbs

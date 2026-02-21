@@ -180,7 +180,7 @@ export default function FearGreedPage({ theme }) {
 
   if (loading) {
     return (
-      <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+      <div style={{ minHeight: "50vh", color: theme.text, fontFamily: "var(--font-ui)", display: "flex", alignItems: "center", justifyContent: "center" }}>
         <div style={{ textAlign: "center" }}>
           <div style={{ width: 40, height: 40, border: `3px solid ${theme.border}`, borderTopColor: theme.accent, borderRadius: "50%", animation: "spin 0.8s linear infinite", margin: "0 auto 16px" }} />
           <div style={{ fontSize: 14, color: theme.textSecondary }}>Ładowanie Fear & Greed Index...</div>
@@ -192,7 +192,7 @@ export default function FearGreedPage({ theme }) {
 
   if (!data || !data.current) {
     return (
-      <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+      <div style={{ minHeight: "50vh", color: theme.text, fontFamily: "var(--font-ui)", display: "flex", alignItems: "center", justifyContent: "center" }}>
         <div style={{ textAlign: "center" }}>
           <div style={{ fontSize: 14, color: theme.textSecondary, marginBottom: 16 }}>Nie udało się załadować danych Fear & Greed Index</div>
           <button onClick={() => navigate("/")} style={{ background: "none", border: `1px solid ${theme.border}`, color: theme.text, borderRadius: 8, padding: "8px 18px", cursor: "pointer", fontSize: 13, fontFamily: "inherit" }}>
@@ -275,18 +275,12 @@ export default function FearGreedPage({ theme }) {
   `;
 
   return (
-    <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)" }}>
+    <div style={{ color: theme.text, fontFamily: "var(--font-ui)" }}>
       <style>{animCSS}</style>
 
       {/* Header */}
       <div style={{ borderBottom: `1px solid ${theme.border}`, padding: isMobile ? "16px" : "20px 32px" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-          <button
-            onClick={() => navigate("/")}
-            style={{ background: "none", border: "none", color: theme.textSecondary, cursor: "pointer", fontSize: 13, fontFamily: "inherit", padding: 0, marginBottom: 12, display: "flex", alignItems: "center", gap: 6 }}
-          >
-            <Icon name="arrow-left" size={14} /> Powrót
-          </button>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 12 }}>
             <div>
               <h1 style={{ fontSize: isMobile ? 24 : 32, fontWeight: 700, color: theme.textBright, margin: "0 0 6px", lineHeight: 1.2 }}>
