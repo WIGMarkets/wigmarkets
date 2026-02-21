@@ -168,6 +168,16 @@ export default function FearGreedPage({ theme }) {
 
   const handleMouseLeave = useCallback(() => setHover(null), []);
 
+  // Close share dropdown on outside click
+  useEffect(() => {
+    if (!shareOpen) return;
+    const handle = (e) => {
+      if (shareRef.current && !shareRef.current.contains(e.target)) setShareOpen(false);
+    };
+    document.addEventListener("mousedown", handle);
+    return () => document.removeEventListener("mousedown", handle);
+  }, [shareOpen]);
+
   if (loading) {
     return (
       <div style={{ minHeight: "100vh", background: theme.bgPage, color: theme.text, fontFamily: "var(--font-ui)", display: "flex", alignItems: "center", justifyContent: "center" }}>
@@ -239,16 +249,6 @@ export default function FearGreedPage({ theme }) {
       </span>
     );
   }
-
-  // Close share dropdown on outside click
-  useEffect(() => {
-    if (!shareOpen) return;
-    const handle = (e) => {
-      if (shareRef.current && !shareRef.current.contains(e.target)) setShareOpen(false);
-    };
-    document.addEventListener("mousedown", handle);
-    return () => document.removeEventListener("mousedown", handle);
-  }, [shareOpen]);
 
   const shareUrl = "https://wigmarkets.pl/fear-greed";
   const shareText = `GPW Fear & Greed Index: ${value} (${getLabel(value)}) — sprawdź sentyment rynku GPW`;
