@@ -34,10 +34,11 @@ export const SECTOR_AVERAGES = {
 
 export const FEAR_COMPONENTS = [
   { label: "Momentum rynku",           val: 68 },
-  { label: "Siła wolumenu",            val: 55 },
   { label: "Szerokość rynku",          val: 72 },
-  { label: "Zmienność (VIX GPW)",      val: 44 },
-  { label: "Put/Call ratio",           val: 60 },
+  { label: "Zmienność rynku",          val: 44 },
+  { label: "Nowe szczyty vs dołki",    val: 60 },
+  { label: "Siła wolumenu",            val: 55 },
+  { label: "Małe vs duże spółki",      val: 52 },
   { label: "Popyt na bezpieczne aktywa", val: 38 },
 ];
 

@@ -159,7 +159,8 @@ export default function App() {
           liveStocks={liveStocks} allInstruments={allInstruments} />
       } />
       <Route path="/dywidendy" element={<DividendPage theme={theme} />} />
-      <Route path="/indeks" element={<ErrorBoundary><FearGreedPage theme={theme} /></ErrorBoundary>} />
+      <Route path="/fear-greed" element={<ErrorBoundary><FearGreedPage theme={theme} /></ErrorBoundary>} />
+      <Route path="/indeks" element={<Navigate to="/fear-greed" replace />} />
       <Route path="/wiadomosci" element={<NewsPage theme={theme} />} />
       <Route path="/portfolio" element={<PortfolioPage theme={theme} prices={prices} allInstruments={allInstruments} />} />
       <Route path="/edukacja" element={<EdukacjaHome theme={theme} />} />
