@@ -234,9 +234,18 @@ export default function FearGreedPage({ theme }) {
   };
 
   const updatedAt = data.current?.updatedAt;
-  const updatedStr = updatedAt
-    ? new Date(updatedAt).toLocaleString("pl-PL", { day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" })
-    : null;
+  const updatedStr = (() => {
+    if (!updatedAt) return null;
+    const d = new Date(updatedAt);
+    if (isNaN(d.getTime())) return null;
+    const months = ["sty", "lut", "mar", "kwi", "maj", "cze", "lip", "sie", "wrz", "paź", "lis", "gru"];
+    const day = d.getDate();
+    const mon = months[d.getMonth()];
+    const year = d.getFullYear();
+    const hh = String(d.getHours()).padStart(2, "0");
+    const mm = String(d.getMinutes()).padStart(2, "0");
+    return `${day} ${mon} ${year}, ${hh}:${mm}`;
+  })();
 
   // Diff arrows for comparison cards
   function diffArrow(refVal) {
@@ -286,13 +295,13 @@ export default function FearGreedPage({ theme }) {
               <h1 style={{ fontSize: isMobile ? 24 : 32, fontWeight: 700, color: theme.textBright, margin: "0 0 6px", lineHeight: 1.2 }}>
                 GPW Fear & Greed Index
               </h1>
+              {updatedStr && !isFallback && (
+                <div style={{ fontSize: 13, color: theme.textMuted, marginBottom: 4 }}>
+                  Ostatnia aktualizacja: {updatedStr}
+                </div>
+              )}
               <p style={{ fontSize: 14, color: theme.textSecondary, margin: 0, lineHeight: 1.5 }}>
                 Wskaźnik sentymentu rynku Giełdy Papierów Wartościowych
-                {updatedStr && !isFallback && (
-                  <span style={{ marginLeft: 12, fontSize: 12, opacity: 0.7 }}>
-                    Ostatnia aktualizacja: {updatedStr}
-                  </span>
-                )}
               </p>
             </div>
 
