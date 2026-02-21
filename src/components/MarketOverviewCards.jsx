@@ -206,6 +206,10 @@ export default function MarketOverviewCards({
           from { opacity: 0; transform: translateY(6px); }
           to   { opacity: 1; transform: translateY(0); }
         }
+        @keyframes pulse {
+          0%, 100% { opacity: 0.4; }
+          50% { opacity: 0.8; }
+        }
       `}</style>
 
       <div style={gridStyle}>
@@ -230,47 +234,65 @@ export default function MarketOverviewCards({
             {/* WIG20 */}
             <div>
               <div style={labelStyle}>WIG20</div>
-              <div style={idxValueStyle}>{fmtIdx(wig20?.value)}</div>
-              {wig20?.change24h != null && (
-                <div style={{
-                  fontSize: 13, fontWeight: 600, marginTop: 4,
-                  color: wig20.change24h >= 0 ? ACCENT_UP : ACCENT_DOWN,
-                  fontFamily: "var(--font-mono)",
-                  display: "flex", alignItems: "center", gap: 4,
-                }}>
-                  <Icon name={wig20.change24h >= 0 ? "trending-up" : "trending-down"} size={14} />
-                  {fmtIdxChange(wig20.change24h)}
-                </div>
+              {wig20?.value != null ? (
+                <>
+                  <div style={idxValueStyle}>{fmtIdx(wig20.value)}</div>
+                  {wig20.change24h != null && (
+                    <div style={{
+                      fontSize: 13, fontWeight: 600, marginTop: 4,
+                      color: wig20.change24h >= 0 ? ACCENT_UP : ACCENT_DOWN,
+                      fontFamily: "var(--font-mono)",
+                      display: "flex", alignItems: "center", gap: 4,
+                    }}>
+                      <Icon name={wig20.change24h >= 0 ? "trending-up" : "trending-down"} size={14} />
+                      {fmtIdxChange(wig20.change24h)}
+                    </div>
+                  )}
+                  <IndexSparkline
+                    prices={wig20.sparkline ?? null}
+                    trend={wig20.change24h ?? 0}
+                    height={isMobile ? 28 : 36}
+                    gradId="ovspWIG20"
+                  />
+                </>
+              ) : (
+                <>
+                  <div style={{ height: isMobile ? 22 : 28, borderRadius: 6, background: theme.bgCardAlt, marginBottom: 4, animation: "pulse 1.8s ease-in-out infinite" }} />
+                  <div style={{ fontSize: 10, color: theme.textMuted, marginTop: 6 }}>Ładowanie danych...</div>
+                </>
               )}
-              <IndexSparkline
-                prices={wig20?.sparkline ?? null}
-                trend={wig20?.change24h ?? 0}
-                height={isMobile ? 28 : 36}
-                gradId="ovspWIG20"
-              />
             </div>
 
             {/* WIG */}
             <div>
               <div style={labelStyle}>WIG</div>
-              <div style={idxValueStyle}>{fmtIdx(wig?.value)}</div>
-              {wig?.change24h != null && (
-                <div style={{
-                  fontSize: 13, fontWeight: 600, marginTop: 4,
-                  color: wig.change24h >= 0 ? ACCENT_UP : ACCENT_DOWN,
-                  fontFamily: "var(--font-mono)",
-                  display: "flex", alignItems: "center", gap: 4,
-                }}>
-                  <Icon name={wig.change24h >= 0 ? "trending-up" : "trending-down"} size={14} />
-                  {fmtIdxChange(wig.change24h)}
-                </div>
+              {wig?.value != null ? (
+                <>
+                  <div style={idxValueStyle}>{fmtIdx(wig.value)}</div>
+                  {wig.change24h != null && (
+                    <div style={{
+                      fontSize: 13, fontWeight: 600, marginTop: 4,
+                      color: wig.change24h >= 0 ? ACCENT_UP : ACCENT_DOWN,
+                      fontFamily: "var(--font-mono)",
+                      display: "flex", alignItems: "center", gap: 4,
+                    }}>
+                      <Icon name={wig.change24h >= 0 ? "trending-up" : "trending-down"} size={14} />
+                      {fmtIdxChange(wig.change24h)}
+                    </div>
+                  )}
+                  <IndexSparkline
+                    prices={wig.sparkline ?? null}
+                    trend={wig.change24h ?? 0}
+                    height={isMobile ? 28 : 36}
+                    gradId="ovspWIG"
+                  />
+                </>
+              ) : (
+                <>
+                  <div style={{ height: isMobile ? 22 : 28, borderRadius: 6, background: theme.bgCardAlt, marginBottom: 4, animation: "pulse 1.8s ease-in-out infinite" }} />
+                  <div style={{ fontSize: 10, color: theme.textMuted, marginTop: 6 }}>Ładowanie danych...</div>
+                </>
               )}
-              <IndexSparkline
-                prices={wig?.sparkline ?? null}
-                trend={wig?.change24h ?? 0}
-                height={isMobile ? 28 : 36}
-                gradId="ovspWIG"
-              />
             </div>
           </div>
         </div>
