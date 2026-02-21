@@ -130,8 +130,11 @@ export default function FearGreedPage({ theme }) {
   const [range, setRange] = useState("1r");
   const [hover, setHover] = useState(null);
   const [methodOpen, setMethodOpen] = useState(false);
+  const [shareOpen, setShareOpen] = useState(false);
+  const [copyToast, setCopyToast] = useState(false);
   const svgRef = useRef(null);
   const containerRef = useRef(null);
+  const shareRef = useRef(null);
 
   useEffect(() => {
     fetchFearGreed()
@@ -237,6 +240,26 @@ export default function FearGreedPage({ theme }) {
     );
   }
 
+  // Close share dropdown on outside click
+  useEffect(() => {
+    if (!shareOpen) return;
+    const handle = (e) => {
+      if (shareRef.current && !shareRef.current.contains(e.target)) setShareOpen(false);
+    };
+    document.addEventListener("mousedown", handle);
+    return () => document.removeEventListener("mousedown", handle);
+  }, [shareOpen]);
+
+  const shareUrl = "https://wigmarkets.pl/fear-greed";
+  const shareText = `GPW Fear & Greed Index: ${value} (${getLabel(value)}) — sprawdź sentyment rynku GPW`;
+
+  function handleCopyLink() {
+    navigator.clipboard.writeText(shareUrl).catch(() => {});
+    setCopyToast(true);
+    setShareOpen(false);
+    setTimeout(() => setCopyToast(false), 2000);
+  }
+
   // CSS animations
   const animCSS = `
     @keyframes fgFadeSlideUp {
@@ -264,17 +287,89 @@ export default function FearGreedPage({ theme }) {
           >
             <Icon name="arrow-left" size={14} /> Powrót
           </button>
-          <h1 style={{ fontSize: isMobile ? 24 : 32, fontWeight: 700, color: theme.textBright, margin: "0 0 6px", lineHeight: 1.2 }}>
-            GPW Fear & Greed Index
-          </h1>
-          <p style={{ fontSize: 14, color: theme.textSecondary, margin: 0, lineHeight: 1.5 }}>
-            Wskaźnik sentymentu rynku Giełdy Papierów Wartościowych
-            {updatedStr && !isFallback && (
-              <span style={{ marginLeft: 12, fontSize: 12, opacity: 0.7 }}>
-                Ostatnia aktualizacja: {updatedStr}
-              </span>
-            )}
-          </p>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 12 }}>
+            <div>
+              <h1 style={{ fontSize: isMobile ? 24 : 32, fontWeight: 700, color: theme.textBright, margin: "0 0 6px", lineHeight: 1.2 }}>
+                GPW Fear & Greed Index
+              </h1>
+              <p style={{ fontSize: 14, color: theme.textSecondary, margin: 0, lineHeight: 1.5 }}>
+                Wskaźnik sentymentu rynku Giełdy Papierów Wartościowych
+                {updatedStr && !isFallback && (
+                  <span style={{ marginLeft: 12, fontSize: 12, opacity: 0.7 }}>
+                    Ostatnia aktualizacja: {updatedStr}
+                  </span>
+                )}
+              </p>
+            </div>
+
+            {/* Share button */}
+            <div ref={shareRef} style={{ position: "relative", flexShrink: 0 }}>
+              <button
+                onClick={() => setShareOpen(v => !v)}
+                style={{
+                  display: "flex", alignItems: "center", gap: 6,
+                  background: "none", border: `1px solid ${theme.border}`,
+                  color: theme.textSecondary, borderRadius: 8,
+                  padding: "7px 14px", cursor: "pointer",
+                  fontSize: 13, fontFamily: "inherit",
+                  transition: "border-color 0.15s, color 0.15s",
+                }}
+                onMouseEnter={e => { e.currentTarget.style.borderColor = theme.textMuted; e.currentTarget.style.color = theme.textBright; }}
+                onMouseLeave={e => { e.currentTarget.style.borderColor = theme.border; e.currentTarget.style.color = theme.textSecondary; }}
+              >
+                <Icon name="share-2" size={14} />
+                {!isMobile && "Udostępnij"}
+              </button>
+
+              {/* Share dropdown */}
+              {shareOpen && (
+                <div style={{
+                  position: "absolute", right: 0, top: "calc(100% + 6px)", zIndex: 50,
+                  background: theme.bgElevated, border: `1px solid ${theme.border}`,
+                  borderRadius: 10, padding: "4px 0", minWidth: 220,
+                  boxShadow: "0 8px 32px rgba(0,0,0,0.35)",
+                }}>
+                  {[
+                    { label: "Kopiuj link", icon: "link", onClick: handleCopyLink },
+                    { label: "Udostępnij na X", icon: "twitter", onClick: () => { window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`, "_blank"); setShareOpen(false); } },
+                    { label: "Udostępnij na Facebook", icon: "facebook", onClick: () => { window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`, "_blank"); setShareOpen(false); } },
+                    { label: "Udostępnij na LinkedIn", icon: "linkedin", onClick: () => { window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`, "_blank"); setShareOpen(false); } },
+                  ].map(item => (
+                    <button
+                      key={item.label}
+                      onClick={item.onClick}
+                      style={{
+                        display: "flex", alignItems: "center", gap: 10, width: "100%",
+                        background: "none", border: "none", padding: "10px 16px",
+                        color: theme.text, cursor: "pointer", fontSize: 13,
+                        fontFamily: "inherit", textAlign: "left",
+                        transition: "background 0.1s",
+                      }}
+                      onMouseEnter={e => e.currentTarget.style.background = theme.bgHover}
+                      onMouseLeave={e => e.currentTarget.style.background = "none"}
+                    >
+                      <Icon name={item.icon} size={15} style={{ color: theme.textMuted, flexShrink: 0 }} />
+                      {item.label}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Copy toast */}
+          {copyToast && (
+            <div style={{
+              position: "fixed", bottom: 24, right: 24, zIndex: 100,
+              background: theme.bgElevated, border: `1px solid ${theme.border}`,
+              borderRadius: 8, padding: "10px 18px",
+              color: theme.textBright, fontSize: 13,
+              boxShadow: "0 4px 20px rgba(0,0,0,0.3)",
+              animation: "fgFadeSlideUp 0.3s ease-out",
+            }}>
+              Link skopiowany do schowka
+            </div>
+          )}
         </div>
       </div>
 
