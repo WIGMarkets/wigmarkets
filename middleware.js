@@ -5,11 +5,13 @@
 import glossaryData from "./src/data/glossary.json";
 import { GPW_COMPANIES } from "./src/data/gpw-companies.js";
 import companyDescriptions from "./src/data/company-descriptions.json";
+import { RANKINGS } from "./src/data/rankings.js";
 
 const CRAWLER_RE = /Twitterbot|facebookexternalhit|LinkedInBot|Slackbot|Discordbot|WhatsApp|Googlebot|bingbot/i;
 
 const glossaryBySlug = Object.fromEntries(glossaryData.map(e => [e.slug, e]));
 const tickerToName = Object.fromEntries(GPW_COMPANIES.map(c => [c.ticker, c.name]));
+const rankingBySlug = Object.fromEntries(RANKINGS.map(r => [r.slug, r]));
 
 function truncateDesc(str, max = 155) {
   if (!str || str.length <= max) return str || "";
@@ -148,9 +150,44 @@ export default function middleware(req) {
     );
   }
 
+  // Rankings list page (/rankingi)
+  if (path === "/rankingi" || path === "/rankingi/") {
+    return new Response(
+      htmlShell({
+        title: "Rankingi GPW — WIGmarkets.pl",
+        description: "Automatycznie aktualizowane rankingi spółek na Giełdzie Papierów Wartościowych. Wzrosty, spadki, dywidendy, kapitalizacja i więcej.",
+        url: `${base}/rankingi`,
+      }),
+      { headers: { "Content-Type": "text/html; charset=utf-8" } }
+    );
+  }
+
+  // Ranking detail page (/rankingi/:slug)
+  const rankingMatch = path.match(/^\/rankingi\/([a-z0-9-]+)$/);
+  if (rankingMatch) {
+    const slug = rankingMatch[1];
+    const ranking = rankingBySlug[slug];
+    if (ranking) {
+      return new Response(
+        htmlShell({
+          title: `${ranking.seoTitle} — WIGmarkets.pl`,
+          description: ranking.seoDescription,
+          url: `${base}/rankingi/${slug}`,
+          jsonLd: {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": ranking.seoTitle,
+            "url": `${base}/rankingi/${slug}`,
+          },
+        }),
+        { headers: { "Content-Type": "text/html; charset=utf-8" } }
+      );
+    }
+  }
+
   // All other pages — let them through (will use index.html default OG tags)
 }
 
 export const config = {
-  matcher: ["/fear-greed", "/indeks", "/spolka/:path*", "/stock/:path*", "/edukacja/slowniczek", "/edukacja/slowniczek/:path*"],
+  matcher: ["/fear-greed", "/indeks", "/spolka/:path*", "/stock/:path*", "/edukacja/slowniczek", "/edukacja/slowniczek/:path*", "/rankingi", "/rankingi/:path*"],
 };

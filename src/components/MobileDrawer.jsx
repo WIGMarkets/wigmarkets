@@ -27,6 +27,7 @@ const MENU = [
       { icon: "newspaper", label: "Wiadomości", href: "/wiadomosci" },
       { icon: "calendar", label: "Kalendarz dywidend", href: "/dywidendy" },
       { icon: "activity", label: "Indeks Fear & Greed", href: "/indeks" },
+      { icon: "trophy", label: "Rankingi GPW", href: "/rankingi" },
     ],
   },
   {
