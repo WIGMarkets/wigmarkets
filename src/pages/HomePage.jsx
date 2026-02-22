@@ -11,7 +11,6 @@ import StockTableRow from "../components/market/StockTableRow.jsx";
 import Heatmap from "../components/Heatmap.jsx";
 import SessionStats from "../components/SessionStats.jsx";
 import FearGauge from "../components/FearGauge.jsx";
-import ProfitCalculatorModal from "../components/ProfitCalculatorModal.jsx";
 import StockModal from "../components/StockModal.jsx";
 import StockLogo from "../components/StockLogo.jsx";
 import CompanyMonogram from "../components/CompanyMonogram.jsx";
@@ -49,7 +48,6 @@ export default function HomePage({
   const [page, setPage] = useState(1);
   const [redditData, setRedditData] = useState({ ranked: [], postsScanned: 0, loading: false });
   const [selected, setSelected] = useState(null);
-  const [calcStock, setCalcStock] = useState(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [watchFilter, setWatchFilter] = useState(false);
   const setTab = useCallback((t) => {
@@ -166,7 +164,6 @@ export default function HomePage({
     onSlash: () => searchRef.current?.focus(),
     onEsc: () => {
       if (selected)  { setSelected(null); return; }
-      if (calcStock) { setCalcStock(null); return; }
       if (search)    { setSearch(""); return; }
       searchRef.current?.blur();
     },
@@ -222,8 +219,7 @@ export default function HomePage({
   return (
     <div style={{ color: theme.text, fontFamily: "var(--font-ui)" }}>
 
-      {selected && <StockModal stock={selected} price={prices[selected.ticker]} change24h={changes[selected.ticker]?.change24h ?? 0} change7d={changes[selected.ticker]?.change7d ?? 0} onClose={() => setSelected(null)} onCalc={() => { setCalcStock(selected); }} theme={theme} />}
-      {calcStock && <ProfitCalculatorModal stock={calcStock} currentPrice={prices[calcStock.ticker]} onClose={() => setCalcStock(null)} theme={theme} />}
+      {selected && <StockModal stock={selected} price={prices[selected.ticker]} change24h={changes[selected.ticker]?.change24h ?? 0} change7d={changes[selected.ticker]?.change7d ?? 0} onClose={() => setSelected(null)} theme={theme} />}
 
       {/* Shortcuts help modal */}
       {showShortcuts && (
@@ -430,7 +426,6 @@ export default function HomePage({
                     {!isMobile && (tab === "akcje") && showPE && col("P/E", "pe")}
                     {!isMobile && (tab === "akcje") && showDiv && col("Dyw %", "div")}
                     {!isMobile && <th style={{ padding: "12px 16px", textAlign: "right", fontSize: 10, color: theme.textMuted, borderBottom: `2px solid ${theme.border}`, fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", fontFamily: "var(--font-ui)" }}>7D</th>}
-                    {!isMobile && <th style={{ padding: "12px 16px", borderBottom: `2px solid ${theme.border}` }}></th>}
                   </tr>
                 </thead>
                 <tbody>
@@ -443,7 +438,7 @@ export default function HomePage({
                           isMobile={isMobile} tab={tab} theme={theme}
                           prices={prices} changes={changes}
                           watchlist={watchlist} toggleWatch={toggleWatch}
-                          navigateToStock={navigateToStock} setSelected={setSelected} setCalcStock={setCalcStock}
+                          navigateToStock={navigateToStock} setSelected={setSelected}
                           isKeyboardActive={i === hoveredRow} onHover={() => setHoveredRow(i)}
                           showPE={showPE} showDiv={showDiv}
                         />

@@ -77,7 +77,7 @@ export default function FundamentalsSection({ stock, fundamentals, loading, curr
         <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: 2, textTransform: "uppercase", marginBottom: 16, fontWeight: 600 }}>Dane fundamentalne</div>
         {!hasCurrentData ? (
           <div style={{ color: theme.textSecondary, fontSize: 12, textAlign: "center", padding: "16px 0" }}>
-            Brak danych fundamentalnych dla tej spółki w Yahoo Finance
+            Brak danych fundamentalnych dla tej spółki
           </div>
         ) : (
           <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr 1fr" : "repeat(3, 1fr)", gap: 12 }}>
