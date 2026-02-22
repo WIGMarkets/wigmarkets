@@ -185,9 +185,29 @@ export default function middleware(req) {
     }
   }
 
+  // Heatmap page (/heatmapa)
+  if (path === "/heatmapa" || path === "/heatmapa/") {
+    return new Response(
+      htmlShell({
+        title: "Heatmapa GPW — Mapa rynku giełdowego w czasie rzeczywistym — WIGmarkets.pl",
+        description: "Interaktywna heatmapa Giełdy Papierów Wartościowych w Warszawie. Zobacz które spółki rosną a które spadają. Ponad 290 spółek GPW na jednej mapie.",
+        url: `${base}/heatmapa`,
+        jsonLd: {
+          "@context": "https://schema.org",
+          "@type": "WebApplication",
+          "name": "Heatmapa GPW",
+          "description": "Interaktywna mapa rynku giełdowego GPW",
+          "url": `${base}/heatmapa`,
+          "applicationCategory": "FinanceApplication",
+        },
+      }),
+      { headers: { "Content-Type": "text/html; charset=utf-8" } }
+    );
+  }
+
   // All other pages — let them through (will use index.html default OG tags)
 }
 
 export const config = {
-  matcher: ["/fear-greed", "/indeks", "/spolka/:path*", "/stock/:path*", "/edukacja/slowniczek", "/edukacja/slowniczek/:path*", "/rankingi", "/rankingi/:path*"],
+  matcher: ["/fear-greed", "/indeks", "/spolka/:path*", "/stock/:path*", "/edukacja/slowniczek", "/edukacja/slowniczek/:path*", "/rankingi", "/rankingi/:path*", "/heatmapa"],
 };

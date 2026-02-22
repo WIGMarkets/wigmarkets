@@ -15,6 +15,7 @@ import GlossaryList from "./pages/GlossaryList.jsx";
 import GlossaryTerm from "./pages/GlossaryTerm.jsx";
 import RankingsPage from "./pages/RankingsPage.jsx";
 import RankingDetailPage from "./pages/RankingDetailPage.jsx";
+import HeatmapPage from "./pages/HeatmapPage.jsx";
 import ErrorBoundary from "./components/ErrorBoundary.jsx";
 import Navbar from "./components/layout/Navbar.jsx";
 import Footer from "./components/layout/Footer.jsx";
@@ -195,6 +196,7 @@ export default function App() {
           <Route path="/portfolio" element={<PortfolioPage theme={theme} prices={prices} allInstruments={allInstruments} />} />
           <Route path="/rankingi" element={<RankingsPage theme={theme} liveStocks={liveStocks} prices={prices} changes={changes} />} />
           <Route path="/rankingi/:slug" element={<RankingDetailPage theme={theme} liveStocks={liveStocks} prices={prices} changes={changes} />} />
+          <Route path="/heatmapa" element={<HeatmapPage theme={theme} liveStocks={liveStocks} prices={prices} changes={changes} setPrices={setPrices} setChanges={setChanges} />} />
           <Route path="/edukacja" element={<EdukacjaHome theme={theme} />} />
           <Route path="/edukacja/slowniczek" element={<GlossaryList theme={theme} />} />
           <Route path="/edukacja/slowniczek/:slug" element={<GlossaryTerm theme={theme} />} />
