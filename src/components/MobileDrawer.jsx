@@ -35,6 +35,7 @@ const MENU = [
       { icon: "book", label: "Podstawy", href: "/edukacja/podstawy" },
       { icon: "chart-bar", label: "Analiza", href: "/edukacja/analiza" },
       { icon: "target", label: "Strategia", href: "/edukacja/strategia" },
+      { icon: "book-open", label: "Słowniczek pojęć", href: "/edukacja/slowniczek" },
       { icon: "file-text", label: "Wszystkie artykuły", href: "/edukacja" },
     ],
   },

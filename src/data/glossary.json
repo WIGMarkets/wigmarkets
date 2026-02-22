@@ -1,0 +1,47 @@
+[
+  {
+    "term": "Akcja",
+    "slug": "akcja",
+    "shortDef": "Papier wartościowy potwierdzający udział w kapitale spółki akcyjnej.",
+    "fullDef": "Akcja to papier wartościowy emitowany przez spółkę akcyjną, który potwierdza udział jej posiadacza (akcjonariusza) w kapitale zakładowym spółki. Posiadanie akcji daje prawo do udziału w zyskach spółki (dywidenda), uczestnictwa w walnym zgromadzeniu akcjonariuszy oraz prawo do części majątku spółki w przypadku jej likwidacji.\n\nAkcje notowane na Giełdzie Papierów Wartościowych w Warszawie (GPW) dzielą się na akcje zwykłe i uprzywilejowane. Akcje zwykłe dają jeden głos na walnym zgromadzeniu, natomiast akcje uprzywilejowane mogą dawać dodatkowe prawa, np. wyższą dywidendę lub więcej głosów.\n\nCena akcji na giełdzie kształtowana jest przez podaż i popyt — im więcej inwestorów chce kupić daną akcję, tym wyższa jej cena. Na cenę wpływają wyniki finansowe spółki, sytuacja makroekonomiczna, nastroje rynkowe oraz wiele innych czynników.",
+    "category": "podstawy",
+    "related": ["dywidenda", "kapitalizacja"],
+    "example": "Inwestor kupuje 100 akcji PKO BP po cenie 45,20 zł za sztukę, płacąc łącznie 4 520 zł. Jeśli kurs wzrośnie do 50,00 zł, wartość pakietu wyniesie 5 000 zł — zysk to 480 zł (10,6%) przed kosztami prowizji."
+  },
+  {
+    "term": "Wskaźnik P/E",
+    "slug": "pe",
+    "shortDef": "Stosunek ceny akcji do zysku na akcję.",
+    "fullDef": "Wskaźnik P/E (Price to Earnings) to jeden z najważniejszych wskaźników analizy fundamentalnej. Oblicza się go dzieląc aktualną cenę rynkową akcji przez zysk netto przypadający na jedną akcję (EPS). Wynik pokazuje, ile lat zajęłoby „odzyskanie\u201D ceny akcji z samych zysków spółki, przy założeniu ich stałości.\n\nNiski P/E (np. poniżej 10) może sugerować, że spółka jest niedowartościowana lub że rynek oczekuje spadku zysków. Wysoki P/E (np. powyżej 25) może oznaczać, że inwestorzy oczekują dynamicznego wzrostu zysków w przyszłości — lub że akcja jest przewartościowana.\n\nWskaźnik P/E najlepiej porównywać w ramach tego samego sektora. Porównywanie P/E spółki technologicznej ze spółką surowcową jest mało miarodajne, ponieważ każdy sektor ma inne typowe poziomy tego wskaźnika.\n\nWarto też rozróżniać trailing P/E (oparty na historycznych zyskach z ostatnich 12 miesięcy) od forward P/E (opartego na prognozowanych zyskach).",
+    "category": "analiza-fundamentalna",
+    "related": ["akcja", "kapitalizacja"],
+    "example": "PKN ORLEN notowany po 109,00 zł z EPS wynoszącym 12,50 zł ma P/E równe 8,7x. CD Projekt przy cenie 180,00 zł i EPS 4,50 zł ma P/E 40,0x. Wyższe P/E CD Projektu odzwierciedla oczekiwania rynku na silny wzrost zysków z nowych premier gier."
+  },
+  {
+    "term": "RSI",
+    "slug": "rsi",
+    "shortDef": "Wskaźnik siły względnej mierzący tempo zmian cen.",
+    "fullDef": "RSI (Relative Strength Index) to oscylator momentum opracowany przez J. Wellesa Wildera w 1978 roku. Wskaźnik mierzy prędkość i wielkość ostatnich zmian cen, aby ocenić czy dany instrument jest wykupiony (overbought) czy wyprzedany (oversold). RSI przyjmuje wartości od 0 do 100.\n\nTradycyjnie wartość RSI powyżej 70 sygnalizuje, że instrument może być wykupiony — czyli cena rosła zbyt szybko i możliwa jest korekta spadkowa. RSI poniżej 30 sugeruje wyprzedanie — cena spadała intensywnie i może nastąpić odbicie.\n\nRSI oblicza się najczęściej na 14-okresowej podstawie (14 sesji dla danych dziennych). Formuła porównuje średni wzrost cen zamknięcia z średnim spadkiem w danym okresie. Im silniejszy trend wzrostowy, tym RSI bliższe 100.\n\nNależy pamiętać, że RSI to wskaźnik pomocniczy i nie powinien być jedyną podstawą decyzji inwestycyjnych. W silnym trendzie wzrostowym RSI może pozostawać powyżej 70 przez długi czas, nie oznaczając automatycznie spadku ceny.",
+    "category": "analiza-techniczna",
+    "related": ["akcja"],
+    "example": "Akcje CDR po silnym wzroście o 25% w ciągu miesiąca osiągają RSI na poziomie 78 — sygnał wykupienia. Inwestor stosujący analizę techniczną może rozważyć realizację części zysków lub wstrzymanie się z kolejnym zakupem, czekając na normalizację RSI poniżej 70."
+  },
+  {
+    "term": "Dywidenda",
+    "slug": "dywidenda",
+    "shortDef": "Część zysku netto spółki wypłacana akcjonariuszom.",
+    "fullDef": "Dywidenda to część zysku netto spółki akcyjnej, która zostaje wypłacona jej akcjonariuszom proporcjonalnie do liczby posiadanych akcji. O wypłacie i wysokości dywidendy decyduje walne zgromadzenie akcjonariuszy na wniosek zarządu spółki.\n\nKluczowe pojęcia związane z dywidendą:\n— Stopa dywidendy (dividend yield): roczna dywidenda na akcję podzielona przez cenę akcji, wyrażona w procentach. Pozwala porównywać atrakcyjność dywidend różnych spółek.\n— Dzień ustalenia prawa do dywidendy (record date): akcjonariusze posiadający akcje w tym dniu mają prawo do wypłaty.\n— Dzień odcięcia dywidendy (ex-dividend date): pierwszy dzień notowań, w którym kupujący akcję nie nabywa prawa do najbliższej dywidendy. Kurs akcji tego dnia zazwyczaj spada o wartość dywidendy.\n\nPolskie spółki dywidendowe najczęściej wypłacają dywidendę raz w roku, zwykle w okresie maj–lipiec, po zatwierdzeniu sprawozdania rocznego. Niektóre spółki (np. banki) mogą mieć ograniczenia regulacyjne dotyczące wypłaty dywidend.",
+    "category": "analiza-fundamentalna",
+    "related": ["akcja", "pe"],
+    "example": "PKO BP ogłasza dywidendę 2,50 zł na akcję przy cenie 45,00 zł. Stopa dywidendy wynosi 5,6% (2,50 / 45,00). Inwestor posiadający 200 akcji PKO BP otrzyma 500 zł brutto dywidendy, od której zostanie potrącony 19% podatek Belki — do wypłaty trafi 405 zł netto."
+  },
+  {
+    "term": "Kapitalizacja rynkowa",
+    "slug": "kapitalizacja",
+    "shortDef": "Łączna wartość rynkowa wszystkich akcji spółki.",
+    "fullDef": "Kapitalizacja rynkowa (market capitalization) to łączna wartość rynkowa wszystkich wyemitowanych akcji spółki. Oblicza się ją mnożąc aktualny kurs jednej akcji przez całkowitą liczbę akcji w obrocie. Jest to podstawowa miara wielkości spółki na giełdzie.\n\nNa GPW spółki klasyfikuje się według kapitalizacji do trzech głównych indeksów:\n— WIG20: 20 największych spółek (duże spółki, large cap)\n— mWIG40: 40 średnich spółek (mid cap)\n— sWIG80: 80 mniejszych spółek (small cap)\n\nKapitalizacja zmienia się w czasie, ponieważ zależy od aktualnego kursu akcji. Wzrost kursu o 10% oznacza wzrost kapitalizacji o 10%. Kapitalizacja nie odzwierciedla wartości księgowej spółki ani jej zadłużenia — do tego służą inne wskaźniki, jak EV (Enterprise Value).\n\nInwestorzy często traktują kapitalizację jako miarę ryzyka: duże spółki (high cap) są zazwyczaj bardziej stabilne i płynne, natomiast małe spółki (small cap) mogą oferować wyższy potencjał wzrostu, ale przy większej zmienności.",
+    "category": "wskazniki",
+    "related": ["akcja", "pe"],
+    "example": "PKN ORLEN przy kursie 109,00 zł i 427,7 mln akcji w obrocie ma kapitalizację 46,6 mld zł — jest jedną z największych spółek na GPW i wchodzi w skład indeksu WIG20. Dla porównania, mniejsza spółka z mWIG40 przy kursie 25 zł i 50 mln akcji ma kapitalizację zaledwie 1,25 mld zł."
+  }
+]

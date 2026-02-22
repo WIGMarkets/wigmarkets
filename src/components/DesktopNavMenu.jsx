@@ -206,6 +206,7 @@ export default function DesktopNavMenu({ theme, darkMode, setDarkMode, tab, setT
               {dropdownLink("book", "Podstawy inwestowania", () => handleNavClick({ href: "/edukacja/podstawy" }))}
               {dropdownLink("chart-bar", "Analiza fundamentalna i techniczna", () => handleNavClick({ href: "/edukacja/analiza" }))}
               {dropdownLink("target", "Strategie inwestycyjne", () => handleNavClick({ href: "/edukacja/strategia" }))}
+              {dropdownLink("book-open", "Słowniczek pojęć", () => handleNavClick({ href: "/edukacja/slowniczek" }))}
               {dropdownLink("file-text", "Wszystkie artykuły", () => handleNavClick({ href: "/edukacja" }))}
             </div>
             <div style={{ borderTop: `1px solid ${theme.border}`, paddingTop: 14 }}>

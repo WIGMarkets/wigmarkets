@@ -11,6 +11,8 @@ import FearGreedPage from "./components/FearGreedPage.jsx";
 import NewsPage from "./components/NewsPage.jsx";
 import PortfolioPage from "./components/PortfolioPage.jsx";
 import EdukacjaHome from "./components/edukacja/EdukacjaHome.jsx";
+import GlossaryList from "./pages/GlossaryList.jsx";
+import GlossaryTerm from "./pages/GlossaryTerm.jsx";
 import ErrorBoundary from "./components/ErrorBoundary.jsx";
 import Navbar from "./components/layout/Navbar.jsx";
 import Footer from "./components/layout/Footer.jsx";
@@ -190,6 +192,8 @@ export default function App() {
           <Route path="/wiadomosci" element={<NewsPage theme={theme} />} />
           <Route path="/portfolio" element={<PortfolioPage theme={theme} prices={prices} allInstruments={allInstruments} />} />
           <Route path="/edukacja" element={<EdukacjaHome theme={theme} />} />
+          <Route path="/edukacja/slowniczek" element={<GlossaryList theme={theme} />} />
+          <Route path="/edukacja/slowniczek/:slug" element={<GlossaryTerm theme={theme} />} />
           <Route path="/edukacja/:slug" element={<EdukacjaSlugRoute theme={theme} />} />
           <Route path="/" element={
             <HomePage
