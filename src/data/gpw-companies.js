@@ -107,7 +107,7 @@ export const GPW_COMPANIES = [
   // After Sep 2025 (+CEL, +DAD; -DIAG, -MLP)
   // After Dec 2025 (+ARL, +MLP; -MOL_CURE, -RNK)
   // ═══════════════════════════════════════════════════════════════════
-  { ticker: "AC", stooq: "ac", name: "AC SA (Auto-Gaz)", sector: "Motoryzacja", index: "sWIG80" },
+  { ticker: "ACG", stooq: "acg", name: "AC SA (Acautogaz)", sector: "Motoryzacja", index: "sWIG80" },
   { ticker: "AGO", stooq: "ago", name: "Agora SA", sector: "Media", index: "sWIG80" },
   { ticker: "ALL", stooq: "all", name: "Ailleron SA", sector: "Technologia", index: "sWIG80" },
   { ticker: "AMB", stooq: "amb", name: "Ambra SA", sector: "Spożywczy", index: "sWIG80" },
@@ -124,13 +124,13 @@ export const GPW_COMPANIES = [
   { ticker: "CEL", stooq: "cel", name: "Celon Pharma", sector: "Biotechnologia", index: "sWIG80" },
   { ticker: "CIG", stooq: "cig", name: "CI Games", sector: "Gry", index: "sWIG80" },
   { ticker: "CIE", stooq: "cie", name: "Ciech SA", sector: "Chemia", index: "sWIG80" },
-  { ticker: "CLN", stooq: "cln", name: "Coal Energy", sector: "Energetyka", index: "sWIG80" },
+  { ticker: "CLE", stooq: "cle", name: "Coal Energy", sector: "Energetyka", index: "sWIG80" },
   { ticker: "DAD", stooq: "dad", name: "Dadelo SA", sector: "E-commerce", index: "sWIG80" },
   { ticker: "DCR", stooq: "dcr", name: "Decora SA", sector: "Budownictwo", index: "sWIG80" },
   { ticker: "ELT", stooq: "elt", name: "Elemental Holding", sector: "Surowce", index: "sWIG80" },
   { ticker: "ENT", stooq: "ent", name: "Enter Air", sector: "Transport", index: "sWIG80" },
   { ticker: "ERB", stooq: "erb", name: "Erbud SA", sector: "Budownictwo", index: "sWIG80" },
-  { ticker: "FMF", stooq: "fmf", name: "Ferro SA", sector: "Przemysł", index: "sWIG80" },
+  { ticker: "FRO", stooq: "fro", name: "Ferro SA", sector: "Przemysł", index: "sWIG80" },
   { ticker: "FTE", stooq: "fte", name: "Fabryki Mebli Forte", sector: "Przemysł", index: "sWIG80" },
   { ticker: "GRN", stooq: "grn", name: "Grenevia SA (Famur)", sector: "Przemysł", index: "sWIG80" },
   { ticker: "GRX", stooq: "grx", name: "GreenX Metals", sector: "Surowce", index: "sWIG80" },
@@ -198,10 +198,10 @@ export const GPW_COMPANIES = [
   { ticker: "ALM", stooq: "alm", name: "Alumetal SA", sector: "Przemysł", index: "WIG" },
   { ticker: "ATA", stooq: "ata", name: "Atende SA", sector: "Technologia", index: "WIG" },
   { ticker: "ATR", stooq: "atr", name: "Atrem SA", sector: "Budownictwo", index: "WIG" },
-  { ticker: "BAH", stooq: "bah", name: "British Automotive Holding", sector: "Motoryzacja", index: "WIG" },
+
   { ticker: "BDG", stooq: "bdg", name: "Boryszew Divisional (Alchemia)", sector: "Przemysł", index: "WIG" },
   // BFT (Benefit Systems) is in mWIG40 — see above
-  { ticker: "BKM", stooq: "bkm", name: "Boombit SA", sector: "Gry", index: "WIG" },
+  { ticker: "BBT", stooq: "bbt", name: "Boombit SA", sector: "Gry", index: "WIG" },
   { ticker: "BLO", stooq: "blo", name: "Bloober Team", sector: "Gry", index: "WIG" },
   { ticker: "BST", stooq: "bst", name: "Best SA", sector: "Finanse", index: "WIG" },
   { ticker: "CDL", stooq: "cdl", name: "CDRL SA", sector: "Handel", index: "WIG" },
@@ -213,15 +213,15 @@ export const GPW_COMPANIES = [
   { ticker: "DEL", stooq: "del", name: "Delko SA", sector: "Handel", index: "WIG" },
   { ticker: "EAH", stooq: "eah", name: "e-Kancelaria SA", sector: "Finanse", index: "WIG" },
   { ticker: "ECO", stooq: "eco", name: "Ecovis SA", sector: "Usługi", index: "WIG" },
-  { ticker: "EKP", stooq: "ekp", name: "Elkop SA", sector: "Budownictwo", index: "WIG" },
+  { ticker: "EKP", stooq: "ekp", name: "Elkop Estonia SE", sector: "Budownictwo", index: "WIG" },
   { ticker: "EMC", stooq: "emc", name: "EMC Instytut Medyczny", sector: "Medycyna", index: "WIG" },
   { ticker: "FOR", stooq: "for", name: "Forbuild SA", sector: "Budownictwo", index: "WIG" },
   { ticker: "GKI", stooq: "gki", name: "GK Immobile SA", sector: "Nieruchomości", index: "WIG" },
   { ticker: "GLC", stooq: "glc", name: "Global Cosmed", sector: "FMCG", index: "WIG" },
-  { ticker: "GPR", stooq: "gpr", name: "Getin Holding", sector: "Finanse", index: "WIG" },
+  { ticker: "GTN", stooq: "gtn", name: "Getin Holding", sector: "Finanse", index: "WIG" },
   { ticker: "GEA", stooq: "gea", name: "Games SA", sector: "Gry", index: "WIG" },
   { ticker: "HRP", stooq: "hrp", name: "Harper Hygienics", sector: "FMCG", index: "WIG" },
-  { ticker: "IMP", stooq: "imp", name: "Impel SA", sector: "Usługi", index: "WIG" },
+
   { ticker: "INC", stooq: "inc", name: "INC SA", sector: "Finanse", index: "WIG" },
   { ticker: "IRL", stooq: "irl", name: "Ifirma SA", sector: "Technologia", index: "WIG" },
   { ticker: "IZO", stooq: "izo", name: "Izolacja Jarocin", sector: "Budownictwo", index: "WIG" },
@@ -245,10 +245,10 @@ export const GPW_COMPANIES = [
   { ticker: "PAT", stooq: "pat", name: "Patentus SA", sector: "Przemysł", index: "WIG" },
   { ticker: "PBS", stooq: "pbs", name: "PBS Finanse", sector: "Finanse", index: "WIG" },
   { ticker: "PGO", stooq: "pgo", name: "PGO SA", sector: "Przemysł", index: "WIG" },
-  { ticker: "PLZ", stooq: "plz", name: "Plaza Centers", sector: "Nieruchomości", index: "WIG" },
+
   { ticker: "POZ", stooq: "poz", name: "Poznańska 37 SA", sector: "Nieruchomości", index: "WIG" },
   { ticker: "PRF", stooq: "prf", name: "Profit Development", sector: "Nieruchomości", index: "WIG" },
-  { ticker: "RFK", stooq: "rfk", name: "Rafako SA", sector: "Przemysł", index: "WIG" },
+
   { ticker: "RPC", stooq: "rpc", name: "Relpol SA", sector: "Przemysł", index: "WIG" },
   { ticker: "SEK", stooq: "sek", name: "Seko SA", sector: "Spożywczy", index: "WIG" },
   { ticker: "SES", stooq: "ses", name: "Sescom SA", sector: "Technologia", index: "WIG" },
@@ -331,7 +331,7 @@ export const GPW_COMPANIES = [
   { ticker: "TEO", stooq: "teo", name: "Tele-Fonika Kable SA (TFK)", sector: "Przemysł", index: "WIG" },
   { ticker: "WIK", stooq: "wik", name: "Wikana SA", sector: "Nieruchomości", index: "WIG" },
   { ticker: "PHR", stooq: "phr", name: "Pharmena SA", sector: "Farmacja", index: "WIG" },
-  { ticker: "4FM", stooq: "4fm", name: "4Fun Media SA", sector: "Media", index: "WIG" },
+  { ticker: "DIG", stooq: "dig", name: "Digital Network SA", sector: "Media", index: "WIG" },
   { ticker: "SCP", stooq: "scp", name: "Scope Fluidics SA", sector: "Biotechnologia", index: "WIG" },
   { ticker: "DPL", stooq: "dpl", name: "Drozapol-Profil SA", sector: "Przemysł", index: "WIG" },
   { ticker: "PJP", stooq: "pjp", name: "PJP Makrum SA", sector: "Przemysł", index: "WIG" },
@@ -345,24 +345,24 @@ export const GPW_COMPANIES = [
   { ticker: "EFE", stooq: "efe", name: "Efekt SA", sector: "Handel", index: "WIG" },
   { ticker: "GOB", stooq: "gob", name: "Gobarto SA (PKM Duda)", sector: "Spożywczy", index: "WIG" },
   { ticker: "PNO", stooq: "pno", name: "Polnord SA", sector: "Nieruchomości", index: "WIG" },
-  { ticker: "FRG", stooq: "frg", name: "Ferro Gaz SA", sector: "Energetyka", index: "WIG" },
+
   { ticker: "PHO", stooq: "pho", name: "Photon Energy NV", sector: "Energetyka", index: "WIG" },
   { ticker: "ASS", stooq: "ass", name: "Assetus SA", sector: "Finanse", index: "WIG" },
   { ticker: "SWD", stooq: "swd", name: "Świdnica SA", sector: "Przemysł", index: "WIG" },
   { ticker: "PEN", stooq: "pen", name: "Peniol SA", sector: "Chemia", index: "WIG" },
   { ticker: "GEO", stooq: "geo", name: "Geotrans SA", sector: "Ekologia", index: "WIG" },
-  { ticker: "ABM", stooq: "abm", name: "ABM Solid SA", sector: "Budownictwo", index: "WIG" },
+
   { ticker: "HUB", stooq: "hub", name: "Hub.Tech SA", sector: "Technologia", index: "WIG" },
   { ticker: "WAS", stooq: "was", name: "Wasko SA", sector: "Technologia", index: "WIG" },
   { ticker: "SGP", stooq: "sgp", name: "Stelmet SA", sector: "Przemysł", index: "WIG" },
   { ticker: "PWX", stooq: "pwx", name: "Pragma Inkaso SA", sector: "Finanse", index: "WIG" },
-  { ticker: "RDN", stooq: "rdn", name: "Redan SA", sector: "Handel", index: "WIG" },
-  { ticker: "INW", stooq: "inw", name: "Inwazja SA", sector: "Gry", index: "WIG" },
-  { ticker: "ACG", stooq: "acg", name: "Acautogama SA", sector: "Biotechnologia", index: "WIG" },
-  { ticker: "MWT", stooq: "mwt", name: "MaWo Technology SA", sector: "Technologia", index: "WIG" },
+
+
+
+  { ticker: "MWT", stooq: "mwt", name: "M.W. Trade SA", sector: "Finanse", index: "WIG" },
   { ticker: "CDA", stooq: "cda", name: "CDA SA", sector: "Media", index: "WIG" },
-  { ticker: "SNG", stooq: "sng", name: "Sunreef Yachts SA", sector: "Przemysł", index: "WIG" },
-  { ticker: "PGM", stooq: "pgm", name: "PGE Obrót SA", sector: "Energetyka", index: "WIG" },
+
+  { ticker: "PGM", stooq: "pgm", name: "PMPG Polskie Media SA", sector: "Media", index: "WIG" },
 ];
 
 /**
