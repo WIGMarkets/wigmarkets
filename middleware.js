@@ -2,17 +2,27 @@
 // Intercepts social media crawlers and serves them HTML with proper OG meta tags.
 // Normal users get the standard SPA.
 
+import glossaryData from "./src/data/glossary.json";
+
 const CRAWLER_RE = /Twitterbot|facebookexternalhit|LinkedInBot|Slackbot|Discordbot|WhatsApp|Googlebot|bingbot/i;
+
+const glossaryBySlug = Object.fromEntries(glossaryData.map(e => [e.slug, e]));
 
 function escapeHtml(str) {
   return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
-function htmlShell({ title, description, image, url }) {
+function htmlShell({ title, description, image, url, jsonLd }) {
   const t = escapeHtml(title);
   const d = escapeHtml(description);
-  const img = escapeHtml(image);
+  const img = image ? escapeHtml(image) : "";
   const u = escapeHtml(url);
+  const imgTags = img
+    ? `  <meta property="og:image" content="${img}" />\n  <meta name="twitter:image" content="${img}" />\n  <meta name="twitter:card" content="summary_large_image" />`
+    : `  <meta name="twitter:card" content="summary" />`;
+  const ldTag = jsonLd
+    ? `\n  <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`
+    : "";
   return `<!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -21,15 +31,13 @@ function htmlShell({ title, description, image, url }) {
   <meta name="description" content="${d}" />
   <meta property="og:title" content="${t}" />
   <meta property="og:description" content="${d}" />
-  <meta property="og:image" content="${img}" />
+${imgTags}
   <meta property="og:url" content="${u}" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="WIGmarkets.pl" />
-  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="${t}" />
   <meta name="twitter:description" content="${d}" />
-  <meta name="twitter:image" content="${img}" />
-  <link rel="canonical" href="${u}" />
+  <link rel="canonical" href="${u}" />${ldTag}
 </head>
 <body>
   <p>Redirecting to <a href="${u}">${t}</a>...</p>
@@ -76,9 +84,50 @@ export default function middleware(req) {
     );
   }
 
+  // Glossary term detail page (/edukacja/slowniczek/:slug)
+  const glossaryTermMatch = path.match(/^\/edukacja\/slowniczek\/([a-z0-9-]+)$/);
+  if (glossaryTermMatch) {
+    const slug = glossaryTermMatch[1];
+    const entry = glossaryBySlug[slug];
+    if (entry) {
+      return new Response(
+        htmlShell({
+          title: `${entry.term} — Słowniczek giełdowy — WIGmarkets.pl`,
+          description: `${entry.shortDef} Definicja, wzór, przykład.`,
+          url: `${base}/edukacja/slowniczek/${slug}`,
+          jsonLd: {
+            "@context": "https://schema.org",
+            "@type": "DefinedTerm",
+            "name": entry.term,
+            "description": entry.shortDef,
+            "url": `${base}/edukacja/slowniczek/${slug}`,
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "name": "Słowniczek giełdowy WIGmarkets.pl",
+              "url": `${base}/edukacja/slowniczek`,
+            },
+          },
+        }),
+        { headers: { "Content-Type": "text/html; charset=utf-8" } }
+      );
+    }
+  }
+
+  // Glossary list page (/edukacja/slowniczek)
+  if (path === "/edukacja/slowniczek" || path === "/edukacja/slowniczek/") {
+    return new Response(
+      htmlShell({
+        title: "Słowniczek giełdowy — WIGmarkets.pl",
+        description: `${glossaryData.length} najważniejszych pojęć giełdowych wyjaśnionych prostym językiem. Akcje, wskaźniki, analiza techniczna i fundamentalna — kompendium wiedzy o GPW.`,
+        url: `${base}/edukacja/slowniczek`,
+      }),
+      { headers: { "Content-Type": "text/html; charset=utf-8" } }
+    );
+  }
+
   // All other pages — let them through (will use index.html default OG tags)
 }
 
 export const config = {
-  matcher: ["/fear-greed", "/indeks", "/spolka/:path*", "/stock/:path*"],
+  matcher: ["/fear-greed", "/indeks", "/spolka/:path*", "/stock/:path*", "/edukacja/slowniczek", "/edukacja/slowniczek/:path*"],
 };

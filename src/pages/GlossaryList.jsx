@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import Icon from "../components/edukacja/Icon.jsx";
@@ -40,6 +40,18 @@ export default function GlossaryList({ theme }) {
   }, [search, activeCategory]);
 
   const grouped = useMemo(() => groupByLetter(filtered), [filtered]);
+
+  // SEO: document title + meta description
+  useEffect(() => {
+    document.title = "Słowniczek giełdowy — WIGmarkets.pl";
+    let metaDesc = document.querySelector('meta[name="description"]');
+    if (!metaDesc) {
+      metaDesc = document.createElement("meta");
+      metaDesc.setAttribute("name", "description");
+      document.head.appendChild(metaDesc);
+    }
+    metaDesc.setAttribute("content", `${glossaryData.length} najważniejszych pojęć giełdowych wyjaśnionych prostym językiem. Akcje, wskaźniki, analiza techniczna i fundamentalna — kompendium wiedzy o GPW.`);
+  }, []);
 
   return (
     <div style={{ maxWidth: 800, margin: "0 auto", padding: isMobile ? "24px 16px 64px" : "40px 24px 80px" }}>
