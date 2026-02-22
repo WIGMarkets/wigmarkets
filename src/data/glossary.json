@@ -43,5 +43,113 @@
     "category": "wskazniki",
     "related": ["akcja", "pe"],
     "example": "PKN ORLEN przy kursie 109,00 zł i 427,7 mln akcji w obrocie ma kapitalizację 46,6 mld zł — jest jedną z największych spółek na GPW i wchodzi w skład indeksu WIG20. Dla porównania, mniejsza spółka z mWIG40 przy kursie 25 zł i 50 mln akcji ma kapitalizację zaledwie 1,25 mld zł."
+  },
+  {
+    "term": "GPW",
+    "slug": "gpw",
+    "shortDef": "Giełda Papierów Wartościowych w Warszawie — główny rynek obrotu akcjami w Polsce.",
+    "fullDef": "GPW (Giełda Papierów Wartościowych w Warszawie) to największa giełda w Europie Środkowo-Wschodniej, działająca od 16 kwietnia 1991 roku. Jest to rynek regulowany, na którym odbywa się obrót akcjami, obligacjami, instrumentami pochodnymi (kontrakty terminowe, opcje) oraz innymi papierami wartościowymi.\n\nGPW prowadzi dwa rynki:\n— Rynek Główny: dla największych i najbardziej płynnych spółek, z rygorystycznymi wymogami dopuszczeniowymi.\n— NewConnect: rynek alternatywny dla mniejszych, dynamicznie rozwijających się spółek, z mniej restrykcyjnymi wymogami.\n\nNa Rynku Głównym GPW notowanych jest około 400 spółek, pogrupowanych w indeksy: WIG20 (20 największych), mWIG40 (40 średnich), sWIG80 (80 mniejszych) oraz WIG — indeks szerokiego rynku obejmujący wszystkie spółki.\n\nGPW jest spółką publiczną — sama jest notowana na giełdzie pod tickerem GPW. Nadzór nad giełdą sprawuje Komisja Nadzoru Finansowego (KNF).",
+    "category": "podstawy",
+    "related": ["akcja", "wig20", "wig"],
+    "example": "Inwestor otwiera rachunek maklerski w domu maklerskim i składa zlecenie kupna 50 akcji KGHM na GPW. Zlecenie jest realizowane na Rynku Głównym podczas sesji giełdowej, a rozliczenie transakcji następuje w ciągu dwóch dni roboczych (T+2)."
+  },
+  {
+    "term": "WIG20",
+    "slug": "wig20",
+    "shortDef": "Indeks 20 największych i najbardziej płynnych spółek na GPW.",
+    "fullDef": "WIG20 to flagowy indeks Giełdy Papierów Wartościowych w Warszawie, obejmujący 20 największych spółek pod względem kapitalizacji i płynności obrotu. Jest indeksem cenowym — uwzględnia jedynie zmiany cen akcji, bez dywidend.\n\nSkład WIG20 jest rewidowany kwartalnie (w marcu, czerwcu, wrześniu i grudniu) na podstawie rankingu spółek. Jedna spółka może mieć maksymalnie 15% udziału w indeksie, a spółki z jednego sektora łącznie nie więcej niż 30%.\n\nW skład WIG20 wchodzą największe polskie spółki, takie jak PKO BP, PKN ORLEN, KGHM, PZU, CD Projekt czy Allegro. Indeks jest benchmarkiem dla wielu funduszy inwestycyjnych oraz bazą dla kontraktów terminowych (FW20) i opcji notowanych na GPW.\n\nWIG20 jest najczęściej cytowanym wskaźnikiem kondycji polskiego rynku akcji w mediach i analizach makroekonomicznych.",
+    "category": "podstawy",
+    "related": ["gpw", "wig", "mwig40", "swig80", "kapitalizacja"],
+    "example": "WIG20 otwiera sesję na poziomie 2 350 pkt i zamyka dzień na 2 380 pkt — wzrost o 1,28%. Największy pozytywny wpływ miały akcje PKO BP (+3,2%) i KGHM (+2,8%), które ze względu na duży udział w indeksie \u201Epociągnęły\u201D cały WIG20 w górę."
+  },
+  {
+    "term": "WIG",
+    "slug": "wig",
+    "shortDef": "Najszerszy indeks GPW obejmujący wszystkie spółki z Rynku Głównego.",
+    "fullDef": "WIG (Warszawski Indeks Giełdowy) to najstarszy i najszerszy indeks GPW, obliczany od 16 kwietnia 1991 roku — dnia rozpoczęcia notowań na giełdzie. Obejmuje wszystkie spółki notowane na Rynku Głównym, które spełniają bazowe kryteria.\n\nW przeciwieństwie do WIG20, WIG jest indeksem dochodowym (total return) — uwzględnia nie tylko zmiany cen akcji, ale również dochody z dywidend i praw poboru. Dzięki temu lepiej odzwierciedla rzeczywisty zwrot z inwestycji w cały rynek.\n\nWIG jest ważony kapitalizacją w wolnym obrocie (free float), co oznacza, że spółki o większej kapitalizacji mają większy wpływ na wartość indeksu. Udział jednej spółki nie może przekroczyć 10%, a jednego sektora — 30%.\n\nOprócz WIG istnieją indeksy sektorowe (WIG-Banki, WIG-Energia, WIG-Gry, WIG-Nieruchomości i inne), które śledzą wyniki spółek z poszczególnych branż.",
+    "category": "podstawy",
+    "related": ["gpw", "wig20", "mwig40", "swig80"],
+    "example": "WIG na koniec roku wynosi 72 000 pkt, co oznacza wzrost o 18% w skali roku. Dla porównania WIG20 wzrósł o 14% — różnica wynika z uwzględnienia dywidend w WIG oraz silnych wyników mniejszych spółek spoza WIG20."
+  },
+  {
+    "term": "sWIG80",
+    "slug": "swig80",
+    "shortDef": "Indeks 80 małych spółek na GPW, następnych po WIG20 i mWIG40.",
+    "fullDef": "sWIG80 to indeks giełdowy obejmujący 80 małych spółek (small cap) notowanych na GPW, które plasują się w rankingu kapitalizacji i płynności za spółkami z WIG20 i mWIG40. Jest indeksem cenowym — nie uwzględnia dochodów z dywidend.\n\nSpółki z sWIG80 to zazwyczaj firmy o kapitalizacji od kilkuset milionów do kilku miliardów złotych. Są mniej płynne niż spółki z WIG20 czy mWIG40, co oznacza większe spready bid-ask i potencjalnie trudniejsze wejście/wyjście z dużych pozycji.\n\nInwestowanie w małe spółki wiąże się z wyższym ryzykiem, ale też potencjalnie wyższymi stopami zwrotu. Historycznie sWIG80 w długim terminie osiągał wyższe stopy zwrotu niż WIG20, co jest zgodne z tzw. efektem małych spółek (small cap premium).\n\nSkład sWIG80 jest rewidowany kwartalnie, analogicznie do WIG20 i mWIG40.",
+    "category": "podstawy",
+    "related": ["gpw", "wig20", "mwig40", "wig", "kapitalizacja"],
+    "example": "Spółka Asbis notowana w sWIG80 przy kursie 28,00 zł i kapitalizacji 1,55 mld zł rośnie o 45% w ciągu roku. Po rewizji kwartalnej, dzięki wzrostowi kapitalizacji i obrotów, zostaje przeniesiona do mWIG40, co przyciąga uwagę funduszy indeksowych i generuje dodatkowy popyt."
+  },
+  {
+    "term": "mWIG40",
+    "slug": "mwig40",
+    "shortDef": "Indeks 40 średnich spółek na GPW, pomiędzy WIG20 a sWIG80.",
+    "fullDef": "mWIG40 to indeks giełdowy obejmujący 40 średnich spółek (mid cap) notowanych na GPW. Znajdują się w nim spółki, które w rankingu kapitalizacji i płynności plasują się tuż za spółkami z WIG20, ale przed spółkami z sWIG80. Jest indeksem cenowym.\n\nSpółki z mWIG40 mają typową kapitalizację od kilku do kilkunastu miliardów złotych. Często są to dynamicznie rozwijające się firmy, które mogą w przyszłości awansować do WIG20, lub stabilne biznesy niszowe z silną pozycją rynkową.\n\nmWIG40 jest uważany przez wielu analityków za \u201Esweet spot\u201D polskiego rynku — spółki są wystarczająco duże, by zapewnić płynność i transparentność, ale jednocześnie mniejsze niż blue chipy z WIG20, co daje większy potencjał wzrostu.\n\nSkład indeksu jest rewidowany kwartalnie. Historycznie mWIG40 często osiągał wyższe długoterminowe stopy zwrotu niż WIG20.",
+    "category": "podstawy",
+    "related": ["gpw", "wig20", "swig80", "wig", "kapitalizacja"],
+    "example": "Budimex notowany w mWIG40 przy kursie 620 zł i kapitalizacji 15,8 mld zł ma wyższe P/E niż średnia WIG20, co odzwierciedla oczekiwania rynku wobec sektora budowlanego. Po serii dobrych wyników kwartalnych obroty rosną i spółka staje się kandydatem do awansu do WIG20 przy najbliższej rewizji."
+  },
+  {
+    "term": "Sesja giełdowa",
+    "slug": "sesja-gieldowa",
+    "shortDef": "Okres, w którym odbywa się handel instrumentami finansowymi na GPW.",
+    "fullDef": "Sesja giełdowa to wyznaczony czas, w którym na Giełdzie Papierów Wartościowych w Warszawie odbywa się obrót papierami wartościowymi. Sesja na GPW trwa od poniedziałku do piątku, z wyłączeniem dni świątecznych.\n\nHarmonogram sesji na Rynku Głównym GPW:\n— 8:30–9:00 — faza przed otwarciem (przyjmowanie zleceń, brak transakcji)\n— 9:00 — fixing otwarcia (wyznaczenie kursu otwarcia na podstawie zleceń)\n— 9:00–16:50 — notowania ciągłe (transakcje realizowane na bieżąco)\n— 16:50–17:00 — faza przed zamknięciem (przyjmowanie zleceń na fixing)\n— 17:00 — fixing zamknięcia (wyznaczenie kursu zamknięcia)\n— 17:00–17:05 — dogrywka (transakcje po kursie zamknięcia)\n\nKurs zamknięcia jest najważniejszą ceną dnia — to na jego podstawie obliczane są indeksy, wyceny portfeli i publikowane dane rynkowe. Wolumen obrotu (liczba akcji, które zmieniły właściciela) jest miarą aktywności podczas sesji.",
+    "category": "podstawy",
+    "related": ["gpw", "zlecenie-gieldowe"],
+    "example": "Podczas sesji giełdowej 15 stycznia kurs PKO BP otwiera się na 44,80 zł (fixing otwarcia), w trakcie notowań ciągłych osiąga maksimum 46,10 zł i minimum 44,50 zł, a na fixingu zamknięcia ustala się na 45,70 zł. Wolumen wynosi 2,3 mln akcji."
+  },
+  {
+    "term": "Zlecenie giełdowe",
+    "slug": "zlecenie-gieldowe",
+    "shortDef": "Instrukcja kupna lub sprzedaży instrumentu finansowego na giełdzie.",
+    "fullDef": "Zlecenie giełdowe to dyspozycja złożona przez inwestora za pośrednictwem domu maklerskiego, określająca warunki kupna lub sprzedaży instrumentu finansowego na giełdzie.\n\nPodstawowe typy zleceń na GPW:\n— Zlecenie z limitem ceny (limit order): inwestor określa maksymalną cenę kupna lub minimalną cenę sprzedaży. Zlecenie realizowane jest tylko po cenie równej lub lepszej od limitu.\n— Zlecenie PKC (Po Każdej Cenie / market order): realizowane natychmiast po najlepszej dostępnej cenie. Gwarantuje realizację, ale nie gwarantuje ceny.\n— Zlecenie PCR (Po Cenie Rynkowej): realizowane po cenie pierwszego najlepszego zlecenia po przeciwnej stronie arkusza.\n— Zlecenie STOP: aktywuje się dopiero gdy cena osiągnie określony poziom (stop price), następnie przekształca się w zlecenie z limitem lub PKC.\n\nZlecenia mogą mieć różne terminy ważności: na jedną sesję (domyślnie), do określonej daty, do odwołania (GTC) lub wykonaj-albo-anuluj (FOK).",
+    "category": "podstawy",
+    "related": ["gpw", "sesja-gieldowa", "dom-maklerski"],
+    "example": "Inwestor składa zlecenie kupna 200 akcji KGHM z limitem 132,00 zł, ważne do końca sesji. Kurs KGHM spada do 131,80 zł i zlecenie zostaje zrealizowane po 131,80 zł — taniej niż limit. Gdyby kurs nie spadł poniżej 132,00 zł, zlecenie wygasłoby niezrealizowane."
+  },
+  {
+    "term": "Dom maklerski",
+    "slug": "dom-maklerski",
+    "shortDef": "Instytucja pośrednicząca w obrocie papierami wartościowymi na giełdzie.",
+    "fullDef": "Dom maklerski to licencjonowana instytucja finansowa, która pośredniczy w obrocie papierami wartościowymi na giełdzie. Aby kupować lub sprzedawać akcje na GPW, inwestor musi posiadać rachunek maklerski w domu maklerskim (lub biurze maklerskim banku).\n\nGłówne funkcje domu maklerskiego:\n— Przyjmowanie i przekazywanie zleceń na giełdę w imieniu klienta.\n— Przechowywanie papierów wartościowych i środków pieniężnych klienta.\n— Dostarczanie narzędzi do analizy rynku, notowań w czasie rzeczywistym i platform transakcyjnych.\n— Sporządzanie rekomendacji i analiz (w przypadku domów maklerskich z działem analiz).\n\nDomy maklerskie w Polsce działają pod nadzorem KNF (Komisja Nadzoru Finansowego). Środki klientów są oddzielone od środków własnych domu maklerskiego, a dodatkowo chronione przez system rekompensat (do równowartości 20 100 EUR).\n\nZa pośrednictwo w transakcjach dom maklerski pobiera prowizję — najczęściej 0,19%–0,39% wartości transakcji, z minimalną stawką (np. 3–5 zł).",
+    "category": "podstawy",
+    "related": ["gpw", "zlecenie-gieldowe", "akcja"],
+    "example": "Początkujący inwestor otwiera rachunek w mBanku (mDM) przez internet. Wpłaca 10 000 zł i składa pierwsze zlecenie kupna 100 akcji PZU po 42,50 zł. Prowizja wynosi 0,29%, czyli 12,33 zł. Łączny koszt transakcji to 4 262,33 zł."
+  },
+  {
+    "term": "P/BV",
+    "slug": "pbv",
+    "shortDef": "Stosunek ceny akcji do wartości księgowej na akcję.",
+    "fullDef": "Wskaźnik P/BV (Price to Book Value) to stosunek ceny rynkowej akcji do wartości księgowej przypadającej na jedną akcję. Wartość księgowa to aktywa spółki pomniejszone o zobowiązania, podzielone przez liczbę akcji — czyli teoretyczna wartość majątku netto przypadająca na jedną akcję.\n\nInterpretacja P/BV:\n— P/BV < 1,0: akcja notowana poniżej wartości księgowej — rynek wycenia spółkę poniżej wartości jej majątku netto. Może to oznaczać okazję inwestycyjną lub sygnalizować problemy finansowe spółki.\n— P/BV 1,0–2,0: typowy zakres dla spółek dojrzałych, np. banków, spółek surowcowych.\n— P/BV > 3,0: rynek wycenia spółkę znacznie powyżej wartości księgowej, co jest typowe dla spółek technologicznych i wzrostowych, których wartość tkwi w niematerialnych aktywach.\n\nP/BV jest szczególnie przydatny w analizie spółek bankowych, ubezpieczeniowych i nieruchomościowych, gdzie aktywa bilansowe dobrze odzwierciedlają wartość firmy. Dla spółek technologicznych czy farmaceutycznych, których wartość opiera się na własności intelektualnej, P/BV jest mniej miarodajny.",
+    "category": "analiza-fundamentalna",
+    "related": ["pe", "akcja", "kapitalizacja", "eps"],
+    "example": "PKO BP notowane po 45,00 zł przy wartości księgowej 32,50 zł na akcję ma P/BV równe 1,38x. Oznacza to, że rynek wycenia bank z 38% premią do jego wartości księgowej — uzasadnioną wysoką rentownością kapitału (ROE powyżej 15%). Bank z ROE poniżej kosztu kapitału miałby P/BV bliższe 1,0 lub niższe."
+  },
+  {
+    "term": "EPS",
+    "slug": "eps",
+    "shortDef": "Zysk netto spółki przypadający na jedną akcję.",
+    "fullDef": "EPS (Earnings Per Share) to zysk netto spółki podzielony przez liczbę akcji w obrocie. Jest to jeden z najważniejszych wskaźników w analizie fundamentalnej, ponieważ pozwala porównywać zyskowność spółek o różnej wielkości i różnej liczbie akcji.\n\nRodzaje EPS:\n— Trailing EPS (TTM): zysk na akcję za ostatnie 12 miesięcy — oparty na faktycznych wynikach.\n— Forward EPS: prognozowany zysk na akcję na najbliższe 12 miesięcy — oparty na konsensusie analityków.\n— Rozwodniony EPS (diluted): uwzględnia potencjalne nowe akcje z opcji pracowniczych, obligacji zamiennych itp. Zawsze niższy lub równy podstawowemu EPS.\n\nRosnący EPS z kwartału na kwartał i z roku na rok jest pozytywnym sygnałem — oznacza, że spółka generuje coraz większe zyski na każdą akcję. Spadający EPS może sygnalizować problemy lub fazę inwestycji kosztem bieżących zysków.\n\nEPS jest kluczowym składnikiem wskaźnika P/E: P/E = cena akcji / EPS. Dlatego zmiany EPS bezpośrednio wpływają na wycenę spółki.",
+    "category": "analiza-fundamentalna",
+    "related": ["pe", "akcja", "kapitalizacja", "pbv"],
+    "example": "CD Projekt wypracował zysk netto 420 mln zł przy 100,1 mln akcji w obrocie. EPS wynosi 4,20 zł (420 mln / 100,1 mln). Przy kursie 180,00 zł daje to P/E na poziomie 42,9x. Rok wcześniej EPS wynosił 2,80 zł — wzrost o 50% rok do roku odzwierciedla sukces sprzedażowy nowej gry."
+  },
+  {
+    "term": "Stopa dywidendy",
+    "slug": "stopa-dywidendy",
+    "shortDef": "Procentowy stosunek rocznej dywidendy na akcję do ceny akcji.",
+    "fullDef": "Stopa dywidendy (dividend yield) to wskaźnik pokazujący, jaki procent ceny akcji stanowi roczna dywidenda wypłacana na jedną akcję. Oblicza się ją dzieląc dywidendę na akcję przez bieżącą cenę rynkową akcji i mnożąc przez 100%.\n\nFormuła: Stopa dywidendy = (Dywidenda na akcję / Cena akcji) × 100%\n\nInterpretacja:\n— Stopa dywidendy 3–6%: typowa dla stabilnych polskich spółek dywidendowych (banki, utilities, telekomy).\n— Stopa powyżej 7–8%: może być atrakcyjna, ale warto sprawdzić czy spółka będzie w stanie utrzymać dywidendę na takim poziomie.\n— Stopa poniżej 1% lub brak dywidendy: typowe dla spółek wzrostowych, które reinwestują zyski.\n\nWażne zastrzeżenie: wysoka stopa dywidendy może wynikać nie z hojności spółki, a ze spadku kursu akcji — jeśli kurs spadł o 50%, a dywidenda pozostała taka sama, stopa dywidendy podwoi się. Dlatego warto analizować stopę dywidendy w kontekście historii wypłat i wskaźnika payout ratio (jaki procent zysku jest wypłacany jako dywidenda).\n\nW Polsce od dywidendy pobierany jest 19% podatek od zysków kapitałowych (podatek Belki), automatycznie potrącany przez dom maklerski.",
+    "category": "analiza-fundamentalna",
+    "related": ["dywidenda", "akcja", "eps"],
+    "example": "PZU wypłaca dywidendę 3,00 zł na akcję przy cenie 42,00 zł. Stopa dywidendy wynosi 7,1% (3,00 / 42,00 × 100%). Po odliczeniu 19% podatku Belki efektywna stopa netto to 5,8%. Inwestor z portfelem 1 000 akcji PZU otrzyma 3 000 zł brutto (2 430 zł netto) — więcej niż na większości lokat bankowych."
+  },
+  {
+    "term": "EBITDA",
+    "slug": "ebitda",
+    "shortDef": "Zysk operacyjny przed odsetkami, podatkami, amortyzacją i deprecjacją.",
+    "fullDef": "EBITDA (Earnings Before Interest, Taxes, Depreciation and Amortization) to zysk operacyjny spółki przed odliczeniem odsetek od zadłużenia, podatków, amortyzacji wartości niematerialnych (amortization) i deprecjacji środków trwałych (depreciation).\n\nDlaczego EBITDA jest ważna:\n— Pozwala porównywać rentowność operacyjną spółek niezależnie od ich struktury finansowania (poziom zadłużenia), polityki podatkowej czy metod amortyzacji.\n— Jest przybliżeniem gotówki generowanej z podstawowej działalności operacyjnej.\n— Jest bazą do obliczania wskaźnika EV/EBITDA, jednego z najczęściej stosowanych mnożników wyceny.\n\nOgraniczenia EBITDA:\n— Nie uwzględnia nakładów inwestycyjnych (CAPEX), które w branżach kapitałochłonnych (energetyka, przemysł) mogą być ogromne.\n— Może zawyżać obraz zyskowności spółek z dużym zadłużeniem, ponieważ pomija koszty odsetkowe.\n— Nie jest miarą zdefiniowaną przez standardy rachunkowości (MSSF/US GAAP), więc spółki mogą ją obliczać nieco inaczej.\n\nMarża EBITDA (EBITDA / przychody × 100%) pozwala porównywać efektywność operacyjną spółek w tym samym sektorze.",
+    "category": "analiza-fundamentalna",
+    "related": ["eps", "pe", "kapitalizacja"],
+    "example": "PKN ORLEN raportuje przychody 120 mld zł, zysk operacyjny (EBIT) 12 mld zł i amortyzację 3 mld zł. EBITDA wynosi 15 mld zł (12 + 3), a marża EBITDA to 12,5% (15 / 120). Analityk porównuje to z węgierskim MOL (marża EBITDA 10,8%), co sugeruje wyższą efektywność operacyjną ORLEN-u."
   }
 ]
