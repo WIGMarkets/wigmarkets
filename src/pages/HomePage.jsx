@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { useKeyboardShortcuts } from "../hooks/useKeyboardShortcuts.js";
 import { fmt, changeFmt, changeColor } from "../lib/formatters.js";
@@ -298,21 +298,39 @@ export default function HomePage({
 
           {/* View mode toggle (table/heatmap) */}
           {(tab === "akcje" || tab === "watchlist") && !isMobile && (
-            <div style={{
-              marginLeft: "auto", display: "flex", borderRadius: 8,
-              background: theme.bgCardAlt, overflow: "hidden", flexShrink: 0,
-              border: `1px solid ${theme.border}`,
-            }}>
-              {[["table", "list", "Tabela"], ["heatmap", "grid", "Heatmapa"]].map(([key, iconName, label]) => (
-                <button key={key} onClick={() => setViewMode(key)} style={{
-                  padding: "8px 16px", border: "none",
-                  background: viewMode === key ? `${theme.accent}18` : "transparent",
-                  color: viewMode === key ? theme.accent : theme.textSecondary,
-                  fontSize: 12, cursor: "pointer", fontFamily: "inherit",
-                  fontWeight: viewMode === key ? 700 : 400, whiteSpace: "nowrap",
-                  display: "inline-flex", alignItems: "center", gap: 5,
-                }}><Icon name={iconName} size={14} /> {label}</button>
-              ))}
+            <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 8, flexShrink: 0 }}>
+              <div style={{
+                display: "flex", borderRadius: 8,
+                background: theme.bgCardAlt, overflow: "hidden",
+                border: `1px solid ${theme.border}`,
+              }}>
+                {[["table", "list", "Tabela"], ["heatmap", "grid", "Heatmapa"]].map(([key, iconName, label]) => (
+                  <button key={key} onClick={() => setViewMode(key)} style={{
+                    padding: "8px 16px", border: "none",
+                    background: viewMode === key ? `${theme.accent}18` : "transparent",
+                    color: viewMode === key ? theme.accent : theme.textSecondary,
+                    fontSize: 12, cursor: "pointer", fontFamily: "inherit",
+                    fontWeight: viewMode === key ? 700 : 400, whiteSpace: "nowrap",
+                    display: "inline-flex", alignItems: "center", gap: 5,
+                  }}><Icon name={iconName} size={14} /> {label}</button>
+                ))}
+              </div>
+              <Link to="/heatmapa" style={{
+                padding: "8px 12px", borderRadius: 8,
+                border: `1px solid ${theme.border}`,
+                background: "transparent",
+                color: theme.textSecondary,
+                fontSize: 12, textDecoration: "none",
+                fontFamily: "var(--font-ui)",
+                display: "inline-flex", alignItems: "center", gap: 5,
+                transition: "color 0.15s, border-color 0.15s",
+                whiteSpace: "nowrap",
+              }}
+              onMouseEnter={e => { e.currentTarget.style.color = theme.accent; e.currentTarget.style.borderColor = theme.accent; }}
+              onMouseLeave={e => { e.currentTarget.style.color = theme.textSecondary; e.currentTarget.style.borderColor = theme.border; }}
+              >
+                <Icon name="maximize-2" size={14} /> Pełny ekran
+              </Link>
             </div>
           )}
         </div>

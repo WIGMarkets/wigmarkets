@@ -163,6 +163,7 @@ export default function DesktopNavMenu({ theme, darkMode, setDarkMode, tab, setT
               {sectionTitle("Widoki")}
               {dropdownLink("chart-bar", "Tabela", () => { handleNavClick({ tab: "akcje" }); setViewMode("table"); })}
               {dropdownLink("grid", "Heatmapa", () => handleNavClick({ action: "heatmap" }))}
+              {dropdownLink("maximize-2", "Heatmapa pełny ekran", () => handleNavClick({ href: "/heatmapa" }))}
             </div>
           </div>
         ))}

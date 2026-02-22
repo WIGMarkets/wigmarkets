@@ -18,6 +18,7 @@ const MENU = [
     children: [
       { icon: "search", label: "Screener", tab: "screener" },
       { icon: "grid", label: "Heatmapa", action: "heatmap" },
+      { icon: "maximize-2", label: "Heatmapa pełny ekran", href: "/heatmapa" },
       { icon: "calculator", label: "Kalkulator dywidend", href: "/dywidendy" },
     ],
   },
