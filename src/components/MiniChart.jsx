@@ -101,8 +101,8 @@ export default function MiniChart({ data, color, type = "line", isIntraday = fal
           <stop offset="100%" stopColor={color} stopOpacity="0" />
         </linearGradient>
       </defs>
-      <YAxis min={min} max={max} />
-      <XLabels data={data} xOf={toX} labelKey={labelKey} />
+      <YAxis min={min} max={max} theme={t} />
+      <XLabels data={data} xOf={toX} labelKey={labelKey} theme={t} />
       <polyline points={`${areaFirst} ${pts} ${areaLast}`} fill={`url(#${gradId})`} stroke="none" />
       <polyline points={pts} fill="none" stroke={color} strokeWidth="2" strokeLinejoin="round" strokeLinecap="round" />
     </svg>
