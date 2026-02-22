@@ -439,5 +439,544 @@
     "founded": "1995",
     "headquarters": "Warszawa",
     "indices": ["mWIG40"]
+  },
+  "AC": {
+    "description": "AC SA to polski producent systemów zasilania gazowego (LPG i CNG) do pojazdów samochodowych, będący jednym z wiodących dostawców tego typu rozwiązań w Europie. Spółka eksportuje swoje produkty do kilkudziesięciu krajów, a jej systemy sekwencyjnego wtrysku gazu cieszą się uznaniem wśród instalatorów i kierowców. AC SA korzysta na rosnącym zainteresowaniu alternatywnymi paliwami i obniżaniu kosztów eksploatacji pojazdów. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Motoryzacja",
+    "founded": "1991",
+    "headquarters": "Białystok",
+    "indices": ["sWIG80"]
+  },
+  "AGO": {
+    "description": "Agora SA to jedna z największych polskich grup medialnych, wydawca dziennika Gazeta Wyborcza oraz operator sieci kin Helios — jednej z dwóch największych sieci kinowych w Polsce. Spółka działa również w segmencie reklamy zewnętrznej (AMS), wydawnictw książkowych i mediów cyfrowych. Agora przechodzi transformację cyfrową, rozwijając serwisy internetowe i platformy reklamowe online. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Media",
+    "founded": "1989",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "ALL": {
+    "description": "Ailleron SA to polska spółka technologiczna specjalizująca się w tworzeniu oprogramowania dla sektora finansowego, ze szczególnym uwzględnieniem bankowości cyfrowej i płatności. Flagowym produktem jest platforma LiveBank umożliwiająca zdalną obsługę klientów bankowych przez wideo, czat i współdzielenie dokumentów. Ailleron dostarcza rozwiązania dla banków i instytucji finansowych w Polsce i na rynkach międzynarodowych. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Technologia",
+    "founded": "2004",
+    "headquarters": "Kraków",
+    "indices": ["sWIG80"]
+  },
+  "AMB": {
+    "description": "Ambra SA to wiodący producent i dystrybutor win, cydrów i napojów alkoholowych w Europie Środkowej, właściciel marek Cydrysta, Piccolo i Pliska. Spółka jest największym producentem wina musującego w Polsce i jednym z czołowych importerów win do kraju. Ambra prowadzi działalność w Polsce, Czechach, Słowacji i Rumunii, zarządzając własnymi winnicami i zakładami produkcyjnymi. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Spożywczy",
+    "founded": "1990",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "APT": {
+    "description": "Apator SA to polski producent aparatury pomiarowej i systemów inteligentnego opomiarowania (smart metering) dla sektora energetycznego, gazowego i wodociągowego. Spółka dostarcza liczniki energii elektrycznej, gazu i wody oraz zaawansowane systemy zdalnego odczytu dla operatorów sieci dystrybucyjnych. Apator jest jednym z kluczowych dostawców infrastruktury pomiarowej w Polsce i eksportuje swoje produkty do kilkudziesięciu krajów. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Przemysł",
+    "founded": "1945",
+    "headquarters": "Toruń",
+    "indices": ["sWIG80"]
+  },
+  "ARC": {
+    "description": "Archicom SA to wrocławski deweloper mieszkaniowy specjalizujący się w budowie nowoczesnych osiedli i apartamentowców na terenie Dolnego Śląska. Spółka jest jednym z największych deweloperów we Wrocławiu pod względem liczby sprzedawanych mieszkań i wyróżnia się projektami o podwyższonym standardzie architektonicznym. Archicom został przejęty przez Echo Investment i funkcjonuje jako marka deweloperska w ramach grupy. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Nieruchomości",
+    "founded": "1994",
+    "headquarters": "Wrocław",
+    "indices": ["sWIG80"]
+  },
+  "ARL": {
+    "description": "Arlen SA to polska firma z sektora tworzyw sztucznych, specjalizująca się w produkcji opakowań, elementów technicznych i komponentów z materiałów polimerowych. Spółka dostarcza produkty dla branży spożywczej, kosmetycznej i przemysłowej, eksportując znaczną część produkcji na rynki europejskie. Arlen dołączył do indeksu sWIG80 w ramach rewizji grudniowej 2025 roku.",
+    "sector": "Przemysł",
+    "founded": "1999",
+    "headquarters": "Poznań",
+    "indices": ["sWIG80"]
+  },
+  "ABS": {
+    "description": "Asseco Business Solutions to polska spółka z Grupy Asseco, specjalizująca się w tworzeniu i wdrażaniu systemów ERP, handlowych i mobilnych dla małych i średnich przedsiębiorstw. Flagowe produkty — Softlab ERP, Macrologic i WA-PRO — obsługują tysiące firm w Polsce w zakresie księgowości, magazynowania, sprzedaży i HR. Spółka wyróżnia się stabilnym modelem subskrypcyjnym i wysoką rentownością. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Technologia",
+    "founded": "2007",
+    "headquarters": "Lublin",
+    "indices": ["sWIG80"]
+  },
+  "ATC": {
+    "description": "Arctic Paper to europejski producent wysokiej jakości papierów graficznych i opakowaniowych, z zakładami produkcyjnymi w Polsce (Kostrzyn nad Odrą) i Szwecji (Munkedal, Grycksbo). Spółka jest jednym z czołowych europejskich producentów papierów niepowlekanych i należy do Grupy Thomasa Onstada. Arctic Paper rozwija segment celulozy poprzez spółkę zależną Rottneros. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Przemysł",
+    "founded": "2003",
+    "headquarters": "Poznań",
+    "indices": ["sWIG80"]
+  },
+  "1AT": {
+    "description": "Atal SA to jeden z największych deweloperów mieszkaniowych w Polsce, działający w kilkunastu miastach, w tym w Warszawie, Krakowie, Wrocławiu, Łodzi, Katowicach i Trójmieście. Spółka realizuje projekty od segmentu popularnego po podwyższony standard i wyróżnia się kompleksowym modelem działalności — od zakupu gruntów po generalne wykonawstwo. Atal jest jednym z liderów pod względem liczby sprzedawanych mieszkań rocznie w Polsce. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Nieruchomości",
+    "founded": "2007",
+    "headquarters": "Cieszyn",
+    "indices": ["sWIG80"]
+  },
+  "ATT": {
+    "description": "Grupa Azoty to największy koncern chemiczny w Polsce i jeden z czołowych w Europie, produkujący nawozy mineralne, tworzywa sztuczne, chemikalia i produkty specjalistyczne. Spółka zarządza zakładami w Tarnowie, Puławach, Policach i Kędzierzynie-Koźlu, a jej nawozy są kluczowe dla polskiego rolnictwa. Grupa Azoty jest kontrolowana przez Skarb Państwa i realizuje programy inwestycyjne w segmencie chemii specjalistycznej. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Chemia",
+    "founded": "1927",
+    "headquarters": "Tarnów",
+    "indices": ["sWIG80"]
+  },
+  "BRS": {
+    "description": "Boryszew SA to polska grupa przemysłowa działająca w segmentach motoryzacyjnym, chemicznym i metalowym, dostarczająca komponenty do branży automotive oraz produkty cynkowe i miedziowe. Spółka jest znaczącym producentem elementów do systemów klimatyzacji samochodowej i komponentów z tworzyw sztucznych dla europejskich OEM. Boryszew wchodzi w skład grupy kapitałowej kontrolowanej przez Romana Karkosika. Notowany jest w indeksie sWIG80.",
+    "sector": "Przemysł",
+    "founded": "1910",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "BOS": {
+    "description": "Bank Ochrony Środowiska to polski bank specjalizujący się w finansowaniu projektów ekologicznych i proekologicznych, oferujący kredyty na termomodernizację, odnawialne źródła energii i gospodarkę odpadami. Bank jest kontrolowany przez Narodowy Fundusz Ochrony Środowiska i Gospodarki Wodnej, co nadaje mu unikalny profil wśród polskich banków komercyjnych. BOŚ obsługuje zarówno klientów indywidualnych, jak i samorządy realizujące inwestycje środowiskowe. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Banki",
+    "founded": "1991",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "CEL": {
+    "description": "Celon Pharma to polska firma biotechnologiczna specjalizująca się w opracowywaniu leków inhalacyjnych i terapii w dziedzinie chorób ośrodkowego układu nerwowego. Spółka prowadzi zaawansowane badania kliniczne nad nowymi cząsteczkami, w tym w obszarze schizofrenii i choroby Alzheimera. Celon Pharma łączy działalność produkcyjną (leki generyczne) z ambitnym pipeline'em innowacyjnych leków. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Biotechnologia",
+    "founded": "2002",
+    "headquarters": "Kiełpin",
+    "indices": ["sWIG80"]
+  },
+  "CIG": {
+    "description": "CI Games to polskie studio gier wideo, twórca serii Lords of the Fallen i Sniper Ghost Warrior, które sprzedały się w milionach egzemplarzy na świecie. Spółka specjalizuje się w grach akcji klasy AA na platformy PC i konsole, celując w szeroką globalną publiczność graczy. Lords of the Fallen (2023) był największą premierą w historii spółki i otworzył nowy rozdział w strategii produkcyjnej. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Gry",
+    "founded": "2002",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "CIE": {
+    "description": "Ciech SA to jeden z największych polskich koncernów chemicznych, wiodący europejski producent sody kalcynowanej i oczyszczonej, wykorzystywanych w przemyśle szklarskim, chemicznym i spożywczym. Spółka posiada zakłady produkcyjne w Polsce (Inowrocław, Janikowo) i w Niemczech (Staßfurt). Ciech rozwija segment chemii specjalistycznej, w tym środki ochrony roślin i pianki poliuretanowe. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Chemia",
+    "founded": "1945",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "CLN": {
+    "description": "Coal Energy to spółka energetyczna notowana na GPW, działająca w sektorze wydobycia i przetwórstwa surowców energetycznych. Firma operuje na rynku ukraińskim, gdzie posiada aktywa wydobywcze. Działalność spółki jest silnie uzależniona od sytuacji geopolitycznej i warunków rynkowych w regionie. Notowana jest w indeksie sWIG80.",
+    "sector": "Energetyka",
+    "founded": "2005",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "DAD": {
+    "description": "Dadelo SA to właściciel i operator sklepu internetowego Bikester.pl (dawniej BikeSalon.pl) — jednego z największych e-commerce'ów rowerowych w Polsce. Spółka oferuje rowery, części, akcesoria i odzież rowerową od wiodących światowych producentów, obsługując zarówno rowerzystów rekreacyjnych, jak i zawodowych. Dadelo dołączył do indeksu sWIG80 w ramach rewizji wrześniowej 2025. Wchodzi w skład indeksu sWIG80.",
+    "sector": "E-commerce",
+    "founded": "2012",
+    "headquarters": "Gdańsk",
+    "indices": ["sWIG80"]
+  },
+  "DCR": {
+    "description": "Decora SA to polski producent paneli podłogowych, listew przypodłogowych i akcesoriów wykończeniowych, będący jednym z czołowych graczy na rynku podłóg laminowanych w Europie Środkowej. Spółka eksportuje swoje produkty do kilkudziesięciu krajów i posiada nowoczesne zakłady produkcyjne w Środzie Wielkopolskiej. Decora wyróżnia się silną pozycją w segmencie listew i profili wykończeniowych. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Budownictwo",
+    "founded": "1994",
+    "headquarters": "Środa Wielkopolska",
+    "indices": ["sWIG80"]
+  },
+  "ELT": {
+    "description": "Elemental Holding to polska grupa specjalizująca się w recyklingu i obrocie surowcami wtórnymi, w tym metalami szlachetnymi, katalizatorami samochodowymi i odpadami elektronicznymi. Spółka jest jednym z czołowych europejskich podmiotów w branży urban mining — odzyskiwania cennych metali z odpadów przemysłowych i konsumenckich. Elemental Holding rozwija się poprzez przejęcia i ekspansję na nowe rynki. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Surowce",
+    "founded": "2001",
+    "headquarters": "Grodzisk Mazowiecki",
+    "indices": ["sWIG80"]
+  },
+  "ENT": {
+    "description": "Enter Air to największa polska czarterowa linia lotnicza i jedna z wiodących w Europie, specjalizująca się w przewozach turystycznych na zlecenie biur podróży. Spółka operuje flotą samolotów Boeing 737, obsługując połączenia do popularnych destynacji wakacyjnych w basenie Morza Śródziemnego, Afryce Północnej i na Wyspach Kanaryjskich. Enter Air jest kluczowym partnerem największych polskich touroperatorów. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Transport",
+    "founded": "2009",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "ERB": {
+    "description": "Erbud SA to jedna z największych polskich firm budowlanych, realizująca kontrakty w budownictwie kubaturowym, przemysłowym i energetycznym w Polsce i Europie Zachodniej. Spółka jest jednym z wiodących wykonawców farm wiatrowych i fotowoltaicznych w Polsce poprzez spółkę zależną Onde. Erbud prowadzi również działalność na rynkach niemieckim i skandynawskim w segmencie budownictwa drewnianego modułowego. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Budownictwo",
+    "founded": "1990",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "FMF": {
+    "description": "Ferro SA to polski producent armatury sanitarnej i instalacyjnej, oferujący baterie łazienkowe i kuchenne, systemy odprowadzania wody oraz akcesoria łazienkowe pod markami Ferro, Deante i Invena. Spółka jest jednym z wiodących producentów armatury w Europie Środkowej, eksportując produkty do kilkudziesięciu krajów. Ferro rozwija się poprzez przejęcia marek i ekspansję na nowe rynki europejskie. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Przemysł",
+    "founded": "2003",
+    "headquarters": "Skawina",
+    "indices": ["sWIG80"]
+  },
+  "FTE": {
+    "description": "Fabryki Mebli Forte to jeden z największych polskich producentów mebli skrzyniowych (szafy, komody, regały), eksportujący swoje produkty do kilkudziesięciu krajów europejskich. Spółka dostarcza meble gotowe do samodzielnego montażu (flat-pack) głównie do sieci handlowych i sklepów meblowych w Niemczech, Francji i krajach Europy Środkowej. Forte posiada nowoczesne zakłady produkcyjne w Ostrowi Mazowieckiej i Suwałkach. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Przemysł",
+    "founded": "1992",
+    "headquarters": "Ostrów Mazowiecka",
+    "indices": ["sWIG80"]
+  },
+  "GRN": {
+    "description": "Grenevia SA (dawniej Famur) to polska grupa przemysłowa, która przeszła transformację z producenta maszyn górniczych w holding skupiony na zielonej energii i elektromobilności. Spółka rozwija projekty fotowoltaiczne poprzez spółkę Projekt Solartechnik oraz inwestuje w infrastrukturę ładowania pojazdów elektrycznych. Grenevia jest przykładem udanej transformacji biznesowej z sektora wydobywczego w kierunku zrównoważonego rozwoju. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Przemysł",
+    "founded": "1922",
+    "headquarters": "Katowice",
+    "indices": ["sWIG80"]
+  },
+  "GRX": {
+    "description": "GreenX Metals (dawniej Prairie Mining) to spółka wydobywcza notowana na GPW i ASX, posiadająca projekty węgla koksującego i złóż metali w Polsce. Spółka rozwija projekty górnicze na Dolnym Śląsku, choć ich realizacja jest uzależniona od uzyskania koncesji i zgód środowiskowych. GreenX Metals jest jedną z nielicznych spółek dual-listed notowanych jednocześnie w Warszawie i Sydney. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Surowce",
+    "founded": "2005",
+    "headquarters": "Perth",
+    "indices": ["sWIG80"]
+  },
+  "IMC": {
+    "description": "IMC SA to jedna z największych firm rolniczych na Ukrainie, specjalizująca się w uprawie zbóż, roślin oleistych i kukurydzy na dużą skalę. Spółka zarządza dziesiątkami tysięcy hektarów ziemi uprawnej na Ukrainie i jest notowana na GPW w Warszawie. Działalność IMC jest silnie uzależniona od sytuacji geopolitycznej w regionie oraz globalnych cen surowców rolnych. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Rolnictwo",
+    "founded": "2007",
+    "headquarters": "Kijów",
+    "indices": ["sWIG80"]
+  },
+  "IZB": {
+    "description": "Izoblok SA to polski producent komponentów z tworzyw sztucznych dla przemysłu motoryzacyjnego, specjalizujący się w elementach z polistyrenu ekspandowanego (EPS) i polipropylenu ekspandowanego (EPP). Spółka dostarcza absorbery energii, elementy tapicerki i izolacji termicznej dla europejskich producentów samochodów. Izoblok jest dostawcą tier-1 i tier-2 dla wiodących marek automotive. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Motoryzacja",
+    "founded": "1993",
+    "headquarters": "Chorzów",
+    "indices": ["sWIG80"]
+  },
+  "KGN": {
+    "description": "Kogeneracja SA (Zespół Elektrociepłowni Wrocławskich) to producent energii elektrycznej i ciepła w kogeneracji, dostarczający ciepło sieciowe dla aglomeracji wrocławskiej. Spółka zarządza elektrociepłowniami we Wrocławiu i Siechnicach, zapewniając ogrzewanie dla setek tysięcy mieszkańców. Kogeneracja jest częścią Grupy PGE i realizuje inwestycje w niskoemisyjne źródła wytwarzania. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Energetyka",
+    "founded": "1992",
+    "headquarters": "Wrocław",
+    "indices": ["sWIG80"]
+  },
+  "KST": {
+    "description": "Konsorcjum Stali to polski dystrybutor wyrobów hutniczych i stalowych, oferujący blachy, pręty, rury i profile dla sektora budowlanego i przemysłowego. Spółka operuje sieć magazynów i centrów serwisowych w całej Polsce, zapewniając cięcie, gięcie i obróbkę stali na wymiar. Konsorcjum Stali jest jednym z największych niezależnych dystrybutorów stali w kraju. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Przemysł",
+    "founded": "1990",
+    "headquarters": "Zawiercie",
+    "indices": ["sWIG80"]
+  },
+  "KRK": {
+    "description": "Krka d.d. to słoweński koncern farmaceutyczny i jeden z największych producentów leków generycznych w Europie Środkowej i Wschodniej. Spółka produkuje leki na receptę, leki OTC i produkty weterynaryjne, eksportując do ponad 70 krajów świata. Krka jest notowana zarówno na giełdzie w Lublanie, jak i na GPW w Warszawie, gdzie wchodzi w skład indeksu sWIG80.",
+    "sector": "Farmacja",
+    "founded": "1954",
+    "headquarters": "Novo Mesto",
+    "indices": ["sWIG80"]
+  },
+  "MBR": {
+    "description": "Mo-BRUK SA to polski lider w branży przetwarzania odpadów niebezpiecznych i przemysłowych, operujący zakłady termicznego i fizyczno-chemicznego przetwarzania odpadów. Spółka jest jednym z nielicznych podmiotów w Polsce posiadających instalacje do spalania odpadów niebezpiecznych oraz produkcji kruszywa z odpadów. Mo-BRUK korzysta na rosnących wymaganiach regulacyjnych dotyczących gospodarki odpadami. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Ekologia",
+    "founded": "1985",
+    "headquarters": "Niecew",
+    "indices": ["sWIG80"]
+  },
+  "MCR": {
+    "description": "Mercor SA to polski producent systemów biernej ochrony przeciwpożarowej, oferujący klapy odcinające, bramy przeciwpożarowe, systemy oddymiania i obudowy ogniochronne. Spółka jest jednym z wiodących europejskich producentów w tej niszy, eksportując produkty do kilkudziesięciu krajów. Mercor dostarcza rozwiązania dla budynków biurowych, centrów handlowych, szpitali i obiektów przemysłowych. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Przemysł",
+    "founded": "1988",
+    "headquarters": "Gdańsk",
+    "indices": ["sWIG80"]
+  },
+  "MDG": {
+    "description": "Medicalgorithmics to polska spółka medtech specjalizująca się w telemedycynie kardiologicznej, producent systemu PocketECG do zdalnego monitorowania pracy serca. Urządzenie umożliwia ciągłe monitorowanie EKG pacjenta z przesyłaniem danych w czasie rzeczywistym do centrum analitycznego. Spółka działa głównie na rynku amerykańskim, gdzie systemy zdalnego monitorowania kardiologicznego są szeroko stosowane. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Medycyna",
+    "founded": "2005",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "MLP": {
+    "description": "MLP Group to polski deweloper i operator parków logistyczno-magazynowych, zarządzający portfelem nowoczesnych centrów logistycznych w Polsce, Niemczech, Austrii i Rumunii. Spółka buduje i wynajmuje hale magazynowe i produkcyjne klasy A, obsługując firmy logistyczne, e-commerce i producentów. MLP Group korzysta na rosnącym popycie na powierzchnię magazynową napędzanym rozwojem e-commerce. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Nieruchomości",
+    "founded": "1997",
+    "headquarters": "Pruszków",
+    "indices": ["sWIG80"]
+  },
+  "MNC": {
+    "description": "Mennica Polska to najstarsza polska instytucja przemysłowa z tradycją sięgającą 1766 roku, będąca wyłącznym producentem monet obiegowych dla Narodowego Banku Polskiego. Spółka produkuje również monety kolekcjonerskie, medale, żetony i elementy zabezpieczeń dla dokumentów. Mennica Polska prowadzi też działalność deweloperską (Mennica Legacy Tower w Warszawie) i technologiczną (system e-Toll). Wchodzi w skład indeksu sWIG80.",
+    "sector": "Przemysł",
+    "founded": "1766",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "MRB": {
+    "description": "Mirbud SA to jedna z największych polskich firm budowlanych specjalizujących się w budownictwie kubaturowym, drogowym i infrastrukturalnym. Spółka realizuje kontrakty dla sektora publicznego i prywatnego, w tym budynki użyteczności publicznej, obiekty handlowe i drogi. Mirbud prowadzi również działalność deweloperską poprzez spółkę zależną JHM Development. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Budownictwo",
+    "founded": "2001",
+    "headquarters": "Skierniewice",
+    "indices": ["sWIG80"]
+  },
+  "MRC": {
+    "description": "Mercator Medical to jeden z czołowych europejskich dystrybutorów i producentów jednorazowych rękawic medycznych i ochronnych. Spółka posiada fabrykę rękawic w Tajlandii oraz sieć dystrybucji w kilkunastu krajach europejskich. Mercator zyskał ogromną rozpoznawalność podczas pandemii COVID-19, gdy popyt na rękawice ochronne wielokrotnie wzrósł. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Medycyna",
+    "founded": "1996",
+    "headquarters": "Kraków",
+    "indices": ["sWIG80"]
+  },
+  "NET": {
+    "description": "Netia SA to drugi co do wielkości operator telekomunikacji stacjonarnej w Polsce, świadczący usługi internetu szerokopasmowego, telefonii i transmisji danych dla klientów biznesowych i indywidualnych. Spółka posiada rozbudowaną sieć światłowodową i jest jednym z wiodących dostawców usług ICT dla przedsiębiorstw w kraju. Netia jest częścią Grupy Polsat Plus (Cyfrowy Polsat). Wchodzi w skład indeksu sWIG80.",
+    "sector": "Telekomunikacja",
+    "founded": "1990",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "OPN": {
+    "description": "Oponeo.pl to największy internetowy sklep z oponami w Polsce i jeden z wiodących w Europie Środkowej, oferujący opony letnie, zimowe i całoroczne oraz felgi i akcesoria samochodowe. Spółka wyróżnia się zaawansowaną logistyką — opony dostarczane są bezpośrednio do wybranego serwisu montażowego w całym kraju. Oponeo.pl działa również na rynkach niemieckim, czeskim i słowackim. Wchodzi w skład indeksu sWIG80.",
+    "sector": "E-commerce",
+    "founded": "2001",
+    "headquarters": "Bydgoszcz",
+    "indices": ["sWIG80"]
+  },
+  "PCE": {
+    "description": "PCC Exol to polski producent surfaktantów (środków powierzchniowo czynnych) wykorzystywanych w przemyśle kosmetycznym, chemii gospodarczej, budownictwie i przemyśle. Spółka jest częścią niemieckiej Grupy PCC i jednym z największych producentów surfaktantów w Europie Środkowej. PCC Exol dostarcza surowce chemiczne do produkcji detergentów, szamponów, środków czyszczących i emulgatorów. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Chemia",
+    "founded": "2008",
+    "headquarters": "Brzeg Dolny",
+    "indices": ["sWIG80"]
+  },
+  "PCR": {
+    "description": "PCC Rokita to polski producent chemikaliów i polioli polieterowych, będący częścią niemieckiej Grupy PCC SE. Spółka wytwarza alkalia (soda kaustyczna, chlor), poliole do produkcji pianek poliuretanowych oraz produkty fosforowe i naftowe. PCC Rokita jest jednym z kluczowych producentów chemii przemysłowej w Polsce, zaopatrując branżę meblową, budowlaną i motoryzacyjną. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Chemia",
+    "founded": "2004",
+    "headquarters": "Brzeg Dolny",
+    "indices": ["sWIG80"]
+  },
+  "PPS": {
+    "description": "Pepees SA (Przedsiębiorstwo Przemysłu Spożywczego Pepees) to polski producent skrobi ziemniaczanej i przetworów ziemniaczanych, będący jednym z największych producentów skrobi w Polsce. Spółka dostarcza skrobię natywną i modyfikowaną dla przemysłu spożywczego, papierniczego i tekstylnego. Pepees posiada zakłady przetwórcze na Podlasiu — w regionie intensywnej uprawy ziemniaków. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Spożywczy",
+    "founded": "1949",
+    "headquarters": "Łomża",
+    "indices": ["sWIG80"]
+  },
+  "PHN": {
+    "description": "Polski Holding Nieruchomości to największy w Polsce państwowy zarządca nieruchomości komercyjnych, posiadający portfel biurowców, hoteli i budynków użytkowych w głównych miastach kraju. Spółka kontrolowana przez Skarb Państwa zarządza m.in. ikonicznymi budynkami w centrum Warszawy. PHN realizuje projekty deweloperskie i rewitalizacyjne, optymalizując wartość portfela nieruchomości Skarbu Państwa. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Nieruchomości",
+    "founded": "2011",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "PKP": {
+    "description": "PKP Cargo to największy operator kolejowych przewozów towarowych w Polsce i jeden z największych w Unii Europejskiej. Spółka przewozi węgiel, kruszywa, metale, chemikalia i towary intermodalne siecią kolejową obejmującą całą Polskę i połączenia międzynarodowe. PKP Cargo jest kontrolowane przez Skarb Państwa i uczestniczy w rozwoju korytarzy transportowych łączących porty bałtyckie z Europą Zachodnią. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Transport",
+    "founded": "2001",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "PLW": {
+    "description": "PlayWay SA to polski wydawca i inkubator gier wideo, znany z unikatowego modelu biznesowego opartego na finansowaniu dziesiątek małych zespołów deweloperskich tworzących gry symulatorowe i niszowe. Spółka posiada udziały w kilkudziesięciu studiach i wydała setki gier, w tym popularne serie Car Mechanic Simulator, House Flipper i Cooking Simulator. PlayWay jest jedną z najbardziej płodnych firm gamingowych na GPW. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Gry",
+    "founded": "2011",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "QRS": {
+    "description": "Quercus TFI to polskie towarzystwo funduszy inwestycyjnych, zarządzające aktywami klientów indywidualnych i instytucjonalnych poprzez fundusze obligacyjne, akcyjne i absolutnej stopy zwrotu. Spółka jest jednym z większych niezależnych TFI w Polsce i jest znana z aktywnej strategii zarządzania portfelem. Quercus TFI jest notowane na GPW od 2008 roku. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Finanse",
+    "founded": "2007",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "RBW": {
+    "description": "Rainbow Tours to największy polski touroperator organizujący wakacje zagraniczne, oferujący wyjazdy czarterowe do popularnych destynacji turystycznych w basenie Morza Śródziemnego, Afryce i Azji. Spółka obsługuje setki tysięcy turystów rocznie i współpracuje z czarterowymi liniami lotniczymi, w tym Enter Air. Rainbow rozwija również segment turystyki premium i rejsów morskich. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Turystyka",
+    "founded": "1990",
+    "headquarters": "Łódź",
+    "indices": ["sWIG80"]
+  },
+  "RVU": {
+    "description": "Ryvu Therapeutics to polska spółka biotechnologiczna specjalizująca się w odkrywaniu i rozwijaniu innowacyjnych terapii onkologicznych, w tym małocząsteczkowych leków celowanych przeciwnowotworowych. Spółka prowadzi badania kliniczne nad kandydatami lekowymi w obszarze nowotworów hematologicznych i guzów litych. Ryvu współpracuje z globalnymi firmami farmaceutycznymi i pozyskuje granty na badania. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Biotechnologia",
+    "founded": "2007",
+    "headquarters": "Kraków",
+    "indices": ["sWIG80"]
+  },
+  "SFG": {
+    "description": "Synektik SA to polska spółka medtech specjalizująca się w dostarczaniu zaawansowanych systemów diagnostyki obrazowej i robotyki chirurgicznej dla szpitali. Spółka jest wyłącznym dystrybutorem robotów chirurgicznych da Vinci w Polsce i jednym z wiodących dostawców systemów obrazowania medycznego. Synektik rozwija również własne oprogramowanie do analizy obrazów diagnostycznych. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Medycyna",
+    "founded": "2002",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "SHO": {
+    "description": "Shoper SA to polska platforma e-commerce typu SaaS, umożliwiająca małym i średnim firmom tworzenie i prowadzenie własnych sklepów internetowych bez wiedzy programistycznej. Spółka obsługuje dziesiątki tysięcy aktywnych sklepów online w Polsce i jest jednym z liderów rynku platform e-commerce w kraju. Shoper generuje przychody z opłat subskrypcyjnych i prowizji od transakcji. Wchodzi w skład indeksu sWIG80.",
+    "sector": "E-commerce",
+    "founded": "2005",
+    "headquarters": "Kraków",
+    "indices": ["sWIG80"]
+  },
+  "SLV": {
+    "description": "Selvita SA to polska firma biotechnologiczna świadcząca usługi badawcze (CRO) dla globalnych firm farmaceutycznych i biotechnologicznych, specjalizująca się w odkrywaniu leków i chemii medycznej. Spółka prowadzi projekty drug discovery na zlecenie i oferuje zintegrowane usługi od identyfikacji celu terapeutycznego po optymalizację kandydatów lekowych. Selvita jest jednym z największych CRO w Europie Środkowej. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Biotechnologia",
+    "founded": "2007",
+    "headquarters": "Kraków",
+    "indices": ["sWIG80"]
+  },
+  "SNK": {
+    "description": "Sanok Rubber Company (Sanockie Zakłady Przemysłu Gumowego) to polski producent wyrobów gumowych i gumowo-metalowych dla przemysłu motoryzacyjnego, budowlanego i kolejowego. Spółka dostarcza uszczelki, profile, tłumiki drgań i elementy techniczne dla europejskich producentów samochodów i pojazdów szynowych. Sanok RC jest jednym z największych polskich eksporterów produktów gumowych. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Przemysł",
+    "founded": "1932",
+    "headquarters": "Sanok",
+    "indices": ["sWIG80"]
+  },
+  "STX": {
+    "description": "Stalprofil SA to polski dystrybutor stali i wyrobów hutniczych, specjalizujący się w rurach stalowych, profilach zamkniętych i blachach. Spółka operuje centrum serwisowe stali z możliwością cięcia, gięcia i obróbki materiałów na wymiar klienta. Stalprofil jest jednym z największych dystrybutorów rur stalowych w Polsce i uczestniczy w dostawach dla sektora infrastrukturalnego. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Przemysł",
+    "founded": "1990",
+    "headquarters": "Dąbrowa Górnicza",
+    "indices": ["sWIG80"]
+  },
+  "SWG": {
+    "description": "Śnieżka SA to jeden z wiodących polskich producentów farb i lakierów dekoracyjnych, oferujący produkty pod markami Śnieżka, Magnat i Rafil. Spółka posiada zakłady produkcyjne w Polsce, na Ukrainie i Białorusi i jest jednym z liderów rynku farb w Europie Środkowej i Wschodniej. Śnieżka wyróżnia się silną rozpoznawalnością marki i szeroką dystrybucją w sieciach DIY. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Chemia",
+    "founded": "1984",
+    "headquarters": "Lubzina",
+    "indices": ["sWIG80"]
+  },
+  "TIM": {
+    "description": "TIM SA to polski dystrybutor artykułów elektrotechnicznych i oświetleniowych, obsługujący hurtownie elektryczne, firmy instalacyjne i wykonawców w całym kraju. Spółka operuje platformę e-commerce i sieć dystrybucji dostarczającą kable, osprzęt elektryczny, oświetlenie i automatykę budynkową. TIM jest jednym z największych dystrybutorów materiałów elektrycznych w Polsce. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Handel",
+    "founded": "1987",
+    "headquarters": "Wrocław",
+    "indices": ["sWIG80"]
+  },
+  "TRK": {
+    "description": "Trakcja SA to polska firma budowlana specjalizująca się w budowie i modernizacji infrastruktury kolejowej, tramwajowej i energetycznej. Spółka realizuje kontrakty na budowę sieci trakcyjnych, podstacji energetycznych i linii kolejowych dla PKP PLK i samorządów. Trakcja jest jednym z kluczowych wykonawców w programach modernizacji kolei finansowanych ze środków UE. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Budownictwo",
+    "founded": "1950",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "UNI": {
+    "description": "Unimot SA to niezależny polski operator paliw i gazu, dystrybutor oleju napędowego, benzyny, LPG, biopaliw i energii elektrycznej dla klientów biznesowych. Spółka jest właścicielem marki AVIA — sieci stacji paliw rozwijanych na zasadzie franczyzy w Polsce. Unimot dynamicznie rośnie poprzez przejęcia i ekspansję na nowe segmenty rynku energetycznego. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Energetyka",
+    "founded": "2007",
+    "headquarters": "Kędzierzyn-Koźle",
+    "indices": ["sWIG80"]
+  },
+  "VGO": {
+    "description": "Vigo Photonics (dawniej Vigo System) to polski producent detektorów podczerwieni i fotodetektorów wykorzystywanych w systemach wykrywania gazów, spektroskopii, obronności i przemyśle. Spółka jest jednym z niewielu na świecie producentów niechłodzonych detektorów podczerwieni średniej i dalekiej, eksportując swoje produkty do najwyżej zaawansowanych laboratoriów i firm technologicznych globalnie. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Technologia",
+    "founded": "1987",
+    "headquarters": "Ożarów Mazowiecki",
+    "indices": ["sWIG80"]
+  },
+  "VIN": {
+    "description": "Vindexus SA to polska firma windykacyjna specjalizująca się w zarządzaniu wierzytelnościami masowymi, w tym wierzytelnościami bankowymi, telekomunikacyjnymi i komunalnymi. Spółka skupuje portfele wierzytelności od banków i firm usługowych oraz prowadzi windykację na własny rachunek. Vindexus jest jednym z mniejszych, ale stabilnych graczy na polskim rynku zarządzania wierzytelnościami. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Finanse",
+    "founded": "2000",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "WAR": {
+    "description": "Wawel SA to tradycyjny polski producent czekolady, cukierków i wyrobów cukierniczych z historią sięgającą 1898 roku, znany z marek Malaga, Tiki Taki, Kasztanki i Michałki. Spółka jest jednym z najbardziej rozpoznawalnych polskich producentów słodyczy i utrzymuje silną pozycję na rynku krajowym. Wawel eksportuje swoje produkty do kilkudziesięciu krajów, głównie na rynki z polską diasporą. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Spożywczy",
+    "founded": "1898",
+    "headquarters": "Kraków",
+    "indices": ["sWIG80"]
+  },
+  "WLT": {
+    "description": "Wielton SA to największy polski producent naczep, przyczep i zabudów samochodów ciężarowych oraz jeden z czołowych w Europie. Spółka oferuje szeroką gamę pojazdów transportowych — od naczep kurtynowych i chłodniczych po wywrotki i cysterny. Wielton eksportuje swoje produkty do kilkudziesięciu krajów i posiada zakłady produkcyjne w Polsce, Francji i Wielkiej Brytanii. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Przemysł",
+    "founded": "1996",
+    "headquarters": "Wieluń",
+    "indices": ["sWIG80"]
+  },
+  "WTN": {
+    "description": "Wittchen SA to polski producent i dystrybutor wyrobów skórzanych premium — walizek, torebek, portfeli i akcesoriów podróżnych. Spółka operuje sieć sklepów własnych w Polsce i rozwija sprzedaż online oraz eksport na rynki europejskie. Wittchen wyróżnia się pozycjonowaniem w segmencie przystępnego luksusu i silną rozpoznawalnością marki wśród polskich konsumentów. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Handel",
+    "founded": "1990",
+    "headquarters": "Palmiry",
+    "indices": ["sWIG80"]
+  },
+  "ZAP": {
+    "description": "Grupa Azoty Puławy to jeden z największych polskich producentów nawozów azotowych i chemikaliów, będący częścią Grupy Azoty. Spółka wytwarza mocznik, saletry i melaminy w zakładach w Puławach, dostarczając produkty dla rolnictwa i przemysłu chemicznego. Puławy są jednym z kluczowych ośrodków produkcji nawozów w Europie Środkowej. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Chemia",
+    "founded": "1960",
+    "headquarters": "Puławy",
+    "indices": ["sWIG80"]
+  },
+  "ZEP": {
+    "description": "ZE PAK (Zespół Elektrowni Pątnów-Adamów-Konin) to prywatny polski wytwórca energii elektrycznej z siedzibą w Wielkopolsce, tradycyjnie oparty na spalaniu węgla brunatnego. Spółka kontrolowana przez Zygmunta Solorza realizuje transformację energetyczną, inwestując w farmy fotowoltaiczne i projekty jądrowe (małe reaktory modularne SMR). ZE PAK odchodzi od węgla brunatnego w kierunku niskoemisyjnych źródeł energii. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Energetyka",
+    "founded": "1999",
+    "headquarters": "Konin",
+    "indices": ["sWIG80"]
+  },
+  "ZWC": {
+    "description": "Żywiec SA (Grupa Żywiec) to jeden z największych producentów piwa w Polsce, będący częścią globalnego koncernu Heineken. Spółka produkuje piwa pod markami Żywiec, Warka, Tatra, Desperados i Heineken, zarządzając browarnymi w kilku lokalizacjach w Polsce. Grupa Żywiec jest jednym z dwóch dominujących graczy na polskim rynku piwa, obok Kompanii Piwowarskiej (Asahi). Wchodzi w skład indeksu sWIG80.",
+    "sector": "Spożywczy",
+    "founded": "1856",
+    "headquarters": "Żywiec",
+    "indices": ["sWIG80"]
+  },
+  "ACE": {
+    "description": "Asseco Central Europe to spółka z Grupy Asseco, dostarczająca systemy informatyczne dla bankowości, ubezpieczeń i administracji publicznej na rynkach Czech, Słowacji i Węgier. Spółka specjalizuje się w systemach core banking, rozwiązaniach płatniczych i systemach dla sektora zdrowia. ACE jest notowane na GPW w Warszawie i giełdzie w Bratysławie. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Technologia",
+    "founded": "2006",
+    "headquarters": "Bratysława",
+    "indices": ["sWIG80"]
+  },
+  "AST": {
+    "description": "Astarta Holding to jeden z największych ukraińskich koncernów rolno-spożywczych, zajmujący się uprawą zbóż i buraków cukrowych, produkcją cukru oraz hodowlą bydła. Spółka zarządza dziesiątkami tysięcy hektarów ziemi uprawnej na Ukrainie i jest jednym z największych producentów cukru w kraju. Astarta jest notowana na GPW w Warszawie i jej wyniki są silnie uzależnione od sytuacji geopolitycznej. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Rolnictwo",
+    "founded": "1993",
+    "headquarters": "Kijów",
+    "indices": ["sWIG80"]
+  },
+  "BIO": {
+    "description": "Bioton SA to polski producent insuliny rekombinowanej i leków biotechnologicznych, będący jednym z nielicznych europejskich wytwórców biosymilarnej insuliny ludzkiej. Spółka eksportuje swoje produkty do krajów rozwijających się, głównie w Azji i Afryce, oraz rozwija portfolio leków biologicznych. Bioton posiada nowoczesne zakłady biotechnologiczne w Macierzyszu pod Warszawą. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Biotechnologia",
+    "founded": "1989",
+    "headquarters": "Macierzysz",
+    "indices": ["sWIG80"]
+  },
+  "BMC": {
+    "description": "Bumech SA to polska spółka działająca w sektorze usług górniczych i wydobywczych, świadcząca usługi drążenia wyrobisk i eksploatacji pokładów węgla w kopalniach podziemnych. Spółka dostarcza również maszyny i urządzenia górnicze oraz realizuje kontrakty serwisowe dla kopalń węgla kamiennego w Polsce. Bumech jest notowany na GPW od 2011 roku. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Surowce",
+    "founded": "2003",
+    "headquarters": "Katowice",
+    "indices": ["sWIG80"]
+  },
+  "CMP": {
+    "description": "Comp SA to polska spółka technologiczna specjalizująca się w produkcji kas fiskalnych, terminali płatniczych i systemów IT dla sektora handlowego i finansowego. Spółka jest jednym z największych polskich producentów urządzeń fiskalnych i dostarcza rozwiązania do rejestracji sprzedaży zgodne z wymogami Ministerstwa Finansów. Comp rozwija również segment systemów bezpieczeństwa IT. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Technologia",
+    "founded": "1990",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "DGA": {
+    "description": "DGA SA to polska firma konsultingowa świadcząca usługi doradztwa biznesowego, zarządzania projektami i pozyskiwania funduszy europejskich dla przedsiębiorstw i instytucji publicznych. Spółka specjalizuje się w doradztwie strategicznym, restrukturyzacji i zarządzaniu zmianą. DGA jest jedną z nielicznych firm consultingowych notowanych na GPW. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Usługi",
+    "founded": "1990",
+    "headquarters": "Poznań",
+    "indices": ["sWIG80"]
+  },
+  "ELZ": {
+    "description": "Elzab SA to polski producent kas i drukarek fiskalnych, wag elektronicznych oraz terminali płatniczych dla sektora handlu detalicznego i gastronomii. Spółka jest jednym z największych krajowych dostawców urządzeń fiskalnych i korzysta na obowiązkowej fiskalizacji sprzedaży w Polsce. Elzab dostarcza rozwiązania zarówno dla małych punktów sprzedaży, jak i dużych sieci handlowych. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Technologia",
+    "founded": "1989",
+    "headquarters": "Zabrze",
+    "indices": ["sWIG80"]
+  },
+  "MLG": {
+    "description": "ML System SA to polski producent innowacyjnych paneli fotowoltaicznych zintegrowanych z budynkami (BIPV), w tym szyb solnych generujących energię elektryczną. Spółka specjalizuje się w zaawansowanych technologiach fotowoltaicznych i kwantowych kropkach do modyfikacji widma słonecznego. ML System jest jednym z nielicznych europejskich producentów transparentnych paneli PV do zastosowań architektonicznych. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Technologia",
+    "founded": "2013",
+    "headquarters": "Zaczernie",
+    "indices": ["sWIG80"]
+  },
+  "PBX": {
+    "description": "Pekabex SA to polski producent prefabrykatów betonowych i żelbetowych, specjalizujący się w konstrukcjach modułowych dla budownictwa mieszkaniowego, komercyjnego i przemysłowego. Spółka jest jednym z liderów polskiego rynku prefabrykacji i realizuje kontrakty w Polsce oraz w krajach skandynawskich. Pekabex promuje budownictwo prefabrykowane jako szybszą i bardziej ekologiczną alternatywę dla tradycyjnych metod budowy. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Budownictwo",
+    "founded": "1970",
+    "headquarters": "Poznań",
+    "indices": ["sWIG80"]
+  },
+  "PXM": {
+    "description": "Polimex-Mostostal to jedna z największych polskich firm inżynieryjno-budowlanych, specjalizująca się w realizacji projektów dla sektora energetycznego, petrochemicznego i infrastrukturalnego. Spółka buduje i modernizuje elektrownie, rafinerie i zakłady przemysłowe, a także realizuje kontrakty drogowe i mostowe. Polimex-Mostostal przeszedł proces restrukturyzacji i koncentruje się na kontraktach w sektorze energetyki. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Budownictwo",
+    "founded": "1945",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
+  },
+  "SKA": {
+    "description": "Skarbiec Holding to polska grupa finansowa, właściciel Skarbiec TFI — jednego z najdłużej działających towarzystw funduszy inwestycyjnych w Polsce. Spółka zarządza funduszami akcyjnymi, obligacyjnymi i mieszanymi dla klientów indywidualnych i instytucjonalnych. Skarbiec TFI jest znany z aktywnego zarządzania portfelem i wieloletniego doświadczenia na polskim rynku kapitałowym. Wchodzi w skład indeksu sWIG80.",
+    "sector": "Finanse",
+    "founded": "1997",
+    "headquarters": "Warszawa",
+    "indices": ["sWIG80"]
   }
 }
