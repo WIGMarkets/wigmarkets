@@ -1,0 +1,212 @@
+{
+  "PKN": {
+    "description": "PKN ORLEN to największy koncern paliwowo-energetyczny w Europie Środkowej, powstały z połączenia Polskiego Koncernu Naftowego i rafinerii Orlen. Prowadzi rafinerie w Polsce, Czechach i na Litwie oraz sieć ponad 3000 stacji paliw w regionie. Po przejęciu Grupy LOTOS, PGNiG i Energi stał się zintegrowanym gigantem energetycznym obejmującym wydobycie, przerób ropy, dystrybucję gazu i energetykę odnawialną. Spółka wchodzi w skład indeksu WIG20.",
+    "sector": "Energetyka",
+    "founded": "1999",
+    "headquarters": "Płock",
+    "indices": ["WIG20"]
+  },
+  "PKO": {
+    "description": "PKO Bank Polski to największy bank w Polsce pod względem aktywów, liczby klientów i sieci placówek, z historią sięgającą 1919 roku. Obsługuje ponad 11 milionów klientów detalicznych i posiada wiodącą pozycję w segmencie kredytów hipotecznych w kraju. Większościowym akcjonariuszem pozostaje Skarb Państwa, co zapewnia bankowi stabilną bazę kapitałową. Spółka jest jednym z filarów indeksu WIG20.",
+    "sector": "Banki",
+    "founded": "1919",
+    "headquarters": "Warszawa",
+    "indices": ["WIG20"]
+  },
+  "PEO": {
+    "description": "Bank Pekao to drugi co do wielkości bank komercyjny w Polsce, działający nieprzerwanie od 1929 roku. Obsługuje klientów indywidualnych, przedsiębiorstwa oraz instytucje, oferując pełen zakres produktów bankowości detalicznej i korporacyjnej. Kontrolowany przez PZU SA i Polski Fundusz Rozwoju, utrzymuje pozycję jednego z najstabilniejszych banków w regionie CEE. Spółka należy do indeksu WIG20.",
+    "sector": "Banki",
+    "founded": "1929",
+    "headquarters": "Warszawa",
+    "indices": ["WIG20"]
+  },
+  "KGH": {
+    "description": "KGHM Polska Miedź to jeden z największych producentów miedzi i srebra na świecie, wydobywający rudy z kopalni w Polsce (Zagłębie Miedziowe), Chile i Kanadzie. Polska jest siódmym producentem miedzi na świecie, a KGHM odpowiada za znaczącą część krajowego PKB i eksportu. Spółka posiada własne huty i zakłady przeróbcze oraz prowadzi działalność w segmencie energetyki. Wchodzi w skład indeksu WIG20.",
+    "sector": "Surowce",
+    "founded": "1961",
+    "headquarters": "Lubin",
+    "indices": ["WIG20"]
+  },
+  "PZU": {
+    "description": "PZU SA to największa polska firma ubezpieczeniowa i jedna z największych w Europie Środkowej, działająca nieprzerwanie od 1803 roku. Oferuje pełen zakres ubezpieczeń majątkowych, komunikacyjnych i na życie dla klientów indywidualnych i biznesowych. Poprzez spółkę TFI PZU zarządza również funduszami inwestycyjnymi, a przez udziały w PKO BP i Pekao ma silną pozycję w sektorze bankowym. Akcje PZU wchodzą w skład indeksu WIG20.",
+    "sector": "Ubezpieczenia",
+    "founded": "1803",
+    "headquarters": "Warszawa",
+    "indices": ["WIG20"]
+  },
+  "DNP": {
+    "description": "Dino Polska to jedna z najszybciej rozwijających się sieci supermarketów spożywczych w Polsce, operująca głównie na obszarach małych i średnich miast oraz terenach wiejskich. Spółka wyróżnia się modelem własności sklepów (bez franczyzy) i centralnym systemem dostaw z własnych magazynów chłodniczych. Od debiutu giełdowego w 2017 roku Dino konsekwentnie otwiera kilkaset nowych sklepów rocznie i należy do grona najszybciej rosnących spółek w indeksie WIG20.",
+    "sector": "Handel",
+    "founded": "1999",
+    "headquarters": "Krotoszyn",
+    "indices": ["WIG20"]
+  },
+  "LPP": {
+    "description": "LPP SA to największy polski producent i dystrybutor odzieży, właściciel marek Reserved, Cropp, House, Mohito i Sinsay. Firma operuje ponad 2000 sklepów w kilkudziesięciu krajach, ze szczególnie silną obecnością w Europie Środkowej i Wschodniej. Po tymczasowym wyjściu z Rosji po 2022 roku spółka koncentruje ekspansję na rynkach Europy Zachodniej i Azji Południowo-Wschodniej. LPP jest jedną z największych spółek w indeksie WIG20.",
+    "sector": "Handel",
+    "founded": "1991",
+    "headquarters": "Gdańsk",
+    "indices": ["WIG20"]
+  },
+  "ALE": {
+    "description": "Allegro.eu to największa platforma e-commerce w Polsce i jedna z wiodących w Europie Środkowej, łącząca miliony kupujących ze sprzedającymi w modelu marketplace. Spółka zadebiutowała na GPW w 2020 roku w jednym z największych IPO w historii polskiego rynku, pozyskując blisko 2,1 mld USD. Allegro oferuje własną platformę płatniczą Allegro Pay oraz usługi logistyczne One Fulfillment, rozwijając ekosystem usług dla sprzedawców. Wchodzi w skład indeksu WIG20.",
+    "sector": "E-commerce",
+    "founded": "1999",
+    "headquarters": "Poznań",
+    "indices": ["WIG20"]
+  },
+  "CDR": {
+    "description": "CD Projekt to polskie studio gier wideo znane na całym świecie, twórca serii Wiedźmin oraz cyberpunkowej gry Cyberpunk 2077. Spółka jest właścicielem cyfrowej platformy dystrybucji gier GOG.com, która specjalizuje się w grach DRM-free. Seria Wiedźmin 3: Dziki Gon sprzedała się w ponad 50 milionach egzemplarzy, stając się jedną z najlepiej ocenianych gier w historii. CD Projekt wchodzi w skład indeksu WIG20.",
+    "sector": "Gry",
+    "founded": "1994",
+    "headquarters": "Warszawa",
+    "indices": ["WIG20"]
+  },
+  "PGE": {
+    "description": "PGE Polska Grupa Energetyczna to największy wytwórca i dostawca energii elektrycznej w Polsce, kontrolowany przez Skarb Państwa. Spółka zarządza elektrowniami węglowymi, wodnymi oraz rozbudowuje portfel aktywów w energetyce odnawialnej (wiatrowej i fotowoltaicznej). PGE aktywnie uczestniczy w transformacji energetycznej kraju, inwestując w morskie farmy wiatrowe na Bałtyku i infrastrukturę sieciową. Spółka wchodzi w skład indeksu WIG20.",
+    "sector": "Energetyka",
+    "founded": "1990",
+    "headquarters": "Warszawa",
+    "indices": ["WIG20"]
+  },
+  "SPL": {
+    "description": "Santander Bank Polska (dawniej BZ WBK) to jeden z największych banków komercyjnych w Polsce, będący częścią hiszpańskiej Grupy Santander. Oferuje pełen zakres usług bankowych dla klientów indywidualnych, małych i średnich przedsiębiorstw oraz korporacji. Santander Bank Polska jest znany z innowacyjnych rozwiązań cyfrowych i bankowości mobilnej oraz z przejęcia Kredyt Banku w 2012 roku. Spółka wchodzi w skład indeksu WIG20.",
+    "sector": "Banki",
+    "founded": "1989",
+    "headquarters": "Warszawa",
+    "indices": ["WIG20"]
+  },
+  "OPL": {
+    "description": "Orange Polska (dawniej Telekomunikacja Polska) to największy operator telekomunikacyjny w Polsce, świadczący usługi telefonii stacjonarnej, mobilnej, internetu i telewizji. Spółka jest częścią francuskiej Grupy Orange, jednego z największych operatorów telekomunikacyjnych na świecie. Orange Polska systematycznie rozbudowuje sieć światłowodową i infrastrukturę 5G, obsługując kilkanaście milionów klientów. Wchodzi w skład indeksu WIG20.",
+    "sector": "Telekomunikacja",
+    "founded": "1991",
+    "headquarters": "Warszawa",
+    "indices": ["WIG20"]
+  },
+  "MBK": {
+    "description": "mBank to jeden z pionierów bankowości internetowej w Polsce, uruchomiony w 2000 roku jako pierwsza w pełni internetowa instytucja finansowa w Europie Środkowej. Wchodzi w skład Grupy Commerzbank i obsługuje ponad 5 milionów klientów w Polsce, Czechach i Słowacji. Bank wyróżnia się nowoczesną platformą cyfrową i innowacyjnym podejściem do produktów finansowych. Akcje mBanku notowane są w indeksie WIG20.",
+    "sector": "Banki",
+    "founded": "2000",
+    "headquarters": "Warszawa",
+    "indices": ["WIG20"]
+  },
+  "CCC": {
+    "description": "CCC SA (działające pod marką Modivo Group) to jeden z największych europejskich detalistów obuwniczych, operujący siecią sklepów stacjonarnych i platform e-commerce w kilkudziesięciu krajach. Spółka jest właścicielem marek CCC, HalfPrice, Modivo i eobuwie.pl, łącząc sprzedaż stacjonarną z kanałem online. Segment eobuwie.pl/Modivo to jedna z największych platform sprzedaży obuwia i odzieży online w Europie Środkowej. CCC wchodzi w skład indeksu WIG20.",
+    "sector": "Handel",
+    "founded": "1999",
+    "headquarters": "Polkowice",
+    "indices": ["WIG20"]
+  },
+  "KRU": {
+    "description": "Kruk SA to największa polska firma windykacyjna i jedna z czołowych w Europie, działająca na rynkach Polski, Rumunii, Włoch, Hiszpanii, Niemiec i innych krajów europejskich. Spółka specjalizuje się w zakupie portfeli wierzytelności od banków i firm pożyczkowych oraz windykacji długów na własny rachunek. Kruk jest liderem rynku konsumenckiego zarządzania wierzytelnościami w Polsce i utrzymuje ekspansję na nowe rynki europejskie. Wchodzi w skład indeksu WIG20.",
+    "sector": "Finanse",
+    "founded": "1998",
+    "headquarters": "Wrocław",
+    "indices": ["WIG20"]
+  },
+  "BDX": {
+    "description": "Budimex to największa polska firma budowlana i jedna z czołowych w Europie Środkowej, realizująca kontrakty infrastrukturalne, drogowe, kolejowe i kubaturowe. Spółka jest częścią hiszpańskiej Grupy Ferrovial i uczestniczy w kluczowych inwestycjach infrastrukturalnych finansowanych ze środków UE. Budimex prowadzi również działalność deweloperską (Budimex Nieruchomości) i zarządzanie nieruchomościami komercyjnymi. Notowany jest w indeksie WIG20.",
+    "sector": "Budownictwo",
+    "founded": "1968",
+    "headquarters": "Warszawa",
+    "indices": ["WIG20"]
+  },
+  "MIL": {
+    "description": "Bank Millennium to ogólnopolski bank komercyjny będący częścią portugalskiej Grupy Millennium BCP. Obsługuje ponad 2,5 miliona klientów w Polsce, oferując produkty bankowości detalicznej, hipotecznej i korporacyjnej. Bank jest znany z ekspozycji na kredyty frankowe (CHF), co przez lata generowało rezerwy prawne i wpływało na wyniki finansowe. Bank Millennium wchodzi w skład indeksu mWIG40.",
+    "sector": "Banki",
+    "founded": "1989",
+    "headquarters": "Warszawa",
+    "indices": ["mWIG40"]
+  },
+  "TPE": {
+    "description": "Tauron Polska Energia to drugi co do wielkości wytwórca energii elektrycznej w Polsce, kontrolowany przez Skarb Państwa. Spółka zarządza elektrowniami węglowymi w Jaworznie i Łagiszy, siecią dystrybucyjną na południu Polski oraz zakładami wydobycia węgla. Tauron realizuje program transformacji energetycznej, stopniowo odchodząc od węgla na rzecz odnawialnych źródeł energii. Spółka wchodzi w skład indeksu mWIG40.",
+    "sector": "Energetyka",
+    "founded": "2006",
+    "headquarters": "Katowice",
+    "indices": ["mWIG40"]
+  },
+  "KTY": {
+    "description": "Grupa Kęty to wiodący producent wyrobów z aluminium w Polsce i jeden z czołowych w Europie, oferujący profile aluminiowe, systemy architektoniczne i opakowania giętkie. Spółka wyróżnia się kompleksowym łańcuchem produkcyjnym — od wytapiania aluminium po gotowe systemy okienno-drzwiowe i fasadowe. Grupa Kęty jest ceniona za stabilną politykę dywidendową i konsekwentny wzrost organiczny. Wchodzi w skład indeksu WIG20.",
+    "sector": "Przemysł",
+    "founded": "1953",
+    "headquarters": "Kęty",
+    "indices": ["WIG20"]
+  },
+  "LWB": {
+    "description": "LW Bogdanka (Lubelski Węgiel Bogdanka) to jeden z najnowocześniejszych i najbardziej wydajnych producentów węgla energetycznego w Polsce. Kopalnia w Bogdance wyróżnia się wysokim poziomem mechanizacji wydobycia i należy do czołówki pod względem efektywności kosztowej spośród polskich kopalń węgla. Spółka dostarcza węgiel głównie do elektrowni i elektrociepłowni, a jej wyniki są ściśle powiązane z popytem energetycznym i cenami węgla na rynkach europejskich. Notowana jest w indeksie sWIG80.",
+    "sector": "Surowce",
+    "founded": "1975",
+    "headquarters": "Bogdanka",
+    "indices": ["sWIG80"]
+  },
+  "CPS": {
+    "description": "Cyfrowy Polsat to największy prywatny nadawca telewizyjny i wiodący dostawca usług multimedialnych w Polsce, zarządzający kanałami telewizji satelitarnej i naziemnej, platformą streamingową Polsat Box Go oraz usługami mobilnymi Polsat Box. Spółka jest kontrolowana przez Zygmunta Solorza i łączy w sobie media, telekomunikację i dystrybucję treści. Poprzez Polkomtel (Plus) oferuje usługi telefonii komórkowej milionom abonentów. Cyfrowy Polsat wchodzi w skład indeksu mWIG40.",
+    "sector": "Media",
+    "founded": "1994",
+    "headquarters": "Warszawa",
+    "indices": ["mWIG40"]
+  },
+  "AMC": {
+    "description": "Amica SA to największy polski producent sprzętu AGD, wytwarzający kuchnie, piekarniki, chłodziarki i pralki pod markami Amica, Gram (Skandynawia) i CDA (Wielka Brytania). Spółka sprzedaje swoje produkty w kilkudziesięciu krajach, a znaczna część przychodów pochodzi z rynków zachodnioeuropejskich. Amica jest notowana na GPW od 1997 roku i utrzymuje silną pozycję w segmencie urządzeń do gotowania w Polsce i Europie Środkowej. Wchodzi w skład indeksu sWIG80.",
+    "sector": "AGD",
+    "founded": "1945",
+    "headquarters": "Wronki",
+    "indices": ["sWIG80"]
+  },
+  "PCO": {
+    "description": "Pepco Group to europejska sieć sklepów z tanią odzieżą, artykułami dla domu i zabawkami, operująca pod markami Pepco (Europa Środkowa i Wschodnia), Dealz (Irlandia i Polska) oraz Poundland (Wielka Brytania). Spółka liczy ponad 4000 sklepów w ponad 20 krajach i jest jednym z najszybciej rozwijających się detalistów w Europie. Pepco debiutowało na GPW w 2021 roku, stając się jedną z największych spółek giełdowych w Polsce. Wchodzi w skład indeksu WIG20.",
+    "sector": "Handel",
+    "founded": "1999",
+    "headquarters": "Poznań",
+    "indices": ["WIG20"]
+  },
+  "XTB": {
+    "description": "XTB SA to jeden z największych na świecie brokerów foreksowych i CFD notowanych na giełdzie, oferujący platformę inwestycyjną xStation klientom z ponad 170 krajów. Spółka założona w Polsce ekspanduje globalnie, posiadając licencje regulacyjne w Unii Europejskiej, Wielkiej Brytanii i innych jurysdykcjach. XTB wyróżnia się silnym wzrostem bazy klientów i wysoką rentownością, regularnie wypłacając dywidendę. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Finanse",
+    "founded": "2002",
+    "headquarters": "Warszawa",
+    "indices": ["mWIG40"]
+  },
+  "VRG": {
+    "description": "VRG SA (dawniej Vistula Group) to polska spółka odzieżowa zarządzająca sieciami sklepów z odzieżą premium i biżuterią pod markami Vistula, Wólczanka, W.Kruk i Deni Cler. Spółka pozycjonuje się w segmencie odzieży wizytowej i eleganckich akcesoriów dla wymagających klientów. Marka W.Kruk to jeden z największych polskich sprzedawców biżuteryi zegarków z ponad 170-letnią tradycją. VRG wchodzi w skład indeksu sWIG80.",
+    "sector": "Handel",
+    "founded": "1945",
+    "headquarters": "Kraków",
+    "indices": ["sWIG80"]
+  },
+  "BNP": {
+    "description": "BNP Paribas Bank Polska to jeden z największych banków komercyjnych w Polsce, będący częścią francuskiej Grupy BNP Paribas, jednego z największych banków na świecie. Spółka obsługuje klientów detalicznych, mikroprzedsiębiorstwa, MŚP i korporacje, wyróżniając się ofertą bankowości agro dla sektora rolniczego. Poprzez fuzje z BGŻ i Raiffeisen Polbank bank znacząco zwiększył skalę działalności na polskim rynku. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Banki",
+    "founded": "2001",
+    "headquarters": "Warszawa",
+    "indices": ["mWIG40"]
+  },
+  "GPW": {
+    "description": "Giełda Papierów Wartościowych w Warszawie to operator głównego rynku akcji, obligacji i instrumentów pochodnych w Polsce oraz największa giełda w Europie Środkowej i Wschodniej. GPW zarządza rynkiem głównym, platformą NewConnect dla małych spółek oraz rynkiem Catalyst dla obligacji korporacyjnych i komunalnych. Spółka notuje ponad 400 przedsiębiorstw o łącznej kapitalizacji przekraczającej bilion złotych i jest sama notowana na prowadzonym przez siebie parkiecie. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Finanse",
+    "founded": "1991",
+    "headquarters": "Warszawa",
+    "indices": ["mWIG40"]
+  },
+  "ENA": {
+    "description": "Enea SA to jeden z czterech największych pionowo zintegrowanych koncernów energetycznych w Polsce, kontrolowany przez Skarb Państwa. Spółka zajmuje się wydobyciem węgla (LW Bogdanka), wytwarzaniem energii elektrycznej w elektrowniach konwencjonalnych i odnawialnych, dystrybucją i sprzedażą energii. Enea obsługuje kilka milionów odbiorców głównie w zachodniej i północnej Polsce. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Energetyka",
+    "founded": "2004",
+    "headquarters": "Poznań",
+    "indices": ["mWIG40"]
+  },
+  "KER": {
+    "description": "Kernel Holding to jeden z największych na świecie producentów i eksporterów oleju słonecznikowego, z siedzibą na Cyprze i aktywami operacyjnymi głównie na Ukrainie. Spółka zarządza siecią skupu i magazynowania zbóż, młynami olejarskimi oraz terminalami eksportowymi w portach ukraińskich. Kernel jest notowany na GPW w Warszawie i przez lata był jednym z największych eksporterów z Ukrainy. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Rolnictwo",
+    "founded": "1994",
+    "headquarters": "Luksemburg",
+    "indices": ["mWIG40"]
+  },
+  "JSW": {
+    "description": "Jastrzębska Spółka Węglowa to największy producent wysokiej jakości węgla koksującego w Unii Europejskiej, dostarczający surowiec do hut stali w całej Europie. Spółka kontroluje kilka kopalń w Zagłębiu Ostrawsko-Karwińskim, a jej wyniki finansowe są silnie uzależnione od globalnych cen węgla koksującego i popytu ze strony przemysłu stalowego. JSW jest kontrolowana przez Skarb Państwa i należy do indeksu mWIG40.",
+    "sector": "Surowce",
+    "founded": "1993",
+    "headquarters": "Jastrzębie-Zdrój",
+    "indices": ["mWIG40"]
+  }
+}

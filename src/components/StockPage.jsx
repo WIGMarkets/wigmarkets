@@ -6,6 +6,7 @@ import { fmt, changeFmt, changeColor, calculateRSI, calculateSMA, calculateMACD,
 import { SECTOR_AVERAGES } from "../data/constants.js";
 import { DIVIDENDS } from "../data/dividends.js";
 import { getByTicker } from "../data/gpw-companies.js";
+import COMPANY_DESCRIPTIONS from "../data/company-descriptions.json";
 import LargeChart from "./LargeChart.jsx";
 import FinancialBarChart from "./FinancialBarChart.jsx";
 import StockLogo from "./StockLogo.jsx";
@@ -450,6 +451,50 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
             </div>
           ))}
         </div>
+
+        {/* ═══ SECTION 4b: O spółce ═══ */}
+        {isStock && (() => {
+          const desc = COMPANY_DESCRIPTIONS[stock.ticker];
+          if (!desc) return null;
+          return (
+            <div style={{
+              background: theme.bgCard,
+              border: `1px solid ${theme.border}`,
+              borderRadius: 14,
+              padding: isMobile ? 18 : 24,
+              marginBottom: isMobile ? 20 : 28,
+            }}>
+              <div style={{ fontSize: 11, color: theme.textSecondary, letterSpacing: "0.08em", textTransform: "uppercase", fontWeight: 600, fontFamily: "var(--font-ui)", marginBottom: 14 }}>
+                O spółce
+              </div>
+              <p style={{ fontSize: 14, color: theme.textSecondary, lineHeight: 1.7, margin: 0, marginBottom: 14, fontFamily: "var(--font-ui)" }}>
+                {desc.description}
+              </p>
+              <div style={{ display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap" }}>
+                <span style={{ fontSize: 12, color: theme.textMuted, fontFamily: "var(--font-ui)" }}>
+                  {[
+                    desc.sector && `Sektor: ${desc.sector}`,
+                    desc.founded && `Założona: ${desc.founded}`,
+                    desc.headquarters && desc.headquarters,
+                  ].filter(Boolean).join(" · ")}
+                </span>
+                {desc.indices && desc.indices.length > 0 && (
+                  <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+                    {desc.indices.map(idx => (
+                      <span key={idx} style={{
+                        fontSize: 11, fontWeight: 600, color: theme.textSecondary,
+                        background: theme.bgCardAlt, border: `1px solid ${theme.border}`,
+                        borderRadius: 4, padding: "2px 8px", fontFamily: "var(--font-ui)",
+                      }}>
+                        {idx}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          );
+        })()}
 
         {/* ═══ SECTION 5 + 6: Technical Analysis | Valuation vs Sector ═══ */}
         {isStock && (
