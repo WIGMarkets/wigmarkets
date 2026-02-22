@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useMemo, useEffect } from "react";
 import { useParams, useNavigate, Navigate } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import Icon from "../components/edukacja/Icon.jsx";
@@ -30,6 +30,46 @@ export default function GlossaryTerm({ theme }) {
     return (entry.related || [])
       .map(r => glossaryData.find(e => e.slug === r))
       .filter(Boolean);
+  }, [entry]);
+
+  // SEO: document title + meta description
+  useEffect(() => {
+    if (!entry) return;
+    document.title = `${entry.term} — Słowniczek giełdowy — WIGmarkets.pl`;
+    let metaDesc = document.querySelector('meta[name="description"]');
+    if (!metaDesc) {
+      metaDesc = document.createElement("meta");
+      metaDesc.setAttribute("name", "description");
+      document.head.appendChild(metaDesc);
+    }
+    metaDesc.setAttribute("content", `${entry.shortDef} Definicja, wzór, przykład.`);
+
+    // Schema.org DefinedTerm JSON-LD
+    const ldId = "glossary-term-jsonld";
+    let ldScript = document.getElementById(ldId);
+    if (!ldScript) {
+      ldScript = document.createElement("script");
+      ldScript.id = ldId;
+      ldScript.type = "application/ld+json";
+      document.head.appendChild(ldScript);
+    }
+    ldScript.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      "name": entry.term,
+      "description": entry.shortDef,
+      "url": `https://wigmarkets.pl/edukacja/slowniczek/${entry.slug}`,
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Słowniczek giełdowy WIGmarkets.pl",
+        "url": "https://wigmarkets.pl/edukacja/slowniczek",
+      },
+    });
+
+    return () => {
+      const el = document.getElementById(ldId);
+      if (el) el.remove();
+    };
   }, [entry]);
 
   if (!entry) return <Navigate to="/edukacja/slowniczek" replace />;
