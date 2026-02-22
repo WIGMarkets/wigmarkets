@@ -102,6 +102,7 @@ export default function DesktopNavMenu({ theme, darkMode, setDarkMode, tab, setT
   const isActivePage = (key) => {
     const path = typeof window !== "undefined" ? window.location.pathname : "";
     if (key === "dywidendy") return path === "/dywidendy";
+    if (key === "rankingi") return path.startsWith("/rankingi");
     if (key === "wiadomosci") return path === "/wiadomosci";
     if (key === "edukacja") return path.startsWith("/edukacja");
     return false;
@@ -114,6 +115,7 @@ export default function DesktopNavMenu({ theme, darkMode, setDarkMode, tab, setT
         onClick={() => {
           if (hasDropdown) setOpenDropdown(o => o === key ? null : key);
           else if (key === "dywidendy") navigate("/dywidendy");
+          else if (key === "rankingi") navigate("/rankingi");
           else if (key === "wiadomosci") navigate("/wiadomosci");
         }}
         style={{
@@ -233,6 +235,7 @@ export default function DesktopNavMenu({ theme, darkMode, setDarkMode, tab, setT
         ))}
       </div>
 
+      {navButton("Rankingi", "rankingi", false)}
       {navButton("Wiadomości", "wiadomosci", false)}
 
       {/* Right side controls */}

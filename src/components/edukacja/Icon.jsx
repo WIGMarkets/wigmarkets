@@ -345,6 +345,26 @@ const ICONS = {
       <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
     </>
   ),
+  "arrow-up-right": (
+    <>
+      <line x1="7" y1="17" x2="17" y2="7" />
+      <polyline points="7 7 17 7 17 17" />
+    </>
+  ),
+  "arrow-down-right": (
+    <>
+      <line x1="7" y1="7" x2="17" y2="17" />
+      <polyline points="17 7 17 17 7 17" />
+    </>
+  ),
+  "coins": (
+    <>
+      <circle cx="8" cy="8" r="6" />
+      <path d="M18.09 10.37A6 6 0 1 1 10.34 18" />
+      <line x1="7" y1="6" x2="8" y2="10" />
+      <line x1="5.5" y1="8.5" x2="10" y2="7.5" />
+    </>
+  ),
   "menu": (
     <>
       <line x1="3" y1="12" x2="21" y2="12" />
