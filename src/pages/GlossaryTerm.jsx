@@ -6,6 +6,7 @@ import GlossaryCalculator from "../components/edukacja/GlossaryCalculator.jsx";
 import GlossaryLiveData from "../components/edukacja/GlossaryLiveData.jsx";
 import GlossaryQuiz from "../components/edukacja/GlossaryQuiz.jsx";
 import DidYouKnow from "../components/edukacja/DidYouKnow.jsx";
+import GlossaryDiagram from "../components/edukacja/GlossaryDiagram.jsx";
 import glossaryData from "../data/glossary.json";
 
 const CATEGORY_LABELS = {
@@ -136,6 +137,9 @@ export default function GlossaryTerm({ theme }) {
           <p key={i} style={{ marginBottom: 16 }}>{paragraph}</p>
         ))}
       </div>
+
+      {/* Diagram */}
+      {entry.hasDiagram && <GlossaryDiagram slug={entry.slug} theme={theme} />}
 
       {/* Calculator */}
       {entry.hasCalculator && <GlossaryCalculator slug={entry.slug} theme={theme} />}
