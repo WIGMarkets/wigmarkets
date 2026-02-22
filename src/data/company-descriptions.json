@@ -440,13 +440,7 @@
     "headquarters": "Warszawa",
     "indices": ["mWIG40"]
   },
-  "AC": {
-    "description": "AC SA to polski producent systemów zasilania gazowego (LPG i CNG) do pojazdów samochodowych, będący jednym z wiodących dostawców tego typu rozwiązań w Europie. Spółka eksportuje swoje produkty do kilkudziesięciu krajów, a jej systemy sekwencyjnego wtrysku gazu cieszą się uznaniem wśród instalatorów i kierowców. AC SA korzysta na rosnącym zainteresowaniu alternatywnymi paliwami i obniżaniu kosztów eksploatacji pojazdów. Wchodzi w skład indeksu sWIG80.",
-    "sector": "Motoryzacja",
-    "founded": "1991",
-    "headquarters": "Białystok",
-    "indices": ["sWIG80"]
-  },
+
   "AGO": {
     "description": "Agora SA to jedna z największych polskich grup medialnych, wydawca dziennika Gazeta Wyborcza oraz operator sieci kin Helios — jednej z dwóch największych sieci kinowych w Polsce. Spółka działa również w segmencie reklamy zewnętrznej (AMS), wydawnictw książkowych i mediów cyfrowych. Agora przechodzi transformację cyfrową, rozwijając serwisy internetowe i platformy reklamowe online. Wchodzi w skład indeksu sWIG80.",
     "sector": "Media",
@@ -552,7 +546,7 @@
     "headquarters": "Warszawa",
     "indices": ["sWIG80"]
   },
-  "CLN": {
+  "CLE": {
     "description": "Coal Energy to spółka energetyczna notowana na GPW, działająca w sektorze wydobycia i przetwórstwa surowców energetycznych. Firma operuje na rynku ukraińskim, gdzie posiada aktywa wydobywcze. Działalność spółki jest silnie uzależniona od sytuacji geopolitycznej i warunków rynkowych w regionie. Notowana jest w indeksie sWIG80.",
     "sector": "Energetyka",
     "founded": "2005",
@@ -594,7 +588,7 @@
     "headquarters": "Warszawa",
     "indices": ["sWIG80"]
   },
-  "FMF": {
+  "FRO": {
     "description": "Ferro SA to polski producent armatury sanitarnej i instalacyjnej, oferujący baterie łazienkowe i kuchenne, systemy odprowadzania wody oraz akcesoria łazienkowe pod markami Ferro, Deante i Invena. Spółka jest jednym z wiodących producentów armatury w Europie Środkowej, eksportując produkty do kilkudziesięciu krajów. Ferro rozwija się poprzez przejęcia marek i ekspansję na nowe rynki europejskie. Wchodzi w skład indeksu sWIG80.",
     "sector": "Przemysł",
     "founded": "2003",
@@ -1014,13 +1008,7 @@
     "headquarters": "Złotniki",
     "indices": ["WIG"]
   },
-  "BAH": {
-    "description": "British Automotive Holding to polska spółka zajmująca się importem i dystrybucją samochodów marki Jaguar Land Rover w Polsce oraz dealer premium samochodów używanych. Spółka prowadzi salony dealerskie i serwisy w głównych miastach kraju. BAH jest przykładem spółki z sektora dystrybucji motoryzacyjnej notowanej na GPW. Notowana na GPW w segmencie WIG.",
-    "sector": "Motoryzacja",
-    "founded": "2003",
-    "headquarters": "Warszawa",
-    "indices": ["WIG"]
-  },
+
   "BDG": {
     "description": "Alchemia SA (dawniej Boryszew Divisional) to producent rur stalowych bez szwu i spawanych oraz wyrobów hutniczych, dostarczający produkty dla sektora naftowego, gazowego i przemysłu maszynowego. Spółka jest jednym z polskich producentów specjalistycznych rur stalowych dla wymagających zastosowań przemysłowych. Notowana na GPW w segmencie WIG.",
     "sector": "Przemysł",
@@ -1028,7 +1016,7 @@
     "headquarters": "Tarnowskie Góry",
     "indices": ["WIG"]
   },
-  "BKM": {
+  "BBT": {
     "description": "BoomBit SA to polskie studio i wydawca gier mobilnych, tworzące gry na platformy iOS i Android z globalnym zasięgiem. Spółka jest znana z popularnych tytułów hypercasual i hybrydcasual, które regularnie zajmują czołowe miejsca w rankingach sklepów App Store i Google Play. BoomBit posiada globalną sieć dystrybucji i monetyzuje gry głównie poprzez reklamy i mikrotransakcje. Notowana na GPW w segmencie WIG.",
     "sector": "Gry",
     "founded": "2012",
@@ -1147,7 +1135,7 @@
     "headquarters": "Końskie",
     "indices": ["WIG"]
   },
-  "GPR": {
+  "GTN": {
     "description": "Getin Holding SA to polska spółka holdingowa działająca w sektorze finansowym, posiadająca udziały w bankach i instytucjach finansowych na rynkach Europy Środkowej i Wschodniej. Spółka jest powiązana z Grupą Leszka Czarneckiego i przechodzi restrukturyzację po trudnościach finansowych polskich banków w tej grupie. Notowana na GPW w segmencie WIG.",
     "sector": "Finanse",
     "founded": "2000",
@@ -1168,13 +1156,7 @@
     "headquarters": "Milanówek",
     "indices": ["WIG"]
   },
-  "IMP": {
-    "description": "Impel SA to polska grupa usługowa świadcząca usługi facility management, ochrony, outsourcingu pracowniczego i BPO. Spółka zarządza nieruchomościami i dostarcza kompleksowe usługi utrzymania obiektów komercyjnych, biurowych i przemysłowych w Polsce i za granicą. Impel jest jedną z największych polskich firm usługowych pod względem liczby pracowników. Notowana na GPW w segmencie WIG.",
-    "sector": "Usługi",
-    "founded": "1989",
-    "headquarters": "Wrocław",
-    "indices": ["WIG"]
-  },
+
   "INC": {
     "description": "INC SA to polska firma doradcza i inwestycyjna, świadcząca usługi doradztwa finansowego dla małych i średnich spółek, w tym doradztwo przy IPO, emisjach obligacji i pozyskiwaniu kapitału. Spółka zarządza również autoryzowanym doradcą na rynku NewConnect. INC SA jest jednym z czołowych doradców przy wprowadzaniu spółek na GPW. Notowana na GPW w segmencie WIG.",
     "sector": "Finanse",
@@ -1336,13 +1318,7 @@
     "headquarters": "Śrem",
     "indices": ["WIG"]
   },
-  "PLZ": {
-    "description": "Plaza Centers SA to izraelski deweloper centrów handlowych, aktywny historycznie w Europie Środkowej i Wschodniej, w tym w Polsce, Rumunii i Czechach. Spółka budowała i zarządzała galeriami handlowymi, choć jej portfel uległ znacznemu zmniejszeniu w wyniku trudności finansowych. Notowana na GPW w segmencie WIG.",
-    "sector": "Nieruchomości",
-    "founded": "1999",
-    "headquarters": "Tel Awiw",
-    "indices": ["WIG"]
-  },
+
   "POZ": {
     "description": "Poznańska 37 SA to polska spółka deweloperska realizująca projekty mieszkaniowe i komercyjne. Notowana na GPW w segmencie WIG.",
     "sector": "Nieruchomości",
@@ -1357,13 +1333,7 @@
     "headquarters": "Warszawa",
     "indices": ["WIG"]
   },
-  "RFK": {
-    "description": "Rafako SA to jeden z wiodących europejskich producentów kotłów energetycznych i urządzeń ochrony środowiska dla elektrowni i ciepłowni. Spółka realizuje kompleksowe projekty modernizacji bloków energetycznych i instalacji odsiarczania spalin. Rafako ma ponad 70-letnią historię i dostarcza urządzenia dla największych polskich elektrowni. Notowana na GPW w segmencie WIG.",
-    "sector": "Przemysł",
-    "founded": "1949",
-    "headquarters": "Racibórz",
-    "indices": ["WIG"]
-  },
+
   "RPC": {
     "description": "Relpol SA to producent przekaźników elektromagnetycznych i elektronicznych stosowanych w automatyce przemysłowej, systemach sterowania i urządzeniach elektronicznych. Spółka jest jednym z niewielu europejskich producentów przekaźników, eksportując swoje wyroby do kilkudziesięciu krajów. Notowana na GPW w segmencie WIG.",
     "sector": "Przemysł",
@@ -1840,8 +1810,8 @@
     "headquarters": "Łódź",
     "indices": ["WIG"]
   },
-  "4FM": {
-    "description": "4Fun Media SA to polska spółka medialna, właściciel kanałów muzycznych 4fun.tv i Gold, emitujących muzykę polską i zagraniczną dla młodej widowni. Spółka produkuje również programy rozrywkowe i realizuje projekty contentowe dla mediów społecznościowych. Notowana na GPW w segmencie WIG.",
+  "DIG": {
+    "description": "Digital Network SA (dawniej 4Fun Media) to polska spółka medialna, właściciel kanałów muzycznych 4fun.tv i Gold, emitujących muzykę polską i zagraniczną dla młodej widowni. Spółka produkuje również programy rozrywkowe i realizuje projekty contentowe dla mediów społecznościowych. Notowana na GPW w segmencie WIG.",
     "sector": "Media",
     "founded": "2004",
     "headquarters": "Warszawa",
@@ -1938,13 +1908,7 @@
     "headquarters": "Gdańsk",
     "indices": ["WIG"]
   },
-  "FRG": {
-    "description": "Ferro Gaz (Fredropol) SA to spółka z sektora paliwowego i dystrybucji gazu LPG dla klientów przemysłowych i stacji autogazu. Notowana na GPW w segmencie WIG.",
-    "sector": "Energetyka",
-    "founded": "1997",
-    "headquarters": "Przemyśl",
-    "indices": ["WIG"]
-  },
+
   "PHO": {
     "description": "Photon Energy NV to holenderska spółka z sektora energii słonecznej, posiadająca i eksploatująca farmy fotowoltaiczne głównie w Polsce, Australii i Europie Środkowej oraz świadcząca usługi O&M dla farm solarnych. Notowana na GPW w segmencie WIG.",
     "sector": "Energetyka",
@@ -1980,13 +1944,7 @@
     "headquarters": "Poznań",
     "indices": ["WIG"]
   },
-  "ABM": {
-    "description": "ABM Solid SA to polska firma budowlana realizująca projekty mieszkaniowe i komercyjne w Tarnowie i okolicach. Notowana na GPW w segmencie WIG.",
-    "sector": "Budownictwo",
-    "founded": "1990",
-    "headquarters": "Tarnów",
-    "indices": ["WIG"]
-  },
+
   "HUB": {
     "description": "Hub.Tech SA to polska spółka technologiczna zajmująca się rozwiązaniami z zakresu Internetu Rzeczy (IoT) i automatyzacji dla przemysłu i inteligentnych budynków. Notowana na GPW w segmencie WIG.",
     "sector": "Technologia",
@@ -2015,31 +1973,19 @@
     "headquarters": "Tarnowskie Góry",
     "indices": ["WIG"]
   },
-  "RDN": {
-    "description": "Redan SA to polska firma modowa, producent i operator sieci sklepów odzieżowych z odzieżą dyskontową pod markami Top Secret i Troll, działający w Polsce i krajach Europy Środkowej. Notowana na GPW w segmencie WIG.",
-    "sector": "Handel",
-    "founded": "1996",
-    "headquarters": "Łódź",
-    "indices": ["WIG"]
-  },
-  "INW": {
-    "description": "Inwazja SA to polska spółka medialna i eventowa, organizator festiwali muzycznych i projektów contentowych skierowanych do młodej widowni. Notowana na GPW w segmencie WIG.",
-    "sector": "Media",
-    "founded": "2005",
-    "headquarters": "Warszawa",
-    "indices": ["WIG"]
-  },
+
+
   "ACG": {
-    "description": "Acautogama SA to spółka z sektora motoryzacyjnego, prowadząca działalność dealerską i serwisową w obszarze samochodów osobowych. Notowana na GPW w segmencie WIG.",
+    "description": "AC SA (Acautogaz) to polski producent i dostawca systemów zasilania pojazdów gazem LPG i CNG pod marką STAG. Spółka jest jednym z największych producentów autogazowych systemów sekwencyjnego wtrysku gazu na świecie. Wchodzi w skład indeksu sWIG80.",
     "sector": "Motoryzacja",
-    "founded": "2002",
-    "headquarters": "Warszawa",
-    "indices": ["WIG"]
+    "founded": "2001",
+    "headquarters": "Białystok",
+    "indices": ["sWIG80"]
   },
   "MWT": {
-    "description": "MaWo Technology SA to polska firma technologiczna z sektora oprogramowania przemysłowego i automatyki. Notowana na GPW w segmencie WIG.",
-    "sector": "Technologia",
-    "founded": "2010",
+    "description": "M.W. Trade SA to polska firma z sektora usług finansowych, specjalizująca się w finansowaniu podmiotów z branży medycznej — szpitali i jednostek ochrony zdrowia. Notowana na GPW w segmencie WIG.",
+    "sector": "Finanse",
+    "founded": "2006",
     "headquarters": "Wrocław",
     "indices": ["WIG"]
   },
@@ -2050,18 +1996,12 @@
     "headquarters": "Wrocław",
     "indices": ["WIG"]
   },
-  "SNG": {
-    "description": "Sunreef Yachts SA to producent luksusowych katamaranów żaglowych i motorowych oraz katamaranów elektrycznych i solarnych, będący jednym z wiodących polskich eksporterów z sektora premium. Spółka z Gdańska dostarcza jachty do najbogatszych klientów na całym świecie i jest pionierem elektrycznych superjachtów. Notowana na GPW w segmencie WIG.",
-    "sector": "Przemysł",
-    "founded": "1998",
-    "headquarters": "Gdańsk",
-    "indices": ["WIG"]
-  },
+
   "PGM": {
-    "description": "PGE Obrót SA to spółka z Grupy PGE zajmująca się obrotem i sprzedażą energii elektrycznej do klientów indywidualnych i biznesowych. Notowana na GPW w segmencie WIG.",
-    "sector": "Energetyka",
-    "founded": "2007",
-    "headquarters": "Rzeszów",
+    "description": "PMPG Polskie Media SA to polska spółka medialna i wydawnicza, wydawca tygodników opinii \"Wprost\" i \"Do Rzeczy\" oraz portali informacyjnych. Notowana na GPW w segmencie WIG.",
+    "sector": "Media",
+    "founded": "1999",
+    "headquarters": "Warszawa",
     "indices": ["WIG"]
   }
 }
