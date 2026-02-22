@@ -1,12 +1,14 @@
 import { useState, useEffect, useMemo } from "react";
+import { useNavigate } from "react-router-dom";
 import { fetchHistory, fetchHourly, fetchIntraday } from "../lib/api.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
-import { fmt, changeFmt, getYahooSymbol, isForex, isCommodity } from "../lib/formatters.js";
+import { fmt, changeFmt, isForex, isCommodity } from "../lib/formatters.js";
 import MiniChart from "./MiniChart.jsx";
 import Icon from "./edukacja/Icon.jsx";
 import CompanyMonogram from "./CompanyMonogram.jsx";
 
-export default function StockModal({ stock, price, change24h, change7d, onClose, onCalc, theme }) {
+export default function StockModal({ stock, price, change24h, change7d, onClose, theme }) {
+  const navigate = useNavigate();
   const [history, setHistory] = useState(null);
   const [hourly, setHourly] = useState(null);
   const [intraday, setIntraday] = useState(null);
@@ -114,14 +116,9 @@ export default function StockModal({ stock, price, change24h, change7d, onClose,
             </a>
           ))}
         </div>
-        {onCalc && (
-          <button onClick={onCalc} style={{ display: "block", width: "100%", marginBottom: 14, padding: "10px 0", borderRadius: 10, border: `1px solid ${theme.borderInput}`, background: theme.bgCardAlt, color: theme.textBright, fontSize: 13, fontWeight: 600, cursor: "pointer", fontFamily: "inherit" }}>
-            Kalkulator zysku / straty
-          </button>
-        )}
-        <a href={`https://finance.yahoo.com/quote/${getYahooSymbol(stock.stooq || stock.ticker)}`} target="_blank" rel="noreferrer" style={{ display: "block", textAlign: "center", color: theme.accent, fontSize: 12, textDecoration: "none" }}>
-          <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>Zobacz pełne dane na Yahoo Finance <Icon name="external-link" size={12} /></span>
-        </a>
+        <button onClick={() => { onClose(); navigate(`/spolka/${stock.ticker}`); }} style={{ display: "block", width: "100%", padding: "12px 0", borderRadius: 10, border: "none", background: theme.accent, color: "#fff", fontSize: 14, fontWeight: 700, cursor: "pointer", fontFamily: "inherit", transition: "opacity 0.15s", letterSpacing: "0.01em" }}>
+          Szczegóły spółki <Icon name="arrow-right" size={14} />
+        </button>
       </div>
     </div>
   );

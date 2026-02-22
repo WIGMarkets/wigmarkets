@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { fetchHistory, fetchHourly, fetchFundamentals, fetchIntraday } from "../lib/api.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
-import { fmt, changeFmt, changeColor, calculateRSI, calculateSMA, calculateMACD, getYahooSymbol, isForex, isCommodity } from "../lib/formatters.js";
+import { fmt, changeFmt, changeColor, calculateRSI, calculateSMA, calculateMACD, isForex, isCommodity } from "../lib/formatters.js";
 import { SECTOR_AVERAGES } from "../data/constants.js";
 import { DIVIDENDS } from "../data/dividends.js";
 import { getByTicker } from "../data/gpw-companies.js";
@@ -12,6 +12,7 @@ import FinancialBarChart from "./FinancialBarChart.jsx";
 import StockLogo from "./StockLogo.jsx";
 import CompanyMonogram from "./CompanyMonogram.jsx";
 import WatchStar from "./WatchStar.jsx";
+import ProfitCalculatorModal from "./ProfitCalculatorModal.jsx";
 import Icon from "./edukacja/Icon.jsx";
 
 function fmtVol(v) {
@@ -85,6 +86,7 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
   const [fundLoading, setFundLoading] = useState(true);
   const [fullscreen, setFullscreen] = useState(false);
   const [historyOpen, setHistoryOpen] = useState(false);
+  const [showCalc, setShowCalc] = useState(false);
   const isMobile = useIsMobile();
 
   const currentPrice = prices[stock.ticker];
@@ -96,7 +98,6 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
   const sym = stock.stooq || stock.ticker.toLowerCase();
   const isStock = !isForex(stock) && !isCommodity(stock);
   const gpwInfo = isStock ? getByTicker(stock.ticker) : null;
-  const yahooSymbol = getYahooSymbol(sym);
 
   // ─── Data fetching ───────────────────────────────────
   useEffect(() => {
@@ -403,13 +404,13 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
             }}>
               <Icon name="briefcase" size={13} /> Portfolio
             </button>
-            <a href={`https://finance.yahoo.com/quote/${yahooSymbol}`} target="_blank" rel="noreferrer" style={{
-              display: "inline-flex", alignItems: "center", gap: 5, padding: "7px 14px", borderRadius: 8,
-              border: `1px solid ${theme.border}`, background: "transparent", textDecoration: "none",
-              color: theme.textSecondary, fontSize: 12, fontFamily: "inherit", fontWeight: 600, transition: "all 0.15s",
+            <button onClick={() => setShowCalc(true)} style={{
+              display: "inline-flex", alignItems: "center", gap: 6, padding: "7px 14px", borderRadius: 8,
+              border: `1px solid ${theme.border}`, background: "transparent",
+              color: theme.textSecondary, fontSize: 12, cursor: "pointer", fontFamily: "inherit", fontWeight: 600, transition: "all 0.15s",
             }}>
-              Yahoo Finance <Icon name="external-link" size={12} />
-            </a>
+              <Icon name="calculator" size={13} /> Kalkulator P/L
+            </button>
           </div>
         </div>
 
@@ -687,7 +688,7 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
                   {sectionTitle("Dane fundamentalne")}
                   {!hasCurData ? (
                     <div style={{ color: theme.textMuted, fontSize: 12, textAlign: "center", padding: "20px 0" }}>
-                      Brak danych fundamentalnych w Yahoo Finance
+                      Brak danych fundamentalnych dla tej spółki
                     </div>
                   ) : (
                     <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr 1fr" : "repeat(3, 1fr)", gap: 12 }}>
@@ -796,7 +797,6 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
                   {dataRow("Rynek", "GPW Główny")}
                   {dataRow("Sektor", stock.sector)}
                   {gpwInfo?.index && dataRow("Indeks", gpwInfo.index)}
-                  {dataRow("Symbol Yahoo", yahooSymbol)}
                 </div>
 
                 <div style={{ marginTop: 18, padding: "14px 16px", background: theme.bgCardAlt, borderRadius: 10 }}>
@@ -963,13 +963,17 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
             WIG<span style={{ color: theme.accent }}>markets</span>
           </div>
           <div style={{ fontSize: 10, color: theme.textMuted, lineHeight: 1.6 }}>
-            Dane z GPW via Yahoo Finance. Opóźnienie do 15 minut. Nie stanowią rekomendacji inwestycyjnej.
+            Dane z GPW. Opóźnienie do 15 minut. Nie stanowią rekomendacji inwestycyjnej.
           </div>
           <div style={{ fontSize: 10, color: theme.textMuted, marginTop: 4 }}>
             &copy; 2026 WIGmarkets.pl
           </div>
         </div>
       </div>
+
+      {showCalc && (
+        <ProfitCalculatorModal stock={stock} currentPrice={currentPrice} onClose={() => setShowCalc(false)} theme={theme} />
+      )}
     </div>
   );
 }

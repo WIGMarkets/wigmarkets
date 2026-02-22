@@ -4,7 +4,7 @@ import WatchStar from "../WatchStar.jsx";
 import StockLogo from "../StockLogo.jsx";
 import { fmt, changeFmt, changeColor, fmtVolume, fmtCap } from "../../lib/formatters.js";
 
-export default function StockTableRow({ s, i, rank, isMobile, tab, theme, prices, changes, watchlist, toggleWatch, navigateToStock, setSelected, setCalcStock, isKeyboardActive, onHover, showPE, showDiv }) {
+export default function StockTableRow({ s, i, rank, isMobile, tab, theme, prices, changes, watchlist, toggleWatch, navigateToStock, setSelected, isKeyboardActive, onHover, showPE, showDiv }) {
   const currentPrice = prices[s.ticker];
   const c24h     = changes[s.ticker]?.change24h ?? 0;
   const c7d      = changes[s.ticker]?.change7d  ?? 0;
@@ -47,17 +47,6 @@ export default function StockTableRow({ s, i, rank, isMobile, tab, theme, prices
       {!isMobile && tab === "akcje" && showPE  && <td style={{ padding: `${PAD} 16px`, textAlign: "right", color: theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{s.pe ? fmt(s.pe) : "—"}</td>}
       {!isMobile && tab === "akcje" && showDiv && <td style={{ padding: `${PAD} 16px`, textAlign: "right", color: s.div > 0 ? "#22c55e" : theme.textSecondary, fontSize: 12, fontVariantNumeric: "tabular-nums", fontFamily: "var(--font-mono)" }}>{s.div ? `${fmt(s.div)}%` : "—"}</td>}
       {!isMobile && <td style={{ padding: `${PAD} 16px`, textAlign: "right" }}><Sparkline prices={sparkline} trend={c7d} /></td>}
-      {!isMobile && (
-        <td style={{ padding: `${PAD} 16px`, textAlign: "right" }}>
-          <button
-            onClick={e => { e.stopPropagation(); setCalcStock(s); }}
-            style={{ padding: "5px 11px", borderRadius: 6, border: `1px solid ${theme.borderInput}`, background: "transparent", color: theme.textSecondary, fontSize: 11, cursor: "pointer", fontFamily: "var(--font-ui)", whiteSpace: "nowrap", lineHeight: 1.2, transition: "all 0.15s" }}
-            title="Kalkulator zysku/straty"
-          >
-            P/L
-          </button>
-        </td>
-      )}
     </tr>
   );
 }

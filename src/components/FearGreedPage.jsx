@@ -774,7 +774,7 @@ export default function FearGreedPage({ theme }) {
                 </div>
 
                 <p style={{ fontSize: 13, color: theme.textSecondary, lineHeight: 1.7, margin: 0 }}>
-                  Dane rynkowe pobierane z Yahoo Finance i Stooq.pl. Obliczenia wykonywane codziennie po zamknięciu sesji GPW.
+                  Dane rynkowe pobierane ze Stooq.pl. Obliczenia wykonywane codziennie po zamknięciu sesji GPW.
                 </p>
               </div>
             </div>
