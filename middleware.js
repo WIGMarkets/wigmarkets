@@ -3,10 +3,20 @@
 // Normal users get the standard SPA.
 
 import glossaryData from "./src/data/glossary.json";
+import { GPW_COMPANIES } from "./src/data/gpw-companies.js";
+import companyDescriptions from "./src/data/company-descriptions.json";
 
 const CRAWLER_RE = /Twitterbot|facebookexternalhit|LinkedInBot|Slackbot|Discordbot|WhatsApp|Googlebot|bingbot/i;
 
 const glossaryBySlug = Object.fromEntries(glossaryData.map(e => [e.slug, e]));
+const tickerToName = Object.fromEntries(GPW_COMPANIES.map(c => [c.ticker, c.name]));
+
+function truncateDesc(str, max = 155) {
+  if (!str || str.length <= max) return str || "";
+  const cut = str.slice(0, max - 1);
+  const lastSpace = cut.lastIndexOf(" ");
+  return (lastSpace > max - 25 ? cut.slice(0, lastSpace) : cut) + "…";
+}
 
 function escapeHtml(str) {
   return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -73,12 +83,25 @@ export default function middleware(req) {
   const stockMatch = path.match(/^\/(spolka|stock)\/([A-Za-z0-9]+)$/);
   if (stockMatch) {
     const ticker = stockMatch[2].toUpperCase();
+    const name = tickerToName[ticker] || ticker;
+    const descData = companyDescriptions[ticker];
+    const rawDesc = descData?.description ||
+      `Kurs, analiza techniczna i fundamentalna spółki ${name} (${ticker}) na Giełdzie Papierów Wartościowych w Warszawie.`;
+    const shortDesc = truncateDesc(rawDesc);
+    const pageUrl = `${base}/spolka/${ticker}`;
     return new Response(
       htmlShell({
-        title: `${ticker} — Notowania GPW — WIGmarkets.pl`,
-        description: `Kurs, analiza techniczna i fundamentalna spółki ${ticker} na Giełdzie Papierów Wartościowych.`,
+        title: `${name} (${ticker}) — kurs akcji GPW — WIGmarkets.pl`,
+        description: shortDesc,
         image: `${base}/api/og?type=stock&ticker=${ticker}`,
-        url: `${base}/spolka/${ticker}`,
+        url: pageUrl,
+        jsonLd: {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": name,
+          "description": shortDesc,
+          "url": pageUrl,
+        },
       }),
       { headers: { "Content-Type": "text/html; charset=utf-8" } }
     );

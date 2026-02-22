@@ -124,11 +124,41 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
   }, [range, sym]);
 
   useEffect(() => {
-    const kind = isForex(stock) ? "kurs walutowy" : isCommodity(stock) ? "notowania" : "kurs akcji";
-    document.title = `${stock.name} (${stock.ticker}) — ${kind}, wykres | WIGmarkets`;
-    let meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute("content", `Aktualny ${kind} ${stock.name} (${stock.ticker}). Wykres, zmiana 24h/7d. Dane na żywo.`);
-  }, [stock.ticker, stock.name]);
+    const kind = isForex(stock) ? "kurs walutowy" : isCommodity(stock) ? "notowania" : "kurs akcji GPW";
+    document.title = `${stock.name} (${stock.ticker}) — ${kind} — WIGmarkets.pl`;
+
+    const descData = COMPANY_DESCRIPTIONS[stock.ticker];
+    const rawDesc = descData?.description ||
+      `Aktualny ${kind} ${stock.name} (${stock.ticker}). Wykres, analiza techniczna i fundamentalna. Dane na żywo GPW.`;
+    const shortDesc = rawDesc.length > 155
+      ? rawDesc.slice(0, rawDesc.lastIndexOf(" ", 153) || 152) + "…"
+      : rawDesc;
+
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute("content", shortDesc);
+
+    // Schema.org Organization structured data for stock pages
+    const prev = document.getElementById("schema-org-stock");
+    if (prev) prev.remove();
+    if (isStock) {
+      const script = document.createElement("script");
+      script.id = "schema-org-stock";
+      script.type = "application/ld+json";
+      script.textContent = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": stock.name,
+        "description": shortDesc,
+        "url": `https://wigmarkets.pl/spolka/${stock.ticker}`,
+      });
+      document.head.appendChild(script);
+    }
+
+    return () => {
+      const s = document.getElementById("schema-org-stock");
+      if (s) s.remove();
+    };
+  }, [stock.ticker, stock.name, isStock]);
 
   // ─── Chart data ──────────────────────────────────────
   const filteredHistory = useMemo(() => {
