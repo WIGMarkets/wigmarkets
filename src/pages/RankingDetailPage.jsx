@@ -40,10 +40,29 @@ function getValueColor(format, value, theme) {
   return theme.textBright;
 }
 
+const MEDAL_COLORS = {
+  1: { bg: "#FFD700", text: "#92710a" }, // gold
+  2: { bg: "#C0C0C0", text: "#5a5a5a" }, // silver
+  3: { bg: "#CD7F32", text: "#6b3e14" }, // bronze
+};
+
 function PositionBadge({ position, theme }) {
-  if (position === 1) return <span style={{ fontSize: 16 }}>{"🥇"}</span>;
-  if (position === 2) return <span style={{ fontSize: 16 }}>{"🥈"}</span>;
-  if (position === 3) return <span style={{ fontSize: 16 }}>{"🥉"}</span>;
+  const medal = MEDAL_COLORS[position];
+  if (medal) {
+    return (
+      <span style={{
+        display: "inline-flex", alignItems: "center", justifyContent: "center",
+        width: 24, height: 24, borderRadius: "50%",
+        background: medal.bg,
+        color: medal.text,
+        fontSize: 11, fontWeight: 800,
+        fontFamily: "var(--font-mono)",
+        lineHeight: 1,
+      }}>
+        {position}
+      </span>
+    );
+  }
   return (
     <span style={{
       fontSize: 12, color: theme.textMuted,
