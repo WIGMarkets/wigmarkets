@@ -68,7 +68,8 @@
       "correct": 1,
       "explanation": "RSI powyżej 70 sygnalizuje wykupienie — cena rosła intensywnie i możliwa jest korekta. RSI 82 to silny sygnał wykupienia."
     },
-    "didYouKnow": "RSI został wynaleziony przez J. Wellesa Wildera Jr. w 1978 roku i opublikowany w książce „New Concepts in Technical Trading Systems”. Wilder był z wykształcenia inżynierem mechanikiem."
+    "didYouKnow": "RSI został wynaleziony przez J. Wellesa Wildera Jr. w 1978 roku i opublikowany w książce „New Concepts in Technical Trading Systems”. Wilder był z wykształcenia inżynierem mechanikiem.",
+    "hasDiagram": true
   },
   {
     "term": "Dywidenda",
@@ -399,7 +400,8 @@
       "correct": 1,
       "explanation": "Gdy cena jest powyżej SMA, sugeruje to trend wzrostowy. Cena 12% powyżej SMA(50) to wyraźna siła rynku."
     },
-    "didYouKnow": "Złoty krzyż (Golden Cross) — przecięcie SMA(50) ponad SMA(200) — jest jednym z najsłynniejszych sygnałów technicznych. Historycznie na S&P 500 poprzedzał średnio 15% wzrost w ciągu następnych 12 miesięcy."
+    "didYouKnow": "Złoty krzyż (Golden Cross) — przecięcie SMA(50) ponad SMA(200) — jest jednym z najsłynniejszych sygnałów technicznych. Historycznie na S&P 500 poprzedzał średnio 15% wzrost w ciągu następnych 12 miesięcy.",
+    "hasDiagram": true
   },
   {
     "term": "Wolumen",
@@ -439,7 +441,8 @@
       "wolumen",
       "bollinger-bands"
     ],
-    "example": "Kurs Allegro wielokrotnie odbija się od poziomu 32,00 zł (wsparcie) i nie może przebijać 38,00 zł (opór). Gdy wreszcie przebija 38,00 zł na wysokim wolumenie, ten poziom staje się nowym wsparciem, a kurs rusza w kierunku kolejnego oporu na 44,00 zł."
+    "example": "Kurs Allegro wielokrotnie odbija się od poziomu 32,00 zł (wsparcie) i nie może przebijać 38,00 zł (opór). Gdy wreszcie przebija 38,00 zł na wysokim wolumenie, ten poziom staje się nowym wsparciem, a kurs rusza w kierunku kolejnego oporu na 44,00 zł.",
+    "hasDiagram": true
   },
   {
     "term": "Trend",
@@ -844,7 +847,8 @@
       "wolumen",
       "rsi"
     ],
-    "example": "Akcje KGHM spadają od dwóch tygodni z 140 zł do 125 zł. Na poziomie wsparcia 125 zł pojawia się formacja młota — długi dolny cień (minimum 122 zł) i zamknięcie blisko otwarcia na 125,50 zł. Następnego dnia duża zielona świeca (objęcie hossy) potwierdza sygnał. Inwestor techniczny otwiera pozycję ze stop lossem pod 122 zł."
+    "example": "Akcje KGHM spadają od dwóch tygodni z 140 zł do 125 zł. Na poziomie wsparcia 125 zł pojawia się formacja młota — długi dolny cień (minimum 122 zł) i zamknięcie blisko otwarcia na 125,50 zł. Następnego dnia duża zielona świeca (objęcie hossy) potwierdza sygnał. Inwestor techniczny otwiera pozycję ze stop lossem pod 122 zł.",
+    "hasDiagram": true
   },
   {
     "term": "Luka cenowa",
