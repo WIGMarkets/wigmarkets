@@ -978,5 +978,1090 @@
     "founded": "1997",
     "headquarters": "Warszawa",
     "indices": ["sWIG80"]
+  },
+  "ABE": {
+    "description": "AB SA to jeden z największych polskich dystrybutorów sprzętu IT, elektroniki użytkowej i oprogramowania, obsługujący tysiące resellerów i firm w Polsce i Czechach. Spółka dostarcza komputery, serwery, podzespoły, urządzenia sieciowe i oprogramowanie od wiodących globalnych producentów. AB SA łączy działalność dystrybucyjną z własną platformą e-commerce B2B. Notowana na GPW w segmencie WIG.",
+    "sector": "Handel",
+    "founded": "1990",
+    "headquarters": "Wrocław",
+    "indices": ["WIG"]
+  },
+  "APN": {
+    "description": "Action SA to polski dystrybutor i sprzedawca detaliczny sprzętu komputerowego, elektroniki i AGD, prowadzący sieć sklepów Sferis oraz platformę e-commerce. Spółka obsługuje zarówno klientów indywidualnych, jak i biznesowych, oferując szerokie portfolio produktów IT i multimedialnych. Action SA jest notowana na GPW od 2001 roku. Notowana na GPW w segmencie WIG.",
+    "sector": "Handel",
+    "founded": "1991",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "ALM": {
+    "description": "Alumetal SA to polski producent aluminiowych stopów odlewniczych, będący jednym z największych recyklerów aluminium w Europie Środkowej. Spółka przetwarza złom aluminiowy na stopy używane przez przemysł motoryzacyjny, maszynowy i elektrotechniczny. Alumetal posiada zakłady produkcyjne w Kętach, Nowej Soli i na Słowacji. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1992",
+    "headquarters": "Kęty",
+    "indices": ["WIG"]
+  },
+  "ATA": {
+    "description": "Atende SA to polska firma IT świadcząca usługi integracji systemów, cyberbezpieczeństwa i rozwiązań chmurowych dla sektora publicznego i przedsiębiorstw. Spółka jest integratorem wiodących technologii sieciowych i serwerowych oraz dostawcą zarządzanych usług bezpieczeństwa. Atende działa na rynku polskim i wybranych rynkach Europy Wschodniej. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "1993",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "ATR": {
+    "description": "Atrem SA to polska firma specjalizująca się w budowie i modernizacji infrastruktury energetycznej, w tym sieci elektroenergetycznych, podstacji i systemów automatyki przemysłowej. Spółka realizuje kontrakty dla operatorów sieci dystrybucyjnych, przemysłu i sektora OZE. Atrem jest jednym z wiodących wykonawców instalacji elektrycznych dla energetyki zawodowej. Notowana na GPW w segmencie WIG.",
+    "sector": "Energetyka",
+    "founded": "1991",
+    "headquarters": "Złotniki",
+    "indices": ["WIG"]
+  },
+  "BAH": {
+    "description": "British Automotive Holding to polska spółka zajmująca się importem i dystrybucją samochodów marki Jaguar Land Rover w Polsce oraz dealer premium samochodów używanych. Spółka prowadzi salony dealerskie i serwisy w głównych miastach kraju. BAH jest przykładem spółki z sektora dystrybucji motoryzacyjnej notowanej na GPW. Notowana na GPW w segmencie WIG.",
+    "sector": "Motoryzacja",
+    "founded": "2003",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "BDG": {
+    "description": "Alchemia SA (dawniej Boryszew Divisional) to producent rur stalowych bez szwu i spawanych oraz wyrobów hutniczych, dostarczający produkty dla sektora naftowego, gazowego i przemysłu maszynowego. Spółka jest jednym z polskich producentów specjalistycznych rur stalowych dla wymagających zastosowań przemysłowych. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1950",
+    "headquarters": "Tarnowskie Góry",
+    "indices": ["WIG"]
+  },
+  "BKM": {
+    "description": "BoomBit SA to polskie studio i wydawca gier mobilnych, tworzące gry na platformy iOS i Android z globalnym zasięgiem. Spółka jest znana z popularnych tytułów hypercasual i hybrydcasual, które regularnie zajmują czołowe miejsca w rankingach sklepów App Store i Google Play. BoomBit posiada globalną sieć dystrybucji i monetyzuje gry głównie poprzez reklamy i mikrotransakcje. Notowana na GPW w segmencie WIG.",
+    "sector": "Gry",
+    "founded": "2012",
+    "headquarters": "Gdańsk",
+    "indices": ["WIG"]
+  },
+  "BLO": {
+    "description": "Bloober Team to polskie studio gier wideo specjalizujące się w grach z gatunku horror psychologiczny. Spółka jest twórcą serii Blair Witch, Layers of Fear, Observer oraz remake'u kultowego Silent Hill 2 (2024) wydanego we współpracy z Konami. Bloober Team jest jednym z najbardziej rozpoznawalnych polskich studiów na rynku globalnym w niszy horrorów. Notowana na GPW w segmencie WIG.",
+    "sector": "Gry",
+    "founded": "2008",
+    "headquarters": "Kraków",
+    "indices": ["WIG"]
+  },
+  "BST": {
+    "description": "Best SA to polska firma specjalizująca się w zarządzaniu wierzytelnościami, nabywająca i windykująca portfele wierzytelności bankowych, konsumenckich i telekomunikacyjnych. Spółka jest jednym z wiodących graczy na polskim rynku wierzytelności i zarządza funduszami sekurytyzacyjnymi. Best SA posiada wieloletnie doświadczenie w efektywnej windykacji należności. Notowana na GPW w segmencie WIG.",
+    "sector": "Finanse",
+    "founded": "1994",
+    "headquarters": "Gdynia",
+    "indices": ["WIG"]
+  },
+  "CDL": {
+    "description": "CDRL SA to producent odzieży dziecięcej, operator ogólnopolskiej sieci sklepów pod marką Coccodrillo — jednej z najpopularniejszych marek odzieży dziecięcej w Polsce i Europie Środkowej. Spółka prowadzi kilkaset punktów sprzedaży w Polsce i za granicą (m.in. Ukraina, Rumunia) oraz rozwijającą się sprzedaż online. CDRL eksportuje kolekcje do kilkudziesięciu krajów. Notowana na GPW w segmencie WIG.",
+    "sector": "Handel",
+    "founded": "1990",
+    "headquarters": "Pianowo",
+    "indices": ["WIG"]
+  },
+  "CLC": {
+    "description": "Columbus Energy to polska spółka z sektora odnawialnych źródeł energii, specjalizująca się w instalacji systemów fotowoltaicznych dla klientów indywidualnych i biznesowych oraz w magazynowaniu energii. Spółka jest jednym z wiodących instalatorów fotowoltaiki w Polsce i korzysta na rosnącym zainteresowaniu prosumentów energią słoneczną. Columbus Energy buduje również własne farmy fotowoltaiczne. Notowana na GPW w segmencie WIG.",
+    "sector": "Energetyka",
+    "founded": "2013",
+    "headquarters": "Kraków",
+    "indices": ["WIG"]
+  },
+  "CNT": {
+    "description": "Centrum Nowoczesnych Technologii SA (CNT) to polska spółka z sektora technologii informatycznych, świadcząca usługi IT i dostarczająca rozwiązania dla przedsiębiorstw. Spółka koncentruje się na integracji systemów i projektach wdrożeniowych dla przemysłu i sektora usługowego. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "2000",
+    "headquarters": "Sosnowiec",
+    "indices": ["WIG"]
+  },
+  "CPD": {
+    "description": "CPD SA to polsko-irlandzka spółka deweloperska realizująca projekty mieszkaniowe w Warszawie, specjalizująca się w budownictwie mieszkaniowym na wynajem i sprzedaż. Spółka zarządza portfelem nieruchomości w stolicy i realizuje inwestycje w atrakcyjnych lokalizacjach miejskich. CPD jest przykładem spółki deweloperskiej z zagranicznym kapitałem notowanej na GPW. Notowana na GPW w segmencie WIG.",
+    "sector": "Nieruchomości",
+    "founded": "2001",
+    "headquarters": "Dublin",
+    "indices": ["WIG"]
+  },
+  "CRJ": {
+    "description": "Creepy Jar to polskie studio gier wideo, twórca survivalowej gry Green Hell — przełomowego tytułu symulacji przetrwania w dżungli amazońskiej. Gra zdobyła miliony graczy na PC i konsolach i była jedną z najlepiej ocenianych niezależnych gier survivalowych. Creepy Jar rozwija Green Hell poprzez kolejne aktualizacje i DLC oraz pracuje nad nowymi projektami. Notowana na GPW w segmencie WIG.",
+    "sector": "Gry",
+    "founded": "2016",
+    "headquarters": "Wrocław",
+    "indices": ["WIG"]
+  },
+  "DNE": {
+    "description": "DataWalk SA (dawniej Pilab SA) to polska firma technologiczna rozwijająca platformę analityczną DataWalk, służącą do eksploracji i wizualizacji złożonych sieci danych dla służb wywiadowczych, organów ścigania i sektora finansowego (AML). Platforma jest stosowana przez agencje rządowe w USA i innych krajach do analizy powiązań między osobami, zdarzeniami i organizacjami. DataWalk rywalizuje z globalną platformą Palantir. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "2006",
+    "headquarters": "Wrocław",
+    "indices": ["WIG"]
+  },
+  "DEL": {
+    "description": "Delko SA to polska firma logistyczna specjalizująca się w dystrybucji materiałów budowlanych i wykończeniowych do profesjonalnych wykonawców i sklepów budowlanych. Spółka operuje flotę samochodów dostawczych i sieć magazynów, zapewniając szybkie dostawy na placach budowy. Delko jest partnerem dystrybucyjnym wielu producentów materiałów budowlanych. Notowana na GPW w segmencie WIG.",
+    "sector": "Logistyka",
+    "founded": "1999",
+    "headquarters": "Bielsko-Biała",
+    "indices": ["WIG"]
+  },
+  "EAH": {
+    "description": "e-Kancelaria SA to polska firma windykacyjna i prawna, świadcząca usługi odzyskiwania należności oraz usługi prawne dla wierzycieli instytucjonalnych i indywidualnych. Spółka specjalizuje się w masowej obsłudze wierzytelności konsumenckich i prowadzi postępowania polubowne i sądowe. Notowana na GPW w segmencie WIG.",
+    "sector": "Finanse",
+    "founded": "2007",
+    "headquarters": "Wrocław",
+    "indices": ["WIG"]
+  },
+  "ECO": {
+    "description": "Ecovis SA to polska spółka doradcza i usługowa działająca w obszarze doradztwa podatkowego, audytu i finansów. Spółka świadczy usługi dla małych i średnich przedsiębiorstw oraz podmiotów instytucjonalnych. Notowana na GPW w segmencie WIG.",
+    "sector": "Usługi",
+    "founded": "2004",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "EKP": {
+    "description": "Elkop SA to polska spółka holdingowa działająca w sektorach energetycznym i nieruchomości, posiadająca udziały w spółkach z branży elektroenergetycznej i obrotu nieruchomościami. Notowana na GPW w segmencie WIG.",
+    "sector": "Holding",
+    "founded": "1990",
+    "headquarters": "Chorzów",
+    "indices": ["WIG"]
+  },
+  "EMC": {
+    "description": "EMC Instytut Medyczny to polska grupa szpitali i klinik prywatnych, prowadząca placówki medyczne we Wrocławiu i okolicach. Spółka oferuje usługi szpitalne, ambulatoryjne i diagnostyczne dla pacjentów komercyjnych i w ramach kontraktów z NFZ. EMC Instytut Medyczny jest częścią europejskiej grupy medycznej Emira (dawniej Regénère). Notowana na GPW w segmencie WIG.",
+    "sector": "Medycyna",
+    "founded": "1996",
+    "headquarters": "Wrocław",
+    "indices": ["WIG"]
+  },
+  "FOR": {
+    "description": "Forbuild SA to polska firma budowlana specjalizująca się w generalne wykonawstwo obiektów przemysłowych, magazynowych i handlowych. Spółka realizuje projekty pod klucz dla klientów przemysłowych i deweloperów nieruchomości komercyjnych. Notowana na GPW w segmencie WIG.",
+    "sector": "Budownictwo",
+    "founded": "1993",
+    "headquarters": "Kielce",
+    "indices": ["WIG"]
+  },
+  "GKI": {
+    "description": "GK Immobile SA to polska grupa kapitałowa prowadząca zróżnicowaną działalność w sektorach hotelowym, budowlanym i produkcyjnym. Spółka zarządza siecią hoteli Focus pod własną marką, realizuje projekty budowlane i produkuje pojazdy komunalne. GK Immobile jest przykładem zdywersyfikowanego holdingu przemysłowo-usługowego. Notowana na GPW w segmencie WIG.",
+    "sector": "Holding",
+    "founded": "2000",
+    "headquarters": "Bydgoszcz",
+    "indices": ["WIG"]
+  },
+  "GLC": {
+    "description": "Global Cosmed SA to producent kosmetyków i środków czystości, oferujący produkty pod markami własnymi i na zlecenie innych firm. Spółka specjalizuje się w produkcji kontraktowej dla sieci handlowych i marek własnych retailerów. Notowana na GPW w segmencie WIG.",
+    "sector": "Kosmetyki",
+    "founded": "2000",
+    "headquarters": "Końskie",
+    "indices": ["WIG"]
+  },
+  "GPR": {
+    "description": "Getin Holding SA to polska spółka holdingowa działająca w sektorze finansowym, posiadająca udziały w bankach i instytucjach finansowych na rynkach Europy Środkowej i Wschodniej. Spółka jest powiązana z Grupą Leszka Czarneckiego i przechodzi restrukturyzację po trudnościach finansowych polskich banków w tej grupie. Notowana na GPW w segmencie WIG.",
+    "sector": "Finanse",
+    "founded": "2000",
+    "headquarters": "Wrocław",
+    "indices": ["WIG"]
+  },
+  "GEA": {
+    "description": "Games SA to polska spółka z branży gier i rozrywki interaktywnej, prowadząca platformy gamingowe i portale growe dla graczy casualowych. Spółka oferuje gry przeglądarkowe i mobilne oraz usługi gamingowe dla użytkowników polskich i zagranicznych. Notowana na GPW w segmencie WIG.",
+    "sector": "Gry",
+    "founded": "2000",
+    "headquarters": "Gdańsk",
+    "indices": ["WIG"]
+  },
+  "HRP": {
+    "description": "Harper Hygienics SA to producent wyrobów higienicznych, w tym chusteczek nawilżanych, patyczków kosmetycznych i wacików bawełnianych, sprzedawanych pod własną marką i markami dystrybutorów. Spółka dostarcza produkty dla sieci handlowych w Polsce i Europie, wyróżniając się jakością surowców i elastycznością produkcji kontraktowej. Notowana na GPW w segmencie WIG.",
+    "sector": "Kosmetyki",
+    "founded": "2001",
+    "headquarters": "Milanówek",
+    "indices": ["WIG"]
+  },
+  "IMP": {
+    "description": "Impel SA to polska grupa usługowa świadcząca usługi facility management, ochrony, outsourcingu pracowniczego i BPO. Spółka zarządza nieruchomościami i dostarcza kompleksowe usługi utrzymania obiektów komercyjnych, biurowych i przemysłowych w Polsce i za granicą. Impel jest jedną z największych polskich firm usługowych pod względem liczby pracowników. Notowana na GPW w segmencie WIG.",
+    "sector": "Usługi",
+    "founded": "1989",
+    "headquarters": "Wrocław",
+    "indices": ["WIG"]
+  },
+  "INC": {
+    "description": "INC SA to polska firma doradcza i inwestycyjna, świadcząca usługi doradztwa finansowego dla małych i średnich spółek, w tym doradztwo przy IPO, emisjach obligacji i pozyskiwaniu kapitału. Spółka zarządza również autoryzowanym doradcą na rynku NewConnect. INC SA jest jednym z czołowych doradców przy wprowadzaniu spółek na GPW. Notowana na GPW w segmencie WIG.",
+    "sector": "Finanse",
+    "founded": "2000",
+    "headquarters": "Poznań",
+    "indices": ["WIG"]
+  },
+  "IRL": {
+    "description": "Ifirma SA to operator wiodącej polskiej platformy do prowadzenia księgowości online dla małych firm i freelancerów. Serwis ifirma.pl umożliwia samodzielne wystawianie faktur, rozliczenia ZUS i PIT bez wiedzy księgowej. Spółka oferuje również outsourcing kadr i płac oraz biuro rachunkowe online. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "2002",
+    "headquarters": "Wrocław",
+    "indices": ["WIG"]
+  },
+  "IZO": {
+    "description": "Izolacja Jarocin SA to producent wyrobów z wełny mineralnej skalnej stosowanych do izolacji termicznej i akustycznej w budownictwie i przemyśle. Spółka jest jednym z polskich producentów materiałów izolacyjnych i dostarcza produkty na rynek krajowy i do krajów ościennych. Notowana na GPW w segmencie WIG.",
+    "sector": "Budownictwo",
+    "founded": "1976",
+    "headquarters": "Jarocin",
+    "indices": ["WIG"]
+  },
+  "JRH": {
+    "description": "JR Holding ASI SA to polska spółka holdingowa inwestująca w spółki technologiczne i innowacyjne na wczesnym etapie rozwoju. Holding jest powiązany z Januszem Filipiakiem (założyciel Comarch) i skupia inwestycje w obszarach cyberbezpieczeństwa, AI i healthtech. Notowana na GPW w segmencie WIG.",
+    "sector": "Holding",
+    "founded": "2015",
+    "headquarters": "Kraków",
+    "indices": ["WIG"]
+  },
+  "JSG": {
+    "description": "JZNS SA (Jastrzębski Zakład Konstrukcji Stalowych) to producent konstrukcji stalowych i elementów metalowych dla budownictwa i przemysłu, z zakładem produkcyjnym w Jastrzębiu-Zdroju. Spółka realizuje zlecenia na konstrukcje hal, wiat i elementów stalowych dla klientów przemysłowych. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1955",
+    "headquarters": "Jastrzębie-Zdrój",
+    "indices": ["WIG"]
+  },
+  "KPX": {
+    "description": "Krynicki Recykling SA to jeden z największych polskich recyklerów szkła, przetwarzający stłuczkę szklarską na granulat używany przez producentów opakowań szklanych. Spółka dostarcza surowiec wtórny do polskich hut szkła, wspierając gospodarkę o obiegu zamkniętym. Krynicki Recykling posiada zakłady przetwórcze w kilku lokalizacjach w Polsce. Notowana na GPW w segmencie WIG.",
+    "sector": "Ekologia",
+    "founded": "2000",
+    "headquarters": "Olsztyn",
+    "indices": ["WIG"]
+  },
+  "LAB": {
+    "description": "Labomed SA to polska spółka z sektora usług medycznych i diagnostycznych, prowadząca laboratoria diagnostyczne oraz świadcząca usługi badań klinicznych. Notowana na GPW w segmencie WIG.",
+    "sector": "Medycyna",
+    "founded": "2001",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "LRQ": {
+    "description": "Larq SA to polska spółka inwestycyjna zarządzająca portfelem aktywów finansowych i udziałów w spółkach z różnych branż. Notowana na GPW w segmencie WIG.",
+    "sector": "Finanse",
+    "founded": "2006",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "LTX": {
+    "description": "Lentex SA to producent wykładzin PVC, dywanów, płytek i materiałów podłogowych, będący jednym z wiodących polskich wytwórców elastycznych pokryć podłogowych. Spółka eksportuje swoje produkty do kilkudziesięciu krajów i posiada zakłady produkcyjne w Lublińcu. Lentex był kiedyś największym polskim producentem wykładzin podłogowych. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1956",
+    "headquarters": "Lubliniec",
+    "indices": ["WIG"]
+  },
+  "MAB": {
+    "description": "Mabion SA to polska firma biotechnologiczna specjalizująca się w produkcji leków biopodobnych (biosimilarów), w szczególności przeciwciał monoklonalnych. Spółka wdraża własne procesy produkcji biologicznej i świadczy usługi produkcji kontraktowej (CDMO) dla zagranicznych firm farmaceutycznych. Mabion posiada nowoczesną fabrykę biologiczną pod Łodzią. Notowana na GPW w segmencie WIG.",
+    "sector": "Biotechnologia",
+    "founded": "2010",
+    "headquarters": "Konstantynów Łódzki",
+    "indices": ["WIG"]
+  },
+  "MFO": {
+    "description": "MFO SA to producent elementów metalowych i podzespołów dla przemysłu motoryzacyjnego i AGD, specjalizujący się w tłoczeniu blach i spawaniu elementów metalowych. Spółka dostarcza komponenty dla wiodących producentów w branży automotive. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1994",
+    "headquarters": "Kluczbork",
+    "indices": ["WIG"]
+  },
+  "MLB": {
+    "description": "Milog SA to polska firma logistyczna świadcząca usługi transportu drogowego, magazynowania i kompleksowej obsługi łańcucha dostaw. Spółka działa na rynku polskim i europejskim, obsługując klientów z sektora przemysłowego i handlowego. Notowana na GPW w segmencie WIG.",
+    "sector": "Logistyka",
+    "founded": "2000",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "MOJ": {
+    "description": "Moje Bambino SA to jeden z wiodących polskich dystrybutorów artykułów dla dzieci, zabawek i wyposażenia edukacyjnego, obsługujący zarówno placówki oświatowe (żłobki, przedszkola, szkoły), jak i klientów indywidualnych. Spółka prowadzi platformę e-commerce i katalog B2B dla instytucji. Notowana na GPW w segmencie WIG.",
+    "sector": "Handel",
+    "founded": "2001",
+    "headquarters": "Łódź",
+    "indices": ["WIG"]
+  },
+  "MON": {
+    "description": "Monnari Trade SA to polska firma modowa, producent i retailer odzieży damskiej pod marką Monnari skierowaną do dojrzałych, aktywnych zawodowo kobiet. Spółka prowadzi sieć salonów własnych w galeriach handlowych w Polsce i rozwija sprzedaż online. Notowana na GPW w segmencie WIG.",
+    "sector": "Handel",
+    "founded": "2001",
+    "headquarters": "Łódź",
+    "indices": ["WIG"]
+  },
+  "MSW": {
+    "description": "Mostostal Warszawa SA to jedna z największych polskich firm budowlanych z ponad 75-letnią historią, realizująca projekty budownictwa przemysłowego, kubaturowego i infrastrukturalnego. Spółka jest częścią hiszpańskiej grupy Acciona i realizuje złożone kontrakty inżynieryjne, w tym mosty, tunele i obiekty energetyczne. Notowana na GPW w segmencie WIG.",
+    "sector": "Budownictwo",
+    "founded": "1945",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "MSZ": {
+    "description": "Mostostal Zabrze SA to polska firma budowlana i produkcyjna, realizująca kontrakty konstrukcji stalowych i przemysłowych oraz generalne wykonawstwo dla sektora energetycznego i przemysłu ciężkiego. Spółka produkuje konstrukcje stalowe i aparaturę procesową dla klientów krajowych i zagranicznych. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1951",
+    "headquarters": "Zabrze",
+    "indices": ["WIG"]
+  },
+  "NTT": {
+    "description": "NTT System SA to polski producent i dystrybutor komputerów, serwerów i stacji roboczych pod własną marką NTT, oferujący sprzęt IT dla sektora edukacyjnego, publicznego i biznesowego. Spółka jest jednym z ostatnich polskich producentów sprzętu komputerowego. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "1993",
+    "headquarters": "Zakroczym",
+    "indices": ["WIG"]
+  },
+  "NVV": {
+    "description": "Nova SA to polska spółka z sektora finansowego, prowadząca działalność w obszarze udzielania pożyczek konsumenckich i zarządzania wierzytelnościami. Notowana na GPW w segmencie WIG.",
+    "sector": "Finanse",
+    "founded": "2005",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "OAT": {
+    "description": "OAT SA to polska spółka świadcząca usługi z zakresu doradztwa i zarządzania projektami inwestycyjnymi. Notowana na GPW w segmencie WIG.",
+    "sector": "Usługi",
+    "founded": "2003",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "OVO": {
+    "description": "OVOcard SA to polska spółka technologiczna działająca w sektorze kart lojalnościowych i programów nagrodowych dla sieci handlowych i partnerów komercyjnych. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "2010",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "PAT": {
+    "description": "Patentus SA to producent maszyn i urządzeń górniczych, w tym przenośników zgrzebłowych, kombajnów i obudów górniczych stosowanych w podziemnych kopalniach węgla kamiennego. Spółka jest dostawcą dla Jastrzębskiej Spółki Węglowej i innych polskich kopalni. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1997",
+    "headquarters": "Pszczyna",
+    "indices": ["WIG"]
+  },
+  "PBS": {
+    "description": "PBS Finanse SA to polska spółka z sektora usług finansowych, świadcząca usługi leasingu, faktoringu i finansowania dla małych i średnich przedsiębiorstw. Notowana na GPW w segmencie WIG.",
+    "sector": "Finanse",
+    "founded": "2001",
+    "headquarters": "Sanok",
+    "indices": ["WIG"]
+  },
+  "PGO": {
+    "description": "PGO SA (Polska Grupa Odlewnicza) to producent odlewów żeliwnych i staliwnych stosowanych w przemyśle motoryzacyjnym, maszynowym i kolejowym. Spółka jest jednym z największych polskich odlewni, dostarczając podzespoły dla europejskich producentów maszyn i pojazdów. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "2002",
+    "headquarters": "Śrem",
+    "indices": ["WIG"]
+  },
+  "PLZ": {
+    "description": "Plaza Centers SA to izraelski deweloper centrów handlowych, aktywny historycznie w Europie Środkowej i Wschodniej, w tym w Polsce, Rumunii i Czechach. Spółka budowała i zarządzała galeriami handlowymi, choć jej portfel uległ znacznemu zmniejszeniu w wyniku trudności finansowych. Notowana na GPW w segmencie WIG.",
+    "sector": "Nieruchomości",
+    "founded": "1999",
+    "headquarters": "Tel Awiw",
+    "indices": ["WIG"]
+  },
+  "POZ": {
+    "description": "Poznańska 37 SA to polska spółka deweloperska realizująca projekty mieszkaniowe i komercyjne. Notowana na GPW w segmencie WIG.",
+    "sector": "Nieruchomości",
+    "founded": "2003",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "PRF": {
+    "description": "Profit Development SA to polski deweloper mieszkaniowy realizujący projekty apartamentowe w Warszawie i innych dużych miastach, celujący w segment premium. Spółka wyróżnia się realizacją kameralnych inwestycji w atrakcyjnych lokalizacjach. Notowana na GPW w segmencie WIG.",
+    "sector": "Nieruchomości",
+    "founded": "2003",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "RFK": {
+    "description": "Rafako SA to jeden z wiodących europejskich producentów kotłów energetycznych i urządzeń ochrony środowiska dla elektrowni i ciepłowni. Spółka realizuje kompleksowe projekty modernizacji bloków energetycznych i instalacji odsiarczania spalin. Rafako ma ponad 70-letnią historię i dostarcza urządzenia dla największych polskich elektrowni. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1949",
+    "headquarters": "Racibórz",
+    "indices": ["WIG"]
+  },
+  "RPC": {
+    "description": "Relpol SA to producent przekaźników elektromagnetycznych i elektronicznych stosowanych w automatyce przemysłowej, systemach sterowania i urządzeniach elektronicznych. Spółka jest jednym z niewielu europejskich producentów przekaźników, eksportując swoje wyroby do kilkudziesięciu krajów. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1958",
+    "headquarters": "Żary",
+    "indices": ["WIG"]
+  },
+  "SEK": {
+    "description": "Seko SA to polska firma produkująca dania gotowe, przetwory mięsne i produkty convenience food, dostarczająca wyroby do sieci handlowych pod marką własną i w ramach produkcji kontraktowej. Notowana na GPW w segmencie WIG.",
+    "sector": "Spożywczy",
+    "founded": "1991",
+    "headquarters": "Człuchów",
+    "indices": ["WIG"]
+  },
+  "SES": {
+    "description": "Sescom SA to polska firma świadcząca usługi zarządzania infrastrukturą techniczną (facility management) dla sieci handlowych, restauracji i stacji paliw. Spółka zarządza serwisem urządzeń chłodniczych, HVAC i systemów bezpieczeństwa poprzez własną platformę IoT. Notowana na GPW w segmencie WIG.",
+    "sector": "Usługi",
+    "founded": "2000",
+    "headquarters": "Gdańsk",
+    "indices": ["WIG"]
+  },
+  "SME": {
+    "description": "SMT SA to polska firma technologiczna dostarczająca rozwiązania z zakresu druku cyfrowego, personalizacji dokumentów i systemów zarządzania treścią dla dużych organizacji i administracji publicznej. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "1997",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "SNW": {
+    "description": "Sunex SA to producent kolektorów słonecznych i systemów do podgrzewania wody użytkowej energią słoneczną, będący jednym z wiodących europejskich wytwórców tej technologii. Spółka eksportuje swoje produkty do kilkudziesięciu krajów i dostarcza instalacje dla budownictwa mieszkaniowego i komercyjnego. Notowana na GPW w segmencie WIG.",
+    "sector": "Energetyka",
+    "founded": "1993",
+    "headquarters": "Racibórz",
+    "indices": ["WIG"]
+  },
+  "TOR": {
+    "description": "Torowa SA to polska spółka z sektora budownictwa kolejowego, specjalizująca się w pracach torowych, budowie i remoncie nawierzchni kolejowej. Notowana na GPW w segmencie WIG.",
+    "sector": "Budownictwo",
+    "founded": "2001",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "TMP": {
+    "description": "Torpol SA to jedna z wiodących polskich firm budowlanych specjalizujących się w budownictwie kolejowym — modernizacji i budowie linii kolejowych, stacji, węzłów i systemów sterowania ruchem. Spółka realizuje wielomiliardowe kontrakty finansowane z funduszy UE w ramach programów modernizacji polskiej kolei. Torpol jest jednym z kluczowych wykonawców infrastruktury kolejowej PKP PLK. Notowana na GPW w segmencie WIG.",
+    "sector": "Budownictwo",
+    "founded": "1995",
+    "headquarters": "Poznań",
+    "indices": ["WIG"]
+  },
+  "TOA": {
+    "description": "Toya SA to producent i dystrybutor narzędzi ręcznych, elektronarzędzi i akcesoriów warsztatowych, sprzedawanych pod marką YATO — jedną z najbardziej rozpoznawalnych marek narzędziowych w Europie Środkowej. Spółka eksportuje swoje produkty do kilkudziesięciu krajów i obsługuje zarówno profesjonalistów, jak i majsterkowiczów. Notowana na GPW w segmencie WIG.",
+    "sector": "Handel",
+    "founded": "1992",
+    "headquarters": "Wrocław",
+    "indices": ["WIG"]
+  },
+  "TSG": {
+    "description": "Tesgas SA to polska firma specjalizująca się w budowie i serwisie infrastruktury gazowej — gazociągów, stacji pomiarowo-redukcyjnych i systemów automatyki dla operatorów sieci gazowych. Spółka realizuje kontrakty dla GAZ-SYSTEM i dystrybutorów gazu w Polsce. Notowana na GPW w segmencie WIG.",
+    "sector": "Energetyka",
+    "founded": "1994",
+    "headquarters": "Dąbrowa",
+    "indices": ["WIG"]
+  },
+  "ULG": {
+    "description": "Ulma Construccion Polska SA to producent systemów deskowań i rusztowań dla budownictwa, będący częścią hiszpańskiej Grupy ULMA. Spółka dostarcza zaawansowane systemy deskowań do betonu i rusztowania modułowe dla wykonawców budowlanych realizujących duże projekty infrastrukturalne. Notowana na GPW w segmencie WIG.",
+    "sector": "Budownictwo",
+    "founded": "1991",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "VOT": {
+    "description": "Votum SA to polska firma prawna specjalizująca się w dochodzeniu odszkodowań dla ofiar wypadków komunikacyjnych i błędów medycznych oraz w obsłudze spraw frankowych. Spółka jest jednym z liderów rynku odszkodowań w Polsce i korzysta na rosnącej świadomości prawnej Polaków. Notowana na GPW w segmencie WIG.",
+    "sector": "Usługi",
+    "founded": "2004",
+    "headquarters": "Wrocław",
+    "indices": ["WIG"]
+  },
+  "WOJ": {
+    "description": "Wojas SA to jeden z wiodących polskich producentów i detalistów obuwia, operujący sieć salonów pod markami Wojas i Lasocki w galeriach handlowych w Polsce. Spółka produkuje obuwie skórzane damskie i męskie i jest obecna z produktami w kilkunastu krajach. Notowana na GPW w segmencie WIG.",
+    "sector": "Handel",
+    "founded": "1990",
+    "headquarters": "Nowy Targ",
+    "indices": ["WIG"]
+  },
+  "WWL": {
+    "description": "Wawrzaszek ISS SA to polska spółka z sektora technologii kosmicznych i obserwacji Ziemi, budująca własne mikrosatelity i świadcząca usługi integracji systemów satelitarnych dla instytucji naukowych i podmiotów komercyjnych. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "1991",
+    "headquarters": "Bielsko-Biała",
+    "indices": ["WIG"]
+  },
+  "ZAK": {
+    "description": "Grupa Azoty ZAK SA (Zakłady Azotowe Kędzierzyn) to producent nawozów mineralnych i chemikaliów, będący częścią Grupy Azoty. Zakłady w Kędzierzynie-Koźlu wytwarzają nawozy azotowe (saletrzak, mocznik), oksyalkohole i plastyfikatory. ZAK jest ważnym dostawcą surowców dla polskiego rolnictwa i przemysłu chemicznego. Notowana na GPW w segmencie WIG.",
+    "sector": "Chemia",
+    "founded": "1948",
+    "headquarters": "Kędzierzyn-Koźle",
+    "indices": ["WIG"]
+  },
+  "ZPC": {
+    "description": "ZPC Otmuchów SA to producent wyrobów cukierniczych — cukierków, żelków, pianek i czekolad — dostarczający produkty pod markami własnymi oraz dla sieci handlowych jako private label. Spółka jest jednym z polskich producentów słodyczy klasy budżetowej i korzysta na rosnącym eksporcie cukierków do Europy Zachodniej. Notowana na GPW w segmencie WIG.",
+    "sector": "Spożywczy",
+    "founded": "1945",
+    "headquarters": "Otmuchów",
+    "indices": ["WIG"]
+  },
+  "ZUE": {
+    "description": "ZUE SA to polska firma budowlana wyspecjalizowana w infrastrukturze tramwajowej i kolejowej — budowie i remoncie torowisk tramwajowych, sieci trakcyjnych i podstacji w miastach. Spółka jest jednym z wiodących wykonawców modernizacji sieci tramwajowych w Polsce, realizując kontrakty dla miejskich zakładów komunikacyjnych. Notowana na GPW w segmencie WIG.",
+    "sector": "Budownictwo",
+    "founded": "2001",
+    "headquarters": "Kraków",
+    "indices": ["WIG"]
+  },
+  "CRE": {
+    "description": "Creotech Instruments SA to polska spółka technologiczna specjalizująca się w budowie mikrosatelitów i zaawansowanych systemów elektroniki kosmicznej. Creotech jest jednym z pionierów polskiego sektora kosmicznego i zrealizował misję satelitarną EagleEye. Spółka dostarcza komponenty i systemy dla europejskich programów kosmicznych ESA. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "2010",
+    "headquarters": "Piaseczno",
+    "indices": ["WIG"]
+  },
+  "KRZ": {
+    "description": "Karen Notebook SA to producent i dystrybutor sprzętu komputerowego, w tym laptopów, tabletów i akcesoriów IT pod marką własną Karen. Spółka dostarcza urządzenia dla sektora edukacyjnego i indywidualnych użytkowników. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "2001",
+    "headquarters": "Pruszków",
+    "indices": ["WIG"]
+  },
+  "LEN": {
+    "description": "Lena Lighting SA to producent opraw oświetleniowych i systemów oświetlenia LED dla budownictwa mieszkaniowego, komercyjnego i przemysłowego. Spółka oferuje kompleksowe rozwiązania oświetleniowe od opraw dekoracyjnych po oprawy techniczne i przemysłowe. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1992",
+    "headquarters": "Środa Wielkopolska",
+    "indices": ["WIG"]
+  },
+  "NKL": {
+    "description": "Noctiluca SA to polska firma biotechnologiczna rozwijająca technologię organicznych emiterów OLED (TADF) do zastosowań w wyświetlaczach i oświetleniu. Spółka jest jednym z pionierów nowej generacji materiałów OLED i komercjalizuje swoje odkrycia naukowe poprzez licencje i sprzedaż materiałów dla producentów elektroniki. Notowana na GPW w segmencie WIG.",
+    "sector": "Biotechnologia",
+    "founded": "2016",
+    "headquarters": "Łódź",
+    "indices": ["WIG"]
+  },
+  "NPT": {
+    "description": "Neptis SA to polska spółka technologiczna tworząca zaawansowane systemy nawigacji i mobilności miejskiej, w tym narzędzia planowania podróży multimodalnych dla miast i pasażerów. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "2003",
+    "headquarters": "Poznań",
+    "indices": ["WIG"]
+  },
+  "OBL": {
+    "description": "Oble SA to polska spółka działająca w obszarze handlu i dystrybucji. Notowana na GPW w segmencie WIG.",
+    "sector": "Handel",
+    "founded": "2004",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "ONO": {
+    "description": "OncoArendi Therapeutics SA to polska firma biotechnologiczna specjalizująca się w opracowywaniu leków na choroby zwłóknieniowe płuc i nowotwory. Spółka prowadzi badania kliniczne nad inhibitorami chitynaz w leczeniu zwłóknienia płuc i astmy. OncoArendi współpracuje z międzynarodowymi partnerami farmaceutycznymi. Notowana na GPW w segmencie WIG.",
+    "sector": "Biotechnologia",
+    "founded": "2015",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "PEK": {
+    "description": "Pekaes SA to jeden z największych polskich operatorów logistycznych, świadczący usługi transportu drogowego (FTL i LTL), magazynowania i dystrybucji. Spółka dysponuje flotą ponad tysiąca pojazdów i siecią centrów logistycznych w całym kraju. Pekaes obsługuje dużych klientów przemysłowych i handlowych. Notowana na GPW w segmencie WIG.",
+    "sector": "Logistyka",
+    "founded": "1945",
+    "headquarters": "Błonie",
+    "indices": ["WIG"]
+  },
+  "POL": {
+    "description": "Grupa Azoty Police SA to producent nawozów mineralnych (superfosfaty, mocznik), bieli tytanowej i środków ochrony roślin, będący częścią Grupy Azoty z zakładem produkcyjnym w Policach koło Szczecina. Spółka jest jedynym polskim producentem bieli tytanowej — pigmentu szeroko stosowanego w farbach, tworzywach i papierze. Notowana na GPW w segmencie WIG.",
+    "sector": "Chemia",
+    "founded": "1954",
+    "headquarters": "Police",
+    "indices": ["WIG"]
+  },
+  "QNA": {
+    "description": "QNA Technology SA to polska spółka technologiczna rozwijająca rozwiązania z zakresu sztucznej inteligencji i analizy danych dla przemysłu i sektora finansowego. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "2015",
+    "headquarters": "Kraków",
+    "indices": ["WIG"]
+  },
+  "SEN": {
+    "description": "Serinus Energy Inc. to kanadyjska firma wydobywcza z aktywami naftowo-gazowymi w Tunezji i Rumunii, notowana na giełdach TSX Venture i GPW w Warszawie. Spółka prowadzi wydobycie ropy i gazu ze złóż w Afryce Północnej i Europie Środkowej. Notowana na GPW w segmencie WIG.",
+    "sector": "Surowce",
+    "founded": "2005",
+    "headquarters": "Calgary",
+    "indices": ["WIG"]
+  },
+  "SOL": {
+    "description": "Solar Company SA to polska spółka z sektora odnawialnych źródeł energii, specjalizująca się w projektowaniu i budowie instalacji fotowoltaicznych dla klientów komercyjnych i przemysłowych. Notowana na GPW w segmencie WIG.",
+    "sector": "Energetyka",
+    "founded": "2011",
+    "headquarters": "Opole",
+    "indices": ["WIG"]
+  },
+  "SSK": {
+    "description": "Skotan SA to polska spółka z sektora chemicznego, prowadząca działalność w obszarze produkcji i dystrybucji specjalistycznych chemikaliów i surowców dla przemysłu. Notowana na GPW w segmencie WIG.",
+    "sector": "Chemia",
+    "founded": "1990",
+    "headquarters": "Chorzów",
+    "indices": ["WIG"]
+  },
+  "TAR": {
+    "description": "Tarczyński SA to jeden z największych polskich producentów kiełbas, kabanosy i wędlin, znany z popularnej marki kabanosy Tarczyński. Spółka eksportuje swoje wyroby do kilkudziesięciu krajów, w tym do Zachodu Europy i USA, gdzie kabanosy cieszą się rosnącą popularnością jako zdrowa przekąska proteinowa. Notowana na GPW w segmencie WIG.",
+    "sector": "Spożywczy",
+    "founded": "1988",
+    "headquarters": "Ujeździec Mały",
+    "indices": ["WIG"]
+  },
+  "TOW": {
+    "description": "Tower Investments SA to polski deweloper i inwestor nieruchomości komercyjnych, specjalizujący się w budowie stacji paliw i obiektów handlowych w lokalizacjach przy drogach i węzłach komunikacyjnych. Notowana na GPW w segmencie WIG.",
+    "sector": "Nieruchomości",
+    "founded": "2012",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "DBC": {
+    "description": "Dębica SA to producent opon samochodowych należący do globalnej grupy Continental, wytwarzający opony osobowe i dostawcze pod markami Dębica, Barum i Sava. Zakład w Dębicy jest jedną z największych fabryk opon w Europie Środkowej i Wschodniej. Dębica dostarcza opony dla klientów indywidualnych i flot na rynkach europejskich. Notowana na GPW w segmencie WIG.",
+    "sector": "Motoryzacja",
+    "founded": "1937",
+    "headquarters": "Dębica",
+    "indices": ["WIG"]
+  },
+  "R22": {
+    "description": "R22 SA to polska spółka holdingowa specjalizująca się w usługach cyfrowych, będąca właścicielem platformy Vercom (komunikacja masowa SMS/e-mail), serwisów domenowych (nazwa.pl) i rozwiązań chmurowych dla firm. R22 buduje ekosystem usług cyfrowych dla małych i średnich przedsiębiorstw w Polsce. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "2004",
+    "headquarters": "Poznań",
+    "indices": ["WIG"]
+  },
+  "MCI": {
+    "description": "MCI Capital SA to polska spółka private equity zarządzająca funduszami inwestującymi w spółki technologiczne i e-commerce na rynkach Europy Środkowej i Wschodniej. Portfolio MCI obejmowało m.in. udziały w iZettle, Answear i innych czołowych startupach regionu. Spółka jest jednym z najdłużej działających polskich funduszy PE w sektorze technologicznym. Notowana na GPW w segmencie WIG.",
+    "sector": "Finanse",
+    "founded": "1999",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "SPH": {
+    "description": "Spyrosoft SA to polska firma IT specjalizująca się w tworzeniu oprogramowania na zamówienie dla klientów z Europy Zachodniej i USA, ze szczególnym naciskiem na automotive, embedded software i transformację cyfrową przedsiębiorstw. Spółka szybko rozwinęła się do kilkuset inżynierów i realizuje projekty dla globalnych marek technologicznych. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "2016",
+    "headquarters": "Wrocław",
+    "indices": ["WIG"]
+  },
+  "KPL": {
+    "description": "Kino Polska TV SA to producent i nadawca kanałów tematycznych poświęconych polskiemu kinu — Kino Polska i Kino Polska Muzyka. Spółka emituje klasyczne i współczesne polskie filmy fabularne oraz prowadzi produkcję własną dokumentów i programów o polskim kinie. Notowana na GPW w segmencie WIG.",
+    "sector": "Media",
+    "founded": "2001",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "PCF": {
+    "description": "PCF Group SA (People Can Fly) to polskie studio gier AAA, twórca serii Bulletstorm, Outriders i Gemini. Spółka jest jednym z wiodących polskich deweloperów gier strzelankowych i współpracuje z globalnymi wydawcami takimi jak Epic Games i Square Enix. PCF Group prowadzi kilka projektów jednocześnie w studiach w Polsce i USA. Notowana na GPW w segmencie WIG.",
+    "sector": "Gry",
+    "founded": "2002",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "ROM": {
+    "description": "Ronson Development SA to deweloper mieszkaniowy aktywny w Warszawie, Wrocławiu, Poznaniu i Szczecinie, budujący mieszkania w różnych segmentach cenowych. Spółka jest powiązana z izraelskim kapitałem i od lat jest jednym ze stałych graczy na polskim rynku nieruchomości mieszkaniowych. Notowana na GPW w segmencie WIG.",
+    "sector": "Nieruchomości",
+    "founded": "2000",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "INP": {
+    "description": "InPost SA to największy operator paczkomatów w Polsce i jeden z wiodących w Europie, obsługujący miliony przesyłek e-commerce dziennie. Sieć ponad 25 000 paczkomatów Paczkomat w Polsce jest największą tego typu siecią na świecie pod względem gęstości. InPost dynamicznie ekspanduje na rynki Francji, Wielkiej Brytanii i innych krajów europejskich. Notowana na Euronext Amsterdam, z programem kwitów depozytowych (GDR) na GPW.",
+    "sector": "Logistyka",
+    "founded": "1999",
+    "headquarters": "Kraków",
+    "indices": ["WIG"]
+  },
+  "ANR": {
+    "description": "Answear.com SA to wiodąca platforma modowa w Europie Środkowej, oferująca odzież, obuwie i akcesoria ponad 400 marek na rynkach Polski, Czech, Słowacji, Węgier, Rumunii i Ukrainy. Spółka jest jednym z największych w regionie multimarketów modowych online i obsługuje miliony klientów. Answear buduje własne marki i jest inwestycją portfelową MCI Capital. Notowana na GPW w segmencie WIG.",
+    "sector": "E-commerce",
+    "founded": "2011",
+    "headquarters": "Kraków",
+    "indices": ["WIG"]
+  },
+  "ART": {
+    "description": "Artifex Mundi SA to polskie studio gier wideo specjalizujące się w grach z gatunku hidden object i casual, dostępnych na PC, konsole i urządzenia mobilne. Spółka jest jednym z wiodących globalnych wydawców gier casualowych i posiada portfolio kilkudziesięciu tytułów. Notowana na GPW w segmencie WIG.",
+    "sector": "Gry",
+    "founded": "2007",
+    "headquarters": "Bielsko-Biała",
+    "indices": ["WIG"]
+  },
+  "ATG": {
+    "description": "ATM Grupa SA to polska firma produkcyjna i medialna, jeden z największych niezależnych producentów treści telewizyjnych w Polsce — seriali, programów rozrywkowych i reality show. Spółka posiada własne studia produkcyjne i realizuje produkcje dla największych polskich nadawców. Notowana na GPW w segmencie WIG.",
+    "sector": "Media",
+    "founded": "1993",
+    "headquarters": "Bielany Wrocławskie",
+    "indices": ["WIG"]
+  },
+  "BOW": {
+    "description": "Bowim SA to polski dystrybutor wyrobów hutniczych i stalowych (blachy, rury, pręty, kształtowniki) dla budownictwa i przemysłu, operujący sieć centrów serwisowych stali z możliwością cięcia i obróbki. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1991",
+    "headquarters": "Sosnowiec",
+    "indices": ["WIG"]
+  },
+  "DEK": {
+    "description": "Dekpol SA to polska firma budowlana realizująca projekty budownictwa ogólnego i mieszkaniowego oraz produkcja prefabrykatów stalowych i przemysłowych. Spółka jest znana z realizacji kompleksowych obiektów przemysłowych i logistycznych na terenie całej Polski. Notowana na GPW w segmencie WIG.",
+    "sector": "Budownictwo",
+    "founded": "1994",
+    "headquarters": "Pinczyn",
+    "indices": ["WIG"]
+  },
+  "HRS": {
+    "description": "Herkules SA to polska firma specjalizująca się w wynajmie maszyn budowlanych — dźwigów, żurawi wieżowych i platform roboczych. Spółka dostarcza sprzęt i operatorów dla wykonawców realizujących budowy przemysłowe i kubaturowe. Notowana na GPW w segmencie WIG.",
+    "sector": "Budownictwo",
+    "founded": "1990",
+    "headquarters": "Ostrów Wielkopolski",
+    "indices": ["WIG"]
+  },
+  "JWC": {
+    "description": "JW Construction Holding SA to jeden ze starszych polskich deweloperów mieszkaniowych, działający w Warszawie i kilku innych miastach. Spółka realizuje projekty mieszkaniowe różnych standardów i zarządza siecią hoteli. Notowana na GPW w segmencie WIG.",
+    "sector": "Nieruchomości",
+    "founded": "1987",
+    "headquarters": "Ząbki",
+    "indices": ["WIG"]
+  },
+  "LKD": {
+    "description": "Lokum Deweloper SA to wrocławski deweloper mieszkaniowy specjalizujący się w projektach o podwyższonym standardzie architektonicznym i urbanistycznym. Spółka jest znana z dbałości o design i zagospodarowanie przestrzeni wspólnych swoich osiedli we Wrocławiu i Krakowie. Notowana na GPW w segmencie WIG.",
+    "sector": "Nieruchomości",
+    "founded": "2006",
+    "headquarters": "Wrocław",
+    "indices": ["WIG"]
+  },
+  "MEX": {
+    "description": "Mex Polska SA to operator restauracji i barów w Polsce, zarządzający siecią lokali gastronomicznych pod różnymi konceptami, w tym pubów i restauracji. Notowana na GPW w segmencie WIG.",
+    "sector": "Gastronomia",
+    "founded": "2003",
+    "headquarters": "Łódź",
+    "indices": ["WIG"]
+  },
+  "MVP": {
+    "description": "Marvipol Development SA to warszawski deweloper realizujący projekty mieszkaniowe i komercyjne, specjalizujący się w nieruchomościach premium w stolicy. Spółka jest znana z luksusowych apartamentowców w prestiżowych lokalizacjach Warszawy. Notowana na GPW w segmencie WIG.",
+    "sector": "Nieruchomości",
+    "founded": "1996",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "OEX": {
+    "description": "OEX SA to polska grupa świadcząca outsourcing sprzedaży, customer care i usług BPO dla dużych firm i sieci handlowych. Spółka zarządza kilkutysięcznym personelem obsługującym kampanie sprzedażowe, infolinie i merchandising. Notowana na GPW w segmencie WIG.",
+    "sector": "Usługi",
+    "founded": "1997",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "OND": {
+    "description": "Onde SA to spółka Grupy Erbud wyspecjalizowana w budowie farm wiatrowych i instalacji fotowoltaicznych jako generalny wykonawca projektów OZE. Spółka zrealizowała setki megawatów instalacji odnawialnych źródeł energii i jest jednym z wiodących EPC-contractors w sektorze OZE w Polsce. Notowana na GPW w segmencie WIG.",
+    "sector": "Energetyka",
+    "founded": "2015",
+    "headquarters": "Gdańsk",
+    "indices": ["WIG"]
+  },
+  "BLR": {
+    "description": "Biomed-Lublin SA to producent osoczopochodnych leków biologicznych, w tym albuminy, immunoglobulin i czynników krzepnięcia krwi, pozyskiwanych z ludzkiego osocza. Spółka jest jednym z nielicznych polskich producentów leków z krwi i zaopatruje służbę zdrowia w preparat do leczenia niedoborów odporności. Notowana na GPW w segmencie WIG.",
+    "sector": "Farmacja",
+    "founded": "1945",
+    "headquarters": "Lublin",
+    "indices": ["WIG"]
+  },
+  "OTS": {
+    "description": "OT Logistics SA to polska firma logistyczna świadcząca usługi transportu rzecznego, morskiego i intermodalnego w dorzeczu Odry i na obszarze Europy Środkowej. Spółka zarządza flotą barek rzecznych i terminalami przeładunkowymi nad Odrą. Notowana na GPW w segmencie WIG.",
+    "sector": "Logistyka",
+    "founded": "2003",
+    "headquarters": "Szczecin",
+    "indices": ["WIG"]
+  },
+  "TLX": {
+    "description": "Talex SA to polska firma IT świadcząca usługi centrum danych (colocation, hosting), integracji systemów i wdrożeń SAP dla przedsiębiorstw. Spółka jest jednym z poznańskich pionierów rynku IT i obsługuje klientów korporacyjnych i instytucjonalnych. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "1991",
+    "headquarters": "Poznań",
+    "indices": ["WIG"]
+  },
+  "ZMT": {
+    "description": "Zetkama SA to producent armatury przemysłowej — zaworów, zasuw, kształtek rurowych i elementów armaturowych stosowanych w przemyśle energetycznym, chemicznym i petrochemicznym. Spółka eksportuje swoje produkty do kilkudziesięciu krajów i jest dostawcą dla polskich elektrowni i rafinerii. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1889",
+    "headquarters": "Ścinawka Średnia",
+    "indices": ["WIG"]
+  },
+  "INT": {
+    "description": "INTROL SA to polska firma inżynieryjno-pomiarowa dostarczająca systemy automatyki, pomiarów przemysłowych i systemów sterowania dla sektora energetycznego i przemysłowego. Spółka jest integratorem zaawansowanych systemów SCADA i DCS dla polskich elektrowni i zakładów przemysłowych. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1989",
+    "headquarters": "Katowice",
+    "indices": ["WIG"]
+  },
+  "IZS": {
+    "description": "Izostal SA to producent rur stalowych z izolacją polietylenową i epoksydową stosowanych w budowie gazociągów i ropociągów. Spółka dostarcza izolowane rurociągi dla operatorów sieci przesyłowych gazu i ropy naftowej w Polsce i Europie. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "2001",
+    "headquarters": "Kolonowskie",
+    "indices": ["WIG"]
+  },
+  "KCI": {
+    "description": "KCI SA to polska spółka holdingowa posiadająca udziały w Krakchemia i innych podmiotach z sektora chemicznego i przemysłowego. Notowana na GPW w segmencie WIG.",
+    "sector": "Holding",
+    "founded": "1994",
+    "headquarters": "Kraków",
+    "indices": ["WIG"]
+  },
+  "LSI": {
+    "description": "LSI Software SA to producent systemów IT dla branży hotelarskiej i gastronomicznej (PMS, POS, CRM) oraz rozwiązań do zarządzania przedsiębiorstwem. Spółka obsługuje setki hoteli i restauracji w Polsce i krajach ościennych. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "1987",
+    "headquarters": "Łódź",
+    "indices": ["WIG"]
+  },
+  "MAK": {
+    "description": "Makarony Polskie SA to producent makaronów i dań gotowych opartych na mące, dostarczający produkty zarówno pod własną marką, jak i jako private label dla sieci handlowych. Spółka jest jednym z dużych polskich producentów makaronów i korzysta na rosnącym popycie na żywność convenience. Notowana na GPW w segmencie WIG.",
+    "sector": "Spożywczy",
+    "founded": "2001",
+    "headquarters": "Rzeszów",
+    "indices": ["WIG"]
+  },
+  "MIR": {
+    "description": "Miraculum SA to polska firma kosmetyczna z wieloletnią tradycją, oferująca produkty do pielęgnacji skóry i perfumy pod klasycznymi markami polskimi. Notowana na GPW w segmencie WIG.",
+    "sector": "Kosmetyki",
+    "founded": "1990",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "OBA": {
+    "description": "Orzeł Biały SA to producent wtórnego ołowiu i tworzyw sztucznych, przetwarzający zużyte akumulatory samochodowe na ołów wtórny dostarczany producentom nowych baterii. Spółka jest jednym z największych recyklerów akumulatorów w Europie Środkowej. Notowana na GPW w segmencie WIG.",
+    "sector": "Surowce",
+    "founded": "1990",
+    "headquarters": "Bytom",
+    "indices": ["WIG"]
+  },
+  "PLT": {
+    "description": "Poltreg SA to polska spółka biotechnologiczna prowadząca badania nad regulatorowymi limfocytami T (Treg) jako terapią tolerancyjną w cukrzycy typu 1 i transplantologii. Spółka prowadzi przełomowe badania kliniczne z udziałem pacjentów z nowo zdiagnozowaną cukrzycą. Notowana na GPW w segmencie WIG.",
+    "sector": "Biotechnologia",
+    "founded": "2013",
+    "headquarters": "Gdańsk",
+    "indices": ["WIG"]
+  },
+  "PUR": {
+    "description": "Pure Biologics SA to polska firma biotechnologiczna rozwijająca innowacyjne biologiki i narzędzia badawcze dla odkrywania leków, w tym miniciała i nanocząsteczki do zastosowań terapeutycznych i diagnostycznych. Notowana na GPW w segmencie WIG.",
+    "sector": "Biotechnologia",
+    "founded": "2010",
+    "headquarters": "Wrocław",
+    "indices": ["WIG"]
+  },
+  "RNK": {
+    "description": "Rank Progress SA to deweloper i zarządca nieruchomości komercyjnych, specjalizujący się w budowie i wynajmie centrów handlowych i parków handlowych w mniejszych miastach Polski. Notowana na GPW w segmencie WIG.",
+    "sector": "Nieruchomości",
+    "founded": "2001",
+    "headquarters": "Legnica",
+    "indices": ["WIG"]
+  },
+  "TEO": {
+    "description": "Tele-Fonika Kable SA to jeden z największych europejskich producentów kabli elektroenergetycznych, telekomunikacyjnych i specjalnych, z zakładami w Polsce, Francji i Wielkiej Brytanii. Spółka dostarcza kable dla energetyki, kolejnictwa, przemysłu i budownictwa na rynki europejskie i globalne. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1990",
+    "headquarters": "Kraków",
+    "indices": ["WIG"]
+  },
+  "WIK": {
+    "description": "Wikana SA to lubelski deweloper mieszkaniowy realizujący projekty mieszkaniowe w Lublinie i okolicach. Spółka jest jednym ze stabilnych regionalnych deweloperów na rynku wschodniej Polski. Notowana na GPW w segmencie WIG.",
+    "sector": "Nieruchomości",
+    "founded": "1994",
+    "headquarters": "Lublin",
+    "indices": ["WIG"]
+  },
+  "PHR": {
+    "description": "Pharmena SA to polska firma biotechnologiczna rozwijająca leki oparte na pochodnych nikotynamidu w terapii chorób sercowo-naczyniowych i metabolicznych. Spółka prowadzi badania kliniczne nad związkami 1-metylonikotynamidu (1-MNA). Notowana na GPW w segmencie WIG.",
+    "sector": "Biotechnologia",
+    "founded": "2004",
+    "headquarters": "Łódź",
+    "indices": ["WIG"]
+  },
+  "4FM": {
+    "description": "4Fun Media SA to polska spółka medialna, właściciel kanałów muzycznych 4fun.tv i Gold, emitujących muzykę polską i zagraniczną dla młodej widowni. Spółka produkuje również programy rozrywkowe i realizuje projekty contentowe dla mediów społecznościowych. Notowana na GPW w segmencie WIG.",
+    "sector": "Media",
+    "founded": "2004",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "SCP": {
+    "description": "Scope Fluidics SA to polska spółka biotechnologiczna i medtech, twórca innowacyjnych systemów diagnostyki molekularnej PCR|ONE do szybkiej diagnostyki chorób zakaźnych bezpośrednio przy łóżku pacjenta (point-of-care). Spółka sprzedała swoją technologię globalnemu partnerowi i pracuje nad kolejnymi produktami diagnostycznymi. Notowana na GPW w segmencie WIG.",
+    "sector": "Biotechnologia",
+    "founded": "2009",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "DPL": {
+    "description": "Drozapol-Profil SA to producent i dystrybutor profili stalowych, rur i wyrobów hutniczych, obsługujący branżę budowlaną i przemysłową w Polsce. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1992",
+    "headquarters": "Bydgoszcz",
+    "indices": ["WIG"]
+  },
+  "PJP": {
+    "description": "PJP Makrum SA to producent maszyn i urządzeń przemysłowych, w tym przenośników, dozowników i specjalistycznych maszyn dla przemysłu cementowego, wapienniczego i budowlanego. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1923",
+    "headquarters": "Bydgoszcz",
+    "indices": ["WIG"]
+  },
+  "RAF": {
+    "description": "Rafamet SA to producent obrabiarek do metali — toczarek karuzelowych i poziomych do dużych, ciężkich detali dla przemysłu energetycznego, kolejowego i lotniczego. Spółka eksportuje swoje maszyny do kilkudziesięciu krajów i jest jednym z niewielu europejskich producentów tak specjalistycznych obrabiarek. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1936",
+    "headquarters": "Kuźnia Raciborska",
+    "indices": ["WIG"]
+  },
+  "SEL": {
+    "description": "Selena FM SA to producent chemii budowlanej — piankowych uszczelniaczy, silikonów, klejów i preparatów do izolacji — sprzedawanych pod markami Tytan Professional i Quilosa w ponad 70 krajach. Spółka jest jednym z globalnych liderów w segmencie pianek montażowych i silikonów budowlanych. Notowana na GPW w segmencie WIG.",
+    "sector": "Chemia",
+    "founded": "1992",
+    "headquarters": "Toruń",
+    "indices": ["WIG"]
+  },
+  "STA": {
+    "description": "Stalexport Autostrady SA to operator odcinka autostrady A4 Mysłowice–Rzeszów, zarządzający płatnym autostradowym odcinkiem w konurbacji górnośląskiej. Spółka pobiera opłaty za przejazd i utrzymuje infrastrukturę autostrady w ramach długoletniej koncesji. Notowana na GPW w segmencie WIG.",
+    "sector": "Infrastruktura",
+    "founded": "2003",
+    "headquarters": "Mysłowice",
+    "indices": ["WIG"]
+  },
+  "TRR": {
+    "description": "Trans Polonia SA to operator logistyczny specjalizujący się w transporcie cysternowym płynnych ładunków chemicznych i petrochemicznych w Polsce i Europie. Spółka dysponuje taborem cystern drogowych i kolejowych oraz terminale magazynowania cieczy. Notowana na GPW w segmencie WIG.",
+    "sector": "Logistyka",
+    "founded": "2001",
+    "headquarters": "Tczew",
+    "indices": ["WIG"]
+  },
+  "LBT": {
+    "description": "Libet SA to producent kostki brukowej, płyt chodnikowych i elementów małej architektury z betonu, oferujący szerokie portfolio produktów dla budownictwa drogowego i ogrodowego. Spółka dostarcza wyroby dla deweloperów, samorządów i klientów indywidualnych. Notowana na GPW w segmencie WIG.",
+    "sector": "Budownictwo",
+    "founded": "2007",
+    "headquarters": "Wrocław",
+    "indices": ["WIG"]
+  },
+  "UNT": {
+    "description": "Unima 2000 SA to polska firma IT specjalizująca się w integracji sieci telekomunikacyjnych i systemach teleinformatycznych dla sektora publicznego i korporacyjnego. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "1990",
+    "headquarters": "Kraków",
+    "indices": ["WIG"]
+  },
+  "KBJ": {
+    "description": "KBJ SA to polska spółka technologiczna świadcząca usługi doradztwa IT i wdrożeń systemów zarządzania (SAP, ERP) dla średnich i dużych przedsiębiorstw. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "1991",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "EFE": {
+    "description": "Efekt SA to polska spółka z sektora usług pośrednictwa finansowego i doradztwa. Notowana na GPW w segmencie WIG.",
+    "sector": "Finanse",
+    "founded": "1997",
+    "headquarters": "Kraków",
+    "indices": ["WIG"]
+  },
+  "GOB": {
+    "description": "Gobarto SA (dawniej PKM Duda) to jeden z największych polskich producentów przetworów mięsnych i wieprzowiny, właściciel zakładów ubojowych i przetwórczych. Spółka jest jednym z czołowych polskich eksporterów mięsa wieprzowego i dostarcza wyroby dla sieci handlowych. Notowana na GPW w segmencie WIG.",
+    "sector": "Spożywczy",
+    "founded": "1990",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "PNO": {
+    "description": "Polnord SA to deweloper mieszkaniowy działający głównie w Trójmieście i Warszawie, realizujący projekty mieszkaniowe różnych standardów. Spółka ma długą historię na polskim rynku deweloperskim i przechodzi restrukturyzację portfela projektów. Notowana na GPW w segmencie WIG.",
+    "sector": "Nieruchomości",
+    "founded": "1997",
+    "headquarters": "Gdańsk",
+    "indices": ["WIG"]
+  },
+  "FRG": {
+    "description": "Ferro Gaz (Fredropol) SA to spółka z sektora paliwowego i dystrybucji gazu LPG dla klientów przemysłowych i stacji autogazu. Notowana na GPW w segmencie WIG.",
+    "sector": "Energetyka",
+    "founded": "1997",
+    "headquarters": "Przemyśl",
+    "indices": ["WIG"]
+  },
+  "PHO": {
+    "description": "Photon Energy NV to holenderska spółka z sektora energii słonecznej, posiadająca i eksploatująca farmy fotowoltaiczne głównie w Polsce, Australii i Europie Środkowej oraz świadcząca usługi O&M dla farm solarnych. Notowana na GPW w segmencie WIG.",
+    "sector": "Energetyka",
+    "founded": "2008",
+    "headquarters": "Amsterdam",
+    "indices": ["WIG"]
+  },
+  "ASS": {
+    "description": "Assetus SA to polska spółka inwestycyjna zarządzająca portfelem nieruchomości komercyjnych i mieszkaniowych. Notowana na GPW w segmencie WIG.",
+    "sector": "Nieruchomości",
+    "founded": "2007",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "SWD": {
+    "description": "Świdnicka Fabryka Urządzeń Przemysłowych (ŚFUP) SA to producent urządzeń przemysłowych — zbiorników, aparatury chemicznej i konstrukcji stalowych dla przemysłu chemicznego i spożywczego. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1954",
+    "headquarters": "Świdnica",
+    "indices": ["WIG"]
+  },
+  "PEN": {
+    "description": "Peniol SA to spółka z sektora dystrybucji paliw i oleju napędowego dla klientów przemysłowych i rolniczych. Notowana na GPW w segmencie WIG.",
+    "sector": "Energetyka",
+    "founded": "2003",
+    "headquarters": "Nowy Sącz",
+    "indices": ["WIG"]
+  },
+  "GEO": {
+    "description": "Geotrans SA to firma z sektora transportu i logistyki, świadcząca usługi przewozów drogowych i obsługi łańcucha dostaw. Notowana na GPW w segmencie WIG.",
+    "sector": "Logistyka",
+    "founded": "1999",
+    "headquarters": "Poznań",
+    "indices": ["WIG"]
+  },
+  "ABM": {
+    "description": "ABM Solid SA to polska firma budowlana realizująca projekty mieszkaniowe i komercyjne w Tarnowie i okolicach. Notowana na GPW w segmencie WIG.",
+    "sector": "Budownictwo",
+    "founded": "1990",
+    "headquarters": "Tarnów",
+    "indices": ["WIG"]
+  },
+  "HUB": {
+    "description": "Hub.Tech SA to polska spółka technologiczna zajmująca się rozwiązaniami z zakresu Internetu Rzeczy (IoT) i automatyzacji dla przemysłu i inteligentnych budynków. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "2015",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "WAS": {
+    "description": "Wasko SA to polska firma IT i telekomunikacyjna świadcząca usługi budowy sieci telekomunikacyjnych, systemów IT dla sektora publicznego i bezpieczeństwo teleinformatyczne. Spółka obsługuje sektor energetyczny, koleje i administrację publiczną. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "1998",
+    "headquarters": "Gliwice",
+    "indices": ["WIG"]
+  },
+  "SGP": {
+    "description": "Stelmet SA to jeden z największych polskich producentów wyrobów drewnianych do ogrodu — pergoli, altan, domków drewnianych, mebli ogrodowych i ogrodzeń, sprzedawanych w sieciach DIY i ogrodniczych w całej Europie. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1990",
+    "headquarters": "Zielona Góra",
+    "indices": ["WIG"]
+  },
+  "PWX": {
+    "description": "Pragma Inkaso SA to polska firma windykacyjna i faktoringowa, specjalizująca się w windykacji należności handlowych B2B i faktoringu dla małych i średnich przedsiębiorstw. Notowana na GPW w segmencie WIG.",
+    "sector": "Finanse",
+    "founded": "2002",
+    "headquarters": "Tarnowskie Góry",
+    "indices": ["WIG"]
+  },
+  "RDN": {
+    "description": "Redan SA to polska firma modowa, producent i operator sieci sklepów odzieżowych z odzieżą dyskontową pod markami Top Secret i Troll, działający w Polsce i krajach Europy Środkowej. Notowana na GPW w segmencie WIG.",
+    "sector": "Handel",
+    "founded": "1996",
+    "headquarters": "Łódź",
+    "indices": ["WIG"]
+  },
+  "INW": {
+    "description": "Inwazja SA to polska spółka medialna i eventowa, organizator festiwali muzycznych i projektów contentowych skierowanych do młodej widowni. Notowana na GPW w segmencie WIG.",
+    "sector": "Media",
+    "founded": "2005",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "ACG": {
+    "description": "Acautogama SA to spółka z sektora motoryzacyjnego, prowadząca działalność dealerską i serwisową w obszarze samochodów osobowych. Notowana na GPW w segmencie WIG.",
+    "sector": "Motoryzacja",
+    "founded": "2002",
+    "headquarters": "Warszawa",
+    "indices": ["WIG"]
+  },
+  "MWT": {
+    "description": "MaWo Technology SA to polska firma technologiczna z sektora oprogramowania przemysłowego i automatyki. Notowana na GPW w segmencie WIG.",
+    "sector": "Technologia",
+    "founded": "2010",
+    "headquarters": "Wrocław",
+    "indices": ["WIG"]
+  },
+  "CDA": {
+    "description": "CDA SA to operator polskiej platformy VOD CDA.pl — jednej z największych krajowych platform wideo on demand, oferującej filmy, seriale i treści dla dorosłych. Spółka jest jedynym polskim VOD z sukcesem w segmencie płatnych abonamentów i konkuruje z serwisami zagranicznymi na rynku polskim. Notowana na GPW w segmencie WIG.",
+    "sector": "Media",
+    "founded": "2009",
+    "headquarters": "Wrocław",
+    "indices": ["WIG"]
+  },
+  "SNG": {
+    "description": "Sunreef Yachts SA to producent luksusowych katamaranów żaglowych i motorowych oraz katamaranów elektrycznych i solarnych, będący jednym z wiodących polskich eksporterów z sektora premium. Spółka z Gdańska dostarcza jachty do najbogatszych klientów na całym świecie i jest pionierem elektrycznych superjachtów. Notowana na GPW w segmencie WIG.",
+    "sector": "Przemysł",
+    "founded": "1998",
+    "headquarters": "Gdańsk",
+    "indices": ["WIG"]
+  },
+  "PGM": {
+    "description": "PGE Obrót SA to spółka z Grupy PGE zajmująca się obrotem i sprzedażą energii elektrycznej do klientów indywidualnych i biznesowych. Notowana na GPW w segmencie WIG.",
+    "sector": "Energetyka",
+    "founded": "2007",
+    "headquarters": "Rzeszów",
+    "indices": ["WIG"]
   }
 }
