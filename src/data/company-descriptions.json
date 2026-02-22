@@ -208,5 +208,236 @@
     "founded": "1993",
     "headquarters": "Jastrzębie-Zdrój",
     "indices": ["mWIG40"]
+  },
+  "ALR": {
+    "description": "Alior Bank to jeden z najmłodszych dużych banków komercyjnych w Polsce, założony w 2008 roku z ambicją budowy nowoczesnej instytucji finansowej opartej na technologii. Bank szybko zdobył pozycję rynkową dzięki agresywnej polityce cenowej i innowacyjnym produktom cyfrowym, a w 2015 roku przejął T-Mobile Usługi Bankowe. Kontrolowany przez PZU SA, Alior obsługuje ponad 4 miliony klientów detalicznych i biznesowych. Spółka wchodzi w skład indeksu WIG20.",
+    "sector": "Banki",
+    "founded": "2008",
+    "headquarters": "Warszawa",
+    "indices": ["WIG20"]
+  },
+  "ZAB": {
+    "description": "Żabka Group to największa sieć sklepów convenience w Europie Środkowej, operująca ponad 10 000 punktów sprzedaży w Polsce w modelu franczyzowym. Spółka wyróżnia się ultrabliskością — sklepy Żabka znajdują się w promieniu kilku minut od większości Polaków w miastach. Żabka zadebiutowała na GPW w październiku 2024 roku w jednym z największych IPO w historii polskiego rynku i dynamicznie rozwija ofertę gotowych posiłków oraz usług dodatkowych. Wchodzi w skład indeksu WIG20.",
+    "sector": "Handel",
+    "founded": "1998",
+    "headquarters": "Poznań",
+    "indices": ["WIG20"]
+  },
+  "11B": {
+    "description": "11 bit studios to polskie studio gier wideo znane z tworzenia głębokich, emocjonalnych produkcji, w tym wielokrotnie nagradzanej gry This War of Mine oraz serii Frostpunk. This War of Mine była pierwszą grą wideo wpisaną na listę lektur szkolnych w Polsce, a Frostpunk 2 kontynuuje tradycję gatunku city-survival. Spółka łączy autorskie podejście do tworzenia gier z działalnością wydawniczą wspierającą niezależnych deweloperów. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Gry",
+    "founded": "2009",
+    "headquarters": "Warszawa",
+    "indices": ["mWIG40"]
+  },
+  "ACP": {
+    "description": "Asseco Poland to największa polska firma informatyczna i jeden z czołowych producentów oprogramowania w Europie, dostarczający systemy IT dla bankowości, ubezpieczeń, administracji publicznej i przedsiębiorstw. Grupa Asseco działa w ponad 60 krajach poprzez spółki zależne, w tym Asseco South Eastern Europe i Asseco Central Europe. Spółka jest kluczowym dostawcą systemów bankowych i rozwiązań ERP na rynkach Europy Środkowej i Wschodniej. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Technologia",
+    "founded": "1991",
+    "headquarters": "Rzeszów",
+    "indices": ["mWIG40"]
+  },
+  "APR": {
+    "description": "Auto Partner to wiodący dystrybutor części zamiennych do samochodów osobowych i dostawczych w Polsce, obsługujący sieć warsztatów i sklepów motoryzacyjnych w całym kraju. Spółka operuje rozbudowaną sieć magazynów i oferuje ponad 300 000 pozycji katalogowych od czołowych producentów części. Auto Partner wyróżnia się dynamicznym wzrostem przychodów i ekspansją na rynki zagraniczne, w tym do Europy Zachodniej. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Motoryzacja",
+    "founded": "1993",
+    "headquarters": "Bieruń",
+    "indices": ["mWIG40"]
+  },
+  "ASB": {
+    "description": "ASBISc Enterprises to jeden z największych dystrybutorów produktów IT w regionie EMEA, oferujący sprzęt komputerowy, komponenty i rozwiązania IT od wiodących producentów globalnych. Spółka z siedzibą na Cyprze operuje w ponad 60 krajach, ze szczególnie silną pozycją w Europie Środkowej, Wschodniej i krajach byłego ZSRR. ASBIS rozwija również własne marki produktowe, w tym Prestigio i Canyon. Notowana jest w indeksie mWIG40.",
+    "sector": "Technologia",
+    "founded": "1990",
+    "headquarters": "Limassol",
+    "indices": ["mWIG40"]
+  },
+  "ASE": {
+    "description": "Asseco South Eastern Europe to spółka technologiczna z Grupy Asseco, specjalizująca się w dostarczaniu oprogramowania bankowego, płatniczego i ERP na rynkach Europy Południowo-Wschodniej. Firma działa w kilkunastu krajach regionu, w tym w Serbii, Chorwacji, Rumunii, Turcji i Kolumbii, obsługując banki, instytucje finansowe i przedsiębiorstwa. ASEE jest notowana zarówno na GPW w Warszawie, jak i na giełdzie w Lublanie. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Technologia",
+    "founded": "2007",
+    "headquarters": "Rzeszów",
+    "indices": ["mWIG40"]
+  },
+  "BFT": {
+    "description": "Benefit Systems to lider rynku pozapłacowych świadczeń pracowniczych w Polsce, znany przede wszystkim z karty sportowej MultiSport, z której korzystają miliony użytkowników. Spółka zarządza również siecią własnych klubów fitness (w tym Zdrofit i My Fitness Place) oraz platformą kafeteryjną MyBenefit do zarządzania benefitami pracowniczymi. Benefit Systems ekspanduje na rynki Europy Środkowej, w tym do Czech, Bułgarii i Chorwacji. Wchodzi w skład indeksu mWIG40.",
+    "sector": "HR/Benefity",
+    "founded": "2004",
+    "headquarters": "Warszawa",
+    "indices": ["mWIG40"]
+  },
+  "BHW": {
+    "description": "Bank Handlowy w Warszawie (Citi Handlowy) to jeden z najstarszych banków komercyjnych w Polsce, założony w 1870 roku, będący częścią globalnej Grupy Citigroup. Bank specjalizuje się w bankowości korporacyjnej i inwestycyjnej oraz w obsłudze klientów zamożnych (Citigold). Citi Handlowy jest jednym z głównych banków obsługujących międzynarodowe korporacje działające w Polsce i pełni rolę dealera skarbowych papierów wartościowych. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Banki",
+    "founded": "1870",
+    "headquarters": "Warszawa",
+    "indices": ["mWIG40"]
+  },
+  "CAR": {
+    "description": "Inter Cars to największy dystrybutor części zamiennych do samochodów w Europie Środkowej i jeden z czołowych w całej Europie, operujący sieć ponad 600 filii w kilkunastu krajach. Spółka oferuje ponad milion pozycji katalogowych i obsługuje warsztaty mechaniczne, blacharsko-lakiernicze i floty pojazdów. Inter Cars wyróżnia się zaawansowanym systemem logistycznym zapewniającym dostawy części w ciągu kilku godzin. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Motoryzacja",
+    "founded": "1990",
+    "headquarters": "Warszawa",
+    "indices": ["mWIG40"]
+  },
+  "CMR": {
+    "description": "Comarch to polska firma informatyczna specjalizująca się w tworzeniu i wdrażaniu systemów IT dla telekomunikacji, bankowości, handlu i administracji publicznej. Spółka jest jednym z największych polskich eksporterów oprogramowania, z oddziałami w kilkudziesięciu krajach na wszystkich kontynentach. Comarch jest również znanym sponsorem sportu — wspiera drużynę kolarską oraz klub piłkarski Cracovia. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Technologia",
+    "founded": "1993",
+    "headquarters": "Kraków",
+    "indices": ["mWIG40"]
+  },
+  "COG": {
+    "description": "Cognor Holding to polska grupa przemysłowa specjalizująca się w produkcji stali i wyrobów hutniczych, operująca huty elektryczne i walcownie w Polsce. Spółka przetwarza złom stalowy na produkty gotowe — pręty, kątowniki i profile — dostarczane głównie do sektora budowlanego i infrastrukturalnego. Cognor jest jednym z głównych polskich producentów stali długiej i zyskuje na rosnącym popycie infrastrukturalnym. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Przemysł",
+    "founded": "1991",
+    "headquarters": "Mysłowice",
+    "indices": ["mWIG40"]
+  },
+  "DIAG": {
+    "description": "Diagnostyka SA to największa prywatna sieć laboratoriów medycznych w Polsce, wykonująca badania diagnostyczne dla szpitali, przychodni i pacjentów indywidualnych. Spółka operuje setki punktów pobrań w całym kraju i przetwarza miliony badań rocznie, oferując diagnostykę laboratoryjną, mikrobiologiczną i genetyczną. Diagnostyka zadebiutowała na GPW w 2024 roku i szybko weszła do składu indeksu mWIG40.",
+    "sector": "Medycyna",
+    "founded": "1998",
+    "headquarters": "Kraków",
+    "indices": ["mWIG40"]
+  },
+  "DOM": {
+    "description": "Dom Development to jeden z największych deweloperów mieszkaniowych w Polsce, działający głównie na rynku warszawskim, trójmiejskim i wrocławskim. Spółka specjalizuje się w budowie osiedli mieszkaniowych o podwyższonym standardzie i jest ceniona za terminowość realizacji inwestycji. Dom Development jest jednym z najbardziej rentownych deweloperów na polskim rynku i regularnie wypłaca wysokie dywidendy. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Nieruchomości",
+    "founded": "1999",
+    "headquarters": "Warszawa",
+    "indices": ["mWIG40"]
+  },
+  "DVL": {
+    "description": "Develia (dawniej LC Corp) to ogólnopolski deweloper mieszkaniowy realizujący inwestycje w kilkunastu miastach Polski, w tym w Warszawie, Wrocławiu, Poznaniu, Gdańsku i Sosnowcu. Spółka przeszła transformację strategiczną — wyszła z segmentu nieruchomości komercyjnych i skoncentrowała się wyłącznie na budownictwie mieszkaniowym. Develia jest jednym z największych deweloperów pod względem liczby sprzedawanych mieszkań rocznie. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Nieruchomości",
+    "founded": "2007",
+    "headquarters": "Wrocław",
+    "indices": ["mWIG40"]
+  },
+  "EAT": {
+    "description": "AmRest Holdings to największy niezależny operator restauracji w Europie Środkowej i Wschodniej, zarządzający markami KFC, Pizza Hut, Burger King, Starbucks i własnymi konceptami (La Tagliatella, Sushi Shop). Spółka operuje ponad 2000 restauracji w kilkunastu krajach, głównie na zasadzie licencji franczyzowych od globalnych marek. AmRest jest notowany na GPW pod tickerem EAT i jest kontrolowany przez fundusz inwestycyjny. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Restauracje",
+    "founded": "1993",
+    "headquarters": "Madryt",
+    "indices": ["mWIG40"]
+  },
+  "ECH": {
+    "description": "Echo Investment to jeden z największych polskich deweloperów nieruchomości komercyjnych i mieszkaniowych, specjalizujący się w projektach wielofunkcyjnych łączących biura, mieszkania i handel. Spółka zrealizowała wiele ikonicznych projektów w polskich miastach, w tym kompleksy Browary Warszawskie i Fuzja w Łodzi. Echo Investment jest częścią grupy kapitałowej kontrolowanej przez węgierski fundusz inwestycyjny Griffin i firmę PIMCO. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Nieruchomości",
+    "founded": "1996",
+    "headquarters": "Kielce",
+    "indices": ["mWIG40"]
+  },
+  "EUR": {
+    "description": "Eurocash to największy w Polsce hurtowy dystrybutor produktów FMCG, zaopatrujący niezależne sklepy detaliczne, stacje paliw i gastronomię. Spółka zarządza sieciami franczyzowymi (abc, Groszek, Lewiatan, Euro Sklep) zrzeszającymi tysiące małych sklepów oraz operuje platformami cash & carry. Eurocash pełni kluczową rolę w polskim handlu tradycyjnym, konkurując z ekspansją dyskontów. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Handel",
+    "founded": "1995",
+    "headquarters": "Komorniki",
+    "indices": ["mWIG40"]
+  },
+  "GTC": {
+    "description": "Globe Trade Centre to międzynarodowy deweloper i właściciel nieruchomości komercyjnych w Europie Środkowej i Południowo-Wschodniej, zarządzający portfelem biurowców i centrów handlowych. Spółka działa w Polsce, Rumunii, Chorwacji, Serbii, Bułgarii i na Węgrzech, a jej aktywa obejmują zarówno biura klasy A, jak i nowoczesne obiekty handlowe. GTC jest kontrolowany przez węgierski fundusz Optima i jest notowany na GPW w Warszawie. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Nieruchomości",
+    "founded": "1994",
+    "headquarters": "Warszawa",
+    "indices": ["mWIG40"]
+  },
+  "HUG": {
+    "description": "Huuuge Inc. to międzynarodowy producent gier mobilnych typu social casino i casual, z główną siedzibą w Warszawie i studiami deweloperskimi w kilku krajach. Spółka tworzy gry free-to-play oparte na modelu monetyzacji mikrotransakcjami, z flagowym tytułem Huuuge Casino Slots. Huuuge zadebiutowało na GPW w 2021 roku i koncentruje się na rynkach północnoamerykańskim i europejskim. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Gry",
+    "founded": "2014",
+    "headquarters": "Warszawa",
+    "indices": ["mWIG40"]
+  },
+  "ING": {
+    "description": "ING Bank Śląski to jeden z największych banków uniwersalnych w Polsce, będący częścią holenderskiej Grupy ING — globalnej instytucji finansowej. Bank obsługuje miliony klientów detalicznych i biznesowych, wyróżniając się zaawansowaną bankowością mobilną i cyfrową. ING Bank Śląski jest regularnie nagradzany za jakość obsługi klienta i innowacje technologiczne w sektorze bankowym. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Banki",
+    "founded": "1988",
+    "headquarters": "Katowice",
+    "indices": ["mWIG40"]
+  },
+  "LBW": {
+    "description": "Lubawa SA to polski producent wyrobów dla sektora obronnego i bezpieczeństwa, specjalizujący się w kamizelkach kuloodpornych, namiotach wojskowych, spadochronach i sprzęcie taktycznym. Spółka jest kluczowym dostawcą dla Sił Zbrojnych RP i NATO, a jej produkty trafiają również na rynki eksportowe. Lubawa korzysta na zwiększonych wydatkach obronnych Polski i programach modernizacji armii. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Obronność",
+    "founded": "1951",
+    "headquarters": "Lubawa",
+    "indices": ["mWIG40"]
+  },
+  "NEU": {
+    "description": "Neuca SA to największy hurtowy dystrybutor farmaceutyczny w Polsce, dostarczający leki i produkty medyczne do aptek w całym kraju. Spółka zarządza siecią magazynów farmaceutycznych zapewniających dostawy kilka razy dziennie i obsługuje tysiące aptek, w tym sieci własne (Gemini, Dr.Max). Neuca rozwija również usługi telemedyczne i platformy cyfrowe dla sektora zdrowia. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Farmacja",
+    "founded": "1990",
+    "headquarters": "Toruń",
+    "indices": ["mWIG40"]
+  },
+  "NWG": {
+    "description": "Newag SA to polski producent taboru kolejowego, wytwarzający lokomotywy elektryczne i spalinowe, elektryczne zespoły trakcyjne oraz pojazdy dla metra. Spółka jest jednym z dwóch głównych krajowych producentów pojazdów szynowych i realizuje kontrakty dla przewoźników regionalnych, PKP Intercity oraz operatorów zagranicznych. Newag dostarcza również pojazdy dla warszawskiego i krakowskiego metra. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Przemysł",
+    "founded": "1876",
+    "headquarters": "Nowy Sącz",
+    "indices": ["mWIG40"]
+  },
+  "PEP": {
+    "description": "Polenergia SA to największy polski prywatny koncern energetyczny specjalizujący się w energetyce odnawialnej, posiadający farmy wiatrowe lądowe i fotowoltaiczne oraz rozwijający projekty morskich farm wiatrowych na Bałtyku. Spółka jest pionierem zielonej energii w Polsce i jednym z największych wytwórców energii z OZE w kraju. Polenergia prowadzi również działalność w segmencie obrotu energią i gazem. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Energetyka",
+    "founded": "2011",
+    "headquarters": "Warszawa",
+    "indices": ["mWIG40"]
+  },
+  "PRC": {
+    "description": "Grupa Pracuj to właściciel serwisu Pracuj.pl — największego portalu rekrutacyjnego w Polsce i jednego z wiodących w Europie Środkowej. Spółka oferuje usługi publikacji ofert pracy, narzędzia rekrutacyjne dla pracodawców oraz platformę do zarządzania procesami HR. Pracuj.pl obsługuje miliony użytkowników miesięcznie i jest dominującym graczem na polskim rynku rekrutacji online. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Technologia",
+    "founded": "2000",
+    "headquarters": "Warszawa",
+    "indices": ["mWIG40"]
+  },
+  "STP": {
+    "description": "Stalprodukt to czołowy polski producent wyrobów ze stali transformatorowej i blach elektrotechnicznych, dostarczający komponenty dla przemysłu energetycznego i elektrycznego. Spółka jest jednym z nielicznych europejskich producentów rdzeni transformatorowych i blach izotropowych, eksportując swoje wyroby do kilkudziesięciu krajów. Stalprodukt zarządza również infrastrukturą drogową (odcinek autostrady A4) w ramach koncesji. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Przemysł",
+    "founded": "1991",
+    "headquarters": "Bochnia",
+    "indices": ["mWIG40"]
+  },
+  "STS": {
+    "description": "STS Holding to największy operator zakładów bukmacherskich w Polsce, oferujący zakłady sportowe online i w sieci punktów stacjonarnych. Spółka posiada kilkusetną sieć punktów przyjmowania zakładów oraz rozwija platformę internetową i aplikację mobilną. STS zadebiutował na GPW w 2021 roku i jest liderem polskiego rynku zakładów wzajemnych pod względem udziału rynkowego. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Rozrywka",
+    "founded": "2007",
+    "headquarters": "Warszawa",
+    "indices": ["mWIG40"]
+  },
+  "TEN": {
+    "description": "Ten Square Games to polski producent gier mobilnych, znany przede wszystkim z globalnie popularnej gry wędkarskiej Fishing Clash, która zgromadziła dziesiątki milionów pobrań. Spółka specjalizuje się w grach free-to-play opartych na modelu live-service z regularną aktualizacją treści i wydarzeń sezonowych. Ten Square Games rozwija portfolio gier mobilnych i eksperymentuje z nowymi gatunkami. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Gry",
+    "founded": "2011",
+    "headquarters": "Wrocław",
+    "indices": ["mWIG40"]
+  },
+  "TXT": {
+    "description": "Text SA (dawniej LiveChat Software) to polska spółka technologiczna, twórca globalnie rozpoznawalnych produktów SaaS: LiveChat (obsługa klienta przez czat), ChatBot (automatyzacja konwersacji AI) i HelpDesk (system ticketowy). Produkty spółki obsługują dziesiątki tysięcy firm na całym świecie, generując przychody głównie w dolarach. Text SA wyróżnia się wysoką rentownością i modelem biznesowym opartym na subskrypcjach. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Technologia",
+    "founded": "2002",
+    "headquarters": "Wrocław",
+    "indices": ["mWIG40"]
+  },
+  "VRC": {
+    "description": "Vercom SA to polska spółka technologiczna specjalizująca się w komunikacji cyfrowej i usługach chmurowych, oferująca platformy do masowej wysyłki wiadomości e-mail, SMS i push dla biznesu. Spółka jest właścicielem m.in. EmailLabs, SMSAPI i szeregu narzędzi marketing automation, obsługując tysiące klientów korporacyjnych. Vercom rozwija się dynamicznie poprzez przejęcia i ekspansję na rynki międzynarodowe. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Technologia",
+    "founded": "2002",
+    "headquarters": "Poznań",
+    "indices": ["mWIG40"]
+  },
+  "VOX": {
+    "description": "Voxel SA to polska spółka specjalizująca się w diagnostyce obrazowej, operująca sieć pracowni rezonansu magnetycznego (MRI), tomografii komputerowej (CT) i PET-CT w szpitalach i przychodniach. Spółka działa w modelu outsourcingu usług diagnostycznych — dostarcza sprzęt, personel i zarządza pracowniami na terenie placówek medycznych w całej Polsce. Voxel jest jednym z największych prywatnych operatorów diagnostyki obrazowej w kraju. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Medycyna",
+    "founded": "2005",
+    "headquarters": "Kraków",
+    "indices": ["mWIG40"]
+  },
+  "WPL": {
+    "description": "Wirtualna Polska Holding to największa polska grupa mediowa w internecie, właściciel portalu wp.pl — jednego z najczęściej odwiedzanych serwisów w Polsce. Spółka łączy działalność mediowo-reklamową z segmentem e-commerce, posiadając udziały w portalach turystycznych (Wakacje.pl, Nocowanie.pl) i motoryzacyjnych (Autoklass). WP generuje przychody z reklamy cyfrowej, sprzedaży leadów i prowizji transakcyjnych. Wchodzi w skład indeksu mWIG40.",
+    "sector": "Media",
+    "founded": "1995",
+    "headquarters": "Warszawa",
+    "indices": ["mWIG40"]
   }
 }
