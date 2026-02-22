@@ -206,9 +206,8 @@ export default async function handler(req, res) {
             if (q.marketCap) stock.cap = Math.round(q.marketCap / 1e6);
             if (q.trailingPE) stock.pe = parseFloat(q.trailingPE.toFixed(1));
             if (q.dividendYield != null && q.dividendYield > 0) {
-              // Yahoo returns yield as decimal (0.051 = 5.1%)
-              const pct = q.dividendYield > 1 ? q.dividendYield : q.dividendYield * 100;
-              stock.div = parseFloat(pct.toFixed(1));
+              // Yahoo v7/finance/quote returns yield already as percentage (e.g. 5.1 = 5.1%)
+              stock.div = parseFloat(q.dividendYield.toFixed(2));
             }
           }
         }
