@@ -4,6 +4,8 @@ import { useIsMobile } from "../hooks/useIsMobile.js";
 import Icon from "../components/edukacja/Icon.jsx";
 import GlossaryCalculator from "../components/edukacja/GlossaryCalculator.jsx";
 import GlossaryLiveData from "../components/edukacja/GlossaryLiveData.jsx";
+import GlossaryQuiz from "../components/edukacja/GlossaryQuiz.jsx";
+import DidYouKnow from "../components/edukacja/DidYouKnow.jsx";
 import glossaryData from "../data/glossary.json";
 
 const CATEGORY_LABELS = {
@@ -140,6 +142,12 @@ export default function GlossaryTerm({ theme }) {
 
       {/* Live data */}
       {entry.liveDataType && <GlossaryLiveData liveDataType={entry.liveDataType} theme={theme} />}
+
+      {/* Quiz */}
+      {entry.quiz && <GlossaryQuiz quiz={entry.quiz} theme={theme} />}
+
+      {/* Did you know */}
+      {entry.didYouKnow && <DidYouKnow text={entry.didYouKnow} theme={theme} />}
 
       {/* Example callout */}
       {entry.example && (
