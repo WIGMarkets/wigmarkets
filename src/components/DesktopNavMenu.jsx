@@ -109,13 +109,12 @@ export default function DesktopNavMenu({ theme, darkMode, setDarkMode, tab, setT
   };
 
   const navButton = (label, key, hasDropdown = true) => {
-    const active = !hasDropdown && isActivePage(key);
+    const active = isActivePage(key);
     return (
       <button
         onClick={() => {
           if (hasDropdown) setOpenDropdown(o => o === key ? null : key);
           else if (key === "dywidendy") navigate("/dywidendy");
-          else if (key === "rankingi") navigate("/rankingi");
           else if (key === "wiadomosci") navigate("/wiadomosci");
         }}
         style={{
@@ -235,7 +234,33 @@ export default function DesktopNavMenu({ theme, darkMode, setDarkMode, tab, setT
         ))}
       </div>
 
-      {navButton("Rankingi", "rankingi", false)}
+      {/* Rankingi dropdown */}
+      <div style={{ position: "relative" }}
+        onMouseEnter={() => handleMouseEnter("rankingi")}
+        onMouseLeave={handleMouseLeave}
+      >
+        {navButton("Rankingi", "rankingi")}
+        {dropdown("rankingi", (
+          <div style={{ minWidth: 320 }}>
+            <div style={{ marginBottom: 12 }}>
+              {dropdownLink("trophy", "Wszystkie rankingi", () => handleNavClick({ href: "/rankingi" }))}
+            </div>
+            <div style={{ borderTop: `1px solid ${theme.border}`, paddingTop: 12 }}>
+              {dropdownLink("trending-up", "Największe wzrosty dziś", () => handleNavClick({ href: "/rankingi/najwieksze-wzrosty-dzis" }))}
+              {dropdownLink("trending-down", "Największe spadki dziś", () => handleNavClick({ href: "/rankingi/najwieksze-spadki-dzis" }))}
+              {dropdownLink("coins", "Najwyższe dywidendy", () => handleNavClick({ href: "/rankingi/najwyzsze-dywidendy" }))}
+              {dropdownLink("building-2", "Największe spółki", () => handleNavClick({ href: "/rankingi/najwieksze-spolki" }))}
+              {dropdownLink("flame", "Najaktywniejsze spółki", () => handleNavClick({ href: "/rankingi/najaktywniejsze-spolki" }))}
+              {dropdownLink("search", "Najtańsze P/E", () => handleNavClick({ href: "/rankingi/najtansze-spolki-pe" }))}
+              {dropdownLink("gem", "Najdroższe P/E", () => handleNavClick({ href: "/rankingi/najdrozsze-spolki-pe" }))}
+              {dropdownLink("rocket", "Wzrosty 7 dni", () => handleNavClick({ href: "/rankingi/najwieksze-wzrosty-tydzien" }))}
+              {dropdownLink("arrow-down-circle", "Spadki 7 dni", () => handleNavClick({ href: "/rankingi/najwieksze-spadki-tydzien" }))}
+              {dropdownLink("trophy", "Spółki WIG20", () => handleNavClick({ href: "/rankingi/spolki-wig20" }))}
+            </div>
+          </div>
+        ))}
+      </div>
+
       {navButton("Wiadomości", "wiadomosci", false)}
 
       {/* Right side controls */}
