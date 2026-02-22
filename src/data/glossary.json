@@ -15,7 +15,8 @@
     "fullDef": "Wskaźnik P/E (Price to Earnings) to jeden z najważniejszych wskaźników analizy fundamentalnej. Oblicza się go dzieląc aktualną cenę rynkową akcji przez zysk netto przypadający na jedną akcję (EPS). Wynik pokazuje, ile lat zajęłoby „odzyskanie\u201D ceny akcji z samych zysków spółki, przy założeniu ich stałości.\n\nNiski P/E (np. poniżej 10) może sugerować, że spółka jest niedowartościowana lub że rynek oczekuje spadku zysków. Wysoki P/E (np. powyżej 25) może oznaczać, że inwestorzy oczekują dynamicznego wzrostu zysków w przyszłości — lub że akcja jest przewartościowana.\n\nWskaźnik P/E najlepiej porównywać w ramach tego samego sektora. Porównywanie P/E spółki technologicznej ze spółką surowcową jest mało miarodajne, ponieważ każdy sektor ma inne typowe poziomy tego wskaźnika.\n\nWarto też rozróżniać trailing P/E (oparty na historycznych zyskach z ostatnich 12 miesięcy) od forward P/E (opartego na prognozowanych zyskach).",
     "category": "analiza-fundamentalna",
     "related": ["akcja", "kapitalizacja"],
-    "example": "PKN ORLEN notowany po 109,00 zł z EPS wynoszącym 12,50 zł ma P/E równe 8,7x. CD Projekt przy cenie 180,00 zł i EPS 4,50 zł ma P/E 40,0x. Wyższe P/E CD Projektu odzwierciedla oczekiwania rynku na silny wzrost zysków z nowych premier gier."
+    "example": "PKN ORLEN notowany po 109,00 zł z EPS wynoszącym 12,50 zł ma P/E równe 8,7x. CD Projekt przy cenie 180,00 zł i EPS 4,50 zł ma P/E 40,0x. Wyższe P/E CD Projektu odzwierciedla oczekiwania rynku na silny wzrost zysków z nowych premier gier.",
+    "hasCalculator": true
   },
   {
     "term": "RSI",
@@ -42,7 +43,8 @@
     "fullDef": "Kapitalizacja rynkowa (market capitalization) to łączna wartość rynkowa wszystkich wyemitowanych akcji spółki. Oblicza się ją mnożąc aktualny kurs jednej akcji przez całkowitą liczbę akcji w obrocie. Jest to podstawowa miara wielkości spółki na giełdzie.\n\nNa GPW spółki klasyfikuje się według kapitalizacji do trzech głównych indeksów:\n— WIG20: 20 największych spółek (duże spółki, large cap)\n— mWIG40: 40 średnich spółek (mid cap)\n— sWIG80: 80 mniejszych spółek (small cap)\n\nKapitalizacja zmienia się w czasie, ponieważ zależy od aktualnego kursu akcji. Wzrost kursu o 10% oznacza wzrost kapitalizacji o 10%. Kapitalizacja nie odzwierciedla wartości księgowej spółki ani jej zadłużenia — do tego służą inne wskaźniki, jak EV (Enterprise Value).\n\nInwestorzy często traktują kapitalizację jako miarę ryzyka: duże spółki (high cap) są zazwyczaj bardziej stabilne i płynne, natomiast małe spółki (small cap) mogą oferować wyższy potencjał wzrostu, ale przy większej zmienności.",
     "category": "wskazniki",
     "related": ["akcja", "pe"],
-    "example": "PKN ORLEN przy kursie 109,00 zł i 427,7 mln akcji w obrocie ma kapitalizację 46,6 mld zł — jest jedną z największych spółek na GPW i wchodzi w skład indeksu WIG20. Dla porównania, mniejsza spółka z mWIG40 przy kursie 25 zł i 50 mln akcji ma kapitalizację zaledwie 1,25 mld zł."
+    "example": "PKN ORLEN przy kursie 109,00 zł i 427,7 mln akcji w obrocie ma kapitalizację 46,6 mld zł — jest jedną z największych spółek na GPW i wchodzi w skład indeksu WIG20. Dla porównania, mniejsza spółka z mWIG40 przy kursie 25 zł i 50 mln akcji ma kapitalizację zaledwie 1,25 mld zł.",
+    "hasCalculator": true
   },
   {
     "term": "GPW",
@@ -132,7 +134,8 @@
     "fullDef": "EPS (Earnings Per Share) to zysk netto spółki podzielony przez liczbę akcji w obrocie. Jest to jeden z najważniejszych wskaźników w analizie fundamentalnej, ponieważ pozwala porównywać zyskowność spółek o różnej wielkości i różnej liczbie akcji.\n\nRodzaje EPS:\n— Trailing EPS (TTM): zysk na akcję za ostatnie 12 miesięcy — oparty na faktycznych wynikach.\n— Forward EPS: prognozowany zysk na akcję na najbliższe 12 miesięcy — oparty na konsensusie analityków.\n— Rozwodniony EPS (diluted): uwzględnia potencjalne nowe akcje z opcji pracowniczych, obligacji zamiennych itp. Zawsze niższy lub równy podstawowemu EPS.\n\nRosnący EPS z kwartału na kwartał i z roku na rok jest pozytywnym sygnałem — oznacza, że spółka generuje coraz większe zyski na każdą akcję. Spadający EPS może sygnalizować problemy lub fazę inwestycji kosztem bieżących zysków.\n\nEPS jest kluczowym składnikiem wskaźnika P/E: P/E = cena akcji / EPS. Dlatego zmiany EPS bezpośrednio wpływają na wycenę spółki.",
     "category": "analiza-fundamentalna",
     "related": ["pe", "akcja", "kapitalizacja", "pbv"],
-    "example": "CD Projekt wypracował zysk netto 420 mln zł przy 100,1 mln akcji w obrocie. EPS wynosi 4,20 zł (420 mln / 100,1 mln). Przy kursie 180,00 zł daje to P/E na poziomie 42,9x. Rok wcześniej EPS wynosił 2,80 zł — wzrost o 50% rok do roku odzwierciedla sukces sprzedażowy nowej gry."
+    "example": "CD Projekt wypracował zysk netto 420 mln zł przy 100,1 mln akcji w obrocie. EPS wynosi 4,20 zł (420 mln / 100,1 mln). Przy kursie 180,00 zł daje to P/E na poziomie 42,9x. Rok wcześniej EPS wynosił 2,80 zł — wzrost o 50% rok do roku odzwierciedla sukces sprzedażowy nowej gry.",
+    "hasCalculator": true
   },
   {
     "term": "Stopa dywidendy",
@@ -141,7 +144,8 @@
     "fullDef": "Stopa dywidendy (dividend yield) to wskaźnik pokazujący, jaki procent ceny akcji stanowi roczna dywidenda wypłacana na jedną akcję. Oblicza się ją dzieląc dywidendę na akcję przez bieżącą cenę rynkową akcji i mnożąc przez 100%.\n\nFormuła: Stopa dywidendy = (Dywidenda na akcję / Cena akcji) × 100%\n\nInterpretacja:\n— Stopa dywidendy 3–6%: typowa dla stabilnych polskich spółek dywidendowych (banki, utilities, telekomy).\n— Stopa powyżej 7–8%: może być atrakcyjna, ale warto sprawdzić czy spółka będzie w stanie utrzymać dywidendę na takim poziomie.\n— Stopa poniżej 1% lub brak dywidendy: typowe dla spółek wzrostowych, które reinwestują zyski.\n\nWażne zastrzeżenie: wysoka stopa dywidendy może wynikać nie z hojności spółki, a ze spadku kursu akcji — jeśli kurs spadł o 50%, a dywidenda pozostała taka sama, stopa dywidendy podwoi się. Dlatego warto analizować stopę dywidendy w kontekście historii wypłat i wskaźnika payout ratio (jaki procent zysku jest wypłacany jako dywidenda).\n\nW Polsce od dywidendy pobierany jest 19% podatek od zysków kapitałowych (podatek Belki), automatycznie potrącany przez dom maklerski.",
     "category": "analiza-fundamentalna",
     "related": ["dywidenda", "akcja", "eps"],
-    "example": "PZU wypłaca dywidendę 3,00 zł na akcję przy cenie 42,00 zł. Stopa dywidendy wynosi 7,1% (3,00 / 42,00 × 100%). Po odliczeniu 19% podatku Belki efektywna stopa netto to 5,8%. Inwestor z portfelem 1 000 akcji PZU otrzyma 3 000 zł brutto (2 430 zł netto) — więcej niż na większości lokat bankowych."
+    "example": "PZU wypłaca dywidendę 3,00 zł na akcję przy cenie 42,00 zł. Stopa dywidendy wynosi 7,1% (3,00 / 42,00 × 100%). Po odliczeniu 19% podatku Belki efektywna stopa netto to 5,8%. Inwestor z portfelem 1 000 akcji PZU otrzyma 3 000 zł brutto (2 430 zł netto) — więcej niż na większości lokat bankowych.",
+    "hasCalculator": true
   },
   {
     "term": "EBITDA",
@@ -240,7 +244,8 @@
     "fullDef": "Stop loss to zlecenie obronne, kt\u00f3re automatycznie sprzedaje akcje (lub zamyka pozycj\u0119), gdy ich cena spadnie do okre\u015blonego poziomu. Jest podstawowym narz\u0119dziem zarz\u0105dzania ryzykiem w inwestowaniu.\n\nRodzaje stop loss:\n\u2014 Sta\u0142y stop loss: ustawiony na konkretnym poziomie cenowym, np. 10% poni\u017cej ceny zakupu.\n\u2014 Trailing stop (stop kr\u0105\u017c\u0105cy): pod\u0105\u017ca za rosn\u0105c\u0105 cen\u0105, utrzymuj\u0105c sta\u0142y dystans procentowy lub kwotowy. Chroni zyski w trendzie wzrostowym.\n\u2014 Stop loss na wsparciu: ustawiony tu\u017c poni\u017cej kluczowego poziomu wsparcia technicznego.\n\nZasady stosowania:\n\u2014 Ustal stop loss PRZED otwarciem pozycji \u2014 na ch\u0142odno, nie pod wp\u0142ywem emocji.\n\u2014 Nie przesuwaj stop loss w d\u00f3\u0142 \u2014 to neguje cel ochrony kapita\u0142u.\n\u2014 Typowy stop loss to 5\u201315% poni\u017cej ceny zakupu, zale\u017cnie od zmienno\u015bci instrumentu.\n\u2014 Uwzgl\u0119dnij prowizj\u0119 i spread przy ustalaniu poziomu.\n\nNa GPW stop loss realizowany jest jako zlecenie STOP \u2014 aktywuje si\u0119 po osi\u0105gni\u0119ciu stop price i przekszta\u0142ca w zlecenie z limitem lub PKC.",
     "category": "podstawy",
     "related": ["zlecenie-gieldowe", "wsparcie-i-opor", "trend"],
-    "example": "Inwestor kupuje 300 akcji Dino Polska po 420 z\u0142 i ustawia stop loss na 378 z\u0142 (\u221210%). Je\u015bli kurs spadnie do 378 z\u0142, zlecenie sprzeda\u017cy aktywuje si\u0119 automatycznie. Maksymalna strata to 12 600 z\u0142 (300 \u00d7 42 z\u0142). Bez stop loss, przy spadku kursu do 300 z\u0142, strata wynios\u0142aby 36 000 z\u0142."
+    "example": "Inwestor kupuje 300 akcji Dino Polska po 420 z\u0142 i ustawia stop loss na 378 z\u0142 (\u221210%). Je\u015bli kurs spadnie do 378 z\u0142, zlecenie sprzeda\u017cy aktywuje si\u0119 automatycznie. Maksymalna strata to 12 600 z\u0142 (300 \u00d7 42 z\u0142). Bez stop loss, przy spadku kursu do 300 z\u0142, strata wynios\u0142aby 36 000 z\u0142.",
+    "hasCalculator": true
   },
   {
     "term": "Blue chip",
@@ -267,7 +272,8 @@
     "fullDef": "ROE (Return on Equity) to wska\u017anik rentowno\u015bci kapita\u0142u w\u0142asnego, obliczany jako zysk netto podzielony przez kapita\u0142 w\u0142asny (aktywa minus zobowi\u0105zania), wyra\u017cony w procentach. Pokazuje, jak efektywnie sp\u00f3\u0142ka wykorzystuje kapita\u0142 powierzony przez akcjonariuszy do generowania zysk\u00f3w.\n\nFormu\u0142a: ROE = (Zysk netto / Kapita\u0142 w\u0142asny) \u00d7 100%\n\nInterpretacja:\n\u2014 ROE powy\u017cej 15%: sp\u00f3\u0142ka efektywnie wykorzystuje kapita\u0142 \u2014 atrakcyjna dla inwestor\u00f3w.\n\u2014 ROE 10\u201315%: solidna, przeci\u0119tna rentowno\u015b\u0107.\n\u2014 ROE poni\u017cej 8%: sp\u00f3\u0142ka s\u0142abo zarabia na kapitale \u2014 mo\u017ce sygnalizowa\u0107 problemy.\n\nWa\u017cne zastrze\u017cenia:\n\u2014 Wysoki ROE mo\u017ce wynika\u0107 z du\u017cego zad\u0142u\u017cenia (niski kapita\u0142 w\u0142asny), a nie z wysokiej rentowno\u015bci operacyjnej. Dlatego ROE warto analizowa\u0107 w po\u0142\u0105czeniu ze wska\u017anikiem D\u0142ug/Kapita\u0142.\n\u2014 ROE najlepiej por\u00f3wnywa\u0107 w ramach jednego sektora \u2014 banki naturalnie maj\u0105 inne poziomy ni\u017c sp\u00f3\u0142ki technologiczne.\n\u2014 Analiza DuPont rozk\u0142ada ROE na trzy sk\u0142adniki: mar\u017c\u0119 zysku netto, rotacj\u0119 aktyw\u00f3w i d\u017awigni\u0119 finansow\u0105 \u2014 co pozwala zrozumie\u0107 \u017ar\u00f3d\u0142o rentowno\u015bci.\n\nDla bank\u00f3w notowanych na GPW ROE jest jednym z kluczowych wska\u017anik\u00f3w, bezpo\u015brednio wp\u0142ywaj\u0105cym na wska\u017anik P/BV.",
     "category": "analiza-fundamentalna",
     "related": ["eps", "pbv", "pe", "kapitalizacja"],
-    "example": "PKO BP osi\u0105ga zysk netto 6,2 mld z\u0142 przy kapitale w\u0142asnym 42 mld z\u0142 \u2014 ROE wynosi 14,8%. Dla por\u00f3wnania, mniejszy bank z ROE 7% i P/BV 0,6x jest wyceniany z dyskontem, poniewa\u017c rynek nie wierzy w popraw\u0119 jego rentowno\u015bci. Wska\u017anik P/BV PKO BP (1,38x) odzwierciedla wy\u017csz\u0105 jako\u015b\u0107 generowanego zwrotu."
+    "example": "PKO BP osi\u0105ga zysk netto 6,2 mld z\u0142 przy kapitale w\u0142asnym 42 mld z\u0142 \u2014 ROE wynosi 14,8%. Dla por\u00f3wnania, mniejszy bank z ROE 7% i P/BV 0,6x jest wyceniany z dyskontem, poniewa\u017c rynek nie wierzy w popraw\u0119 jego rentowno\u015bci. Wska\u017anik P/BV PKO BP (1,38x) odzwierciedla wy\u017csz\u0105 jako\u015b\u0107 generowanego zwrotu.",
+    "hasCalculator": true
   },
   {
     "term": "NewConnect",

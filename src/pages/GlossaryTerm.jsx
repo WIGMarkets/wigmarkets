@@ -2,6 +2,7 @@ import { useMemo, useEffect } from "react";
 import { useParams, useNavigate, Navigate } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import Icon from "../components/edukacja/Icon.jsx";
+import GlossaryCalculator from "../components/edukacja/GlossaryCalculator.jsx";
 import glossaryData from "../data/glossary.json";
 
 const CATEGORY_LABELS = {
@@ -132,6 +133,9 @@ export default function GlossaryTerm({ theme }) {
           <p key={i} style={{ marginBottom: 16 }}>{paragraph}</p>
         ))}
       </div>
+
+      {/* Calculator */}
+      {entry.hasCalculator && <GlossaryCalculator slug={entry.slug} theme={theme} />}
 
       {/* Example callout */}
       {entry.example && (
