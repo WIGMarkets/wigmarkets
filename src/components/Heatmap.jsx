@@ -5,20 +5,18 @@ import { fmt, fmtVolume, fmtCap } from "../lib/formatters.js";
 
 // Gradient color scale: smooth interpolation based on % change
 function heatColor(pct) {
-  // Clamp to [-5, 5] range for color mapping
   const v = Math.max(-5, Math.min(5, pct));
-  if (Math.abs(v) < 0.15) return "#1e1e22";
+  if (Math.abs(v) < 0.15) return "#1a1a2e";
   if (v > 0) {
-    const t = v / 5; // 0..1
-    // Interpolate: 0 → #1e1e22, ~1% → #14532d, ~3% → #22c55e, 5% → #15803d
-    if (t <= 0.2) return lerpColor("#1e1e22", "#14532d", t / 0.2);
-    if (t <= 0.6) return lerpColor("#14532d", "#22c55e", (t - 0.2) / 0.4);
-    return lerpColor("#22c55e", "#15803d", (t - 0.6) / 0.4);
+    const t = v / 5;
+    if (t <= 0.2) return lerpColor("#1a1a2e", "#0d4a2b", t / 0.2);
+    if (t <= 0.6) return lerpColor("#0d4a2b", "#15803d", (t - 0.2) / 0.4);
+    return lerpColor("#15803d", "#22c55e", (t - 0.6) / 0.4);
   } else {
-    const t = Math.abs(v) / 5; // 0..1
-    if (t <= 0.2) return lerpColor("#1e1e22", "#7f1d1d", t / 0.2);
-    if (t <= 0.6) return lerpColor("#7f1d1d", "#dc2626", (t - 0.2) / 0.4);
-    return lerpColor("#dc2626", "#991b1b", (t - 0.6) / 0.4);
+    const t = Math.abs(v) / 5;
+    if (t <= 0.2) return lerpColor("#1a1a2e", "#4a0d0d", t / 0.2);
+    if (t <= 0.6) return lerpColor("#4a0d0d", "#991b1b", (t - 0.2) / 0.4);
+    return lerpColor("#991b1b", "#dc2626", (t - 0.6) / 0.4);
   }
 }
 
@@ -36,7 +34,7 @@ function textAlpha(pct) {
   return Math.abs(pct) < 0.5 ? "rgba(255,255,255,0.5)" : "rgba(255,255,255,0.95)";
 }
 
-// Squarified treemap layout
+// Squarified treemap layout — fills entire rectangle with zero gaps in coverage
 function squarify(items, x, y, w, h) {
   if (!items.length) return [];
   const rects = [];
@@ -87,7 +85,9 @@ function squarify(items, x, y, w, h) {
   return rects;
 }
 
-export default function Heatmap({ stocks, prices, changes, theme, onSelect }) {
+const GAP = 1;
+
+export default function Heatmap({ stocks, prices, changes, theme }) {
   const navigate = useNavigate();
   const isMobile = useIsMobile();
   const containerRef = useRef(null);
@@ -96,13 +96,15 @@ export default function Heatmap({ stocks, prices, changes, theme, onSelect }) {
   const tooltipTimer = useRef(null);
   const mousePos = useRef({ x: 0, y: 0 });
 
-  // Observe container size (use getBoundingClientRect because paddingBottom creates height outside contentRect)
+  // Observe container size
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
     const measure = () => {
       const rect = el.getBoundingClientRect();
-      setContainerSize({ w: rect.width, h: rect.height });
+      if (rect.width > 0 && rect.height > 0) {
+        setContainerSize({ w: rect.width, h: rect.height });
+      }
     };
     measure();
     const ro = new ResizeObserver(measure);
@@ -126,21 +128,10 @@ export default function Heatmap({ stocks, prices, changes, theme, onSelect }) {
       .slice(0, maxItems);
   }, [stocks, prices, changes, maxItems]);
 
-  // Compute treemap layout in pixel space
+  // Compute treemap layout — render ALL tiles (no min-size filtering) to fill 100%
   const rects = useMemo(() => {
     if (!containerSize.w || !containerSize.h || !items.length) return [];
-    const GAP = 2;
-    const raw = squarify(items, 0, 0, containerSize.w, containerSize.h);
-    // Apply gap by insetting each rect
-    return raw
-      .map(r => ({
-        ...r,
-        px: r.rx + GAP / 2,
-        py: r.ry + GAP / 2,
-        pw: r.rw - GAP,
-        ph: r.rh - GAP,
-      }))
-      .filter(r => r.pw >= 30 && r.ph >= 20);
+    return squarify(items, 0, 0, containerSize.w, containerSize.h);
   }, [items, containerSize]);
 
   const handleClick = useCallback((r) => {
@@ -167,19 +158,18 @@ export default function Heatmap({ stocks, prices, changes, theme, onSelect }) {
 
   if (!items.length) return null;
 
-  // Determine aspect ratio: 2:1 on desktop, 3:2 on mobile
   const aspectPct = isMobile ? "66%" : "50%";
 
   return (
     <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: 12, overflow: "hidden", marginBottom: 16 }}>
       {/* Header + Legend */}
       <div style={{ padding: "12px 16px", borderBottom: `1px solid ${theme.border}`, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 8 }}>
-        <div style={{ fontSize: 11, fontWeight: 700, color: theme.textBright, textTransform: "uppercase", letterSpacing: 1 }}>Heatmapa rynku</div>
-        <div style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 10, color: theme.textSecondary }}>
+        <div style={{ fontSize: 11, fontWeight: 600, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: 2, fontFamily: "var(--font-ui)" }}>Heatmapa rynku</div>
+        <div style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 10, color: theme.textSecondary, fontFamily: "var(--font-ui)" }}>
           <span>Spadek</span>
           <div style={{
             width: 150, height: 8, borderRadius: 4, flexShrink: 0,
-            background: "linear-gradient(to right, #991b1b, #dc2626, #7f1d1d, #1e1e22, #14532d, #22c55e, #15803d)",
+            background: "linear-gradient(to right, #dc2626, #991b1b, #4a0d0d, #1a1a2e, #0d4a2b, #15803d, #22c55e)",
           }} />
           <span>Wzrost</span>
         </div>
@@ -188,18 +178,26 @@ export default function Heatmap({ stocks, prices, changes, theme, onSelect }) {
       {/* Treemap container */}
       <div
         ref={containerRef}
-        style={{ position: "relative", width: "100%", paddingBottom: aspectPct, overflow: "hidden", background: "#0a0a0c" }}
+        style={{ position: "relative", width: "100%", paddingBottom: aspectPct, overflow: "hidden", background: "#111113" }}
         onMouseLeave={hideTooltip}
       >
         <div style={{ position: "absolute", inset: 0 }}>
           {rects.map(r => {
             const bg = heatColor(r.c24h);
             const tColor = textAlpha(r.c24h);
-            // Font size based on tile dimensions
-            const minDim = Math.min(r.pw, r.ph);
-            const tickerSize = Math.max(10, Math.min(16, Math.floor(minDim * 0.28)));
-            const pctSize = tickerSize - 2;
-            const showPct = r.ph >= 36 && r.pw >= 44;
+            // Inset by gap for visual spacing — tile still occupies full treemap area
+            const px = r.rx + GAP / 2;
+            const py = r.ry + GAP / 2;
+            const pw = r.rw - GAP;
+            const ph = r.rh - GAP;
+            if (pw <= 0 || ph <= 0) return null;
+
+            // Determine what text to show based on tile size
+            const showTicker = pw >= 28 && ph >= 16;
+            const showPct = pw >= 44 && ph >= 34;
+            const minDim = Math.min(pw, ph);
+            const tickerSize = Math.max(9, Math.min(16, Math.floor(minDim * 0.28)));
+            const pctSize = Math.max(8, tickerSize - 2);
 
             return (
               <div
@@ -210,12 +208,12 @@ export default function Heatmap({ stocks, prices, changes, theme, onSelect }) {
                 onMouseLeave={hideTooltip}
                 style={{
                   position: "absolute",
-                  left: r.px,
-                  top: r.py,
-                  width: r.pw,
-                  height: r.ph,
+                  left: px,
+                  top: py,
+                  width: pw,
+                  height: ph,
                   background: bg,
-                  borderRadius: 4,
+                  borderRadius: 2,
                   cursor: "pointer",
                   display: "flex",
                   flexDirection: "column",
@@ -229,15 +227,17 @@ export default function Heatmap({ stocks, prices, changes, theme, onSelect }) {
                 onMouseOver={(e) => { e.currentTarget.style.filter = "brightness(1.2)"; e.currentTarget.style.outlineColor = "rgba(255,255,255,0.3)"; }}
                 onMouseOut={(e) => { e.currentTarget.style.filter = ""; e.currentTarget.style.outlineColor = "transparent"; }}
               >
-                <span style={{
-                  fontWeight: 700,
-                  fontSize: tickerSize,
-                  color: tColor,
-                  textShadow: "0 1px 2px rgba(0,0,0,0.5)",
-                  lineHeight: 1.2,
-                  fontFamily: "var(--font-ui)",
-                  userSelect: "none",
-                }}>{r.ticker}</span>
+                {showTicker && (
+                  <span style={{
+                    fontWeight: 700,
+                    fontSize: tickerSize,
+                    color: tColor,
+                    textShadow: "0 1px 2px rgba(0,0,0,0.5)",
+                    lineHeight: 1.2,
+                    fontFamily: "var(--font-ui)",
+                    userSelect: "none",
+                  }}>{r.ticker}</span>
+                )}
                 {showPct && (
                   <span style={{
                     fontWeight: 500,
@@ -257,7 +257,7 @@ export default function Heatmap({ stocks, prices, changes, theme, onSelect }) {
         </div>
       </div>
 
-      {/* Tooltip (portal-like, fixed position) */}
+      {/* Tooltip */}
       {tooltip && (
         <div style={{
           position: "fixed",
