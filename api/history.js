@@ -11,11 +11,22 @@ export default async function handler(req, res) {
   const maxAge = interval === "1h" ? 60 : 300;
   res.setHeader("Cache-Control", `s-maxage=${maxAge}, stale-while-revalidate=${maxAge * 2}`);
 
-  // ── Strategy 1: Yahoo Finance ──────────────────────────
-  const yahooSymbol = toYahoo(symbol);
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?interval=${interval}&range=${range}`;
-
+  // ── Strategy 1: Stooq.pl (primary) ────────────────────
   try {
+    const days = interval === "1h" ? 10 : 400;
+    const stooqInterval = interval === "1h" ? "60" : "d";
+    const stooqPrices = await fetchStooqHistory(symbol, days, stooqInterval);
+    if (stooqPrices && stooqPrices.length >= 2) {
+      return res.status(200).json({ prices: stooqPrices });
+    }
+  } catch {
+    // Stooq failed, fall through to Yahoo
+  }
+
+  // ── Strategy 2: Yahoo Finance (fallback) ───────────────
+  try {
+    const yahooSymbol = toYahoo(symbol);
+    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?interval=${interval}&range=${range}`;
     const response = await fetch(url, { headers: YF_HEADERS });
     const json = await response.json();
 
@@ -54,67 +65,88 @@ export default async function handler(req, res) {
       }
     }
   } catch {
-    // Yahoo failed, fall through to Stooq
-  }
-
-  // ── Strategy 2: Stooq.pl CSV fallback (daily only) ─────
-  if (interval === "1d") {
-    try {
-      const stooqPrices = await fetchStooqHistory(symbol, range === "1y" ? 400 : 14);
-      if (stooqPrices && stooqPrices.length >= 2) {
-        return res.status(200).json({ prices: stooqPrices });
-      }
-    } catch {
-      // Stooq also failed
-    }
+    // Yahoo also failed
   }
 
   res.status(404).json({ error: "No data" });
 }
 
 // ─── Stooq historical OHLCV ───────────────────────────────
+// interval: "d" (daily), "60" (hourly), "5" (5-min)
 
-async function fetchStooqHistory(stooqSymbol, days = 400) {
+async function fetchStooqHistory(stooqSymbol, days = 400, interval = "d") {
   const end = new Date();
   const start = new Date(end);
   start.setDate(start.getDate() - days);
 
   const d1 = fmtDate(start);
   const d2 = fmtDate(end);
-  const url = `https://stooq.pl/q/d/l/?s=${stooqSymbol.toLowerCase()}&d1=${d1}&d2=${d2}&i=d`;
+  const url = `https://stooq.pl/q/d/l/?s=${stooqSymbol.toLowerCase()}&d1=${d1}&d2=${d2}&i=${interval}`;
 
-  const res = await fetch(url, {
-    headers: {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      Accept: "text/csv, text/plain, */*",
-    },
-  });
+  for (let attempt = 0; attempt <= 2; attempt++) {
+    try {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 8000);
+      const res = await fetch(url, {
+        signal: controller.signal,
+        headers: {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+          Accept: "text/csv, text/plain, */*",
+        },
+      });
+      clearTimeout(timeout);
 
-  if (!res.ok) return null;
+      if (!res.ok) {
+        if (attempt < 2) { await new Promise(r => setTimeout(r, 300)); continue; }
+        return null;
+      }
 
-  const csv = await res.text();
-  const lines = csv.trim().split("\n");
-  if (lines.length < 3) return null;
+      const csv = await res.text();
+      const lines = csv.trim().split("\n");
+      if (lines.length < 3) return null;
 
-  const prices = [];
-  for (let i = 1; i < lines.length; i++) {
-    const cols = lines[i].split(",");
-    if (cols.length < 5) continue;
+      // Detect column layout from header
+      // Daily: Date,Open,High,Low,Close,Volume (6 cols)
+      // Intraday: Date,Time,Open,High,Low,Close,Volume (7 cols)
+      const headerCols = lines[0].split(",").length;
+      const hasTime = headerCols >= 7;
 
-    const close = parseFloat(cols[4]);
-    if (isNaN(close) || close <= 0) continue;
+      const prices = [];
+      for (let i = 1; i < lines.length; i++) {
+        const cols = lines[i].split(",");
+        if (cols.length < (hasTime ? 6 : 5)) continue;
 
-    prices.push({
-      date: cols[0].trim(),
-      open: parseFloat(cols[1]) || close,
-      high: parseFloat(cols[2]) || close,
-      low: parseFloat(cols[3]) || close,
-      close,
-      volume: parseInt(cols[5]) || 0,
-    });
+        const dateCol = cols[0].trim();
+        const offset = hasTime ? 1 : 0;
+        const timeCol = hasTime ? cols[1].trim() : null;
+
+        const open  = parseFloat(cols[1 + offset]);
+        const high  = parseFloat(cols[2 + offset]);
+        const low   = parseFloat(cols[3 + offset]);
+        const close = parseFloat(cols[4 + offset]);
+        const vol   = parseInt(cols[5 + offset]) || 0;
+        if (isNaN(close) || close <= 0) continue;
+
+        const bar = {
+          date: dateCol,
+          open:  isNaN(open)  ? close : open,
+          high:  isNaN(high)  ? close : high,
+          low:   isNaN(low)   ? close : low,
+          close,
+          volume: vol,
+        };
+        if (timeCol) bar.time = timeCol;
+
+        prices.push(bar);
+      }
+
+      return prices.length >= 2 ? prices : null;
+    } catch {
+      if (attempt < 2) { await new Promise(r => setTimeout(r, 300)); continue; }
+      return null;
+    }
   }
-
-  return prices.length >= 2 ? prices : null;
+  return null;
 }
 
 function fmtDate(d) {
