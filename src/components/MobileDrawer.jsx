@@ -9,8 +9,7 @@ const MENU = [
       { icon: "flame", label: "Popularne", tab: "popularne" },
       { icon: "diamond", label: "Surowce", tab: "surowce" },
       { icon: "dollar-sign", label: "Forex", tab: "forex" },
-      { icon: "list", label: "Indeksy GPW", tab: "indeksy" },
-      { icon: "globe", label: "Indeksy światowe", tab: "swiatowe" },
+      { icon: "list", label: "Indeksy", href: "/indeksy" },
     ],
   },
   {

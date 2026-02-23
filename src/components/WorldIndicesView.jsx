@@ -1,4 +1,6 @@
 import { useMemo } from "react";
+import { useNavigate } from "react-router-dom";
+import { INDICES_BY_NAME } from "../data/indices-meta.js";
 
 const fmtVal = (v, decimals = 2) =>
   v != null
@@ -65,6 +67,7 @@ const WORLD_INDEX_META = {
 const REGIONS = ["USA", "Europa", "Azja", "Polska"];
 
 export default function WorldIndicesView({ worldIndices, gpwIndices, theme, isMobile }) {
+  const navigate = useNavigate();
   // Merge world indices with GPW indices (WIG20, mWIG40, sWIG80) from the
   // dedicated GPW fetch to avoid duplicate Yahoo Finance requests.
   const GPW_NAMES = new Set(["WIG20", "mWIG40", "sWIG80"]);
@@ -136,12 +139,14 @@ export default function WorldIndicesView({ worldIndices, gpwIndices, theme, isMo
               }}>
                 {items.map((idx, i) => {
                   const meta = WORLD_INDEX_META[idx.name] || { color: "#3b82f6" };
+                  const idxMeta = INDICES_BY_NAME[idx.name];
                   const ch24 = idx.change24h;
                   const c24  = ch24 == null ? theme.textSecondary : ch24 >= 0 ? "#22c55e" : "#ef4444";
 
                   return (
                     <div
                       key={idx.name}
+                      onClick={() => idxMeta && navigate(`/indeksy/${idxMeta.slug}`)}
                       style={{
                         background: theme.bgCard,
                         border: `1px solid ${theme.border}`,
@@ -152,10 +157,11 @@ export default function WorldIndicesView({ worldIndices, gpwIndices, theme, isMo
                         animationDelay: `${i * 70}ms`,
                         minWidth: 0,
                         overflow: "hidden",
-                        transition: "border-color 0.2s",
+                        cursor: idxMeta ? "pointer" : "default",
+                        transition: "border-color 0.2s, transform 0.2s",
                       }}
-                      onMouseEnter={e => e.currentTarget.style.borderColor = meta.color}
-                      onMouseLeave={e => e.currentTarget.style.borderColor = theme.border}
+                      onMouseEnter={e => { e.currentTarget.style.borderColor = meta.color; if (idxMeta) e.currentTarget.style.transform = "translateY(-1px)"; }}
+                      onMouseLeave={e => { e.currentTarget.style.borderColor = theme.border; e.currentTarget.style.transform = "translateY(0)"; }}
                     >
                       {/* Header */}
                       <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
