@@ -1,6 +1,9 @@
+import { readFileSync, existsSync } from "fs";
+import { join, dirname } from "path";
+import { fileURLToPath } from "url";
 import { YF_HEADERS } from "./_yahoo-map.js";
 
-// Indeksy GPW: Stooq.pl (primary) + Yahoo Finance (fallback)
+// Indeksy GPW: Stooq.pl (primary) + Yahoo Finance (fallback) + cached JSON (last resort)
 const INDEX_SYMBOLS = [
   { name: "WIG20",  yahoo: "^WIG20",  stooq: "wig20"  },
   { name: "WIG",    yahoo: "^WIG",    stooq: "wig"    },
@@ -164,15 +167,63 @@ async function fetchIndex({ name, yahoo, stooq }) {
   return { name, value: null, change24h: null, change7d: null, sparkline: [] };
 }
 
+// ─── Static cache fallback (data/indices-cache.json) ────
+// Written by scripts/fetch-indices.mjs via GitHub Actions cron.
+
+function readCachedIndices() {
+  const paths = [
+    join(process.cwd(), "data", "indices-cache.json"),
+  ];
+  try {
+    const dir = typeof __dirname !== "undefined"
+      ? __dirname
+      : dirname(fileURLToPath(import.meta.url));
+    paths.push(join(dir, "..", "data", "indices-cache.json"));
+  } catch {}
+
+  for (const p of paths) {
+    try {
+      if (existsSync(p)) {
+        const data = JSON.parse(readFileSync(p, "utf-8"));
+        if (data?.indices?.length > 0) return data.indices;
+      }
+    } catch {}
+  }
+  return null;
+}
+
 // ─── Handler ────────────────────────────────────────────
 export default async function handler(req, res) {
   try {
     // Fetch all indices in parallel for faster response
     const results = await Promise.all(INDEX_SYMBOLS.map(fetchIndex));
 
+    // Check if live data has any actual values
+    const hasLiveData = results.some(r => r.value != null);
+
+    if (hasLiveData) {
+      res.setHeader("Cache-Control", "s-maxage=30, stale-while-revalidate=60");
+      return res.status(200).json(results);
+    }
+
+    // Live sources both failed — use static cache from cron job
+    const cached = readCachedIndices();
+    if (cached) {
+      // Shorter cache since this is stale data
+      res.setHeader("Cache-Control", "s-maxage=60, stale-while-revalidate=120");
+      return res.status(200).json(cached);
+    }
+
+    // Nothing available
     res.setHeader("Cache-Control", "s-maxage=30, stale-while-revalidate=60");
     res.status(200).json(results);
   } catch (error) {
+    // Even on error, try to serve cached data
+    const cached = readCachedIndices();
+    if (cached) {
+      res.setHeader("Cache-Control", "s-maxage=60, stale-while-revalidate=120");
+      return res.status(200).json(cached);
+    }
     res.status(500).json({ error: "Failed to fetch indices" });
   }
 }

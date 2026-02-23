@@ -1,0 +1,45 @@
+name: Fetch GPW Indices
+
+on:
+  schedule:
+    # Every 30 min Mon-Fri during GPW trading hours (9:00-17:35 CET)
+    # CET = UTC+1 (winter) / UTC+2 (summer)
+    # Using UTC range 7:00-16:30 to cover both seasons
+    - cron: '0,30 7-16 * * 1-5'
+    # Also once at 18:00 UTC Mon-Fri (after market close, final daily values)
+    - cron: '0 18 * * 1-5'
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch indices from Stooq/Yahoo
+        run: node scripts/fetch-indices.mjs
+
+      - name: Check for changes
+        id: check
+        run: |
+          if git diff --quiet data/indices-cache.json 2>/dev/null; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.check.outputs.changed == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'data: update GPW indices'
+          file_pattern: 'data/indices-cache.json'
