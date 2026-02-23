@@ -6,12 +6,34 @@ import glossaryData from "./src/data/glossary.json";
 import { GPW_COMPANIES } from "./src/data/gpw-companies.js";
 import companyDescriptions from "./src/data/company-descriptions.json";
 import { RANKINGS } from "./src/data/rankings.js";
+import { ARTICLES } from "./src/content/edukacja/articles.js";
 
 const CRAWLER_RE = /Twitterbot|facebookexternalhit|LinkedInBot|Slackbot|Discordbot|WhatsApp|Googlebot|bingbot/i;
 
 const glossaryBySlug = Object.fromEntries(glossaryData.map(e => [e.slug, e]));
 const tickerToName = Object.fromEntries(GPW_COMPANIES.map(c => [c.ticker, c.name]));
 const rankingBySlug = Object.fromEntries(RANKINGS.map(r => [r.slug, r]));
+const articleBySlug = Object.fromEntries(ARTICLES.map(a => [a.slug, a]));
+
+const CATEGORY_LABELS = { podstawy: "Podstawy", analiza: "Analiza", strategia: "Strategia" };
+
+const CATEGORY_META = {
+  podstawy: {
+    title: "Podstawy inwestowania na GPW — Edukacja giełdowa — WIGmarkets.pl",
+    description: "Naucz się podstaw inwestowania na Giełdzie Papierów Wartościowych w Warszawie. Jak otworzyć konto maklerskie, kupić akcje i zacząć inwestować na GPW.",
+    label: "Podstawy",
+  },
+  analiza: {
+    title: "Analiza techniczna i fundamentalna GPW — Edukacja — WIGmarkets.pl",
+    description: "Naucz się analizy technicznej i fundamentalnej spółek GPW. Wskaźniki RSI, MACD, P/E, ROE, średnie kroczące i formacje świecowe — praktyczne poradniki.",
+    label: "Analiza",
+  },
+  strategia: {
+    title: "Strategie inwestycyjne na GPW — Edukacja giełdowa — WIGmarkets.pl",
+    description: "Poznaj skuteczne strategie inwestycyjne dla rynku GPW. Value investing, DCA, momentum, stop-loss, zarządzanie ryzykiem — sprawdzone metody dla polskich inwestorów.",
+    label: "Strategia",
+  },
+};
 
 function truncateDesc(str, max = 155) {
   if (!str || str.length <= max) return str || "";
@@ -24,32 +46,36 @@ function escapeHtml(str) {
   return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
-function htmlShell({ title, description, image, url, jsonLd }) {
+function htmlShell({ title, ogTitle, description, image, url, jsonLd, schemas, ogType = "website" }) {
   const t = escapeHtml(title);
+  const ot = escapeHtml(ogTitle !== undefined ? ogTitle : title);
   const d = escapeHtml(description);
   const img = image ? escapeHtml(image) : "";
   const u = escapeHtml(url);
   const imgTags = img
     ? `  <meta property="og:image" content="${img}" />\n  <meta name="twitter:image" content="${img}" />\n  <meta name="twitter:card" content="summary_large_image" />`
     : `  <meta name="twitter:card" content="summary" />`;
-  const ldTag = jsonLd
-    ? `\n  <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`
-    : "";
+  const schemaList = schemas
+    ? (Array.isArray(schemas) ? schemas : [schemas])
+    : jsonLd ? [jsonLd] : [];
+  const ldTags = schemaList
+    .map(s => `\n  <script type="application/ld+json">${JSON.stringify(s)}</script>`)
+    .join("");
   return `<!DOCTYPE html>
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
   <title>${t}</title>
   <meta name="description" content="${d}" />
-  <meta property="og:title" content="${t}" />
+  <meta property="og:title" content="${ot}" />
   <meta property="og:description" content="${d}" />
 ${imgTags}
   <meta property="og:url" content="${u}" />
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="${ogType}" />
   <meta property="og:site_name" content="WIGmarkets.pl" />
-  <meta name="twitter:title" content="${t}" />
+  <meta name="twitter:title" content="${ot}" />
   <meta name="twitter:description" content="${d}" />
-  <link rel="canonical" href="${u}" />${ldTag}
+  <link rel="canonical" href="${u}" />${ldTags}
 </head>
 <body>
   <p>Redirecting to <a href="${u}">${t}</a>...</p>
@@ -150,6 +176,116 @@ export default function middleware(req) {
     );
   }
 
+  // Education article page (/edukacja/:slug — must be checked before category pages)
+  const articleMatch = path.match(/^\/edukacja\/([a-z0-9-]+)$/);
+  if (articleMatch) {
+    const slug = articleMatch[1];
+
+    // Category pages
+    if (CATEGORY_META[slug]) {
+      const meta = CATEGORY_META[slug];
+      return new Response(
+        htmlShell({
+          title: meta.title,
+          description: meta.description,
+          url: `${base}/edukacja/${slug}`,
+          schemas: [
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                { "@type": "ListItem", position: 1, name: "Strona główna", item: base },
+                { "@type": "ListItem", position: 2, name: "Edukacja", item: `${base}/edukacja` },
+                { "@type": "ListItem", position: 3, name: meta.label, item: `${base}/edukacja/${slug}` },
+              ],
+            },
+          ],
+        }),
+        { headers: { "Content-Type": "text/html; charset=utf-8" } }
+      );
+    }
+
+    // Article pages
+    const article = articleBySlug[slug];
+    if (article) {
+      const articleUrl = `${base}/edukacja/${slug}`;
+      const catLabel = CATEGORY_LABELS[article.category] || article.category;
+
+      const articleSchemas = [
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          headline: article.title,
+          description: article.metaDescription,
+          datePublished: article.publishDate,
+          dateModified: article.updatedDate || article.publishDate,
+          author: { "@type": "Organization", name: "WIGmarkets.pl" },
+          publisher: { "@type": "Organization", name: "WIGmarkets.pl", url: base },
+          mainEntityOfPage: articleUrl,
+          articleSection: catLabel,
+        },
+      ];
+
+      if (article.faq?.length > 0) {
+        articleSchemas.push({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: article.faq.map(f => ({
+            "@type": "Question",
+            name: f.question,
+            acceptedAnswer: { "@type": "Answer", text: f.answer },
+          })),
+        });
+      }
+
+      articleSchemas.push({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Strona główna", item: base },
+          { "@type": "ListItem", position: 2, name: "Edukacja", item: `${base}/edukacja` },
+          { "@type": "ListItem", position: 3, name: catLabel, item: `${base}/edukacja/${article.category}` },
+          { "@type": "ListItem", position: 4, name: article.title, item: articleUrl },
+        ],
+      });
+
+      return new Response(
+        htmlShell({
+          title: `${article.metaTitle} — WIGmarkets.pl`,
+          ogTitle: article.metaTitle,
+          description: article.metaDescription,
+          url: articleUrl,
+          ogType: "article",
+          schemas: articleSchemas,
+        }),
+        { headers: { "Content-Type": "text/html; charset=utf-8" } }
+      );
+    }
+  }
+
+  // Education hub page (/edukacja)
+  if (path === "/edukacja" || path === "/edukacja/") {
+    const total = ARTICLES.length;
+    return new Response(
+      htmlShell({
+        title: "Edukacja giełdowa — Naucz się inwestować na GPW — WIGmarkets.pl",
+        description: `Bezpłatne poradniki, analizy i strategie inwestycyjne dla inwestorów na Giełdzie Papierów Wartościowych. ${total} artykułów edukacyjnych.`,
+        url: `${base}/edukacja`,
+        schemas: [
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Strona główna", item: base },
+              { "@type": "ListItem", position: 2, name: "Edukacja", item: `${base}/edukacja` },
+            ],
+          },
+        ],
+      }),
+      { headers: { "Content-Type": "text/html; charset=utf-8" } }
+    );
+  }
+
   // Rankings list page (/rankingi)
   if (path === "/rankingi" || path === "/rankingi/") {
     return new Response(
@@ -209,5 +345,11 @@ export default function middleware(req) {
 }
 
 export const config = {
-  matcher: ["/fear-greed", "/indeks", "/spolka/:path*", "/stock/:path*", "/edukacja/slowniczek", "/edukacja/slowniczek/:path*", "/rankingi", "/rankingi/:path*", "/heatmapa"],
+  matcher: [
+    "/fear-greed", "/indeks",
+    "/spolka/:path*", "/stock/:path*",
+    "/edukacja", "/edukacja/:path*",
+    "/rankingi", "/rankingi/:path*",
+    "/heatmapa",
+  ],
 };
