@@ -51,7 +51,14 @@ export default function App() {
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem("theme") !== "light");
   const [prices, setPrices] = useState({});
   const [changes, setChanges] = useState({});
-  const [indices, setIndices] = useState([]);
+  const [indices, setIndices] = useState(() => {
+    try {
+      const raw = localStorage.getItem("wm_cache_indices");
+      if (!raw) return [];
+      const { data } = JSON.parse(raw);
+      return Array.isArray(data) ? data : [];
+    } catch { return []; }
+  });
   const [worldIndices, setWorldIndices] = useState([]);
   const [watchlist, setWatchlist] = useState(() => {
     try { return new Set(JSON.parse(localStorage.getItem("watchlist") || "[]")); } catch { return new Set(); }

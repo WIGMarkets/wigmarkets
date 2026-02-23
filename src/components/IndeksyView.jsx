@@ -66,15 +66,36 @@ export default function IndeksyView({ indices, theme, isMobile }) {
           from { opacity: 0; transform: translateY(10px); }
           to   { opacity: 1; transform: translateY(0); }
         }
+        @keyframes livePulse {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0.4; }
+        }
       `}</style>
 
       <div style={{ marginBottom: 20 }}>
-        <h2 style={{
-          fontSize: 17, fontWeight: 700, color: theme.textBright,
-          margin: 0, fontFamily: "var(--font-ui)",
-        }}>
-          Indeksy GPW
-        </h2>
+        <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <h2 style={{
+            fontSize: 17, fontWeight: 700, color: theme.textBright,
+            margin: 0, fontFamily: "var(--font-ui)",
+          }}>
+            Indeksy GPW
+          </h2>
+          <span style={{
+            display: "inline-flex", alignItems: "center", gap: 6,
+            fontSize: 11, fontWeight: 700, color: "#22c55e",
+            background: "rgba(34,197,94,0.1)", padding: "3px 10px",
+            borderRadius: 6, fontFamily: "var(--font-mono)",
+            letterSpacing: "0.06em", textTransform: "uppercase",
+          }}>
+            <span style={{
+              width: 7, height: 7, borderRadius: "50%",
+              background: "#22c55e",
+              boxShadow: "0 0 6px #22c55e",
+              animation: "livePulse 1.5s ease-in-out infinite",
+            }} />
+            LIVE
+          </span>
+        </div>
         <p style={{
           fontSize: 12, color: theme.textSecondary,
           margin: "4px 0 0", fontFamily: "var(--font-ui)",
