@@ -19,6 +19,27 @@ import jakBudowacPortfel from "./jak-budowac-portfel-inwestycyjny.json";
 import rodzajeZlecen from "./rodzaje-zlecen-gieldowych.json";
 import sezonWynikow from "./sezon-wynikow-gpw.json";
 
+/* New articles — Podstawy */
+import czymJestDywidenda from "./czym-jest-dywidenda.json";
+import jakDzialaSesja from "./jak-dziala-sesja-gieldowa.json";
+import shortSelling from "./short-selling.json";
+import newconnectRynek from "./newconnect-rynek.json";
+import kontraktyTerminowe from "./kontrakty-terminowe.json";
+
+/* New articles — Analiza */
+import wskaznikRsi from "./wskaznik-rsi.json";
+import wskaznikMacd from "./wskaznik-macd.json";
+import srednieKroczace from "./srednie-kroczace-sma-ema.json";
+import wykresSwiecowy from "./wykres-swiecowy-formacje.json";
+import wskaznikRoe from "./wskaznik-roe.json";
+
+/* New articles — Strategia */
+import strategiaDca from "./strategia-dca.json";
+import valueInvesting from "./value-investing-gpw.json";
+import stopLossTakeProfit from "./stop-loss-take-profit.json";
+import momentumInvesting from "./momentum-investing.json";
+import inwestowanieZloto from "./inwestowanie-zloto-surowce.json";
+
 export const ARTICLES = [
   jakZaczac,
   najlepszeBrokera,
@@ -40,6 +61,24 @@ export const ARTICLES = [
   jakBudowacPortfel,
   rodzajeZlecen,
   sezonWynikow,
+  /* New — Podstawy */
+  czymJestDywidenda,
+  jakDzialaSesja,
+  shortSelling,
+  newconnectRynek,
+  kontraktyTerminowe,
+  /* New — Analiza */
+  wskaznikRsi,
+  wskaznikMacd,
+  srednieKroczace,
+  wykresSwiecowy,
+  wskaznikRoe,
+  /* New — Strategia */
+  strategiaDca,
+  valueInvesting,
+  stopLossTakeProfit,
+  momentumInvesting,
+  inwestowanieZloto,
 ];
 
 export function getArticleBySlug(slug) {
