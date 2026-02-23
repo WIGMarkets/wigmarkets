@@ -1,0 +1,215 @@
+{
+  "slug": "jak-dziala-sesja-gieldowa",
+  "title": "Jak działa sesja giełdowa — fazy notowań krok po kroku",
+  "metaTitle": "Sesja giełdowa GPW — fazy notowań i godziny handlu",
+  "metaDescription": "Poznaj fazy sesji giełdowej na GPW: pre-opening, fixing, notowania ciągłe, dogrywka. Godziny handlu, mechanizm kojarzenia zleceń i wskazówki dla inwestorów.",
+  "category": "podstawy",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-23",
+  "updatedDate": "2026-02-23",
+  "readingTime": 9,
+  "featuredImage": "/images/edukacja/jak-dziala-sesja-gieldowa.webp",
+  "featuredImageAlt": "Schemat faz sesji giełdowej na GPW z osią czasu od otwarcia do zamknięcia",
+  "tags": ["sesja giełdowa", "GPW", "notowania ciągłe", "fixing", "fazy notowań", "godziny handlu", "podstawy giełdy"],
+  "relatedSlugs": ["jak-kupic-akcje-krok-po-kroku", "rodzaje-zlecen-gieldowych", "co-to-jest-gpw"],
+  "ctaType": "screener",
+  "ctaText": "Sprawdź aktualne notowania spółek GPW",
+  "ctaLink": "/",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Czym jest sesja giełdowa i dlaczego warto znać jej strukturę?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sesja giełdowa to ściśle określony okres, w którym odbywa się handel instrumentami finansowymi na Giełdzie Papierów Wartościowych w Warszawie (GPW). Choć wielu początkujących inwestorów myśli o giełdzie jako o jednorodnym bloku czasu, w którym po prostu kupuje się i sprzedaje akcje, rzeczywistość jest znacznie bardziej złożona i fascynująca. Sesja giełdowa na GPW składa się z kilku odrębnych faz, z których każda pełni określoną funkcję w procesie ustalania cen i kojarzenia zleceń. Zrozumienie tych faz daje inwestorowi realną przewagę — pozwala lepiej planować moment składania zleceń, unikać niepotrzebnego poślizgu cenowego (slippage) i rozumieć, dlaczego ceny zachowują się w określony sposób o konkretnych porach dnia. Handel na GPW odbywa się w dni robocze, od poniedziałku do piątku, z wyłączeniem dni świątecznych ustalanych w corocznym kalendarzu sesyjnym publikowanym przez giełdę. Główne godziny sesji to przedział od 9:00 do 17:05, ale aktywność związana z sesją rozpoczyna się już o 8:00 — w fazie przed otwarciem. W tym artykule przeprowadzimy Cię przez każdą fazę sesji krok po kroku, wyjaśnimy mechanizm kojarzenia zleceń, omówimy równoważenia rynku (circuit breakers) i podpowiemy, jak wykorzystać tę wiedzę w praktyce inwestycyjnej."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Przegląd faz sesji giełdowej na GPW"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sesja giełdowa na rynku głównym GPW (system notowań ciągłych) dzieli się na następujące fazy, z których każda ma precyzyjnie określone ramy czasowe i zasady działania. Poniżej przedstawiamy pełną oś czasu sesji z opisem każdej fazy. Warto zapamiętać te godziny, ponieważ decydują one o tym, kiedy Twoje zlecenia mogą być realizowane i w jaki sposób ustalane są ceny referencyjne dla instrumentów finansowych. Harmonogram dotyczy akcji notowanych w systemie notowań ciągłych — czyli zdecydowanej większości spółek z indeksów WIG20, mWIG40 i sWIG80."
+    },
+    {
+      "type": "list",
+      "items": [
+        "8:00–9:00 — Faza przed otwarciem (pre-opening): przyjmowanie zleceń, brak transakcji, wyświetlane jest teoretyczne kurs otwarcia (TKO)",
+        "9:00 — Otwarcie (fixing otwarcia): jednorazowe kojarzenie zleceń po jednej cenie otwarcia, ustalanej algorytmicznie",
+        "9:00–16:50 — Notowania ciągłe: handel w czasie rzeczywistym, zlecenia realizowane na bieżąco według priorytetów cenowo-czasowych",
+        "16:50–17:00 — Faza przed zamknięciem (pre-closing): przyjmowanie zleceń na fixing zamknięcia, brak transakcji",
+        "17:00 — Zamknięcie (fixing zamknięcia): jednorazowe kojarzenie zleceń po jednej cenie zamknięcia",
+        "17:00–17:05 — Dogrywka (after-hours): krótka faza handlu po cenie zamknięcia, bez zmiany ceny"
+      ]
+    },
+    {
+      "type": "info",
+      "text": "Podane godziny dotyczą rynku głównego GPW w systemie notowań ciągłych (akcje, ETF-y). Instrumenty pochodne (kontrakty terminowe, opcje) mogą mieć nieco inne godziny sesji. Instrumenty notowane w systemie kursu jednolitego (mniej płynne spółki) mają inny harmonogram — z dwoma fixingami dziennie (11:00 i 15:00)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Faza przed otwarciem (8:00–9:00) — przygotowanie do sesji"
+    },
+    {
+      "type": "paragraph",
+      "text": "Faza przed otwarciem (pre-opening) rozpoczyna się o godzinie 8:00 i trwa do momentu fixingu otwarcia o 9:00. W tym okresie inwestorzy mogą składać, modyfikować i anulować zlecenia, ale żadne transakcje nie są realizowane. System giełdowy gromadzi wszystkie złożone zlecenia i na ich podstawie oblicza w czasie rzeczywistym tak zwany teoretyczny kurs otwarcia (TKO). TKO to cena, po której zostałoby zrealizowanych najwięcej zleceń, gdyby fixing odbył się w danym momencie. Jest to niezwykle cenna informacja dla inwestorów, ponieważ pozwala ocenić nastroje rynkowe jeszcze przed oficjalnym rozpoczęciem handlu. Jeśli TKO jest znacząco wyższy od wczorajszej ceny zamknięcia, oznacza to, że popyt przewyższa podaż i rynek prawdopodobnie otworzy się na plusie — na przykład po publikacji dobrych wyników finansowych spółki lub pozytywnych danych makroekonomicznych. Faza pre-opening jest szczególnie ważna po weekendach, dniach wolnych i w reakcji na wydarzenia, które miały miejsce po zamknięciu poprzedniej sesji — takie jak decyzje Fed, publikacja wyników kwartalnych czy globalne wydarzenia geopolityczne. Inwestorzy instytucjonalni często wykorzystują tę fazę do pozycjonowania się przed otwarciem, dlatego obserwacja TKO i wolumenu zleceń w arkuszu może dać cenne wskazówki co do kierunku otwarcia. Warto pamiętać, że w fazie pre-opening nie są przyjmowane zlecenia PKC (Po Każdej Cenie) — dopuszczone są jedynie zlecenia z limitem ceny, PCR (Po Cenie Rynkowej) oraz zlecenia specjalne jak WUJ (Ważne Do Pierwszego Wykonania)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Fixing otwarcia (9:00) — jak ustalana jest cena otwarcia?"
+    },
+    {
+      "type": "paragraph",
+      "text": "O godzinie 9:00 następuje fixing otwarcia — kluczowy moment sesji, w którym system giełdowy jednorazowo kojarzy wszystkie zgromadzone zlecenia kupna i sprzedaży po jednej, ustalonej algorytmicznie cenie otwarcia. Algorytm fixingu działa według ściśle określonych priorytetów: w pierwszej kolejności system ustala cenę, po której zostanie zrealizowany największy wolumen obrotu (maksymalizacja obrotu). Jeśli kilka cen daje taki sam wolumen, wybierana jest cena, przy której niezrealizowana nadwyżka zleceń (różnica między podażą a popytem) jest najmniejsza. Jeśli i ten warunek nie daje jednoznacznego rozstrzygnięcia, system wybiera cenę bliższą ostatniemu kursowi odniesienia (czyli wczorajszej cenie zamknięcia). Ten mechanizm gwarantuje, że cena otwarcia jest sprawiedliwa i odzwierciedla stan równowagi między popytem a podażą zgromadzonym przed sesją. Wszystkie zlecenia, które mogą być zrealizowane po cenie fixingu, są realizowane jednocześnie — niezależnie od kolejności ich złożenia. Zlecenia z limitem lepszym od ceny fixingu mają oczywiście pierwszeństwo realizacji. Cena otwarcia ustalona podczas fixingu staje się ważnym punktem odniesienia na resztę dnia sesyjnego — analitycy techniczni często porównują cenę otwarcia z ceną zamknięcia, aby ocenić siłę trendu w ciągu dnia. Luka otwarcia (gap) — czyli sytuacja, gdy cena otwarcia jest znacząco różna od wczorajszego zamknięcia — jest silnym sygnałem technicznym, który może wskazywać na kontynuację lub odwrócenie trendu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Notowania ciągłe (9:00–16:50) — serce sesji giełdowej"
+    },
+    {
+      "type": "paragraph",
+      "text": "Po fixingu otwarcia rozpoczyna się najdłuższa i najważniejsza faza sesji — notowania ciągłe, które trwają od 9:00 do 16:50. W tym okresie handel odbywa się w czasie rzeczywistym: zlecenia kupna i sprzedaży są na bieżąco kojarzone przez system transakcyjny GPW (obecnie UTP — Universal Trading Platform, dostarczany przez NYSE Technologies). Transakcje zawierane są natychmiast po pojawieniu się zgodnych zleceń po stronie kupna i sprzedaży. Cena zmienia się z każdą nową transakcją, tworząc wykres intraday, który obserwujesz w serwisach notowań i na platformach maklerskich. Podczas notowań ciągłych obowiązuje zasada priorytetów: priorytet cenowy (lepsze zlecenia realizowane jako pierwsze — wyższy limit kupna lub niższy limit sprzedaży) oraz priorytet czasowy (przy takim samym limicie cenowym, wcześniej złożone zlecenie ma pierwszeństwo). Jest to system fair i transparentny — każdy uczestnik rynku, niezależnie od wielkości portfela, podlega tym samym zasadom kolejkowania. W fazie notowań ciągłych dostępne są wszystkie typy zleceń: z limitem ceny, PKC (Po Każdej Cenie), PCR (Po Cenie Rynkowej), zlecenia stop loss, stop limit i inne. To właśnie w tej fazie odbywa się zdecydowana większość dziennego obrotu — szacunkowo 85-90% wolumenu transakcji przypada na notowania ciągłe. Każda transakcja zawarta w tej fazie jest natychmiast raportowana i widoczna w arkuszu zleceń, tworząc ciąg danych tick-by-tick wykorzystywanych przez traderów i algorytmy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Faza przed zamknięciem i fixing zamknięcia (16:50–17:00)"
+    },
+    {
+      "type": "paragraph",
+      "text": "O godzinie 16:50 notowania ciągłe zostają wstrzymane i rozpoczyna się faza przed zamknięciem (pre-closing), która działa analogicznie do fazy przed otwarciem. Przez 10 minut — od 16:50 do 17:00 — inwestorzy mogą składać zlecenia, ale transakcje nie są realizowane. System oblicza teoretyczny kurs zamknięcia (TKZ), który dynamicznie się zmienia w miarę napływu nowych zleceń. O godzinie 17:00 następuje fixing zamknięcia — najważniejszy moment dnia z perspektywy wyceny instrumentów finansowych. Cena ustalona na fixingu zamknięcia staje się oficjalną ceną zamknięcia danego dnia sesyjnego. Ta cena ma ogromne znaczenie praktyczne: jest podstawą do obliczania indeksów giełdowych (WIG20, WIG, mWIG40, sWIG80), służy jako kurs odniesienia na następną sesję, jest używana do wyceny portfeli funduszy inwestycyjnych (NAV — Net Asset Value), stanowi bazę do rozliczania kontraktów terminowych i opcji, jest punktem odniesienia dla zleceń DDM (Do Dyspozycji Maklera) i stop loss na następny dzień. Właśnie dlatego fixing zamknięcia przyciąga ogromny wolumen zleceń — fundusze inwestycyjne, ETF-y i inwestorzy instytucjonalni celowo składają duże zlecenia na fixing zamknięcia, aby uzyskać cenę jak najbardziej zbliżoną do oficjalnej wyceny rynkowej. Szacuje się, że na największych spółkach z WIG20 nawet 15-20% dziennego obrotu może przypadać na sam fixing zamknięcia. Dla inwestora indywidualnego to ważna informacja — oznacza bowiem, że cena zamknięcia może być nieco inna niż cena z ostatnich minut notowań ciągłych."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dogrywka (17:00–17:05) — handel po zamknięciu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bezpośrednio po fixingu zamknięcia rozpoczyna się krótka faza dogrywki (after-hours trading), która trwa od 17:00 do 17:05. W tym pięciominutowym okienku inwestorzy mogą zawierać transakcje, ale wyłącznie po cenie zamknięcia ustalonej na fixingu — nie ma możliwości handlu po innej cenie. Dogrywka umożliwia inwestorom, którzy nie zdążyli złożyć zleceń na fixing zamknięcia, wykonanie transakcji po tej samej, oficjalnej cenie końcowej. Jest to szczególnie przydatne dla funduszy indeksowych i ETF-ów, które muszą dokonać rebalancingu portfela po cenach zamknięcia, ale z różnych powodów technicznych nie zdążyły złożyć zleceń przed godzina 17:00. W praktyce wolumen transakcji w fazie dogrywki jest stosunkowo niewielki — na głównych spółkach stanowi zaledwie kilka procent dziennego obrotu. Niemniej dla inwestorów indywidualnych dogrywka oferuje pewną elastyczność — jeśli chcesz kupić lub sprzedać akcje dokładnie po cenie zamknięcia i nie zdążyłeś złożyć zlecenia na fixing, masz jeszcze pięć minut, aby to zrobić. Po godzinie 17:05 sesja giełdowa definitywnie się kończy i do następnego dnia roboczego nie ma możliwości handlu na regulowanym rynku GPW. Zlecenia złożone po godzinie 17:05 zostaną przyjęte przez system maklerski i oczekują na realizację w fazie pre-opening następnej sesji."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mechanizm kojarzenia zleceń — priorytet cenowo-czasowy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zrozumienie sposobu kojarzenia zleceń jest fundamentalne dla każdego inwestora, który chce świadomie składać zlecenia i rozumieć, dlaczego jego transakcja została zrealizowana po danej cenie. System transakcyjny GPW stosuje algorytm oparty na dwóch priorytetach: cenowym i czasowym. Priorytet cenowy oznacza, że zlecenia oferujące lepszą cenę są realizowane jako pierwsze. Przy kupnie — wyższy limit ma pierwszeństwo (bo kupujący oferuje więcej). Przy sprzedaży — niższy limit ma pierwszeństwo (bo sprzedający akceptuje mniej). Zlecenia PKC mają najwyższy priorytet cenowy, ponieważ akceptują dowolną cenę. Priorytet czasowy działa jako drugorzędny filtr: jeśli dwa zlecenia mają identyczny limit cenowy, pierwszeństwo ma zlecenie złożone wcześniej. Oznacza to, że w praktyce nie ma sensu składać zlecenia z tym samym limitem co inne zlecenie już obecne w arkuszu — jeśli chcesz mieć pewność realizacji, musisz zaoferować lepszą cenę. Ten mechanizm jest identyczny z systemami stosowanymi na największych giełdach świata — NYSE, NASDAQ, London Stock Exchange — i gwarantuje sprawiedliwe traktowanie wszystkich uczestników rynku. Warto pamiętać, że w momencie fixingu (otwarcia i zamknięcia) priorytet czasowy nie obowiązuje — liczy się wyłącznie cena. Wszystkie zlecenia z limitem lepszym od ceny fixingu lub równym jej są realizowane jednocześnie, niezależnie od kolejności złożenia."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Widełki statyczne i dynamiczne — ochrona przed gwałtownymi wahaniami"
+    },
+    {
+      "type": "paragraph",
+      "text": "GPW stosuje mechanizmy bezpieczeństwa zwane widełkami (circuit breakers), które chronią rynek przed gwałtownymi, niekontrolowanymi ruchami cen. Wyróżniamy dwa rodzaje widełek: statyczne i dynamiczne. Widełki statyczne określają maksymalny dozwolony zakres wahań ceny w ciągu jednej sesji, licząc od kursu odniesienia (zazwyczaj ceny zamknięcia z poprzedniej sesji). Dla akcji na rynku głównym GPW standardowe widełki statyczne wynoszą plus/minus 10% od kursu odniesienia. Oznacza to, że jeśli wczorajsza cena zamknięcia spółki wyniosła 100 zł, dzisiejsza cena nie może wzrosnąć powyżej 110 zł ani spaść poniżej 90 zł. Jeśli zlecenia prowadzą do przekroczenia tych limitów, handel na danym instrumencie zostaje czasowo wstrzymany — następuje tak zwane równoważenie rynku. Widełki dynamiczne są bardziej elastyczne i działają w krótszym horyzoncie czasowym. Chronią przed nagłymi skokami ceny w ciągu kilku sekund — na przykład w wyniku błędu w zleceniu (fat finger) lub ataku algorytmicznego. Widełki dynamiczne wynoszą zazwyczaj plus/minus 3,5% od ostatniej ceny transakcyjnej i są aktualizowane po każdej transakcji. Podczas równoważenia rynku (zawieszenia handlu) inwestorzy mogą składać i modyfikować zlecenia, ale transakcje nie są realizowane. System wyświetla teoretyczny kurs równowagi. Po kilku minutach (zazwyczaj 3-5 minut) następuje fixing, który ustala nową cenę, i handel zostaje wznowiony. W wyjątkowych sytuacjach, na przykład podczas krachu, GPW może rozszerzyć widełki statyczne lub przedłużyć okres równoważenia."
+    },
+    {
+      "type": "warning",
+      "text": "Równoważenie rynku (zawieszenie handlu po przekroczeniu widełek) oznacza, że Twoje zlecenia PKC mogą zostać zrealizowane po zaskakującej cenie po wznowieniu notowań. W dniu intensywnych wahań, szczególnie na mniej płynnych spółkach, rozważ stosowanie zleceń z limitem ceny zamiast PKC, aby zachować kontrolę nad ceną realizacji."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rynek główny GPW a NewConnect — różnice w sesji"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oprócz rynku głównego GPW (regulowanego) istnieje alternatywny system obrotu NewConnect, przeznaczony dla mniejszych, często innowacyjnych spółek. Sesja na NewConnect ma istotne różnice w porównaniu z rynkiem głównym. Na NewConnect instrumenty mogą być notowane w jednym z dwóch systemów: notowań ciągłych (harmonogram zbliżony do rynku głównego, ale z innymi godzinami fixingów) lub kursu jednolitego z dwoma fixingami dziennie — o 11:00 i 15:00. W systemie kursu jednolitego nie ma notowań ciągłych — cena ustalana jest tylko dwa razy dziennie na fixingach. Oznacza to, że płynność jest znacznie niższa niż na rynku głównym, a spready (różnica między najlepszą ofertą kupna i sprzedaży) mogą być bardzo szerokie. Na NewConnect widełki statyczne są zazwyczaj szersze — plus/minus 20% lub nawet 40% w zależności od segmentu. Wynika to z niższej płynności i większej zmienności tych instrumentów. Dla inwestora indywidualnego oznacza to większe ryzyko, ale potencjalnie wyższe stopy zwrotu. Wolumen obrotu na NewConnect stanowi zaledwie ułamek obrotu rynku głównego — kilkanaście milionów złotych dziennie wobec kilku miliardów na rynku głównym. Planując inwestycje na NewConnect, należy uwzględnić te różnice — szczególnie niższą płynność, szersze spready i ograniczone godziny handlu w systemie kursu jednolitego."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dlaczego cena otwarcia i zamknięcia są tak ważne?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cena otwarcia i cena zamknięcia to dwa najważniejsze punkty cenowe każdej sesji giełdowej — zarówno z perspektywy analitycznej, jak i praktycznej. Cena zamknięcia jest oficjalną ceną dnia i pełni szereg funkcji regulacyjnych: służy do obliczania wartości indeksów giełdowych, stanowi podstawę do wyceny jednostek funduszy inwestycyjnych (NAV), jest kursem odniesienia na następną sesję (od niej liczone są widełki statyczne), jest używana do rozliczania instrumentów pochodnych (kontrakty terminowe, opcje). W analizie technicznej relacja między ceną otwarcia a ceną zamknięcia jest podstawą wielu formacji świecowych (candlestick patterns). Jeśli cena zamknięcia jest wyższa od ceny otwarcia, świeca jest zielona (bullish) — oznacza to, że byki kontrolowały sesję. Odwrotna sytuacja daje czerwoną świecę (bearish). Długie knoty (shadows) nad lub pod korpusem świecy wskazują na odrzucenie cen ekstremalnych w ciągu dnia. Cena otwarcia z kolei odzwierciedla reakcję rynku na informacje, które pojawiły się po zamknięciu poprzedniej sesji. Luka otwarcia (gap up lub gap down) — czyli otwarcie znacząco wyżej lub niżej niż wczorajsze zamknięcie — jest jednym z najsilniejszych sygnałów technicznych. Na GPW luki otwarcia często pojawiają się po publikacji raportów okresowych, rekomendacji analityków czy w reakcji na zachowanie rynków zagranicznych (Wall Street zamyka się o 22:00 czasu polskiego, po zamknięciu GPW). Profesjonalni traderzy analizują tak zwaną aukcję otwarcia (wolumen i strukturę zleceń na fixingu) jako wskaźnik siły popytu i podaży na dany instrument."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wzorce wolumenu w ciągu dnia sesyjnego"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wolumen obrotu na GPW nie rozkłada się równomiernie w ciągu sesji — ma charakterystyczny kształt litery U (U-shape), który jest typowy dla większości giełd na świecie. Najwyższy wolumen obserwujemy na początku sesji (9:00–10:00) i pod koniec sesji (16:00–17:00), a najniższy w środku dnia (12:00–14:00). Wysoki wolumen na otwarciu wynika z realizacji zleceń zgromadzonych przez noc i reakcji na nocne wydarzenia z rynków zagranicznych. Inwestorzy, którzy analizowali sytuację po wczorajszym zamknięciu, składają zlecenia rano — stąd duża aktywność. Wysoki wolumen pod koniec sesji ma inne źródło — to głównie aktywność inwestorów instytucjonalnych i funduszy, które składają zlecenia na fixing zamknięcia (rebalancing portfeli, benchmarking do NAV). Środek dnia to okres relatywnego spokoju — wielu profesjonalnych traderów unika handlu w godzinach 12:00–14:00, ponieważ niska płynność może prowadzić do nieefektywnych cen i szerokich spreadów. Wyjątkiem są dni publikacji ważnych danych makroekonomicznych (GUS, NBP, dane z USA), które mogą wywołać gwałtowny wzrost wolumenu o dowolnej porze dnia. Dla inwestora indywidualnego ten wzorzec ma praktyczne znaczenie: jeśli chcesz uzyskać najlepszą realizację zlecenia (najwęższy spread, najmniejszy poślizg cenowy), handluj w godzinach o najwyższej płynności — rano lub pod koniec sesji. Unikaj składania dużych zleceń PKC w środku dnia na mało płynnych spółkach."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wskazówki praktyczne — kiedy składać zlecenia?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Znajomość struktury sesji giełdowej pozwala podejmować bardziej świadome decyzje dotyczące momentu składania zleceń. Oto praktyczne wskazówki, które wynikają bezpośrednio z mechaniki sesji na GPW. Każda z nich adresuje konkretny scenariusz, z jakim może się zetknąć zarówno początkujący, jak i doświadczony inwestor."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Jeśli inwestujesz długoterminowo — nie przejmuj się minutowym timingiem. Składaj zlecenia z limitem ceny w fazie pre-opening lub podczas notowań ciągłych. Różnica kilku groszy nie wpłynie na wynik inwestycji trzymanej latami.",
+        "Jeśli chcesz kupić po cenie zamknięcia — złóż zlecenie na fixing zamknięcia (zlecenie z oznaczeniem Na Zamknięcie). Uzyskasz cenę identyczną z oficjalną ceną dnia.",
+        "Jeśli reagujesz na wiadomość przed sesją — złóż zlecenie w fazie pre-opening, ale obserwuj TKO (teoretyczny kurs otwarcia). Nie składaj PKC, jeśli TKO wskazuje na duży gap — lepiej użyć zlecenia z limitem.",
+        "Unikaj dużych zleceń PKC na mało płynnych spółkach — szczególnie na małych spółkach z sWIG80 lub NewConnect, gdzie jeden duży order może przesunąć cenę o kilka procent.",
+        "Obserwuj wolumen — jeśli handlujesz aktywnie, najlepsza realizacja będzie rano (9:00–10:30) i pod koniec sesji (15:30–17:00). Unikaj środka dnia na mało płynnych walorach.",
+        "Korzystaj z dogrywki — jeśli przegapiłeś fixing zamknięcia, masz jeszcze 5 minut (17:00–17:05) na zawarcie transakcji po cenie zamknięcia."
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Dla długoterminowych inwestorów, którzy regularnie dokupują akcje (strategia DCA — Dollar Cost Averaging), optymalnym momentem jest składanie zleceń z limitem ceny w okolicach godziny 10:00–11:00, gdy początkowa zmienność otwarcia już opadnie, ale płynność wciąż jest przyzwoita. Unikaj składania zleceń w ostatnich minutach przed fixingiem zamknięcia — duża aktywność instytucjonalna może wówczas przesunąć cenę."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sesja giełdowa a rynki zagraniczne — wpływ Wall Street"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sesja na GPW odbywa się w godzinach 9:00–17:05 czasu polskiego (CET/CEST), co oznacza częściowe nakładanie się z sesjami na innych rynkach. Giełdy europejskie (Frankfurt, Londyn, Paryż) handlują w zbliżonych godzinach, co oznacza, że wydarzenia na tych rynkach bezpośrednio wpływają na nastroje na GPW w trakcie sesji. Najważniejszy rynek świata — Wall Street (NYSE, NASDAQ) — otwiera się o 15:30 czasu polskiego, czyli na półtorej godziny przed fazą pre-closing na GPW. To oznacza, że końcówka sesji GPW często reaguje na pierwsze minuty handlu w Stanach Zjednoczonych. Silne otwarcie w USA może poprawić nastroje na GPW i podnieść ceny na fixingu zamknięcia. Odwrotnie — słabe otwarcie Wall Street może spowodować wyprzedaż w ostatnich minutach sesji warszawskiej. Ta zależność jest szczególnie widoczna na spółkach mocno powiązanych z globalnymi trendami — takich jak KGHM (powiązany z ceną miedzi i sentymentem na rynku surowców) czy CD Projekt (wyceniany częściowo przez pryzmat sektora gamingowego na NASDAQ). Nocne zmiany na rynkach azjatyckich (Tokio, Szanghaj) i późne ruchy na Wall Street (zamknięcie o 22:00 czasu polskiego) z kolei kształtują nastroje w fazie pre-opening następnego dnia na GPW. Doświadczeni inwestorzy sprawdzają kontrakty futures na S&P 500 i notowania rynków azjatyckich przed otwarciem GPW, aby mieć pogląd na prawdopodobny kierunek otwarcia."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Podsumowanie — najważniejsze wnioski"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sesja giełdowa na GPW to precyzyjnie zorganizowany proces, który zapewnia sprawiedliwy i transparentny handel papierami wartościowymi. Kluczowe elementy, które każdy inwestor powinien znać, to: podział sesji na fazy (pre-opening, fixing otwarcia, notowania ciągłe, pre-closing, fixing zamknięcia, dogrywka), mechanizm priorytetów cenowo-czasowych przy kojarzeniu zleceń, rola widełek statycznych i dynamicznych jako mechanizmów bezpieczeństwa, szczególne znaczenie ceny otwarcia i zamknięcia oraz charakterystyczny wzorzec wolumenu w kształcie litery U. Świadomy inwestor wykorzystuje tę wiedzę do optymalizacji momentu składania zleceń, wyboru odpowiedniego typu zlecenia i zarządzania ryzykiem związanym z płynnością rynku. Nawet jeśli inwestujesz długoterminowo i nie zajmujesz się day tradingiem, znajomość struktury sesji pozwala Ci lepiej rozumieć, co dzieje się z ceną Twoich akcji i dlaczego czasem widzisz nieoczekiwane ruchy na otwarciu lub zamknięciu. Pamiętaj, że GPW publikuje szczegółowy regulamin obrotu i harmonogram sesji na swojej stronie internetowej — warto zaglądać tam regularnie, ponieważ godziny sesji mogą ulegać drobnym zmianom w dniach szczególnych (skrócone sesje przed świętami, zmiany w dniach rozliczenia instrumentów pochodnych)."
+    },
+    {
+      "type": "info",
+      "text": "Informacje zawarte w tym artykule mają charakter edukacyjny i nie stanowią rekomendacji inwestycyjnej. Godziny sesji i parametry widełek mogą ulec zmianie — zawsze sprawdzaj aktualny harmonogram na oficjalnej stronie GPW (gpw.pl)."
+    }
+  ],
+  "faq": [
+    {
+      "question": "O której godzinie otwiera się i zamyka giełda GPW?",
+      "answer": "Sesja na rynku głównym GPW (notowania ciągłe) trwa od 9:00 do 17:05. Faza przed otwarciem rozpoczyna się o 8:00, fixing otwarcia następuje o 9:00, notowania ciągłe trwają od 9:00 do 16:50, fixing zamknięcia odbywa się o 17:00, a dogrywka (handel po cenie zamknięcia) trwa od 17:00 do 17:05. Warto pamiętać, że instrumenty notowane w systemie kursu jednolitego mają inny harmonogram — z fixingami o 11:00 i 15:00."
+    },
+    {
+      "question": "Co to jest fixing i jak wpływa na cenę akcji?",
+      "answer": "Fixing to mechanizm jednorazowego ustalenia ceny instrumentu finansowego na podstawie wszystkich zgromadzonych zleceń kupna i sprzedaży. Na GPW fixing odbywa się dwa razy dziennie — na otwarciu (9:00) i na zamknięciu (17:00). Algorytm wybiera cenę, która maksymalizuje wolumen obrotu. Cena fixingu zamknięcia jest szczególnie ważna — to oficjalna cena dnia, używana do obliczania indeksów, wyceny funduszy i jako kurs odniesienia na następną sesję."
+    },
+    {
+      "question": "Czym są widełki giełdowe i co się dzieje, gdy zostaną przekroczone?",
+      "answer": "Widełki to limity wahań ceny chroniące rynek przed gwałtownymi ruchami. Widełki statyczne na GPW wynoszą zazwyczaj plus/minus 10% od kursu odniesienia (wczorajszej ceny zamknięcia). Widełki dynamiczne to plus/minus 3,5% od ostatniej ceny transakcyjnej. Gdy zlecenia prowadzą do przekroczenia widełek, handel na danym instrumencie zostaje czasowo wstrzymany (równoważenie rynku). Po kilku minutach następuje fixing przywracający notowania. Inwestorzy mogą składać zlecenia podczas równoważenia, ale transakcje nie są realizowane do momentu wznowienia handlu."
+    },
+    {
+      "question": "Kiedy jest najlepszy moment na składanie zleceń na GPW?",
+      "answer": "Najwyższa płynność na GPW występuje rano (9:00–10:30) i pod koniec sesji (15:30–17:00), co zapewnia najwęższe spready i najlepszą realizację zleceń. Środek dnia (12:00–14:00) charakteryzuje się niższą aktywnością. Dla inwestorów długoterminowych najlepszym podejściem jest składanie zleceń z limitem ceny, które będą zrealizowane po korzystnej cenie niezależnie od pory dnia. Unikaj dużych zleceń PKC na mało płynnych spółkach w godzinach niskiej aktywności."
+    },
+    {
+      "question": "Czym różni się sesja na rynku głównym GPW od sesji na NewConnect?",
+      "answer": "NewConnect to alternatywny system obrotu z niższymi wymogami dla emitentów. Kluczowe różnice dotyczące sesji: spółki na NewConnect mogą być notowane w systemie kursu jednolitego z zaledwie dwoma fixingami dziennie (11:00 i 15:00) zamiast notowań ciągłych, widełki statyczne są szersze (do 20-40%), płynność jest znacznie niższa, a spready — szersze. Oznacza to wyższe ryzyko poślizgu cenowego przy realizacji zleceń, ale też potencjalnie większe ruchy cenowe w ciągu dnia."
+    }
+  ]
+}

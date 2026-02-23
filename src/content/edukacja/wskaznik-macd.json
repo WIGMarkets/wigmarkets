@@ -1,0 +1,223 @@
+{
+  "slug": "wskaznik-macd",
+  "title": "MACD — jak czytać sygnały kupna i sprzedaży",
+  "metaTitle": "MACD — sygnały kupna i sprzedaży | Poradnik GPW",
+  "metaDescription": "Poznaj wskaźnik MACD: jak działa linia MACD, linia sygnału i histogram. Sygnały kupna i sprzedaży, dywergencje i praktyczne przykłady ze spółek GPW.",
+  "category": "analiza",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-23",
+  "updatedDate": "2026-02-23",
+  "readingTime": 14,
+  "featuredImage": "/images/edukacja/wskaznik-macd.webp",
+  "featuredImageAlt": "Wskaźnik MACD — wykres z linią MACD, linią sygnału i histogramem",
+  "tags": ["MACD", "analiza techniczna", "wskaźniki", "sygnały", "GPW"],
+  "relatedSlugs": [
+    "wskazniki-fundamentalne-gpw",
+    "analiza-techniczna-podstawy",
+    "wskaznik-rsi",
+    "srednie-kroczace-sma-ema"
+  ],
+  "ctaType": "screener",
+  "ctaText": "Analizuj wskaźniki techniczne spółek GPW",
+  "ctaLink": "/",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Czym jest MACD i skąd się wziął?"
+    },
+    {
+      "type": "paragraph",
+      "text": "MACD (Moving Average Convergence Divergence), czyli wskaźnik zbieżności i rozbieżności średnich kroczących, to jeden z najpopularniejszych i najczęściej stosowanych oscylatorów impetu w analizie technicznej. Został opracowany w 1979 roku przez Geralda Appela, amerykańskiego analityka i zarządzającego funduszami inwestycyjnymi, jako narzędzie do identyfikowania zmian w sile, kierunku, impecie i czasie trwania trendu cenowego. MACD należy do kategorii wskaźników podążających za trendem (trend-following), ale jednocześnie pełni funkcję oscylatora impetu, co czyni go wyjątkowo wszechstronnym narzędziem. Na polskiej Giełdzie Papierów Wartościowych wskaźnik MACD jest powszechnie stosowany zarówno przez inwestorów indywidualnych, jak i profesjonalnych analityków. Jego popularność wynika z prostoty interpretacji — nawet początkujący inwestor może szybko nauczyć się rozpoznawać podstawowe sygnały kupna i sprzedaży. Jednocześnie MACD oferuje zaawansowane możliwości analizy, takie jak dywergencje czy analiza histogramu, które pozwalają doświadczonym traderom na bardziej precyzyjne podejmowanie decyzji inwestycyjnych."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Składniki wskaźnika MACD"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wskaźnik MACD składa się z trzech kluczowych elementów, z których każdy dostarcza odrębnych informacji o dynamice rynku. Pierwszym elementem jest linia MACD, która stanowi różnicę między dwiema wykładniczymi średnimi kroczącymi (EMA): szybką 12-okresową i wolną 26-okresową. Oblicza się ją według wzoru: MACD = EMA(12) - EMA(26). Gdy cena rośnie dynamicznie, krótsza EMA 12 rośnie szybciej niż dłuższa EMA 26, co powoduje wzrost wartości linii MACD. Gdy cena spada, dzieje się odwrotnie — linia MACD maleje. Drugim elementem jest linia sygnału (Signal Line), czyli 9-okresowa wykładnicza średnia krocząca obliczona z wartości linii MACD. Linia sygnału wygładza wahania linii MACD i służy jako punkt odniesienia do generowania sygnałów transakcyjnych — przecięcia linii MACD z linią sygnału stanowią podstawowe sygnały kupna i sprzedaży. Trzecim elementem jest histogram MACD, który wizualizuje różnicę między linią MACD a linią sygnału w formie słupków. Gdy linia MACD jest powyżej linii sygnału, histogram przyjmuje wartości dodatnie; gdy poniżej — ujemne. Histogram pozwala na szybką ocenę siły impetu i tempa zmian."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Linia MACD — różnica EMA(12) minus EMA(26), pokazuje kierunek i siłę impetu",
+        "Linia sygnału — EMA(9) z linii MACD, wygładza wahania i generuje sygnały transakcyjne",
+        "Histogram — różnica między linią MACD a linią sygnału, wizualizuje tempo zmian impetu",
+        "Linia zerowa — poziom równowagi, powyżej którego trend jest wzrostowy, poniżej spadkowy"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Standardowe ustawienia: 12, 26, 9"
+    },
+    {
+      "type": "paragraph",
+      "text": "Domyślne parametry MACD to 12, 26 i 9 — odpowiednio okres szybkiej EMA, okres wolnej EMA i okres EMA linii sygnału. Te wartości zostały zaproponowane przez Geralda Appela i sprawdzają się jako uniwersalne ustawienie na większości rynków i interwałów czasowych. Warto jednak rozumieć, co kryje się za tymi liczbami. Liczba 12 odpowiada w przybliżeniu dwóm tygodniom handlowym (12 sesji giełdowych), 26 to mniej więcej miesiąc handlowy, a 9 to niecałe dwa tygodnie. Na GPW, gdzie sesja trwa od 9:00 do 17:00, te parametry dobrze odzwierciedlają krótko- i średnioterminową dynamikę cen. Dla inwestorów preferujących szybsze sygnały można zastosować krótsze okresy, np. 8, 17, 9 — wtedy MACD będzie bardziej wrażliwy na zmiany cen, ale kosztem większej liczby fałszywych sygnałów. Inwestorzy długoterminowi mogą natomiast wydłużyć parametry do np. 19, 39, 9, co zmniejszy czułość wskaźnika i ograniczy liczbę sygnałów do tych najistotniejszych. W praktyce zaleca się rozpoczęcie od standardowych ustawień 12, 26, 9 i dostosowywanie ich dopiero po zdobyciu doświadczenia i przetestowaniu na danych historycznych konkretnych spółek z GPW."
+    },
+    {
+      "type": "tip",
+      "text": "Nie zmieniaj standardowych parametrów MACD (12, 26, 9) bez solidnego powodu i testów historycznych. Optymalizacja parametrów pod dane historyczne (curve fitting) często prowadzi do gorszych wyników w przyszłości. Standardowe ustawienia są uniwersalne i sprawdzone na dziesiątkach lat danych rynkowych."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sygnały kupna — kiedy MACD mówi 'kupuj'?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Podstawowym sygnałem kupna generowanym przez MACD jest przecięcie linii MACD z linią sygnału od dołu — tzw. bullish crossover. Sytuacja ta oznacza, że krótkoterminowy impet cenowy zaczyna przewyższać średnioterminowy, co sugeruje narastającą siłę popytu. Im niżej (dalej od linii zerowej) pojawia się to przecięcie, tym silniejszy jest potencjalny sygnał. Przecięcie, które następuje głęboko poniżej linii zerowej, po wyraźnym trendzie spadkowym, jest szczególnie wartościowe, ponieważ sugeruje potencjalne odwrócenie trendu. Drugim sygnałem kupna jest moment, gdy histogram MACD zmienia wartość z ujemnej na dodatnią — słupki przechodzą z poniżej linii zerowej na powyżej. Oznacza to, że linia MACD właśnie przekroczyła linię sygnału. Trzecim istotnym sygnałem jest przecięcie linii zerowej przez linię MACD od dołu — tzw. zero line crossover. Ten sygnał jest wolniejszy od przecięcia z linią sygnału, ale bardziej wiarygodny, ponieważ oznacza, że EMA 12 przebija EMA 26, co potwierdza zmianę trendu ze spadkowego na wzrostowy. Na GPW najsilniejsze sygnały kupna pojawiają się, gdy wszystkie trzy warunki zbiegają się w czasie — przecięcie linii sygnału, zmiana histogramu na dodatni i zbliżanie się do linii zerowej od dołu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sygnały sprzedaży — kiedy MACD ostrzega przed spadkami?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sygnały sprzedaży w MACD są lustrzanym odbiciem sygnałów kupna. Podstawowy sygnał sprzedaży to przecięcie linii MACD z linią sygnału od góry — tzw. bearish crossover. Oznacza to, że krótkoterminowy impet zaczyna słabnąć w stosunku do średnioterminowego, co sugeruje narastającą presję podażową. Analogicznie do sygnałów kupna, im wyżej ponad linią zerową pojawia się to przecięcie, tym silniejszy jest sygnał — sugeruje to potencjalne odwrócenie rozwiniętego trendu wzrostowego. Histogram MACD przechodzący z wartości dodatnich na ujemne stanowi wizualne potwierdzenie sygnału sprzedaży i pozwala szybko ocenić moment zmiany. Trzeci sygnał to przecięcie linii zerowej przez linię MACD od góry — oznacza, że EMA 12 spadła poniżej EMA 26, co potwierdza zmianę trendu ze wzrostowego na spadkowy. W praktyce inwestycyjnej na GPW warto pamiętać, że sygnały sprzedaży MACD nie muszą oznaczać konieczności zamknięcia całej pozycji — można je interpretować jako ostrzeżenie o słabnącym impecie, które skłania do zaostrzenia poziomu stop-loss, zmniejszenia wielkości pozycji lub wstrzymania się od dokupowania akcji. Decyzja o pełnej sprzedaży powinna być poparta dodatkowymi czynnikami, takimi jak potwierdzenie z innych wskaźników czy kontekst fundamentalny."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Przecięcia linii zerowej (Zero Line Crossovers)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Przecięcia linii zerowej przez linię MACD to sygnały, którym wielu początkujących inwestorów nie poświęca wystarczającej uwagi, a które mają istotne znaczenie w analizie trendu. Gdy linia MACD przekracza zero od dołu, oznacza to, że szybka średnia EMA 12 przebija wolną EMA 26 od dołu — jest to techniczny odpowiednik złotego krzyża na średnich kroczących i potwierdza zmianę trendu na wzrostowy. Gdy linia MACD spada poniżej zera, EMA 12 znajduje się poniżej EMA 26, co odpowiada śmiertelnemu krzyżowi i potwierdza trend spadkowy. Sygnały z linii zerowej są wolniejsze niż przecięcia z linią sygnału — pojawiają się z opóźnieniem, ale za to są znacznie bardziej wiarygodne i generują mniej fałszywych sygnałów. Wielu inwestorów na GPW stosuje strategię dwuetapową: przecięcie linii sygnału traktują jako wczesne ostrzeżenie i sygnał do obserwacji, natomiast przecięcie linii zerowej jako potwierdzenie zmiany trendu i moment do podjęcia decyzji. Warto również obserwować, jak długo linia MACD utrzymuje się powyżej lub poniżej zera — długie okresy powyżej zera świadczą o trwałym trendzie wzrostowym, a dłuższe pobyty poniżej zera wskazują na utrwalony trend spadkowy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dywergencje MACD — najsilniejsze sygnały"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dywergencja MACD to jedno z najpotężniejszych narzędzi w arsenale analityka technicznego. Dywergencja pojawia się, gdy kierunek ruchu ceny rozmija się z kierunkiem wskaźnika MACD, co sugeruje osłabienie bieżącego trendu i potencjalne jego odwrócenie. Wyróżniamy dwa podstawowe typy dywergencji. Dywergencja bycza (bullish divergence) występuje, gdy cena tworzy nowy dołek (niższy niż poprzedni), ale linia MACD lub histogram tworzą wyższy dołek. Oznacza to, że mimo spadku ceny impet spadkowy słabnie — sprzedający tracą siłę, a popyt może wkrótce przejąć kontrolę. Jest to silny sygnał potencjalnego odwrócenia trendu spadkowego i okazji do kupna. Dywergencja niedźwiedzia (bearish divergence) to sytuacja odwrotna — cena tworzy nowy szczyt, ale MACD tworzy niższy szczyt. Pomimo dalszych wzrostów cenowych, impet wzrostowy słabnie, co może zapowiadać korektę lub odwrócenie trendu. Na GPW dywergencje MACD sprawdzają się szczególnie dobrze na spółkach z WIG20, takich jak PKN Orlen, CD Projekt czy PKO BP, gdzie duża płynność zapewnia, że sygnały techniczne mają rzeczywiste pokrycie w aktywności rynkowej. Kluczowa zasada: dywergencja sama w sobie nie jest sygnałem transakcyjnym — wymaga potwierdzenia, np. przecięcia linii sygnału lub przełamania poziomu wsparcia lub oporu."
+    },
+    {
+      "type": "warning",
+      "text": "Dywergencje MACD mogą trwać tygodniami, a nawet miesiącami, zanim nastąpi faktyczne odwrócenie trendu. Nigdy nie otwieraj pozycji wyłącznie na podstawie dywergencji — zawsze czekaj na potwierdzenie z ceny (np. przełamanie poziomu wsparcia lub oporu) i stosuj zlecenia stop-loss."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Analiza histogramu MACD"
+    },
+    {
+      "type": "paragraph",
+      "text": "Histogram MACD, choć często traktowany jako drugorzędny element wskaźnika, w rzeczywistości dostarcza niezwykle cennych informacji o dynamice rynku. Histogram wizualizuje różnicę między linią MACD a linią sygnału — rosnące słupki (niezależnie od tego, czy są powyżej czy poniżej zera) wskazują na narastający impet w danym kierunku, a malejące słupki sygnalizują jego osłabienie. Thomas Aspray, który wprowadził histogram MACD w 1986 roku, argumentował, że histogram pozwala wcześniej dostrzec zmiany impetu niż samo obserwowanie przecięć linii. Kluczową techniką jest obserwacja szczytu i dna histogramu. Gdy histogram osiąga nowy lokalny szczyt, a następnie zaczyna się zmniejszać (ale nadal jest powyżej zera), oznacza to słabnący impet wzrostowy — może to być wczesne ostrzeżenie przed sygnałem sprzedaży, zanim jeszcze nastąpi przecięcie linii MACD z linią sygnału. Analogicznie, gdy histogram po osiągnięciu głębokiego dołka zaczyna się zmniejszać (zbliżać do zera od strony ujemnej), impet spadkowy słabnie i może nadchodzić sygnał kupna. Na polskim rynku giełdowym histogram MACD jest szczególnie przydatny do oceny siły ruchów w trakcie sezonów wynikowych, gdy spółki publikują raporty kwartalne i ceny mogą gwałtownie reagować. Obserwacja, czy histogram potwierdza ruch cenowy, pomaga odróżnić trwałe zmiany trendu od krótkotrwałych reakcji na jednorazowe wiadomości."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Łączenie MACD z innymi wskaźnikami"
+    },
+    {
+      "type": "paragraph",
+      "text": "MACD najlepiej sprawdza się w połączeniu z innymi narzędziami analizy technicznej, ponieważ żaden pojedynczy wskaźnik nie dostarcza kompletnego obrazu rynku. Najpopularniejszym uzupełnieniem MACD jest wskaźnik RSI (Relative Strength Index). MACD mierzy impet i kierunek trendu, natomiast RSI ocenia, czy rynek jest wykupiony (RSI powyżej 70) lub wyprzedany (RSI poniżej 30). Sygnał kupna z MACD w połączeniu z RSI w strefie wyprzedania (poniżej 30) to znacznie silniejszy sygnał niż każdy z nich osobno. Drugim cennym uzupełnieniem są średnie kroczące, szczególnie SMA 200. Jeśli cena jest powyżej SMA 200 (trend długoterminowy wzrostowy), sygnały kupna z MACD mają statystycznie wyższą skuteczność. Z kolei sygnały kupna MACD przy cenie poniżej SMA 200 są mniej wiarygodne i mogą prowadzić do prób łapania spadającego noża. Trzecim elementem wartym dodania jest wolumen — sygnał kupna z MACD potwierdzony wzrostem wolumenu ma większe szanse na kontynuację. Na GPW sprawdza się także łączenie MACD z poziomami wsparcia i oporu: sygnał kupna MACD w okolicach istotnego wsparcia znacząco podnosi prawdopodobieństwo udanej transakcji. Więcej o wskaźnikach fundamentalnych, które mogą uzupełnić analizę techniczną, znajdziesz w naszym poradniku o wskaźnikach fundamentalnych GPW (/edukacja/wskazniki-fundamentalne-gpw)."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "MACD + RSI — siła impetu i wykupienie lub wyprzedanie rynku w jednym",
+        "MACD + SMA 200 — filtrowanie sygnałów według głównego trendu długoterminowego",
+        "MACD + wolumen — potwierdzenie siły sygnału aktywnością handlową",
+        "MACD + wsparcia i opory — kontekst cenowy dla sygnałów wskaźnika",
+        "MACD + wstęgi Bollingera — impet w połączeniu ze zmiennością rynku"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "MACD na rynku trendującym a konsolidacja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zrozumienie, w jakim środowisku rynkowym MACD działa najlepiej, to klucz do unikania strat. MACD jest wskaźnikiem podążającym za trendem (trend-following), co oznacza, że najlepsze wyniki generuje na rynkach o wyraźnym kierunku — zarówno w trendzie wzrostowym, jak i spadkowym. W trendzie wzrostowym MACD utrzymuje się przeważnie powyżej linii zerowej, a kolejne sygnały kupna (przecięcia z linią sygnału) pojawiają się na coraz wyższych poziomach. W trendzie spadkowym MACD przebywa poniżej zera, a sygnały sprzedaży dominują. Problem pojawia się na rynku bocznym (konsolidacja, trading range), gdy cena porusza się w wąskim przedziale bez wyraźnego kierunku. W takich warunkach MACD generuje liczne fałszywe sygnały — linia MACD i linia sygnału wielokrotnie się przecinają wokół poziomu zerowego, histogram oscyluje między małymi wartościami dodatnimi i ujemnymi, a każde przecięcie prowadzi do niewielkiego ruchu, po którym następuje kolejne odwrócenie. Na GPW konsolidacje są częste, szczególnie w okresach niskiej zmienności (np. letnie miesiące, brak impulsów makroekonomicznych). Aby unikać fałszywych sygnałów w konsolidacji, warto stosować dodatkowe filtry: sprawdzać, czy ADX (Average Directional Index) przekracza 25, co potwierdza obecność trendu, lub czy odległość linii MACD od zera jest wystarczająco duża, by sygnał miał znaczenie."
+    },
+    {
+      "type": "info",
+      "text": "Prosty test na obecność trendu: jeśli linia MACD oscyluje blisko zera i histogram generuje bardzo małe słupki naprzemiennie dodatnie i ujemne, rynek prawdopodobnie jest w konsolidacji. Wstrzymaj się z transakcjami opartymi na MACD do momentu, gdy wskaźnik wyraźnie oddali się od linii zerowej."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Najczęstsze błędy i fałszywe sygnały"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inwestorzy korzystający z MACD popełniają szereg typowych błędów, które prowadzą do strat. Pierwszym i najczęstszym jest poleganie wyłącznie na MACD bez uwzględnienia kontekstu rynkowego. Samo przecięcie linii nie wystarczy — trzeba sprawdzić, czy rynek jest w trendzie, jaki jest wolumen i czy inne wskaźniki potwierdzają sygnał. Drugim błędem jest ignorowanie timeframe'u. Sygnał kupna na interwale godzinowym może być sprzeczny z sygnałem sprzedaży na interwale dziennym — zawsze priorytetyzuj wyższy interwał. Trzeci błąd to nadmierna optymalizacja parametrów. Inwestorzy testują dziesiątki kombinacji (np. 5, 13, 4 zamiast 12, 26, 9) na danych historycznych, znajdują parametry, które doskonale działały w przeszłości, ale okazują się bezużyteczne w przyszłości (overfitting). Czwartym błędem jest reagowanie na każdy sygnał bez selekcji — nie każde przecięcie jest równie wartościowe. Sygnały przy linii zerowej w konsolidacji są znacznie słabsze niż sygnały po głębokiej korekcie z wyraźną dywergencją. Piątym, często spotykanym na GPW błędem, jest stosowanie MACD na spółkach o bardzo niskiej płynności z indeksu sWIG80 lub NewConnect, gdzie niewielki wolumen obrotu powoduje chaotyczne ruchy cen, które generują bezwartościowe sygnały techniczne."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Praktyczne przykłady z rynku GPW"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aby lepiej zrozumieć zastosowanie MACD w praktyce, przyjrzyjmy się typowym sytuacjom obserwowanym na polskim rynku. Na spółkach z WIG20, takich jak PKN Orlen czy KGHM, MACD działa bardzo dobrze w okresach wyraźnych trendów napędzanych cenami surowców. Gdy ropa naftowa wchodzi w trend wzrostowy, PKN Orlen często generuje klasyczny sygnał kupna MACD — przecięcie linii sygnału od dołu, rosnący histogram i przebicie linii zerowej w górę. Inwestor obserwujący ten rozwój sygnałów mógł stopniowo budować pozycję, ustawiając stop-loss poniżej ostatniego dołka. W przypadku CD Projekt, spółki z branży gamingowej, MACD bywa szczególnie przydatny przy analizie reakcji na premiery gier lub zapowiedzi nowych tytułów — dywergencja niedźwiedzia MACD przed szczytem cenowym wielokrotnie ostrzegała przed korektami. Allegro, jako relatywnie młoda spółka na GPW, często pokazuje długie trendy z wyraźnymi sygnałami MACD po wynikach kwartalnych. Kluczowa lekcja z obserwacji GPW: najskuteczniejsze sygnały MACD pojawiają się, gdy zbiegają się z istotnymi wydarzeniami fundamentalnymi — publikacją wyników, zmianą rekomendacji analityków lub istotnymi zmianami w otoczeniu makroekonomicznym. Sam sygnał techniczny wzmocniony katalizatorem fundamentalnym ma znacznie wyższe prawdopodobieństwo sukcesu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "MACD na różnych interwałach czasowych"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wybór interwału czasowego ma kluczowe znaczenie dla skuteczności sygnałów MACD. Na interwale dziennym (każda świeca = jeden dzień handlowy) MACD generuje sygnały odpowiednie dla inwestorów pozycyjnych, którzy utrzymują pozycje od kilku tygodni do kilku miesięcy. Jest to najbardziej uniwersalny interwał i zalecany punkt wyjścia dla inwestorów na GPW. Na interwale tygodniowym sygnały MACD są rzadsze, ale znacznie bardziej wiarygodne — idealny dla inwestorów długoterminowych, którzy szukają potwierdzenia głównych trendów i nie chcą reagować na każdą korektę. Interwał tygodniowy dobrze sprawdza się w połączeniu z dziennym w podejściu multi-timeframe: trend tygodniowy wyznacza kierunek, a sygnały dzienne precyzują momenty wejścia. Na interwale godzinowym i niższych MACD generuje bardzo dużo sygnałów, z których większość to szum rynkowy. Ten interwał jest przeznaczony wyłącznie dla aktywnych traderów daytrading, którzy dysponują czasem na ciągłe monitorowanie rynku i szybkie reagowanie. Na GPW, gdzie sesja trwa od 9:00 do 17:00, interwał godzinowy daje maksymalnie 8 świec dziennie, co ogranicza liczbę sensownych sygnałów intraday. Złotą zasadą jest: im wyższy interwał, tym bardziej wiarygodne sygnały MACD, ale też większe opóźnienie."
+    },
+    {
+      "type": "tip",
+      "text": "Stosuj analizę wielu interwałów (multi-timeframe analysis): sprawdź MACD na interwale tygodniowym, aby określić główny trend, a następnie szukaj sygnałów wejścia na interwale dziennym zgodnych z tym trendem. Kupowanie zgodnie z trendem wyższego interwału znacząco zwiększa skuteczność sygnałów."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Modyfikacje i alternatywy dla MACD"
+    },
+    {
+      "type": "paragraph",
+      "text": "Choć klasyczny MACD z parametrami 12, 26, 9 jest standardem, istnieje kilka popularnych modyfikacji i pokrewnych wskaźników, które warto znać. MACD-V (Volume-weighted MACD) uwzględnia wolumen w obliczeniach, przypisując większą wagę okresom o wysokim obrocie — na GPW może to być przydatne przy analizie spółek, których płynność znacząco zmienia się w różnych okresach. Impulse MACD łączy klasyczny MACD z koncepcją impulsu Alexandra Eldera, kolorując histogram w zależności od zgodności kierunku MACD i jego histogramu — zielony oznacza rosnący impet wzrostowy, czerwony rosnący impet spadkowy, a niebieski brak wyraźnego impulsu. Jako alternatywy dla MACD warto rozważyć: PPO (Percentage Price Oscillator), który normalizuje MACD do wartości procentowych, co ułatwia porównywanie wskaźnika między spółkami o różnych cenach; Awesome Oscillator Billa Williamsa, który używa SMA zamiast EMA i porównuje 5-okresową z 34-okresową średnią; oraz KST (Know Sure Thing) Martina Pringa, który łączy cztery różne rate-of-change w jeden wskaźnik impetu. Każda z tych alternatyw ma swoje zalety, ale żadna nie zyskała popularności porównywalnej z klasycznym MACD. Definicje terminów takich jak EMA, SMA czy oscylator znajdziesz w naszym słowniczku giełdowym (/slowniczek)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Podsumowanie — jak skutecznie korzystać z MACD?"
+    },
+    {
+      "type": "paragraph",
+      "text": "MACD to wszechstronny i sprawdzony wskaźnik analizy technicznej, który po ponad 45 latach od stworzenia nadal pozostaje jednym z najpopularniejszych narzędzi na światowych giełdach, w tym na GPW. Kluczem do skutecznego korzystania z MACD jest zrozumienie, że nie jest to narzędzie do generowania automatycznych decyzji kupna i sprzedaży, lecz element szerszego procesu analitycznego. Najważniejsze zasady to: stosuj MACD przede wszystkim na rynkach trendujących, unikaj sygnałów w konsolidacjach; traktuj dywergencje jako najsilniejsze sygnały, ale zawsze czekaj na potwierdzenie cenowe; łącz MACD z innymi wskaźnikami (RSI, średnie kroczące, wolumen) i poziomami wsparcia lub oporu; stosuj analizę wielu interwałów czasowych, priorytetyzując wyższy timeframe; nie zmieniaj parametrów bez solidnych testów historycznych; i przede wszystkim zawsze stosuj zarządzanie ryzykiem ze zleceniami stop-loss. MACD to narzędzie, które zwiększa prawdopodobieństwo trafnych decyzji, ale nie eliminuje ryzyka — żaden wskaźnik tego nie potrafi. Sukces w inwestowaniu na GPW wymaga dyscypliny, cierpliwości i ciągłego doskonalenia swoich umiejętności analitycznych."
+    },
+    {
+      "type": "warning",
+      "text": "Wskaźnik MACD, jak każde narzędzie analizy technicznej, nie stanowi rekomendacji inwestycyjnej. Decyzje inwestycyjne podejmuj samodzielnie, uwzględniając swoją sytuację finansową, tolerancję ryzyka i horyzont inwestycyjny. Wyniki historyczne nie gwarantują przyszłych zysków."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Jakie są domyślne ustawienia MACD i czy warto je zmieniać?",
+      "answer": "Domyślne ustawienia MACD to 12, 26, 9 — odpowiednio szybka EMA, wolna EMA i EMA linii sygnału. Te parametry zostały zaproponowane przez twórcę wskaźnika, Geralda Appela, i sprawdzają się na większości rynków, w tym na GPW. Nie zaleca się zmiany parametrów bez przeprowadzenia solidnych testów historycznych. Optymalizacja pod dane z przeszłości (overfitting) często prowadzi do gorszych wyników w przyszłości. Zacznij od standardowych ustawień i ewentualnie dostosuj je dopiero po zdobyciu doświadczenia."
+    },
+    {
+      "question": "Czym różni się dywergencja bycza od niedźwiedziej w MACD?",
+      "answer": "Dywergencja bycza (bullish divergence) pojawia się, gdy cena tworzy niższy dołek, ale MACD tworzy wyższy dołek — sygnalizuje osłabienie trendu spadkowego i potencjalne odwrócenie w górę. Dywergencja niedźwiedzia (bearish divergence) to sytuacja odwrotna: cena tworzy wyższy szczyt, ale MACD tworzy niższy szczyt, co ostrzega przed osłabieniem trendu wzrostowego. Dywergencje uważa się za jedne z najsilniejszych sygnałów MACD, ale wymagają potwierdzenia cenowego, np. przełamania wsparcia lub oporu."
+    },
+    {
+      "question": "Dlaczego MACD generuje fałszywe sygnały i jak ich unikać?",
+      "answer": "MACD generuje fałszywe sygnały głównie na rynku bocznym (konsolidacja), gdy brak wyraźnego trendu powoduje częste, niewielkie przecięcia linii MACD z linią sygnału wokół poziomu zerowego. Aby ograniczyć fałszywe sygnały: stosuj MACD razem z filtrem trendu (np. SMA 200 lub ADX powyżej 25), ignoruj sygnały generowane blisko linii zerowej w okresach niskiej zmienności, wymagaj potwierdzenia z wolumenu i innych wskaźników (np. RSI) oraz stosuj analizę wielu interwałów czasowych."
+    },
+    {
+      "question": "Czy MACD działa lepiej na dużych spółkach z WIG20 niż na małych z sWIG80?",
+      "answer": "Tak, MACD generalnie sprawdza się lepiej na płynnych spółkach z WIG20 i mWIG40, takich jak PKN Orlen, PKO BP czy Allegro. Duży wolumen obrotu oznacza, że ruchy cenowe odzwierciedlają rzeczywiste decyzje wielu uczestników rynku, a nie pojedyncze transakcje. Na mniej płynnych spółkach z sWIG80 lub NewConnect niska aktywność handlowa może powodować chaotyczne ruchy cen, które generują dużo fałszywych sygnałów MACD. Jeśli inwestujesz w mniejsze spółki, stosuj MACD z większą ostrożnością i zawsze weryfikuj sygnały wolumenem."
+    },
+    {
+      "question": "Jak łączyć MACD z RSI w praktyce?",
+      "answer": "MACD i RSI doskonale się uzupełniają. Praktyczna strategia: szukaj sygnałów kupna MACD (przecięcie linii sygnału od dołu) w momentach, gdy RSI jest w strefie wyprzedania (poniżej 30) lub dopiero z niej wychodzi. Analogicznie, sygnały sprzedaży MACD przy RSI powyżej 70 są silniejsze. Dodatkową wartość daje obserwacja dywergencji na obu wskaźnikach jednocześnie — jeśli zarówno MACD, jak i RSI pokazują dywergencję byczą, prawdopodobieństwo odwrócenia trendu jest znacząco wyższe niż przy dywergencji na jednym wskaźniku."
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "slug": "wskaznik-roe",
+  "title": "Wskaznik ROE — jak ocenic rentownosc spolki",
+  "metaTitle": "Wskaznik ROE — rentownosc spolki | Poradnik GPW",
+  "metaDescription": "Dowiedz sie czym jest wskaznik ROE (Return on Equity), jak go obliczac i interpretowac. Analiza DuPont, porownanie sektorow GPW, pulapka dzwigni finansowej.",
+  "category": "analiza",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-23",
+  "updatedDate": "2026-02-23",
+  "readingTime": 19,
+  "featuredImage": "/images/edukacja/wskaznik-roe.webp",
+  "featuredImageAlt": "Wykres rentownosci kapitalow wlasnych spolek gieldowych na GPW",
+  "tags": ["ROE", "rentownosc", "analiza fundamentalna", "wskazniki", "GPW"],
+  "relatedSlugs": ["wskazniki-fundamentalne-gpw", "wskaznik-pe", "jak-czytac-wyniki-finansowe", "spolki-dywidendowe-gpw"],
+  "ctaType": "screener",
+  "ctaText": "Porownaj ROE spolek GPW w screenerze",
+  "ctaLink": "/",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Co to jest wskaznik ROE i dlaczego jest kluczowy dla inwestora?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wskaznik ROE (Return on Equity, zwrot z kapitalu wlasnego) to jeden z najwazniejszych wskaznikow analizy fundamentalnej, ktory mierzy rentownosc kapitalow wlasnych spolki. Innymi slowy, ROE odpowiada na pytanie: ile zysku netto spolka generuje z kazdej zlotowki zainwestowanej przez akcjonariuszy? Wzor na obliczenie ROE jest prosty: ROE = Zysk netto / Kapital wlasny x 100%. Jesli spolka wykazala w ostatnim roku zysk netto 500 milionow zlotych, a jej kapital wlasny (aktywa minus zobowiazania) wynosi 5 miliardow zlotych, to ROE = 500 000 000 / 5 000 000 000 x 100% = 10%. Oznacza to, ze kazda zlotowka kapitalu akcjonariuszy wygenerowala 10 groszy zysku netto w ciagu roku. Warren Buffett, jeden z najwybitniejszych inwestorow w historii, wielokrotnie podkresla, ze ROE jest jednym z jego ulubionych wskaznikow przy ocenie spolek. Buffett preferuje spolki z ROE powyzej 15% utrzymywanym konsekwentnie przez wiele lat, poniewaz wysoki i stabilny ROE swiadczy o trwalej przewadze konkurencyjnej spolki — tzw. economic moat. Spolka, ktora rok po roku generuje wysoki zwrot z kapitalu, udowadnia, ze potrafi efektywnie wykorzystywac srodki powierzone jej przez akcjonariuszy."
+    },
+    {
+      "type": "info",
+      "text": "ROE jest jednym z niewielu wskaznikow, ktore lacza rachunek zyskow i strat (zysk netto) z bilansem (kapital wlasny). Dzieki temu daje pelniejszy obraz efektywnosci spolki niz wskazniki bazujace wylacznie na jednym sprawozdaniu finansowym. Wiecej o wskaznikach fundamentalnych znajdziesz w naszym poradniku wskazniki fundamentalne GPW."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Analiza DuPont — rozklad ROE na trzy skladniki"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sama wartosc ROE to dopiero poczatek analizy. Kluczowe pytanie brzmi: skad pochodzi wysoki ROE? Czy jest wynikiem doskonalej rentownosci operacyjnej, efektywnego zarzadzania aktywami, czy moze nadmiernej dzwigni finansowej? Odpowiedz daje analiza DuPont — metoda rozkladu ROE na trzy niezalezne czynniki: ROE = Marza zysku netto x Rotacja aktywow x Mnoznik kapitalu wlasnego. Pierwszy skladnik, marza zysku netto (Net Profit Margin), obliczamy jako zysk netto podzielony przez przychody. Mowi on, jaki procent przychodow zostaje jako zysk netto po odjieciu wszystkich kosztow, podatkow i odsetek. Wysoka marza oznacza, ze spolka ma silna pozycje cenowa, niskie koszty operacyjne lub dziala w branzy o wysokich barierach wejscia. Przyklad: spolka technologiczna z marza 25% jest bardziej rentowna niz siec handlowa z marza 3%, nawet jesli ta druga ma wyzsze przychody. Drugi skladnik, rotacja aktywow (Asset Turnover), to przychody podzielone przez aktywa ogolem. Wskazuje, jak efektywnie spolka wykorzystuje swoj majatek do generowania przychodow. Wysoka rotacja aktywow jest typowa dla spolek handlowych — Dino Polska czy LPP generuja bardzo wysokie przychody w stosunku do posiadanych aktywow. Niska rotacja jest normalna dla spolek kapitalochlonnych, takich jak energetyka czy gornictwo. Trzeci skladnik, mnoznik kapitalu wlasnego (Equity Multiplier), obliczamy jako aktywa ogolem podzielone przez kapital wlasny. Im wyzszy mnoznik, tym wieksza dzwignia finansowa — czyli spolka finansuje wiecej aktywow dlugiem. Mnoznik 2.0 oznacza, ze polowa aktywow jest finansowana kapitalem wlasnym, a polowa dlugiem. Mnoznik 5.0 (typowy dla bankow) oznacza, ze na kazda zlotowke kapitalu wlasnego przypada 4 zlote dlugu."
+    },
+    {
+      "type": "tip",
+      "text": "Przeprowadzajac analize DuPont, zwroc uwage, ktory skladnik dominuje w ROE danej spolki. Jesli wysoki ROE wynika glownie z wysokiego mnoznika kapitalu (dzwigni finansowej), a nie z marzy lub rotacji aktywow, to moze byc sygnal ostrzegawczy — spolka moze byc narażona na ryzyko w przypadku pogorszenia warunkow rynkowych lub wzrostu stop procentowych."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jakie poziomy ROE sa dobre dla roznych sektorow GPW?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Podobnie jak w przypadku wskaznika P/E, nie istnieje jeden uniwersalny poziom ROE, ktory mozna uznac za dobry. Wszystko zalezy od sektora, modelu biznesowego i fazy cyklu koniunkturalnego. Generalnie ROE powyzej 15% uwaza sie za bardzo dobre, ROE w przedziale 10-15% za solidne, a ROE ponizej 8% moze sugerowac, ze spolka nie wykorzystuje efektywnie kapitalu akcjonariuszy. Jednak te przedzialy roznia sie znaczaco miedzy sektorami. Sektor bankowy na GPW (PKO BP, Pekao, mBank, Santander) historycznie generuje ROE w przedziale 8-15%. Banki sa silnie lewarowane — ich mnoznik kapitalu wlasnego jest bardzo wysoki (aktywa bankow stanowia wielokrotnosc ich kapitalu wlasnego), dlatego nawet przy niskiej marzy netto moga osiagac przyzwoite ROE. W okresach wysokich stop procentowych (jak 2023-2025 w Polsce) ROE bankow potrafi wzrosnac do 15-20% dzieki rozszerzeniu marzy odsetkowej. Sektor energetyczny (PKN Orlen, PGE, Tauron, Enea) cechuje sie bardzo cyklicznym ROE — od ujemnych wartosci w dolu cyklu do kilkunastu procent w szczycie. PKN Orlen w rekordowym 2022 roku osiagnal ROE powyzej 20%, ale w normalnych warunkach rynkowych jego ROE oscyluje wokol 8-12%. Spolki technologiczne i gamingowe (CD Projekt, Asseco Poland) moga osiagac ROE 15-30% dzieki wysokim marzom i niskim wymaganiom kapitalowym. CD Projekt w roku premiery duzego tytulu potrafi osiagnac ROE powyzej 25%. Handel detaliczny to zroznicowany sektor — Dino Polska historycznie osiaga ROE 25-35% dzieki agresywnej ekspansji i efektywnym operacjom, podczas gdy LPP utrzymuje ROE w przedziale 15-25%. Te spolki sa przykladem, jak doskonaly model biznesowy moze generowac wysokie zwroty z kapitalu przez wiele lat."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Banki (PKO BP, Pekao, mBank): ROE 8-15%, wysokie w srodowisku wysokich stop procentowych",
+        "Energetyka i paliwa (PKN Orlen, PGE): ROE 5-15%, silnie cykliczne, zalezne od cen surowcow",
+        "Technologie i gry (CD Projekt, Asseco): ROE 15-30%, wysokie marze, niska kapitalochlonnosc",
+        "Handel detaliczny (Dino, LPP): ROE 15-35%, premie za skuteczna ekspansje i skale",
+        "Gornictwo (KGHM, JSW): ROE 5-20%, ekstremalnie cykliczne, zalezne od cen miedzi i wegla"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ROE kontra ROA — roznice i zastosowania"
+    },
+    {
+      "type": "paragraph",
+      "text": "ROE i ROA (Return on Assets, zwrot z aktywow) to dwa pokrewne, ale istotnie rozne wskazniki rentownosci. Roznica miedzy nimi jest kluczowa dla pelnego zrozumienia efektywnosci spolki. ROA oblicza sie jako: ROA = Zysk netto / Aktywa ogolem x 100%. ROA mierzy, jak efektywnie spolka wykorzystuje CALOSC swoich aktywow (zarowno te finansowane kapitalem wlasnym, jak i dlugiem) do generowania zysku. Z kolei ROE mierzy zwrot tylko z czesci aktywow finansowanej kapitalem akcjonariuszy. Roznica miedzy ROE a ROA wynika wlasnie z dzwigni finansowej. Jesli spolka nie ma zadnego dlugu, jej ROE bedzie rowne ROA. Im wiecej dlugu, tym wieksza roznica miedzy ROE a ROA — poniewaz dzwignia finansowa amplifikuje zwrot dla akcjonariuszy. Kiedy uzywac ROA zamiast ROE? ROA jest szczegolnie przydatny przy porownywaniu spolek z roznym poziomem zadluzenia. Jesli porownujesz spolke A z ROE 20% i dlugiem stanowiacym 80% aktywow ze spolka B z ROE 15% i dlugiem stanowiacym 30% aktywow, samo ROE sugeruje, ze spolka A jest lepsza. Ale ROA moze pokazac odwrotny obraz — spolka B moze miec wyzszy ROA, co oznacza, ze jest bardziej efektywna operacyjnie, a nizsze ROE wynika po prostu z mniejszego lewaru. Dla bankow ROA jest kluczowym wskaznikiem — poniewaz banki z natury sa silnie lewarowane, ich ROE jest zawsze wielokrotnie wyzsze niz ROA. Dobry bank na GPW powinien miec ROA powyzej 1% (co przy typowym lewarze bankowym przeklozy sie na ROE 10-15%). ROA ponizej 0,5% jest sygnalami, ze bank nie wykorzystuje swoich aktywow efektywnie."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pulapka dzwigni finansowej — gdy wysokie ROE jest mylace"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jednym z najczestszych bledow poczatkujacych inwestorow jest bezrefleksyjne traktowanie wysokiego ROE jako jednoznacznie pozytywnego sygnalu. Wysoki ROE moze byc wynikiem nadmiernego zadluzenia, a nie doskonalej operacyjnosci. Oto mechanizm pulapki: wyobraz sobie dwie spolki — Spolke X i Spolke Y — obie generuja 100 milionow zlotych zysku netto. Spolka X ma kapital wlasny 1 miliard zlotych i zero dlugu. Jej ROE = 100/1000 = 10%. Spolka Y ma kapital wlasny 200 milionow zlotych i 800 milionow dlugu. Jej ROE = 100/200 = 50%. Na pierwszy rzut oka Spolka Y wyglada fenomenalnie — ROE 50%! Ale w rzeczywistosci cala ta roznica wynika z dzwigni finansowej. Spolka Y generuje dokladnie taki sam zysk z tych samych aktywow, ale poniewaz wiekszosc aktywow jest finansowana dlugiem, zwrot na kapital wlasny jest sztucznie zawyżony. Co gorsza, Spolka Y jest znacznie bardziej ryzykowna — w przypadku spadku zysku operacyjnego o 20% (co w cyklicznych branzach jest normalne), musi nadal obslugiwac odsetki od dlugu. Jej zysk netto moze spasc o 50% lub wiecej, a ROE z fenomenalnych 50% spadnie do 25% lub nawet stanie sie ujemne. Spolka X w tym samym scenariuszu odnotuje spadek zysku o 20% i ROE spadnie z 10% do 8% — boleśnie, ale nie katastrofalnie. Dlatego zawsze analizuj ROE w kontekscie poziomu zadluzenia. Sprawdzaj wskaznik D/E (Debt to Equity) — jesli przekracza 2-3 dla spolek spoza sektora finansowego, wysoki ROE moze byc mylacy. Uzywaj analizy DuPont, aby zweryfikowac, czy ROE pochodzi z marzy i rotacji aktywow (zdrowe zrodla), czy z mnoznika kapitalu (dzwignia)."
+    },
+    {
+      "type": "warning",
+      "text": "Spolka z ROE 30% i wskaznikiem D/E powyzej 3 jest znacznie bardziej ryzykowna niz spolka z ROE 15% i minimalnym dlugiem. Wysoki ROE napedzany dzwignia finansowa to miecz obosieczny — amplifikuje zyski w dobrych czasach, ale rowniez poteguje straty w zlych. Zawsze sprawdzaj zrodlo wysokiego ROE poprzez analize DuPont."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Stabilnosc ROE w czasie — konsekwencja ma znaczenie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pojedynczy odczyt ROE za ostatni rok to zbyt malo danych, by ocenic jakosc spolki. Kluczowa jest analiza trendu ROE w perspektywie 5-10 lat. Spolka, ktora konsekwentnie utrzymuje ROE powyzej 15% przez dekade, jest fundamentalnie inna niz spolka, ktora raz osiagnela 30%, a w pozostalych latach oscylowala wokol 5%. Stabilnosc ROE w czasie jest jednym z najsilniejszych sygnalow istnienia trwalej przewagi konkurencyjnej. Spolki z szerokim economic moat — silna marka, patenty, efekty sieciowe, korzysci skali — potrafia utrzymywac wysokie ROE nawet w trudnych warunkach rynkowych. Przykladem na GPW jest Dino Polska, ktore od debiutu w 2017 roku konsekwentnie utrzymuje ROE powyzej 20%, a w wielu latach przekracza 30%. To swiadczy o doskonalym modelu biznesowym — szybko rosnaca siec sklepow w mniejszych miejscowosciach, wysoka efektywnosc operacyjna i silna pozycja negocjacyjna wobec dostawcow. Z kolei spolki cykliczne jak KGHM czy JSW maja ROE przypominajace kolejke gorska — od ujemnych wartosci w dole cyklu surowcowego do kilkudziesieciu procent w szczycie. Dla takich spolek lepiej patrzec na sredni ROE z calego cyklu koniunkturalnego (5-7 lat), a nie na pojedynczy rok. Analizujac trend ROE, zwroc tez uwage na kierunek zmian. Spolka z ROE malejacym z 20% do 10% na przestrzeni 5 lat moze sygnalizowac erozje przewagi konkurencyjnej, rosnaca konkurencje lub pogarszajaca sie efektywnosc operacyjna. Odwrotnie — spolka z ROE rosnacym z 8% do 15% moze byc w fazie budowania przewagi i zaslugiwa na blizsza analize jako potencjalna inwestycja."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Praktyczne przyklady ROE spolek z GPW"
+    },
+    {
+      "type": "paragraph",
+      "text": "Przyjrzyjmy sie konkretnym przykladom ROE wybranych spolek z Gieldy Papierow Wartosciowych w Warszawie, aby zobaczyc, jak rozne modele biznesowe przekladaja sie na rentownosc kapitalow wlasnych. PKO Bank Polski to najwiekszy bank w Polsce pod wzgledem aktywow i zyskow. Jego ROE w latach 2020-2025 wahalo sie od okolo 7% (w roku obciazonym pandemia i wakacjami kredytowymi) do ponad 15% w latach wysokich stop procentowych. Srednie ROE PKO BP w dlugim terminie oscyluje wokol 10-12%, co jest solidnym wynikiem jak na sektor bankowy. Wysoki lewar (mnoznik kapitalu powyżej 10x) jest norma dla bankow i nie stanowi sygnalu ostrzegawczego — to specyfika branzy. CD Projekt to spolka gamingowa o unikalnym profilu ROE. W roku premiery duzego tytulu (Wiedzmin 3 w 2015, Cyberpunk 2077 w 2020) ROE potrafi przekroczyc 25-30%, poniewaz spolka generuje ogromne zyski przy relatywnie niewielkim kapitale wlasnym. W latach miedzy premierami, gdy spolka inwestuje w rozwoj nowych gier, ROE spada do jednocyfrowych wartosci lub nawet staje sie ujemny (jak w 2021 po problemach z Cyberpunkiem). Dla CD Projekt kluczowe jest patrzenie na srednie ROE z calego cyklu produkcyjnego gry. LPP to wlasciciel marek Reserved, Cropp, House, Mohito i Sinsay — jedna z najwiekszych spolek odziezowych w Europie Srodkowo-Wschodniej. ROE LPP konsekwentnie utrzymuje sie w przedziale 15-25%, co jest doskonalym wynikiem. Spolka ma umiarkowany lewar, wysokie marze (szczegolnie na marce Reserved) i rosnie organicznie dzieki ekspansji na nowe rynki. Dino Polska to fenomen polskiego rynku handlu detalicznego. Spolka od lat utrzymuje ROE na poziomie 25-35%, co czyni ja jedna z najrentowniejszych spolek na GPW. Model biznesowy Dino — sklepy spozywcze w mniejszych miejscowosciach z wlasna siatka logistyczna — okazal sie niezwykle efektywny. Warto zauwazyc, ze wysoki ROE Dino wynika zarowno z wysokiej marzy operacyjnej, jak i z umiarkowanej dzwigni finansowej, co czyni go trwalym i zdrowym."
+    },
+    {
+      "type": "interactive",
+      "component": "StockTableWidget",
+      "props": {
+        "title": "Przykladowe wskazniki ROE spolek z GPW (dane orientacyjne 2025/2026)",
+        "metric": "roe"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zwiazek miedzy ROE a wskaznikiem P/BV"
+    },
+    {
+      "type": "paragraph",
+      "text": "Istnieje silna teoretyczna i empiryczna zaleznosc miedzy ROE a wskaznikiem P/BV (Price to Book Value, cena do wartosci ksiegowej). Im wyzsze ROE spolki, tym wyzszy P/BV rynek jest sklonny zaakceptowac — i jest to calkowicie logiczne. Jesli spolka generuje 20% zwrotu z kapitalu wlasnego (ROE = 20%), to jej wartosc rynkowa powinna byc znacznie wyzsza niz wartosc ksiegowa, poniewaz kapitał tej spolki 'pracuje' wyjatkowo efektywnie. Inwestor jest gotow zaplacic premie za dostep do tak rentownego kapitalu. Odwrotnie — jesli spolka ma ROE ponizej kosztu kapitalu wlasnego (powiedzmy 5% przy koszcie kapitalu 10%), jej wartosc rynkowa powinna byc nizszza niz wartosc ksiegowa, co oznacza P/BV ponizej 1. Dlaczego? Bo kapital tej spolki niszczy wartosc — akcjonariusze zarobiliby wiecej, inwestujac te pieniadze gdzie indziej. Na GPW ta zaleznosc widac wyraznie. Banki z wysokim ROE (PKO BP w srodowisku wysokich stop) handluja z P/BV 1.2-1.8, podczas gdy banki z nizszym ROE moga miec P/BV ponizej 1. Dino Polska z ROE powyzej 25% handluje z P/BV 8-12 — rynek jest gotow zaplacic wielokrotnosc wartosci ksiegowej za dostep do tak rentownego modelu biznesowego. Praktyczna implikacja: jesli znajdziesz spolke z wysokim ROE i niskim P/BV (w porownaniu do innych spolek o podobnym ROE), moze to byc sygnał niedowartosciowania. Model Gordona (Gordon Growth Model) formalnie wiaze te wskazniki: P/BV = (ROE - g) / (r - g), gdzie g to stopa wzrostu, a r to wymagana stopa zwrotu. Im wyzsze ROE przy danej stopie wzrostu i koszcie kapitalu, tym wyzszy uzasadniony P/BV."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ograniczenia wskaznika ROE — kiedy nie mozna mu ufac?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mimo swojej uzytecznosci, wskaznik ROE ma kilka istotnych ograniczen, o ktorych kazdy inwestor powinien wiedziec. Pierwsze i najwazniejsze ograniczenie to ujemny kapital wlasny. Jesli spolka ma kapital wlasny ponizej zera (skumulowane straty przekroczyly poczatkowy kapital i zyski zatrzymane), ROE traci sens interpretacyjny. Ujemny zysk netto podzielony przez ujemny kapital wlasny daje matematycznie dodatni wynik, ktory jest kompletnie mylacy. Spolka z ujemnym kapitalem wlasnym jest w bardzo trudnej sytuacji finansowej i ROE nie powinno byc uzywane do jej oceny. Drugie ograniczenie dotyczy wplywu skupu akcji wlasnych (buyback). Gdy spolka wykupuje wlasne akcje, zmniejsza kapital wlasny (bo akcje wlasne sa odejmowane od kapitalu). Przy tym samym zysku netto mniejszy kapital wlasny oznacza wyzsze ROE. Spolki amerykanskie czesto wykorzystuja buybacki do sztucznego podbijania ROE — na GPW to zjawisko jest mniej powszechne, ale warto o nim pamietac. Przyklad: jesli spolka wydala 2 miliardy zlotych na skup akcji, jej kapital wlasny spadl o 2 miliardy, a ROE automatycznie wzroslo — mimo ze operacyjnie nic sie nie zmienilo. Trzecie ograniczenie to wrazliwosc na jednorazowe pozycje w zysku netto. Jesli spolka sprzedala nieruchomosc, wygrala arbitraz lub dokonala odpisu wartosci firmy, zysk netto (a wiec i ROE) moze byc jednorazowo zawyzone lub zanizony. Dlatego lepiej analizowac ROE bazujace na znormalizowanym zysku netto (po wylaczeniu pozycji jednorazowych). Czwarte ograniczenie to brak uwzglednienia ryzyka. ROE nie mowi nic o ryzyku operacyjnym czy finansowym spolki. Dwie spolki z identycznym ROE 15% moga miec skrajnie rozne profile ryzyka — jedna stabilna i przewidywalna, druga cykliczna i zadluzona."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ujemny kapital wlasny — ROE traci sens interpretacyjny, nie mozna go porownywac",
+        "Skup akcji wlasnych (buyback) — sztucznie zawyza ROE przez zmniejszenie kapitalu wlasnego",
+        "Jednorazowe pozycje w zysku — sprzedaz aktywow, odpisy, wyroki sadowe zaburzaja obraz",
+        "Brak informacji o ryzyku — ROE nie uwzglednia zmiennosci wynikow ani poziomu zadluzenia",
+        "Roznice rachunkowe — MSSF vs polskie standardy moga dawac rozne wartosci kapitalu wlasnego"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jak wykorzystac ROE w screeningu akcji?"
+    },
+    {
+      "type": "paragraph",
+      "text": "ROE jest jednym z najczesciej uzywanych filtrow w screenerach akcji — i slusznie, bo pozwala szybko oddzielic spolki efektywne od nieefektywnych. Oto praktyczny przewodnik, jak wykorzystac ROE w procesie selekcji spolek na GPW. Pierwszy krok to ustalenie minimalnego progu ROE. Dla wiekszosci inwestorow rozsadnym minimum jest ROE powyzej 10-12% — eliminuje to spolki, ktore nie potrafia generowac przyzwoitego zwrotu z kapitalu akcjonariuszy. Jesli szukasz spolek premium o trwalej przewadze konkurencyjnej, ustaw prog na 15% lub wyzej. Pamietaj jednak, ze zbyt wysoki prog (np. 30%) moze eliminowac doskonale spolki z sektorow o naturalnie nizszym ROE. Drugi krok to weryfikacja stabilnosci. Nie wystarczy, ze ROE jest wysokie w ostatnim roku — sprawdz, czy bylo konsekwentnie wysokie przez ostatnie 5 lat. Spolki z ROE powyzej 15% w kazdym z ostatnich 5 lat to waska, ale bardzo wartosciowa grupa. Na GPW znajdziesz w niej spolki takie jak Dino, LPP czy Budimex. Trzeci krok to analiza zrodla ROE. Uzyj analizy DuPont, aby sprawdzic, czy ROE pochodzi z marzy i rotacji aktywow (zdrowe zrodla) czy glownie z dzwigni finansowej (ryzykowne zrodlo). Odfiltruj spolki z D/E powyzej 2-3 (chyba ze analizujesz sektor finansowy). Czwarty krok to zestawienie ROE z wycena. Polacz filtr ROE z filtrem P/BV — szukaj spolek z wysokim ROE i relatywnie niskim P/BV w porownaniu do mediany sektora. To klasyczna strategia value investing w wersji quality-at-reasonable-price (GARP). Piaty krok to porownanie z kosztem kapitalu wlasnego. Spolka tworzy wartosc dla akcjonariuszy tylko wtedy, gdy jej ROE przekracza koszt kapitalu wlasnego (zwykle 8-12% dla spolek z GPW). ROE nizsze od kosztu kapitalu oznacza, ze spolka niszczy wartosc — nawet jesli jest zyskowna."
+    },
+    {
+      "type": "tip",
+      "text": "W screenerze WIGmarkets mozesz filtrowac spolki po ROE, D/E, P/BV i wielu innych wskaznikach jednoczesnie. Polaczenie filtrow ROE > 15%, D/E < 2 i P/BV < mediany sektora to dobry punkt startowy do znalezienia jakosciowych spolek w atrakcyjnej wycenie. Pamietaj, ze screener to narzedzie do wstepnej selekcji — kazda spolke z listy wynikow nalezy poddac glebszej analizie."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ROE a porownanie sektorow na GPW — pelna perspektywa"
+    },
+    {
+      "type": "paragraph",
+      "text": "Porownywanie ROE miedzy sektorami wymaga zrozumienia specyfiki kazdej branzy. Sektor bankowy na GPW to przyklad branzy, w ktorej wysoki lewar jest norma i nie powinien byc traktowany jako sygnal ostrzegawczy. Banki z natury operuja z mnoznikiem kapitalu 10-15x (aktywa bankowe sa wielokrotnoscia ich kapitalu wlasnego), dlatego nawet przy ROA ponizej 1% moga osiagac ROE 10-15%. Kluczowym wskaznikiem dla bankow jest wlasnie ROA, a nie ROE — bo ROA eliminuje wplyw lewaru i pozwala porownac efektywnosc operacyjna bankow miedzy soba. Sektor energetyczny i surowcowy to branże ekstremalnie cykliczne. ROE PKN Orlen, PGE czy KGHM moze wahac sie od wartosci ujemnych do ponad 20% w zaleznosci od cen ropy, energii elektrycznej czy miedzi. Dla tych spolek kluczowe jest patrzenie na sredni ROE z pelnego cyklu koniunkturalnego (5-7 lat). Inwestor, ktory kupi spolke surowcowa w szczycie cyklu (gdy ROE jest najwyzsze), moze zaplacic premium za zyski, ktore wkrotce spadna. Sektor IT i technologie to branża z najwyzszymi marzami na GPW. Spolki softwarowe jak Asseco, Comarch czy LiveChat Software mają niskie wymagania kapitalowe (nie potrzebuja fabryk ani duzych zapasow), co pozwala im osiagac ROE 15-25% bez nadmiernej dzwigni. Dlatego porownujac spolki miedzy sektorami, zawsze uwzgledniaj kontekst branzowy i unikaj prostych porownań typu ROE spolki bankowej z ROE spolki technologicznej — to jak porownywanie jablka z gruszka."
+    },
+    {
+      "type": "info",
+      "text": "Przy porownywaniu ROE spolek z roznych sektorow warto uzyc tzw. excess ROE — roznica miedzy ROE spolki a mediana ROE dla jej sektora. Spolka z ROE 12% w sektorze bankowym (mediana 10%) moze byc lepsza niz spolka z ROE 18% w sektorze IT (mediana 22%). Excess ROE pozwala porownywac spolki cross-sektorowo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Podsumowanie — jak uzywac ROE w praktyce inwestycyjnej"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wskaznik ROE jest jednym z najwazniejszych narzedzi w arsenale inwestora fundamentalnego. Lacząc informacje z rachunku zyskow i strat oraz bilansu, daje syntetyczny obraz efektywnosci spolki w generowaniu zwrotu z kapitalu akcjonariuszy. Pamietaj o kluczowych zasadach: zawsze analizuj ROE w kontekscie sektora — 12% dla banku to swietnie, 12% dla spolki technologicznej moze byc slabo. Uzywaj analizy DuPont, aby zrozumiec zrodlo ROE — marza, rotacja aktywow i dzwignia to trzy rozne historie. Sprawdzaj stabilnosc ROE w czasie — konsekwentnosc jest cenniejsza niz jednorazowy skok. Lacz ROE z innymi wskaznikami, szczegolnie P/BV i D/E — ROE w izolacji nie daje pelnego obrazu. Uwazaj na pulapke dzwigni finansowej — wysoki ROE przy wysokim dlugu moze byc mylacy i ryzykowny. Na koniec pamietaj, ze zaden pojedynczy wskaznik nie zastapi pelnej analizy fundamentalnej. ROE powinno byc jednym z wielu elementow Twojego procesu decyzyjnego, obok analizy rachunku zyskow i strat, bilansu, przeplywow pienieznych, pozycji konkurencyjnej i perspektyw rozwoju spolki. Wiecej o tych tematach znajdziesz w naszych poradnikach: jak czytac wyniki finansowe oraz wskazniki fundamentalne GPW."
+    },
+    {
+      "type": "warning",
+      "text": "Informacje zawarte w tym artykule maja charakter edukacyjny i nie stanowia rekomendacji inwestycyjnej w rozumieniu przepisow prawa. Decyzje inwestycyjne podejmuj samodzielnie, po wlasnej analizie i z uwzglednieniem swojego profilu ryzyka. Inwestowanie w akcje wiaze sie z ryzykiem utraty czesci lub calosci zainwestowanego kapitalu."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Jaki poziom ROE uwaza sie za dobry na GPW?",
+      "answer": "Nie ma jednej uniwersalnej wartosci — wszystko zalezy od sektora. Generalnie ROE powyzej 15% uwaza sie za bardzo dobre, 10-15% za solidne, a ponizej 8% za slabe. Dla bankow ROE 10-12% to dobry wynik, dla spolek technologicznych czy handlowych oczekiwania sa wyzsze — 15-25%. Kluczowe jest porownywanie ROE z mediana dla danego sektora i z historycznym ROE tej samej spolki. Spolki konsekwentnie utrzymujace ROE powyzej 15% przez 5+ lat (jak Dino, LPP) to na GPW rzadkosc i zasluguja na szczegolna uwage."
+    },
+    {
+      "question": "Czym rozni sie ROE od ROA i kiedy uzywac ktorego wskaznika?",
+      "answer": "ROE (Return on Equity) mierzy zwrot z kapitalu wlasnego akcjonariuszy, natomiast ROA (Return on Assets) mierzy zwrot z calych aktywow spolki (zarowno finansowanych kapitalem, jak i dlugiem). Roznica miedzy nimi wynika z dzwigni finansowej — im wiekszy dlug, tym wieksza roznica miedzy ROE a ROA. ROA jest szczegolnie przydatny przy porownywaniu spolek z roznym poziomem zadluzenia oraz w sektorze bankowym, gdzie wysoki lewar jest norma. W praktyce warto analizowac oba wskazniki jednoczesnie."
+    },
+    {
+      "question": "Co to jest analiza DuPont i jak pomaga zrozumiec ROE?",
+      "answer": "Analiza DuPont rozklada ROE na trzy skladniki: marze zysku netto (zysk netto / przychody), rotacje aktywow (przychody / aktywa) i mnoznik kapitalu wlasnego (aktywa / kapital wlasny). Dzieki temu mozna zidentyfikowac, czy wysokie ROE wynika z doskonalej rentownosci operacyjnej, efektywnego wykorzystania aktywow, czy z dzwigni finansowej. To kluczowe rozroznienie — ROE napedzane dzwignia jest bardziej ryzykowne niz ROE wynikajace z wysokich marzy."
+    },
+    {
+      "question": "Dlaczego wysokie ROE przy wysokim dlugu moze byc niebezpieczne?",
+      "answer": "Dzwignia finansowa amplifikuje zarowno zyski, jak i straty. Spolka z wysokim dlugiem i wysokim ROE moze wygladac atrakcyjnie, ale w przypadku pogorszenia warunkow rynkowych (spadek przychodow, wzrost stop procentowych) musi nadal obslugiwac odsetki. Moze to prowadzic do gwaltownego spadku zysku netto, a nawet strat. Dlatego zawsze sprawdzaj wskaznik D/E (Debt to Equity) obok ROE i uzywaj analizy DuPont, aby zweryfikowac zrodlo wysokiego ROE."
+    },
+    {
+      "question": "Jak ROE wiaze sie ze wskaznikiem P/BV?",
+      "answer": "Istnieje silna zaleznosc miedzy ROE a P/BV — im wyzsze ROE, tym wyzszy P/BV rynek jest sklonny zaakceptowac. To logiczne: jesli kapital spolki generuje wysoki zwrot, inwestorzy sa gotowi zaplacic premie ponad wartosc ksiegowa. Spolka z ROE 25% bedzie miala P/BV znacznie powyzej 1, a spolka z ROE 5% (ponizej kosztu kapitalu) moze handlowac z P/BV ponizej 1. Szukanie spolek z wysokim ROE i relatywnie niskim P/BV to popularna strategia inwestycyjna GARP (Growth at Reasonable Price)."
+    }
+  ]
+}

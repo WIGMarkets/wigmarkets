@@ -1,0 +1,242 @@
+{
+  "slug": "wskaznik-rsi",
+  "title": "Wskaźnik RSI — jak rozpoznać wykupienie i wyprzedanie",
+  "metaTitle": "Wskaźnik RSI — wykupienie i wyprzedanie | Poradnik",
+  "metaDescription": "Dowiedz się czym jest wskaźnik RSI, jak interpretować strefy wykupienia i wyprzedania, jak rozpoznawać dywergencje i stosować RSI w praktyce na GPW.",
+  "category": "analiza",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-23",
+  "updatedDate": "2026-02-23",
+  "readingTime": 9,
+  "featuredImage": "/images/edukacja/wskaznik-rsi.webp",
+  "featuredImageAlt": "Wykres wskaźnika RSI z zaznaczonymi strefami wykupienia i wyprzedania",
+  "tags": ["RSI", "analiza techniczna", "wskaźniki", "oscylatory", "GPW"],
+  "relatedSlugs": ["wskazniki-fundamentalne-gpw", "analiza-techniczna-podstawy", "wskaznik-macd", "srednie-kroczace-sma-ema"],
+  "ctaType": "screener",
+  "ctaText": "Sprawdź wskaźniki techniczne spółek GPW w naszym screenerze",
+  "ctaLink": "/",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Czym jest wskaźnik RSI?"
+    },
+    {
+      "type": "paragraph",
+      "text": "RSI (Relative Strength Index, wskaźnik siły względnej) to jeden z najpopularniejszych oscylatorów impetu stosowanych w analizie technicznej na całym świecie, w tym na Giełdzie Papierów Wartościowych w Warszawie. Został opracowany przez J. Wellesa Wildera i po raz pierwszy przedstawiony w 1978 roku w książce 'New Concepts in Technical Trading Systems'. Wilder stworzył RSI, aby dać inwestorom narzędzie mierzące szybkość i wielkość ostatnich zmian ceny instrumentu finansowego, pozwalające ocenić, czy dany walor jest wykupiony (overbought) czy wyprzedany (oversold). Wskaźnik RSI oscyluje w przedziale od 0 do 100, co czyni go łatwym do interpretacji nawet dla początkujących inwestorów. Tradycyjnie przyjmuje się, że wartość RSI powyżej 70 sygnalizuje wykupienie rynku — co oznacza, że cena mogła wzrosnąć zbyt szybko i istnieje potencjał do korekty spadkowej. Z kolei RSI poniżej 30 wskazuje na wyprzedanie — cena spadła zbyt gwałtownie i może nastąpić odreagowanie w górę. RSI jest powszechnie dostępny na wszystkich platformach analitycznych, w tym na WIGmarkets.pl, TradingView, Stooq.pl oraz w platformach brokerów takich jak XTB, mBank czy BOSSA. Dzięki swojej prostocie i uniwersalności stał się jednym z pierwszych wskaźników, po które sięgają inwestorzy indywidualni na GPW."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wzór na RSI — jak się go oblicza?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Formuła obliczania RSI składa się z kilku kroków i bazuje na porównaniu średnich wzrostów ze średnimi spadkami ceny w określonym okresie. Wzór wygląda następująco: RSI = 100 - (100 / (1 + RS)), gdzie RS (Relative Strength) to stosunek średniego wzrostu do średniego spadku ceny w danym okresie. Standardowy okres obliczania zaproponowany przez Wildera to 14 sesji (okresów). Aby obliczyć RS, najpierw wyznaczamy średni wzrost (Average Gain) — sumę wszystkich dodatnich zmian ceny zamknięcia w ostatnich 14 sesjach, podzieloną przez 14, oraz średni spadek (Average Loss) — sumę wartości bezwzględnych wszystkich ujemnych zmian ceny zamknięcia w ostatnich 14 sesjach, również podzieloną przez 14. Następnie RS = Average Gain / Average Loss. Wilder stosował wygładzanie wykładnicze (Exponential Moving Average), co oznacza, że po pierwszym obliczeniu na 14 sesjach, kolejne wartości uwzględniają poprzednią średnią: Average Gain = ((poprzedni Average Gain x 13) + bieżący wzrost) / 14. Analogicznie dla Average Loss. To wygładzanie sprawia, że RSI reaguje na nowe dane, ale nie jest nadmiernie wrażliwy na pojedyncze sesje. W praktyce inwestor nie musi ręcznie obliczać RSI — wszystkie platformy analityczne robią to automatycznie. Zrozumienie wzoru jest jednak kluczowe, aby wiedzieć co dokładnie wskaźnik mierzy i dlaczego zachowuje się w określony sposób."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Interpretacja poziomów RSI — skala od 0 do 100"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wskaźnik RSI przyjmuje wartości w przedziale od 0 do 100, a jego interpretacja opiera się na kilku kluczowych poziomach. Strefa powyżej 70 jest tradycyjnie uznawana za strefę wykupienia (overbought). Gdy RSI przekracza 70, oznacza to, że wzrosty dominowały nad spadkami w ostatnich sesjach na tyle silnie, że instrument może być tymczasowo 'zbyt drogi' — popyt mógł się wyczerpać i istnieje potencjał do korekty. Strefa poniżej 30 to strefa wyprzedania (oversold). RSI poniżej 30 sygnalizuje, że spadki zdominowały ostatnie sesje i cena mogła spaść zbyt gwałtownie — podaż się wyczerpuje i może nastąpić odreagowanie wzrostowe. Strefa 30-70 to strefa neutralna, w której RSI nie generuje bezpośrednich sygnałów wykupienia ani wyprzedania. Warto jednak zwrócić uwagę na poziom 50 — RSI powyżej 50 generalnie sugeruje przewagę byków (trend wzrostowy), a poniżej 50 — przewagę niedźwiedzi (trend spadkowy). Niektórzy analitycy modyfikują klasyczne poziomy w zależności od warunków rynkowych. W silnym trendzie wzrostowym strefy mogą być przesunięte do 40-80 zamiast standardowych 30-70, co zmniejsza liczbę przedwczesnych sygnałów sprzedaży. W silnym trendzie spadkowym stosuje się niekiedy przedział 20-60. Takie dostosowanie wymaga jednak doświadczenia i znajomości charakterystyki danego instrumentu."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "RSI > 70 — strefa wykupienia, potencjalny sygnał do realizacji zysków lub wstrzymania zakupów",
+        "RSI < 30 — strefa wyprzedania, potencjalna okazja do zakupu po przecenie",
+        "RSI = 50 — poziom równowagi między kupującymi a sprzedającymi",
+        "RSI 40-80 — zmodyfikowane strefy dla silnego trendu wzrostowego",
+        "RSI 20-60 — zmodyfikowane strefy dla silnego trendu spadkowego"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jak czytać sygnały RSI na spółkach GPW?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stosowanie RSI na spółkach notowanych na Giełdzie Papierów Wartościowych w Warszawie wymaga uwzględnienia specyfiki polskiego rynku. Na GPW mamy do czynienia z różną płynnością instrumentów — spółki z WIG20 jak PKO BP, PKN Orlen czy CD Projekt mają duże obroty i RSI generuje tam bardziej wiarygodne sygnały niż na mniej płynnych spółkach z sWIG80. Podstawowe sygnały kupna i sprzedaży bazujące na RSI to: sygnał kupna pojawia się, gdy RSI spada poniżej 30 (wchodzi w strefę wyprzedania), a następnie wraca powyżej 30 — to moment, w którym presja sprzedażowa zaczyna słabnąć. Sygnał sprzedaży pojawia się, gdy RSI wzrasta powyżej 70 (wchodzi w strefę wykupienia), a następnie spada poniżej 70 — popyt się wyczerpuje i cena może zacząć spadać. Ważna uwaga: sam fakt, że RSI przekroczył 70, nie jest automatycznym sygnałem sprzedaży. W silnych trendach wzrostowych RSI może utrzymywać się powyżej 70 przez wiele sesji, a sprzedaż tylko dlatego, że RSI jest wysoki, może prowadzić do zbyt wczesnego wychodzenia z zyskownych pozycji. Analogicznie, RSI poniżej 30 w silnym trendzie spadkowym nie gwarantuje natychmiastowego odbicia. Dlatego doświadczeni inwestorzy na GPW nie stosują RSI jako samodzielnego narzędzia decyzyjnego, lecz łączą go z innymi wskaźnikami, analizą wolumenu i kontekstem fundamentalnym spółki."
+    },
+    {
+      "type": "tip",
+      "text": "Na GPW warto obserwować RSI na interwale dziennym w połączeniu z wolumenem. Jeśli RSI spada poniżej 30 przy jednoczesnym spadku wolumenu (coraz mniej osób sprzedaje), to silniejszy sygnał potencjalnego odbicia niż wyprzedanie przy rosnącym wolumenie, które może oznaczać paniczną wyprzedaż i dalsze spadki."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dywergencje RSI — najpotężniejsze sygnały"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dywergencje RSI są uważane przez wielu analityków technicznych za jedne z najsilniejszych sygnałów generowanych przez ten wskaźnik — znacznie potężniejsze niż samo przekroczenie poziomów 30 lub 70. Dywergencja występuje wtedy, gdy kierunek ruchu ceny nie jest potwierdzony przez kierunek ruchu RSI. Dywergencja bycza (bullish divergence) pojawia się, gdy cena tworzy nowy dołek (niższy niż poprzedni), ale RSI tworzy wyższy dołek — nie potwierdza nowego minimum cenowego. To rozbieżność sugeruje, że mimo nowej niskiej ceny impet spadkowy słabnie i byki zaczynają przejmować kontrolę. Dywergencja bycza jest potencjalnym sygnałem odwrócenia trendu spadkowego i często poprzedza wzrost kursu. Przykład z GPW: jeśli kurs PKN Orlen spadł do 55 zł w styczniu przy RSI 25, a następnie w marcu spadł do 52 zł, ale RSI wynosi 32 — mamy dywergencję byczą. Dywergencja niedźwiedzia (bearish divergence) to sytuacja odwrotna: cena tworzy nowy szczyt (wyższy niż poprzedni), ale RSI tworzy niższy szczyt. Mimo wzrostu ceny impet wzrostowy słabnie — byki tracą siłę. To ostrzeżenie przed potencjalnym odwróceniem trendu wzrostowego. Dywergencje nie gwarantują natychmiastowego odwrócenia trendu — cena może jeszcze przez pewien czas kontynuować dotychczasowy ruch. Jednak statystycznie dywergencje RSI mają znacznie wyższą skuteczność niż zwykłe sygnały z poziomów 30/70, szczególnie na płynnych instrumentach z GPW."
+    },
+    {
+      "type": "warning",
+      "text": "Dywergencja RSI to sygnał ostrzegawczy, nie gwarancja odwrócenia trendu. W silnych trendach mogą wystąpić wielokrotne dywergencje zanim cena faktycznie zmieni kierunek. Nigdy nie podejmuj decyzji inwestycyjnych wyłącznie na podstawie jednego wskaźnika — zawsze szukaj potwierdzenia w wolumenie, formacjach cenowych i innych wskaźnikach."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "RSI w trendzie a RSI w konsolidacji"
+    },
+    {
+      "type": "paragraph",
+      "text": "Skuteczność RSI znacząco zależy od tego, czy rynek jest w trendzie (trending market) czy w konsolidacji (range-bound market). W konsolidacji — gdy cena porusza się w określonym przedziale bez wyraźnego kierunku — RSI działa najlepiej jako klasyczny oscylator. Strefy 30 i 70 dobrze wyznaczają momenty wykupienia i wyprzedania, a sygnały kupna i sprzedaży mają wysoką skuteczność. Inwestor może kupować, gdy RSI spada do strefy 30, i sprzedawać, gdy zbliża się do 70, grając na powrót ceny do środka zakresu. W silnym trendzie wzrostowym klasyczne sygnały RSI mogą być mylące. RSI może utrzymywać się w strefie 40-80 przez tygodnie lub miesiące, a każde zejście do okolic 40-50 jest okazją do kupna, nie sygnałem słabości. Analogicznie w silnym trendzie spadkowym RSI może oscylować między 20 a 60, a wzrosty do 50-60 to okazje do sprzedaży, nie sygnały siły. Constance Brown, znana analityk techniczna, zaproponowała koncepcję 'zakresów RSI' (RSI ranges) dopasowanych do trendu: w trendzie wzrostowym RSI zazwyczaj utrzymuje się w przedziale 40-90, z wsparciem w okolicach 40-50. W trendzie spadkowym RSI porusza się w przedziale 10-60, z oporem w okolicach 50-60. Zrozumienie tej dynamiki jest kluczowe — inwestor GPW, który sprzedaje akcję tylko dlatego, że RSI przekroczył 70 w silnym trendzie wzrostowym, może stracić znaczną część dalszych wzrostów."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Najczęstsze błędy przy stosowaniu RSI"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inwestorzy, zwłaszcza początkujący na GPW, popełniają szereg typowych błędów przy korzystaniu z RSI, które mogą prowadzić do strat finansowych. Pierwszy i najczęstszy błąd to traktowanie RSI jako samodzielnego narzędzia decyzyjnego. RSI powinien być jednym z elementów analizy, nie jedynym — sygnał RSI wymaga potwierdzenia innymi narzędziami, takimi jak analiza wolumenu, formacje cenowe, średnie kroczące czy kontekst fundamentalny. Drugi błąd to automatyczna sprzedaż przy RSI > 70 i kupno przy RSI < 30 bez uwzględnienia kontekstu trendu. Jak omówiliśmy wcześniej, w silnych trendach RSI może utrzymywać się w strefach ekstremalnych przez długi czas. Trzeci błąd to ignorowanie dywergencji — wielu inwestorów skupia się wyłącznie na poziomach 30 i 70, pomijając dywergencje, które są znacznie silniejszymi sygnałami. Czwarty błąd to stosowanie RSI na zbyt krótkich interwałach (1-minutowe, 5-minutowe) bez odpowiedniego doświadczenia — na niskich interwałach RSI generuje dużo szumu i fałszywych sygnałów, co jest szczególnie problematyczne na mniej płynnych spółkach z GPW. Piąty błąd to brak zarządzania ryzykiem — nawet dobry sygnał RSI może nie zadziałać w konkretnym przypadku, dlatego zawsze należy stosować zlecenia stop-loss. Szósty błąd to optymalizacja wsteczna (curve fitting) — dobieranie niestandardowych parametrów RSI tak, aby pasowały do historycznych danych, co nie gwarantuje skuteczności w przyszłości."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Nie traktuj RSI jako jedynego narzędzia — zawsze szukaj potwierdzenia innymi wskaźnikami",
+        "Nie sprzedawaj automatycznie przy RSI > 70 — w silnym trendzie to może być błąd",
+        "Nie ignoruj dywergencji — to jedne z najsilniejszych sygnałów RSI",
+        "Unikaj zbyt krótkich interwałów na mało płynnych spółkach GPW",
+        "Zawsze stosuj stop-loss — żaden wskaźnik nie jest niezawodny",
+        "Nie optymalizuj parametrów RSI pod dane historyczne — to nie gwarantuje przyszłej skuteczności"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "RSI w połączeniu z innymi wskaźnikami"
+    },
+    {
+      "type": "paragraph",
+      "text": "Największą skuteczność RSI osiąga w połączeniu z innymi wskaźnikami analizy technicznej, tworząc system potwierdzania sygnałów, który redukuje liczbę fałszywych alarmów. Najpopularniejsza kombinacja to RSI + MACD. RSI mierzy wykupienie i wyprzedanie, MACD identyfikuje kierunek i siłę trendu. Silny sygnał kupna pojawia się, gdy RSI wychodzi ze strefy wyprzedania (wraca powyżej 30), a jednocześnie linia MACD przecina linię sygnału od dołu. Obie warunki spełnione jednocześnie dają sygnał o znacznie wyższej wiarygodności niż każdy z nich osobno. Druga popularna kombinacja to RSI + średnie kroczące (SMA/EMA). Inwestor może używać SMA 200 do określenia głównego trendu — jeśli cena jest powyżej SMA 200 (trend wzrostowy), uwzględnia tylko sygnały kupna z RSI (wyjścia ze strefy wyprzedania). Jeśli cena jest poniżej SMA 200 (trend spadkowy), uwzględnia tylko sygnały sprzedaży z RSI (wyjścia ze strefy wykupienia). To eliminuje sygnały 'pod prąd' głównego trendu, które statystycznie mają niższą skuteczność. Trzecia kombinacja to RSI + Bollinger Bands. Gdy cena dotyka dolnej wstęgi Bollingera i jednocześnie RSI jest w strefie wyprzedania, to podwójne potwierdzenie potencjalnego punktu zwrotnego. Każda z tych kombinacji działa dobrze na płynnych spółkach GPW z WIG20 i mWIG40. Więcej o wskaźnikach fundamentalnych, które mogą uzupełniać analizę techniczną, przeczytasz w naszym artykule o wskaźnikach fundamentalnych na GPW."
+    },
+    {
+      "type": "info",
+      "text": "Aby poszerzyć swoją wiedzę o wskaźnikach używanych w analizie technicznej i fundamentalnej, zajrzyj do naszego słowniczka pojęć giełdowych na stronie /slowniczek — znajdziesz tam definicje wszystkich terminów używanych w tym artykule."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Praktyczne przykłady RSI na spółkach GPW"
+    },
+    {
+      "type": "paragraph",
+      "text": "Przyjrzyjmy się kilku praktycznym przykładom zastosowania RSI na polskich spółkach giełdowych, aby zobaczyć jak wskaźnik zachowuje się w realnych warunkach rynkowych. CD Projekt (CDR) to spółka o dużej zmienności, co czyni ją doskonałym przedmiotem analizy RSI. Po premierze dużych gier kurs CDR potrafi gwałtownie rosnąć, wypychając RSI powyżej 80, a następnie korygować, sprowadzając RSI poniżej 30. Historycznie, wejścia przy RSI poniżej 25 na CDR dawały bardzo dobre punkty zakupu dla cierpliwych inwestorów, pod warunkiem że fundamenty spółki pozostawały mocne. PKN Orlen to spółka cykliczna, silnie powiązana z cenami ropy naftowej. RSI na PKN Orlen dobrze koreluje z cyklami cen surowców energetycznych — gdy ropa gwałtownie tanieje, RSI Orlenu spada poniżej 30, a historycznie te momenty okazywały się dobrymi punktami zakupu na okres 6-12 miesięcy. Dywergencje bycze na RSI Orlenu wielokrotnie poprawnie identyfikowały lokalne dna cenowe. PKO BP, jako największy bank w Polsce, ma kurs silnie powiązany ze stopami procentowymi i nastrojami na rynku bankowym. RSI na PKO BP zachowuje się relatywnie stabilnie w porównaniu do CDR, rzadziej osiągając skrajne wartości. Dla PKO BP warto obserwować RSI na interwale tygodniowym — sygnały na tym interwale mają większą wagę i historycznie dawały lepsze wyniki niż sygnały dzienne. Pamiętaj jednak, że każdy przykład historyczny opisuje przeszłość i nie gwarantuje powtórzenia się takiego samego scenariusza w przyszłości."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "RSI na różnych interwałach czasowych"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wybór interwału czasowego (timeframe) ma fundamentalne znaczenie dla sposobu, w jaki interpretujemy RSI. Na interwale dziennym (daily) RSI generuje sygnały odpowiednie dla inwestorów krótko- i średnioterminowych, którzy planują trzymać pozycję od kilku dni do kilku tygodni. Jest to najczęściej stosowany interwał przez inwestorów indywidualnych na GPW i stanowi dobry kompromis między częstotliwością sygnałów a ich wiarygodnością. Na interwale tygodniowym (weekly) RSI generuje rzadsze, ale bardziej wiarygodne sygnały — idealne dla inwestorów długoterminowych. Gdy RSI na interwale tygodniowym spada poniżej 30 na dużej spółce z WIG20, to historycznie często oznaczało bardzo dobrą okazję inwestycyjną na okres 6-24 miesięcy. Na interwale godzinowym (1h) lub 15-minutowym RSI generuje wiele sygnałów, ale ich jakość jest niższa — dużo szumu i fałszywych sygnałów. Ten interwał jest domeną aktywnych traderów (day traderów), którzy mają doświadczenie i czas na ciągłe monitorowanie rynku. Na GPW, ze względu na niższą płynność wielu spółek w porównaniu do rynków zachodnich, intraday RSI jest przydatny głównie dla spółek z WIG20. Strategia wielointerwałowa (multi-timeframe analysis) polega na sprawdzaniu RSI jednocześnie na kilku interwałach. Najsilniejszy sygnał kupna to taki, gdy RSI jest wyprzedany na interwale tygodniowym i dziennym jednocześnie, a na interwale godzinowym pojawia się pierwszy sygnał odwrócenia. Ta metoda wymaga praktyki, ale znacząco zwiększa jakość decyzji inwestycyjnych."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Modyfikacje RSI — Stochastic RSI i wygładzony RSI"
+    },
+    {
+      "type": "paragraph",
+      "text": "Z biegiem lat analitycy techniczni opracowali kilka modyfikacji klasycznego RSI, aby zwiększyć jego czułość lub dostosować do specyficznych strategii inwestycyjnych. Stochastic RSI (StochRSI) to oscylator opracowany przez Tushar Chande i Stanley Kroll, który stosuje formułę oscylatora stochastycznego do wartości RSI zamiast do ceny. StochRSI mierzy, gdzie znajduje się bieżące RSI w stosunku do swojego zakresu z ostatnich N okresów. Formuła: StochRSI = (RSI bieżący - RSI min) / (RSI max - RSI min). StochRSI oscyluje między 0 a 1 (lub 0-100 po przeskalowaniu) i jest znacznie bardziej wrażliwy niż klasyczny RSI — szybciej osiąga strefy ekstremalnych wartości, generując więcej sygnałów. Jest przydatny, gdy klasyczny RSI utrzymuje się w środkowej strefie i nie daje wyraźnych sygnałów. Wadą StochRSI jest większa liczba fałszywych sygnałów. Wygładzony RSI (Smoothed RSI lub Cutler's RSI) to wariant, w którym zamiast wygładzania wykładniczego Wildera używa się prostej średniej kroczącej (SMA). Daje to nieco inne wartości niż klasyczny RSI i jest mniej wrażliwy na nagłe zmiany ceny. Connors RSI, opracowany przez Larry'ego Connorsa, łączy trzy elementy: klasyczny RSI (krótki, np. 3-okresowy), long streak (RSI mierzący długość serii wzrostów lub spadków) oraz percentyl rocznego zwrotu (Rate of Change). Connors RSI jest popularny w strategiach mean-reversion i daje dobre wyniki na płynnych rynkach. Każda modyfikacja ma swoje zastosowania — warto jednak najpierw dobrze opanować klasyczny RSI 14-okresowy zanim przejdziemy do wariantów."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ustawienia parametrów RSI — kiedy zmienić domyślne 14 okresów?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Domyślny okres RSI wynosi 14, zgodnie z oryginalną propozycją Wildera, i w większości przypadków jest to optymalny wybór. Istnieją jednak sytuacje, w których dostosowanie parametru może być uzasadnione. Krótszy okres RSI (np. 7 lub 9) zwiększa czułość wskaźnika — RSI szybciej reaguje na zmiany ceny, częściej wchodzi w strefy wykupienia i wyprzedania, generuje więcej sygnałów. Jest to przydatne dla aktywnych traderów na krótkich interwałach lub przy analizie spółek o niskiej zmienności, które przy RSI 14 rzadko osiągają skrajne wartości. Wadą jest więcej fałszywych sygnałów i większy szum. Dłuższy okres RSI (np. 21 lub 25) zmniejsza czułość — wskaźnik jest bardziej wygładzony, generuje mniej, ale potencjalnie bardziej wiarygodne sygnały. Dobrze sprawdza się na interwałach tygodniowych i miesięcznych oraz dla inwestorów długoterminowych. Na GPW, dla spółek z WIG20 na interwale dziennym, standardowe 14 okresów jest zazwyczaj optymalnym ustawieniem. Dla bardziej zmiennych spółek jak CD Projekt lub Allegro warto rozważyć RSI 9 na interwale dziennym, co pozwala szybciej identyfikować krótkoterminowe ekstrema. Dla mało zmiennych blue chipów jak PZU czy PGNiG RSI 21 na interwale tygodniowym może dawać lepsze sygnały długoterminowe. Kluczowa zasada: nie zmieniaj parametrów zbyt często i nie optymalizuj ich pod dane historyczne — to prosta droga do samookłamywania się, że znalazło się 'idealne' ustawienie."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sprawdź swoją wiedzę o RSI"
+    },
+    {
+      "type": "interactive",
+      "component": "QuizBlock",
+      "props": {
+        "title": "Quiz: Czy rozumiesz wskaźnik RSI?",
+        "questions": [
+          {
+            "question": "Kto opracował wskaźnik RSI i w którym roku?",
+            "options": ["John Bollinger, 1983", "J. Welles Wilder, 1978", "Gerald Appel, 1979", "Larry Williams, 1985"],
+            "correct": 1,
+            "explanation": "RSI (Relative Strength Index) został opracowany przez J. Wellesa Wildera i przedstawiony w 1978 roku w książce 'New Concepts in Technical Trading Systems'."
+          },
+          {
+            "question": "RSI spółki wynosi 75. Co to oznacza?",
+            "options": ["Spółka jest wyprzedana", "Spółka jest w strefie neutralnej", "Spółka jest w strefie wykupienia", "Cena wzrosła o 75%"],
+            "correct": 2,
+            "explanation": "RSI powyżej 70 oznacza, że instrument znajduje się w strefie wykupienia — wzrosty dominowały w ostatnich sesjach na tyle silnie, że istnieje potencjał do korekty. Nie jest to jednak automatyczny sygnał sprzedaży."
+          },
+          {
+            "question": "Co to jest dywergencja bycza na RSI?",
+            "options": ["RSI rośnie razem z ceną", "Cena tworzy nowy szczyt, a RSI nie", "Cena tworzy niższy dołek, ale RSI tworzy wyższy dołek", "RSI spada poniżej 30"],
+            "correct": 2,
+            "explanation": "Dywergencja bycza (bullish divergence) występuje, gdy cena tworzy nowy, niższy dołek, ale RSI tworzy wyższy dołek. Sugeruje to osłabienie impetu spadkowego i potencjalne odwrócenie trendu w górę."
+          },
+          {
+            "question": "Jaki jest standardowy okres obliczania RSI?",
+            "options": ["7 sesji", "10 sesji", "14 sesji", "21 sesji"],
+            "correct": 2,
+            "explanation": "Standardowy okres RSI zaproponowany przez Wildera to 14 sesji. Jest to domyślne ustawienie na większości platform analitycznych i w większości przypadków daje optymalne rezultaty."
+          },
+          {
+            "question": "W jakim typie rynku klasyczny RSI (30/70) działa najlepiej?",
+            "options": ["W silnym trendzie wzrostowym", "W silnym trendzie spadkowym", "W konsolidacji (rynku bocznym)", "Działa jednakowo w każdych warunkach"],
+            "correct": 2,
+            "explanation": "Klasyczny RSI z poziomami 30/70 najlepiej działa w konsolidacji (range-bound market), gdzie cena oscyluje w określonym przedziale. W silnych trendach RSI może długo utrzymywać się w strefach ekstremalnych, generując fałszywe sygnały."
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Podsumowanie — RSI jako element systemu inwestycyjnego"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wskaźnik RSI to potężne i jednocześnie przystępne narzędzie analizy technicznej, które każdy inwestor na GPW powinien znać i umieć stosować. Jego siła tkwi w prostocie interpretacji (skala 0-100, jasne strefy wykupienia i wyprzedania) oraz uniwersalności — działa na każdym instrumencie i każdym interwale czasowym. Jednak jak każde narzędzie analityczne, RSI ma swoje ograniczenia. Najważniejsze zasady, które warto zapamiętać: RSI nie jest samodzielnym systemem decyzyjnym — zawsze łącz go z innymi wskaźnikami (MACD, średnie kroczące, wolumen) i analizą fundamentalną. Kontekst trendu jest kluczowy — w silnych trendach klasyczne poziomy 30/70 wymagają korekty. Dywergencje RSI to silniejsze sygnały niż same przekroczenia poziomów — naucz się je rozpoznawać. Dobieraj interwał czasowy do swojego horyzontu inwestycyjnego — inwestor długoterminowy powinien patrzeć na RSI tygodniowy, a nie minutowy. Zarządzanie ryzykiem jest obowiązkowe — nawet najlepszy sygnał RSI może nie zadziałać, dlatego zlecenia stop-loss i odpowiednia wielkość pozycji są niezbędne. Zachęcamy do praktyki na danych historycznych lub koncie demo zanim zaczniesz podejmować realne decyzje inwestycyjne na podstawie RSI. Z czasem i doświadczeniem nauczysz się intuicyjnie rozpoznawać sytuacje, w których RSI daje silne sygnały, i odróżniać je od fałszywych alarmów."
+    },
+    {
+      "type": "warning",
+      "text": "Analiza techniczna, w tym wskaźnik RSI, opiera się na danych historycznych i nie stanowi rekomendacji inwestycyjnej. Żaden wskaźnik nie gwarantuje zysków. Inwestowanie na giełdzie wiąże się z ryzykiem utraty części lub całości zainwestowanego kapitału. Przed podjęciem decyzji inwestycyjnych skonsultuj się z licencjonowanym doradcą inwestycyjnym."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czy RSI powyżej 70 oznacza, że powinienem natychmiast sprzedać akcje?",
+      "answer": "Nie, RSI powyżej 70 nie jest automatycznym sygnałem sprzedaży. Oznacza jedynie, że instrument jest w strefie wykupienia — wzrosty dominowały w ostatnim czasie. W silnych trendach wzrostowych RSI może utrzymywać się powyżej 70 przez wiele sesji, a akcje mogą dalej rosnąć. Lepszym sygnałem sprzedaży jest moment, gdy RSI wraca poniżej 70 po wcześniejszym pobycie w strefie wykupienia, lub dywergencja niedźwiedzia (cena rośnie, RSI spada). Zawsze potwierdzaj sygnał RSI innymi wskaźnikami i kontekstem rynkowym."
+    },
+    {
+      "question": "Jaki okres RSI jest najlepszy dla spółek z GPW?",
+      "answer": "Standardowy okres 14 sesji (zaproponowany przez twórcę RSI, J. Wellesa Wildera) sprawdza się dobrze dla większości spółek z GPW na interwale dziennym. Dla bardziej zmiennych spółek jak CD Projekt czy Allegro można rozważyć RSI 9, który szybciej reaguje na zmiany ceny. Dla mniej zmiennych blue chipów na interwale tygodniowym lepszy może być RSI 21. Nie zmieniaj jednak parametrów zbyt często — konsekwencja w stosowaniu jednego ustawienia jest ważniejsza niż szukanie 'idealnych' parametrów."
+    },
+    {
+      "question": "Czym różni się Stochastic RSI od klasycznego RSI?",
+      "answer": "Stochastic RSI (StochRSI) to modyfikacja, która stosuje formułę oscylatora stochastycznego do wartości RSI zamiast do ceny. StochRSI mierzy pozycję bieżącego RSI w stosunku do jego zakresu z ostatnich N okresów. Jest znacznie bardziej wrażliwy niż klasyczny RSI — szybciej osiąga wartości ekstremalne i generuje więcej sygnałów. Jest przydatny, gdy klasyczny RSI utrzymuje się w strefie neutralnej i nie daje wyraźnych sygnałów. Wadą jest większa liczba fałszywych sygnałów, dlatego wymaga dodatkowego filtrowania."
+    },
+    {
+      "question": "Czy RSI działa lepiej na dużych czy małych spółkach z GPW?",
+      "answer": "RSI generuje bardziej wiarygodne sygnały na dużych, płynnych spółkach z WIG20 i mWIG40 (PKO BP, PKN Orlen, CD Projekt, Allegro), gdzie duże obroty zapewniają, że ruchy cenowe odzwierciedlają rzeczywisty sentyment rynku. Na mało płynnych spółkach z sWIG80 pojedyncze duże zlecenie może gwałtownie zmienić kurs i wypaczyć odczyt RSI, generując fałszywe sygnały wykupienia lub wyprzedania. Dla mniejszych spółek warto stosować dłuższy okres RSI (np. 21) i wymagać silniejszego potwierdzenia innymi wskaźnikami."
+    },
+    {
+      "question": "Jak połączyć RSI z analizą fundamentalną?",
+      "answer": "Najskuteczniejsze podejście to użycie analizy fundamentalnej do wyboru spółki (identyfikacja niedowartościowanych firm z dobrymi perspektywami, na przykład przy użyciu wskaźników P/E, ROE czy stopy dywidendy), a RSI do znalezienia optymalnego momentu wejścia w pozycję. Jeśli fundamentalnie atrakcyjna spółka ma RSI poniżej 30 lub wykazuje dywergencję byczą, to silniejszy sygnał kupna niż samo niskie P/E. Ta kombinacja — dobra spółka w dobrym momencie technicznym — statystycznie daje lepsze wyniki niż każde podejście z osobna."
+    }
+  ]
+}

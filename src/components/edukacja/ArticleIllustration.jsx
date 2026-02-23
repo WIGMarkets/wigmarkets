@@ -983,6 +983,866 @@ function IllustSezonWynikow() {
 }
 
 /* ------------------------------------------------------------------ */
+/* 21. czym-jest-dywidenda                                              */
+/*     Coins with percentage symbols and rising dividend yield chart    */
+/* ------------------------------------------------------------------ */
+function IllustDywidenda() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Grid lines */}
+      {[120, 180, 240, 300].map((y) => (
+        <line key={y} x1="80" y1={y} x2="500" y2={y} stroke={BORDER} strokeWidth="0.5" strokeDasharray="4 4" />
+      ))}
+      {/* Axes */}
+      <line x1="80" y1="80" x2="80" y2="340" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="80" y1="340" x2="500" y2="340" stroke={BORDER} strokeWidth="1.5" />
+      {/* Rising dividend bar chart */}
+      <rect x="110" y="280" width="40" height="60" rx="4" fill={GREEN} opacity="0.4" />
+      <rect x="170" y="250" width="40" height="90" rx="4" fill={GREEN} opacity="0.5" />
+      <rect x="230" y="220" width="40" height="120" rx="4" fill={GREEN} opacity="0.6" />
+      <rect x="290" y="190" width="40" height="150" rx="4" fill={GREEN} opacity="0.7" />
+      <rect x="350" y="150" width="40" height="190" rx="4" fill={GREEN} opacity="0.8" />
+      <rect x="410" y="120" width="40" height="220" rx="4" fill={GREEN} opacity="0.9" />
+      {/* Trend line over bars */}
+      <polyline points="130,275 190,245 250,215 310,185 370,145 430,115" fill="none" stroke={ACCENT} strokeWidth="2.5" strokeLinecap="round" strokeDasharray="6 3" />
+      {/* Large coins on right side */}
+      <circle cx="600" cy="140" r="40" fill={ORANGE} opacity="0.8" />
+      <circle cx="600" cy="140" r="28" fill="none" stroke={DARK_BG} strokeWidth="2.5" />
+      <circle cx="600" cy="140" r="14" fill={ORANGE} opacity="0.5" />
+      <circle cx="660" cy="220" r="35" fill={ORANGE} opacity="0.7" />
+      <circle cx="660" cy="220" r="24" fill="none" stroke={DARK_BG} strokeWidth="2" />
+      <circle cx="660" cy="220" r="12" fill={ORANGE} opacity="0.4" />
+      <circle cx="620" cy="300" r="30" fill={ORANGE} opacity="0.6" />
+      <circle cx="620" cy="300" r="20" fill="none" stroke={DARK_BG} strokeWidth="2" />
+      {/* Percentage symbol */}
+      <circle cx="720" cy="120" r="8" fill="none" stroke={GREEN} strokeWidth="2" opacity="0.6" />
+      <circle cx="744" cy="148" r="8" fill="none" stroke={GREEN} strokeWidth="2" opacity="0.6" />
+      <line x1="746" y1="112" x2="718" y2="156" stroke={GREEN} strokeWidth="2" opacity="0.6" />
+      {/* Small falling coins */}
+      <circle cx="560" cy="60" r="14" fill={ORANGE} opacity="0.3" />
+      <circle cx="700" cy="80" r="12" fill={ORANGE} opacity="0.25" />
+      <circle cx="750" cy="200" r="16" fill={ORANGE} opacity="0.3" />
+      {/* Arrow down into coins */}
+      <polygon points="600,86 594,98 606,98" fill={ORANGE} opacity="0.5" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 22. jak-dziala-sesja-gieldowa                                        */
+/*     Clock face with trading phases timeline                         */
+/* ------------------------------------------------------------------ */
+function IllustSesjaGieldowa() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Clock face */}
+      <circle cx="200" cy="200" r="130" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      <circle cx="200" cy="200" r="125" fill="none" stroke={BORDER} strokeWidth="1" strokeDasharray="6 6" />
+      {/* Clock hour marks */}
+      {[0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330].map((deg) => {
+        const rad = (deg * Math.PI) / 180;
+        const x1 = 200 + 110 * Math.sin(rad);
+        const y1 = 200 - 110 * Math.cos(rad);
+        const x2 = 200 + 120 * Math.sin(rad);
+        const y2 = 200 - 120 * Math.cos(rad);
+        return <line key={deg} x1={x1} y1={y1} x2={x2} y2={y2} stroke={BORDER} strokeWidth="3" strokeLinecap="round" />;
+      })}
+      {/* Clock hands - hour */}
+      <line x1="200" y1="200" x2="200" y2="120" stroke={ACCENT} strokeWidth="4" strokeLinecap="round" />
+      {/* Clock hands - minute */}
+      <line x1="200" y1="200" x2="260" y2="170" stroke={ACCENT} strokeWidth="2.5" strokeLinecap="round" />
+      {/* Center dot */}
+      <circle cx="200" cy="200" r="6" fill={ACCENT} />
+      {/* Trading phases timeline on right */}
+      <line x1="420" y1="60" x2="420" y2="360" stroke={BORDER} strokeWidth="2" />
+      {/* Phase 1 - Pre-opening */}
+      <circle cx="420" cy="80" r="8" fill={ORANGE} opacity="0.6" />
+      <rect x="445" y="70" width="120" height="18" rx="4" fill={ORANGE} opacity="0.15" />
+      <rect x="455" y="74" width="80" height="10" rx="3" fill={BORDER} opacity="0.5" />
+      {/* Phase 2 - Opening auction */}
+      <circle cx="420" cy="140" r="8" fill={ACCENT} opacity="0.7" />
+      <rect x="445" y="130" width="140" height="18" rx="4" fill={ACCENT} opacity="0.15" />
+      <rect x="455" y="134" width="100" height="10" rx="3" fill={BORDER} opacity="0.5" />
+      {/* Phase 3 - Continuous trading */}
+      <circle cx="420" cy="220" r="10" fill={GREEN} opacity="0.8" />
+      <rect x="445" y="208" width="180" height="22" rx="4" fill={GREEN} opacity="0.12" />
+      <rect x="455" y="213" width="140" height="12" rx="3" fill={BORDER} opacity="0.5" />
+      {/* Phase 4 - Closing auction */}
+      <circle cx="420" cy="300" r="8" fill={ACCENT} opacity="0.7" />
+      <rect x="445" y="290" width="140" height="18" rx="4" fill={ACCENT} opacity="0.15" />
+      <rect x="455" y="294" width="100" height="10" rx="3" fill={BORDER} opacity="0.5" />
+      {/* Phase 5 - After hours */}
+      <circle cx="420" cy="350" r="6" fill={BORDER} opacity="0.5" />
+      <rect x="445" y="342" width="100" height="16" rx="4" fill={BORDER} opacity="0.1" />
+      <rect x="455" y="345" width="60" height="10" rx="3" fill={BORDER} opacity="0.4" />
+      {/* Connecting lines between phases */}
+      <line x1="420" y1="88" x2="420" y2="132" stroke={BORDER} strokeWidth="2" />
+      <line x1="420" y1="148" x2="420" y2="210" stroke={BORDER} strokeWidth="2" />
+      <line x1="420" y1="230" x2="420" y2="292" stroke={BORDER} strokeWidth="2" />
+      <line x1="420" y1="308" x2="420" y2="344" stroke={BORDER} strokeWidth="2" />
+      {/* Small volume chart at bottom left */}
+      <rect x="100" y="360" width="200" height="4" rx="2" fill={BORDER} />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 23. short-selling                                                    */
+/*     Downward chart with bear icon and borrow-sell-buyback arrows    */
+/* ------------------------------------------------------------------ */
+function IllustShortSelling() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Grid */}
+      {[100, 160, 220, 280, 340].map((y) => (
+        <line key={y} x1="60" y1={y} x2="520" y2={y} stroke={BORDER} strokeWidth="0.5" strokeDasharray="4 4" />
+      ))}
+      {/* Axes */}
+      <line x1="60" y1="60" x2="60" y2="360" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="60" y1="360" x2="520" y2="360" stroke={BORDER} strokeWidth="1.5" />
+      {/* Falling price line */}
+      <polyline
+        points="80,100 140,120 200,110 260,160 320,200 380,260 440,300 500,340"
+        fill="none"
+        stroke={RED}
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      {/* Area fill under falling line */}
+      <polygon
+        points="80,100 140,120 200,110 260,160 320,200 380,260 440,300 500,340 500,360 80,360"
+        fill={RED}
+        opacity="0.08"
+      />
+      {/* Sell point (high) */}
+      <circle cx="200" cy="110" r="8" fill={RED} opacity="0.8" />
+      <circle cx="200" cy="110" r="14" fill={RED} opacity="0.15" />
+      {/* Buy-back point (low) */}
+      <circle cx="500" cy="340" r="8" fill={GREEN} opacity="0.8" />
+      <circle cx="500" cy="340" r="14" fill={GREEN} opacity="0.15" />
+      {/* Profit arrow between sell and buy */}
+      <line x1="210" y1="120" x2="490" y2="330" stroke={ORANGE} strokeWidth="2" strokeDasharray="6 3" />
+      <polygon points="490,322 484,336 496,336" fill={ORANGE} opacity="0.7" />
+      {/* Borrow-Sell-BuyBack cycle on right */}
+      <rect x="560" y="60" width="200" height="280" rx="12" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      {/* Step 1 - Borrow */}
+      <circle cx="600" cy="110" r="18" fill={ACCENT} opacity="0.15" />
+      <rect x="630" y="102" width="110" height="14" rx="3" fill={BORDER} opacity="0.5" />
+      {/* Step 2 - Sell high */}
+      <circle cx="600" cy="170" r="18" fill={RED} opacity="0.15" />
+      <rect x="630" y="162" width="90" height="14" rx="3" fill={BORDER} opacity="0.5" />
+      {/* Step 3 - Buy back low */}
+      <circle cx="600" cy="230" r="18" fill={GREEN} opacity="0.15" />
+      <rect x="630" y="222" width="100" height="14" rx="3" fill={BORDER} opacity="0.5" />
+      {/* Step 4 - Return */}
+      <circle cx="600" cy="290" r="18" fill={ACCENT} opacity="0.15" />
+      <rect x="630" y="282" width="80" height="14" rx="3" fill={BORDER} opacity="0.5" />
+      {/* Arrows between steps */}
+      <line x1="600" y1="130" x2="600" y2="150" stroke={BORDER} strokeWidth="1.5" />
+      <polygon points="594,150 600,158 606,150" fill={BORDER} />
+      <line x1="600" y1="190" x2="600" y2="210" stroke={BORDER} strokeWidth="1.5" />
+      <polygon points="594,210 600,218 606,210" fill={BORDER} />
+      <line x1="600" y1="250" x2="600" y2="270" stroke={BORDER} strokeWidth="1.5" />
+      <polygon points="594,270 600,278 606,270" fill={BORDER} />
+      {/* Bear icon - simplified */}
+      <circle cx="50" cy="50" r="3" fill={RED} opacity="0.4" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 24. newconnect-rynek                                                 */
+/*     Small building with rocket launching, growth chart               */
+/* ------------------------------------------------------------------ */
+function IllustNewConnect() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Main platform/stage */}
+      <rect x="100" y="300" width="600" height="8" rx="4" fill={BORDER} />
+      {/* Small company buildings */}
+      <rect x="140" y="230" width="60" height="70" rx="4" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <rect x="150" y="245" width="16" height="16" rx="2" fill={ACCENT} opacity="0.2" />
+      <rect x="174" y="245" width="16" height="16" rx="2" fill={ACCENT} opacity="0.2" />
+      <rect x="150" y="270" width="16" height="16" rx="2" fill={ACCENT} opacity="0.15" />
+      <rect x="174" y="270" width="16" height="16" rx="2" fill={ACCENT} opacity="0.15" />
+      <rect x="240" y="250" width="50" height="50" rx="4" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <rect x="250" y="262" width="12" height="12" rx="2" fill={GREEN} opacity="0.2" />
+      <rect x="268" y="262" width="12" height="12" rx="2" fill={GREEN} opacity="0.2" />
+      <rect x="330" y="220" width="70" height="80" rx="4" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <rect x="342" y="238" width="18" height="18" rx="2" fill={ORANGE} opacity="0.2" />
+      <rect x="366" y="238" width="18" height="18" rx="2" fill={ORANGE} opacity="0.2" />
+      <rect x="342" y="264" width="18" height="18" rx="2" fill={ORANGE} opacity="0.15" />
+      <rect x="366" y="264" width="18" height="18" rx="2" fill={ORANGE} opacity="0.15" />
+      {/* Rocket launching from biggest building */}
+      <polygon points="365,100 355,160 375,160" fill={ACCENT} opacity="0.8" />
+      <rect x="357" y="140" width="16" height="30" rx="2" fill={ACCENT} opacity="0.6" />
+      {/* Rocket flame */}
+      <polygon points="365,170 358,190 372,190" fill={ORANGE} opacity="0.7" />
+      <polygon points="365,182 360,196 370,196" fill={RED} opacity="0.5" />
+      {/* Sparkles around rocket */}
+      <circle cx="340" cy="120" r="3" fill={ACCENT} opacity="0.4" />
+      <circle cx="392" cy="110" r="2.5" fill={GREEN} opacity="0.4" />
+      <circle cx="350" cy="80" r="2" fill={ACCENT} opacity="0.3" />
+      {/* Growth chart on right */}
+      <rect x="480" y="80" width="260" height="200" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <polyline points="510,240 540,230 570,220 600,200 630,170 660,140 690,110 720,100" fill="none" stroke={GREEN} strokeWidth="2.5" strokeLinecap="round" />
+      <polygon points="510,240 540,230 570,220 600,200 630,170 660,140 690,110 720,100 720,250 510,250" fill={GREEN} opacity="0.08" />
+      {/* Chart label */}
+      <rect x="500" y="92" width="80" height="12" rx="3" fill={GREEN} opacity="0.3" />
+      {/* Ground line */}
+      <line x1="80" y1="340" x2="720" y2="340" stroke={BORDER} strokeWidth="1" />
+      {/* Small dots representing companies */}
+      <circle cx="160" cy="340" r="4" fill={ACCENT} opacity="0.3" />
+      <circle cx="260" cy="340" r="4" fill={GREEN} opacity="0.3" />
+      <circle cx="365" cy="340" r="5" fill={ORANGE} opacity="0.4" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 25. kontrakty-terminowe                                              */
+/*     Calendar with futures curve and leverage indicator               */
+/* ------------------------------------------------------------------ */
+function IllustKontraktyTerminowe() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Futures curve chart */}
+      <rect x="40" y="40" width="440" height="320" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      {/* Axes */}
+      <line x1="80" y1="70" x2="80" y2="320" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="80" y1="320" x2="450" y2="320" stroke={BORDER} strokeWidth="1.5" />
+      {/* Grid */}
+      {[120, 170, 220, 270].map((y) => (
+        <line key={y} x1="80" y1={y} x2="450" y2={y} stroke={BORDER} strokeWidth="0.5" strokeDasharray="4 4" />
+      ))}
+      {/* Spot price line */}
+      <line x1="80" y1="220" x2="450" y2="220" stroke={ACCENT} strokeWidth="2" strokeDasharray="8 4" opacity="0.5" />
+      {/* Contango curve (futures above spot) */}
+      <path d="M100,220 Q200,200 300,180 Q400,165 440,155" fill="none" stroke={ORANGE} strokeWidth="2.5" strokeLinecap="round" />
+      {/* Backwardation curve (futures below spot) */}
+      <path d="M100,220 Q200,240 300,255 Q400,262 440,265" fill="none" stroke={GREEN} strokeWidth="2.5" strokeLinecap="round" />
+      {/* Expiration markers */}
+      {[160, 260, 360, 440].map((x) => (
+        <g key={x}>
+          <line x1={x} y1="310" x2={x} y2="330" stroke={BORDER} strokeWidth="1.5" />
+          <rect x={x - 10} y="332" width="20" height="10" rx="3" fill={BORDER} opacity="0.4" />
+        </g>
+      ))}
+      {/* Calendar on right */}
+      <rect x="520" y="40" width="240" height="180" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <rect x="520" y="40" width="240" height="34" rx="10" fill={ACCENT} opacity="0.1" />
+      <rect x="570" y="50" width="100" height="12" rx="4" fill={ACCENT} opacity="0.4" />
+      {/* Calendar grid */}
+      {[0, 1, 2, 3].map((row) =>
+        [0, 1, 2, 3, 4, 5, 6].map((col) => {
+          const isExpiry = (row === 1 && col === 4) || (row === 3 && col === 2);
+          return (
+            <rect
+              key={`${row}-${col}`}
+              x={535 + col * 30}
+              y={86 + row * 30}
+              width="22"
+              height="22"
+              rx="4"
+              fill={isExpiry ? ORANGE : "transparent"}
+              opacity={isExpiry ? 0.25 : 1}
+              stroke={isExpiry ? ORANGE : BORDER}
+              strokeWidth={isExpiry ? 1.5 : 0.5}
+            />
+          );
+        })
+      )}
+      {/* Leverage indicator */}
+      <rect x="520" y="250" width="240" height="110" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <rect x="540" y="268" width="60" height="10" rx="3" fill={RED} opacity="0.4" />
+      {/* Leverage bars */}
+      <rect x="540" y="295" width="40" height="16" rx="3" fill={ACCENT} opacity="0.5" />
+      <rect x="540" y="320" width="160" height="16" rx="3" fill={RED} opacity="0.6" />
+      {/* Arrow showing leverage amplification */}
+      <line x1="590" y1="303" x2="700" y2="303" stroke={BORDER} strokeWidth="1" strokeDasharray="3 2" />
+      <polygon points="700,299 710,303 700,307" fill={BORDER} opacity="0.5" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 26. wskaznik-rsi                                                     */
+/*     RSI oscillator with overbought/oversold zones                   */
+/* ------------------------------------------------------------------ */
+function IllustRSI() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Price chart (top half) */}
+      <rect x="60" y="20" width="680" height="160" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <polyline
+        points="90,140 140,130 190,120 240,100 290,90 340,80 390,100 440,120 490,110 540,90 590,70 640,60 690,50 710,55"
+        fill="none"
+        stroke={ACCENT}
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <rect x="80" y="30" width="50" height="10" rx="3" fill={BORDER} opacity="0.4" />
+      {/* RSI chart (bottom half) */}
+      <rect x="60" y="200" width="680" height="180" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      {/* RSI label */}
+      <rect x="80" y="210" width="40" height="10" rx="3" fill={ACCENT} opacity="0.4" />
+      {/* Overbought zone (70) */}
+      <rect x="60" y="230" width="680" height="40" rx="0" fill={RED} opacity="0.06" />
+      <line x1="60" y1="270" x2="740" y2="270" stroke={RED} strokeWidth="1.5" strokeDasharray="6 3" opacity="0.5" />
+      {/* Oversold zone (30) */}
+      <rect x="60" y="330" width="680" height="50" rx="0" fill={GREEN} opacity="0.06" />
+      <line x1="60" y1="330" x2="740" y2="330" stroke={GREEN} strokeWidth="1.5" strokeDasharray="6 3" opacity="0.5" />
+      {/* 50 center line */}
+      <line x1="60" y1="300" x2="740" y2="300" stroke={BORDER} strokeWidth="1" strokeDasharray="4 4" />
+      {/* RSI line */}
+      <polyline
+        points="90,310 140,300 190,290 240,270 290,260 340,250 390,280 440,310 490,320 540,340 590,350 640,330 690,300 710,290"
+        fill="none"
+        stroke={ACCENT}
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      {/* Overbought signal dots */}
+      <circle cx="290" cy="260" r="5" fill={RED} opacity="0.7" />
+      <circle cx="340" cy="250" r="5" fill={RED} opacity="0.7" />
+      {/* Oversold signal dots */}
+      <circle cx="590" cy="350" r="5" fill={GREEN} opacity="0.7" />
+      <circle cx="540" cy="340" r="5" fill={GREEN} opacity="0.7" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 27. wskaznik-macd                                                    */
+/*     MACD histogram with signal line crossover                       */
+/* ------------------------------------------------------------------ */
+function IllustMACD() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Price chart top */}
+      <rect x="60" y="20" width="680" height="150" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <polyline
+        points="90,140 130,130 170,125 210,110 250,100 290,95 330,105 370,115 410,120 450,110 490,95 530,80 570,70 610,65 650,60 700,55"
+        fill="none"
+        stroke={ACCENT}
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
+      {/* MACD chart bottom */}
+      <rect x="60" y="190" width="680" height="190" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      {/* Zero line */}
+      <line x1="80" y1="290" x2="720" y2="290" stroke={BORDER} strokeWidth="1.5" />
+      {/* MACD histogram bars */}
+      {[
+        { x: 100, h: -15 }, { x: 125, h: -25 }, { x: 150, h: -35 }, { x: 175, h: -30 },
+        { x: 200, h: -20 }, { x: 225, h: -8 }, { x: 250, h: 5 }, { x: 275, h: 15 },
+        { x: 300, h: 28 }, { x: 325, h: 35 }, { x: 350, h: 30 }, { x: 375, h: 22 },
+        { x: 400, h: 12 }, { x: 425, h: 3 }, { x: 450, h: -8 }, { x: 475, h: -18 },
+        { x: 500, h: -12 }, { x: 525, h: -5 }, { x: 550, h: 8 }, { x: 575, h: 20 },
+        { x: 600, h: 32 }, { x: 625, h: 40 }, { x: 650, h: 45 }, { x: 675, h: 42 },
+        { x: 700, h: 36 },
+      ].map(({ x, h }) => (
+        <rect
+          key={x}
+          x={x - 8}
+          y={h > 0 ? 290 - h : 290}
+          width="16"
+          height={Math.abs(h)}
+          rx="2"
+          fill={h > 0 ? GREEN : RED}
+          opacity="0.6"
+        />
+      ))}
+      {/* MACD line */}
+      <polyline
+        points="100,305 150,320 200,310 250,290 300,265 350,260 400,275 450,295 500,305 550,285 600,260 650,245 700,252"
+        fill="none"
+        stroke={ACCENT}
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
+      {/* Signal line */}
+      <polyline
+        points="100,310 150,315 200,312 250,298 300,275 350,268 400,270 450,288 500,300 550,295 600,275 650,258 700,255"
+        fill="none"
+        stroke={ORANGE}
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeDasharray="4 2"
+      />
+      {/* Crossover points */}
+      <circle cx="250" cy="290" r="6" fill={GREEN} opacity="0.8" />
+      <circle cx="250" cy="290" r="10" fill={GREEN} opacity="0.15" />
+      <circle cx="550" cy="285" r="6" fill={GREEN} opacity="0.8" />
+      <circle cx="550" cy="285" r="10" fill={GREEN} opacity="0.15" />
+      {/* Label */}
+      <rect x="80" y="200" width="55" height="10" rx="3" fill={ACCENT} opacity="0.4" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 28. srednie-kroczace-sma-ema                                         */
+/*     Golden cross with two moving average lines                      */
+/* ------------------------------------------------------------------ */
+function IllustSrednieKroczace() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Grid */}
+      {[80, 140, 200, 260, 320].map((y) => (
+        <line key={y} x1="60" y1={y} x2="740" y2={y} stroke={BORDER} strokeWidth="0.5" strokeDasharray="4 4" />
+      ))}
+      {/* Axes */}
+      <line x1="60" y1="40" x2="60" y2="360" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="60" y1="360" x2="740" y2="360" stroke={BORDER} strokeWidth="1.5" />
+      {/* Price line (volatile) */}
+      <polyline
+        points="80,300 120,280 160,290 200,270 240,260 280,240 320,250 360,230 400,210 440,200 480,180 520,170 560,160 600,140 640,120 680,110 720,100"
+        fill="none"
+        stroke={BORDER}
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        opacity="0.4"
+      />
+      {/* SMA 50 (shorter, faster - blue) */}
+      <polyline
+        points="80,310 140,290 200,280 260,260 320,250 380,235 440,210 500,185 560,165 620,140 680,115 720,105"
+        fill="none"
+        stroke={ACCENT}
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      {/* SMA 200 (longer, slower - orange) */}
+      <polyline
+        points="80,290 140,280 200,275 260,268 320,262 380,256 440,245 500,230 560,210 620,185 680,160 720,145"
+        fill="none"
+        stroke={ORANGE}
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      {/* Golden cross point (where SMA50 crosses above SMA200) */}
+      <circle cx="320" cy="255" r="10" fill={GREEN} opacity="0.8" />
+      <circle cx="320" cy="255" r="18" fill={GREEN} opacity="0.15" />
+      <circle cx="320" cy="255" r="26" fill={GREEN} opacity="0.08" />
+      {/* Star burst at golden cross */}
+      <line x1="320" y1="225" x2="320" y2="235" stroke={GREEN} strokeWidth="2" opacity="0.5" />
+      <line x1="320" y1="275" x2="320" y2="285" stroke={GREEN} strokeWidth="2" opacity="0.5" />
+      <line x1="290" y1="255" x2="300" y2="255" stroke={GREEN} strokeWidth="2" opacity="0.5" />
+      <line x1="340" y1="255" x2="350" y2="255" stroke={GREEN} strokeWidth="2" opacity="0.5" />
+      {/* Legend */}
+      <rect x="560" y="40" width="170" height="60" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="1" />
+      <line x1="575" y1="60" x2="610" y2="60" stroke={ACCENT} strokeWidth="2.5" />
+      <rect x="618" y="55" width="50" height="10" rx="3" fill={BORDER} opacity="0.5" />
+      <line x1="575" y1="82" x2="610" y2="82" stroke={ORANGE} strokeWidth="2.5" />
+      <rect x="618" y="77" width="55" height="10" rx="3" fill={BORDER} opacity="0.5" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 29. wykres-swiecowy-formacje                                         */
+/*     Various candlestick patterns: hammer, doji, engulfing           */
+/* ------------------------------------------------------------------ */
+function IllustWykresSwiecowy() {
+  const patterns = [
+    { x: 100, label: "Hammer", candles: [
+      { o: 200, c: 160, h: 150, l: 260, bull: true },
+    ]},
+    { x: 220, label: "Doji", candles: [
+      { o: 180, c: 182, h: 140, l: 220, bull: true },
+    ]},
+    { x: 340, label: "Engulfing", candles: [
+      { o: 170, c: 200, h: 160, l: 210, bull: false },
+      { o: 210, c: 150, h: 140, l: 220, bull: true },
+    ]},
+    { x: 500, label: "Morning Star", candles: [
+      { o: 160, c: 210, h: 150, l: 220, bull: false },
+      { o: 215, c: 220, h: 210, l: 230, bull: false },
+      { o: 218, c: 165, h: 155, l: 225, bull: true },
+    ]},
+  ];
+
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Background grid */}
+      {[120, 180, 240, 300].map((y) => (
+        <line key={y} x1="40" y1={y} x2="760" y2={y} stroke={BORDER} strokeWidth="0.5" strokeDasharray="4 4" />
+      ))}
+      {/* Pattern groups */}
+      {patterns.map((pattern, pi) => (
+        <g key={pi}>
+          {/* Pattern card background */}
+          <rect x={pattern.x - 40} y="70" width={pattern.candles.length * 50 + 40} height="260" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="1" />
+          {/* Pattern label */}
+          <rect x={pattern.x - 25} y="82" width={pattern.candles.length * 40 + 10} height="12" rx="4" fill={ACCENT} opacity="0.2" />
+          {/* Candles */}
+          {pattern.candles.map((c, ci) => {
+            const cx = pattern.x + ci * 50;
+            const top = Math.min(c.o, c.c);
+            const bot = Math.max(c.o, c.c);
+            const color = c.bull ? GREEN : RED;
+            return (
+              <g key={ci}>
+                <line x1={cx} y1={c.h} x2={cx} y2={c.l} stroke={color} strokeWidth="2" />
+                <rect x={cx - 14} y={top} width="28" height={Math.max(bot - top, 4)} rx="2" fill={color} opacity="0.85" />
+              </g>
+            );
+          })}
+        </g>
+      ))}
+      {/* Decorative arrow at bottom */}
+      <line x1="680" y1="340" x2="760" y2="340" stroke={BORDER} strokeWidth="1.5" />
+      {/* Ground */}
+      <line x1="40" y1="360" x2="760" y2="360" stroke={BORDER} strokeWidth="1" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 30. wskaznik-roe                                                     */
+/*     ROE bar chart with sectors and magnifying glass                 */
+/* ------------------------------------------------------------------ */
+function IllustROE() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Chart area */}
+      <rect x="40" y="40" width="500" height="320" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      {/* Axes */}
+      <line x1="80" y1="60" x2="80" y2="320" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="80" y1="320" x2="510" y2="320" stroke={BORDER} strokeWidth="1.5" />
+      {/* Grid */}
+      {[120, 170, 220, 270].map((y) => (
+        <line key={y} x1="80" y1={y} x2="510" y2={y} stroke={BORDER} strokeWidth="0.5" strokeDasharray="4 4" />
+      ))}
+      {/* ROE bars for different companies */}
+      <rect x="100" y="240" width="45" height="80" rx="4" fill={ACCENT} opacity="0.5" />
+      <rect x="160" y="200" width="45" height="120" rx="4" fill={ACCENT} opacity="0.6" />
+      <rect x="220" y="160" width="45" height="160" rx="4" fill={GREEN} opacity="0.6" />
+      <rect x="280" y="120" width="45" height="200" rx="4" fill={GREEN} opacity="0.7" />
+      <rect x="340" y="90" width="45" height="230" rx="4" fill={GREEN} opacity="0.8" />
+      <rect x="400" y="180" width="45" height="140" rx="4" fill={ORANGE} opacity="0.6" />
+      <rect x="460" y="260" width="45" height="60" rx="4" fill={RED} opacity="0.5" />
+      {/* Benchmark line */}
+      <line x1="80" y1="200" x2="510" y2="200" stroke={ORANGE} strokeWidth="2" strokeDasharray="8 4" opacity="0.5" />
+      {/* Magnifying glass */}
+      <circle cx="640" cy="160" r="70" fill="none" stroke={ACCENT} strokeWidth="3.5" opacity="0.7" />
+      <circle cx="640" cy="160" r="65" fill={ACCENT} opacity="0.05" />
+      <line x1="690" y1="210" x2="750" y2="270" stroke={ACCENT} strokeWidth="7" strokeLinecap="round" opacity="0.7" />
+      {/* Inside magnifying glass - ROE percentage */}
+      <rect x="608" y="140" width="64" height="28" rx="8" fill={GREEN} opacity="0.2" />
+      {/* Bottom labels */}
+      {[100, 160, 220, 280, 340, 400, 460].map((x) => (
+        <rect key={x} x={x + 5} y="330" width="35" height="8" rx="2" fill={BORDER} opacity="0.4" />
+      ))}
+      {/* Formula hint */}
+      <rect x="580" y="300" width="180" height="50" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="1" />
+      <rect x="596" y="315" width="150" height="10" rx="3" fill={BORDER} opacity="0.4" />
+      <rect x="596" y="332" width="120" height="8" rx="3" fill={ACCENT} opacity="0.3" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 31. strategia-dca                                                    */
+/*     Staircase of coins growing upward with regular intervals        */
+/* ------------------------------------------------------------------ */
+function IllustDCA() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Ascending staircase of investment blocks */}
+      {[0, 1, 2, 3, 4, 5, 6, 7].map((i) => (
+        <g key={i}>
+          <rect
+            x={80 + i * 80}
+            y={320 - i * 30}
+            width="60"
+            height={30 + i * 30}
+            rx="4"
+            fill={GREEN}
+            opacity={0.3 + i * 0.08}
+          />
+          {/* Coin on top of each step */}
+          <circle cx={110 + i * 80} cy={310 - i * 30} r="12" fill={ORANGE} opacity={0.6 + i * 0.04} />
+          <circle cx={110 + i * 80} cy={310 - i * 30} r="7" fill="none" stroke={DARK_BG} strokeWidth="1.5" />
+        </g>
+      ))}
+      {/* Rising trend line through tops */}
+      <polyline
+        points="110,310 190,280 270,250 350,220 430,190 510,160 590,130 670,100"
+        fill="none"
+        stroke={ACCENT}
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeDasharray="6 3"
+      />
+      {/* Arrow at end of trend line */}
+      <polygon points="670,92 660,100 670,108" fill={ACCENT} opacity="0" />
+      <polygon points="680,92 670,84 660,92" fill={ACCENT} opacity="0.7" />
+      {/* Calendar/repeat icon (right side) */}
+      <rect x="700" y="250" width="60" height="60" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <rect x="700" y="250" width="60" height="18" rx="8" fill={ACCENT} opacity="0.15" />
+      {/* Calendar dots */}
+      {[0, 1, 2].map((r) =>
+        [0, 1, 2].map((c) => (
+          <rect key={`${r}-${c}`} x={710 + c * 16} y={275 + r * 10} width="10" height="6" rx="2" fill={BORDER} opacity="0.4" />
+        ))
+      )}
+      {/* Repeat arrow */}
+      <path d="M710,330 Q730,350 750,330" fill="none" stroke={ACCENT} strokeWidth="2" strokeLinecap="round" />
+      <polygon points="750,324 756,332 748,336" fill={ACCENT} opacity="0.6" />
+      {/* Ground */}
+      <line x1="60" y1="352" x2="780" y2="352" stroke={BORDER} strokeWidth="1.5" />
+      {/* Monthly markers */}
+      {[0, 1, 2, 3, 4, 5, 6, 7].map((i) => (
+        <line key={i} x1={110 + i * 80} y1="352" x2={110 + i * 80} y2="358" stroke={BORDER} strokeWidth="1.5" />
+      ))}
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 32. value-investing-gpw                                              */
+/*     Scale/balance with price vs intrinsic value                     */
+/* ------------------------------------------------------------------ */
+function IllustValueInvesting() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Balance scale */}
+      {/* Stand */}
+      <rect x="386" y="280" width="28" height="80" rx="4" fill={BORDER} />
+      <rect x="350" y="355" width="100" height="10" rx="5" fill={BORDER} />
+      {/* Beam (tilted - value side heavier) */}
+      <line x1="180" y1="220" x2="620" y2="170" stroke={BORDER} strokeWidth="4" strokeLinecap="round" />
+      {/* Fulcrum triangle */}
+      <polygon points="400,260 380,280 420,280" fill={BORDER} />
+      {/* Left pan - Market Price (lighter, higher) */}
+      <path d="M130,220 L100,280 L260,280 Z" fill={RED} opacity="0.12" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="130" y1="195" x2="180" y2="220" stroke={BORDER} strokeWidth="2" />
+      <line x1="230" y1="210" x2="180" y2="220" stroke={BORDER} strokeWidth="2" />
+      {/* Price tag on left */}
+      <rect x="140" y="240" width="80" height="24" rx="6" fill={RED} opacity="0.2" />
+      <rect x="150" y="247" width="50" height="10" rx="3" fill={BORDER} opacity="0.5" />
+      {/* Right pan - Intrinsic Value (heavier, lower) */}
+      <path d="M570,170 L540,240 L700,240 Z" fill={GREEN} opacity="0.12" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="570" y1="145" x2="620" y2="170" stroke={BORDER} strokeWidth="2" />
+      <line x1="670" y1="158" x2="620" y2="170" stroke={BORDER} strokeWidth="2" />
+      {/* Value indicator on right */}
+      <rect x="580" y="196" width="90" height="24" rx="6" fill={GREEN} opacity="0.2" />
+      <rect x="590" y="203" width="60" height="10" rx="3" fill={BORDER} opacity="0.5" />
+      {/* Gold coins in right pan */}
+      <circle cx="600" cy="210" r="10" fill={ORANGE} opacity="0.5" />
+      <circle cx="625" cy="215" r="10" fill={ORANGE} opacity="0.6" />
+      <circle cx="650" cy="210" r="10" fill={ORANGE} opacity="0.5" />
+      {/* Margin of safety arrow */}
+      <line x1="400" y1="100" x2="400" y2="140" stroke={GREEN} strokeWidth="2" strokeDasharray="4 2" />
+      <rect x="340" y="70" width="120" height="28" rx="8" fill={GREEN} opacity="0.12" />
+      <rect x="355" y="78" width="90" height="12" rx="3" fill={GREEN} opacity="0.3" />
+      {/* Magnifying glass (searching for value) */}
+      <circle cx="100" cy="100" r="35" fill="none" stroke={ACCENT} strokeWidth="3" opacity="0.5" />
+      <circle cx="100" cy="100" r="30" fill={ACCENT} opacity="0.04" />
+      <line x1="125" y1="125" x2="155" y2="155" stroke={ACCENT} strokeWidth="5" strokeLinecap="round" opacity="0.5" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 33. stop-loss-take-profit                                            */
+/*     Chart with stop-loss and take-profit horizontal zones           */
+/* ------------------------------------------------------------------ */
+function IllustStopLoss() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Chart background */}
+      <rect x="40" y="20" width="720" height="360" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      {/* Grid */}
+      {[80, 140, 200, 260, 320].map((y) => (
+        <line key={y} x1="80" y1={y} x2="720" y2={y} stroke={BORDER} strokeWidth="0.5" strokeDasharray="4 4" />
+      ))}
+      {/* Take profit zone */}
+      <rect x="80" y="60" width="640" height="60" rx="0" fill={GREEN} opacity="0.06" />
+      <line x1="80" y1="120" x2="720" y2="120" stroke={GREEN} strokeWidth="2.5" strokeDasharray="8 4" />
+      <rect x="722" y="112" width="30" height="16" rx="4" fill={GREEN} opacity="0.25" />
+      {/* Entry point area */}
+      <line x1="200" y1="200" x2="720" y2="200" stroke={ACCENT} strokeWidth="1.5" strokeDasharray="4 3" opacity="0.4" />
+      {/* Stop loss zone */}
+      <rect x="80" y="280" width="640" height="60" rx="0" fill={RED} opacity="0.06" />
+      <line x1="80" y1="280" x2="720" y2="280" stroke={RED} strokeWidth="2.5" strokeDasharray="8 4" />
+      <rect x="722" y="272" width="30" height="16" rx="4" fill={RED} opacity="0.25" />
+      {/* Price path */}
+      <polyline
+        points="100,260 150,240 200,200 250,190 300,180 350,170 400,185 450,160 500,140 550,130 600,125 650,120"
+        fill="none"
+        stroke={ACCENT}
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      {/* Entry point */}
+      <circle cx="200" cy="200" r="8" fill={ACCENT} opacity="0.8" />
+      <circle cx="200" cy="200" r="14" fill={ACCENT} opacity="0.15" />
+      {/* Take profit hit */}
+      <circle cx="650" cy="120" r="8" fill={GREEN} opacity="0.8" />
+      <circle cx="650" cy="120" r="14" fill={GREEN} opacity="0.15" />
+      {/* Profit zone fill */}
+      <rect x="200" y="120" width="450" height="80" rx="0" fill={GREEN} opacity="0.04" />
+      {/* Risk zone fill */}
+      <rect x="200" y="200" width="450" height="80" rx="0" fill={RED} opacity="0.04" />
+      {/* R:R ratio indicator */}
+      <rect x="60" y="130" width="8" height="70" rx="2" fill={GREEN} opacity="0.5" />
+      <rect x="60" y="210" width="8" height="70" rx="2" fill={RED} opacity="0.5" />
+      {/* Shield icon (risk management) */}
+      <path d="M730,40 L710,50 L710,75 Q720,90 730,95 Q740,90 750,75 L750,50 Z" fill={ACCENT} stroke={ACCENT} strokeWidth="1.5" opacity="0.2" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 34. momentum-investing                                               */
+/*     Rocket following strong upward trend                            */
+/* ------------------------------------------------------------------ */
+function IllustMomentum() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Grid */}
+      {[100, 160, 220, 280, 340].map((y) => (
+        <line key={y} x1="60" y1={y} x2="700" y2={y} stroke={BORDER} strokeWidth="0.5" strokeDasharray="4 4" />
+      ))}
+      {/* Axes */}
+      <line x1="60" y1="60" x2="60" y2="360" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="60" y1="360" x2="700" y2="360" stroke={BORDER} strokeWidth="1.5" />
+      {/* Strong uptrend line */}
+      <polyline
+        points="80,340 140,320 200,300 260,270 320,230 380,190 440,160 500,120 560,90 620,65 680,45"
+        fill="none"
+        stroke={GREEN}
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      {/* Trend area fill */}
+      <polygon
+        points="80,340 140,320 200,300 260,270 320,230 380,190 440,160 500,120 560,90 620,65 680,45 680,360 80,360"
+        fill={GREEN}
+        opacity="0.07"
+      />
+      {/* Momentum arrow/rocket shape */}
+      <polygon points="690,40 670,65 680,58 680,80 700,80 700,58 710,65" fill={GREEN} opacity="0.8" />
+      {/* Trailing flame */}
+      <polygon points="680,80 690,100 700,80" fill={ORANGE} opacity="0.6" />
+      <polygon points="685,95 690,110 695,95" fill={RED} opacity="0.4" />
+      {/* Speed lines */}
+      <line x1="640" y1="80" x2="670" y2="55" stroke={GREEN} strokeWidth="1.5" opacity="0.3" />
+      <line x1="650" y1="95" x2="675" y2="70" stroke={GREEN} strokeWidth="1.5" opacity="0.25" />
+      <line x1="660" y1="110" x2="680" y2="90" stroke={GREEN} strokeWidth="1" opacity="0.2" />
+      {/* Momentum indicator panel on right */}
+      <rect x="720" y="120" width="60" height="240" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      {/* Momentum bars (vertical meter) */}
+      <rect x="735" y="310" width="30" height="30" rx="3" fill={GREEN} opacity="0.3" />
+      <rect x="735" y="270" width="30" height="30" rx="3" fill={GREEN} opacity="0.4" />
+      <rect x="735" y="230" width="30" height="30" rx="3" fill={GREEN} opacity="0.5" />
+      <rect x="735" y="190" width="30" height="30" rx="3" fill={GREEN} opacity="0.6" />
+      <rect x="735" y="150" width="30" height="30" rx="3" fill={GREEN} opacity="0.8" />
+      {/* Dots on trend */}
+      {[
+        [320, 230], [440, 160], [560, 90],
+      ].map(([cx, cy], i) => (
+        <circle key={i} cx={cx} cy={cy} r="5" fill={GREEN} opacity="0.6" />
+      ))}
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* 35. inwestowanie-zloto-surowce                                       */
+/*     Gold bars with commodity price chart                            */
+/* ------------------------------------------------------------------ */
+function IllustZlotoSurowce() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Gold bars stack */}
+      {/* Bar 1 (bottom) */}
+      <polygon points="100,310 200,310 220,290 120,290" fill={ORANGE} opacity="0.7" />
+      <polygon points="200,310 220,290 220,270 200,290" fill={ORANGE} opacity="0.5" />
+      <rect x="100" y="290" width="100" height="20" rx="2" fill={ORANGE} opacity="0.8" />
+      {/* Bar 2 */}
+      <polygon points="115,290 195,290 210,272 130,272" fill={ORANGE} opacity="0.65" />
+      <polygon points="195,290 210,272 210,254 195,272" fill={ORANGE} opacity="0.45" />
+      <rect x="115" y="272" width="80" height="18" rx="2" fill={ORANGE} opacity="0.75" />
+      {/* Bar 3 (top) */}
+      <polygon points="128,272 188,272 200,256 140,256" fill={ORANGE} opacity="0.6" />
+      <polygon points="188,272 200,256 200,240 188,256" fill={ORANGE} opacity="0.4" />
+      <rect x="128" y="256" width="60" height="16" rx="2" fill={ORANGE} opacity="0.7" />
+      {/* Gold coins */}
+      <circle cx="80" cy="350" r="20" fill={ORANGE} opacity="0.6" />
+      <circle cx="80" cy="350" r="13" fill="none" stroke={DARK_BG} strokeWidth="2" />
+      <circle cx="250" cy="340" r="16" fill={ORANGE} opacity="0.5" />
+      <circle cx="250" cy="340" r="10" fill="none" stroke={DARK_BG} strokeWidth="1.5" />
+      {/* Commodity price chart */}
+      <rect x="320" y="40" width="440" height="320" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      {/* Chart axes */}
+      <line x1="360" y1="70" x2="360" y2="320" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="360" y1="320" x2="730" y2="320" stroke={BORDER} strokeWidth="1.5" />
+      {/* Grid */}
+      {[120, 170, 220, 270].map((y) => (
+        <line key={y} x1="360" y1={y} x2="730" y2={y} stroke={BORDER} strokeWidth="0.5" strokeDasharray="4 4" />
+      ))}
+      {/* Gold price line */}
+      <polyline
+        points="380,280 420,260 460,250 500,230 540,200 580,180 620,160 660,130 700,100"
+        fill="none"
+        stroke={ORANGE}
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <polygon
+        points="380,280 420,260 460,250 500,230 540,200 580,180 620,160 660,130 700,100 700,320 380,320"
+        fill={ORANGE}
+        opacity="0.08"
+      />
+      {/* Oil/commodity line */}
+      <polyline
+        points="380,200 420,210 460,190 500,220 540,240 580,230 620,210 660,200 700,180"
+        fill="none"
+        stroke={ACCENT}
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeDasharray="6 3"
+      />
+      {/* Legend */}
+      <rect x="560" y="50" width="150" height="40" rx="6" fill={CARD_BG} stroke={BORDER} strokeWidth="1" />
+      <line x1="575" y1="63" x2="605" y2="63" stroke={ORANGE} strokeWidth="2.5" />
+      <rect x="612" y="58" width="40" height="10" rx="3" fill={BORDER} opacity="0.5" />
+      <line x1="575" y1="80" x2="605" y2="80" stroke={ACCENT} strokeWidth="2" strokeDasharray="4 2" />
+      <rect x="612" y="75" width="50" height="10" rx="3" fill={BORDER} opacity="0.5" />
+      {/* Sparkle on gold */}
+      <circle cx="160" cy="240" r="3" fill={ORANGE} opacity="0.4" />
+      <circle cx="145" cy="250" r="2" fill={ORANGE} opacity="0.3" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
 /* Illustration registry                                               */
 /* ------------------------------------------------------------------ */
 const ILLUSTRATIONS = {
@@ -1006,6 +1866,22 @@ const ILLUSTRATIONS = {
   "jak-budowac-portfel-inwestycyjny": IllustPortfel,
   "rodzaje-zlecen-gieldowych": IllustZlecenia,
   "sezon-wynikow-gpw": IllustSezonWynikow,
+  /* New articles */
+  "czym-jest-dywidenda": IllustDywidenda,
+  "jak-dziala-sesja-gieldowa": IllustSesjaGieldowa,
+  "short-selling": IllustShortSelling,
+  "newconnect-rynek": IllustNewConnect,
+  "kontrakty-terminowe": IllustKontraktyTerminowe,
+  "wskaznik-rsi": IllustRSI,
+  "wskaznik-macd": IllustMACD,
+  "srednie-kroczace-sma-ema": IllustSrednieKroczace,
+  "wykres-swiecowy-formacje": IllustWykresSwiecowy,
+  "wskaznik-roe": IllustROE,
+  "strategia-dca": IllustDCA,
+  "value-investing-gpw": IllustValueInvesting,
+  "stop-loss-take-profit": IllustStopLoss,
+  "momentum-investing": IllustMomentum,
+  "inwestowanie-zloto-surowce": IllustZlotoSurowce,
 };
 
 /* ------------------------------------------------------------------ */

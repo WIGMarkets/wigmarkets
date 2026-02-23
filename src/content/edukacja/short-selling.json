@@ -1,0 +1,198 @@
+{
+  "slug": "short-selling",
+  "title": "Czym jest short selling i jak działa krótka sprzedaż?",
+  "metaTitle": "Short selling — krótka sprzedaż na GPW | Poradnik",
+  "metaDescription": "Czym jest krótka sprzedaż (short selling) i jak działa na GPW? Poznaj mechanizm, ryzyka, koszty, regulacje KNF i praktyczne wskazówki dla inwestorów.",
+  "category": "podstawy",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-23",
+  "updatedDate": "2026-02-23",
+  "readingTime": 15,
+  "featuredImage": "/images/edukacja/short-selling.webp",
+  "featuredImageAlt": "Short selling — krótka sprzedaż akcji na GPW",
+  "tags": ["short selling", "krótka sprzedaż", "GPW", "inwestowanie"],
+  "relatedSlugs": ["rodzaje-zlecen-gieldowych", "analiza-techniczna-podstawy", "kontrakty-terminowe"],
+  "ctaType": "screener",
+  "ctaText": "Sprawdź aktualne notowania spółek na GPW",
+  "ctaLink": "/",
+  "sections": [
+    {
+      "type": "paragraph",
+      "text": "Krótka sprzedaż, znana w świecie finansów jako short selling, to strategia inwestycyjna polegająca na zarabianiu na spadkach cen instrumentów finansowych. W klasycznym inwestowaniu kupujesz akcje tanio i sprzedajesz drogo — w krótkiej sprzedaży kolejność jest odwrócona: najpierw sprzedajesz drogo, a potem odkupujesz tanio. Brzmi to paradoksalnie, ale mechanizm jest stosunkowo prosty i od dziesięcioleci stanowi integralną część globalnych rynków finansowych. Short selling budzi wiele emocji — jedni uważają go za niezbędny element zdrowego rynku, inni za spekulację godną potępienia. W tym artykule szczegółowo wyjaśnimy, czym jest krótka sprzedaż, jak działa krok po kroku, jakie wiążą się z nią ryzyka i koszty, oraz jak wygląda regulacja tej praktyki na polskiej Giełdzie Papierów Wartościowych w Warszawie. Niezależnie od tego, czy planujesz kiedykolwiek shortować akcje, czy nie, zrozumienie tego mechanizmu jest kluczowe dla każdego świadomego inwestora — choćby dlatego, że aktywność short sellerów wpływa na kursy spółek, które możesz mieć w swoim portfelu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Czym jest short selling — mechanizm krótkiej sprzedaży"
+    },
+    {
+      "type": "paragraph",
+      "text": "Short selling (krótka sprzedaż) to transakcja, w której inwestor sprzedaje papiery wartościowe, których nie posiada, z zamiarem odkupienia ich później po niższej cenie. Cały proces opiera się na pożyczaniu akcji — inwestor pożycza akcje od brokera lub innego uczestnika rynku, natychmiast je sprzedaje na rynku po bieżącej cenie, a następnie czeka na spadek kursu. Gdy cena faktycznie spadnie, odkupuje akcje po niższej cenie i zwraca je pożyczkodawcy. Różnica między ceną sprzedaży a ceną odkupu, pomniejszona o koszty pożyczki i prowizje, stanowi zysk short sellera. Przykładowo, jeśli inwestor pożyczy 100 akcji spółki X notowanych po 50 zł za sztukę i sprzeda je, otrzymuje 5000 zł. Jeśli cena spadnie do 35 zł, odkupuje 100 akcji za 3500 zł i zwraca je pożyczkodawcy — jego zysk brutto wynosi 1500 zł. Jeśli jednak cena wzrośnie do 70 zł, odkupienie kosztuje 7000 zł, co oznacza stratę 2000 zł. Ta asymetria ryzyka — ograniczony potencjał zysku, ale teoretycznie nieograniczone straty — to fundamentalna cecha krótkiej sprzedaży, która odróżnia ją od klasycznego inwestowania."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jak działa krótka sprzedaż krok po kroku"
+    },
+    {
+      "type": "paragraph",
+      "text": "Proces krótkiej sprzedaży składa się z kilku precyzyjnie określonych etapów. W pierwszym kroku inwestor identyfikuje spółkę, której akcje uważa za przewartościowane lub których kurs jego zdaniem spadnie. Przeprowadza analizę fundamentalną lub techniczną i podejmuje decyzję o otwarciu pozycji krótkiej. W drugim kroku kontaktuje się z brokerem, aby pożyczyć akcje — broker może udostępnić je z własnego portfela, z portfeli innych klientów (za ich zgodą) lub pozyskać je z zewnętrznego rynku pożyczek papierów wartościowych. Nie każda spółka jest dostępna do pożyczenia — akcje mało płynnych spółek mogą być trudne lub niemożliwe do shortowania. W trzecim kroku inwestor składa zlecenie sprzedaży pożyczonych akcji na rynku po bieżącej cenie rynkowej. Środki ze sprzedaży trafiają na jego rachunek, ale są częściowo zablokowane jako zabezpieczenie (depozyt zabezpieczający). W czwartym kroku inwestor czeka na spadek kursu, monitorując pozycję i zarządzając ryzykiem. W piątym kroku, gdy cena spadnie do oczekiwanego poziomu, składa zlecenie kupna tych samych akcji na rynku — jest to tak zwane zamknięcie pozycji krótkiej (covering). Odkupione akcje są automatycznie zwracane pożyczkodawcy, a inwestor realizuje zysk lub stratę."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Analiza spółki i podjęcie decyzji o otwarciu pozycji krótkiej",
+        "Pożyczenie akcji od brokera lub innego uczestnika rynku",
+        "Sprzedaż pożyczonych akcji na rynku po bieżącej cenie",
+        "Wpłata depozytu zabezpieczającego (margin) i monitorowanie pozycji",
+        "Odkupienie akcji po niższej cenie (zamknięcie pozycji — covering)",
+        "Zwrot pożyczonych akcji pożyczkodawcy i rozliczenie zysku lub straty"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Krótka sprzedaż na GPW — regulacje i nadzór KNF"
+    },
+    {
+      "type": "paragraph",
+      "text": "Na polskiej Giełdzie Papierów Wartościowych krótka sprzedaż jest legalna, ale podlega ścisłym regulacjom nadzorowanym przez Komisję Nadzoru Finansowego (KNF) oraz przepisom unijnego rozporządzenia SSR (Short Selling Regulation, nr 236/2012). Zgodnie z tymi przepisami tzw. naga krótka sprzedaż (naked short selling) — czyli sprzedaż akcji bez uprzedniego ich pożyczenia lub zawarcia umowy pożyczki — jest zabroniona na rynkach regulowanych UE, w tym na GPW. Inwestor musi mieć zagwarantowany dostęp do akcji przed złożeniem zlecenia sprzedaży krótkiej. Ponadto istnieją obowiązki raportowe: pozycje krótkie netto przekraczające 0,2% kapitału zakładowego spółki muszą być zgłaszane do KNF, a pozycje powyżej 0,5% są ujawniane publicznie. W sytuacjach kryzysowych KNF ma prawo tymczasowo zakazać krótkiej sprzedaży na wybranych instrumentach lub na całym rynku — tak było na przykład w trakcie pandemii COVID-19 w marcu 2020 roku, gdy wiele europejskich regulatorów, w tym KNF, wprowadziło czasowe zakazy shortowania w celu stabilizacji rynków. Na GPW istnieje również mechanizm tick rule, który w pewnych warunkach ogranicza składanie zleceń krótkiej sprzedaży poniżej ostatniej ceny transakcyjnej, zapobiegając agresywnemu zbijaniu kursu."
+    },
+    {
+      "type": "info",
+      "text": "Naga krótka sprzedaż (naked short selling) — sprzedaż akcji bez uprzedniego ich pożyczenia — jest zabroniona na GPW i na wszystkich rynkach regulowanych Unii Europejskiej na mocy rozporządzenia SSR."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Instrumenty umożliwiające grę na spadki na GPW"
+    },
+    {
+      "type": "paragraph",
+      "text": "Na polskim rynku kapitałowym istnieje kilka sposobów na zajęcie pozycji krótkiej, choć bezpośrednia krótka sprzedaż akcji na GPW jest dostępna w ograniczonym zakresie — głównie dla inwestorów instytucjonalnych i klientów brokerów oferujących usługę pożyczek papierów wartościowych. Najpopularniejszym instrumentem umożliwiającym grę na spadki są kontrakty terminowe (futures) na indeksy WIG20 oraz na akcje wybranych blue chipów. Kontrakty terminowe nie wymagają pożyczania akcji — inwestor po prostu otwiera pozycję krótką na kontrakcie, wpłacając depozyt zabezpieczający wynoszący zazwyczaj kilkanaście procent wartości kontraktu. Drugim popularnym instrumentem są kontrakty CFD (Contract for Difference), oferowane przez brokerów takich jak XTB czy TMS Brokers. CFD pozwalają na shortowanie szerokiego wachlarza instrumentów — akcji, indeksów, surowców — z dźwignią finansową, ale są instrumentem pozagiełdowym (OTC), co wiąże się z dodatkowym ryzykiem kontrahenta. Opcje put to kolejna alternatywa: kupno opcji put daje prawo do sprzedaży instrumentu bazowego po ustalonej cenie, co w praktyce pozwala zarabiać na spadkach. Na GPW opcje są jednak dostępne głównie na indeks WIG20 i mają ograniczoną płynność. Wreszcie, niektóre ETF-y typu inverse (odwrotne) pozwalają zarabiać na spadkach indeksów bez konieczności otwierania pozycji krótkiej — na polskim rynku ich dostępność jest jednak niewielka."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Kontrakty terminowe (futures) na WIG20 i wybrane spółki — najpopularniejszy instrument do gry na spadki na GPW",
+        "Kontrakty CFD (Contract for Difference) — pozagiełdowe, z dźwignią, szeroki wybór instrumentów",
+        "Opcje put na WIG20 — prawo do sprzedaży po ustalonej cenie, ograniczona płynność na GPW",
+        "Pożyczki papierów wartościowych (securities lending) — bezpośrednia krótka sprzedaż akcji, głównie dla instytucjonalnych",
+        "ETF-y inverse (odwrotne) — zarabianie na spadkach indeksów bez pozycji krótkiej, ograniczona dostępność w Polsce"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ryzyka krótkiej sprzedaży"
+    },
+    {
+      "type": "paragraph",
+      "text": "Krótka sprzedaż jest jedną z najbardziej ryzykownych strategii inwestycyjnych, a zrozumienie tych ryzyk jest absolutnie kluczowe przed podjęciem jakiejkolwiek próby shortowania. Fundamentalnym ryzykiem jest nieograniczony potencjał strat. Gdy kupujesz akcje klasycznie, maksymalna strata to 100% zainwestowanego kapitału — akcje mogą spaść do zera, ale nie niżej. Przy krótkiej sprzedaży sytuacja jest odwrotna: cena akcji teoretycznie może rosnąć w nieskończoność, więc potencjalna strata nie ma górnego limitu. Jeśli zashortowałeś akcje po 50 zł, a ich kurs wzrośnie do 200 zł, Twoja strata wyniesie 300% początkowej wartości pozycji. Drugim poważnym ryzykiem jest short squeeze — sytuacja, w której gwałtowny wzrost ceny zmusza short sellerów do panicznego zamykania pozycji (kupowania akcji), co dodatkowo napędza wzrost kursu i tworzy samonapędzającą się spiralę. Short squeeze może doprowadzić do astronomicznych strat w bardzo krótkim czasie. Trzecim ryzykiem jest buy-in — broker ma prawo w dowolnym momencie zażądać zwrotu pożyczonych akcji, zmuszając inwestora do zamknięcia pozycji po niekorzystnej cenie, niezależnie od jego strategii. Czwarte ryzyko to koszty utrzymania pozycji: opłaty za pożyczkę akcji, odsetki od depozytu zabezpieczającego i ewentualne dopłaty do marginu mogą znacząco obniżyć zysk lub powiększyć stratę, szczególnie gdy pozycja jest utrzymywana przez dłuższy czas."
+    },
+    {
+      "type": "warning",
+      "text": "Krótka sprzedaż wiąże się z ryzykiem nieograniczonych strat — cena akcji może rosnąć teoretycznie bez limitu. W przeciwieństwie do klasycznego inwestowania, gdzie maksymalna strata to 100% kapitału, przy short sellingu strata może wielokrotnie przekroczyć początkową wartość pozycji. Krótka sprzedaż nie jest odpowiednia dla początkujących inwestorów."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Słynne short squeeze — GameStop i Volkswagen"
+    },
+    {
+      "type": "paragraph",
+      "text": "Historia rynków finansowych zna kilka spektakularnych przypadków short squeeze, które na zawsze zmieniły postrzeganie ryzyka krótkiej sprzedaży. Najbardziej znanym współczesnym przykładem jest saga GameStop ze stycznia 2021 roku. Wielkie fundusze hedgingowe, w tym Melvin Capital, zajęły ogromne pozycje krótkie na akcjach sieci sklepów z grami GameStop (GME), której model biznesowy uważano za przestarzały. Inwestorzy indywidualni z forum Reddit (r/WallStreetBets) zorganizowali masowy zakup akcji GME, doprowadzając do potężnego short squeeze. Kurs GameStop wzrósł z około 20 dolarów do ponad 480 dolarów w ciągu zaledwie kilku tygodni. Melvin Capital stracił ponad 50% wartości portfela i wymagał dofinansowania o 2,75 miliarda dolarów, a ostatecznie został zlikwidowany. Innym legendarnym przypadkiem jest short squeeze na akcjach Volkswagena w październiku 2008 roku. Porsche potajemnie akumulowało akcje i opcje na akcje VW, osiągając kontrolę nad ponad 74% udziałów. Gdy ta informacja wyszła na jaw, short sellerzy uświadomili sobie, że nie ma wystarczającej liczby akcji w wolnym obrocie, aby zamknąć ich pozycje. W ciągu dwóch dni kurs VW wzrósł z 200 do ponad 1000 euro za akcję, czyniąc Volkswagen na krótko najdroższą spółką na świecie pod względem kapitalizacji. Straty short sellerów sięgnęły miliardów euro. Te przypadki pokazują, że nawet najbardziej logicznie uzasadniona krótka pozycja może doprowadzić do katastrofalnych strat, jeśli rynek zachowa się irracjonalnie lub pojawią się nieprzewidywalne czynniki."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Short interest jako wskaźnik rynkowy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Short interest, czyli łączna liczba akcji danej spółki, które są aktualnie przedmiotem krótkiej sprzedaży, stanowi ważny wskaźnik sentymentu rynkowego. Wyrażany jest zazwyczaj jako procent akcji w wolnym obrocie (free float) lub jako liczba dni potrzebnych do zamknięcia wszystkich pozycji krótkich przy średnim dziennym wolumenie (days to cover). Wysoki short interest — na przykład powyżej 10-15% free float — sugeruje, że wielu uczestników rynku stawia na spadek kursu danej spółki. Może to oznaczać realne problemy fundamentalne spółki, ale jednocześnie tworzy potencjał do short squeeze, jeśli kurs zacznie rosnąć. Rosnący short interest jest sygnałem negatywnym — coraz więcej inwestorów uważa, że akcje są przewartościowane. Spadający short interest sugeruje, że short sellerzy zamykają pozycje, co może być sygnałem dna cenowego. Wskaźnik days to cover jest szczególnie istotny — im wyższy, tym większe ryzyko short squeeze, ponieważ zamknięcie wszystkich pozycji krótkich zajmie więcej czasu i wygeneruje silniejszą presję kupna. Na GPW dane o pozycjach krótkich netto powyżej 0,5% są publikowane przez KNF na stronie rejestru pozycji krótkich netto, co pozwala inwestorom monitorować aktywność short sellerów na polskim rynku. Warto regularnie sprawdzać te dane, zwłaszcza dla spółek, które masz w portfelu."
+    },
+    {
+      "type": "tip",
+      "text": "Sprawdzaj rejestr pozycji krótkich netto publikowany przez KNF (knf.gov.pl). Pozycje krótkie powyżej 0,5% kapitału zakładowego są jawne i mogą dostarczyć cennych informacji o sentymencie instytucjonalnych inwestorów wobec danej spółki."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Koszty krótkiej sprzedaży"
+    },
+    {
+      "type": "paragraph",
+      "text": "Krótka sprzedaż wiąże się z szeregiem kosztów, które mogą znacząco wpłynąć na opłacalność strategii. Pierwszym i najważniejszym kosztem jest opłata za pożyczkę akcji (borrow fee lub lending fee). Jest to roczna stawka procentowa naliczana od wartości pożyczonych papierów, dzielona na dni kalendarzowe. Dla płynnych, dużych spółek opłata ta wynosi zazwyczaj 0,25-1% rocznie, ale dla spółek trudno dostępnych do pożyczenia (hard to borrow) może sięgać nawet 50-100% rocznie, co czyni shortowanie nieopłacalnym. Drugim kosztem jest depozyt zabezpieczający (margin) — broker wymaga utrzymania określonego poziomu zabezpieczenia, zazwyczaj 50-150% wartości pozycji krótkiej. Jeśli kurs wzrośnie i wartość zabezpieczenia spadnie poniżej wymaganego poziomu, inwestor otrzyma margin call — wezwanie do uzupełnienia depozytu. Brak reakcji na margin call skutkuje przymusowym zamknięciem pozycji przez brokera. Trzecim kosztem są dywidendy — jeśli spółka wypłaci dywidendę w okresie, gdy akcje są pożyczone, short seller musi zapłacić równowartość dywidendy pożyczkodawcy. Czwartym kosztem są standardowe prowizje brokerskie od transakcji kupna i sprzedaży. Piątym — koszty alternatywne: środki zablokowane jako depozyt zabezpieczający nie mogą być wykorzystane do innych inwestycji. Łączne koszty shortowania sprawiają, że strategia ta wymaga precyzyjnego timingu i wyraźnego ruchu cenowego, aby wygenerować zysk netto."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Short selling a opcje put — porównanie strategii"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zarówno krótka sprzedaż, jak i kupno opcji put pozwalają zarabiać na spadkach cen, ale różnią się fundamentalnie pod względem profilu ryzyka, kosztów i mechaniki. Przy krótkiej sprzedaży potencjalna strata jest nieograniczona — jeśli kurs wzrośnie, strata rośnie liniowo bez górnego limitu. Przy kupnie opcji put maksymalna strata jest ściśle ograniczona do zapłaconej premii opcyjnej — nawet jeśli kurs wzrośnie o 500%, tracisz tylko tyle, ile zapłaciłeś za opcję. Z drugiej strony, opcje mają termin wygaśnięcia — jeśli spadek nastąpi po tym terminie, opcja wygasa bezwartościowo i tracisz całą premię. Pozycja krótka nie ma daty wygaśnięcia i może być utrzymywana tak długo, jak pozwala na to depozyt zabezpieczający i dostępność akcji do pożyczenia. Opcje put wymagają mniejszego kapitału początkowego — kupujesz prawo do sprzedaży za ułamek ceny akcji bazowej. Krótka sprzedaż wymaga znacznego depozytu zabezpieczającego. Dla inwestorów indywidualnych na polskim rynku opcje put na WIG20 mogą być bezpieczniejszą alternatywą dla krótkiej sprzedaży, choć ich płynność na GPW bywa ograniczona. Wybór między short sellingiem a opcjami put zależy od horyzontu czasowego, tolerancji ryzyka, dostępnego kapitału i konkretnej sytuacji rynkowej."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rola short sellerów w efektywności rynku"
+    },
+    {
+      "type": "paragraph",
+      "text": "Short selling budzi kontrowersje etyczne, ale odgrywa istotną rolę w funkcjonowaniu zdrowego rynku kapitałowego. Ekonomiści i regulatorzy generalnie zgadzają się, że krótka sprzedaż przyczynia się do efektywności cenowej — short sellerzy pomagają korygować przewartościowanie akcji, identyfikując spółki, których ceny są oderwane od fundamentów. Bez możliwości krótkiej sprzedaży rynki mają tendencję do tworzenia baniek spekulacyjnych, ponieważ jedynymi aktywnymi uczestnikami rynku są optymistycznie nastawieni kupujący. Short sellerzy pełnią także funkcję detektywów rynkowych — wielu z nich przeprowadza dogłębną analizę fundamentalną, identyfikując oszustwa księgowe, wątpliwe praktyki biznesowe czy zawyżone projekcje finansowe. Raporty aktywistycznych short sellerów, takich jak Hindenburg Research czy Muddy Waters, wielokrotnie ujawniały poważne nadużycia korporacyjne, zanim zrobiły to organy regulacyjne. Short selling zwiększa również płynność rynku — dodatkowa podaż ze strony short sellerów zmniejsza spready bid-ask i ułatwia handel. Z drugiej strony, koordynowane short selling campaigns mogą destabilizować rynki, szczególnie w okresach kryzysów, gdy paniczna sprzedaż i shortowanie wzmacniają spiralę spadkową. Dlatego regulatorzy, w tym KNF, zachowują prawo do tymczasowego zakazywania krótkiej sprzedaży w sytuacjach zagrożenia dla stabilności rynku."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Praktyczne wskazówki i ostrzeżenia dla początkujących"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jeśli rozważasz wykorzystanie krótkiej sprzedaży w swojej strategii inwestycyjnej, musisz podejść do tego tematu z najwyższą ostrożnością i odpowiednim przygotowaniem. Przede wszystkim upewnij się, że doskonale rozumiesz mechanizm krótkiej sprzedaży i związane z nią ryzyka — nie shortuj, jeśli nie potrafisz precyzyjnie wyjaśnić, co to jest margin call, short squeeze i buy-in. Zacznij od instrumentów pochodnych, takich jak kontrakty terminowe na WIG20, które dają ekspozycję na spadki bez konieczności pożyczania akcji i mają przejrzyste zasady margin. Zawsze stosuj zlecenia stop loss — przy krótkiej sprzedaży jest to absolutna konieczność, ponieważ straty mogą narastać nieograniczenie. Nigdy nie shortuj więcej niż niewielki procent swojego portfela — nawet doświadczeni traderzy rzadko przeznaczają na pozycje krótkie więcej niż 5-10% kapitału. Unikaj shortowania spółek z niskim free float i wysokim short interest — to idealne warunki do short squeeze. Zwracaj szczególną uwagę na kalendarz wydarzeń korporacyjnych — wyniki kwartalne, walne zgromadzenia, informacje o przejęciach mogą spowodować gwałtowne ruchy kursowe przeciwko Twojej pozycji. Pamiętaj o kosztach — opłaty za pożyczkę, depozyt zabezpieczający i prowizje mogą pochłonąć znaczną część potencjalnego zysku. Na GPW bezpośrednia krótka sprzedaż akcji jest dostępna głównie przez kontrakty terminowe i CFD, więc zapoznaj się dokładnie z warunkami oferowanymi przez Twojego brokera."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Upewnij się, że w pełni rozumiesz mechanizm krótkiej sprzedaży i wszystkie związane z nią ryzyka",
+        "Zacznij od kontraktów terminowych na WIG20 — prostszy mechanizm niż bezpośrednie shortowanie akcji",
+        "Zawsze ustawiaj zlecenie stop loss — przy pozycjach krótkich jest to absolutna konieczność",
+        "Nigdy nie przeznaczaj na pozycje krótkie więcej niż 5-10% całego portfela",
+        "Unikaj shortowania spółek z niskim free float i wysokim short interest",
+        "Monitoruj kalendarz korporacyjny — wyniki, dywidendy, walne zgromadzenia mogą wywołać gwałtowne ruchy",
+        "Uwzględnij wszystkie koszty: pożyczka akcji, margin, prowizje, ewentualne dywidendy",
+        "Nie traktuj short sellingu jako głównej strategii — używaj go jako narzędzia hedgingowego lub uzupełnienia portfela"
+      ]
+    },
+    {
+      "type": "warning",
+      "text": "Krótka sprzedaż nie jest odpowiednia dla początkujących inwestorów. Wymaga zaawansowanej wiedzy, dyscypliny, ścisłego zarządzania ryzykiem i gotowości na szybkie podejmowanie decyzji pod presją. Nie stanowi rekomendacji inwestycyjnej — każda decyzja o otwarciu pozycji krótkiej powinna być poprzedzona gruntowną analizą i świadomością wszystkich ryzyk."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czy krótka sprzedaż jest legalna na GPW?",
+      "answer": "Tak, krótka sprzedaż jest legalna na GPW, ale podlega ścisłym regulacjom wynikającym z unijnego rozporządzenia SSR (Short Selling Regulation) i nadzorowi KNF. Zabroniona jest jedynie tzw. naga krótka sprzedaż (naked short selling), czyli sprzedaż akcji bez uprzedniego ich pożyczenia. Pozycje krótkie netto powyżej 0,2% kapitału zakładowego muszą być zgłaszane do KNF, a powyżej 0,5% — ujawniane publicznie. KNF może czasowo zakazać krótkiej sprzedaży w sytuacjach kryzysowych."
+    },
+    {
+      "question": "Jakie są maksymalne straty przy krótkiej sprzedaży?",
+      "answer": "Teoretycznie straty przy krótkiej sprzedaży są nieograniczone, ponieważ cena akcji może rosnąć bez górnego limitu. Przy klasycznym inwestowaniu (kupno akcji) maksymalna strata to 100% zainwestowanego kapitału. Przy short sellingu, jeśli kurs wzrośnie o 200%, Twoja strata wyniesie 200% początkowej wartości pozycji. Dlatego ścisłe zarządzanie ryzykiem, w tym stosowanie zleceń stop loss, jest absolutną koniecznością przy każdej pozycji krótkiej."
+    },
+    {
+      "question": "Jak mogę zarabiać na spadkach akcji na GPW jako inwestor indywidualny?",
+      "answer": "Najprostszym sposobem dla inwestora indywidualnego są kontrakty terminowe (futures) na indeks WIG20, dostępne na GPW i oferowane przez większość polskich brokerów. Alternatywą są kontrakty CFD u brokerów takich jak XTB, które pozwalają shortować akcje, indeksy i surowce z dźwignią. Opcje put na WIG20 to kolejna możliwość, choć ich płynność bywa ograniczona. Bezpośrednia krótka sprzedaż akcji na GPW jest trudniej dostępna dla inwestorów indywidualnych i wymaga specjalnej umowy z brokerem."
+    },
+    {
+      "question": "Co to jest short squeeze i jak się przed nim chronić?",
+      "answer": "Short squeeze to gwałtowny wzrost ceny akcji wywołany masowym zamykaniem pozycji krótkich. Gdy kurs zaczyna rosnąć, short sellerzy są zmuszeni do odkupywania akcji (covering), co napędza dalsze wzrosty i tworzy samonapędzającą się spiralę. Aby chronić się przed short squeeze, należy: zawsze stosować zlecenia stop loss, unikać shortowania spółek z bardzo wysokim short interest i niskim free float, monitorować poziom krótkiej sprzedaży na danej spółce oraz nie koncentrować zbyt dużej części portfela w pojedynczej pozycji krótkiej."
+    },
+    {
+      "question": "Ile kosztuje utrzymanie pozycji krótkiej?",
+      "answer": "Koszty pozycji krótkiej obejmują: opłatę za pożyczkę akcji (0,25-1% rocznie dla płynnych spółek, ale nawet 50-100% dla trudno dostępnych), depozyt zabezpieczający (50-150% wartości pozycji, zablokowany na rachunku), prowizje brokerskie od transakcji kupna i sprzedaży, oraz ewentualną rekompensatę dywidend, jeśli spółka wypłaci dywidendę w okresie pożyczki. W przypadku kontraktów terminowych lub CFD koszty mają inną strukturę — obejmują spread, prowizje i koszty utrzymania pozycji overnight (swap)."
+    }
+  ]
+}

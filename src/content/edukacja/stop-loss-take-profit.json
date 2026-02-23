@@ -1,0 +1,256 @@
+{
+  "slug": "stop-loss-take-profit",
+  "title": "Stop loss i take profit — jak zarządzać ryzykiem",
+  "metaTitle": "Stop loss i take profit — zarządzanie ryzykiem",
+  "metaDescription": "Czym jest stop loss i take profit? Jak ustawiać zlecenia obronne na GPW? Poznaj zasadę R:R, trailing stop i position sizing. Poradnik zarządzania ryzykiem.",
+  "category": "strategia",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-23",
+  "updatedDate": "2026-02-23",
+  "readingTime": 19,
+  "featuredImage": "/images/edukacja/stop-loss-take-profit.webp",
+  "featuredImageAlt": "Stop loss i take profit — zarządzanie ryzykiem na giełdzie GPW",
+  "tags": [
+    "stop loss",
+    "take profit",
+    "zarządzanie ryzykiem",
+    "strategia",
+    "GPW"
+  ],
+  "relatedSlugs": [
+    "rodzaje-zlecen-gieldowych",
+    "analiza-techniczna-podstawy",
+    "jak-budowac-portfel-inwestycyjny",
+    "jak-kupic-akcje-krok-po-kroku"
+  ],
+  "ctaType": "screener",
+  "ctaText": "Analizuj spółki GPW przed ustawieniem zleceń",
+  "ctaLink": "/",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Czym jest stop loss i dlaczego jest niezbędny?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stop loss to zlecenie obronne, które automatycznie zamyka pozycję inwestycyjną, gdy cena instrumentu finansowego spadnie do określonego poziomu. Jest to fundamentalne narzędzie zarządzania ryzykiem, bez którego żaden poważny inwestor ani trader nie powinien operować na rynku. Głównym celem stop lossa jest ograniczenie potencjalnych strat do z góry określonej kwoty — zamiast liczyć na to, że spadająca akcja się odbije, inwestor akceptuje małą, kontrolowaną stratę i chroni resztę swojego kapitału. Historia rynków finansowych jest pełna przykładów, w których brak stop lossa doprowadził do katastrofalnych strat — spółki, które traciły 80-90% wartości w ciągu kilku tygodni, nie były rzadkością nawet na GPW. Wystarczy wspomnieć przypadki spółek z NewConnect, które straciły niemal całą wartość, pozostawiając inwestorów bez żadnej ochrony. Stop loss eliminuje emocje z procesu decyzyjnego — nie musisz podejmować bolesnej decyzji o sprzedaży w trakcie paniki rynkowej, bo zlecenie wykona się automatycznie zgodnie z wcześniej ustalonym planem."
+    },
+    {
+      "type": "info",
+      "text": "Na GPW stop loss realizowany jest jako zlecenie z limitem aktywacji (LimAkt). Po osiągnięciu ceny aktywacji system automatycznie wysyła zlecenie sprzedaży — najczęściej PKC (Po Każdej Cenie), co zapewnia szybką realizację, choć nie gwarantuje dokładnej ceny zamknięcia pozycji."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rodzaje stop lossa"
+    },
+    {
+      "type": "paragraph",
+      "text": "Istnieje kilka głównych podejść do wyznaczania poziomu stop loss, a każde z nich ma swoje zalety i ograniczenia. Wybór odpowiedniej metody zależy od stylu inwestowania, horyzontu czasowego oraz instrumentu, na którym operujesz. Warto poznać wszystkie podejścia i wybrać to, które najlepiej pasuje do Twojej strategii — lub łączyć kilka metod jednocześnie, aby uzyskać bardziej precyzyjny poziom ochrony. Dobrze dobrany stop loss powinien być na tyle daleki, aby nie został aktywowany przez normalną zmienność rynkową, ale jednocześnie na tyle bliski, aby ograniczał straty do akceptowalnego poziomu. To delikatna równowaga, której opanowanie wymaga praktyki i doświadczenia. Wielu początkujących inwestorów na GPW ustawia stop loss intuicyjnie, bez przemyślanej metody — co prowadzi do frustracji, gdy zlecenie jest aktywowane zbyt wcześnie lub zbyt późno."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Stop loss stały (kwotowy) — ustawiasz konkretną cenę, np. kupujesz akcje PKN Orlen po 60 zł, stop loss na 57 zł. Prosta metoda, łatwa do zrozumienia, ale nie uwzględnia zmienności instrumentu.",
+        "Stop loss procentowy — ustawiasz maksymalną akceptowalną stratę w procentach, np. 5% od ceny zakupu. Jeśli kupiłeś po 100 zł, stop loss wynosi 95 zł. Popularna metoda wśród początkujących, choć nie zawsze optymalna.",
+        "Stop loss oparty na ATR (Average True Range) — wykorzystuje wskaźnik zmienności ATR do dynamicznego ustalania odległości stop lossa. Typowa formuła to cena wejścia minus 1,5-2x ATR(14). Dzięki temu stop dostosowuje się do aktualnej zmienności instrumentu — szersza zmienność oznacza dalszy stop.",
+        "Stop loss techniczny — ustawiany pod kluczowym poziomem wsparcia, pod średnią kroczącą (np. SMA 50 lub SMA 200) lub pod ostatnim istotnym dołkiem. Ta metoda opiera się na logice rynkowej: jeśli cena przebije wsparcie, oznacza to zmianę struktury trendu.",
+        "Trailing stop (stop kroczący) — dynamiczny stop loss, który przesuwa się za ceną w kierunku zysku, ale nigdy nie cofa się. Pozwala chronić już wypracowane zyski, jednocześnie dając pozycji przestrzeń do dalszego wzrostu."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jak ustawić stop loss na GPW — aspekty techniczne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Na Giełdzie Papierów Wartościowych w Warszawie zlecenie stop loss składa się jako zlecenie z limitem aktywacji (LimAkt). Mechanizm działania jest dwuetapowy: najpierw ustawiasz cenę aktywacji — jest to poziom, po którego osiągnięciu system giełdowy automatycznie wyśle Twoje zlecenie sprzedaży. Drugim elementem jest typ zlecenia, które zostanie wysłane po aktywacji. Najczęściej stosuje się zlecenie PKC (Po Każdej Cenie), co zapewnia realizację, ale nie gwarantuje konkretnej ceny — w warunkach dużej zmienności lub luki cenowej (gap) realizacja może nastąpić po cenie gorszej niż limit aktywacji. Alternatywnie możesz ustawić zlecenie z limitem ceny po aktywacji, co daje kontrolę nad ceną realizacji, ale niesie ryzyko, że zlecenie nie zostanie zrealizowane, jeśli cena przeskoczy przez Twój limit. W praktyce większość inwestorów na GPW stosuje LimAkt z PKC dla zleceń obronnych, akceptując potencjalny poślizg cenowy (slippage) w zamian za pewność realizacji. Ważne jest również ustawienie odpowiedniej ważności zlecenia — najczęściej stosuje się WDD (Ważne Do Dnia) z datą daleko w przyszłości lub WDC (Ważne Do Czasu anulowania), pamiętając, że maksymalna ważność na GPW to 365 dni."
+    },
+    {
+      "type": "tip",
+      "text": "Składając zlecenie stop loss na GPW, zawsze sprawdź, czy Twój broker obsługuje zlecenia LimAkt dla danego instrumentu. Większość platform (mBank eMakler, XTB, BOSSA) oferuje tę funkcję, ale interfejs składania zlecenia może się różnić. Warto przećwiczyć składanie zleceń obronnych na koncie demo, zanim zrobisz to z prawdziwym kapitałem."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Czym jest take profit i dlaczego jest równie ważny"
+    },
+    {
+      "type": "paragraph",
+      "text": "Take profit to zlecenie, które automatycznie zamyka pozycję, gdy cena osiągnie z góry określony poziom zysku. Podczas gdy stop loss chroni przed nadmiernymi stratami, take profit zabezpiecza już wypracowane zyski i zapobiega jednemu z najczęstszych błędów inwestorów — chciwości. Wielu traderów doświadczyło sytuacji, w której zyskowna pozycja zamieniła się w stratę, ponieważ nie zdecydowali się na realizację zysków w odpowiednim momencie. Take profit eliminuje ten problem, wymuszając dyscyplinę. Psychologicznie realizacja zysków jest trudniejsza, niż się wydaje — gdy akcja rośnie, naturalna ludzka skłonność każe trzymać dalej w nadziei na jeszcze większe zyski. Take profit przerywa ten cykl i pozwala konsekwentnie realizować plan inwestycyjny. Na GPW take profit również składany jest jako zlecenie z limitem aktywacji, ale w odwrotnym kierunku — cena aktywacji jest wyższa od ceny zakupu, a po jej osiągnięciu wysyłane jest zlecenie sprzedaży. Każda transakcja powinna mieć z góry określony zarówno stop loss, jak i take profit — to dwa filary profesjonalnego podejścia do rynku."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Stosunek zysku do ryzyka (R:R) — złota zasada"
+    },
+    {
+      "type": "paragraph",
+      "text": "Risk-to-Reward Ratio (R:R), czyli stosunek ryzyka do potencjalnego zysku, to jeden z najważniejszych konceptów w zarządzaniu ryzykiem. Zasada jest prosta: potencjalny zysk z transakcji powinien być co najmniej dwukrotnie większy niż potencjalna strata. Oznacza to, że jeśli Twój stop loss wynosi 5 zł od ceny wejścia, take profit powinien wynosić co najmniej 10 zł — daje to R:R na poziomie 1:2. Wielu doświadczonych traderów wymaga R:R minimum 1:3, co oznacza, że nawet jeśli tylko 40% ich transakcji jest zyskownych, portfel jako całość generuje zysk. Rozważmy przykład: inwestor z R:R 1:3 ryzykuje 1000 zł na każdą transakcję, a celuje w zysk 3000 zł. Na 10 transakcji wygrywa 4, a przegrywa 6. Wynik: 4 x 3000 zł minus 6 x 1000 zł równa się plus 6000 zł — mimo że większość transakcji była stratna. To matematyka, która stoi za profesjonalnym tradingiem i pokazuje, dlaczego R:R jest ważniejszy niż procent trafień. Przed każdym wejściem w pozycję na GPW powinieneś obliczyć, czy stosunek R:R jest akceptowalny — jeśli nie, lepiej poczekać na lepszą okazję."
+    },
+    {
+      "type": "warning",
+      "text": "Nigdy nie otwieraj pozycji bez wcześniejszego określenia stop lossa i take profitu. Transakcja bez zdefiniowanego R:R to hazard, a nie inwestowanie. Nawet najlepsza analiza techniczna czy fundamentalna nie zastąpi dyscypliny w zarządzaniu ryzykiem."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zasada 1-2% — ile ryzykować na jedną transakcję"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zasada 1-2% to fundamentalna reguła zarządzania wielkością pozycji (position sizing), stosowana przez profesjonalnych traderów na całym świecie. Mówi ona, że na jedną transakcję nigdy nie powinieneś ryzykować więcej niż 1-2% swojego całkowitego kapitału inwestycyjnego. Jeśli Twój portfel wynosi 50 000 zł, maksymalna strata na jedną transakcję to 500-1000 zł. To nie oznacza, że inwestujesz tylko 500 zł — oznacza to, że Twój stop loss jest ustawiony tak, aby potencjalna strata nie przekroczyła tej kwoty. Przykład obliczenia: masz portfel 50 000 zł i chcesz kupić akcje KGHM po 150 zł za sztukę. Twoja analiza techniczna wskazuje, że stop loss powinien być na 143 zł, czyli 7 zł poniżej ceny wejścia. Ryzykujesz 1% portfela, czyli 500 zł. Dzielisz 500 zł przez 7 zł ryzyka na akcję i otrzymujesz 71 akcji — tyle maksymalnie możesz kupić. Wartość pozycji to 71 x 150 zł, czyli 10 650 zł — ponad 21% portfela, ale ryzyko to tylko 1%. Taka dyscyplina zapewnia, że nawet seria 10 stratnych transakcji z rzędu pochłonie jedynie 10-20% kapitału, pozostawiając wystarczająco dużo środków na odrobienie strat."
+    },
+    {
+      "type": "interactive",
+      "component": "Calculator",
+      "props": {
+        "type": "compound",
+        "title": "Kalkulator ryzyka i wielkości pozycji"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Trailing stop loss — jak działa i kiedy go stosować"
+    },
+    {
+      "type": "paragraph",
+      "text": "Trailing stop (stop kroczący) to zaawansowana odmiana stop lossa, która automatycznie przesuwa się w kierunku zysku wraz ze wzrostem ceny akcji, ale nigdy nie cofa się, gdy cena spada. Działanie jest intuicyjne: ustawiasz trailing stop na określoną odległość od aktualnej ceny — np. 5% lub 3 zł. Gdy cena rośnie, stop przesuwa się za nią w górę. Gdy cena zaczyna spadać, stop pozostaje na najwyższym osiągniętym poziomie. Przykład: kupujesz akcje po 100 zł z trailing stopem 5%. Początkowy stop wynosi 95 zł. Gdy cena wzrośnie do 120 zł, Twój stop automatycznie przesunie się na 114 zł (120 zł minus 5%). Jeśli cena spadnie ze 120 zł do 114 zł, pozycja zostanie zamknięta z zyskiem 14 zł na akcję, mimo że nie było tradycyjnego take profitu. Trailing stop jest szczególnie przydatny w silnych trendach wzrostowych, gdzie chcesz dać pozycji przestrzeń do dalszego wzrostu, jednocześnie chroniąc zyski. Na GPW trailing stop można ustawiać ręcznie, przesuwając zlecenie LimAkt po każdym nowym szczycie cenowym, lub automatycznie — jeśli Twoja platforma brokerska oferuje tę funkcję. Nie wszystkie polskie domy maklerskie wspierają automatyczny trailing stop, dlatego warto sprawdzić możliwości swojej platformy."
+    },
+    {
+      "type": "tip",
+      "text": "Trailing stop najlepiej sprawdza się w silnych trendach. Na rynkach bocznych (konsolidacja) może być przedwcześnie aktywowany przez normalne wahania ceny. W takich warunkach lepszym rozwiązaniem jest tradycyjny stop loss z take profitem."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Najczęstsze błędy przy stosowaniu stop lossa"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nawet inwestorzy znający koncepcję stop lossa popełniają powtarzające się błędy, które skutecznie niweczą ochronną funkcję tego narzędzia. Świadomość tych pułapek to pierwszy krok do ich unikania. Najczęstsze błędy mogą kosztować znacznie więcej niż brak wiedzy — bo dają fałszywe poczucie bezpieczeństwa, podczas gdy w rzeczywistości portfel jest narażony na niekontrolowane straty. Badania behawioralne wykazały, że inwestorzy, którzy popełniają te błędy systematycznie, osiągają wyniki gorsze średnio o 3-5 punktów procentowych rocznie w porównaniu z tymi, którzy konsekwentnie stosują prawidłowe zlecenia obronne. Przyjrzyjmy się najpoważniejszym z nich, aby zrozumieć, jak prawidłowo korzystać ze zleceń obronnych i nie wpaść w typowe pułapki, które czyhają zarówno na początkujących, jak i na bardziej doświadczonych uczestników rynku giełdowego."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Stop loss zbyt blisko ceny wejścia — to najczęstszy błąd początkujących. Ustawiasz stop 1-2% od ceny zakupu na zmiennym instrumencie, który regularnie waha się o 3-4% w ciągu dnia. Rezultat: stop jest aktywowany przez normalny szum rynkowy, a potem cena wraca w kierunku Twojego pierwotnego scenariusza. Unikasz tego, dostosowując odległość stop lossa do zmienności instrumentu (np. używając ATR).",
+        "Przesuwanie stop lossa dalej od ceny — inwestor kupił akcje po 100 zł ze stop lossem na 95 zł. Cena spada do 96 zł i zbliża się do stop lossa. Zamiast zaakceptować stratę, inwestor przesuwa stop na 90 zł, potem na 85 zł. To całkowicie podważa sens stosowania stop lossa i prowadzi do znacznie większych strat niż planowane.",
+        "Brak stop lossa — niektórzy inwestorzy w ogóle nie stosują zleceń obronnych, wierząc, że potrafią zareagować ręcznie. W praktyce emocje, brak dostępu do platformy lub nagły gap cenowy sprawiają, że ręczne zarządzanie jest zawodne. Zawsze ustawiaj zlecenie automatyczne.",
+        "Mentalny stop loss zamiast faktycznego zlecenia — mówisz sobie, że sprzedasz, gdy cena spadnie do 95 zł, ale nie składasz zlecenia. Gdy cena rzeczywiście spada, emocje biorą górę i decyzja o sprzedaży jest odkładana w nieskończoność.",
+        "Ustawianie stop lossa na okrągłych poziomach — poziomy takie jak 100 zł, 50 zł czy 200 zł przyciągają masę zleceń. Duzi gracze to wiedzą i mogą celowo spychać cenę do tych poziomów, aktywując liczne stop lossy. Lepiej ustawiać stop kilka groszy poniżej lub powyżej okrągłego poziomu."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Psychologia cięcia strat"
+    },
+    {
+      "type": "paragraph",
+      "text": "Akceptowanie strat jest jednym z najtrudniejszych aspektów inwestowania, a psychologia behawioralna doskonale tłumaczy, dlaczego tak jest. Teoria perspektywy Kahnemana i Tversky'ego wykazała, że ból straty jest psychologicznie około dwa razy silniejszy niż przyjemność z zysku o tej samej wartości — zjawisko znane jako awersja do strat (loss aversion). Gdy widzisz czerwoną liczbę na swoim rachunku, Twój mózg aktywuje te same obszary, co przy fizycznym bólu. Dlatego naturalna reakcja to unikanie realizacji straty — trzymasz stratną pozycję, licząc, że wróci do ceny zakupu, a jednocześnie zbyt szybko zamykasz zyskowne pozycje, żeby zabezpieczyć zysk, zanim zniknie. To zachowanie nazywane jest efektem dyspozycji i jest jednym z najczęstszych błędów poznawczych wśród inwestorów. Profesjonalni traderzy radzą sobie z tym na kilka sposobów: po pierwsze, traktują stop loss jako koszt prowadzenia biznesu — podobnie jak przedsiębiorca akceptuje koszty surowców. Po drugie, prowadzą dziennik transakcyjny, który pomaga obiektywnie ocenić, czy decyzja o stop lossie była słuszna. Po trzecie, automatyzują proces poprzez zlecenia LimAkt — eliminując potrzebę podejmowania bolesnych decyzji w chwili stresu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wyznaczanie stop lossa na podstawie analizy technicznej"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najbardziej profesjonalnym podejściem do wyznaczania stop lossa jest oparcie go na analizie technicznej, a nie na arbitralnym procencie. Stop loss powinien znajdować się na poziomie, którego przebicie faktycznie zmienia Twój scenariusz inwestycyjny — oznacza, że Twoja analiza się nie sprawdziła. Najpopularniejsze metody techniczne to: umieszczenie stop lossa pod najbliższym istotnym poziomem wsparcia — jeśli cena przebije wsparcie, trend prawdopodobnie się zmienił. Druga metoda to stop pod średnią kroczącą, najczęściej SMA 50 dla traderów średnioterminowych lub SMA 200 dla inwestorów długoterminowych. Trzecia metoda wykorzystuje wskaźnik ATR (Average True Range) — mnożysz wartość ATR z ostatnich 14 sesji przez współczynnik 1,5-2 i odejmujesz od ceny wejścia. Na przykład: kupujesz akcje KGHM po 150 zł, ATR(14) wynosi 4,50 zł. Stop loss to 150 zł minus 2 razy 4,50 zł, czyli 141 zł. Kolejna metoda to stop pod ostatnim swing low, czyli pod dołkiem ostatniego cofnięcia w trendzie wzrostowym. Kluczowa zasada: stop loss powinien być zawsze kilka groszy poniżej poziomu technicznego, a nie dokładnie na nim, aby uniknąć aktywacji przez precyzyjny test poziomu wsparcia."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Strategie wyznaczania take profitu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tak jak stop loss opiera się na logice technicznej, tak samo take profit powinien być wyznaczany w oparciu o analizę rynku, a nie emocje czy nadzieje. Najczęściej stosowane strategie wyznaczania take profitu to: po pierwsze, poziomy oporu — jeśli cena historycznie napotykała silną podaż na danym poziomie, warto rozważyć realizację zysków w jego okolicach. Po drugie, rozszerzenia Fibonacciego (Fibonacci extensions) — po zidentyfikowaniu ruchu impulsowego i korekty, rozszerzenia na poziomach 127,2%, 161,8% i 261,8% wskazują potencjalne cele cenowe dla kolejnego ruchu. Trzecią metodą jest wielokrotność ryzyka — jeśli ryzykujesz 5 zł na akcję, take profit ustawiasz na 10 zł (R:R 1:2) lub 15 zł (R:R 1:3) powyżej ceny wejścia. Czwarta strategia to częściowe zamykanie pozycji — sprzedajesz połowę na pierwszym celu (np. R:R 1:1), przesuwasz stop loss na breakeven i pozwalasz drugiej połowie biec dalej z trailing stopem. To podejście łączy bezpieczeństwo z możliwością uczestnictwa w dużych ruchach cenowych. Na GPW szczególnie dobrze sprawdzają się poziomy oporu wyznaczone przez wcześniejsze szczyty oraz psychologiczne okrągłe ceny, przy których koncentruje się podaż."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Praktyczne przykłady na spółkach GPW"
+    },
+    {
+      "type": "paragraph",
+      "text": "Przeanalizujmy kilka praktycznych scenariuszy, które mogłyby mieć miejsce na polskim rynku. Scenariusz pierwszy: kupujesz akcje PKO BP po 48 zł, widząc odbicie od wsparcia na 47,50 zł potwierdzone wzrostem wolumenu. Stop loss ustawiasz na 46,90 zł — czyli kilka groszy pod wsparciem. Ryzyko na akcję wynosi 1,10 zł. Najbliższy opór to 52 zł (poprzedni szczyt), więc potencjalny zysk to 4 zł na akcję. Stosunek R:R wynosi 1:3,6 — doskonały. Przy portfelu 30 000 zł i zasadzie 1% ryzyka, maksymalna strata to 300 zł, więc kupujesz 272 akcje (300 zł podzielone przez 1,10 zł). Scenariusz drugi: kupujesz akcje CD Projekt po 210 zł, gdyż cena przebiła SMA 50 w górę z dużym wolumenem. Stop loss ustawiasz pod SMA 50, które aktualnie wynosi 203 zł, więc stop na 201,50 zł. Ryzyko to 8,50 zł na akcję. Take profit na poziomie rozszerzenia Fibonacciego 161,8% wynosi 235 zł, więc potencjalny zysk to 25 zł. R:R wynosi 1:2,9. Scenariusz trzeci: kupiłeś akcje Allegro po 35 zł, cena wzrosła do 42 zł. Ustawiasz trailing stop 5%, który aktualnie wynosi 39,90 zł. Jeśli cena wzrośnie do 45 zł, trailing stop przesunie się na 42,75 zł, gwarantując zysk ponad 22% niezależnie od dalszego rozwoju sytuacji."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Stop loss dla długoterminowych inwestorów vs traderów krótkoterminowych"
+    },
+    {
+      "type": "paragraph",
+      "text": "Podejście do stop lossa fundamentalnie różni się w zależności od horyzontu inwestycyjnego, a wielu początkujących inwestorów popełnia błąd, stosując metody traderów krótkoterminowych do inwestycji długoterminowych i odwrotnie. Traderzy krótkoterminowi, operujący na interwałach od kilku godzin do kilku dni, stosują ciasne stop lossy — typowo 1-3% od ceny wejścia lub oparte na ATR z dziennego interwału. Ich celem jest szybki zysk przy ograniczonym ryzyku, a stop loss jest nierozłączną częścią każdej transakcji. Z kolei inwestorzy długoterminowi, kupujący fundamentalnie mocne spółki z horyzontem kilkuletnim, potrzebują znacznie szerszych stop lossów — lub zupełnie innego podejścia. Korekta 15-20% na solidnej spółce dywidendowej jest normalnym zjawiskiem rynkowym i nie powinna powodować panicznej sprzedaży. Dla nich bardziej odpowiedni jest stop loss oparty na tygodniowym interwale, np. zamknięcie poniżej SMA 200 na wykresie tygodniowym, lub stop fundamentalny — sprzedaż, gdy fundamenty spółki się pogorszyły (spadek zysków przez trzy kolejne kwartały, cięcie dywidendy, nadmierne zadłużenie). Inwestor długoterminowy może też stosować tzw. rebalansowanie zamiast twardych stop lossów — jeśli jedna pozycja spadła i stanowi zbyt mały procent portfela, sprzedaje inne pozycje i dokupuje tanio, zamiast sprzedawać na dole."
+    },
+    {
+      "type": "info",
+      "text": "Warren Buffett powiedział: 'Nasza ulubiona długość posiadania akcji to wieczność'. Nie oznacza to jednak braku zarządzania ryzykiem — Buffett stosuje głęboką analizę fundamentalną przed zakupem i sprzedaje, gdy fundamenty się zmieniają. Jego stop loss jest fundamentalny, nie techniczny."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wyznaczanie stop lossa na podstawie wskaźnika ATR"
+    },
+    {
+      "type": "paragraph",
+      "text": "ATR (Average True Range) jest jednym z najlepszych narzędzi do obiektywnego wyznaczania odległości stop lossa, ponieważ automatycznie uwzględnia aktualną zmienność instrumentu. True Range dla pojedynczej sesji to najwyższa wartość spośród trzech: różnica między szczytem a dołkiem bieżącej sesji, wartość bezwzględna różnicy między szczytem bieżącym a zamknięciem poprzedniej sesji oraz wartość bezwzględna różnicy między dołkiem bieżącym a zamknięciem poprzedniej sesji. ATR to średnia krocząca z True Range, najczęściej z ostatnich 14 sesji. Jak to wykorzystać w praktyce? Załóżmy, że ATR(14) dla spółki KGHM wynosi 5,20 zł. Kupujesz po 155 zł i stosujesz mnożnik 2x ATR. Twój stop loss to 155 zł minus 10,40 zł, czyli 144,60 zł. Dla spokojnej spółki dywidendowej jak PZU z ATR(14) równym 0,80 zł i ceną 42 zł, stop loss 2x ATR wyniesie 40,40 zł. ATR automatycznie dopasował odległość do zmienności — KGHM, jako spółka surowcowa o wysokiej zmienności, dostaje szerszy stop, a PZU, jako stabilna spółka finansowa, węższy. To znacznie lepsze podejście niż stosowanie jednego stałego procentu dla wszystkich instrumentów, niezależnie od ich charakterystyki."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Częściowe zamykanie pozycji — zaawansowana strategia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Częściowe zamykanie pozycji (partial take profit) to strategia, która łączy bezpieczeństwo szybkiej realizacji zysków z możliwością uczestnictwa w dużych ruchach rynkowych. Zamiast zamykać całą pozycję na jednym poziomie, dzielisz ją na części i realizujesz zyski stopniowo. Najpopularniejszy wariant to podział pozycji na trzy części: jedną trzecią sprzedajesz na pierwszym celu cenowym (np. R:R 1:1), przesuwasz stop loss na poziom breakeven (cena zakupu) dla pozostałych dwóch trzecich. Drugą trzecią sprzedajesz na drugim celu (np. R:R 1:2), a ostatnią trzecią prowadzisz z trailing stopem, pozwalając jej biec tak daleko, jak trend pozwoli. Korzyści tego podejścia są znaczące: po sprzedaży pierwszej części i przesunięciu stopu na breakeven, transakcja staje się bezryzykowa — nawet jeśli cena zawróci, nie stracisz ani złotówki. Jednocześnie ostatnia trzecia pozycji daje szansę na uczestnictwo w naprawdę dużych ruchach, które zdarzają się kilka razy w roku na GPW. Na polskim rynku ta strategia świetnie sprawdza się na blue chipach z WIG20, gdzie trendy potrafią utrzymywać się przez wiele tygodni, ale korekty intraday mogą być gwałtowne i wywoływać emocjonalne decyzje."
+    },
+    {
+      "type": "warning",
+      "text": "Informacje zawarte w tym artykule mają charakter wyłącznie edukacyjny i nie stanowią rekomendacji inwestycyjnej w rozumieniu przepisów prawa. Inwestowanie na giełdzie wiąże się z ryzykiem utraty części lub całości zainwestowanych środków. Przed podjęciem decyzji inwestycyjnych skonsultuj się z licencjonowanym doradcą finansowym."
+    },
+    {
+      "type": "interactive",
+      "component": "ScreenerPreview",
+      "props": {}
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Podsumowanie — kluczowe zasady zarządzania ryzykiem"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zarządzanie ryzykiem za pomocą stop lossa i take profitu to nie opcja, lecz konieczność dla każdego, kto poważnie traktuje inwestowanie na GPW. Podsumujmy najważniejsze zasady, które powinny towarzyszyć każdej Twojej transakcji. Zawsze ustawiaj stop loss przed otwarciem pozycji — nigdy po fakcie, gdy emocje już wpływają na Twoje decyzje. Stosuj zasadę 1-2% ryzyka na jedną transakcję, aby nawet seria strat nie zniszczyła Twojego portfela. Wymagaj minimalnego stosunku R:R na poziomie 1:2, a najlepiej 1:3 — tylko wtedy matematyka jest po Twojej stronie. Wyznaczaj stop loss na podstawie analizy technicznej, a nie na oko lub na podstawie emocji. Nigdy nie przesuwaj stop lossa dalej od ceny w kierunku straty — to neguje cały sens tego narzędzia. Rozważ trailing stop w silnych trendach, aby chronić zyski, dając pozycji przestrzeń do dalszego wzrostu. Dostosuj podejście do swojego horyzontu inwestycyjnego: traderzy potrzebują ciasnych stopów i szybkich reakcji, inwestorzy długoterminowi — szerszych marż i fundamentalnych kryteriów wyjścia. Prowadź dziennik transakcyjny i regularnie analizuj, czy Twoje stop lossy są prawidłowo ustawione — zbyt częsta aktywacja sugeruje, że stosujesz zbyt ciasne stopy lub handlujesz wbrew trendowi."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czy stop loss gwarantuje, że stracę dokładnie tyle, ile zaplanowałem?",
+      "answer": "Nie, stop loss nie gwarantuje realizacji po dokładnej cenie aktywacji. Na GPW zlecenie z limitem aktywacji (LimAkt) po osiągnięciu ceny aktywacji wysyła zlecenie PKC, które realizuje się po najlepszej dostępnej cenie. W warunkach dużej zmienności, luki cenowej (gap) lub niskiej płynności realizacja może nastąpić po cenie gorszej niż planowana — zjawisko to nazywa się poślizgiem cenowym (slippage). Szczególnie duże luki cenowe mogą wystąpić po weekendzie lub po publikacji ważnych wyników finansowych. Mimo to stop loss nadal znacząco ogranicza straty w porównaniu z brakiem jakiejkolwiek ochrony."
+    },
+    {
+      "question": "Jaka jest optymalna odległość stop lossa od ceny wejścia?",
+      "answer": "Nie ma jednej uniwersalnej odpowiedzi — optymalna odległość zależy od zmienności instrumentu, horyzontu czasowego i Twojej strategii. Dla traderów krótkoterminowych typowe są stop lossy na poziomie 1,5-2x ATR(14), co zwykle przekłada się na 2-5% od ceny wejścia dla płynnych spółek GPW. Inwestorzy średnioterminowi mogą stosować 5-10%, a długoterminowi nawet 15-20%. Kluczowa zasada: stop loss powinien być poniżej istotnego poziomu technicznego (wsparcie, średnia krocząca), a nie na arbitralnym procencie. Zbyt ciasny stop prowadzi do częstych, niepotrzebnych strat, a zbyt daleki nie spełnia funkcji ochronnej."
+    },
+    {
+      "question": "Czy inwestor długoterminowy w ogóle potrzebuje stop lossa?",
+      "answer": "Inwestorzy długoterminowi stosują inne podejście do ochrony kapitału niż traderzy, ale zarządzanie ryzykiem jest równie ważne. Zamiast ciasnych technicznych stop lossów, mogą stosować stop loss fundamentalny — sprzedaż, gdy fundamenty spółki istotnie się pogorszyły (np. trwały spadek zysków, utrata przewagi konkurencyjnej, nadmierne zadłużenie). Mogą też korzystać z szerokiego technicznego stopu, np. zamknięcie poniżej SMA 200 na wykresie tygodniowym. Nawet Warren Buffett sprzedaje akcje, gdy teza inwestycyjna się nie sprawdza. Kluczem jest posiadanie z góry określonych kryteriów wyjścia z inwestycji."
+    },
+    {
+      "question": "Jak obliczyć wielkość pozycji na podstawie stop lossa?",
+      "answer": "Formuła jest prosta: wielkość pozycji = (kapitał x procent ryzyka) / (cena wejścia - cena stop loss). Przykład: portfel 40 000 zł, ryzyko 1% (czyli 400 zł), kupujesz akcje po 80 zł, stop loss na 76 zł. Ryzyko na akcję wynosi 4 zł. Dzielisz 400 zł przez 4 zł i otrzymujesz 100 akcji. Wartość pozycji to 8 000 zł (20% portfela), ale ryzyko to tylko 400 zł (1%). Ta metoda zapewnia, że niezależnie od ceny akcji i odległości stop lossa, zawsze ryzykujesz stałą kwotę kapitału."
+    },
+    {
+      "question": "Czy mogę stosować stop loss i take profit jednocześnie na jednym zleceniu na GPW?",
+      "answer": "Na GPW nie ma jednego zlecenia łączącego stop loss i take profit (tzw. OCO — One Cancels Other). Musisz złożyć dwa oddzielne zlecenia: jedno z limitem aktywacji (LimAkt) jako stop loss i drugie z limitem ceny jako take profit. Ważne: oba zlecenia dotyczą tych samych akcji, więc po realizacji jednego musisz pamiętać o anulowaniu drugiego, aby uniknąć przypadkowej krótkiej sprzedaży. Niektóre platformy brokerskie, np. XTB xStation, oferują funkcję automatycznego OCO, która anuluje drugie zlecenie po realizacji pierwszego — warto sprawdzić, czy Twój broker to umożliwia."
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "slug": "kontrakty-terminowe",
+  "title": "Czym są kontrakty terminowe i jak działają na GPW?",
+  "metaTitle": "Kontrakty terminowe GPW — jak działają? Poradnik",
+  "metaDescription": "Dowiedz się czym są kontrakty terminowe, jak działa FW20, system depozytów zabezpieczających, dźwignia i rozliczenie. Praktyczny poradnik inwestora GPW.",
+  "category": "podstawy",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-23",
+  "updatedDate": "2026-02-23",
+  "readingTime": 21,
+  "featuredImage": "/images/edukacja/kontrakty-terminowe.webp",
+  "featuredImageAlt": "Kontrakty terminowe na GPW — futures, dźwignia i hedging",
+  "tags": ["kontrakty terminowe", "futures", "GPW", "derywaty", "hedging"],
+  "relatedSlugs": ["rodzaje-zlecen-gieldowych", "analiza-techniczna-podstawy", "co-to-jest-gpw"],
+  "ctaType": "screener",
+  "ctaText": "Sprawdź narzędzia do analizy spółek GPW",
+  "ctaLink": "/",
+  "sections": [
+    {
+      "type": "paragraph",
+      "text": "Kontrakty terminowe (ang. futures) to jedne z najstarszych i najbardziej rozpowszechnionych instrumentów pochodnych na światowych rynkach finansowych. Na Giełdzie Papierów Wartościowych w Warszawie stanowią fundament rynku derywatów i cieszą się ogromnym zainteresowaniem zarówno wśród inwestorów instytucjonalnych, jak i indywidualnych. Kontrakt terminowy to umowa między dwiema stronami, w której jedna zobowiązuje się do kupna, a druga do sprzedaży określonego instrumentu bazowego w ustalonym terminie w przyszłości po z góry określonej cenie. W odróżnieniu od transakcji na rynku kasowym, gdzie wymiana następuje natychmiast, w przypadku kontraktów terminowych rozliczenie odbywa się w ściśle określonym dniu wygaśnięcia. Na GPW najważniejszym kontraktem terminowym jest FW20 — kontrakt na indeks WIG20, który odpowiada za zdecydowaną większość obrotów na rynku pochodnych. Zrozumienie mechaniki kontraktów terminowych otwiera przed inwestorem zupełnie nowe możliwości — od zabezpieczania portfela akcji przed spadkami, przez spekulację na kierunku rynku z wykorzystaniem dźwigni finansowej, po zaawansowane strategie arbitrażowe. W tym poradniku szczegółowo omówimy, czym dokładnie są kontrakty terminowe, jak powstały, jak działają na GPW, jakie niosą za sobą szanse i zagrożenia oraz dla kogo mogą być odpowiednim narzędziem inwestycyjnym."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Historia kontraktów terminowych — od rynków zbożowych do GPW"
+    },
+    {
+      "type": "paragraph",
+      "text": "Historia kontraktów terminowych sięga starożytności, ale ich nowoczesna forma ukształtowała się w XIX wieku na giełdach towarowych w Stanach Zjednoczonych. Pierwsze zorganizowane rynki futures powstały w Chicago — w 1848 roku założono Chicago Board of Trade (CBOT), gdzie farmerzy i handlowcy mogli zawierać umowy na przyszłe dostawy zboża po z góry ustalonych cenach. Potrzeba była prosta i praktyczna: rolnik siejący pszenicę na wiosnę chciał mieć pewność, ile zarobi za swoje zbiory jesienią, niezależnie od wahań cen na rynku. Z kolei młynarz potrzebował gwarancji, że kupi surowiec po przewidywalnej cenie. Kontrakt terminowy rozwiązywał ten problem — obie strony ustalały cenę i ilość towaru, a transakcja miała być zrealizowana w przyszłości. Z biegiem lat kontrakty terminowe ewoluowały daleko poza rynki rolne. W latach 70. i 80. XX wieku zaczęto wprowadzać kontrakty na waluty, stopy procentowe i indeksy giełdowe. Chicago Mercantile Exchange (CME) uruchomiło kontrakty na indeks S&P 500, co zrewolucjonizowało sposób, w jaki instytucje zarządzają ryzykiem portfelowym. Na polskiej Giełdzie Papierów Wartościowych kontrakty terminowe pojawiły się w 1998 roku — jako jeden z pierwszych instrumentów pochodnych w regionie Europy Środkowo-Wschodniej. Od tamtej pory rynek derywatów na GPW rozwinął się znacząco, oferując kontrakty na indeksy, akcje pojedynczych spółek i waluty."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kontrakty terminowe na GPW — FW20, akcje i waluty"
+    },
+    {
+      "type": "paragraph",
+      "text": "Giełda Papierów Wartościowych w Warszawie oferuje kilka rodzajów kontraktów terminowych, z których zdecydowanie najważniejszym i najpłynniejszym jest FW20 — kontrakt terminowy na indeks WIG20, obejmujący dwadzieścia największych i najbardziej płynnych spółek notowanych na GPW. FW20 jest instrumentem rozliczanym pieniężnie, co oznacza, że w dniu wygaśnięcia nie następuje fizyczna dostawa akcji, lecz rozliczenie różnicy między ceną kontraktu a ostatecznym kursem rozliczeniowym indeksu WIG20. Dzienny obrót na kontraktach FW20 regularnie sięga kilku tysięcy kontraktów, co czyni go jednym z najpłynniejszych instrumentów na całej GPW. Oprócz FW20 na giełdzie notowane są również kontrakty terminowe na indeksy mWIG40 (FW40) oraz pojedyncze akcje wybranych spółek — między innymi KGHM, PKO BP, PKN Orlen, PZU czy CD Projekt. Kontrakty na pojedyncze akcje mają zazwyczaj znacznie niższą płynność niż FW20, co sprawia, że spready (różnice między ofertami kupna i sprzedaży) bywają szerokie i koszty transakcyjne wyższe. Na GPW dostępne są także kontrakty walutowe na pary takie jak USD/PLN i EUR/PLN, choć ich płynność jest ograniczona w porównaniu z globalnym rynkiem forex. Dla większości inwestorów indywidualnych zainteresowanych rynkiem futures na GPW, FW20 pozostaje instrumentem pierwszego wyboru ze względu na najwyższą płynność, najwęższe spready i największą dostępność informacji analitycznych."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "FW20 — kontrakt na indeks WIG20, najpłynniejszy instrument pochodny na GPW",
+        "FW40 — kontrakt na indeks mWIG40, niższa płynność niż FW20",
+        "Kontrakty na akcje — dostępne dla wybranych blue chipów (KGHM, PKO BP, PKN Orlen, CD Projekt i inne)",
+        "Kontrakty walutowe — USD/PLN, EUR/PLN, CHF/PLN, ograniczona płynność",
+        "Wszystkie kontrakty rozliczane pieniężnie — bez fizycznej dostawy instrumentu bazowego"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Specyfikacja kontraktu — mnożnik, tick i serie wygasania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Każdy kontrakt terminowy ma ściśle określoną specyfikację, która definiuje jego parametry handlowe. W przypadku FW20 kluczowym parametrem jest mnożnik, który wynosi 20 PLN za każdy punkt indeksu WIG20. Oznacza to, że jeśli WIG20 notowany jest na poziomie 2400 punktów, nominalna wartość jednego kontraktu FW20 wynosi 2400 razy 20 PLN, czyli 48 000 PLN. Minimalny krok notowania (tick size) dla FW20 to 1 punkt indeksowy, co odpowiada zmianie wartości kontraktu o 20 PLN. Gdy cena kontraktu zmieni się o 10 punktów, zysk lub strata na jednym kontrakcie wynosi 200 PLN. Kontrakty terminowe na GPW wygasają w cyklu kwartalnym, oznaczanym literami: H (marzec), M (czerwiec), U (wrzesień) i Z (grudzień). Nazwa kontraktu zawiera informację o serii — na przykład FW20H26 to kontrakt na WIG20 wygasający w marcu 2026 roku, a FW20M26 wygasa w czerwcu 2026 roku. W każdym momencie na giełdzie notowane są co najmniej trzy serie kontraktu — bieżąca i dwie kolejne. Dzień wygaśnięcia kontraktu przypada na trzeci piątek miesiąca wygaśnięcia. Ostateczny kurs rozliczeniowy to średnia arytmetyczna wartości indeksu WIG20 z ostatniej godziny notowań ciągłych w dniu wygaśnięcia oraz wartości indeksu ustalonej na zamknięciu sesji. Zrozumienie specyfikacji jest absolutnie kluczowe przed rozpoczęciem handlu — mnożnik determinuje wielkość pozycji i ryzyko, a cykl wygasania dyktuje, kiedy pozycja musi zostać zamknięta lub przeniesiona na kolejną serię."
+    },
+    {
+      "type": "info",
+      "text": "Mnożnik FW20 to 20 PLN/punkt. Przy WIG20 na poziomie 2400 pkt wartość jednego kontraktu to 48 000 PLN, ale do otwarcia pozycji potrzebujesz jedynie depozytu zabezpieczającego — zwykle kilka tysięcy złotych. To właśnie jest istota dźwigni finansowej."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "System depozytów zabezpieczających (margin)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jedną z najważniejszych cech kontraktów terminowych, odróżniającą je od handlu akcjami na rynku kasowym, jest system depozytów zabezpieczających, znany powszechnie jako margin. Inwestor nie musi dysponować pełną wartością nominalną kontraktu, aby otworzyć pozycję — wystarczy złożyć depozyt stanowiący określony procent wartości kontraktu. Na GPW wyróżniamy dwa rodzaje depozytów: depozyt wstępny (initial margin) i depozyt minimalny (maintenance margin). Depozyt wstępny to kwota wymagana w momencie otwierania pozycji. Dla kontraktów FW20 wynosi on zazwyczaj od 8% do 12% wartości kontraktu, w zależności od aktualnej zmienności rynku — Krajowy Depozyt Papierów Wartościowych (KDPW) jako izba rozliczeniowa regularnie aktualizuje wymagane poziomy depozytów. Przy kontrakcie o wartości 48 000 PLN depozyt wstępny może wynosić około 5 000 do 6 000 PLN. Depozyt minimalny jest nieco niższy od wstępnego i stanowi próg, poniżej którego inwestor musi uzupełnić środki na rachunku. Jeśli straty na pozycji spowodują, że wartość depozytu spadnie poniżej poziomu minimalnego, dom maklerski wystawia tak zwane wezwanie do uzupełnienia depozytu (margin call). Inwestor musi wówczas niezwłocznie wpłacić dodatkowe środki — zazwyczaj do końca bieżącego lub następnego dnia roboczego. Jeśli tego nie zrobi, broker ma prawo przymusowo zamknąć pozycję, niezależnie od aktualnej ceny rynkowej. System margin call jest mechanizmem ochronnym, ale w praktyce oznacza, że inwestor może stracić więcej niż wpłacony depozyt, jeśli ruch cenowy jest bardzo gwałtowny — na przykład przy otwarciu sesji z dużą luką cenową po weekendzie."
+    },
+    {
+      "type": "warning",
+      "text": "Margin call to nie teoria — to realne ryzyko. Jeśli nie uzupełnisz depozytu na czas, broker zamknie Twoją pozycję po aktualnej cenie rynkowej, która może być dla Ciebie bardzo niekorzystna. Zawsze utrzymuj na rachunku zapas środków ponad wymagany depozyt minimalny."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Codzienne rozliczanie pozycji (mark-to-market)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kontrakty terminowe na GPW podlegają codziennemu rozliczeniu mark-to-market, co oznacza, że zyski i straty z otwartych pozycji są obliczane i księgowane na rachunku inwestora na koniec każdej sesji giełdowej. Proces ten działa następująco: na zakończenie sesji KDPW ustala dzienny kurs rozliczeniowy kontraktu, który jest oparty na cenie zamknięcia lub na średniej ważonej cen z ostatnich minut notowań. Różnica między dziennym kursem rozliczeniowym a kursem rozliczeniowym z poprzedniej sesji (lub ceną otwarcia pozycji, jeśli została otwarta tego dnia) jest mnożona przez mnożnik kontraktu i liczbę posiadanych kontraktów. Wynik — zysk lub strata — jest natychmiast dodawany lub odejmowany z rachunku inwestora. Przykładowo, jeśli kupiłeś jeden kontrakt FW20 po cenie 2400 punktów, a dzienny kurs rozliczeniowy wynosi 2420 punktów, Twój zysk za ten dzień to 20 punktów razy mnożnik 20 PLN, czyli 400 PLN — ta kwota zostanie dopisana do Twojego rachunku jeszcze tego samego wieczoru. Jeśli następnego dnia kurs rozliczeniowy spadnie do 2390 punktów, stracisz 30 punktów razy 20 PLN, czyli 600 PLN, które zostaną odjęte od Twojego depozytu. System mark-to-market eliminuje ryzyko kredytowe kontrahenta — ponieważ zyski i straty są rozliczane codziennie, nie kumuluje się duże zobowiązanie jednej strony wobec drugiej. To właśnie ten mechanizm, w połączeniu z izba rozliczeniową KDPW, sprawia, że handel kontraktami terminowymi na GPW jest bezpieczny z punktu widzenia ryzyka rozliczeniowego."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pozycja długa i krótka — long vs short"
+    },
+    {
+      "type": "paragraph",
+      "text": "Handel kontraktami terminowymi daje inwestorowi możliwość zarabiania zarówno na wzrostach, jak i na spadkach rynku — co stanowi fundamentalną przewagę nad tradycyjnym inwestowaniem w akcje na rynku kasowym, gdzie zysk pochodzi wyłącznie ze wzrostu kursu. Otwarcie pozycji długiej (long) na kontrakcie terminowym oznacza kupno kontraktu z oczekiwaniem, że jego cena wzrośnie. Jeśli inwestor kupuje FW20 po 2400 punktów i cena rośnie do 2450 punktów, zarabia 50 punktów razy 20 PLN, czyli 1000 PLN na jednym kontrakcie. Otwarcie pozycji krótkiej (short) to sprzedaż kontraktu z oczekiwaniem spadku ceny. Jeśli inwestor sprzedaje FW20 po 2400 punktów i cena spada do 2350 punktów, zarabia 50 punktów razy 20 PLN, czyli również 1000 PLN. W przypadku akcji na rynku kasowym krótka sprzedaż wymaga pożyczenia papierów wartościowych od brokera, co wiąże się z dodatkowymi kosztami i ograniczeniami. W przypadku kontraktów terminowych otwarcie pozycji krótkiej jest tak samo proste jak otwarcie długiej — wystarczy złożyć zlecenie sprzedaży. Nie ma konieczności pożyczania żadnych papierów, a koszty transakcyjne są identyczne jak przy pozycji długiej. Ta symetria sprawia, że kontrakty terminowe są niezwykle popularnym narzędziem wśród traderów, którzy chcą aktywnie handlować w obu kierunkach rynku, a także wśród zarządzających portfelami, którzy chcą zabezpieczyć swoje pozycje akcyjne przed spadkami bez konieczności ich sprzedawania."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Hedging vs spekulacja — dwa podejścia do futures"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uczestnicy rynku kontraktów terminowych dzielą się na dwie główne grupy o diametralnie różnych celach: hedgerów (zabezpieczających) i spekulantów. Hedging to strategia polegająca na wykorzystaniu kontraktów terminowych do zabezpieczenia istniejącej pozycji przed niekorzystnymi ruchami cenowymi. Klasyczny przykład na GPW: zarządzający funduszem akcyjnym posiada portfel spółek z WIG20 o wartości 500 000 PLN. Obawia się krótkoterminowych spadków rynku, ale nie chce sprzedawać akcji ze względu na koszty transakcyjne, konsekwencje podatkowe i strategię długoterminową. Zamiast tego sprzedaje odpowiednią liczbę kontraktów FW20 — jeśli rynek spadnie, straty na portfelu akcji zostaną częściowo lub całkowicie skompensowane zyskami na pozycji krótkiej w kontraktach. Analogicznie, eksporter otrzymujący przychody w euro może zabezpieczyć się przed spadkiem kursu EUR/PLN, kupując kontrakty walutowe. Spekulacja to natomiast otwieranie pozycji wyłącznie w celu osiągnięcia zysku na przewidywanym ruchu cenowym, bez posiadania pozycji do zabezpieczenia. Spekulant kupuje kontrakt FW20, bo oczekuje wzrostu WIG20, lub sprzedaje go, bo oczekuje spadku. Spekulanci dostarczają rynkowi płynność, bez której hedgerzy nie mogliby efektywnie zabezpieczać swoich pozycji. Oba podejścia są legalne, potrzebne i stanowią fundamentalne filary funkcjonowania rynku kontraktów terminowych."
+    },
+    {
+      "type": "tip",
+      "text": "Nawet jeśli Twoim głównym celem jest spekulacja, warto zrozumieć mechanizm hedgingu. Gdy posiadasz portfel polskich akcji i oczekujesz krótkoterminowej korekty, sprzedaż jednego lub dwóch kontraktów FW20 może skutecznie ochronić wartość portfela bez konieczności sprzedaży poszczególnych pozycji."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dźwignia finansowa — szanse i zagrożenia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dźwignia finansowa (leverage) jest immanentną cechą kontraktów terminowych i stanowi zarówno ich największą zaletę, jak i największe zagrożenie. Ponieważ do otwarcia pozycji wystarczy depozyt zabezpieczający stanowiący zaledwie kilka procent wartości nominalnej kontraktu, inwestor kontroluje pozycję wielokrotnie przekraczającą zainwestowany kapitał. Przy depozycie na poziomie 10% wartości kontraktu efektywna dźwignia wynosi 10:1 — oznacza to, że zmiana ceny instrumentu bazowego o 1% powoduje zmianę wartości depozytu o 10%. Rozważmy konkretny przykład: inwestor wpłaca 6 000 PLN depozytu i kupuje jeden kontrakt FW20 przy WIG20 na poziomie 2400 punktów (wartość nominalna kontraktu: 48 000 PLN). Dźwignia wynosi 8:1. Jeśli WIG20 wzrośnie o 5% do 2520 punktów, zysk na kontrakcie to 120 punktów razy 20 PLN, czyli 2 400 PLN — co stanowi 40% zwrotu na zainwestowanym depozycie. To ekscytujące. Ale uwaga — ta sama dźwignia działa w obu kierunkach. Jeśli WIG20 spadnie o 5% do 2280 punktów, strata wynosi również 2 400 PLN, co oznacza utratę 40% depozytu. Przy spadku o 12,5% (300 punktów) strata wyniesie 6 000 PLN — czyli cały depozyt. A przy jeszcze większym ruchu inwestor może stracić więcej niż wpłacił, co oznacza zadłużenie wobec brokera. Dlatego zarządzanie ryzykiem przy handlu kontraktami terminowymi jest absolutnie kluczowe — doświadczeni traderzy nigdy nie ryzykują więcej niż 1-2% kapitału na pojedynczej transakcji i zawsze stosują zlecenia stop loss."
+    },
+    {
+      "type": "warning",
+      "text": "Dźwignia działa w obu kierunkach! Możesz stracić więcej niż wpłacony depozyt. Statystyki pokazują, że większość inwestorów indywidualnych handlujących kontraktami terminowymi traci pieniądze. Nigdy nie handluj futures kapitałem, którego nie możesz stracić, i zawsze stosuj zlecenia stop loss."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Baza, contango i backwardation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Baza (basis) to różnica między ceną kontraktu terminowego a ceną instrumentu bazowego na rynku kasowym (spot). Jeśli WIG20 notowany jest na 2400 punktów, a kontrakt FW20 na 2415 punktów, baza wynosi plus 15 punktów. Ta różnica nie jest przypadkowa — wynika z tak zwanego kosztu pieniądza w czasie, dywidend i oczekiwań rynkowych. Gdy cena kontraktu terminowego jest wyższa od ceny spot, mówimy o sytuacji contango. Jest to stan normalny dla większości instrumentów — kontrakty terminowe uwzględniają koszt pieniądza w czasie (stopa procentowa) i dlatego są notowane z premią. Im dłuższy czas do wygaśnięcia, tym wyższa powinna być ta premia. Na GPW contango na FW20 jest typowe w okresach stabilnego rynku. Odwrotna sytuacja — gdy cena kontraktu terminowego jest niższa od ceny spot — nazywa się backwardation. Na rynku akcyjnym backwardation może wystąpić, gdy rynek oczekuje wypłaty znaczących dywidend przez spółki z indeksu (dywidendy obniżają wartość indeksu, a kontrakt to uwzględnia) lub gdy panuje silny pesymizm co do przyszłych notowań. W miarę zbliżania się dnia wygaśnięcia baza systematycznie maleje i w dniu rozliczenia cena kontraktu zbiega się z ceną instrumentu bazowego — to zjawisko nazywane jest konwergencją. Zrozumienie dynamiki bazy jest istotne dla inwestorów, ponieważ wpływa na koszt utrzymywania pozycji i na decyzje dotyczące rolowania kontraktów na kolejne serie."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rolowanie pozycji na kolejną serię"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ponieważ kontrakty terminowe mają z góry określone daty wygaśnięcia, inwestor, który chce utrzymać pozycję na rynku po wygaśnięciu bieżącej serii, musi dokonać rolowania (rollover). Proces ten polega na zamknięciu pozycji w wygasającej serii kontraktu i jednoczesnym otwarciu identycznej pozycji w kolejnej serii. Na przykład, jeśli posiadasz pozycję długą na FW20H26 (wygasa w marcu 2026), a chcesz utrzymać ekspozycję na WIG20, musisz przed dniem wygaśnięcia sprzedać FW20H26 i kupić FW20M26 (seria czerwcowa). Rolowanie wiąże się z kilkoma istotnymi aspektami. Po pierwsze, koszt rolowania — różnica cen między seriami (spread kalendarzowy) oznacza, że rolowanie nie jest neutralne kosztowo. W contango inwestor z pozycją długą płaci premię przy przejściu na kolejną serię, a w backwardation — zyskuje. Po drugie, płynność — w ostatnich dniach przed wygaśnięciem płynność w wygasającej serii gwałtownie spada, a przesuwa się na kolejną serię. Dlatego doświadczeni inwestorzy rolują pozycje z kilkudniowym wyprzedzeniem, typowo 3 do 5 dni roboczych przed wygaśnięciem, gdy płynność jest jeszcze zadowalająca w obu seriach. Po trzecie, prowizje — rolowanie to dwie transakcje (zamknięcie starej i otwarcie nowej pozycji), więc inwestor ponosi podwójne koszty prowizji. Niektóre domy maklerskie oferują zlecenia spreadowe, które pozwalają na rolowanie jako jedną transakcję z niższą prowizją, co warto sprawdzić u swojego brokera."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Praktyczny przykład — handel kontraktem FW20"
+    },
+    {
+      "type": "paragraph",
+      "text": "Przejdźmy przez konkretny przykład handlu kontraktem FW20, aby zilustrować wszystkie omówione wcześniej mechanizmy w praktyce. Załóżmy, że jest luty 2026 roku, WIG20 notowany jest na poziomie 2380 punktów, a Ty po przeprowadzeniu analizy technicznej i fundamentalnej oczekujesz wzrostu indeksu. Postanawiasz otworzyć pozycję długą na jednym kontrakcie FW20M26 (seria czerwcowa). Cena kontraktu wynosi 2395 punktów — jest wyższa od bieżącej wartości indeksu o 15 punktów, co wynika z contango. Wartość nominalna kontraktu to 2395 razy 20 PLN, czyli 47 900 PLN. Twój broker wymaga depozytu wstępnego w wysokości 10%, więc musisz mieć na rachunku co najmniej 4 790 PLN. Kupujesz kontrakt po 2395 punktów. Pierwszego dnia kurs rozliczeniowy wynosi 2410 punktów — w ramach codziennego rozliczenia mark-to-market zarabiasz 15 punktów razy 20 PLN, czyli 300 PLN, które zostają dopisane do Twojego rachunku. Drugiego dnia następuje korekta i kurs spada do 2385 punktów — tracisz 25 punktów razy 20 PLN, czyli 500 PLN. Twój depozyt spadł, ale wciąż jest powyżej poziomu minimalnego. Przez kolejne tygodnie rynek rośnie zgodnie z Twoimi oczekiwaniami i decydujesz się zamknąć pozycję, sprzedając kontrakt po 2470 punktów. Twój zysk końcowy to 2470 minus 2395, czyli 75 punktów razy 20 PLN — łącznie 1 500 PLN. Pomniejszony o prowizje maklerskie (zazwyczaj kilka do kilkunastu złotych za kontrakt w obie strony) daje bardzo atrakcyjny zwrot na zainwestowanym depozycie. Pamiętaj jednak, że gdyby WIG20 spadł o 75 punktów zamiast wzrosnąć, strata wynosiłaby identyczne 1 500 PLN."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kto handluje kontraktami terminowymi?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rynek kontraktów terminowych na GPW przyciąga różnorodne grupy uczestników, z których każda ma odmienne cele i strategie. Inwestorzy instytucjonalni — fundusze inwestycyjne, towarzystwa funduszy emerytalnych, banki i ubezpieczyciele — wykorzystują kontrakty terminowe przede wszystkim do hedgingu, czyli zabezpieczania swoich dużych portfeli akcyjnych przed ryzykiem rynkowym. Gdy zarządzający funduszem oczekuje krótkoterminowej korekty na rynku, zamiast sprzedawać setki pozycji akcyjnych (co jest kosztowne i czasochłonne), może sprzedać odpowiednią liczbę kontraktów FW20, neutralizując ekspozycję na ryzyko rynkowe. Animatorzy rynku (market makers) to podmioty zobowiązane do ciągłego kwotowania ofert kupna i sprzedaży, zapewniając płynność na rynku. Na GPW animatorami kontraktów terminowych są najczęściej duże domy maklerskie i banki inwestycyjne. Spekulanci indywidualni stanowią istotną grupę na rynku FW20 — to inwestorzy poszukujący krótkoterminowych zysków z ruchów cenowych, wykorzystujący analizę techniczną, modele ilościowe lub intuicję rynkową. Ich aktywność dostarcza rynkowi płynności i umożliwia hedgerom skuteczne zabezpieczanie pozycji. Arbitrażyści szukają zysków z tymczasowych odchyleń ceny kontraktu od teoretycznej wartości godziwej — na przykład gdy baza jest nietypowo szeroka lub wąska. Każda z tych grup pełni ważną rolę ekosystemie rynku — bez spekulantów hedgerzy nie mieliby z kim handlować, a bez animatorów spready byłyby zbyt szerokie dla efektywnego handlu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ryzyka związane z kontraktami terminowymi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Handel kontraktami terminowymi wiąże się z szeregiem istotnych ryzyk, które każdy inwestor musi rozumieć i akceptować przed otwarciem pierwszej pozycji. Ryzyko dźwigni jest najpoważniejsze — jak omówiliśmy wcześniej, mechanizm depozytu zabezpieczającego oznacza, że straty mogą wielokrotnie przekroczyć zainwestowany kapitał. Inwestor, który nie stosuje zleceń obronnych i nie monitoruje pozycji, może znaleźć się w sytuacji, gdy saldo rachunku jest ujemne, co oznacza zadłużenie wobec domu maklerskiego. Ryzyko margin call polega na tym, że w okresie dużej zmienności rynkowej dom maklerski może zażądać natychmiastowego uzupełnienia depozytu, a jeśli inwestor nie ma płynnych środków, pozycja zostanie przymusowo zamknięta — najczęściej w najgorszym możliwym momencie. Ryzyko wygaśnięcia dotyczy inwestorów, którzy zapomną o zbliżającym się terminie wygaśnięcia kontraktu i nie zamkną pozycji lub nie dokonają rolowania na czas — pozycja zostanie rozliczona po kursie rozliczeniowym, który może różnić się od oczekiwanej ceny zamknięcia. Ryzyko płynności dotyczy zwłaszcza kontraktów na pojedyncze akcje i kontraktów walutowych, gdzie niska aktywność handlowa sprawia, że zamknięcie pozycji po pożądanej cenie może być trudne. Ryzyko luki cenowej (gap risk) jest szczególnie istotne przy pozycjach utrzymywanych overnight lub przez weekend — rynek może otworzyć się ze znaczną luką cenową po niespodziewanych wydarzeniach, a zlecenie stop loss nie ochroni przed stratą, jeśli cena otwarcia jest daleko poza poziomem stop. Wreszcie ryzyko psychologiczne — szybkie zyski i straty wynikające z dźwigni mogą prowadzić do emocjonalnego handlu, nadmiernego ryzyka i spirali strat."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ryzyko dźwigni — straty mogą przekroczyć wartość wpłaconego depozytu",
+        "Margin call — wymóg natychmiastowego uzupełnienia depozytu lub przymusowe zamknięcie pozycji",
+        "Ryzyko wygaśnięcia — konieczność zamknięcia lub rolowania pozycji przed terminem",
+        "Ryzyko płynności — szerokie spready i trudność zamknięcia pozycji na mało płynnych kontraktach",
+        "Ryzyko luki cenowej — otwarcie rynku ze znaczną luką po weekendzie lub ważnych wydarzeniach",
+        "Ryzyko psychologiczne — emocjonalny handel pod wpływem szybkich zysków i strat"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kontrakty terminowe vs opcje vs CFD — porównanie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kontrakty terminowe (futures), opcje i kontrakty na różnice kursowe (CFD) to trzy popularne instrumenty pochodne, z których każdy ma odmienną charakterystykę, zalety i wady. Kontrakty terminowe notowane na GPW są instrumentem giełdowym — standaryzowanym, regulowanym i rozliczanym przez izbę rozliczeniową KDPW, co eliminuje ryzyko kontrahenta. Opcje, również dostępne na GPW (opcje na WIG20), dają nabywcy prawo, ale nie obowiązek, do kupna lub sprzedaży instrumentu bazowego. Maksymalna strata nabywcy opcji jest ograniczona do zapłaconej premii, co stanowi istotną różnicę w stosunku do kontraktów terminowych, gdzie strata jest teoretycznie nieograniczona. Z drugiej strony opcje mają bardziej złożoną wycenę zależną od czasu i zmienności, a ich profil zysku jest asymetryczny. Kontrakty CFD oferowane są przez brokerów forex i platformy OTC (over the counter), nie przez giełdę. Nie mają daty wygaśnięcia, ale wiążą się z kosztami finansowania overnight (tzw. swap) i ryzykiem kontrahenta — jeśli broker zbankrutuje, inwestor może stracić środki. CFD nie są notowane na GPW, lecz oferowane przez regulowanych (i nieregulowanych) brokerów. Z perspektywy polskiego inwestora, FW20 na GPW jest preferowanym wyborem dla handlu indeksem WIG20 ze względu na transparentność, regulację KNF, rozliczenie przez KDPW i konkurencyjne koszty transakcyjne. CFD mogą oferować większą elastyczność (brak wygaśnięcia, mniejsze nominały kontraktów), ale wiążą się z ryzykiem kontrahenta i często wyższymi ukrytymi kosztami."
+    },
+    {
+      "type": "info",
+      "text": "Kluczowa różnica: w kontrakcie terminowym obie strony mają obowiązek rozliczenia. W opcji nabywca ma prawo, ale nie obowiązek — może po prostu pozwolić opcji wygasnąć, tracąc jedynie premię. W CFD nie ma wygaśnięcia, ale ponosisz koszty finansowania i ryzyko kontrahenta."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jak zacząć handel kontraktami terminowymi na GPW?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rozpoczęcie handlu kontraktami terminowymi na GPW wymaga przygotowania i kilku formalnych kroków. Po pierwsze, potrzebujesz rachunku maklerskiego z dostępem do rynku derywatów. Nie każdy standardowy rachunek akcyjny automatycznie umożliwia handel futures — w wielu domach maklerskich trzeba złożyć odrębny wniosek o aktywację segmentu derywatów, wypełnić ankietę oceny adekwatności i podpisać dodatkowe oświadczenia o ryzyku. Broker musi upewnić się, że rozumiesz mechanizm dźwigni i depozytu zabezpieczającego. Po drugie, zanim zaangażujesz realne pieniądze, skorzystaj z rachunku demo — większość polskich domów maklerskich, takich jak mBank (eMakler), BOSSA, DM BOŚ czy XTB, oferuje konta demonstracyjne, na których możesz handlować wirtualnymi kontraktami terminowymi w rzeczywistych warunkach rynkowych. Ćwicz przez co najmniej kilka tygodni, aby zrozumieć mechanikę codziennego rozliczania, wpływ dźwigni na Twój rachunek i dynamikę bazy. Po trzecie, opracuj plan handlowy obejmujący: wielkość pozycji w stosunku do kapitału, maksymalną dopuszczalną stratę na transakcji, kryteria wejścia i wyjścia, zasady rolowania oraz strategię zarządzania ryzykiem z wykorzystaniem zleceń stop loss. Po czwarte, zacznij od minimalnej wielkości pozycji — jednego kontraktu — i stopniowo zwiększaj zaangażowanie w miarę nabywania doświadczenia. Początkujący inwestorzy popełniają najdroższe błędy, gdy za wcześnie zwiększają wielkość pozycji, przed pełnym zrozumieniem dynamiki rynku kontraktów terminowych."
+    },
+    {
+      "type": "tip",
+      "text": "Przed rozpoczęciem handlu kontraktami terminowymi na rachunku realnym ćwicz co najmniej 2-3 miesiące na koncie demo. Prowadź dziennik transakcji, zapisuj powody każdej decyzji i analizuj wyniki. Dopiero gdy osiągniesz stabilne rezultaty na demo, przejdź na rachunek realny z minimalną pozycją."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Podsumowanie — czy kontrakty terminowe są dla Ciebie?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kontrakty terminowe na GPW to potężne narzędzie finansowe, które otwiera przed inwestorem możliwości niedostępne na rynku kasowym — zarabianie na spadkach, efektywne zabezpieczanie portfela, handel z dźwignią finansową i udział w jednym z najbardziej płynnych segmentów polskiego rynku kapitałowego. Jednocześnie są to instrumenty o podwyższonym ryzyku, które wymagają solidnej wiedzy, doświadczenia, dyscypliny i systematycznego zarządzania ryzykiem. Kontrakty terminowe nie są odpowiednie dla każdego — jeśli dopiero zaczynasz swoją przygodę z giełdą, lepiej najpierw zdobyć doświadczenie na rynku akcji, zrozumieć podstawy analizy technicznej i fundamentalnej, a dopiero potem rozważyć rynek derywatów. Jeśli jednak masz już doświadczenie, rozumiesz mechanizm dźwigni i akceptujesz wyższe ryzyko — kontrakty terminowe mogą stać się cennym elementem Twojego arsenału inwestycyjnego, zarówno jako narzędzie spekulacyjne, jak i hedgingowe. Pamiętaj: kluczem do sukcesu na rynku futures jest nie tyle umiejętność przewidywania kierunku rynku, co zdyscyplinowane zarządzanie ryzykiem i kapitałem."
+    },
+    {
+      "type": "warning",
+      "text": "Handel kontraktami terminowymi wiąże się z wysokim ryzykiem utraty kapitału. Nie stanowi rekomendacji inwestycyjnej. Przed podjęciem decyzji inwestycyjnych skonsultuj się z licencjonowanym doradcą finansowym i upewnij się, że w pełni rozumiesz mechanizm dźwigni i depozytu zabezpieczającego."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Ile pieniędzy potrzebuję, żeby zacząć handel kontraktami FW20?",
+      "answer": "Minimalny depozyt zabezpieczający dla jednego kontraktu FW20 wynosi zazwyczaj od 8% do 12% wartości nominalnej kontraktu. Przy WIG20 na poziomie 2400 punktów i mnożniku 20 PLN wartość nominalna to 48 000 PLN, a wymagany depozyt to około 4 800 do 5 800 PLN. Jednak doświadczeni inwestorzy zalecają posiadanie na rachunku znacznie więcej niż minimalny depozyt — co najmniej dwu- lub trzykrotność wymaganego minimum — aby mieć bufor na codzienne wahania i uniknąć margin call. W praktyce rozsądnym minimum startowym jest 10 000 do 15 000 PLN."
+    },
+    {
+      "question": "Czy mogę stracić więcej niż wpłaciłem na rachunek maklerski?",
+      "answer": "Tak, w przypadku kontraktów terminowych istnieje ryzyko straty przekraczającej wpłacony depozyt. Dzieje się tak, gdy gwałtowny ruch cenowy — na przykład duża luka cenowa na otwarciu sesji po weekendzie — spowoduje stratę większą niż saldo rachunku. W takiej sytuacji powstaje zobowiązanie wobec domu maklerskiego, które inwestor musi pokryć z własnych środków. Dlatego absolutnie kluczowe jest stosowanie zleceń stop loss, utrzymywanie odpowiedniego zapasu środków na rachunku i nieprzekraczanie rozsądnej wielkości pozycji w stosunku do kapitału."
+    },
+    {
+      "question": "Czym się różni kontrakt terminowy od kontraktu CFD na WIG20?",
+      "answer": "Kontrakt terminowy FW20 jest instrumentem giełdowym, notowanym na GPW i rozliczanym przez KDPW — daje to gwarancję rozliczenia i eliminuje ryzyko kontrahenta. Ma ustalone daty wygaśnięcia w cyklu kwartalnym. Kontrakt CFD na WIG20 jest oferowany przez brokerów OTC (pozagiełdowych) i nie ma daty wygaśnięcia, ale wiąże się z kosztami finansowania overnight (swap) i ryzykiem kontrahenta — jeśli broker zbankrutuje, możesz stracić środki. CFD mogą oferować mniejsze nominały kontraktów, ale koszty ukryte bywają wyższe. Dla polskich inwestorów FW20 na GPW jest zazwyczaj lepszym wyborem ze względu na regulację KNF i transparentność."
+    },
+    {
+      "question": "Co się stanie, jeśli nie zamknę pozycji przed wygaśnięciem kontraktu?",
+      "answer": "Jeśli utrzymasz otwartą pozycję do dnia wygaśnięcia kontraktu, zostanie ona automatycznie rozliczona pieniężnie po ostatecznym kursie rozliczeniowym. Dla FW20 kurs ten jest obliczany na podstawie średniej wartości indeksu WIG20 z ostatniej godziny notowań ciągłych w dniu wygaśnięcia oraz wartości na zamknięciu. Różnica między ceną otwarcia pozycji a kursem rozliczeniowym zostanie rozliczona na Twoim rachunku — jako zysk lub strata. Pozycja nie jest automatycznie przenoszona na kolejną serię — jeśli chcesz utrzymać ekspozycję, musisz samodzielnie dokonać rolowania przed wygaśnięciem."
+    },
+    {
+      "question": "Czy handel kontraktami terminowymi na GPW jest opodatkowany?",
+      "answer": "Tak, zyski z kontraktów terminowych na GPW podlegają opodatkowaniu podatkiem dochodowym od zysków kapitałowych (tzw. podatek Belki) w wysokości 19%. Podstawą opodatkowania jest suma zysków i strat z transakcji na kontraktach terminowych w danym roku podatkowym. Zyski i straty z kontraktów terminowych można łączyć z zyskami i stratami z transakcji na akcjach i innych instrumentach finansowych w ramach jednego zeznania PIT-38. Dom maklerski przesyła inwestorowi roczną informację PIT-8C, na podstawie której należy złożyć zeznanie podatkowe do 30 kwietnia następnego roku."
+    }
+  ]
+}
