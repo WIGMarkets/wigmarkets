@@ -151,7 +151,7 @@ export default function DesktopNavMenu({ theme, darkMode, setDarkMode, tab, setT
               {sectionTitle("Akcje")}
               {dropdownLink("building", "Akcje GPW", () => handleNavClick({ tab: "akcje" }), false, tab === "akcje")}
               {dropdownLink("flame", "Popularne", () => handleNavClick({ tab: "popularne" }), false, tab === "popularne")}
-              {dropdownLink("list", "Indeksy GPW", () => handleNavClick({ tab: "indeksy" }), false, tab === "indeksy")}
+              {dropdownLink("list", "Indeksy", () => handleNavClick({ href: "/indeksy" }))}
             </div>
             <div>
               {sectionTitle("Inne rynki")}

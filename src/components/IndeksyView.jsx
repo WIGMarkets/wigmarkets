@@ -1,4 +1,6 @@
 import { useMemo } from "react";
+import { useNavigate } from "react-router-dom";
+import { INDICES_BY_NAME } from "../data/indices-meta.js";
 
 const fmtVal = v =>
   v != null
@@ -56,6 +58,7 @@ const INDEX_META = {
 };
 
 export default function IndeksyView({ indices, theme, isMobile }) {
+  const navigate = useNavigate();
   return (
     <div style={{ padding: isMobile ? "8px 0 24px" : "0 0 32px" }}>
       <style>{`
@@ -97,12 +100,14 @@ export default function IndeksyView({ indices, theme, isMobile }) {
             const ch24  = idx.change24h;
             const ch7d  = idx.change7d;
             const meta  = INDEX_META[idx.name] ?? {};
+            const idxMeta = INDICES_BY_NAME[idx.name];
             const c24   = ch24 == null ? theme.textSecondary : ch24 >= 0 ? "#22c55e" : "#ef4444";
             const c7d   = ch7d == null ? theme.textSecondary : ch7d >= 0 ? "#22c55e" : "#ef4444";
 
             return (
               <div
                 key={idx.name}
+                onClick={() => idxMeta && navigate(`/indeksy/${idxMeta.slug}`)}
                 style={{
                   background: theme.bgCard,
                   border: `1px solid ${theme.border}`,
@@ -113,7 +118,11 @@ export default function IndeksyView({ indices, theme, isMobile }) {
                   animationDelay: `${i * 70}ms`,
                   minWidth: 0,
                   overflow: "hidden",
+                  cursor: idxMeta ? "pointer" : "default",
+                  transition: "border-color 0.2s, transform 0.2s",
                 }}
+                onMouseEnter={e => { if (idxMeta) { e.currentTarget.style.borderColor = "#3b82f6"; e.currentTarget.style.transform = "translateY(-1px)"; } }}
+                onMouseLeave={e => { e.currentTarget.style.borderColor = theme.border; e.currentTarget.style.transform = "translateY(0)"; }}
               >
                 {/* Header */}
                 <div style={{

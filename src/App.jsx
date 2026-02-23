@@ -29,6 +29,8 @@ const LazyGlossaryTerm = lazy(() => import("./pages/GlossaryTerm.jsx"));
 const LazyRankingsPage = lazy(() => import("./pages/RankingsPage.jsx"));
 const LazyRankingDetailPage = lazy(() => import("./pages/RankingDetailPage.jsx"));
 const LazyHeatmapPage = lazy(() => import("./pages/HeatmapPage.jsx"));
+const LazyIndeksyPage = lazy(() => import("./pages/IndeksyPage.jsx"));
+const LazyIndexDetailPage = lazy(() => import("./pages/IndexDetailPage.jsx"));
 
 function PageFallback() {
   return (
@@ -215,6 +217,8 @@ export default function App() {
             } />
             <Route path="/dywidendy" element={<LazyDividendPage theme={theme} />} />
             <Route path="/fear-greed" element={<ErrorBoundary><LazyFearGreedPage theme={theme} /></ErrorBoundary>} />
+            <Route path="/indeksy" element={<LazyIndeksyPage theme={theme} indices={indices} worldIndices={worldIndices} />} />
+            <Route path="/indeksy/:slug" element={<LazyIndexDetailPage theme={theme} liveStocks={liveStocks} prices={prices} changes={changes} />} />
             <Route path="/indeks" element={<Navigate to="/fear-greed" replace />} />
             <Route path="/wiadomosci" element={<LazyNewsPage theme={theme} />} />
             <Route path="/portfolio" element={<LazyPortfolioPage theme={theme} prices={prices} allInstruments={allInstruments} />} />

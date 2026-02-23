@@ -16,6 +16,8 @@
     { "source": "/edukacja", "destination": "/index.html" },
     { "source": "/edukacja/(.*)", "destination": "/index.html" },
     { "source": "/rankingi", "destination": "/index.html" },
-    { "source": "/rankingi/(.*)", "destination": "/index.html" }
+    { "source": "/rankingi/(.*)", "destination": "/index.html" },
+    { "source": "/indeksy", "destination": "/index.html" },
+    { "source": "/indeksy/(.*)", "destination": "/index.html" }
   ]
 }
