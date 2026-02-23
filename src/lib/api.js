@@ -22,7 +22,7 @@ function cacheSet(key, data) {
 const TTL_STOCKS  = 2 * 60 * 1000;   // 2 min
 const TTL_FEAR    = 60 * 60 * 1000;   // 1 hour
 const TTL_NEWS    = 10 * 60 * 1000;   // 10 min
-const TTL_INDICES = 2 * 60 * 1000;    // 2 min
+const TTL_INDICES = 45 * 1000;         // 45s (under 60s refresh interval)
 const TTL_REDDIT  = 5 * 60 * 1000;    // 5 min
 
 /**

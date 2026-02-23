@@ -61,7 +61,14 @@ function parseYFResult(name, result) {
     }))
     .filter(p => p.close !== null && p.close !== undefined && !isNaN(p.close) && p.close > 0);
 
-  return { name, value: today, change24h, sparkline };
+  // 7-day change: compare to close ~5 trading days ago (≈7 calendar days)
+  const weekIdx = Math.max(0, closes.length - 6);
+  const weekAgo = closes[weekIdx];
+  const change7d = weekAgo != null
+    ? parseFloat((((today - weekAgo) / weekAgo) * 100).toFixed(2))
+    : null;
+
+  return { name, value: today, change24h, change7d, sparkline };
 }
 
 // ─── Stooq.pl (fallback source) ────────────────────────
@@ -124,7 +131,14 @@ function parseStooqCSV(csv) {
 
   const sparkline = rows.map(r => ({ date: r.date, close: r.close }));
 
-  return { value: latest.close, change24h, sparkline };
+  // 7-day change: compare to close ~5 trading days ago
+  const weekIdx = Math.max(0, rows.length - 6);
+  const weekAgo = rows[weekIdx];
+  const change7d = weekAgo
+    ? parseFloat((((latest.close - weekAgo.close) / weekAgo.close) * 100).toFixed(2))
+    : null;
+
+  return { value: latest.close, change24h, change7d, sparkline };
 }
 
 // ─── Fetch single index: Yahoo first, Stooq fallback ───
@@ -141,12 +155,13 @@ async function fetchIndex({ name, yahoo, stooq }) {
       name,
       value:     stooqData.value,
       change24h: stooqData.change24h,
+      change7d:  stooqData.change7d,
       sparkline: stooqData.sparkline,
     };
   }
 
   // Both sources failed
-  return { name, value: null, change24h: null, sparkline: [] };
+  return { name, value: null, change24h: null, change7d: null, sparkline: [] };
 }
 
 // ─── Handler ────────────────────────────────────────────
