@@ -1,4 +1,10 @@
+import { readFileSync, existsSync } from "fs";
+import { join, dirname } from "path";
+import { fileURLToPath } from "url";
 import { toYahoo, YF_HEADERS } from "./_yahoo-map.js";
+
+// Index symbols that have cached history in data/indices-cache.json
+const INDEX_STOOQ_SYMBOLS = new Set(["wig20", "wig", "mwig40", "swig80"]);
 
 export default async function handler(req, res) {
   const { symbol, interval: reqInterval } = req.query;
@@ -68,7 +74,40 @@ export default async function handler(req, res) {
     // Yahoo also failed
   }
 
+  // ── Strategy 3: Static cache fallback (for GPW indices) ─
+  if (interval === "1d" && INDEX_STOOQ_SYMBOLS.has(symbol.toLowerCase())) {
+    const cached = readCachedHistory(symbol.toLowerCase());
+    if (cached && cached.length >= 2) {
+      return res.status(200).json({ prices: cached });
+    }
+  }
+
   res.status(404).json({ error: "No data" });
+}
+
+// ─── Read cached history from data/indices-cache.json ────
+
+function readCachedHistory(stooqSymbol) {
+  const paths = [
+    join(process.cwd(), "data", "indices-cache.json"),
+  ];
+  try {
+    const dir = typeof __dirname !== "undefined"
+      ? __dirname
+      : dirname(fileURLToPath(import.meta.url));
+    paths.push(join(dir, "..", "data", "indices-cache.json"));
+  } catch {}
+
+  for (const p of paths) {
+    try {
+      if (existsSync(p)) {
+        const data = JSON.parse(readFileSync(p, "utf-8"));
+        const history = data?.history?.[stooqSymbol];
+        if (Array.isArray(history) && history.length >= 2) return history;
+      }
+    } catch {}
+  }
+  return null;
 }
 
 // ─── Stooq historical OHLCV ───────────────────────────────
