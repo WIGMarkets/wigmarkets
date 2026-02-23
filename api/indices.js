@@ -1,6 +1,6 @@
 import { YF_HEADERS } from "./_yahoo-map.js";
 
-// Indeksy GPW: Yahoo Finance (primary) + Stooq.pl (fallback)
+// Indeksy GPW: Stooq.pl (primary) + Yahoo Finance (fallback)
 const INDEX_SYMBOLS = [
   { name: "WIG20",  yahoo: "^WIG20",  stooq: "wig20"  },
   { name: "WIG",    yahoo: "^WIG",    stooq: "wig"    },
@@ -73,7 +73,7 @@ function parseYFResult(name, result) {
 
 // ─── Stooq.pl (fallback source) ────────────────────────
 // Stooq CSV API: returns daily OHLCV data for Polish indices
-async function fetchFromStooq(stooqSymbol, retries = 1) {
+async function fetchFromStooq(stooqSymbol, retries = 2) {
   const end = new Date();
   const start = new Date(end);
   start.setDate(start.getDate() - 35);
@@ -141,14 +141,9 @@ function parseStooqCSV(csv) {
   return { value: latest.close, change24h, change7d, sparkline };
 }
 
-// ─── Fetch single index: Yahoo first, Stooq fallback ───
+// ─── Fetch single index: Stooq first, Yahoo fallback ───
 async function fetchIndex({ name, yahoo, stooq }) {
-  // Try Yahoo Finance first
-  const yfResult = await fetchYFChart(yahoo);
-  const parsed = parseYFResult(name, yfResult);
-  if (parsed) return parsed;
-
-  // Fallback to Stooq.pl
+  // Try Stooq.pl first (reliable for GPW indices)
   const stooqData = await fetchFromStooq(stooq);
   if (stooqData) {
     return {
@@ -160,6 +155,11 @@ async function fetchIndex({ name, yahoo, stooq }) {
     };
   }
 
+  // Fallback to Yahoo Finance
+  const yfResult = await fetchYFChart(yahoo);
+  const parsed = parseYFResult(name, yfResult);
+  if (parsed) return parsed;
+
   // Both sources failed
   return { name, value: null, change24h: null, change7d: null, sparkline: [] };
 }
@@ -167,13 +167,8 @@ async function fetchIndex({ name, yahoo, stooq }) {
 // ─── Handler ────────────────────────────────────────────
 export default async function handler(req, res) {
   try {
-    const results = [];
-    for (const sym of INDEX_SYMBOLS) {
-      results.push(await fetchIndex(sym));
-      if (sym !== INDEX_SYMBOLS[INDEX_SYMBOLS.length - 1]) {
-        await new Promise(r => setTimeout(r, 80));
-      }
-    }
+    // Fetch all indices in parallel for faster response
+    const results = await Promise.all(INDEX_SYMBOLS.map(fetchIndex));
 
     res.setHeader("Cache-Control", "s-maxage=30, stale-while-revalidate=60");
     res.status(200).json(results);
