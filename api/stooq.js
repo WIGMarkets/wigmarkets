@@ -5,6 +5,8 @@ export default async function handler(req, res) {
   const { symbol } = req.query;
   if (!symbol) return res.status(400).json({ error: "symbol parameter required" });
 
+  res.setHeader("Cache-Control", "s-maxage=30, stale-while-revalidate=60");
+
   // ── Strategy 1: Yahoo Finance ──────────────────────────
   const yahooSymbol = toYahoo(symbol);
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?interval=1d&range=10d`;

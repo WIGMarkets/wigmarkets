@@ -4,6 +4,7 @@ export default async function handler(req, res) {
   const { symbol } = req.query;
   if (!symbol) return res.status(400).json({ error: "Symbol is required" });
 
+  res.setHeader("Cache-Control", "s-maxage=60, stale-while-revalidate=120");
   const yahooSymbol = toYahoo(symbol);
   // Use range=5d to ensure we get data even outside market hours / on weekends.
   // We filter down to the last trading day's bars below.

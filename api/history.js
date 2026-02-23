@@ -7,6 +7,10 @@ export default async function handler(req, res) {
   const interval = reqInterval === "1h" ? "1h" : "1d";
   const range = interval === "1h" ? "7d" : "1y";
 
+  // Edge cache: 5 min for daily, 1 min for hourly
+  const maxAge = interval === "1h" ? 60 : 300;
+  res.setHeader("Cache-Control", `s-maxage=${maxAge}, stale-while-revalidate=${maxAge * 2}`);
+
   // ── Strategy 1: Yahoo Finance ──────────────────────────
   const yahooSymbol = toYahoo(symbol);
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?interval=${interval}&range=${range}`;
