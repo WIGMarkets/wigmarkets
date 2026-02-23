@@ -33,7 +33,7 @@ export default function handler(req, res) {
       filtered = filtered.slice(0, parseInt(limit));
     }
 
-    res.setHeader('Cache-Control', 's-maxage=300');
+    res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate=120');
     res.json({
       articles: filtered,
       total: filtered.length,

@@ -1,26 +1,46 @@
-import { useState, useEffect, useMemo, useCallback } from "react";
+import { useState, useEffect, useMemo, useCallback, lazy, Suspense } from "react";
 import { Routes, Route, useNavigate, useLocation, Navigate } from "react-router-dom";
 import { DARK_THEME, LIGHT_THEME } from "./lib/themes.js";
 import { fetchBulk, fetchIndices, fetchDynamicList } from "./lib/api.js";
 import { STOCKS, COMMODITIES, FOREX } from "./data/stocks.js";
 import { loadAlerts, usePriceAlerts } from "./hooks/usePriceAlerts.js";
 import HomePage from "./pages/HomePage.jsx";
-import { StockPageRoute, EdukacjaSlugRoute } from "./pages/StockDetailPage.jsx";
-import DividendPage from "./components/DividendPage.jsx";
-import FearGreedPage from "./components/FearGreedPage.jsx";
-import NewsPage from "./components/NewsPage.jsx";
-import PortfolioPage from "./components/PortfolioPage.jsx";
-import EdukacjaHome from "./components/edukacja/EdukacjaHome.jsx";
-import GlossaryList from "./pages/GlossaryList.jsx";
-import GlossaryTerm from "./pages/GlossaryTerm.jsx";
-import RankingsPage from "./pages/RankingsPage.jsx";
-import RankingDetailPage from "./pages/RankingDetailPage.jsx";
-import HeatmapPage from "./pages/HeatmapPage.jsx";
 import ErrorBoundary from "./components/ErrorBoundary.jsx";
 import Navbar from "./components/layout/Navbar.jsx";
 import Footer from "./components/layout/Footer.jsx";
 import Breadcrumbs from "./components/layout/Breadcrumbs.jsx";
 import MarqueeTicker from "./components/MarqueeTicker.jsx";
+
+// ── Lazy-loaded pages (code splitting) ──────────────────────────────────────
+
+const LazyStockPageRoute = lazy(() =>
+  import("./pages/StockDetailPage.jsx").then(m => ({ default: m.StockPageRoute }))
+);
+const LazyEdukacjaSlugRoute = lazy(() =>
+  import("./pages/StockDetailPage.jsx").then(m => ({ default: m.EdukacjaSlugRoute }))
+);
+const LazyDividendPage = lazy(() => import("./components/DividendPage.jsx"));
+const LazyFearGreedPage = lazy(() => import("./components/FearGreedPage.jsx"));
+const LazyNewsPage = lazy(() => import("./components/NewsPage.jsx"));
+const LazyPortfolioPage = lazy(() => import("./components/PortfolioPage.jsx"));
+const LazyEdukacjaHome = lazy(() => import("./components/edukacja/EdukacjaHome.jsx"));
+const LazyGlossaryList = lazy(() => import("./pages/GlossaryList.jsx"));
+const LazyGlossaryTerm = lazy(() => import("./pages/GlossaryTerm.jsx"));
+const LazyRankingsPage = lazy(() => import("./pages/RankingsPage.jsx"));
+const LazyRankingDetailPage = lazy(() => import("./pages/RankingDetailPage.jsx"));
+const LazyHeatmapPage = lazy(() => import("./pages/HeatmapPage.jsx"));
+
+function PageFallback() {
+  return (
+    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", minHeight: 300, opacity: 0.5 }}>
+      <div style={{
+        width: 28, height: 28, border: "3px solid rgba(255,255,255,0.1)",
+        borderTopColor: "#3b82f6", borderRadius: "50%",
+        animation: "spin 0.7s linear infinite",
+      }} />
+    </div>
+  );
+}
 
 export default function App() {
   const navigate = useNavigate();
@@ -65,40 +85,43 @@ export default function App() {
     });
   };
 
-  // Load dynamic stock list from /api/gpw-screener on mount
-  useEffect(() => {
-    fetchDynamicList().then(data => {
-      if (!data) return;
-      setLiveStocks(data.stocks);
-      const newPrices = {};
-      const screenerQuotes = {};
-      for (const [ticker, q] of Object.entries(data.quotes || {})) {
-        if (q?.close) {
-          newPrices[ticker] = q.close;
-          screenerQuotes[ticker] = q;
+  // Load dynamic stock list from /api/gpw-screener on mount + auto-refresh every 2 min
+  const applyScreenerData = useCallback((data) => {
+    if (!data) return;
+    setLiveStocks(data.stocks);
+    const newPrices = {};
+    const screenerQuotes = {};
+    for (const [ticker, q] of Object.entries(data.quotes || {})) {
+      if (q?.close) {
+        newPrices[ticker] = q.close;
+        screenerQuotes[ticker] = q;
+      }
+    }
+    if (Object.keys(newPrices).length) {
+      setPrices(prev => ({ ...prev, ...newPrices }));
+      setChanges(prev => {
+        const merged = { ...prev };
+        for (const [ticker, q] of Object.entries(screenerQuotes)) {
+          merged[ticker] = {
+            ...(prev[ticker] || {}),
+            change24h: q.change24h ?? 0,
+            volume: q.volume ?? 0,
+            sparkline: q.sparkline ?? prev[ticker]?.sparkline ?? null,
+            change7d: q.change7d || prev[ticker]?.change7d || 0,
+          };
         }
-      }
-      if (Object.keys(newPrices).length) {
-        setPrices(prev => ({ ...prev, ...newPrices }));
-        // Screener v7/quote API doesn't have 7d change (always 0).
-        // Preserve any existing non-zero change7d from prior bulk fetches.
-        setChanges(prev => {
-          const merged = { ...prev };
-          for (const [ticker, q] of Object.entries(screenerQuotes)) {
-            merged[ticker] = {
-              ...(prev[ticker] || {}),
-              change24h: q.change24h ?? 0,
-              volume: q.volume ?? 0,
-              sparkline: q.sparkline ?? prev[ticker]?.sparkline ?? null,
-              // Keep existing change7d if screener returns 0
-              change7d: q.change7d || prev[ticker]?.change7d || 0,
-            };
-          }
-          return merged;
-        });
-      }
-    });
+        return merged;
+      });
+    }
   }, []);
+
+  useEffect(() => {
+    fetchDynamicList().then(applyScreenerData);
+    const interval = setInterval(() => {
+      fetchDynamicList().then(applyScreenerData);
+    }, 120_000); // 2 minutes
+    return () => clearInterval(interval);
+  }, [applyScreenerData]);
 
   // Refresh GPW indices — uses dedicated /api/indices endpoint
   // with retry logic and host failover (query1 → query2)
@@ -183,37 +206,39 @@ export default function App() {
       />
       <Breadcrumbs theme={theme} allInstruments={allInstruments} />
       <div style={{ flex: 1 }}>
-        <Routes>
-          <Route path="/spolka/:ticker" element={
-            <StockPageRoute prices={prices} changes={changes} theme={theme}
-              watchlist={watchlist} toggleWatch={toggleWatch}
-              liveStocks={liveStocks} allInstruments={allInstruments} />
-          } />
-          <Route path="/dywidendy" element={<DividendPage theme={theme} />} />
-          <Route path="/fear-greed" element={<ErrorBoundary><FearGreedPage theme={theme} /></ErrorBoundary>} />
-          <Route path="/indeks" element={<Navigate to="/fear-greed" replace />} />
-          <Route path="/wiadomosci" element={<NewsPage theme={theme} />} />
-          <Route path="/portfolio" element={<PortfolioPage theme={theme} prices={prices} allInstruments={allInstruments} />} />
-          <Route path="/rankingi" element={<RankingsPage theme={theme} liveStocks={liveStocks} prices={prices} changes={changes} />} />
-          <Route path="/rankingi/:slug" element={<RankingDetailPage theme={theme} liveStocks={liveStocks} prices={prices} changes={changes} />} />
-          <Route path="/heatmapa" element={<HeatmapPage theme={theme} liveStocks={liveStocks} prices={prices} changes={changes} setPrices={setPrices} setChanges={setChanges} />} />
-          <Route path="/edukacja" element={<EdukacjaHome theme={theme} />} />
-          <Route path="/edukacja/slowniczek" element={<GlossaryList theme={theme} />} />
-          <Route path="/edukacja/slowniczek/:slug" element={<GlossaryTerm theme={theme} />} />
-          <Route path="/edukacja/:slug" element={<EdukacjaSlugRoute theme={theme} />} />
-          <Route path="/" element={
-            <HomePage
-              theme={theme} darkMode={darkMode} setDarkMode={setDarkMode} bgGradient={bgGradient}
-              prices={prices} setPrices={setPrices} changes={changes} setChanges={setChanges}
-              watchlist={watchlist} toggleWatch={toggleWatch}
-              liveStocks={liveStocks} allInstruments={allInstruments}
-              indices={indices} worldIndices={worldIndices}
-              alerts={alerts} setAlerts={setAlerts}
-              tab={tab} setTab={setTab} viewMode={viewMode} setViewMode={setViewMode}
-            />
-          } />
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
+        <Suspense fallback={<PageFallback />}>
+          <Routes>
+            <Route path="/spolka/:ticker" element={
+              <LazyStockPageRoute prices={prices} changes={changes} theme={theme}
+                watchlist={watchlist} toggleWatch={toggleWatch}
+                liveStocks={liveStocks} allInstruments={allInstruments} />
+            } />
+            <Route path="/dywidendy" element={<LazyDividendPage theme={theme} />} />
+            <Route path="/fear-greed" element={<ErrorBoundary><LazyFearGreedPage theme={theme} /></ErrorBoundary>} />
+            <Route path="/indeks" element={<Navigate to="/fear-greed" replace />} />
+            <Route path="/wiadomosci" element={<LazyNewsPage theme={theme} />} />
+            <Route path="/portfolio" element={<LazyPortfolioPage theme={theme} prices={prices} allInstruments={allInstruments} />} />
+            <Route path="/rankingi" element={<LazyRankingsPage theme={theme} liveStocks={liveStocks} prices={prices} changes={changes} />} />
+            <Route path="/rankingi/:slug" element={<LazyRankingDetailPage theme={theme} liveStocks={liveStocks} prices={prices} changes={changes} />} />
+            <Route path="/heatmapa" element={<LazyHeatmapPage theme={theme} liveStocks={liveStocks} prices={prices} changes={changes} setPrices={setPrices} setChanges={setChanges} />} />
+            <Route path="/edukacja" element={<LazyEdukacjaHome theme={theme} />} />
+            <Route path="/edukacja/slowniczek" element={<LazyGlossaryList theme={theme} />} />
+            <Route path="/edukacja/slowniczek/:slug" element={<LazyGlossaryTerm theme={theme} />} />
+            <Route path="/edukacja/:slug" element={<LazyEdukacjaSlugRoute theme={theme} />} />
+            <Route path="/" element={
+              <HomePage
+                theme={theme} darkMode={darkMode} setDarkMode={setDarkMode} bgGradient={bgGradient}
+                prices={prices} setPrices={setPrices} changes={changes} setChanges={setChanges}
+                watchlist={watchlist} toggleWatch={toggleWatch}
+                liveStocks={liveStocks} allInstruments={allInstruments}
+                indices={indices} worldIndices={worldIndices}
+                alerts={alerts} setAlerts={setAlerts}
+                tab={tab} setTab={setTab} viewMode={viewMode} setViewMode={setViewMode}
+              />
+            } />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </Suspense>
       </div>
       <Footer theme={theme} />
     </div>

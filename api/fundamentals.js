@@ -90,6 +90,7 @@ export default async function handler(req, res) {
     // Divide financials by 1e6 so frontend fmtBig() displays values in millions
     const toMln = v => (v !== null && v !== undefined) ? v / 1e6 : null;
 
+    res.setHeader("Cache-Control", "s-maxage=3600, stale-while-revalidate=600");
     res.status(200).json({
       symbol: symbol.toLowerCase(),
       years,
