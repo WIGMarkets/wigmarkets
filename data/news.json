@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Raz w górę, raz w dół. Tym razem S&P500 skończył na zielono",
+      "link": "https://www.bankier.pl/wiadomosc/Raz-w-gore-raz-w-dol-Tym-razem-S-P500-skonczyl-na-zielono-9088619.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "ym razem S&P500 i spółka zakończyli dzień na umiarkowanych plusach. Ton zwyżkom nadawali producenci chipów oraz odbijające po niedawnej przecenie akcje spółek informatycznych.",
+      "pubDate": "Tue, 24 Feb 2026 22:49:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/3/c/51dd39e408ba28-948-568-25-56-2022-1213.jpg",
+      "dateISO": "2026-02-24T21:49:00.000Z",
+      "dateFormatted": "24 lutego 2026"
+    },
+    {
       "title": "Wiceminister energii ujawnia szczegóły zmian w górnictwie. Rusza system osłon",
       "link": "https://businessinsider.com.pl/firmy/tak-wyglada-rzadowe-wsparcie-dla-gornictwa-82-tys-osob-objetych-oslona/mlng2cl",
       "description": "Ponad 8,2 tys. osób ma zostać objętych instrumentami osłonowymi wynikającymi z nowelizacji ustawy górniczej w 2026 r. — poinformował we wtorek w Sejmie wiceminister energii Konrad Wojnarowski. Nowe przepisy, obowiązujące od 1 stycznia br., wprowadzają system wsparcia dla pracowników odchodzących z p",
@@ -793,18 +805,6 @@
       "dateFormatted": "23 lutego 2026"
     },
     {
-      "title": "Metale wracają po cichu. Złoto powyżej 5 000 USD. Srebro też odrabia straty",
-      "link": "https://www.bankier.pl/wiadomosc/Metale-wracaja-po-cichu-Zloto-powyzej-5-000-USD-Srebro-tez-odrabia-straty-9087664.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "W poniedziałek srebro drożało o ponad 5%, a notowania złota trzeci dzień z rzędu utrzymują się powyżej 5 000 USD/oz. W tle pozostaje niepewność względem polityki celnej USA oraz napięcie na Bliskim Wschodzie.",
-      "pubDate": "Mon, 23 Feb 2026 12:25:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/2/7/88f4be8d85b4bb-948-568-7-67-972-583.jpg",
-      "dateISO": "2026-02-23T11:25:00.000Z",
-      "dateFormatted": "23 lutego 2026"
-    },
-    {
       "title": "Znana marka znika z rynku. Od poniedziałku zmiany dla klientów. Numer zostanie przeniesiony",
       "link": "https://www.bankier.pl/wiadomosc/Heyah-przechodzi-do-historii-Nowy-operator-i-bonusowe-gigabajty-Oto-co-czeka-klientow-9087509.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Od poniedziałku z rynku znika oferta subskrypcyjna Heyah 01, a numery klientów zostaną przeniesione do Red Bull Mobile. Obie marki należą do T-Mobile Polska, a operator ten po przeniesieniu nadal będzie dostarczał usługi użytkownikom.",
@@ -913,5 +913,5 @@
       "dateFormatted": "18 lutego 2026"
     }
   ],
-  "updatedAt": "2026-02-24T21:53:36.648Z"
+  "updatedAt": "2026-02-24T23:04:47.869Z"
 }
