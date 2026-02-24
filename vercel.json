@@ -2,6 +2,9 @@
   "functions": {
     "api/fear-greed.js": {
       "includeFiles": "data/fear-greed-history.json"
+    },
+    "api/indices.js": {
+      "includeFiles": "data/indices-cache.json"
     }
   },
   "rewrites": [
