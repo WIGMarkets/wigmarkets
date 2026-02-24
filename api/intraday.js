@@ -1,4 +1,12 @@
+import { createRequire } from "module";
 import { toYahoo, YF_HEADERS } from "./_yahoo-map.js";
+
+// Bundled daily cache for GPW indices fallback
+const require2 = createRequire(import.meta.url);
+let CACHE = { indices: [], history: {} };
+try { CACHE = require2("../data/indices-cache.json"); } catch {}
+
+const INDEX_STOOQ_SYMBOLS = new Set(["wig20", "wig", "mwig40", "swig80"]);
 
 export default async function handler(req, res) {
   const { symbol } = req.query;
@@ -69,7 +77,69 @@ export default async function handler(req, res) {
     // Yahoo also failed
   }
 
+  // ── Strategy 3: Daily data fallback (GPW indices) ─────────
+  // Stooq/Yahoo don't serve 5-min bars for GPW indices (^WIG, ^WIG20 etc.)
+  // Fall back to recent daily bars so the chart shows *something* useful.
+  if (INDEX_STOOQ_SYMBOLS.has(symbol.toLowerCase())) {
+    try {
+      const dailyPrices = await fetchStooqDaily(symbol);
+      if (dailyPrices && dailyPrices.length >= 2) {
+        return res.status(200).json({ prices: dailyPrices });
+      }
+    } catch {}
+
+    // Bundled cache as last resort
+    const cached = CACHE.history?.[symbol.toLowerCase()];
+    if (Array.isArray(cached) && cached.length >= 2) {
+      return res.status(200).json({ prices: cached.slice(-5) });
+    }
+  }
+
   res.status(404).json({ error: "No data" });
+}
+
+// ─── Stooq daily bars (fallback for indices) ────────────────
+
+async function fetchStooqDaily(stooqSymbol) {
+  const end = new Date();
+  const start = new Date(end);
+  start.setDate(start.getDate() - 10);
+  const d1 = fmtDate(start);
+  const d2 = fmtDate(end);
+  const url = `https://stooq.pl/q/d/l/?s=${stooqSymbol.toLowerCase()}&d1=${d1}&d2=${d2}&i=d`;
+
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 8000);
+  const res = await fetch(url, {
+    signal: controller.signal,
+    headers: {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      Accept: "text/csv, text/plain, */*",
+    },
+  });
+  clearTimeout(timeout);
+  if (!res.ok) return null;
+
+  const csv = await res.text();
+  const lines = csv.trim().split("\n");
+  if (lines.length < 3) return null;
+
+  const prices = [];
+  for (let i = 1; i < lines.length; i++) {
+    const cols = lines[i].split(",");
+    if (cols.length < 5) continue;
+    const close = parseFloat(cols[4]);
+    if (isNaN(close) || close <= 0) continue;
+    prices.push({
+      date: cols[0].trim(),
+      open: parseFloat(cols[1]) || close,
+      high: parseFloat(cols[2]) || close,
+      low: parseFloat(cols[3]) || close,
+      close,
+      volume: parseInt(cols[5]) || 0,
+    });
+  }
+  return prices.length >= 2 ? prices : null;
 }
 
 // ─── Stooq 5-min intraday CSV ──────────────────────────────
