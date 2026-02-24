@@ -1,8 +1,8 @@
 import { toYahoo, YF_HEADERS } from "./_yahoo-map.js";
 import { fetchStooqBatch } from "./_stooq-fallback.js";
 
-const BATCH_SIZE = 15;
-const BATCH_DELAY_MS = 100;
+const BATCH_SIZE = 40;
+const BATCH_DELAY_MS = 80;
 
 async function fetchYahooSymbol(yahooSymbol, retries = 2) {
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?interval=1d&range=10d`;

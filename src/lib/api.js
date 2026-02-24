@@ -64,13 +64,17 @@ export async function fetchStooq(symbol) {
 }
 
 export async function fetchBulk(symbols) {
-  const key = `bulk_${symbols.sort().join(",")}`;
-  return dedup(key, async () => {
-    try {
-      const res = await fetch(`/api/gpw-bulk?symbols=${symbols.join(",")}`);
-      return await res.json();
-    } catch { return {}; }
-  });
+  const sorted = [...symbols].sort();
+  const dedupKey = `bulk_${sorted.join(",")}`;
+  return dedup(dedupKey, () =>
+    cachedFetch("bulk_latest", TTL_STOCKS, async () => {
+      try {
+        const res = await fetch(`/api/gpw-bulk?symbols=${sorted.join(",")}`);
+        const data = await res.json();
+        return data && Object.keys(data).length > 0 ? data : null;
+      } catch { return null; }
+    }).then(d => d || {})
+  );
 }
 
 export async function fetchHistory(symbol) {

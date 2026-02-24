@@ -90,6 +90,11 @@ export default function MarketOverviewCards({
   const top3G = topGainers.slice(0, 3);
   const top3L = topLosers.slice(0, 3);
 
+  // Detect if changes data has actually loaded — when changes is empty,
+  // topGainers/Losers all show change24h=0 and no prices (the "0.00% / — zł" bug).
+  const changesLoaded = Object.keys(changes).length > 0
+    && top3G.some(s => changes[s.ticker]?.change24h !== 0 || prices[s.ticker] != null);
+
   const gridStyle = {
     display: "grid",
     gridTemplateColumns: isMobile ? "1fr 1fr" : "2fr 1fr 1fr",
@@ -302,7 +307,7 @@ export default function MarketOverviewCards({
         </div>
 
         {/* Top Wzrost — top 3 */}
-        <div style={card(ACCENT_UP, 80)} onClick={top3G[0] ? () => navigateToStock(top3G[0]) : undefined} {...hover(ACCENT_UP)}>
+        <div style={card(ACCENT_UP, 80)} onClick={changesLoaded && top3G[0] ? () => navigateToStock(top3G[0]) : undefined} {...hover(ACCENT_UP)}>
           <div style={{
             position: "absolute", top: 0, left: 0, right: 0, height: 3,
             background: `linear-gradient(90deg, ${ACCENT_UP}00, ${ACCENT_UP}40, ${ACCENT_UP}00)`,
@@ -311,15 +316,27 @@ export default function MarketOverviewCards({
           <div style={labelStyle}>
             <Icon name="trending-up" size={13} /> Top wzrost
           </div>
-          {top3G.length > 0 ? (
+          {changesLoaded && top3G.length > 0 ? (
             top3G.map((s, i) => <MoverRow key={s.ticker} s={s} i={i} isGainer={true} />)
           ) : (
-            <div style={{ fontSize: 12, color: theme.textSecondary, marginTop: 8 }}>Ładowanie…</div>
+            [0, 1, 2].map(i => (
+              <div key={i} style={{ display: "flex", alignItems: "center", gap: 10, padding: "8px 0", borderBottom: i < 2 ? `1px solid ${theme.border}` : "none" }}>
+                <div style={{ width: 26, height: 26, borderRadius: 6, background: theme.bgCardAlt, animation: "pulse 1.8s ease-in-out infinite" }} />
+                <div style={{ flex: 1 }}>
+                  <div style={{ width: 48, height: 12, borderRadius: 4, background: theme.bgCardAlt, marginBottom: 4, animation: "pulse 1.8s ease-in-out infinite" }} />
+                  <div style={{ width: 80, height: 10, borderRadius: 4, background: theme.bgCardAlt, animation: "pulse 1.8s ease-in-out infinite", animationDelay: "0.2s" }} />
+                </div>
+                <div style={{ textAlign: "right" }}>
+                  <div style={{ width: 52, height: 12, borderRadius: 4, background: theme.bgCardAlt, marginBottom: 4, marginLeft: "auto", animation: "pulse 1.8s ease-in-out infinite" }} />
+                  <div style={{ width: 60, height: 10, borderRadius: 4, background: theme.bgCardAlt, marginLeft: "auto", animation: "pulse 1.8s ease-in-out infinite", animationDelay: "0.2s" }} />
+                </div>
+              </div>
+            ))
           )}
         </div>
 
         {/* Top Spadek — top 3 */}
-        <div style={card(ACCENT_DOWN, 140)} onClick={top3L[0] ? () => navigateToStock(top3L[0]) : undefined} {...hover(ACCENT_DOWN)}>
+        <div style={card(ACCENT_DOWN, 140)} onClick={changesLoaded && top3L[0] ? () => navigateToStock(top3L[0]) : undefined} {...hover(ACCENT_DOWN)}>
           <div style={{
             position: "absolute", top: 0, left: 0, right: 0, height: 3,
             background: `linear-gradient(90deg, ${ACCENT_DOWN}00, ${ACCENT_DOWN}40, ${ACCENT_DOWN}00)`,
@@ -328,10 +345,22 @@ export default function MarketOverviewCards({
           <div style={labelStyle}>
             <Icon name="trending-down" size={13} /> Top spadek
           </div>
-          {top3L.length > 0 ? (
+          {changesLoaded && top3L.length > 0 ? (
             top3L.map((s, i) => <MoverRow key={s.ticker} s={s} i={i} isGainer={false} />)
           ) : (
-            <div style={{ fontSize: 12, color: theme.textSecondary, marginTop: 8 }}>Ładowanie…</div>
+            [0, 1, 2].map(i => (
+              <div key={i} style={{ display: "flex", alignItems: "center", gap: 10, padding: "8px 0", borderBottom: i < 2 ? `1px solid ${theme.border}` : "none" }}>
+                <div style={{ width: 26, height: 26, borderRadius: 6, background: theme.bgCardAlt, animation: "pulse 1.8s ease-in-out infinite" }} />
+                <div style={{ flex: 1 }}>
+                  <div style={{ width: 48, height: 12, borderRadius: 4, background: theme.bgCardAlt, marginBottom: 4, animation: "pulse 1.8s ease-in-out infinite" }} />
+                  <div style={{ width: 80, height: 10, borderRadius: 4, background: theme.bgCardAlt, animation: "pulse 1.8s ease-in-out infinite", animationDelay: "0.2s" }} />
+                </div>
+                <div style={{ textAlign: "right" }}>
+                  <div style={{ width: 52, height: 12, borderRadius: 4, background: theme.bgCardAlt, marginBottom: 4, marginLeft: "auto", animation: "pulse 1.8s ease-in-out infinite" }} />
+                  <div style={{ width: 60, height: 10, borderRadius: 4, background: theme.bgCardAlt, marginLeft: "auto", animation: "pulse 1.8s ease-in-out infinite", animationDelay: "0.2s" }} />
+                </div>
+              </div>
+            ))
           )}
         </div>
 
