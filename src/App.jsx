@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo, useCallback, lazy, Suspense } from "react";
 import { Routes, Route, useNavigate, useLocation, Navigate } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import { DARK_THEME, LIGHT_THEME } from "./lib/themes.js";
 import { fetchBulk, fetchIndices, fetchDynamicList } from "./lib/api.js";
 import { STOCKS, COMMODITIES, FOREX } from "./data/stocks.js";
@@ -286,6 +287,7 @@ export default function App() {
         </Suspense>
       </div>
       <Footer theme={theme} />
+      <Analytics />
     </div>
   );
 }
