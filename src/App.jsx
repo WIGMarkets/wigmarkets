@@ -49,8 +49,42 @@ export default function App() {
   const location = useLocation();
 
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem("theme") !== "light");
-  const [prices, setPrices] = useState({});
-  const [changes, setChanges] = useState({});
+
+  // Hydrate prices & changes from screener localStorage cache so the first
+  // render already shows data (eliminates "0.00%" flash in top gainers/losers).
+  const [prices, setPrices] = useState(() => {
+    try {
+      const raw = localStorage.getItem("wm_cache_screener");
+      if (!raw) return {};
+      const { data } = JSON.parse(raw);
+      if (!data?.quotes) return {};
+      const p = {};
+      for (const [ticker, q] of Object.entries(data.quotes)) {
+        if (q?.close) p[ticker] = q.close;
+      }
+      return p;
+    } catch { return {}; }
+  });
+  const [changes, setChanges] = useState(() => {
+    try {
+      const raw = localStorage.getItem("wm_cache_screener");
+      if (!raw) return {};
+      const { data } = JSON.parse(raw);
+      if (!data?.quotes) return {};
+      const c = {};
+      for (const [ticker, q] of Object.entries(data.quotes)) {
+        if (q?.close) {
+          c[ticker] = {
+            change24h: q.change24h ?? 0,
+            volume: q.volume ?? 0,
+            sparkline: q.sparkline ?? null,
+            change7d: q.change7d ?? 0,
+          };
+        }
+      }
+      return c;
+    } catch { return {}; }
+  });
   const [indices, setIndices] = useState(() => {
     try {
       const raw = localStorage.getItem("wm_cache_indices");
