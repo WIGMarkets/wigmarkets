@@ -5,6 +5,9 @@
     },
     "api/indices.js": {
       "includeFiles": "data/indices-cache.json"
+    },
+    "api/history.js": {
+      "includeFiles": "data/indices-cache.json"
     }
   },
   "rewrites": [
