@@ -80,10 +80,13 @@ export default async function handler(req, res) {
   }
 
   // ── Strategy 3: Bundled cache (GPW indices only) ───────
-  if (interval === "1d" && INDEX_STOOQ_SYMBOLS.has(symbol.toLowerCase())) {
+  // Covers both daily (1d) and hourly (1h) — Stooq/Yahoo don't serve
+  // hourly bars for GPW indices, so we fall back to recent daily bars.
+  if (INDEX_STOOQ_SYMBOLS.has(symbol.toLowerCase())) {
     const cached = CACHE.history?.[symbol.toLowerCase()];
     if (Array.isArray(cached) && cached.length >= 2) {
-      return res.status(200).json({ prices: cached });
+      const sliceCount = interval === "1h" ? 10 : cached.length;
+      return res.status(200).json({ prices: cached.slice(-sliceCount) });
     }
   }
 
