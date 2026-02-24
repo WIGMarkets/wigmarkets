@@ -192,6 +192,22 @@ function readCachedIndices() {
   return null;
 }
 
+// ─── Merge partial live results with cached data ────────
+function mergeWithCache(results) {
+  const allHaveData = results.every(r => r.value != null);
+  if (allHaveData) return results;
+
+  const cached = readCachedIndices();
+  if (!cached) return results;
+
+  const cacheMap = {};
+  for (const c of cached) cacheMap[c.name] = c;
+
+  return results.map(r =>
+    r.value != null ? r : (cacheMap[r.name] ?? r)
+  );
+}
+
 // ─── Handler ────────────────────────────────────────────
 export default async function handler(req, res) {
   try {
@@ -202,11 +218,13 @@ export default async function handler(req, res) {
     const hasLiveData = results.some(r => r.value != null);
 
     if (hasLiveData) {
+      // Fill in any missing indices from cache (partial failure)
+      const merged = mergeWithCache(results);
       res.setHeader("Cache-Control", "s-maxage=30, stale-while-revalidate=60");
-      return res.status(200).json(results);
+      return res.status(200).json(merged);
     }
 
-    // Live sources both failed — use static cache from cron job
+    // All live sources failed — use static cache from cron job
     const cached = readCachedIndices();
     if (cached) {
       // Shorter cache since this is stale data
