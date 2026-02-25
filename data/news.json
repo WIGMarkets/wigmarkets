@@ -1,6 +1,102 @@
 {
   "articles": [
     {
+      "title": "XRP 10% w górę, podczas hossy",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/xrp-10-w-gore-podczas-hossy-1297326",
+      "description": "",
+      "pubDate": "2026-02-25 21:38:06",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/LYNXMPED9A0RJ-ORUBS_M.jpg",
+      "dateISO": "2026-02-25T21:38:06.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "\"Szef Netfliksa jedzie do Białego Domu\". Chodzi o przejęcie właściciela TVN",
+      "link": "https://businessinsider.com.pl/media/szef-netfliksa-u-donalda-trumpa-walczy-o-przejecie-wlasciciela-tvn/1bjdvgn",
+      "description": "Szef Netfliksa, Ted Sarandos, odwiedzi w czwartek Biały Dom, aby omówić starania swojej firmy o przejęcie części Warner Bros. Discovery — pisze Politico.",
+      "pubDate": "Wed, 25 Feb 2026 21:35:36 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/YNdk9kpTURBXy8zNTY4MWE3ZWYxNzNiZTY4NzE0ODkzYWYyNDY3ZGQ3Zi5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T21:35:36.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Niemcy luzują politykę klimatyczną. Wcześniej doprowadziła do upadku rządu",
+      "link": "https://businessinsider.com.pl/gospodarka/niemcy-luzuja-polityke-klimatyczna-wczesniej-doprowadzila-do-upadku-rzadu/634bwxx",
+      "description": "Rządowa koalicja w Niemczech uzgodniła reformę ustawy o energii budynków, rezygnując z obowiązku, by nowe systemy grzewcze opierały się w co najmniej 65 proc. na energii odnawialnej. Nowe przepisy zastąpią regulacje przeforsowane w 2023 r. przez Zielonych, które wywołały falę krytyki i stały się jed",
+      "pubDate": "Wed, 25 Feb 2026 20:48:01 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/_mok9kpTURBXy80YWZhYWNjOGI2ZDI5MjM1ODJhOGIzZjAxODRkZTZkNy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T20:48:01.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Spółka tonie w długach. Orlen chce gigantycznej emisji akcji",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/orlen-chce-emisji-akcji-energi-gigantyczna-kwota/qc55hk9",
+      "description": "Orlen chce, by Energa przeprowadziła emisję akcji o wartości ponad 5 mld zł. Energa jest jedną z najbardziej zadłużonych firm w sektorze, a jej dokapitalizowanie poprawi wskaźniki finansowe i może otworzyć drogę do rozmów z bankami.",
+      "pubDate": "Wed, 25 Feb 2026 19:54:17 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/MD4k9kpTURBXy9mY2JiZDk0OTdiMmJjMmE4ODM5YmY0NWUxZjY2NTBkMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T19:54:17.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Demokraci wycofują się z poparcia jednej z ustaw o sankcjach na Rosję",
+      "link": "https://www.bankier.pl/wiadomosc/Demokraci-wycofuja-sie-z-poparcia-jednej-z-ustaw-o-sankcjach-na-Rosje-9089196.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wiceszefowa komisji spraw zagranicznych w Senacie Jeanne Shaheen zasygnalizowała w środę wycofanie wsparcia dla projektu o sankcjach przeciwko Rosji, zakładającego nałożenie ceł na państwa kupujące rosyjską ropę naftową. Demokraci preferują sankcje przeciwko rosyjskiej flocie cieni.",
+      "pubDate": "Wed, 25 Feb 2026 20:25:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/1/52975c738270b8-948-568-153-38-3536-2121.jpg",
+      "dateISO": "2026-02-25T19:25:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Sejmowa komisja doprecyzowała przepisy o \"darowiznach\" i planowaniu budżetu",
+      "link": "https://www.bankier.pl/wiadomosc/Sejmowa-komisja-doprecyzowala-przepisy-o-darowiznach-i-planowaniu-budzetu-9089194.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W środę sejmowa Komisja Finansów Publicznych pozytywnie zaopiniowała 7 poprawek do projektu noweli ustawy o finansach publicznych. Wniosła je posłanka KO Zofia Czernow, argumentując, że mają one pomóc w interpretacji ustawy.",
+      "pubDate": "Wed, 25 Feb 2026 20:19:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/7/5b33099b90b914-948-568-3-39-1191-714.jpg",
+      "dateISO": "2026-02-25T19:19:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Miliardy z eksportu i plany na GPW. Adam Leszkiewicz o przyszłości PGZ",
+      "link": "https://www.bankier.pl/wiadomosc/Miliardy-z-eksportu-i-plany-na-GPW-Adam-Leszkiewicz-o-przyszlosci-PGZ-9089188.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezes Polskiej Grupy Zbrojeniowej Adam Leszkiewicz poinformował, że widzi szanse, które mogłyby prowadzić do wejścia spółki na warszawską giełdę, ale zaznacza, że jest to decyzja właścicieli.",
+      "pubDate": "Wed, 25 Feb 2026 19:56:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/9/b1ba480ed2b81e-948-568-0-119-3000-1799.jpg",
+      "dateISO": "2026-02-25T18:56:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Czarzasty objęty ochroną kontrwywiadowczą. Dyskusja komisji o dostępie do informacji niejawnych",
+      "link": "https://www.bankier.pl/wiadomosc/Czarzasty-objety-ochrona-kontrwywiadowcza-Dyskusja-komisji-o-dostepie-do-informacji-niejawnych-9089186.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Marszałek Sejmu Włodzimierz Czarzasty ma pełną ochronę kontrwywiadowczą – powiedział PAP po posiedzeniu sejmowej Komisji ds. Służb Specjalnych Marek Biernacki (PSL-TD). Krzysztof Tuduj (Konfederacja) oczekiwał rozmowy o kontaktach Czarzastego, a tej nie było.",
+      "pubDate": "Wed, 25 Feb 2026 19:53:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/a/758e9562c10cc0-948-568-10-123-4097-2458.jpg",
+      "dateISO": "2026-02-25T18:53:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
       "title": "Kraj rezygnuje z pomocy USA. W tle spór o surowce",
       "link": "https://businessinsider.com.pl/finanse/zimbabwe-odrzuca-pomoc-usa-uzalezniona-od-ustepstw/qr8xdqz",
       "description": "Donald Trump chce pozyskiwać surowce poza Chinami, lecz właśnie usłyszał \"nie\". Afrykański kraj odrzucił 360 mln dol. amerykańskiej pomocy zdrowotnej, twierdząc, że była ona uzależniona od dostępu do surowców i wrażliwych danych obywateli. Decyzja ma jednak drugie dno.",
@@ -27,7 +123,7 @@
     {
       "title": "Widzieliśmy nowe smartfony Samsunga. Oto cała prawda o serii Galaxy S26",
       "link": "https://businessinsider.com.pl/technologie/nowe-technologie/galaxy-s26-juz-tu-jest-specyfikacja-ceny-i-wrazenia-z-korzystania-z-nowosci-samsunga/x9dyfpy",
-      "description": "Smartfony z linii Galaxy S co roku budzą wiele kontrowersji, ale potem i tak okazują się urządzeniami skazanymi na sukces. Jakie są najnowsze Galaxy S26? Czy zrewolucjonizują rynek i wytrącą palmę rynkowego pierwszeństwa z rąk iPhone'ów? Sami oceńcie.",
+      "description": "Smartfony z linii Galaxy S co roku budzą wiele kontrowersji, ale potem i tak okazują się urządzeniami skazanymi na sukces. Jakie są najnowsze Galaxy S26? Czy zrewolucjonizują rynek i wytrącą palmę rynkowego pierwszeństwa z rąk iPhone'ów? Oto jak prezentują się koreańskie nowości i najważniejsze, ile",
       "pubDate": "Wed, 25 Feb 2026 18:46:04 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -169,9 +265,9 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
-      "title": "Inspektorzy PIP zmienią B2B na etat? Pierwsze czytanie nowelizacji ustawy",
+      "title": "Reforma PIP znowu dzieli. Większość sejmowa skierowała projekt do komisji",
       "link": "https://www.bankier.pl/wiadomosc/Inspektorzy-PIP-zmienia-B2B-na-etat-Pierwsze-czytanie-nowelizacji-ustawy-9089136.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Umowy śmieciowe to nie jest prywatna umowa dwóch stron o rzekomo równej pozycji, to poważny problem społeczny – powiedziała w Sejmie Katarzyna Ueberhan (Lewica) w debacie nad projektem reformy PIP. Poseł PSL Adam Dziedzic podkreślił, że projekt budzi wątpliwości i wymaga dalszych konsultacji.",
+      "description": "Kluby PiS i Konfederacji złożyły w środę wnioski o odrzucenie w pierwszym czytaniu projektu reformy Państwowej Inspekcji Pracy. Pozostałe kluby parlamentarne opowiedziały się za dalszymi pracami nad projektem w komisji.",
       "pubDate": "Wed, 25 Feb 2026 18:49:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
@@ -313,18 +409,6 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
-      "title": "Zwrot w tzw. aferze hejterskiej. SN nie uchyli immunitetu Cichockiego",
-      "link": "https://www.bankier.pl/wiadomosc/Zwrot-w-tzw-aferze-hejterskiej-SN-nie-uchyli-immunitetu-Cichockiego-9089088.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Izba Odpowiedzialności Zawodowej SN umorzyła sprawę dotyczącą uchylenia immunitetu sędziemu Arkadiuszowi Cichockiemu w związku z tzw. aferą hejterską. Powodem decyzji było wycofanie przez prokuratora wniosku w tej sprawie - dowiedziała się w środę PAP w Sądzie Najwyższym.",
-      "pubDate": "Wed, 25 Feb 2026 17:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/1/e1273b7de9c4a7-948-568-420-0-3200-1920.jpg",
-      "dateISO": "2026-02-25T16:30:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
       "title": "Przyłączenia do sieci energetycznych. Zmiany w zabezpieczeniach i krótsza ważność warunków",
       "link": "https://www.bankier.pl/wiadomosc/Przylaczenia-do-sieci-energetycznych-Zmiany-w-zabezpieczeniach-i-krotsza-waznosc-warunkow-9089086.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Sejmowe komisje: energii, klimatu i aktywów państwowych oraz ds. deregulacji poparły w środę rządowy projekt ustawy, reformujący m.in. model przyłączeń źródeł do sieci elektroenergetycznych. Komisje wprowadziły poprawki, m.in. zmniejszając wysokość zabezpieczeń.",
@@ -445,18 +529,6 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
-      "title": "Rurociąg Adria zastępuje Przyjaźń. Chorwacja przesyła ropę na Węgry i Słowację",
-      "link": "https://www.bankier.pl/wiadomosc/Rurociag-Adria-zastepuje-Przyjazn-Chorwacja-przesyla-nierosyjska-rope-na-Wegry-i-Slowacje-9089025.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Komisja Europejska poinformowała w środę, że w reakcji na uszkodzenie ropociągu Przyjaźń w Ukrainie Chorwacja rozpoczęła tranzyt ropy na Węgry i Słowację za pośrednictwem rurociągu Adria. Surowiec nie pochodzi z Rosji.",
-      "pubDate": "Wed, 25 Feb 2026 16:23:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/c/303b7ffc6a0ede-948-568-354-1027-2716-1629.jpg",
-      "dateISO": "2026-02-25T15:23:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
       "title": "Poczta Polska przeprowadziła masowe zwolnienia. W tle zaskakujące dane finansowe",
       "link": "https://businessinsider.com.pl/wiadomosci/poczta-polska-zwolnila-wielu-pracownikow-tymczasem-przychody-ida-w-gore/wh9m432",
       "description": "Poczta Polska bardzo mocno zredukowała zatrudnienie w ciągu minionego roku. Spółka przeprowadziła głęboką restrukturyzację kadrową, jednocześnie zwiększając przychody ze sprzedaży. Ministerstwo Aktywów Państwowych (MAP) przedstawiło wstępne dane za miniony rok.",
@@ -517,18 +589,6 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
-      "title": "Fico nie spodziewa się, by Ukraina w lutym wznowiła tranzyt ropy",
-      "link": "https://www.bankier.pl/wiadomosc/Fico-nie-spodziewa-sie-by-Ukraina-w-lutym-wznowila-tranzyt-ropy-9089008.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Premier Robert Fico powiedział w środę, że nie spodziewa się w lutym wznowienia dostaw ropy na Słowację przez rurociąg Przyjaźń. Jego zdaniem prezydent Ukrainy Wołodymyr Zełenski w ogóle nie zamierza zezwolić na transport surowca. Fico, bez szczegółów, zapowiedział kolejne działania odwetowe.",
-      "pubDate": "Wed, 25 Feb 2026 16:03:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/a/acb4ac27370493-945-560-11-33-1456-873.jpg",
-      "dateISO": "2026-02-25T15:03:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
       "title": "Ten metal dla złota jest jak Robin dla Batmana. Jeszcze nigdy nie były tak blisko siebie",
       "link": "https://businessinsider.com.pl/gielda/surowce/cena-srebra-moze-byc-jeszcze-wieksza-nowa-prognoza-jp-morgan/2cwke54",
       "description": "Wielki bank inwestycyjny przewiduje, że średnia cena srebra w tym roku będzie ponad dwukrotnie większa niż średnia za 2025 r. Nie oznacza to jednak, że da się na tym zarobić. Zastosowanie przemysłowe srebra stanowi istotny czynnik napędzający popyt, jednak wzrost kosztów może być znaczący.",
@@ -538,42 +598,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/UJ9k9kpTURBXy9lZjE3MDFjZTQxNTg4NjQ0YzQ0YmQ2NmIwYTZlN2M0YS5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-02-25T15:02:33.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Rolnicy załamują ręce. \"Sytuacja jest dramatyczna\". Prace mogą być opóźnione o miesiące",
-      "link": "https://businessinsider.com.pl/gospodarka/odwilz-zalewa-kolejne-pola-rolnicy-sa-zalamani-obawiaja-sie-najgorszego/vckfwsp",
-      "description": "Gwałtowna odwilż mocno daje się we znaki polskim rolnikom. Duże problemy mają m.in. ci, których pola znajdują się na terenie woj. kujawsko-pomorskiego. — Sytuacja jest dramatyczna — mówi jeden z nich w rozmowie z Polskim Radiem PiK. Ich prace mogą się opóźnić nawet o kilka miesięcy.",
-      "pubDate": "Wed, 25 Feb 2026 15:00:07 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/-XSk9kpTURBXy8yMDQ1YzA0MTgwNzIzOGI3ODU4NzY1NTE5MjkyNzUzYy5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T15:00:07.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Nowa taryfa gazu od myOrlen. Miliony Polaków zaoszczędzą na zmianie",
-      "link": "https://businessinsider.com.pl/finanse/7-mln-klientow-z-nizsza-cena-gazu-myorlen-ujawnil-szczegoly/8dnrdsq",
-      "description": "W środę weszła w życie nowa, niższa taryfa cen gazu wprowadzona przez myOrlen — dawny PGNiG Obrót Detaliczny. Nowy cennik obejmuje 7 mln klientów i będzie obowiązywać do końca czerwca — poinformował Orlen.",
-      "pubDate": "Wed, 25 Feb 2026 14:56:20 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/QxLk9kpTURBXy9jMjE4MjlkY2NiYzMxYTBiYjJkMmYxOWJhMzFlMThlNi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T14:56:20.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Mafia ze Śląska miała wyłudzić na podatku VAT 164 mln zł. Jest akt oskarżenia",
-      "link": "https://businessinsider.com.pl/gospodarka/oszustwo-vat-na-164-mln-zl-prokuratura-w-gliwicach-skonczyla-sledztwo/k263wrt",
-      "description": "164 ml zł podatku VAT mieli wyłudzić 44 członkowie grupy przestępczej ze Śląską, którzy zajmowali się fikcyjną sprzedażą granulatu, barwników i koncentratów w czterech krajach. Gliwicka prokuratura skończyła śledztwo i wysłała w tej sprawie akt oskarżenia do sądu. Podejrzanym grozi za to do ośmiu la",
-      "pubDate": "Wed, 25 Feb 2026 14:52:44 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/MO5k9kpTURBXy80MmNjNDE5YWZmMTM5OWFhMDIzZjliM2YxMDk4OGQ4Zi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T14:52:44.000Z",
       "dateFormatted": "25 lutego 2026"
     },
     {
@@ -622,18 +646,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/8/4/122bac5855b2e0-948-568-0-25-1868-1121.jpg",
       "dateISO": "2026-02-25T13:49:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Przekręt na VAT na 164 mln zł. Gigantyczna grupa przestępcza przed sądem",
-      "link": "https://www.bankier.pl/wiadomosc/Przekret-na-VAT-na-164-mln-zl-Gigantyczna-grupa-przestepcza-przed-sadem-9088937.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Na stratę co najmniej 164 mln zł narazili Skarb Państwa członkowie grupy przestępczej, która wyłudzała zwroty podatku na podstawie fikcyjnego wewnątrzwspólnotowego obrotu granulatem, barwnikami i koncentratami – podała gliwicka prokuratura.",
-      "pubDate": "Wed, 25 Feb 2026 14:29:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/b/ab9dda8a07b455-945-567-10-280-3983-2390.jpg",
-      "dateISO": "2026-02-25T13:29:00.000Z",
       "dateFormatted": "25 lutego 2026"
     },
     {
@@ -959,19 +971,7 @@
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-02-22T12:05:37.000Z",
       "dateFormatted": "22 lutego 2026"
-    },
-    {
-      "title": "CEO Ripple prognozuje 90% szansę na uchwalenie ustawy kryptowalutowej w USA do kwietnia",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/ceo-ripple-prognozuje-90-szanse-na-uchwalenie-ustawy-kryptowalutowej-w-usa-do-kwietnia-1290854",
-      "description": "",
-      "pubDate": "2026-02-22 01:02:10",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "dateISO": "2026-02-22T01:02:10.000Z",
-      "dateFormatted": "22 lutego 2026"
     }
   ],
-  "updatedAt": "2026-02-25T19:34:12.200Z"
+  "updatedAt": "2026-02-25T21:49:37.279Z"
 }
