@@ -99,7 +99,19 @@ export default function App() {
     try { return new Set(JSON.parse(localStorage.getItem("watchlist") || "[]")); } catch { return new Set(); }
   });
   const [alerts, setAlerts] = useState(loadAlerts);
-  const [liveStocks, setLiveStocks] = useState(STOCKS);
+  const [liveStocks, setLiveStocks] = useState(() => {
+    try {
+      const raw = localStorage.getItem("wm_cache_screener");
+      if (!raw) return STOCKS;
+      const { data } = JSON.parse(raw);
+      if (!data?.stocks?.length) return STOCKS;
+      // Only use cached stocks if they have real cap data (not stale zero-cap format)
+      const hasCaps = data.stocks.some(s => s.cap > 0);
+      if (!hasCaps) return STOCKS;
+      // Sort by cap descending — matches the default table sort so there's no visual jump
+      return [...data.stocks].sort((a, b) => (b.cap || 0) - (a.cap || 0));
+    } catch { return STOCKS; }
+  });
   const allInstruments = useMemo(() => [...liveStocks, ...COMMODITIES, ...FOREX], [liveStocks]);
 
   // Lifted from HomePage so Navbar can share them
@@ -132,7 +144,9 @@ export default function App() {
   // Load dynamic stock list from /api/gpw-screener on mount + auto-refresh every 2 min
   const applyScreenerData = useCallback((data) => {
     if (!data) return;
-    setLiveStocks(data.stocks);
+    // Sort by cap descending before setting state — prevents visual re-ordering jump
+    const sorted = [...data.stocks].sort((a, b) => (b.cap || 0) - (a.cap || 0));
+    setLiveStocks(sorted);
     const newPrices = {};
     const screenerQuotes = {};
     for (const [ticker, q] of Object.entries(data.quotes || {})) {
@@ -174,10 +188,15 @@ export default function App() {
     const load = async () => {
       const data = await fetchIndices();
       if (data.length > 0) {
-        // Always set indices even if all values are null,
-        // so we can distinguish "loading" from "failed".
+        const hasValues = data.some(d => d.value != null);
+        console.log(
+          "Indeksy WIG — załadowano %d indeksów, ma wartości: %s, dane: %o",
+          data.length, hasValues, data.map(d => `${d.name}=${d.value}`)
+        );
         setIndices(data);
         setIndicesLoaded(true);
+      } else {
+        console.warn("Indeksy WIG — fetchIndices zwrócił pustą tablicę");
       }
     };
     load();
