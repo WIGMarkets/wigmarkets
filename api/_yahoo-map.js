@@ -3,12 +3,11 @@
 // Commodities, forex, and special cases are listed explicitly.
 
 const YAHOO_MAP = {
-  // GPW indices — standard Yahoo Finance format (^ prefix, tak jak ^GSPC dla S&P500)
-  // .WA dotyczy wyłącznie spółek GPW, NIE indeksów
-  "wig20":  "^WIG20",
-  "wig":    "^WIG",
-  "mwig40": "^MWIG40",
-  "swig80": "^SWIG80",
+  // GPW indices — Yahoo Finance uses .WA suffix for Polish indices (not ^ prefix)
+  "wig20":  "WIG20.WA",
+  "wig":    "WIG.WA",
+  "mwig40": "MWIG40.WA",
+  "swig80": "SWIG80.WA",
   // World indices
   "sp500":  "^GSPC",   // S&P 500
   "nasdaq": "^IXIC",   // NASDAQ Composite
