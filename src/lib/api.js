@@ -101,14 +101,27 @@ export async function fetchIntraday(symbol) {
 }
 
 export async function fetchIndices() {
-  return cachedFetch("indices", TTL_INDICES, async () => {
-    try {
-      const res = await fetch("/api/indices");
-      const data = await res.json();
-      const arr = Array.isArray(data) ? data : [];
-      return arr.length > 0 ? arr : null;
-    } catch { return null; }
-  }).then(d => d || []);
+  // Always fetch fresh — indices must be live, no stale-while-revalidate.
+  // Cache is still used for initial state hydration in App.jsx useState.
+  const url = "/api/indices";
+  try {
+    const res = await fetch(url);
+    const data = await res.json();
+    const arr = Array.isArray(data) ? data : [];
+    if (arr.length > 0) {
+      cacheSet("indices", arr);
+      console.log(
+        "Indeksy WIG — źródło: %s, response: %o, timestamp: %s",
+        url, arr, new Date().toISOString()
+      );
+      return arr;
+    }
+    console.warn("Indeksy WIG — pusta odpowiedź z API, url:", url);
+    return [];
+  } catch (err) {
+    console.error("Indeksy WIG — błąd fetch:", err, "url:", url);
+    return [];
+  }
 }
 
 export async function fetchFundamentals(symbol) {
