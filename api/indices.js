@@ -2,19 +2,21 @@ import { createRequire } from "module";
 import { YF_HEADERS } from "./_yahoo-map.js";
 
 // ─── Bundled cache data (guaranteed available on Vercel) ─────────
-// createRequire resolves relative to this file → always bundled
 const require = createRequire(import.meta.url);
 let CACHE = { indices: [], history: {} };
 try { CACHE = require("../data/indices-cache.json"); } catch {}
 
+// Yahoo Finance uses .WA suffix for Polish indices (NOT ^ prefix)
 const INDEX_SYMBOLS = [
-  { name: "WIG20",  yahoo: "^WIG20",  stooq: "wig20"  },
-  { name: "WIG",    yahoo: "^WIG",    stooq: "wig"    },
-  { name: "mWIG40", yahoo: "^MWIG40", stooq: "mwig40" },
-  { name: "sWIG80", yahoo: "^SWIG80", stooq: "swig80" },
+  { name: "WIG20",  yahoo: "WIG20.WA",  stooq: "wig20"  },
+  { name: "WIG",    yahoo: "WIG.WA",    stooq: "wig"    },
+  { name: "mWIG40", yahoo: "MWIG40.WA", stooq: "mwig40" },
+  { name: "sWIG80", yahoo: "SWIG80.WA", stooq: "swig80" },
 ];
 
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36";
+
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 // ─── Stooq.pl historical CSV fetcher ────────────────────────────
 async function fetchFromStooq(stooqSymbol) {
@@ -30,26 +32,24 @@ async function fetchFromStooq(stooqSymbol) {
     const timeout = setTimeout(() => controller.abort(), 8000);
     const res = await fetch(url, {
       signal: controller.signal,
-      headers: {
-        "User-Agent": UA,
-        Accept: "text/csv, text/plain, */*",
-      },
+      headers: { "User-Agent": UA, Accept: "text/csv, text/plain, */*" },
     });
     clearTimeout(timeout);
     if (!res.ok) {
-      console.log(`[indices] Stooq historical ${stooqSymbol}: HTTP ${res.status}`);
+      console.log(`[indices] Stooq hist ${stooqSymbol}: HTTP ${res.status}`);
       return null;
     }
     const csv = await res.text();
     const parsed = parseCSV(csv);
     if (parsed) {
-      console.log(`[indices] Stooq historical ${stooqSymbol}: OK, value=${parsed.value}, latest date=${csv.trim().split("\n").pop()?.split(",")[0]}`);
+      const lastLine = csv.trim().split("\n").pop()?.split(",")[0];
+      console.log(`[indices] Stooq hist ${stooqSymbol}: OK, value=${parsed.value}, date=${lastLine}`);
     } else {
-      console.log(`[indices] Stooq historical ${stooqSymbol}: parsed null, csv length=${csv.length}, lines=${csv.trim().split("\n").length}`);
+      console.log(`[indices] Stooq hist ${stooqSymbol}: parsed null, lines=${csv.trim().split("\n").length}`);
     }
     return parsed;
   } catch (err) {
-    console.log(`[indices] Stooq historical ${stooqSymbol}: error — ${err.message}`);
+    console.log(`[indices] Stooq hist ${stooqSymbol}: ${err.name === "AbortError" ? "timeout" : err.message}`);
     return null;
   }
 }
@@ -77,54 +77,9 @@ function parseCSV(csv) {
   };
 }
 
-// ─── Stooq.pl quote endpoint (latest single quote) ─────────────
-async function fetchFromStooqQuote(stooqSymbol) {
-  // This endpoint returns a single CSV line with the latest quote
-  const url = `https://stooq.pl/q/l/?s=${stooqSymbol}&f=sd2t2ohlcv&h&e=csv`;
-  try {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 8000);
-    const res = await fetch(url, {
-      signal: controller.signal,
-      headers: {
-        "User-Agent": UA,
-        Accept: "text/csv, text/plain, */*",
-      },
-    });
-    clearTimeout(timeout);
-    if (!res.ok) {
-      console.log(`[indices] Stooq quote ${stooqSymbol}: HTTP ${res.status}`);
-      return null;
-    }
-    const csv = await res.text();
-    const lines = csv.trim().split("\n");
-    if (lines.length < 2) {
-      console.log(`[indices] Stooq quote ${stooqSymbol}: too few lines`);
-      return null;
-    }
-    // Header: Symbol,Date,Time,Open,High,Low,Close,Volume
-    const cols = lines[1].split(",");
-    if (cols.length < 7) {
-      console.log(`[indices] Stooq quote ${stooqSymbol}: bad columns: ${lines[1]}`);
-      return null;
-    }
-    const close = parseFloat(cols[6]);
-    if (isNaN(close) || close <= 0) {
-      console.log(`[indices] Stooq quote ${stooqSymbol}: invalid close: ${cols[6]}`);
-      return null;
-    }
-    console.log(`[indices] Stooq quote ${stooqSymbol}: OK, value=${close}, date=${cols[1]}, time=${cols[2]}`);
-    // Return just the value — no sparkline/change from this endpoint
-    return { value: close, date: cols[1] };
-  } catch (err) {
-    console.log(`[indices] Stooq quote ${stooqSymbol}: error — ${err.message}`);
-    return null;
-  }
-}
-
 // ─── Yahoo Finance fetcher ───────────────────────────────────────
 async function fetchFromYahoo(yahooSymbol) {
-  // Try query2 first (often less rate-limited), then query1
+  // Try both Yahoo hosts — query2 is often less rate-limited
   for (const host of ["query2.finance.yahoo.com", "query1.finance.yahoo.com"]) {
     const url = `https://${host}/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?interval=1d&range=1mo`;
     try {
@@ -146,7 +101,7 @@ async function fetchFromYahoo(yahooSymbol) {
       const rawCloses = result.indicators?.quote?.[0]?.close || [];
       const closes = rawCloses.filter(c => c != null && !isNaN(c) && c > 0);
       if (closes.length < 2) {
-        console.log(`[indices] Yahoo ${yahooSymbol} via ${host}: too few closes (${closes.length})`);
+        console.log(`[indices] Yahoo ${yahooSymbol} via ${host}: only ${closes.length} close(s)`);
         continue;
       }
       const today = closes[closes.length - 1];
@@ -163,36 +118,9 @@ async function fetchFromYahoo(yahooSymbol) {
         sparkline,
       };
     } catch (err) {
-      console.log(`[indices] Yahoo ${yahooSymbol} via ${host}: error — ${err.message}`);
+      console.log(`[indices] Yahoo ${yahooSymbol} via ${host}: ${err.name === "AbortError" ? "timeout" : err.message}`);
     }
   }
-  return null;
-}
-
-// ─── Fetch single index (live sources) ───────────────────────────
-async function fetchLiveIndex({ name, yahoo, stooq }) {
-  // Strategy 1: Stooq historical CSV (includes sparkline + changes)
-  const stooqData = await fetchFromStooq(stooq);
-  if (stooqData) return { name, ...stooqData, _source: "stooq-hist" };
-
-  // Strategy 2: Yahoo Finance chart
-  const yahooData = await fetchFromYahoo(yahoo);
-  if (yahooData) return { name, ...yahooData, _source: "yahoo" };
-
-  // Strategy 3: Stooq single quote (value only, no sparkline)
-  const quoteData = await fetchFromStooqQuote(stooq);
-  if (quoteData) {
-    return {
-      name,
-      value: quoteData.value,
-      change24h: null,
-      change7d: null,
-      sparkline: [],
-      _source: "stooq-quote",
-    };
-  }
-
-  console.log(`[indices] ${name}: ALL SOURCES FAILED`);
   return null;
 }
 
@@ -200,46 +128,80 @@ async function fetchLiveIndex({ name, yahoo, stooq }) {
 export default async function handler(req, res) {
   const startTime = Date.now();
 
-  // Build cache lookup map
+  // Build cache lookup map from bundled data
   const cacheMap = {};
   for (const idx of (CACHE.indices || [])) {
     cacheMap[idx.name] = idx;
   }
 
-  // Start with cache data as baseline (always available)
+  // Baseline: bundled cache (always available, may be old)
   const baseline = INDEX_SYMBOLS.map(({ name }) =>
     cacheMap[name] || { name, value: null, change24h: null, change7d: null, sparkline: [] }
   );
 
-  // Try fetching live data in parallel (non-blocking, with timeout)
-  try {
-    const liveResults = await Promise.all(INDEX_SYMBOLS.map(fetchLiveIndex));
-    const hasLive = liveResults.some(r => r != null);
-    const elapsed = Date.now() - startTime;
+  // Fetch live data SEQUENTIALLY to avoid rate-limiting
+  // (Stooq limits ~3 req/s, parallel requests all fail)
+  const results = new Array(INDEX_SYMBOLS.length).fill(null);
 
-    console.log(`[indices] Results (${elapsed}ms):`, liveResults.map(r =>
-      r ? `${r.name}=${r.value} (${r._source})` : "null"
-    ).join(", "));
-
-    if (hasLive) {
-      // Merge: use live where available, fall back to cache per-index
-      const merged = INDEX_SYMBOLS.map(({ name }, i) => {
-        const live = liveResults[i];
-        if (live) {
-          const { _source, ...data } = live;
-          return data;
-        }
-        return cacheMap[name] || baseline[i];
-      });
-      res.setHeader("Cache-Control", "s-maxage=30, stale-while-revalidate=60");
-      return res.status(200).json(merged);
+  // Strategy 1: Try Stooq sequentially with 400ms delays
+  for (let i = 0; i < INDEX_SYMBOLS.length; i++) {
+    const { name, stooq } = INDEX_SYMBOLS[i];
+    try {
+      const data = await fetchFromStooq(stooq);
+      if (data) {
+        results[i] = { name, ...data, _source: "stooq" };
+      }
+    } catch (err) {
+      console.log(`[indices] Stooq ${name}: unexpected error — ${err.message}`);
     }
-  } catch (err) {
-    console.log(`[indices] Live fetch error: ${err.message}`);
+    // Delay between Stooq requests to avoid rate limiting
+    if (i < INDEX_SYMBOLS.length - 1) {
+      await sleep(400);
+    }
   }
 
-  // Return cached data
-  console.log("[indices] All live sources failed, returning bundled cache");
+  // Strategy 2: Try Yahoo for indices that Stooq didn't return
+  const missingAfterStooq = INDEX_SYMBOLS
+    .map((sym, i) => ({ ...sym, idx: i }))
+    .filter((_, i) => results[i] == null);
+
+  if (missingAfterStooq.length > 0) {
+    console.log(`[indices] ${missingAfterStooq.length} missing after Stooq, trying Yahoo...`);
+    for (const { name, yahoo, idx } of missingAfterStooq) {
+      try {
+        const data = await fetchFromYahoo(yahoo);
+        if (data) {
+          results[idx] = { name, ...data, _source: "yahoo" };
+        }
+      } catch (err) {
+        console.log(`[indices] Yahoo ${name}: unexpected error — ${err.message}`);
+      }
+    }
+  }
+
+  const elapsed = Date.now() - startTime;
+  const hasLive = results.some(r => r != null);
+
+  console.log(`[indices] Done (${elapsed}ms): ${results.map((r, i) =>
+    r ? `${r.name}=${r.value} (${r._source})` : `${INDEX_SYMBOLS[i].name}=MISS`
+  ).join(", ")}`);
+
+  if (hasLive) {
+    // Merge: live where available, cache per-index otherwise
+    const merged = INDEX_SYMBOLS.map(({ name }, i) => {
+      const live = results[i];
+      if (live) {
+        const { _source, ...data } = live;
+        return data;
+      }
+      return cacheMap[name] || baseline[i];
+    });
+    res.setHeader("Cache-Control", "s-maxage=30, stale-while-revalidate=60");
+    return res.status(200).json(merged);
+  }
+
+  // All live sources failed — return bundled cache
+  console.log("[indices] ALL SOURCES FAILED, returning bundled cache");
   res.setHeader("Cache-Control", "s-maxage=60, stale-while-revalidate=120");
   res.status(200).json(baseline);
 }
