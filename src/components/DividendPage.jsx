@@ -33,8 +33,7 @@ function yieldColor(y, theme) {
 }
 
 function streakBadge(streak) {
-  if (streak >= 15) return { label: "Arystokrata", color: "#ffd700", bg: "rgba(255,215,0,0.12)" };
-  if (streak >= 10) return { label: "Weteran", color: "#c084fc", bg: "rgba(192,132,252,0.12)" };
+  if (streak >= 10) return { label: "Arystokrata", color: "#ffd700", bg: "rgba(255,215,0,0.12)" };
   if (streak >= 5) return { label: "Stabilna", color: "#22c55e", bg: "rgba(34,197,94,0.12)" };
   return null;
 }
@@ -186,12 +185,19 @@ function CalendarView({ theme, isMobile, onSelectStock }) {
                       <div style={{ fontWeight: 700, color: yieldColor(d.divYield, theme), fontSize: 14, fontFamily: "var(--font-mono)" }}>{fmt(d.divYield, 1)}%</div>
                     </div>
                     {!isPast && days !== Infinity && (
-                      <div style={{ padding: "4px 10px", borderRadius: 8, background: days <= 7 ? "rgba(34,197,94,0.12)" : days <= 30 ? "rgba(59,130,246,0.12)" : "rgba(255,255,255,0.06)", color: days <= 7 ? "#22c55e" : days <= 30 ? theme.accent : theme.textSecondary, fontSize: 11, fontWeight: 600, whiteSpace: "nowrap" }}>
-                        {days === 0 ? "Dziś!" : days === 1 ? "Jutro" : `za ${days} dni`}
-                      </div>
+                      <>
+                        {d.status && d.status !== "Wypłacona" && (
+                          <div style={{ padding: "4px 10px", borderRadius: 8, background: d.status === "Zatwierdzona" ? "rgba(34,197,94,0.12)" : d.status === "Rekomendacja zarządu" ? "rgba(59,130,246,0.12)" : "rgba(255,255,255,0.06)", color: d.status === "Zatwierdzona" ? "#22c55e" : d.status === "Rekomendacja zarządu" ? theme.accent : theme.textSecondary, fontSize: 11, fontWeight: 500, whiteSpace: "nowrap" }}>
+                            {d.status}
+                          </div>
+                        )}
+                        <div style={{ padding: "4px 10px", borderRadius: 8, background: days <= 7 ? "rgba(34,197,94,0.12)" : days <= 30 ? "rgba(59,130,246,0.12)" : "rgba(255,255,255,0.06)", color: days <= 7 ? "#22c55e" : days <= 30 ? theme.accent : theme.textSecondary, fontSize: 11, fontWeight: 600, whiteSpace: "nowrap" }}>
+                          {days === 0 ? "Dziś!" : days === 1 ? "Jutro" : `za ${days} dni`}
+                        </div>
+                      </>
                     )}
                     {isPast && (
-                      <div style={{ padding: "4px 10px", borderRadius: 8, background: "rgba(255,255,255,0.04)", color: theme.textMuted, fontSize: 11, fontWeight: 500 }}>Wypłacona</div>
+                      <div style={{ padding: "4px 10px", borderRadius: 8, background: "rgba(255,255,255,0.04)", color: theme.textMuted, fontSize: 11, fontWeight: 500 }}>{d.status || "Wypłacona"}</div>
                     )}
                   </div>
                 </div>
