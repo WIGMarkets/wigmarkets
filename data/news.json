@@ -1,15 +1,483 @@
 {
   "articles": [
     {
-      "title": "Ile jeszcze można zarobić na złocie? Optymistyczna prognoza banku inwestycyjnego",
-      "link": "https://businessinsider.com.pl/gielda/surowce/cena-zlota-na-gieldach-optymistyczna-prognoza-jp-morgan/78fkd57",
-      "description": "Inwestycyjne złoto błyszczy. Tylko jak długo to potrwa? Eksperci JP Morgan oceniają, że popyt ze strony banków centralnych i inwestorów w tym roku ostatecznie doprowadzi do wzrostu cen kruszcu. Szacują w tym roku potencjał na około 20 proc.",
-      "pubDate": "Wed, 25 Feb 2026 11:36:51 GMT",
+      "title": "Wrocław hamuje wzrosty cen mieszkań. Podaż może znów wywołać presję na rynek",
+      "link": "https://businessinsider.com.pl/nieruchomosci/ceny-mieszkan-we-wroclawiu-hamuja-eksperci-ostrzegaja-przed-wzrostem/g1bxn5v",
+      "description": "To drugi nasz materiał z cyklu analiz pokazujących sytuację mieszkaniową w największych miastach. Tym razem pod lupą znalazł się Wrocław. Dane wskazują na wyraźne wyhamowanie wzrostów cen, ale jednocześnie pojawiają się sygnały, które mogą zapowiadać powrót presji na podwyżki.",
+      "pubDate": "Wed, 25 Feb 2026 15:04:25 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/6utk9kpTURBXy80YWQ2ODk0MTQ4MTNkNTgzNDFkYWI3OWNmN2YyNzRiYi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T11:36:51.000Z",
+      "image": "https://ocdn.eu/pulscms-transforms/1/4Tbk9kpTURBXy9kZWE1ZTIxZmQ4YzVkN2NhODkzZmYyZTdkYTM4ZmQ5OC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T15:04:25.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Ten metal dla złota jest jak Robin dla Batmana. Jeszcze nigdy nie były tak blisko siebie",
+      "link": "https://businessinsider.com.pl/gielda/surowce/cena-srebra-moze-byc-jeszcze-wieksza-nowa-prognoza-jp-morgan/2cwke54",
+      "description": "Wielki bank inwestycyjny przewiduje, że średnia cena srebra w tym roku będzie ponad dwukrotnie większa niż średnia za 2025 r. Nie oznacza to jednak, że da się na tym zarobić. Zastosowanie przemysłowe srebra stanowi istotny czynnik napędzający popyt, jednak wzrost kosztów może być znaczący.",
+      "pubDate": "Wed, 25 Feb 2026 15:02:33 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/UJ9k9kpTURBXy9lZjE3MDFjZTQxNTg4NjQ0YzQ0YmQ2NmIwYTZlN2M0YS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T15:02:33.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Rolnicy załamują ręce. \"Sytuacja jest dramatyczna\". Prace mogą być opóźnione o miesiące",
+      "link": "https://businessinsider.com.pl/gospodarka/odwilz-zalewa-kolejne-pola-rolnicy-sa-zalamani-obawiaja-sie-najgorszego/vckfwsp",
+      "description": "Gwałtowna odwilż mocno daje się we znaki polskim rolnikom. Duże problemy mają m.in. ci, których pola znajdują się na terenie woj. kujawsko-pomorskiego. — Sytuacja jest dramatyczna — mówi jeden z nich w rozmowie z Polskim Radiem PiK. Ich prace mogą się opóźnić nawet o kilka miesięcy.",
+      "pubDate": "Wed, 25 Feb 2026 15:00:07 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/-XSk9kpTURBXy8yMDQ1YzA0MTgwNzIzOGI3ODU4NzY1NTE5MjkyNzUzYy5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T15:00:07.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Nowa taryfa gazu od myOrlen. Miliony Polaków zaoszczędzą na zmianie",
+      "link": "https://businessinsider.com.pl/finanse/7-mln-klientow-z-nizsza-cena-gazu-myorlen-ujawnil-szczegoly/8dnrdsq",
+      "description": "W środę weszła w życie nowa, niższa taryfa cen gazu wprowadzona przez myOrlen — dawny PGNiG Obrót Detaliczny. Nowy cennik obejmuje 7 mln klientów i będzie obowiązywać do końca czerwca — poinformował Orlen.",
+      "pubDate": "Wed, 25 Feb 2026 14:56:20 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/QxLk9kpTURBXy9jMjE4MjlkY2NiYzMxYTBiYjJkMmYxOWJhMzFlMThlNi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T14:56:20.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Mafia ze Śląska miała wyłudzić na podatku VAT 164 mln zł. Jest akt oskarżenia",
+      "link": "https://businessinsider.com.pl/gospodarka/oszustwo-vat-na-164-mln-zl-prokuratura-w-gliwicach-skonczyla-sledztwo/k263wrt",
+      "description": "164 ml zł podatku VAT mieli wyłudzić 44 członkowie grupy przestępczej ze Śląską, którzy zajmowali się fikcyjną sprzedażą granulatu, barwników i koncentratów w czterech krajach. Gliwicka prokuratura skończyła śledztwo i wysłała w tej sprawie akt oskarżenia do sądu. Podejrzanym grozi za to do ośmiu la",
+      "pubDate": "Wed, 25 Feb 2026 14:52:44 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/MO5k9kpTURBXy80MmNjNDE5YWZmMTM5OWFhMDIzZjliM2YxMDk4OGQ4Zi5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T14:52:44.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Prezes URE daje zielone światło na morską farmę wiatrową Baltica 2",
+      "link": "https://www.bankier.pl/wiadomosc/Prezes-URE-udzielil-promesy-koncesji-dla-MFW-Baltica-2-9088999.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezes URE udzielił promesy koncesji na wytwarzanie energii elektrycznej z morskiej farmy wiatrowej MFW Baltica 2, należącej do PGE i Orsted - poinformował urząd na stronie internetowej. Promesa dla MFW Baltica 2 jest ważna do 12 grudnia 2029 r.",
+      "pubDate": "Wed, 25 Feb 2026 15:52:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/d/0e2a65be9534a3-948-568-9-33-1896-1137.jpg",
+      "dateISO": "2026-02-25T14:52:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Karma dla schronisk trafia na Vinted. Firma zabiera głos",
+      "link": "https://businessinsider.com.pl/firmy/dolina-noteci-w-centrum-afery-karmy-dla-schronisk-trafily-na-sprzedaz/pt88fxz",
+      "description": "Dolina Noteci znalazła się w centrum medialnej uwagi po tym, jak w internecie pojawiły się ogłoszenia sprzedaży karmy przeznaczonej dla schronisk. Sprawa pokazała, jak trudne może być utrzymanie kontroli nad produktami przekazywanymi w ramach działań społecznych, nawet w firmie o ugruntowanej pozycj",
+      "pubDate": "Wed, 25 Feb 2026 14:44:51 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/b-qk9kpTURBXy9jZTlmYzM5MTc2MDdlZmQwNTQ2YTc1NGIwNWZkNjllYi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T14:44:51.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Merz wytyka Chinom \"niezdrowy\" deficyt, a Xi zachęca do odcinania się od USA",
+      "link": "https://www.bankier.pl/wiadomosc/Merz-wytyka-Chinom-niezdrowy-deficyt-a-Xi-zacheca-do-odciecie-sie-od-USA-9088989.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Chiński przywódca Xi Jinping wezwał w środę w Pekinie kanclerza Niemiec Friedricha Merza do budowania „strategicznej autonomii” Europy i „obiektywnego” podejścia do rozwoju ChRL. Szef niemieckiego rządu zwrócił uwagę na „niezdrowy” deficyt handlowy RFN i zapowiedział, że trzeba go ograniczyć.",
+      "pubDate": "Wed, 25 Feb 2026 15:40:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/3/b585b94ac0f3c0-948-568-160-60-3840-2303.jpg",
+      "dateISO": "2026-02-25T14:40:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Legendarny producent samochodów zwalnia 20 proc. pracowników",
+      "link": "https://businessinsider.com.pl/technologie/motoryzacja/donald-trump-dobil-ulubiona-marke-jamesa-bonda-prace-straci-600-osob/9slm1ye",
+      "description": "Brytyjski producent luksusowych i bardzo drogich samochodów zmaga się z poważnymi problemami finansowymi. Firma twierdzi, że gwoździem do trumny okazały się cła wprowadzone przez Donalda Trumpa. Aston Martin, producent ulubionych aut Jamesa Bonda, zapowiedział zwolnienia. \"Odejdzie nawet 20 proc. na",
+      "pubDate": "Wed, 25 Feb 2026 14:34:13 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/tHek9kpTURBXy8zNTJjMWI5YWJlZTM0M2IxOGFhZmUwNjUwNDFhMDgyNS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T14:34:13.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Cardano 10% w górę, na rynku byka",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/cardano-10-w-gore-na-rynku-byka-1296444",
+      "description": "",
+      "pubDate": "2026-02-25 14:34:10",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/LYNXNPEC440T3_M.jpg",
+      "dateISO": "2026-02-25T14:34:10.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Litecoin 10% w górę, na rynku byka",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/litecoin-10-w-gore-na-rynku-byka-1296422",
+      "description": "",
+      "pubDate": "2026-02-25 14:33:05",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/LYNXMPEDAE0PJ-ORUBS_M.jpg",
+      "dateISO": "2026-02-25T14:33:05.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Polska wyprzedziła Hiszpanię w dochodach na mieszkańca. Donald Tusk nie kryje radości",
+      "link": "https://businessinsider.com.pl/gospodarka/polska-przegania-hiszpanie-w-dochodach-na-mieszkanca-donald-tusk-skomentowal/zpn9h3q",
+      "description": "Polska wyprzedziła Hiszpanię pod względem dochodu na mieszkańca liczonego według parytetu siły nabywczej (PPP) — wynika z najnowszych danych Międzynarodowego Funduszu Walutowego. W ostatnim roku polska gospodarka rozwijała się szybciej niż hiszpańska. Takie same prognozy MFW ma także na 2026 r. Na t",
+      "pubDate": "Wed, 25 Feb 2026 14:31:49 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/KY7k9kpTURBXy9jY2Q2NTJlOWE4N2Q2MDY2M2RmM2VjYjY2OTJiZWFhOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T14:31:49.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Ochrona dla klientów lombardów i poszukujących ubezpieczeń. Większe uprawnienia Rzecznika Finansowego",
+      "link": "https://www.bankier.pl/wiadomosc/Ochrona-dla-klientow-lombardow-i-poszukujacych-ubezpieczen-Wieksze-uprawnienia-Rzecznika-Finansowego-9088984.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Grupa klientów rynku finansowego, którzy będą mogli skorzystać z ochrony Rzecznika Finansowego, zostanie poszerzona - przewiduje opublikowany w środę projekt nowelizacji. Rzecznik ma również otrzymać możliwość bezpłatnego korzystania z mediów publicznych w celu publikowania ostrzeżeń.",
+      "pubDate": "Wed, 25 Feb 2026 15:28:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/3/4a1519e4ece18c-948-568-0-17-3456-2073.jpg",
+      "dateISO": "2026-02-25T14:28:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Oto co Donald Trump powiedział o gospodarce. Cztery niedomówienia i jedna nieprawda",
+      "link": "https://businessinsider.com.pl/gospodarka/donald-trump-o-stanie-gospodarki-usa-cztery-niedomowienia-i-jedna-nieprawda/rycdc30",
+      "description": "Prezydent Donald Trump wygłosił orędzie o stanie państwa na wspólnym posiedzeniu Kongresu i Izby Reprezentantów. Biały Dom stara się zyskać poparcie wśród wyborców Partii Republikańskiej przed listopadowymi wyborami uzupełniającymi, a sondaże pokazują, że w tym celu trzeba mówić więcej o gospodarce ",
+      "pubDate": "Wed, 25 Feb 2026 14:03:14 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Abzk9kpTURBXy81ZjE5YjUwNmEwOTRiMTVlNGY4NWYyYmFhMTUzMjUzOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T14:03:14.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Rośnie liczba pasażerów LOT. W 2026 roku flota poleci na 15 nowych trasach",
+      "link": "https://www.bankier.pl/wiadomosc/Rosnie-liczba-pasazerow-LOT-W-2026-roku-flota-poleci-na-15-nowych-trasach-9088956.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W styczniu br. Polskie Linie Lotnicze LOT przewiozły ponad 821 tys. podróżnych - poinformował w środę narodowy przewoźnik. Oznacza to o ponad 50 tys. więcej osób niż rok temu. W ubiegłym roku z rejsów oferowanych przez LOT skorzystało 11,7 mln pasażerów.",
+      "pubDate": "Wed, 25 Feb 2026 14:49:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/4/122bac5855b2e0-948-568-0-25-1868-1121.jpg",
+      "dateISO": "2026-02-25T13:49:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Ile wynosi przeciętna emerytura w Polsce? Oto dane ZUS",
+      "link": "https://businessinsider.com.pl/finanse/srednia-emerytura-w-polsce-ile-realnie-dostaja-emeryci/lcw88zp",
+      "description": "Podczas gdy emeryt-rekordzista w Polsce pobiera ponad 54 tys. zł świadczenia, zdecydowana większość Polek i Polaków oscyluje wokół przeciętnej emerytury. Dane ZUS wskazały, ile w rzeczywistości wynosi przeciętna emerytura. Raport Zakładu Ubezpieczeń Społecznych ukazał także skalę pomocy ze strony pa",
+      "pubDate": "Wed, 25 Feb 2026 13:48:32 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/6XUk9kpTURBXy85NTc2YmU1MGY5YWI5YjI2NmYxNmE0ODYxMTYzZjA1NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T13:48:32.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Olimpijskie smartfony trafiają na OLX. Niektórzy widzą w tym biznes",
+      "link": "https://businessinsider.com.pl/finanse/olimpijskie-smartfony-z-mediolanu-i-cortiny-na-aukcjach-ceny-zaskakuja/mk7c26m",
+      "description": "Limitowane telefony przyznawane uczestnikom zimowych igrzysk w Mediolanie i Cortinie w 2026 r. zaczęły pojawiać się na portalach sprzedażowych — i to w cenach, które robią wrażenie. Skąd się tam wzięły i czemu?",
+      "pubDate": "Wed, 25 Feb 2026 13:43:37 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/G-Nk9kpTURBXy85ODM4NmUxYmIwYWM5NTFkMDZhZjM5ODIxMmU3MWE0Ni5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T13:43:37.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Konstytucja bezpieczeństwa i nie tylko. Wojsko czekają zmiany",
+      "link": "https://www.bankier.pl/wiadomosc/Konstytucja-bezpieczenstwa-i-nie-tylko-Wojsko-czekaja-zmiany-9088951.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Podczas środowej odprawy z udziałem najważniejszych dowódców wojskowych, prezydent Karol Nawrocki i wicepremier, szef MON Władysław Kosiniak-Kamysz zgodzili się, że potrzebna jest reforma systemu dowodzenia w Wojsku Polskim; podkreślali też znaczenie dalszej modernizacji i rozbudowy liczebnej wojska",
+      "pubDate": "Wed, 25 Feb 2026 14:42:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/3/63d3f38fd915b3-948-567-30-30-970-581.jpg",
+      "dateISO": "2026-02-25T13:42:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Sikorski: Putin popełnił błąd atakując Ukrainę i musi zapłacić cenę",
+      "link": "https://www.bankier.pl/wiadomosc/Sikorski-Putin-popelnil-blad-atakujac-Ukraine-i-musi-zaplacic-cene-za-wojne-9088948.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Atakując Ukrainę w 2022 r., przywódca Rosji Władimir Putin popełnił błąd i Moskwa musi za to zapłacić – powiedział w opublikowanym środę wywiadzie dla portalu RBK-Ukraina wicepremier, minister spraw zagranicznych Radosław Sikorski.",
+      "pubDate": "Wed, 25 Feb 2026 14:38:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/2/4cc9e88c6cbf76-948-568-7-60-2992-1795.jpg",
+      "dateISO": "2026-02-25T13:38:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Co z azylem dla Romanowskiego? Sprawa będzie kontynuowana",
+      "link": "https://www.bankier.pl/wiadomosc/Co-z-azylem-dla-Romanowskiego-Sprawa-bedzie-kontynuowana-9088943.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Komisja petycji (PETI) Parlamentu Europejskiego zwróciła się w środę z wnioskiem do Komisji Europejskiej o pisemne wyjaśnienie, co ta zamierza zrobić w sprawie udzielenia przez Węgry azylu byłemu wiceministrowie sprawiedliwości Marcinowi Romanowskiemu.",
+      "pubDate": "Wed, 25 Feb 2026 14:32:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/d/8744f372111ec5-948-568-0-0-3808-2284.jpg",
+      "dateISO": "2026-02-25T13:32:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Afery Pegasusa ciąg dalszy. Byli szefowie ABW i SKW usłyszeli zarzuty",
+      "link": "https://www.bankier.pl/wiadomosc/Afery-Pegasusa-ciag-dalszy-Byli-szefowie-ABW-i-SKW-uslyszeli-zarzuty-9088939.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "B. szefowi ABW Piotrowi P. i b. szefowi SKW Maciejowi M. przedstawiono w środę zarzuty w związku z dopuszczeniem i używaniem nieposiadającego wymaganej akredytacji systemu Pegasus oraz bez sprawdzenia, czy system spełniał wymogi ochrony informacji niejawnych - poinformowała Prokuratura Krajowa.",
+      "pubDate": "Wed, 25 Feb 2026 14:31:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/8/cda178f5b8aa12-948-568-11-11-4488-2693.jpg",
+      "dateISO": "2026-02-25T13:31:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Przekręt na VAT na 164 mln zł. Gigantyczna grupa przestępcza przed sądem",
+      "link": "https://www.bankier.pl/wiadomosc/Przekret-na-VAT-na-164-mln-zl-Gigantyczna-grupa-przestepcza-przed-sadem-9088937.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Na stratę co najmniej 164 mln zł narazili Skarb Państwa członkowie grupy przestępczej, która wyłudzała zwroty podatku na podstawie fikcyjnego wewnątrzwspólnotowego obrotu granulatem, barwnikami i koncentratami – podała gliwicka prokuratura.",
+      "pubDate": "Wed, 25 Feb 2026 14:29:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/b/ab9dda8a07b455-945-567-10-280-3983-2390.jpg",
+      "dateISO": "2026-02-25T13:29:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Resort rolnictwa: Partie zakwestionowanej wołowiny nie trafiły do Polski",
+      "link": "https://www.bankier.pl/wiadomosc/Resort-rolnictwa-Partie-zakwestionowanej-wolowiny-nie-trafily-do-Polski-9088934.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Do Polski nie trafiły kwestionowane partie wołowiny z Brazylii - poinformowało w środę ministerstwo rolnictwa w komunikacie. Dodało, że system nadzoru funkcjonuje nieprzerwanie i konsumenci mogą mieć zaufanie do produktów dostępnych w sprzedaży.",
+      "pubDate": "Wed, 25 Feb 2026 14:27:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/d/2621266389a3ca-948-568-41-435-3310-1986.jpg",
+      "dateISO": "2026-02-25T13:27:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Nad Tokio pojawił się \"latający samochód\". Wkrótce ma wejść do użytku",
+      "link": "https://businessinsider.com.pl/technologie/nad-tokio-pojawil-sie-latajacy-samochod-wiadomo-kiedy-ma-wejsc-do-uzytku/85wmnmm",
+      "description": "W Japonii udało się przeprowadzić pierwszy demonstracyjny lot \"latającego samochodu\" zaprojektowanego przez startup SkyDrive Inc. Pojazd przeleciał nad Tokio. Jak twierdzą projektanci, pierwsze komercyjne operacje z jego użyciem mogą odbyć się w niedalekiej przyszłości. Mowa o perspektywie dwóch lat",
+      "pubDate": "Wed, 25 Feb 2026 13:25:35 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/DZnk9kpTURBXy84ZjRiZjAwYWJkMTBlYTRmMjBjNjg3MzY3OWE0MWYzYy5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T13:25:35.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "AI oznacza ewolucję czy rewolucję na polskim rynku pracy? Eksperci zdiagnozowali problem",
+      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/ai-w-pracy-w-polsce-czeka-nas-ewolucja-czy-rewolucja-eksperci-oceniaja/xq1d6y5",
+      "description": "\"Polskie firmy są relatywnie słabo przygotowane na adopcję AI\" — uważają ekonomiści Banku Pekao. W specjalnej analizie oceniają wpływ sztucznej inteligencji na krajowy rynek pracy. Wskazują na tzw. paradoks Jevonsa, który daje nadzieję pracownikom.",
+      "pubDate": "Wed, 25 Feb 2026 13:23:21 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/NrUk9kpTURBXy8zOTE4Mjg0ZmY2MDc4ZDNhZTA3ODE5NWE5ODFmM2U5NS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T13:23:21.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "ZUS czeka na rozliczenie. Renciści i wcześniejsi emeryci mają czas do końca lutego",
+      "link": "https://www.bankier.pl/wiadomosc/ZUS-czeka-na-rozliczenie-Rencisci-i-wczesniejsi-emeryci-maja-czas-do-konca-lutego-9088922.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Tysiące rencistów i wcześniejszych emerytów muszą do końca lutego przekazać do ZUS informacje o swoich dodatkowych dochodach z 2025 r. Przekroczenie limitów może oznaczać zmniejszenie świadczenia, a nawet jego zawieszenie. Sprawdzamy, kogo dotyczy obowiązek rozliczenia i jakie kwoty są brane pod uwa",
+      "pubDate": "Wed, 25 Feb 2026 14:14:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/a/f7ab3c808fabb1-948-568-0-0-2749-1649.jpg",
+      "dateISO": "2026-02-25T13:14:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Waszyngton kontra europejska prywatność. Jak USA wpływają na światowe regulacje danych?",
+      "link": "https://www.bankier.pl/wiadomosc/Waszyngton-kontra-europejska-prywatnosc-Jak-USA-probuja-zmusic-swiat-do-swoich-zasad-gry-danymi-9088903.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Władze USA poleciły swoim dyplomatom, by lobbowali przeciw podejmowanym przez inne kraje próbom regulacji przetwarzania danych osobowych cudzoziemców przez amerykańskie firmy technologiczne - podał w środę Reuters, powołując się na wewnętrzny dokument administracji Donalda Trumpa.",
+      "pubDate": "Wed, 25 Feb 2026 13:54:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/7/15ad5f80633be2-948-568-0-101-1625-974.jpg",
+      "dateISO": "2026-02-25T12:54:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Zełenski: Nie mamy broni jądrowej. Oskarżenia Rosji to wynik braku sukcesów na froncie",
+      "link": "https://www.bankier.pl/wiadomosc/Zelenski-Nie-mamy-broni-jadrowej-Oskarzenia-Rosji-to-wynik-braku-sukcesow-na-froncie-9088899.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ukraina nie posiada broni jądrowej, której próbuje poszukiwać tam Rosja; oskarżenia Moskwy w tej sprawie to wynik braku sukcesów na froncie – powiedział w środę prezydent Ukrainy Wołodymyr Zełenski.",
+      "pubDate": "Wed, 25 Feb 2026 13:47:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/0/24ea7299c2029c-948-568-45-112-2662-1597.jpg",
+      "dateISO": "2026-02-25T12:47:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "To w Polsce mogą zapaść kluczowe decyzje o przyszłości Ukrainy. Nasze największe firmy już się szykują",
+      "link": "https://businessinsider.com.pl/gospodarka/konferencja-odbudowy-ukrainy-w-gdansku-polska-liczy-na-duze-inwestycje/7n4de2n",
+      "description": "Odbudowa Ukrainy będzie okazją dla najważniejszych graczy spośród spółek kontrolowanych przez polskie państwo na podbój nowego rynku. Rozmowy już trwają, a zaangażowane jest w nie ok. 20 spółek. Padają też pierwsze nazwy firm. W tym roku do Polski mają zjechać przywódcy najważniejszych państw, a jed",
+      "pubDate": "Wed, 25 Feb 2026 12:46:59 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/fyTk9kpTURBXy81YzY5MTM3ZGYxNTE0MDY0ZTRhYmU3OGIxNjQ0NWUwYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T12:46:59.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Co powinien zrobić prezydent z ustawą o funduszu SAFE? Oto co sądzą Polacy [SONDAŻ]",
+      "link": "https://businessinsider.com.pl/gospodarka/karol-nawrocki-pod-presja-ws-safe-polacy-chca-podpisu-prezydenta/2v21qp6",
+      "description": "Debata o unijnym programie wsparcia obronności SAFE wchodzi w decydującą fazę, a najnowszy sondaż pokazuje, że większość Polaków oczekuje, że prezydent Karol Nawrocki podpisze ustawę, mimo politycznych kontrowersji i presji obu stron.",
+      "pubDate": "Wed, 25 Feb 2026 12:42:39 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/aiyk9kpTURBXy9kODZmMDRlNjc3ZWE0MjBlOTY0ZjZlYjNhNzI2YTU2ZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T12:42:39.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Pierwsza fabryka ukraińskich dronów rozpoczęła produkcję",
+      "link": "https://www.bankier.pl/wiadomosc/Pierwsza-fabryka-ukrainskich-dronow-rozpoczela-produkcje-9088891.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Pierwsza fabryka ukraińskich dronów na terytorium Wielkiej Brytanii rozpoczęła działalność - przekazał w środę ukraiński ambasador w tym kraju Wałerij Załużny. Zakład firmy Ukrspecsystems znajduje się we wschodniej Anglii.",
+      "pubDate": "Wed, 25 Feb 2026 13:38:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/2/38eb3936dfa8f9-948-568-200-30-3800-2279.jpg",
+      "dateISO": "2026-02-25T12:38:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Państwowa spółka zrobiła testy. Spisała na straty sporą część majątku",
+      "link": "https://businessinsider.com.pl/biznes/jsw-spisuje-na-straty-wielka-kwote-co-to-dla-niej-oznacza/crprt2k",
+      "description": "Pogrążona w kryzysie Jastrzębska Spółka Węglowa, kontrolowana przez Skarb Państwa, zrobiła przegląd swojego majątku w postaci koksowni. Okazało się, że ich rynkowa wartość jest mniejsza o ponad miliard złotych w porównaniu do tego, co wskazywały wcześniejsze szacunki. Władze wskazały, jaki to będzie",
+      "pubDate": "Wed, 25 Feb 2026 12:32:07 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/YAck9kpTURBXy8zM2RlODI0Yzk1Y2FkZmQxNDQ5NjE1MmM3NjA4NzU4YS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T12:32:07.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "XI Europejski Kongres Samorządów, 2-3 marca 2026, Mikołajki",
+      "link": "https://businessinsider.com.pl/biznes/xi-europejski-kongres-samorzadow-2-3-marca-2026-mikolajki/7w923gj",
+      "description": "Prezydent Karol Nawrocki gościem XI Europejskiego Kongresu Samorządów w Mikołajkach",
+      "pubDate": "Wed, 25 Feb 2026 12:20:15 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/KV6k9kpTURBXy9lODRjMGI2NTMzMzUxNDBlZDA4Yjg0MDQyNmNhZmIwMC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T12:20:15.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Kiedy bank zgłosi przelew skarbówce? Wyjaśniamy",
+      "link": "https://businessinsider.com.pl/finanse/ile-mozna-przelac-komus-na-konto-bez-zgloszenia-skarbowce-limity-i-zasady/s8p74hv",
+      "description": "Zarówno banki, jak i fiskus stale monitorują przelewy. Podejrzenia mogą wzbudzić nie tylko zaskakująco duże kwoty transakcji czy nietypowe tytuły przelewów. Także mniejsze kwoty mogą skutkować kontrolą i sankcjami podatkowymi. Wyjaśniamy, jakie są limity oraz na co zwracać uwagę przy wykonywaniu prz",
+      "pubDate": "Wed, 25 Feb 2026 12:09:05 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/GIzk9kpTURBXy9iMGIwODlmYjVlMmIwY2I4MTdkZDljMjM0ZWFhM2Y3Yi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T12:09:05.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Węgry blokują miliardy euro dla Kijowa. \"Zepsuli uroczystości w stolicy Ukrainy\"",
+      "link": "https://businessinsider.com.pl/gospodarka/weto-wegier-i-brak-usa-przycmily-wydarzenia-w-kijowie-media-komentuja/kn23rsd",
+      "description": "Uroczystości w Kijowie w rocznicę wojny miały być pokazem jedności Zachodu, ale, jak zauważają hiszpańskie media, zostały zdominowane przez weto Węgier i brak amerykańskiej delegacji. Według \"La Vanguardia\" i \"El País\" to właśnie te dwa elementy, zamiast wzmocnić pozycję Ukrainy, ujawniły rosnące po",
+      "pubDate": "Wed, 25 Feb 2026 12:07:13 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/dOCk9kpTURBXy9lMzU4OGNjYmFjY2Y4YmIxNzE0N2VhNmI3MzJkYjMwNy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T12:07:13.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Prezydent Częstochowy zatrzymany przez CBA. Oto jego oświadczenie majątkowe",
+      "link": "https://businessinsider.com.pl/finanse/oswiadczenie-majatkowe-prezydenta-czestochowy-duze-oszczednosci-i-dwa-motocykle/yssx61p",
+      "description": "Funkcjonariusze Centralnego Biura Antykorupcyjnego zatrzymali prezydenta Częstochowy Krzysztofa M. Zatrzymanie ma związek z podejrzeniem o udział w przestępstwie korupcyjnym. W swoim ostatnim oświadczeniu majątkowym związany z Nową Lewicą polityk zadeklarował m.in. spore oszczędności.",
+      "pubDate": "Wed, 25 Feb 2026 12:05:22 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/rizk9kpTURBXy8yNjMyMzY0YmM3MWI2NDFiZDU4N2U3MjZlZmE4MDRhMy5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-02-25T12:05:22.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "„Mamy nagrania”. Dino wykorzystuje monitoring do pilnowania pracowników?",
+      "link": "https://www.bankier.pl/wiadomosc/Dino-podglada-pracownikow-Monitoring-nie-tylko-dla-bezpieczenstwa-9088880.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "System monitoringu w marketach i magazynach Dino Polska przestaje pełnić funkcję ochronną, a zaczyna być narzędziem kontroli i nacisku – twierdzą związkowcy działający w tej sieci. Ich zdaniem system stał się narzędziem wymuszania wydajności.",
+      "pubDate": "Wed, 25 Feb 2026 12:55:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/0/2b388296c77c33-948-568-0-75-1878-1126.jpg",
+      "dateISO": "2026-02-25T11:55:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Wielka redukcja w Poczcie Polskiej. Zniknęło 8,5 tysiąca etatów w rok",
+      "link": "https://www.bankier.pl/wiadomosc/Wielka-redukcja-w-Poczcie-Polskiej-Zniknelo-8-5-tysiaca-etatow-w-rok-9088872.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W ub.r. o 14,5 proc. spadło zatrudnienie w Poczcie Polskiej wobec 2024 r., to niemal 8,5 tys. etatów - podał w środę wiceminister aktywów państwowych Grzegorz Wrona. Dodał, że wstępnie wynik sprzedażowy spółki za 2025 r. uległ poprawie, co było efektem niższych kosztów i wyższych przychodów ze sprze",
+      "pubDate": "Wed, 25 Feb 2026 12:46:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/1/9471145b2bcaaa-948-568-327-442-2908-1744.jpg",
+      "dateISO": "2026-02-25T11:46:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Banki chcą jednej umowy dla wszystkich. „To zwiększy konkurencję”",
+      "link": "https://www.bankier.pl/wiadomosc/Banki-chca-jednej-umowy-dla-wszystkich-To-zwiekszy-konkurencje-9088871.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wprowadzenie jednolitego wzorca umowy kredytu hipotecznego zwiększy konkurencję na tym rynku, uwagi wymaga dynamicznie rosnący udział w sprzedaży kredytów opartych o zmienną stopę procentową – oceniają bankowcy.",
+      "pubDate": "Wed, 25 Feb 2026 12:46:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/2/6e273eb7916fc7-948-568-0-53-1536-921.png",
+      "dateISO": "2026-02-25T11:46:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
+      "title": "Absurd w warszawskim sądzie. Szpieg Rubcow „zniknął”, a proces zawieszono",
+      "link": "https://www.bankier.pl/wiadomosc/Absurd-w-warszawskim-sadzie-Szpieg-Rubcow-zniknal-a-proces-zawieszono-9088866.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sąd zawiesił postępowanie wobec oskarżonego o szpiegostwo Pawła Rubcowa do czasu jego odszukania. Prokurator wystąpił o zwrócenie się do Sądu Apelacyjnego o rozważenie zastosowania tymczasowego aresztowania wobec mężczyzny - przekazała rzecznik Sądu Okręgowego w Warszawie sędzia Anna Ptaszek.",
+      "pubDate": "Wed, 25 Feb 2026 12:32:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/9/a7a23d5838fe16-948-567-0-55-1000-599.jpg",
+      "dateISO": "2026-02-25T11:32:00.000Z",
       "dateFormatted": "25 lutego 2026"
     },
     {
@@ -25,18 +493,6 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
-      "title": "Nie żyje prezes E.Leclerc Polska. \"Odszedł wybitny lider\"",
-      "link": "https://businessinsider.com.pl/biznes/nie-zyje-jean-philippe-magre-byl-prezesem-eleclerc-polska/7j98hqz",
-      "description": "Nie żyje Jean-Philippe Magre, prezes firmy E.Leclerc Polska. Sieć poinformowała o jego śmierci w mediach społecznościowych. \"21 lutego 2026 r. odszedł wybitny lider, mentor i wizjoner od lat związany z siecią E.Leclerc — człowiek o otwartym umyśle i wielkim sercu\" — żegnają go współpracownicy.",
-      "pubDate": "Wed, 25 Feb 2026 11:27:47 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Cifk9kpTURBXy81NTIyNzkxMTk0OWFjZTAzYTQ3ZjFlYjk1MGM5OWIyNy5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T11:27:47.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
       "title": "Witkoff: Ostatnie tygodnie rozmów pokojowych dały więcej niż ostatnie cztery lata",
       "link": "https://www.bankier.pl/wiadomosc/Witkoff-Ostatnie-tygodnie-rozmow-pokojowych-daly-wiecej-niz-ostatnie-cztery-lata-9088858.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Kilka tygodni negocjacji z udziałem Ukrainy, USA i Rosji przyniosły więcej postępów w procesie pokojowym niż ostatnie cztery lata; nie będzie porozumienia, jeśli naród ukraiński nie będzie przekonany, że agresja się nie powtórzy – oświadczył wysłannik prezydenta USA Steve Witkoff.",
@@ -46,30 +502,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/f/ebe9a2c0339c9a-948-568-30-50-3970-2381.jpg",
       "dateISO": "2026-02-25T11:20:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Jeszcze jeden długi weekend w 2026 r. Wszystko przez święto w sobotę",
-      "link": "https://businessinsider.com.pl/praca/kolejny-dlugi-weekend-w-kalendarzu-2026-sprawdz-kto-skorzysta/z03wdbh",
-      "description": "W tym roku pracownicy mogą liczyć na dodatkowy długi weekend. Wszystko dzięki temu, że święto 15 sierpnia w 2026 r. wypada w sobotę. To oznacza dodatkowy dzień wolny do odbioru. Pracownicy administracji rządowej zgodnie z decyzją Donalda Tuska będą mieli wolne również 14 sierpnia w piątek.",
-      "pubDate": "Wed, 25 Feb 2026 11:17:25 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/RuNk9kpTURBXy81MmEwYjQ3MGY0Y2MxNTI0OTdmNWE3N2JkOGI4MDJiZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T11:17:25.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Kiedy pracodawca nie może wypowiedzieć ci umowy o pracę? Oto prawa, które mogą zaskoczyć",
-      "link": "https://businessinsider.com.pl/praca/wypowiedzenie-umowy-o-prace-wszystko-co-musi-wiedziec-pracownik/pwngz8w",
-      "description": "Wypowiedzenie umowy o pracę to jedna z najczęstszych form zakończenia stosunku pracy. Zarówno pracownik, jak i pracodawca muszą pamiętać o przestrzeganiu procedur i przepisów, bo ich naruszenie może skończyć się w sądzie pracy. Wyjaśniamy, jakie są zasady wypowiedzenia umowy o pracę oraz kiedy praco",
-      "pubDate": "Wed, 25 Feb 2026 11:04:26 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/jmrk9kpTURBXy83N2IyMDdkZDZkNjAzNDdiYjcyY2NmYmE5YTFhMGE4YS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T11:04:26.000Z",
       "dateFormatted": "25 lutego 2026"
     },
     {
@@ -121,42 +553,6 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
-      "title": "Tak chcą zwiększyć liczbę urodzeń w Polsce. Proponują 200 tys. zł za dziecko",
-      "link": "https://businessinsider.com.pl/gospodarka/klub-jagiellonski-chce-zwiekszyc-liczbe-dzieci-proponuja-200-tys-zl-za-jedno/ee4sjck",
-      "description": "Klub Jagielloński z Krakowa chce zwiększyć liczbę urodzeń w Polsce. Jego przedstawiciele twierdzą bowiem, że dotychczasowe świadczenia prorodzinne nie wpływają na demografię w kraju. Proponują więc nowy program 200 tys. zł plus na nowo narodzone dziecko.",
-      "pubDate": "Wed, 25 Feb 2026 10:49:02 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/45ik9kpTURBXy9hYjcxOGQwNGE1NjJmYTNiMjFmNzcwZmU3M2FhZWYyMi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T10:49:02.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "USA ostrzegają Kijów. Ukraińskie ataki wpływają na amerykańskie inwestycje",
-      "link": "https://businessinsider.com.pl/gospodarka/donald-trump-reaguje-na-dzialania-ukrainy-amerykanskie-interesy-zagrozone/9ylpgpv",
-      "description": "Administracja Donalda Trumpa wyraziła zaniepokojenie wobec działań Ukrainy, które miały wpłynąć na amerykańskie inwestycje w Kazachstanie. Ataki ukraińskich dronów na rosyjski port Noworosyjsk na Morzu Czarnym, według władz USA, zaszkodziły interesom amerykańskiego koncernu Chevron. Informację tę pr",
-      "pubDate": "Wed, 25 Feb 2026 10:40:48 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/lAEk9kpTURBXy84MzhlM2E3Y2RlNjY4YThkZWY1NTE2MzQyMzlmY2NjNS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T10:40:48.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Przy siarczystym mrozie pomógł bezdomnemu psu. Stracił za to pracę",
-      "link": "https://businessinsider.com.pl/praca/fala-oburzenia-w-rosji-po-zwolnieniu-pracownika-pizzerii-taki-byl-powod/spfzppk",
-      "description": "Największa rosyjska sieć pizzerii Dodo Pizza zwolniła w miniony weekend dostawcę pizzy z Czelabińska (niedaleko granicy z Kazachstanem), ponieważ podczas silnych mrozów owinął kocem psa, który od około roku spał w pobliżu jednej z restauracji. Teraz w obliczu ostrego bojkotu firmy jej założyciel prz",
-      "pubDate": "Wed, 25 Feb 2026 10:40:43 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Oppk9kpTURBXy9jMzU1MDZiODBmNTE5MjU0MWY2ZTNkNDA0OTkxYjNjZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T10:40:43.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
       "title": "Mirosław Suchoń został przewodniczącym Klubu Parlamentarnego Centrum",
       "link": "https://www.bankier.pl/wiadomosc/Miroslaw-Suchon-zostal-przewodniczacym-Klubu-Parlamentarnego-Centrum-9088828.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Mirosław Suchoń został wybrany na przewodniczącego nowego klubu parlamentarnego Centrum. Suchoń zapewnił w rozmowie z PAP, że posłowie i senatorowie Centrum zawsze pracowicie promować będą rozwiązania korzystne dla obywateli.",
@@ -181,30 +577,6 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
-      "title": "Ponad 100 tys. emerytów dostaje już wyższe świadczenia. ZUS naprawia wieloletni błąd",
-      "link": "https://businessinsider.com.pl/praca/emerytury/zus-przeliczyl-zanizone-emerytury-podwyzki-niezaleznie-od-waloryzacji/bvxqzjx",
-      "description": "Ponad 106 tys. emerytów dostało właśnie dodatkowe pieniądze — i to niezależnie od marcowej waloryzacji. ZUS przeliczył tzw. emerytury czerwcowe, które przez lata były zaniżone przez wadliwe przepisy. Średnia podwyżka to ok. 200 zł miesięcznie.",
-      "pubDate": "Wed, 25 Feb 2026 10:30:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/dHWk9kpTURBXy8wZWI2ZGM1YWFlNDlmMDk5OTY5ZjkwZDY2NmY1ZmJiNi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T10:30:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Minister finansów ostro odpowiada Jarosławowi Kaczyńskiemu. \"Paranoje\"",
-      "link": "https://businessinsider.com.pl/gospodarka/spor-o-safe-minister-domanski-odpowiada-jaroslawowi-kaczynskiemu-paranoje/vcen852",
-      "description": "— Powiem to z całą stanowczością. Ten, kto głosuje przeciwko SAFE-owi, ten, kto ten program stara się podważać, czy de facto z nim walczy w sposób tak brutalny, jak robi to w tej chwili PiS, działa przeciwko interesowi Polski — powiedział w Polsat News minister finansów Andrzej Domański. Z kolei twi",
-      "pubDate": "Wed, 25 Feb 2026 10:26:45 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/zLPk9kpTURBXy82ZGQ3YWVjOGMzYzY1MWExNGE2ZjUxNDA5ZGFjOGQwMS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T10:26:45.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
       "title": "Afera na krakowskim Kazimierzu. Zakon oddał kamienice deweloperowi. \"Ludzie zamiast zysków\"",
       "link": "https://www.bankier.pl/wiadomosc/Afera-na-krakowskim-Kazimierzu-Zakon-oddal-kamienice-deweloperowi-Ludzie-zamiast-zyskow-9088792.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Krakowski Kazimierz staje się ofiarą własnego sukcesu, a proces gentryfikacji wchodzi w nową fazę. Zabytkowe kamienice przy ul. Józefa i Bożego Ciała, należące do Zakonu Kanoników Regularnych, mają zmienić się w pięciogwiazdkowy hotel. Sprawa budzi ogromne kontrowersje: od złamania historycznego zap",
@@ -217,18 +589,6 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
-      "title": "Bezpieczny start na giełdzie. Jak wybrać brokera i nie przepłacać na prowizjach",
-      "link": "https://businessinsider.com.pl/gielda/bezpieczny-start-na-gieldzie-jak-wybrac-brokera-i-nie-przeplacac-na-prowizjach/bsqg99l",
-      "description": "Wybór odpowiedniego biura maklerskiego to pierwsza i jedna z najważniejszych decyzji, jaką podejmuje początkujący inwestor. Od tego wyboru zależy nie tylko wysokość kosztów transakcyjnych, ale także komfort inwestowania i dostęp do narzędzi analitycznych. Rynek brokerów w Polsce jest rozwinięty, a k",
-      "pubDate": "Wed, 25 Feb 2026 10:07:20 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/aIJk9kpTURBXy84MmViNWE3MmMxZDQ0YTYwNmQ0ODdiNjRjYTY2Mjg3ZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T10:07:20.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
       "title": "Grupa JSW dokona odpisu w wysokości ponad 1,19 mld zł dot. segmentu koksowego",
       "link": "https://www.bankier.pl/wiadomosc/Grupa-JSW-dokona-odpisu-w-wysokosci-ponad-1-19-mld-zl-dot-segmentu-koksowego-9088810.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Wyniki przeprowadzonych testów wskazały na utratę wartości aktywów trwałych w segmencie koksowym grupy JSW w łącznej wysokości 1.194,6 mln zł, a dokonanie odpisu pomniejszy wynik operacyjny JSW Koks, a także grupy JSW, ale nie wpłynie na sytuację płynnościową - podała JSW w komunikacie.",
@@ -238,18 +598,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/7/0/a39406a4c4551d-948-568-0-53-1773-1063.jpg",
       "dateISO": "2026-02-25T10:06:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Nowe, gorsze dane na temat wzrostu cen w Polsce. Średnia w krajach z euro sporo niższa",
-      "link": "https://businessinsider.com.pl/gospodarka/ceny-w-polsce-i-ue-eurostat-podal-najnowsze-dane-na-temat-inflacji/77071gy",
-      "description": "Ceny w Polsce według metodologii unijnej rosną wolniej niż w wielu innych krajach, co w przeszłości nie było oczywiste. Jesteśmy jednak ciągle powyżej średniej. Eurostat w raporcie opublikowanym w środę wyliczył tzw. sharmonizowaną inflację (HICP). Okazała się wyższa od tej z danych GUS (CPI).",
-      "pubDate": "Wed, 25 Feb 2026 10:03:40 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/cXBk9kpTURBXy9hMGFlMGNlMmZiNDA3NTc2ODU2NjYwZGNmNGQyOTM1Mi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T10:03:40.000Z",
       "dateFormatted": "25 lutego 2026"
     },
     {
@@ -289,18 +637,6 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
-      "title": "Kanclerz Niemiec składa wizytę w Chinach. \"Mamy bardzo konkretne obawy\"",
-      "link": "https://businessinsider.com.pl/gospodarka/kanclerz-niemiec-w-chinach-mowil-o-bledzie-mamy-konkretne-obawy/xnrtrlg",
-      "description": "Kanclerz Niemiec Friedrich Merz składa pierwszą wizytę w Chinach od czasu objęcia stanowiska. W jej trakcie spotkał się z premierem Li Qiangiem, z którym rozmawiał m.in. o równych zasadach dla niemieckich firm działających w kraju. W czasie krótkiego przemówienia Merz zaapelował o uzdrowienie relacj",
-      "pubDate": "Wed, 25 Feb 2026 09:33:49 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/9_Mk9kpTURBXy9hZjI2OTJiMTk2NGMyYTgxNzg5YzYxMmE1YmZiNGU1OS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T09:33:49.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
       "title": "Analitycy PKO BP: Nie widać powrotu do boomu z lat 2020-21",
       "link": "https://www.bankier.pl/wiadomosc/Analitycy-PKO-BP-Nie-widac-powrotu-do-boomu-z-lat-2020-21-9088772.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Zakupy mieszkań na cele inwestycyjne w Polsce w dużej mierze finansowane są gotówką, ale to właśnie ten segment jest najbardziej wrażliwy na koszt kapitału – wynika z raportu PKO BP. Bank ocenia, że nie widać perspektyw szybkiego powrotu boomu z lat 2020–2021.",
@@ -310,66 +646,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/1/8a8fe86611aad9-948-568-0-271-3872-2323.jpg",
       "dateISO": "2026-02-25T09:32:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Polska goni Wielką Brytanię. Prognozy są jednoznaczne",
-      "link": "https://businessinsider.com.pl/gospodarka/polska-dogania-gospodarczo-wielka-brytanie-tak-mowia-prognozy/mejxyvx",
-      "description": "Polska coraz szybciej skraca dystans do najbogatszych gospodarek Europy, a według najnowszych prognoz już w kolejnych latach może realnie dogonić Wielką Brytanię pod względem PKB na mieszkańca. Obecne tempo wzrostu oraz struktura naszej gospodarki sprzyjają dalszemu zbliżaniu się do czołówki. Takie ",
-      "pubDate": "Wed, 25 Feb 2026 09:26:38 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/3Mck9kpTURBXy8wYjk1YjczMDgzODUwMmQxMDdkZTVkYmIzMjMzOGRkMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T09:26:38.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Meksyk nie wyklucza wznowienia dostaw ropy na Kubę",
-      "link": "https://www.bankier.pl/wiadomosc/Meksyk-nie-wyklucza-wznowienia-dostaw-ropy-na-Kube-9088780.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rząd Meksyku rozważa możliwość wznowienia dostaw ropy naftowej na Kubę po decyzji Sądu Najwyższego USA, który w zeszłym tygodniu uznał globalne cła nałożone przez administrację Donalda Trumpa za nielegalne - poinformował dziennik „El Sol de Mexico”.",
-      "pubDate": "Wed, 25 Feb 2026 10:26:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/c/c7b83a21f2f329-948-568-0-170-3990-2393.jpg",
-      "dateISO": "2026-02-25T09:26:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Podpisze czy nie? Karol Nawrocki zabrał głos w sprawie kluczowej ustawy",
-      "link": "https://businessinsider.com.pl/gospodarka/ustawa-o-safe-czy-prezydent-ja-podpisze-karol-nawrocki-zabral-glos/56jbr87",
-      "description": "— To olbrzymi dług, który będzie spłacany przez państwo polskie przez dziesięciolecia — tak o programie SAFE mówił w środę prezydent Karol Nawrocki. Zwrócił się też bezpośrednio do przedstawicieli rządu, którzy liczą na szybkie przeprocedowanie ustawy i podpis głowy państwa.",
-      "pubDate": "Wed, 25 Feb 2026 09:15:53 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/vcQk9kpTURBXy8yOTNkNzhiOGE4MmE4ZGY3ODI5ZTNjOTE2NThhN2E1NS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T09:15:53.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Co się dzieje z cenami ropy przed kluczowym spotkaniem? \"Ryzyko bardzo realne\"",
-      "link": "https://businessinsider.com.pl/gielda/surowce/cena-ropy-naftowej-przed-kluczowym-spotkaniem-ryzyko-bardzo-realne/sbp25bf",
-      "description": "\"Ryzyko podjęcia działań pozostaje bardzo realne\" — tak o eskalacji konfliktu na Bliskim Wschodzie mówią specjaliści od surowców. W czwartek w tej sprawie będą rozmawiać przedstawiciele USA i Iranu. Kwestia ta jest kluczowa dla kształtowania się cen ropy naftowej. W ostatnim tygodniu zapasy ropy w U",
-      "pubDate": "Wed, 25 Feb 2026 09:14:13 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/AIdk9kpTURBXy81YjI0NmI2NTFjNmU5NmU5ZGE0NDY1NTRmZTdkNDk2OC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T09:14:13.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "W oczekiwaniu na rating Polski złoty dotrzymuje kroku euro i dolarowi",
-      "link": "https://www.bankier.pl/wiadomosc/W-oczekiwaniu-na-rating-Polski-zloty-dotrzymuje-kroku-euro-i-dolarowi-9088773.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Notowania euro i dolara w parze z polską walutą są odbiciem tego, co się dzieje na eurodolarze, który w ostatnich godzinach reagował głównie na wystąpienie prezydenta USA Donalda Trumpa w amerykańskim Kongresie. Zmiany były jednak niewielkie i środowy poranek kontynuuje stabilizację kursów głównych ",
-      "pubDate": "Wed, 25 Feb 2026 10:14:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/0/eeb76e6b577356-948-568-210-230-3790-2273.jpg",
-      "dateISO": "2026-02-25T09:14:00.000Z",
       "dateFormatted": "25 lutego 2026"
     },
     {
@@ -397,18 +673,6 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
-      "title": "TDJ Estate kupi grunt w Warszawie. Powstanie tam ok. 250 mieszkań",
-      "link": "https://www.bankier.pl/wiadomosc/TDJ-Estate-kupi-grunt-w-Warszawie-Powstanie-tam-ok-250-mieszkan-9088761.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "TDJ Estate zawarł warunkową przedwstępną umowę zakupu gruntu na warszawskiej Białołęce. Wartość transakcji wynosi 41 mln zł. Nabycie nieruchomości umożliwi realizację inwestycji mieszkaniowej obejmującej ok. 250 lokali - podała spółka w komunikacie prasowym.",
-      "pubDate": "Wed, 25 Feb 2026 09:56:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/a/6a3455a5f212a5-948-568-0-19-1996-1197.jpg",
-      "dateISO": "2026-02-25T08:56:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
       "title": "Iran odpowiada Trumpowi. „To seria wielkich kłamstw”",
       "link": "https://www.bankier.pl/wiadomosc/Iran-odpowiada-Trumpowi-To-seria-wielkich-klamstw-9088752.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Rzecznik MSZ Iranu Esmail Bagei odrzucił w środę oskarżenia administracji USA dotyczące irańskiego programu rakietowego, programu nuklearnego oraz liczby osób zabitych przez siły bezpieczeństwa podczas tłumienia styczniowych protestów jako „powtarzanie serii wielkich kłamstw”.",
@@ -421,30 +685,6 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
-      "title": "Ogromny wzrost rachunków za gaz na jednym z osiedli na Pomorzu. \"Niektórzy muszą wybierać: albo opłaty, albo jedzenie\"",
-      "link": "https://businessinsider.com.pl/wiadomosci/rachunki-za-cieplo-w-skorczu-ogromnie-wzrosly-niektorzy-musza-wybierac/g9819z8",
-      "description": "Mieszkańców jednego z osiedli w Skórczu (woj. pomorskie) zaskoczyły ogromne rachunki za gaz. Opłaty w krótkim czasie wzrosły o nawet 1 tys. zł, z czym ciężko jest sobie poradzić mieszkańcom, wśród których znajdują się również emeryci i renciści. Osiedle jest podłączone do elektrociepłowni, której gł",
-      "pubDate": "Wed, 25 Feb 2026 08:42:14 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/EXXk9kpTURBXy83MjI3ZDM0MGUyMmFhMmRiZmJiZmMyNGQzNDhmZjQ0MS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T08:42:14.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Fatalne dane dla niemieckiej gospodarki. Wyniki zaskoczyły ekspertów",
-      "link": "https://businessinsider.com.pl/gospodarka/niemcy-maja-problem-z-deficytem-budzetowym-dane-sa-dla-nich-fatalne/tvq7r47",
-      "description": "Niemiecki Federalny Urząd Statystyczny opublikował dane dotyczące przychodów i wydatków tamtejszego rządu za ostatni rok. \"Wyniki są zaskakujące\" — pisze agencja prasowa dpa. Jak się okazuje, luki w budżecie są znacznie większe, niż pierwotnie przewidywano. Deficyt w budżecie w 2025 r. był o około 4",
-      "pubDate": "Wed, 25 Feb 2026 08:32:06 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/EfHk9kpTURBXy9iMGJjN2IzN2YzZWRlN2NkNTk1MTk5NGM2NjhkZDU1My5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T08:32:06.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
       "title": "Nowy podatek zdrowotny w Polsce? Minister ucina spekulacje. „To idea Lewicy”",
       "link": "https://www.bankier.pl/wiadomosc/Nowy-podatek-zdrowotny-w-Polsce-Minister-ucina-spekulacje-To-idea-Lewicy-9088729.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Propozycja zastąpienia składki zdrowotnej 12-proc. podatkiem zdrowotnym jest inicjatywą Lewicy i nie stanowi projektu rządu – powiedział w środę na antenie Polsat News minister finansów i gospodarki Andrzej Domański.",
@@ -454,54 +694,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/8/3/decc7593484b99-948-568-30-89-2970-1781.jpg",
       "dateISO": "2026-02-25T08:29:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Sześć osób zatrzymanych ws. wspierania produkcji dronów bojowych",
-      "link": "https://www.bankier.pl/wiadomosc/Szesc-osob-zatrzymanych-ws-wspierania-produkcji-dronow-bojowych-9088723.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Służby zatrzymały sześć osób w śledztwie dotyczącym naruszenia ustawy sankcyjnej. Zapobiegły też próbie nielegalnego przerzutu do Rosji - przez Białoruś - urządzenia służącego do produkcji podzespołów wykorzystywanych m.in. do montażu dronów bojowych.",
-      "pubDate": "Wed, 25 Feb 2026 09:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/a/572715deb8945c-945-560-8-451-3534-2120.jpg",
-      "dateISO": "2026-02-25T08:20:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Niż demograficzny mocno uderza w oświatę. Fatalna sytuacja ze szkołami w całej Polsce",
-      "link": "https://businessinsider.com.pl/gospodarka/szkoly-i-przedszkola-znikaja-z-mapy-polski-rodzice-szykuja-protesty/1qyw1jj",
-      "description": "Już tylko do końca lutego samorządy mają czas na podjęcie decyzji dotyczących wygaszania lub likwidacji szkół oraz przedszkoli — informuje RMF FM. Powodem tych działań jest malejąca liczba dzieci, co prowadzi do coraz większych trudności finansowych w utrzymaniu placówek. Sytuacja wywołuje liczne pr",
-      "pubDate": "Wed, 25 Feb 2026 08:19:48 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/6aRk9kpTURBXy8wODQ3ZDg1MTcyYTdkYmZhZmJhZTg5MWJjOWJjYTkxNC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T08:19:48.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Merz apeluje w Pekinie o sprawiedliwe relacje handlowe. Pojechał tam z szefami motoryzacyjnych gigantów",
-      "link": "https://www.bankier.pl/wiadomosc/Merz-apeluje-w-Pekinie-o-sprawiedliwe-relacje-handlowe-Pojechal-tam-z-szefami-motoryzacyjnych-gigantow-9088716.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Kanclerz Niemiec Friedrich Merz wezwał w środę do uzdrowienia relacji handlowych z Chinami. Podczas swej pierwszej wizyty w Pekinie od objęcia stanowiska szefa rządu, Merz rozmawiał z premierem Li Qiangiem m.in. o równych zasadach dla niemieckich firm działających w ChRL.",
-      "pubDate": "Wed, 25 Feb 2026 09:15:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/a/09e5feb8263d4e-948-568-40-290-3960-2375.jpg",
-      "dateISO": "2026-02-25T08:15:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Szef NBP jednak przed Trybunałem Stanu? \"Z niczego się nie wycofujemy\"",
-      "link": "https://www.bankier.pl/wiadomosc/Szef-NBP-jednak-przed-Trybunalem-Stanu-Z-niczego-sie-nie-wycofujemy-9088707.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Koalicja Obywatelska nie zrezygnowała z planów postawienia prezesa NBP przed Trybunałem Stanu - poinformował w Polsat News minister finansów i gospodarki Andrzej Domański.",
-      "pubDate": "Wed, 25 Feb 2026 08:55:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/a/aab21a9602203e-948-568-0-0-4415-2649.jpg",
-      "dateISO": "2026-02-25T07:55:00.000Z",
       "dateFormatted": "25 lutego 2026"
     },
     {
@@ -529,18 +721,6 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
-      "title": "Jest się czego bać? Ludzie biznesu i ekonomii oceniają viralowy raport wieszczący krach",
-      "link": "https://businessinsider.com.pl/gospodarka/czystej-postaci-bzduraczy-niedoceniane-ryzyko-liderzy-biznesu-komentuja-viralowy/yk0ypmy",
-      "description": "Raport badawczy przygotowany przez Citrini Research ostrzega przed krachem na giełdzie i dwucyfrowym bezrobociem w USA do 2028 r. Notatka szybko stała się viralem i doprowadziła do spadków akcji spółek software’owych, jeszcze bardziej niepokojąc rynek. \"I myślicie, że to ja jestem pesymistą\" — skome",
-      "pubDate": "Wed, 25 Feb 2026 07:02:55 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/V_vk9kpTURBXy83ODEzNDc2M2FiN2QyZDEyNDUzMmU4NGIwNmFkYTQ1MC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T07:02:55.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
       "title": "40 tys. elektryków do naprawy. „Ogranicz ładowanie i nie parkuj przy budynkach”",
       "link": "https://www.bankier.pl/wiadomosc/40-tys-elektrykow-do-naprawy-Ogranicz-ladowanie-i-nie-parkuj-przy-budynkach-9088695.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W ponad 40 tys. egzemplarzach Volvo EX30 może dochodzić do przegrzewania się akumulatorów, które w skrajnych przypadkach może prowadzić do pożarów – informuje agencja Reutera. Przed wymianą producent zaleca ograniczenie ładowania i parkowanie z dala od budynków.",
@@ -550,18 +730,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/9/a/532aede0ce8c82-948-568-0-103-1980-1187.jpg",
       "dateISO": "2026-02-25T06:55:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Polska stworzy reaktor modułowy. Minister energii ogłosił podpisanie umowy w USA",
-      "link": "https://businessinsider.com.pl/gospodarka/polska-z-wlasnym-projektem-jadrowym-historyczna-umowa-w-usa-podpisana/nhjs35e",
-      "description": "Przebywający z wizytą w USA minister energii Miłosz Motyka poinformował, że w amerykańskim Departamencie Energii została podpisana we wtorek umowa dotycząca opracowania polskiego projektu małego reaktora modułowego. Powiedział też, kiedy taki mniejszy typ reaktora jądrowego mógłby zostać włączony do",
-      "pubDate": "Wed, 25 Feb 2026 06:52:55 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/vJqk9kpTURBXy82YzBkZjlhYjg3MzIwOGEwN2EyNTgwMTdkZDEzZjQ3ZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-25T06:52:55.000Z",
       "dateFormatted": "25 lutego 2026"
     },
     {
@@ -577,42 +745,6 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
-      "title": "„Tylko 1,20 zł za wypłatę. To stawka z 2010 roku”. Planet Cash o sporze wokół bankomatów i Blika",
-      "link": "https://www.bankier.pl/wiadomosc/Tylko-1-20-zl-za-wyplate-To-stawka-z-2010-roku-Planet-Cash-o-sporze-wokol-bankomatow-i-Blika-9088694.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Biuro prasowe firmy IT Card tłumaczy, dlaczego wprowadza ograniczenia w wypłatach Blikiem z bankomatów Planet Cash. Zdaniem firmy, Polski Standard Płatności płaci operatorom bankomatów za wypłatę gotówki przez klienta 1,20 zł – niezależnie od kwoty wypłaty. „To stawka z 2010 roku” – tłumaczą przedst",
-      "pubDate": "Wed, 25 Feb 2026 07:35:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/7/8851775e49d7a7-948-568-316-238-1104-662.jpg",
-      "dateISO": "2026-02-25T06:35:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Siedem organizacji startupowych z Polski w rankingu „Financial Times”. „To historyczny wynik”",
-      "link": "https://www.bankier.pl/wiadomosc/Siedem-organizacji-startupowych-z-Polski-w-rankingu-Financial-Times-To-historyczny-wynik-9088687.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W tegorocznym rankingu organizacji startupowych „Financial Times” znalazło się siedem podmiotów z Polski. Od 2024 r., czyli pierwszej edycji zestawienia, rośnie liczba organizacji startupowych z Polski - zauważyła organizacja Startup Hub Poland.",
-      "pubDate": "Wed, 25 Feb 2026 07:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/c/c82becd0109f6c-948-568-0-162-992-595.jpg",
-      "dateISO": "2026-02-25T06:30:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Prezydent Stubb: W najbliższej przyszłości na Ukrainie nie będzie pokoju",
-      "link": "https://www.bankier.pl/wiadomosc/Prezydent-Stubb-W-najblizszej-przyszlosci-na-Ukrainie-nie-bedzie-pokoju-9088634.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W najbliższej przyszłości nie przyjdzie nam zobaczyć pokoju na Ukrainie - powiedział prezydent Finlandii Alexander Stubb, który we wtorek, w czwartą rocznicę napaści Rosji, odwiedził Kijów.",
-      "pubDate": "Wed, 25 Feb 2026 07:12:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/9/fecbda38dc434f-948-567-80-340-1135-680.jpg",
-      "dateISO": "2026-02-25T06:12:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
       "title": "Ranking prezesów GPW. Przetasowania na szczycie i miliardowy regres",
       "link": "https://www.bankier.pl/wiadomosc/Ranking-prezesow-GPW-Przetasowania-na-szczycie-i-miliardowy-regres-9088641.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Prezes Santander Bank Polska Michał Gajewski już po raz trzeci otwiera ranking najwyżej wycenianych szefów spółek z GPW. W czołówce doszło do wielu roszad – czytamy w środę w „Rzeczpospolitej”.",
@@ -625,18 +757,6 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
-      "title": "Koniec samochodów „Made in UE”? Koncerny uciekają do Azji. Polska branża bije na alarm",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-samochodow-Made-in-UE-Koncerny-uciekaja-do-Azji-Polska-branza-bije-na-alarm-9088658.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Koncerny samochodowe chcą w coraz większym stopniu korzystać z komponentów spoza UE, co uderza w europejskie, w tym polskie zakłady - powiedział PAP prezes stowarzyszenia producentów części Tomasz Bęben. Wskazał, że auto „made in UE” powinno składać się w co najmniej 75 proc. z części europejskich.",
-      "pubDate": "Wed, 25 Feb 2026 06:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/0/f47db365c8893e-948-568-0-109-4000-2399.jpg",
-      "dateISO": "2026-02-25T05:50:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
       "title": "Janusz Krypto: blockchain, czyli bank bez banku i górnik z kartą graficzną. Jak działa bitcoin?",
       "link": "https://www.bankier.pl/wiadomosc/Janusz-Krypto-blockchain-czyli-bank-bez-banku-i-gornik-z-karta-graficzna-Jak-dziala-bitcoin-9085446.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Blockchain i bitcoin - wszyscy o nich mówią, ale mało kto rozumie, a jeszcze mniej potrafi wyjaśnić ich działanie w prosty sposób. Dziś zejdę do cyfrowej krypty, by dowiedzieć się, o co w tym wszystkim chodzi. Postaram się ustalić, na czym polega kopanie kryptowalut, czy komputery kwantowe zniszczą ",
@@ -645,30 +765,6 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/c/8/c40c447b9fcaba-948-568-0-602-3286-1971.jpg",
-      "dateISO": "2026-02-25T05:00:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Odprawa i urlop bez podatku? Kluczowy jest moment przejścia na emeryturę",
-      "link": "https://www.bankier.pl/wiadomosc/Seniorzy-moga-odzyskac-podatek-Odprawa-i-urlop-bez-PIT-pod-jednym-warunkiem-9088211.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Odprawa emerytalna, ekwiwalent za niewykorzystany urlop, a nawet nagroda jubileuszowa mogą być zwolnione z podatku. Warunek jest jeden. Świadczenie musi zostać wypłacone przed rozpoczęciem pobierania emerytury. Sprawdzamy, kto i ile może zyskać na uldze dla pracujących seniorów.",
-      "pubDate": "Wed, 25 Feb 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/7/c64518cf241324-948-568-0-256-3801-2280.jpg",
-      "dateISO": "2026-02-25T05:00:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "To nie AI zabierze pracę. Zrobi to ktoś, kto szybciej się uczy",
-      "link": "https://www.bankier.pl/wiadomosc/Bez-nauki-nowych-umiejetnosci-nie-bedzie-pracy-I-to-wcale-nie-jest-wina-AI-9088371.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zdolność szybkiego uczenia się, adaptacji do nowych technologii i łączenia kompetencji cyfrowych z miękkimi to atuty, które będą decydowały o sukcesie w 2026 r. – wynika z opublikowanych dziś wyników badania Manpower „Raport płacowy 2026. Trendy rynku pracy – Przewaga człowieka”. Zdaniem ekspertów p",
-      "pubDate": "Wed, 25 Feb 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/3/5286f5e7a0de06-948-568-0-35-1784-1070.jpg",
       "dateISO": "2026-02-25T05:00:00.000Z",
       "dateFormatted": "25 lutego 2026"
     },
@@ -685,51 +781,15 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
-      "title": "Rozliczasz PIT? Uważaj na oszustów. Oto ich metody",
-      "link": "https://www.bankier.pl/wiadomosc/Rozliczanie-PIT-uwazaj-na-oszustow-Oto-ich-metody-9088386.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ruszyła machina rozliczeń PIT za ubiegły rok. Wraz z nią uaktywnili się przestępcy czyhający na nasze pieniądze. Aby zwiększyć swoją skuteczność, korzystają z wielu metod, m.in. reklamują się jako doradcy, dzwonią, wysyłają maile. Warto zachować szczególną ostrożność, inaczej można stracić pieniądze",
+      "title": "To nie AI zabierze pracę. Zrobi to ktoś, kto szybciej się uczy",
+      "link": "https://www.bankier.pl/wiadomosc/Bez-nauki-nowych-umiejetnosci-nie-bedzie-pracy-I-to-wcale-nie-jest-wina-AI-9088371.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zdolność szybkiego uczenia się, adaptacji do nowych technologii i łączenia kompetencji cyfrowych z miękkimi to atuty, które będą decydowały o sukcesie w 2026 r. – wynika z opublikowanych dziś wyników badania Manpower „Raport płacowy 2026. Trendy rynku pracy – Przewaga człowieka”. Zdaniem ekspertów p",
       "pubDate": "Wed, 25 Feb 2026 06:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/2/85e6bda363280f-948-568-3-72-1180-708.jpg",
+      "image": "http://galeria.bankier.pl/p/7/3/5286f5e7a0de06-948-568-0-35-1784-1070.jpg",
       "dateISO": "2026-02-25T05:00:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Chorwacka alternatywa do \"Przyjaźni\". \"Wasze bezpieczeństwo energetyczne nie jest zagrożone\"",
-      "link": "https://www.bankier.pl/wiadomosc/Chorwacka-alternatywa-do-Przyjazni-Wasze-bezpieczenstwo-energetyczne-nie-jest-zagrozone-9088660.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Premier Chorwacji Andrej Plenković zapewnił władze Węgier i Słowacji, że mogą pozyskać potrzebną im energię i ropę naftową za pośrednictwem infrastruktury jego kraju - przekazała chorwacka telewizja N1. Szef chorwackiego rządu złożył tę deklarację podczas wtorkowej wizyty w Kijowie.",
-      "pubDate": "Wed, 25 Feb 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/0/11fc015d9e2d4b-948-568-0-73-1723-1033.jpg",
-      "dateISO": "2026-02-25T05:00:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "Prawo jazdy zabiorą tak szybko, jak szybko jeżdżą piraci drogowi. Rewolucja w przepisach",
-      "link": "https://www.bankier.pl/wiadomosc/Prawo-jazdy-zabiora-tak-szybko-jak-szybko-jezdza-piraci-drogowi-Rewolucja-w-przepisach-9088650.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Od przyszłego tygodnia wejdą w życie przepisy pozwalające na zatrzymywanie prawa jazdy za przekroczenie dopuszczalnej prędkości o więcej niż 50 km/h na drodze jednojezdniowej dwukierunkowej poza obszarem zabudowanym. Inną zmianą jest umożliwienie kierowania samochodami od 17 roku życia.",
-      "pubDate": "Wed, 25 Feb 2026 05:31:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/d/5a402431b594cf-948-568-0-0-3600-2159.jpg",
-      "dateISO": "2026-02-25T04:31:00.000Z",
-      "dateFormatted": "25 lutego 2026"
-    },
-    {
-      "title": "18 godzin zamachu, które mogły zmienić Hiszpanię. Rząd odtajnia archiwa MSZ i MON",
-      "link": "https://www.bankier.pl/wiadomosc/18-godzin-zamachu-ktore-mogly-zmienic-Hiszpanie-Rzad-odtajnia-archiwa-MSZ-i-MON-9088637.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rząd Hiszpanii odtajnił na wtorkowym posiedzeniu dokumenty związane z nieudanym zamachem stanu z 23 lutego 1981 r., który był próbą przerwania transformacji demokratycznej kraju po śmierci gen. Francisco Franco w listopadzie 1975 roku.",
-      "pubDate": "Wed, 25 Feb 2026 03:41:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/4/b21a28e45acc29-948-568-214-627-2704-1622.jpg",
-      "dateISO": "2026-02-25T02:41:00.000Z",
       "dateFormatted": "25 lutego 2026"
     },
     {
@@ -742,42 +802,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/3/c/51dd39e408ba28-948-568-25-56-2022-1213.jpg",
       "dateISO": "2026-02-24T21:49:00.000Z",
-      "dateFormatted": "24 lutego 2026"
-    },
-    {
-      "title": "USA wstrzymały się od głosu. Zaskoczenie w ONZ ws. pokoju w Ukrainie",
-      "link": "https://www.bankier.pl/wiadomosc/USA-wstrzymaly-sie-od-glosu-Zaskoczenie-w-ONZ-ws-pokoju-w-Ukrainie-9088603.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zgromadzenie Ogólne ONZ we wtorek przyjęło rezolucję „Wsparcie na rzecz trwałego pokoju w Ukrainie”, wzywającą do natychmiastowego, całkowitego i bezwarunkowego rozejmu między Rosją i Ukrainą. USA wstrzymały się od głosu.",
-      "pubDate": "Tue, 24 Feb 2026 21:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/f/b42fb60e6c3338-948-568-0-261-1744-1046.jpg",
-      "dateISO": "2026-02-24T20:30:00.000Z",
-      "dateFormatted": "24 lutego 2026"
-    },
-    {
-      "title": "JSW, PGG i Węglokoks z rekordami osłon górniczych. Setki milionów zł pójdą na odprawy i urlopy w 2026 r.",
-      "link": "https://www.bankier.pl/wiadomosc/JSW-PGG-i-Weglokoks-z-rekordami-oslon-gorniczych-Setki-milionow-zl-pojda-na-odprawy-i-urlopy-w-2026-r-9088599.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W tym roku planowane jest objęcie ponad 8,2 tys. osób instrumentami osłonowymi wynikającymi ze znowelizowanej ustawy górniczej - poinformował we wtorek w Sejmie wiceminister energii Konrad Wojnarowski.",
-      "pubDate": "Tue, 24 Feb 2026 21:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/3/76770fa3f1abe2-948-568-0-288-1920-1151.jpg",
-      "dateISO": "2026-02-24T20:10:00.000Z",
-      "dateFormatted": "24 lutego 2026"
-    },
-    {
-      "title": "Koniec \"rosyjskiej swobody\" w sieci? Rosja spowalnia Telegram i wszczyna śledztwo",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-rosyjskiej-swobody-w-sieci-Rosja-spowalnia-Telegram-i-wszczyna-sledztwo-9088597.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rosja wszczęła przeciwko mnie śledztwo pod zarzutem „popierania terroryzmu” i kontynuuje swoje działania wymierzone w prywatność oraz wolność słowa - poinformował na platformach społecznościowych twórca popularnego komunikatora Telegram Paweł Durow.",
-      "pubDate": "Tue, 24 Feb 2026 21:06:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/9/0cc8c5296cc96b-948-567-0-42-1000-599.jpg",
-      "dateISO": "2026-02-24T20:06:00.000Z",
       "dateFormatted": "24 lutego 2026"
     },
     {
@@ -911,31 +935,7 @@
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-02-21T18:13:58.000Z",
       "dateFormatted": "21 lutego 2026"
-    },
-    {
-      "title": "Bitcoin pod presją po Fed. Hayes: „Przygotuj drukarkę, Powell”",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-pod-presja-po-fed-hayes-przygotuj-drukarke-powell-1287708",
-      "description": "",
-      "pubDate": "2026-02-19 12:16:10",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": null,
-      "dateISO": "2026-02-19T12:16:10.000Z",
-      "dateFormatted": "19 lutego 2026"
-    },
-    {
-      "title": "Bitcoin spada poniżej 67 000 $ po jastrzębich sygnałach z Fed",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-ponizej-67-000--po-jastrzebich-sygnalach-z-fed-1287091",
-      "description": "",
-      "pubDate": "2026-02-19 06:46:06",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "dateISO": "2026-02-19T06:46:06.000Z",
-      "dateFormatted": "19 lutego 2026"
     }
   ],
-  "updatedAt": "2026-02-25T11:56:22.347Z"
+  "updatedAt": "2026-02-25T15:13:32.840Z"
 }
