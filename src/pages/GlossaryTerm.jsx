@@ -1,4 +1,4 @@
-import { useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useParams, useNavigate, Navigate } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import Icon from "../components/edukacja/Icon.jsx";
@@ -7,7 +7,6 @@ import GlossaryLiveData from "../components/edukacja/GlossaryLiveData.jsx";
 import GlossaryQuiz from "../components/edukacja/GlossaryQuiz.jsx";
 import DidYouKnow from "../components/edukacja/DidYouKnow.jsx";
 import GlossaryDiagram from "../components/edukacja/GlossaryDiagram.jsx";
-import glossaryData from "../data/glossary.json";
 
 const CATEGORY_LABELS = {
   "podstawy": "Podstawy",
@@ -20,10 +19,16 @@ export default function GlossaryTerm({ theme }) {
   const { slug } = useParams();
   const navigate = useNavigate();
   const isMobile = useIsMobile();
+  const [glossaryData, setGlossaryData] = useState(null);
 
-  const sorted = useMemo(() =>
-    [...glossaryData].sort((a, b) => a.term.localeCompare(b.term, "pl")),
-  []);
+  useEffect(() => {
+    import("../data/glossary.json").then(m => setGlossaryData(m.default));
+  }, []);
+
+  const sorted = useMemo(() => {
+    if (!glossaryData) return [];
+    return [...glossaryData].sort((a, b) => a.term.localeCompare(b.term, "pl"));
+  }, [glossaryData]);
 
   const currentIndex = sorted.findIndex(e => e.slug === slug);
   const entry = currentIndex >= 0 ? sorted[currentIndex] : null;
@@ -31,11 +36,11 @@ export default function GlossaryTerm({ theme }) {
   const next = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
 
   const relatedEntries = useMemo(() => {
-    if (!entry) return [];
+    if (!entry || !glossaryData) return [];
     return (entry.related || [])
       .map(r => glossaryData.find(e => e.slug === r))
       .filter(Boolean);
-  }, [entry]);
+  }, [entry, glossaryData]);
 
   // SEO: document title + meta description
   useEffect(() => {
@@ -77,6 +82,8 @@ export default function GlossaryTerm({ theme }) {
     };
   }, [entry]);
 
+  // Data still loading — show nothing until glossary is ready
+  if (!glossaryData) return null;
   if (!entry) return <Navigate to="/edukacja/slowniczek" replace />;
 
   return (

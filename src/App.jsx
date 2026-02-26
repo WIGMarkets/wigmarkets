@@ -17,9 +17,7 @@ import MarqueeTicker from "./components/MarqueeTicker.jsx";
 const LazyStockPageRoute = lazy(() =>
   import("./pages/StockDetailPage.jsx").then(m => ({ default: m.StockPageRoute }))
 );
-const LazyEdukacjaSlugRoute = lazy(() =>
-  import("./pages/StockDetailPage.jsx").then(m => ({ default: m.EdukacjaSlugRoute }))
-);
+const LazyEdukacjaSlugRoute = lazy(() => import("./pages/EdukacjaSlugPage.jsx"));
 const LazyDividendPage = lazy(() => import("./components/DividendPage.jsx"));
 const LazyFearGreedPage = lazy(() => import("./components/FearGreedPage.jsx"));
 const LazyNewsPage = lazy(() => import("./components/NewsPage.jsx"));

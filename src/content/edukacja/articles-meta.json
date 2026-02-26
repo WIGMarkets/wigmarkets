@@ -1,0 +1,1046 @@
+[
+  {
+    "slug": "analiza-techniczna-podstawy",
+    "title": "Analiza techniczna — podstawy dla początkujących",
+    "metaTitle": "Analiza techniczna giełda — podstawy i wskaźniki | WIGmarkets.pl",
+    "metaDescription": "Poznaj podstawy analizy technicznej: jak czytać wykresy, wskaźniki RSI, MACD, średnie kroczące. Praktyczny poradnik dla inwestorów GPW.",
+    "category": "analiza",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 14,
+    "featuredImage": "/images/edukacja/analiza-techniczna-podstawy.webp",
+    "featuredImageAlt": "Analiza techniczna — wykresy giełdowe i wskaźniki",
+    "tags": [
+      "analiza techniczna",
+      "RSI",
+      "MACD",
+      "wykresy giełdowe",
+      "średnie kroczące",
+      "GPW"
+    ],
+    "relatedSlugs": [
+      "wskaznik-pe",
+      "jak-czytac-wyniki-finansowe",
+      "wig20-mwig40-swig80",
+      "rodzaje-zlecen-gieldowych",
+      "wskazniki-fundamentalne-gpw"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź wskaźniki techniczne spółek GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "co-to-jest-gpw",
+    "title": "Co to jest GPW? Historia i zasady działania Giełdy Papierów Wartościowych",
+    "metaTitle": "Co to jest GPW? Giełda Papierów Wartościowych w Warszawie — historia i działanie | WIGmarkets.pl",
+    "metaDescription": "Dowiedz się czym jest GPW — Giełda Papierów Wartościowych w Warszawie. Historia od 1991 roku, sesja giełdowa, indeksy WIG, WIG20, mWIG40, regulacje KNF.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 13,
+    "featuredImage": "/images/edukacja/co-to-jest-gpw.webp",
+    "featuredImageAlt": "Budynek Giełdy Papierów Wartościowych w Warszawie",
+    "tags": [
+      "GPW",
+      "giełda",
+      "WIG20",
+      "historia",
+      "indeksy",
+      "KNF"
+    ],
+    "relatedSlugs": [
+      "jak-zaczac-inwestowac-na-gpw",
+      "wig20-mwig40-swig80",
+      "etf-na-gpw",
+      "jak-kupic-akcje-krok-po-kroku"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź aktualne notowania spółek GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "czym-jest-dywidenda",
+    "title": "Czym jest dywidenda i jak na niej zarabiać?",
+    "metaTitle": "Czym jest dywidenda? Poradnik inwestora GPW 2026",
+    "metaDescription": "Dywidenda krok po kroku: jak działa na GPW, jak obliczyć stopę dywidendową, daty ex-dividend, podatek Belki, IKE/IKZE, DRIP i budowa portfela dywidendowego.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-23",
+    "updatedDate": "2026-02-23",
+    "readingTime": 20,
+    "featuredImage": "/images/edukacja/czym-jest-dywidenda.webp",
+    "featuredImageAlt": "Schemat wypłaty dywidendy z portfelem akcji i rosnącym dochodem pasywnym na tle wykresu giełdowego",
+    "tags": [
+      "dywidenda",
+      "GPW",
+      "dochód pasywny",
+      "stopa dywidendowa",
+      "podatek Belki",
+      "IKE",
+      "IKZE",
+      "DRIP",
+      "portfel dywidendowy",
+      "podstawy inwestowania"
+    ],
+    "relatedSlugs": [
+      "spolki-dywidendowe-gpw",
+      "podatek-belki-pit-38",
+      "ike-vs-ikze",
+      "jak-budowac-portfel-inwestycyjny"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź kalendarz dywidend spółek GPW",
+    "ctaLink": "/dywidendy"
+  },
+  {
+    "slug": "etf-na-gpw",
+    "title": "ETF na GPW — co warto wiedzieć w 2026",
+    "metaTitle": "ETF na GPW — jak inwestować w fundusze ETF w Polsce 2026 | WIGmarkets.pl",
+    "metaDescription": "Dowiedz się czym są ETF-y, jakie ETF-y są dostępne na GPW, jak działają i dlaczego warto je uwzględnić w portfelu. Kompletny poradnik 2026.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 12,
+    "featuredImage": "/images/edukacja/etf-na-gpw.webp",
+    "featuredImageAlt": "ETF na GPW — fundusze indeksowe dostępne w Polsce",
+    "tags": [
+      "ETF",
+      "GPW",
+      "inwestowanie pasywne",
+      "Beta ETF",
+      "fundusze indeksowe",
+      "TER",
+      "WIG20"
+    ],
+    "relatedSlugs": [
+      "jak-zaczac-inwestowac-na-gpw",
+      "wig20-mwig40-swig80",
+      "najlepsze-konto-maklerskie",
+      "jak-budowac-portfel-inwestycyjny",
+      "ike-vs-ikze"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź notowania ETF-ów na GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "ike-vs-ikze",
+    "title": "IKE vs IKZE — różnice, limity i który wybrać w 2026",
+    "metaTitle": "IKE vs IKZE — różnice, limity i porównanie 2026",
+    "metaDescription": "IKE czy IKZE — co wybrać? Porównanie limitów wpłat, ulg podatkowych i warunków wypłaty w 2026 roku. Dowiedz się który rachunek emerytalny jest lepszy.",
+    "category": "strategia",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 14,
+    "featuredImage": "/images/edukacja/ike-vs-ikze.webp",
+    "featuredImageAlt": "Porównanie IKE i IKZE — konta emerytalne",
+    "tags": [
+      "IKE",
+      "IKZE",
+      "emerytura",
+      "oszczędzanie",
+      "ulga podatkowa"
+    ],
+    "relatedSlugs": [
+      "podatek-belki-pit-38",
+      "xtb-vs-mbank-vs-bossa",
+      "jak-budowac-portfel-inwestycyjny",
+      "etf-na-gpw"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Wybierz spółki do portfela emerytalnego",
+    "ctaLink": "/screener"
+  },
+  {
+    "slug": "ile-pieniedzy-zeby-zaczac",
+    "title": "Ile pieniędzy potrzebujesz, żeby zacząć inwestować",
+    "metaTitle": "Ile pieniędzy potrzeba do inwestowania na GPW? Minimum 2026 | WIGmarkets.pl",
+    "metaDescription": "Ile pieniędzy potrzebujesz żeby zacząć inwestować na giełdzie? Minimalne kwoty, prowizje i przykłady portfeli dla różnych budżetów.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 10,
+    "featuredImage": "/images/edukacja/ile-pieniedzy-zeby-zaczac.webp",
+    "featuredImageAlt": "Ile pieniędzy potrzeba do inwestowania na giełdzie",
+    "tags": [
+      "inwestowanie",
+      "budżet inwestycyjny",
+      "prowizje",
+      "DCA",
+      "IKE",
+      "IKZE",
+      "GPW",
+      "ETF"
+    ],
+    "relatedSlugs": [
+      "jak-zaczac-inwestowac-na-gpw",
+      "najlepsze-konto-maklerskie",
+      "etf-na-gpw",
+      "jak-kupic-akcje-krok-po-kroku",
+      "xtb-vs-mbank-vs-bossa"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Zacznij monitorować rynek GPW za darmo",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "inwestowanie-zloto-surowce",
+    "title": "Inwestowanie w złoto i surowce — czy warto w 2026?",
+    "metaTitle": "Inwestowanie w złoto i surowce 2026 | Poradnik GPW",
+    "metaDescription": "Jak inwestować w złoto i surowce w Polsce? Fizyczne złoto, ETF, KGHM, kontrakty terminowe. Ile złota w portfelu, ryzyka, podatki i najlepsze metody w 2026.",
+    "category": "strategia",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-23",
+    "updatedDate": "2026-02-23",
+    "readingTime": 14,
+    "featuredImage": "/images/edukacja/inwestowanie-zloto-surowce.webp",
+    "featuredImageAlt": "Sztabki złota obok wykresu cen surowców i portfela inwestycyjnego",
+    "tags": [
+      "złoto",
+      "surowce",
+      "inwestowanie",
+      "dywersyfikacja",
+      "GPW",
+      "KGHM",
+      "ETF"
+    ],
+    "relatedSlugs": [
+      "jak-budowac-portfel-inwestycyjny",
+      "etf-na-gpw",
+      "ile-pieniedzy-zeby-zaczac",
+      "ike-vs-ikze"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź spółki surowcowe na GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "jak-budowac-portfel-inwestycyjny",
+    "title": "Jak zbudować portfel inwestycyjny — dywersyfikacja i alokacja aktywów",
+    "metaTitle": "Jak zbudować portfel inwestycyjny — poradnik 2026",
+    "metaDescription": "Jak zbudować zdywersyfikowany portfel inwestycyjny? Poznaj zasady alokacji aktywów, modele portfeli i strategie rebalancingu dla inwestorów na GPW.",
+    "category": "strategia",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 15,
+    "featuredImage": "/images/edukacja/portfel-inwestycyjny.webp",
+    "featuredImageAlt": "Budowanie portfela inwestycyjnego — dywersyfikacja",
+    "tags": [
+      "portfel",
+      "dywersyfikacja",
+      "alokacja aktywów",
+      "strategia",
+      "ryzyko"
+    ],
+    "relatedSlugs": [
+      "etf-na-gpw",
+      "obligacje-skarbowe-2026",
+      "ike-vs-ikze",
+      "spolki-dywidendowe-gpw"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Dobierz spółki do portfela z naszym screenerem",
+    "ctaLink": "/screener"
+  },
+  {
+    "slug": "jak-czytac-wyniki-finansowe",
+    "title": "Jak czytać wyniki finansowe spółki giełdowej",
+    "metaTitle": "Jak czytać wyniki finansowe spółki — analiza bilansu | WIGmarkets.pl",
+    "metaDescription": "Naucz się czytać sprawozdania finansowe spółek GPW: bilans, rachunek zysków i strat, cash flow. Poradnik dla inwestora indywidualnego.",
+    "category": "analiza",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 16,
+    "featuredImage": "/images/edukacja/jak-czytac-wyniki-finansowe.webp",
+    "featuredImageAlt": "Sprawozdania finansowe spółek giełdowych — bilans i rachunek zysków",
+    "tags": [
+      "wyniki finansowe",
+      "bilans",
+      "rachunek zysków i strat",
+      "cash flow",
+      "EBITDA",
+      "GPW",
+      "analiza fundamentalna"
+    ],
+    "relatedSlugs": [
+      "wskaznik-pe",
+      "spolki-dywidendowe-gpw",
+      "analiza-techniczna-podstawy",
+      "sezon-wynikow-gpw",
+      "wskazniki-fundamentalne-gpw"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź wskaźniki finansowe spółek GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "jak-dziala-sesja-gieldowa",
+    "title": "Jak działa sesja giełdowa — fazy notowań krok po kroku",
+    "metaTitle": "Sesja giełdowa GPW — fazy notowań i godziny handlu",
+    "metaDescription": "Poznaj fazy sesji giełdowej na GPW: pre-opening, fixing, notowania ciągłe, dogrywka. Godziny handlu, mechanizm kojarzenia zleceń i wskazówki dla inwestorów.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-23",
+    "updatedDate": "2026-02-23",
+    "readingTime": 9,
+    "featuredImage": "/images/edukacja/jak-dziala-sesja-gieldowa.webp",
+    "featuredImageAlt": "Schemat faz sesji giełdowej na GPW z osią czasu od otwarcia do zamknięcia",
+    "tags": [
+      "sesja giełdowa",
+      "GPW",
+      "notowania ciągłe",
+      "fixing",
+      "fazy notowań",
+      "godziny handlu",
+      "podstawy giełdy"
+    ],
+    "relatedSlugs": [
+      "jak-kupic-akcje-krok-po-kroku",
+      "rodzaje-zlecen-gieldowych",
+      "co-to-jest-gpw"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź aktualne notowania spółek GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "jak-kupic-akcje-krok-po-kroku",
+    "title": "Jak kupić akcje na GPW — krok po kroku dla początkujących",
+    "metaTitle": "Jak kupić akcje na GPW — poradnik krok po kroku 2026",
+    "metaDescription": "Dowiedz się jak kupić pierwsze akcje na Giełdzie Papierów Wartościowych krok po kroku. Od otwarcia konta maklerskiego po złożenie pierwszego zlecenia na GPW.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 14,
+    "featuredImage": "/images/edukacja/jak-kupic-akcje.webp",
+    "featuredImageAlt": "Jak kupić akcje na GPW krok po kroku",
+    "tags": [
+      "akcje",
+      "GPW",
+      "kupno akcji",
+      "poradnik",
+      "początkujący"
+    ],
+    "relatedSlugs": [
+      "xtb-vs-mbank-vs-bossa",
+      "jak-zaczac-inwestowac-na-gpw",
+      "rodzaje-zlecen-gieldowych",
+      "ile-pieniedzy-zeby-zaczac"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Znajdź spółkę do kupienia w naszym screenerze",
+    "ctaLink": "/screener"
+  },
+  {
+    "slug": "jak-zaczac-inwestowac-na-gpw",
+    "title": "Jak zacząć inwestować na giełdzie — poradnik 2026",
+    "metaTitle": "Jak zacząć inwestować na giełdzie GPW? Poradnik 2026 | WIGmarkets.pl",
+    "metaDescription": "Dowiedz się jak zacząć inwestować na GPW krok po kroku. Poradnik dla początkujących — konto maklerskie, pierwsza transakcja, podstawowe strategie.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 15,
+    "featuredImage": "/images/edukacja/jak-zaczac.webp",
+    "featuredImageAlt": "Osoba analizująca wykresy giełdowe na komputerze",
+    "tags": [
+      "początkujący",
+      "GPW",
+      "poradnik",
+      "konto maklerskie"
+    ],
+    "relatedSlugs": [
+      "co-to-jest-gpw",
+      "najlepsze-konto-maklerskie",
+      "ile-pieniedzy-zeby-zaczac",
+      "jak-kupic-akcje-krok-po-kroku",
+      "xtb-vs-mbank-vs-bossa"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź aktualne notowania spółek na GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "kontrakty-terminowe",
+    "title": "Czym są kontrakty terminowe i jak działają na GPW?",
+    "metaTitle": "Kontrakty terminowe GPW — jak działają? Poradnik",
+    "metaDescription": "Dowiedz się czym są kontrakty terminowe, jak działa FW20, system depozytów zabezpieczających, dźwignia i rozliczenie. Praktyczny poradnik inwestora GPW.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-23",
+    "updatedDate": "2026-02-23",
+    "readingTime": 21,
+    "featuredImage": "/images/edukacja/kontrakty-terminowe.webp",
+    "featuredImageAlt": "Kontrakty terminowe na GPW — futures, dźwignia i hedging",
+    "tags": [
+      "kontrakty terminowe",
+      "futures",
+      "GPW",
+      "derywaty",
+      "hedging"
+    ],
+    "relatedSlugs": [
+      "rodzaje-zlecen-gieldowych",
+      "analiza-techniczna-podstawy",
+      "co-to-jest-gpw"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź narzędzia do analizy spółek GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "momentum-investing",
+    "title": "Momentum investing — jak zarabiać na trendach",
+    "metaTitle": "Momentum investing — zarabianie na trendach GPW",
+    "metaDescription": "Poznaj strategię momentum investing: jak mierzyć momentum, wskaźniki ROC, RSI, MACD, dual momentum Gary'ego Antonacciego i praktyczne zastosowanie na GPW.",
+    "category": "strategia",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-23",
+    "updatedDate": "2026-02-23",
+    "readingTime": 16,
+    "featuredImage": "/images/edukacja/momentum-investing.webp",
+    "featuredImageAlt": "Momentum investing — wykres trendu wzrostowego z dynamicznymi wskaźnikami",
+    "tags": [
+      "momentum",
+      "trend following",
+      "strategia",
+      "GPW",
+      "analiza techniczna"
+    ],
+    "relatedSlugs": [
+      "analiza-techniczna-podstawy",
+      "srednie-kroczace-sma-ema",
+      "wskaznik-rsi",
+      "jak-budowac-portfel-inwestycyjny"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Znajdź spółki z silnym momentum w screenerze",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "najlepsze-aplikacje-do-inwestowania",
+    "title": "Najlepsze aplikacje do inwestowania w Polsce — ranking 2026",
+    "metaTitle": "Najlepsze aplikacje do inwestowania — ranking 2026",
+    "metaDescription": "Ranking najlepszych aplikacji do inwestowania w Polsce 2026. XTB, mBank, Bossa, Revolut i eToro — porównanie prowizji, UX i dostępnych rynków.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 15,
+    "featuredImage": "/images/edukacja/aplikacje-inwestowanie.webp",
+    "featuredImageAlt": "Najlepsze aplikacje do inwestowania w Polsce",
+    "tags": [
+      "aplikacje",
+      "inwestowanie",
+      "XTB",
+      "Revolut",
+      "eToro",
+      "mBank",
+      "ranking"
+    ],
+    "relatedSlugs": [
+      "xtb-vs-mbank-vs-bossa",
+      "jak-kupic-akcje-krok-po-kroku",
+      "najlepsze-konto-maklerskie",
+      "jak-zaczac-inwestowac-na-gpw"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Analizuj spółki przed inwestycją na WIGmarkets",
+    "ctaLink": "/screener"
+  },
+  {
+    "slug": "najlepsze-konto-maklerskie",
+    "title": "Najlepsze konto maklerskie 2026 — porównanie",
+    "metaTitle": "Najlepsze konto maklerskie w Polsce 2026 — ranking | WIGmarkets.pl",
+    "metaDescription": "Porównanie najlepszych kont maklerskich w Polsce 2026. Prowizje, platformy, IKE/IKZE — który broker wybrać na GPW i giełdy zagraniczne?",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 13,
+    "featuredImage": "/images/edukacja/konto-maklerskie.webp",
+    "featuredImageAlt": "Porównanie kont maklerskich w Polsce",
+    "tags": [
+      "konto maklerskie",
+      "broker",
+      "GPW",
+      "IKE",
+      "IKZE",
+      "prowizje"
+    ],
+    "relatedSlugs": [
+      "jak-zaczac-inwestowac-na-gpw",
+      "ile-pieniedzy-zeby-zaczac",
+      "etf-na-gpw",
+      "xtb-vs-mbank-vs-bossa",
+      "najlepsze-aplikacje-do-inwestowania"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź notowania spółek GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "newconnect-rynek",
+    "title": "NewConnect — czym jest rynek małych spółek na GPW?",
+    "metaTitle": "NewConnect — rynek małych spółek GPW | Poradnik",
+    "metaDescription": "Czym jest NewConnect? Alternatywny rynek GPW dla małych spółek — jak inwestować, jakie są ryzyka, sektory, indeksy NCIndex i różnice vs rynek główny.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-23",
+    "updatedDate": "2026-02-23",
+    "readingTime": 18,
+    "featuredImage": "/images/edukacja/newconnect-rynek.webp",
+    "featuredImageAlt": "NewConnect — alternatywny system obrotu na Giełdzie Papierów Wartościowych w Warszawie",
+    "tags": [
+      "NewConnect",
+      "małe spółki",
+      "GPW",
+      "rynek alternatywny"
+    ],
+    "relatedSlugs": [
+      "co-to-jest-gpw",
+      "jak-kupic-akcje-krok-po-kroku",
+      "jak-zaczac-inwestowac-na-gpw"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Przejrzyj spółki GPW w naszym screenerze i znajdź najciekawsze walory",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "obligacje-skarbowe-2026",
+    "title": "Obligacje skarbowe 2026 — rodzaje, oprocentowanie i czy warto kupić",
+    "metaTitle": "Obligacje skarbowe 2026 — rodzaje i oprocentowanie",
+    "metaDescription": "Kompletny przewodnik po obligacjach skarbowych w 2026 roku. Rodzaje (OTS, ROR, COI, EDO), oprocentowanie, jak kupić i czy warto inwestować w obligacje.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 14,
+    "featuredImage": "/images/edukacja/obligacje-skarbowe.webp",
+    "featuredImageAlt": "Obligacje skarbowe w Polsce — rodzaje i oprocentowanie",
+    "tags": [
+      "obligacje",
+      "obligacje skarbowe",
+      "EDO",
+      "COI",
+      "TOS",
+      "ROD"
+    ],
+    "relatedSlugs": [
+      "jak-zaczac-inwestowac-na-gpw",
+      "etf-na-gpw",
+      "jak-budowac-portfel-inwestycyjny",
+      "ike-vs-ikze"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Porównaj obligacje z akcjami — sprawdź screener GPW",
+    "ctaLink": "/screener"
+  },
+  {
+    "slug": "podatek-belki-pit-38",
+    "title": "Podatek Belki i PIT-38 — jak rozliczyć zyski z giełdy",
+    "metaTitle": "Podatek Belki i PIT-38 — rozliczenie zysków z GPW",
+    "metaDescription": "Jak rozliczyć podatek od zysków giełdowych? Dowiedz się czym jest podatek Belki, jak wypełnić PIT-38 krok po kroku i jak legalnie obniżyć podatek z IKE/IKZE.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 13,
+    "featuredImage": "/images/edukacja/podatek-belki.webp",
+    "featuredImageAlt": "Podatek Belki i rozliczenie PIT-38",
+    "tags": [
+      "podatek",
+      "Belka",
+      "PIT-38",
+      "rozliczenie",
+      "podatek od zysków kapitałowych"
+    ],
+    "relatedSlugs": [
+      "jak-zaczac-inwestowac-na-gpw",
+      "ike-vs-ikze",
+      "jak-kupic-akcje-krok-po-kroku",
+      "spolki-dywidendowe-gpw"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź swoje spółki na WIGmarkets",
+    "ctaLink": "/screener"
+  },
+  {
+    "slug": "rodzaje-zlecen-gieldowych",
+    "title": "Rodzaje zleceń giełdowych na GPW — limit, PKC, stop loss i inne",
+    "metaTitle": "Rodzaje zleceń giełdowych na GPW — kompletny poradnik",
+    "metaDescription": "Poznaj wszystkie rodzaje zleceń na GPW: limit, PKC, PCR, stop loss, take profit i trailing stop. Dowiedz się kiedy i jak używać każdego typu zlecenia.",
+    "category": "analiza",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 14,
+    "featuredImage": "/images/edukacja/zlecenia-gieldowe.webp",
+    "featuredImageAlt": "Rodzaje zleceń giełdowych na GPW",
+    "tags": [
+      "zlecenia",
+      "GPW",
+      "limit",
+      "PKC",
+      "stop loss",
+      "take profit"
+    ],
+    "relatedSlugs": [
+      "jak-kupic-akcje-krok-po-kroku",
+      "analiza-techniczna-podstawy",
+      "jak-zaczac-inwestowac-na-gpw",
+      "xtb-vs-mbank-vs-bossa"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Znajdź spółkę i złóż pierwsze zlecenie",
+    "ctaLink": "/screener"
+  },
+  {
+    "slug": "sezon-wynikow-gpw",
+    "title": "Sezon wyników na GPW — kalendarz, jak czytać raporty i na co zwracać uwagę",
+    "metaTitle": "Sezon wyników na GPW — kalendarz i poradnik 2026",
+    "metaDescription": "Dowiedz się wszystkiego o sezonie wyników na GPW: kalendarz raportów kwartalnych, jak czytać wyniki finansowe i na co zwracać uwagę. Praktyczny poradnik.",
+    "category": "analiza",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 14,
+    "featuredImage": "/images/edukacja/sezon-wynikow.webp",
+    "featuredImageAlt": "Sezon wyników na GPW — kalendarz i raporty",
+    "tags": [
+      "sezon wyników",
+      "raporty kwartalne",
+      "GPW",
+      "wyniki finansowe",
+      "kalendarz"
+    ],
+    "relatedSlugs": [
+      "jak-czytac-wyniki-finansowe",
+      "wskazniki-fundamentalne-gpw",
+      "wskaznik-pe",
+      "analiza-techniczna-podstawy"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź wyniki spółek w screenerze WIGmarkets",
+    "ctaLink": "/screener"
+  },
+  {
+    "slug": "short-selling",
+    "title": "Czym jest short selling i jak działa krótka sprzedaż?",
+    "metaTitle": "Short selling — krótka sprzedaż na GPW | Poradnik",
+    "metaDescription": "Czym jest krótka sprzedaż (short selling) i jak działa na GPW? Poznaj mechanizm, ryzyka, koszty, regulacje KNF i praktyczne wskazówki dla inwestorów.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-23",
+    "updatedDate": "2026-02-23",
+    "readingTime": 15,
+    "featuredImage": "/images/edukacja/short-selling.webp",
+    "featuredImageAlt": "Short selling — krótka sprzedaż akcji na GPW",
+    "tags": [
+      "short selling",
+      "krótka sprzedaż",
+      "GPW",
+      "inwestowanie"
+    ],
+    "relatedSlugs": [
+      "rodzaje-zlecen-gieldowych",
+      "analiza-techniczna-podstawy",
+      "kontrakty-terminowe"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź aktualne notowania spółek na GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "spolki-dywidendowe-gpw",
+    "title": "Spółki dywidendowe GPW — najlepsze dywidendy w Polsce 2026",
+    "metaTitle": "Najlepsze spółki dywidendowe GPW 2026 — ranking i poradnik | WIGmarkets.pl",
+    "metaDescription": "Ranking najlepszych spółek dywidendowych na GPW: PKN Orlen, PZU, KGHM, Asseco i inne. Jak liczyć stopę dywidendową, DRIP, podatek Belki od dywidend, IKE/IKZE.",
+    "category": "strategia",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 16,
+    "featuredImage": "/images/edukacja/spolki-dywidendowe.webp",
+    "featuredImageAlt": "Wykresy wypłat dywidend i portfel inwestycyjny z rosnącymi dochodami pasywnymi",
+    "tags": [
+      "dywidendy",
+      "GPW",
+      "dochód pasywny",
+      "strategia",
+      "IKE",
+      "IKZE",
+      "Belka"
+    ],
+    "relatedSlugs": [
+      "jak-zaczac-inwestowac-na-gpw",
+      "wskaznik-pe",
+      "ile-pieniedzy-zeby-zaczac",
+      "podatek-belki-pit-38",
+      "jak-budowac-portfel-inwestycyjny"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź aktualne notowania spółek dywidendowych GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "srednie-kroczace-sma-ema",
+    "title": "Średnie kroczące SMA i EMA — praktyczny poradnik",
+    "metaTitle": "Średnie kroczące SMA i EMA — poradnik dla inwestorów",
+    "metaDescription": "Czym są średnie kroczące SMA i EMA? Poznaj wzory, praktyczne obliczenia, sygnały Golden Cross i Death Cross oraz strategie inwestycyjne na giełdzie GPW.",
+    "category": "analiza",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-23",
+    "updatedDate": "2026-02-23",
+    "readingTime": 17,
+    "featuredImage": "/images/edukacja/srednie-kroczace-sma-ema.webp",
+    "featuredImageAlt": "Średnie kroczące SMA i EMA na wykresie giełdowym GPW",
+    "tags": [
+      "SMA",
+      "EMA",
+      "średnie kroczące",
+      "analiza techniczna",
+      "GPW"
+    ],
+    "relatedSlugs": [
+      "wskazniki-fundamentalne-gpw",
+      "analiza-techniczna-podstawy",
+      "wskaznik-rsi",
+      "wskaznik-macd"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź sygnały średnich kroczących na GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "stop-loss-take-profit",
+    "title": "Stop loss i take profit — jak zarządzać ryzykiem",
+    "metaTitle": "Stop loss i take profit — zarządzanie ryzykiem",
+    "metaDescription": "Czym jest stop loss i take profit? Jak ustawiać zlecenia obronne na GPW? Poznaj zasadę R:R, trailing stop i position sizing. Poradnik zarządzania ryzykiem.",
+    "category": "strategia",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-23",
+    "updatedDate": "2026-02-23",
+    "readingTime": 19,
+    "featuredImage": "/images/edukacja/stop-loss-take-profit.webp",
+    "featuredImageAlt": "Stop loss i take profit — zarządzanie ryzykiem na giełdzie GPW",
+    "tags": [
+      "stop loss",
+      "take profit",
+      "zarządzanie ryzykiem",
+      "strategia",
+      "GPW"
+    ],
+    "relatedSlugs": [
+      "rodzaje-zlecen-gieldowych",
+      "analiza-techniczna-podstawy",
+      "jak-budowac-portfel-inwestycyjny",
+      "jak-kupic-akcje-krok-po-kroku"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Analizuj spółki GPW przed ustawieniem zleceń",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "strategia-dca",
+    "title": "DCA — jak automatycznie budować portfel bez stresu",
+    "metaTitle": "Strategia DCA — regularne inwestowanie | Poradnik",
+    "metaDescription": "Czym jest DCA (Dollar Cost Averaging)? Poznaj strategię regularnego inwestowania, która eliminuje stres i buduje portfel na GPW. Przykłady, kalkulacje, ETF-y.",
+    "category": "strategia",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-23",
+    "updatedDate": "2026-02-23",
+    "readingTime": 18,
+    "featuredImage": "/images/edukacja/strategia-dca.webp",
+    "featuredImageAlt": "Strategia DCA — regularne inwestowanie na GPW",
+    "tags": [
+      "DCA",
+      "Dollar Cost Averaging",
+      "strategia",
+      "portfel",
+      "GPW"
+    ],
+    "relatedSlugs": [
+      "jak-budowac-portfel-inwestycyjny",
+      "etf-na-gpw",
+      "ile-pieniedzy-zeby-zaczac",
+      "ike-vs-ikze"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Znajdź spółki do regularnego inwestowania",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "value-investing-gpw",
+    "title": "Value investing na GPW — jak znaleźć niedowartościowane spółki",
+    "metaTitle": "Value investing na GPW — znajdź tanie spółki",
+    "metaDescription": "Poznaj strategię value investing na GPW: margines bezpieczeństwa, kluczowe wskaźniki P/E, P/BV, EV/EBITDA, pułapki wartości i screening spółek.",
+    "category": "strategia",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-23",
+    "updatedDate": "2026-02-23",
+    "readingTime": 18,
+    "featuredImage": "/images/edukacja/value-investing-gpw.webp",
+    "featuredImageAlt": "Analiza fundamentalna i wycena niedowartościowanych spółek na GPW",
+    "tags": [
+      "value investing",
+      "niedowartościowane spółki",
+      "strategia",
+      "GPW",
+      "analiza fundamentalna"
+    ],
+    "relatedSlugs": [
+      "wskaznik-pe",
+      "wskazniki-fundamentalne-gpw",
+      "jak-czytac-wyniki-finansowe",
+      "jak-budowac-portfel-inwestycyjny"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Szukaj niedowartościowanych spółek w screenerze GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "wig20-mwig40-swig80",
+    "title": "WIG20 vs mWIG40 vs sWIG80 — czym się różnią indeksy",
+    "metaTitle": "WIG20, mWIG40, sWIG80 — różnice i jak inwestować | WIGmarkets.pl",
+    "metaDescription": "Wyjaśniamy czym różnią się indeksy WIG20, mWIG40 i sWIG80. Które spółki wchodzą w skład, jak są ważone i jak w nie inwestować przez ETF.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 10,
+    "featuredImage": "/images/edukacja/wig20-mwig40-swig80.webp",
+    "featuredImageAlt": "Indeksy GPW — WIG20, mWIG40 i sWIG80",
+    "tags": [
+      "WIG20",
+      "mWIG40",
+      "sWIG80",
+      "GPW",
+      "indeksy giełdowe",
+      "ETF",
+      "inwestowanie"
+    ],
+    "relatedSlugs": [
+      "etf-na-gpw",
+      "co-to-jest-gpw",
+      "analiza-techniczna-podstawy",
+      "jak-budowac-portfel-inwestycyjny"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź skład i notowania indeksów GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "wskaznik-macd",
+    "title": "MACD — jak czytać sygnały kupna i sprzedaży",
+    "metaTitle": "MACD — sygnały kupna i sprzedaży | Poradnik GPW",
+    "metaDescription": "Poznaj wskaźnik MACD: jak działa linia MACD, linia sygnału i histogram. Sygnały kupna i sprzedaży, dywergencje i praktyczne przykłady ze spółek GPW.",
+    "category": "analiza",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-23",
+    "updatedDate": "2026-02-23",
+    "readingTime": 14,
+    "featuredImage": "/images/edukacja/wskaznik-macd.webp",
+    "featuredImageAlt": "Wskaźnik MACD — wykres z linią MACD, linią sygnału i histogramem",
+    "tags": [
+      "MACD",
+      "analiza techniczna",
+      "wskaźniki",
+      "sygnały",
+      "GPW"
+    ],
+    "relatedSlugs": [
+      "wskazniki-fundamentalne-gpw",
+      "analiza-techniczna-podstawy",
+      "wskaznik-rsi",
+      "srednie-kroczace-sma-ema"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Analizuj wskaźniki techniczne spółek GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "wskaznik-pe",
+    "title": "Wskaźnik P/E — jak interpretować cenę do zysku na GPW?",
+    "metaTitle": "Wskaźnik P/E (cena/zysk) — jak analizować spółki GPW? Poradnik 2026 | WIGmarkets.pl",
+    "metaDescription": "Dowiedz się czym jest wskaźnik P/E (Price-to-Earnings), jak go obliczyć, interpretować i jak stosować w analizie spółek GPW. Trailing vs forward P/E, PEG ratio.",
+    "category": "analiza",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 12,
+    "featuredImage": "/images/edukacja/wskaznik-pe.webp",
+    "featuredImageAlt": "Wykres i kalkulator symbolizujące analizę wskaźnika P/E spółki",
+    "tags": [
+      "P/E",
+      "analiza fundamentalna",
+      "wycena spółek",
+      "GPW",
+      "wskaźniki"
+    ],
+    "relatedSlugs": [
+      "jak-czytac-wyniki-finansowe",
+      "spolki-dywidendowe-gpw",
+      "analiza-techniczna-podstawy",
+      "wskazniki-fundamentalne-gpw"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź wskaźniki P/E spółek GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "wskaznik-roe",
+    "title": "Wskaznik ROE — jak ocenic rentownosc spolki",
+    "metaTitle": "Wskaznik ROE — rentownosc spolki | Poradnik GPW",
+    "metaDescription": "Dowiedz sie czym jest wskaznik ROE (Return on Equity), jak go obliczac i interpretowac. Analiza DuPont, porownanie sektorow GPW, pulapka dzwigni finansowej.",
+    "category": "analiza",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-23",
+    "updatedDate": "2026-02-23",
+    "readingTime": 19,
+    "featuredImage": "/images/edukacja/wskaznik-roe.webp",
+    "featuredImageAlt": "Wykres rentownosci kapitalow wlasnych spolek gieldowych na GPW",
+    "tags": [
+      "ROE",
+      "rentownosc",
+      "analiza fundamentalna",
+      "wskazniki",
+      "GPW"
+    ],
+    "relatedSlugs": [
+      "wskazniki-fundamentalne-gpw",
+      "wskaznik-pe",
+      "jak-czytac-wyniki-finansowe",
+      "spolki-dywidendowe-gpw"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Porownaj ROE spolek GPW w screenerze",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "wskaznik-rsi",
+    "title": "Wskaźnik RSI — jak rozpoznać wykupienie i wyprzedanie",
+    "metaTitle": "Wskaźnik RSI — wykupienie i wyprzedanie | Poradnik",
+    "metaDescription": "Dowiedz się czym jest wskaźnik RSI, jak interpretować strefy wykupienia i wyprzedania, jak rozpoznawać dywergencje i stosować RSI w praktyce na GPW.",
+    "category": "analiza",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-23",
+    "updatedDate": "2026-02-23",
+    "readingTime": 9,
+    "featuredImage": "/images/edukacja/wskaznik-rsi.webp",
+    "featuredImageAlt": "Wykres wskaźnika RSI z zaznaczonymi strefami wykupienia i wyprzedania",
+    "tags": [
+      "RSI",
+      "analiza techniczna",
+      "wskaźniki",
+      "oscylatory",
+      "GPW"
+    ],
+    "relatedSlugs": [
+      "wskazniki-fundamentalne-gpw",
+      "analiza-techniczna-podstawy",
+      "wskaznik-macd",
+      "srednie-kroczace-sma-ema"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź wskaźniki techniczne spółek GPW w naszym screenerze",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "wskazniki-fundamentalne-gpw",
+    "title": "Najważniejsze wskaźniki fundamentalne — P/E, P/BV, ROE i inne",
+    "metaTitle": "Wskaźniki fundamentalne GPW — P/E, P/BV, ROE",
+    "metaDescription": "Poznaj najważniejsze wskaźniki analizy fundamentalnej: P/E, P/BV, ROE, EPS i inne. Jak je interpretować i stosować przy wyborze spółek na GPW?",
+    "category": "analiza",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 16,
+    "featuredImage": "/images/edukacja/wskazniki-fundamentalne.webp",
+    "featuredImageAlt": "Wskaźniki fundamentalne spółek GPW",
+    "tags": [
+      "analiza fundamentalna",
+      "P/E",
+      "P/BV",
+      "ROE",
+      "EPS",
+      "wskaźniki"
+    ],
+    "relatedSlugs": [
+      "wskaznik-pe",
+      "jak-czytac-wyniki-finansowe",
+      "spolki-dywidendowe-gpw",
+      "sezon-wynikow-gpw"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Filtruj spółki po wskaźnikach w screenerze WIGmarkets",
+    "ctaLink": "/screener"
+  },
+  {
+    "slug": "wykres-swiecowy-formacje",
+    "title": "Jak czytać wykres świecowy — formacje i sygnały",
+    "metaTitle": "Wykres świecowy — formacje i sygnały | Poradnik",
+    "metaDescription": "Poznaj formacje świecowe: Doji, Młot, Engulfing, Morning Star i inne. Praktyczny poradnik czytania wykresów candlestick dla inwestorów GPW.",
+    "category": "analiza",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-23",
+    "updatedDate": "2026-02-23",
+    "readingTime": 15,
+    "featuredImage": "/images/edukacja/wykres-swiecowy-formacje.webp",
+    "featuredImageAlt": "Wykres świecowy z formacjami candlestick na tle danych giełdowych GPW",
+    "tags": [
+      "wykresy świecowe",
+      "formacje",
+      "analiza techniczna",
+      "candlestick",
+      "GPW"
+    ],
+    "relatedSlugs": [
+      "analiza-techniczna-podstawy",
+      "wskazniki-fundamentalne-gpw",
+      "wskaznik-rsi",
+      "wskaznik-macd"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Analizuj wykresy spółek GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "xtb-vs-mbank-vs-bossa",
+    "title": "XTB vs mBank vs Bossa — który dom maklerski wybrać w 2026?",
+    "metaTitle": "XTB vs mBank vs Bossa — porównanie brokerów 2026",
+    "metaDescription": "Szczegółowe porównanie brokerów XTB, mBank eMakler i DM BOŚ Bossa w 2026. Prowizje, platformy, IKE/IKZE — który dom maklerski wybrać do inwestowania na GPW?",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-20",
+    "updatedDate": "2026-02-20",
+    "readingTime": 15,
+    "featuredImage": "/images/edukacja/xtb-vs-mbank-vs-bossa.webp",
+    "featuredImageAlt": "Porównanie brokerów XTB, mBank i Bossa",
+    "tags": [
+      "broker",
+      "dom maklerski",
+      "XTB",
+      "mBank",
+      "Bossa",
+      "porównanie"
+    ],
+    "relatedSlugs": [
+      "jak-zaczac-inwestowac-na-gpw",
+      "najlepsze-konto-maklerskie",
+      "jak-kupic-akcje-krok-po-kroku",
+      "najlepsze-aplikacje-do-inwestowania"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Otwórz konto i zacznij inwestować — sprawdź notowania na WIGmarkets",
+    "ctaLink": "/screener"
+  }
+]

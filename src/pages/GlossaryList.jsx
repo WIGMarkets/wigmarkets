@@ -2,7 +2,6 @@ import { useState, useMemo, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import Icon from "../components/edukacja/Icon.jsx";
-import glossaryData from "../data/glossary.json";
 
 const CATEGORIES = [
   { key: "all", label: "Wszystkie" },
@@ -27,8 +26,14 @@ export default function GlossaryList({ theme }) {
   const isMobile = useIsMobile();
   const [search, setSearch] = useState("");
   const [activeCategory, setActiveCategory] = useState("all");
+  const [glossaryData, setGlossaryData] = useState(null);
+
+  useEffect(() => {
+    import("../data/glossary.json").then(m => setGlossaryData(m.default));
+  }, []);
 
   const filtered = useMemo(() => {
+    if (!glossaryData) return [];
     const q = search.toLowerCase().trim();
     return glossaryData
       .filter(entry => {
@@ -37,7 +42,7 @@ export default function GlossaryList({ theme }) {
         return true;
       })
       .sort((a, b) => a.term.localeCompare(b.term, "pl"));
-  }, [search, activeCategory]);
+  }, [search, activeCategory, glossaryData]);
 
   const grouped = useMemo(() => groupByLetter(filtered), [filtered]);
 
@@ -50,7 +55,7 @@ export default function GlossaryList({ theme }) {
       metaDesc.setAttribute("name", "description");
       document.head.appendChild(metaDesc);
     }
-    metaDesc.setAttribute("content", `${glossaryData.length} najważniejszych pojęć giełdowych wyjaśnionych prostym językiem. Akcje, wskaźniki, analiza techniczna i fundamentalna — kompendium wiedzy o GPW.`);
+    metaDesc.setAttribute("content", `${glossaryData?.length || ""} najważniejszych pojęć giełdowych wyjaśnionych prostym językiem. Akcje, wskaźniki, analiza techniczna i fundamentalna — kompendium wiedzy o GPW.`);
   }, []);
 
   return (
