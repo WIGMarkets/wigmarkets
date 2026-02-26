@@ -444,7 +444,7 @@ export default function FearGreedPage({ theme }) {
                       </div>
                     </>
                   ) : (
-                    <div style={{ fontSize: 13, color: theme.textMuted, padding: "8px 0" }}>b.d.</div>
+                    <div style={{ fontSize: 20, color: theme.textMuted, padding: "8px 0", fontFamily: "var(--font-mono)" }}>—</div>
                   )}
                 </div>
               ))}

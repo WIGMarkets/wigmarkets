@@ -203,6 +203,11 @@ function stdDev(arr) {
 
 function normalize(value, min, max) {
   if (max === min) return 50;
+  // Handle inverted ranges (e.g., min=1.5, max=0.5 for inverted scoring)
+  if (min > max) {
+    const clamped = Math.max(max, Math.min(min, value));
+    return ((min - clamped) / (min - max)) * 100;
+  }
   const clamped = Math.max(min, Math.min(max, value));
   return ((clamped - min) / (max - min)) * 100;
 }
@@ -255,9 +260,9 @@ function calcMomentum(wig20Bars) {
     label: getLabel(score),
     description: `Porównuje bieżący kurs WIG20 do średniej 125-sesyjnej. Wzrost ponad średnią oznacza chciwość. Odchylenie: ${deviation >= 0 ? "+" : ""}${deviation.toFixed(2)}%.`,
     details: {
-      currentWIG20: round2(current),
+      wig20: round2(current),
       sma125: round2(sma125),
-      deviationPercent: round2(deviation),
+      deviation: round2(deviation),
     },
   };
 }
@@ -298,7 +303,7 @@ function calcVolumeStrength(stockHistories) {
     value: Math.round(score),
     label: getLabel(score),
     description: `Stosunek wolumenu w dniach wzrostowych do spadkowych na GPW (30 sesji). Przewaga kupujących to sygnał chciwości. Ratio: ${ratio.toFixed(2)}.`,
-    details: { upVolume, downVolume, ratio: round2(ratio) },
+    details: { upVol: upVolume, downVol: downVolume, ratio: round2(ratio) },
   };
 }
 
@@ -333,7 +338,7 @@ function calcMarketBreadth(stockHistories) {
     value: Math.round(score),
     label: getLabel(score),
     description: `Procent spółek GPW notujących powyżej 50-sesyjnej średniej. Im więcej spółek rośnie, tym wyższy wskaźnik. Obecnie ${aboveSMA50} z ${total} spółek.`,
-    details: { aboveSMA50, total, percent: round2(percent) },
+    details: { above: aboveSMA50, total, pct: round2(percent) },
   };
 }
 
@@ -369,8 +374,8 @@ function calcVolatility(wig20Bars) {
     label: getLabel(score),
     description: `Zmienność WIG20 w ostatnich 20 sesjach vs średnia roczna. Wysoka zmienność towarzyszy panice, niska — spokojowi. Bieżąca: ${currentVol.toFixed(1)}%, średnia: ${yearVol.toFixed(1)}%.`,
     details: {
-      currentVol: round2(currentVol),
-      yearVol: round2(yearVol),
+      vol20d: round2(currentVol),
+      volYear: round2(yearVol),
       ratio: round2(ratio),
     },
   };
@@ -409,7 +414,7 @@ function calcHighLowIndex(stockHistories) {
       value: 50,
       label: "Neutralny",
       description: "Brak spółek blisko rocznych ekstremiów. Rynek w neutralnej strefie.",
-      details: { newHighs: 0, newLows: 0 },
+      details: { highs: 0, lows: 0 },
     };
   }
 
@@ -420,7 +425,7 @@ function calcHighLowIndex(stockHistories) {
     value: Math.round(score),
     label: getLabel(score),
     description: `Stosunek spółek blisko 52-tygodniowych maksimów do tych blisko minimów. Obecnie ${newHighs} spółek blisko szczytów, ${newLows} blisko dołków.`,
-    details: { newHighs, newLows },
+    details: { highs: newHighs, lows: newLows },
   };
 }
 
@@ -450,8 +455,8 @@ function calcSmallVsLargeCap(swig80Bars, wig20Bars) {
     label: getLabel(score),
     description: `Porównanie wyników sWIG80 (małe spółki) do WIG20 (blue chipy) w ostatnich 20 sesjach. Gdy małe spółki wygrywają, inwestorzy szukają ryzyka — to sygnał chciwości. sWIG80: ${sPerf >= 0 ? "+" : ""}${sPerf.toFixed(1)}%, WIG20: ${wPerf >= 0 ? "+" : ""}${wPerf.toFixed(1)}%.`,
     details: {
-      swig80Perf: round2(sPerf),
-      wig20Perf: round2(wPerf),
+      swig: round2(sPerf),
+      wig20: round2(wPerf),
       diff: round2(diff),
     },
   };
@@ -483,8 +488,8 @@ function calcSafeHavenDemand(wig20Bars, goldBars) {
     label: getLabel(score),
     description: `Porównanie wyników WIG20 vs złoto w ostatnich 20 sesjach. Gdy akcje wygrywają ze złotem, inwestorzy podejmują ryzyko — to sygnał chciwości. WIG20: ${wPerf >= 0 ? "+" : ""}${wPerf.toFixed(1)}%, Złoto: ${gPerf >= 0 ? "+" : ""}${gPerf.toFixed(1)}%.`,
     details: {
-      wig20Perf: round2(wPerf),
-      goldPerf: round2(gPerf),
+      wig20: round2(wPerf),
+      safe: round2(gPerf),
       diff: round2(diff),
     },
   };
@@ -623,6 +628,8 @@ async function main() {
       value: ind.value,
       label: ind.label,
       description: ind.description,
+      weight: WEIGHTS[ind.name] || 0,
+      details: ind.details || null,
     })),
     indicatorsUsed: result.indicatorsUsed,
     updatedAt: result.updatedAt,
