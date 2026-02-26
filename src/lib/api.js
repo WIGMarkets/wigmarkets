@@ -191,3 +191,28 @@ export async function fetchDynamicList() {
     } catch { return null; }
   });
 }
+
+// ── Analyses ─────────────────────────────────────────────────────────────────
+
+const TTL_ANALYSES = 24 * 60 * 60 * 1000; // 24 hours
+
+export async function fetchAnalysis(ticker) {
+  return cachedFetch(`analysis_${ticker}`, TTL_ANALYSES, async () => {
+    try {
+      const res = await fetch(`/api/analyses?ticker=${encodeURIComponent(ticker)}`);
+      if (!res.ok) return null;
+      return await res.json();
+    } catch { return null; }
+  });
+}
+
+export async function fetchAnalysesList() {
+  return cachedFetch("analyses_list", TTL_ANALYSES, async () => {
+    try {
+      const res = await fetch("/api/analyses");
+      if (!res.ok) return null;
+      const data = await res.json();
+      return data?.analyses ? data : null;
+    } catch { return null; }
+  });
+}

@@ -23,6 +23,7 @@
     { "source": "/edukacja/(.*)", "destination": "/index.html" },
     { "source": "/rankingi", "destination": "/index.html" },
     { "source": "/rankingi/(.*)", "destination": "/index.html" },
+    { "source": "/analizy", "destination": "/index.html" },
     { "source": "/indeksy", "destination": "/index.html" },
     { "source": "/indeksy/(.*)", "destination": "/index.html" }
   ]
