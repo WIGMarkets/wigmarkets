@@ -1,13 +1,13 @@
 /**
  * Bulk RSI(14) calculation for all GPW stocks.
  *
- * Replaces ~330 sequential client-side /api/history calls with a single
+ * Replaces ~226 sequential client-side /api/history calls with a single
  * server-side endpoint. Fetches 60 days of daily history per stock from
  * Stooq (primary) with Yahoo Finance fallback, then computes Wilder RSI.
  *
  * CDN-cached for 1 hour (RSI changes meaningfully only at market close).
  *
- * Returns: { rsi: { "PKN": 54.2, "CDR": 31.8, ... }, computed: 285, ts: "..." }
+ * Returns: { rsi: { "PKN": 54.2, "CDR": 31.8, ... }, computed: 226, ts: "..." }
  */
 
 import { GPW_COMPANIES } from "../src/data/gpw-companies.js";
