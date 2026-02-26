@@ -1,3 +1,5 @@
+const FETCH_TIMEOUT_MS = 8_000;
+
 export default async function handler(req, res) {
   const tickersParam = req.query?.tickers;
   if (!tickersParam) {
@@ -25,9 +27,13 @@ export default async function handler(req, res) {
       const url = feed.includes("search")
         ? `https://www.reddit.com/r/${feed}&limit=50`
         : `https://www.reddit.com/r/${feed}.json?limit=100`;
+      const ctrl = new AbortController();
+      const t = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT_MS);
       const r = await fetch(url, {
+        signal: ctrl.signal,
         headers: { "User-Agent": "WIGmarkets/1.0 (market data dashboard)" },
       });
+      clearTimeout(t);
       if (!r.ok) continue;
       const json = await r.json();
       const posts = json?.data?.children?.map(c => c.data) ?? [];

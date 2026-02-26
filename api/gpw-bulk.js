@@ -3,12 +3,16 @@ import { fetchStooqBatch } from "./_stooq-fallback.js";
 
 const BATCH_SIZE = 40;
 const BATCH_DELAY_MS = 80;
+const FETCH_TIMEOUT_MS = 8_000;
 
 async function fetchYahooSymbol(yahooSymbol, retries = 2) {
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?interval=1d&range=10d`;
   for (let attempt = 0; attempt <= retries; attempt++) {
     try {
-      const response = await fetch(url, { headers: YF_HEADERS });
+      const ctrl = new AbortController();
+      const t = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT_MS);
+      const response = await fetch(url, { signal: ctrl.signal, headers: YF_HEADERS });
+      clearTimeout(t);
       if (response.status === 429 || response.status >= 500) {
         if (attempt < retries) { await new Promise(r => setTimeout(r, 500 * (attempt + 1))); continue; }
         return null;
