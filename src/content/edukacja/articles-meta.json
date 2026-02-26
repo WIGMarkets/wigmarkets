@@ -31,6 +31,39 @@
     "ctaLink": "/"
   },
   {
+    "slug": "bollinger-bands",
+    "title": "Wstęgi Bollingera — jak mierzyć zmienność i znajdować sygnały",
+    "metaTitle": "Wstęgi Bollingera — zmienność i sygnały | Poradnik GPW",
+    "metaDescription": "Poznaj wstęgi Bollingera: wzór, interpretacja squeeze i bounce, wskaźnik %B i Bandwidth, łączenie z RSI oraz praktyczne przykłady ze spółek GPW.",
+    "category": "analiza",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-26",
+    "updatedDate": "2026-02-26",
+    "readingTime": 12,
+    "featuredImage": "/images/edukacja/bollinger-bands.webp",
+    "featuredImageAlt": "Wykres cenowy ze wstęgami Bollingera — górna, środkowa i dolna wstęga otaczają cenę",
+    "tags": [
+      "wstęgi Bollingera",
+      "Bollinger Bands",
+      "analiza techniczna",
+      "zmienność",
+      "wskaźniki",
+      "oscylatory",
+      "GPW",
+      "volatility"
+    ],
+    "relatedSlugs": [
+      "analiza-techniczna-podstawy",
+      "srednie-kroczace-sma-ema",
+      "wskaznik-rsi",
+      "formacje-cenowe",
+      "wolumen-obrotu"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź zmienność i wskaźniki techniczne spółek GPW w naszym screenerze",
+    "ctaLink": "/"
+  },
+  {
     "slug": "co-to-jest-gpw",
     "title": "Co to jest GPW? Historia i zasady działania Giełdy Papierów Wartościowych",
     "metaTitle": "Co to jest GPW? Giełda Papierów Wartościowych w Warszawie — historia i działanie | WIGmarkets.pl",
@@ -95,6 +128,71 @@
     "ctaLink": "/dywidendy"
   },
   {
+    "slug": "depozyt-dzwignia-finansowa",
+    "title": "Depozyt zabezpieczający i dźwignia finansowa — kompletny przewodnik",
+    "metaTitle": "Depozyt zabezpieczający i dźwignia finansowa — poradnik GPW",
+    "metaDescription": "Czym jest dźwignia finansowa i depozyt zabezpieczający? Jak działa margin call? Poznaj mechanizm leverage na GPW — futures, forex, CFD. Praktyczne przykłady z obliczeniami.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-26",
+    "updatedDate": "2026-02-26",
+    "readingTime": 12,
+    "featuredImage": "/images/edukacja/depozyt-dzwignia-finansowa.webp",
+    "featuredImageAlt": "Dźwignia finansowa i depozyt zabezpieczający — mechanizm margin na GPW",
+    "tags": [
+      "dźwignia finansowa",
+      "depozyt zabezpieczający",
+      "margin",
+      "margin call",
+      "GPW",
+      "futures",
+      "zarządzanie ryzykiem"
+    ],
+    "relatedSlugs": [
+      "kontrakty-terminowe",
+      "stop-loss-take-profit",
+      "rodzaje-zlecen-gieldowych",
+      "ryzyko-inwestycyjne",
+      "jak-zaczac-inwestowac-na-gpw"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Analizuj spółki GPW z naszym screenerem",
+    "ctaLink": "/screener"
+  },
+  {
+    "slug": "dywersyfikacja-portfela",
+    "title": "Dywersyfikacja portfela — jak skutecznie rozłożyć ryzyko inwestycyjne",
+    "metaTitle": "Dywersyfikacja portfela inwestycyjnego — kompletny poradnik 2026",
+    "metaDescription": "Czym jest dywersyfikacja portfela i jak ją wdrożyć? Poznaj rodzaje dywersyfikacji, korelację aktywów, optymalną liczbę spółek, rebalancing i modelowe portfele dla polskiego inwestora.",
+    "category": "strategia",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-26",
+    "updatedDate": "2026-02-26",
+    "readingTime": 14,
+    "featuredImage": "/images/edukacja/dywersyfikacja-portfela.webp",
+    "featuredImageAlt": "Dywersyfikacja portfela inwestycyjnego — rozłożenie ryzyka między klasy aktywów",
+    "tags": [
+      "dywersyfikacja",
+      "portfel inwestycyjny",
+      "ryzyko",
+      "korelacja",
+      "alokacja aktywów",
+      "GPW",
+      "rebalancing",
+      "ETF"
+    ],
+    "relatedSlugs": [
+      "jak-budowac-portfel-inwestycyjny",
+      "etf-na-gpw",
+      "ryzyko-inwestycyjne",
+      "obligacje-skarbowe-2026",
+      "inwestowanie-zloto-surowce"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź spółki z różnych sektorów GPW w naszym screenerze",
+    "ctaLink": "/screener"
+  },
+  {
     "slug": "etf-na-gpw",
     "title": "ETF na GPW — co warto wiedzieć w 2026",
     "metaTitle": "ETF na GPW — jak inwestować w fundusze ETF w Polsce 2026 | WIGmarkets.pl",
@@ -124,6 +222,70 @@
     ],
     "ctaType": "screener",
     "ctaText": "Sprawdź notowania ETF-ów na GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "formacje-cenowe",
+    "title": "Formacje cenowe — rozpoznawanie wzorców na wykresach giełdowych",
+    "metaTitle": "Formacje cenowe na giełdzie — kompletny przewodnik | WIGmarkets.pl",
+    "metaDescription": "Poznaj najważniejsze formacje cenowe: głowa i ramiona, podwójny szczyt, trójkąty, flagi, kliny i inne. Praktyczny poradnik rozpoznawania wzorców na wykresach GPW.",
+    "category": "analiza",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-26",
+    "updatedDate": "2026-02-26",
+    "readingTime": 14,
+    "featuredImage": "/images/edukacja/formacje-cenowe.webp",
+    "featuredImageAlt": "Formacje cenowe na wykresie giełdowym — wzorce analizy technicznej",
+    "tags": [
+      "formacje cenowe",
+      "analiza techniczna",
+      "głowa i ramiona",
+      "trójkąty",
+      "wsparcie i opór",
+      "wykresy giełdowe",
+      "GPW"
+    ],
+    "relatedSlugs": [
+      "analiza-techniczna-podstawy",
+      "wykres-swiecowy-formacje",
+      "wskaznik-rsi",
+      "srednie-kroczace-sma-ema",
+      "bollinger-bands"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Analizuj wykresy spółek GPW w screenerze",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "growth-investing",
+    "title": "Growth investing — jak inwestować w spółki wzrostowe na GPW",
+    "metaTitle": "Growth investing — spółki wzrostowe na GPW",
+    "metaDescription": "Poznaj strategię growth investing: jak identyfikować spółki wzrostowe, kluczowe wskaźniki (PEG, EPS growth, revenue growth), podejście GARP, ryzyka i przykłady z GPW.",
+    "category": "strategia",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-26",
+    "updatedDate": "2026-02-26",
+    "readingTime": 18,
+    "featuredImage": "/images/edukacja/growth-investing.webp",
+    "featuredImageAlt": "Growth investing — dynamicznie rosnący wykres spółki wzrostowej na GPW",
+    "tags": [
+      "growth investing",
+      "spółki wzrostowe",
+      "strategia",
+      "GPW",
+      "PEG",
+      "analiza fundamentalna",
+      "GARP"
+    ],
+    "relatedSlugs": [
+      "value-investing-gpw",
+      "wskaznik-pe",
+      "wskaznik-eps",
+      "jak-czytac-wyniki-finansowe",
+      "momentum-investing"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Znajdź spółki wzrostowe w screenerze GPW",
     "ctaLink": "/"
   },
   {
@@ -189,6 +351,38 @@
     "ctaLink": "/"
   },
   {
+    "slug": "inwestowanie-kontrarianskie",
+    "title": "Inwestowanie kontrariańskie — jak zarabiać idąc pod prąd",
+    "metaTitle": "Inwestowanie kontrariańskie — strategia pod prąd na GPW",
+    "metaDescription": "Poznaj strategię kontrariańską: psychologia tłumu, Fear & Greed Index, wskaźniki sentymentu, pułapki wartości vs prawdziwe okazje i praktyczne zastosowanie na GPW.",
+    "category": "strategia",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-26",
+    "updatedDate": "2026-02-26",
+    "readingTime": 14,
+    "featuredImage": "/images/edukacja/inwestowanie-kontrarianskie.webp",
+    "featuredImageAlt": "Inwestowanie kontrariańskie — inwestor idący pod prąd rynkowego tłumu",
+    "tags": [
+      "kontrariańskie",
+      "strategia",
+      "psychologia rynku",
+      "sentyment",
+      "GPW",
+      "Fear & Greed",
+      "value investing"
+    ],
+    "relatedSlugs": [
+      "value-investing-gpw",
+      "wskaznik-pe",
+      "ryzyko-inwestycyjne",
+      "jak-budowac-portfel-inwestycyjny",
+      "momentum-investing"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Znajdź kontrariańskie okazje w screenerze GPW",
+    "ctaLink": "/"
+  },
+  {
     "slug": "inwestowanie-zloto-surowce",
     "title": "Inwestowanie w złoto i surowce — czy warto w 2026?",
     "metaTitle": "Inwestowanie w złoto i surowce 2026 | Poradnik GPW",
@@ -217,6 +411,38 @@
     ],
     "ctaType": "screener",
     "ctaText": "Sprawdź spółki surowcowe na GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "ipo-debiuty-gieldowe",
+    "title": "IPO i debiuty giełdowe — jak spółki wchodzą na GPW i jak w tym uczestniczyć?",
+    "metaTitle": "IPO na GPW — co to jest, jak uczestniczyć w debiucie giełdowym? | WIGmarkets.pl",
+    "metaDescription": "Czym jest IPO (pierwsza oferta publiczna)? Jak przebiega debiut giełdowy na GPW krok po kroku, jak zapisać się na akcje, jakie są ryzyka i najsłynniejsze IPO w Polsce.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-26",
+    "updatedDate": "2026-02-26",
+    "readingTime": 12,
+    "featuredImage": "/images/edukacja/ipo-debiuty-gieldowe.webp",
+    "featuredImageAlt": "Debiut giełdowy spółki na Giełdzie Papierów Wartościowych w Warszawie — IPO na GPW",
+    "tags": [
+      "IPO",
+      "debiut giełdowy",
+      "GPW",
+      "pierwsza oferta publiczna",
+      "prospekt emisyjny",
+      "book building",
+      "NewConnect"
+    ],
+    "relatedSlugs": [
+      "co-to-jest-gpw",
+      "jak-kupic-akcje-krok-po-kroku",
+      "newconnect-rynek",
+      "jak-czytac-wyniki-finansowe",
+      "prawa-poboru-emisja-akcji"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź notowania spółek, które niedawno zadebiutowały na GPW",
     "ctaLink": "/"
   },
   {
@@ -367,6 +593,39 @@
     "ctaType": "screener",
     "ctaText": "Sprawdź aktualne notowania spółek na GPW",
     "ctaLink": "/"
+  },
+  {
+    "slug": "kiedy-sprzedac-akcje",
+    "title": "Kiedy sprzedać akcje — najtrudniejsza decyzja inwestora",
+    "metaTitle": "Kiedy sprzedać akcje? Sygnały sprzedaży i strategie wyjścia",
+    "metaDescription": "Kiedy sprzedać akcje na GPW? Poznaj sygnały fundamentalne i techniczne, efekt dyspozycji, trailing stop, częściową sprzedaż i checklistę decyzji. Praktyczny poradnik.",
+    "category": "strategia",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-26",
+    "updatedDate": "2026-02-26",
+    "readingTime": 12,
+    "featuredImage": "/images/edukacja/kiedy-sprzedac-akcje.webp",
+    "featuredImageAlt": "Kiedy sprzedać akcje — strategie wyjścia z pozycji na giełdzie GPW",
+    "tags": [
+      "sprzedaż akcji",
+      "strategia wyjścia",
+      "efekt dyspozycji",
+      "trailing stop",
+      "zarządzanie portfelem",
+      "GPW",
+      "psychologia inwestowania",
+      "analiza fundamentalna"
+    ],
+    "relatedSlugs": [
+      "stop-loss-take-profit",
+      "analiza-techniczna-podstawy",
+      "jak-budowac-portfel-inwestycyjny",
+      "wskaznik-pe",
+      "ryzyko-inwestycyjne"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź wyceny i wskaźniki spółek GPW w screenerze",
+    "ctaLink": "/screener"
   },
   {
     "slug": "kontrakty-terminowe",
@@ -574,6 +833,39 @@
     "ctaLink": "/screener"
   },
   {
+    "slug": "prawa-poboru-emisja-akcji",
+    "title": "Prawa poboru i emisja akcji na GPW — jak działają i co oznaczają dla inwestora?",
+    "metaTitle": "Prawa poboru i emisja akcji na GPW — przewodnik dla inwestora | WIGmarkets.pl",
+    "metaDescription": "Dowiedz się czym są prawa poboru, jak przebiega emisja nowych akcji na GPW, jak uniknąć rozwodnienia i jak handlować prawami poboru na giełdzie. Praktyczne przykłady i kalkulacje.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-26",
+    "updatedDate": "2026-02-26",
+    "readingTime": 11,
+    "featuredImage": "/images/edukacja/prawa-poboru-emisja-akcji.webp",
+    "featuredImageAlt": "Schemat emisji nowych akcji i praw poboru na Giełdzie Papierów Wartościowych w Warszawie",
+    "tags": [
+      "prawa poboru",
+      "emisja akcji",
+      "GPW",
+      "rozwodnienie",
+      "nowa emisja",
+      "akcjonariusz",
+      "podwyższenie kapitału",
+      "WZA"
+    ],
+    "relatedSlugs": [
+      "co-to-jest-gpw",
+      "jak-kupic-akcje-krok-po-kroku",
+      "rodzaje-zlecen-gieldowych",
+      "jak-zaczac-inwestowac-na-gpw",
+      "ipo-debiuty-gieldowe"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź spółki GPW w screenerze WIGmarkets",
+    "ctaLink": "/screener"
+  },
+  {
     "slug": "rodzaje-zlecen-gieldowych",
     "title": "Rodzaje zleceń giełdowych na GPW — limit, PKC, stop loss i inne",
     "metaTitle": "Rodzaje zleceń giełdowych na GPW — kompletny poradnik",
@@ -601,6 +893,70 @@
     ],
     "ctaType": "screener",
     "ctaText": "Znajdź spółkę i złóż pierwsze zlecenie",
+    "ctaLink": "/screener"
+  },
+  {
+    "slug": "rynek-catalyst-obligacje",
+    "title": "Rynek Catalyst — jak inwestować w obligacje na GPW",
+    "metaTitle": "Rynek Catalyst — obligacje korporacyjne, komunalne i skarbowe na GPW | WIGmarkets.pl",
+    "metaDescription": "Kompletny przewodnik po rynku Catalyst na GPW. Rodzaje obligacji, kluczowe wskaźniki (YTM, duration, kupon), ryzyka, praktyczne porady i porównanie z obligacjami skarbowymi.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-26",
+    "updatedDate": "2026-02-26",
+    "readingTime": 11,
+    "featuredImage": "/images/edukacja/rynek-catalyst-obligacje.webp",
+    "featuredImageAlt": "Rynek Catalyst — obligacje notowane na Giełdzie Papierów Wartościowych w Warszawie",
+    "tags": [
+      "Catalyst",
+      "obligacje",
+      "obligacje korporacyjne",
+      "obligacje komunalne",
+      "GPW",
+      "YTM",
+      "duration",
+      "rynek dłużny"
+    ],
+    "relatedSlugs": [
+      "obligacje-skarbowe-2026",
+      "co-to-jest-gpw",
+      "jak-zaczac-inwestowac-na-gpw",
+      "ile-pieniedzy-zeby-zaczac",
+      "jak-budowac-portfel-inwestycyjny"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź notowania spółek emitujących obligacje na Catalyst",
+    "ctaLink": "/screener"
+  },
+  {
+    "slug": "ryzyko-inwestycyjne",
+    "title": "Ryzyko inwestycyjne — rodzaje, pomiar i zarządzanie ryzykiem na giełdzie",
+    "metaTitle": "Ryzyko inwestycyjne — rodzaje ryzyka i jak nim zarządzać | 2026",
+    "metaDescription": "Czym jest ryzyko inwestycyjne? Poznaj rodzaje ryzyka systematycznego i specyficznego, metody pomiaru (beta, VaR, max drawdown) oraz strategie zarządzania ryzykiem na GPW.",
+    "category": "podstawy",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-26",
+    "updatedDate": "2026-02-26",
+    "readingTime": 14,
+    "featuredImage": "/images/edukacja/ryzyko-inwestycyjne.webp",
+    "featuredImageAlt": "Ryzyko inwestycyjne — rodzaje ryzyka i zarządzanie ryzykiem na giełdzie",
+    "tags": [
+      "ryzyko inwestycyjne",
+      "zarządzanie ryzykiem",
+      "dywersyfikacja",
+      "beta",
+      "VaR",
+      "GPW",
+      "psychologia inwestowania"
+    ],
+    "relatedSlugs": [
+      "jak-budowac-portfel-inwestycyjny",
+      "stop-loss-take-profit",
+      "jak-zaczac-inwestowac-na-gpw",
+      "etf-na-gpw"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź wskaźniki ryzyka spółek GPW w screenerze",
     "ctaLink": "/screener"
   },
   {
@@ -779,6 +1135,38 @@
     "ctaLink": "/"
   },
   {
+    "slug": "swing-trading",
+    "title": "Swing trading — strategia handlu na GPW dla aktywnych inwestorow",
+    "metaTitle": "Swing trading na GPW — kompletny przewodnik po strategii",
+    "metaDescription": "Czym jest swing trading? Jak identyfikowac swing highs i lows, kiedy wchodzic i wychodzic z pozycji, jakie narzedzia stosowac na GPW. Praktyczny poradnik z przykladami.",
+    "category": "strategia",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-26",
+    "updatedDate": "2026-02-26",
+    "readingTime": 14,
+    "featuredImage": "/images/edukacja/swing-trading.webp",
+    "featuredImageAlt": "Swing trading — wykres cenowy z zaznaczonymi swing highs i swing lows na GPW",
+    "tags": [
+      "swing trading",
+      "strategia",
+      "analiza techniczna",
+      "GPW",
+      "zarzadzanie ryzykiem",
+      "wsparcie i opor",
+      "trading"
+    ],
+    "relatedSlugs": [
+      "analiza-techniczna-podstawy",
+      "stop-loss-take-profit",
+      "srednie-kroczace-sma-ema",
+      "wskaznik-rsi",
+      "momentum-investing"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Znajdz spolki GPW idealne do swing tradingu w screenerze",
+    "ctaLink": "/screener"
+  },
+  {
     "slug": "value-investing-gpw",
     "title": "Value investing na GPW — jak znaleźć niedowartościowane spółki",
     "metaTitle": "Value investing na GPW — znajdź tanie spółki",
@@ -836,6 +1224,102 @@
     ],
     "ctaType": "screener",
     "ctaText": "Sprawdź skład i notowania indeksów GPW",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "wolumen-obrotu",
+    "title": "Wolumen obrotu — jak czytać i interpretować wolumen na giełdzie",
+    "metaTitle": "Wolumen obrotu na giełdzie — interpretacja i wskaźniki | WIGmarkets.pl",
+    "metaDescription": "Dowiedz się czym jest wolumen obrotu, jak go interpretować w analizie technicznej, poznaj wskaźniki OBV i VWAP oraz naucz się czytać wolumen na GPW.",
+    "category": "analiza",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-26",
+    "updatedDate": "2026-02-26",
+    "readingTime": 10,
+    "featuredImage": "/images/edukacja/wolumen-obrotu.webp",
+    "featuredImageAlt": "Wykres giełdowy z zaznaczonym wolumenem obrotu i słupkami wolumenu",
+    "tags": [
+      "wolumen",
+      "analiza techniczna",
+      "OBV",
+      "VWAP",
+      "płynność",
+      "GPW",
+      "obrót giełdowy"
+    ],
+    "relatedSlugs": [
+      "analiza-techniczna-podstawy",
+      "wskaznik-rsi",
+      "wykres-swiecowy-formacje",
+      "srednie-kroczace-sma-ema",
+      "formacje-cenowe"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdź wolumen i płynność spółek GPW w screenerze",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "wskaznik-ebitda",
+    "title": "Wskaznik EBITDA — jak ocenic zysk operacyjny spolki na GPW?",
+    "metaTitle": "EBITDA — co to jest, wzor, interpretacja i zastosowanie na GPW | WIGmarkets.pl",
+    "metaDescription": "Dowiedz sie czym jest EBITDA, jak ja obliczyc i interpretowac. EV/EBITDA, marza EBITDA, skorygowana EBITDA, krytyka Buffetta. Praktyczne przyklady z GPW.",
+    "category": "analiza",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-26",
+    "updatedDate": "2026-02-26",
+    "readingTime": 11,
+    "featuredImage": "/images/edukacja/wskaznik-ebitda.webp",
+    "featuredImageAlt": "Wykres slupkowy EBITDA spolek gieldowych na GPW z analiza wskaznikow",
+    "tags": [
+      "EBITDA",
+      "analiza fundamentalna",
+      "EV/EBITDA",
+      "marza EBITDA",
+      "wycena spolek",
+      "GPW",
+      "wskazniki finansowe"
+    ],
+    "relatedSlugs": [
+      "jak-czytac-wyniki-finansowe",
+      "wskaznik-pe",
+      "wskazniki-fundamentalne-gpw",
+      "wskaznik-roe",
+      "wskaznik-eps"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Porownaj EBITDA spolek GPW w screenerze",
+    "ctaLink": "/"
+  },
+  {
+    "slug": "wskaznik-eps",
+    "title": "Wskaznik EPS — zysk na akcje, kluczowy wskaznik dla inwestora",
+    "metaTitle": "Wskaznik EPS (zysk na akcje) — jak go obliczac i interpretowac? Poradnik 2026 | WIGmarkets.pl",
+    "metaDescription": "Dowiedz sie czym jest wskaznik EPS (Earnings Per Share), jak go obliczac, czym rozni sie basic EPS od diluted EPS i jak wykorzystac go w analizie spolek GPW.",
+    "category": "analiza",
+    "author": "Redakcja WIGmarkets",
+    "publishDate": "2026-02-26",
+    "updatedDate": "2026-02-26",
+    "readingTime": 14,
+    "featuredImage": "/images/edukacja/wskaznik-eps.webp",
+    "featuredImageAlt": "Wykres zysku na akcje EPS spolki gieldowej na GPW",
+    "tags": [
+      "EPS",
+      "zysk na akcje",
+      "analiza fundamentalna",
+      "wskazniki",
+      "GPW",
+      "wycena spolek",
+      "Earnings Per Share"
+    ],
+    "relatedSlugs": [
+      "wskaznik-pe",
+      "jak-czytac-wyniki-finansowe",
+      "wskazniki-fundamentalne-gpw",
+      "sezon-wynikow-gpw",
+      "wskaznik-roe"
+    ],
+    "ctaType": "screener",
+    "ctaText": "Sprawdz EPS spolek GPW w screenerze",
     "ctaLink": "/"
   },
   {

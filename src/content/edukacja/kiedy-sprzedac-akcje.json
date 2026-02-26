@@ -1,0 +1,274 @@
+{
+  "slug": "kiedy-sprzedac-akcje",
+  "title": "Kiedy sprzedać akcje — najtrudniejsza decyzja inwestora",
+  "metaTitle": "Kiedy sprzedać akcje? Sygnały sprzedaży i strategie wyjścia",
+  "metaDescription": "Kiedy sprzedać akcje na GPW? Poznaj sygnały fundamentalne i techniczne, efekt dyspozycji, trailing stop, częściową sprzedaż i checklistę decyzji. Praktyczny poradnik.",
+  "category": "strategia",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-26",
+  "updatedDate": "2026-02-26",
+  "readingTime": 12,
+  "featuredImage": "/images/edukacja/kiedy-sprzedac-akcje.webp",
+  "featuredImageAlt": "Kiedy sprzedać akcje — strategie wyjścia z pozycji na giełdzie GPW",
+  "tags": [
+    "sprzedaż akcji",
+    "strategia wyjścia",
+    "efekt dyspozycji",
+    "trailing stop",
+    "zarządzanie portfelem",
+    "GPW",
+    "psychologia inwestowania",
+    "analiza fundamentalna"
+  ],
+  "relatedSlugs": [
+    "stop-loss-take-profit",
+    "analiza-techniczna-podstawy",
+    "jak-budowac-portfel-inwestycyjny",
+    "wskaznik-pe",
+    "ryzyko-inwestycyjne"
+  ],
+  "ctaType": "screener",
+  "ctaText": "Sprawdź wyceny i wskaźniki spółek GPW w screenerze",
+  "ctaLink": "/screener",
+  "sections": [
+    {
+      "type": "paragraph",
+      "text": "Kupowanie akcji jest łatwe — wystarczy analiza, przekonanie i jedno kliknięcie. Sprzedawanie to zupełnie inna historia. Wielu doświadczonych inwestorów przyznaje, że decyzja o sprzedaży jest najtrudniejszym elementem całego procesu inwestycyjnego. Dlaczego? Bo łączą się w niej twarde dane z emocjami, racjonalna analiza z przywiązaniem do pozycji, a potencjalny zysk z lękiem przed żalem. Na GPW, gdzie płynność wielu spółek jest ograniczona, a informacje rynkowe docierają z opóźnieniem, umiejętność właściwego timingu sprzedaży staje się jeszcze cenniejsza. Ten artykuł to kompletny przewodnik po strategiach wyjścia z pozycji — od sygnałów fundamentalnych, przez techniczne, aż po psychologiczne pułapki, które sabotują nawet najlepszych inwestorów."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dlaczego sprzedawanie jest trudniejsze niż kupowanie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Psychologia behawioralna daje jasną odpowiedź: nasz mózg nie jest zaprojektowany do podejmowania optymalnych decyzji finansowych. Kiedy kupujesz akcje, działasz w trybie optymizmu — widzisz potencjał, szansę, przyszły zysk. Kiedy rozważasz sprzedaż, musisz zmierzyć się z całą gamą emocji: strachem przed żalem (a co jeśli po sprzedaży akcje dalej wzrosną?), awersją do strat (Kahneman wykazał, że ból straty jest psychologicznie dwukrotnie silniejszy niż radość z zysku), przywiązaniem do pozycji (efekt posiadania — to, co posiadamy, wydaje nam się bardziej wartościowe) oraz potwierdzaniem swoich przekonań (selektywnie szukamy informacji potwierdzających naszą tezę, ignorując sygnały ostrzegawcze). Do tego dochodzi presja społeczna — na forach i w mediach społecznościowych dominuje narracja 'HODL', 'diamond hands' i 'kupuj spadki'. Sprzedaż jest postrzegana niemal jak zdrada. Tymczasem profesjonalni zarządzający funduszami wiedzą, że umiejętność cięcia pozycji we właściwym momencie jest tym, co odróżnia zyskowny portfel od przeciętnego."
+    },
+    {
+      "type": "info",
+      "text": "Badania Barber i Odean z University of California wykazały, że indywidualni inwestorzy sprzedają zyskowne akcje o 50% częściej niż stratne. To efekt dyspozycji — jeden z najkosztowniejszych błędów behawioralnych w inwestowaniu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sygnały fundamentalne — kiedy teza inwestycyjna się załamuje"
+    },
+    {
+      "type": "paragraph",
+      "text": "Każda inwestycja powinna opierać się na jasnej tezie — konkretnym powodzie, dla którego wierzysz, że spółka jest warta więcej niż jej obecna cena rynkowa. Kiedy ta teza przestaje obowiązywać, czas sprzedawać, niezależnie od tego, czy jesteś na plusie, czy na minusie. To najtrudniejsza, ale najważniejsza zasada. Sygnałów fundamentalnych, które powinny uruchomić proces decyzji o sprzedaży, jest kilka. Pierwszy to trwałe pogorszenie wyników finansowych. Jeden słaby kwartał to szum — trzy kolejne kwartały spadających przychodów lub marż to trend. Jeśli kupowałeś spółkę, bo rosła 15% rocznie, a nagle jej wzrost zatrzymał się na 2%, musisz zadać sobie pytanie, czy Twoja teza nadal obowiązuje. Drugi sygnał to zmiana w zarządzie lub strategii. Kiedy kluczowi menedżerowie odchodzą, a nowy zarząd zmienia kierunek firmy, spółka, w którą inwestowałeś, może już nie być tą samą spółką. Trzeci to nadmierne zadłużenie. Jeśli wskaźnik dług netto/EBITDA rośnie powyżej 3-4x, a spółka nie jest w sektorze, który tradycyjnie operuje z wysokim lewarem (np. deweloperzy, utilities), to poważny sygnał ostrzegawczy."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Przewartościowanie — akcje zbyt drogie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nawet doskonała spółka może być złą inwestycją, jeśli jej cena jest zbyt wysoka. Przewartościowanie to jeden z najczęstszych i jednocześnie najtrudniejszych do zidentyfikowania powodów do sprzedaży. Wskaźnik P/E znacznie powyżej średniej sektorowej i historycznej? Wskaźnik P/BV na poziomach, których spółka nigdy wcześniej nie osiągała? EV/EBITDA dwukrotnie wyższy niż u porównywalnych spółek? To sygnały, że rynek może wyceniać zbyt optymistyczny scenariusz. Na GPW doskonałym przykładem były spółki gamingowe w latach 2020-2021, kiedy euforia wokół CD Projektu i całego sektora wywindowała wyceny do poziomów, które wymagały perfekcyjnej egzekucji. Inwestorzy, którzy potrafili rozpoznać przewartościowanie i zrealizować zyski, uniknęli bolesnych spadków, które przyszły w kolejnych kwartałach. Kluczowe pytanie, które powinieneś sobie zadać: gdybym dzisiaj nie posiadał tych akcji, czy kupiłbym je po obecnej cenie? Jeśli odpowiedź brzmi 'nie' — to silny sygnał, że czas sprzedawać."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Utrata przewagi konkurencyjnej"
+    },
+    {
+      "type": "paragraph",
+      "text": "Każda dobra inwestycja opiera się na przewadze konkurencyjnej spółki — silnej marce, efekcie skali, patentach, efekcie sieciowym lub unikalnej pozycji rynkowej. Kiedy ta przewaga zaczyna erodować, fundamentalna wartość spółki spada, nawet jeśli bieżące wyniki jeszcze tego nie pokazują. Przykłady z GPW: spółki handlu detalicznego, które nie nadążyły za transformacją cyfrową i traciły udziały rynkowe na rzecz e-commerce. Albo spółki energetyczne, których model biznesowy oparty na węglu stawał się coraz bardziej zagrożony regulacjami klimatycznymi. Sygnały ostrzegawcze to spadające udziały rynkowe, malejąca siła cenowa (muszą obniżać ceny, by konkurować), odpływ kluczowych pracowników i rosnące koszty pozyskania klienta. Te zmiany są często powolne i subtelne — dlatego tak łatwo je zignorować. Ale inwestor, który je rozpozna wcześnie, może uniknąć wielomiesięcznego trendu spadkowego."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sygnały techniczne — co mówi wykres"
+    },
+    {
+      "type": "paragraph",
+      "text": "Analiza techniczna dostarcza obiektywnych, mierzalnych sygnałów, które mogą potwierdzić decyzję o sprzedaży lub ją wyprzedzić. W przeciwieństwie do analizy fundamentalnej, która wymaga interpretacji raportów finansowych i oceny jakościowej, sygnały techniczne są jednoznaczne i działają w czasie rzeczywistym. Oto najważniejsze techniczne sygnały sprzedaży, które każdy inwestor na GPW powinien znać."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Przebicie kluczowego wsparcia — jeśli cena zamyka sesję poniżej istotnego poziomu wsparcia (np. wielomiesięcznego minimum, linii trendu wzrostowego), to silny sygnał, że dotychczasowy trend się zmienił. Im dłużej wsparcie trzymało, tym poważniejsze jest jego przebicie.",
+        "Krzyż śmierci (death cross) — średnia krocząca SMA 50 przecina SMA 200 z góry na dół. To jeden z najbardziej znanych sygnałów spadkowych, który historycznie poprzedzał kilkumiesięczne trendy spadkowe. Na GPW death cross na WIG20 trafnie sygnalizował większe korekty.",
+        "Dywergencja niedźwiedzia na RSI — cena wyznacza nowe maksimum, ale wskaźnik RSI tego nie potwierdza (RSI robi niższy szczyt). To sygnał słabnącej siły trendu wzrostowego i potencjalnego odwrócenia.",
+        "Sygnał MACD — linia MACD przecina linię sygnałową z góry na dół, szczególnie gdy obie linie znajdują się powyżej zera. Histogram MACD przechodzi z wartości dodatnich na ujemne.",
+        "Wzrost wolumenu przy spadkach — jeśli cena spada przy wyraźnie podwyższonym wolumenie, oznacza to, że instytucje i duzi gracze wychodzą z pozycji. Na GPW, gdzie wolumeny są relatywnie niskie, nagły wzrost obrotu przy spadkach jest szczególnie wymowny.",
+        "Formacje odwrócenia trendu — podwójny szczyt (double top), głowa i ramiona (head and shoulders), gwiazda wieczorna (evening star) na wykresie świecowym. Te formacje mają statystycznie potwierdzoną skuteczność w identyfikacji odwrócenia trendu."
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Najlepsze decyzje sprzedażowe opierają się na konfluencji sygnałów — czyli jednoczesnym występowaniu kilku niezależnych przesłanek. Samo przebicie jednej średniej kroczącej to słaby sygnał. Ale przebicie wsparcia + dywergencja RSI + wzrost wolumenu to już poważne ostrzeżenie."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Powody portfelowe — rebalansowanie i alokacja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nie każda decyzja o sprzedaży wynika z problemów ze spółką. Często najlepszym powodem do sprzedaży jest kontekst portfelowy. Trzy główne powody portfelowe to: zbyt duża koncentracja, rebalansowanie i lepsza okazja. Jeśli jedna pozycja stanowi więcej niż 15-20% Twojego portfela, narażasz się na nadmierne ryzyko specyficzne. Nawet najlepsza spółka może zaskoczyć negatywnie — awaria, skandal, zmiana regulacji. Sprzedaż części pozycji i dywersyfikacja to nie brak wiary w spółkę, lecz rozsądne zarządzanie ryzykiem. Rebalansowanie to systematyczny proces przywracania docelowych wag w portfelu. Jeśli Twoja strategia zakłada 30% spółek dywidendowych i 70% wzrostowych, a po silnym rajdzie na spółkach wzrostowych proporcja zmieni się na 20/80, sprzedajesz część wzrostowych i dokupujesz dywidendowe. To sprzeczne z intuicją — sprzedajesz to, co rośnie — ale badania akademickie konsekwentnie pokazują, że rebalansowanie poprawia stosunek zysku do ryzyka w długim terminie."
+    },
+    {
+      "type": "paragraph",
+      "text": "Trzeci powód portfelowy to pojawienie się lepszej okazji. Twój kapitał jest ograniczony — każda złotówka zainwestowana w spółkę A to złotówka, której nie możesz zainwestować w spółkę B. Jeśli Twoja analiza wskazuje, że spółka B oferuje znacznie lepszy stosunek potencjalnego zysku do ryzyka, racjonalne jest sprzedanie części pozycji w spółce A, nawet jeśli jest ona nadal dobra. To koncepcja kosztu alternatywnego (opportunity cost) w praktyce. Na GPW, gdzie w indeksie WIG jest ponad 300 spółek, zawsze istnieje szansa, że gdzieś indziej czeka lepsza okazja. Kluczowe jest jednak, żeby nie popaść w drugą skrajność — zbyt częste rotowanie pozycji generuje koszty transakcyjne i podatki, które zjadają potencjalny zysk."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Efekt dyspozycji — najkosztowniejszy błąd inwestorów"
+    },
+    {
+      "type": "paragraph",
+      "text": "Efekt dyspozycji to tendencja do zbyt wczesnego sprzedawania akcji zyskownych i zbyt długiego trzymania akcji stratnych. To nie abstrakcyjna teoria — to błąd, który kosztuje inwestorów realne pieniądze, i to znaczne. Mechanizm jest prosty: kiedy masz akcje na plusie, odczuwasz lęk, że zysk 'ucieknie', więc sprzedajesz szybko, żeby 'zabezpieczyć' zysk. Kiedy masz akcje na minusie, odczuwasz nadzieję, że cena wróci do poziomu zakupu, więc trzymasz, czekając na odbicie, które często nie nadchodzi. Rezultat jest podwójnie szkodliwy: obcinasz zyski i pozwalasz stratom rosnąć — dokładne przeciwieństwo tego, co powinieneś robić."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na GPW efekt dyspozycji jest szczególnie widoczny w przypadku spółek, które zaliczyły gwałtowny spadek. Inwestorzy, którzy kupili akcje spółki na szczycie, często trzymają je przez miesiące, a nawet lata, czekając na powrót do ceny zakupu — nawet gdy fundamenty jasno wskazują, że ta cena nie jest już uzasadniona. Tymczasem ich kapitał jest zamrożony w stratnej pozycji zamiast pracować w bardziej obiecujących inwestycjach. Jedynym skutecznym antidotum na efekt dyspozycji jest systemowe podejście do sprzedaży — z góry ustalone reguły, które eliminują emocje z procesu decyzyjnego. Zanim kupisz akcje, zapisz warunki, przy których je sprzedasz — zarówno w scenariuszu zyskownym, jak i stratnym. Trzymaj się tych reguł bezwzględnie."
+    },
+    {
+      "type": "warning",
+      "text": "Twoja cena zakupu jest psychologicznie ważna, ale rynkowo kompletnie nieistotna. Rynek nie wie i nie obchodzi go, po ile kupiłeś. Jedyne co się liczy to czy spółka jest dzisiaj warta więcej czy mniej niż obecna cena. Podejmuj decyzje na podstawie aktualnej wartości, nie historycznej ceny zakupu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Trailing stop — systematyczna ochrona zysków"
+    },
+    {
+      "type": "paragraph",
+      "text": "Trailing stop (stop kroczący) to jedno z najskuteczniejszych narzędzi do rozwiązania dylematu 'kiedy sprzedać zyskowną pozycję'. Zamiast próbować trafić w szczyt — co jest praktycznie niemożliwe — ustawiasz dynamiczny próg, który przesuwa się za ceną w górę, ale nigdy nie cofa się w dół. Typowe podejścia do trailing stopu: procentowy (np. 10-15% poniżej najwyższej osiągniętej ceny), oparty na ATR (np. 2-3x ATR poniżej szczytu) lub techniczny (poniżej ostatniego istotnego dołka w trendzie wzrostowym). Przykład z GPW: kupiłeś akcje KGHM po 120 zł, cena wzrosła do 180 zł. Trailing stop 12% oznacza, że Twój aktualny próg sprzedaży to 158,40 zł. Jeśli cena spadnie do tego poziomu, sprzedajesz z zyskiem ponad 32%. Nie trafiłeś w szczyt 180 zł, ale zabezpieczyłeś większość ruchu wzrostowego. Kluczowa zaleta trailing stopu to eliminacja problemu zbyt wczesnej sprzedaży — dopóki trend trwa, pozycja jest otwarta. Jednocześnie, gdy trend się odwraca, masz jasny, mechaniczny punkt wyjścia."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Częściowa sprzedaż — skalowanie wyjścia z pozycji"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nie musisz sprzedawać całej pozycji naraz. Częściowa sprzedaż (scaling out) to strategia, która łączy realizację zysków z możliwością uczestnictwa w dalszym wzroście. Podstawowy schemat wygląda tak: sprzedajesz jedną trzecią pozycji, gdy cena osiągnie Twój pierwszy cel cenowy, jednocześnie przesuwając stop loss na breakeven (cenę zakupu) dla pozostałych dwóch trzecich. Sprzedajesz kolejną trzecią na drugim celu cenowym, a ostatnią trzecią prowadzisz z trailing stopem, pozwalając jej biec tak daleko, jak trend pozwoli. Korzyści psychologiczne są ogromne: po sprzedaży pierwszej części czujesz się komfortowo, bo zrealizowałeś zysk. Po przesunięciu stopu na breakeven transakcja jest 'bezryzykowa' — nie stracisz nawet złotówki. A ostatnia część daje szansę na uczestnictwo w naprawdę dużych ruchach, które zdarzają się na GPW kilka razy w roku. Alternatywne podejścia to sprzedaż połowy na pierwszym celu i prowadzenie drugiej połowy z trailing stopem, lub sprzedaż ćwiartek na czterech kolejnych celach cenowych — im silniejszy trend, tym więcej przestrzeni warto dać ostatnim częściom pozycji."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rozliczanie strat podatkowych (tax-loss harvesting)"
+    },
+    {
+      "type": "paragraph",
+      "text": "W polskim systemie podatkowym zyski z giełdy opodatkowane są 19% podatkiem Belki (PIT-38). Straty z jednego roku można odliczyć od zysków w ciągu pięciu kolejnych lat podatkowych, ale nie więcej niż 50% straty w jednym roku. To oznacza, że kontrolowana realizacja strat może mieć wymierną wartość podatkową. Rozliczanie strat (tax-loss harvesting) polega na celowej sprzedaży stratnych pozycji przed końcem roku podatkowego, aby wygenerować stratę, którą odliczysz od zysków zrealizowanych na innych transakcjach. Przykład: w ciągu roku zrealizowałeś 10 000 zł zysku na PKO BP i masz otwartą stratną pozycję na spółce X ze stratą 6 000 zł. Jeśli sprzedasz spółkę X przed 31 grudnia, Twój dochód do opodatkowania spadnie do 4 000 zł, a podatek z 1 900 zł do 760 zł — oszczędzasz 1 140 zł. Ważne: tax-loss harvesting ma sens tylko wtedy, gdy i tak planowałeś wyjść z danej pozycji lub gdy nie wierzysz w jej odbicie. Nie sprzedawaj dobrej spółki tylko po to, żeby zrealizować stratę podatkową. Pamiętaj też o zasadzie 'wash sale' — jeśli odkupisz te same akcje w krótkim czasie, urząd skarbowy może zakwestionować zasadność odliczenia."
+    },
+    {
+      "type": "tip",
+      "text": "Grudzień to tradycyjny czas na przegląd portfela pod kątem rozliczania strat. Przejrzyj swoje stratne pozycje i zastanów się, czy mają szansę na odbicie — jeśli nie, zrealizowanie straty przed końcem roku może przynieść wymierne korzyści podatkowe."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kiedy NIE sprzedawać — sytuacje, w których cierpliwość się opłaca"
+    },
+    {
+      "type": "paragraph",
+      "text": "Równie ważne jak wiedzieć, kiedy sprzedać, jest wiedzieć, kiedy tego nie robić. Wielu inwestorów sprzedaje w najgorszym możliwym momencie — panikując na dole lub reagując na szum informacyjny. Oto sytuacje, w których sprzedaż jest niemal zawsze błędem."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Jednorazowe złe wyniki kwartalne — jeśli spółka raportuje jeden słabszy kwartał, ale jej długoterminowa teza inwestycyjna pozostaje nienaruszona, korekta jest okazją do dokupienia, nie do sprzedaży. Rynki mają tendencję do nadmiernej reakcji na pojedyncze dane.",
+        "Panika rynkowa niezwiązana ze spółką — jeśli cały rynek spada o 10-20% z powodu geopolityki, kryzysu bankowego czy pandemii, a Twoja spółka jest fundamentalnie zdrowa, sprzedaż w panice to realizacja straty, która prawdopodobnie się odrobi. Najlepsze dni na rynku często następują tuż po najgorszych.",
+        "Krótkoterminowa zmienność — codzienne wahania 2-3% to normalność na GPW, szczególnie dla mniejszych spółek. Reagowanie na każdą czerwoną sesję prowadzi do nadmiernego handlowania i erozji kapitału przez prowizje i spread.",
+        "Spadek po wypłacie dywidendy — cena akcji naturalnie spada o wartość dywidendy w dniu odcięcia. To nie jest strata — otrzymałeś dywidendę. Wielu początkujących inwestorów panikuje widząc czerwony kolor na rachunku po dniu dywidendowym.",
+        "Hossa w innym sektorze — to, że spółki gamingowe rosną, nie oznacza, że musisz sprzedać swoje spółki energetyczne. Rotacja sektorowa jest naturalnym zjawiskiem i nie jest powodem do porzucenia dobrej inwestycji."
+      ]
+    },
+    {
+      "type": "info",
+      "text": "Peter Lynch, legendarny zarządzający funduszem Magellan, powiedział: 'Więcej pieniędzy stracono na przygotowywaniu się do korekt niż na samych korektach'. Cierpliwość jest jedną z najrzadszych i najcenniejszych cech inwestora."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dyscyplina sprzedaży — ustalone reguły przed zakupem"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najskuteczniejszą metodą radzenia sobie z emocjonalnym aspektem sprzedaży jest stworzenie z góry ustalonych reguł wyjścia z pozycji — jeszcze zanim kupisz akcje. To podejście eliminuje najgroźniejszy element: podejmowanie decyzji pod wpływem emocji, gdy pieniądze są już na stole. Twój plan sprzedaży powinien zawierać cztery elementy. Po pierwsze, warunki fundamentalne — konkretne scenariusze, w których uznasz, że teza inwestycyjna się załamała (np. spadek przychodów przez dwa kwartały z rzędu, utrata kluczowego klienta, zmiana zarządu). Po drugie, poziom stop loss — maksymalną akceptowalną stratę procentową lub techniczny poziom cenowy. Po trzecie, cele zysku — przy jakim poziomie zysku realizujesz całość lub część pozycji. Po czwarte, horyzont czasowy — ile czasu dajesz tezie na realizację (np. jeśli cena nie wzrośnie w ciągu 6 miesięcy, rewidujesz pozycję). Zapisz te reguły i trzymaj je przy swoim dzienniku transakcyjnym. Kiedy przyjdzie moment decyzji, nie musisz myśleć — po prostu wykonujesz plan."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Praktyczna checklista przed sprzedażą"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zanim klikniesz 'sprzedaj', przejdź przez tę listę kontrolną. Jej celem jest oddzielenie racjonalnych przesłanek od emocjonalnych impulsów. Każdy punkt wymaga uczciwej odpowiedzi — jeśli sprzedajesz z właściwych powodów, checklista to potwierdzi. Jeśli sprzedajesz pod wpływem emocji, pomoże Ci się zatrzymać."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Czy moja pierwotna teza inwestycyjna nadal obowiązuje? Jeśli powody, dla których kupiłem akcje, są nadal aktualne, potrzebuję bardzo silnego powodu do sprzedaży.",
+        "Czy powodem sprzedaży jest zmiana fundamentów spółki, czy zmiana ceny? Spadek ceny sam w sobie nie jest powodem do sprzedaży. Zmiana fundamentów — tak.",
+        "Czy podejmuję tę decyzję na chłodno, czy pod wpływem emocji? Jeśli właśnie przeczytałeś alarmujący nagłówek lub cena gwałtownie spadła w ciągu ostatniej godziny, poczekaj 24 godziny.",
+        "Czy spółka jest przewartościowana względem fundamentów? Porównaj aktualne wskaźniki (P/E, EV/EBITDA, P/BV) z historycznymi i sektorowymi średnimi.",
+        "Czy mam lepsze zastosowanie dla tego kapitału? Jeśli nie masz konkretnej alternatywy, gotówka nie zarabia — przemyśl, czy trzymanie pozycji nie jest mimo wszystko lepszą opcją.",
+        "Czy ta pozycja stanowi zbyt duży procent mojego portfela? Jeśli tak, częściowa sprzedaż jest rozsądniejsza niż zamknięcie całości.",
+        "Jakie są konsekwencje podatkowe? Czy sprzedaż teraz generuje zysk do opodatkowania? Czy warto poczekać do końca roku, żeby rozliczyć ze stratami?",
+        "Czy sprzedaż jest zgodna z moim planem inwestycyjnym? Wróć do reguł, które ustaliłeś przed zakupem."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Przykłady z GPW — lekcje ze sprzedaży i trzymania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Historia GPW dostarcza wielu pouczających przykładów, które ilustrują konsekwencje zarówno zbyt wczesnej, jak i zbyt późnej sprzedaży. CD Projekt to klasyczny przypadek, w którym umiejętność rozpoznania przewartościowania i cięcia zysków była kluczowa. W grudniu 2020 roku, tuż przed premierą Cyberpunka 2077, akcje osiągnęły historyczne szczyty powyżej 400 zł. Inwestorzy, którzy zrealizowali choćby część zysków na poziomie 350-400 zł, uniknęli wielomiesięcznego spadku do okolic 100 zł. Sygnały były czytelne: ekstremalnie wysokie wyceny (P/E powyżej 100), nieproporcjonalnie optymistyczne oczekiwania rynku i historia branży gamingowej, w której premiery rzadko spełniają wszystkie obietnice."
+    },
+    {
+      "type": "paragraph",
+      "text": "Z drugiej strony, PKN Orlen po ogłoszeniu strategii fuzji z Lotosem i PGNiG wywołał falę pesymizmu — wielu inwestorów sprzedawało w obawie przed ryzykiem integracji, spadkiem efektywności i upolitycznieniem spółki. Ci, którzy trzymali się fundamentów i widzieli potencjał w konsolidacji sektora paliwowego, zostali nagrodzeni, gdy spółka raportowała solidne wyniki i utrzymywała atrakcyjną dywidendę. To pokazuje, że paniczna sprzedaż w odpowiedzi na szum medialny, bez pogorszenia fundamentów, jest często kosztownym błędem. Kluczowa różnica między tymi przypadkami? W pierwszym fundamenty się pogarszały (wycena nie miała pokrycia w wynikach). W drugim — fundamenty pozostawały stabilne mimo negatywnej narracji medialnej. Zawsze pytaj: co mówią liczby, a nie nagłówki."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Podsumowanie — zasady mądrej sprzedaży"
+    },
+    {
+      "type": "paragraph",
+      "text": "Decyzja o sprzedaży akcji nigdy nie będzie łatwa — to naturalne i dotyczy zarówno początkujących, jak i doświadczonych inwestorów. Ale możesz sprawić, żeby była lepsza, bardziej systematyczna i mniej emocjonalna. Zapamiętaj te fundamentalne zasady: sprzedawaj, gdy teza inwestycyjna się załamie, nie gdy cena spadnie. Ustal reguły wyjścia przed zakupem, nie po fakcie. Używaj trailing stopu, żeby chronić zyski bez zgadywania, gdzie jest szczyt. Rozważ częściową sprzedaż zamiast decyzji 'wszystko albo nic'. Nie ignoruj sygnałów technicznych, szczególnie gdy potwierdzają się wzajemnie. Rebalansuj portfel regularnie, nawet jeśli wymaga to sprzedaży zyskownych pozycji. Nie sprzedawaj w panice — daj sobie 24 godziny na decyzję, jeśli nie masz aktywnego stop lossa. I wreszcie — akceptuj, że nie sprzedasz na szczycie. Nikt tego nie robi konsekwentnie. Celem nie jest perfekcja, lecz systematyczne podejmowanie dobrych decyzji, które w długim terminie przełożą się na lepsze wyniki Twojego portfela."
+    },
+    {
+      "type": "warning",
+      "text": "Informacje zawarte w tym artykule mają charakter wyłącznie edukacyjny i nie stanowią rekomendacji inwestycyjnej w rozumieniu przepisów prawa. Inwestowanie na giełdzie wiąże się z ryzykiem utraty części lub całości zainwestowanych środków. Przed podjęciem decyzji inwestycyjnych skonsultuj się z licencjonowanym doradcą finansowym."
+    },
+    {
+      "type": "interactive",
+      "component": "ScreenerPreview",
+      "props": {}
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czy powinienem sprzedać akcje, które spadły o 50%?",
+      "answer": "Sama wielkość spadku nie jest powodem do sprzedaży ani do trzymania. Kluczowe pytanie brzmi: czy fundamenty spółki uzasadniają obecną cenę i czy masz powód wierzyć w odbicie? Jeśli spółka straciła 50% wartości, bo jej przychody spadły, branża się kurczy, a zarząd nie ma planu naprawczego — sprzedaż jest rozsądna, nawet z tak dużą stratą. Zamrażanie kapitału w nadziei na cudowne odbicie to jeden z najkosztowniejszych błędów inwestorów. Jeśli natomiast spadek wynika z chwilowej paniki rynkowej, a fundamenty są stabilne — pozycja może być warta utrzymania, a nawet powiększenia. Zawsze pytaj: gdybym dzisiaj nie miał tych akcji, czy kupiłbym je po obecnej cenie?"
+    },
+    {
+      "question": "Jak radzić sobie z żalem po sprzedaży, gdy akcje dalej rosną?",
+      "answer": "Żal po sprzedaży (regret aversion) to naturalna emocja, której nie da się całkowicie wyeliminować, ale można ją znacząco ograniczyć. Po pierwsze, zaakceptuj, że nikt nie sprzedaje na samym szczycie — to statystycznie niemal niemożliwe. Po drugie, oceniaj decyzję na podstawie informacji, które miałeś w momencie jej podejmowania, a nie na podstawie tego, co stało się potem. Jeśli sprzedaż była zgodna z Twoim planem i regułami, to była dobra decyzja, niezależnie od dalszego ruchu ceny. Po trzecie, prowadź dziennik transakcyjny — zapisuj powody każdej sprzedaży. Po kilku miesiącach zobaczysz, że decyzje systemowe dają lepsze wyniki niż impulsywne. Po czwarte, stosuj częściową sprzedaż — dzięki temu zawsze masz 'nogę w grze' i żal jest mniejszy."
+    },
+    {
+      "question": "Jak często powinienem przeglądać portfel pod kątem sprzedaży?",
+      "answer": "Częstotliwość przeglądu portfela zależy od Twojego horyzontu inwestycyjnego. Inwestorzy długoterminowi powinni robić pełny przegląd raz na kwartał — przy okazji publikacji raportów finansowych spółek. Sprawdź, czy teza inwestycyjna nadal obowiązuje, czy wskaźniki fundamentalne się nie pogorszyły i czy proporcje w portfelu nie wymagają rebalansowania. Traderzy krótkoterminowi oczywiście monitorują pozycje codziennie. Niezależnie od horyzontu, unikaj obsesyjnego śledzenia cen w czasie rzeczywistym — to prowadzi do emocjonalnych decyzji. Ustaw alerty cenowe na kluczowych poziomach (stop loss, cele zysku) i pozwól im pracować za Ciebie. Dodatkowy przegląd warto przeprowadzić pod koniec roku kalendarzowego pod kątem rozliczania strat podatkowych."
+    },
+    {
+      "question": "Czy warto sprzedać zyskowne akcje przed korektą, której się spodziewam?",
+      "answer": "Próba timingu rynku — czyli sprzedawania przed oczekiwanym spadkiem i kupowania z powrotem na dole — jest ekstremalnie trudna i statystycznie nieopłacalna dla większości inwestorów. Badania wykazują, że przegapienie zaledwie 10 najlepszych dni na rynku w ciągu 20 lat dramatycznie obniża łączny zwrot z inwestycji. Problem z timingiem polega na tym, że musisz mieć rację dwa razy: kiedy sprzedać i kiedy odkupić. Jeśli Twoja analiza fundamentalna wskazuje na wyraźne przewartościowanie, częściowa sprzedaż jest uzasadniona — ale sprzedawanie całości z powodu ogólnego 'przeczucia korekty' to hazard, nie strategia. Lepszym podejściem jest utrzymywanie odpowiednich stop lossów i poziomu gotówki w portfelu."
+    },
+    {
+      "question": "Czy sprzedawać akcje tuż przed wynikami finansowymi?",
+      "answer": "Publikacja wyników finansowych to moment podwyższonego ryzyka — cena może gwałtownie wzrosnąć lub spaść o kilka, a nawet kilkanaście procent w ciągu jednej sesji. Decyzja o sprzedaży przed wynikami zależy od Twojej strategii i poziomu pewności. Jeśli masz silne przekonanie, że wyniki będą dobre i wycena to uzasadnia, trzymanie ma sens. Jeśli nie masz przewagi informacyjnej, a pozycja stanowi znaczną część portfela, sprzedaż części przed wynikami jest rozsądnym zarządzaniem ryzykiem. Popularna strategia to sprzedaż połowy przed wynikami — wtedy niezależnie od rezultatu czujesz się komfortowo. Na GPW luka cenowa (gap) po wynikach bywa szczególnie dotkliwa dla mniejszych spółek o niskiej płynności, gdzie szybkie wyjście z pozycji po rozczarowujących wynikach może być utrudnione."
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "wskaznik-eps",
+  "title": "Wskaznik EPS — zysk na akcje, kluczowy wskaznik dla inwestora",
+  "metaTitle": "Wskaznik EPS (zysk na akcje) — jak go obliczac i interpretowac? Poradnik 2026 | WIGmarkets.pl",
+  "metaDescription": "Dowiedz sie czym jest wskaznik EPS (Earnings Per Share), jak go obliczac, czym rozni sie basic EPS od diluted EPS i jak wykorzystac go w analizie spolek GPW.",
+  "category": "analiza",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-26",
+  "updatedDate": "2026-02-26",
+  "readingTime": 14,
+  "featuredImage": "/images/edukacja/wskaznik-eps.webp",
+  "featuredImageAlt": "Wykres zysku na akcje EPS spolki gieldowej na GPW",
+  "tags": ["EPS", "zysk na akcje", "analiza fundamentalna", "wskazniki", "GPW", "wycena spolek", "Earnings Per Share"],
+  "relatedSlugs": ["wskaznik-pe", "jak-czytac-wyniki-finansowe", "wskazniki-fundamentalne-gpw", "sezon-wynikow-gpw", "wskaznik-roe"],
+  "ctaType": "screener",
+  "ctaText": "Sprawdz EPS spolek GPW w screenerze",
+  "ctaLink": "/",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Co to jest wskaznik EPS i dlaczego jest tak wazny?"
+    },
+    {
+      "type": "paragraph",
+      "text": "EPS (Earnings Per Share, zysk netto na akcje) to jeden z najbardziej fundamentalnych wskaznikow analizy finansowej, ktory mierzy, ile zysku netto przypada na jedna akcje spolki. Innymi slowy, EPS odpowiada na proste, ale kluczowe pytanie: ile zarabiam (jako akcjonariusz) na kazdej posiadanej akcji? Jesli spolka wypracowala w danym roku 500 milionow zlotych zysku netto i ma w obrocie 100 milionow akcji, to EPS wynosi 5 zlotych. Oznacza to, ze na kazda akcje, ktora posiadasz, przypada 5 zlotych czystego zysku. EPS jest wskaznikiem absolutnym — wyrazonym w zlotych (lub innej walucie), a nie w procentach. Dlatego sam poziom EPS nie pozwala na bezposrednie porownywanie spolek o roznej cenie akcji. Jednak EPS jest fundamentem, na ktorym budowane sa inne kluczowe wskazniki, przede wszystkim wskaznik P/E (Price-to-Earnings, cena do zysku). Bez EPS nie mozna obliczyc P/E, a bez P/E trudno ocenic, czy spolka jest tanio czy drogo wyceniana na rynku. EPS jest rowniez jednym z najczesciej raportowanych wskaznikow przez spolki gieldowe. Podczas kazdego sezonu wynikowego analitycy i inwestorzy skupiaja sie na tym, czy EPS spelnilo, przekroczylo czy nie osiagnelo oczekiwan rynkowych (tzw. earnings beat lub earnings miss). Nawet niewielkie odchylenie EPS od konsensusu analitykow potrafi wywolac kilku- lub nawet kilkunastoprocentowe ruchy kursu akcji w ciagu jednej sesji."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wzor na EPS — jak obliczyc zysk na akcje?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Podstawowy wzor na obliczenie EPS jest prosty: EPS = Zysk netto / Srednia wazona liczba akcji w obrocie. Zysk netto to koncowy wynik finansowy spolki po odjieciu wszystkich kosztow operacyjnych, odsetek, podatkow i pozycji nadzwyczajnych. Znajduje sie na samym dole rachunku zyskow i strat (income statement) — dlatego w jezyku angielskim bywa nazywany bottom line. Srednia wazona liczba akcji w obrocie (weighted average shares outstanding) uwzglednia fakt, ze liczba akcji moze zmieniac sie w ciagu roku — np. w wyniku emisji nowych akcji, skupu akcji wlasnych czy realizacji opcji menedzerskich. Jesli spolka wyemitowala nowe akcje w polowie roku, srednia wazona bedzie wieksza niz liczba akcji na poczatku roku, ale mniejsza niz na koncu roku. Wazne: w liczniku wzoru uzywa sie zysku netto przypadajacego na akcjonariuszy spolki dominujacej. Jesli spolka ma udzialy mniejszosciowe w spolkach zaleznych, czesc zysku netto grupy kapitalowej nalezy do akcjonariuszy mniejszosciowych i nie powinna byc uwzgledniana w EPS. Spolki notowane na GPW publikuja EPS w raportach okresowych (kwartalnych, polrocznych i rocznych) — nie musisz obliczac go samodzielnie. Jednak zrozumienie wzoru pozwala Ci zweryfikowac publikowane dane i lepiej rozumiec, co wplywa na zmiany EPS w czasie."
+    },
+    {
+      "type": "tip",
+      "text": "EPS znajdziesz w raporcie finansowym spolki w czesci 'Rachunek zyskow i strat' lub 'Zysk na akcje'. Spolki notowane na GPW raportujace wg MSSF (Miedzynarodowych Standardow Sprawozdawczosci Finansowej) sa zobowiazane do publikowania zarowno basic EPS, jak i diluted EPS — zgodnie z wymogami standardu MSR 33."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Basic EPS kontra diluted EPS — kluczowa roznica"
+    },
+    {
+      "type": "paragraph",
+      "text": "W sprawozdaniach finansowych spolek gieldowych spotkasz dwa rodzaje EPS: podstawowy (basic EPS) i rozwodniony (diluted EPS). Roznica miedzy nimi jest istotna i dotyczy tego, ile akcji uwzgledniamy w mianowniku wzoru. Basic EPS (podstawowy zysk na akcje) oblicza sie na podstawie rzeczywistej sredniej wazonej liczby akcji wyemitowanych i pozostajacych w obrocie w danym okresie. To najprostszy wariant — ile zarobiono na kazda istniejaca akcje. Diluted EPS (rozwodniony zysk na akcje) uwzglednia dodatkowo potencjalne akcje, ktore moga powstac w przyszlosci w wyniku realizacji instrumentow rozwadniajacych. Do takich instrumentow naleza: opcje menedzerskie (stock options), obligacje zamienne na akcje (convertible bonds), warranty subskrypcyjne, programy motywacyjne oparte na akcjach (RSU — Restricted Stock Units). Diluted EPS jest zawsze rowny lub nizszy od basic EPS, poniewaz w mianowniku jest wieksza (lub rowna) liczba akcji. Im wieksza roznica miedzy basic a diluted EPS, tym wieksze ryzyko rozwodnienia zysku na akcje w przyszlosci. Przyklad: spolka ma zysk netto 200 milionow zlotych, 100 milionow akcji w obrocie i 10 milionow opcji menedzerskich. Basic EPS = 200/100 = 2,00 zl. Diluted EPS = 200/110 = 1,82 zl. Roznica 0,18 zl (9%) to potencjalne rozwodnienie — realny koszt programow motywacyjnych dla akcjonariuszy. Na GPW duza roznica miedzy basic a diluted EPS wystepuje u spolek z agresywnymi programami motywacyjnymi. Inwestorzy powinni zawsze patrzec na diluted EPS jako bardziej konserwatywna i realistyczna miare zysku na akcje."
+    },
+    {
+      "type": "warning",
+      "text": "Jesli roznica miedzy basic EPS a diluted EPS przekracza 10-15%, oznacza to znaczace potencjalne rozwodnienie. Sprawdz w raportach spolki, jakie instrumenty rozwadniajace istnieja (opcje, warranty, obligacje zamienne) i kiedy moga zostac zrealizowane. Rozwodnienie to ukryty koszt, ktory pomniejsza wartosc Twoich akcji."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Obliczanie EPS w praktyce — przyklady z GPW"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zobaczmy, jak obliczenie EPS wyglada na konkretnych przykladach spolek z Gieldy Papierow Wartosciowych w Warszawie. Przyklad 1: PKO Bank Polski. Zalozmy, ze PKO BP w ostatnim roku obrotowym wykazal zysk netto przypadajacy na akcjonariuszy 6,25 miliarda zlotych. Liczba akcji w obrocie to 1,25 miliarda. EPS = 6 250 000 000 / 1 250 000 000 = 5,00 zl. Przy kursie akcji 60 zl, wskaznik P/E wynosi 60 / 5,00 = 12. Przyklad 2: CD Projekt. Spolka w roku premiery duzego tytulu osiagnela zysk netto 1 miliard zlotych. Liczba akcji: 100 milionow. EPS = 1 000 000 000 / 100 000 000 = 10,00 zl. Przy kursie 250 zl, P/E = 250 / 10,00 = 25. W roku bez premiery zysk spada do 200 milionow zlotych, EPS = 2,00 zl, a P/E rosnie do 125 — co pokazuje cyklicznosc wynikow spolek gamingowych. Przyklad 3: Dino Polska. Zysk netto 1,5 miliarda zlotych, 98 milionow akcji. EPS = 1 500 000 000 / 98 000 000 = 15,31 zl. Przy kursie 450 zl, P/E = 450 / 15,31 = 29,4. Wysokie P/E odzwierciedla oczekiwania rynku co do dalszego szybkiego wzrostu sieci sklepow i zysku na akcje. Te przyklady pokazuja, ze EPS jest wskaznikiem absolutnym — jego poziom zalezy od wielkosci spolki i liczby akcji. Spolka z EPS 2 zl nie jest gorsza od spolki z EPS 20 zl, jesli uwzglednimy roznice w cenach akcji i perspektywach wzrostu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dynamika EPS — dlaczego tempo wzrostu jest wazniejsze niz absolutna wartosc"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sam poziom EPS (np. 5 zl czy 10 zl) mowi niewiele bez kontekstu. To, co naprawde interesuje inwestorow, to dynamika EPS — czyli jak szybko zysk na akcje rosnie (lub spada) w kolejnych okresach. Tempo wzrostu EPS (EPS growth rate) jest jednym z najwazniejszych czynnikow wplywajacych na wycene spolki i zachowanie kursu akcji. Spolka, ktora konsekwentnie zwieksza EPS o 15-20% rocznie, bedzie nagradzana przez rynek rosnacym kursem i wyzsza wycena (wyzszym P/E). Dlaczego? Poniewaz rosnaczy EPS oznacza, ze spolka generuje coraz wiecej zysku na kazda akcje — a to bezposrednio przekłada sie na wartosc dla akcjonariuszy. Inwestorzy kupuja akcje nie za obecne zyski, ale za przyszle — dlatego spolki z szybko rosnacym EPS sa wyceniane z premia. Sposoby mierzenia dynamiki EPS: rok do roku (YoY, Year-over-Year) — porownanie EPS z ostatnich 12 miesiecy z EPS z analogicznego okresu rok wczesniej. Jest to najczesciej uzywana miara. Kwartal do kwartalu roku poprzedniego (QoQ YoY) — porownanie EPS z danego kwartalu z tym samym kwartalem rok wczesniej, co eliminuje sezonowosc. CAGR (Compound Annual Growth Rate) — zlozony roczny wskaznik wzrostu EPS za dlugi okres (np. 3, 5, 10 lat). CAGR wygladza krotkoterminowe wahania i pokazuje trwale tempo wzrostu. Przyklad: spolka mala EPS 3 zl w 2021, 3,60 zl w 2022, 4,32 zl w 2023, 5,18 zl w 2024 i 6,22 zl w 2025. Roczne tempo wzrostu wynosi 20% (YoY), a 5-letni CAGR rowniez okolo 20%. To niezwykle konsekwentny i imponujacy wzrost, ktory rynek nagrodzi wysokim mnoznikiem P/E."
+    },
+    {
+      "type": "info",
+      "text": "Peter Lynch, legendarny zarzadzajacy funduszem Magellan, stosowal prosta zasade: sprawiedliwa wycena spolki to P/E rowne rocznemu tempu wzrostu EPS. Jesli EPS rosnie o 20% rocznie, spolka jest fair valued przy P/E = 20. Jesli P/E jest nizsze niz tempo wzrostu EPS, spolka moze byc niedowartosciowana. Ta relacja to wskaznik PEG (Price/Earnings to Growth)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "EPS a wskaznik P/E — fundamentalny zwiazek"
+    },
+    {
+      "type": "paragraph",
+      "text": "EPS i P/E sa nierozerwalnie polaczone — P/E to po prostu cena akcji podzielona przez EPS. Ten pozornie prosty zwiazek ma gleboke implikacje dla analizy inwestycyjnej. Gdy EPS rosnie, a cena akcji pozostaje taka sama, wskaznik P/E spada — spolka staje sie relatywnie tansza. To czesto zdarza sie po dobrym sezonie wynikowym, gdy spolka raportuje EPS powyzej oczekiwan, ale rynek jeszcze nie w pelni zareagował. Odwrotnie: gdy EPS spada, a cena akcji utrzymuje sie, P/E rosnie — spolka staje sie relatywnie drozsza. Moze to byc sygnal, ze rynek wciaz wierzy w odbudowe zyskow, lub ze cena jest nadmiarowa i czeka ja korekta. Istnieje tez trzeci scenariusz: cena akcji rosnie szybciej niz EPS — wtedy P/E rosnie, co oznacza ekspansje mnoznikow (multiple expansion). Dzieje sie tak, gdy rynek podnosi oczekiwania co do przyszlego wzrostu EPS. Odwrotnosc — kompresja mnoznikow (multiple compression) — wystepuje, gdy rynek obniża oczekiwania. Na GPW obserwujemy ciekawe zjawisko: spolki z konsekwentnie rosnacym EPS (jak Dino, LPP, Budimex) utrzymuja wysokie P/E przez lata, poniewaz rynek nagradza przewidywalnosc i jakosc zyskow. Z kolei spolki cykliczne (KGHM, JSW, PKN Orlen) maja P/E oscylujace w szerokim zakresie — niskie przy szczycie zyskow i wysokie (lub ujemne) w dole cyklu. To kontr-intuicyjne: najtaniej (najnizsze P/E) jest kupic spolke cykliczna w szczycie jej zyskow, a najdrozej (najwyzsze P/E) w dole cyklu, tuż przed odbiciem."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Trailing EPS kontra forward EPS — przeszlosc kontra przyszlosc"
+    },
+    {
+      "type": "paragraph",
+      "text": "Podobnie jak w przypadku wskaznika P/E, rozrozniamy dwa warianty EPS w zaleznosci od okresu, ktory obejmuja. Trailing EPS (EPS historyczny, TTM — Trailing Twelve Months) to zysk netto na akcje z ostatnich 12 miesiecy lub z ostatniego pelnego roku obrachunkowego. Oblicza sie go na podstawie juz opublikowanych danych finansowych — jest wiec obiektywny i weryfikowalny. Trailing EPS mozna obliczyc dodajac EPS z czterech ostatnich kwartalow (np. Q1 2025 + Q2 2025 + Q3 2025 + Q4 2025). Wada trailing EPS jest to, ze patrzy wstecz — jesli spolka przeszla istotna transformacje, straci lub zyska duzy kontrakt, trailing EPS moze nie odzwierciedlac aktualnej rzeczywistosci. Forward EPS (EPS prognozowany) to konsensus prognoz analitykow dotyczacych zysku na akcje w kolejnych 12 miesiacach lub w nastepnym roku obrachunkowym. Konsensus to mediana (lub srednia) prognoz wszystkich analitykow pokrywajacych dana spolke — dla duzych spolek z WIG20 moze to byc 10-20 analitykow, dla mniejszych spolek z sWIG80 moze byc ich zaledwie 2-3 lub wcale. Forward EPS jest wazny, bo rynek wycenia przyszlosc, nie przeszlosc. Cena akcji odzwierciedla oczekiwania co do przyszlych zyskow — dlatego forward EPS jest czesto bardziej relewantny niz trailing EPS. Jednak prognozy analitykow sa obarczone bledem — szczegolnie w niepewnych warunkach makroekonomicznych (pandemie, kryzysy energetyczne, wojny) prognozy moga byc daleko od rzeczywistosci. Praktyczna wskazowka: porownaj trailing EPS z forward EPS. Jesli forward EPS jest wyzsze od trailing, analitycy spodziewaja sie wzrostu zyskow — to pozytywny sygnal. Jesli forward EPS jest nizsze, oczekiwane jest pogorszenie — i warto zrozumiec dlaczego."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ujemny EPS — co oznacza strata na akcje?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gdy spolka odnotowuje strate netto zamiast zysku, EPS jest ujemny. Ujemny EPS oznacza, ze na kazda akcje przypadla okreslona kwota straty — np. EPS = -2,50 zl oznacza, ze spolka straci 2,50 zl na kazda wyemitowana akcje. Ujemny EPS nie jest automatycznie powodem do paniki — wszystko zalezy od przyczyn i kontekstu. Spolki na wczesnym etapie rozwoju (np. biotechnologiczne, fintechy) czesto przez lata raportuja ujemny EPS, poniewaz inwestuja w badania, rozwoj produktu i pozyskiwanie klientow. Rynek moze akceptowac ujemny EPS, jesli widzi perspektywe osiagniecia rentownosci w przyszlosci. Ujemny EPS moze tez wynikac z jednorazowych wydarzen: odpis wartosci aktywow, restrukturyzacja, kara nalozona przez regulatora, klaska naturalna. W takim przypadku jednorazowy ujemny EPS nie musi oznaczac trwalych problemow. Jednak przewlekle ujemny EPS (przez wiele lat z rzedu) bez wyraznej perspektywy poprawy jest powaznym sygnałem ostrzegawczym. Spolka, ktora nie potrafi generowac zysku, moze w koncu wyczerpac gotowke i zostac zmuszona do emisji nowych akcji (dalsze rozwodnienie) lub zaciagniecia dlugu. Wazne implikacje ujemnego EPS: wskaznik P/E nie ma sensu interpretacyjnego (ujemne P/E lub dzielenie przez ujemna liczbe). Dlatego dla spolek ze strata stosuje sie inne wskazniki wyceny: P/S (cena do przychodow), EV/EBITDA (jesli EBITDA jest dodatnie) lub DCF (zdyskontowane przeplywowy gotówkowe). Na GPW ujemny EPS wystepowal m.in. w spolkach energetycznych po odpisach wartosci aktywow weglowych, w spolkach gamingowych w latach inwestycyjnych miedzy premierami oraz w spolkach budowlanych dotkniętych kryzysem."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ograniczenia wskaznika EPS — kiedy nie mozna mu ufac?"
+    },
+    {
+      "type": "paragraph",
+      "text": "EPS, mimo swojej popularnosci i uzytecznosci, ma kilka istotnych ograniczen, o ktorych kazdy inwestor powinien wiedziec. Pierwsze ograniczenie: EPS nie uwzglednia jakosci zysku. Zysk netto (a wiec i EPS) moze byc zawyzone przez jednorazowe pozycje: sprzedaz nieruchomosci, zyski z instrumentow finansowych, odwrocenie odpisow, korzystne rozliczenia podatkowe. Jednorazowo wysoki EPS moze dawac falszywie pozytywny obraz kondycji spolki. Dlatego profesjonalni analitycy czesto obliczaja tzw. adjusted EPS (skorygowany EPS) — po usunieciu pozycji jednorazowych, aby uzyskac powtarzalny, core earnings. Drugie ograniczenie: EPS mozna manipulowac. Spolki maja pewien zakres swobody w ramach standardow rachunkowosci (MSSF/MSR), ktory pozwala na przyspieszanie rozpoznawania przychodow, opoznianie kosztow, zmiane polityki amortyzacyjnej lub dokonywanie subiektywnych szacunkow (np. rezerwy na naleznosci). Tzw. earnings management to realne zjawisko — dlatego warto uzupelniac analize EPS o analize przeplywow pienieznych (cash flow), ktore sa trudniejsze do manipulowania. Trzecie ograniczenie: EPS nie mowi nic o strukturze kapitalu. Dwie spolki moga miec identyczny EPS 5 zl, ale jedna finansuje sie wylacznie kapitalem wlasnym, a druga jest silnie zadluzona. EPS nie odrozni tych sytuacji — dlatego nalezy go uzupelniac o wskazniki zadluzenia (D/E, Net Debt/EBITDA). Czwarte ograniczenie: EPS jest podatny na skup akcji wlasnych (buyback). Gdy spolka wykupuje i umarza wlasne akcje, liczba akcji w obrocie maleje — co automatycznie zwieksza EPS, nawet jesli zysk netto nie wzrosl. To nie jest zle per se (buyback moze byc efektywnym sposobem zwrotu gotowki akcjonariuszom), ale inwestor musi rozumiec, czy wzrost EPS wynika z poprawy operacyjnej czy z inzynierii finansowej. Piate ograniczenie: EPS jako wskaznik absolutny nie nadaje sie do bezposredniego porownywania spolek. Spolka A z EPS 2 zl i cena akcji 20 zl (P/E = 10) moze byc lepsza inwestycja niz spolka B z EPS 10 zl i cena 300 zl (P/E = 30). Do porownywania spolek sluza wskazniki relatywne jak P/E, PEG czy EV/EBITDA."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Jednorazowe pozycje w zysku — sprzedaz aktywow, odpisy, rozliczenia podatkowe zaburzaja EPS",
+        "Manipulacje rachunkowe (earnings management) — przyspieszanie przychodow, opoznianie kosztow",
+        "Brak informacji o strukturze kapitalu — EPS nie rozroznia spolek zadluzonych od niezadluzonych",
+        "Wplyw skupu akcji wlasnych (buyback) — sztuczne zawyżanie EPS przez zmniejszanie liczby akcji",
+        "Wskaznik absolutny — nie nadaje sie do bezposredniego porownywania spolek o roznych cenach akcji",
+        "Brak uwzglednienia kosztow kapitalu — EPS nie mowi, czy spolka tworzy wartosc powyzej kosztu kapitalu"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jak wykorzystac EPS w analizie inwestycyjnej?"
+    },
+    {
+      "type": "paragraph",
+      "text": "EPS jest wskaznikiem bazowym — sam w sobie daje ograniczona wartosc, ale w polaczeniu z innymi danymi staje sie poteznym narzedziem analizy. Oto praktyczny przewodnik, jak wykorzystac EPS w procesie inwestycyjnym. Krok 1: Analizuj trend EPS w czasie. Sprawdz, jak EPS zmienial sie w ostatnich 5-10 latach. Szukaj spolek z konsekwentnie rosnacym EPS — to sygnał silnego modelu biznesowego i przewagi konkurencyjnej. Unikaj spolek z EPS chaotycznie skaczacym miedzy zyskiem a strata. Krok 2: Porownuj EPS z konsensusem analitykow. Podczas sezonu wynikowego kluczowe pytanie brzmi: czy spolka pobila (beat), spelnila (met) czy nie osiagnela (missed) prognozowanego EPS? Systematyczne bicie konsensusu to silny pozytywny sygnal — oznacza, ze spolka konsekwentnie pozytywnie zaskakuje rynek. Krok 3: Oblicz P/E na podstawie EPS. Podziel aktualny kurs akcji przez trailing EPS i przez forward EPS. Porownaj oba wskazniki P/E z: historycznym P/E spolki, mediana P/E dla sektora, P/E indeksu WIG20 lub WIG. Krok 4: Oblicz PEG ratio. Podziel P/E przez roczne tempo wzrostu EPS. PEG ponizej 1 sugeruje, ze spolka moze byc niedowartosciowana wzgledem tempa wzrostu. PEG powyzej 2 to sygnal, ze rynek moze plecic zbyt duza premie. Krok 5: Sprawdz jakosc EPS. Porownaj EPS z przeplywami gotówkowymi na akcje (CFPS — Cash Flow Per Share). Jesli EPS jest znaczaco wyzszy niz CFPS, moze to oznaczac, ze zysk jest niegotowkowy — oparty na pozycjach ksiegowych, a nie na realnym wplywie gotowki. Zdrowa spolka powinna miec CFPS zblizony lub wyzszy od EPS. Krok 6: Weryfikuj diluted EPS. Zawsze sprawdzaj diluted EPS obok basic EPS. Duza roznica to sygnal istotnego potencjalnego rozwodnienia, ktore obnizy wartosc Twoich akcji w przyszlosci."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "EPS w screenerze WIGmarkets — jak filtrowac spolki"
+    },
+    {
+      "type": "paragraph",
+      "text": "Screener WIGmarkets pozwala na filtrowanie spolek GPW wedlug EPS i powiazanych wskaznikow, co umozliwia szybkie znalezienie spolek spelniajacych Twoje kryteria inwestycyjne. Mozesz filtrowac spolki wedlug: aktualnego EPS (zysk na akcje z ostatnich 12 miesiecy), dynamiki EPS (tempo wzrostu rok do roku), wskaznika P/E (obliczonego automatycznie na podstawie EPS), a takze sortowac wyniki wedlug tych parametrow rosnaco lub malejaco. Praktyczne strategie wyszukiwania w screenerze: strategia wzrostowa — szukaj spolek z EPS rosnacym powyzej 15% rocznie przez ostatnie 3 lata i P/E ponizej 25. To klasyczne podejscie GARP (Growth at Reasonable Price). Strategia wartosciowa — filtruj spolki z dodatnim EPS, P/E ponizej 12 i stabilnym lub rosnacym EPS. Wyeliminuj spolki z ujemnym trendem zysku, aby uniknac pulapek wartosci. Strategia dywidendowa — polacz filtr EPS z filtrem stopy dywidendy. Spolki z rosnacym EPS i stabilna dywidenda to idealny fundament portfela dochodowego. Pamietaj, ze screener to narzedzie do wstepnej selekcji — kazda spolke, ktora przejdzie przez filtry, nalezy poddac glebszej analizie fundamentalnej, uwzgledniajac jakosc zysku, zadluzenie, pozycje konkurencyjna i perspektywy sektora."
+    },
+    {
+      "type": "interactive",
+      "component": "StockTableWidget",
+      "props": {
+        "title": "Przykladowe wskazniki EPS spolek z GPW (dane orientacyjne 2025/2026)",
+        "metric": "eps"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Podsumowanie — EPS jako fundament analizy fundamentalnej"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wskaznik EPS (Earnings Per Share, zysk na akcje) to jeden z najbardziej fundamentalnych wskaznikow analizy finansowej — prostym wzorem laczy on zysk netto spolki z liczba akcji, dajac inwestorowi czytelna informacje o tym, ile zarabia na kazdej posiadanej akcji. EPS jest fundamentem wskaznika P/E, PEG ratio i wielu innych narzedzi wyceny. Pamietaj o kluczowych zasadach: analizuj trend EPS w czasie — dynamika wzrostu jest wazniejsza niz absolutna wartosc. Zawsze sprawdzaj diluted EPS obok basic EPS — rozwodnienie to realny koszt dla akcjonariuszy. Porownuj EPS z konsensusem analitykow — earnings beats i misses sa glownymi katalizatorami ruchow kursow. Weryfikuj jakosc EPS przez porownanie z przeplywami gotowkowymi — zysk ksiegowy nie zawsze oznacza realna gotowke. Uzywaj EPS w polaczeniu z innymi wskaznikami (P/E, PEG, EV/EBITDA, ROE) — nigdy nie podejmuj decyzji inwestycyjnej na podstawie jednego wskaznika. Na platformie WIGmarkets.pl znajdziesz aktualne dane EPS dla wszystkich spolek notowanych na GPW, a screener pozwoli Ci szybko znalezc spolki z najlepszym profilem zyskownosci. Wiecej o powiazanych wskaznikach fundamentalnych znajdziesz w naszych poradnikach: wskaznik P/E, wskaznik ROE oraz jak czytac wyniki finansowe."
+    },
+    {
+      "type": "warning",
+      "text": "Informacje zawarte w tym artykule maja charakter edukacyjny i nie stanowia rekomendacji inwestycyjnej w rozumieniu przepisow prawa. Decyzje inwestycyjne podejmuj samodzielnie, po wlasnej analizie i z uwzglednieniem swojego profilu ryzyka. Inwestowanie w akcje wiaze sie z ryzykiem utraty czesci lub calosci zainwestowanego kapitalu."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czym rozni sie basic EPS od diluted EPS?",
+      "answer": "Basic EPS (podstawowy zysk na akcje) oblicza sie na podstawie rzeczywistej sredniej wazonej liczby akcji w obrocie. Diluted EPS (rozwodniony zysk na akcje) uwzglednia dodatkowo potencjalne akcje, ktore moga powstac z realizacji opcji menedzerskich, obligacji zamiennych, warrantow czy programow motywacyjnych. Diluted EPS jest zawsze rowny lub nizszy od basic EPS i jest bardziej konserwatywna miara zysku na akcje. Jesli roznica miedzy nimi jest duza (ponad 10-15%), oznacza to istotne ryzyko rozwodnienia w przyszlosci."
+    },
+    {
+      "question": "Jaki poziom EPS jest dobry dla spolek z GPW?",
+      "answer": "Nie istnieje uniwersalnie dobry poziom EPS, poniewaz jest to wskaznik absolutny wyrazony w zlotych na akcje. EPS zalezy od wielkosci spolki, liczby akcji i polityki splitu. Spolka z EPS 2 zl moze byc doskonala inwestycja, jesli kurs wynosi 20 zl (P/E = 10 i EPS rosnie). Zamiast patrzec na absolutna wartosc EPS, analizuj: trend EPS w czasie (czy rosnie konsekwentnie?), dynamike wzrostu (ile procent rocznie?), relacje EPS do ceny akcji (P/E) oraz porownanie z konsensusem analitykow."
+    },
+    {
+      "question": "Dlaczego wzrost EPS jest wazniejszy niz jego absolutna wartosc?",
+      "answer": "Rynek wycenia przyszlosc, nie terazniejszosc. Spolka z EPS rosnacym o 20% rocznie bedzie nagradzana przez rynek wyzsza wycena (wyzszym P/E) niz spolka ze stagnujacym EPS, nawet jesli obecny EPS tej drugiej jest wyzszy. Konsekwentny wzrost EPS oznacza, ze spolka powieksza wartosc dla akcjonariuszy — generuje coraz wiecej zysku na kazda akcje. Dlatego inwestorzy focus-uja sie na dynamice EPS (YoY growth, CAGR), a nie na samym poziomie EPS."
+    },
+    {
+      "question": "Co oznacza ujemny EPS i czy zawsze jest zly?",
+      "answer": "Ujemny EPS oznacza, ze spolka poniosla strate netto — na kazda akcje przypadla okreslona kwota straty. Ujemny EPS nie jest automatycznie zly. Spolki na wczesnym etapie rozwoju (biotechnologie, fintechy, startupy) czesto inwestuja wiecej niz zarabiaja, co jest naturalne. Jednorazowe wydarzenia (odpisy, restrukturyzacja) moga tez tymczasowo obnizyc EPS ponizej zera. Jednak przewlekle ujemny EPS przez wiele lat bez perspektywy poprawy jest sygnałem ostrzegawczym. Przy ujemnym EPS wskaznik P/E traci sens — stosuj wtedy P/S, EV/EBITDA lub DCF."
+    },
+    {
+      "question": "Jak sprawdzic EPS spolek notowanych na GPW?",
+      "answer": "EPS spolek z GPW mozesz znalezc w kilku miejscach: w kwartalnych i rocznych raportach finansowych publikowanych na stronie spolki i w serwisie ESPI/EBI, na platformie WIGmarkets.pl (w profilu kazdej spolki i w screenerze), w serwisach finansowych (Bankier.pl, StockWatch.pl, Money.pl), w platformach brokerskich (mBank eMakler, bossa.pl, XTB xStation). Spolki raportujace wg MSSF sa zobowiazane do publikowania zarowno basic EPS, jak i diluted EPS. Pamietaj, ze wartosci moga sie roznic miedzy serwisami w zaleznosci od tego, czy uzywaja EPS rocznego, TTM czy kwartalnego."
+    }
+  ]
+}
