@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useCallback, lazy, Suspense } from "react";
+import { useState, useEffect, useMemo, useCallback, useRef, lazy, Suspense } from "react";
 import { Routes, Route, useNavigate, useLocation, Navigate } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 import { DARK_THEME, LIGHT_THEME } from "./lib/themes.js";
@@ -181,7 +181,7 @@ export default function App() {
 
   // Refresh GPW indices — uses dedicated /api/indices endpoint
   // with retry logic and host failover (query1 → query2)
-  const [indicesLoaded, setIndicesLoaded] = useState(false);
+  const indicesLoaded = useRef(false);
   useEffect(() => {
     const load = async () => {
       const data = await fetchIndices();
@@ -192,26 +192,23 @@ export default function App() {
           data.length, hasValues, data.map(d => `${d.name}=${d.value}`)
         );
         setIndices(data);
-        setIndicesLoaded(true);
+        indicesLoaded.current = true;
       } else {
         console.warn("Indeksy WIG — fetchIndices zwrócił pustą tablicę");
       }
     };
     load();
     const interval = setInterval(load, 60000);
-    // Timeout: if indices haven't loaded after 15s, mark as loaded (failed)
+    // Timeout: if indices haven't loaded after 15s, set fallback data
     const timeout = setTimeout(() => {
-      setIndicesLoaded(prev => {
-        if (!prev) {
-          setIndices([
-            { name: "WIG20", value: null, change24h: null, sparkline: [] },
-            { name: "WIG", value: null, change24h: null, sparkline: [] },
-            { name: "mWIG40", value: null, change24h: null, sparkline: [] },
-            { name: "sWIG80", value: null, change24h: null, sparkline: [] },
-          ]);
-        }
-        return true;
-      });
+      if (!indicesLoaded.current) {
+        setIndices([
+          { name: "WIG20", value: null, change24h: null, sparkline: [] },
+          { name: "WIG", value: null, change24h: null, sparkline: [] },
+          { name: "mWIG40", value: null, change24h: null, sparkline: [] },
+          { name: "sWIG80", value: null, change24h: null, sparkline: [] },
+        ]);
+      }
     }, 15000);
     return () => { clearInterval(interval); clearTimeout(timeout); };
   }, []);

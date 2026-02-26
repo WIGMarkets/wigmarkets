@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from "react";
-import { fmt, changeFmt, changeColor, calculateRSI } from "../lib/formatters.js";
-import { fetchHistory } from "../lib/api.js";
+import { fmt, changeFmt, changeColor } from "../lib/formatters.js";
+import { fetchRSIBulk } from "../lib/api.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import Icon from "./edukacja/Icon.jsx";
 import StockLogo from "./StockLogo.jsx";
@@ -50,23 +50,9 @@ export default function ScreenerView({ stocks, prices, changes, theme, onSelect 
 
   useEffect(() => {
     let cancelled = false;
-    const loadRSI = async () => {
-      const batch = {};
-      const batchSize = 10;
-      for (let i = 0; i < stocks.length; i += batchSize) {
-        const chunk = stocks.slice(i, i + batchSize);
-        const results = await Promise.all(
-          chunk.map(s => fetchHistory(s.stooq || s.ticker.toLowerCase()).then(d => ({ ticker: s.ticker, prices: d?.prices })))
-        );
-        if (cancelled) return;
-        for (const r of results) {
-          const val = calculateRSI(r.prices);
-          if (val != null) batch[r.ticker] = val;
-        }
-        setRsiData(prev => ({ ...prev, ...batch }));
-      }
-    };
-    loadRSI();
+    fetchRSIBulk().then(data => {
+      if (!cancelled && data?.rsi) setRsiData(data.rsi);
+    });
     return () => { cancelled = true; };
   }, []);
 

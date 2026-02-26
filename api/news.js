@@ -1,19 +1,20 @@
-import fs from 'fs';
+import { promises as fsp } from 'fs';
 import path from 'path';
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
   try {
     const newsPath = path.join(process.cwd(), 'data', 'news.json');
 
-    if (!fs.existsSync(newsPath)) {
+    let raw;
+    try {
+      raw = JSON.parse(await fsp.readFile(newsPath, 'utf-8'));
+    } catch {
       return res.status(200).json({ articles: [], updatedAt: null });
     }
 
-    const raw = JSON.parse(fs.readFileSync(newsPath, 'utf-8'));
-
     // Support both new format { articles, updatedAt } and legacy array format
     const articles = Array.isArray(raw) ? raw : (raw.articles || []);
-    const updatedAt = raw.updatedAt || fs.statSync(newsPath).mtime.toISOString();
+    const updatedAt = raw.updatedAt || (await fsp.stat(newsPath)).mtime.toISOString();
 
     const { source, days, limit } = req.query;
 

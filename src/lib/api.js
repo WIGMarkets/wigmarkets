@@ -85,6 +85,21 @@ export async function fetchHistory(symbol) {
   } catch { return null; }
 }
 
+const TTL_RSI = 60 * 60 * 1000; // 1 hour — matches server s-maxage
+
+export async function fetchRSIBulk() {
+  return dedup("rsi_bulk", () =>
+    cachedFetch("rsi_bulk", TTL_RSI, async () => {
+      try {
+        const res = await fetch("/api/rsi-bulk");
+        if (!res.ok) return null;
+        const data = await res.json();
+        return data?.rsi ? data : null;
+      } catch { return null; }
+    })
+  );
+}
+
 export async function fetchHourly(symbol) {
   try {
     const res = await fetch(`/api/history?symbol=${symbol}&interval=1h`);
