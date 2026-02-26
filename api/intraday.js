@@ -7,6 +7,7 @@ let CACHE = { indices: [], history: {} };
 try { CACHE = require2("../data/indices-cache.json"); } catch {}
 
 const INDEX_STOOQ_SYMBOLS = new Set(["wig20", "wig", "mwig40", "swig80"]);
+const FETCH_TIMEOUT_MS = 8_000;
 
 export default async function handler(req, res) {
   const { symbol } = req.query;
@@ -30,7 +31,10 @@ export default async function handler(req, res) {
     // Use range=5d to ensure we get data even outside market hours / on weekends.
     // We filter down to the last trading day's bars below.
     const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?interval=5m&range=5d`;
-    const response = await fetch(url, { headers: YF_HEADERS });
+    const ctrl = new AbortController();
+    const timeout = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT_MS);
+    const response = await fetch(url, { signal: ctrl.signal, headers: YF_HEADERS });
+    clearTimeout(timeout);
     const json = await response.json();
 
     const result = json?.chart?.result?.[0];

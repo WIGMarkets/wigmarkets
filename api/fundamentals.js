@@ -1,42 +1,8 @@
 import { toYahoo } from "./_yahoo-map.js";
+import { getYahooCrumb } from "./_yahoo-crumb.js";
 
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36";
-
-async function getYahooCrumb() {
-  // Step 1: Get cookies from Yahoo Finance homepage
-  const cookieRes = await fetch("https://finance.yahoo.com/", {
-    headers: {
-      "User-Agent": UA,
-      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-      "Accept-Language": "en-US,en;q=0.9",
-    },
-    redirect: "follow",
-  });
-
-  // getSetCookie() is modern Node 18+ API; fall back to get("set-cookie") for older runtimes
-  let rawCookies = [];
-  if (typeof cookieRes.headers.getSetCookie === "function") {
-    rawCookies = cookieRes.headers.getSetCookie();
-  } else {
-    const raw = cookieRes.headers.get("set-cookie") || "";
-    rawCookies = raw ? raw.split(/,(?=[^ ])/) : [];
-  }
-  const cookieStr = rawCookies.map(c => c.split(";")[0].trim()).filter(Boolean).join("; ");
-
-  // Step 2: Get crumb using the session cookie
-  const crumbRes = await fetch("https://query1.finance.yahoo.com/v1/test/getcrumb", {
-    headers: {
-      "User-Agent": UA,
-      "Cookie": cookieStr,
-      "Accept": "text/plain, */*",
-    },
-  });
-  const crumb = (await crumbRes.text()).trim();
-  if (!crumb || crumb.startsWith("{") || crumb.length > 20) {
-    throw new Error(`Invalid crumb received: ${crumb.slice(0, 50)}`);
-  }
-  return { crumb, cookieStr };
-}
+const FETCH_TIMEOUT_MS = 8_000;
 
 export default async function handler(req, res) {
   const { symbol } = req.query;
@@ -49,7 +15,10 @@ export default async function handler(req, res) {
     const { crumb, cookieStr } = await getYahooCrumb();
 
     const url = `https://query1.finance.yahoo.com/v10/finance/quoteSummary/${encodeURIComponent(yahooSymbol)}?modules=${modules}&crumb=${encodeURIComponent(crumb)}`;
+    const ctrl = new AbortController();
+    const timeout = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT_MS);
     const response = await fetch(url, {
+      signal: ctrl.signal,
       headers: {
         "User-Agent": UA,
         "Cookie": cookieStr,
@@ -57,6 +26,7 @@ export default async function handler(req, res) {
         "Accept-Language": "en-US,en;q=0.9",
       },
     });
+    clearTimeout(timeout);
 
     const json = await response.json();
 

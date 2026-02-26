@@ -19,60 +19,24 @@
 import { GPW_COMPANIES } from "../src/data/gpw-companies.js";
 import { toYahoo, YF_HEADERS } from "./_yahoo-map.js";
 import { fetchStooqBatch } from "./_stooq-fallback.js";
+import { getYahooCrumb } from "./_yahoo-crumb.js";
 
 const CHART_BATCH = 15;
 const QUOTE_BATCH = 40;
 const DELAY = 100;
+const FETCH_TIMEOUT_MS = 8_000;
 
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36";
-
-// ── Yahoo crumb auth (needed for v7/finance/quote) ──────────────────
-
-async function getYahooCrumb() {
-  const cookieRes = await fetch("https://finance.yahoo.com/", {
-    headers: {
-      "User-Agent": UA,
-      Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-      "Accept-Language": "en-US,en;q=0.9",
-    },
-    redirect: "follow",
-  });
-
-  let rawCookies = [];
-  if (typeof cookieRes.headers.getSetCookie === "function") {
-    rawCookies = cookieRes.headers.getSetCookie();
-  } else {
-    const raw = cookieRes.headers.get("set-cookie") || "";
-    rawCookies = raw ? raw.split(/,(?=[^ ])/) : [];
-  }
-  const cookieStr = rawCookies
-    .map((c) => c.split(";")[0].trim())
-    .filter(Boolean)
-    .join("; ");
-
-  const crumbRes = await fetch(
-    "https://query1.finance.yahoo.com/v1/test/getcrumb",
-    {
-      headers: {
-        "User-Agent": UA,
-        Cookie: cookieStr,
-        Accept: "text/plain, */*",
-      },
-    }
-  );
-  const crumb = (await crumbRes.text()).trim();
-  if (!crumb || crumb.startsWith("{") || crumb.length > 20) {
-    throw new Error(`Invalid crumb: ${crumb.slice(0, 50)}`);
-  }
-  return { crumb, cookieStr };
-}
 
 // ── v7/finance/quote — batch price + fundamentals ───────────────────
 
 async function fetchQuoteBatch(yahooSymbols, crumb, cookie) {
   const symbols = yahooSymbols.map(encodeURIComponent).join(",");
   const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${symbols}&crumb=${encodeURIComponent(crumb)}`;
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT_MS);
   const r = await fetch(url, {
+    signal: ctrl.signal,
     headers: {
       "User-Agent": UA,
       Cookie: cookie,
@@ -80,6 +44,7 @@ async function fetchQuoteBatch(yahooSymbols, crumb, cookie) {
       "Accept-Language": "en-US,en;q=0.9",
     },
   });
+  clearTimeout(t);
   if (!r.ok) return [];
   const j = await r.json();
   return j?.quoteResponse?.result || [];
@@ -91,7 +56,10 @@ async function fetchChart(yahoo, retries = 2) {
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahoo)}?interval=1d&range=10d`;
   for (let attempt = 0; attempt <= retries; attempt++) {
     try {
-      const r = await fetch(url, { headers: YF_HEADERS });
+      const ctrl = new AbortController();
+      const t = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT_MS);
+      const r = await fetch(url, { signal: ctrl.signal, headers: YF_HEADERS });
+      clearTimeout(t);
       if (r.status === 429 || r.status >= 500) {
         if (attempt < retries) {
           await new Promise((w) => setTimeout(w, 500 * (attempt + 1)));

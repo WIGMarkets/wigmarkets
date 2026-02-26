@@ -47,9 +47,13 @@ function baseUrl(req) {
 async function fearGreedImage(req, res) {
   let data = null;
   try {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 8000);
     const resp = await fetch(`${baseUrl(req)}/api/fear-greed`, {
+      signal: ctrl.signal,
       headers: { "User-Agent": "WIGmarkets-OG-Generator" },
     });
+    clearTimeout(t);
     if (resp.ok) {
       const json = await resp.json();
       if (json?.current?.value != null) data = json;
@@ -120,7 +124,10 @@ async function fearGreedImage(req, res) {
 async function stockImage(req, res, ticker) {
   let stockData = null;
   try {
-    const resp = await fetch(`${baseUrl(req)}/api/stooq?symbol=${ticker.toLowerCase()}`);
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 8000);
+    const resp = await fetch(`${baseUrl(req)}/api/stooq?symbol=${ticker.toLowerCase()}`, { signal: ctrl.signal });
+    clearTimeout(t);
     if (resp.ok) stockData = await resp.json();
   } catch {}
 
