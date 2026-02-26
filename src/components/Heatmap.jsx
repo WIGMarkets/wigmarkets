@@ -1,4 +1,4 @@
-import { useMemo, useState, useCallback, useRef, useEffect } from "react";
+import { memo, useMemo, useState, useCallback, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { fmt, fmtVolume, fmtCap } from "../lib/formatters.js";
@@ -86,6 +86,60 @@ function squarify(items, x, y, w, h) {
 }
 
 const GAP = 1;
+
+const HeatmapTile = memo(function HeatmapTile({ r, onClick, onShowTooltip, onMoveTooltip, onHideTooltip }) {
+  const bg = heatColor(r.c24h);
+  const tColor = textAlpha(r.c24h);
+  const px = r.rx + GAP / 2;
+  const py = r.ry + GAP / 2;
+  const pw = r.rw - GAP;
+  const ph = r.rh - GAP;
+  if (pw <= 0 || ph <= 0) return null;
+
+  const showTicker = pw >= 28 && ph >= 16;
+  const showPct = pw >= 44 && ph >= 34;
+  const minDim = Math.min(pw, ph);
+  const tickerSize = Math.max(9, Math.min(16, Math.floor(minDim * 0.28)));
+  const pctSize = Math.max(8, tickerSize - 2);
+
+  return (
+    <div
+      onClick={() => onClick(r)}
+      onMouseEnter={(e) => onShowTooltip(r, e)}
+      onMouseMove={onMoveTooltip}
+      onMouseLeave={onHideTooltip}
+      style={{
+        position: "absolute",
+        left: px, top: py, width: pw, height: ph,
+        background: bg, borderRadius: 2, cursor: "pointer",
+        display: "flex", flexDirection: "column",
+        alignItems: "center", justifyContent: "center",
+        overflow: "hidden",
+        transition: "filter 0.15s, outline-color 0.15s",
+        outline: "1px solid transparent",
+        willChange: "filter",
+      }}
+      onMouseOver={(e) => { e.currentTarget.style.filter = "brightness(1.2)"; e.currentTarget.style.outlineColor = "rgba(255,255,255,0.3)"; }}
+      onMouseOut={(e) => { e.currentTarget.style.filter = ""; e.currentTarget.style.outlineColor = "transparent"; }}
+    >
+      {showTicker && (
+        <span style={{
+          fontWeight: 700, fontSize: tickerSize, color: tColor,
+          textShadow: "0 1px 2px rgba(0,0,0,0.5)",
+          lineHeight: 1.2, fontFamily: "var(--font-ui)", userSelect: "none",
+        }}>{r.ticker}</span>
+      )}
+      {showPct && (
+        <span style={{
+          fontWeight: 500, fontSize: pctSize, color: tColor,
+          textShadow: "0 1px 2px rgba(0,0,0,0.5)",
+          lineHeight: 1.2, fontFamily: "var(--font-mono)",
+          fontVariantNumeric: "tabular-nums", userSelect: "none", marginTop: 1,
+        }}>{r.c24h > 0 ? "+" : ""}{r.c24h.toFixed(2)}%</span>
+      )}
+    </div>
+  );
+});
 
 export default function Heatmap({ stocks, prices, changes, theme }) {
   const navigate = useNavigate();
@@ -182,78 +236,16 @@ export default function Heatmap({ stocks, prices, changes, theme }) {
         onMouseLeave={hideTooltip}
       >
         <div style={{ position: "absolute", inset: 0 }}>
-          {rects.map(r => {
-            const bg = heatColor(r.c24h);
-            const tColor = textAlpha(r.c24h);
-            // Inset by gap for visual spacing — tile still occupies full treemap area
-            const px = r.rx + GAP / 2;
-            const py = r.ry + GAP / 2;
-            const pw = r.rw - GAP;
-            const ph = r.rh - GAP;
-            if (pw <= 0 || ph <= 0) return null;
-
-            // Determine what text to show based on tile size
-            const showTicker = pw >= 28 && ph >= 16;
-            const showPct = pw >= 44 && ph >= 34;
-            const minDim = Math.min(pw, ph);
-            const tickerSize = Math.max(9, Math.min(16, Math.floor(minDim * 0.28)));
-            const pctSize = Math.max(8, tickerSize - 2);
-
-            return (
-              <div
-                key={r.ticker}
-                onClick={() => handleClick(r)}
-                onMouseEnter={(e) => showTooltip(r, e)}
-                onMouseMove={moveTooltip}
-                onMouseLeave={hideTooltip}
-                style={{
-                  position: "absolute",
-                  left: px,
-                  top: py,
-                  width: pw,
-                  height: ph,
-                  background: bg,
-                  borderRadius: 2,
-                  cursor: "pointer",
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  overflow: "hidden",
-                  transition: "filter 0.15s, outline-color 0.15s",
-                  outline: "1px solid transparent",
-                  willChange: "filter",
-                }}
-                onMouseOver={(e) => { e.currentTarget.style.filter = "brightness(1.2)"; e.currentTarget.style.outlineColor = "rgba(255,255,255,0.3)"; }}
-                onMouseOut={(e) => { e.currentTarget.style.filter = ""; e.currentTarget.style.outlineColor = "transparent"; }}
-              >
-                {showTicker && (
-                  <span style={{
-                    fontWeight: 700,
-                    fontSize: tickerSize,
-                    color: tColor,
-                    textShadow: "0 1px 2px rgba(0,0,0,0.5)",
-                    lineHeight: 1.2,
-                    fontFamily: "var(--font-ui)",
-                    userSelect: "none",
-                  }}>{r.ticker}</span>
-                )}
-                {showPct && (
-                  <span style={{
-                    fontWeight: 500,
-                    fontSize: pctSize,
-                    color: tColor,
-                    textShadow: "0 1px 2px rgba(0,0,0,0.5)",
-                    lineHeight: 1.2,
-                    fontFamily: "var(--font-mono)",
-                    fontVariantNumeric: "tabular-nums",
-                    userSelect: "none",
-                    marginTop: 1,
-                  }}>{r.c24h > 0 ? "+" : ""}{r.c24h.toFixed(2)}%</span>
-                )}
-              </div>
-            );
-          })}
+          {rects.map(r => (
+            <HeatmapTile
+              key={r.ticker}
+              r={r}
+              onClick={handleClick}
+              onShowTooltip={showTooltip}
+              onMoveTooltip={moveTooltip}
+              onHideTooltip={hideTooltip}
+            />
+          ))}
         </div>
       </div>
 

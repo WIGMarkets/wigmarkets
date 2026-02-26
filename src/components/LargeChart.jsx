@@ -1,4 +1,4 @@
-import { useRef, useState, useCallback, useMemo } from "react";
+import { memo, useRef, useState, useCallback, useMemo } from "react";
 
 function fmtY(v) {
   return v >= 1000 ? v.toFixed(0) : v >= 100 ? v.toFixed(1) : v.toFixed(2);
@@ -17,7 +17,7 @@ function fmtLabel(d, isIntraday) {
   return new Date(d.date).toLocaleDateString("pl-PL", { day: "numeric", month: "short", year: "numeric" });
 }
 
-export default function LargeChart({ data, color, theme, type = "line", isIntraday = false, unit = "zł" }) {
+export default memo(function LargeChart({ data, color, theme, type = "line", isIntraday = false, unit = "zł" }) {
   const svgRef = useRef(null);
   const [hover, setHover] = useState(null);
 
@@ -237,4 +237,4 @@ export default function LargeChart({ data, color, theme, type = "line", isIntrad
       {tooltip}
     </div>
   );
-}
+})

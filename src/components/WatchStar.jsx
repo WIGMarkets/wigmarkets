@@ -1,4 +1,6 @@
-export default function WatchStar({ active, onClick, theme }) {
+import { memo } from "react";
+
+export default memo(function WatchStar({ active, onClick, theme }) {
   return (
     <span
       onClick={onClick ? (e => { e.stopPropagation(); onClick(); }) : undefined}
@@ -22,4 +24,4 @@ export default function WatchStar({ active, onClick, theme }) {
       </svg>
     </span>
   );
-}
+})

@@ -1,10 +1,11 @@
+import { memo } from "react";
 import ArticleIllustration from "./ArticleIllustration.jsx";
 import Icon from "./Icon.jsx";
 
 const CATEGORY_LABELS = { podstawy: "Podstawy", analiza: "Analiza", strategia: "Strategia" };
 const CATEGORY_COLORS = { podstawy: "#3b82f6", analiza: "#22c55e", strategia: "#f0883e" };
 
-export default function ArticleCard({ article, theme, onNavigate, compact = false }) {
+export default memo(function ArticleCard({ article, theme, onNavigate, compact = false }) {
   const catColor = CATEGORY_COLORS[article.category] || "#3b82f6";
   const catLabel = CATEGORY_LABELS[article.category] || article.category;
 
@@ -77,4 +78,4 @@ export default function ArticleCard({ article, theme, onNavigate, compact = fals
       </div>
     </article>
   );
-}
+})

@@ -112,14 +112,15 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
     getCompanyDescriptions().then(setCompanyDescs);
   }, []);
 
-  // ─── Data fetching ───────────────────────────────────
+  // ─── Data fetching (parallel) ────────────────────────
   useEffect(() => {
-    fetchHistory(sym).then(d => setHistory(d?.prices || null));
     setFundLoading(true);
+    const historyP = fetchHistory(sym).then(d => setHistory(d?.prices || null));
     if (isStock) {
-      fetchFundamentals(sym)
+      const fundP = fetchFundamentals(sym)
         .then(d => { setFundamentals(d); setFundLoading(false); })
         .catch(() => { setFundamentals(null); setFundLoading(false); });
+      Promise.all([historyP, fundP]);
     } else {
       setFundLoading(false);
     }
