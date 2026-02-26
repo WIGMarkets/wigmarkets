@@ -6,12 +6,13 @@ export default function SessionStats({ liveStocks, prices, changes, theme, onSel
   const stats = useMemo(() => {
     let rising = 0, falling = 0, unchanged = 0;
     for (const s of liveStocks) {
-      const c = changes[s.ticker]?.change24h ?? 0;
+      if (!changes[s.ticker]) continue; // skip companies without real data
+      const c = changes[s.ticker].change24h ?? 0;
       if (c > 0) rising++;
       else if (c < 0) falling++;
       else unchanged++;
     }
-    const total = liveStocks.length;
+    const total = rising + falling + unchanged;
     const totalCapMln = liveStocks.reduce((a, s) => a + (s.cap || 0), 0);
     const totalTurnover = liveStocks.reduce((a, s) => {
       const vol = changes[s.ticker]?.volume ?? 0;

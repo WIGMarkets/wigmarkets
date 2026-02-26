@@ -18,12 +18,10 @@ const YAHOO_MAP = {
   "nikkei": "^N225",   // Nikkei 225 (Japan)
   "hsi":    "^HSI",    // Hang Seng (Hong Kong)
   // GPW stocks with non-standard Yahoo Finance tickers
-  "dia":  "DIAG.WA",  // Diagnostyka: GPW=DIAG, stooq=dia
   "11b":  "11B.WA",   // 11 bit studios (numeric prefix)
   "1at":  "1AT.WA",   // Atal SA (numeric prefix)
   "grn":  "GRN.WA",   // Grenevia SA
   "sfg":  "SFG.WA",   // Synektik SA
-  "r22":  "R22.WA",   // R22 SA (numeric in ticker)
   "zab":  "ZAB.WA",   // Żabka Group
   "sho":  "SHO.WA",   // Shoper SA
   "vrc":  "VRC.WA",   // Vercom SA
