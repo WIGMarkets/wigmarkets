@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { memo, useMemo } from "react";
 
 function generateSparkline(trend) {
   const points = [];
@@ -12,7 +12,7 @@ function generateSparkline(trend) {
   return points.map((p, i) => `${(i / 19) * 100},${40 - ((p - min) / (max - min + 1)) * 36}`).join(" ");
 }
 
-export default function Sparkline({ prices, trend = 0 }) {
+export default memo(function Sparkline({ prices, trend = 0 }) {
   const color = trend >= 0 ? "#22c55e" : "#ef4444";
 
   const path = useMemo(() => {
@@ -33,4 +33,4 @@ export default function Sparkline({ prices, trend = 0 }) {
       <polyline points={path} fill="none" stroke={color} strokeWidth="2" strokeLinejoin="round" strokeLinecap="round" opacity="0.8" />
     </svg>
   );
-}
+})

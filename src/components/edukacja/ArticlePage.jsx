@@ -1,7 +1,7 @@
-import { useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useIsMobile } from "../../hooks/useIsMobile.js";
-import { getArticleBySlug, getArticlesBySlug } from "../../content/edukacja/articles.js";
+import { getArticleBySlug, getArticlesBySlug, loadFullArticle } from "../../content/edukacja/articles.js";
 import Breadcrumbs from "./Breadcrumbs.jsx";
 import TOC, { buildTOC } from "./TOC.jsx";
 import SectionRenderer from "./SectionRenderer.jsx";
@@ -81,21 +81,42 @@ export default function ArticlePage({ theme }) {
   const navigate = useNavigate();
   const { slug } = useParams();
   const isMobile = useIsMobile();
-  const article = getArticleBySlug(slug);
   const onNavigateArticle = useCallback((s) => navigate(`/edukacja/${s}`), [navigate]);
 
-  useEffect(() => {
-    if (!article) return;
-    document.title = article.metaTitle;
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute("content", article.metaDescription);
-    updateOGTags(article);
-    injectSchema(article);
-    window.scrollTo(0, 0);
-    return () => { ["article-schema", "faq-schema", "breadcrumb-schema"].forEach(id => document.getElementById(id)?.remove()); };
-  }, [article]);
+  // Metadata is available synchronously from the lightweight index
+  const meta = getArticleBySlug(slug);
 
-  if (!article) {
+  // Full article content (sections, faq) is loaded async
+  const [fullArticle, setFullArticle] = useState(null);
+
+  useEffect(() => {
+    if (!slug) return;
+    let cancelled = false;
+    setFullArticle(null);
+    loadFullArticle(slug).then(data => {
+      if (!cancelled) setFullArticle(data);
+    });
+    return () => { cancelled = true; };
+  }, [slug]);
+
+  // SEO: set meta tags from lightweight metadata (instant, no waiting for full article)
+  useEffect(() => {
+    if (!meta) return;
+    document.title = meta.metaTitle;
+    const descEl = document.querySelector('meta[name="description"]');
+    if (descEl) descEl.setAttribute("content", meta.metaDescription);
+    updateOGTags(meta);
+    window.scrollTo(0, 0);
+  }, [meta]);
+
+  // Schema injection — needs full article for FAQ schema
+  useEffect(() => {
+    if (!fullArticle) return;
+    injectSchema(fullArticle);
+    return () => { ["article-schema", "faq-schema", "breadcrumb-schema"].forEach(id => document.getElementById(id)?.remove()); };
+  }, [fullArticle]);
+
+  if (!meta) {
     return (
       <div style={{ minHeight: "50vh", color: theme.text, fontFamily: "var(--font-ui)", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: 16, padding: 16 }}>
         <div style={{ color: theme.textSecondary }}><Icon name="search" size={48} /></div>
@@ -106,10 +127,10 @@ export default function ArticlePage({ theme }) {
     );
   }
 
-  const catColor = CATEGORY_COLORS[article.category] || "#3b82f6";
-  const catLabel = CATEGORY_LABELS[article.category] || article.category;
-  const tocItems = buildTOC(article.sections || []);
-  const relatedArticles = getArticlesBySlug(article.relatedSlugs || []);
+  const catColor = CATEGORY_COLORS[meta.category] || "#3b82f6";
+  const catLabel = CATEGORY_LABELS[meta.category] || meta.category;
+  const tocItems = buildTOC(fullArticle?.sections || []);
+  const relatedArticles = getArticlesBySlug(meta.relatedSlugs || []);
 
   function handleNavigate(path) {
     if (path.startsWith("/edukacja/")) {
@@ -128,8 +149,8 @@ export default function ArticlePage({ theme }) {
           items={[
             { label: "Strona główna", href: "/", onClick: () => navigate("/") },
             { label: "Edukacja", href: "/edukacja", onClick: () => navigate("/edukacja") },
-            { label: catLabel, href: `/edukacja/${article.category}`, onClick: () => navigate(`/edukacja/${article.category}`) },
-            { label: article.title.length > 40 ? article.title.slice(0, 37) + "…" : article.title },
+            { label: catLabel, href: `/edukacja/${meta.category}`, onClick: () => navigate(`/edukacja/${meta.category}`) },
+            { label: meta.title.length > 40 ? meta.title.slice(0, 37) + "…" : meta.title },
           ]}
         />
 
@@ -153,31 +174,44 @@ export default function ArticlePage({ theme }) {
 
             {/* Title H1 */}
             <h1 style={{ fontSize: isMobile ? 24 : 36, fontWeight: 900, color: theme.textBright, margin: "0 0 16px", lineHeight: 1.25 }}>
-              {article.title}
+              {meta.title}
             </h1>
 
             {/* Meta info */}
             <div style={{ display: "flex", flexWrap: "wrap", gap: isMobile ? 8 : 16, marginBottom: 24, paddingBottom: 16, borderBottom: `1px solid ${theme.border}`, fontSize: 13, color: theme.textSecondary }}>
-              <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}><Icon name="user" size={14} /> {article.author}</span>
-              <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}><Icon name="calendar" size={14} /> {article.publishDate}</span>
-              {article.updatedDate && article.updatedDate !== article.publishDate && <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}><Icon name="refresh-cw" size={14} /> {article.updatedDate}</span>}
-              <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}><Icon name="clock" size={14} /> {article.readingTime} min</span>
+              <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}><Icon name="user" size={14} /> {meta.author}</span>
+              <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}><Icon name="calendar" size={14} /> {meta.publishDate}</span>
+              {meta.updatedDate && meta.updatedDate !== meta.publishDate && <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}><Icon name="refresh-cw" size={14} /> {meta.updatedDate}</span>}
+              <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}><Icon name="clock" size={14} /> {meta.readingTime} min</span>
             </div>
 
-            {/* Mobile TOC — collapsed by default */}
-            {isMobile && <TOC items={tocItems} theme={theme} isMobile={true} />}
+            {/* Content loading or article body */}
+            {!fullArticle ? (
+              <div style={{ display: "flex", justifyContent: "center", padding: "48px 0", opacity: 0.5 }}>
+                <div style={{
+                  width: 28, height: 28, border: "3px solid rgba(255,255,255,0.1)",
+                  borderTopColor: "#3b82f6", borderRadius: "50%",
+                  animation: "spin 0.7s linear infinite",
+                }} />
+              </div>
+            ) : (
+              <>
+                {/* Mobile TOC — collapsed by default */}
+                {isMobile && <TOC items={tocItems} theme={theme} isMobile={true} />}
 
-            {/* Article body */}
-            <SectionRenderer sections={article.sections} theme={theme} onNavigate={handleNavigate} isMobile={isMobile} />
+                {/* Article body */}
+                <SectionRenderer sections={fullArticle.sections} theme={theme} onNavigate={handleNavigate} isMobile={isMobile} />
 
-            {/* CTA box */}
-            <CTABox ctaType={article.ctaType} ctaText={article.ctaText} ctaLink={article.ctaLink} theme={theme} onNavigate={handleNavigate} isMobile={isMobile} />
+                {/* CTA box */}
+                <CTABox ctaType={fullArticle.ctaType} ctaText={fullArticle.ctaText} ctaLink={fullArticle.ctaLink} theme={theme} onNavigate={handleNavigate} isMobile={isMobile} />
 
-            {/* FAQ */}
-            <FAQSection items={article.faq} theme={theme} isMobile={isMobile} />
+                {/* FAQ */}
+                <FAQSection items={fullArticle.faq} theme={theme} isMobile={isMobile} />
+              </>
+            )}
 
             {/* Social share */}
-            <SocialShare title={article.title} theme={theme} />
+            <SocialShare title={meta.title} theme={theme} />
 
             {/* Related articles */}
             <RelatedArticles articles={relatedArticles} theme={theme} onNavigate={onNavigateArticle} isMobile={isMobile} />

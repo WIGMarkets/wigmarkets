@@ -1,10 +1,11 @@
+import { memo } from "react";
 import { usePriceFlash } from "../../hooks/usePriceFlash.js";
 import Sparkline from "../Sparkline.jsx";
 import WatchStar from "../WatchStar.jsx";
 import StockLogo from "../StockLogo.jsx";
 import { fmt, changeFmt, changeColor, fmtVolume, fmtCap } from "../../lib/formatters.js";
 
-export default function StockTableRow({ s, i, rank, isMobile, tab, theme, prices, changes, watchlist, toggleWatch, navigateToStock, setSelected, isKeyboardActive, onHover, showPE, showDiv }) {
+export default memo(function StockTableRow({ s, i, rank, isMobile, tab, theme, prices, changes, watchlist, toggleWatch, navigateToStock, setSelected, isKeyboardActive, onHover, showPE, showDiv }) {
   const currentPrice = prices[s.ticker];
   const c24h     = changes[s.ticker]?.change24h ?? 0;
   const c7d      = changes[s.ticker]?.change7d  ?? 0;
@@ -49,4 +50,4 @@ export default function StockTableRow({ s, i, rank, isMobile, tab, theme, prices
       {!isMobile && <td style={{ padding: `${PAD} 16px`, textAlign: "right" }}><Sparkline prices={sparkline} trend={c7d} /></td>}
     </tr>
   );
-}
+})

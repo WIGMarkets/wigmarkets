@@ -1,7 +1,11 @@
+import { memo, useMemo } from "react";
 import { fmt, changeColor, changeFmt } from "../lib/formatters.js";
 
-export default function MarqueeTicker({ stocks, prices, changes, theme, onSelect }) {
-  const items = stocks.filter(s => prices[s.ticker]).sort((a, b) => (b.cap || 0) - (a.cap || 0)).slice(0, 40);
+export default memo(function MarqueeTicker({ stocks, prices, changes, theme, onSelect }) {
+  const items = useMemo(() =>
+    stocks.filter(s => prices[s.ticker]).sort((a, b) => (b.cap || 0) - (a.cap || 0)).slice(0, 40),
+    [stocks, prices]
+  );
   if (!items.length) return null;
 
   const row = items.map((s) => {
@@ -61,4 +65,4 @@ export default function MarqueeTicker({ stocks, prices, changes, theme, onSelect
       </div>
     </div>
   );
-}
+})

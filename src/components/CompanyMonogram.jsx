@@ -61,7 +61,9 @@ export function getSectorPalette(sector) {
  *   sector  — polska nazwa sektora (np. "Banki", "Technologia")
  *   size    — wymiar kwadratu w px (domyślnie 36)
  */
-export default function CompanyMonogram({ ticker, sector = "", size = 36 }) {
+import { memo } from "react";
+
+export default memo(function CompanyMonogram({ ticker, sector = "", size = 36 }) {
   const label = ticker.length <= 3 ? ticker : ticker.slice(0, 4);
   const fs    = label.length <= 3
     ? Math.max(8, Math.round(size * 0.306))   // ~11px przy 36px
@@ -133,4 +135,4 @@ export default function CompanyMonogram({ ticker, sector = "", size = 36 }) {
       </svg>
     </div>
   );
-}
+})

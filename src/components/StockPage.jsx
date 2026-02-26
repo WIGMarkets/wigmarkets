@@ -6,7 +6,14 @@ import { fmt, changeFmt, changeColor, calculateRSI, calculateSMA, calculateMACD,
 import { SECTOR_AVERAGES } from "../data/constants.js";
 import { DIVIDENDS } from "../data/dividends.js";
 import { getByTicker } from "../data/gpw-companies.js";
-import COMPANY_DESCRIPTIONS from "../data/company-descriptions.json";
+// Lazy-loaded to avoid bundling 144 kB JSON in main chunk
+let _companyDescsCache = null;
+const getCompanyDescriptions = () => {
+  if (!_companyDescsCache) {
+    _companyDescsCache = import("../data/company-descriptions.json").then(m => m.default);
+  }
+  return _companyDescsCache;
+};
 import LargeChart from "./LargeChart.jsx";
 import FinancialBarChart from "./FinancialBarChart.jsx";
 import StockLogo from "./StockLogo.jsx";
@@ -83,6 +90,7 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
   const [range, setRange] = useState("3M");
   const [chartType, setChartType] = useState("line");
   const [fundamentals, setFundamentals] = useState(null);
+  const [companyDescs, setCompanyDescs] = useState(null);
   const [fundLoading, setFundLoading] = useState(true);
   const [fullscreen, setFullscreen] = useState(false);
   const [historyOpen, setHistoryOpen] = useState(false);
@@ -99,14 +107,20 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
   const isStock = !isForex(stock) && !isCommodity(stock);
   const gpwInfo = isStock ? getByTicker(stock.ticker) : null;
 
-  // ─── Data fetching ───────────────────────────────────
+  // ─── Lazy-load company descriptions ──────────────────
   useEffect(() => {
-    fetchHistory(sym).then(d => setHistory(d?.prices || null));
+    getCompanyDescriptions().then(setCompanyDescs);
+  }, []);
+
+  // ─── Data fetching (parallel) ────────────────────────
+  useEffect(() => {
     setFundLoading(true);
+    const historyP = fetchHistory(sym).then(d => setHistory(d?.prices || null));
     if (isStock) {
-      fetchFundamentals(sym)
+      const fundP = fetchFundamentals(sym)
         .then(d => { setFundamentals(d); setFundLoading(false); })
         .catch(() => { setFundamentals(null); setFundLoading(false); });
+      Promise.all([historyP, fundP]);
     } else {
       setFundLoading(false);
     }
@@ -128,7 +142,7 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
     const kind = isForex(stock) ? "kurs walutowy" : isCommodity(stock) ? "notowania" : "kurs akcji GPW";
     document.title = `${stock.name} (${stock.ticker}) — ${kind} — WIGmarkets.pl`;
 
-    const descData = COMPANY_DESCRIPTIONS[stock.ticker];
+    const descData = companyDescs?.[stock.ticker];
     const rawDesc = descData?.description ||
       `Aktualny ${kind} ${stock.name} (${stock.ticker}). Wykres, analiza techniczna i fundamentalna. Dane na żywo GPW.`;
     const shortDesc = rawDesc.length > 155
@@ -485,7 +499,7 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
 
         {/* ═══ SECTION 4b: O spółce ═══ */}
         {isStock && (() => {
-          const desc = COMPANY_DESCRIPTIONS[stock.ticker];
+          const desc = companyDescs?.[stock.ticker];
           if (!desc) return null;
           return (
             <div style={{

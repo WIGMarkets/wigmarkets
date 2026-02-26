@@ -1,4 +1,6 @@
-export default function FinancialBarChart({ annual, theme }) {
+import { memo } from "react";
+
+export default memo(function FinancialBarChart({ annual, theme }) {
   const data = (annual || []).filter(d => d.revenue !== null || d.netIncome !== null).slice(0, 4).reverse();
   if (data.length === 0) return (
     <div style={{ color: theme.textSecondary, fontSize: 12, textAlign: "center", padding: "32px 0" }}>
@@ -58,4 +60,4 @@ export default function FinancialBarChart({ annual, theme }) {
       })}
     </svg>
   );
-}
+})
