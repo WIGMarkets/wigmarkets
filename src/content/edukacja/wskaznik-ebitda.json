@@ -1,0 +1,228 @@
+{
+  "slug": "wskaznik-ebitda",
+  "title": "Wskaznik EBITDA — jak ocenic zysk operacyjny spolki na GPW?",
+  "metaTitle": "EBITDA — co to jest, wzor, interpretacja i zastosowanie na GPW | WIGmarkets.pl",
+  "metaDescription": "Dowiedz sie czym jest EBITDA, jak ja obliczyc i interpretowac. EV/EBITDA, marza EBITDA, skorygowana EBITDA, krytyka Buffetta. Praktyczne przyklady z GPW.",
+  "category": "analiza",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-26",
+  "updatedDate": "2026-02-26",
+  "readingTime": 11,
+  "featuredImage": "/images/edukacja/wskaznik-ebitda.webp",
+  "featuredImageAlt": "Wykres slupkowy EBITDA spolek gieldowych na GPW z analiza wskaznikow",
+  "tags": ["EBITDA", "analiza fundamentalna", "EV/EBITDA", "marza EBITDA", "wycena spolek", "GPW", "wskazniki finansowe"],
+  "relatedSlugs": ["jak-czytac-wyniki-finansowe", "wskaznik-pe", "wskazniki-fundamentalne-gpw", "wskaznik-roe", "wskaznik-eps"],
+  "ctaType": "screener",
+  "ctaText": "Porownaj EBITDA spolek GPW w screenerze",
+  "ctaLink": "/",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Co to jest EBITDA — pelna nazwa i definicja"
+    },
+    {
+      "type": "paragraph",
+      "text": "EBITDA to skrot od angielskiego Earnings Before Interest, Taxes, Depreciation and Amortization, czyli zysk przed odsetkami, podatkami, amortyzacja srodkow trwalych i amortyzacja wartosci niematerialnych. Jest to jeden z najczesciej uzywanych wskaznikow w analizie fundamentalnej na calym swiecie, rowniez na Gieldzie Papierow Wartosciowych w Warszawie. EBITDA probuje odpowiedziec na fundamentalne pytanie: ile gotowki generuje podstawowa dzialalnosc operacyjna spolki, zanim uwzglednimy koszty finansowania (odsetki od dlugu), obciazenia podatkowe (ktore zaleza od jurysdykcji i optymalizacji), oraz amortyzacje (ktora jest kosztem ksiegowym, a nie rzeczywistym wydatkiem gotowkowym)? Dzieki wyeliminowaniu tych czynnikow EBITDA pozwala porownywac efektywnosc operacyjna spolek niezaleznie od ich struktury kapitalowej, stawek podatkowych i polityki amortyzacyjnej. To wlasnie sprawia, ze EBITDA jest tak popularna wsrod analitykow, bankow inwestycyjnych i funduszy private equity na calym swiecie."
+    },
+    {
+      "type": "info",
+      "text": "EBITDA nie jest miara zdefiniowana w standardach rachunkowosci (MSSF/IFRS ani US GAAP). To wskaznik non-GAAP, co oznacza, ze spolki moga go obliczac nieco inaczej. Dlatego zawsze sprawdzaj, co dokladnie dana spolka wlicza do swojej EBITDA — szczegoly znajdziesz w notach do sprawozdan finansowych."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wzor na EBITDA — jak obliczyc krok po kroku"
+    },
+    {
+      "type": "paragraph",
+      "text": "Istnieja dwa sposoby obliczenia EBITDA, ktore powinny dac ten sam wynik. Metoda od dolu (bottom-up): EBITDA = Zysk netto + Podatek dochodowy + Odsetki netto + Amortyzacja. Zaczynamy od zysku netto (dol rachunku zyskow i strat) i dodajemy z powrotem trzy kategorie kosztow, ktore EBITDA pomija. Metoda od gory (top-down): EBITDA = Przychody ze sprzedazy - Koszty operacyjne (bez amortyzacji). Zaczynamy od przychodow i odejmujemy tylko koszty bezposrednio zwiazane z dzialalnoscia operacyjna, pomijajac amortyzacje. W praktyce najczesciej stosuje sie uproszczona formule: EBITDA = EBIT + Amortyzacja, gdzie EBIT (Earnings Before Interest and Taxes) to zysk operacyjny, ktory znajdziesz w rachunku zyskow i strat kazdej spolki gieldowej. Amortyzacje rowniez znajdziesz w rachunku przeplywow pienieznych (cash flow statement) lub w notach do sprawozdania finansowego."
+    },
+    {
+      "type": "paragraph",
+      "text": "Wezmy praktyczny przyklad ze spolki notowanej na GPW. Zalozmy, ze spolka PKN Orlen w danym roku obrotowym wykazala nastepujace pozycje: przychody ze sprzedazy 280 mld zl, zysk operacyjny (EBIT) 18 mld zl, amortyzacja 12 mld zl, koszty odsetkowe netto 2 mld zl, podatek dochodowy 3 mld zl, zysk netto 13 mld zl. EBITDA metoda od gory: 18 mld (EBIT) + 12 mld (amortyzacja) = 30 mld zl. EBITDA metoda od dolu: 13 mld (zysk netto) + 3 mld (podatek) + 2 mld (odsetki) + 12 mld (amortyzacja) = 30 mld zl. Wynik jest identyczny. EBITDA na poziomie 30 mld zl mowi nam, ze podstawowa dzialalnosc operacyjna Orlenu generuje 30 miliardow zlotych przed kosztami finansowania, podatkami i amortyzacja."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dlaczego EBITDA jest tak popularna — porownywanie spolek i sektorow"
+    },
+    {
+      "type": "paragraph",
+      "text": "EBITDA zyskala ogromna popularnosc z kilku waznych powodow. Po pierwsze, umozliwia porownywanie spolek o roznej strukturze kapitalowej. Spolka A moze byc finansowana glownie kapitalem wlasnym (niskie odsetki), a spolka B moze miec duzy dlug (wysokie odsetki). Ich zyski netto beda sie roznic z powodu kosztow finansowania, ale EBITDA pokaze, ktora z nich ma lepsza dzialalnosc operacyjna. Po drugie, EBITDA eliminuje wplyw roznych stawek podatkowych. To szczegolnie wazne przy porownywaniu spolek z roznych krajow — polska spolka placi inny podatek niz irlandzka czy amerykanska, ale ich EBITDA jest porownywalna. Po trzecie, EBITDA pomija amortyzacje, ktora jest kosztem ksiegowym zaleznymi od polityki rachunkowej spolki. Dwie identyczne fabryki moga miec rozna amortyzacje w zaleznosci od przyjetetej metody (liniowa, degresywna) i okresu amortyzacji. EBITDA neutralizuje te roznice. Po czwarte, EBITDA jest blizej rzeczywistej gotowki generowanej przez spolke niz zysk netto. Amortyzacja to koszt, ktory nie wiaze sie z wydatkiem gotowkowym — maszyna kupiona 5 lat temu jest amortyzowana co roku, ale pieniadze na nia wydano juz dawno. Dlatego EBITDA jest czesto uzywana jako uproszczone przyblizenie operacyjnych przeplywow pienieznych."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na GPW EBITDA jest szczegolnie wazna w sektorach kapitalochlonnych, gdzie amortyzacja stanowi znaczna czesc kosztow: energetyka (PGE, Tauron, Enea), telekomunikacja (Orange Polska, Cyfrowy Polsat), przemysl paliwowy (PKN Orlen), gornictwo (KGHM, JSW). W tych branzach zysk netto moze byc sztucznie zanizone przez ogromne odpisy amortyzacyjne, podczas gdy EBITDA lepiej odzwierciedla realna zdolnosc generowania gotowki. Banki inwestycyjne i fundusze private equity uzywaja EBITDA jako podstawowej miary przy wycenie przejec i fuzji (M&A), poniewaz pozwala ona ocenic wartosc operacyjna biznesu niezaleznie od sposobu jego finansowania."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "EBITDA vs EBIT vs zysk netto — kluczowe roznice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zrozumienie relacji miedzy EBITDA, EBIT i zyskiem netto jest fundamentalne dla analizy finansowej. Kazda z tych miar pokazuje rentownosc spolki na innym poziomie rachunku zyskow i strat. EBITDA (zysk przed odsetkami, podatkami i amortyzacja) to najszersza miara — pokazuje zysk z czystej dzialalnosci operacyjnej, ignorujac wszystkie pozycje pozaoperacyjne. EBIT (zysk operacyjny, Earnings Before Interest and Taxes) rozni sie od EBITDA tym, ze uwzglednia amortyzacje. EBIT = EBITDA - Amortyzacja. EBIT jest bardziej konserwatywna miara, poniewaz amortyzacja, choc nie jest wydatkiem gotowkowym, odzwierciedla realne zuzycie aktywow — maszyny sie zuzywaja, budynki wymagaja remontow, licencje wygasaja. Ignorowanie amortyzacji moze dawac zbyt optymistyczny obraz sytuacji spolki. Zysk netto to koncowy wynik rachunku zyskow i strat — po odjeciu wszystkich kosztow: operacyjnych, amortyzacji, odsetek, podatkow i pozycji jednorazowych. To jest faktyczny zysk, ktory nalezy do akcjonariuszy i z ktorego mozna wyplacic dywidende."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "EBITDA: najlepsza do porownywania efektywnosci operacyjnej miedzy spolkami i sektorami",
+        "EBIT: lepsza od EBITDA gdy amortyzacja jest istotna (spolki kapitalochlonne — sugeruje realne zuzycie aktywow)",
+        "Zysk netto: kluczowy dla akcjonariuszy — to z niego wyplaca sie dywidende i oblicza wskaznik P/E",
+        "Przeplyw pieniezny z dzialalnosci operacyjnej (OCF): najbardziej obiektywna miara gotowki generowanej przez spolke"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Praktyczny przyklad: spolka KGHM moze wykazac EBITDA na poziomie 10 mld zl, ale po odjeciu amortyzacji (np. 4 mld zl) jej EBIT wyniesie 6 mld zl, a po odjeciu odsetek i podatkow zysk netto moze spasc do 3,5 mld zl. Roznica miedzy EBITDA a zyskiem netto (6,5 mld zl) to informacja o tym, ile spolka przeznacza na odtworzenie majatku, obsluge dlugu i podatki. Dla inwestora wazne jest, aby analizowac wszystkie trzy miary jednoczesnie i nie opierac sie wylacznie na EBITDA."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wskaznik EV/EBITDA — mnoznik wartosci przedsiebiorstwa"
+    },
+    {
+      "type": "paragraph",
+      "text": "EV/EBITDA to jeden z najwazniejszych wskaznikow wyceny w analizie fundamentalnej, czesto preferowany przez profesjonalnych analitykow nad wskaznikiem P/E. EV to Enterprise Value, czyli wartosc przedsiebiorstwa, obliczana jako: EV = Kapitalizacja rynkowa + Dlug netto (dlug odsetkowy minus gotowka i ekwiwalenty). Dlaczego EV, a nie sama kapitalizacja? Poniewaz kupujac cala spolke (np. przy przejieciu), przejmujemy nie tylko jej akcje, ale rowniez jej dlug — i jednoczesnie zyskujemy dostep do jej gotowki. EV odzwierciedla wiec pelna cene przejecia spolki. Wskaznik EV/EBITDA mowi nam, ile razy wartosc calego przedsiebiorstwa przekracza roczna EBITDA. Innymi slowy — za ile lat EBITDA 'splacilby sie' zakup calej firmy. Przyklad: spolka ma kapitalizacje 20 mld zl, dlug netto 5 mld zl i EBITDA 5 mld zl. EV = 20 + 5 = 25 mld zl. EV/EBITDA = 25 / 5 = 5x. Oznacza to, ze cala spolke mozna 'kupic' za rownowartosci pieciu lat jej EBITDA."
+    },
+    {
+      "type": "paragraph",
+      "text": "Interpretacja EV/EBITDA na GPW: dla dojrzalych spolek z WIG20 (banki, energetyka, paliwa) typowy przedzial to 4-8x. Spolki wzrostowe (technologie, e-commerce) moga handlowac z EV/EBITDA 12-20x lub wyzej. EV/EBITDA ponizej 6 dla stabilnej spolki czesto sugeruje atrakcyjna wycene. EV/EBITDA powyzej 15 wymaga uzasadnienia w postaci szybkiego wzrostu EBITDA w przyszlosci. Przewaga EV/EBITDA nad P/E: uwzglednia zadluzenie spolki (P/E tego nie robi), eliminuje wplyw amortyzacji i podatkow, lepiej nadaje sie do porownywania spolek miedzynarodowych i spolek o roznej strukturze kapitalowej. Jest to wskaznik numer jeden przy wycenie przejec — jesli fundusz PE chce kupic spolke, patrzy przede wszystkim na EV/EBITDA."
+    },
+    {
+      "type": "tip",
+      "text": "Porownujac EV/EBITDA spolek z GPW, pamietaj o roznicach sektorowych. Spolki z branzy IT (np. Asseco, Comarch) handluja z wyzszym EV/EBITDA niz spolki energetyczne (PGE, Tauron), poniewaz maja wyzsze marze, mniejsze nakady inwestycyjne (CAPEX) i lepsze perspektywy wzrostu. Zawsze porownuj w ramach tego samego sektora."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Skorygowana EBITDA (Adjusted EBITDA) — kiedy spolki ja modyfikuja i dlaczego"
+    },
+    {
+      "type": "paragraph",
+      "text": "Coraz czesciej w raportach finansowych spolek gieldowych pojawia sie pojecie skorygowanej EBITDA (Adjusted EBITDA). Jest to EBITDA pomniejszona lub powiekszona o pozycje, ktore zarzad uwaza za jednorazowe, niegotowkowe lub nieodzwierciedlajace normalnej dzialalnosci operacyjnej. Typowe korekty obejmuja: koszty restrukturyzacji (np. zwolnienia grupowe, zamkniecie zakladow), odpisy aktualizujace wartosc aktywow (np. odpisy na wartosci firmy — goodwill impairment), koszty programow motywacyjnych opartych na akcjach (stock-based compensation), zyski lub straty z tytulu roznic kursowych, koszty zwiazane z przejeciami (M&A transaction costs), jednorazowe kary, ugody sadowe, zdarzenia losowe."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na GPW skorygowana EBITDA jest czesto prezentowana przez spolki technologiczne (Allegro, LiveChat Software), spolki po fuzjach (PKN Orlen po polaczeniu z Lotosem i PGNiG) oraz spolki przechodzace restrukturyzacje. Problem ze skorygowana EBITDA polega na tym, ze spolka sama decyduje, co jest 'jednorazowe'. Jesli co roku pojawiaja sie 'jednorazowe' koszty restrukturyzacji, to czy naprawde sa jednorazowe? Niektorzy krytycy zwracaja uwage, ze skorygowana EBITDA bywa naduzywana do prezentowania lepszych wynikow niz rzeczywiste. Dlatego inwestor powinien zawsze porownywac skorygowana EBITDA z EBITDA raportowana wedlug standardow rachunkowych i pytac: jakie korekty zastosowano, czy sa uzasadnione, czy powtarzaja sie co roku? Jesli roznica miedzy EBITDA a Adjusted EBITDA jest duza i systematyczna, to sygnaal ostrzegawczy."
+    },
+    {
+      "type": "warning",
+      "text": "Jesli spolka konsekwentnie prezentuje skorygowana EBITDA znacznie wyzsza od raportowanej EBITDA, traktuj to jako sygnaal ostrzegawczy. Tzw. EBITDA add-backs (korekty zwiekszajace EBITDA) moga ukrywac realne koszty operacyjne. Zawsze sprawdzaj, jakie pozycje sa korygowane i czy powtarzaja sie w kolejnych kwartaach."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Marza EBITDA — co mowi o efektywnosci operacyjnej"
+    },
+    {
+      "type": "paragraph",
+      "text": "Marza EBITDA to EBITDA wyrazona jako procent przychodow ze sprzedazy: Marza EBITDA = (EBITDA / Przychody ze sprzedazy) x 100%. Marza EBITDA pokazuje, jaki odsetek kazdej zlotowki przychodu zostaje jako zysk operacyjny przed amortyzacja, odsetkami i podatkami. Im wyzsza marza, tym bardziej efektywna operacyjnie jest spolka. Marza EBITDA jest szczegolnie przydatna do porownywania spolek w ramach jednego sektora. Jesli spolka A ma marze EBITDA 25%, a spolka B z tej samej branzy ma 15%, to spolka A jest znacznie bardziej efektywna operacyjnie — z kazdej zlotowki przychodu generuje wiecej gotowki operacyjnej."
+    },
+    {
+      "type": "paragraph",
+      "text": "Typowe marze EBITDA na GPW roznia sie istotnie miedzy sektorami. Gornictwo i wydobycie (KGHM, JSW): marza EBITDA 20-35%, ale mocno cykliczna — zalezna od cen surowcow. W szczycie cyklu miedzi KGHM moze miec marze 40%, a w dolku 15%. Telekomunikacja (Orange Polska, Cyfrowy Polsat): marza EBITDA 30-40% — stabilne, przewidywalne przychody abonamentowe. Bankowosc: EBITDA nie jest typowo stosowana w bankach (ze wzgledu na specyfike modelu biznesowego), zamiast niej uzywa sie wskaznikow jak ROE, NIM czy C/I ratio. Handel detaliczny (Dino, LPP, CCC): marza EBITDA 8-15% — niskie marze, ale duza skala. Technologie i IT (Asseco, LiveChat, CD Projekt): marza EBITDA 20-50% — wysokie marze dzieki niskim kosztom zmiennym i skalowalnosci oprogramowania. Energetyka (PGE, Tauron, Enea): marza EBITDA 15-25%, ale mocno zalezna od regulacji cenowych i cen energii."
+    },
+    {
+      "type": "paragraph",
+      "text": "Trend marzy EBITDA w czasie jest rownie wazny jak jej bezwzgledna wartosc. Rosnaca marza EBITDA sugeruje, ze spolka poprawia efektywnosc operacyjna — rosnie szybciej niz jej koszty lub skutecznie obniza koszty. Spadajaca marza EBITDA moze sygnalizowac rosnaca konkurencje, presje cenowa, wzrost kosztow surowcow lub utrate przewagi konkurencyjnej. Analizujac spolki GPW, zawsze sprawdzaj marze EBITDA z ostatnich 3-5 lat, a nie tylko z ostatniego kwartalu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Krytyka EBITDA — dlaczego Buffett nazywa ja 'bullshit earnings'"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mimo ogromnej popularnosci, EBITDA ma powaznych krytykow wsrod najbardziej szanowanych inwestorow i analitykow. Najslynniejszym z nich jest Warren Buffett, ktory wielokrotnie krytykowal EBITDA, a jego wieloletni partner biznesowy Charlie Munger nazwaal ja wprost bullshit earnings (bzdurnymi zyskami). Glowne zarzuty wobec EBITDA sa nastepujace. Po pierwsze, amortyzacja to realny koszt. EBITDA ignoruje amortyzacje, traktujac ja jako pozycje niegotowkowa. Ale maszyny sie zuzywaja i trzeba je wymienic. Samochody dostawcze wymagaja wymiany co kilka lat. Serwery trzeba aktualizowac. Te wydatki sa jak najbardziej realne — tylko rozlozone w czasie. Spolka, ktora nie reinwestuje w swoj majatek, w koncu straci zdolnosc operacyjna. Buffett argumentuje, ze pomijanie amortyzacji jest jak udawanie, ze zuzycie nie istnieje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Po drugie, EBITDA nie uwzglednia nakladow inwestycyjnych (CAPEX). Dwie spolki moga miec identyczna EBITDA, ale jedna wymaga minimalnych nakladow na utrzymanie majatku (np. firma programistyczna), a druga musi co roku wydawac miliardy na wymiane sprzetu (np. spolka gornicza). Po odjeciu CAPEX-u ich realne przeplyw wolne (Free Cash Flow) beda drastycznie rozne. Dlatego wielu analitykow preferuje FCF (Free Cash Flow = Przeplywy operacyjne - CAPEX) jako lepsza miare zdolnosci spolki do generowania gotowki. Po trzecie, EBITDA moze maskowac problemy z zadluzeniem. Spolka z ogromnym dlugiem moze miec ladna EBITDA, ale po odjeciu kosztow odsetkowych zostaje niewiele lub nic. EBITDA pomija koszt dlugu, co moze dawac falszywie pozytywny obraz spolki graznacej w problemach finansowych."
+    },
+    {
+      "type": "paragraph",
+      "text": "Po czwarte, EBITDA nie jest standardem rachunkowosci. Jak wspomnielismy wczesniej, kazda spolka moze ja liczyc nieco inaczej, a skorygowana EBITDA daje jeszcze wiecej swobody. To otwiera drzwi do prezentowania wynikow w najkorzystniejszym swietle. Seth Klarman, legendarny inwestor i autor ksiazki Margin of Safety, pisal: 'EBITDA zyskala popularnosc w latach 80-tych podczas fali wykupow lewrowanych (LBO), gdy uzytkowana byla do uzasadniania przejec spolek o waatpliwej zdolnosci obslugi dlugu. Od tamtej pory stala sie narzedziem marketingowym dla spolek, ktore chca wygladdac lepiej niz sa.' Krytyka nie oznacza, ze EBITDA jest bezuzyteczna — ale ze nie powinna byc jedyna miara, na ktorej opieramy decyzje inwestycyjne."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Praktyczne przyklady EBITDA spolek z GPW"
+    },
+    {
+      "type": "paragraph",
+      "text": "Przyjrzyjmy sie, jak EBITDA wyglada w praktyce dla kilku roznych typow spolek notowanych na GPW, aby zobaczyc, dlaczego kontekst sektorowy jest tak wazny. PKN Orlen — gigant paliwowo-energetyczny. Orlen po polaczeniu z Lotosem i PGNiG generuje EBITDA rzedu 30-40 mld zl rocznie. Ale jednoczesnie jego roczne naklady inwestycyjne (CAPEX) siegaja 15-20 mld zl, a amortyzacja wynosi kilkanascie miliardow. Roznica miedzy EBITDA a wolnym przeplywem gotowki (FCF) jest ogromna. Patrzac tylko na EBITDA, Orlen wyglada swietnie. Ale po odjeciu CAPEX-u i odsetek, obraz jest mniej imponujacy. To klasyczny przyklad spolki kapitalochlonnej, gdzie EBITDA moze byc mylaca."
+    },
+    {
+      "type": "paragraph",
+      "text": "LiveChat Software — spolka technologiczna typu SaaS. LiveChat ma marze EBITDA rzedu 50-60%, co jest jednym z najwyzszych poziomow na calej GPW. Jednoczesnie jej CAPEX jest minimalny (oprogramowanie nie wymaga fabryk ani ciezkiego sprzetu), wiec EBITDA jest bardzo bliiska wolnemu przeplywowi gotowki. W tym przypadku EBITDA jest doskonalym przyblizeniem realnej gotowki generowanej przez biznes. Dino Polska — siec supermarketow. Dino ma marze EBITDA okolo 10-12%, co jest typowe dla handlu detalicznego. Ale spolka intensywnie inwestuje w otwarcia nowych sklepow (CAPEX rzedu 2-3 mld zl rocznie), wiec jej FCF jest znacznie nizszy od EBITDA. Inwestor musi zrozumiec, ze wysoki CAPEX Dino jest inwestycja we wzrost, a nie kosztem utrzymania — co zmienia interpretacje."
+    },
+    {
+      "type": "paragraph",
+      "text": "KGHM — spolka gornicza. EBITDA KGHM jest silnie uzalezniona od cen miedzi i srebra na rynkach swiatowych. W roku wysokich cen surowcow EBITDA moze wyniesc 12-15 mld zl, a w roku niskich cen spasc do 5-7 mld zl. Jednoczesnie KGHM ma bardzo wysoki CAPEX zwiazany z utrzymaniem kopalni i projektami rozwojowymi. Dla spolek surowcowych EBITDA jest szczegolnie cykliczna i nalezy analizowac ja w kontekscie calego cyklu koniunkturalnego, a nie jednego roku. Te przyklady pokazuja, ze ta sama wartosc EBITDA moze oznaczac cos zupelnie innego w zaleznosci od sektora, poziomu CAPEX-u i modelu biznesowego spolki."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kiedy EBITDA jest przydatna, a kiedy mylaca"
+    },
+    {
+      "type": "paragraph",
+      "text": "EBITDA jest szczegolnie przydatna w nastepujacych sytuacjach. Porownywanie spolek z roznych krajow — eliminuje roznice podatkowe i roznice w standardach amortyzacji. Wycena przejec i fuzji (M&A) — EV/EBITDA jest standardowym mnoznikiem przy transakcjach. Analiza spolek o duzej amortyzacji — gdzie zysk netto jest sztucznie zanizone przez koszty ksiegowe. Porownywanie spolek o roznej strukturze kapitalowej — jedna finansowana dlugiem, druga kapitalem wlasnym. Analiza trendow operacyjnych — czy podstawowa dzialalnosc spolki poprawia sie czy pogarsza, niezaleznie od decyzji finansowych i podatkowych."
+    },
+    {
+      "type": "paragraph",
+      "text": "EBITDA moze byc mylaca lub niewystarczajaca w nastepujacych przypadkach. Spolki z ogromnym CAPEX-em — gdzie roznica miedzy EBITDA a FCF jest przepastna (gornictwo, energetyka, telekomunikacja). Spolki silnie zadluzone — EBITDA ignoruje koszt dlugu, ktory moze pochlaniac wiekszosc gotowki. Spolki z duza iloscia jednorazowych korektskoregowanej EBITDA — jesli co roku sa 'jednorazowe' odpisy, to EBITDA nie odzwierciedla realnych kosztow. Banki i instytucje finansowe — EBITDA nie ma sensu dla bankow, gdzie odsetki sa czescia podstawowej dzialalnosci, a nie kosztem finansowania. Spolki na wczesnym etapie rozwoju — ktore jeszcze nie generuja stabilnej EBITDA i wymagaja innych metod wyceny."
+    },
+    {
+      "type": "tip",
+      "text": "Zlota zasada: nigdy nie analizuj EBITDA w oderwaniu od innych wskaznikow. Zawsze sprawdzaj jednoczesnie: (1) EBITDA i jej trend, (2) marze EBITDA w porownaniu z branza, (3) EV/EBITDA w porownaniu z konkurencja, (4) roznice miedzy EBITDA a FCF (wolny przeplyw gotowki), (5) poziom zadluzenia (dlug netto / EBITDA). Dopiero te piec elementow razem daja pelny obraz sytuacji finansowej spolki."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wskaznik dlug netto / EBITDA — ocena zdolnosci splaty dlugu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jednym z najczesciej uzywanych zastosowan EBITDA jest wskaznik dlug netto / EBITDA, ktory mierzy zdolnosc spolki do splaty zadluzenia z generowanej gotowki operacyjnej. Oblicza sie go jako: Dlug netto / EBITDA = (Calkowity dlug odsetkowy - Gotowka i ekwiwalenty) / EBITDA. Wynik mowi nam, ile lat zajaloby spolce splata calego dlugu netto, gdyby przeznaczyla na to cala EBITDA. Generalnie przyjmuje sie nastepujace progi: ponizej 1x — spolka ma bardzo niskie zadluzenie, silna pozycja finansowa. 1-2x — komfortowy poziom zadluzenia, pelna zdolnosc obslugi dlugu. 2-3x — umiarkowane zadluzenie, akceptowalne dla wiekszosci branz. 3-4x — podwyzszone zadluzenie, wymaga monitorowania. Powyzej 4x — wysokie zadluzenie, ryzyko problemow ze splata, szczegolnie w trudniejszych okresach rynkowych. Na GPW spolki z WIG20 zazwyczaj utrzymuja dlug netto / EBITDA w przedziale 1-3x. Spolki z wyzszym wskaznikiem (np. po duzych przejeciach) sa wnikliwiej analizowane przez rynek i agencje ratingowe. Wskaznik ten jest szczegolnie wazny dla obligatariuszy i kredytodawcow spolki, poniewaz bezposrednio mierzy zdolnosc obslugi zobowiazan."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Podsumowanie — jak uzywac EBITDA w praktyce inwestycyjnej"
+    },
+    {
+      "type": "paragraph",
+      "text": "EBITDA to potezne narzedzie analizy fundamentalnej, ktore pozwala ocenic operacyjna efektywnosc spolki i porownywac firmy na rownych zasadach. Jednak jak kazde narzedzie, ma swoje ograniczenia i wymaga kontekstu. Kluczowe zasady stosowania EBITDA: (1) Uzywaj EBITDA do porownywania efektywnosci operacyjnej spolek w ramach jednego sektora. (2) Zawsze analizuj wskaznik EV/EBITDA zamiast samej EBITDA — mnoznik daje informacje o wycenie. (3) Sprawdzaj marze EBITDA i jej trend w czasie — rosnaca marza to pozytywny sygnaal. (4) Porownuj EBITDA z wolnym przeplywem gotowki (FCF) — duza roznica to sygnaal ostrzegawczy. (5) Monitoruj wskaznik dlug netto / EBITDA — okrela zdolnosc splaty zobowiazan. (6) Badz sceptyczny wobec skorygowanej EBITDA — sprawdzaj, co dokladnie jest korygowane. (7) Nie uzywaj EBITDA jako jedynego wskaznika — lacacz ja z P/E, ROE, FCF i analiza bilansu. Pamietaj slowa Charliego Mungera: 'Za kazdym razem, gdy slyszysz EBITDA, zastap to w glowie slowami bullshit earnings i sprawdz, ile gotowki spolka naprawde generuje.' To przesada, ale zdrowa dawka sceptycyzmu wobec kazdego pojedynczego wskaznika czyni z ciebie lepszego inwestora."
+    },
+    {
+      "type": "warning",
+      "text": "EBITDA i wskazniki na niej oparte (EV/EBITDA, dlug netto/EBITDA, marza EBITDA) nie stanowia rekomendacji inwestycyjnej. Decyzje inwestycyjne powinny byc podejmowane na podstawie kompleksowej analizy fundamentalnej, uwzgledniajacej wiele wskaznikow, sytuacje makroekonomiczna i indywidualny profil ryzyka inwestora."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czym rozni sie EBITDA od zysku netto?",
+      "answer": "EBITDA to zysk przed odsetkami, podatkami i amortyzacja — pokazuje efektywnosc podstawowej dzialalnosci operacyjnej spolki, eliminujac wplyw struktury finansowania, obciazen podatkowych i polityki amortyzacyjnej. Zysk netto to koncowy wynik po odjeciu wszystkich kosztow, wlacznie z odsetkami, podatkami, amortyzacja i pozycjami jednorazowymi. EBITDA jest zazwyczaj wyzsza od zysku netto i jest czesciej uzywana do porownywania spolek miedzy soba, natomiast zysk netto jest kluczowy dla akcjonariuszy, poniewaz z niego wyplaca sie dywidendy i oblicza wskaznik P/E (cena/zysk)."
+    },
+    {
+      "question": "Jaki poziom EV/EBITDA jest dobry dla spolek z GPW?",
+      "answer": "Nie ma jednego uniwersalnego poziomu — wszystko zalezy od sektora i perspektyw wzrostu. Dla dojrzalych spolek z WIG20 (banki, energetyka, paliwa) typowy przedzial to 4-8x. Spolki wzrostowe (technologie, e-commerce) moga handlowac z EV/EBITDA 12-20x. EV/EBITDA ponizej 6x dla stabilnej, zyskownej spolki czesto sugeruje atrakcyjna wycene. EV/EBITDA powyzej 15x wymaga uzasadnienia w postaci szybkiego oczekiwanego wzrostu. Zawsze porownuj EV/EBITDA w ramach tego samego sektora i z historyczna mediana danej spolki."
+    },
+    {
+      "question": "Dlaczego Warren Buffett krytykuje EBITDA?",
+      "answer": "Warren Buffett i Charlie Munger krytykuja EBITDA glownie dlatego, ze pomija amortyzacje — ktora wedlug nich odzwierciedla realne zuzycie aktywow wymagajace przyszlych wydatkow na ich odtworzenie. Buffett argumentuje, ze EBITDA moze dawac falszywie optymistyczny obraz spolki, ignorujac koszty utrzymania majatku (CAPEX), obsluge dlugu i podatki. Preferuje analize opart na wolnym przplywie gotowki (Free Cash Flow), ktory lepiej odzwierciedla realna zdolnosc spolki do generowania gotowki dla akcjonariuszy. Nie oznacza to, ze EBITDA jest bezuzyteczna — ale nie powinna byc jedynym wskaznikiem decyzji inwestycyjnych."
+    },
+    {
+      "question": "Czym jest skorygowana EBITDA i czy mozna jej ufac?",
+      "answer": "Skorygowana EBITDA (Adjusted EBITDA) to EBITDA pomniejszona lub powiekszona o pozycje, ktore zarzad uwaza za jednorazowe lub nieodzwierciedlajace normalnej dzialalnosci — np. koszty restrukturyzacji, odpisy na wartosc firmy, koszty przejec. Mozna jej ufac warunkowo: sprawdz, czy korekty sa uzasadnione i czy nie powtarzaja sie co roku. Jesli spolka regularnie wykazuje duza roznice miedzy EBITDA raportowana a skorygowana, moze to byc sygnal, ze zarzad prezentuje wyniki w najkorzystniejszym swietle. Zawsze porownuj obie wartosci i analizuj konkretne pozycje korygowane."
+    },
+    {
+      "question": "Czy EBITDA nadaje sie do analizy bankow na GPW?",
+      "answer": "Nie — EBITDA nie jest odpowiednim wskaznikiem dla bankow i instytucji finansowych. W bankach odsetki sa czescia podstawowej dzialalnosci operacyjnej (bank zarabia na roznicy miedzy oprocentowaniem kredytow a depozytow), a nie kosztem finansowania. Dlatego wyelminiowanie odsetek z rachunku zyskow i strat banku nie ma sensu. Dla bankow na GPW (PKO BP, Pekao, mBank, Santander) stosuje sie inne wskazniki: P/E, P/BV (cena do wartosci ksiegowej), ROE (zwrot z kapitalu wlasnego), NIM (marza odsetkowa netto) oraz wskaznik kosztow do dochodow (C/I ratio)."
+    }
+  ]
+}

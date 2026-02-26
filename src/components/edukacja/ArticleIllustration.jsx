@@ -1843,6 +1843,633 @@ function IllustZlotoSurowce() {
 }
 
 /* ------------------------------------------------------------------ */
+/* rynek-catalyst-obligacje                                            */
+/* Bond certificates with yield bars                                   */
+/* ------------------------------------------------------------------ */
+function IllustCatalyst() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Bond certificate */}
+      <rect x="60" y="60" width="300" height="200" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      <rect x="60" y="60" width="300" height="40" rx="8" fill={ACCENT} opacity="0.1" />
+      <rect x="80" y="75" width="120" height="12" rx="4" fill={ACCENT} opacity="0.4" />
+      {/* Bond lines */}
+      <rect x="80" y="120" width="260" height="6" rx="3" fill={BORDER} opacity="0.4" />
+      <rect x="80" y="140" width="200" height="6" rx="3" fill={BORDER} opacity="0.3" />
+      <rect x="80" y="160" width="240" height="6" rx="3" fill={BORDER} opacity="0.3" />
+      {/* Coupon markers */}
+      {[0, 1, 2, 3].map(i => (
+        <circle key={i} cx={100 + i * 60} cy="210" r="12" fill={GREEN} opacity={0.3 + i * 0.15} />
+      ))}
+      {/* Yield chart */}
+      <rect x="420" y="60" width="340" height="280" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <line x1="450" y1="300" x2="730" y2="300" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="450" y1="80" x2="450" y2="300" stroke={BORDER} strokeWidth="1.5" />
+      {/* Yield bars */}
+      <rect x="475" y="230" width="28" height="70" rx="4" fill={ACCENT} opacity="0.4" />
+      <rect x="515" y="200" width="28" height="100" rx="4" fill={ACCENT} opacity="0.5" />
+      <rect x="555" y="170" width="28" height="130" rx="4" fill={GREEN} opacity="0.6" />
+      <rect x="595" y="150" width="28" height="150" rx="4" fill={GREEN} opacity="0.7" />
+      <rect x="635" y="130" width="28" height="170" rx="4" fill={GREEN} opacity="0.8" />
+      <rect x="675" y="110" width="28" height="190" rx="4" fill={ORANGE} opacity="0.7" />
+      {/* Yield curve */}
+      <polyline points="489,225 529,195 569,165 609,145 649,125 689,105" fill="none" stroke={GREEN} strokeWidth="2.5" strokeLinecap="round" strokeDasharray="6 3" />
+      {/* Percentage labels */}
+      <rect x="460" y="75" width="80" height="10" rx="3" fill={BORDER} opacity="0.3" />
+      {/* Decorative bond border */}
+      <rect x="64" y="64" width="292" height="192" rx="6" fill="none" stroke={ACCENT} strokeWidth="1" strokeDasharray="4 3" opacity="0.2" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* prawa-poboru-emisja-akcji                                           */
+/* Share certificates splitting                                        */
+/* ------------------------------------------------------------------ */
+function IllustPrawaPoboru() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Original share */}
+      <rect x="80" y="100" width="200" height="130" rx="8" fill={CARD_BG} stroke={ACCENT} strokeWidth="2" />
+      <rect x="100" y="120" width="80" height="10" rx="3" fill={ACCENT} opacity="0.5" />
+      <rect x="100" y="140" width="160" height="6" rx="3" fill={BORDER} opacity="0.4" />
+      <rect x="100" y="155" width="120" height="6" rx="3" fill={BORDER} opacity="0.3" />
+      <circle cx="230" cy="195" r="16" fill={ACCENT} opacity="0.2" />
+      <rect x="222" y="189" width="16" height="12" rx="3" fill={ACCENT} opacity="0.4" />
+      {/* Arrow splitting */}
+      <path d="M300,165 L380,120" fill="none" stroke={GREEN} strokeWidth="3" strokeLinecap="round" />
+      <polygon points="380,120 370,128 376,115" fill={GREEN} />
+      <path d="M300,165 L380,210" fill="none" stroke={GREEN} strokeWidth="3" strokeLinecap="round" />
+      <polygon points="380,210 370,202 376,215" fill={GREEN} />
+      {/* New shares (2) */}
+      <rect x="400" y="60" width="170" height="110" rx="8" fill={CARD_BG} stroke={GREEN} strokeWidth="2" />
+      <rect x="416" y="78" width="60" height="8" rx="3" fill={GREEN} opacity="0.5" />
+      <rect x="416" y="95" width="138" height="5" rx="2" fill={BORDER} opacity="0.3" />
+      <rect x="416" y="108" width="100" height="5" rx="2" fill={BORDER} opacity="0.3" />
+      <rect x="400" y="200" width="170" height="110" rx="8" fill={CARD_BG} stroke={GREEN} strokeWidth="2" />
+      <rect x="416" y="218" width="60" height="8" rx="3" fill={GREEN} opacity="0.5" />
+      <rect x="416" y="235" width="138" height="5" rx="2" fill={BORDER} opacity="0.3" />
+      <rect x="416" y="248" width="100" height="5" rx="2" fill={BORDER} opacity="0.3" />
+      {/* Rights badge */}
+      <rect x="620" y="100" width="140" height="200" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <rect x="640" y="120" width="100" height="10" rx="3" fill={ORANGE} opacity="0.5" />
+      {/* Timeline dots */}
+      {[0, 1, 2, 3].map(i => (
+        <g key={i}>
+          <circle cx="690" cy={165 + i * 35} r="6" fill={i < 3 ? GREEN : ORANGE} opacity="0.7" />
+          <rect x="706" y={161 + i * 35} width="40" height="8" rx="3" fill={BORDER} opacity="0.4" />
+          {i < 3 && <line x1="690" y1={171 + i * 35} x2="690" y2={194 + i * 35} stroke={BORDER} strokeWidth="1.5" />}
+        </g>
+      ))}
+      {/* Plus signs */}
+      <line x1="345" y1="155" x2="345" y2="175" stroke={GREEN} strokeWidth="3" strokeLinecap="round" />
+      <line x1="335" y1="165" x2="355" y2="165" stroke={GREEN} strokeWidth="3" strokeLinecap="round" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* depozyt-dzwignia-finansowa                                          */
+/* Lever/fulcrum with amplified returns                                */
+/* ------------------------------------------------------------------ */
+function IllustDzwignia() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Fulcrum triangle */}
+      <polygon points="400,300 370,350 430,350" fill={BORDER} stroke={BORDER} strokeWidth="2" />
+      {/* Lever bar */}
+      <line x1="150" y1="220" x2="650" y2="280" stroke={ACCENT} strokeWidth="6" strokeLinecap="round" />
+      {/* Small weight (deposit) on right */}
+      <rect x="600" y="245" width="80" height="40" rx="6" fill={ORANGE} opacity="0.7" />
+      <rect x="615" y="255" width="50" height="8" rx="3" fill={DARK_BG} opacity="0.3" />
+      {/* Large weight (position) lifted on left */}
+      <rect x="110" y="170" width="120" height="55" rx="6" fill={GREEN} opacity="0.7" />
+      <rect x="130" y="183" width="80" height="8" rx="3" fill={DARK_BG} opacity="0.3" />
+      <rect x="130" y="200" width="60" height="8" rx="3" fill={DARK_BG} opacity="0.2" />
+      {/* Multiplier labels */}
+      <rect x="300" y="60" width="200" height="70" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <rect x="320" y="78" width="60" height="10" rx="3" fill={ACCENT} opacity="0.4" />
+      {/* Multiplier bars */}
+      <rect x="320" y="98" width="40" height="14" rx="4" fill={GREEN} opacity="0.5" />
+      <rect x="370" y="98" width="60" height="14" rx="4" fill={GREEN} opacity="0.6" />
+      <rect x="440" y="98" width="40" height="14" rx="4" fill={ORANGE} opacity="0.7" />
+      {/* Up arrow (amplified gain) */}
+      <line x1="100" y1="160" x2="100" y2="80" stroke={GREEN} strokeWidth="3" strokeLinecap="round" />
+      <polygon points="100,75 88,95 112,95" fill={GREEN} />
+      {/* Down arrow (amplified loss) */}
+      <line x1="700" y1="240" x2="700" y2="350" stroke={RED} strokeWidth="3" strokeLinecap="round" />
+      <polygon points="700,355 688,335 712,335" fill={RED} />
+      {/* Warning triangle */}
+      <polygon points="700,60 680,100 720,100" fill="none" stroke={RED} strokeWidth="2" />
+      <line x1="700" y1="72" x2="700" y2="88" stroke={RED} strokeWidth="2.5" strokeLinecap="round" />
+      <circle cx="700" cy="94" r="2" fill={RED} />
+      {/* Ground */}
+      <line x1="50" y1="355" x2="750" y2="355" stroke={BORDER} strokeWidth="2" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* ipo-debiuty-gieldowe                                                */
+/* Company building going public — bell, rising chart                  */
+/* ------------------------------------------------------------------ */
+function IllustIPO() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Podium / stage */}
+      <rect x="200" y="240" width="400" height="120" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      {/* Company building on podium */}
+      <rect x="320" y="140" width="160" height="100" rx="4" fill={CARD_BG} stroke={ACCENT} strokeWidth="2" />
+      <rect x="320" y="140" width="160" height="25" rx="4" fill={ACCENT} opacity="0.15" />
+      {/* Windows */}
+      {[0, 1, 2].map(i => (
+        <g key={i}>
+          <rect x={340 + i * 45} y="180" width="30" height="20" rx="3" fill={DARK_BG} stroke={BORDER} strokeWidth="1" />
+          <rect x={340 + i * 45} y="210" width="30" height="20" rx="3" fill={DARK_BG} stroke={BORDER} strokeWidth="1" />
+        </g>
+      ))}
+      {/* Bell */}
+      <path d="M395,90 C395,70 405,70 405,90" fill="none" stroke={ORANGE} strokeWidth="3" />
+      <path d="M380,110 C380,85 420,85 420,110" fill={ORANGE} opacity="0.3" stroke={ORANGE} strokeWidth="2" />
+      <line x1="380" y1="110" x2="420" y2="110" stroke={ORANGE} strokeWidth="2" />
+      <circle cx="400" cy="115" r="4" fill={ORANGE} />
+      {/* Sound waves */}
+      <path d="M425,95 C435,90 435,105 425,100" fill="none" stroke={ORANGE} strokeWidth="1.5" opacity="0.5" />
+      <path d="M435,88 C450,80 450,110 435,102" fill="none" stroke={ORANGE} strokeWidth="1.5" opacity="0.3" />
+      {/* Arrow up */}
+      <line x1="400" y1="60" x2="400" y2="35" stroke={GREEN} strokeWidth="3" strokeLinecap="round" />
+      <polygon points="400,30 390,45 410,45" fill={GREEN} />
+      {/* Stock chart on right */}
+      <polyline points="620,340 650,310 670,320 700,280 730,250 760,200" fill="none" stroke={GREEN} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+      <polygon points="620,340 650,310 670,320 700,280 730,250 760,200 760,340" fill={GREEN} opacity="0.08" />
+      {/* People silhouettes (investors) */}
+      {[60, 120, 680, 740].map((x, i) => (
+        <g key={i}>
+          <circle cx={x} cy="300" r="10" fill={ACCENT} opacity="0.3" />
+          <rect x={x - 8} y="315" width="16" height="25" rx="5" fill={ACCENT} opacity="0.2" />
+        </g>
+      ))}
+      {/* IPO label */}
+      <rect x="350" y="260" width="100" height="24" rx="6" fill={GREEN} opacity="0.15" />
+      <rect x="365" y="267" width="70" height="10" rx="3" fill={GREEN} opacity="0.4" />
+      {/* Ground */}
+      <line x1="30" y1="365" x2="770" y2="365" stroke={BORDER} strokeWidth="1.5" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* ryzyko-inwestycyjne                                                 */
+/* Risk gauge/shield with different risk levels                        */
+/* ------------------------------------------------------------------ */
+function IllustRyzyko() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Shield */}
+      <path d="M400,50 L500,90 L500,220 C500,300 400,350 400,350 C400,350 300,300 300,220 L300,90 Z" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      <path d="M400,65 L485,100 L485,220 C485,290 400,335 400,335 C400,335 315,290 315,220 L315,100 Z" fill={ACCENT} opacity="0.06" />
+      {/* Risk gauge arc */}
+      <path d="M345,220 A55,55 0 0,1 455,220" fill="none" stroke={BORDER} strokeWidth="8" strokeLinecap="round" />
+      <path d="M345,220 A55,55 0 0,1 382,173" fill="none" stroke={GREEN} strokeWidth="8" strokeLinecap="round" />
+      <path d="M382,173 A55,55 0 0,1 418,173" fill="none" stroke={ORANGE} strokeWidth="8" strokeLinecap="round" />
+      <path d="M418,173 A55,55 0 0,1 455,220" fill="none" stroke={RED} strokeWidth="8" strokeLinecap="round" />
+      {/* Gauge needle */}
+      <line x1="400" y1="220" x2="425" y2="185" stroke={ACCENT} strokeWidth="3" strokeLinecap="round" />
+      <circle cx="400" cy="220" r="6" fill={ACCENT} />
+      {/* Risk level cards */}
+      <rect x="40" y="80" width="180" height="70" rx="8" fill={CARD_BG} stroke={GREEN} strokeWidth="1.5" opacity="0.8" />
+      <rect x="60" y="98" width="60" height="8" rx="3" fill={GREEN} opacity="0.5" />
+      <rect x="60" y="116" width="140" height="6" rx="3" fill={BORDER} opacity="0.3" />
+      <rect x="60" y="130" width="100" height="6" rx="3" fill={BORDER} opacity="0.2" />
+      <rect x="40" y="170" width="180" height="70" rx="8" fill={CARD_BG} stroke={ORANGE} strokeWidth="1.5" opacity="0.8" />
+      <rect x="60" y="188" width="60" height="8" rx="3" fill={ORANGE} opacity="0.5" />
+      <rect x="60" y="206" width="140" height="6" rx="3" fill={BORDER} opacity="0.3" />
+      <rect x="60" y="220" width="100" height="6" rx="3" fill={BORDER} opacity="0.2" />
+      <rect x="40" y="260" width="180" height="70" rx="8" fill={CARD_BG} stroke={RED} strokeWidth="1.5" opacity="0.8" />
+      <rect x="60" y="278" width="60" height="8" rx="3" fill={RED} opacity="0.5" />
+      <rect x="60" y="296" width="140" height="6" rx="3" fill={BORDER} opacity="0.3" />
+      <rect x="60" y="310" width="100" height="6" rx="3" fill={BORDER} opacity="0.2" />
+      {/* Volatility chart on right */}
+      <rect x="580" y="80" width="180" height="260" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <polyline points="600,300 620,280 635,290 650,260 670,270 685,230 700,250 715,200 730,220 745,180" fill="none" stroke={RED} strokeWidth="2" strokeLinecap="round" opacity="0.7" />
+      <polyline points="600,280 630,270 660,260 690,245 720,230 745,210" fill="none" stroke={ACCENT} strokeWidth="1.5" strokeDasharray="4 3" opacity="0.5" />
+      <rect x="600" y="95" width="70" height="10" rx="3" fill={BORDER} opacity="0.3" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* wskaznik-eps                                                        */
+/* EPS calculator with earnings bars                                   */
+/* ------------------------------------------------------------------ */
+function IllustEPS() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Calculator */}
+      <rect x="60" y="60" width="260" height="280" rx="12" fill={CARD_BG} stroke={BORDER} strokeWidth="2" />
+      <rect x="80" y="80" width="220" height="60" rx="8" fill={DARK_BG} />
+      <rect x="100" y="95" width="100" height="14" rx="4" fill={GREEN} opacity="0.5" />
+      <rect x="210" y="100" width="70" height="10" rx="3" fill={ACCENT} opacity="0.3" />
+      {/* Calculator buttons */}
+      {[0, 1, 2].map(row => [0, 1, 2, 3].map(col => (
+        <rect key={`${row}${col}`} x={90 + col * 52} y={160 + row * 52} width="40" height="36" rx="6" fill={BORDER} opacity="0.3" />
+      )))}
+      {/* Formula display */}
+      <rect x="80" y="310" width="220" height="20" rx="4" fill={ACCENT} opacity="0.1" />
+      <rect x="90" y="314" width="140" height="12" rx="3" fill={ACCENT} opacity="0.3" />
+      {/* EPS growth chart */}
+      <rect x="380" y="60" width="380" height="280" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <line x1="410" y1="300" x2="730" y2="300" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="410" y1="80" x2="410" y2="300" stroke={BORDER} strokeWidth="1.5" />
+      {/* EPS bars growing */}
+      <rect x="430" y="250" width="35" height="50" rx="4" fill={ACCENT} opacity="0.4" />
+      <rect x="480" y="220" width="35" height="80" rx="4" fill={ACCENT} opacity="0.5" />
+      <rect x="530" y="190" width="35" height="110" rx="4" fill={GREEN} opacity="0.6" />
+      <rect x="580" y="160" width="35" height="140" rx="4" fill={GREEN} opacity="0.7" />
+      <rect x="630" y="130" width="35" height="170" rx="4" fill={GREEN} opacity="0.8" />
+      <rect x="680" y="100" width="35" height="200" rx="4" fill={GREEN} />
+      {/* Trend line */}
+      <polyline points="447,245 497,215 547,185 597,155 647,125 697,95" fill="none" stroke={ACCENT} strokeWidth="2" strokeDasharray="6 3" />
+      {/* Label */}
+      <rect x="420" y="75" width="60" height="10" rx="3" fill={BORDER} opacity="0.3" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* wolumen-obrotu                                                      */
+/* Volume bars beneath price line                                      */
+/* ------------------------------------------------------------------ */
+function IllustWolumen() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Axes */}
+      <line x1="80" y1="60" x2="80" y2="370" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="80" y1="370" x2="740" y2="370" stroke={BORDER} strokeWidth="1.5" />
+      {/* Price line (upper half) */}
+      <polyline points="100,180 150,170 200,160 250,175 300,150 350,130 400,140 450,120 500,100 550,110 600,90 650,85 700,70" fill="none" stroke={ACCENT} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+      {/* Separator line */}
+      <line x1="80" y1="220" x2="740" y2="220" stroke={BORDER} strokeWidth="1" strokeDasharray="4 4" />
+      {/* Volume bars (lower half) */}
+      {[
+        [100, 50, false], [150, 70, true], [200, 40, false], [250, 90, true], [300, 60, false],
+        [350, 110, true], [400, 80, true], [450, 130, true], [500, 160, true], [550, 100, false],
+        [600, 140, true], [650, 120, true], [700, 90, false],
+      ].map(([x, h, up], i) => (
+        <rect key={i} x={x - 14} y={360 - h} width="28" height={h} rx="3" fill={up ? GREEN : RED} opacity="0.6" />
+      ))}
+      {/* High volume spike highlight */}
+      <rect x="486" y="195" width="28" height="170" rx="3" fill={GREEN} opacity="0.1" />
+      {/* VWAP line */}
+      <polyline points="100,175 200,170 300,160 400,145 500,130 600,120 700,110" fill="none" stroke={ORANGE} strokeWidth="1.5" strokeDasharray="6 3" opacity="0.6" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* wskaznik-ebitda                                                     */
+/* Financial statement layers breakdown                                */
+/* ------------------------------------------------------------------ */
+function IllustEBITDA() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Waterfall chart: Revenue → EBITDA → EBIT → Net Income */}
+      <line x1="100" y1="350" x2="700" y2="350" stroke={BORDER} strokeWidth="1.5" />
+      {/* Revenue bar */}
+      <rect x="120" y="70" width="80" height="280" rx="6" fill={ACCENT} opacity="0.7" />
+      <rect x="130" y="80" width="60" height="10" rx="3" fill={DARK_BG} opacity="0.3" />
+      {/* Minus DA */}
+      <rect x="240" y="70" width="80" height="80" rx="6" fill={RED} opacity="0.4" />
+      {/* EBITDA bar */}
+      <rect x="360" y="150" width="80" height="200" rx="6" fill={GREEN} opacity="0.7" />
+      <rect x="370" y="160" width="60" height="10" rx="3" fill={DARK_BG} opacity="0.3" />
+      {/* Minus Interest & Tax */}
+      <rect x="480" y="150" width="80" height="60" rx="6" fill={ORANGE} opacity="0.4" />
+      {/* Net Income bar */}
+      <rect x="600" y="210" width="80" height="140" rx="6" fill={GREEN} opacity="0.5" />
+      <rect x="610" y="220" width="60" height="10" rx="3" fill={DARK_BG} opacity="0.3" />
+      {/* Connecting lines */}
+      <line x1="200" y1="350" x2="240" y2="350" stroke={BORDER} strokeWidth="1" strokeDasharray="3 2" />
+      <line x1="200" y1="150" x2="360" y2="150" stroke={BORDER} strokeWidth="1" strokeDasharray="3 2" />
+      <line x1="440" y1="210" x2="600" y2="210" stroke={BORDER} strokeWidth="1" strokeDasharray="3 2" />
+      {/* Labels */}
+      <rect x="120" y="355" width="80" height="10" rx="3" fill={BORDER} opacity="0.4" />
+      <rect x="360" y="355" width="80" height="10" rx="3" fill={BORDER} opacity="0.4" />
+      <rect x="600" y="355" width="80" height="10" rx="3" fill={BORDER} opacity="0.4" />
+      {/* Highlight bracket for EBITDA */}
+      <path d="M355,145 L355,355 M355,250 L345,250" fill="none" stroke={GREEN} strokeWidth="2" opacity="0.4" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* formacje-cenowe                                                     */
+/* Head and shoulders pattern with triangles                           */
+/* ------------------------------------------------------------------ */
+function IllustFormacjeCenowe() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Grid */}
+      {[100, 160, 220, 280, 340].map(y => (
+        <line key={y} x1="60" y1={y} x2="400" y2={y} stroke={BORDER} strokeWidth="0.5" strokeDasharray="4 4" />
+      ))}
+      {/* Head and Shoulders pattern */}
+      <polyline points="80,280 120,240 150,280 190,200 230,120 270,200 310,280 350,240 380,280" fill="none" stroke={ACCENT} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+      {/* Neckline */}
+      <line x1="80" y1="280" x2="400" y2="280" stroke={RED} strokeWidth="2" strokeDasharray="8 4" />
+      {/* Labels */}
+      <circle cx="120" cy="235" r="4" fill={ACCENT} opacity="0.5" />
+      <circle cx="230" cy="115" r="4" fill={ACCENT} opacity="0.5" />
+      <circle cx="350" cy="235" r="4" fill={ACCENT} opacity="0.5" />
+      {/* Triangle pattern on right side */}
+      <rect x="440" y="60" width="320" height="280" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      {/* Ascending triangle */}
+      <line x1="470" y1="140" x2="730" y2="140" stroke={GREEN} strokeWidth="2" />
+      <polyline points="470,260 510,230 540,250 580,210 610,240 650,190 690,220 730,170" fill="none" stroke={ACCENT} strokeWidth="2" strokeLinecap="round" />
+      {/* Support trendline */}
+      <line x1="470" y1="260" x2="730" y2="170" stroke={GREEN} strokeWidth="2" strokeDasharray="6 3" />
+      {/* Breakout arrow */}
+      <line x1="710" y1="140" x2="710" y2="100" stroke={GREEN} strokeWidth="3" strokeLinecap="round" />
+      <polygon points="710,95 700,110 720,110" fill={GREEN} />
+      {/* Label */}
+      <rect x="460" y="75" width="80" height="10" rx="3" fill={BORDER} opacity="0.3" />
+      {/* Axes */}
+      <line x1="60" y1="60" x2="60" y2="370" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="60" y1="370" x2="400" y2="370" stroke={BORDER} strokeWidth="1.5" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* bollinger-bands                                                     */
+/* Chart with upper, middle, lower Bollinger Bands                     */
+/* ------------------------------------------------------------------ */
+function IllustBollingerBands() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Axes */}
+      <line x1="80" y1="60" x2="80" y2="360" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="80" y1="360" x2="740" y2="360" stroke={BORDER} strokeWidth="1.5" />
+      {/* Grid */}
+      {[120, 180, 240, 300].map(y => (
+        <line key={y} x1="80" y1={y} x2="740" y2={y} stroke={BORDER} strokeWidth="0.5" strokeDasharray="4 4" />
+      ))}
+      {/* Upper band */}
+      <polyline points="100,140 160,130 220,120 280,100 340,130 400,160 460,120 520,90 580,110 640,100 700,80" fill="none" stroke={ACCENT} strokeWidth="1.5" opacity="0.6" />
+      {/* Middle band (SMA) */}
+      <polyline points="100,200 160,195 220,190 280,180 340,195 400,210 460,190 520,170 580,180 640,175 700,160" fill="none" stroke={ACCENT} strokeWidth="2" strokeDasharray="6 3" />
+      {/* Lower band */}
+      <polyline points="100,260 160,260 220,260 280,260 340,260 400,260 460,260 520,250 580,250 640,250 700,240" fill="none" stroke={ACCENT} strokeWidth="1.5" opacity="0.6" />
+      {/* Band fill */}
+      <polygon points="100,140 160,130 220,120 280,100 340,130 400,160 460,120 520,90 580,110 640,100 700,80 700,240 640,250 580,250 520,250 460,260 400,260 340,260 280,260 220,260 160,260 100,260" fill={ACCENT} opacity="0.06" />
+      {/* Price line */}
+      <polyline points="100,210 160,200 220,195 280,170 340,200 400,220 460,180 520,150 580,170 640,160 700,140" fill="none" stroke={GREEN} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+      {/* Squeeze zone highlight */}
+      <rect x="340" y="130" width="120" height="140" rx="6" fill={ORANGE} opacity="0.08" />
+      {/* Breakout arrow */}
+      <line x1="520" y1="85" x2="520" y2="55" stroke={GREEN} strokeWidth="3" strokeLinecap="round" />
+      <polygon points="520,50 510,65 530,65" fill={GREEN} />
+      {/* Band width indicator */}
+      <line x1="720" y1="80" x2="720" y2="240" stroke={ACCENT} strokeWidth="1" />
+      <line x1="715" y1="80" x2="725" y2="80" stroke={ACCENT} strokeWidth="1.5" />
+      <line x1="715" y1="240" x2="725" y2="240" stroke={ACCENT} strokeWidth="1.5" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* swing-trading                                                       */
+/* Chart with swing highs and lows marked                              */
+/* ------------------------------------------------------------------ */
+function IllustSwingTrading() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Axes */}
+      <line x1="60" y1="60" x2="60" y2="360" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="60" y1="360" x2="760" y2="360" stroke={BORDER} strokeWidth="1.5" />
+      {/* Grid */}
+      {[120, 180, 240, 300].map(y => (
+        <line key={y} x1="60" y1={y} x2="760" y2={y} stroke={BORDER} strokeWidth="0.5" strokeDasharray="4 4" />
+      ))}
+      {/* Price line with swings */}
+      <polyline points="80,300 140,250 200,280 280,180 340,220 420,140 480,180 560,100 620,150 700,80 740,110" fill="none" stroke={ACCENT} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+      {/* Swing highs */}
+      {[[280, 180], [420, 140], [560, 100], [700, 80]].map(([x, y], i) => (
+        <g key={`h${i}`}>
+          <circle cx={x} cy={y} r="8" fill={RED} opacity="0.2" />
+          <circle cx={x} cy={y} r="4" fill={RED} opacity="0.8" />
+          <line x1={x} y1={y - 12} x2={x} y2={y - 25} stroke={RED} strokeWidth="2" strokeLinecap="round" />
+          <polygon points={`${x},${y - 30} ${x - 5},${y - 20} ${x + 5},${y - 20}`} fill={RED} opacity="0.6" />
+        </g>
+      ))}
+      {/* Swing lows */}
+      {[[200, 280], [340, 220], [480, 180], [620, 150]].map(([x, y], i) => (
+        <g key={`l${i}`}>
+          <circle cx={x} cy={y} r="8" fill={GREEN} opacity="0.2" />
+          <circle cx={x} cy={y} r="4" fill={GREEN} opacity="0.8" />
+          <line x1={x} y1={y + 12} x2={x} y2={y + 25} stroke={GREEN} strokeWidth="2" strokeLinecap="round" />
+          <polygon points={`${x},${y + 30} ${x - 5},${y + 20} ${x + 5},${y + 20}`} fill={GREEN} opacity="0.6" />
+        </g>
+      ))}
+      {/* Trade brackets */}
+      <rect x="195" y="175" width="90" height="110" rx="6" fill={GREEN} opacity="0.06" stroke={GREEN} strokeWidth="1" strokeDasharray="4 3" />
+      <rect x="335" y="135" width="90" height="90" rx="6" fill={GREEN} opacity="0.06" stroke={GREEN} strokeWidth="1" strokeDasharray="4 3" />
+      {/* Time labels */}
+      <rect x="180" y="345" width="40" height="8" rx="3" fill={BORDER} opacity="0.3" />
+      <rect x="400" y="345" width="40" height="8" rx="3" fill={BORDER} opacity="0.3" />
+      <rect x="620" y="345" width="40" height="8" rx="3" fill={BORDER} opacity="0.3" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* growth-investing                                                    */
+/* Rocket chart with accelerating growth                               */
+/* ------------------------------------------------------------------ */
+function IllustGrowthInvesting() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Chart area */}
+      <line x1="80" y1="60" x2="80" y2="350" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="80" y1="350" x2="740" y2="350" stroke={BORDER} strokeWidth="1.5" />
+      {/* Accelerating growth curve */}
+      <path d="M100,330 C200,320 300,300 400,260 C500,220 550,150 600,90 C620,65 640,50 680,35" fill="none" stroke={GREEN} strokeWidth="3" strokeLinecap="round" />
+      <path d="M100,330 C200,320 300,300 400,260 C500,220 550,150 600,90 C620,65 640,50 680,35 L680,350 L100,350 Z" fill={GREEN} opacity="0.08" />
+      {/* Revenue bars in background */}
+      {[140, 220, 300, 380, 460, 540, 620].map((x, i) => (
+        <rect key={i} x={x - 15} y={340 - (i + 1) * 30} width="30" height={(i + 1) * 30} rx="4" fill={ACCENT} opacity={0.15 + i * 0.03} />
+      ))}
+      {/* Growth dot on curve */}
+      <circle cx="680" cy="35" r="8" fill={GREEN} opacity="0.3" />
+      <circle cx="680" cy="35" r="4" fill={GREEN} />
+      {/* Rocket icon */}
+      <path d="M700,55 L720,30 L730,50 Z" fill={ORANGE} opacity="0.7" />
+      <rect x="706" y="50" width="12" height="16" rx="3" fill={ORANGE} opacity="0.5" />
+      {/* Exhaust */}
+      <circle cx="712" cy="72" r="4" fill={ORANGE} opacity="0.3" />
+      <circle cx="708" cy="80" r="3" fill={ORANGE} opacity="0.2" />
+      <circle cx="716" cy="82" r="2" fill={ORANGE} opacity="0.15" />
+      {/* Key metrics cards */}
+      <rect x="100" y="70" width="160" height="60" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <rect x="115" y="85" width="50" height="8" rx="3" fill={GREEN} opacity="0.5" />
+      <rect x="115" y="105" width="130" height="6" rx="3" fill={BORDER} opacity="0.3" />
+      <rect x="100" y="145" width="160" height="60" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <rect x="115" y="160" width="50" height="8" rx="3" fill={ACCENT} opacity="0.5" />
+      <rect x="115" y="180" width="130" height="6" rx="3" fill={BORDER} opacity="0.3" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* dywersyfikacja-portfela                                             */
+/* Multiple baskets with eggs — diversification visual                 */
+/* ------------------------------------------------------------------ */
+function IllustDywersyfikacja() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Basket 1 — Stocks */}
+      <path d="M80,240 C80,210 180,210 180,240 L170,310 C170,320 90,320 90,310 Z" fill={CARD_BG} stroke={ACCENT} strokeWidth="2" />
+      <ellipse cx="130" cy="240" rx="50" ry="15" fill={CARD_BG} stroke={ACCENT} strokeWidth="2" />
+      {/* Eggs in basket 1 */}
+      <ellipse cx="115" cy="260" rx="14" ry="18" fill={ACCENT} opacity="0.5" />
+      <ellipse cx="145" cy="265" rx="14" ry="18" fill={ACCENT} opacity="0.4" />
+      <ellipse cx="130" cy="280" rx="14" ry="18" fill={ACCENT} opacity="0.3" />
+      {/* Basket 2 — Bonds */}
+      <path d="M270,240 C270,210 370,210 370,240 L360,310 C360,320 280,320 280,310 Z" fill={CARD_BG} stroke={GREEN} strokeWidth="2" />
+      <ellipse cx="320" cy="240" rx="50" ry="15" fill={CARD_BG} stroke={GREEN} strokeWidth="2" />
+      <ellipse cx="305" cy="260" rx="14" ry="18" fill={GREEN} opacity="0.5" />
+      <ellipse cx="335" cy="265" rx="14" ry="18" fill={GREEN} opacity="0.4" />
+      {/* Basket 3 — ETFs */}
+      <path d="M460,240 C460,210 560,210 560,240 L550,310 C550,320 470,320 470,310 Z" fill={CARD_BG} stroke={ORANGE} strokeWidth="2" />
+      <ellipse cx="510" cy="240" rx="50" ry="15" fill={CARD_BG} stroke={ORANGE} strokeWidth="2" />
+      <ellipse cx="495" cy="260" rx="14" ry="18" fill={ORANGE} opacity="0.5" />
+      <ellipse cx="525" cy="265" rx="14" ry="18" fill={ORANGE} opacity="0.4" />
+      {/* Basket 4 — Cash/Gold */}
+      <path d="M650,240 C650,210 750,210 750,240 L740,310 C740,320 660,320 660,310 Z" fill={CARD_BG} stroke={RED} strokeWidth="1.5" />
+      <ellipse cx="700" cy="240" rx="50" ry="15" fill={CARD_BG} stroke={RED} strokeWidth="1.5" />
+      <ellipse cx="700" cy="260" rx="14" ry="18" fill={RED} opacity="0.4" />
+      {/* Labels */}
+      <rect x="95" y="335" width="70" height="10" rx="3" fill={ACCENT} opacity="0.4" />
+      <rect x="285" y="335" width="70" height="10" rx="3" fill={GREEN} opacity="0.4" />
+      <rect x="475" y="335" width="70" height="10" rx="3" fill={ORANGE} opacity="0.4" />
+      <rect x="665" y="335" width="70" height="10" rx="3" fill={RED} opacity="0.3" />
+      {/* Correlation matrix on top */}
+      <rect x="250" y="50" width="300" height="130" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <rect x="270" y="68" width="80" height="10" rx="3" fill={BORDER} opacity="0.4" />
+      {/* Matrix cells */}
+      {[0, 1, 2, 3].map(r => [0, 1, 2, 3].map(c => (
+        <rect key={`${r}${c}`} x={275 + c * 65} y={90 + r * 22} width="55" height="16" rx="3" fill={r === c ? ACCENT : c > r ? GREEN : ORANGE} opacity={r === c ? 0.3 : 0.15} />
+      )))}
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* kiedy-sprzedac-akcje                                                */
+/* Chart with sell signals and exit points                             */
+/* ------------------------------------------------------------------ */
+function IllustKiedySprzedac() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Chart */}
+      <line x1="80" y1="60" x2="80" y2="350" stroke={BORDER} strokeWidth="1.5" />
+      <line x1="80" y1="350" x2="740" y2="350" stroke={BORDER} strokeWidth="1.5" />
+      {/* Price line — rise then fall */}
+      <polyline points="100,300 160,260 220,230 280,180 340,140 400,110 460,100 520,120 580,160 640,200 700,250" fill="none" stroke={ACCENT} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+      {/* Area fill */}
+      <polygon points="100,300 160,260 220,230 280,180 340,140 400,110 460,100 520,120 580,160 640,200 700,250 700,350 100,350" fill={ACCENT} opacity="0.05" />
+      {/* Peak zone */}
+      <rect x="420" y="85" width="100" height="50" rx="6" fill={RED} opacity="0.1" stroke={RED} strokeWidth="1" strokeDasharray="4 3" />
+      {/* Sell signal 1 — at top */}
+      <circle cx="460" cy="100" r="10" fill={RED} opacity="0.2" />
+      <circle cx="460" cy="100" r="5" fill={RED} />
+      <line x1="460" y1="70" x2="460" y2="55" stroke={RED} strokeWidth="2" strokeLinecap="round" />
+      <rect x="435" y="40" width="50" height="16" rx="4" fill={RED} opacity="0.3" />
+      {/* Sell signal 2 — trend break */}
+      <circle cx="580" cy="160" r="10" fill={ORANGE} opacity="0.2" />
+      <circle cx="580" cy="160" r="5" fill={ORANGE} />
+      {/* Support line broken */}
+      <line x1="280" y1="180" x2="600" y2="180" stroke={GREEN} strokeWidth="2" strokeDasharray="8 4" opacity="0.4" />
+      {/* Stop loss line */}
+      <line x1="340" y1="220" x2="740" y2="220" stroke={RED} strokeWidth="2" strokeDasharray="6 3" />
+      <rect x="700" y="212" width="35" height="16" rx="4" fill={RED} opacity="0.2" />
+      {/* Decision checklist */}
+      <rect x="580" y="270" width="160" height="80" rx="8" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      {[0, 1, 2].map(i => (
+        <g key={i}>
+          <rect x="596" y={286 + i * 20} width="10" height="10" rx="2" fill={i < 2 ? RED : BORDER} opacity="0.4" />
+          <rect x="614" y={288 + i * 20} width="60" height="6" rx="2" fill={BORDER} opacity="0.3" />
+        </g>
+      ))}
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* inwestowanie-kontrarianskie                                         */
+/* Crowd going one direction, contrarian going opposite                */
+/* ------------------------------------------------------------------ */
+function IllustKontrarian() {
+  return (
+    <g>
+      <rect x="0" y="0" width="800" height="400" rx="12" fill={DARK_BG} />
+      {/* Crowd going right (following trend) */}
+      {[
+        [150, 200], [200, 195], [250, 190], [300, 205],
+        [180, 230], [230, 225], [280, 235], [330, 220],
+        [160, 260], [210, 255], [260, 265], [310, 250],
+      ].map(([x, y], i) => (
+        <g key={`c${i}`}>
+          <circle cx={x} cy={y} r="12" fill={ACCENT} opacity="0.25" />
+          <rect x={x - 6} y={y + 14} width="12" height="18" rx="4" fill={ACCENT} opacity="0.15" />
+        </g>
+      ))}
+      {/* Crowd arrows right */}
+      {[195, 225, 255].map(y => (
+        <g key={y}>
+          <line x1="350" y1={y} x2="400" y2={y} stroke={ACCENT} strokeWidth="2" opacity="0.3" />
+          <polygon points={`405,${y} 395,${y - 5} 395,${y + 5}`} fill={ACCENT} opacity="0.3" />
+        </g>
+      ))}
+      {/* Contrarian person going LEFT */}
+      <circle cx="550" cy="225" r="20" fill={GREEN} opacity="0.7" />
+      <rect x="540" y="248" width="20" height="30" rx="6" fill={GREEN} opacity="0.5" />
+      {/* Contrarian arrow left */}
+      <line x1="520" y1="225" x2="470" y2="225" stroke={GREEN} strokeWidth="4" strokeLinecap="round" />
+      <polygon points="465,225 480,215 480,235" fill={GREEN} />
+      {/* Dividing line */}
+      <line x1="430" y1="140" x2="430" y2="310" stroke={BORDER} strokeWidth="1" strokeDasharray="6 4" />
+      {/* Fear & Greed gauge on top */}
+      <rect x="250" y="40" width="300" height="80" rx="10" fill={CARD_BG} stroke={BORDER} strokeWidth="1.5" />
+      <path d="M350,95 A50,50 0 0,1 450,95" fill="none" stroke={BORDER} strokeWidth="6" strokeLinecap="round" />
+      <path d="M350,95 A50,50 0 0,1 380,55" fill="none" stroke={RED} strokeWidth="6" strokeLinecap="round" />
+      <path d="M380,55 A50,50 0 0,1 420,55" fill="none" stroke={ORANGE} strokeWidth="6" strokeLinecap="round" />
+      <path d="M420,55 A50,50 0 0,1 450,95" fill="none" stroke={GREEN} strokeWidth="6" strokeLinecap="round" />
+      {/* Needle pointing to fear (left) */}
+      <line x1="400" y1="95" x2="365" y2="65" stroke={RED} strokeWidth="2.5" strokeLinecap="round" />
+      <circle cx="400" cy="95" r="4" fill={ACCENT} />
+      {/* Chart in background - bottom falling */}
+      <polyline points="580,300 620,310 660,330 700,340 740,350" fill="none" stroke={RED} strokeWidth="2" opacity="0.3" />
+      <polyline points="580,350 620,340 660,330 700,310 740,290" fill="none" stroke={GREEN} strokeWidth="2" strokeDasharray="4 3" opacity="0.4" />
+    </g>
+  );
+}
+
+/* ------------------------------------------------------------------ */
 /* Illustration registry                                               */
 /* ------------------------------------------------------------------ */
 const ILLUSTRATIONS = {
@@ -1882,6 +2509,22 @@ const ILLUSTRATIONS = {
   "stop-loss-take-profit": IllustStopLoss,
   "momentum-investing": IllustMomentum,
   "inwestowanie-zloto-surowce": IllustZlotoSurowce,
+  /* New batch — 15 articles */
+  "rynek-catalyst-obligacje": IllustCatalyst,
+  "prawa-poboru-emisja-akcji": IllustPrawaPoboru,
+  "depozyt-dzwignia-finansowa": IllustDzwignia,
+  "ipo-debiuty-gieldowe": IllustIPO,
+  "ryzyko-inwestycyjne": IllustRyzyko,
+  "wskaznik-eps": IllustEPS,
+  "wolumen-obrotu": IllustWolumen,
+  "wskaznik-ebitda": IllustEBITDA,
+  "formacje-cenowe": IllustFormacjeCenowe,
+  "bollinger-bands": IllustBollingerBands,
+  "swing-trading": IllustSwingTrading,
+  "growth-investing": IllustGrowthInvesting,
+  "dywersyfikacja-portfela": IllustDywersyfikacja,
+  "kiedy-sprzedac-akcje": IllustKiedySprzedac,
+  "inwestowanie-kontrarianskie": IllustKontrarian,
 };
 
 /* ------------------------------------------------------------------ */

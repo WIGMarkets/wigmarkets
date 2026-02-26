@@ -6,12 +6,14 @@ import glossaryData from "./src/data/glossary.json";
 import { GPW_COMPANIES } from "./src/data/gpw-companies.js";
 import companyDescriptions from "./src/data/company-descriptions.json";
 import { RANKINGS } from "./src/data/rankings.js";
+import articlesMeta from "./src/content/edukacja/articles-meta.json";
 
 const CRAWLER_RE = /Twitterbot|facebookexternalhit|LinkedInBot|Slackbot|Discordbot|WhatsApp|Googlebot|bingbot/i;
 
 const glossaryBySlug = Object.fromEntries(glossaryData.map(e => [e.slug, e]));
 const tickerToName = Object.fromEntries(GPW_COMPANIES.map(c => [c.ticker, c.name]));
 const rankingBySlug = Object.fromEntries(RANKINGS.map(r => [r.slug, r]));
+const articleBySlug = Object.fromEntries(articlesMeta.map(a => [a.slug, a]));
 
 function truncateDesc(str, max = 155) {
   if (!str || str.length <= max) return str || "";
@@ -205,9 +207,39 @@ export default function middleware(req) {
     );
   }
 
+  // Education article page (/edukacja/:slug)
+  const articleMatch = path.match(/^\/edukacja\/([a-z0-9-]+)$/);
+  if (articleMatch) {
+    const slug = articleMatch[1];
+    const article = articleBySlug[slug];
+    if (article) {
+      const pageUrl = `${base}/edukacja/${slug}`;
+      return new Response(
+        htmlShell({
+          title: `${article.metaTitle || article.title} | WIGmarkets.pl`,
+          description: truncateDesc(article.metaDescription),
+          image: article.featuredImage ? `${base}${article.featuredImage}` : "",
+          url: pageUrl,
+          jsonLd: {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": article.title,
+            "description": article.metaDescription,
+            "url": pageUrl,
+            "datePublished": article.publishDate,
+            "dateModified": article.updatedDate || article.publishDate,
+            "author": { "@type": "Organization", "name": article.author || "Redakcja WIGmarkets" },
+            "publisher": { "@type": "Organization", "name": "WIGmarkets.pl", "url": base },
+          },
+        }),
+        { headers: { "Content-Type": "text/html; charset=utf-8" } }
+      );
+    }
+  }
+
   // All other pages — let them through (will use index.html default OG tags)
 }
 
 export const config = {
-  matcher: ["/fear-greed", "/indeks", "/spolka/:path*", "/stock/:path*", "/edukacja/slowniczek", "/edukacja/slowniczek/:path*", "/rankingi", "/rankingi/:path*", "/heatmapa"],
+  matcher: ["/fear-greed", "/indeks", "/spolka/:path*", "/stock/:path*", "/edukacja/slowniczek", "/edukacja/slowniczek/:path*", "/edukacja/:path*", "/rankingi", "/rankingi/:path*", "/heatmapa"],
 };

@@ -1,0 +1,290 @@
+{
+  "slug": "rynek-catalyst-obligacje",
+  "title": "Rynek Catalyst — jak inwestować w obligacje na GPW",
+  "metaTitle": "Rynek Catalyst — obligacje korporacyjne, komunalne i skarbowe na GPW | WIGmarkets.pl",
+  "metaDescription": "Kompletny przewodnik po rynku Catalyst na GPW. Rodzaje obligacji, kluczowe wskaźniki (YTM, duration, kupon), ryzyka, praktyczne porady i porównanie z obligacjami skarbowymi.",
+  "category": "podstawy",
+  "author": "Redakcja WIGmarkets",
+  "publishDate": "2026-02-26",
+  "updatedDate": "2026-02-26",
+  "readingTime": 11,
+  "featuredImage": "/images/edukacja/rynek-catalyst-obligacje.webp",
+  "featuredImageAlt": "Rynek Catalyst — obligacje notowane na Giełdzie Papierów Wartościowych w Warszawie",
+  "tags": ["Catalyst", "obligacje", "obligacje korporacyjne", "obligacje komunalne", "GPW", "YTM", "duration", "rynek dłużny"],
+  "relatedSlugs": ["obligacje-skarbowe-2026", "co-to-jest-gpw", "jak-zaczac-inwestowac-na-gpw", "ile-pieniedzy-zeby-zaczac", "jak-budowac-portfel-inwestycyjny"],
+  "ctaType": "screener",
+  "ctaText": "Sprawdź notowania spółek emitujących obligacje na Catalyst",
+  "ctaLink": "/screener",
+  "sections": [
+    {
+      "type": "paragraph",
+      "text": "Catalyst to zorganizowany rynek obligacji prowadzony przez Giełdę Papierów Wartościowych w Warszawie, na którym inwestorzy mogą kupować i sprzedawać obligacje korporacyjne, komunalne oraz skarbowe. Uruchomiony 30 września 2009 roku, Catalyst wypełnił istotną lukę na polskim rynku kapitałowym — do tego momentu obrót obligacjami nieskarbowymi w Polsce był praktycznie nieistniejący lub odbywał się poza rynkiem regulowanym, bez transparentności cenowej i standardów informacyjnych. Dziś Catalyst jest największą platformą obrotu obligacjami nieskarbowymi w Europie Środkowo-Wschodniej, z ponad 600 seriami obligacji notowanymi jednocześnie. Dla polskich inwestorów indywidualnych Catalyst stanowi unikalną okazję do dywersyfikacji portfela poza rynek akcji — obligacje oferują bardziej przewidywalny strumień dochodów (kupony odsetkowe) przy innym profilu ryzyka niż akcje. W tym artykule szczegółowo wyjaśniamy, czym jest Catalyst, jak działa, jakie rodzaje obligacji są na nim notowane, jak analizować obligacje przed zakupem oraz jakie ryzyka wiążą się z inwestowaniem na tym rynku."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Czym jest rynek Catalyst i jak powstał?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Catalyst to autorski projekt Giełdy Papierów Wartościowych w Warszawie, uruchomiony 30 września 2009 roku jako odpowiedź na rosnące zapotrzebowanie emitentów i inwestorów na zorganizowany, przejrzysty rynek obrotu instrumentami dłużnymi. Przed powstaniem Catalyst obligacje korporacyjne i komunalne w Polsce były emitowane i handlowane na rynku pozagiełdowym (OTC — over the counter), co oznaczało brak standaryzacji, niską transparentność cen i bardzo ograniczoną płynność. Inwestor, który kupił obligację korporacyjną, miał ogromny problem z jej odsprzedaniem przed terminem wykupu — nie istniał centralny rynek, na którym mógłby znaleźć kupca."
+    },
+    {
+      "type": "paragraph",
+      "text": "Catalyst składa się de facto z czterech platform obrotu, zorganizowanych w dwa segmenty. Pierwszy segment to rynek regulowany prowadzony przez GPW — podlegający pełnym wymogom unijnej dyrektywy MiFID II, z najwyższymi standardami informacyjnymi. Drugi segment to alternatywny system obrotu (ASO) prowadzony przez GPW oraz BondSpot (dawniej MTS CeTO) — z nieco łagodniejszymi wymogami, przeznaczony dla mniejszych emisji. W praktyce inwestor indywidualny najczęściej handluje na rynku regulowanym GPW, korzystając ze standardowego konta maklerskiego. Obrót na Catalyst odbywa się w systemie transakcyjnym UTP — tym samym, który obsługuje rynek akcji — co zapewnia szybkość realizacji zleceń i dostęp przez wszystkie domy maklerskie działające na GPW."
+    },
+    {
+      "type": "paragraph",
+      "text": "Od momentu uruchomienia Catalyst stale się rozwijał. W pierwszych latach na rynku notowano kilkadziesiąt serii obligacji, głównie emitowanych przez największe polskie spółki i jednostki samorządu terytorialnego. Z biegiem lat liczba emitentów i serii rosła — na Catalyst zaczęły pojawiać się obligacje deweloperów, firm windykacyjnych, spółek technologicznych, banków spółdzielczych i wielu innych branż. Catalyst przyczynił się do demokratyzacji rynku długu — przed jego powstaniem obligacje korporacyjne były praktycznie niedostępne dla drobnych inwestorów, zarezerwowane dla banków i funduszy. Dziś każdy posiadacz konta maklerskiego może kupić obligacje na Catalyst, zaczynając od jednej sztuki o nominale najczęściej 100 lub 1000 zł."
+    },
+    {
+      "type": "info",
+      "text": "Catalyst to nie jedna platforma, lecz system czterech rynków obrotu obligacjami — dwóch regulowanych i dwóch ASO (alternatywnych systemów obrotu). Inwestor indywidualny najczęściej handluje na rynku regulowanym GPW, korzystając ze zwykłego konta maklerskiego."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rodzaje obligacji notowanych na Catalyst"
+    },
+    {
+      "type": "paragraph",
+      "text": "Na rynku Catalyst notowane są trzy główne kategorie obligacji, różniące się profilem ryzyka, oprocentowaniem i emitentem. Zrozumienie różnic między nimi jest fundamentalne dla świadomego inwestowania na tym rynku."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Obligacje korporacyjne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Obligacje korporacyjne to instrumenty dłużne emitowane przez przedsiębiorstwa w celu pozyskania finansowania. Kupując obligację korporacyjną, pożyczasz pieniądze firmie — emitentowi — który zobowiązuje się do wypłacania regularnych odsetek (kuponów) i zwrotu wartości nominalnej w dniu wykupu. Na Catalyst notowane są obligacje emitowane przez spółki z różnych branż: deweloperów (Echo Investment, Ghelamco, Victoria Dom), firmy finansowe (Kruk, Best, PragmaGO), spółki energetyczne (PKN Orlen, PGE, Tauron), banki (mBank, Alior Bank, Bank Pekao) oraz wiele mniejszych podmiotów. Oprocentowanie obligacji korporacyjnych jest zazwyczaj wyższe niż obligacji skarbowych — to premia za wyższe ryzyko kredytowe emitenta. Typowe oprocentowanie to WIBOR 6M plus marża w przedziale 2,5-6,0 punktów procentowych, w zależności od wiarygodności emitenta i zabezpieczeń. Obligacje korporacyjne mogą być zabezpieczone (np. hipoteką na nieruchomości, zastawem na aktywach) lub niezabezpieczone — te drugie są bardziej ryzykowne, ale oferują wyższy kupon."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Obligacje komunalne (municypalne)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Obligacje komunalne to instrumenty dłużne emitowane przez jednostki samorządu terytorialnego — miasta, gminy, powiaty i województwa. Samorządy emitują obligacje, aby sfinansować inwestycje infrastrukturalne: budowę dróg, szkół, szpitali, obiektów sportowych, sieci wodno-kanalizacyjnych czy rewitalizację przestrzeni miejskiej. Na Catalyst notowane były obligacje Warszawy, Wrocławia, Poznania, Łodzi, Krakowa i wielu mniejszych gmin. Obligacje komunalne są uważane za bezpieczniejsze niż korporacyjne — samorządy mają stałe źródła dochodów (podatki, subwencje, dotacje z UE) i podlegają nadzorowi Regionalnych Izb Obrachunkowych. Historycznie przypadki niewykupienia obligacji komunalnych w Polsce są niezwykle rzadkie. Z drugiej strony, oprocentowanie obligacji komunalnych jest niższe niż korporacyjnych — typowo WIBOR plus marża 1,0-3,0 punktów procentowych."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Obligacje skarbowe notowane na giełdzie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Na Catalyst notowane są również obligacje skarbowe — zarówno hurtowe (benchmark'owe serie o nominale 1000 zł), jak i detaliczne. Obligacje skarbowe hurtowe to głównie serie o stałym oprocentowaniu z terminami zapadalności od 2 do 30 lat, emitowane na przetargach Ministerstwa Finansów i kupowane głównie przez banki, fundusze emerytalne i zagranicznych inwestorów instytucjonalnych. Ich cena na rynku wtórnym zmienia się w zależności od oczekiwań co do stóp procentowych — gdy rynek oczekuje podwyżek stóp, ceny obligacji spadają, a gdy obniżek — rosną. Inwestor indywidualny może kupić obligacje skarbowe hurtowe na Catalyst, jednak ich płynność i spread mogą się różnić w zależności od serii. Warto odróżnić obligacje skarbowe notowane na Catalyst od obligacji detalicznych kupowanych przez platformę obligacjeskarbowe.pl — te drugie nie podlegają wycenie rynkowej i nie można nimi handlować na giełdzie."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kluczowe wskaźniki obligacji — co musisz znać"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inwestowanie w obligacje wymaga znajomości kilku kluczowych wskaźników, które pozwalają ocenić atrakcyjność i ryzyko danego instrumentu. Poniżej omawiamy najważniejsze z nich — bez ich zrozumienia nie powinieneś kupować obligacji na Catalyst."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Kupon (oprocentowanie nominalne)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kupon to roczna stopa procentowa, którą emitent zobowiązuje się płacić posiadaczowi obligacji. Kupon może być stały (np. 6,5% rocznie przez cały okres) lub zmienny (np. WIBOR 6M + 3,5 pp., aktualizowany co pół roku). Na Catalyst zdecydowana większość obligacji korporacyjnych ma kupon zmienny, powiązany z WIBOR-em — co oznacza, że odsetki automatycznie dostosowują się do poziomu stóp procentowych. Kupon jest wypłacany okresowo — najczęściej co kwartał lub co pół roku — na rachunek maklerski inwestora. Wysokość kuponu odzwierciedla ryzyko emitenta: im wyższe ryzyko, tym wyższy kupon, aby przyciągnąć inwestorów."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "YTM — rentowność do wykupu"
+    },
+    {
+      "type": "paragraph",
+      "text": "YTM (Yield to Maturity, rentowność do wykupu) to najważniejszy wskaźnik dla inwestora obligacyjnego — mierzy całkowitą roczną stopę zwrotu, jaką uzyskasz, kupując obligację po aktualnej cenie rynkowej i trzymając ją do dnia wykupu. YTM uwzględnia nie tylko kupony odsetkowe, ale również różnicę między ceną zakupu a wartością nominalną (100%), po jakiej obligacja zostanie wykupiona. Jeśli kupujesz obligację poniżej nominału (np. za 97%), to oprócz kuponów zarobisz też na wzroście ceny do 100% w dniu wykupu — co podnosi YTM powyżej nominalnego kuponu. I odwrotnie — kupno powyżej nominału (np. za 103%) obniża efektywną rentowność. YTM dla obligacji zmiennokuponowych jest szacunkowy, bo przyszłe wartości WIBOR-u nie są znane. Mimo to YTM jest najlepszym narzędziem do porównywania różnych obligacji między sobą."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Duration — wrażliwość na stopy procentowe"
+    },
+    {
+      "type": "paragraph",
+      "text": "Duration (czas trwania) to miara wrażliwości ceny obligacji na zmiany stóp procentowych. Im wyższe duration, tym bardziej cena obligacji zareaguje na zmianę stóp. Dla obligacji o stałym kuponie duration rośnie wraz z wydłużeniem okresu do wykupu — obligacja 10-letnia o stałym kuponie ma znacznie wyższe duration (i większą zmienność ceny) niż obligacja 2-letnia. Obligacje zmiennokuponowe (dominujące na Catalyst) mają niskie duration, bo ich kupon automatycznie dostosowuje się do zmian stóp — w efekcie cena rynkowa takich obligacji jest mniej wrażliwa na decyzje RPP. Duration jest wyrażone w latach — np. duration 3,5 oznacza, że wzrost stóp procentowych o 1 punkt procentowy spowoduje spadek ceny obligacji o ok. 3,5%. Dla początkujących inwestorów obligacje z niskim duration (zmiennokuponowe, krótkoterminowe) są bezpieczniejszym wyborem."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Cena czysta i cena brudna"
+    },
+    {
+      "type": "paragraph",
+      "text": "Na Catalyst obligacje są kwotowane jako procent wartości nominalnej — cena 98,50 oznacza 98,50% nominału, czyli przy nominale 1000 zł płacisz 985 zł za jedną obligację. Jest to tzw. cena czysta (clean price), która nie uwzględnia narosłych odsetek. Faktycznie przy zakupie płacisz cenę brudną (dirty price), czyli cenę czystą powiększoną o odsetki naliczone od ostatniej daty płatności kuponu do dnia rozliczenia transakcji. Odsetki narosłe to część kuponu, która „należy się” sprzedającemu za okres, w którym trzymał obligację. Przykład: jeśli kupon roczny wynosi 7%, a od ostatniej płatności minęło pół roku, to odsetki narosłe wynoszą ok. 3,5% nominału — tyle dopłacisz do ceny czystej. Przy następnej płatności kuponu otrzymasz pełny kupon (7%), więc efekt się bilansuje."
+    },
+    {
+      "type": "tip",
+      "text": "Przy zakupie obligacji na Catalyst zwracaj uwagę na cenę brudną (z narosłymi odsetkami), nie tylko na cenę czystą widoczną w notowaniach. Rzeczywisty koszt zakupu jest wyższy o naliczone odsetki — arkusze zleceń domów maklerskich zazwyczaj pokazują obie wartości."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jak inwestować w obligacje na Catalyst — krok po kroku"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Załóż konto maklerskie — obligacje na Catalyst kupujesz przez zwykłe konto maklerskie w dowolnym domu maklerskim (np. mBank (eMakler), Bossa, XTB, DM PKO BP). Upewnij się, że Twój broker umożliwia handel na rynku Catalyst — większość dużych domów maklerskich to oferuje.",
+        "Przelej środki na rachunek maklerski — minimalna kwota zależy od nominału obligacji (najczęściej 100 zł lub 1000 zł za sztukę). Zarezerwuj też środki na prowizję maklerską (zazwyczaj 0,15-0,39% wartości transakcji).",
+        "Wyszukaj obligacje — w systemie transakcyjnym wyszukaj obligacje po nazwie emitenta lub oznaczeniu serii (np. KRU1227 to obligacje Kruka z wykupem w grudniu 2027). Sprawdź kartę obligacji — termin wykupu, oprocentowanie, częstotliwość kuponów, wartość nominalną i zabezpieczenia.",
+        "Przeanalizuj emitenta — przed zakupem obligacji korporacyjnych sprawdź sprawozdania finansowe emitenta, wskaźnik zadłużenia (dług netto/EBITDA), historię obsługi długu, rating (jeśli istnieje) oraz warunki emisji (prospekt lub nota informacyjna). Szczególną uwagę zwróć na zabezpieczenia obligacji.",
+        "Złóż zlecenie kupna — złóż zlecenie z limitem ceny (nigdy nie kupuj obligacji zleceniem PKC, bo przy niskiej płynności możesz przepłacić). Zlecenie realizowane jest tak samo jak na rynku akcji — T+2.",
+        "Monitoruj i inkasuj kupony — po zakupie obligacji regularnie sprawdzaj sytuację finansową emitenta. Kupony odsetkowe są automatycznie wypłacane na Twój rachunek maklerski w terminach określonych w warunkach emisji."
+      ]
+    },
+    {
+      "type": "warning",
+      "text": "Płynność na Catalyst jest znacznie niższa niż na rynku akcji. Wiele serii obligacji ma obroty rzędu kilku-kilkunastu tysięcy złotych dziennie lub nie ma obrotu wcale. Zanim kupisz obligację, sprawdź arkusz zleceń — jeśli spread (różnica bid/ask) przekracza 2-3%, sprzedaż przed terminem wykupu może być trudna i kosztowna."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ryzyka inwestowania na Catalyst"
+    },
+    {
+      "type": "paragraph",
+      "text": "Obligacje bywają postrzegane jako „bezpieczna” klasa aktywów, ale ta opinia jest uproszczeniem — szczególnie w kontekście obligacji korporacyjnych na Catalyst. Poniżej omawiamy główne ryzyka, których każdy inwestor powinien być świadomy."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ryzyko kredytowe (niewypłacalności emitenta)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ryzyko kredytowe to najpoważniejsze zagrożenie na rynku obligacji korporacyjnych. Oznacza ono, że emitent nie będzie w stanie wypłacić odsetek lub zwrócić wartości nominalnej w dniu wykupu. Na Catalyst dochodziło do licznych przypadków niewykupienia obligacji — najbardziej spektakularnym był upadek GetBack w 2018 roku, który nie wykupił obligacji o łącznej wartości przekraczającej 2,5 miliarda złotych. Straty poniosły tysiące inwestorów indywidualnych, z których wielu zainwestowało oszczędności życia. Inne głośne przypadki to obligacje PCZ (grupa szpitalna), Gant Development (deweloper) czy liczne małe spółki z NewConnect. Aby ograniczyć ryzyko kredytowe, analizuj sprawozdania finansowe emitenta, sprawdzaj wskaźnik dług netto/EBITDA (powyżej 4x to sygnał ostrzegawczy), preferuj obligacje zabezpieczone i dywersyfikuj portfel obligacji — nie lokuj więcej niż 10-15% portfela w obligacjach jednego emitenta."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ryzyko płynności"
+    },
+    {
+      "type": "paragraph",
+      "text": "Niska płynność to chroniczna bolączka rynku Catalyst. Wiele serii obligacji ma dzienne obroty na poziomie kilku tysięcy złotych lub zerowe — co oznacza, że chcąc sprzedać obligacje przed terminem wykupu, możesz nie znaleźć kupca lub będziesz zmuszony zaakceptować cenę znacznie poniżej wartości godziwej. Spread bid/ask na mniej płynnych seriach może sięgać 5-10%, co de facto pochłania roczny zysk z kuponu. Ryzyko płynności jest szczególnie dotkliwe w momentach kryzysów rynkowych, gdy inwestorzy masowo chcą sprzedawać — jak to miało miejsce podczas pandemii COVID-19 w marcu 2020 roku, kiedy na Catalyst praktycznie zamarł obrót. Rada: kupuj obligacje na Catalyst z intencją trzymania do wykupu, a jeśli potrzebujesz płynności — wybieraj serie dużych, znanych emitentów (PKN Orlen, Kruk, PGE) z najwyższymi obrotami."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ryzyko stopy procentowej"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ryzyko stopy procentowej dotyczy głównie obligacji o stałym kuponie. Gdy Rada Polityki Pieniężnej podnosi stopy procentowe, ceny istniejących obligacji stałokuponowych spadają — bo nowe emisje oferują wyższy kupon, a „stare” obligacje stają się mniej atrakcyjne. Na Catalyst dominują obligacje zmiennokuponowe (WIBOR + marża), co naturalnie ogranicza to ryzyko — ich kupon automatycznie dostosowuje się do poziomu stóp. Mimo to warto zwrócić uwagę na opóźnienie aktualizacji kuponu (najczęściej co pół roku) — w okresie szybkich podwyżek stóp możesz przez kilka miesięcy otrzymywać kupon oparty na „starym”, niższym WIBOR-ze."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Catalyst a obligacje skarbowe detaliczne — porównanie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inwestorzy zainteresowani obligacjami często stają przed dylematem: kupić obligacje korporacyjne na Catalyst czy obligacje skarbowe detaliczne przez platformę obligacjeskarbowe.pl? To dwa fundamentalnie różne instrumenty i porównanie ich wymaga uwzględnienia kilku kluczowych kryteriów."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bezpieczeństwo: Obligacje skarbowe są gwarantowane przez Skarb Państwa — ryzyko utraty kapitału jest praktycznie zerowe. Obligacje korporacyjne na Catalyst nie mają takiej gwarancji — ryzyko niewypłacalności emitenta jest realne, o czym boleśnie przekonali się posiadacze obligacji GetBack.",
+        "Oprocentowanie: Obligacje korporacyjne oferują wyższe oprocentowanie (WIBOR + 2,5-6,0 pp.) niż obligacje skarbowe (COI: inflacja + 1,5 pp., EDO: inflacja + 2,0 pp.). Różnica to premia za wyższe ryzyko.",
+        "Płynność: Obligacje skarbowe detaliczne można wykupić przedterminowo w dowolnym momencie (za opłatą 0,50-2,00 zł/szt.), ale nie można ich odsprzedać na rynku wtórnym. Obligacje na Catalyst można sprzedać na giełdzie, ale płynność wielu serii jest bardzo niska.",
+        "Minimalna inwestycja: Obligacje skarbowe detaliczne — od 100 zł (1 szt.). Obligacje na Catalyst — od nominału jednej obligacji, najczęściej 100 zł lub 1000 zł, plus prowizja maklerska.",
+        "Podatek: Obie formy podlegają 19% podatkowi od zysków kapitałowych (podatek Belki). Obligacje skarbowe na IKE są zwolnione z tego podatku. Obligacje korporacyjne na IKE — tylko jeśli dom maklerski oferuje taką możliwość (nie wszyscy).",
+        "Dostęp: Obligacje skarbowe — przez obligacjeskarbowe.pl lub PKO BP, bez konta maklerskiego. Obligacje na Catalyst — wymagane konto maklerskie."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Dla początkujących inwestorów obligacje skarbowe detaliczne (szczególnie COI i EDO indeksowane inflacją) są zdecydowanie bezpieczniejszym i prostszym wyborem. Catalyst warto rozważyć dopiero po zdobyciu doświadczenia i umiejętności analizy sprawozdań finansowych — wyższe oprocentowanie obligacji korporacyjnych jest uzasadnione wyłącznie wtedy, gdy potrafisz samodzielnie ocenić ryzyko kredytowe emitenta."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Praktyczne porady dla początkujących na Catalyst"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Zacznij od dużych, znanych emitentów — obligacje PKN Orlen, Kruk, PGE, mBank czy Banku Pekao mają najwyższą płynność i najniższe ryzyko kredytowe na Catalyst. Unikaj obligacji nieznanych małych spółek bez historii.",
+        "Dywersyfikuj portfel obligacji — nie lokuj więcej niż 10-15% portfela obligacyjnego w papiery jednego emitenta. Rozłóż inwestycje na kilku-kilkunastu emitentów z różnych branż.",
+        "Preferuj obligacje zabezpieczone — obligacje z zabezpieczeniem (hipoteka, zastaw, poręczenie) dają wyższe szanse odzyskania kapitału w przypadku problemów emitenta.",
+        "Sprawdzaj warunki emisji — przed zakupem przeczytaj notę informacyjną lub prospekt emisyjny. Zwróć uwagę na covenants (kowenaty) — warunki, które emitent musi spełniać (np. maksymalny wskaźnik zadłużenia), a których naruszenie daje posiadaczom obligacji prawo żądania wcześniejszego wykupu.",
+        "Kupuj z limitem ceny — na Catalyst nigdy nie składaj zleceń PKC (po każdej cenie). Niska płynność oznacza, że zlecenie PKC może zostać zrealizowane po cenie znacznie odbiegającej od ostatniej transakcji.",
+        "Trzymaj do wykupu, jeśli to możliwe — niska płynność Catalyst sprawia, że sprzedaż przed terminem może być niekorzystna. Planuj inwestycje tak, aby móc trzymać obligacje do dnia wykupu.",
+        "Monitoruj emitenta przez cały okres inwestycji — sytuacja finansowa spółki może się zmienić. Śledź raporty kwartalne, komunikaty bieżące ESPI i rating emitenta (jeśli istnieje). Pierwsze sygnały problemów to opóźnienia w publikacji raportów, pogorszenie wskaźników zadłużenia i spadek ceny obligacji na rynku."
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Na stronie gpwcatalyst.pl znajdziesz pełną listę notowanych obligacji, karty emitentów, kalendarze kuponów i statystyki obrotu. To podstawowe narzędzie każdego inwestora na Catalyst. Dodatkowo serwis obligacje.pl oferuje rankingi i analizy obligacji korporacyjnych."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Afera GetBack — lekcja z historii Catalyst"
+    },
+    {
+      "type": "paragraph",
+      "text": "Żaden artykuł o rynku Catalyst nie byłby kompletny bez omówienia afery GetBack — największego skandalu na polskim rynku obligacji korporacyjnych. GetBack S.A. to firma windykacyjna, która w latach 2016-2018 agresywnie emitowała obligacje, oferując atrakcyjne oprocentowanie (6-8% rocznie). Obligacje GetBack były aktywnie sprzedawane inwestorom indywidualnym przez banki i domy maklerskie, często jako „bezpieczna alternatywa dla lokaty”. W kwietniu 2018 roku okazało się, że GetBack nie jest w stanie obsłużyć swojego zadłużenia — firma zawiesiła wykupy obligacji o łącznej wartości ponad 2,5 miliarda złotych. Tysiące inwestorów indywidualnych straciło oszczędności, wielu z nich zainwestowało znaczną część swoich oszczędności życia, nie zdając sobie sprawy z ryzyka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Afera GetBack ujawniła systemowe problemy rynku Catalyst: niewystarczający nadzór nad sprzedażą obligacji korporacyjnych inwestorom detalicznym (misselling), zbyt optymistyczne ratingi, brak transparentności w sprawozdawczości emitenta oraz agresywną politykę sprzedażową banków. W efekcie KNF i ustawodawca wprowadzili szereg reform: zaostrzono wymogi informacyjne dla emitentów, ograniczono możliwość oferowania obligacji nienotowanych na rynku regulowanym inwestorom detalicznym, a UKNF nałożył kary na osoby odpowiedzialne za misselling. Dla inwestorów afera GetBack jest przestrogą: wysoki kupon zawsze oznacza wysokie ryzyko, nigdy nie należy inwestować w instrumenty, których się nie rozumie, i zawsze trzeba samodzielnie analizować emitenta, zamiast ufać rekomendacjom sprzedawców."
+    },
+    {
+      "type": "warning",
+      "text": "Obligacje korporacyjne nie są gwarantowane przez Skarb Państwa ani Bankowy Fundusz Gwarancyjny. W przypadku upadłości emitenta możesz stracić całość zainwestowanego kapitału. Afera GetBack (2018) pokazała, że nawet duże, pozornie stabilne firmy mogą okazać się niewypłacalne. Zawsze analizuj emitenta samodzielnie."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Catalyst w 2026 roku — aktualna sytuacja"
+    },
+    {
+      "type": "paragraph",
+      "text": "W 2026 roku rynek Catalyst przeszedł istotną ewolucję w porównaniu z okresem sprzed afery GetBack. Zaostrzone regulacje poprawiły transparentność — emitenci muszą spełniać wyższe standardy informacyjne, a dystrybutorzy obligacji podlegają ściślejszemu nadzorowi KNF. Rośnie liczba emitentów z ratingami kredytowymi od polskich agencji (np. EuroRating), co ułatwia inwestorom ocenę ryzyka. Jednocześnie w środowisku stabilizujących się stóp procentowych (stopa referencyjna NBP na poziomie 5,25-5,75% w lutym 2026) obligacje zmiennokuponowe na Catalyst oferują atrakcyjne oprocentowanie — typowo WIBOR 6M (ok. 5,5-6,0%) plus marża 2,5-5,0 pp., co daje łączny kupon rzędu 8-11% rocznie brutto. Po uwzględnieniu 19% podatku Belki efektywna stopa zwrotu to ok. 6,5-9,0% netto — znacząco więcej niż na lokatach czy obligacjach skarbowych detalicznych. Jednak ten wyższy zwrot zawsze idzie w parze z wyższym ryzykiem, co wymaga od inwestora umiejętności analizy i dywersyfikacji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Wartym uwagi trendem jest rosnąca popularność obligacji „zielonych” (green bonds) na Catalyst — instrumentów dłużnych, z których wpływy są przeznaczane na projekty ekologiczne i zrównoważony rozwój. PKN Orlen, PGE i kilka banków wyemitowały już zielone obligacje na Catalyst, odpowiadając na rosnące zainteresowanie inwestowaniem ESG. To segment, który prawdopodobnie będzie dynamicznie rósł w najbliższych latach, wspierany przez regulacje unijne i preferencje młodszych inwestorów."
+    },
+    {
+      "type": "info",
+      "text": "Inwestowanie na rynku Catalyst, podobnie jak każda forma inwestowania na rynku kapitałowym, wiąże się z ryzykiem utraty części lub całości zainwestowanego kapitału. Niniejszy artykuł ma charakter edukacyjny i nie stanowi rekomendacji inwestycyjnej w rozumieniu przepisów prawa."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czym różni się Catalyst od rynku akcji na GPW?",
+      "answer": "Catalyst to rynek obligacji (instrumentów dłużnych), podczas gdy główny parkiet GPW to rynek akcji (instrumentów udziałowych). Kupując akcje, stajesz się współwłaścicielem spółki i uczestniczysz w jej zyskach (dywidendy) i stratach (spadki kursu). Kupując obligacje na Catalyst, pożyczasz pieniądze emitentowi i otrzymujesz z góry określone odsetki (kupony) oraz zwrot nominału w dniu wykupu — niezależnie od wyników finansowych emitenta (o ile jest wypłacalny). Kluczowa różnica dotyczy też płynności — obroty na Catalyst są wielokrotnie niższe niż na rynku akcji, co utrudnia szybką sprzedaż obligacji przed terminem wykupu."
+    },
+    {
+      "question": "Jaka jest minimalna kwota, aby zacząć inwestować na Catalyst?",
+      "answer": "Minimalna inwestycja to cena jednej obligacji, która zależy od jej wartości nominalnej i aktualnego kursu rynkowego. Większość obligacji korporacyjnych na Catalyst ma nominał 1000 zł, choć zdarzają się serie z nominałem 100 zł. Do tego dochodzi prowizja maklerska (zazwyczaj 0,15-0,39% wartości transakcji, z minimum rzędu 3-5 zł) oraz narosłe odsetki. W praktyce można zacząć od ok. 1000-2000 zł, choć dla sensownej dywersyfikacji (kilku emitentów) zalecamy portfel o wartości co najmniej 10 000-20 000 zł."
+    },
+    {
+      "question": "Czy obligacje na Catalyst są bezpieczne?",
+      "answer": "To zależy od rodzaju obligacji. Obligacje skarbowe notowane na Catalyst są gwarantowane przez Skarb Państwa i uznawane za bardzo bezpieczne. Obligacje komunalne (samorządowe) mają niskie ryzyko kredytowe, choć nie są formalnie gwarantowane przez Skarb Państwa. Obligacje korporacyjne niosą realne ryzyko niewypłacalności emitenta — historia Catalyst zna wiele przypadków niewykupionych obligacji, z aferą GetBack (2,5 mld zł strat) na czele. Bezpieczeństwo obligacji korporacyjnych zależy od kondycji finansowej emitenta, zabezpieczeń i warunków emisji. Nigdy nie traktuj obligacji korporacyjnych jako „bezpiecznej” alternatywy dla lokat."
+    },
+    {
+      "question": "Jak sprawdzić wiarygodność emitenta obligacji na Catalyst?",
+      "answer": "Przed zakupem obligacji korporacyjnych sprawdź: (1) sprawozdania finansowe emitenta — dostępne na stronie gpwcatalyst.pl i w systemie ESPI, zwróć uwagę na przychody, zysk netto, przepływy pieniężne i wskaźnik dług netto/EBITDA; (2) rating kredytowy — jeśli emitent posiada rating od agencji EuroRating lub międzynarodowej (S&P, Moody's, Fitch); (3) historię obsługi długu — czy emitent terminowo wykupywał wcześniejsze serie obligacji; (4) warunki emisji (notę informacyjną lub prospekt) — jakie są zabezpieczenia, kowenaty i klauzule ochronne; (5) opinię rynku — cenę obligacji na Catalyst (spadek poniżej 90% nominału to sygnał ostrzegawczy) i komentarze analityków."
+    },
+    {
+      "question": "Czy kupony z obligacji na Catalyst podlegają opodatkowaniu?",
+      "answer": "Tak, dochody z obligacji na Catalyst podlegają 19% zryczałtowanemu podatkowi od zysków kapitałowych (tzw. podatek Belki). Podatek jest naliczany zarówno od kuponów odsetkowych, jak i od zysku ze sprzedaży obligacji na rynku wtórnym (różnica między ceną sprzedaży a ceną zakupu). Podatek od kuponów jest pobierany automatycznie przez dom maklerski (jako płatnika) w momencie wypłaty odsetek. Zyski i straty ze sprzedaży obligacji rozliczasz samodzielnie w rocznym zeznaniu PIT-38. Straty z obligacji można kompensować z zyskami z innych instrumentów kapitałowych (akcje, ETF-y) w ramach tego samego roku podatkowego."
+    }
+  ]
+}
