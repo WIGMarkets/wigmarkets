@@ -1,58 +1,23 @@
-import { useState, useEffect } from "react";
-import { fetchAnalysis, fetchAnalysesList } from "../lib/api.js";
+import { useMemo } from "react";
+import { getAnalysisByTicker, getAnalysesList } from "../data/analyses.js";
 
 /**
- * Hook to load a single analysis by ticker.
- * Returns { analysis, loading, error }.
+ * Hook to get a single analysis by ticker.
+ * Data is static (bundled), so no loading state needed.
  */
 export function useAnalysis(ticker) {
-  const [analysis, setAnalysis] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    if (!ticker) {
-      setLoading(false);
-      return;
-    }
-    let cancelled = false;
-    setLoading(true);
-    setError(null);
-
-    fetchAnalysis(ticker).then(data => {
-      if (cancelled) return;
-      if (data?.error || !data?.ticker) {
-        setError("Analiza nie znaleziona");
-        setAnalysis(null);
-      } else {
-        setAnalysis(data);
-      }
-      setLoading(false);
-    });
-
-    return () => { cancelled = true; };
-  }, [ticker]);
-
-  return { analysis, loading, error };
+  const analysis = useMemo(() => getAnalysisByTicker(ticker), [ticker]);
+  return {
+    analysis,
+    loading: false,
+    error: analysis ? null : "Analiza nie znaleziona",
+  };
 }
 
 /**
- * Hook to load all analyses (summaries).
- * Returns { analyses, loading }.
+ * Hook to get all analyses (summaries).
  */
 export function useAnalysesList() {
-  const [analyses, setAnalyses] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    let cancelled = false;
-    fetchAnalysesList().then(data => {
-      if (cancelled) return;
-      setAnalyses(data?.analyses || []);
-      setLoading(false);
-    });
-    return () => { cancelled = true; };
-  }, []);
-
-  return { analyses, loading };
+  const analyses = useMemo(() => getAnalysesList(), []);
+  return { analyses, loading: false };
 }
