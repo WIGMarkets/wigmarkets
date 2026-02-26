@@ -12,6 +12,7 @@
     "@vercel/og": "^0.8.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.5",
     "react-router-dom": "^7.13.0",
     "xml2js": "^0.6.2"
   },

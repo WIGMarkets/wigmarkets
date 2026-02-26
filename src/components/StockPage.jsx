@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { fetchHistory, fetchHourly, fetchFundamentals, fetchIntraday } from "../lib/api.js";
+import { ANALYSES } from "../data/analyses.js";
 import { useIsMobile } from "../hooks/useIsMobile.js";
 import { fmt, changeFmt, changeColor, calculateRSI, calculateSMA, calculateMACD, isForex, isCommodity } from "../lib/formatters.js";
 import { SECTOR_AVERAGES } from "../data/constants.js";
@@ -884,6 +885,36 @@ export default function StockPage({ stock, prices, changes, theme, watchlist, to
             </div>
           </>,
           { marginBottom: isMobile ? 20 : 28 }
+        )}
+
+        {/* ═══ Analysis CTA ═══ */}
+        {isStock && ANALYSES.some(a => a.ticker === stock.ticker) && (
+          <Link
+            to={`/spolka/${stock.ticker}/analiza`}
+            style={{ textDecoration: "none", display: "block", marginBottom: isMobile ? 20 : 28 }}
+          >
+            <div style={{
+              background: `linear-gradient(135deg, ${theme.bgCard} 0%, ${theme.bgCardAlt || theme.bgElevated} 100%)`,
+              border: `1px solid rgba(59,130,246,0.2)`,
+              borderRadius: 14,
+              padding: isMobile ? 18 : 24,
+              display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16,
+              transition: "all 0.2s ease", cursor: "pointer",
+            }}
+              onMouseEnter={e => { e.currentTarget.style.borderColor = "rgba(59,130,246,0.4)"; e.currentTarget.style.transform = "translateY(-1px)"; }}
+              onMouseLeave={e => { e.currentTarget.style.borderColor = "rgba(59,130,246,0.2)"; e.currentTarget.style.transform = "translateY(0)"; }}
+            >
+              <div>
+                <div style={{ fontSize: 11, color: "#3b82f6", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.08em", fontFamily: "var(--font-ui)", marginBottom: 4 }}>Analiza fundamentalna</div>
+                <div style={{ fontSize: 14, color: theme.textBright, fontFamily: "var(--font-ui)", fontWeight: 500 }}>
+                  Przeczytaj pełną analizę {stock.ticker} — wycena, dywidenda, ryzyka
+                </div>
+              </div>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
+                <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+              </svg>
+            </div>
+          </Link>
         )}
 
         {/* ═══ SECTION 10: Similar Stocks ═══ */}

@@ -30,6 +30,8 @@ const LazyRankingDetailPage = lazy(() => import("./pages/RankingDetailPage.jsx")
 const LazyHeatmapPage = lazy(() => import("./pages/HeatmapPage.jsx"));
 const LazyIndeksyPage = lazy(() => import("./pages/IndeksyPage.jsx"));
 const LazyIndexDetailPage = lazy(() => import("./pages/IndexDetailPage.jsx"));
+const LazyStockAnalysisPage = lazy(() => import("./pages/StockAnalysisPage.jsx"));
+const LazyAnalysesListPage = lazy(() => import("./pages/AnalysesListPage.jsx"));
 
 function PageFallback() {
   return (
@@ -266,6 +268,8 @@ export default function App() {
       <div style={{ flex: 1 }}>
         <Suspense fallback={<PageFallback />}>
           <Routes>
+            <Route path="/spolka/:ticker/analiza" element={<LazyStockAnalysisPage theme={theme} />} />
+            <Route path="/analizy" element={<LazyAnalysesListPage theme={theme} />} />
             <Route path="/spolka/:ticker" element={
               <LazyStockPageRoute prices={prices} changes={changes} theme={theme}
                 watchlist={watchlist} toggleWatch={toggleWatch}
