@@ -1,9 +1,21 @@
 {
   "articles": [
     {
+      "title": "Bitcoin odzyskuje poziom 67 000 $ po śmierci Chameneiego",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-odzyskuje-poziom-67-000--po-smierci-chameneiego-1303278",
+      "description": "",
+      "pubDate": "2026-03-01 03:31:42",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-03-01T03:31:42.000Z",
+      "dateFormatted": "1 marca 2026"
+    },
+    {
       "title": "Donald Trump: ajatollah Ali Chamenei nie żyje",
       "link": "https://businessinsider.com.pl/wiadomosci/przywodca-iranu-ajatollah-ali-chamenei-nie-zyje-trump-jeden-z-najgorszych-ludzi-w/bg2xflk",
-      "description": "Przywódca Iranu ajatollah Ali Chamenei nie żyje — poinformował w sobotę Donald Trump. Irański polityk i duchowny, który przez prawie trzy dekady sprawował w kraju władzę niemal absolutną, zginął w ataku USA i Izraela.",
+      "description": "Przywódca Iranu ajatollah Ali Chamenei nie żyje — poinformował w sobotę Donald Trump. Irański polityk i duchowny, który przez prawie trzy dekady sprawował w kraju władzę niemal absolutną, zginął w ataku USA i Izraela. Śmierć ajatollaha \"de facto oznacza koniec Islamskiej Republiki\" — ocenił syn obal",
       "pubDate": "Sat, 28 Feb 2026 22:04:54 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -15,7 +27,7 @@
     {
       "title": "Dostawy ropy po ataku na Iran. Orlen zabrał głos",
       "link": "https://businessinsider.com.pl/gielda/wiadomosci/co-z-dostawami-ropy-z-bliskiego-wschodu-orlen-odpowiada/eghn04l",
-      "description": "Orlen przekazał, że obecnie nie identyfikuje zagrożeń dla ciągłości dostaw ropy naftowej z Bliskiego Wschodu do Grupy Orlen. Poza ropą naftową płocki koncern sprowadzał również LNG z Kataru, który w sobotę był jednym z celów ataku odwetowego Iranu.",
+      "description": "Orlen przekazał, że obecnie nie widzi zagrożeń dla ciągłości dostaw ropy naftowej z Bliskiego Wschodu do Grupy Orlen. Jednak poza ropą naftową płocki koncern sprowadza również LNG z Kataru, który jest transportowany przez cieśninę Ormuz. Katar w sobotę był jednym z celów ataku odwetowego Iranu.",
       "pubDate": "Sat, 28 Feb 2026 21:47:58 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -27,7 +39,7 @@
     {
       "title": "Bezprecedensowe wstrzymanie lotów na Bliskim Wschodzie. Chaos na lotniskach",
       "link": "https://businessinsider.com.pl/lifestyle/podroze/bliski-wschod-sparalizowany-przez-ataki-linie-emirates-i-qatar-airways-wstrzymaly/xc0q2wg",
-      "description": "Odwet Iranu w odpowiedzi na atak USA i Izraela sprawił, że loty cywilne na Bliskim Wschodzie zostały wstrzymane, a wiele krajów zamknęło swoje przestrzenie powietrzne. Spowodowało zakłócenie na skalę niespotykaną od dziesięcioleci na jednym z najbardziej ruchliwych szlaków lotniczych na świecie — po",
+      "description": "Odwet Iranu w odpowiedzi na atak USA i Izraela sprawił, że loty cywilne na Bliskim Wschodzie zostały wstrzymane, a wiele krajów zamknęło swoje przestrzenie powietrzne. Spowodowało to zakłócenia na niespotykaną od dziesięcioleci skalę na jednym z najbardziej ruchliwych szlaków lotniczych na świecie —",
       "pubDate": "Sat, 28 Feb 2026 20:52:01 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -135,7 +147,7 @@
     {
       "title": "Media: Iran zamyka cieśninę Ormuz",
       "link": "https://businessinsider.com.pl/gospodarka/cisnina-ormuz-zamknieta-przez-iran-zaden-statek-nie-przeplynie/y0rbqej",
-      "description": "Statki operujące w Zatoce Perskiej otrzymały w sobotę radiowe ostrzeżenia od irańskiego Korpusu Strażników Rewolucji Islamskiej. Z przekazywanych komunikatów wynikało, że żaden statek nie ma prawa przepływać przez Cieśninę Ormuz — poinformowała agencja Reutera. Cieśnina jest najważniejszym na świeci",
+      "description": "Statki operujące w Zatoce Perskiej otrzymały w sobotę radiowe ostrzeżenia od irańskiego Korpusu Strażników Rewolucji Islamskiej. Z przekazywanych komunikatów wynikało, że żaden statek nie ma prawa przepływać przez cieśninę Ormuz — poinformowała agencja Reutera. Cieśnina jest najważniejszym na świeci",
       "pubDate": "Sat, 28 Feb 2026 17:58:07 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -207,7 +219,7 @@
     {
       "title": "Donald Trump zdecydował. Zwrot w wyścigu o Pentagon",
       "link": "https://businessinsider.com.pl/technologie/armia-usa-udostepnia-tajna-siec-openai-potwierdza-wspolprace-z-pentagonem/3refzsd",
-      "description": "Zwrot w wyścigu o AI w amerykańskiej armii. Sam Altman, szef OpenAI, ogłosił podpisanie przełomowej umowy z Pentagonem kilka godzin po tym, jak największy rywal firmy trafił na czarną listę Donalda Trumpa. Gorącymi tematami podczas negocjacji z Pentagonem była kwestia budowy w pełni autonomicznej br",
+      "description": "Wyścig o dominację w obszarze AI nabiera tempa. Po tygodniach napięć OpenAI ogłosiło, że jego modele trafią do tajnej sieci wojskowej Pentagonu. Zwrot nastąpił kilka godzin po tym, jak największy rywal firmy trafił na czarną listę Donalda Trumpa. Gorącymi tematami podczas negocjacji z Pentagonem był",
       "pubDate": "Sat, 28 Feb 2026 15:02:44 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -418,18 +430,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/b/4/53a8bd048831c3-948-568-425-270-1139-683.jpg",
       "dateISO": "2026-02-28T11:09:00.000Z",
-      "dateFormatted": "28 lutego 2026"
-    },
-    {
-      "title": "Po pięciu latach mieszkania za granicą — w Kanadzie i Europie — zdjęłam różowe okulary i wróciłam do USA",
-      "link": "https://businessinsider.com.pl/lifestyle/moj-instagram-sprawial-mylne-wrazenie-zycie-w-europie-nie-bylo-uslane-rozami/1vssmf2",
-      "description": "Około pięciu lat temu wyjechałam z USA — najpierw do Kanady, potem do Luksemburga i Francji. Nauczyłam się bardzo wiele i przeżyłam doświadczenia, które zmieniły moje życie, ale nie wszystko było usłane różami. Okazało się, że pracodawcy nie czekali na Amerykankę z otwartymi rękami.",
-      "pubDate": "Sat, 28 Feb 2026 11:07:35 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Ug0k9kpTURBXy9kMDkyN2ZlM2U5MjYxOWNmMjFjMGUzNzRmODg1MGJiMC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-02-28T11:07:35.000Z",
       "dateFormatted": "28 lutego 2026"
     },
     {
@@ -697,18 +697,6 @@
       "dateFormatted": "28 lutego 2026"
     },
     {
-      "title": "Grupa Allegro sprzedała swoją działalność w Słowenii i Chorwacji",
-      "link": "https://www.bankier.pl/wiadomosc/Grupa-Allegro-sfinalizowala-sprzedaz-dzialalnosci-w-Slowenii-i-Chorwacji-9090589.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Grupa Allegro sfinalizowała sprzedaż działalności w Słowenii i Chorwacji - podała spółka w komunikacie.",
-      "pubDate": "Fri, 27 Feb 2026 22:08:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/2/d/2005e3f5389635-948-568-0-251-4031-2418.jpg",
-      "dateISO": "2026-02-27T21:08:00.000Z",
-      "dateFormatted": "27 lutego 2026"
-    },
-    {
       "title": "Potknięcie przy biurku w domu. Sąd: Wypadek podczas wideokonferencji jest wypadkiem przy pracy",
       "link": "https://www.bankier.pl/wiadomosc/Potkniecie-przy-biurku-w-domu-Sad-Wypadek-podczas-wideokonferencji-jest-wypadkiem-przy-pracy-9090588.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Po raz pierwszy we Włoszech przyznano odszkodowanie za wypadek, do którego doszło podczas pracy zdalnej. Otrzymała je kobieta, która pracując w domu w czasie wideokonferencji wstała sprzed biurka sięgając po teczkę z dokumentami, potknęła się i złamała kostkę. Musiała przejść operację.",
@@ -766,18 +754,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/5/160fac21cce392-948-568-622-209-1712-1027.jpg",
       "dateISO": "2026-02-27T19:29:00.000Z",
-      "dateFormatted": "27 lutego 2026"
-    },
-    {
-      "title": "Bloober Team w projekcie programu motywacyjnego zakłada 500 mln zł EBITDA w latach 26-29",
-      "link": "https://www.bankier.pl/wiadomosc/Bloober-Team-w-projekcie-programu-motywacyjnego-zaklada-500-mln-zl-EBITDA-w-latach-26-29-9090546.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Bloober Team w projekcie programu motywacyjnego na lata 2026-2029 zakłada dwa komponenty - pierwszy to osiągnięcie kapitalizacji na poziomie 1,2 mld zł w latach 2026-2028, drugi - skumulowany zysk EBITDA w wysokości 500 mln zł w latach 2026-2029 - wynika z projektu uchwały na walne zwołane na 26 mar",
-      "pubDate": "Fri, 27 Feb 2026 20:16:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/9/5/e81979b720e493-948-568-29-0-1217-730.jpg",
-      "dateISO": "2026-02-27T19:16:00.000Z",
       "dateFormatted": "27 lutego 2026"
     },
     {
@@ -925,6 +901,18 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
+      "title": "Nowe szczyt hossy WIG20. Sentyment idealny, aby go popsuć",
+      "link": "https://www.bankier.pl/wiadomosc/Nowe-szczyt-hossy-WIG20-Warszawa-i-Budapeszt-najmocniejszymi-gieldami-w-Europie-9089078.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Zdecydowana poprawa nastrojów na GPW zaprowadziła WIG20 na szczyt hossy. Patrząc przez pryzmat głównych indeksów europejskich giełd Warszawa, obok Budapesztu była najsilniejszym parkietem na Starym Kontynencie, choć w Paryżu czy Londynie, także obserwowano wzrosty i nowe historyczne maksima, do któr",
+      "pubDate": "Wed, 25 Feb 2026 17:23:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/2/e/58012228739901-948-568-0-158-3502-2101.jpg",
+      "dateISO": "2026-02-25T16:23:00.000Z",
+      "dateFormatted": "25 lutego 2026"
+    },
+    {
       "title": "Stablecoiny stają się częścią zarządzania pieniędzmi – współzałożyciel BVNK",
       "link": "https://pl.investing.com/news/cryptocurrency-news/stablecoiny-staja-sie-czescia-zarzadzania-pieniedzmi--wspolzalozyciel-bvnk-1299586",
       "description": "",
@@ -961,15 +949,15 @@
       "dateFormatted": "25 lutego 2026"
     },
     {
-      "title": "Litecoin 10% w górę, na rynku byka",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/litecoin-10-w-gore-na-rynku-byka-1296422",
-      "description": "",
-      "pubDate": "2026-02-25 14:33:05",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
+      "title": "Grupa JSW dokona odpisu w wysokości ponad 1,19 mld zł dot. segmentu koksowego",
+      "link": "https://www.bankier.pl/wiadomosc/Grupa-JSW-dokona-odpisu-w-wysokosci-ponad-1-19-mld-zl-dot-segmentu-koksowego-9088810.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Wyniki przeprowadzonych testów wskazały na utratę wartości aktywów trwałych w segmencie koksowym grupy JSW w łącznej wysokości 1.194,6 mln zł, a dokonanie odpisu pomniejszy wynik operacyjny JSW Koks, a także grupy JSW, ale nie wpłynie na sytuację płynnościową - podała JSW w komunikacie.",
+      "pubDate": "Wed, 25 Feb 2026 11:06:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://i-invdn-com.investing.com/news/LYNXMPEDAE0PJ-ORUBS_M.jpg",
-      "dateISO": "2026-02-25T14:33:05.000Z",
+      "image": "http://galeria.bankier.pl/p/7/0/a39406a4c4551d-948-568-0-53-1773-1063.jpg",
+      "dateISO": "2026-02-25T10:06:00.000Z",
       "dateFormatted": "25 lutego 2026"
     },
     {
@@ -985,5 +973,5 @@
       "dateFormatted": "19 lutego 2026"
     }
   ],
-  "updatedAt": "2026-02-28T22:49:23.989Z"
+  "updatedAt": "2026-03-01T05:11:34.455Z"
 }
