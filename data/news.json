@@ -1,14 +1,242 @@
 {
   "articles": [
     {
-      "title": "Widziałem pawilon Polski na MWC w Barcelonie. Polski rząd rozmawia z rywalem Muska",
+      "title": "Iran twierdzi, że cieśnina Ormuz jest zamknięta. Ostrzega statki przed atakami",
+      "link": "https://businessinsider.com.pl/gospodarka/iran-zamyka-ciesnine-ormuz-ostrzega-statki-przed-atakami/8s68fbb",
+      "description": "Iran twierdzi, że cieśnina Ormuz została zamknięta i ostrzega, że zaatakuje statki próbujące ją przepłynąć — poinformowała agencja Reuters, powołując się na irańskie media.",
+      "pubDate": "Mon, 02 Mar 2026 21:27:48 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/-v1k9kpTURBXy9jYzUwNGI1ZDYwMjUxYjk5ZTQzZjk1MWU5ZWU2ODYwNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-02T21:27:48.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Gwałtowny wzrost cen gazu. Polski gigant wstrzymuje zamówienia",
+      "link": "https://businessinsider.com.pl/gielda/ceny-gazu-wystrzelily-grupa-azoty-wstrzymuje-zamowienia/lzfkcg2",
+      "description": "Grupa Azoty wstrzymuje nowe zamówienia na swoje nawozy azotowe. Powodem jest gwałtowny wzrost cen gazu po ataku USA i Izraela na Iran.",
+      "pubDate": "Mon, 02 Mar 2026 21:01:25 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ojwk9kpTURBXy82ZDIxOTdlYjg2Y2NjMGVkZDBkMmRlYmY5ZjBiNjY0Ny5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-02T21:01:25.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Słynny bankier o skutkach ataku na Iran. \"Banki mogą być celem\"",
+      "link": "https://businessinsider.com.pl/finanse/konflikt-usa-i-izraela-z-iranem-jamie-dimon-o-skutkach-banki-moga-stac-sie-celem/epvf2dh",
+      "description": "Po ataku USA i Izraela na Iran Jamie Dimon — prezes jednego z największych amerykańskich banków JPMorgan — ocenił, że spodziewa się wzrostu liczby ataków terrorystycznych lub cyberataków na świecie. \"Banki mogą stać się celem\" — powiedział.",
+      "pubDate": "Mon, 02 Mar 2026 20:53:48 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Y9xk9kpTURBXy9mOTBhYmExOTIyMGFlMzZkYjlkMzZhMTc4N2NiNTkzMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-02T20:53:48.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Ceny paliw w USA rosną po ataku na Iran. To może poważnie zaszkodzić Donaldowi Trumpowi",
+      "link": "https://businessinsider.com.pl/gospodarka/ceny-paliw-w-usa-rosna-po-ataku-na-iran-donald-trump-moze-za-to-slono-zaplacic/wpgnbqe",
+      "description": "Średnia cena detaliczna benzyny w USA przekroczyła w poniedziałek poziom 3 dol. za galon po raz pierwszy od listopada — relacjonuje Agencja Reutera. To efekt eskalacji konfliktu na Bliskim Wschodzie i rosnących cen ropy, a zarazem potencjalny test poparcia społecznego dla prezydenta Donald Trump prz",
+      "pubDate": "Mon, 02 Mar 2026 20:51:58 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/YVIk9kpTURBXy9jODUwNWM2M2Y0NzcxOTk4YzE1YWVhMGYxMzA5Yjk0My5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-02T20:51:58.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Grupa Azoty z powodu skokowego wzrostu cen gazu wstrzymała nowe zamówienia na nawozy",
+      "link": "https://www.bankier.pl/wiadomosc/Grupa-Azoty-z-powodu-skokowego-wzrostu-cen-gazu-wstrzymala-nowe-zamowienia-na-nawozy-9091828.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Grupa Azoty z uwagi na skokowy wzrost cen gazu zdecydowała o czasowym wstrzymaniu nowych zamówień na swoje nawozy azotowe - poinformował PAP Biznes Grzegorz Kulik, rzecznik prasowy Grupy Azoty.",
+      "pubDate": "Mon, 2 Mar 2026 21:28:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/e/8/bec068af7bec25-thumb-1000.jpg",
+      "dateISO": "2026-03-02T20:28:00.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Co z cenami energii po ataku na Iran? Minister zabrał głos",
+      "link": "https://businessinsider.com.pl/gospodarka/atak-usa-na-iran-ryzykowny-dla-cen-energii-minister-motyka-zabral-glos/056c7hc",
+      "description": "Atak na Iran i ponowna eskalacja konfliktu na Bliskim Wschodzie wywołały obawy o dostawy ropy i gazu do Europy oraz o wzrost cen surowców. W rozmowie z Polsat News minister energii Miłosz Motyka zapewnił jednak, że Polsce nie grozi kryzys energetyczny. — Bezpieczeństwo energetyczne jest w pełni zagw",
+      "pubDate": "Mon, 02 Mar 2026 20:09:09 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/N6-k9kpTURBXy9mZThhNTg1YmZlMjIzNDAyNWEwMjNkYTVjMDYyNzc1OS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-02T20:09:09.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Chaos w Dubaju po atakach Iranu. \"To może mieć katastrofalne skutki\"",
+      "link": "https://businessinsider.com.pl/gospodarka/tak-atak-na-iran-zmienia-dubaj-juz-nie-bedzie-bezpieczna-przystania/c9lfebx",
+      "description": "Odwet Iranu po bombardowaniach przeprowadzonych przez USA i Izrael uderzył w państwa leżące nad Zatoką Perską, podważając ich dotychczasowy wizerunek bezpiecznych przystani dla finansistów i miliarderów. \"To, co dzieje się w Zjednoczonych Emiratach Arabskich, może mieć katastrofalne skutki\" — ostrze",
+      "pubDate": "Mon, 02 Mar 2026 19:33:08 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/YH2k9kpTURBXy9mMTRjOTMwMGFmZWIxM2U2ZmRlNDEwYjY1NmE4N2I3YS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-02T19:33:08.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Potężny wzrost polskiego długu. Ministerstwo opublikowało dane",
+      "link": "https://businessinsider.com.pl/gospodarka/zadluzenie-skarbu-panstwa-rosnie-w-rekordowym-tempie/1nlfz36",
+      "description": "Skala finansowania potrzeb budżetowych w 2025 r. była bezprecedensowa. Choć poziom zadłużenia mieści się w rządowych planach, tempo jego wzrostu wyraźnie przyspieszyło, a początek 2026 r. wskazuje na utrzymanie tego trendu.",
+      "pubDate": "Mon, 02 Mar 2026 19:19:01 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/41Uk9kpTURBXy83YTM5YTFjMDk0ZjMxYTE5NzhmYTM5ZDdmM2IwMWMyYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-02T19:19:01.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Minister rolnictwa w Brukseli: mięso z hormonem wzrostu z Brazylii nie trafiło do Polski",
+      "link": "https://www.bankier.pl/wiadomosc/Minister-rolnictwa-w-Brukseli-mieso-z-hormonem-wzrostu-z-Brazylii-nie-trafilo-do-Polski-9091812.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Minister rolnictwa Stefan Krajewski powiedział dziennikarzom w poniedziałek w Brukseli, że mięso z hormonem wzrostu z Brazylii nie trafiło do Polski. Jak dodał, prowadzone są kontrole, które mają jeszcze dodatkowo zweryfikować wszelkie kwestie, tak żeby konsumenci czuli się bezpieczni.",
+      "pubDate": "Mon, 2 Mar 2026 20:04:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/b/95e6393312f8bb-948-568-20-20-3980-2387.jpg",
+      "dateISO": "2026-03-02T19:04:00.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Wojna na Bliskim Wschodzie. Tylu żołnierzy USA ucierpiało",
+      "link": "https://www.bankier.pl/wiadomosc/Wojna-na-Bliskim-Wschodzie-Tylu-zolnierzy-USA-ucierpialo-9091810.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "18 amerykańskich żołnierzy zostało ciężko rannych podczas operacji przeciwko Iranowi - powiadomił w poniedziałek rzecznik Centralnego Dowództwa USA (CENTCOM) kpt. Tim Hawkins.",
+      "pubDate": "Mon, 2 Mar 2026 20:01:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/e/4575f092b1c7e8-948-568-41-301-4112-2467.jpg",
+      "dateISO": "2026-03-02T19:01:00.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Erdogan: Atak na Iran jest wyraźnym naruszeniem prawa międzynarodowego",
+      "link": "https://www.bankier.pl/wiadomosc/Erdogan-Atak-na-Iran-jest-wyraznym-naruszeniem-prawa-miedzynarodowego-9091809.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Turcji Recep Tayyip Erdogan ocenił w poniedziałek, że amerykańsko-izraelski atak na Iran jest wyraźnym naruszeniem prawa międzynarodowego. Ponadto zapowiedział, że Turcja zintensyfikuje wysiłki dyplomatyczne, aby doprowadzić do zawieszenia broni i zapewnić pokój w regionie.",
+      "pubDate": "Mon, 2 Mar 2026 19:55:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/f/0f8e5507db7e8a-948-568-45-105-2955-1772.jpg",
+      "dateISO": "2026-03-02T18:55:00.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Rutte: Nie ma żadnych planów dołączenia NATO do wojny",
+      "link": "https://www.bankier.pl/wiadomosc/Rutte-Nie-ma-zadnych-planow-dolaczenia-NATO-do-wojny-9091808.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sekretarz generalny NATO Mark Rutte zapewnił w poniedziałek, że nie ma żadnych planów, by Sojusz dołączył do wojny USA i Izraela przeciwko Iranowi. Zachęcił równocześnie kraje NATO do pomocy USA na polu logistycznym.",
+      "pubDate": "Mon, 2 Mar 2026 19:53:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/8/71c24e1970aa6f-948-568-10-200-3990-2393.jpg",
+      "dateISO": "2026-03-02T18:53:00.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "To on w Afganistanie uratował polskiego żołnierza. Dziś pośmiertnie odznaczył go prezydent USA",
+      "link": "https://www.bankier.pl/wiadomosc/To-on-w-Afganistanie-uratowal-polskiego-zolnierza-Dzis-posmiertnie-odznaczyl-go-prezydent-USA-9091807.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump pośmiertnie odznaczył w poniedziałek sierżanta Michaela Ollisa Medalem Honoru. 24-letni Ollis zginął w 2013 r. w Afganistanie, kiedy zasłonił ciałem rannego żołnierza z Polski. Trump podkreślił polsko-amerykańskie więzy krwi.",
+      "pubDate": "Mon, 2 Mar 2026 19:48:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/e/c1a5c2301f1921-948-568-80-0-3920-2351.jpg",
+      "dateISO": "2026-03-02T18:48:00.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Akcjonariusz Benefit Systems zgłosił Piotra Kaczmarka i Jacka Osowskiego na niezależnych członków RN",
+      "link": "https://www.bankier.pl/wiadomosc/Akcjonariusz-Benefit-Systems-zglosil-Piotra-Kaczmarka-i-Jacka-Osowskiego-na-niezaleznych-czlonkow-RN-9091801.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Akcjonariusz Benefit Systems, Powszechne Towarzystwo Emerytalne Allianz Polska działające w imieniu Allianz Polska OFE, zgłosił kandydatury Piotra Kaczmarka oraz Jacka Osowskiego na niezależnych członków rady nadzorczej spółki - podał Benefit Systems w komunikacie.",
+      "pubDate": "Mon, 2 Mar 2026 19:32:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/d/1/785f181c53f0ce-thumb-1000.jpg",
+      "dateISO": "2026-03-02T18:32:00.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "IRGC: w cieśninie Ormuz płonie tankowiec trafiony dwoma dronami",
+      "link": "https://www.bankier.pl/wiadomosc/IRGC-w-ciesninie-Ormuz-plonie-tankowiec-trafiony-dwoma-dronami-9091792.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Irańska Gwardia Rewolucyjna (IRGC) poinformowała w poniedziałek, że w cieśninie Ormuz płonie trafiony dwoma dronami tankowiec. Kluczowa dla światowego handlu ropą i gazem cieśnina Ormuz jest praktycznie zablokowana od wybuchu w sobotę wojny na Bliskim Wschodzie.",
+      "pubDate": "Mon, 2 Mar 2026 19:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/5/321563d98d03c6-945-560-0-42-1007-604.jpg",
+      "dateISO": "2026-03-02T18:15:00.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Państwowy gigant ma nowego prezesa",
+      "link": "https://businessinsider.com.pl/gielda/grupa-azoty-z-nowym-prezesem-kim-jest-marcin-celejewski/1vpebc0",
+      "description": "Grupy Azoty ma nowego prezesa. W połowie lutego w państwowym gigancie o strategicznym znaczeniu dla Polski doszło do kadrowego trzęsienia ziemi. W poniedziałek rada nadzorcza powołała nowy zarząd. Jego prezesem został Marcin Celejewski, który w przeszłości kierował już dwiema państwowymi spółkami, w",
+      "pubDate": "Mon, 02 Mar 2026 18:06:45 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/RSdk9kpTURBXy9kMTNjYzViYmFiMmJkZjg2NGVmMWUzOGEzYmExY2MzNS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-02T18:06:45.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Fitch potwierdził rating Orlenu na poziomie \"BBB+\", perspektywa stabilna",
+      "link": "https://www.bankier.pl/wiadomosc/Fitch-potwierdzil-rating-Orlenu-na-poziomie-BBB-perspektywa-stabilna-9091774.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Agencja Fitch potwierdziła długoterminowy rating IDR Orlenu w walucie obcej na poziomie \"BBB+\". Perspektywa ratingu jest stabilna - podał Fitch w komunikacie.",
+      "pubDate": "Mon, 2 Mar 2026 18:58:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/2/2/cbeb06dd33a8d3-thumb-1000.jpg",
+      "dateISO": "2026-03-02T17:58:00.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Grupa Azoty ma nowy zarząd. Marcin Celejewski prezesem spółki",
+      "link": "https://www.bankier.pl/wiadomosc/RN-Grupy-Azoty-powierzyla-funkcje-prezesa-zarzadu-Marcinowi-Celejewskiemu-9091770.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Rada Nadzorcza Grupy Azoty powołała nowy zarząd, powierzając funkcję prezesa zarządu Marcinowi Celejewskiemu oraz funkcję wiceprezesa zarządu Małgorzacie Królak - podała grupa w komunikacie prasowym. Jednocześnie do czasowego pełnienia funkcji wiceprezesa zarządu – na okres do trzech miesięcy – dele",
+      "pubDate": "Mon, 2 Mar 2026 18:52:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/7/4/d0339faf54a0df-948-568-0-109-2188-1312.jpg",
+      "dateISO": "2026-03-02T17:52:00.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Prezydent: Unia Europejska, niestety, przestaje być „pępkiem świata”",
+      "link": "https://www.bankier.pl/wiadomosc/Prezydent-Unia-Europejska-niestety-przestaje-byc-pepkiem-swiata-9091760.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Karol Nawrocki ocenił w poniedziałek, że niestety Unia Europejska przestaje być „pępkiem świata”, dlatego też musi przejść przez proces reform. Podkreślił jednak, że został prezydentem po to, aby Polska nie stała się jedynie województwem w zunifikowanym państwie europejskim.",
+      "pubDate": "Mon, 2 Mar 2026 18:39:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/2/af14cc98d3f73e-948-568-15-45-1985-1190.jpg",
+      "dateISO": "2026-03-02T17:39:00.000Z",
+      "dateFormatted": "2 marca 2026"
+    },
+    {
+      "title": "Widziałem pawilon Polski na wielkich targach technologii. Polski rząd rozmawia z rywalem Muska",
       "link": "https://businessinsider.com.pl/technologie/nowe-technologie/mwc-2026-w-barcelonie-polski-wiceminister-spotka-sie-z-rywalem-muska/0qg2e7m",
       "description": "Polska otworzyła dziś własne, narodowe stoisko podczas targów MWC w Barcelonie. Na jednych z najważniejszych targów technologicznych w Europie chce promować krajowe firmy. W odpowiedzi na pytanie obecnej na miejscu redakcji Business Insidera Paweł Olszewski, polski wiceminister cyfryzacji przyznał, ",
       "pubDate": "Mon, 02 Mar 2026 17:30:53 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Y26k9kpTURBXy8zNmE5MDhmNmRlMTAyMGJmYTAxYmY4MzFlYmY1NmJjOC5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://ocdn.eu/pulscms-transforms/1/7a1k9kpTURBXy9kN2E1YmMzYWFmODI5ZmYwM2NjMGE1ZGE3OTRiNjI3MC5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-03-02T17:30:53.000Z",
       "dateFormatted": "2 marca 2026"
     },
@@ -109,15 +337,15 @@
       "dateFormatted": "2 marca 2026"
     },
     {
-      "title": "Captor Therapeutics rozpoczyna ABB na nie więcej niż 800.000 akcji",
-      "link": "https://www.bankier.pl/wiadomosc/Captor-Therapeutics-rozpoczyna-ABB-na-nie-wiecej-niz-800-000-akcji-9091710.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Captor Therapeutics rozpoczął proces budowania przyspieszonej księgi popytu w ramach oferty publicznej realizowanej w trybie subskrypcji prywatnej nie więcej niż 800.000 akcji zwykłych na okaziciela serii Y o wartości nominalnej 0,10 zł każda - podał Captor Therapeutics w komunikacie.",
-      "pubDate": "Mon, 2 Mar 2026 17:34:00 +0100",
+      "title": "MSZ wydało kolejne ostrzeżenia. Chodzi o Cypr i Oman",
+      "link": "https://www.bankier.pl/wiadomosc/MSZ-wydalo-kolejne-ostrzezenia-Chodzi-o-Cypr-i-Oman-9091720.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polskie MSZ w kolejnych ostrzeżeniach odradza wszelkie podróże do Omanu, a także apeluje do osób przebywających na Cyprze o zachowanie szczególnej ostrożności. Ponadto ambasada w Kuwejcie prosi o śledzenie komunikatów władz miejscowych oraz stosowanie się do zaleceń dotyczących bezpieczeństwa.",
+      "pubDate": "Mon, 2 Mar 2026 17:45:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/9/3/8d6d4df8d08771-thumb-1000.jpg",
-      "dateISO": "2026-03-02T16:34:00.000Z",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/f/f531554b0d43e0-945-560-0-5-2048-1228.jpg",
+      "dateISO": "2026-03-02T16:45:00.000Z",
       "dateFormatted": "2 marca 2026"
     },
     {
@@ -193,18 +421,6 @@
       "dateFormatted": "2 marca 2026"
     },
     {
-      "title": "Bank Handlowy uzyskał zezwolenie KNF na nabycie akcji własnych",
-      "link": "https://www.bankier.pl/wiadomosc/Bank-Handlowy-uzyskal-zezwolenie-KNF-na-nabycie-akcji-wlasnych-9091686.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Bank Handlowy otrzymał decyzję KNF, w której udzielono bankowi zezwolenia obejmującego nabycie akcji własnych przez bank w terminie do 27 lutego 2027 r. w liczbie nie większej niż 285.000 akcji, za cenę nieprzekraczającą łącznie 30 mln zł - podał bank w komunikacie.",
-      "pubDate": "Mon, 2 Mar 2026 17:06:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/1/a/589a9f5daba398-948-568-17-13-1755-1053.jpg",
-      "dateISO": "2026-03-02T16:06:00.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
       "title": "Indeks strachu wystrzelił. Podsumowujemy dzień na GPW i giełdach w Europie",
       "link": "https://businessinsider.com.pl/gielda/wiadomosci/gieldy-w-dol-a-indeks-strachu-w-gore-podsumowujemy-dzien-na-gieldach/hnk0wje",
       "description": "Wzrósł indeks strachu inwestorów i spadły indeksy giełdowe — tak wygląda obraz rynku finansowego na finiszu sesji w Europie. Wskazujemy wygranych i przegranych zamieszania. Ekspert bieżącą sytuację określa mianem \"ucieczki do bezpiecznych aktywów\". \"Należy oczekiwać pewnej słabości w ciągu najbliższ",
@@ -217,7 +433,7 @@
       "dateFormatted": "2 marca 2026"
     },
     {
-      "title": "Macron: zwiększymy liczbę głowic nuklearnych. \"Gdyby ktokolwiek chciał uderzyć we Francję...\"",
+      "title": "Macron: zwiększymy liczbę głowic. Parasol jądrowy także dla Polski",
       "link": "https://businessinsider.com.pl/wiadomosci/francja-zwiekszy-arsenal-nuklearny-macron-wspomina-o-polsce/gj1r5t3",
       "description": "Francja zwiększy liczbę głowic nuklearnych — zapowiedział Emmanuel Macron. Prezydent wymienił Polskę jako jeden z krajów, które zadeklarowały udział w zaproponowanym przez Francję programie odstraszania nuklearnego.",
       "pubDate": "Mon, 02 Mar 2026 16:02:31 GMT",
@@ -250,30 +466,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/j0Uk9kqTURBXy8yNjQzODJmOTJjY2VkN2NlZjhmMTg0MTU5ZGY1OTAwZi5qcGVnkZMCzQSwAN4AAaEwAQ",
       "dateISO": "2026-03-02T15:54:07.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
-      "title": "MCI Capital ma przyrzeczoną umowę sprzedaży 100 proc. akcji IAI funduszowi Montagu",
-      "link": "https://www.bankier.pl/wiadomosc/MCI-Capital-ma-przyrzeczona-umowe-sprzedazy-100-proc-akcji-IAI-funduszowi-Montagu-9091655.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "MCI Capital ma przyrzeczoną umowę sprzedaży 100 proc. akcji IAI funduszowi Montagu - podało MCI Capital w komunikacie. Wpływ netto do funduszu z tytułu sprzedaży akcji spółki wyniósł 470,5 mln złotych.",
-      "pubDate": "Mon, 2 Mar 2026 16:32:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": null,
-      "dateISO": "2026-03-02T15:32:00.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
-      "title": "WZ Captor Therapeutics zdecydowało o podwyższeniu kapitału poprzez emisję akcji",
-      "link": "https://www.bankier.pl/wiadomosc/WZ-Captor-Therapeutics-zdecydowalo-o-podwyzszeniu-kapitalu-poprzez-emisje-akcji-9091639.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Walne zgromadzenie Captor Therapeutics zdecydowało o podwyższeniu kapitału zakładowego spółki w drodze emisji do 800 tys. akcji serii Y o wartości nominalnej 0,10 zł - wynika z uchwał NWZ podjętych 2 marca.",
-      "pubDate": "Mon, 2 Mar 2026 16:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": null,
-      "dateISO": "2026-03-02T15:20:00.000Z",
       "dateFormatted": "2 marca 2026"
     },
     {
@@ -349,30 +541,6 @@
       "dateFormatted": "2 marca 2026"
     },
     {
-      "title": "Od telewizji do wielkich pieniędzy. Jak Pete Hegseth zbudował swój majątek?",
-      "link": "https://businessinsider.com.pl/finanse/pete-hegseth-wartosc-majatku-i-zarobki-ile-pieniedzy-zgromadzil-szef-pentagonu/fs37348",
-      "description": "Pete Hegseth, obecny sekretarz wojny USA, zgromadził pokaźny majątek. Dochody szefa Pentagonu pochodzą głównie z pracy w Fox News, wystąpień publicznych oraz tantiem za książki. Wraz z żoną, byłą producentką w tej samej stacji telewizyjnej, inwestuje także w nieruchomości i kryptowaluty. Wyjaśniamy,",
-      "pubDate": "Mon, 02 Mar 2026 14:34:41 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/e4Wk9kpTURBXy82ZTlmNjhkN2NjNzdkNmIzMjlmNWFiYTFmMDE2OWYwZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-02T14:34:41.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
-      "title": "Startuje amerykańska giełda. Tak reaguje na konflikt na Bliskim Wschodzie",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/gielda-w-usa-reaguje-na-atak-na-iran-raport-na-starcie-sesji-na-wall-street/gjlrrzs",
-      "description": "Nowojorska giełda wznawia po gorącym weekendzie handel akcjami i to pełną parą. Nastroje za oceanem są podobne do tych w Europie. Większość inwestorów w obawie przed eskalacją konfliktu na Bliskim Wschodzie woli się pozbyć akcji najbardziej ryzykownych spółek.",
-      "pubDate": "Mon, 02 Mar 2026 14:32:22 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Shuk9kpTURBXy9hYjEzZDgyYTRiN2YzZWIyN2IwYzc0YTUyMWNkOGJlOC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-02T14:32:22.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
       "title": "Uranowy kontrakt wart fortunę. Indie i Kanada budują nowy sojusz",
       "link": "https://www.bankier.pl/wiadomosc/Uranowy-kontrakt-wart-fortune-Indie-i-Kanada-buduja-nowy-sojusz-9091574.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Indie i Kanada podpisały porozumienie o dostawach uranu o wartości 1,9 mld dolarów dla indyjskiego sektora jądrowego. Do końca 2026 r. mają się zakończyć negocjacje nad paktem handlowym między krajami - podał indyjski dziennik „Economic Times”.",
@@ -385,18 +553,6 @@
       "dateFormatted": "2 marca 2026"
     },
     {
-      "title": "Sprzeczne informacje na temat lotów z Bliskiego Wschodu. \"Niektóre samoloty wystartowały\"",
-      "link": "https://businessinsider.com.pl/lifestyle/podroze/loty-z-bliskiego-wschodu-do-europy-samoloty-wystartowy-z-zea/kr4658s",
-      "description": "Atak odwetowy Iranu sparaliżował ruch lotniczy na Bliskim Wschodzie, który jest hubem przesiadkowym dla turystów z całego świata. Pojawiają się jednak sprzeczne informacje. Linie komercyjne zawiesiły loty, jednak niektóre samoloty, w tym dwa loty do Europy, wystartowały ze stolicy Zjednoczonych Emir",
-      "pubDate": "Mon, 02 Mar 2026 14:27:08 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/nsCk9kpTURBXy80ZGE2NTE3NDExODFkYTU3YmMzMGUzMzQ1MmZiYjRhNS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-02T14:27:08.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
       "title": "Zadłużenie Skarbu Państwa. Resort finansów ujawnił nowe dane",
       "link": "https://www.bankier.pl/wiadomosc/Zadluzenie-Skarbu-Panstwa-Resort-finansow-ujawnil-nowe-dane-9091547.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Zadłużenie Skarbu Państwa na koniec stycznia 2026 r. wzrosło o 46,4 mld zł (2,4 proc.) mdm i wyniosło ok. 1.998,3 mld zł - podał resort finansów w szacunkowych danych.",
@@ -406,30 +562,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/2/3/cd91a4a1c23bcf-948-568-105-389-2265-1358.jpg",
       "dateISO": "2026-03-02T14:06:00.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
-      "title": "Donald Trump: wojna może potrwać cztery tygodnie",
-      "link": "https://businessinsider.com.pl/gospodarka/donald-trump-wojna-moze-potrwac-cztery-tygodnie/28b63k5",
-      "description": "Prezydent USA Donald Trump powiedział brytyjskiemu dziennikowi \"Daily Mail\", że przewiduje, że operacja przeciwko Iranowi potrwa \"cztery tygodnie lub mniej\".",
-      "pubDate": "Mon, 02 Mar 2026 14:03:49 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/VLek9kpTURBXy8yM2UzNmYwMzFkNGQzY2M0OTk5MGVhNTE1NGY1ZTQ2NC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-02T14:03:49.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
-      "title": "Giełdowi wygrani i przegrani konfliktu na Bliskim Wschodzie. \"Ogromna niepewność\"",
-      "link": "https://businessinsider.com.pl/gielda/gieldy-reaguja-na-atak-na-iran-gieldowi-wygrani-i-przegrani/6hzpt9n",
-      "description": "Polska giełda jest wśród tych, które względnie najmniej tracą przez wzrost niepewności rynkowej wynikającej z konfliktu na Bliskim Wschodzie. Gorzej jest np. w Niemczech. Jest też jedna, duża giełda krajowa, gdzie przeważają dobre nastroje. Wyróżniają się również niektóre wielkie koncerny, zyskujące",
-      "pubDate": "Mon, 02 Mar 2026 14:00:05 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/6muk9kpTURBXy8wN2EzZGExYjI2ZTRkMDViY2NkZWZkOTU2MDZlOWJiNy5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-02T14:00:05.000Z",
       "dateFormatted": "2 marca 2026"
     },
     {
@@ -481,18 +613,6 @@
       "dateFormatted": "2 marca 2026"
     },
     {
-      "title": "Od syna robotnika do premiera. Jak duży majątek zgromadził Keir Starmer?",
-      "link": "https://businessinsider.com.pl/finanse/keir-starmer-majatek-i-zarobki-ile-jest-wart-premier-wielkiej-brytanii/8pjjpwv",
-      "description": "Premier Wielkiej Brytanii Keir Starmer od momentu objęcia urzędu budzi zainteresowanie mediów. W szczególności ciekawi majątek polityka. Keir Starmer podkreśla, że nie pochodzi z zamożnej rodziny, a jego zarobki są znacznie niższe niż premiera Rishiego Sunaka.",
-      "pubDate": "Mon, 02 Mar 2026 13:47:52 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/4QGk9kpTURBXy84NDk0ODVjZDU3MjhlMjUzNmUzY2UxNDBhMjA4ZmUxYS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-02T13:47:52.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
       "title": "Prezydent Nawrocki podpisze SAFE? \"Konflikt USA–Iran może go do tego skłonić\"",
       "link": "https://www.bankier.pl/wiadomosc/Prezydent-Nawrocki-podpisze-SAFE-Konflikt-USA-Iran-moze-go-do-tego-sklonic-9091519.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Konflikt USA–Iran może skłonić prezydenta Karola Nawrockiego do podpisania ustawy o SAFE – powiedział PAP prof. Olgierd Annusewicz. Prof. Łukasz Młyńczyk z UW dodał, że sytuacja na Bliskim Wschodzie może osłabić ugrupowanie Grzegorza Brauna, radykalne w antyamerykańskiej retoryce.",
@@ -505,30 +625,6 @@
       "dateFormatted": "2 marca 2026"
     },
     {
-      "title": "Górale z niepokojem patrzą na wojnę na Bliskim Wschodzie. \"Mamy sygnały od firm\"",
-      "link": "https://businessinsider.com.pl/lifestyle/podroze/wojna-na-bliskim-wschodzie-gorale-z-zakopanego-patrza-z-niepokojem/590yptj",
-      "description": "Turyści z krajów Bliskiego Wschodu w ostatnich latach upodobali sobie Podhale, a w niektórych obiektach odpowiadali nawet za 80-90 proc. rezerwacji. Nic więc dziwnego, że górale z niepokojem patrzą na rozwój konfliktu w Zatoce Perskiej. \"Spływają sygnały od firm\" — mówi przedstawiciel Tatrzańskiej I",
-      "pubDate": "Mon, 02 Mar 2026 13:37:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Vbrk9kpTURBXy83YmYwMWIyMWNlOGNlMTc1ODhmYmE0YzNhNzlmODZiZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-02T13:37:00.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
-      "title": "Paraliż w Cieśninie Ormuz. Statki zawracają w ostatniej chwili [WIDEO]",
-      "link": "https://businessinsider.com.pl/finanse/handel/paraliz-w-ciesninie-ormuz-statki-zawracaja-w-ostatniej-chwili-wideo/6jc4dbm",
-      "description": "Sytuacja na Bliskim Wschodzie staje się krytyczna. Po niedawnych atakach USA na Iran i gwałtownej eskalacji napięcia, ruch statków w strategicznej Cieśninie Ormuz praktycznie zamarł. Eksperci ostrzegają: grozi nam potężny kryzys energetyczny. Serwis MarineTraffic we wpisie na platformie X zamieścił ",
-      "pubDate": "Mon, 02 Mar 2026 13:36:42 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/8-Ak9kpTURBXy8xNTc4MDAxNmVkMDJjN2I3NWQ5MzU5ZGRhYTAwMTU4YS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-02T13:36:42.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
       "title": "Inwigilacja czy dobro klienta? Burger King wprowadza AI do słuchawek pracowników",
       "link": "https://www.bankier.pl/wiadomosc/Inwigilacja-czy-dobro-klienta-Burger-King-wprowadza-AI-do-sluchawek-pracownikow-9091474.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Sztuczna inteligencja jest obecna w naszych życiach na masową skalę i wkracza także do branży gastronomicznej. Nowy system testowany przez sieć Burger King pozwala analizować interakcje pracowników z klientami za pomocą słuchawek z asystentem AI i wspierać zarządzanie restauracją - podaje \"Rzeczposp",
@@ -538,18 +634,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/4/0/b4052858bb9f23-948-568-120-230-3880-2327.jpg",
       "dateISO": "2026-03-02T13:15:00.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
-      "title": "Krajowa Grupa Spożywcza nie przejmie Carrefoura. \"Nie ma to uzasadnienia ekonomicznego\"",
-      "link": "https://www.bankier.pl/wiadomosc/Krajowa-Grupa-Spozywcza-nie-przejmie-Carrefoura-Nie-ma-to-uzasadnienia-ekonomicznego-9091482.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Krajowa Grupa Spożywcza nie przejmie udziałów w sieci Carrefour, ponieważ nie ma to uzasadnienia ekonomicznego - wynika z poniedziałkowej wypowiedzi ministra rolnictwa Stefana Krajewskiego. Szef resortu zapowiedział poszukiwanie innych rozwiązań, które mają wpłynąć na stabilizację rynku żywności.",
-      "pubDate": "Mon, 2 Mar 2026 13:58:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/c/9c54382f6a662e-948-568-0-270-4000-2399.jpg",
-      "dateISO": "2026-03-02T12:58:00.000Z",
       "dateFormatted": "2 marca 2026"
     },
     {
@@ -574,18 +658,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/a/d/803f40e047ade5-948-568-6-87-1190-714.jpg",
       "dateISO": "2026-03-02T12:39:00.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
-      "title": "Najgorszy scenariusz dla rynków? Inwestorzy zaczynają tonować emocje",
-      "link": "https://www.bankier.pl/wiadomosc/Najgorszy-scenariusz-dla-rynkow-Inwestorzy-zaczynaja-tonowac-emocje-9091420.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Jeżeli konflikt na Bliskim Wschodzie będzie trwał co najmniej kilka tygodni, będzie to najgorszy scenariusz dla rynków - ocenił w poniedziałek główny analityk DM BOŚ Marek Rogalski. Po pierwszych reakcjach na wydarzenia i umocnieniu dolara rynki zaczynają „tonować emocje” - dodał.",
-      "pubDate": "Mon, 2 Mar 2026 12:53:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": null,
-      "dateISO": "2026-03-02T11:53:00.000Z",
       "dateFormatted": "2 marca 2026"
     },
     {
@@ -673,42 +745,6 @@
       "dateFormatted": "2 marca 2026"
     },
     {
-      "title": "Polski przemysł wrzucił wsteczny bieg. Zamówienia ostro w dół, koszty w górę",
-      "link": "https://www.bankier.pl/wiadomosc/PMI-w-lutym-2026-r-polski-przemysl-wrzucil-wsteczny-bieg-9091299.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Luty przyniósł zimny prysznic dla polskiego przemysłu. Wskaźnik PMI zanurkował, grzebiąc nadzieje na szybkie ożywienie w sektorze wytwórczym. Producenci zmagają się z najsilniejszym od siedmiu miesięcy spadkiem nowych zamówień i falą rosnących kosztów, która zmusza ich do ostrej redukcji zatrudnieni",
-      "pubDate": "Mon, 2 Mar 2026 09:55:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/8/76d772d6ddc131-948-568-0-131-4001-2401.jpg",
-      "dateISO": "2026-03-02T08:55:00.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
-      "title": "LOT przedłuża odwołanie rejsów. Tysiące pasażerów nie polecą do Dubaju i Rijadu",
-      "link": "https://www.bankier.pl/wiadomosc/LOT-przedluza-odwolanie-rejsow-Tysiace-pasazerow-nie-poleca-do-Dubaju-i-Rijadu-9091310.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Polskie Linie Lotnicze LOT odwołały rejsy do Dubaju do 4 marca, a do Rijadu do 8 marca - podał w poniedziałek rzecznik LOT Krzysztof Moczulski. Loty do Tel Awiwu pozostają odwołane do 15 marca. Przewoźnik zapewnia, że jest w stałym kontakcie z pasażerami posiadającymi bilety na odwołane rejsy.",
-      "pubDate": "Mon, 2 Mar 2026 09:51:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/9/8e152ba12a619c-948-568-15-20-970-582.jpg",
-      "dateISO": "2026-03-02T08:51:00.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
-      "title": "Bliski Wschód odcięty. Tysiące Polaków mają problem z powrotem do kraju",
-      "link": "https://www.bankier.pl/wiadomosc/Bliski-Wschod-odciety-Tysiace-Polakow-maja-problem-z-powrotem-do-kraju-9091279.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wiceszef resortu dyplomacji Marcin Bosacki poinformował w poniedziałek, że według informacji MSZ w regionie szeroko pojętego Bliskiego Wschodu znajduje się kilkanaście tysięcy Polaków. Zaapelował o zarejestrowanie swojego pobytu w systemie Odyseusz.",
-      "pubDate": "Mon, 2 Mar 2026 09:31:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/7/cb82fa08e41ed2-948-568-0-30-3940-2363.jpg",
-      "dateISO": "2026-03-02T08:31:00.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
       "title": "Amerykańskie myśliwce rozbiły się w Kuwejcie. Powodem \"friendly fire\"",
       "link": "https://www.bankier.pl/wiadomosc/Amerykanskie-mysliwce-rozbily-sie-w-Kuwejcie-Zalogi-przezyly-9091281.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Obrona przeciwlotnicza Kuwejtu zestrzeliła omyłkowo trzy amerykańskie samoloty F-15 – poinformowało w poniedziałek Dowództwo Centralne USA, cytowane przez agencję Reutera.",
@@ -718,18 +754,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/b/ca4a5d02900c94-945-567-161-391-4235-2541.jpg",
       "dateISO": "2026-03-02T08:23:00.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
-      "title": "Janusz Krypto: Czy 0% w bitcoinie to wstyd? Kiedy kryptowaluty to błąd?",
-      "link": "https://www.bankier.pl/wiadomosc/Janusz-Krypto-Czy-0-w-bitcoinie-to-wstyd-Kiedy-kryptowaluty-to-blad-9090051.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Kończymy bitcoinowe przedszkole i zapisujemy się do podstawówki. A w pierwszej klasie i na pierwszej lekcji zaczniemy od tego, kto nie powinien tu uczęszczać. W jakich sytuacjach jedyne rozsądne podejście do kryptowalut w portfelu to brak kryptowalut? Kto nie powinien brać się za bitcoina i kiedy ro",
-      "pubDate": "Mon, 2 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/e/e/fd5d93b835c793-948-568-0-442-3000-1799.jpg",
-      "dateISO": "2026-03-02T05:00:00.000Z",
       "dateFormatted": "2 marca 2026"
     },
     {
@@ -745,38 +769,14 @@
       "dateFormatted": "2 marca 2026"
     },
     {
-      "title": "Czy obowiązkowe sprawozdania znikną, a firmy będą mogły liczyć na wsparcie jak we Francji? Prezes GUS ma dobre wieści dla biznesu",
-      "link": "https://www.bankier.pl/wiadomosc/Czy-obowiazkowe-sprawozdania-znikna-a-firmy-beda-mogly-liczyc-na-wsparcie-jak-we-Francji-Prezes-GUS-ma-dobre-wiesci-dla-biznesu-9089473.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Główny Urząd Statystyczny chce ulżyć firmom, odchudzając, a docelowo nawet wycofując część obowiązkowych sprawozdań. – Są sprawozdania, które chciałbym likwidować jak najszybciej, takie jak np. KT-1 wypełniane przez obiekty noclegowe – podkreśla prezes GUS Marek Cierpiał-Wolan w rozmowie z Bankier.p",
+      "title": "Janusz Krypto: Czy 0% w bitcoinie to wstyd? Kiedy kryptowaluty to błąd?",
+      "link": "https://www.bankier.pl/wiadomosc/Janusz-Krypto-Czy-0-w-bitcoinie-to-wstyd-Kiedy-kryptowaluty-to-blad-9090051.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Kończymy bitcoinowe przedszkole i zapisujemy się do podstawówki. A w pierwszej klasie i na pierwszej lekcji zaczniemy od tego, kto nie powinien tu uczęszczać. W jakich sytuacjach jedyne rozsądne podejście do kryptowalut w portfelu to brak kryptowalut? Kto nie powinien brać się za bitcoina i kiedy ro",
       "pubDate": "Mon, 2 Mar 2026 06:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/6/cb85dfa7e6ec3b-948-568-40-0-1988-1192.jpg",
-      "dateISO": "2026-03-02T05:00:00.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
-      "title": "Niesamowita jakość hipotek. Polacy spłacają zobowiązania jak w zegarku",
-      "link": "https://www.bankier.pl/wiadomosc/Niesamowita-jakosc-hipotek-Polacy-splacaja-zobowiazania-jak-w-zegarku-9090973.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Padł kolejny rekord. Z każdych 100 tys. zł hipotek problemy ze spłatą dotyczą tylko… 1160 zł. To niemal o połowę mniej niż na początku dekady. Jest jednak typ kredytów, w których wskaźnik sięga poziomów bliższych pożyczkom pozabankowym.",
-      "pubDate": "Mon, 2 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/3/5c5adee2662027-948-568-0-270-4000-2399.jpg",
-      "dateISO": "2026-03-02T05:00:00.000Z",
-      "dateFormatted": "2 marca 2026"
-    },
-    {
-      "title": "Jesteś studentem? Interesujesz się giełdą? Właśnie wystartował INDEX Investment Challenge!",
-      "link": "https://www.bankier.pl/wiadomosc/Jestes-studentem-Interesujesz-sie-gielda-Wlasnie-wystartowal-INDEX-Investment-Challenge-9089659.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "INDEX Investment Challenge to ogólnopolski konkurs inwestycyjny organizowany przez Fundację GPW we współpracy z Kołem Naukowym Rynku Kapitałowego INDEX działającym przy Uniwersytecie Ekonomicznym w Krakowie. To ogólnopolska inicjatywa edukacyjna dla studentów, która łączy rywalizację inwestycyjną z ",
-      "pubDate": "Mon, 2 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/9/5486b93fc1b832-948-568-22-0-1800-1080.png",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/e/e/fd5d93b835c793-948-568-0-442-3000-1799.jpg",
       "dateISO": "2026-03-02T05:00:00.000Z",
       "dateFormatted": "2 marca 2026"
     },
@@ -925,5 +925,5 @@
       "dateFormatted": "25 lutego 2026"
     }
   ],
-  "updatedAt": "2026-03-02T18:02:52.894Z"
+  "updatedAt": "2026-03-02T21:51:41.126Z"
 }
