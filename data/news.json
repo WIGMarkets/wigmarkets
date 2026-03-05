@@ -1,6 +1,318 @@
 {
   "articles": [
     {
+      "title": "Big Techy stają w obronie Anthropic. Próbują załagodzić konflikt wokół zabezpieczeń AI",
+      "link": "https://businessinsider.com.pl/technologie/amazon-i-nvidia-bronia-anthropic-stawka-miliardy-dolarow-i-przyszlosc-ai/ypbrxk7",
+      "description": "Najwięksi gracze Doliny Krzemowej próbują zażegnać rosnący konflikt między Anthropic a Departamentem Obrony USA. Inwestorzy startupu AI — w tym Amazon i Nvidia — coraz mocniej angażują się w wysiłki dyplomatyczne, które mają uchronić firmę przed wpisaniem na listę \"ryzyka dla łańcucha dostaw\". Taki ",
+      "pubDate": "Thu, 05 Mar 2026 10:08:02 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Qr9k9kpTURBXy9jNDM3OTI2NDExZTNkMTZhZmFkYzVkNzYyZWE2MmYyMS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-05T10:08:02.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Nowa funkcja w mObywatelu. \"To koniec wizyt w urzędzie dla tysięcy Polaków\"",
+      "link": "https://www.bankier.pl/wiadomosc/Nowa-funkcja-w-mObywatelu-To-koniec-wizyt-w-urzedzie-dla-tysiecy-Polakow-9093342.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Od dziś rodzice mogą zgłosić urodzenie dziecka w aplikacji mObywatel - poinformował w czwartek wiceminister cyfryzacji Dariusz Standerski. Zgłoszenie narodzin dziecka bez konieczności odwiedzenia urzędu stanu cywilnego było możliwe już wcześniej - za pomocą profilu zaufanego.",
+      "pubDate": "Thu, 5 Mar 2026 11:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/a/71fc6e3210e40d-948-568-343-160-3946-2368.jpg",
+      "dateISO": "2026-03-05T10:00:00.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Taki jest plan NBP. Znamy kwotę, jaka w pierwszym roku może trafić do budżetu",
+      "link": "https://businessinsider.com.pl/gospodarka/safe-0-proc-znamy-szczegoly-propozycji-nbp/0qbqv93",
+      "description": "— Prezes NBP chce sprzedać złoto i od razu je kupić, taka operacja z jednej strony nie uszczupli rezerw walutowych NBP, a z drugiej pozwoli pokazać zrealizowany zysk na różnicy pomiędzy ceną zakupy a ceną sprzedaży złota — mówi nam osoba znająca kulisy propozycji \"SAFE 0 proc.\".",
+      "pubDate": "Thu, 05 Mar 2026 09:58:37 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/YvKk9kpTURBXy80MzM5NjY0NGM4NGVmNjEzNzlmMjYyZDhjZjE5NzlhMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-05T09:58:37.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Ekspert Santandera obnaża luki w projekcie \"SAFE 0 proc.\"",
+      "link": "https://www.bankier.pl/wiadomosc/Ekspert-Santandera-obnaza-luki-w-projekcie-SAFE-0-proc-9093390.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Opcje dotyczące finansowania przez bank centralny prezydenckiej propozycji \"SAFE 0 proc.\" niosą ze sobą ryzyko inflacyjne i dla wiarygodności banku centralnego jako obejście przepisów, zakazujących bankowi centralnemu finansowanie deficytów rządowych - ocenia ekonomista Banku Santander Piotr Bielski",
+      "pubDate": "Thu, 5 Mar 2026 10:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/7/09f633cb476f0c-830-497-95-105-830-497.jpg",
+      "dateISO": "2026-03-05T09:50:00.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Szef MSWiA o SAFE 0 proc.: Każde dodatkowe pieniądze przydadzą się na służby i polską armię",
+      "link": "https://www.bankier.pl/wiadomosc/Szef-MSWiA-o-SAFE-0-proc-Kazde-dodatkowe-pieniadze-przydadza-sie-na-sluzby-i-polska-armie-9093345.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Każde dodatkowe pieniądze to więcej nowoczesnego sprzętu i systemów antydronowych dla polskiej armii, policji i SG - mówił szef MSWiA Marcin Kierwiński, odnosząc się do propozycji prezydenta ws. tzw. SAFE 0 proc. Jednocześnie zaapelował do prezydenta o podpisanie ustawy wdrażającej SAFE.",
+      "pubDate": "Thu, 5 Mar 2026 10:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/a/1acd5155a45037-948-568-0-67-3864-2318.jpg",
+      "dateISO": "2026-03-05T09:50:00.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "O co chodzi z \"SAFE 0 proc.\"? Rzecznik prezydenta wyjaśnia",
+      "link": "https://businessinsider.com.pl/gospodarka/jak-ma-dzialac-polski-safe-0-proc-palac-zdradza-szczegoly/elf69x7",
+      "description": "W programie \"polski SAFE 0 proc.\" chodzi m.in. o wykorzystanie zysku wypracowanego z wykorzystaniem rezerw Narodowego Banku Polskiego — mówi rzecznik prezydenta Rafał Leśkiewicz.",
+      "pubDate": "Thu, 05 Mar 2026 09:32:23 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/1Yok9kpTURBXy85NjM3ZDNhZTJlOTczNGQ3Yjg1ZjU0N2Y3MWFiYjQ3NS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-05T09:32:23.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Za to państwo, a za to biura podróży. MSWiA o tym, kto zapłaci za powrót Polaków z Bliskiego Wschodu",
+      "link": "https://www.bankier.pl/wiadomosc/Za-to-panstwo-a-za-to-biura-podrozy-MSWiA-o-tym-kto-zaplaci-za-powrot-Polakow-z-Bliskiego-Wschodu-9093344.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "- Jeśli mówimy o kwestiach dotyczących powrotu Polaków z Bliskiego Wschodu organizowanych przez rząd - czyli podjęcie decyzji o tym, aby była to akcja humanitarna - wtedy płaci państwo - stwierdził na antenie RMF FM wiceminister MSWiA Wiesław Szczepański. Kiedy jednak zostaje to po stronie biur podr",
+      "pubDate": "Thu, 5 Mar 2026 10:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/9/f359a31410b490-948-568-40-290-3960-2375.jpg",
+      "dateISO": "2026-03-05T09:30:00.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Duża grupa obywateli chce wyjechać z Niemiec. Na to się skarżą",
+      "link": "https://businessinsider.com.pl/gospodarka/niemcom-grozi-exodus-powazny-sygnal-ostrzegawczy/60cw5cz",
+      "description": "Ponad jedna trzecia obywateli Unii Europejskiej mieszkających w Niemczech skłania się do opuszczenia kraju — pisze serwis Deutsche Welle. Do decyzji przybliżają ich m.in. wysokie koszty życia i dyskryminacja.",
+      "pubDate": "Thu, 05 Mar 2026 09:22:19 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/SWEk9kpTURBXy8yYWEwMTdkNmE5NTUyOTFkNjI5NjAyOTc5NGZkYjE3Yi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-05T09:22:19.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Ten kraj stał się hitem wśród Polaków. Jesteśmy już \"nacją nr 3\"",
+      "link": "https://businessinsider.com.pl/gospodarka/oto-nowy-turystyczny-hit-wsrod-polakow/jee4c0y",
+      "description": "Niewielki kraj nad Adriatykiem staje się hitem wśród turystów z Polski. Przykładowo liczba wyjazdów do Czarnogóry rezerwowanych za pośrednictwem Travelist.pl wzrosła rok do roku aż o 53 proc. — czytamy w analizie.",
+      "pubDate": "Thu, 05 Mar 2026 09:21:53 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Rduk9kpTURBXy82OGRkYTRjYjc5YjdkODIzNzI2NDkzNGEzZDU0ODMyMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-05T09:21:53.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Apple ostatecznie zrywa z łatką \"dla bogatych\". Na MacBooka Neo będzie stać każdego",
+      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/na-macbooka-neo-bedzie-stac-kazdego-slabsze-parametry-to-nie-problem/hcpezdk",
+      "description": "Tim Cook zapowiadał niedawno, że jego firmę czeka \"wielki tydzień\". I miał rację, bo właśnie obserwujemy historyczną zmianę w strategii giganta z Cupertino. Apple otwiera się bowiem na masowego klienta bardziej niż kiedykolwiek, oferując nowe sprzęty w cenach, o jakich w kontekście tej marki jeszcze",
+      "pubDate": "Thu, 05 Mar 2026 09:09:29 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/oDIk9kpTURBXy9lMDgzYjQ4YTY5YjcwNDVjZWRlOWQyN2FmZjZmZGIwMy5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-05T09:09:29.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Irański atak na lotnisko w Azerbejdżanie. Są ranni",
+      "link": "https://www.bankier.pl/wiadomosc/Iranski-atak-na-lotnisko-w-Azerbejdzanie-Sa-ranni-9093377.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Dwóch cywilów zostało rannych w czwartek w ataku Iranu z wykorzystaniem dronów i pocisków na lotnisko w należącej do Azerbejdżanu esklawie, Nachiczewańskiej Republice Autonomicznej - poinformowało MSZ w Baku, cytowane przez agencję Reutera.",
+      "pubDate": "Thu, 5 Mar 2026 10:06:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/2/a7d6e2f040acf5-948-568-0-170-4000-2399.jpg",
+      "dateISO": "2026-03-05T09:06:00.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Atak na Iran będzie kontynuowany. Szef Pentagonu stawia sprawę jasno",
+      "link": "https://www.bankier.pl/wiadomosc/Atak-na-Iran-bedzie-kontynuowany-Szef-Pentagonu-stawia-sprawe-jasno-9093370.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sekretarz obrony (wojny) USA Pete Hegseth wezwał Izrael do utrzymania nacisku militarnego na Iran w rozmowie z izraelskim ministrem obrony Israelem Kacem – przekazała w czwartek agencja Reutera.",
+      "pubDate": "Thu, 5 Mar 2026 09:56:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/4/d4f392a9e12242-948-568-10-0-3990-2393.jpg",
+      "dateISO": "2026-03-05T08:56:00.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Polski SAFE 0 proc. Różne opinie z Komisji Europejskiej i rządu",
+      "link": "https://businessinsider.com.pl/gospodarka/unijny-safe-kontra-polski-safe-0-proc-trwa-spor-o-srodki-dla-armii/b66wxmb",
+      "description": "Propozycja stworzenia \"polskiego SAFE 0 proc.\" wywołała szeroką dyskusję wśród polityków i urzędników w kraju oraz w Brukseli. Jedni przekonują, że każde dodatkowe środki na bezpieczeństwo są potrzebne, inni wskazują na brak konkretów i wątpliwości dotyczące finansowania programu.",
+      "pubDate": "Thu, 05 Mar 2026 08:50:03 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/mi-k9kpTURBXy8zODRiMDAwODJhN2RhMGU2OWRjMGE0OWI4NGI3M2FjMi5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-05T08:50:03.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Będą zwroty za odwołane wycieczki na Bliski Wschód. UFG rozpoczyna przyjmowanie wniosków",
+      "link": "https://www.bankier.pl/wiadomosc/UFG-uruchamia-Turystyczny-Fundusz-Pomocowy-za-odwolane-wycieczki-na-Bliski-Wschod-9093323.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Decyzją Ministerstwa Sportu i Turystyki wydaną z porozumieniu z Ministrem Finansów podróżni, których wycieczki zostały odwołane w związku z sytuacją na Bliskim Wschodzie, otrzymają zwrot wpłaconych środków. Resort uruchomił Turystyczny Fundusz Pomocowy, a wnioski można od dziś składać elektronicznie",
+      "pubDate": "Thu, 5 Mar 2026 09:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/6/f755fd6edb8dff-948-568-0-280-3983-2390.jpg",
+      "dateISO": "2026-03-05T08:50:00.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Państwowa spółka na krawędzi. Wiceminister: \"Stąpamy po kruchym lodzie, porozumienie przyszło za późno\"",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/jsw-w-kryzysie-wiceminister-grzegorz-wrona-o-restrukturyzacji-i-zwolnieniach/6glx351",
+      "description": "1,2 mld zł oszczędności, zawieszenie „czternastek” i rygorystyczna orientacja na węgiel koksowy — to fundamenty planu ratunkowego dla JSW. — Jednak porozumienie JSW ze związkami, będące częścią planu restrukturyzacji, powinno nastąpić wcześniej. Spółka straciła dużo czasu i możliwości — ocenił wicem",
+      "pubDate": "Thu, 05 Mar 2026 08:39:18 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/_Xzk9kpTURBXy84ZDkxZmJhZWZlOGRjYTEzNTA2YjE2MzMwNzRkNjQ0YS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-05T08:39:18.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Ukraińcy tracą część świadczeń. Od dziś wchodzą ważne zmiany",
+      "link": "https://businessinsider.com.pl/prawo/nowe-przepisy-dotyczace-ukraincow-wchodza-w-zycie-oto-istotne-zmiany/q9zymvm",
+      "description": "Ograniczeniu ulegają świadczenia socjalne i zdrowotne. Nowe prawo ureguluje kwestie związane z legalizacją pobytu oraz nauką uczniów pochodzących z Ukrainy.",
+      "pubDate": "Thu, 05 Mar 2026 08:33:12 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/KxEk9kpTURBXy9iOGFlNWU5YzA1YWQzZjJkYjY3OTY4OTAzMjIxMjdlYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-05T08:33:12.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Świat przerabiał to nie raz. Największe kryzysy paliwowe ostatnich dekad",
+      "link": "https://businessinsider.com.pl/gospodarka/kryzysy-paliwowe-od-xix-wieku-po-dzis-jak-wojny-wplywaly-na-ceny-ropy/8ewgenc",
+      "description": "Kryzysy paliwowe są niemal tak stare jak stosowanie paliw, a skoki cen występowały już w okresie wojny secesyjnej, kiedy ropę naftową wykorzystywano przede wszystkim do oświetlenia. Jednym z większych wstrząsów dla całej światowej gospodarki było embargo na sprzedaż ropy naftowej z 1973 r. Przypomin",
+      "pubDate": "Thu, 05 Mar 2026 08:19:32 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/TJSk9kpTURBXy83MWM3ZDBiMTUxMjhmMmExZTE2ZTk0ODFjMmY5MTFhZS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-05T08:19:32.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "\"Polski SAFE 0 proc.\" niezgodny z konstytucją? Ekspert punktuje Adama Glapińskiego",
+      "link": "https://businessinsider.com.pl/gospodarka/program-safe-sfinansowany-przy-wsparciu-nbp-analityk-ocenil-pomysl/l14n2h3",
+      "description": "Prezydent Karol Nawrocki i prezes NBP Adam Glapiński zapowiedzieli program \"polski SAFE 0 proc.\". Analityk rynku finansowego z Domu Inwestycyjnego Xelion Piotr Kuczyński ma jednak zastrzeżenia. Chodzi o poważną wątpliwość prawną.",
+      "pubDate": "Thu, 05 Mar 2026 08:15:28 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/IYMk9kpTURBXy8xMzU5ZDcyYTA5M2M1OTNkNWU2MDJhNmU5NGRmYzExZi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-05T08:15:28.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Przyszłość polskich kopalń. Rząd szykuje nowy pakt. Niektóre zakłady mogą odetchnąć z ulgą",
+      "link": "https://www.bankier.pl/wiadomosc/Trwaja-prace-nad-rozwiazaniami-dla-gornictwa-Wrona-MAP-9093341.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Resorty aktywów państwowych i energii pracują nad rozwiązaniami dla górnictwa - poinformował PAP Biznes wiceminister aktywów państwowych Grzegorz Wrona. Ocenił, że trzeba zrobić wszystko, by wydobywać węgiel tam, gdzie jest to opłacalne i bezpieczne.",
+      "pubDate": "Thu, 5 Mar 2026 09:02:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/7/2/8292097a4dc67d-948-568-201-220-1651-990.jpg",
+      "dateISO": "2026-03-05T08:02:00.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Ropa się nie zatrzymuje. Cena baryłki pokonuje kolejne szczyty",
+      "link": "https://businessinsider.com.pl/gielda/surowce/ciesnina-ormuz-blokuje-dostawy-ropy-globalne-rynki-energii-pod-presja/7bsl5ej",
+      "description": "Ceny ropy naftowej ponownie rosną, a globalne rynki energii znajdują się pod coraz większą presją. Trwający konflikt na Bliskim Wschodzie zaczyna zakłócać przepływy surowców i zmusza największych importerów do podejmowania nadzwyczajnych działań. Inwestorzy szczególnie obawiają się o los jednego z n",
+      "pubDate": "Thu, 05 Mar 2026 07:56:24 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/umck9kpTURBXy8wOGRlMDBlMTRkMTg4MDhlYjhiNmNiMWFiZTYxOGYxYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-05T07:56:24.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Złoty pod podwójną presją. Frank niemal rekordowo mocny",
+      "link": "https://www.bankier.pl/wiadomosc/Zloty-pod-podwojna-presja-Frank-niemal-rekordowo-mocny-9093338.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Kurs euro usiłował sforsować linię 4,30 zł, podczas gdy frank szwajcarski na parze z euro znalazł się blisko najmocniejszych poziomów w historii.",
+      "pubDate": "Thu, 5 Mar 2026 08:55:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/f/b0d632be613530-948-568-495-33-2864-1718.jpg",
+      "dateISO": "2026-03-05T07:55:00.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Cena złota rosła zbyt szybko. Co się dzieje obecnie?",
+      "link": "https://businessinsider.com.pl/gielda/zloto-za-drogie-na-bezpieczna-przystan-wojna-w-iranie-to-pokazala/6p6sdje",
+      "description": "Wiele banków centralnych na świecie rozpoczynało skup złota już po aneksji Krymu przez Rosję. NBP zaczął w 2018 r. Wszystko to miało przyczynę m.in. we wzroście niepokojów wojennych ze strony Rosji oraz w masowym wcześniej dodruku pieniądza w dużych gospodarkach. Złoto było \"bezpieczną przystanią\". ",
+      "pubDate": "Thu, 05 Mar 2026 07:55:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/v-Dk9kpTURBXy9kZjAxMGNmOTQ5NWRiZGFiOTYyMGE2ZDc1M2JmNjZjZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-05T07:55:00.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Trzynasta emerytura nie dla każdego. Trzy grupy nie dostaną świadczenia",
+      "link": "https://businessinsider.com.pl/praca/emerytury/zus-wyplaci-trzynastki-te-grupy-zawodowe-nie-dostana-pieniedzy/pq8dbr2",
+      "description": "\"Trzynastka\" to zastrzyk gotówki, na który czekają wszyscy seniorzy. Jednak nie każdy otrzyma dodatkowe świadczenie. Wśród trzech grup bez trzynastej emerytury są m.in. sportowcy z sukcesami na igrzyskach olimpijskich.",
+      "pubDate": "Thu, 05 Mar 2026 07:54:57 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/6XUk9kpTURBXy85NTc2YmU1MGY5YWI5YjI2NmYxNmE0ODYxMTYzZjA1NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-05T07:54:57.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Porozumienie w JSW powinno być wcześniej. \"Spółka straciła czas i możliwości\"",
+      "link": "https://www.bankier.pl/wiadomosc/Porozumienie-w-JSW-powinno-byc-wczesniej-Spolka-stracila-czas-i-mozliwosci-9093308.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Porozumienie JSW ze związkami, będące częścią planu restrukturyzacji, powinno nastąpić wcześniej - ocenił w wywiadzie dla PAP Biznes wiceminister aktywów państwowych Grzegorz Wrona. Dodał, że kluczowe jest utrzymanie płynności, a Agencja Rozwoju Przemysłu może przejąć wystawione na sprzedaż aktywa.",
+      "pubDate": "Thu, 5 Mar 2026 08:54:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/c/d/a70c7b46e9425d-945-560-0-97-1500-899.jpg",
+      "dateISO": "2026-03-05T07:54:00.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "WIG20. Jak rozumieć najważniejszy indeks GPW w 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/wig20-przewodnik-po-najwazniejszym-indeksie-polskiej-gieldy-krok-po-kroku/ewvbnwt",
+      "description": "Powiedzieć, że WIG20 to kluczowy indeks na Giełdzie Papierów Wartościowych, to właściwie nic nie powiedzieć. Eksperci traktują go jako barometr polskiej gospodarki. Wahania tego indeksu GPW mają wpływ na cały polski rynek kapitałowy. Zrozumienie przyczyn zmian indeksu pomaga podejmować lepsze decyzj",
+      "pubDate": "Thu, 05 Mar 2026 07:53:42 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Igbk9kpTURBXy9kYmNlNmEyMjY3ZGUwNzk1OWFiMGM4MGNkN2E1NWMzOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-05T07:53:42.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Ceny gazu w Europie znów w górę po jednodniowej przerwie",
+      "link": "https://www.bankier.pl/wiadomosc/Ceny-gazu-w-Europie-znow-w-gore-po-jednodniowej-przerwie-9093334.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ceny gazu w Europie rosną po jednodniowej przerwie. Trwająca na Bliskim Wschodzie wojna zakłóca przepływy paliw energetycznych, w tym gazu - informują maklerzy.",
+      "pubDate": "Thu, 5 Mar 2026 08:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/0/3ba2eda3023f8b-948-568-4-0-1915-1149.jpg",
+      "dateISO": "2026-03-05T07:50:00.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
       "title": "Wojna w Iranie. Rząd rzuca koło ratunkowe dla turystów, ale nie wszystkich",
       "link": "https://businessinsider.com.pl/prawo/wojna-na-bliskim-wschodzie-a-zwroty-za-wycieczki-jak-odzyskac-pieniadze-z/hd5sj25",
       "description": "Rząd uruchomił Turystyczny Fundusz Pomocowy dla części turystów poszkodowanych przez wojnę na Bliskim Wschodzie. O zwrot pieniędzy mogą starać się tylko te osoby, których imprezy turystyczne wykupione w biurach podróży miały się rozpocząć w terminie od 28 lutego 2026 r. do 27 marca 2026 r. Wnioski m",
@@ -8,14 +320,14 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": null,
+      "image": "https://ocdn.eu/pulscms-transforms/1/21Xk9kpTURBXy8zZGExYmY0NmE3NDBlOWJhYzMyMWEwYTc1ZmYxODE5ZC5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-03-05T07:44:59.000Z",
       "dateFormatted": "5 marca 2026"
     },
     {
       "title": "Cła Trumpa uznane za nielegalne. Firmy czekają na zwrot miliardów dolarów",
       "link": "https://businessinsider.com.pl/gospodarka/zwroty-dla-importerow-po-anulowaniu-cel-trumpa-chodzi-o-miliardy-dolarow/k1nefcp",
-      "description": "Amerykański sąd nakazał zwrot ceł uznanych za nielegalnie pobrane, co stawia służbę celną USA przed ogromnym wyzwaniem administracyjnym — informuje Reuters. Urzędnicy będą musieli przeanalizować ponad 70 mln zgłoszeń importowych, aby ustalić, które firmy mają prawo do zwrotu pieniędzy.",
+      "description": "Amerykański sąd nakazał zwrot ceł uznanych za nielegalnie pobrane, co stawia służbę celną USA przed ogromnym wyzwaniem administracyjnym — informuje Reuters. Urzędnicy będą musieli przeanalizować ponad 70 mln zgłoszeń importowych, aby ustalić, które firmy mają prawo do zwrotu pieniędzy. Ekonomiści z ",
       "pubDate": "Thu, 05 Mar 2026 07:39:48 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -25,15 +337,15 @@
       "dateFormatted": "5 marca 2026"
     },
     {
-      "title": "Polska wysyła kontyngent wojskowy na ratunek Polakom na Bliskim Wschodzie",
-      "link": "https://www.bankier.pl/wiadomosc/Polska-wysyla-kontyngent-wojskowy-na-ratunek-Polakom-na-Bliskim-Wschodzie-9093236.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zgodnie z postanowieniem prezydenta Karola Nawrockiego od 5 do 31 marca 2026 r. do 150 żołnierzy może zostać zaangażowanych przy ewakuacji z krajów Bliskiego Wschodu obywateli polskich, w szczególności osób wymagających wsparcia medycznego.",
-      "pubDate": "Thu, 5 Mar 2026 08:30:00 +0100",
+      "title": "Jak sfinansować armię bez łamania Konstytucji? Pałac Prezydencki odkrywa karty",
+      "link": "https://www.bankier.pl/wiadomosc/Jak-sfinansowac-armie-bez-lamania-Konstytucji-Palac-Prezydencki-odkrywa-karty-9093318.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W prezydenckiej propozycji programu \"SAFE 0 proc.\" nie chodzi o pokrywanie deficytu budżetu państwa przez Narodowy Bank Polski w związku z wydatkami na zbrojenia, tylko i wykorzystanie do tego celu zysków z rezerw walutowych NBP - wynika z wypowiedzi rzecznika prezydenta, Rafała Leśkiewicza, w Polsa",
+      "pubDate": "Thu, 5 Mar 2026 08:32:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/5/be494f69db5a97-948-568-0-224-3186-1912.jpg",
-      "dateISO": "2026-03-05T07:30:00.000Z",
+      "image": "http://galeria.bankier.pl/p/8/b/9305cdc1036188-948-568-40-10-3960-2375.jpg",
+      "dateISO": "2026-03-05T07:32:00.000Z",
       "dateFormatted": "5 marca 2026"
     },
     {
@@ -46,6 +358,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/5/17236ac7d75bce-948-568-86-0-3600-2159.jpg",
       "dateISO": "2026-03-05T07:30:00.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Wypełnienie magazynów gazu wynosi ok. 50 proc. \"Jedno z najwyższych w Europie\"",
+      "link": "https://www.bankier.pl/wiadomosc/Wypelnienie-magazynow-gazu-wynosi-ok-50-proc-Jedno-z-najwyzszych-w-Europie-9093319.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "System magazynowania gazu w Polsce działa stabilnie i bez zakłóceń, a operator jest przygotowany na różne scenariusze w związku z sytuacją geopolityczną na Bliskim Wschodzie – poinformował operator systemu magazynowania Gas Storage Poland (GSP).",
+      "pubDate": "Thu, 5 Mar 2026 08:16:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/9/5b8892d34e4f80-948-568-22-97-2977-1786.jpg",
+      "dateISO": "2026-03-05T07:16:00.000Z",
       "dateFormatted": "5 marca 2026"
     },
     {
@@ -70,6 +394,18 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/RI0k9kpTURBXy8wYjY3MmM2Y2YyZTg1ODhkZWZhZGE3NDgwOTA3OWNlNC5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-03-05T07:12:10.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Rozszerzona inwigilacja służb imigracyjnych. Rozpoznawanie twarzy i analiza danych",
+      "link": "https://www.bankier.pl/wiadomosc/Rozszerzona-inwigilacja-sluzb-imigracyjnych-Rozpoznawanie-twarzy-i-analiza-danych-9093251.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Administracja USA znacząco rozszerzyła system inwigilacji wykorzystywany przez służby imigracyjne. Według aktywistów i dziennikarzy obejmuje on rozpoznawanie twarzy i analizę baz danych. Narzędzia te mogą być używane także wobec obywateli krytykujących politykę rządu - alarmuje radio publiczne NPR.",
+      "pubDate": "Thu, 5 Mar 2026 08:11:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/1/d5cc5686bcf6b2-948-568-0-33-4500-2699.jpg",
+      "dateISO": "2026-03-05T07:11:00.000Z",
       "dateFormatted": "5 marca 2026"
     },
     {
@@ -109,7 +445,7 @@
       "dateFormatted": "5 marca 2026"
     },
     {
-      "title": "Złote rezerwy NBP na \"polskie SAFE\"? Szef Kancelarii Premiera o pomyśle Nawrockiego",
+      "title": "Złote rezerwy NBP na \"polskie SAFE\"? Szef Kancelarii Prezydenta o pomyśle Nawrockiego",
       "link": "https://www.bankier.pl/wiadomosc/Zlote-rezerwy-NBP-na-polskie-SAFE-Szef-Kancelarii-Premiera-o-pomysle-Nawrockiego-9093184.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Szef kancelarii prezydenta Zbigniew Bogucki ocenił, że zaproponowany przez prezydenta Karola Nawrockiego polski program \"SAFE 0 proc.\" mógłby być sfinansowany z rezerw walutowych NBP deponowanych w złocie.",
       "pubDate": "Thu, 5 Mar 2026 08:00:00 +0100",
@@ -135,7 +471,7 @@
     {
       "title": "Druga gospodarka świata wciska hamulce. Najmocniej od 35 lat",
       "link": "https://businessinsider.com.pl/gospodarka/chiny-z-najnizszym-pkb-od-dekad-armia-priorytetem-xi-jinpinga/z4d3qwv",
-      "description": "Premier Chin Li Qiang zapowiedział najniższy cel wzrostu PKB od dekad, mniejsze będą także wydatki na obronność. Odpowiedzią na \"bezprecedensowe wstrząsy zewnętrzne\" mają być natomiast inwestycje w sztuczną inteligencję i technologie kwantowe. Analitycy wskazują, że Pekin przedkłada obecnie bezpiecz",
+      "description": "Premier Chin Li Qiang zapowiedział najniższy cel wzrostu PKB od dekad, mniejsze będą także wydatki na obronność. Jest przygotowywana też odpowiedź na \"bezprecedensowe wstrząsy zewnętrzne\". Analitycy wskazują, że Pekin zdecydowanie zmienia priorytety.",
       "pubDate": "Thu, 05 Mar 2026 06:44:44 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -193,18 +529,6 @@
       "dateFormatted": "5 marca 2026"
     },
     {
-      "title": "Najlepszy moment na emeryturę w 2026 r.? Eksperci odpowiadają",
-      "link": "https://businessinsider.com.pl/praca/emerytury/kiedy-przejsc-na-emeryture-w-2026-roku-dlaczego-lipiec-to-najlepszy-moment/4xmdz3j",
-      "description": "Kiedy najlepiej przejść na emeryturę? — to pytanie, które zada sobie większość osób zbliżających się do wieku emerytalnego. Eksperci wskazują dwa miesiące, które mogą przynieść największe korzyści finansowe. Wyjaśniamy, dlaczego te terminy są szczególnie opłacalne i jak można zwiększyć swoją przyszł",
-      "pubDate": "Thu, 05 Mar 2026 06:33:13 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/R73k9kpTURBXy9mMjFkZTczOGY2OGNlNjQ2MzdiNzI0MTMyZGFhYmY3Yi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-05T06:33:13.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
       "title": "\"NATO musi bronić Arktyki\". Zbrojeniowa rewolucja w Ottawie",
       "link": "https://www.bankier.pl/wiadomosc/NATO-musi-bronic-Arktyki-Zbrojeniowa-rewolucja-w-Ottawie-9093243.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Kanada osiągnie poziom wydatków na obronność w wysokości 2 proc. PKB w tym roku, a 5 proc. do 2035 r. – poinformowała w środę minister spraw zagranicznych Anita Anand. Wezwała kraje NATO do zmiany polityki wobec Arktyki.",
@@ -229,18 +553,6 @@
       "dateFormatted": "5 marca 2026"
     },
     {
-      "title": "Polska bomba atomowa? Jest jasny głos z USA",
-      "link": "https://businessinsider.com.pl/wiadomosci/to-amerykanie-mysla-o-polskiej-bombie-atomowej/zjetwfh",
-      "description": "Wiceszef Pentagonu Elbridge Colby stwierdził, że USA byłyby przeciwne rozwijaniu zdolności nuklearnych przez takie państwa jak Polska, Niemcy czy kraje skandynawskie.",
-      "pubDate": "Thu, 05 Mar 2026 06:25:28 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/GiLk9kpTURBXy9jM2Y1YmYxMTVjODNiODMxMGNmZjZjZjAwMjUyODE3Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-05T06:25:28.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
       "title": "Mandat zamiast więzienia za hejt? Rośnie presja na złagodzenie sankcji",
       "link": "https://www.bankier.pl/wiadomosc/Mandat-zamiast-wiezienia-za-hejt-Rosnie-presja-na-zlagodzenie-sankcji-9093247.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "58 proc. ekspertów zapytanych przez „Rzeczpospolitą” jest przeciwnych depenalizacji zniesławień. Taki sam odsetek ankietowanych uważa jednak, że czyn ten nie powinien być zagrożony karą pozbawienia wolności - czytamy w czwartkowej „Rzeczpospolitej\".",
@@ -250,18 +562,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/9/701e875012ac60-948-568-0-44-1773-1063.jpg",
       "dateISO": "2026-03-05T06:25:00.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
-      "title": "Robert Tomaszewski przejmuje stery w LINK4. PZU szykuje kluczową decyzję",
-      "link": "https://businessinsider.com.pl/biznes/robert-tomaszewski-nowym-prezesem-link4-przed-nim-wazne-wyzwania/pz1c4cv",
-      "description": "Robert Tomaszewski zostanie nowym prezesem LINK4 — podaje \"Rzeczpospolita\". Menedżer przez lata związany był z ERGO Hestią, gdzie odpowiadał za kluczowe projekty technologiczne i sprzedażowe.",
-      "pubDate": "Thu, 05 Mar 2026 06:22:07 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Gmik9kpTURBXy9mMmU5NzdlNDIxODZkZjY4NWFhOTNhNmZjYjRmNmJhOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-05T06:22:07.000Z",
       "dateFormatted": "5 marca 2026"
     },
     {
@@ -289,42 +589,6 @@
       "dateFormatted": "5 marca 2026"
     },
     {
-      "title": "Rząd nie zyska miliardów z luki VAT. Koniec mitów",
-      "link": "https://businessinsider.com.pl/firmy/podatki/nadzwyczajne-dochody-z-luki-vat-eksperci-obalaja-mity/3v8v54c",
-      "description": "Państwo nie może liczyć na to, że z likwidacji luki VAT osiągnie nadzwyczajne dochody — wynika z raportu Instytutu Finansów Publicznych. Jak pisze \"Rzeczpospolita\", wielka luka VAT to mit i polityczny pretekst do nowych wydatków.",
-      "pubDate": "Thu, 05 Mar 2026 06:05:07 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Ieek9kpTURBXy8xY2RjMjEzOGIzZTQ4ODg2ZTQwYWE4NjhjOGEyNGFjMy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-05T06:05:07.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
-      "title": "Wyrok w sprawie „trumny na kółkach”. Sąd w Olsztynie dziś ogłosi decyzję",
-      "link": "https://www.bankier.pl/wiadomosc/Wyrok-w-sprawie-trumny-na-kolkach-Sad-w-Olsztynie-dzis-oglosi-decyzje-9093298.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sąd Okręgowy w Olsztynie ma ogłosić w czwartek wyrok w sprawie apelacyjnej Pawła K., oskarżonego o spowodowanie wypadku, w którym zginęły dwie kobiety. Łódzki adwokat, znany z określenia auta ofiar jako „trumny na kółkach”, został skazany w I instancji na dwa lata więzienia.",
-      "pubDate": "Thu, 5 Mar 2026 07:05:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/f/297f29157f6921-948-568-220-100-3400-2040.jpg",
-      "dateISO": "2026-03-05T06:05:00.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
-      "title": "Wojskowe samoloty lecą na Bliski Wschód. Pomogą Polakom",
-      "link": "https://businessinsider.com.pl/wiadomosci/wystartowaly-samoloty-sil-powietrznych-rp-wespra-ewakuacje/9rtngjk",
-      "description": "Samoloty Sił Powietrznych RP wystartowały z Polski, aby wesprzeć działania związane z ewakuacją polskich obywateli z rejonu Bliskiego Wschodu — poinformowało Dowództwo Operacyjne Rodzajów Sił Zbrojnych.",
-      "pubDate": "Thu, 05 Mar 2026 05:58:45 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/gduk9kpTURBXy80NmVmMGNiYzM4YjAxMDUyZjBmMGM0NWE2Y2NhMWEwOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-05T05:58:45.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
       "title": "Iran zagroził atakiem na izraelski ośrodek nuklearny",
       "link": "https://www.bankier.pl/wiadomosc/Iran-zagrozil-atakiem-na-izraelski-osrodek-nuklearny-9093267.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Irańska agencja ISNA podała, że Korpus Strażników Rewolucji Islamskiej (IRGC) zagroził w środę atakiem na izraelski ośrodek nuklearny w Dimonie. Prezydent USA Donald Trump ocenił powodzenie trwającej od soboty operacji izraelsko-amerykańskiej przeciwko Iranowi na 15 punktów w 10 punktowej skali.",
@@ -346,42 +610,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/4/d64e78a9668c28-948-568-39-0-1289-773.jpg",
       "dateISO": "2026-03-05T05:45:00.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
-      "title": "Chiny w ciągu dwóch lat pięciokrotnie zwiększą produkcję układów scalonych.",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/tak-chiny-uniezaleznily-sie-od-swiata-juz-nie-potrzebuja-kupowac-ukladow-ai/5kt11wt",
-      "description": "Chiny intensyfikują wysiłki na rzecz rozwoju krajowej produkcji układów scalonych. Państwo dąży do pięciokrotnego wzrostu produkcji półprzewodników w ciągu dwóch lat. Przy silnym wsparciu rządu, najwięksi chińscy producenci planują rozpocząć produkcję korzystając z najnowocześniejszej dostępnej tech",
-      "pubDate": "Thu, 05 Mar 2026 05:41:20 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Pnmk9kpTURBXy81Zjg2ZTdjYTg1MjQxNzMwMTY5OWRkYWQzMTI0ZWViMy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-05T05:41:20.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
-      "title": "U.S. Navy w Cieśninie Ormuz. Jest zapowiedź",
-      "link": "https://businessinsider.com.pl/gospodarka/dzieki-temu-statki-w-ciesninie-ormuz-maja-byc-bezpieczne-jest-pomysl/1v9h9pp",
-      "description": "Sekretarz energii USA Chris Wright zapowiedział, że amerykańska marynarka wojenna będzie eskortować tankowce przepływające przez Cieśninę Ormuz. Ma to się stać \"najwcześniej jak będzie to możliwe\".",
-      "pubDate": "Thu, 05 Mar 2026 05:33:53 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/0Emk9kpTURBXy9jNTA2YWM1YWI4OGQ4ZjEzYjlkNDQ1MDY1YzczNGYwOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-05T05:33:53.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
-      "title": "W ataku na Iran USA używa dronów kamikaze wzorowanych na... irańskich Shahedach. Jeden z nich spadł w Iraku",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/usa-atakuja-iran-dronami-kamikaze-jego-wlasna-bronia/258lqt7",
-      "description": "Centralne Dowództwo USA potwierdziło, że w sobotnich nalotach na Iran po raz pierwszy został użyty w walce nowy system LUCAS. W ramach operacji Epic Fury wykorzystano autonomiczne drony kamikaze, których celem były obiekty dowodzenia i kontroli Korpusu Strażników Rewolucji Islamskiej, irańskie syste",
-      "pubDate": "Thu, 05 Mar 2026 05:24:57 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/CXek9kpTURBXy9jOGQ5ZWJlY2UxMTQ4ZjBlNDA1ZDhmOWU2NzJiY2VhYS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-05T05:24:57.000Z",
       "dateFormatted": "5 marca 2026"
     },
     {
@@ -409,114 +637,6 @@
       "dateFormatted": "5 marca 2026"
     },
     {
-      "title": "BNP Paribas BP chce wypłacić 10,2 zł dywidendy na akcję",
-      "link": "https://www.bankier.pl/wiadomosc/BNP-Paribas-BP-chce-wyplacic-10-2-zl-dywidendy-na-akcje-9093274.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Zarząd BNP Paribas Bank Polska rekomenduje, by z zysku netto za 2025 roku w wysokości 3,01 mld zł przeznaczyć na wypłatę dywidendy kwotę ok. 1,51 mld zł, co dałoby 10,2 zł dywidendy na akcję - poinformował bank w komunikacie.",
-      "pubDate": "Thu, 5 Mar 2026 06:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/6/8/5cc32bd5dc6935-747-448-3-105-747-448.jpg",
-      "dateISO": "2026-03-05T05:10:00.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
-      "title": "Kurs JPY/PLN 05 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-jena-japonskiego-dzisiaj-po-ile-jest-jen-japonski-5-marca-2026-r/epp6lz2",
-      "description": "Jeśli wybierasz się do Japonii lub prowadzisz wymianę handlową z tym krajem, warto poznać aktualne notowania kursu jena. W tym artykule pokazujemy, jak zmienia się kurs japońskiej waluty (JPY) w ujęciu dziennym oraz tygodniowym. Na tej podstawie na pewno łatwiej będzie podjąć decyzję o właściwym cza",
-      "pubDate": "Thu, 05 Mar 2026 05:04:40 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/-b6k9kpTURBXy9lZjMwZWQ5NzAzMGNjN2RiZjcxYWZlMzIwMDk4N2EyZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-05T05:04:40.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
-      "title": "Kurs EUR/PLN 05 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-euro-dzisiaj-po-ile-jest-euro-5-marca-2026-r/1rtrcl4",
-      "description": "Bieżący kurs waluty euro z dnia 05 marca 2026 z godziny 7 rano oraz zmiany kursu dzień do dnia i tydzień do tygodnia. Jak się zmienił kurs w tym okresie i czy warto dziś wymieniać złotówki na euro? Aktualny kurs euro interesuje turystów, ale przede wszystkim przedsiębiorców, którzy zajmują się impor",
-      "pubDate": "Thu, 05 Mar 2026 05:04:28 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/DEhk9kpTURBXy9kNzYwMDkzOTZiYjgwZGY2NTI0N2JhMjRjY2EzYzY0Mi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-05T05:04:28.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
-      "title": "Kurs USD/PLN 05 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-dolara-amerykanskiego-dzisiaj-po-ile-jest-dolar-amerykanski-5-marca-2026-r/n5ns5fc",
-      "description": "Zobacz aktualne notowania waluty USD. Pokazujemy, jak zmienia się kurs amerykańskiej waluty w stosunku do polskiej złotówki. Czy PLN umacnia się, czy słabnie? Wczoraj kurs USD wynosił 3,6839 zł.",
-      "pubDate": "Thu, 05 Mar 2026 05:04:26 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/EBHk9kpTURBXy85YWUwYmNmZGYyMWIwODNmOTkzNDgzZjgzZDVjYTQ1NS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-05T05:04:26.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
-      "title": "Kurs CHF/PLN 05 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-franka-szwajcarskiego-dzisiaj-po-ile-jest-frank-szwajcarski-5-marca-2026-r/80wkb2k",
-      "description": "Oto bieżące notowania kursu franka szwajcarskiego (CHF). Poznaj, jak zmienia się kurs franka w stosunku do polskiej waluty (PLN). Czy polska waluta umacnia się, czy osłabia? Wczoraj kurs franka wynosił: 4,7211 zł. O dzisiejszych zmianach dowiesz się z tego artykułu.",
-      "pubDate": "Thu, 05 Mar 2026 05:04:11 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/0wvk9kpTURBXy84MDI3MzFlODBkMTQ3MTMyZTJlNTE2NjMxMTQ4MmNjZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-05T05:04:11.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
-      "title": "Kurs GBP/PLN 05 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-funtow-brytyjskich-dzisiaj-po-ile-jest-funt-brytyjski-5-marca-2026-r/1tk0snl",
-      "description": "W tym artykule znajdują się informacje o bieżącym kursie funta brytyjskiego 05 marca 2026. Wczorajszy wynosił4,9127 zł, jak zmienił się dziś? Sprawdzisz poniżej.",
-      "pubDate": "Thu, 05 Mar 2026 05:04:10 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/yvxk9kqTURBXy9kYjdmYjNhNWUyMTYxZTA0MmY3NzYwMzgwZWRhNjY3Yi5qcGVnkZMCzQSwAN4AAaEwAQ",
-      "dateISO": "2026-03-05T05:04:10.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
-      "title": "Kurs CZK/PLN 05 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-czeskiej-dzisiaj-po-ile-jest-korona-czeska-5-marca-2026-r/sbgbp63",
-      "description": "Jak dziś wygląda aktualny kurs korony czeskiej względem złotego? Czy opłaca się wymieniać korony czeskie na polskie złotówki? Wczoraj wartość CZK wyniosła: 0,1753 zł. Sprawdź dane dla 05 marca 2026.",
-      "pubDate": "Thu, 05 Mar 2026 05:03:56 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/fjuk9kpTURBXy8xNDkxNjk4YmYxYmQ4OGM0YjI2MDQyYjRmNjY0Mzk0Ny5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-05T05:03:56.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
-      "title": "Kurs NOK/PLN 05 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-norweskiej-dzisiaj-po-ile-jest-korona-norweska-5-marca-2026-r/x8xj7cf",
-      "description": "Chcesz sprawdzić, jaki jest kurs korony norweskiej? Interesują cię bieżące notowania NOK? W tym miejscu sprawdzisz, czy złoty umacnia się, czy słabnie względem norweskiej waluty. Wczorajszy kurs wynosił 0,3821 zł, warto wiedzieć, jak kurs wygląda aktualnie.",
-      "pubDate": "Thu, 05 Mar 2026 05:03:55 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/-32k9kpTURBXy9lM2FlNTdhZjBiMDM3ODBmNmE1MTA2YTc3Mzk2ZWQ1Yi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-05T05:03:55.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
-      "title": "Janusz Krypto. Bitcoin, czyli cyfrowy śmieć, czy cyfrowe złoto? Spór o fundamenty",
-      "link": "https://www.bankier.pl/wiadomosc/Jakie-sa-fundamenty-bitcoina-Cyfrowe-zloto-czy-cyfrowy-smiec-9092766.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Czy bitcoin to nowocześniejsza wersja bańki na tulipanach, piramida finansowa lub narzędzie ruskich agentów (ewentualnie ruskiej mafii)? Nasz audytor Janusz wystawił znajomych ekspertów na grad trudnych pytań o fundamenty i sens kryptowalut. Czy za linijkami kodu stoi realna wartość, czy jedynie \"te",
-      "pubDate": "Thu, 5 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/4/0e130da366194b-948-568-0-197-2550-1529.jpg",
-      "dateISO": "2026-03-05T05:00:00.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
       "title": "Na potęgę odbudowują kadry. Zatrudnią jeszcze prawie 9 tys. osób",
       "link": "https://www.bankier.pl/wiadomosc/Rekordowa-liczba-funkcjonariuszy-Po-fali-odejsc-Policja-odbudowuje-kadry-9091714.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Ubiegły rok był drugim z rzędu, w którym Policja skoncentrowała się na uzupełnianiu swoich kadr po masowych odejściach na przełomie lat 2023/2024. Wysiłki te przyniosły efekt – na koniec 2025 roku służbę pełniło blisko 102,3 tys. osób, co stanowi rekord w historii formacji. Mimo to, wciąż jeszcze po",
@@ -525,30 +645,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/8/9/ee3e10bdecaf21-948-568-0-14-1900-1139.jpg",
-      "dateISO": "2026-03-05T05:00:00.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
-      "title": "Sprzedaż mieszkania przed upływem 5 lat. Kiedy można uniknąć 19-proc. podatku",
-      "link": "https://www.bankier.pl/wiadomosc/Sprzedaz-nieruchomosci-a-podatek-W-tych-przypadkach-nie-zaplacisz-19-proc-9092612.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sprzedaż mieszkania przed upływem 5 lat nie zawsze musi oznaczać konieczność zapłaty podatku. Choć standardowa stawka wynosi 19 proc., przepisy przewidują zwolnienie dla osób, które pieniądze z transakcji przeznaczą na własne cele mieszkaniowe i zrobią to w określonym terminie.",
-      "pubDate": "Thu, 5 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/9/c33afcbfa2b8c6-948-568-0-0-3024-1814.jpg",
-      "dateISO": "2026-03-05T05:00:00.000Z",
-      "dateFormatted": "5 marca 2026"
-    },
-    {
-      "title": "Jak szybciej dostać zwrot podatku? Te sposoby skrócą czas do otrzymania nadpłaty",
-      "link": "https://www.bankier.pl/wiadomosc/Jak-szybciej-dostac-zwrot-podatku-za-rozliczenie-2025-r-Te-sposoby-skroca-czas-do-otrzymania-nadplaty-9092872.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zamiast czekać kilkanaście tygodni na należne pieniądze, nadpłatę podatku możesz zobaczyć na swoim koncie znacznie szybciej. Masz do wyboru kilka metod. Które rozwiązania warto wziąć pod uwagę i kiedy można spodziewać się zwrotu?",
-      "pubDate": "Thu, 5 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/4/c0c68332eea680-948-568-15-9-1165-699.jpg",
       "dateISO": "2026-03-05T05:00:00.000Z",
       "dateFormatted": "5 marca 2026"
     },
@@ -565,14 +661,26 @@
       "dateFormatted": "5 marca 2026"
     },
     {
-      "title": "Fundacje i domy tymczasowe nielegalne? W ochronie zwierząt szykuje się prawdziwy paraliż",
-      "link": "https://www.bankier.pl/wiadomosc/Kontrowersyjna-Ustawa-o-zdrowiu-zwierzat-Dlaczego-organizacje-prozwierzece-protestuja-9092923.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Już 18 marca 2026 roku wchodzi w życie Ustawa o zdrowiu zwierząt, która wprowadza fundamentalne zmiany w funkcjonowaniu placówek opiekujących się bezdomnymi czworonogami. Choć resort rolnictwa przekonuje o konieczności dostosowania krajowych przepisów do wymogów unijnych, organizacje prozwierzęce al",
+      "title": "Janusz Krypto. Bitcoin, czyli cyfrowy śmieć, czy cyfrowe złoto? Spór o fundamenty",
+      "link": "https://www.bankier.pl/wiadomosc/Jakie-sa-fundamenty-bitcoina-Cyfrowe-zloto-czy-cyfrowy-smiec-9092766.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Czy bitcoin to nowocześniejsza wersja bańki na tulipanach, piramida finansowa lub narzędzie ruskich agentów (ewentualnie ruskiej mafii)? Nasz audytor Janusz wystawił znajomych ekspertów na grad trudnych pytań o fundamenty i sens kryptowalut. Czy za linijkami kodu stoi realna wartość, czy jedynie \"te",
       "pubDate": "Thu, 5 Mar 2026 06:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/0/7fd0f131a5250a-948-568-0-370-3800-2279.jpg",
+      "image": "http://galeria.bankier.pl/p/5/4/0e130da366194b-948-568-0-197-2550-1529.jpg",
+      "dateISO": "2026-03-05T05:00:00.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Jak szybciej dostać zwrot podatku? Te sposoby skrócą czas do otrzymania nadpłaty",
+      "link": "https://www.bankier.pl/wiadomosc/Jak-szybciej-dostac-zwrot-podatku-za-rozliczenie-2025-r-Te-sposoby-skroca-czas-do-otrzymania-nadplaty-9092872.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zamiast czekać kilkanaście tygodni na należne pieniądze, nadpłatę podatku możesz zobaczyć na swoim koncie znacznie szybciej. Masz do wyboru kilka metod. Które rozwiązania warto wziąć pod uwagę i kiedy można spodziewać się zwrotu?",
+      "pubDate": "Thu, 5 Mar 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/4/c0c68332eea680-948-568-15-9-1165-699.jpg",
       "dateISO": "2026-03-05T05:00:00.000Z",
       "dateFormatted": "5 marca 2026"
     },
@@ -589,15 +697,27 @@
       "dateFormatted": "5 marca 2026"
     },
     {
-      "title": "Strefa buforowa przy granicy z Białorusią przedłużona o kolejne 90 dni",
-      "link": "https://www.bankier.pl/wiadomosc/Strefa-buforowa-przy-granicy-z-Bialorusia-przedluzona-o-kolejne-90-dni-9093250.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Od czwartku na kolejne 90 dni przedłużony został czasowy zakaz przebywania w strefie nadgranicznej przyległej do granicy państwowej z Białorusią. Strefa objęta zakazem przebywania obejmuje odcinek granicy o długości ponad 78 km.",
-      "pubDate": "Thu, 5 Mar 2026 05:13:00 +0100",
+      "title": "Sprzedaż mieszkania przed upływem 5 lat. Kiedy można uniknąć 19-proc. podatku",
+      "link": "https://www.bankier.pl/wiadomosc/Sprzedaz-nieruchomosci-a-podatek-W-tych-przypadkach-nie-zaplacisz-19-proc-9092612.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sprzedaż mieszkania przed upływem 5 lat nie zawsze musi oznaczać konieczność zapłaty podatku. Choć standardowa stawka wynosi 19 proc., przepisy przewidują zwolnienie dla osób, które pieniądze z transakcji przeznaczą na własne cele mieszkaniowe i zrobią to w określonym terminie.",
+      "pubDate": "Thu, 5 Mar 2026 06:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/2/95d4ade2893b5c-948-568-6-99-2493-1496.jpg",
-      "dateISO": "2026-03-05T04:13:00.000Z",
+      "image": "http://galeria.bankier.pl/p/e/9/c33afcbfa2b8c6-948-568-0-0-3024-1814.jpg",
+      "dateISO": "2026-03-05T05:00:00.000Z",
+      "dateFormatted": "5 marca 2026"
+    },
+    {
+      "title": "Fundacje i domy tymczasowe nielegalne? W ochronie zwierząt szykuje się prawdziwy paraliż",
+      "link": "https://www.bankier.pl/wiadomosc/Kontrowersyjna-Ustawa-o-zdrowiu-zwierzat-Dlaczego-organizacje-prozwierzece-protestuja-9092923.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Już 18 marca 2026 roku wchodzi w życie Ustawa o zdrowiu zwierząt, która wprowadza fundamentalne zmiany w funkcjonowaniu placówek opiekujących się bezdomnymi czworonogami. Choć resort rolnictwa przekonuje o konieczności dostosowania krajowych przepisów do wymogów unijnych, organizacje prozwierzęce al",
+      "pubDate": "Thu, 5 Mar 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/0/7fd0f131a5250a-948-568-0-370-3800-2279.jpg",
+      "dateISO": "2026-03-05T05:00:00.000Z",
       "dateFormatted": "5 marca 2026"
     },
     {
@@ -637,18 +757,6 @@
       "dateFormatted": "4 marca 2026"
     },
     {
-      "title": "Iran odciąga uwagę od Ukrainy. Sikorski i Kallas: Bliski Wschód nie może przesłonić tragedii",
-      "link": "https://www.bankier.pl/wiadomosc/Iran-odciaga-uwage-od-Ukrainy-Sikorski-i-Kallas-Bliski-Wschod-nie-moze-przeslonic-tragedii-9093166.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Amerykańsko-rosyjskie negocjacje wobec Ukrainy to musi być proces, dzięki któremu Ukraina będzie w bezpiecznych granicach i będzie mogła negocjować swoje członkostwo w Unii Europejskiej – powiedział w środę wicepremier, szef MSZ Radosław Sikorski po nieformalnym spotkaniu Rady Państw Morza Bałtyckie",
-      "pubDate": "Wed, 4 Mar 2026 20:12:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/9/9baf2959d62ae3-948-568-0-276-3343-2006.jpg",
-      "dateISO": "2026-03-04T19:12:00.000Z",
-      "dateFormatted": "4 marca 2026"
-    },
-    {
       "title": "Hiszpania robi krok wstecz? Biały Dom: Madryt zgadza się na współpracę wojskową. Hiszpania zaprzecza",
       "link": "https://www.bankier.pl/wiadomosc/Hiszpania-robi-krok-wstecz-Bialy-Dom-Madryt-zgadza-sie-na-wspolprace-wojskowa-9093162.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Władze Hiszpanii usłyszały przesłanie prezydenta i zgodziły się współpracować z amerykańskim wojskiem - oświadczyła w środę rzeczniczka Białego Domu Karoline Leavitt. Sugerowała w ten sposób, że nie dojdzie do zerwania stosunków handlowych z Madrytem.",
@@ -670,42 +778,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/2/0/0c5b678bb53643-945-567-26-11-1473-884.jpg",
       "dateISO": "2026-03-04T18:31:00.000Z",
-      "dateFormatted": "4 marca 2026"
-    },
-    {
-      "title": "Efekt szczytu Trump-Merz. USA wyłączają niemiecki oddział Rosnieftu z sankcji",
-      "link": "https://www.bankier.pl/wiadomosc/Efekt-szczytu-Trump-Merz-USA-wylaczaja-niemiecki-oddzial-Rosnieftu-z-sankcji-9093119.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Bloomberg poinformował w środę, że rząd Stanów Zjednoczonych zgodził się wyłączyć niemiecką spółkę zależną rosyjskiego koncernu paliwowego Rosnieft z sankcji nałożonych przez Waszyngton na Rosję. We wtorek kanclerz Niemiec Friedrich Merz był podejmowany w Białym Domu przez prezydenta USA Donalda Tru",
-      "pubDate": "Wed, 4 Mar 2026 18:51:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/6/1ebc0b508059ab-945-560-67-56-1432-859.jpg",
-      "dateISO": "2026-03-04T17:51:00.000Z",
-      "dateFormatted": "4 marca 2026"
-    },
-    {
-      "title": "Spór o definicję konfliktu. Mike Johnson: USA nie są w stanie wojny z Iranem",
-      "link": "https://www.bankier.pl/wiadomosc/Spor-o-definicje-konfliktu-Mike-Johnson-USA-nie-sa-w-stanie-wojny-z-Iranem-9093113.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Przewodniczący Izby Reprezentantów Mike Johnson powiedział w środę, że Stany Zjednoczone nie są w stanie wojny z Iranem, lecz prowadzą „bardzo konkretną, jasną misję i operację”. Słowa te padły przed głosowaniami w Kongresie na temat rezolucji mającej powstrzymać działania wojenne.",
-      "pubDate": "Wed, 4 Mar 2026 18:43:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/a/3eae1844101939-948-568-20-250-3980-2387.jpg",
-      "dateISO": "2026-03-04T17:43:00.000Z",
-      "dateFormatted": "4 marca 2026"
-    },
-    {
-      "title": "Prezydent ma alternatywę. Proponuje rządowi \"SAFE 0 procent\". Sfinansuje go NBP?",
-      "link": "https://www.bankier.pl/wiadomosc/Prezydent-ma-alternatywe-Proponuje-rzadowi-SAFE-0-procent-Sfinansuje-go-NBP-9093053.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Znalezienie korzystnej, suwerennej, bezpiecznej, dobrej i efektywnej alternatywy dla programu SAFE było tematem spotkania z prezesem NBP Adamem Glapińskim - powiedział prezydent Karol Nawrocki po spotkaniu z prezesem NBP.",
-      "pubDate": "Wed, 4 Mar 2026 17:38:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/a/cdc02059a8b4d9-948-568-41-20-4073-2444.jpg",
-      "dateISO": "2026-03-04T16:38:00.000Z",
       "dateFormatted": "4 marca 2026"
     },
     {
@@ -733,18 +805,6 @@
       "dateFormatted": "4 marca 2026"
     },
     {
-      "title": "Shahedy wyzwaniem dla USA. Obrona powietrzna nie wyłapie wszystkich",
-      "link": "https://www.bankier.pl/wiadomosc/Shahedy-wyzwaniem-dla-USA-Obrona-powietrzna-nie-wylapie-wszystkich-9093024.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Przedstawiciele administracji USA przyznają, że irańskie drony Shahed stanowią większe zagrożenie, niż zakładano - podała w środę stacja CNN. Podkreślono, że amerykańska obrona powietrzna nie będzie w stanie przechwytywać wszystkich spośród nich.",
-      "pubDate": "Wed, 4 Mar 2026 16:58:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/d/5d9b9a060fa8ca-948-568-1300-1220-2416-1450.jpg",
-      "dateISO": "2026-03-04T15:58:00.000Z",
-      "dateFormatted": "4 marca 2026"
-    },
-    {
       "title": "Wojska rakietowe osłonią Orlen i bazę PERN. Powstaje nowa „tarcza” Mazowsza",
       "link": "https://www.bankier.pl/wiadomosc/Wojska-rakietowe-oslonia-Orlen-i-baze-PERN-Powstaje-nowa-tarcza-Mazowsza-9093011.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "W kwietniu wicepremier, minister obrony narodowej Władysław Kosiniak-Kamysz ma podpisać porozumienie z samorządami na lokalizację wojsk rakietowych w Gostyninie pod Płockiem (Mazowieckie), a także w Łowiczu (Łódzkie) - poinformował w środę wicemarszałek Sejmu, płocki poseł PSL, Piotr Zgorzelski.",
@@ -757,54 +817,6 @@
       "dateFormatted": "4 marca 2026"
     },
     {
-      "title": "Rosyjski tankowiec na dnie. Kreml oskarża Ukrainę o atak dronami",
-      "link": "https://www.bankier.pl/wiadomosc/Rosyjski-tankowiec-na-dnie-Kreml-oskarza-Ukraine-o-atak-dronami-9092994.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rosyjski tankowiec Arctic Metagaz, przewożący skroplony gaz ziemny (LNG), zatonął we wtorek w nocy na Morzu Śródziemnym, pomiędzy Maltą a Libią - poinformowało w środę libijskie Centrum Koordynacji Poszukiwań i Ratownictwa (RCC) w komunikacie na Facebooku.",
-      "pubDate": "Wed, 4 Mar 2026 16:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/2/35ad37260161f9-948-568-7-82-992-595.jpg",
-      "dateISO": "2026-03-04T15:20:00.000Z",
-      "dateFormatted": "4 marca 2026"
-    },
-    {
-      "title": "Optymistyczne prognozy NBP. Inflacja CPI może spaść nawet do 1,6 proc.",
-      "link": "https://www.bankier.pl/wiadomosc/Optymistyczne-prognozy-NBP-Inflacja-CPI-moze-spasc-nawet-do-1-6-proc-9092990.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Inflacja CPI w Polsce z 50-procentowym prawdopodobieństwem w przedziale 1,6–2,9 proc. w 2026 r. (wobec 1,9–4,0 proc. w projekcji z listopada); 1,1-3,7 w 2027 r. (wobec 1,1–4,1 proc.) oraz w przedziale 0,9 -4,0 proc. w 2028 r. - wynika z najnowszej, marcowej projekcji Departamentu Analiz Ekonomicznyc",
-      "pubDate": "Wed, 4 Mar 2026 16:16:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/3/419d628b33ed77-948-568-525-487-2475-1484.jpg",
-      "dateISO": "2026-03-04T15:16:00.000Z",
-      "dateFormatted": "4 marca 2026"
-    },
-    {
-      "title": "Obniżka stóp była oczekiwana, ale... Ekonomista: Sytuacja w Iranie budzi niepokój",
-      "link": "https://www.bankier.pl/wiadomosc/Obnizka-stop-byla-oczekiwana-ale-Ekonomista-Sytuacja-w-Iranie-budzi-niepokoj-9092980.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Decyzja o obniżce stóp procentowych była oczekiwana i zapowiadana – napisał w komentarzu do decyzji RPP główny ekonomista ING BSK Rafał Benecki. Jego zdaniem RPP będzie teraz obserwować rozwój sytuacji w Iranie, a docelowy poziom stóp może być wyższy od 3,25 proc. prognozowanych przez ING BSK.",
-      "pubDate": "Wed, 4 Mar 2026 16:04:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/a/f24f6e509f88a2-948-568-0-58-1024-614.png",
-      "dateISO": "2026-03-04T15:04:00.000Z",
-      "dateFormatted": "4 marca 2026"
-    },
-    {
-      "title": "Drastyczny wzrost cen paliw na stacjach. Diesel droższy o ponad 40 groszy w tydzień",
-      "link": "https://www.bankier.pl/wiadomosc/Drastyczny-wzrost-cen-paliw-na-stacjach-Diesel-drozszy-o-ponad-40-groszy-w-tydzien-9092969.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W związku z konfliktem na Bliskim Wschodzie na hurtowym i detalicznym rynku paliw w Polsce ceny rosną „drastycznie” - ocenili w środę analitycy portalu e-petrol.pl. Od ubiegłego tygodnia diesl podrożał o 41 gr do 6,40 zł/l, a za benzynę 95, po 25-groszowej podwyżce kierowcy płacą 5,99 zł/l.",
-      "pubDate": "Wed, 4 Mar 2026 15:53:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/f/80505fb602d2e1-945-567-494-892-3296-1978.jpg",
-      "dateISO": "2026-03-04T14:53:00.000Z",
-      "dateFormatted": "4 marca 2026"
-    },
-    {
       "title": "RPP jednak obniżyła stopy procentowe! Złoty dostał bramkę samobójczą",
       "link": "https://www.bankier.pl/wiadomosc/Decyzja-RPP-w-marcu-2026-Rada-jednak-sciela-stopy-procentowe-9092728.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Na marcowym posiedzeniu Rada Polityki Pieniężnej jednak zdecydowała się na obniżkę stóp procentowych pomimo skokowego wzrostu cen energii i ostrego osłabienia złotego.",
@@ -814,18 +826,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/d/8/287e59423b9d1b-948-568-15-22-2865-1718.jpg",
       "dateISO": "2026-03-04T13:55:00.000Z",
-      "dateFormatted": "4 marca 2026"
-    },
-    {
-      "title": "NATO zestrzeliło irańską rakietę balistyczną lecącą w kierunku Turcji",
-      "link": "https://www.bankier.pl/wiadomosc/NATO-zestrzelilo-iranska-rakiete-balistyczna-lecaca-w-kierunku-Turcji-9092813.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ministerstwo obrony w Ankarze poinformowało, że w środę przechwycono wystrzeloną z Iranu rakietę balistyczną, która zmierzała w kierunku Turcji. Zaznaczono, że pocisk został zniszczony przez obronę powietrzną NATO nad wschodnią częścią Morza Śródziemnego.",
-      "pubDate": "Wed, 4 Mar 2026 13:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/7/3a6d2f359f06f7-948-568-302-302-2968-1781.jpg",
-      "dateISO": "2026-03-04T12:40:00.000Z",
       "dateFormatted": "4 marca 2026"
     },
     {
@@ -865,18 +865,6 @@
       "dateFormatted": "4 marca 2026"
     },
     {
-      "title": "Krach w Korei Południowej jakiego jeszcze nie było. \"To klasyczna kapitulacja\"",
-      "link": "https://www.bankier.pl/wiadomosc/Gielda-w-Korei-Poludniowej-zalamala-sie-Najwieksza-przecena-w-historii-9092701.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Giełda w Korei Południowej doświadczyła w środę najsilniejszej wyprzedaży w swojej 46-letniej historii. Główny indeks KOSPI runął o 12,06 proc., przebijając dotychczas największy dzienny spadek zanotowany po atakach na World Trade Center w 2001 r. Obecnie bezpośrednim zapalnikiem przeceny jest eskal",
-      "pubDate": "Wed, 4 Mar 2026 10:44:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/a/a/5eb4217dca2444-948-567-5-25-995-596.jpg",
-      "dateISO": "2026-03-04T09:44:00.000Z",
-      "dateFormatted": "4 marca 2026"
-    },
-    {
       "title": "Bitcoin stabilizuje się na poziomie 68 tys. $ przy wsparciu Trumpa",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-stabilizuje-sie-na-poziomie-68-tys--przy-wsparciu-trumpa-1308057",
       "description": "",
@@ -887,18 +875,6 @@
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-03-04T06:57:44.000Z",
       "dateFormatted": "4 marca 2026"
-    },
-    {
-      "title": "Tylko lekkie spadki na Wall Street. Iran jednak nie taki straszny?",
-      "link": "https://www.bankier.pl/wiadomosc/Tylko-lekkie-spadki-na-Wall-Street-Iran-jednak-nie-taki-straszny-9092497.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Wtorkowa sesja na nowojorskich giełdach przyniosła tylko łagodne spadki głównych indeksów, choć sam początek handlu przyniósł dość głęboki regres",
-      "pubDate": "Tue, 3 Mar 2026 22:05:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/5/f/0d426f1398e504-948-568-20-0-3980-2387.jpg",
-      "dateISO": "2026-03-03T21:05:00.000Z",
-      "dateFormatted": "3 marca 2026"
     },
     {
       "title": "Bitcoin ogranicza odbicie do 67 tys. $ z powodu napięć z Iranem",
@@ -985,5 +961,5 @@
       "dateFormatted": "26 lutego 2026"
     }
   ],
-  "updatedAt": "2026-03-05T07:57:05.349Z"
+  "updatedAt": "2026-03-05T10:09:14.785Z"
 }
