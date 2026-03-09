@@ -1,6 +1,186 @@
 {
   "articles": [
     {
+      "title": "Zwrot na rynku ropy naftowej. Ceny spadają",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/ropa-naftowa-tanieje-donald-trump-mowi-o-koncu-wojny-z-iranem/f736vne",
+      "description": "Ceny ropy naftowej spadają w poniedziałek wieczorem po tym, jak rano wzrosły gwałtownie do najwyższego poziomu od 2022 r.",
+      "pubDate": "Mon, 09 Mar 2026 20:20:02 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/YYOk9kpTURBXy9hMzA2NjcxYjgzYzg2MzI2YjgxNWE4YThhOTQyNGJmZC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-09T20:20:02.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
+      "title": "Kryzys naftowy, stagflacja i… wzrosty na Wall Street",
+      "link": "https://www.bankier.pl/wiadomosc/Kryzys-naftowy-stagflacja-i-wzrosty-na-Wall-Street-9095500.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Pomimo groźby regularnego kryzysu naftowego poniedziałkowa sesja na nowojorskich giełdach zakończyła się solidnymi zwyżkami.",
+      "pubDate": "Mon, 9 Mar 2026 21:11:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/8/4/ba931c13cacfc9-948-568-310-150-3690-2213.jpg",
+      "dateISO": "2026-03-09T20:11:00.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
+      "title": "Trump zasugerował szybkie zakończenie wojny z Iranem i przejęcie cieśniny Ormuz",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-zasugerowal-szybkie-zakonczenie-wojny-z-Iranem-i-przejecie-ciesniny-Ormuz-9095499.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump zasugerował w poniedziałek w rozmowie ze stacją CBS News, że wkrótce może zakończyć się wojna z Iranem. Nie wykluczył też przejęcia cieśniny Ormuz.",
+      "pubDate": "Mon, 9 Mar 2026 21:08:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/c/a94580ce761004-948-568-0-254-2752-1651.jpg",
+      "dateISO": "2026-03-09T20:08:00.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
+      "title": "Anthropic pozywa Pentagon. W tle spór o użycie AI na polu walki",
+      "link": "https://www.bankier.pl/wiadomosc/Anthropic-pozywa-Pentagon-W-tle-spor-o-uzycie-AI-na-polu-walki-9095493.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zajmująca się AI firma Anthropic złożyła w poniedziałek pozew, by zablokować ograniczenia nałożone na nią przez Pentagon. Firma realizuje dla Pentagonu kontrakt za około 200 mln dolarów, ale w ostatnim czasie weszła z nim w spór, żądając, by jej technologie nie były używane do broni autonomicznej i ",
+      "pubDate": "Mon, 9 Mar 2026 20:59:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/4/180dc615f666b6-948-568-20-60-3980-2387.jpg",
+      "dateISO": "2026-03-09T19:59:00.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
+      "title": "Władimir Putin ma propozycję dla Europy. Stawia warunki",
+      "link": "https://businessinsider.com.pl/gospodarka/wladimir-putin-oferuje-europie-rope-naftowa-postawil-warunki/6bx17s9",
+      "description": "Przywódca Rosji Władimir Putin oświadczył, że jest gotów dostarczać krajom Zachodu surowce energetyczne, jeżeli tylko pojawi się taka prośba — donosi AFP. Zastrzegł jednak, że chodzi o współpracę \"wolną od nacisków politycznych\".",
+      "pubDate": "Mon, 09 Mar 2026 19:47:27 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Nr4k9kpTURBXy83Zjk5MTA2NzgwODkwNDZmZDNhN2RhNDljMmRmNmJmNy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-09T19:47:27.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
+      "title": "Trump zadzwonił do Putina, by porozmawiać o Iranie i Ukrainie",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-zadzwonil-do-Putina-by-porozmawiac-o-Iranie-i-Ukrainie-9095487.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Kreml poinformował w poniedziałek, że prezydent USA Donald Trump zadzwonił do przywódcy Rosji Władimira Putina, by rozmawiać o Iranie i Ukrainie - podała agencja Reutera. Według strony rosyjskiej rozmowa trwała około godziny i była konstruktywna.",
+      "pubDate": "Mon, 9 Mar 2026 20:41:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/2/3c3cfecc7da991-948-568-18-0-1481-888.jpg",
+      "dateISO": "2026-03-09T19:41:00.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
+      "title": "Rozpoczęły się największe manewry arktyczne NATO",
+      "link": "https://www.bankier.pl/wiadomosc/Rozpoczely-sie-najwieksze-manewry-arktyczne-NATO-9095482.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Manewry wojskowe NATO pod kryptonimem „Cold Response 2026” rozpoczęły się w poniedziałek w północnej Norwegii. Bierze w nich udział prawie 30 tys. żołnierzy z 14 państw Sojuszu. W związku z wojną z Iranem Stany Zjednoczone zmniejszyły swój kontyngent. Ćwiczenia potrwają do 19 marca.",
+      "pubDate": "Mon, 9 Mar 2026 20:32:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/9/22c1b989699f4e-948-568-0-298-1440-863.jpg",
+      "dateISO": "2026-03-09T19:32:00.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
+      "title": "Orlen ogłasza promocję na paliwo. Od czwartku do majówki",
+      "link": "https://businessinsider.com.pl/finanse/promocja-na-paliwo-na-orlenie-ceny-benzyny-i-diesla-nizsze-nawet-o-35-gr/dgyy5nc",
+      "description": "Orlen ogłosił promocję na paliwo na stacjach, która rusza w czwartek 12 marca. Kierowcy przez osiem kolejnych weekendów będą mogli kupić nawet 50 litrów benzyny lub oleju napędowego w cenie obniżonej nawet o 35 gr — poinformował Orlen.",
+      "pubDate": "Mon, 09 Mar 2026 19:25:34 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/D8uk9kpTURBXy83NWYxMzQzMDIzYjA2NzIyODMyOTIwMjliZDc5YjcwMi5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-09T19:25:34.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
+      "title": "Czystka czy nowa rola? Morawiecki o swojej przyszłości w PiS",
+      "link": "https://www.bankier.pl/wiadomosc/Czystka-czy-nowa-rola-Morawiecki-o-swojej-przyszlosci-w-PiS-9095462.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Były premier, poseł PiS Mateusz Morawiecki oświadczył, że będzie wspierał kandydata tego ugrupowania na premiera Przemysława Czarnka w jego misji. Jak jednak podkreślił, nie jest chętny, aby zostać wicepremierem w jego rządzie.",
+      "pubDate": "Mon, 9 Mar 2026 20:05:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/0/38c083ec04715c-948-568-0-8-3529-2117.jpg",
+      "dateISO": "2026-03-09T19:05:00.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
+      "title": "Liderzy nowych technologii w Polsce. Poznaj Digital Shapers 2025",
+      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/liderzy-nowych-technologii-w-polsce-poznaj-digital-shapers-2025/4x0hbnb",
+      "description": "Fundacja Digital Poland ogłosiła podczas 18. edycji Forum Gospodarczego TIME prestiżową Listę Digital Shapers 2025. To zestawienie liderów, innowatorów i wizjonerów, którzy w minionym roku wybitnie przyczynili się do rozwoju ekosystemu cyfrowego i kształtowania technologicznej rzeczywistości w Polsc",
+      "pubDate": "Mon, 09 Mar 2026 19:00:29 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/bjJk9kpTURBXy8wZjE4ODQwOTZmYWYzY2VlMzgzZDEwMjM2NGU1ZjQyZS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-09T19:00:29.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
+      "title": "W takim tempie Chiny w tym roku wyprzedzą Rosję. Złoto kupione 16. raz z rzędu",
+      "link": "https://www.bankier.pl/wiadomosc/Zloty-rajd-Pekinu-trwa-Chiny-depcza-po-zlotych-pietach-Rosji-9095322.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ludowy Bank Chin kupił w lutym kolejną partię złota, przedłużając serię zakupów do 16 miesięcy. W obecnym tempie wkrótce „oficjalne” rezerwy złota chińskiego banku centralnego będą większe niż posiadane przez rosyjskiego odpowiednika, który w dodatku ostatnio sprzedawał część swoich rezerw.",
+      "pubDate": "Mon, 9 Mar 2026 20:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/5/ccdde1b8299c56-945-560-37-37-1462-877.jpg",
+      "dateISO": "2026-03-09T19:00:00.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
+      "title": "Blokują Ormuz, a sami wywożą ropę przez Chark? Zdjęcia satelitarne ujawniły sekret Teheranu",
+      "link": "https://www.bankier.pl/wiadomosc/Blokuja-Ormuz-a-sami-wywoza-rope-przez-Chark-Zdjecia-satelitarne-ujawnily-sekret-Teheranu-9095465.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Iran zamknął dla światowego handlu cieśninę Ormuz, a sam bez przeszkód eksportuje własną ropę naftową z kluczowego terminalu na wyspie Chark, pomimo nalotów prowadzonych już drugi tydzień przez siły Stanów Zjednoczonych i Izraela.",
+      "pubDate": "Mon, 9 Mar 2026 19:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/3/6b3ca55c2265fa-948-568-7-209-2987-1792.jpg",
+      "dateISO": "2026-03-09T18:50:00.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
+      "title": "Kredyt hipoteczny a rozwód. Jak się uchronić przed finansową pułapką?",
+      "link": "https://businessinsider.com.pl/poradnik-finansowy/kredyty/kredyt-hipoteczny-a-rozwod-co-z-kredytem-po-rozwodzie/7zf3jmt",
+      "description": "Koniec miłości i definitywny rozpad małżeństwa jest problemem nie tylko na poziomie emocjonalnym, ale także finansowym. Szczególnie jeśli byli małżonkowie wzięli wspólnie kredyt hipoteczny. Bank nie interesuje się relacjami między małżonkami — liczy się dla niego tylko terminowa spłata rat kredytu. ",
+      "pubDate": "Mon, 09 Mar 2026 18:16:03 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/hmpk9kpTURBXy8yNzg3ZTRiZWQ1OWEzZDYwNDdjMzBmODMxNWM4MjRlMS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-09T18:16:03.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
+      "title": "Rogalski: Ropa tanieje po doniesieniach o planowanym uwolnieniu rezerw przez kraje G7",
+      "link": "https://www.bankier.pl/wiadomosc/Rogalski-Ropa-tanieje-po-doniesieniach-o-planowanym-uwolnieniu-rezerw-przez-kraje-G7-9095449.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ropa na światowych rynkach tanieje po doniesieniach o planach uwolnienia części rezerw przez kraje G7. Rynek oczekuje też negocjacji, które zakończą działania zbrojne w Zatoce Perskiej i blokadę Cieśniny Ormuz - ocenił w poniedziałek w popołudniowym komentarzu główny analityk DM BOŚ Marek Rogalski.",
+      "pubDate": "Mon, 9 Mar 2026 19:05:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/5/e2e54610a164b5-948-568-0-259-4493-2695.jpg",
+      "dateISO": "2026-03-09T18:05:00.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
+      "title": "Prezydent USA: Za wcześnie, by mówić o przejęciu irańskiej ropy",
+      "link": "https://www.bankier.pl/wiadomosc/Prezydent-USA-Za-wczesnie-by-mowic-o-przejeciu-iranskiej-ropy-9095448.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump oświadczył w poniedziałek, że jest za wcześnie, by mówić o potencjalnym przejęciu przez USA irańskiej ropy. Dodał zarazem, że „ludzie o tym oczywiście rozmawiają”. Trump powiedział to stacji NBC News.",
+      "pubDate": "Mon, 9 Mar 2026 19:04:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/b/a7963bec8620a2-945-560-3-0-1496-897.jpg",
+      "dateISO": "2026-03-09T18:04:00.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
       "title": "Rosnące ceny paliw na Węgrzech. Viktor Orban zapowiedział rządowe limity",
       "link": "https://businessinsider.com.pl/gospodarka/viktor-orban-reaguje-na-kryzys-paliwowy-wegierski-rzad-wprowadzi-limity/qmfn9r4",
       "description": "Premier Węgier Viktor Orban zapowiedział, że rząd ograniczy ceny paliwa dla kierowców aut zarejestrowanych w kraju. Władze w Budapeszcie sięgną także do rezerw surowcowych.",
@@ -25,6 +205,18 @@
       "dateFormatted": "9 marca 2026"
     },
     {
+      "title": "\"Wyjście Polski z systemu ETS = wyjście z UE\". Ministra klimatu komentuje pomysły Czarnka",
+      "link": "https://www.bankier.pl/wiadomosc/Wyjscie-Polski-z-systemu-ETS-wyjscie-z-UE-Ministra-klimatu-komentuje-pomysly-Czarnka-9095402.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wyjście Polski z systemu ETS oznaczałoby wyjście Polski z Unii Europejskiej -podkreśliła w poniedziałek ministra klimatu i środowiska Paulina Hennig-Kloska, odnosząc się do słów kandydata PiS na premiera Przemysława Czarnka. Jak podkreśliła, na takie rozwiązanie nie godzą się obywatele i polski rząd",
+      "pubDate": "Mon, 9 Mar 2026 19:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/6/062e43873c96d0-948-568-110-10-3890-2333.jpg",
+      "dateISO": "2026-03-09T18:00:00.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
       "title": "Koniec jednorazowych e-papierosów w Polsce. Rząd zajmuje się zakazem",
       "link": "https://www.bankier.pl/wiadomosc/Koniec-jednorazowych-e-papierosow-w-Polsce-Rzad-zajmuje-sie-zakazem-9095432.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Zakaz wprowadzania do obrotu jednorazowych e-papierosów oraz ograniczenia dotyczące woreczków nikotynowych przewiduje projekt nowelizacji ustawy tytoniowej, którym we wtorek zajmie się rząd. W porządku obrad jest też projekt noweli ustaw o języku polskim i Narodowej Agencji Wymiany Akademickiej.",
@@ -34,18 +226,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/2/8/e29f234f24d592-948-568-0-0-3983-2389.jpg",
       "dateISO": "2026-03-09T17:47:00.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
-      "title": "Orlen obniżył marżę na diesla „niemal do zera”",
-      "link": "https://www.bankier.pl/wiadomosc/Orlen-obnizyl-marze-na-diesla-niemal-do-zera-9095437.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Marża Orlenu na diesla została obniżona z 25 groszy „niemal do zera”, co ma ograniczyć skutki gwałtownego wzrostu cen paliw na świecie spowodowanego przez działania zbrojne w Zatoce Perskiej i zablokowanie Cieśniny Ormuz - wynika z odpowiedzi Orlenu nadesłanej w poniedziałek PAP.",
-      "pubDate": "Mon, 9 Mar 2026 18:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/5/147145bc4fb295-948-568-67-0-2932-1759.jpg",
-      "dateISO": "2026-03-09T17:45:00.000Z",
       "dateFormatted": "9 marca 2026"
     },
     {
@@ -116,7 +296,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Jr2k9kpTURBXy8yODE3OWY5YTRlZWNhNzAzOTAwZmNmN2U3ODQzMTVhNi5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://ocdn.eu/pulscms-transforms/1/AHUk9kpTURBXy8yMDFhMjc4MWFhODZjYTkwZjVhZTk5ZDNiOWY1ZDlkYi5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-03-09T17:09:58.000Z",
       "dateFormatted": "9 marca 2026"
     },
@@ -206,12 +386,12 @@
     },
     {
       "title": "JSW chce sprzedać ARP udziały w spółkach PBSz i JZR",
-      "link": "https://www.bankier.pl/wiadomosc/JSW-chce-sprzedac-ARP-udzialy-w-spolkach-PBSz-i-JZR-9095351.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/JSW-chce-sprzedac-ARP-udzialy-w-spolkach-PBSz-i-JZR-9095351.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "JSW i ARP zawarły przedwstępną umowę sprzedaży akcji Przedsiębiorstwa Budowy Szybów (PBSz) i udziałów Jastrzębskich Zakładów Remontowych (JZR) - podała JSW w komunikacie. Wstępna cena sprzedaży za akcje PBSz została ustalona na 274 mln zł, a za udziały JZR na 791,6 mln zł.",
       "pubDate": "Mon, 9 Mar 2026 16:42:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/3/1752529878b87d-945-560-210-344-2550-1529.jpg",
       "dateISO": "2026-03-09T15:42:00.000Z",
       "dateFormatted": "9 marca 2026"
@@ -361,54 +541,6 @@
       "dateFormatted": "9 marca 2026"
     },
     {
-      "title": "Rewolucja na rynku papierosów. Te produkty znikną z rynku",
-      "link": "https://businessinsider.com.pl/prawo/saszetki-nikotynowe-i-jednorazowki-pod-lupa-rzadu-szykuja-sie-duze-zmiany/qjzeljt",
-      "description": "Jutro rząd ma się zająć projektem tzw. ustawy tytoniowej. To bardzo ważna nowelizacja przygotowana przez Ministerstwo Zdrowia, przeciwko której ostro protestuje branża tytoniowa. Najważniejsza zmiana dotyczy saszetek nikotynowych i jednorazowych e-papierosów.",
-      "pubDate": "Mon, 09 Mar 2026 14:23:09 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/V5Hk9kpTURBXy9hNzIzYmMzMjI0NTk5NjVmNjVkNmI0MWMwMzI1M2QyNC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-09T14:23:09.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
-      "title": "Irański konflikt. Keir Starmer szuka sposobów na ograniczenie wpływu wojny na gospodarkę",
-      "link": "https://businessinsider.com.pl/gospodarka/keir-starmer-reaguje-na-konflikt-na-bliskim-wschodzie-wielka-brytania-szykuje-plan/q718w1f",
-      "description": "Premier Wielkiej Brytanii Keir Starmer poinformował w poniedziałek, że jego rząd prowadzi rozmowy z międzynarodowymi partnerami w celu złagodzenia gospodarczych skutków konfliktu na Bliskim Wschodzie. Podkreślił, że współpraca z administracją USA odbywa się codziennie, a Wielka Brytania aktywnie dzi",
-      "pubDate": "Mon, 09 Mar 2026 14:15:35 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/MHDk9kpTURBXy8wMzY3YWMxM2Q3YWQ4YzI0NmRjNjlhYmQ2MGE4MGY4OS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-09T14:15:35.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
-      "title": "Bitwa o cieśninę Ormuz. Francja wyśle siły do eskorty tankowców",
-      "link": "https://www.bankier.pl/wiadomosc/Bitwa-o-ciesnine-Ormuz-Francja-wysle-sily-do-eskorty-tankowcow-9095281.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent Francji Emmanuel Macron powiedział w poniedziałek podczas wizyty na Cyprze, że jego kraj przygotowuje wraz z partnerami misję w celu otwarcia cieśniny Ormuz i eskortowania statków po zakończeniu najostrzejszej fazy obecnego konfliktu na Bliskim Wschodzie.",
-      "pubDate": "Mon, 9 Mar 2026 15:13:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/e/4f4dfd88806806-948-568-500-610-3283-1970.jpg",
-      "dateISO": "2026-03-09T14:13:00.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
-      "title": "Rejsy do Dubaju, Tel Awiwu i Rijadu zawieszone. LOT przedłuża decyzję",
-      "link": "https://businessinsider.com.pl/lifestyle/podroze/loty-na-bliski-wschod-pll-lot-przedluza-decyzje-o-zawieszeniu-polaczen-min-do-dubaju/xvz3cf8",
-      "description": "PLL LOT przedłuża zawieszenie lotów do Dubaju i Tel Awiwu do końca sezonu zimowego. Decyzja podyktowana jest sytuacją na Bliskim Wschodzie.",
-      "pubDate": "Mon, 09 Mar 2026 14:12:28 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/bhCk9kpTURBXy84ODc5MmU4OWNjMjliOGVjZTUyNjE3NjI5ZTYyY2I3MS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-09T14:12:28.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
       "title": "Co się składa na cenę paliwa? Prawie połowę stanowią podatki",
       "link": "https://www.bankier.pl/wiadomosc/Co-sie-sklada-na-cene-paliwa-Prawie-polowe-stanowia-podatki-9095215.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Podatki i opłaty publiczne potrafią stanowić niemal 50 proc. ceny paliwa w Polsce, a koszt ropy i jej przetworzenia od 44 do 55 proc.. Na końcową cenę przy dystrybutorze wpływają także kurs dolara, koszty transportu i marże sprzedawców.",
@@ -418,18 +550,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/b/f/dc5e6b9e1a33d9-948-568-50-110-3595-2157.jpg",
       "dateISO": "2026-03-09T14:06:00.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
-      "title": "Gorąco na rynku ropy. Wiemy, co dalej z cenami paliw. \"Prognozy nieaktualne\"",
-      "link": "https://businessinsider.com.pl/gospodarka/goraco-na-rynku-ropy-wiemy-co-dalej-z-cenami-paliw/l8ndrz2",
-      "description": "— Nasze zeszłotygodniowe prognozy już są nieaktualne. Z kolei widmo 8 zł za litr diesla jest coraz bardziej realne — twierdzi w rozmowie z Business Insider Polska analityk rynku paliw w e-petrol dr Jakub Bogucki. Eksperci tłumaczą, na jakim poziomie należy spodziewać się cen w najbliższych dniach.",
-      "pubDate": "Mon, 09 Mar 2026 14:00:38 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/aDSk9kpTURBXy84OGQ4MDcyMzY4ZTkzMzAwYmNhNjQxMjBkODk0MzI4Zi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-09T14:00:38.000Z",
       "dateFormatted": "9 marca 2026"
     },
     {
@@ -445,18 +565,6 @@
       "dateFormatted": "9 marca 2026"
     },
     {
-      "title": "Wojna na Bliskim Wschodzie. Międzynarodowy Fundusz Walutowy ostrzega",
-      "link": "https://businessinsider.com.pl/gospodarka/wojna-na-bliskim-wschodzie-miedzynarodowy-fundusz-walutowy-ostrzega/e8rgkjy",
-      "description": "Dyrektor zarządzająca Międzynarodowym Funduszem Walutowym (MFW) Kristalina Georgieva stwierdziła, że ​​przedłużające się działania wojenne w Iranie grożą uderzeniem w rynki i gospodarki poszczególnych państw.",
-      "pubDate": "Mon, 09 Mar 2026 13:59:05 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/4cwk9kpTURBXy84ZTM5NDMwYzMyYmFlNmJiNGYxYjhmNmFkYmFlNGJhZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-09T13:59:05.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
       "title": "Siły NATO strąciły nad Turcją pocisk wystrzelony z Iranu. To już drugi taki incydent",
       "link": "https://www.bankier.pl/wiadomosc/Sily-NATO-stracily-nad-Turcja-pocisk-wystrzelony-z-Iranu-To-juz-drugi-taki-incydent-9095253.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Ministerstwo obrony w Ankarze poinformowało, że w poniedziałek w przestrzeni powietrznej Turcji strącono drugi w ostatnich dniach pocisk balistyczny wystrzelony z Iranu. Rakieta została zniszczona przez siły NATO nad wschodnią częścią Morza Śródziemnego.",
@@ -469,19 +577,7 @@
       "dateFormatted": "9 marca 2026"
     },
     {
-      "title": "Grupa Spyrosoft przejęła spółkę w Niemczech",
-      "link": "https://www.bankier.pl/wiadomosc/Grupa-Spyrosoft-przejela-spolke-w-Niemczech-9095271.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Grupa Spyrosoft zawarła umowę nabycia 100 proc. udziałów firmy MD Consulting und Informationsdienste GmbH, niemieckiego podmiotu działającego w branży IT - poinformowała spółka w komunikacie.",
-      "pubDate": "Mon, 9 Mar 2026 14:56:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/f/1c8801a1682d36-948-568-1887-1198-1583-950.jpg",
-      "dateISO": "2026-03-09T13:56:00.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
-      "title": "Kolejki na stacje benzynowe na całym świecie. Rządy uspokajają, ale ceny mówią co innego",
+      "title": "Kolejki na stacjach benzynowych na całym świecie. Rządy uspokajają, ale ceny mówią co innego",
       "link": "https://www.bankier.pl/wiadomosc/Kolejki-na-stacje-benzynowe-na-calym-swiecie-Rzady-uspokajaja-ale-ceny-mowia-co-innego-9095234.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Doniesienia o skokowych wzrostach cen ropy i obawy o ciągłość dostaw zmusiły operatorów stacji benzynowych do wyceniania przyszłych, wyższych kosztów zakupu. W efekcie doprowadziło to do drastycznych i widocznych z dnia na dzień podwyżek cen paliw na dystrybutorach. Kierowcy w wielu regionach świata",
       "pubDate": "Mon, 9 Mar 2026 14:55:00 +0100",
@@ -613,18 +709,6 @@
       "dateFormatted": "9 marca 2026"
     },
     {
-      "title": "Żadne państwo nie było w stanie pomóc Rumunii. KE sama zaczęła ewakuację obywateli",
-      "link": "https://www.bankier.pl/wiadomosc/Zadne-panstwo-nie-bylo-w-stanie-pomoc-Rumunii-KE-sama-zaczela-ewakuacje-obywateli-9095181.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Komisja Europejska uruchomiła dodatkowy instrument, by sprowadzać z Bliskiego Wschodu obywateli UE - sama zorganizowała dwa loty z Omanu na wniosek Rumunii, której żadne inne państwo UE nie było w stanie pomóc. Dwa samoloty z 356 osobami na pokładzie wylądowały w poniedziałek rano w Rumunii.",
-      "pubDate": "Mon, 9 Mar 2026 13:25:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/e/cd8c00d027f373-945-567-0-0-1286-772.jpg",
-      "dateISO": "2026-03-09T12:25:00.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
       "title": "Koniec rejsu pod fałszywą banderą. Szwedzka Straż Przybrzeżna zatrzymała Rosjan na Bałtyku",
       "link": "https://www.bankier.pl/wiadomosc/Koniec-rejsu-pod-falszywa-bandera-Szwedzka-Straz-Przybrzezna-zatrzymala-Rosjan-na-Baltyku-9095176.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Szwedzka prokuratura poinformowała w poniedziałek o zatrzymaniu kapitana statku Caffa, obywatela Rosji, w związku z podejrzeniem posługiwania się fałszywymi dokumentami oraz naruszenia przepisów o bezpieczeństwie morskim.",
@@ -634,18 +718,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/5/60bd6f4d90c441-948-567-0-35-1000-599.jpg",
       "dateISO": "2026-03-09T12:24:00.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
-      "title": "Szok naftowy stał się faktem. Czeka nas powtórka scenariusza sprzed 4 lat",
-      "link": "https://www.bankier.pl/wiadomosc/Szok-naftowy-stal-sie-faktem-Czeka-nas-powtorka-scenariusza-sprzed-4-lat-9095201.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Cena ropy naftowej skacze po kilkanaście procent dziennie i w poniedziałek przekroczyła poziom stu dolarów za baryłkę. To stawia świat w sytuacji nawet gorszej niż ta sprzed 4 lat, gdy Rosja napadła na Ukrainę.",
-      "pubDate": "Mon, 9 Mar 2026 13:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/8/536a18b0e3ead1-948-568-0-975-3072-1843.jpg",
-      "dateISO": "2026-03-09T12:20:00.000Z",
       "dateFormatted": "9 marca 2026"
     },
     {
@@ -661,18 +733,6 @@
       "dateFormatted": "9 marca 2026"
     },
     {
-      "title": "Centra danych na celowniku. MON ujawnia: To one będą pierwszym celem ataku",
-      "link": "https://www.bankier.pl/wiadomosc/Centra-danych-na-celowniku-MON-ujawnia-To-one-beda-pierwszym-celem-ataku-9095156.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Centra danych są kluczowe w przypadku konfliktu, ale ze względu na swoją wagę dla funkcjonowania państwa, będą pierwszymi celami potencjalnych ataków, dlatego kluczowe będą landing zone - poinformował podczas kongresu FG Time szef Centrum Implementacji Sztucznej Inteligencji, Dowództwa Komponentu Wo",
-      "pubDate": "Mon, 9 Mar 2026 13:08:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/5/a22500bca7b29c-892-535-0-22-892-535.jpg",
-      "dateISO": "2026-03-09T12:08:00.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
       "title": "Nigel Farage inwestuje w brytyjską firmę Stack/n",
       "link": "https://pl.investing.com/news/cryptocurrency-news/nigel-farage-inwestuje-w-brytyjska-firme-stackn-93CH-1314847",
       "description": "",
@@ -682,18 +742,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-03-09T11:54:45.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
-      "title": "Iran apeluje: Nasza obrona nie może zostać odebrana jako wrogość",
-      "link": "https://www.bankier.pl/wiadomosc/Iran-apeluje-Nasza-obrona-nie-moze-zostac-odebrana-jako-wrogosc-9095174.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rzecznik irańskiego MSZ Esmail Bagei oświadczył w poniedziałek, że siły zbrojne Iranu nie atakowały Azerbejdżanu, Turcji ani Cypru - poinformowała irańska agencja SNN.",
-      "pubDate": "Mon, 9 Mar 2026 12:39:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/8/747f9d2d000c94-948-568-10-0-3990-2393.jpg",
-      "dateISO": "2026-03-09T11:39:00.000Z",
       "dateFormatted": "9 marca 2026"
     },
     {
@@ -718,18 +766,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/9/1/cce523a2f51621-948-568-0-202-3000-1799.jpg",
       "dateISO": "2026-03-09T11:15:00.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
-      "title": "Czarzasty zapowiada ostateczne odebranie Ziobrze diety i 90 proc. wynagrodzenia",
-      "link": "https://www.bankier.pl/wiadomosc/Czarzasty-zapowiada-ostateczne-odebranie-Ziobrze-diety-i-90-proc-wynagrodzenia-9095149.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Marszałek Sejmu Włodzimierz Czarzasty zapowiedział, że we wtorek na prezydium Sejmu postawi wniosek o ostateczne odebranie byłemu ministrowi sprawiedliwości, posłowi PiS Zbigniewowi Ziobrze diety oraz 90 proc. wynagrodzenia. - Będzie dostawał 1350 zł - oświadczył marszałek.",
-      "pubDate": "Mon, 9 Mar 2026 12:06:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/7/9e173ef60fad27-948-568-0-77-4438-2662.jpg",
-      "dateISO": "2026-03-09T11:06:00.000Z",
       "dateFormatted": "9 marca 2026"
     },
     {
@@ -769,42 +805,6 @@
       "dateFormatted": "9 marca 2026"
     },
     {
-      "title": "Nowy budżet UE z pulą na mieszkania? Postulat polskiego rządu na szczycie w Brukseli",
-      "link": "https://www.bankier.pl/wiadomosc/Nowy-budzet-UE-z-pula-na-mieszkania-Postulat-polskiego-rzadu-na-szczycie-w-Brukseli-9095107.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Środki unijne muszą wspierać rozwój mieszkalnictwa - mówił w Brukseli wiceminister rodziny Sebastian Gajewski. Będę przekonywał w Brukseli, żeby również środki unijne wspierały rozwój mieszkalnictwa w państwach członkowskich, zwłaszcza tych, które borykają się z kryzysem mieszkaniowym - zapowiedział",
-      "pubDate": "Mon, 9 Mar 2026 11:16:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/f/168ae0044758b9-948-568-0-244-1905-1143.jpg",
-      "dateISO": "2026-03-09T10:16:00.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
-      "title": "Mapa giełdowych spółek kobiecych na Bankier.pl",
-      "link": "https://www.bankier.pl/wiadomosc/Mapa-gieldowych-spolek-kobiecych-na-Bankier-pl-9095097.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Giełdowy Indeks Kobiet to pomysł Bankier.pl na sprawdzenie, jak na giełdzie radzą sobie spółki giełdowe, we władzach których zasiadają kobiety. To autorski indeks Bankier.pl biorący pod uwagę spółki notowane na GPW i spełniające warunki określone w unijnej dyrektywie „Women on Boards” oraz polskim p",
-      "pubDate": "Mon, 9 Mar 2026 11:05:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/e/a8cde4007483c8-948-568-247-0-1131-678.png",
-      "dateISO": "2026-03-09T10:05:00.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
-      "title": "Rewolucja w przelewach. Nawrocki podpisał zmiany w prawie finansowym",
-      "link": "https://www.bankier.pl/wiadomosc/Rewolucja-w-przelewach-Nawrocki-podpisal-zmiany-w-prawie-finansowym-9095078.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent Karol Nawrocki podpisał ustawę, która m.in. implementuje unijne przepisy o przelewie natychmiastowym. Zawiera ona także regulacje, dotyczące przymusowej restrukturyzacji banków.",
-      "pubDate": "Mon, 9 Mar 2026 10:38:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/6/fa82423574a3ee-948-568-0-0-3966-2379.jpg",
-      "dateISO": "2026-03-09T09:38:00.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
       "title": "Gazu w Europie ubywa szybciej niż zwykle. Najnowsze wyliczenia dla UE i Polski",
       "link": "https://www.bankier.pl/wiadomosc/Gazu-w-Europie-ubywa-szybciej-niz-zwykle-Najnowsze-wyliczenia-dla-UE-i-Polski-9095024.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Zapasy gazu ziemnego w magazynach UE wynoszą 29,4 proc. wobec średniej 5-letniej na tę porę wynoszącej 43,4 proc. W magazynach znajduje się obecnie 335,92 TWh gazu - wynika z wyliczeń firmy Gas Infrastructure Europe.",
@@ -817,18 +817,6 @@
       "dateFormatted": "9 marca 2026"
     },
     {
-      "title": "Cypr staje się militarną beczką prochu. Tureckie F-16 lądują w północnej części wyspy",
-      "link": "https://www.bankier.pl/wiadomosc/Cypr-staje-sie-militarna-beczka-prochu-Tureckie-F-16-laduja-w-polnocnej-czesci-wyspy-9095023.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Turcja wysłała na północną część Cypru sześć samolotów myśliwskich F-16 i systemy obrony powietrznej; dotarły na wyspę w poniedziałek - poinformowało ministerstwo obrony w Ankarze w komunikacie przekazanym przez agencję Anadolu.",
-      "pubDate": "Mon, 9 Mar 2026 09:07:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/a/c67b9454fb7c0d-948-568-0-950-1920-1151.jpg",
-      "dateISO": "2026-03-09T08:07:00.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
       "title": "Ropa po 100 dolarów za baryłkę! Rynki przerażone, wojna w Zatoce Perskiej eskaluje",
       "link": "https://www.bankier.pl/wiadomosc/Drastyczny-wzrost-ropy-Moze-osiagajac-poziom-118-21-USD-b-9094935.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Poniedziałkowy poranek przyniósł potężny wzrost notowań ropy naftowej, która kosztuje już ponad sto dolarów za baryłkę. Eskalacja wojny w Zatoce Perskiej oraz perspektywa regularnego kryzysu naftowego sprawiają, że rynki finansowe pokryła fala spadków.",
@@ -838,18 +826,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/9/5/ffd4d0e8caa7f5-948-568-0-270-4000-2399.jpg",
       "dateISO": "2026-03-09T08:05:00.000Z",
-      "dateFormatted": "9 marca 2026"
-    },
-    {
-      "title": "Czarnek: PiS składa projekt ustawy ws. obniżenia VAT-u i akcyzy na paliwo",
-      "link": "https://www.bankier.pl/wiadomosc/Czarnek-PiS-sklada-projekt-ustawy-ws-obnizenia-VAT-u-i-akcyzy-na-paliwo-9095002.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wiceprezes PiS Przemysław Czarnek zapowiedział w poniedziałek złożenie projektu ustawy przewidującego czasowe obniżenie VAT na paliwo z 23 proc. do 8 proc. oraz zmniejszenie akcyzy o ok. 9–10 proc. Jak podkreślił, państwo „nie może łupić obywatela”, tylko wychodzić naprzeciw jego oczekiwań.",
-      "pubDate": "Mon, 9 Mar 2026 08:42:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/f/6ce3a3c9abe2ac-948-568-0-111-4477-2686.jpg",
-      "dateISO": "2026-03-09T07:42:00.000Z",
       "dateFormatted": "9 marca 2026"
     },
     {
@@ -937,5 +913,5 @@
       "dateFormatted": "4 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-09T18:06:42.103Z"
+  "updatedAt": "2026-03-09T21:03:39.214Z"
 }
