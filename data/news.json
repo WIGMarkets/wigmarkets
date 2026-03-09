@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Zaspokojone zostały wierzytelności w wys. 30,3 mln euro dot. kredytów na finansowanie projektu Polimery Police",
+      "link": "https://www.bankier.pl/wiadomosc/Zaspokojone-zostaly-wierzytelnosci-w-wys-30-3-mln-euro-dot-kredytow-na-finansowanie-projektu-Polimery-Police-9095525.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Bank Pekao zaspokoił, w oparciu o zapisy umowy pomiędzy wierzycielami, przysługujące instytucjom finansowym wierzytelności w wysokości 30,3 mln euro z tytułu umowy kredytów na finansowanie projektu Polimery Police - podała Grupa Azoty w komunikacie.",
+      "pubDate": "Mon, 9 Mar 2026 22:26:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/e/8/bec068af7bec25-thumb-1000.jpg",
+      "dateISO": "2026-03-09T21:26:00.000Z",
+      "dateFormatted": "9 marca 2026"
+    },
+    {
       "title": "Zwrot na rynku ropy naftowej. Ceny spadają",
       "link": "https://businessinsider.com.pl/gielda/wiadomosci/ropa-naftowa-tanieje-donald-trump-mowi-o-koncu-wojny-z-iranem/f736vne",
       "description": "Ceny ropy naftowej spadają w poniedziałek wieczorem po tym, jak rano wzrosły gwałtownie do najwyższego poziomu od 2022 r.",
@@ -278,12 +290,12 @@
     },
     {
       "title": "ElevenLabs chce być gotowy do IPO w ciągu 2-3 lat, myśli o dual listingu w Warszawie",
-      "link": "https://www.bankier.pl/wiadomosc/ElevenLabs-chce-byc-gotowy-do-IPO-w-ciagu-2-3-lat-mysli-o-dual-listingu-w-Warszawie-9095433.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/ElevenLabs-chce-byc-gotowy-do-IPO-w-ciagu-2-3-lat-mysli-o-dual-listingu-w-Warszawie-9095433.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "ElevenLabs chce być gotowy do IPO w cigu 2-3 lat, myśli o dual listingu na giełdzie w Warszawie - poinformował Mati Staniszewski, CEO i współzałożyciel ElevenLabs podczas Konferencji Rynku Kapitałowego w Bukowinie Tatrzańskiej.",
       "pubDate": "Mon, 9 Mar 2026 18:28:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/2/b/65fabf79aa9d8d-948-568-236-192-3263-1958.jpg",
       "dateISO": "2026-03-09T17:28:00.000Z",
       "dateFormatted": "9 marca 2026"
@@ -423,7 +435,7 @@
     {
       "title": "Niższy VAT i akcyza na paliwo? Sprawdziliśmy, czy jest sens i jaki to koszt",
       "link": "https://businessinsider.com.pl/prawo/podatki/skok-cen-paliw-na-stacjach-czy-obnizka-podatkow-pomoze-kierowcom/ktk6593",
-      "description": "Skokowy wzrost cen paliw na stacjach jest faktem. Opozycja domaga się od rządu obniżki VAT i akcyzy na paliwa. Rząd nie wyklucza żadnej opcji. Czy dziś taka obniżka ma sens? I ile by kosztowała budżet państwa? Zapytaliśmy ekspertów.",
+      "description": "Skokowy wzrost cen paliw na stacjach jest faktem. Opozycja domaga się od rządu obniżki VAT i akcyzy na paliwa. Rząd nie wyklucza żadnej opcji. — Obecnie mamy przestrzeń do obniżki akcyzy od paliw — ocenia jeden z ekspertów. Czy dziś taka obniżka ma sens? I ile by kosztowała budżet państwa? Sprawdzil",
       "pubDate": "Mon, 09 Mar 2026 15:15:15 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -913,5 +925,5 @@
       "dateFormatted": "4 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-09T21:03:39.214Z"
+  "updatedAt": "2026-03-09T22:59:15.600Z"
 }
