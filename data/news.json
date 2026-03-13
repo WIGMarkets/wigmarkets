@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Stany Zjednoczone zawieszają sankcje na rosyjską ropę. \"Krótkoterminowy środek\"",
+      "link": "https://businessinsider.com.pl/wiadomosci/usa-zdjely-sankcje-z-kolejnej-transzy-ropy-z-rosji-krotkoterminowy-srodek/cg7hmrn",
+      "description": "Departament Skarbu Stanów Zjednoczonych po raz drugi w trakcie tygodnia ogłosił zdjęcie sankcji z rosyjskiej ropy naftowej. Wydana licencja dotyczy surowca, który został załadowany na tankowce przed 12 marca.",
+      "pubDate": "Fri, 13 Mar 2026 03:07:15 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/JCak9kpTURBXy85MjM0YzY0ZjZiN2E2YzJmMmQ2ZmQ2NmJhNjI2Njc1Yi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-13T03:07:15.000Z",
+      "dateFormatted": "13 marca 2026"
+    },
+    {
       "title": "Nie ustaje blokada Cieśniny Ormuz. USA dopuszczają międzynarodową operację",
       "link": "https://businessinsider.com.pl/gospodarka/nie-ustaje-blokada-ciesniny-ormuz-usa-dopuszczaja-miedzynarodowa-operacje/xczk0nx",
       "description": "Siły zbrojne Stanów Zjednoczonych mogą rozpocząć eskortowanie tankowców przepływających przez strategiczną Cieśninę Ormuz — poinformował sekretarz skarbu USA Scott Bessent. W całą operację mogą być zaangażowane siły międzynarodowe.",
@@ -430,18 +442,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/c/da5e84de8e0693-945-560-0-82-3000-1799.jpg",
       "dateISO": "2026-03-12T16:14:00.000Z",
-      "dateFormatted": "12 marca 2026"
-    },
-    {
-      "title": "Na zwrocie butelki można zarobić więcej. Wszystko zgodnie z prawem",
-      "link": "https://businessinsider.com.pl/gospodarka/system-kaucyjny-dal-mu-furtke-tak-zarabia-na-podwojnym-znaku-na-butelkach/krt272j",
-      "description": "Wprowadzenie w Polsce systemu kaucyjnego nie tylko zmieniło codzienne nawyki konsumentów, lecz także stworzyło nieoczekiwane możliwości zarobku. Dzięki \"dziurze\" w systemie pan Tomasz za butelkę dostaje więcej, niż wynikałoby z kaucyjnego logo. Jego patent szeroko opisuje \"Gazeta Wyborcza\".",
-      "pubDate": "Thu, 12 Mar 2026 15:46:35 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/DDSk9kpTURBXy81NWE4YTE5Zjk1NDUyNWQwZTMwNGNkMDE3ZDRhNmI4Ni5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-12T15:46:35.000Z",
       "dateFormatted": "12 marca 2026"
     },
     {
@@ -961,5 +961,5 @@
       "dateFormatted": "9 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-12T22:57:58.580Z"
+  "updatedAt": "2026-03-13T05:05:02.522Z"
 }
