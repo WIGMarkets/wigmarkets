@@ -1,14 +1,74 @@
 {
   "articles": [
     {
+      "title": "Ryzyko i niepewność. Minister finansów reaguje na raport agencji w sprawie weta prezydenta",
+      "link": "https://businessinsider.com.pl/gospodarka/minister-finansow-reaguje-na-raport-agencji-fitch-w-sprawie-weta-prezydenta/mxv8y8q",
+      "description": "\"Rosną koszty prezydenckiego weta wobec SAFE\" — napisał minister finansów Andrzej Domański, komentując specjalny raport agencji Fitch na temat decyzji Karola Nawrockiego.",
+      "pubDate": "Tue, 17 Mar 2026 20:50:20 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/n57k9kpTURBXy9hZWEwYWE2ZmYwYzJmYmRjNjIxYjBhZTMzZWE1YjFlNy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-17T20:50:20.000Z",
+      "dateFormatted": "17 marca 2026"
+    },
+    {
+      "title": "Administracja Donalda Trumpa ma problem. Chodzi o zwolnienia z czasów Elona Muska",
+      "link": "https://businessinsider.com.pl/gospodarka/administracja-donalda-trumpa-w-kryzysie-brakuje-ekspertow-od-energetyki/elmtktv",
+      "description": "Ubiegłoroczne masowe zwolnienia w Departamencie Stanu USA, zainicjowane przez zespół DOGE Elona Muska, doprowadziły do utraty kluczowych ekspertów zajmujących się bezpieczeństwem energetycznym. Sytuacja ta odbiła się na zdolności amerykańskiego rządu do reagowania na kryzysy w tym obszarze.",
+      "pubDate": "Tue, 17 Mar 2026 20:10:59 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/S6yk9kpTURBXy9hNmYxMzEwM2RjZjUzYmQ3ODkyNzdmZDJiZjdiZDRiMC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-17T20:10:59.000Z",
+      "dateFormatted": "17 marca 2026"
+    },
+    {
+      "title": "Kontyuacja wzrostów na Wall Street. Czy Fed pomoże?",
+      "link": "https://www.bankier.pl/wiadomosc/Kontyuacja-wzrostow-na-Wall-Street-Czy-Fed-pomoz-9099897.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Wtorkowa sesja na Wall Street zakończyła się wzrostami głównych indeksów podobnie jak dzień wcześniej, a inwestorzy liczą, że uda się znaleźć rozwiązanie konfliktu na Bliskim Wschodzie.",
+      "pubDate": "Tue, 17 Mar 2026 21:10:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/6/0/feaf0fb817c4bf-948-568-0-97-2772-1663.jpg",
+      "dateISO": "2026-03-17T20:10:00.000Z",
+      "dateFormatted": "17 marca 2026"
+    },
+    {
+      "title": "Viktor Orban stawia ultimatum Ukrainie. \"To takie proste\"",
+      "link": "https://businessinsider.com.pl/gospodarka/viktor-orban-stawia-ultimatum-ukrainie-to-takie-proste/g4jgk6v",
+      "description": "Premier Węgier Viktor Orban zareagował na decyzję UE w sprawie pomocy technicznej i finansowej dla Ukrainy w celu odbudowy rurociągu Przyjaźń.",
+      "pubDate": "Tue, 17 Mar 2026 20:02:26 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Bdyk9kpTURBXy84YTA3NzYzY2M5NWE1YTQyNzRjMDhmMGNjN2ZkMzE1MC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-17T20:02:26.000Z",
+      "dateFormatted": "17 marca 2026"
+    },
+    {
+      "title": "Iran wciąż zarabia na ropie. Prawie wszystko płynie do jednego kraju",
+      "link": "https://businessinsider.com.pl/gospodarka/iran-wciaz-eksportuje-rope-glownie-do-chin-chca-zakpic-z-usa/ymrps3m",
+      "description": "Teheran w dalszym ciągu eksportuje około 1,5 mln baryłek ropy dziennie — informuje \"Financial Times\". To mniej, niż przez rozpoczęciem wojny z USA i Izraelem, jednak zarobki Iranu z eksportu tego surowca i tak są wysokie. Wiadomo także, gdzie w dużej mierze trafia ta ropa.",
+      "pubDate": "Tue, 17 Mar 2026 19:42:02 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Hx1k9kpTURBXy8xMjg2MmI2ZDVkNjhhZGUxNWRkOGU2MmNmMjRhZmU2ZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-17T19:42:02.000Z",
+      "dateFormatted": "17 marca 2026"
+    },
+    {
       "title": "Prezydenckie weto SAFE. Agencja Fitch wskazuje na zagrożenia",
       "link": "https://businessinsider.com.pl/gospodarka/weto-w-sprawie-safe-agencja-fitch-o-decyzji-prezydenta/bbn4c1c",
-      "description": "Agencja ratingowa Fitch twierdzi, że prezydenckie weto Polski wobec unijnej ustawy pożyczkowej uwypukla ryzyko, że przedłużający się impas polityczny ograniczy zdolność państwa do wdrażania polityki i reform.",
+      "description": "Agencja ratingowa Fitch ocenia, że weto prezydenta Polski wobec unijnej ustawy pożyczkowej stwarza ryzyko, że przedłużający się impas polityczny ograniczy zdolność państwa do wdrażania polityki i reform.",
       "pubDate": "Tue, 17 Mar 2026 19:34:25 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/XAgk9kpTURBXy82OTYxM2RiNDE5ZTBhZTNjMzk0YzNmZWE2YzllODE3ZS5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://ocdn.eu/pulscms-transforms/1/bvsk9kpTURBXy83Mzk0YjkxOTJjZGYwN2IzNjdlNDNiMTczNjJmN2UxZS5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-03-17T19:34:25.000Z",
       "dateFormatted": "17 marca 2026"
     },
@@ -397,42 +457,6 @@
       "dateFormatted": "17 marca 2026"
     },
     {
-      "title": "Budimex traci kontrakt na Rail Baltica? KIO nakazuje ponowną ocenę ofert w kluczowym przetargu",
-      "link": "https://www.bankier.pl/wiadomosc/Wybor-oferty-konsorcjum-Budimeksu-w-przetargu-PKP-PLK-zostal-uniewazniony-9099670.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "PKP PLK po wyroku KIO, który unieważnił wybór konsorcjum, którego liderem jest Budimex, w przetargu na linię kolejową Białystok-Ełk, muszą po raz kolejny wybrać wykonawcę - przekazały we wtorek PAP PKP PLK. Budimex przekazał, że przeanalizuje treść wyroku i zdecyduje o dalszych krokach prawnych.",
-      "pubDate": "Tue, 17 Mar 2026 15:28:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": null,
-      "dateISO": "2026-03-17T14:28:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Bezpieczna Polska przyciąga turystów. Coraz więcej gości",
-      "link": "https://businessinsider.com.pl/gospodarka/polska-liderem-bezpiecznych-wakacji-hotele-szykuja-sie-na-turystyczny-boom/gl5ncyb",
-      "description": "W obliczu rosnących napięć na Bliskim Wschodzie i w Azji Polska staje się jednym z najbezpieczniejszych kierunków turystycznych w Europie. Krajowe hotele notują rekordowe zainteresowanie zarówno wśród Polaków, jak i zagranicznych gości.",
-      "pubDate": "Tue, 17 Mar 2026 14:26:06 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/lw3k9kpTURBXy8xY2FkMjg5MGVkZmM2ZTU0NWI5ZTc2N2U0Mjc0NTRmZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-17T14:26:06.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Ogromna inwestycja PKP Intercity w Przemyślu. Oto co powstaje",
-      "link": "https://businessinsider.com.pl/gospodarka/ogromna-inwestycja-pkp-intercity-w-przemyslu-oto-co-powstaje/mkmv8qy",
-      "description": "PKP Intercity buduje w Przemyślu nowe zaplecze techniczne dla obsługi taboru kolejowego. Prace przekroczyły już połowę zaawansowania, a obiekt ma znacząco poprawić możliwości operacyjne przewoźnika w południowo-wschodniej Polsce.",
-      "pubDate": "Tue, 17 Mar 2026 14:23:02 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/KdKk9kpTURBXy9hZmVhN2YzM2QzZTZmNTdlMTlmOGNkNzdkNjRkYmMyYi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-17T14:23:02.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
       "title": "Rząd rozszerza wsparcie dla górników. Kopalnia Silesia objęta nowym programem",
       "link": "https://www.bankier.pl/wiadomosc/ME-chce-umozliwic-dostep-do-swiadczen-oslonowych-gornikom-z-prywatnych-kopalni-9099660.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Celem projektowanej nowelizacji ustawy o funkcjonowaniu górnictwa węgla kamiennego jest zapewnienie, aby pracownicy zakładów górniczych mieli równy dostęp do świadczeń osłonowych, niezależnie od tego czy są zatrudnieni w podmiotach publicznych, czy prywatnych - podał ME we wpisie do wykazu prac RM. ",
@@ -457,18 +481,6 @@
       "dateFormatted": "17 marca 2026"
     },
     {
-      "title": "Akcje Orlenu pobiły rekord z 2017 r. Spółka warta już 157 mld zł",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/notowania-orlenu-pobily-rekord-z-2017-r-spolka-warta-juz-tyle-co-kghm-pzu-i-pge-razem/51f38td",
-      "description": "Inwestorzy nie przeoczyli, że obecna sytuacja z wysokimi cenami ropy nie jest problemem dla Orlenu, ale wręcz przeciwnie. Spodziewają się wzrostu zysków. Akcje wspięły się tak wysoko, jak jeszcze nigdy nie były, czyli do 135 zł. Poprzedni rekord był w październiku 2017 r.",
-      "pubDate": "Tue, 17 Mar 2026 14:09:27 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/uYxk9kpTURBXy82YzZjOTI1NzE0YzcyNzhiODFkNDE2NmU5MGUxZDc2OS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-17T14:09:27.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
       "title": "Beton znika z Traktu Królewskiego. Drogowcy kupili nowoczesne zapory",
       "link": "https://www.bankier.pl/wiadomosc/Beton-znika-z-Traktu-Krolewskiego-Drogowcy-kupili-nowoczesne-zapory-9099656.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Drogowcy kupili nowe bariery antyterrorystyczne, które zastąpią zwykłe, ciężkie, betonowe. Docelowo będą montowane na Trakcie Królewskim, gdy ten stanie się deptakiem. Teraz obsługi zapór uczą się przedstawiciele służb.",
@@ -478,18 +490,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/3/a/d8d135017ba986-948-568-7-0-992-595.jpg",
       "dateISO": "2026-03-17T14:09:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "AI radzi: na wojnie użyj bomby atomowej. Niestety, ktoś w końcu może posłuchać",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/modele-ai-zalecaja-atak-nuklearny-badanie-ujawnia-niepokojace-wnioski/er24ws8",
-      "description": "Zaawansowane modele sztucznej inteligencji nie mają ludzkich oporów przed przekroczeniem czerwonej linii, jaką stanowi użycie broni jądrowej. Jest to przerażająca wizja, bo Pentagon otwarcie przyznaje, że w obecnym konflikcie na Bliskim Wschodzie AI wykorzystywane jest na niespotykaną dotąd skalę.",
-      "pubDate": "Tue, 17 Mar 2026 14:00:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/EdIk9kpTURBXy8xMTUyMmVlMjhjN2U1MjlhMWQ4MDQzMmM2NTYwNmY3MS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-17T14:00:00.000Z",
       "dateFormatted": "17 marca 2026"
     },
     {
@@ -925,5 +925,5 @@
       "dateFormatted": "5 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-17T19:38:31.196Z"
+  "updatedAt": "2026-03-17T21:56:49.541Z"
 }
