@@ -1,6 +1,366 @@
 {
   "articles": [
     {
+      "title": "Koniec eldorado w IT? \"Pierwszego dnia otrzymaliśmy ponad 900 zgłoszeń\"",
+      "link": "https://businessinsider.com.pl/finanse/koniec-eldorado-w-it-pierwszego-dnia-otrzymalismy-ponad-900-zgloszen/mt0k7gv",
+      "description": "Na jedno stanowisko na polskim rynku IT potrafi aplikować nawet 900 osób, co pokazuje, jak bardzo zmieniła się sytuacja na rynku pracy w tym sektorze — informuje \"Gazeta Wyborcza\".",
+      "pubDate": "Wed, 18 Mar 2026 08:01:44 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/d9sk9kpTURBXy85MDQyNGFmNTdiMmI1NDg5N2YwNGU3NjNlZGZmNzJiMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-18T08:01:44.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "W tym kraju nastaw się na język polski na każdym kroku. Wyprzedziliśmy wszystkie inne nacje",
+      "link": "https://businessinsider.com.pl/lifestyle/urlop-na-malcie-w-styczniu-polacy-nie-mieli-tam-sobie-rownych/4vwypll",
+      "description": "Dane pokazują jasno: gdy przychodzi zima, szukamy słońca na południu Europy. Ponad 44 tys. Polaków wybrało się w ciągu miesiąca na wyspę wielkości Krakowa.",
+      "pubDate": "Wed, 18 Mar 2026 07:56:16 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/GnTk9kpTURBXy8wYjc5OWJmOTg2OTEzN2E3Nzc0MmNjOTBmZTc5ZTk0NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-18T07:56:16.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Nowe stawki odszkodowań za choroby zawodowe i wypadki przy pracy. Tyle będą wynosić",
+      "link": "https://businessinsider.com.pl/finanse/nowe-stawki-odszkodowan-za-choroby-zawodowe-i-wypadki-przy-pracy-tyle-beda-wynosic/ygvmtbe",
+      "description": "Od 1 kwietnia wzrosną jednorazowe odszkodowania przysługujące za wypadki przy pracy oraz choroby zawodowe. Nowe stawki będą obowiązywać do 31 marca 2027 r.",
+      "pubDate": "Wed, 18 Mar 2026 07:21:54 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Zz-k9kpTURBXy9lNWNkY2QyZTQxZGEzMTE5MWZhNmM5ZGY4NzQxODM2My5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-18T07:21:54.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "\"Wiralowy\" burger debiutuje w Polsce. \"Rozsławił\" go sam szef McDonald's",
+      "link": "https://businessinsider.com.pl/gospodarka/big-arch-debiutuje-w-polsce-burger-stal-sie-hitem-sieci/v2vvmtb",
+      "description": "Burger Big Arch zadebiutował w Polsce — podaje McDonald's. Niedawno był on prawdziwym hitem internetu, za sprawą kontrowersyjnego wideo nagranego przez CEO firmy.",
+      "pubDate": "Wed, 18 Mar 2026 07:18:49 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ewBk9kpTURBXy8yNGU5ZjBkNjdlNDc0MTcyNzUyOWUxZjYzNzE2NjI4ZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-18T07:18:49.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "USA coraz śmielej spoglądają na Kubę. Jej prezydent odpowiada",
+      "link": "https://businessinsider.com.pl/gospodarka/czy-usa-przejma-kube-prezydent-wyspy-odpowiada-donaldowi-trumpowi/eqhyvy8",
+      "description": "Prezydent Kuby Miguel Díaz-Canel zapowiada \"niezniszczalny opór\", jeśli USA zaatakują wyspę. Na razie jednak nie może uporać się z kryzysem energetycznym.",
+      "pubDate": "Wed, 18 Mar 2026 07:17:42 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/m8zk9kpTURBXy8zMjY5ZDQ4M2ZjNmZhZDdkNTRiYzlmZDE5NjkwZjdlYy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-18T07:17:42.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Powstała mapa powiązań w samorządach. \"Każdy musi gdzieś pracować\"",
+      "link": "https://www.bankier.pl/wiadomosc/Powstala-mapa-powiazan-w-samorzadach-Kazdy-musi-gdzies-pracowac-9100009.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Czy radny, który ma kontrolować prezydenta lub burmistrza, może być jednocześnie jego pracownikiem? Choć prawo w wielu przypadkach na to pozwala, budzi to ogromne kontrowersje etyczne. Sieć Obywatelska Watchdog Polska uruchomiła specjalny serwis, który ma obnażyć skalę powiązań polityczno-biznesowyc",
+      "pubDate": "Wed, 18 Mar 2026 08:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/2/6847588d4bf11a-948-568-0-110-4000-2399.jpg",
+      "dateISO": "2026-03-18T07:00:00.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Nowy sondaż w sprawie SAFE. Polacy mocno podzieleni po decyzji prezydenta",
+      "link": "https://businessinsider.com.pl/polityka/nowy-sondaz-w-sprawie-safe-polacy-mocno-podzieleni-po-decyzji-prezydenta/d9ljh8b",
+      "description": "Polacy są niemal równo podzieleni w sprawie realizacji unijnego programu SAFE mimo weta prezydenta Karola Nawrockiego — wynika z sondażu przeprowadzonego przez IBRiS na zlecenie \"Rzeczpospolitej\".",
+      "pubDate": "Wed, 18 Mar 2026 06:42:38 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/AJck9kpTURBXy8zNjkwNmUyZjI4N2UyOTc0ZjI1ODNiZWFhZDZlZGQzMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-18T06:42:38.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Przełom w Iraku obniża ceny ropy. Surowiec popłynie do Turcji z ominięciem Ormuz",
+      "link": "https://www.bankier.pl/wiadomosc/Ceny-ropy-spadaja-Irak-wkracza-do-akcji-9100007.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ceny ropy naftowej spadają w trakcie środowego handlu po tym, jak Irak podpisał umowę na wznowienie eksportu ropy naftowej przez Turcję, z pominięciem Cieśniny Ormuz. Do tego USA zintensyfikowały działania zmierzające do wymuszenia ponownego otwarcia tego kluczowego szlaku wodnego dla transportu rop",
+      "pubDate": "Wed, 18 Mar 2026 07:42:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/6/4f94e25a58bbb7-948-568-0-216-3585-2151.jpg",
+      "dateISO": "2026-03-18T06:42:00.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Cena Bitcoina dziś: stabilna blisko 74 tys. $ przed decyzją Fed",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/cena-bitcoina-dzis-stabilna-blisko-74-tys--przed-decyzja-fed-1327592",
+      "description": "",
+      "pubDate": "2026-03-18 06:32:50",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-03-18T06:32:50.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Paraliż na lotnisku w Berlinie. Są informacje o utrudnieniach",
+      "link": "https://businessinsider.com.pl/gospodarka/paraliz-na-lotnisku-w-berlinie-jest-komunikat/77z61zv",
+      "description": "W związku ze strajkiem związków zawodowych międzynarodowe lotnisko Berlin-Brandenburg im. Willy’ego Brandta nie obsłuży w środę żadnego regularnego lotu.",
+      "pubDate": "Wed, 18 Mar 2026 06:28:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/UXCk9kpTURBXy83ZTU0ZTI5NjgyZjQyYmQzODJjODJlNGRiNDZkZTU0OS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-18T06:28:00.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Media: RARS wsparła ewakuację Polaków z Bliskiego Wschodu. Pomogły środki unijne",
+      "link": "https://businessinsider.com.pl/gospodarka/media-rars-wsparla-ewakuacje-polakow-z-bliskiego-wschodu-pomogly-srodki-unijne/xqdpen8",
+      "description": "Za część lotów ewakuacyjnych, które pomagały wydostać się Polakom z Bliskiego Wschodu, odpowiadała Rządowa Agencja Rezerw Strategicznych, która sfinansowała je ze środków unijnych — dowiedziała się \"Rzeczpospolita\".",
+      "pubDate": "Wed, 18 Mar 2026 06:23:39 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/TXck9kpTURBXy8zYTdiZDc1N2UwMzUwNmM1NjE5YmMwNjkwY2YxZWRiNi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-18T06:23:39.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "\"Jak trwoga, to na parafię\"? Strategiczny dialog MSWiA i MON z Kościołem",
+      "link": "https://www.bankier.pl/wiadomosc/Parafie-jako-centra-pomocy-MSWiA-i-MON-zaciesniaja-wspolprace-z-Kosciolem-9100001.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "MSWiA chce współpracować z Kościołem w kwestii wzmocnienia bezpieczeństwa lokalnego. Chodzi o organizowanie doraźnego wsparcia materialnego i wykorzystanie rozproszonej infrastruktury parafialnej, jako centrów dystrybucji pomocy lub miejsc schronienia w razie wystąpienia klęsk żywiołowych - poinform",
+      "pubDate": "Wed, 18 Mar 2026 07:23:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/8/7a09313f05b8e3-948-568-184-143-2437-1462.jpg",
+      "dateISO": "2026-03-18T06:23:00.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Skandal na ukraińskim portalu: order Virtuti Militari wystawiony na sprzedaż. IPN apeluje",
+      "link": "https://www.bankier.pl/wiadomosc/Skandal-na-ukrainskim-portalu-order-Virtuti-Militari-wystawiony-na-sprzedaz-IPN-apeluje-9099894.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Na jednym z ukraińskich portali internetowych pojawiła się oferta sprzedaży Orderu Wojennego Virtuti Militari, którym odznaczono kpt. Juliusza Romana Heinzla, oficera zamordowanego przez NKWD wiosną 1940 r. - poinformował we wtorek na portalu X Instytut Pamięci Narodowej.",
+      "pubDate": "Wed, 18 Mar 2026 07:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/c/4a57d64457b1c8-948-568-11-144-4436-2662.jpg",
+      "dateISO": "2026-03-18T06:20:00.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Łódź z rekordową ofertą mieszkań. Ceny stoją w miejscu, ale to może się zmienić",
+      "link": "https://businessinsider.com.pl/nieruchomosci/ceny-mieszkan-w-lodzi-bez-zmian-ale-eksperci-ostrzegaja-przed-trendem/kywv9hc",
+      "description": "Rynek mieszkaniowy w Łodzi wyróżnia się na tle innych metropolii: ceny stoją w miejscu, a oferta jest rekordowa. Eksperci ostrzegają jednak, że ta równowaga może się wkrótce skończyć.",
+      "pubDate": "Wed, 18 Mar 2026 06:18:54 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/pF4k9kpTURBXy9hYWJmNzQ2NjI1OGNiOGUxYzdlNDQ4Y2Y0ZjE5OTI5Ny5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-18T06:18:54.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "\"To wciąż bardzo mocny sygnał społeczny\". Polaków nie stać na własne mieszkanie",
+      "link": "https://businessinsider.com.pl/nieruchomosci/mieszkania-wciaz-poza-zasiegiem-wielu-polakow-eksperci-o-realiach-rynku/np1lwrv",
+      "description": "Większość Polaków nadal uważa, że na mieszkanie stać dziś niewielu. Choć nastroje lekko się poprawiają, przełomu nadal nie widać.",
+      "pubDate": "Wed, 18 Mar 2026 06:17:04 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/x_ck9kpTURBXy9mOTM0YjA3YThiNjkyZGM4OGZiODlkZWM0MzMyZTE2Mi5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-18T06:17:04.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Atak na bazy i ambasady na Bliskim Wschodzie. Rakietowy odwet Iranu, mieszkańcy w schronach",
+      "link": "https://www.bankier.pl/wiadomosc/Atak-na-bazy-i-ambasady-na-Bliskim-Wschodzie-Rakietowy-odwet-Iranu-mieszkancy-w-schronach-9099958.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W nocy z wtorku na środę irański pocisk spadł w pobliżu bazy Al Minhad w Zjednoczonych Emiratach Arabskich (ZEA), gdzie stacjonują australijscy żołnierze – poinformował premier Australii Anthony Albanese. Ataki dronowe i rakietowe odnotowano także w Arabii Saudyjskiej, Bahrajnie, Katarze i Kuwejcie.",
+      "pubDate": "Wed, 18 Mar 2026 07:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/5/38645796f97fe6-948-568-60-127-2940-1763.jpg",
+      "dateISO": "2026-03-18T06:15:00.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Pierwsze posiedzenie Fedu po ataku na Iran. Niepewność ważniejsza niż dane",
+      "link": "https://businessinsider.com.pl/finanse/pierwsze-posiedzenie-fedu-po-ataku-na-iran-kiedy-amerykanski-bank-centralny-obnizy/g435n1e",
+      "description": "Rynki finansowe żyją teraz głównie atakiem na Iran, mającym konsekwencje dla cen ropy naftowej i prognozowanej inflacji. W tym kontekście bardzo interesująco zapowiadają się zaplanowane na środę i czwartek posiedzenia odpowiednio Rezerwy Federalnej i Europejskiego Banku Centralnego.",
+      "pubDate": "Wed, 18 Mar 2026 06:14:18 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/fVqk9kpTURBXy8xMjg3MGIyYzJiYTg4ZDAyN2NkMDE1YWFhZDNlNWZiMi5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-18T06:14:18.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Kryzys na lotniskach w USA. 50 tys. osób pracuje za darmo",
+      "link": "https://www.bankier.pl/wiadomosc/Kryzys-na-lotniskach-w-USA-50-tys-osob-pracuje-za-darmo-9099884.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Jeśli problemy z finansowaniem ministerstwa bezpieczeństwa krajowego USA będą przeciągać się w czasie, niektóre lotniska w kraju mogą zostać zamknięte w najbliższych tygodniach w związku z brakami personelu - zapowiedział we wtorek przedstawiciel amerykańskiej administracji.",
+      "pubDate": "Wed, 18 Mar 2026 07:11:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/b/8924604c5a18fb-948-568-0-67-995-597.jpg",
+      "dateISO": "2026-03-18T06:11:00.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Drony kamikadze Lucas. Pentagon kopiuje broń wroga i rusza z masową produkcją",
+      "link": "https://www.bankier.pl/wiadomosc/Drony-kamikadze-Lucas-Pentagon-kopiuje-bron-wroga-i-rusza-z-masowa-produkcja-9099912.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Pentagon chce masowo produkować drony kamikadze Lucas, które USA wykorzystały podczas wojny z Iranem - podał we wtorek dziennik „Wall Street Journal”. To amerykańska kopia irańskiego drona bojowego Shahed.",
+      "pubDate": "Wed, 18 Mar 2026 07:10:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/5/854f299c3ea503-948-568-0-270-4000-2399.jpg",
+      "dateISO": "2026-03-18T06:10:00.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Ceny ropy zagrożone. Elon Musk i zespół DOGE wycięli specjalistów od kryzysów",
+      "link": "https://www.bankier.pl/wiadomosc/Ceny-ropy-zagrozone-Elon-Musk-i-zespol-DOGE-wycieli-specjalistow-od-kryzysow-9099887.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ubiegłoroczne masowe zwolnienia w Departamencie Stanu pozbawiły administrację Donalda Trumpa ekspertów, którzy przygotowywali m.in. scenariusze na wypadek zamknięcia cieśniny Ormuz - podał we wtorek portal NOTUS. Był to efekt cięć zainicjowanych przez zespół DOGE Elona Muska.",
+      "pubDate": "Wed, 18 Mar 2026 07:10:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/c/84f699346a9420-948-568-6-20-2712-1627.jpg",
+      "dateISO": "2026-03-18T06:10:00.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Raport o ETS. Gdzie jesteśmy i dokąd zmierzamy? KE twierdzi, że system działa",
+      "link": "https://businessinsider.com.pl/prawo/firma/unijny-system-ets-dziala-ekspert-wyjasnia-co-to-oznacza-dla-polski/hx9375r",
+      "description": "— ETS w polskiej debacie publicznej jest raczej kozłem ofiarnym niż podstawowym problemem — mówi w rozmowie z Business Insiderem prawnik i ekspert ds. polityki klimatycznej.",
+      "pubDate": "Wed, 18 Mar 2026 06:02:01 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/8bUk9kpTURBXy9iYjQ0NzYyMGU5OGM5NDY1Yjg2N2NkMTNiNDE1OGQ1MC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-18T06:02:01.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Spółka byłego polityka powodem prezydenckiego weta? W tle miliardy dla siedmioosobowej firmy",
+      "link": "https://www.bankier.pl/wiadomosc/Spolka-bylego-polityka-powodem-weta-prezydenta-Karola-Nawrockiego-ws-SAFE-W-tle-miliardy-dla-siedmioosobowej-firmy-9099964.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Paweł Poncyljusz (były polityk PiS, PJN, a następnie PO, który później zajął się biznesem) i kierowana przez niego spółka Polska Amunicja stały się dla PiS i Kancelarii Prezydenta głównym argumentem przeciwko przyjęciu programu SAFE – pisze w środę „Gazeta Wyborcza”.",
+      "pubDate": "Wed, 18 Mar 2026 07:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/4/d772f0f62efcbe-948-568-88-72-2906-1744.jpg",
+      "dateISO": "2026-03-18T06:00:00.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Kolejki po życie staną się dłuższe. NFZ zmienia zasady finansowania w... onkologii",
+      "link": "https://www.bankier.pl/wiadomosc/Kolejki-po-zycie-stana-sie-dluzsze-NFZ-zmienia-zasady-finansowania-w-onkologi-9099947.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zmiany w finansowaniu badań mogą wydłużyć kolejki po diagnozę w zakresie onkologii – pisze w środę „Dziennik Gazeta Prawna”.",
+      "pubDate": "Wed, 18 Mar 2026 07:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/9/d0e0f5e9e2131b-948-568-12-20-987-592.jpg",
+      "dateISO": "2026-03-18T06:00:00.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Rynek wycenia podwyżki stóp procentowych w Polsce. Może do tego dojść pod pewnymi warunkami",
+      "link": "https://businessinsider.com.pl/gospodarka/widmo-podwyzek-stop-w-polsce-sprawdzamy-co-musialoby-sie-stac-aby-nbp-zmienil-front/5wlnsdr",
+      "description": "Choć polska Rada Polityki Pieniężnej niedawno obniżyła stopy procentowe, rynkowe turbulencje i widmo drożejącej energii wywróciły prognozy do góry nogami. Ekonomiści wskazują, w jakich warunkach może dojść do realizacji niekorzystnego dla kredytobiorców scenariusza.",
+      "pubDate": "Wed, 18 Mar 2026 05:49:38 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/QwYk9kpTURBXy9iYTc5NzUzOWIyMmEwOWY5MThlZGVjODQyMWIwYWIxMy5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-18T05:49:38.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "ZUS: Od marca wyższe świadczenie dla stulatków. Znamy nową kwotę",
+      "link": "https://www.bankier.pl/wiadomosc/ZUS-Od-marca-wyzsze-swiadczenie-dla-stulatkow-Znamy-nowa-kwote-9099975.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Świadczenie honorowe wypłacane przez ZUS pobiera łącznie 4057 stulatków. Najwięcej w woj. mazowieckim (693), a najmniej w woj. opolskim (76) - poinformował PAP Zakład Ubezpieczeń Społecznych. Od marca kwota świadczenia z tytułu ukończenia stu lat wynosi 6938,92 zł brutto miesięcznie.",
+      "pubDate": "Wed, 18 Mar 2026 06:42:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/6/32cd2b38757492-948-568-0-270-4000-2399.jpg",
+      "dateISO": "2026-03-18T05:42:00.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "W sądach najczęściej wygrywa fiskus. Podatnicy tylko w jednej kategorii spraw",
+      "link": "https://businessinsider.com.pl/prawo/podatki/wygrana-z-fiskusem-to-rzadkosc-statystyki-sadow-nie-pozostawiaja-zludzen/1bnfvl0",
+      "description": "Mamy podsumowanie działalności sądów administracyjnych za 2025 r. Najwięcej skarg składanych dotyczyło podatków — prawie 25 proc., a większość podatników je przegrywa.",
+      "pubDate": "Wed, 18 Mar 2026 05:41:44 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/c76k9kpTURBXy9kNDNjODk5ZWE3YTcxMWYwZDQ0NGE1ZWQyODhjOTk5Yi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-18T05:41:44.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Ministerstwo pomajstrowało przy OKI. Zmiany w limitach, lista aktywów i kolejna data startu",
+      "link": "https://www.bankier.pl/wiadomosc/Nowy-projekt-ustawy-o-OKI-Zmiany-w-limitach-lista-aktywow-i-kolejna-data-startu-9099927.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Poznaliśmy nową wersję projektu Ustawy o osobistych kontach inwestycyjnych. To odpowiedź na szereg uwag, które trafiły do Ministerstwa Finansów w ramach procesu konsultacji nowego produktu. Wiemy już, że OKI zanotuje kolejny poślizg czasowy i pojawi się lista aktywów kwalifikowanych oraz kilka innyc",
+      "pubDate": "Wed, 18 Mar 2026 06:38:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/b/5/8fc0757d364584-948-568-0-0-2557-1534.png",
+      "dateISO": "2026-03-18T05:38:00.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Jest z nami od ponad 20 lat. Wyjaśniamy, jak działa system ETS",
+      "link": "https://businessinsider.com.pl/gospodarka/system-ets-jak-dziala-kto-na-nim-zyskuje-i-dlaczego-wywoluje-emocje/04hq0zs",
+      "description": "Likwidować, reformować czy zostawić bez zmian? Najlepiej najpierw zrozumieć. Wyjaśniamy, czym jest głośny ostatnio system ETS, skąd się wziął i do czego ma służyć.",
+      "pubDate": "Wed, 18 Mar 2026 05:30:38 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/gQrk9kpTURBXy80ZmU0ZDgwNTdmMzFmNGI4YmI5MWQ3YTlhZGFmNjg0ZS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-18T05:30:38.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Ekspansja InPostu przyspiesza. Spółka spodziewa się dwucyfrowych wzrostów",
+      "link": "https://www.bankier.pl/wiadomosc/InPost-oczekuje-w-2026-r-wzrostu-wolumenow-o-kilkanascie-proc-i-stabilnej-skoryg-EBITDA-9099968.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "InPost w 2026 roku oczekuje zwiększonego udziału w rynku, z wolumenami grupy rosnącymi rok do roku na poziomie średnich do wysokich kilkunastu procent. Skorygowana EBITDA grupy ma się utrzymać na stabilnym poziomie - poinformowała spółka w komunikacie.",
+      "pubDate": "Wed, 18 Mar 2026 06:24:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/0/2/39cabee0aac2f9-948-568-0-84-3080-1847.jpg",
+      "dateISO": "2026-03-18T05:24:00.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Tyle można było zarobić na giełdzie po wybuchu wojny z Iranem. Wystarczyło 10 tys. zł",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/akcje-na-gpw-i-wall-street-daly-duzo-zarobic-po-wybuchu-wojny-w-iranie-wykresy/jtln24x",
+      "description": "Gdy większość inwestorów paraliżował strach, w ciągu kilku dni, mając 10 tys. zł, można się było spokojnie wzbogacić o 1-2 tys. zł. Najwięksi szczęściarze mogli podwoić kapitał.",
+      "pubDate": "Wed, 18 Mar 2026 05:23:45 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/2pIk9kpTURBXy8wZWIxMmZiNjQ4ZDhmODEzYWQwMzA2YWUxMjdlNDlkNy5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-18T05:23:45.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
       "title": "Rozliczenie samotnych rodziców. Oto najnowsze interpretacje fiskusa [ANALIZA]",
       "link": "https://businessinsider.com.pl/prawo/podatki/nowe-interpretacje-podatkowe-dla-samotnych-rodzicow-zobacz-kto-straci/djv21vx",
       "description": "Fiskus bardzo literalnie podchodzi do przepisów o samotnym wychowywaniu dziecka. Wiele zmienia np. związek z nowym partnerem.",
@@ -20,8 +380,20 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/d/1/785f181c53f0ce-thumb-1000.jpg",
+      "image": "http://galeria.bankier.pl/p/2/1/cc1b1166a69aca-948-568-157-232-2527-1516.jpg",
       "dateISO": "2026-03-18T05:14:00.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Hazardowa batalia o lootboksy. Ostre pismo Totalizatora Sportowego wstrząsnęło projektem",
+      "link": "https://www.bankier.pl/wiadomosc/Hazardowa-batalia-o-lootboksy-Ostre-pismo-Totalizatora-Sportowego-wstrzasnelo-projektem-9099961.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Część posłów wycofała swój podpis spod nowelizacji ustawy hazardowej, złożonej przez Michała Gramatykę z Polski 2050 - pisze w środę „Rzeczpospolita”. Wcześniej ostre pismo w tej sprawie skierowała do wnioskodawców szefowa Totalizatora Sportowego, Beata Stelmach.",
+      "pubDate": "Wed, 18 Mar 2026 06:10:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/b/000a6656d907ad-945-560-24-0-4776-2865.jpg",
+      "dateISO": "2026-03-18T05:10:00.000Z",
       "dateFormatted": "18 marca 2026"
     },
     {
@@ -61,102 +433,6 @@
       "dateFormatted": "18 marca 2026"
     },
     {
-      "title": "Kurs CHF/PLN 18 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-franka-szwajcarskiego-dzisiaj-po-ile-jest-frank-szwajcarski-18-marca-2026-r/47bw5n6",
-      "description": "Poznaj bieżący kurs franka szwajcarskiego oraz zmianę wartości CHF dzień do dnia, a także tydzień do tygodnia. Jakim zmianom uległ frank w tym okresie? Czy opłaca się dziś wymienić franki na złotówki? Ten artykuł pomoże Ci podjąć decyzję. Wczorajszy kurs CHF/PLN to 4,7021 zł.",
-      "pubDate": "Wed, 18 Mar 2026 05:03:46 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/SCck9kpTURBXy9hNzI4MjlkNmEwNjFlZWEyYTY2NjhmNTgxZTRhNjUxMi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-18T05:03:46.000Z",
-      "dateFormatted": "18 marca 2026"
-    },
-    {
-      "title": "Kurs GBP/PLN 18 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-funtow-brytyjskich-dzisiaj-po-ile-jest-funt-brytyjski-18-marca-2026-r/5dehkj6",
-      "description": "Chcesz sprawdzić, jaki jest kurs GBP na dziś 18 marca 2026? Interesują cię bieżące notowania waluty? Jesteś w odpowiednim miejscu. Poniżej sprawdzisz, czy złotówka umacnia się, czy słabnie względem funta brytyjskiego. Wczorajszy kurs wynosił 4,9346 zł. Warto wiedzieć jak kurs wymiany prezentuje się ",
-      "pubDate": "Wed, 18 Mar 2026 05:03:37 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/adck9kpTURBXy82MmE1MzM1MDUyZmYzYWFkN2NhM2UzMDYyYmUxZTUzMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-18T05:03:37.000Z",
-      "dateFormatted": "18 marca 2026"
-    },
-    {
-      "title": "Kurs CZK/PLN 18 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-czeskiej-dzisiaj-po-ile-jest-korona-czeska-18-marca-2026-r/w5qydte",
-      "description": "Czeska korona nie ma nawet 30 lat, co sprawia, że jest to jedna z najmłodszych walut europejskich. Pokazujemy bieżący kurs waluty CZK z dnia 18 marca 2026 z godz. 7 rano. Informujemy także o zmianach kursu dzień do dnia i tydzień do tygodnia. Wczoraj kurs CZK wynosił: 0,1744 zł.",
-      "pubDate": "Wed, 18 Mar 2026 05:03:31 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/MPMk9kpTURBXy84NDIwMmNiNDNiZTc0OWEzOWViNGNlNThkMWQ3MTAyOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-18T05:03:31.000Z",
-      "dateFormatted": "18 marca 2026"
-    },
-    {
-      "title": "Kurs NOK/PLN 18 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-norweskiej-dzisiaj-po-ile-jest-korona-norweska-18-marca-2026-r/s2lyw8c",
-      "description": "Jak zmienił się kurs korony norweskiej od wczoraj? Czy złoty słabnie, czy może umacnia się względem waluty Norwegów? To ważna informacja dla wszystkich, którzy aktualnie pracują lub wybierają się do Skandynawii. Sprawdź, jak dziś prezentuje się kurs NOK.",
-      "pubDate": "Wed, 18 Mar 2026 05:03:23 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/-32k9kpTURBXy9lM2FlNTdhZjBiMDM3ODBmNmE1MTA2YTc3Mzk2ZWQ1Yi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-18T05:03:23.000Z",
-      "dateFormatted": "18 marca 2026"
-    },
-    {
-      "title": "Kurs SEK/PLN 18 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-szwedzkiej-dzisiaj-po-ile-jest-korona-szwedzka-18-marca-2026-r/3wzpsyx",
-      "description": "Prezentujemy aktualne notowania kursu waluty korony szwedzkiej (SEK) na dzień 18 marca 2026. Warto zwrócić uwagę, że kurs korony może mieć wpływ na ceny importowanych towarów i usług.",
-      "pubDate": "Wed, 18 Mar 2026 05:03:13 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/3d8k9kpTURBXy9iNGJmOTJhOTYxNGExY2UyOGM0ZGE5Mzg3OWRlNTdmMS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-18T05:03:13.000Z",
-      "dateFormatted": "18 marca 2026"
-    },
-    {
-      "title": "Kurs DKK/PLN 18 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-dunskiej-dzisiaj-po-ile-jest-korona-dunska-18-marca-2026-r/gwdj5lh",
-      "description": "Jeśli potrzebujesz informacji o kursie korony duńskiej, przedstawiamy bieżące notowania. Wczorajszy kurs wynosił 0,5703 zł. Zobacz, jak sytuacja kształtuje się dziś: 18 marca 2026.",
-      "pubDate": "Wed, 18 Mar 2026 05:03:08 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/newk9kpTURBXy80NzMwMDUzMjI3OTViZDk2MTk1Y2JiODBmM2E4Yjk0Yy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-18T05:03:08.000Z",
-      "dateFormatted": "18 marca 2026"
-    },
-    {
-      "title": "Kurs HUF/PLN 18 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-forinta-wegierskiego-dzisiaj-po-ile-jest-forint-wegierski-18-marca-2026-r/js4zkr2",
-      "description": "Poznaj zmiany kursu HUF/PLN 18 marca 2026. Jak dziś wygląda siła węgierskiej waluty względem złotego? Czy jadąc np. na urlop na Węgry, opłaca się dziś wymienić pieniądze? Bieżący kurs forinta sprawdzisz w tym artykule.",
-      "pubDate": "Wed, 18 Mar 2026 05:02:58 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/0TBk9kpTURBXy9mZDgxYzc2YTk2MzIyNDM3MzIzZGRkYjg1NjFlOGM5MC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-18T05:02:58.000Z",
-      "dateFormatted": "18 marca 2026"
-    },
-    {
-      "title": "Kurs TRY/PLN 18 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-liry-turckiej-dzisiaj-po-ile-jest-lira-turecka-18-marca-2026-r/jz1fjr9",
-      "description": "Oto bieżący kurs liry tureckiej. Poznaj wahania waluty Turcji w ujęciu dziennym, a także tygodniowym. Aktualny kurs liry warto poznać m.in. przed wyjazdem na wakacje do jednego z tureckich kurortów.",
-      "pubDate": "Wed, 18 Mar 2026 05:02:54 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/XMbk9kpTURBXy9iOTJmZjZjYjNlMWZkMzQxNjhjNmZkYjI5ZWRiOGRiOC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-18T05:02:54.000Z",
-      "dateFormatted": "18 marca 2026"
-    },
-    {
       "title": "Europejska zbrojeniówka łapie zadyszkę. Sama wojna dla rynków to już za mało",
       "link": "https://www.bankier.pl/wiadomosc/Europejska-zbrojeniowka-lapie-zadyszke-Sama-wojna-dla-rynkow-to-juz-za-malo-9099636.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Pomimo nowej poważnej wojny na Bliskim Wschodzie, trwającego od lat krwawego konfliktu na Ukrainie i zwiększania wydatków na siły zbrojne przez europejskich partnerów NATO, akcje europejskich spółek zbrojeniowych od połowy stycznia pozostają zadziwiająco na zasadniczo niezmienionym poziomie. Wszystk",
@@ -193,18 +469,6 @@
       "dateFormatted": "18 marca 2026"
     },
     {
-      "title": "Najnowsze dane NBP dotyczące lokat. Rekord wpłat na lokaty kwartalne mimo spadku oprocentowania",
-      "link": "https://www.bankier.pl/wiadomosc/Lokaty-terminowe-w-styczniu-2026-r-Rekord-wplat-na-lokaty-kwartalne-mimo-spadku-oprocentowania-9099464.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Klienci ponownie udali się do banków lub ochoczo przekierowywali swoje środki z kont na lokaty terminowe. Styczeń okazał się miesiącem intensywnego odbudowywania oszczędności po nieco wyższych wydatkach grudniowych związanych z przygotowywaniem świąt i prezentów. Dane Narodowego Banku Polskiego wska",
-      "pubDate": "Wed, 18 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/1/c8a2d125071dc0-948-568-0-155-2622-1573.jpg",
-      "dateISO": "2026-03-18T05:00:00.000Z",
-      "dateFormatted": "18 marca 2026"
-    },
-    {
       "title": "Tysiące osób mogą stracić pracę. Wszystko przez import taniego cementu",
       "link": "https://www.bankier.pl/wiadomosc/Import-cementu-wymyka-sie-spod-kontroli-Mozliwe-duze-zwolnienia-w-branzy-9099748.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W 2025 r. do Polski trafiło 1,73 mln ton cementu spoza Unii Europejskiej. Prognozy na 2026 r. mówią już ponad 2 mln ton. Lawinowo rosnący import zaczyna realnie zagrażać kondycji polskiego przemysłu cementowego. Stawką są nie tylko miliardowe inwestycje infrastrukturalne, ale także tysiące miejsc pr",
@@ -225,6 +489,18 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/0/9/34def8694ec954-948-568-0-0-1195-717.jpg",
+      "dateISO": "2026-03-18T05:00:00.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Najnowsze dane NBP dotyczące lokat. Rekord wpłat na lokaty kwartalne mimo spadku oprocentowania",
+      "link": "https://www.bankier.pl/wiadomosc/Lokaty-terminowe-w-styczniu-2026-r-Rekord-wplat-na-lokaty-kwartalne-mimo-spadku-oprocentowania-9099464.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Klienci ponownie udali się do banków lub ochoczo przekierowywali swoje środki z kont na lokaty terminowe. Styczeń okazał się miesiącem intensywnego odbudowywania oszczędności po nieco wyższych wydatkach grudniowych związanych z przygotowywaniem świąt i prezentów. Dane Narodowego Banku Polskiego wska",
+      "pubDate": "Wed, 18 Mar 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/1/c8a2d125071dc0-948-568-0-155-2622-1573.jpg",
       "dateISO": "2026-03-18T05:00:00.000Z",
       "dateFormatted": "18 marca 2026"
     },
@@ -265,63 +541,51 @@
       "dateFormatted": "18 marca 2026"
     },
     {
-      "title": "Emerytura bez tajemnic. Siedem zasad, które warto znać",
-      "link": "https://businessinsider.com.pl/praca/emerytury/emerytura-w-polsce-co-warto-wiedziec-7-najwazniejszych-zasad/7fsv9ep",
-      "description": "Zanim ZUS wypłaci pierwsze świadczenie emerytalne, osoby kończące karierę zawodową powinny dobrze przemyśleć swoje dalsze kroki. Wysokość emerytury zależy o kilku czynników, przy czym nawet resort zachęca do postępowania według siedmiu zasad, aby określić optymalne dla siebie warunki i moment przejś",
-      "pubDate": "Wed, 18 Mar 2026 04:10:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Yjok9kpTURBXy9kMGZjM2M0MDFiNjAzZTkzNmVkZDc5YzhmM2MxZjEzNC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-18T04:10:00.000Z",
+      "title": "Korea Północna omija sankcje dzięki Rosji. 14,4 mld dolarów zysku z eksportu broni i żołnierzy",
+      "link": "https://www.bankier.pl/wiadomosc/Korea-Polnocna-omija-sankcje-dzieki-Rosji-14-4-mld-dolarow-zysku-z-eksportu-broni-i-zolnierzy-9099943.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Korea Północna mogła zarobić nawet 14,4 mld dolarów na rozmieszczaniu wojsk i eksporcie sprzętu wojskowego do Rosji w związku z jej wojną przeciwko Ukrainie - ogłosił w najnowszym raporcie południowokoreański Instytut Strategii Bezpieczeństwa Narodowego (INSS).",
+      "pubDate": "Wed, 18 Mar 2026 04:14:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/b/1c97e145c8f153-948-568-195-314-2325-1394.jpg",
+      "dateISO": "2026-03-18T03:14:00.000Z",
       "dateFormatted": "18 marca 2026"
     },
     {
-      "title": "Nie Intel, a inny światowy gracz. Ten gigant planuje w Polsce potężną inwestycję [TYLKO U NAS]",
-      "link": "https://businessinsider.com.pl/firmy/wielka-inwestycja-w-polsce-gigant-od-apple-zastapi-projekt-intela-tylko-u-nas/187pnxw",
-      "description": "Pod Wrocławiem może wkrótce powstać potężny zakład produkcyjny, zatrudniający nawet 40 tys. osób. Koszt inwestycji to setki milionów euro na start — ustalił Business Insider Polska.",
-      "pubDate": "Wed, 18 Mar 2026 04:05:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/09Lk9kpTURBXy8zYjU3MDA2NDQ2NDM1MDk4M2E0NWYxOWZjZTdhZTQ1YS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-18T04:05:00.000Z",
-      "dateFormatted": "18 marca 2026"
-    },
-    {
-      "title": "NBP gotowy do sprzedaży złota. Członek zarządu: to uzupełnienie działań rządu [WYWIAD]",
-      "link": "https://businessinsider.com.pl/finanse/zloto-z-nbp-czlonek-zarzadu-banku-centralnego-tlumaczy-o-co-chodzi/flek3jv",
-      "description": "Sprzedaż złota przez Narodowy Bank Polski nie jest alternatywą dla działań rządu, tylko ich uzupełnieniem — podkreśla w wywiadzie dla Business Insider Polska członek zarządu NBP Artur Soboń.",
-      "pubDate": "Wed, 18 Mar 2026 03:55:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/grjk9kpTURBXy84ZmJjYjdiNjc4MTJkYTA1NmVmYjViYTQzZDk2ZTg4Zi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-18T03:55:00.000Z",
-      "dateFormatted": "18 marca 2026"
-    },
-    {
-      "title": "Ryzyko i niepewność. Minister finansów reaguje na raport agencji w sprawie weta prezydenta",
-      "link": "https://businessinsider.com.pl/gospodarka/minister-finansow-reaguje-na-raport-agencji-fitch-w-sprawie-weta-prezydenta/mxv8y8q",
-      "description": "\"Rosną koszty prezydenckiego weta wobec SAFE\" — napisał minister finansów Andrzej Domański, komentując specjalny raport agencji Fitch na temat decyzji Karola Nawrockiego.",
-      "pubDate": "Tue, 17 Mar 2026 20:50:20 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/n57k9kpTURBXy9hZWEwYWE2ZmYwYzJmYmRjNjIxYjBhZTMzZWE1YjFlNy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-17T20:50:20.000Z",
+      "title": "Dług Polski sięgnie 70 proc. PKB. Fitch ostrzega przed skutkami blokowania SAFE",
+      "link": "https://www.bankier.pl/wiadomosc/Dlug-Polski-siegnie-70-proc-PKB-Fitch-ostrzega-przed-skutkami-blokowania-SAFE-9099921.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydenckie weto wobec programu SAFE podkreśla ryzyko, że długotrwały okres politycznego impasu ograniczy zdolność do wdrażania polityk i reform w Polsce - wskazał we wtorek Fitch Ratings. Komentując raport agencji, minister Andrzej Domański podkreślił, że rosną koszty weta prezydenta Nawrockiego.",
+      "pubDate": "Tue, 17 Mar 2026 22:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/3/0f515fe61d4c83-948-568-0-201-3500-2099.jpg",
+      "dateISO": "2026-03-17T21:30:00.000Z",
       "dateFormatted": "17 marca 2026"
     },
     {
-      "title": "Administracja Donalda Trumpa ma problem. Chodzi o zwolnienia z czasów Elona Muska",
-      "link": "https://businessinsider.com.pl/gospodarka/administracja-donalda-trumpa-w-kryzysie-brakuje-ekspertow-od-energetyki/elmtktv",
-      "description": "Ubiegłoroczne masowe zwolnienia w Departamencie Stanu USA, zainicjowane przez zespół DOGE Elona Muska, doprowadziły do utraty kluczowych ekspertów zajmujących się bezpieczeństwem energetycznym. Sytuacja ta odbiła się na zdolności amerykańskiego rządu do reagowania na kryzysy w tym obszarze.",
-      "pubDate": "Tue, 17 Mar 2026 20:10:59 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/S6yk9kpTURBXy9hNmYxMzEwM2RjZjUzYmQ3ODkyNzdmZDJiZjdiZDRiMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-17T20:10:59.000Z",
+      "title": "Dowiedz się, jak inwestują najlepsi! Już w piątek i sobotę Invest Cuffs 2026, największy kongres inwestycyjny w Polsce",
+      "link": "https://www.bankier.pl/wiadomosc/Dowiedz-sie-jak-inwestuja-najlepsi-Juz-w-piatek-i-sobote-Invest-Cuffs-2026-najwiekszy-kongres-inwestycyjny-w-Polsce-9099918.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Już 20 i 21 marca 2026 roku Kraków ponownie stanie się centrum finansowego świata. Invest Cuffs, największa w Europie Środkowo-Wschodniej konferencja poświęcona inwestowaniu, rynkom i gospodarce, powraca z dwunastą edycją. Wydarzenie zgromadzi tysiące uczestników, setki ekspertów oraz kluczowe podmi",
+      "pubDate": "Tue, 17 Mar 2026 22:11:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/a/8fd2cff49f26d6-948-568-0-0-1500-900.jpg",
+      "dateISO": "2026-03-17T21:11:00.000Z",
+      "dateFormatted": "17 marca 2026"
+    },
+    {
+      "title": "Kryptowaluty przyciągnęły inwestorów z GPW. Na dniach pojawi się produkt, jakiego jeszcze nie było",
+      "link": "https://www.bankier.pl/wiadomosc/Kryptowaluty-przyciagnely-inwestorow-z-GPW-Na-dniach-pojawi-sie-produkt-jakiego-jeszcze-nie-bylo-9099913.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Szwedzka firma Virtune chce jeszcze w marcu wprowadzić do obrotu na warszawskiej giełdzie kolejne produkty pozwalające uzyskać ekspozycję na cyfrowe waluty. Te, które zadebiutowały jako pierwsze przed trzema tygodniami, przyciągnęły w jej ocenie już ponad dwa tysiące inwestorów.",
+      "pubDate": "Tue, 17 Mar 2026 21:47:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/4/0c912c37736a28-948-568-90-414-2310-1385.jpg",
+      "dateISO": "2026-03-17T20:47:00.000Z",
       "dateFormatted": "17 marca 2026"
     },
     {
@@ -337,75 +601,27 @@
       "dateFormatted": "17 marca 2026"
     },
     {
-      "title": "Viktor Orban stawia ultimatum Ukrainie. \"To takie proste\"",
-      "link": "https://businessinsider.com.pl/gospodarka/viktor-orban-stawia-ultimatum-ukrainie-to-takie-proste/g4jgk6v",
-      "description": "Premier Węgier Viktor Orban zareagował na decyzję UE w sprawie pomocy technicznej i finansowej dla Ukrainy w celu odbudowy rurociągu Przyjaźń.",
-      "pubDate": "Tue, 17 Mar 2026 20:02:26 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Bdyk9kpTURBXy84YTA3NzYzY2M5NWE1YTQyNzRjMDhmMGNjN2ZkMzE1MC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-17T20:02:26.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Iran wciąż zarabia na ropie. Prawie wszystko płynie do jednego kraju",
-      "link": "https://businessinsider.com.pl/gospodarka/iran-wciaz-eksportuje-rope-glownie-do-chin-chca-zakpic-z-usa/ymrps3m",
-      "description": "Teheran w dalszym ciągu eksportuje około 1,5 mln baryłek ropy dziennie — informuje \"Financial Times\". To mniej, niż przez rozpoczęciem wojny z USA i Izraelem, jednak zarobki Iranu z eksportu tego surowca i tak są wysokie. Wiadomo także, gdzie w dużej mierze trafia ta ropa.",
-      "pubDate": "Tue, 17 Mar 2026 19:42:02 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Hx1k9kpTURBXy8xMjg2MmI2ZDVkNjhhZGUxNWRkOGU2MmNmMjRhZmU2ZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-17T19:42:02.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Prezydenckie weto SAFE. Agencja Fitch wskazuje na zagrożenia",
-      "link": "https://businessinsider.com.pl/gospodarka/weto-w-sprawie-safe-agencja-fitch-o-decyzji-prezydenta/bbn4c1c",
-      "description": "Agencja ratingowa Fitch ocenia, że weto prezydenta Polski wobec SAFE stwarza ryzyko, że przedłużający się impas polityczny ograniczy zdolność państwa do wdrażania polityki i reform.",
-      "pubDate": "Tue, 17 Mar 2026 19:34:25 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/bvsk9kpTURBXy83Mzk0YjkxOTJjZGYwN2IzNjdlNDNiMTczNjJmN2UxZS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-17T19:34:25.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Fala aresztowań w Iranie. Służby przejęły setki Starlinków „od wroga”",
-      "link": "https://www.bankier.pl/wiadomosc/Fala-aresztowan-w-Iranie-Sluzby-przejely-setki-Starlinkow-od-wroga-9099852.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Irańskie media poinformowały we wtorek o zatrzymaniu kilkudziesięciu osób, w tym 10 cudzoziemców, pod zarzutem współpracy z USA i Izraelem. Ministerstwo wywiadu oznajmiło, że skonfiskowano ?setki terminali systemu internetu satelitarnego Starlink „przekazane przez wroga”.",
-      "pubDate": "Tue, 17 Mar 2026 19:06:00 +0100",
+      "title": "Zełenski pokazuje iPad wojny w Londynie. „Nasze systemy muszą wyprzedzać morderców”",
+      "link": "https://www.bankier.pl/wiadomosc/Zelenski-pokazuje-iPad-wojny-w-Londynie-Nasze-systemy-musza-wyprzedzac-mordercow-9099875.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Na Bliskim Wschodzie jest już 201 ukraiński ekspertów wojskowych - oznajmił we wtorek przemawiając w brytyjskiej Izbie Gmin prezydent Ukrainy Wołodymyr Zełenski. Dodał, że kolejnych 34 jest gotowych do rozmieszczenia w regionie.",
+      "pubDate": "Tue, 17 Mar 2026 20:08:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/5/c697a81b4452a2-948-568-75-254-2912-1747.jpg",
-      "dateISO": "2026-03-17T18:06:00.000Z",
+      "image": "http://galeria.bankier.pl/p/e/c/085d943c91f6e8-948-568-0-202-3000-1799.jpg",
+      "dateISO": "2026-03-17T19:08:00.000Z",
       "dateFormatted": "17 marca 2026"
     },
     {
-      "title": "Kolejny atak na ambasadę USA w Bagdadzie. Rakiety i drony uderzyły w placówkę",
-      "link": "https://www.bankier.pl/wiadomosc/Kolejny-atak-na-ambasade-USA-w-Bagdadzie-Rakiety-i-drony-uderzyly-w-placowke-9099845.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rakiety i dron z ładunkiem wybuchowym ponownie uderzyły w ambasadę USA w Bagdadzie – poinformowały we wtorek irackie służby bezpieczeństwa, cytowane przez agencje Reutera i AFP. Placówka była już celem ataku wcześniej tego dnia nad ranem.",
-      "pubDate": "Tue, 17 Mar 2026 18:55:00 +0100",
+      "title": "Pijany kierowca stracił Mustanga. Sąd przekazał sportowe auto policji",
+      "link": "https://www.bankier.pl/wiadomosc/Pijany-kierowca-stracil-Mustanga-Sad-przekazal-sportowe-auto-policji-9099792.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ford Mustang skonfiskowany 39-letniemu kierowcy za jazdę po pijanemu trafił do mazowieckiej policji. We wtorek w Radomiu policjanci zaprezentowali jego możliwości. Nowy radiowóz ma być narzędziem do walki z piratami drogowymi.",
+      "pubDate": "Tue, 17 Mar 2026 17:55:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/1/c59e2968d4921e-948-568-50-0-3950-2369.jpg",
-      "dateISO": "2026-03-17T17:55:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Robert Bąkiewicz nie stanie przed sądem za wydarzenia w Słubicach. Prokuratura nie ustępuje",
-      "link": "https://www.bankier.pl/wiadomosc/Robert-Bakiewicz-nie-stanie-przed-sadem-za-wydarzenia-w-Slubicach-Prokuratura-nie-ustepuje-9099841.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sąd Rejonowy w Słubicach (Lubuskie) w całości umorzył postępowanie przeciwko Robertowi Bąkiewiczowi, którego prokuratura oskarżyła m.in. o znieważenie funkcjonariuszy Straży Granicznej i Żandarmerii Wojskowej na przejściu granicznym w Słubicach – poinformował rzecznik Sądu Okręgowego w Gorzowie Wlkp",
-      "pubDate": "Tue, 17 Mar 2026 18:52:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/e/280aec0fe2fdb7-948-568-650-50-2870-1721.jpg",
-      "dateISO": "2026-03-17T17:52:00.000Z",
+      "image": "http://galeria.bankier.pl/p/3/4/50bd2db3967ab8-948-567-0-17-1000-599.jpg",
+      "dateISO": "2026-03-17T16:55:00.000Z",
       "dateFormatted": "17 marca 2026"
     },
     {
@@ -418,18 +634,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/d/8fc1910d18db44-948-568-10-280-3983-2390.jpg",
       "dateISO": "2026-03-17T16:31:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Kierwiński: Służby ograbione z 7 mld zł przez weto prezydenta. Rząd je obejdzie",
-      "link": "https://www.bankier.pl/wiadomosc/Kierwinski-Sluzby-ograbione-z-7-mld-zl-przez-weto-prezydenta-Rzad-je-obejdzie-9099768.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Przez prezydenckie weto służby podległe MSWiA zostały ograbione z dodatkowych 7 mld zł, które dotąd były niedostępne – powiedział szef MSWiA Marcin Kierwiński. Zadeklarował, że każdy z tych projektów „zostanie zrealizowany dla dobra polskiego bezpieczeństwa”.",
-      "pubDate": "Tue, 17 Mar 2026 17:22:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/7/a07031c259b1b7-948-568-0-22-3000-1799.jpg",
-      "dateISO": "2026-03-17T16:22:00.000Z",
       "dateFormatted": "17 marca 2026"
     },
     {
@@ -457,18 +661,6 @@
       "dateFormatted": "17 marca 2026"
     },
     {
-      "title": "Reforma prawa wyborczego w Senacie. Sędziowie wrócą do komisji?",
-      "link": "https://www.bankier.pl/wiadomosc/Reforma-prawa-wyborczego-w-Senacie-Sedziowie-wroca-do-komisji-9099763.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Senackie komisje rozpoczęły prace nad projektem noweli Kodeksu wyborczego. Zmiany, w oparciu o doświadczenia z wyborów prezydenckich z ub.r. dotyczą zmniejszenia obwodów głosowania. Projekt zakłada też, że do Okręgowej Komisji Wyborczej PKW ma powoływać sędziów; a nie jak obecnie osoby z wykształcen",
-      "pubDate": "Tue, 17 Mar 2026 17:17:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/4/08eb2e85cee2a0-948-568-0-74-3000-1799.jpg",
-      "dateISO": "2026-03-17T16:17:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
       "title": "„Studnia bez dna”. PiS uderza w system FALA i wzywa NIK na pomoc",
       "link": "https://www.bankier.pl/wiadomosc/Studnia-bez-dna-PiS-uderza-w-system-FALA-i-wzywa-NIK-na-pomoc-9099757.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Poseł Prawa i Sprawiedliwości Kacper Płażyński zawnioskował do NIK o przeprowadzenie kontroli w samorządowej spółce InnoBaltica odpowiedzialnej za system FALA. Polityk chce, aby Najwyższa Izba Kontroli zbadała celowość, legalność, gospodarność całego projektu.",
@@ -481,27 +673,15 @@
       "dateFormatted": "17 marca 2026"
     },
     {
-      "title": "Przełom w sprawie kopalni Silesia. Bumech z oficjalną koncesją na wydobycie",
-      "link": "https://www.bankier.pl/wiadomosc/Resort-klimatu-zdecydowal-o-przeniesieniu-koncesji-ze-zloza-Silesia-na-Bumech-9099736.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Resort klimatu i środowiska przeniósł koncesję na wydobywanie węgla kamiennego ze złoża Silesia z PG Silesia do spółki Bumech - poinformował we wtorek na platformie X rzecznik ministerstwa klimatu Marek Pogorzelski.",
-      "pubDate": "Tue, 17 Mar 2026 16:38:00 +0100",
+      "title": "Wyrok ws. „Zielonej Granicy”. Zbigniew Ziobro musi przeprosić Agnieszkę Holland i zapłacić",
+      "link": "https://www.bankier.pl/wiadomosc/Wyrok-ws-Zielonej-Granicy-Zbigniew-Ziobro-musi-przeprosic-Agnieszke-Holland-i-zaplacic-9099751.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "B. szef MS Zbigniew Ziobro musi przeprosić reżyserkę Agnieszkę Holland za wypowiedzi porównujące jej film „Zielona Granica” do nazistowskiej propagandy, a także przekazać 50 tys. zł na Stowarzyszenie „Dzieci Holocaustu” - wynika z wyroku Sądu Okręgowego w Warszawie. Ziobro zapowiedział zaskarżenie w",
+      "pubDate": "Tue, 17 Mar 2026 17:02:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": null,
-      "dateISO": "2026-03-17T15:38:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Litwa walczy z cenami paliw. Orlen musi uwolnić zapasy ropy",
-      "link": "https://www.bankier.pl/wiadomosc/Orlen-Lietuva-ma-niezwlocznie-wprowadzic-na-rynek-80-tys-ton-paliw-z-rezerw-9099733.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rząd Litwy zobowiązał spółkę Orlen Lietuva do zmniejszenia zapasów ropy o 80 tys. ton i natychmiastowego skierowania tej ilości na rynek. Rozporządzenie w tej sprawie podpisał we wtorek minister energetyki Żigimantas Vaicziunas.",
-      "pubDate": "Tue, 17 Mar 2026 16:36:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/7/3636f232c01823-948-568-742-419-2257-1354.jpg",
-      "dateISO": "2026-03-17T15:36:00.000Z",
+      "image": "http://galeria.bankier.pl/p/1/f/34bd551f8d5608-948-568-7-142-2992-1795.jpg",
+      "dateISO": "2026-03-17T16:02:00.000Z",
       "dateFormatted": "17 marca 2026"
     },
     {
@@ -512,20 +692,8 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/c/935e4f4d560081-937-562-45-0-937-562.jpg",
+      "image": "http://galeria.bankier.pl/p/8/c/ba331cbc895df7-948-568-3-183-1195-717.jpg",
       "dateISO": "2026-03-17T15:13:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Rząd rozszerza wsparcie dla górników. Kopalnia Silesia objęta nowym programem",
-      "link": "https://www.bankier.pl/wiadomosc/ME-chce-umozliwic-dostep-do-swiadczen-oslonowych-gornikom-z-prywatnych-kopalni-9099660.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Celem projektowanej nowelizacji ustawy o funkcjonowaniu górnictwa węgla kamiennego jest zapewnienie, aby pracownicy zakładów górniczych mieli równy dostęp do świadczeń osłonowych, niezależnie od tego czy są zatrudnieni w podmiotach publicznych, czy prywatnych - podał ME we wpisie do wykazu prac RM. ",
-      "pubDate": "Tue, 17 Mar 2026 15:14:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/7/c05cab5614d5c7-948-568-0-69-1735-1040.jpg",
-      "dateISO": "2026-03-17T14:14:00.000Z",
       "dateFormatted": "17 marca 2026"
     },
     {
@@ -538,18 +706,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/0/a39406a4c4551d-948-568-0-53-1773-1063.jpg",
       "dateISO": "2026-03-17T14:12:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Beton znika z Traktu Królewskiego. Drogowcy kupili nowoczesne zapory",
-      "link": "https://www.bankier.pl/wiadomosc/Beton-znika-z-Traktu-Krolewskiego-Drogowcy-kupili-nowoczesne-zapory-9099656.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Drogowcy kupili nowe bariery antyterrorystyczne, które zastąpią zwykłe, ciężkie, betonowe. Docelowo będą montowane na Trakcie Królewskim, gdy ten stanie się deptakiem. Teraz obsługi zapór uczą się przedstawiciele służb.",
-      "pubDate": "Tue, 17 Mar 2026 15:09:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/a/d8d135017ba986-948-568-7-0-992-595.jpg",
-      "dateISO": "2026-03-17T14:09:00.000Z",
       "dateFormatted": "17 marca 2026"
     },
     {
@@ -577,18 +733,6 @@
       "dateFormatted": "17 marca 2026"
     },
     {
-      "title": "1,5 miliarda złotych na szali. PKP Cargo i Skarb Państwa wstrzymują batalię sądową",
-      "link": "https://www.bankier.pl/wiadomosc/Sad-Okregowy-zawiesil-postepowanie-w-sprawie-tzw-decyzji-weglowej-dotyczacej-PKP-Cargo-9099599.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "PKP Cargo otrzymało postanowienie Sądu Okręgowego w Warszawie o zawieszeniu postępowania w sprawie tzw. decyzji węglowej - podała spółka w komunikacie.",
-      "pubDate": "Tue, 17 Mar 2026 14:14:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/a/087532cbca73e3-945-560-0-33-1500-899.jpg",
-      "dateISO": "2026-03-17T13:14:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
       "title": "Wiedeń wraca do czasów zimnej wojny. Rosyjskie „Russencity” podsłuchuje Zachód",
       "link": "https://www.bankier.pl/wiadomosc/Wieden-wraca-do-czasow-zimnej-wojny-Rosyjskie-Russencity-podsluchuje-Zachod-9099589.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Podobnie jak w czasach zimnej wojny, anteny satelitarne na dachach należących do Rosji budynków w Wiedniu znów stają się dla Moskwy kluczowym narzędziem szpiegowania Zachodu - pisze we wtorek brytyjski dziennik „Financial Times”.",
@@ -598,6 +742,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/b/041ec5a14179ac-945-560-0-103-1732-1039.jpg",
       "dateISO": "2026-03-17T12:59:00.000Z",
+      "dateFormatted": "17 marca 2026"
+    },
+    {
+      "title": "Unicredit przejmie Commerbank? Orlopp: Bardzo niska cena",
+      "link": "https://www.bankier.pl/wiadomosc/Unicredit-przejmie-Commerbank-Orlopp-Bardzo-niska-cena-9099584.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W europejskim sektorze bankowym zawrzało. Włoski gigant UniCredit oficjalnie ogłosił zamiar przejęcia pełnej kontroli nad niemieckim Commerzbankiem. Transakcja, która mogłaby całkowicie przerysować mapę finansową Europy, budzi jednak ogromny opór w Niemczech – zarówno ze strony rządu, jak i samego z",
+      "pubDate": "Tue, 17 Mar 2026 13:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/8/8bdda137c98048-948-568-0-414-4458-2674.jpg",
+      "dateISO": "2026-03-17T12:50:00.000Z",
       "dateFormatted": "17 marca 2026"
     },
     {
@@ -613,42 +769,6 @@
       "dateFormatted": "17 marca 2026"
     },
     {
-      "title": "Drony paraliżują Rosję. Ukraina deklasuje USA w produkcji bezzałogowców",
-      "link": "https://www.bankier.pl/wiadomosc/Drony-paralizuja-Rosje-Ukraina-deklasuje-USA-w-produkcji-bezzalogowcow-9099564.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Tempo i rozwój ukraińskiej produkcji dronów stanowi zagrożenie dla wszystkich regionów Rosji - powiedział we wtorek sekretarz rosyjskiej Rady Bezpieczeństwa Siergiej Szojgu. Ukraińskie bezzałogowce atakują cele położone nawet ponad 1000 kilometrów od granicy z Rosją.",
-      "pubDate": "Tue, 17 Mar 2026 13:23:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/c/dfde68c75966c3-948-568-330-710-3266-1960.jpg",
-      "dateISO": "2026-03-17T12:23:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Marek Suski twierdził, że ma zawał. Poseł PiS opuścił prokuraturę",
-      "link": "https://www.bankier.pl/wiadomosc/Marek-Suski-twierdzil-ze-ma-zawal-Posel-PiS-opuscil-prokurature-9099556.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Przesłuchiwany w warszawskiej prokuraturze okręgowej, w charakterze świadka, poseł PiS Marek Suski poczuł się źle i stwierdził, że ma zawał; wezwano pogotowie, które nie potwierdziło zawału i poseł na własnych nogach opuścił prokuraturę - poinformował rzecznik Prokuratury Okręgowej w Warszawie prok.",
-      "pubDate": "Tue, 17 Mar 2026 13:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/0/49ff913d7a1345-948-568-198-346-2378-1427.jpg",
-      "dateISO": "2026-03-17T12:00:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Przełom w sprawie rurociągu Przyjaźń. Zełenski wysłał list do Brukseli",
-      "link": "https://www.bankier.pl/wiadomosc/Przelom-w-sprawie-rurociagu-Przyjazn-Zelenski-wyslal-list-do-Brukseli-9099532.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent Ukrainy Wołodymyr Zełenski poinformował, że przyjmuje ofertę Unii Europejskiej w sprawie wsparcia technicznego i finansowania, by zakończyć naprawę rurociągu Przyjaźń. Według niego uszkodzona przepompownia w Brodach zostanie naprawiona w ciągu półtora miesiąca.",
-      "pubDate": "Tue, 17 Mar 2026 12:54:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/a/e5c9edc73c2a1c-948-568-40-10-3960-2375.jpg",
-      "dateISO": "2026-03-17T11:54:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
       "title": "Citi obniża prognozy dla Bitcoina i Ethereum wobec powolnych postępów legislacyjnych",
       "link": "https://pl.investing.com/news/cryptocurrency-news/citi-obniza-prognozy-dla-bitcoina-i-ethereum-wobec-powolnych-postepow-legislacyjnych-1326298",
       "description": "",
@@ -661,18 +781,6 @@
       "dateFormatted": "17 marca 2026"
     },
     {
-      "title": "\"Prezydenckie weto nie opóźniło prac w KE nad umową w sprawie SAFE\". Tusk: Nie będzie żadnych problemów ze strony partnerów",
-      "link": "https://www.bankier.pl/wiadomosc/Prezydenckie-weto-nie-opoznilo-prac-w-KE-nad-umowa-w-sprawie-SAFE-9099529.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydenckie weto i konieczność rządowego planu B, by skorzystać z programu SAFE, nie opóźniło prac nad umową pożyczkową w Komisji Europejskiej - ustaliła PAP w źródłach unijnych. KE pracuje nad jednym szablonem umowy dla wszystkich państw.",
-      "pubDate": "Tue, 17 Mar 2026 12:24:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/9/7af41b2f0d58a1-948-568-1160-560-2770-1661.jpg",
-      "dateISO": "2026-03-17T11:24:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
       "title": "Najpotężniejszy człowiek w świecie kryptowalut. Bogatszy od Gatesa",
       "link": "https://www.bankier.pl/wiadomosc/Z-wiezienia-na-szczyt-listy-najbogatszych-Changpeng-Zhao-najpotezniejszym-czlowiekiem-w-swiecie-krypto-9099493.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Choć oczy świata zazwyczaj skupiają się na ścisłym podium list najbogatszych, nie mniej fascynujące historie często kryją się za najbogatszymi z dalszych miejsc. Tegoroczny ranking miliarderów „Forbesa” przyniósł sensację na 17. pozycji. To tutaj uplasował się Changpeng Zhao, legendarny twórca najwi",
@@ -682,42 +790,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/8/0/6812263e86bbce-948-568-0-7-1406-843.png",
       "dateISO": "2026-03-17T10:50:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Wspólny portfel na zbrojenia. Trzy kraje łączą siły, by kupować broń",
-      "link": "https://www.bankier.pl/wiadomosc/Wspolny-portfel-na-zbrojenia-Trzy-kraje-lacza-sily-by-kupowac-bron-9099477.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W obliczu rosnącego zagrożenia na całym świecie, związanego z wojnami w Ukrainie i na Bliskim Wschodzie, Wielka Brytania, Holandia i Finlandia rozważają nawiązanie współpracy w celu wspólnego finansowania i zakupu broni, amunicji oraz sprzętu wojskowego - poinformował we wtorek brytyjski rząd.",
-      "pubDate": "Tue, 17 Mar 2026 11:07:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/c/99631b38e07b3b-948-568-0-0-3233-1940.jpg",
-      "dateISO": "2026-03-17T10:07:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Awantura o mediacje w Dino. 30 tys. zł dla mediatora i kary dla związkowców",
-      "link": "https://www.bankier.pl/wiadomosc/Nici-z-mediacji-w-Dino-Kosmiczne-stawki-i-nagla-zmiana-zasad-9099451.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "We wtorek, 17 marca miały się rozpocząć mediacje między związkami zawodowymi reprezentującymi pracowników Dino a zarządem sieci. Właśnie okazało się, że zostały przesunięte. Powodem tej sytuacji jest znacząca zmiana w zapisach w umowie dotyczącej mediacji.",
-      "pubDate": "Tue, 17 Mar 2026 10:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/4/88f4495f18a302-948-568-0-0-1591-954.jpg",
-      "dateISO": "2026-03-17T09:40:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Startuje nowy program z dotacjami. Nawet 8 tys. zł za zbieranie deszczówki",
-      "link": "https://www.bankier.pl/wiadomosc/Startuje-nowy-program-Mozna-dostac-nawet-8-tys-zl-na-instalacje-zbierajace-deszczowke-9099426.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Dotacje popłyną szerokim strumieniem do właścicieli domów. Będą oni mogli ubiegać się o dofinansowanie na przydomowe systemy gromadzenia i wykorzystania deszczówki. Do wzięcia są łącznie 173 mln zł. Jakie warunki trzeba spełnić?",
-      "pubDate": "Tue, 17 Mar 2026 10:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/d/13d1b538ecd8fd-948-568-0-81-1191-714.jpg",
-      "dateISO": "2026-03-17T09:00:00.000Z",
       "dateFormatted": "17 marca 2026"
     },
     {
@@ -757,18 +829,6 @@
       "dateFormatted": "17 marca 2026"
     },
     {
-      "title": "Jak cyklon, mocny dolar i gaz z koksowni stworzyły „mieszankę wybuchową” na kursie JSW? Najlepsza spółka elity GPW",
-      "link": "https://www.bankier.pl/wiadomosc/Najlepsza-spolka-elity-GPW-Jak-cyklon-mocny-dolar-i-gaz-z-koksowni-stworzyly-mieszanke-wybuchowa-na-kursie-JSW-9098968.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Jastrzębska Spółka Węglowa wyrosła na niekwestionowanego lidera tegorocznych notowań wśród największych i średnich spółek z warszawskiego parkietu. Węglowy gigant systematycznie pnie się w górę, wypracowując stopę zwrotu, której mogą pozazdrościć nawet najwięksi gracze z indeksów WIG20 i mWIG40. O t",
-      "pubDate": "Tue, 17 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/1/8/9637c67f7c5d19-945-567-11-7-1488-893.jpg",
-      "dateISO": "2026-03-17T05:00:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
       "title": "Jak oszukać system kaucyjny i wyłudzić zwrot? Polak potrafi. Oto sposoby",
       "link": "https://www.bankier.pl/wiadomosc/Jak-oszukac-system-kaucyjny-i-wyludzic-zwrot-Polak-potrafi-Oto-sposoby-9099029.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Kiedy pojawia się okazja do zarobienia, pomysłowość Polaków wchodzi na niespotykany poziom. Niestety, jej efektem czasem są sposoby niezgodne z prawem. Z takimi mamy do czynienia w systemie kaucyjnym. Nasi rodacy znaleźli metody na jego obchodzenie i wyłudzanie pieniędzy. W jaki sposób oszukują syst",
@@ -777,18 +837,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/a/8896117e7fa609-948-568-0-24-1200-719.jpg",
-      "dateISO": "2026-03-17T05:00:00.000Z",
-      "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Sankcja kredytu darmowego wciąż rośnie jak na drożdżach",
-      "link": "https://www.bankier.pl/wiadomosc/Sankcja-kredytu-darmowego-wciaz-rosnie-jak-na-drozdzach-9099051.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Granica 20 tys. pozwów przebita. Z analizy Bankier.pl wynika, że notowane na giełdzie banki wciąż notują szybko rosnącą liczbę sporów. Tempo jest nieco wolniejsze niż przed kwartałem, ale w kilku instytucjach rok do roku dynamika przekroczyła 100 proc.",
-      "pubDate": "Tue, 17 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/2/7d387f0acd9bc8-948-568-13-288-1983-1190.png",
       "dateISO": "2026-03-17T05:00:00.000Z",
       "dateFormatted": "17 marca 2026"
     },
@@ -803,18 +851,6 @@
       "image": "https://i-invdn-com.investing.com/news/LYNXNPEB701AO_M.jpg",
       "dateISO": "2026-03-17T02:41:09.000Z",
       "dateFormatted": "17 marca 2026"
-    },
-    {
-      "title": "Inwestorzy zabrali się do kupowania akcji. S&P500 odbił się z tegorocznego dna",
-      "link": "https://www.bankier.pl/wiadomosc/Inwestorzy-zabrali-sie-do-kupowania-akcji-S-P500-odbil-sie-z-tegorocznego-dna-9099254.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "S&P500 odbił się z najniższych poziomów od listopada napędzany przez sektor AI. W tle pozostawała wojna na Bliskim Wschodzie windująca ceny ropy naftowej do ok. stu dolarów za baryłkę.",
-      "pubDate": "Mon, 16 Mar 2026 21:05:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/7/c/4fa7f40fa78eb2-948-568-250-270-3750-2249.jpg",
-      "dateISO": "2026-03-16T20:05:00.000Z",
-      "dateFormatted": "16 marca 2026"
     },
     {
       "title": "Ethereum 10% w górę, na rynku byka",
@@ -889,18 +925,6 @@
       "dateFormatted": "15 marca 2026"
     },
     {
-      "title": "Stablecoiny stają się istotną warstwą finansową, twierdzi BCA",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/stablecoiny-staja-sie-istotna-warstwa-finansowa-twierdzi-bca-1323474",
-      "description": "",
-      "pubDate": "2026-03-14 18:19:06",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "dateISO": "2026-03-14T18:19:06.000Z",
-      "dateFormatted": "14 marca 2026"
-    },
-    {
       "title": "Pieniądze dla JDG leżą na stole. Banki płacą za przejście, rekordzista daje 5000 zł",
       "link": "https://www.bankier.pl/wiadomosc/Pieniadze-dla-JDG-leza-na-stole-Banki-placa-za-przejscie-rekordzista-daje-5000-zl-9097818.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Czy Twój stary bank co miesiąc każe Ci płacić za prowadzenie rachunku, podstawowe przelewy do ZUS czy obsługę karty firmowej? Jeśli tak, to najwyższy czas na zmianę banku. Sprawdź, gdzie zyskasz najwięcej i zredukujesz koszty firmowe do zera.",
@@ -911,19 +935,7 @@
       "image": "http://galeria.bankier.pl/p/a/c/064eb30462cb84-948-568-98-63-2386-1431.png",
       "dateISO": "2026-03-13T13:40:00.000Z",
       "dateFormatted": "13 marca 2026"
-    },
-    {
-      "title": "9 miesięcy Spotify Premium w prezencie od UniCredit. Prześwietlamy warunki darmowego Planu Easy",
-      "link": "https://www.bankier.pl/wiadomosc/9-miesiecy-Spotify-Premium-w-prezencie-od-UniCredit-Przeswietlamy-warunki-darmowego-Planu-Easy-9093579.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prawie rok darmowego streamingu i konto za bezwarunkowe zero złotych – tak UniCredit walczy o polskiego klienta. Po wygaszeniu Aion Banku włoski gigant zachęca bonusami w postaci 9 miesięcy Spotify Premium oraz oprocentowania 4,5% bez limitów kwotowych. Prześwietlamy warunki Planu Easy i sprawdzamy,",
-      "pubDate": "Thu, 5 Mar 2026 15:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/f/f3a777cb0553e3-948-568-0-74-1980-1187.jpg",
-      "dateISO": "2026-03-05T14:00:00.000Z",
-      "dateFormatted": "5 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-18T05:23:18.476Z"
+  "updatedAt": "2026-03-18T08:04:49.029Z"
 }
