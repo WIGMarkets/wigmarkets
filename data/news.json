@@ -1,13 +1,121 @@
 {
   "articles": [
     {
+      "title": "Pentagon chce pieniędzy, Kongres się burzy. \"To całkowicie absurdalne\"",
+      "link": "https://businessinsider.com.pl/gospodarka/pentagon-zada-200-mld-dol-na-wojne-z-iranem-kongres-podzielony/hy7ngh8",
+      "description": "Departament Obrony Stanów Zjednoczonych wystąpił z wnioskiem o przyznanie 200 mld dol. na finansowanie wojny z Iranem. Prośba wywołała silne kontrowersje i podziały w Waszyngtonie.",
+      "pubDate": "Thu, 19 Mar 2026 20:49:34 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/m11k9kpTURBXy8zYmIxNjgzYjYyODlkODhhYWZmYWQ0Njg4NTc0NThhZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-19T20:49:34.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "SNB naraża się Donaldowi Trumpowi. \"Gotowość do interwencji wzrosła\"",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/spor-z-usa-albo-dezinflacja-szwajcaria-ma-problem-z-frankiem/432s6mq",
+      "description": "Biorąc pod uwagę konflikt na Bliskim Wschodzie, gotowość do interwencji na rynku walutowym wzrosła — poinformował w czwartek Szwajcarski Bank Narodowy (SNB). Jednak takie działanie grozi kolejnym sporem z administracją Donalda Trumpa.",
+      "pubDate": "Thu, 19 Mar 2026 20:16:06 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/rsWk9kpTURBXy9mM2M0ZTZmZTljZDdhMDE4ZmVlZGZhNWFiOTcwODQyZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-19T20:16:06.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "\"Zabijanie złoczyńców\" kosztuje. Sekretarz wojny pokazuje rachunek i chce więcej",
+      "link": "https://businessinsider.com.pl/gospodarka/sekretarz-wojny-usa-pete-hegseth-mowi-o-kosztach-wojny-z-iranem/cf4rd4v",
+      "description": "Sekretarz wojny USA Pete Hegseth poinformował, że zgłoszony przez Pentagon wniosek o 200 mld dol., niezbędnych do sfinansowania wojny z Iranem, może nie być ostatnim. Końcowy rachunek, jak zaznaczył, \"może ulec zmianie\".",
+      "pubDate": "Thu, 19 Mar 2026 20:13:06 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/c2hk9kpTURBXy84ODIyZGI1NjE3MDdhOTFiZGZkNWQ1ZDMzMzYxMzFmNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-19T20:13:06.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Wall Street znów zrobiła Europę w konia. Były spadki i nie ma spadków",
+      "link": "https://www.bankier.pl/wiadomosc/Wall-Street-znow-zrobila-Europe-w-konia-Byly-spadki-i-nie-ma-spadkow-9101241.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Amerykańscy inwestorzy pod koniec dnia zniwelowali straty i jak zwykle wystawili Stary Kontynent do wiatru.",
+      "pubDate": "Thu, 19 Mar 2026 21:07:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/3/7/4419fd2c4c98d0-948-567-0-2-1000-599.jpg",
+      "dateISO": "2026-03-19T20:07:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Magazyny \"puste albo prawie puste\". Dramatyczny stan zapasów amunicji",
+      "link": "https://businessinsider.com.pl/firmy/rheinmetall-alarmuje-o-kryzysie-magazyny-pociskow-przeciwlotniczych-na-wyczerpaniu/nrl24gd",
+      "description": "Prezes koncernu zbrojeniowego Rheinmetall alarmuje, że globalne magazyny pocisków przeciwlotniczych są na wyczerpaniu. Przyczyną jest trwający konflikt na Bliskim Wschodzie.",
+      "pubDate": "Thu, 19 Mar 2026 19:20:26 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/6A4k9kpTURBXy82ZGY1MGJmYTdlYTY0ZjZiNjU5NDc0NTdjMGMwODhiMi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-19T19:20:26.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Motyka: Na dachach polskich domów mamy 3 elektrownie Bełchatów",
+      "link": "https://www.bankier.pl/wiadomosc/Motyka-Na-dachach-polskich-domow-mamy-3-elektrownie-Belchatow-9101207.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Minister energii Miłosz Motyka powiedział w czwartek, że odnawialne źródła energii są opłacalne i warto w nie inwestować. Jak dodał, dają one suwerenność i niezależności a próba \"odwrotu z drogi transformacji energetycznej jest sprzeczna z polską racją stanu\".",
+      "pubDate": "Thu, 19 Mar 2026 20:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/a/02e75381c59e2a-948-568-353-0-1322-793.jpg",
+      "dateISO": "2026-03-19T19:00:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Niższe podatki na paliwa? \"Francja nie ma już środków na takie wsparcie\"",
+      "link": "https://www.bankier.pl/wiadomosc/Nizsze-podatki-na-paliwa-Francja-nie-ma-juz-srodkow-na-takie-wsparcie-9101212.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rząd Francji nadal wyklucza obniżenie podatków na paliwa, by złagodzić wzrost cen benzyny. Jak poinformowała w czwartek rzeczniczka rządu Maud Bregeon, scenariusz ten obecnie nie jest przewidywany. W czwartek rano odbyło się spotkanie premiera Sebastiena Lecornu z ministrami ds. handlu i gospodarki.",
+      "pubDate": "Thu, 19 Mar 2026 19:39:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/e/85775876aee5a5-948-568-11-99-2189-1313.jpg",
+      "dateISO": "2026-03-19T18:39:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Szef Rheinmetallu ostrzega: światowe zapasy pocisków przeciwlotniczych są na wyczerpaniu",
+      "link": "https://www.bankier.pl/wiadomosc/Szef-Rheinmetallu-ostrzega-swiatowe-zapasy-pociskow-przeciwlotniczych-sa-na-wyczerpaniu-9101200.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Z powodu wojny na Bliskim Wschodzie światowe zapasy pocisków do obrony przeciwlotniczej są na wyczerpaniu - poinformował w czwartek Armin Papperger, szef niemieckiego koncernu zbrojeniowego Rheinmetall.",
+      "pubDate": "Thu, 19 Mar 2026 19:11:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/d/a9e69ae3119702-948-568-190-0-3370-2021.jpg",
+      "dateISO": "2026-03-19T18:11:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Gdzie się podziały miliony zł z OTS? Uzupełniono zarzuty dla Samera A.",
+      "link": "https://www.bankier.pl/wiadomosc/Gdzie-sie-podzialy-miliony-zl-z-OTS-Uzupelniono-zarzuty-dla-Samera-A-9101193.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Warszawska prokuratura regionalna uzupełniła zarzuty wobec głównego podejrzanego ws. spółki Orlen Trading Switzerland GmbH (OTS) Samera A. - poinformował rzecznik tej prokuratury prok. Mateusz Martyniuk. W czwartek sąd uwzględnił kolejny wniosek o tymczasowe aresztowanie podejrzanego.",
+      "pubDate": "Thu, 19 Mar 2026 18:52:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/5/147145bc4fb295-948-568-67-0-2932-1759.jpg",
+      "dateISO": "2026-03-19T17:52:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
       "title": "Rekordowy rok Żabki. Miliardowy zysk i wyniki lepsze od oczekiwań",
-      "link": "https://www.bankier.pl/wiadomosc/Grupa-Zabka-miala-w-IV-kw-1-134-mld-zl-skorygowanej-EBITDA-wobec-1-085-mld-zl-konsensusu-9101190.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Grupa-Zabka-miala-w-IV-kw-1-134-mld-zl-skorygowanej-EBITDA-wobec-1-085-mld-zl-konsensusu-9101190.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Zabka Group zanotowała w czwartym kwartale 2025 roku 1,134 mld zł skorygowanej EBITDA wobec 987 mln zł rok wcześniej - wynika z wyliczeń PAP Biznes na podstawie raportu rocznego spółki. Analitycy spodziewali się 1,085 mld zł skorygowanego wyniku EBITDA.",
       "pubDate": "Thu, 19 Mar 2026 18:48:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/0/2/279dc5d6c232e6-948-568-57-131-1205-723.jpg",
       "dateISO": "2026-03-19T17:48:00.000Z",
       "dateFormatted": "19 marca 2026"
@@ -25,9 +133,9 @@
       "dateFormatted": "19 marca 2026"
     },
     {
-      "title": "USA przyspieszają sprzedaż broni ZEA i Kuwejtowi. \"Sytuacja nadzywczajna\"",
+      "title": "USA sprzedadzą broń na Bliski Wschód bez zgody Kongresu. \"Sytuacja nadzwyczajna\"",
       "link": "https://businessinsider.com.pl/finanse/donald-trump-przyspiesza-sprzedaz-broni-do-zea-i-kuwejtu-kongres-pominiety/6hd0tfx",
-      "description": "Administracja Donalda Trumpa omija Kongres, aby przyspieszyć sprzedaż broni wartej miliardów dolarów Zjednoczonym Emiratom Arabskim i Kuwejtowi.",
+      "description": "Administracja Donalda Trumpa omija Kongres, aby przyspieszyć sprzedaż broni wartej miliardów dolarów trzem krajom na Bliskim Wschodzie.",
       "pubDate": "Thu, 19 Mar 2026 17:29:44 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -289,42 +397,6 @@
       "dateFormatted": "19 marca 2026"
     },
     {
-      "title": "Koniec bezkarności w Zatoce? Sześć państw \"gotowe do wniesienia wkładu\"",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-bezkarnosci-w-Zatoce-Szesc-panstw-gotowe-do-wniesienia-wkladu-9101016.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sześć państw - Francja, Wielka Brytania, Niemcy, Włochy, Holandia i Japonia – oznajmiło w czwartek, że są „gotowe do wniesienia wkładu” w zapewnienie bezpieczeństwa w cieśninie Ormuz. Cieśnina jest blokowana przez Iran w związku z amerykańsko-izraelskimi atakami na ten kraj.",
-      "pubDate": "Thu, 19 Mar 2026 16:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/c/0a90eeec5ec827-948-568-58-38-3840-2304.jpg",
-      "dateISO": "2026-03-19T15:00:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Katar może wstrzymać dostawy gazu. 17 proc. instalacji zniszczone",
-      "link": "https://www.bankier.pl/wiadomosc/Katar-moze-wstrzymac-dostawy-gazu-17-proc-instalacji-zniszczone-w-jedna-noc-9101024.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Irańskie ataki zniszczyły 17 proc. potencjału eksportowego skroplonego gazu ziemnego (LNG) Kataru, powodując roczne szkody szacowane na 20 mld dolarów z tytułu utraconego dochodu i zagrażając dostawom do Europy i Azji – poinformował prezes QatarEnergy Saad al-Kaabi, cytowany przez agencję Reutera.",
-      "pubDate": "Thu, 19 Mar 2026 15:48:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/d/21d5d615c0fd96-948-568-0-8-1773-1063.jpg",
-      "dateISO": "2026-03-19T14:48:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Bessent kusi Iran: Możemy zdjąć sankcje z waszej ropy naftowej",
-      "link": "https://www.bankier.pl/wiadomosc/Bessent-kusi-Iran-Mozemy-zdjac-sankcje-z-waszej-ropy-naftowej-9101020.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Minister finansów USA Scott Bessent zapowiedział w czwartek w wywiadzie dla Fox Business, że administracja Donalda Trumpa rozważa zniesienie sankcji z około 140 mln baryłek irańskiej ropy, znajdującej się obecnie na tankowcach. Oskarżył też Chiny o to, że wspierały Iran, największego sponsora terror",
-      "pubDate": "Thu, 19 Mar 2026 15:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/1/40262e517b7f27-948-568-842-433-3141-1884.jpg",
-      "dateISO": "2026-03-19T14:40:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
       "title": "Ceny energii zmiażdżą niemiecki przemysł? \"Mogą wypchnąć firmy z kraju\"",
       "link": "https://www.bankier.pl/wiadomosc/Ceny-energii-zmiazdza-niemiecki-przemysl-Moga-wypchnac-firmy-z-kraju-9101014.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Ministra gospodarki RFN Katherina Reiche ostrzegła w czwartek, że wysokie ceny energii mogą skłonić przedsiębiorstwa do opuszczenia Niemiec. Opowiedziała się zarazem przeciwko podejmowaniu działań nadzwyczajnych.",
@@ -517,18 +589,6 @@
       "dateFormatted": "19 marca 2026"
     },
     {
-      "title": "Ekonomiści o nowych danych: silny wzrost cen paliw może ograniczać realny wzrost płac",
-      "link": "https://businessinsider.com.pl/gospodarka/wynagrodzenia-w-polsce-nowe-dane-gus-i-prognozy-ekonomistow/w004n1d",
-      "description": "\"W lutym powiało chłodem na rynku pracy\" — wskazują ekonomiści Banku Pekao.",
-      "pubDate": "Thu, 19 Mar 2026 13:14:09 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Ditk9kpTURBXy82ODAyOTUzYTk0YzExNjMxZTA3M2JmNTM3ZGNmNTQxNS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-19T13:14:09.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
       "title": "Merkel do migrantów: Głosujcie przeciw AfD. Merz wprowadza twarde zasady dla azylantów",
       "link": "https://www.bankier.pl/wiadomosc/Merkel-do-migrantow-Glosujcie-przeciw-AfD-Merz-wprowadza-twarde-zasady-dla-azylantow-9100874.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Angela Merkel wezwała wprost migrantów i osoby wywodzące się z rodzin, które przybyły do Niemiec do zjednoczenia się przeciwko Alternatywie dla Niemiec (AfD). Odpowiedź prawicy była natychmiastowa i brutalna, a urzędujący kanclerz Friedrich Merz odpowiada na te dylematy radykalnym zaostrzeniem kursu",
@@ -550,30 +610,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/9/3/329df084486cce-948-568-0-0-1963-1178.jpg",
       "dateISO": "2026-03-19T13:00:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Biedronka bije rekordy sprzedaży. Teraz może przejąć Carrefoura w Polsce",
-      "link": "https://businessinsider.com.pl/firmy/rewolucja-na-rynku-handlu-biedronka-rozwaza-przejecie-sklepow-carrefoura/txm7sys",
-      "description": "Prezes Biedronki, Luis Araujo, po raz pierwszy publicznie potwierdził, że sieć analizuje możliwość przejęcia części biznesu Carrefoura w Polsce. Podczas konferencji w Lizbonie podkreślił, że model franczyzowy mógłby stać się sposobem na rozwiązanie problemów konkurenta, który od miesięcy sonduje moż",
-      "pubDate": "Thu, 19 Mar 2026 12:51:50 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/khok9kpTURBXy9iYmU4YjM4NGZhNzE3NGU2NmNiMGNkNDczNmFkMmMzYy5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-19T12:51:50.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Kierowcy z Niemiec krytykują jakość paliw w Polsce. Ta mapa pozwoli uniknąć błędu",
-      "link": "https://businessinsider.com.pl/gospodarka/niemcy-ostrzegaja-przed-tankowaniem-w-polsce-w-ten-sposob-unikniesz-bledu/ew9yszj",
-      "description": "W niemieckich mediach pojawiają się ostatnio ostrzeżenia przed niską jakością paliw w Polsce i wynikającymi z tego potencjalnymi problemami dla kierowców. Są jednak sposoby, by uniknąć wyboru niewłaściwej stacji. Jednym z nich jest specjalna mapa.",
-      "pubDate": "Thu, 19 Mar 2026 12:40:19 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/rGak9kpTURBXy8zMjU5ZDc2MTA4NGY2NTY0MDBlMTZmNTAyMDhkMGZkMC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-19T12:40:19.000Z",
       "dateFormatted": "19 marca 2026"
     },
     {
@@ -610,18 +646,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/2/c/fc9fd20847343c-948-568-56-168-2856-1713.jpg",
       "dateISO": "2026-03-19T12:05:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Mocne spadki cen srebra i miedzi. Uderzają w notowania państwowej spółki",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/kghm-mocno-traci-na-gieldzie-w-centrum-uwagi-ceny-srebra-i-miedzi/4sffr7v",
-      "description": "Kapitalizacja giełdowa KGHM skurczyła się w kilka godzin o miliardy złotych. Państwowy gigant najmocniej ciąży notowaniom indeksu WIG20.",
-      "pubDate": "Thu, 19 Mar 2026 11:53:56 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/z0dk9kpTURBXy8yNjFlZGQyOGZlYjdiNGVjZGFhNzg1ZGI1ZmRiZGVlZC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-19T11:53:56.000Z",
       "dateFormatted": "19 marca 2026"
     },
     {
@@ -973,5 +997,5 @@
       "dateFormatted": "13 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-19T18:10:41.278Z"
+  "updatedAt": "2026-03-19T21:49:57.034Z"
 }
