@@ -1,6 +1,354 @@
 {
   "articles": [
     {
+      "title": "Rekordowy rok Żabki. Miliardowy zysk i wyniki lepsze od oczekiwań",
+      "link": "https://www.bankier.pl/wiadomosc/Grupa-Zabka-miala-w-IV-kw-1-134-mld-zl-skorygowanej-EBITDA-wobec-1-085-mld-zl-konsensusu-9101190.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Zabka Group zanotowała w czwartym kwartale 2025 roku 1,134 mld zł skorygowanej EBITDA wobec 987 mln zł rok wcześniej - wynika z wyliczeń PAP Biznes na podstawie raportu rocznego spółki. Analitycy spodziewali się 1,085 mld zł skorygowanego wyniku EBITDA.",
+      "pubDate": "Thu, 19 Mar 2026 18:48:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/0/2/279dc5d6c232e6-948-568-57-131-1205-723.jpg",
+      "dateISO": "2026-03-19T17:48:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Stany Zjednoczone znoszą niektóre sankcje wobec Białorusi",
+      "link": "https://businessinsider.com.pl/gospodarka/stany-zjednoczone-lagodza-sankcje-wobec-bialorusi/l360wjh",
+      "description": "Decyzja USA dotyczy części sankcji nałożonych na białoruskie instytucje finansowe oraz spółki potasowe.",
+      "pubDate": "Thu, 19 Mar 2026 17:43:13 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/awik9kpTURBXy80NmQwZWZjOWI4Y2QwMjgwODUxMDYyZmU5YjZiNmE4Mi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-19T17:43:13.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "USA przyspieszają sprzedaż broni ZEA i Kuwejtowi. \"Sytuacja nadzywczajna\"",
+      "link": "https://businessinsider.com.pl/finanse/donald-trump-przyspiesza-sprzedaz-broni-do-zea-i-kuwejtu-kongres-pominiety/6hd0tfx",
+      "description": "Administracja Donalda Trumpa omija Kongres, aby przyspieszyć sprzedaż broni wartej miliardów dolarów Zjednoczonym Emiratom Arabskim i Kuwejtowi.",
+      "pubDate": "Thu, 19 Mar 2026 17:29:44 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/j83k9kpTURBXy9iZTI4YTcyNTQyMDlhYWFhZDA4OGE1ZTQxYWIxYmRiMi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-19T17:29:44.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Ceny benzyny pogrążą Donalda Trumpa? Nowy sondaż w USA",
+      "link": "https://businessinsider.com.pl/gospodarka/donald-trump-traci-poparcie-rekordowa-krytyka-za-ceny-benzyny-w-usa/d3jylx6",
+      "description": "Nowy sondaż przeprowadzony przez Yahoo/YouGov pokazuje, że coraz więcej Amerykanów negatywnie ocenia działania prezydenta Donalda Trumpa w kwestiach gospodarczych.",
+      "pubDate": "Thu, 19 Mar 2026 17:27:56 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/w_rk9kpTURBXy9kODllYjUxODRmMGMwMDNiZDY3ZGM5MGVhZTYwYjFhNy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-19T17:27:56.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "CD Projekt rozbił bank. Gigantyczne zyski spółki, analitycy w szoku",
+      "link": "https://www.bankier.pl/wiadomosc/Zysk-netto-CD-Projektu-z-dzialalnosci-kontynuowanej-w-IV-kw-wyniosl-174-2-mln-zl-wobec-konsensusu-97-4-mln-zl-9101181.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zysk netto z działalności kontynuowanej grupy CD Projekt w IV kwartale 2025 r. wyniósł 174,2 mln zł - wynika z wyliczeń PAP Biznes na podstawie raportu rocznego spółki. Zysk EBITDA wyniósł 167,7 mln zł. Konsensus zakładał 97,4 mln zł wyniku netto z działalności kontynuowanej oraz 109,5 mln zł wyniku",
+      "pubDate": "Thu, 19 Mar 2026 18:24:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/6/9145841a95ab08-948-568-91-0-1800-1079.jpg",
+      "dateISO": "2026-03-19T17:24:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Koniec polowania na urzędników? Sensacyjna decyzja prokuratury ws. SKOK Wołomin",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-polowania-na-urzednikow-Sensacyjna-decyzja-prokuratury-ws-SKOK-Wolomin-9101178.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prokurator w procesie byłych szefów KNF ws. nadzoru nad SKOK Wołomin zwrócił się do siedmiorga oskarżonych o zgody na cofnięcie wobec nich aktu oskarżenia - poinformowała PAP rzeczniczka Prokuratora Generalnego Anna Adamiak. Dodała, że decyzja była „konsekwencją wydania polecenia przez PG”.",
+      "pubDate": "Thu, 19 Mar 2026 18:22:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/0/3830de18873887-948-568-30-69-3970-2381.jpg",
+      "dateISO": "2026-03-19T17:22:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Amerykańska broń trafi do ZEA, Kuwejtu i Jordanii. Jest zgoda na sprzedaż",
+      "link": "https://www.bankier.pl/wiadomosc/Amerykanska-bron-trafi-do-ZEA-Kuwejtu-i-Jordanii-Jest-zgoda-na-sprzedaz-9101169.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Departament Stanu USA poinformował w czwartek o zatwierdzeniu potencjalnej sprzedaży uzbrojenia dla Zjednoczonych Emiratów Arabskich, Kuwejtu i Jordanii. Decyzja zapadła na tle eskalacji wojny na Bliskim Wschodzie.",
+      "pubDate": "Thu, 19 Mar 2026 18:07:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/1/16837414a87e4e-948-568-112-136-1488-892.jpg",
+      "dateISO": "2026-03-19T17:07:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Szef BBN uderza w Onet. Chce zbadania okoliczności ujawnienia dokumentów m.in. ws. SAFE",
+      "link": "https://www.bankier.pl/wiadomosc/Szef-BBN-uderza-w-Onet-Chce-zbadania-okolicznosci-ujawnienia-dokumentow-m-in-ws-SAFE-9101142.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Szef BBN Sławomir Cenckiewicz zwrócił się do ministra koordynatora służb specjalnych Tomasza Siemoniaka z pismem o sprawdzenie, czy przy okazji opublikowania przez Onet fragmentów dokumentów m.in. ws. SAFE nie doszło do naruszenia przepisów dot. ochrony informacji niejawnych – poinformowało w czwart",
+      "pubDate": "Thu, 19 Mar 2026 17:39:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/0/ecd54743f6ea9f-948-568-7-97-2992-1795.jpg",
+      "dateISO": "2026-03-19T16:39:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Łukaszenka wypuszcza 250 więźniów, USA zdejmują sankcje",
+      "link": "https://www.bankier.pl/wiadomosc/Lukaszenka-wypuszcza-250-wiezniow-USA-zdejmuja-sankcje-9101140.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "250 więźniów zostało zwolnionych w czwartek na Białorusi - przekazał wysłannik prezydenta USA Donalda Trumpa John Coale po spotkaniu z białoruskim przywódcą Alaksandrem Łukaszenką. Portal Nasza Niwa podał nazwiska kilkunastu zwolnionych więźniów politycznych. USA zniosły część sankcji wobec Mińska.",
+      "pubDate": "Thu, 19 Mar 2026 17:39:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/e/37ab1fde78e583-948-568-0-51-1732-1039.jpg",
+      "dateISO": "2026-03-19T16:39:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Rozluźnienie na Wschodzie? Trump: Nie wysyłam wojsk lądowych do Iranu",
+      "link": "https://www.bankier.pl/wiadomosc/Rozluznienie-na-Wschodzie-Trump-Nie-wysylam-wojsk-ladowych-do-Iranu-9101126.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Nie wysyłam wojsk do Iranu - powiedział w czwartek prezydent USA Donald Trump podczas spotkania z premierką Japonii Sanae Takaichi. Chwalił przy tym Japonię, że stawia czoła wyzwaniu, które spowodowała wojna na Bliskim Wschodzie.",
+      "pubDate": "Thu, 19 Mar 2026 17:28:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/f/cb29cc303ea4e5-948-568-100-20-3900-2339.jpg",
+      "dateISO": "2026-03-19T16:28:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "\"Jeśli uda się zlikwidować ETS, ceny energii spadną\". Doradczyni prezydenta o systemie handlu emisjami [WYWIAD]",
+      "link": "https://businessinsider.com.pl/gospodarka/ets-do-likwidacji-doradczyni-prezydenta-o-planach-karola-nawrockiego/fq6lnmb",
+      "description": "Czy Unia Europejska powinna zlikwidować ETS? O systemie handlu uprawnieniami do emisji rozmawiamy z Wandą Buk, społeczną doradczynią prezydenta ds. energetyki.",
+      "pubDate": "Thu, 19 Mar 2026 16:26:17 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/4mbk9kpTURBXy9lNDlmZTJhZDQ2NmRlNWY4NDgwMWZmZTBiYTdmNTBiNS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-19T16:26:17.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Spadki na światowych giełdach. Odwrót WIG20, rajd węglowych spółek i efekt Biedronki",
+      "link": "https://www.bankier.pl/wiadomosc/Spadki-na-swiatowych-gieldach-Odwrot-WIG20-rajd-weglowych-spolek-i-efekt-Biedronki-9101013.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Giełda Papierów Wartościowych w Warszawie nie odstawała w czwartek od reszty światowych parkietów, które pogrążyły się w spadkach. Rosły ceny ropy i nie malało zagrożenie dla tankowców w Zatoce Perskiej. W WIG20 o tytuł najmocniej przecenionej spółki rywalizowały KGHM i Dino. Na niewielkim plusie se",
+      "pubDate": "Thu, 19 Mar 2026 17:25:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/4/65346bf4437943-945-560-0-0-1500-899.jpg",
+      "dateISO": "2026-03-19T16:25:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Trump zaprzecza, Izrael ujawnia kulisy. Zwrot ws. złoża South Pars",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-zaprzecza-Izrael-ujawnia-kulisy-Zwrot-ws-zloza-South-Pars-9101111.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Atak Izraela na złoże gazowe South Pars w Iranie był skoordynowany z USA, ale prawdopodobnie nie zostanie powtórzony - poinformowało w czwartek trzech izraelskich urzędników, cytowanych przez agencję Reutera. Prezydent USA Donald Trump oświadczył w środę, że nic nie wiedział o ataku.",
+      "pubDate": "Thu, 19 Mar 2026 17:12:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/d/5c02e282cd5147-948-568-42-283-3389-2033.jpg",
+      "dateISO": "2026-03-19T16:12:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Wiemy, ile wynosi inflacja sałatkowa. Niepokojące dane",
+      "link": "https://businessinsider.com.pl/poradnik-finansowy/tak-zmienily-sie-ceny-salatek-paragony-pokazaly-prawde/y032dxn",
+      "description": "Jak bardzo zmieniły się ceny popularnych produktów wielkanocnych? Sprawdzili to specjaliści z popularnej aplikacji PanParagon. Najbardziej podrożał seler — od 2024 r. aż o 30 proc.",
+      "pubDate": "Thu, 19 Mar 2026 16:09:09 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/zpCk9kpTURBXy83YzgyYzNlMjIzMzU0OWUzM2Q2MWNjMWIwZDk5ZDBlMi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-19T16:09:09.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Daleko nie popłynęli. Izrael zatopił irańską flotę na Morzu Kaspijskim",
+      "link": "https://www.bankier.pl/wiadomosc/Daleko-nie-poplyneli-Izrael-zatopil-iranska-flote-na-Morzu-Kaspijskim-9101104.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Izraelskie lotnictwo zaatakowało w nocy ze środy na czwartek irański port Bandar-e Anzali nad Morzem Kaspijskim, niszcząc kilka okrętów marynarki wojennej i infrastrukturę portową - poinformował rzecznik izraelskiej armii ppłk Nadaw Szoszani.",
+      "pubDate": "Thu, 19 Mar 2026 17:09:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/5/a70218028d903a-948-568-0-176-1857-1114.jpg",
+      "dateISO": "2026-03-19T16:09:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Europejskie giełdy pokryte czerwienią. Indeks WIG20 w dół ciągnęły dwie duże spółki",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/akcje-na-gpw-z-mocnymi-spadkami-w-centrum-uwagi-kghm-i-dino/e1pzvyl",
+      "description": "Nawet 6 proc. w dół szły w czwartek notowania czołowych spółek z WIG20. Strach zdominował inwestorów nie tylko z rodzimej giełdy.",
+      "pubDate": "Thu, 19 Mar 2026 16:01:48 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/vpWk9kpTURBXy9hN2JlZjgwM2ZmZGRlYTg5NjE4ZGU0OTZhNzFlOWNjMi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-19T16:01:48.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "170 tysięcy złotych netto dla górników. PGG ruszy z odprawami",
+      "link": "https://www.bankier.pl/wiadomosc/170-tysiecy-zlotych-netto-dla-gornikow-PGG-ruszy-z-odprawami-9101092.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polska Grupa Górnicza podpisała z Ministerstwem Energii umowę ws. dotacji na finansowanie jednorazowych odpraw pieniężnych. Spółka zapowiada uruchomienie jednorazowych odpraw w kwietniu.",
+      "pubDate": "Thu, 19 Mar 2026 17:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/3/76770fa3f1abe2-948-568-91-91-1737-1042.jpg",
+      "dateISO": "2026-03-19T16:00:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Importerzy mają problem. Eksport gazu z Kataru zagrożony na lata",
+      "link": "https://businessinsider.com.pl/gospodarka/iran-uderza-w-energetyke-kataru-eksport-gazu-zagrozony-na-lata/r42ettj",
+      "description": "Irańskie ataki sparaliżowały kluczową infrastrukturę energetyczną Kataru, niszcząc znaczną część potencjału eksportowego skroplonego gazu ziemnego.",
+      "pubDate": "Thu, 19 Mar 2026 15:58:45 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/GJqk9kpTURBXy8xYjQxMDZkZWMzM2FjMzRjYjliNGU4Yjk1ZGEzYmRkYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-19T15:58:45.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Biedronka przejmie Carrefoura? Prezes mówi o rewolucji we franczyzie",
+      "link": "https://www.bankier.pl/wiadomosc/Biedronka-przejmie-Carrefoura-Prezes-mowi-o-rewolucji-we-franczyzie-9101090.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Podczas gdy rynek handlowy w Polsce staje się coraz bardziej nasycony, lider branży – Jeronimo Martins – szuka nowych dróg ekspansji. Luis Araujo, prezes Biedronki, po raz pierwszy otwarcie przyznał, że sieć analizuje możliwość przejęcia części biznesu francuskiego Carrefoura. Taki ruch mógłby nie t",
+      "pubDate": "Thu, 19 Mar 2026 16:57:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/5/984577aee884c5-948-568-50-330-1950-1169.jpg",
+      "dateISO": "2026-03-19T15:57:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Tankowce i rafinerie w ogniu. Oto skutki ataków Iranu [MAPA]",
+      "link": "https://businessinsider.com.pl/gospodarka/kluczowe-instalacje-naftowe-zaatakowane-przez-iran-oto-skutki-mapa/zlv6l3f",
+      "description": "Iran nadal wstrzymuje niemal cały transport morski przez Cieśninę Ormuz, przez którą przepływało jeszcze niedawno około 20 proc. światowych dostaw ropy naftowej i skroplonego gazu ziemnego. Eksporterzy z Zatoki Perskiej przenoszą dostawy do rurociągów omijających cieśninę.",
+      "pubDate": "Thu, 19 Mar 2026 15:43:36 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/r3rk9kpTURBXy81MmEyMGYzZTJiODFiMmVmZWY2ODU2YzViZThhNTljYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-19T15:43:36.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Majątek wart 8 mln zł i zwłoki w domu. Sąd w Gdańsku zdecydował ws. gangstera",
+      "link": "https://www.bankier.pl/wiadomosc/Majatek-wart-8-mln-zl-i-zwloki-w-domu-Sad-w-Gdansku-zdecydowal-ws-gangstera-9101076.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sąd Okręgowy w Gdańsku utrzymał w mocy decyzję o umorzeniu śledztwa po śmierci rolnika spod Gdyni – 77-letniego Stanisława W., którego wart 8 mln zł majątek przejął były gangster. Uzasadnienie powinno zostać sporządzone w ciągu najbliższych siedmiu dni.",
+      "pubDate": "Thu, 19 Mar 2026 16:40:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/a/7ae238fd29ef6a-948-568-0-0-1900-1139.jpg",
+      "dateISO": "2026-03-19T15:40:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "150 osób z zarzutami. Mafia śmieciowa straciła fortunę",
+      "link": "https://www.bankier.pl/wiadomosc/150-osob-z-zarzutami-Mafia-smieciowa-stracila-fortune-9101072.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W ramach śledztwa dotyczącego mafii śmieciowej Prokuratura Regionalna w Katowicach zabezpieczyła dotychczas mienie podejrzanych o wartości ponad 22,6 mln zł – poinformował rzecznik tej jednostki Michał Binkiewicz.",
+      "pubDate": "Thu, 19 Mar 2026 16:35:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/a/e9d497ed9cf996-948-568-9-222-3862-2317.jpg",
+      "dateISO": "2026-03-19T15:35:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Christine Lagarde przyznaje: ryzyko dla perspektyw inflacji jest zwyżkowe",
+      "link": "https://businessinsider.com.pl/gospodarka/makroekonomia/stopy-procentowe-w-strefie-euro-christine-lagarde-o-ryzykach-z-inflacja-i-pkb/tvcv92w",
+      "description": "\"Wszelkie reakcje fiskalne na szok cenowy w sektorze energetycznym powinny mieć charakter tymczasowy, ukierunkowany i dostosowany do potrzeb\" — podkreśliła w czwartek szefowa Europejskiego Banku Centralnego.",
+      "pubDate": "Thu, 19 Mar 2026 15:17:40 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/DvQk9kpTURBXy9lMTg3Y2ExMDBhOGJmYzkyMDdkOWM4OWM4MTA2MTc4Ni5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-19T15:17:40.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Świat wyrywa sobie rosyjską ropę. Tankowce zmieniają kurs",
+      "link": "https://businessinsider.com.pl/gospodarka/rosyjskie-tankowce-zmieniaja-kurs-na-indie-zwolnienie-z-sankcji-otwiera-rynek/9kblshd",
+      "description": "Indie otrzymały nieoczekiwane wsparcie od USA w handlu ropą naftową. Tymczasowe zwolnienie z amerykańskich sankcji spowodowało istotną zmianę w kierunkach dostaw surowca z Rosji.",
+      "pubDate": "Thu, 19 Mar 2026 15:04:13 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/FMRk9kqTURBXy9mNTJiN2IwZGMzMWEwYWJlNGQwZmIxYTkzMTdhZTA4Zi5qcGVnkZMCzQSwAN4AAaEwAQ",
+      "dateISO": "2026-03-19T15:04:13.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Koniec bezkarności w Zatoce? Sześć państw \"gotowe do wniesienia wkładu\"",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-bezkarnosci-w-Zatoce-Szesc-panstw-gotowe-do-wniesienia-wkladu-9101016.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sześć państw - Francja, Wielka Brytania, Niemcy, Włochy, Holandia i Japonia – oznajmiło w czwartek, że są „gotowe do wniesienia wkładu” w zapewnienie bezpieczeństwa w cieśninie Ormuz. Cieśnina jest blokowana przez Iran w związku z amerykańsko-izraelskimi atakami na ten kraj.",
+      "pubDate": "Thu, 19 Mar 2026 16:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/c/0a90eeec5ec827-948-568-58-38-3840-2304.jpg",
+      "dateISO": "2026-03-19T15:00:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Katar może wstrzymać dostawy gazu. 17 proc. instalacji zniszczone",
+      "link": "https://www.bankier.pl/wiadomosc/Katar-moze-wstrzymac-dostawy-gazu-17-proc-instalacji-zniszczone-w-jedna-noc-9101024.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Irańskie ataki zniszczyły 17 proc. potencjału eksportowego skroplonego gazu ziemnego (LNG) Kataru, powodując roczne szkody szacowane na 20 mld dolarów z tytułu utraconego dochodu i zagrażając dostawom do Europy i Azji – poinformował prezes QatarEnergy Saad al-Kaabi, cytowany przez agencję Reutera.",
+      "pubDate": "Thu, 19 Mar 2026 15:48:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/d/21d5d615c0fd96-948-568-0-8-1773-1063.jpg",
+      "dateISO": "2026-03-19T14:48:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Bessent kusi Iran: Możemy zdjąć sankcje z waszej ropy naftowej",
+      "link": "https://www.bankier.pl/wiadomosc/Bessent-kusi-Iran-Mozemy-zdjac-sankcje-z-waszej-ropy-naftowej-9101020.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Minister finansów USA Scott Bessent zapowiedział w czwartek w wywiadzie dla Fox Business, że administracja Donalda Trumpa rozważa zniesienie sankcji z około 140 mln baryłek irańskiej ropy, znajdującej się obecnie na tankowcach. Oskarżył też Chiny o to, że wspierały Iran, największego sponsora terror",
+      "pubDate": "Thu, 19 Mar 2026 15:40:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/1/40262e517b7f27-948-568-842-433-3141-1884.jpg",
+      "dateISO": "2026-03-19T14:40:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Ceny energii zmiażdżą niemiecki przemysł? \"Mogą wypchnąć firmy z kraju\"",
+      "link": "https://www.bankier.pl/wiadomosc/Ceny-energii-zmiazdza-niemiecki-przemysl-Moga-wypchnac-firmy-z-kraju-9101014.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ministra gospodarki RFN Katherina Reiche ostrzegła w czwartek, że wysokie ceny energii mogą skłonić przedsiębiorstwa do opuszczenia Niemiec. Opowiedziała się zarazem przeciwko podejmowaniu działań nadzwyczajnych.",
+      "pubDate": "Thu, 19 Mar 2026 15:33:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/3/8ec0a594e22175-948-568-0-71-4752-2851.jpg",
+      "dateISO": "2026-03-19T14:33:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Drożyzna na stacjach. Rząd Japonii rzuca miliardy, by ratować kierowców",
+      "link": "https://www.bankier.pl/wiadomosc/Drozyzna-na-stacjach-Rzad-Japonii-rzuca-miliardy-by-ratowac-kierowcow-9101005.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rząd Japonii wznowił w czwartek program dopłat do benzyny, ustalając wsparcie na poziomie 30,2 jena (0,19 USD) za litr – podała agencja Kyodo. Decyzja ma na celu obniżenie cen na stacjach, które osiągnęły historyczne maksima w następstwie gwałtownego wzrostu notowań ropy po ataku USA i Izraela na Ir",
+      "pubDate": "Thu, 19 Mar 2026 15:25:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/5/f95f507d6db72a-948-568-0-270-4000-2399.jpg",
+      "dateISO": "2026-03-19T14:25:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
       "title": "Irańska ropa w centrum uwagi. USA mówią o zniesieniu sankcji",
       "link": "https://businessinsider.com.pl/gospodarka/co-z-cenami-ropy-oto-nowe-pomysly-usa-i-iranu/yslt5qe",
       "description": "Stany Zjednoczone mogłyby znieść sankcje na część irańskiej ropy — powiedział sekretarz skarbu USA. Z kolei Iran rozważa opłaty dla statków przepływających przez Cieśninę Ormuz.",
@@ -13,6 +361,18 @@
       "dateFormatted": "19 marca 2026"
     },
     {
+      "title": "Węgry i Słowacja idą pod prąd. Orban zablokował miliardy dla Ukrainy",
+      "link": "https://www.bankier.pl/wiadomosc/Wegry-i-Slowacja-ida-pod-prad-Orban-zablokowal-miliardy-dla-Ukrainy-9100999.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "25 państw unijnych, bez Węgier i Słowacji, poparło konkluzje szczytu UE w sprawie dalszego wsparcia Ukrainy - poinformowała w czwartek Rada Europejska. Unijnym przywódcom nie udało się też przekonać premiera Węgier Viktora Orbana do odblokowania 90 mld euro unijnej pożyczki dla Ukrainy.",
+      "pubDate": "Thu, 19 Mar 2026 15:18:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/8/d87ee9907ed28a-948-568-880-120-2583-1550.jpg",
+      "dateISO": "2026-03-19T14:18:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
       "title": "Najnowsze dane dotyczące inflacji PPI. Eksperci uspokajają",
       "link": "https://businessinsider.com.pl/gospodarka/inflacja-ppi-pod-lupa-ekspertow-santander-bank-polska-rynek-czeka-na-dane/5d7vmg1",
       "description": "Najnowsze dane dotyczące inflacji PPI nie wskazują na konieczność natychmiastowej interwencji ze strony Rady Polityki Pieniężnej — oceniają analitycy Santander Bank Polska.",
@@ -22,18 +382,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/3tYk9kpTURBXy82MGE2ZDBlZTBmMmYwNjExZGUxMjI5OTFiMjFjYWM3NC5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-03-19T14:12:14.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Wojna uderza w linie lotnicze. Szef IATA: wzrost ceny biletów jest nieunikniony",
-      "link": "https://www.bankier.pl/wiadomosc/Wojna-uderza-w-linie-lotnicze-Szef-IATA-wzrost-ceny-biletow-jest-nieunikniony-9100992.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Szef Międzynarodowego Zrzeszenia Przewoźników Powietrznych (IATA) Willie Walsh powiedział w czwartek agencji Reutera, że w rezultacie toczącej się na Bliskim Wschodzie wojny wzrost ceny biletów lotniczych jest nieunikniony.",
-      "pubDate": "Thu, 19 Mar 2026 15:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/1/37fcb12a54642b-948-568-1582-239-1402-841.jpg",
-      "dateISO": "2026-03-19T14:10:00.000Z",
       "dateFormatted": "19 marca 2026"
     },
     {
@@ -82,18 +430,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/N9bk9kpTURBXy84NzE1YjI5N2Q1YmQyZTVmMjcyYzIzODg3MWQ0ZTM4MS5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-03-19T13:55:38.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "MBF Group zawarł MoU w obszarze technologii bezpieczeństwa, ochrony granicy i rozwiązań dual-use",
-      "link": "https://www.bankier.pl/wiadomosc/MBF-Group-zawarl-MoU-w-obszarze-technologii-bezpieczenstwa-ochrony-granicy-i-rozwiazan-dual-use-9100969.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "MBF Group zawarł Memorandum of Understanding w obszarze technologii bezpieczeństwa, ochrony granicy i rozwiązań dual-use z partnerem technologicznym z siedzibą w Tallinnie (Estonia), działającym przy udziale podmiotu powiązanego z siedzibą w Charkowie - podała spółka MBF Group w komunikacie.",
-      "pubDate": "Thu, 19 Mar 2026 14:46:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/bec068af7bec25-thumb-1000.jpg",
-      "dateISO": "2026-03-19T13:46:00.000Z",
       "dateFormatted": "19 marca 2026"
     },
     {
@@ -241,18 +577,6 @@
       "dateFormatted": "19 marca 2026"
     },
     {
-      "title": "Iran ostrzega sąsiadów. \"Nowy etap\" wojny stał się faktem",
-      "link": "https://www.bankier.pl/wiadomosc/Iran-ostrzega-sasiadow-Nowy-etap-wojny-stal-sie-faktem-9100916.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Szef MSZ Iranu Abbas Aragczi rozmawiał ze swoimi odpowiednikami z Turcji, Egiptu i Pakistanu, ostrzegając przed „destabilizującymi i eskalującymi” działaniami USA i Izraela - przekazały w czwartek media państwowe. Obie strony wojny na Bliskim Wschodzie zintensyfikowały ataki na infrastrukturę energe",
-      "pubDate": "Thu, 19 Mar 2026 13:35:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/d/5d9b9a060fa8ca-948-568-0-280-3983-2390.jpg",
-      "dateISO": "2026-03-19T12:35:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
       "title": "Miliardy na polskie startupy. EFI i BGK odkrywają karty, znamy ambitny plan",
       "link": "https://www.bankier.pl/wiadomosc/Miliardy-na-polskie-startupy-EFI-i-BGK-odkrywaja-karty-znamy-ambitny-plan-9100914.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Pierwszym celem w ramach Future Tech Poland (FTP) jest podpisanie umów z około dziesięcioma funduszami venture capital i venture debt – poinformowała PAP Biznes Marjut Falkstedt, szefowa Europejskiego Funduszu Inwestycyjnego (EFI), który odpowiada za realizację inwestycji FTP.",
@@ -274,18 +598,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/0/e/dc49b782bda639-948-568-15-189-2032-1219.jpg",
       "dateISO": "2026-03-19T12:10:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Bankierzy nie wahali się co robić w obliczu wojny. Szef Banku Anglii nie musiał rozstrzygać",
-      "link": "https://www.bankier.pl/wiadomosc/Bankierzy-nie-wahali-sie-co-robic-w-obliczu-wojny-Szef-Banku-Anglii-nie-musial-rozstrzygac-9100891.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Bank Anglii, podobnie jak inne duże banki centralne przyjął postawę wyczekiwania, aby z lepszej perspektywy ocenić skutki ataku USA i Izraela na Iran na gospodarkę i wzrost cen, przez co na marcowym posiedzeniu nie zmienił stóp procentowych. Uwagę zwracała jednogłośna decyzja, która pierwszy raz od ",
-      "pubDate": "Thu, 19 Mar 2026 13:05:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/a/7d342ed7f56696-948-568-0-195-3000-1799.jpg",
-      "dateISO": "2026-03-19T12:05:00.000Z",
       "dateFormatted": "19 marca 2026"
     },
     {
@@ -313,18 +625,6 @@
       "dateFormatted": "19 marca 2026"
     },
     {
-      "title": "Rewolucja w regulacjach bankowych USA. Wall Street zaciera ręce",
-      "link": "https://businessinsider.com.pl/finanse/nowe-zasady-kapitalowe-dla-bankow-w-usa-wall-street-moze-zyskac/sgvqz7p",
-      "description": "Amerykańskie instytucje nadzorujące banki przygotowują długo oczekiwane zmiany w zasadach dotyczących kapitału własnego największych banków. Wall Street może na tym mocno skorzystać.",
-      "pubDate": "Thu, 19 Mar 2026 11:51:34 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/20ak9kpTURBXy9lODIyZGRmYTViZjZkNzhkOGNmNDJmN2M4YWQ2YjgwOC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-19T11:51:34.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
       "title": "AI zamiast bankiera. Czołowy bank planuje zwolnić 20 tysięcy pracowników",
       "link": "https://www.bankier.pl/wiadomosc/AI-zamiast-bankiera-HSBC-planuje-zwolnic-20-tysiecy-pracownikow-9100783.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "HSBC, jeden z największych banków świata, rozważa masowe zwolnienia, stawiając na sztuczną inteligencję jako główne narzędzie optymalizacji kosztów - informuje \"Bloomberg\". Pod topór może pójść nawet co dziesiąte stanowisko pracy. To tylko jeden z przykładów rewolucji technologicznej, jaka dotyka br",
@@ -334,18 +634,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/d/0/b2c81d70723c31-948-568-0-202-3000-1799.jpg",
       "dateISO": "2026-03-19T11:45:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Wielkanoc 2026: Koszyk świąteczny droższy o 12,8 proc. Ceny winduje jeden produkt",
-      "link": "https://businessinsider.com.pl/gospodarka/wielkanoc-2026-koszyk-swiateczny-drozszy-o-128-proc-ceny-winduje-jeden-produkt/7ey067m",
-      "description": "Tegoroczna Wielkanoc będzie dla wielu Polaków wyraźnie droższa niż rok temu. Według najnowszych danych Centrum Analiz Społeczno-Ekonomicznych, cena koszyka wielkanocnego wzrosła średnio o 12,8 proc. rok do roku. Jednak bez jednego składnika — czekolady gorzkiej — wzrost wyniósłby zaledwie 1,8 proc. ",
-      "pubDate": "Thu, 19 Mar 2026 11:42:40 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/0QRk9kpTURBXy81Y2ViOGY1ZTVlNTM5MDgxOGI4OWRjYTFiMjVjNzMxNy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-19T11:42:40.000Z",
       "dateFormatted": "19 marca 2026"
     },
     {
@@ -361,18 +649,6 @@
       "dateFormatted": "19 marca 2026"
     },
     {
-      "title": "Sąd odrzucił żądanie władz, by zawiesić marketplace platformy Shein",
-      "link": "https://www.bankier.pl/wiadomosc/Sad-odrzucil-zadanie-wladz-by-zawiesic-marketplace-platformy-Shein-9100837.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sąd apelacyjny w Paryżu odrzucił w czwartek wniosek władz francuskich o zawieszenie tzw. marketplace chińskiej platformy Shein, na którym oferowane są towary producentów zewnętrznych. Sąd uznał, że nielegalne produkty zostały usunięte ze sprzedaży, wobec czego zawieszenie byłoby nieuzasadnione.",
-      "pubDate": "Thu, 19 Mar 2026 12:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/6/9901b9dfbffe10-948-568-360-360-3640-2183.jpg",
-      "dateISO": "2026-03-19T11:30:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
       "title": "Dino zbuduje nowe centrum dystrybucyjne",
       "link": "https://www.bankier.pl/wiadomosc/Dino-zdecydowalo-o-rozpoczeciu-budowy-nowego-centrum-dystrybucyjnego-9100850.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Dino Polska zdecydowało o rozpoczęciu budowy nowego centrum dystrybucyjnego w miejscowości Zawiercie w województwie śląskim - poinformowała spółka w komunikacie. Szacowane nakłady inwestycyjne wyniosą około 150 mln zł netto i zostaną sfinansowane ze środków własnych spółki.",
@@ -382,30 +658,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/9/1/d9034633780da9-945-560-20-0-1920-1151.jpg",
       "dateISO": "2026-03-19T11:02:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Deweloperzy nadal w zimowym śnie. Nowych mieszkań najmniej od ośmiu lat",
-      "link": "https://www.bankier.pl/wiadomosc/Deweloperzy-nadal-w-zimowym-snie-Nowych-mieszkan-najmniej-od-osmiu-lat-9100836.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Nad mieszkaniówką wciąż czuć podmuch zimy. Początek roku przyniósł wyraźny spadek liczby rozpoczynanych budów – wynika z danych Głównego Urzędu Statystycznego. Dołuje także liczba mieszkań oddawanych do użytku, których przybywa najwolniej od ośmiu lat.",
-      "pubDate": "Thu, 19 Mar 2026 12:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/0/15ac554ae755e3-948-568-0-39-1872-1123.jpg",
-      "dateISO": "2026-03-19T11:00:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Ceny paliw w Polsce rosną. Minister finansów zapowiada możliwy ruch rządu",
-      "link": "https://businessinsider.com.pl/gospodarka/ceny-paliw-w-polsce-rosna-minister-finansow-zapowiada-mozliwy-ruch-rzadu/xdehlft",
-      "description": "Minister finansów i gospodarki Andrzej Domański zapowiedział w czwartek, że rząd może podjąć działania związane z podatkami, jeśli wysokie ceny paliw na stacjach w Polsce będą się utrzymywały.",
-      "pubDate": "Thu, 19 Mar 2026 10:55:38 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/08dk9kpTURBXy8xMDViNzViMGNiNzJiMGRiNzczOGUzMjRiYmE4ZjU4OC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-19T10:55:38.000Z",
       "dateFormatted": "19 marca 2026"
     },
     {
@@ -433,66 +685,6 @@
       "dateFormatted": "19 marca 2026"
     },
     {
-      "title": "Ludzie masowo kupują na Temu. Jest jeden haczyk",
-      "link": "https://businessinsider.com.pl/finanse/czy-temu-jest-bezpieczne-opinie-zasady-dzialania-i-zakupy/88l2rl6",
-      "description": "Temu to niezwykle popularna platforma zakupowa, która kusi niskimi cenami i ogromnym wyborem produktów. W ten sposób podbiła serca i portfele Polaków. Równocześnie szybki wzrost serwisu budzi pytania o bezpieczeństwo danych i jakość oferowanych towarów.",
-      "pubDate": "Thu, 19 Mar 2026 10:28:27 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/TYPk9kpTURBXy9mNDk5MWEyNTMxYjQ3NDYxNDJlNzVlMGZkZTIyNzdhNC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-19T10:28:27.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Samsung ogłasza gigantyczne inwestycje. Dziesiątki miliardów dolarów na chipy AI",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/gigantyczne-inwestycje-samsunga-w-sztuczna-inteligencje-branza-chipow-rosnie/4dl2n6v",
-      "description": "Samsung Electronics zapowiada ogromne inwestycje w sektorze półprzewodników, stawiając na przewodzenie w produkcji układów do sztucznej inteligencji. Firma ogłosiła plan wydatków na rekordową skalę, które mają umocnić jej pozycję w kluczowej części globalnej gospodarki technologicznej.",
-      "pubDate": "Thu, 19 Mar 2026 10:25:34 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Dshk9kpTURBXy84N2Q3ZTI4OTdlOWU0MjI2NmFmMTlhMmZlYTM3NjFiMy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-19T10:25:34.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Ceny gazu wystrzeliły po atakach Iranu. Eksperci zapowiadają dalsze skutki kryzysu",
-      "link": "https://businessinsider.com.pl/gospodarka/ataki-iranu-na-infrastrukture-energetyczna-ceny-gazu-skoczyly-o-ponad-30-proc/e1q99vr",
-      "description": "Po atakach Iranu na infrastrukturę energetyczną w krajach Zatoki Perskiej ceny gazu w Europie poszły mocno w górę — informuje PAP, opierając się na doniesieniach maklerów. Eksperci zapowiadają kryzys na rynku.",
-      "pubDate": "Thu, 19 Mar 2026 10:23:47 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/5iFk9kpTURBXy8wMmFlMmVjMTZlYzg2YzE4N2YxMWJhMGY4Yzc4MjZlMS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-19T10:23:47.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Cena złota najniższa od miesiąca. \"Jastrzębie nastawienie Fed\"",
-      "link": "https://businessinsider.com.pl/gielda/surowce/cena-zlota-najnizsza-od-miesiaca-stopy-procentowe-w-centrum-uwagi/zfcdkx0",
-      "description": "Złoto jest tradycyjnie postrzegane jako zabezpieczenie przed inflacją i niepewnością, jednak wysokie stopy procentowe ograniczają jego atrakcyjność.",
-      "pubDate": "Thu, 19 Mar 2026 10:18:28 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/46Gk9kpTURBXy8xMjU4NjgwNmU3MzFiOThmZWQ3MjY4MTY0ZjQ0YzE4ZC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-19T10:18:28.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Czy emerytura z zagranicy odbiera ulgę dla seniora? Fiskus wyjaśnia",
-      "link": "https://businessinsider.com.pl/praca/emerytury/ulga-dla-pracujacych-seniorow-a-emerytura-z-zagranicy-czy-mozna-korzystac/7se2g7s",
-      "description": "Pracujący seniorzy w Polsce mogą korzystać ze specjalnej ulgi podatkowej, ale pod pewnymi warunkami. Ich złamanie grozi straceniem prawa do pobierania emerytury. U niektórych seniorów mogą pojawić się uzasadnione wątpliwości. Chodzi o osoby, które pobierają świadczenie emerytalne z zagranicy. Wyjaśn",
-      "pubDate": "Thu, 19 Mar 2026 10:11:49 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/IIAk9kpTURBXy82NjdmZWNiNzk2ZjQwODU2OWQ1ZThiOWE3ZTBhMzhmMi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-19T10:11:49.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
       "title": "Tyle naprawdę zarobi nauczyciel. Nowe stawki od 1 stycznia 2026",
       "link": "https://www.bankier.pl/wiadomosc/Tyle-naprawde-zarobi-nauczyciel-Nowe-stawki-od-1-stycznia-2026-9100776.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Minimalne wynagrodzenie zasadnicze nauczycieli wzrasta od 151 zł do 186 zł brutto. Rozporządzenie w tej sprawie podpisały ministra edukacji Barbara Nowacka i ministra rodziny, pracy i polityki społecznej Agnieszka Dziemianowicz-Bąk - poinformowała w czwartek PAP rzeczniczka MEN Ewelina Gorczyca.",
@@ -517,54 +709,6 @@
       "dateFormatted": "19 marca 2026"
     },
     {
-      "title": "Gigant znika z rynku. 10 tysięcy aut, 170 pracowników i definitywny koniec",
-      "link": "https://www.bankier.pl/wiadomosc/Gigant-znika-z-rynku-10-tysiecy-aut-170-pracownikow-i-definitywny-koniec-9100763.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Jedna z czołowych firm zajmujących się wypożyczaniem aut wycofuje się z rynków Europy Zachodniej. Kilka miesięcy po ogłoszeniu bankructwa podjęto decyzję o definitywnym zakończeniu funkcjonowania przedsiębiorstwa oraz powiązanych z nim spółek. Co dalej z posiadanymi samochodami?",
-      "pubDate": "Thu, 19 Mar 2026 11:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/f/aca7c2d471a7b9-948-568-80-70-3920-2351.jpg",
-      "dateISO": "2026-03-19T10:00:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Premier Finlandii: Myślę, że Orban nas zdradził",
-      "link": "https://www.bankier.pl/wiadomosc/Premier-Finlandii-Mysle-ze-Orban-nas-zdradzil-9100760.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Premier Finlandii Petteri Orpo przed szczytem UE w czwartek w Brukseli powiedział dziennikarzom, że szef rządu Węgier Viktor Orban wykorzystuje Ukrainę jako broń w swojej kampanii wyborczej. To nie jest dobre; mieliśmy umowę i myślę, że on nas zdradził - podkreślił.",
-      "pubDate": "Thu, 19 Mar 2026 11:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/2/876163ad9514fc-948-568-10-230-3983-2390.jpg",
-      "dateISO": "2026-03-19T10:00:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "\"Wielka korekta\" w Krakowie. Parkowanie dla mieszkańców bezpłatne w niedzielę",
-      "link": "https://www.bankier.pl/wiadomosc/Wielka-korekta-w-Krakowie-Parkowanie-dla-mieszkancow-bezplatne-w-niedziele-9100765.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Na wniosek prezydenta Krakowa Aleksandra Miszalskiego Rada Miasta Krakowa wycofała opłaty dla mieszkańców za parkowanie w niedzielę w centrum miasta. Wprowadziła też bezpłatne parkowanie w strefie w święta ustawowo wolne od pracy.",
-      "pubDate": "Thu, 19 Mar 2026 11:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/3/ae64ce03cd17b0-945-567-0-4-1933-1160.jpg",
-      "dateISO": "2026-03-19T10:00:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Ceny gazu oszalały, ale Polska ma plan. Baltic Pipe i terminal w Świnoujściu ratują sytuację",
-      "link": "https://www.bankier.pl/wiadomosc/Ceny-gazu-oszalaly-ale-Polska-ma-plan-Baltic-Pipe-i-terminal-w-Swinoujsciu-ratuja-sytuacje-9100758.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Terminal w Świnoujściu umożliwia regazyfikację 8,3 mld m sześc. gazu, z czego niewielki udział stanowią dostawy z zagrożonego regionu, a dostawy zaplanowane na marzec są realizowane - poinformował PAP Biznes prezes Gaz-Systemu, Sławomir Hinc. Dodał, że dzięki wyższym temperaturom może się okazać, że",
-      "pubDate": "Thu, 19 Mar 2026 10:55:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/7/7e2335a7409313-945-567-0-35-926-556.jpg",
-      "dateISO": "2026-03-19T09:55:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
       "title": "Iran zaatakował trzy rafinerie w Kuwejcie i Arabii Saudyjskiej",
       "link": "https://www.bankier.pl/wiadomosc/Iran-zaatakowal-trzy-rafinerie-w-Kuwejcie-i-Arabii-Saudyjskiej-9100770.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Iran zaatakował w czwartek dwie rafinerie należące do Kuwejckiej Narodowej Spółki Naftowej (KNPC), a także zakład przetwórstwa ropy naftowej w Janbu w Arabii Saudyjskiej - poinformowała agencja AFP, powołując się na doniesienia służb informacyjnych rządów obu państw.",
@@ -574,18 +718,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/b/0048ca64aec8ca-948-567-0-32-1000-599.jpg",
       "dateISO": "2026-03-19T09:30:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Przemysł na plusie, a budowlanka na dużym minusie. Rozjechały się nowe dane z gospodarki",
-      "link": "https://businessinsider.com.pl/gospodarka/polska-gospodarka-w-nowych-danych-gus-rozjechaly-sie-wyniki-przemyslu-i-budowlanki/n8n2zg5",
-      "description": "Produkcja budowlano-montażowa w Polsce notuje głęboki spadek, znacznie większy od prognoz ekonomistów. Pocieszeniem mogą być statystyki z przemysłu.",
-      "pubDate": "Thu, 19 Mar 2026 09:21:33 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/5JRk9kpTURBXy81MDcwMjQ5ZWY0OGZiODI2ODU0YWIzNDAwZmIzYjAyMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-19T09:21:33.000Z",
       "dateFormatted": "19 marca 2026"
     },
     {
@@ -601,66 +733,6 @@
       "dateFormatted": "19 marca 2026"
     },
     {
-      "title": "Wielkie prześwietlanie NBP. NIK sprawdzi „oszczędność i celowość” wydatków",
-      "link": "https://www.bankier.pl/wiadomosc/Wielkie-przeswietlanie-NBP-NIK-sprawdzi-oszczednosc-i-celowosc-wydatkow-9100747.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "\"Całość działalności instytucji\" - taki megaaudyt zapowiedziała Najwyższa Izba Kontroli w Narodowym Banku Polskim - podaje \"Rzeczpospolita\". Inspektorzy sprawdzą m.in. jak wydawany jest roczny budżet, którego wysokość wynosi 2 mld zł i prześwietlą zewnętrzne umowy na sześciocyfrowe kwoty, mimo posia",
-      "pubDate": "Thu, 19 Mar 2026 10:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/a/0709fc8ef76f6e-948-568-0-104-3000-1799.jpg",
-      "dateISO": "2026-03-19T09:10:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Prognozy ZUS do 2080 r. Tak wygląda przyszłość funduszu emerytalnego",
-      "link": "https://businessinsider.com.pl/praca/emerytury/czy-zabraknie-pieniedzy-na-emerytury-prognozy-zus-do-2080-roku/xsllx3b",
-      "description": "Prognozy dotyczące funduszu emerytalnego mają kluczowe znaczenie dla bezpieczeństwa finansowego milionów Polaków. ZUS przygotował długoterminową prognozę, w której uwzględniono zmiany demograficzne, takie jak starzenie się społeczeństwa. Eksperci wskazują, czy polski system będzie na tyle wydolny, ż",
-      "pubDate": "Thu, 19 Mar 2026 09:09:34 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/U-3k9kpTURBXy8zOTljNjhlYjFlY2RiMTIyMzA0ODc4ZjAxZTA5NjQ4My5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-19T09:09:34.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Domański o pomyśle Glapińskiego. \"Proponowana operacja na złocie groziłaby zwiększeniem inflacji\"",
-      "link": "https://www.bankier.pl/wiadomosc/Domanski-o-pomysle-Glapinskiego-Proponowana-operacja-na-zlocie-grozilaby-zwiekszeniem-inflacji-9100757.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Proponowana przez prezesa NBP Adama Glapińskiego operacja na rezerwach złota, która w jego ocenie mogłaby wygenerować zysk, oznaczałaby wpompowanie w rynek miliardów złotych, co groziłoby zwiększeniem inflacji - ocenił minister finansów i gospodarki Andrzej Domański.",
-      "pubDate": "Thu, 19 Mar 2026 10:08:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/b/79216f36dada63-948-568-7-2-992-595.jpg",
-      "dateISO": "2026-03-19T09:08:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Polski przemysł w kratkę. Tym razem w górę zgodnie z planem",
-      "link": "https://www.bankier.pl/wiadomosc/Polski-przemysl-w-kratke-Tym-razem-w-gore-zgodnie-z-planem-9100711.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Produkcja przemysłowa w Polsce znów na plusie, ale to odczyt pokazany przez GUS wpisuje się w bardzo zmienne nastroje w krajowym sektorze wytwórczym. Wzrost okazał się nieco lepszy od prognoz.",
-      "pubDate": "Thu, 19 Mar 2026 10:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/6/0e4b8620f0f9dd-948-568-0-337-2775-1665.jpg",
-      "dateISO": "2026-03-19T09:00:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Brytyjska gospodarka \"na lodzie\". Rząd wskazuje winnego: brexit i chce... cichego powrotu",
-      "link": "https://www.bankier.pl/wiadomosc/Brytyjska-gospodarka-na-lodzie-Rzad-wskazuje-winnego-crexit-i-chce-cichego-powrotu-9100713.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "- Wielka Brytania znalazła się na niebezpiecznym rozdrożu pomiędzy dwoma wielkimi blokami. Kraj nie może pozostać w izolacji, a tak będzie, jeśli nie postawi ponownie na zbliżenie z Unią Europejską - taki dramatyczny apel wygłosiła w Izbie Gmin sekretarz skarbu Rachel Reeves. Wpisuje się to w progra",
-      "pubDate": "Thu, 19 Mar 2026 09:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/8/555fe7c1ada845-948-568-292-562-1837-1102.jpg",
-      "dateISO": "2026-03-19T08:50:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
       "title": "Ketchup i majonez połączą siły? Możliwa historyczna fuzja gigantów spożywczych",
       "link": "https://www.bankier.pl/wiadomosc/Ketchup-i-majonez-polacza-sily-Mozliwa-historyczna-fuzja-gigantow-spozywczych-9100708.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Kraft Heinz i Unilever przeprowadziły rozmowy dotyczące ogromnej fuzji swoich marek. Umożliwiłoby to połączenie majonezu Hellmann's i ketchupy Heinz. Obydwaj giganci zmagają się bowiem z koniecznością dostosowania swoich ofert do coraz to nowszych ofert zmieniających się gustów na rynku spożywczym -",
@@ -670,30 +742,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/f/3/e4ed079ce24ba7-948-568-240-0-3700-2220.jpg",
       "dateISO": "2026-03-19T08:50:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Szef MF: Nie wykluczamy obniżki podatków na paliwa, jeśli wysokie ceny się utrzymają",
-      "link": "https://www.bankier.pl/wiadomosc/Szef-MF-Nie-wykluczamy-obnizki-podatkow-na-paliwa-jesli-wysokie-ceny-sie-utrzymaja-9100741.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Po wybuchu konfliktu zbrojnego na Bliskim Wschodzie rząd analizuje sytuację na rynkach paliw, jeśli ich wysokie ceny będą się utrzymywać, podatki paliwowe mogą zostać obniżone, ale w perspektywie miesięcy a nie dni - wynika z czwartkowej wypowiedzi ministra finansów Andrzeja Domańskiego.",
-      "pubDate": "Thu, 19 Mar 2026 09:43:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/d/17301d255804ff-948-568-0-0-4116-2469.jpg",
-      "dateISO": "2026-03-19T08:43:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Polski rynek pracy: zatrudnienie wciąż spada, a płace rosną coraz wolniej",
-      "link": "https://www.bankier.pl/wiadomosc/Polski-rynek-pracy-w-lutym-2026-zatrudnienie-spada-a-place-rosna-coraz-wolniej-9100718.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Wzrost płac utrzymał się w trendzie spadkowym, a zatrudnienie w sektorze przedsiębiorstw ponownie spadło – wynika z lutowych danych z polskiego rynku pracy.",
-      "pubDate": "Thu, 19 Mar 2026 09:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/6/9/f47f63608e53c0-948-568-0-123-1900-1139.jpg",
-      "dateISO": "2026-03-19T08:30:00.000Z",
       "dateFormatted": "19 marca 2026"
     },
     {
@@ -709,15 +757,15 @@
       "dateFormatted": "19 marca 2026"
     },
     {
-      "title": "Biedronka wypłaci pracownikom po 4 tys. zł nagrody",
-      "link": "https://www.bankier.pl/wiadomosc/Biedronka-wyplaci-pracownikom-po-4-tys-zl-nagrody-9100685.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Biedronka wypłaci w kwietniu po 4 tys. zł brutto nagrody specjalnej za 2025 r. dla 61,5 tys. pracowników - podała Biedronka w komunikacie prasowym. Łącznie na wypłatę nagród w tym roku sieć przeznaczy ponad 300 mln zł.",
-      "pubDate": "Thu, 19 Mar 2026 09:10:00 +0100",
+      "title": "Polski rynek pracy: zatrudnienie wciąż spada, a płace rosną coraz wolniej",
+      "link": "https://www.bankier.pl/wiadomosc/Polski-rynek-pracy-w-lutym-2026-zatrudnienie-spada-a-place-rosna-coraz-wolniej-9100718.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Wzrost płac utrzymał się w trendzie spadkowym, a zatrudnienie w sektorze przedsiębiorstw ponownie spadło – wynika z lutowych danych z polskiego rynku pracy.",
+      "pubDate": "Thu, 19 Mar 2026 09:30:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/6/5d30be2f4f774e-948-568-0-19-1982-1189.jpg",
-      "dateISO": "2026-03-19T08:10:00.000Z",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/6/9/f47f63608e53c0-948-568-0-123-1900-1139.jpg",
+      "dateISO": "2026-03-19T08:30:00.000Z",
       "dateFormatted": "19 marca 2026"
     },
     {
@@ -754,30 +802,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-03-19T06:31:10.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Benzyna w odwrocie i najniżej w historii. Hybrydy zabierają klientów elektrykom",
-      "link": "https://www.bankier.pl/wiadomosc/Benzyna-w-odwrocie-i-najnizej-w-historii-Hybrydy-zabieraja-klientow-elektrykom-9100131.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Po raz pierwszy w historii jedynie co czwarte nowe auto w Polsce miało silnik benzynowy – wynika z danych Polskiego Związku Przemysłu Motoryzacyjnego za luty 2026 r. Wraz ze spadkiem rejestracji „benzyniaków” do najniższego poziomu w historii obniżył się udział w rynku aut spalinowych. Na słabnącej ",
-      "pubDate": "Thu, 19 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/f/35068d393fcd2f-948-568-114-0-1872-1123.jpg",
-      "dateISO": "2026-03-19T05:00:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
-      "title": "Przybywa WIBOR-owych pozwów, ale nie wszystkie banki chcą się tym chwalić",
-      "link": "https://www.bankier.pl/wiadomosc/Przybywa-WIBOR-owych-pozwow-ale-nie-wszystkie-banki-chca-sie-tym-chwalic-9100262.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "15 proc. – o tyle wzrosła liczba sporów o kredyty oparte na wskaźnikach WIBOR w zaledwie jeden kwartał. Wciąż jednak wiele banków nie informuje w raportach dla akcjonariuszy o napływających pozwach.",
-      "pubDate": "Thu, 19 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/0/3830de18873887-948-568-30-69-3970-2381.jpg",
-      "dateISO": "2026-03-19T05:00:00.000Z",
       "dateFormatted": "19 marca 2026"
     },
     {
@@ -949,5 +973,5 @@
       "dateFormatted": "13 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-19T14:38:52.848Z"
+  "updatedAt": "2026-03-19T18:10:41.278Z"
 }
