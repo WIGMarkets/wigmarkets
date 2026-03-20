@@ -769,18 +769,6 @@
       "dateFormatted": "19 marca 2026"
     },
     {
-      "title": "Bez zmian w krainie najtańszego pieniądza. SNB może interweniować na rynku franka",
-      "link": "https://www.bankier.pl/wiadomosc/Stopy-procentowe-w-Szwajcarii-w-marcu-2026-pozostaly-bez-zmian-9100686.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Szwajcarski Bank Narodowy zdecydował się utrzymać zerową stopę procentową. Szwajcarzy oznajmili jednak, że wzrosła ich gotowość do interwencji na rynku walutowym.",
-      "pubDate": "Thu, 19 Mar 2026 09:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/2/d/0f6e2587d0f86d-935-560-65-77-935-560.jpg",
-      "dateISO": "2026-03-19T08:30:00.000Z",
-      "dateFormatted": "19 marca 2026"
-    },
-    {
       "title": "Polski rynek pracy: zatrudnienie wciąż spada, a płace rosną coraz wolniej",
       "link": "https://www.bankier.pl/wiadomosc/Polski-rynek-pracy-w-lutym-2026-zatrudnienie-spada-a-place-rosna-coraz-wolniej-9100718.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Wzrost płac utrzymał się w trendzie spadkowym, a zatrudnienie w sektorze przedsiębiorstw ponownie spadło – wynika z lutowych danych z polskiego rynku pracy.",
@@ -789,6 +777,18 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/6/9/f47f63608e53c0-948-568-0-123-1900-1139.jpg",
+      "dateISO": "2026-03-19T08:30:00.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Bez zmian w krainie najtańszego pieniądza. SNB może interweniować na rynku franka",
+      "link": "https://www.bankier.pl/wiadomosc/Stopy-procentowe-w-Szwajcarii-w-marcu-2026-pozostaly-bez-zmian-9100686.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Szwajcarski Bank Narodowy zdecydował się utrzymać zerową stopę procentową. Szwajcarzy oznajmili jednak, że wzrosła ich gotowość do interwencji na rynku walutowym.",
+      "pubDate": "Thu, 19 Mar 2026 09:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/2/d/0f6e2587d0f86d-935-560-65-77-935-560.jpg",
       "dateISO": "2026-03-19T08:30:00.000Z",
       "dateFormatted": "19 marca 2026"
     },
@@ -997,5 +997,5 @@
       "dateFormatted": "13 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-19T22:30:41.864Z"
+  "updatedAt": "2026-03-20T02:11:42.212Z"
 }
