@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "AI niemal zawsze wybiera atom. Wyniki eksperymentów są przerażające",
+      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/modele-ai-zalecaja-atak-nuklearny-badanie-ujawnia-niepokojace-wnioski/er24ws8",
+      "description": "Zaawansowane modele sztucznej inteligencji nie mają ludzkich oporów przed przekroczeniem czerwonej linii, jaką stanowi użycie broni jądrowej. Jest to przerażająca wizja, bo Pentagon otwarcie przyznaje, że w obecnym konflikcie na Bliskim Wschodzie AI wykorzystywane jest na niespotykaną dotąd skalę.",
+      "pubDate": "Sun, 22 Mar 2026 21:00:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/tEgk9kpTURBXy9lNGE2NWRjMzhkMGRhNDMxNzQ5YmQzNjM0NzRiM2QyMC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-22T21:00:00.000Z",
+      "dateFormatted": "22 marca 2026"
+    },
+    {
       "title": "Hit Netfliksa wpłynął na PKB Polski. Oto efekt \"Heweliusza\"",
       "link": "https://businessinsider.com.pl/lifestyle/rozrywka/brytyjczycy-wyliczyli-efekt-heweliusza-tak-hit-netfliksa-wplynal-na-pkb-polski/ww54hqq",
       "description": "To była największa polska produkcja Netfliksa. Przełożyła się na miliony PKB — wynika z raportu Oxford Economics.",
@@ -481,18 +493,6 @@
       "dateFormatted": "22 marca 2026"
     },
     {
-      "title": "Biorą pieniądze za coś, co jest darmowe. ZUS bije na alarm",
-      "link": "https://businessinsider.com.pl/finanse/czy-trzeba-placic-za-wniosek-o-swiadczenie-wspierajace-zus-ostrzega/gh9e8ev",
-      "description": "Zakład Ubezpieczeń Społecznych ostrzega wszystkich, którzy chcą starać się o świadczenie wspierające w 2026 r. ZUS zdradza, że nieuczciwi pośrednicy starają się namówić osoby z niepełnosprawnością do \"pomocy\" w procedowaniu wniosków, co w efekcie kończy się utratą nawet ponad 20 tys. zł należnych śr",
-      "pubDate": "Sun, 22 Mar 2026 12:09:12 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/lh_k9kpTURBXy8wY2VmYWVkOGI0YmZlMGQ0YmJjM2Y3NDIyY2M0NTVjYy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-22T12:09:12.000Z",
-      "dateFormatted": "22 marca 2026"
-    },
-    {
       "title": "Darmowe ogrzewanie budynków z polskich jezior. Naukowcy odkryli gigantyczny potencjał",
       "link": "https://www.bankier.pl/wiadomosc/Darmowe-ogrzewanie-budynkow-z-polskich-jezior-Naukowcy-odkryli-gigantyczny-potencjal-9099340.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Czy jeziora mogą stać się częścią nowoczesnej, niskoemisyjnej energetyki, np. pomóc w ogrzewaniu i chłodzeniu budynków? Najnowsze badania pokazują, że w przypadku części polskich jezior odpowiedź brzmi: tak. Choć pod pewnymi warunkami.",
@@ -937,5 +937,5 @@
       "dateFormatted": "23 lutego 2026"
     }
   ],
-  "updatedAt": "2026-03-22T20:30:28.318Z"
+  "updatedAt": "2026-03-22T22:27:51.052Z"
 }
