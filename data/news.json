@@ -1,15 +1,231 @@
 {
   "articles": [
     {
-      "title": "BM PKO BP chce być zdalnym członkiem giełd w Pradze, Budapeszcie i w Bukareszcie",
-      "link": "https://www.bankier.pl/wiadomosc/BM-PKO-BP-chce-byc-zdalnym-czlonkiem-gield-w-Pradze-Budapeszcie-i-w-Bukareszcie-9103125.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Biuro Maklerskie PKO BP chce do końca 2026 roku zostać zdalnym członkiem giełd w Pradze, Budapeszcie i w Bukareszcie i docelowo być liderem pod względem obrotów łącznie na czterech rynkach, wliczając w to Warszawę - poinformowali przedstawiciele BM PKO BP.",
-      "pubDate": "Tue, 24 Mar 2026 09:42:00 +0100",
+      "title": "ETF-y okiem Grzegorza Zalewskiego. Chwilowa moda czy trwała zmiana?",
+      "link": "https://www.bankier.pl/wiadomosc/ETF-y-okiem-Grzegorza-Zalewskiego-Chwilowa-moda-czy-trwala-zmiana-9103086.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W studiu Bankiera podczas kongresu Invest Cuffs w Krakowie rozmawialiśmy z Grzegorzem Zalewskim z Domu Maklerskiego BOŚ o jednym z najgorętszych tematów ostatnich lat na rynku inwestycyjnym. Punktem wyjścia do dyskusji jest panel, w którym ekspert brał udział, zatytułowany „Pasywna rewolucja w Polsc",
+      "pubDate": "Tue, 24 Mar 2026 12:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/7/b5eea8540219be-948-568-80-54-1040-624.jpg",
+      "dateISO": "2026-03-24T11:00:00.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Trzęsienie ziemi w tarnowskim zakładzie. Z dnia na dzień odeszła prawie cała załoga",
+      "link": "https://www.bankier.pl/wiadomosc/Kryzys-w-tarnowskim-Elzacie-90-osob-wypowiedzialo-umowy-z-winy-pracodawcy-9103165.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W tarnowskim Elzacie ponad 90 procent załogi wypowiedziało umowy o pracę z winy pracodawcy, poinformował portal Tarnów Nasze Miasto. Zakład miał problemy z wypłatą wynagrodzeń i obecnie mierzy się z brakiem większości pracowników produkcyjnych. Firma od lat świadczy usługi związane z utrzymaniem ruc",
+      "pubDate": "Tue, 24 Mar 2026 11:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/d/026f50bfce43df-948-568-0-210-4000-2399.jpg",
+      "dateISO": "2026-03-24T10:30:00.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Rosyjskie złoto znika ze skarbców. Kreml wyprzedaje rezerwy najszybciej od 24 lat",
+      "link": "https://www.bankier.pl/wiadomosc/Rosyjskie-zloto-znika-ze-skarbcow-Kreml-wyprzedaje-rezerwy-najszybciej-od-24-lat-9103202.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Podczas gdy banki centralne na całym świecie agresywnie gromadzą złoto, Moskwa staje się rynkowym outsiderem i wyprzedaje swoje zasoby w tempie nienotowanym od 2002 roku. Ratowanie dziurawego budżetu kosztem strategicznych rezerw to desperacki ruch, który ma chronić zapasy juanów i utrzymać płynność",
+      "pubDate": "Tue, 24 Mar 2026 11:29:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/8/c4e30829ca60f7-948-567-0-27-1000-599.jpg",
+      "dateISO": "2026-03-24T10:29:00.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Ich sąsiadem będzie hotel? Między domami \"wyrośnie\" obiekt dla setek gości",
+      "link": "https://www.bankier.pl/wiadomosc/Ich-sasiadem-bedzie-hotel-Miedzy-domami-wyrosnie-obiekt-dla-setek-gosci-9103140.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W Bacieczkach nie chcą hotelu między domami. Miałby on stanąć przy ulicy Produkcyjnej. Miasto wydało pozwolenie, w którym powołało się na zapisy w planie zagospodarowania przestrzennego osiedla. Dokument został jednak oprotestowany - czytamy w \"Kurierze Porannym\".",
+      "pubDate": "Tue, 24 Mar 2026 11:25:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/a/9abb583190fa23-948-568-130-250-3670-2201.jpg",
+      "dateISO": "2026-03-24T10:25:00.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "EuroPMI: nie jest aż tak źle? Szok naftowy rodzi ryzyko stagflacji",
+      "link": "https://www.bankier.pl/wiadomosc/EuroPMI-nie-jest-az-tak-zle-Szok-naftowy-rodzi-ryzyko-stagflacji-9103180.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Choć groźba wystąpienia stagflacji pozostaje realna, to pierwsze doniesienia z sektora prywatnego nie wyglądają przesadnie niepokojąco.",
+      "pubDate": "Tue, 24 Mar 2026 11:15:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/8/1/3ca882ea1570a9-948-568-0-82-4134-2480.jpg",
-      "dateISO": "2026-03-24T08:42:00.000Z",
+      "image": "http://galeria.bankier.pl/p/d/a/15299431189e8e-948-568-0-250-4000-2399.jpg",
+      "dateISO": "2026-03-24T10:15:00.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Google wykłada miliony na AI. Polacy mogą zyskać potężne wsparcie w rozwoju kariery",
+      "link": "https://www.bankier.pl/wiadomosc/Google-wyklada-miliony-na-AI-Polacy-moga-zyskac-potezne-wsparcie-w-rozwoju-kariery-9103170.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Google ogłosiło we wtorek nową inicjatywę wspierającą osoby i firmy w całej Europie w zdobywaniu umiejętności niezbędnych do wykorzystania AI w rozwoju kariery i biznesu - podało Google w komunikacie prasowym. W ramach projektu firma przeznaczy 30 mln dolarów na Europejski Fundusz AI Opportunity pro",
+      "pubDate": "Tue, 24 Mar 2026 11:10:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/2/a557437c8edaff-948-568-0-100-4000-2399.jpg",
+      "dateISO": "2026-03-24T10:10:00.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "UE i Australia zacieśniają relacje. Przełomowa umowa coraz bliżej",
+      "link": "https://businessinsider.com.pl/gospodarka/ue-i-australia-zaciesniaja-relacje-przelomowa-umowa-coraz-blizej/bmq3681",
+      "description": "Unia Europejska i Australia zakończyły negocjacje umowy o wolnym handlu oraz zawarły nowe partnerstwo w dziedzinie bezpieczeństwa i obrony.",
+      "pubDate": "Tue, 24 Mar 2026 10:05:14 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/S5sk9kpTURBXy8zZWU1NDYxNmI1MzBjZTZhYWI2ZTBmYjM5MmQxMmY5NS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-24T10:05:14.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Zbrojeniówka napędza branżę metalową. Większość firm celuje w sektor obronny",
+      "link": "https://businessinsider.com.pl/firmy/branza-metalowa-w-polsce-stawia-na-zbrojeniowke-przemysl-w-fazie-przelomu/ke7gte3",
+      "description": "Polska branża metalowa przechodzi wyraźną transformację. Sektor obronny staje się jednym z kluczowych kierunków rozwoju — już dziś aż 8 na 10 firm jest lub chce być powiązana ze zbrojeniówką.",
+      "pubDate": "Tue, 24 Mar 2026 10:04:02 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ihTk9kpTURBXy9hZDNmYmU2Y2IxZmUwMjQ1YTU4ODY5MzA2MmFjZjQ3YS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-24T10:04:02.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Jak upolować jednorożca w erze AI? \"Sztuczna inteligencja to już infrastruktura\"",
+      "link": "https://www.bankier.pl/wiadomosc/Jak-upolowac-jednorozca-w-erze-AI-Sztuczna-inteligencja-to-juz-infrastruktura-9103149.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Podczas gdy inwestorzy na publicznych parkietach giełdowych opierają się na historycznych danych, fundusze Venture Capital wyceniają przyszłość, która dopiero powstaje. Jak w dobie rewolucji sztucznej inteligencji odróżnić prawdziwą innowację od szumu. O szansach polskich programistów w walce z cyfr",
+      "pubDate": "Tue, 24 Mar 2026 11:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/0/65c4cd459ea54c-948-568-70-0-1200-720.jpg",
+      "dateISO": "2026-03-24T10:00:00.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Cena ropy naftowej znowu rośnie. Blisko kluczowej granicy",
+      "link": "https://businessinsider.com.pl/gielda/surowce/cena-ropy-naftowej-znowu-rosnie-psychologiczna-granica-przyciaga-jak-magnes/4lej7cf",
+      "description": "Nocne doniesienia o atakach na irańską infrastrukturę gazową oraz aktywność irańskich min w cieśninie Ormuz sprawiły, że cena ropy naftowej Brent rośnie w okolice 100 dol.",
+      "pubDate": "Tue, 24 Mar 2026 09:56:30 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/OBWk9kpTURBXy80YWYwYjk4ODY3ZTVkNTgwMjEwNTQ4OGVmNTlkNDEwYi5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-24T09:56:30.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Warszawa wreszcie doczeka się hali sportowej. Pierwsze mecze za dwa lata",
+      "link": "https://www.bankier.pl/wiadomosc/Nowa-hala-sportowa-w-Warszawie-Kiedy-powstanie-i-ile-osob-pomiesci-9103168.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Już za dwa lata w nowej hali sportowej na warszawskiej Ochocie mają odbyć się pierwsze zawody sportowe. Stolica po wielu latach dołączy tym samym do innych polskich miast posiadających nowoczesne hale. Obiekt za 237,6 mln zł zbuduje Mirbud. Jak będzie wyglądała nowa warszawska hala?",
+      "pubDate": "Tue, 24 Mar 2026 10:45:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/a/ff7dec02a88667-948-568-0-0-1366-819.jpg",
+      "dateISO": "2026-03-24T09:45:00.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Energetyczny paraliż Mołdawii. Rosja odcięła połączenie z Europą",
+      "link": "https://www.bankier.pl/wiadomosc/Energetyczny-paraliz-Moldawii-Rosja-odciela-polaczenie-z-Europa-9103166.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Mołdawii Maia Sandu obarczyła we wtorek Rosję odpowiedzialnością za odcięcie połączenia energetycznego jej kraju z państwami europejskimi; jest to skutek ataku na infrastrukturę energetyczną Ukrainy z ostatniej nocy – podała agencja Reutera.",
+      "pubDate": "Tue, 24 Mar 2026 10:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/7/6bfb2d105b5fc9-948-568-0-82-3000-1799.jpg",
+      "dateISO": "2026-03-24T09:30:00.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Prezydent Korei prosi mieszkańców, by oszczędzali prąd. \"Rezerwy na dwa miesiące\"",
+      "link": "https://businessinsider.com.pl/gospodarka/kryzys-energetyczny-w-korei-poludniowej-prezydent-prosi-mieszkancow/q4r89z5",
+      "description": "Prezydent Korei Południowej Lee Jae Myung zaapelował do mieszkańców o oszczędzanie energii. Wszystko przez ograniczenie dostaw ropy i gazu spowodowanych wojną w Iranie. Korzystanie z samochodów mają instytucje publiczne.osobowych.",
+      "pubDate": "Tue, 24 Mar 2026 09:26:06 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/4mMk9kpTURBXy84YTIwZWRkYTk2NmMyNzk4OGFiMWI0NjUzNTIyYmNiOC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-24T09:26:06.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Przecieki w Waszyngtonie? Podejrzane ruchy na ropie i indeksach tuż przed wpisem Trumpa",
+      "link": "https://www.bankier.pl/wiadomosc/Przecieki-w-Waszyngtonie-Podejrzane-ruchy-na-ropie-i-indeksach-tuz-przed-wpisem-Trumpa-9103139.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Donald Trump znów trzęsie giełdą, ale tym razem kontrowersje budzi nie treść wpisów, lecz to, co działo się kwadrans przed ich publikacją. Agresywne ruchy funduszy hedgingowych i nagłe skoki wolumenu sugerują, że poufne informacje o polityce zagranicznej USA mogą wyciekać do wybranych graczy. Analit",
+      "pubDate": "Tue, 24 Mar 2026 10:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/e/a/095158c2ddd4ca-948-568-0-119-3000-1799.jpg",
+      "dateISO": "2026-03-24T09:20:00.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Orlen obniża ceny paliw. Minister: nie mieliśmy do czynienia z takim zamieszaniem",
+      "link": "https://businessinsider.com.pl/gospodarka/orlen-obniza-ceny-paliw-minister-nie-mielismy-do-czynienia-z-takim-zamieszaniem/61zvwsl",
+      "description": "Orlen zdecydował się na obniżkę hurtowych cen paliw. Koncern zmniejszył notowania zarówno benzyny, jak i oleju napędowego. Decyzja ma chronić rynek przed skutkami napięć na globalnych rynkach paliwowych.",
+      "pubDate": "Tue, 24 Mar 2026 09:19:16 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/_Nak9kpTURBXy80NmFiNmM0ZTA2YWRlMjkyZjQ2MGM1N2NlNWRiODY0OS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-24T09:19:16.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Nowy właściciel TVN zwalnia cały zespół w USA. \"Lekkomyślność i chciwość\"",
+      "link": "https://businessinsider.com.pl/firmy/nowy-wlasciciel-tvn-zwalnia-pracownikow-cbs-news-radio-przestanie-istniec/ht4jn9f",
+      "description": "CBS likwiduje swoją sieć radiową i zwalnia dziesiątki pracowników w momencie, gdy jej właściciel, czyli Paramount Skydance, finalizuje przejęcie Warner Bros. Discovery, do którego należy m.in. polski TVN. Związkowcy ostrzegają przed kolejnymi \"szkodami\".",
+      "pubDate": "Tue, 24 Mar 2026 09:14:58 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/grqk9kpTURBXy8xMDkwYjM5YTM3OGZiNmQ4Mjg3M2VhZmYzYjc0OWFkNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-24T09:14:58.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "TSUE wydał wyrok ws. neosędziów",
+      "link": "https://www.bankier.pl/wiadomosc/TSUE-wydal-wyrok-ws-neosedziow-9103137.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Trybunał Sprawiedliwości UE orzekł we wtorek, że nieprawidłowość, której dopuszczono się przy powołaniu sędziego, nie wystarczy sama w sobie, by stwierdzić, że sędzia ten nie jest niezawisły. Według TSUE konieczna jest całościowa ocena wszystkich okoliczności towarzyszących powołaniu tego sędziego.",
+      "pubDate": "Tue, 24 Mar 2026 10:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/5/9c3c18dcd8d49b-945-560-123-416-4312-2587.jpg",
+      "dateISO": "2026-03-24T09:00:00.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Złoty umocniony nadziejami na irańską deeskalację. Kurs euro w środku korytarza",
+      "link": "https://www.bankier.pl/wiadomosc/Zloty-umocniony-nadziejami-na-iranska-deeskalacje-Kurs-euro-w-srodku-korytarza-9103130.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Nadzieje inwestorów poniosły również polskiego złotego, dzięki czemu kurs euro powrócił w pobliże środka wojennego „korytarza”.",
+      "pubDate": "Tue, 24 Mar 2026 09:49:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/f/2613619397d0da-948-568-140-50-3550-2130.jpg",
+      "dateISO": "2026-03-24T08:49:00.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Stare demony powracają. Jak banki radzą sobie z rosnącym ryzykiem kredytowym i przestępczością finansową?",
+      "link": "https://www.bankier.pl/wiadomosc/Stare-demony-powracaja-Jak-banki-radza-sobie-z-rosnacym-ryzykiem-kredytowym-i-przestepczoscia-finansowa-9103122.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sektor bankowy przechodzi obecnie przez trudny sprawdzian. Według 15. edycji raportu \"EY Global Bank Risk Management Survey\", na horyzoncie znów wyraźnie zarysowały się tradycyjne zagrożenia, które drastycznie zmieniają priorytety działania banków na całym świecie. Mowa tu przede wszystkim o ryzyku ",
+      "pubDate": "Tue, 24 Mar 2026 09:45:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/4/0af870bfaf62d4-948-567-0-60-1000-599.jpg",
+      "dateISO": "2026-03-24T08:45:00.000Z",
       "dateFormatted": "24 marca 2026"
     },
     {
@@ -49,14 +265,14 @@
       "dateFormatted": "24 marca 2026"
     },
     {
-      "title": "Bezrobocie w Polsce najwyższe od lat. Są nowe wyliczenia GUS",
+      "title": "Bezrobocie w Polsce najwyższe od lat. Są nowe wyliczenia",
       "link": "https://businessinsider.com.pl/praca/bezrobocie-w-polsce-najwyzsze-od-lat-gus-podal-wyliczenia-za-luty-2026/redgy4l",
-      "description": "W rejestrach urzędów pracy w lutym przybyło bezrobotnych — wynika z opublikowanych we wtorek najnowszych danych Głównego Urzędu Statystycznego (GUS).",
+      "description": "Na koniec lutego 2026 r. w urzędach pracy zarejestrowanych było prawie 955 tys. bezrobotnych. To spory wzrost w porównaniu z ubiegłym rokiem.",
       "pubDate": "Tue, 24 Mar 2026 08:31:29 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/XAgk9kpTURBXy82OTYxM2RiNDE5ZTBhZTNjMzk0YzNmZWE2YzllODE3ZS5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://ocdn.eu/pulscms-transforms/1/QbTk9kpTURBXy8xN2M2MmMyNmFiMjk1NjUyODJkNTM0NDY3YzkwZTBkZS5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-03-24T08:31:29.000Z",
       "dateFormatted": "24 marca 2026"
     },
@@ -97,18 +313,6 @@
       "dateFormatted": "24 marca 2026"
     },
     {
-      "title": "GPW planuje uruchomienie GPW WATS w VI, zależnie od stanu gotowości i wyniku prób generalnych",
-      "link": "https://www.bankier.pl/wiadomosc/GPW-planuje-uruchomienie-GPW-WATS-w-VI-zaleznie-od-stanu-gotowosci-i-wyniku-prob-generalnych-9103101.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Giełda Papierów Wartościowych planuje uruchomienie platformy transakcyjnej GPW WATS w czerwcu 2026 roku, zależnie od stanu gotowości i wyniku prób generalnych - wynika z prezentacji GPW.",
-      "pubDate": "Tue, 24 Mar 2026 09:22:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/2/2/cbeb06dd33a8d3-thumb-1000.jpg",
-      "dateISO": "2026-03-24T08:22:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
       "title": "Jensen Huang prowokuje: Osiągnęliśmy ogólną sztuczna Inteligencję",
       "link": "https://www.bankier.pl/wiadomosc/Jensen-Huang-Osiagnelismy-AGI-Prowokacja-czy-nowa-rzeczywistosc-9103089.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W świecie technologii rzadko zdarzają się deklaracje o tak dużym ciężarze gatunkowym. Podczas wystąpienia w popularnym podcaście Lexa Fridmana Jensen Huang, CEO firmy Nvidia, wypowiedział słowa, które błyskawicznie obiegły branżę: „Myślę, że to teraz. Myślę, że osiągnęliśmy AGI”. Ta odważna teza o z",
@@ -142,18 +346,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/4/1/2c71b0b90626e4-948-568-175-288-3949-2369.jpg",
       "dateISO": "2026-03-24T08:10:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Michał Tekliński z Goldenmark: Dobre złoto na złe czasy",
-      "link": "https://www.bankier.pl/wiadomosc/Michal-Teklinski-z-Goldenmark-Dobre-zloto-na-zle-czasy-9102983.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "To, co dzieje się obecnie na rynku złota, rzeczywiście potrafi przyprawić inwestorów o przyspieszony puls. W ostatnich miesiącach obserwujemy bowiem wyraźną zmienność notowań, wynikającą zarówno z napięć geopolitycznych, jak i z polityki banków centralnych oraz niepewności wokół globalnej gospodarki",
-      "pubDate": "Tue, 24 Mar 2026 09:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/f/08da2decd6986f-948-568-144-32-1136-681.jpg",
-      "dateISO": "2026-03-24T08:00:00.000Z",
       "dateFormatted": "24 marca 2026"
     },
     {
@@ -229,18 +421,6 @@
       "dateFormatted": "24 marca 2026"
     },
     {
-      "title": "Gospodarstwa domowe wciąż za mało inwestują w akcje, ale to się zmienia",
-      "link": "https://www.bankier.pl/wiadomosc/Gospodarstwa-domowe-wciaz-za-malo-inwestuja-w-akcje-ale-to-sie-zmienia-BM-PKO-BP-9103054.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Polskie gospodarstwa domowe wciąż pozostają mocno niedoinwestowane w akcje, a ich oszczędności skoncentrowane są w instrumentach niskiego ryzyka - to wnioski z najnowszego raportu BM PKO BP, którego autorzy wskazują jednak, że inwestorzy detaliczni zaczynają bardziej interesować się rynkiem kapitało",
-      "pubDate": "Tue, 24 Mar 2026 08:02:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/f/af80e37115f955-948-568-2-0-997-598.jpg",
-      "dateISO": "2026-03-24T07:02:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
       "title": "Flagowy przewoźnik zawiesza połączenie z Warszawą. Siatka lotów w głębokim kryzysie",
       "link": "https://www.bankier.pl/wiadomosc/Flagowy-przewoznik-Qatar-Airways-zawiesza-polaczenie-z-Warszawa-Siatka-lotow-w-glebokim-kryzysie-9102900.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Qatar Airways podjął drastyczną decyzję o bezterminowym wstrzymaniu rejsów na trasie Doha – Warszawa. Stolica Polski dołączyła do rosnącej listy miast wykreślonych z rozkładu lotów, co jest bezpośrednim efektem gwałtownego spadku popytu oraz paraliżu operacyjnego w regionie Zatoki Perskiej.",
@@ -301,42 +481,6 @@
       "dateFormatted": "24 marca 2026"
     },
     {
-      "title": "Sery, wino i surowce krytyczne. Leyen ogłasza sukces w Canberze. Europa zyska?",
-      "link": "https://www.bankier.pl/wiadomosc/Sery-wino-i-surowce-krytyczne-Von-der-Leyen-oglasza-sukces-w-Canberze-Europa-zyska-9102990.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Unia Europejska i Australia zakończyły we wtorek negocjacje umowy o wolnym handlu oraz zawarły partnerstwo w dziedzinie bezpieczeństwa. Porozumienie handlowe ma ułatwić dostęp UE do surowców krytycznych, które posiada Australia, a których Wspólnota potrzebuje do transformacji energetycznej.",
-      "pubDate": "Tue, 24 Mar 2026 07:25:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/b/c0d791a2fa0383-948-568-0-440-1366-819.jpg",
-      "dateISO": "2026-03-24T06:25:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Izrael ograniczył użycie tych dronów. Stracił już 80% swojej floty?",
-      "link": "https://www.bankier.pl/wiadomosc/Izrael-ograniczyl-uzycie-tych-dronow-Stracil-juz-80-swojej-floty-9102921.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Izraelskie siły powietrzne ograniczyły atakowanie irańskich celów zaawansowanymi dronami Hermes-900 w związku z ogromnymi stratami, poniesionymi w ciągu trzech tygodni walk z Iranem - poinformował w poniedziałek branżowy portal DefenceSecurityAsia.",
-      "pubDate": "Tue, 24 Mar 2026 07:25:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/a/ae2ff2984bca08-948-568-150-120-3590-2153.jpg",
-      "dateISO": "2026-03-24T06:25:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Kim Dzong Un: Nigdy nie zrezygnujemy ze statusu potęgi nuklearnej",
-      "link": "https://www.bankier.pl/wiadomosc/Kim-Dzong-Un-Nigdy-nie-zrezygnujemy-ze-statusu-potegi-nuklearnej-9102991.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Korea Północna nigdy nie zrezygnuje ze swojego statusu potęgi nuklearnej – oświadczył przywódca kraju Kim Dzong Un, który uznał Koreę Południową za „najbardziej wrogie państwo”. Jego słowa przytoczyła AFP za tamtejszymi mediami państwowymi.",
-      "pubDate": "Tue, 24 Mar 2026 07:25:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/e/f5a6601b48012d-948-568-0-0-1880-1127.jpg",
-      "dateISO": "2026-03-24T06:25:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
       "title": "„Nie może się nie podobać”. Nowe Renault 4 E-Tech to więcej niż nostalgiczny design",
       "link": "https://businessinsider.com.pl/technologie/motoryzacja/renault-4-e-tech-nostalgia-i-nowoczesnosc-jak-sprawdza-sie-w-miescie-i-trasie/kfghsy9",
       "description": "Pamiętam moje pierwsze wrażenia, gdy pokazano Fiata 500, czyli śliczne, małe autko nawiązujące do modelu sprzed lat. Bardzo mi się podobało, choć pod względem technicznym nie było niczym szczególnym. Fiat wówczas odniósł sukces, a „pięćsetka” istnieje do dziś. Renault również gra na sentymentach i t",
@@ -346,18 +490,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/2gak9kpTURBXy9mNzU5NTJlYWUzOTQ2OGJmMDQ3MDEwNWIzMWMwOGViZC5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-03-24T06:21:27.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "PKO BP rezygnuje z otwierania konta przez kuriera. Stawia na mObywatela",
-      "link": "https://www.bankier.pl/wiadomosc/PKO-BP-rezygnuje-z-otwierania-konta-przez-kuriera-Stawia-na-mObywatela-9103010.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "PKO BP planuje w kwietniu wyłączyć możliwość zdalnego otwierania konta osobistego z udziałem kuriera. Bank przekierowuje nowych klientów do procesu mobilnego, opartego na aplikacji mObywatel.",
-      "pubDate": "Tue, 24 Mar 2026 07:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/6/7513d089deb4d7-695-417-10-12-695-417.jpg",
-      "dateISO": "2026-03-24T06:20:00.000Z",
       "dateFormatted": "24 marca 2026"
     },
     {
@@ -373,18 +505,6 @@
       "dateFormatted": "24 marca 2026"
     },
     {
-      "title": "Polacy w Holandii wypchnięci „poza system”. FNV: To narzędzie kontroli i zastraszania",
-      "link": "https://www.bankier.pl/wiadomosc/Polacy-w-Holandii-wypchnieci-poza-systemem-FNV-To-narzedzie-kontroli-i-zastraszania-9102994.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Tysiące migrantów zarobkowych w Holandii, w tym Polaków, może pozostawać poza rejestrem mieszkańców. Związek zawodowy FNV alarmuje, że część agencji utrudnia meldunek, a związki i media od lat ujawniają fatalne warunki zakwaterowania pracowników agencyjnych.",
-      "pubDate": "Tue, 24 Mar 2026 07:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/d/5a15b0b727f4e2-948-567-0-22-1000-599.jpg",
-      "dateISO": "2026-03-24T06:00:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
       "title": "Politolodzy o wizycie prezydenta na Węgrzech: to był błąd",
       "link": "https://www.bankier.pl/wiadomosc/Politolodzy-o-wizycie-prezydenta-na-Wegrzech-to-byl-blad-9102928.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Prezydent Polski Karol Nawrocki spotkał się w poniedziałek w Budapeszcie z premierem Węgier Viktorem Orbanem. Oba kraje obchodzą w poniedziałek Dzień Przyjaźni Polsko-Węgierskiej. Nawrocki spotkał się również z prezydentem Węgier Tamasem Sulyokiem.",
@@ -397,50 +517,14 @@
       "dateFormatted": "24 marca 2026"
     },
     {
-      "title": "Nowa ustawa o kredytach. UOKiK odpiera poważne zarzuty KNF",
-      "link": "https://www.bankier.pl/wiadomosc/Nowa-ustawa-o-kredytach-UOKiK-odpiera-powazne-zarzuty-KNF-9103001.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Urząd Ochrony Konkurencji i Konsumentów odpiera zarzuty, że stosuje tzw. gold plating w projekcie ustawy o kredycie konsumenckim – czytamy we wtorkowym wydaniu „Pulsu Biznesu”.",
+      "title": "Polacy w Holandii wypchnięci „poza system”. FNV: To narzędzie kontroli i zastraszania",
+      "link": "https://www.bankier.pl/wiadomosc/Polacy-w-Holandii-wypchnieci-poza-systemem-FNV-To-narzedzie-kontroli-i-zastraszania-9102994.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Tysiące migrantów zarobkowych w Holandii, w tym Polaków, może pozostawać poza rejestrem mieszkańców. Związek zawodowy FNV alarmuje, że część agencji utrudnia meldunek, a związki i media od lat ujawniają fatalne warunki zakwaterowania pracowników agencyjnych.",
       "pubDate": "Tue, 24 Mar 2026 07:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/e/12ee89930e670f-948-568-9-168-1180-708.jpg",
-      "dateISO": "2026-03-24T06:00:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Solidarność na głodówce w kopalni Orlenu. Trzech protestujących trafiło do szpitala",
-      "link": "https://www.bankier.pl/wiadomosc/Solidarnosc-na-glodowce-w-kopalni-Orlenu-Trzech-protestujacych-trafilo-do-szpitala-9102940.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Trzech pracowników Inowrocławskich Kopalni Soli „Solino”, prowadzących od ponad tygodnia protest głodowy, trafiło do szpitala z powodu pogorszenia się stanu zdrowia - poinformował w poniedziałek wieczorem szef zakładowej organizacji NSZZ „Solidarność” Jerzy Gawęda.",
-      "pubDate": "Tue, 24 Mar 2026 07:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/7/ecca480a7bd859-948-568-185-131-1002-601.jpg",
-      "dateISO": "2026-03-24T06:00:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Kaspijski front wojny z Iranem. Izrael rozbił flotę persów na Morzu Kaspijskim",
-      "link": "https://www.bankier.pl/wiadomosc/Kaspijski-front-wojny-z-Iranem-Izrael-rozbil-flote-persow-na-Morzu-Kaspijskim-9102958.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Izrael chronił Azerbejdżan, atakując w ubiegłym tygodniu irańską flotę na Morzu Kaspijskim; oba kraje zawarły przed rokiem tajną umowę o współpracy obronnej, która ma kluczowe znaczenie w trwającej wojnie USA i Izraela z Iranem, bo - teoretycznie - może wciągnąć do antyirańskiej koalicji kolejne kra",
-      "pubDate": "Tue, 24 Mar 2026 07:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/7/177daf70043955-850-509-25-0-850-509.jpg",
-      "dateISO": "2026-03-24T06:00:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Czechy zaostrzają rygor w zbrojeniówce. Firmy mogą stracić licencje po ataku w Pardubicach",
-      "link": "https://www.bankier.pl/wiadomosc/Czechy-zaostrzaja-rygor-w-zbrojeniowce-Firmy-moga-stracic-licencje-po-ataku-w-Pardubicach-9102933.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rząd w Pradze zdecydował w poniedziałek, że państwo zaostrzy kontrole bezpieczeństwa w obiektach należących do 428 firm, które posiadają licencję na produkcję i eksport broni. Części z nich grozi cofnięcie zezwoleń. To reakcja na piątkowy pożar w zakładach w Pardubicach. Śledczy zakładają, że przycz",
-      "pubDate": "Tue, 24 Mar 2026 07:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/7/730aee66d33cfd-948-568-465-560-3763-2258.jpg",
+      "image": "http://galeria.bankier.pl/p/9/d/5a15b0b727f4e2-948-567-0-22-1000-599.jpg",
       "dateISO": "2026-03-24T06:00:00.000Z",
       "dateFormatted": "24 marca 2026"
     },
@@ -466,6 +550,18 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/n9pk9kpTURBXy8yOGU0ZjczMzc3ZmI1NzBiNTdhNzJmYTEzODY0ZDc1Mi5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-03-24T05:43:22.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Bitcoin optymistyczny na poziomie 70 tys. $ dzięki deeskalacji z Iranem",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-optymistyczny-na-poziomie-70-tys--dzieki-deeskalacji-z-iranem-1334446",
+      "description": "",
+      "pubDate": "2026-03-24 05:42:18",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-03-24T05:42:18.000Z",
       "dateFormatted": "24 marca 2026"
     },
     {
@@ -541,90 +637,6 @@
       "dateFormatted": "24 marca 2026"
     },
     {
-      "title": "Kurs EUR/PLN 24 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-euro-dzisiaj-po-ile-jest-euro-24-marca-2026-r/1gx7hsp",
-      "description": "Bieżący kurs waluty euro z dnia 24 marca 2026 z godziny 7 rano oraz zmiany kursu dzień do dnia i tydzień do tygodnia. Jak się zmienił kurs w tym okresie i czy warto dziś wymieniać złotówki na euro? Aktualny kurs euro interesuje turystów, ale przede wszystkim przedsiębiorców, którzy zajmują się impor",
-      "pubDate": "Tue, 24 Mar 2026 05:04:41 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/DEhk9kpTURBXy9kNzYwMDkzOTZiYjgwZGY2NTI0N2JhMjRjY2EzYzY0Mi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-24T05:04:41.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Kurs USD/PLN 24 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-dolara-amerykanskiego-dzisiaj-po-ile-jest-dolar-amerykanski-24-marca-2026-r/z4fc126",
-      "description": "Przedstawiamy notowania bieżącego kursu USD z dnia 24 marca 2026. Wczorajsza wartość dolara to 3,6824 zł. Od tego, jaki jest kurs USD, zależy cena wielu importowanych towarów oraz usług, których transakcje rozliczane są w dolarach. By pokazać perspektywę, w tym artykule pokazujemy zmianę kursu USD w",
-      "pubDate": "Tue, 24 Mar 2026 05:04:30 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/BZ3k9kpTURBXy8xZWRmMWIzMjlmNjgyOWUzOGY1ZmFlYzY4Mjg4NDNhMi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-24T05:04:30.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Kurs CHF/PLN 24 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-franka-szwajcarskiego-dzisiaj-po-ile-jest-frank-szwajcarski-24-marca-2026-r/ccvq0k4",
-      "description": "Poznaj szczegółowe zmiany kursu CHF/PLN. Jak kształtuje się kurs złotego do franka? Jak silna jest waluta, od której zależy wysokość raty kredytowej wielu pożyczkobiorców? Wczoraj kurs franka wynosił 4,6688 zł. O tym, jak kształtuje się on dziś, dowiesz się z tego artykułu. Sprawdź, czy opłaca się w",
-      "pubDate": "Tue, 24 Mar 2026 05:04:26 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/d92k9kpTURBXy81NTJkOGYzYzQzMGVmNGVmMWVkMmY4ZWJiMjdhZTIwNy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-24T05:04:26.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Kurs GBP/PLN 24 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-funtow-brytyjskich-dzisiaj-po-ile-jest-funt-brytyjski-24-marca-2026-r/sw03xdc",
-      "description": "Chcesz sprawdzić, jaki jest kurs GBP na dziś 24 marca 2026? Interesują cię bieżące notowania waluty? Jesteś w odpowiednim miejscu. Poniżej sprawdzisz, czy złotówka umacnia się, czy słabnie względem funta brytyjskiego. Wczorajszy kurs wynosił 4,9321 zł. Warto wiedzieć jak kurs wymiany prezentuje się ",
-      "pubDate": "Tue, 24 Mar 2026 05:04:12 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/6Onk9kpTURBXy85YjgzMGFmZjYwZGZkMjJhODU5Mzg2OWY0YjEzZmY3MC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-24T05:04:12.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Kurs CZK/PLN 24 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-czeskiej-dzisiaj-po-ile-jest-korona-czeska-24-marca-2026-r/hnhmns2",
-      "description": "Jak dziś wygląda aktualny kurs korony czeskiej względem złotego? Czy opłaca się wymieniać korony czeskie na polskie złotówki? Wczoraj wartość CZK wyniosła: 0,1743 zł. Sprawdź dane dla 24 marca 2026.",
-      "pubDate": "Tue, 24 Mar 2026 05:04:10 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/MPMk9kpTURBXy84NDIwMmNiNDNiZTc0OWEzOWViNGNlNThkMWQ3MTAyOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-24T05:04:10.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Kurs NOK/PLN 24 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-norweskiej-dzisiaj-po-ile-jest-korona-norweska-24-marca-2026-r/f8q2mkh",
-      "description": "Sprawdź, jak zmienia się kurs korony norweskiej. Wczoraj wynosił 0,3765 zł. Jeśli chcesz dowiedzieć się, ile za koronę norweską trzeba zapłacić w tej chwili, przeczytaj poniższy artykuł.",
-      "pubDate": "Tue, 24 Mar 2026 05:03:57 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/zsPk9kpTURBXy85OTY3Mjg4MjM2ZGIzY2Y0N2E3MWFkNWVhODI1NWY2Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-24T05:03:57.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Ekonomista: Te trzy siły zmienią polską gospodarkę",
-      "link": "https://www.bankier.pl/wiadomosc/Ekonomista-Te-trzy-sily-zmienia-polska-gospodarke-9102498.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zrównoważony rozwój przestał być modnym hasłem, a stał się jednym z najważniejszych wyzwań strategicznych dla firm, banków i całej gospodarki. O tym, jak dekarbonizacja, demografia, AI i europejskie regulacje zmieniają reguły gry w Polsce, oraz kto zyska, a kto może stracić na tej transformacji, roz",
-      "pubDate": "Tue, 24 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/a/a35c0ffe6a6c4a-948-568-2-117-995-597.jpg",
-      "dateISO": "2026-03-24T05:00:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
       "title": "Koniec z tanim podatkiem od nieruchomości? Lewica proponuje stawki do 8 tys. zł",
       "link": "https://www.bankier.pl/wiadomosc/Koniec-z-tanim-podatkiem-od-nieruchomosci-Lewica-proponuje-stawki-do-8-tys-zl-9102681.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Lewica postanowiła wywrócić do góry nogami podstawę podatku od nieruchomości. Złożyła w Sejmie projekt, na mocy którego nie będzie on obliczany od powierzchni, ale od wartości lokalu. W praktyce oznacza to, że stawki wzrosną nawet kilkunastokrotnie.",
@@ -637,26 +649,14 @@
       "dateFormatted": "24 marca 2026"
     },
     {
-      "title": "Mieszkaniowa okazja może okazać się kłopotem. Chodzi o ogrzewanie",
-      "link": "https://www.bankier.pl/wiadomosc/Mieszkaniowa-okazja-moze-okazac-sie-klopotem-Chodzi-o-ogrzewanie-9102411.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Cenowa okazja, ale z małą „gwiazdką” – mieszkanie nie ma centralnego ogrzewania. Czy piec węglowy oznacza kłopoty z uzyskaniem kredytu hipotecznego, a zakup stanie się drogą przez mękę? Z mitami na ten temat rozprawia się ekspertka Expander Advisors.",
+      "title": "Ekonomista: Te trzy siły zmienią polską gospodarkę",
+      "link": "https://www.bankier.pl/wiadomosc/Ekonomista-Te-trzy-sily-zmienia-polska-gospodarke-9102498.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zrównoważony rozwój przestał być modnym hasłem, a stał się jednym z najważniejszych wyzwań strategicznych dla firm, banków i całej gospodarki. O tym, jak dekarbonizacja, demografia, AI i europejskie regulacje zmieniają reguły gry w Polsce, oraz kto zyska, a kto może stracić na tej transformacji, roz",
       "pubDate": "Tue, 24 Mar 2026 06:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/4/56438ad21e90d7-948-568-123-61-2453-1472.png",
-      "dateISO": "2026-03-24T05:00:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Od budki z frytkami po milionowe spółki. Boom w sieci na gotowe biznesy",
-      "link": "https://www.bankier.pl/wiadomosc/Firma-z-ogloszenia-Internetowy-boom-na-gotowe-biznesy-9102769.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Firmę można tworzyć samodzielnie od postaw – poszukując niszy rynkowej, wynajmując lokal, kompletując zespół i załatwiając wszelkie niezbędne formalności. Jednak można też pójść na skróty i kupić ją… poprzez internetowy serwis ogłoszeniowy. Znajduje się tam wiele ofert dotyczących sprzedaży działają",
-      "pubDate": "Tue, 24 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/e/5728d019049f88-948-568-0-23-1900-1139.jpg",
+      "image": "http://galeria.bankier.pl/p/d/a/a35c0ffe6a6c4a-948-568-2-117-995-597.jpg",
       "dateISO": "2026-03-24T05:00:00.000Z",
       "dateFormatted": "24 marca 2026"
     },
@@ -673,6 +673,30 @@
       "dateFormatted": "24 marca 2026"
     },
     {
+      "title": "Od budki z frytkami po milionowe spółki. Boom w sieci na gotowe biznesy",
+      "link": "https://www.bankier.pl/wiadomosc/Firma-z-ogloszenia-Internetowy-boom-na-gotowe-biznesy-9102769.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Firmę można tworzyć samodzielnie od postaw – poszukując niszy rynkowej, wynajmując lokal, kompletując zespół i załatwiając wszelkie niezbędne formalności. Jednak można też pójść na skróty i kupić ją… poprzez internetowy serwis ogłoszeniowy. Znajduje się tam wiele ofert dotyczących sprzedaży działają",
+      "pubDate": "Tue, 24 Mar 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/e/5728d019049f88-948-568-0-23-1900-1139.jpg",
+      "dateISO": "2026-03-24T05:00:00.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
+      "title": "Mieszkaniowa okazja może okazać się kłopotem. Chodzi o ogrzewanie",
+      "link": "https://www.bankier.pl/wiadomosc/Mieszkaniowa-okazja-moze-okazac-sie-klopotem-Chodzi-o-ogrzewanie-9102411.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Cenowa okazja, ale z małą „gwiazdką” – mieszkanie nie ma centralnego ogrzewania. Czy piec węglowy oznacza kłopoty z uzyskaniem kredytu hipotecznego, a zakup stanie się drogą przez mękę? Z mitami na ten temat rozprawia się ekspertka Expander Advisors.",
+      "pubDate": "Tue, 24 Mar 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/4/56438ad21e90d7-948-568-123-61-2453-1472.png",
+      "dateISO": "2026-03-24T05:00:00.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
       "title": "Fałszywy uniwersytet, fałszywy bank, fałszywy ChatGPT – trzy oszustwa, na które uważaj w marcu",
       "link": "https://www.bankier.pl/wiadomosc/Falszywy-uniwersytet-falszywy-bank-falszywy-ChatGPT-trzy-oszustwa-na-ktore-uwazaj-w-marcu-9102335.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Mail z Uniwersytetu Jagiellońskiego z prośbą o ofertę. Powiadomienie od ChatGPT o konieczności aktualizacji płatności. Aplikacja bankowa, która ma chronić twoje konto. Trzy sytuacje, które wyglądają wiarygodnie – i trzy pułapki zastawione przez cyberprzestępców.",
@@ -685,18 +709,6 @@
       "dateFormatted": "24 marca 2026"
     },
     {
-      "title": "Wynik referendum uderza w rząd Meloni. Tłumy na ulicach włoskich miast",
-      "link": "https://www.bankier.pl/wiadomosc/Wynik-referendum-uderza-w-rzad-Meloni-Tlumy-na-ulicach-wloskich-miast-9102979.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W Rzymie, Mediolanie, Bolonii, Neapolu i innych miastach we Włoszech odbyły się w poniedziałek manifestacje i wiece zwolenników opozycji po przegranej rządu Giorgii Meloni w zakończonym tego dnia referendum w sprawie rządowej reformy sądownictwa. Przeciwko niej opowiedziało się 53,7 procent obywatel",
-      "pubDate": "Mon, 23 Mar 2026 23:11:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/4/63abc3c67ae351-948-568-0-168-4500-2699.jpg",
-      "dateISO": "2026-03-23T22:11:00.000Z",
-      "dateFormatted": "23 marca 2026"
-    },
-    {
       "title": "Wojna czy pokój? Inwestorzy chcą wierzyć w to drugie. Odbicie na Wall Street",
       "link": "https://www.bankier.pl/wiadomosc/Wojna-czy-pokoj-Inwestorzy-chca-wierzyc-w-to-drugie-Odbicie-na-Wall-Street-9102930.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Sprzeczne wypowiedzi w sprawie wojny z Iranem nie przeszkodziły inwestorom z Wall Street do wykrzesania solidnego odbicia z wielomiesięcznych minimów",
@@ -706,54 +718,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/a/d/9012fd9b514e1e-948-568-7-0-2992-1795.jpg",
       "dateISO": "2026-03-23T20:05:00.000Z",
-      "dateFormatted": "23 marca 2026"
-    },
-    {
-      "title": "Benzyna w Chinach najdroższa od lat. Rząd interweniuje, by ratować rynek przed skokiem cen ropy",
-      "link": "https://www.bankier.pl/wiadomosc/Benzyna-w-Chinach-najdrozsza-od-lat-Rzad-interweniuje-by-ratowac-rynek-przed-skokiem-cen-ropy-9102901.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Chińska Państwowa Komisja Rozwoju i Reform ogłosiła w poniedziałek podniesienie cen paliw, ograniczając jednak skalę podwyżki o połowę względem wycen rynkowych. Decyzja ma chronić gospodarkę przed skutkami skoku cen ropy, wywołanego wojną USA i Izraela z Iranem – informują media.",
-      "pubDate": "Mon, 23 Mar 2026 20:09:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/4/bdae99031e7932-948-568-51-214-4040-2424.jpg",
-      "dateISO": "2026-03-23T19:09:00.000Z",
-      "dateFormatted": "23 marca 2026"
-    },
-    {
-      "title": "GPW dowozi wyniki. Zysk netto 204 mln zł w 2025 roku i ambitne plany dywidendowe",
-      "link": "https://www.bankier.pl/wiadomosc/Skor-zysk-netto-j-d-GPW-wyniosl-w-IV-kw-47-3-mln-zl-wobec-47-7-mln-zl-konsensusu-9102897.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Skorygowany zysk netto j.d. Grupy Kapitałowej GPW wyniósł w IV kw. 47,3 mln zł, skorygowana EBITDA wyniosła 54,5 mln zł - podała Giełda Papierów Wartościowych w komunikacie. Konsensus PAP Biznes zakładał 47,7 mln zł skorygowanego zysku netto oraz 54,5 mln zł skorygowanej EBITDA.",
-      "pubDate": "Mon, 23 Mar 2026 20:06:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/0/52084439f6661c-948-568-40-30-3960-2375.jpg",
-      "dateISO": "2026-03-23T19:06:00.000Z",
-      "dateFormatted": "23 marca 2026"
-    },
-    {
-      "title": "Rząd walczy z drożyzną na stacjach. Orlen tnie marże, minister nie wyklucza obniżki VAT",
-      "link": "https://www.bankier.pl/wiadomosc/Obnizka-marzy-przez-Orlen-stabilizuje-ceny-na-rynku-minister-aktywow-panstwowych-9102881.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Obniżka marży przez Orlen stabilizuje ceny na rynku - ocenił minister aktywów państwowych Wojciech Balczun w Polsat News. Potencjalnie rozpatrywane w przyszłości mogą być kwestia akcyzy, VAT-u czy dyskusje o ustawie o nadmiernych zyskach.",
-      "pubDate": "Mon, 23 Mar 2026 19:44:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/d/803f40e047ade5-948-568-6-87-1190-714.jpg",
-      "dateISO": "2026-03-23T18:44:00.000Z",
-      "dateFormatted": "23 marca 2026"
-    },
-    {
-      "title": "Nawrocki do dziennikarza: Pan się ogarnie. Tusk do Nawrockiego: Proszę nie krzyczeć",
-      "link": "https://www.bankier.pl/wiadomosc/Nawrocki-do-dziennikarza-Pan-sie-ogarnie-Tusk-do-Nawrockiego-Prosze-nie-krzyczec-9102811.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Pan redaktor się ogarnie i słucha - powiedział prezydent Karol Nawrocki do dziennikarza TVN, który zapytał, czy nie przeszkadza mu zażyłość między Viktorem Orbanem a Władimirem Putinem. Proszę nie krzyczeć na dziennikarzy, to nie oni wpakowali pana w to rosyjskie bagno - skomentował premier Donald T",
-      "pubDate": "Mon, 23 Mar 2026 18:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/8/63b4249581c98f-948-568-40-290-3960-2375.jpg",
-      "dateISO": "2026-03-23T17:00:00.000Z",
       "dateFormatted": "23 marca 2026"
     },
     {
@@ -778,6 +742,18 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/2/4/093b657ced289d-948-568-0-0-3500-2099.jpg",
       "dateISO": "2026-03-23T13:07:00.000Z",
+      "dateFormatted": "23 marca 2026"
+    },
+    {
+      "title": "Bitcoin zyskuje, gdy Trump opóźnia ataki na Iran o pięć dni",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-zyskuje-gdy-trump-opoznia-ataki-na-iran-o-piec-dni-93CH-1333294",
+      "description": "",
+      "pubDate": "2026-03-23 11:35:27",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-03-23T11:35:27.000Z",
       "dateFormatted": "23 marca 2026"
     },
     {
@@ -817,6 +793,18 @@
       "dateFormatted": "23 marca 2026"
     },
     {
+      "title": "Cena Bitcoina dzisiaj: spada do 68 tys. $ w związku z obawami o Iran",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/cena-bitcoina-dzisiaj-spada-do-68-tys--w-zwiazku-z-obawami-o-iran-1332653",
+      "description": "",
+      "pubDate": "2026-03-23 06:14:22",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-03-23T06:14:22.000Z",
+      "dateFormatted": "23 marca 2026"
+    },
+    {
       "title": "Kontrowersje wokół SpaceX. Inwazja AI w indeksie S&P500",
       "link": "https://www.bankier.pl/wiadomosc/Kontrowersje-wokol-IPO-SpaceX-i-walka-o-mechaniczny-popyt-Inwazja-AI-w-indeksie-S-P500-9100998.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "W marcu S&P500 przeszedł pierwszą kwartalną rewizję 2026 r.oku. Do portfela indeksu weszły m.in. kolejne spółki z branży sztucznej inteligencji, w które inwestuje sama Nvidia. Równolegle na Wall Street toczy się gorąca, kuluarowa dyskusja, bowiem jak donosi Bloomberg, firma odpowiedzialna za indeks ",
@@ -827,6 +815,90 @@
       "image": "http://galeria.bankier.pl/p/d/7/52877afbb994fc-948-568-80-110-3920-2351.jpg",
       "dateISO": "2026-03-23T05:00:00.000Z",
       "dateFormatted": "23 marca 2026"
+    },
+    {
+      "title": "Analityk wymienia 6 kluczowych elementów nowej struktury rynku Bitcoina",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/analityk-wymienia-6-kluczowych-elementow-nowej-struktury-rynku-bitcoina-1332516",
+      "description": "",
+      "pubDate": "2026-03-21 13:26:31",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-03-21T13:26:31.000Z",
+      "dateFormatted": "21 marca 2026"
+    },
+    {
+      "title": "Senatorowie osiągają wstępne porozumienie z Białym Domem ws. zysków ze stablecoinów",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/senatorowie-osiagaja-wstepne-porozumienie-z-bialym-domem-ws-zyskow-ze-stablecoinow-93CH-1332246",
+      "description": "",
+      "pubDate": "2026-03-20 18:51:33",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-03-20T18:51:33.000Z",
+      "dateFormatted": "20 marca 2026"
+    },
+    {
+      "title": "Cena Bitcoina dzisiaj: stabilizuje się blisko 71 tys. $ po spadku",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/cena-bitcoina-dzisiaj-stabilizuje-sie-blisko-71-tys--po-spadku-1331220",
+      "description": "",
+      "pubDate": "2026-03-20 05:54:22",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-03-20T05:54:22.000Z",
+      "dateFormatted": "20 marca 2026"
+    },
+    {
+      "title": "Bitcoin poniżej 71 tys. $ – inwestorzy ograniczają zakłady na cięcia Fed",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-ponizej-71-tys---inwestorzy-ograniczaja-zaklady-na-ciecia-fed-1329312",
+      "description": "",
+      "pubDate": "2026-03-19 06:31:10",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-03-19T06:31:10.000Z",
+      "dateFormatted": "19 marca 2026"
+    },
+    {
+      "title": "Cena Bitcoina dziś: stabilna blisko 74 tys. $ przed decyzją Fed",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/cena-bitcoina-dzis-stabilna-blisko-74-tys--przed-decyzja-fed-1327592",
+      "description": "",
+      "pubDate": "2026-03-18 06:32:50",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-03-18T06:32:50.000Z",
+      "dateFormatted": "18 marca 2026"
+    },
+    {
+      "title": "Citi obniża prognozy dla Bitcoina i Ethereum wobec powolnych postępów legislacyjnych",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/citi-obniza-prognozy-dla-bitcoina-i-ethereum-wobec-powolnych-postepow-legislacyjnych-1326298",
+      "description": "",
+      "pubDate": "2026-03-17 11:36:30",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-03-17T11:36:30.000Z",
+      "dateFormatted": "17 marca 2026"
+    },
+    {
+      "title": "Cena Bitcoina dzisiaj: cofnięcie po skoku blisko 76 tys. $; Iran, Fed w centrum uwagi",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/cena-bitcoina-dzisiaj-cofniecie-po-skoku-blisko-76-tys--iran-fed-w-centrum-uwagi-1325601",
+      "description": "",
+      "pubDate": "2026-03-17 05:26:43",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-03-17T05:26:43.000Z",
+      "dateFormatted": "17 marca 2026"
     },
     {
       "title": "Pieniądze dla JDG leżą na stole. Banki płacą za przejście, rekordzista daje 5000 zł",
@@ -841,5 +913,5 @@
       "dateFormatted": "13 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-24T08:55:37.627Z"
+  "updatedAt": "2026-03-24T10:53:23.840Z"
 }
