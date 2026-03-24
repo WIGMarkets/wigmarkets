@@ -1,9 +1,21 @@
 {
   "articles": [
     {
+      "title": "Zakaz importu rosyjskiej ropy. Unia Europejska odkłada decyzję",
+      "link": "https://businessinsider.com.pl/gospodarka/zakaz-importu-rosyjskiej-ropy-unia-europejska-odklada-wazna-decyzje/w98esw2",
+      "description": "Komisja Europejska nie przedstawi w połowie kwietnia projektu przepisów dotyczących stałego zakazu importu rosyjskiej ropy. Zmiana terminu wynika z aktualnej sytuacji geopolitycznej.",
+      "pubDate": "Tue, 24 Mar 2026 20:52:54 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/qQJk9kpTURBXy8zOTI5ODQwZjc0OTdhMzgyZDQxYzQ4ODVhNjE1ZGY5Yi5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-24T20:52:54.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
       "title": "USA chcą rozmawiać z Iranem. Media podają możliwą datę",
-      "link": "https://businessinsider.com.pl/wiadomosci/rozmowy-pokojowe-miedzy-usa-a-iranem-w-tym-tygodniu-media-wskazuja-na-pakistan/mcnzgpz",
-      "description": "Stany Zjednoczone i grupa regionalnych mediatorów omawiają możliwość przeprowadzenia rozmów pokojowych na wysokim szczeblu z Iranem już w czwartek, jednak wciąż czekają na odpowiedź Teheranu — ustalił portal Axios.",
+      "link": "https://businessinsider.com.pl/wiadomosci/rozmowy-pokojowe-usa-iran-w-tym-tygodniu-media-wskazuja-na-pakistan/mcnzgpz",
+      "description": "Do rozmów pokojowych na wysokim szczeblu między USA a Iranem mogłoby dojść w Pakistanie jeszcze w tym tygodniu — podają Axios i agencja Reutera. Z kolei Donald Trump mówi o prezencie od Irańczyków.",
       "pubDate": "Tue, 24 Mar 2026 20:09:35 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -565,18 +577,6 @@
       "dateFormatted": "24 marca 2026"
     },
     {
-      "title": "Jakie recepty na kryzys paliwowy mają ludzie prezydenta? Apel w sprawie Orlenu",
-      "link": "https://businessinsider.com.pl/biznes/marze-orlenu-i-wysokie-ceny-energii-ludzie-prezydenta-apeluja-do-ure-o-pilny-audyt/dq3pwbz",
-      "description": "Orlen zawyża marże kosztem odbiorców gazu — grzmią ludzie prezydenta. Mają w tej sprawie pilny apel do Urzędu Regulacji Energetyki o skorzystanie z prezydenckich sposobów na obniżki cen energii przedstawione przez prezydenta w listopadzie ubiegłego roku.",
-      "pubDate": "Tue, 24 Mar 2026 12:36:35 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/pvzk9kpTURBXy9iZDMxNGE4ZTgzMmU5MDMyYzYxYmQ4Y2M5Mjc2ZTM3ZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-24T12:36:35.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
       "title": "Katowicka firma gotowa do produkcji tysięcy pocisków. \"To strategiczny krok\"",
       "link": "https://www.bankier.pl/wiadomosc/Katowicka-firma-gotowa-do-produkcji-tysiecy-pociskow-To-strategiczny-krok-9103282.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Katowicka firma PGO zadeklarowała gotowość do produkcji metalowych korpusów do pocisków kalibru 120 mm - używanych m.in. przez moździerze Rak. Według spółki, obecnie możliwa jest produkcja do 40 tys. kutych komponentów rocznie.",
@@ -925,5 +925,5 @@
       "dateFormatted": "13 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-24T20:42:35.979Z"
+  "updatedAt": "2026-03-24T22:33:51.482Z"
 }
