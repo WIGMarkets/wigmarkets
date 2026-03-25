@@ -1,6 +1,258 @@
 {
   "articles": [
     {
+      "title": "Cupra Leon Sportstourer 1.5 e-Hybrid 204 KM",
+      "link": "https://businessinsider.com.pl/technologie/motoryzacja/cupra-leon-sportstourer-15-e-hybrid-204-km/8lkkd56",
+      "description": "W czasach, gdy wszędzie krążą SUV-y różnej wielkości, oryginalnymi modelami stają się kombi. Takie, jak choćby Cupra Leon ST, czyli Sportstourer. Hiszpańska marka należąca do Seata (który jest własnością Volkswagena) pokazuje jednak, że nawet tradycyjny auto do przewożenia bagaży może świetnie wyglą",
+      "pubDate": "Wed, 25 Mar 2026 06:55:34 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/zjlk9kpTURBXy82MzlhYzNmMWVhY2M0ZmYxYTIxZmRhZWZiYTEyN2RhNC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-25T06:55:34.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Nowy projekt Trumpa. USA zbudują kosmiczną tarczę za 185 miliardów dolarów?",
+      "link": "https://www.bankier.pl/wiadomosc/Nowy-projekt-Trumpa-USA-zbuduja-kosmiczna-tarcze-za-185-miliardow-dolarow-9103704.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Donald Trump firmuje projekt tarczy antyrakietowej opartej na systemach kosmicznych „Złotej kopuły” (ang. „Golden Dome”) - poinformował we wtorek Reuters. Powołując się na swe źródło agencja podała, że w realizacji projektu uczestniczą firmy Anduril i Palantir Technologies.",
+      "pubDate": "Wed, 25 Mar 2026 07:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/1/6fc8142a277223-948-568-0-190-3072-1843.jpg",
+      "dateISO": "2026-03-25T06:30:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Wyniki Lokum Deweloper w IV kw. 2025 roku vs. konsensus PAP (tabela)",
+      "link": "https://www.bankier.pl/wiadomosc/Wyniki-Lokum-Deweloper-w-IV-kw-2025-roku-vs-konsensus-PAP-tabela-9103771.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Poniżej przedstawiamy wyniki Lokum Deweloper w czwartym kwartale 2025 roku według wyliczeń PAP Biznes na podstawie raportu rocznego i ich odniesienie do konsensusu PAP Biznes.",
+      "pubDate": "Wed, 25 Mar 2026 07:22:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/d/1/15ac49b39a529d-948-568-0-36-1200-719.jpg",
+      "dateISO": "2026-03-25T06:22:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Wyrok przeciwko Mecie. 375 mln dolarów kary za brak ochrony przed pedofilami",
+      "link": "https://www.bankier.pl/wiadomosc/Wyrok-przeciwko-Mecie-375-mln-dolarow-kary-za-brak-ochrony-przed-pedofilami-9103702.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ława przysięgłych sądu w Nowym Meksyku uznała, że dzieci korzystające z platform koncernu Meta nie były dostatecznie chronione przed wykorzystaniem seksualnym. Ławnicy zasądzili 375 mln dolarów kary. To przełomowy wyrok, który może wpłynąć na wyniki innych procesów przeciwko cyfrowym gigantom.",
+      "pubDate": "Wed, 25 Mar 2026 07:22:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/4/7dfb79e00ecea4-948-567-0-12-1000-599.jpg",
+      "dateISO": "2026-03-25T06:22:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Mieszkanie prosto z półki? Wykończenie \"pod klucz\" staje coraz popularniejsze",
+      "link": "https://www.bankier.pl/wiadomosc/Mieszkanie-prosto-z-polki-Wykonczenie-pod-klucz-staje-coraz-popularniejsze-9103735.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Nabywcy kalkulujący koszty wykończenia mieszkania coraz częściej biorą pod uwagę wartość własnego czasu, energii i komfortu psychicznego, uznając, że kupienie nowego mieszkania gotowego do natychmiastowego mieszkania ostatecznie kosztuje mniej niż wykańczanie we własnym zakresie.",
+      "pubDate": "Wed, 25 Mar 2026 07:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/f/bb50186951a327-948-567-0-0-1000-599.jpg",
+      "dateISO": "2026-03-25T06:20:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Tani prąd od Nawrockiego? Ruszył specjalny kalkulator: tyle traci polska rodzina",
+      "link": "https://www.bankier.pl/wiadomosc/Tani-prad-od-Nawrockiego-Ruszyl-specjalny-kalkulator-tyle-traci-polska-rodzina-9103686.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rzecznik prezydenta Rafał Leśkiewicz zaprezentował we wtorek stronę internetową zawierającą kalkulator pokazujący, ile - według niego - można byłoby zaoszczędzić na rachunku za prąd, gdyby prezydencki projekt ustawy o „Tanim prądzie” wszedł w życie.",
+      "pubDate": "Wed, 25 Mar 2026 07:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/d/5dd92e5502ed8b-948-568-4-960-1915-1149.jpg",
+      "dateISO": "2026-03-25T06:20:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Ułaskawienie Adama Borowskiego? Prezydent Nawrocki żąda akt od ministra Żurka",
+      "link": "https://www.bankier.pl/wiadomosc/Ulaskawienie-Adama-Borowskiego-Prezydent-Nawrocki-zada-akt-od-ministra-Zurka-9103680.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Karol Nawrocki powołując się na przepisy konstytucji dot. prawa łaski zażądał od Prokuratora Generalnego Waldemara Żurka akt sprawy opozycjonisty z czasów PRL Adama Borowskiego - poinformował we wtorek wieczorem szef kancelarii prezydenta Zbigniew Bogucki.",
+      "pubDate": "Wed, 25 Mar 2026 07:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/9/ea142be44cc569-948-568-0-79-3543-2125.jpg",
+      "dateISO": "2026-03-25T06:15:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Łukasz Mejza mógł przyjąć mandaty, ale woli się chronić. Tak działa prawo",
+      "link": "https://businessinsider.com.pl/prawo/czy-poslowie-powinni-odpowiadac-jak-zwykli-kierowcy-przepisy-budza-kontrowersje/0mn9hyy",
+      "description": "Immunitet powinien przysługiwać wtedy, gdy poseł wykonuje swoje obowiązki, a jak po prostu jedzie samochodem, to chyba nie wykonuje. Tak uważa Wojciech Pasieczny, ekspert ruchu drogowego, były szef stołecznej drogówki. W ocenie konstytucjonalistów takie podejście wymagałoby jednak zmiany ustawy zasa",
+      "pubDate": "Wed, 25 Mar 2026 06:02:48 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/SAak9kpTURBXy9lZGRiM2UxMDQxMDYyM2FiYWZiYmUyNTAzNTI3NTc4NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-25T06:02:48.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Iran minuje cieśninę Ormuz. Nawet 6 tysięcy min zagraża światowemu handlowi",
+      "link": "https://www.bankier.pl/wiadomosc/Iran-minuje-ciesnine-Ormuz-Nawet-6-tysiecy-min-zagraza-swiatowemu-handlowi-9103697.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Amerykański wywiad wykrył w cieśninie Ormuz dwa typy min morskich, które miał rozstawić irański Korpus Strażników Rewolucji Islamskiej (IRGC) - przekazała we wtorek stacja CBS powołując się na urzędników zaznajomionych ze sprawą.",
+      "pubDate": "Wed, 25 Mar 2026 07:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/a/ad2cfa3cbb4466-948-568-0-36-4360-2616.jpg",
+      "dateISO": "2026-03-25T06:00:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Irańskie ataki odcinają dostawy LNG. QatarEnergy ogłasza „siłę wyższą”",
+      "link": "https://www.bankier.pl/wiadomosc/Iranskie-ataki-odcinaja-dostawy-LNG-QatarEnergy-oglasza-sile-wyzsza-9103667.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Katarska firma QatarEnergy ogłosiła we wtorek, że z powodu „siły wyższej” nie zrealizuje niektórych umów na dostawy skroplonego gazu ziemnego (LNG), m.in. dla odbiorców we Włoszech, Belgii, Korei Płd. i Chinach. Decyzja jest rezultatem ataków Iranu na instalacje gazowe.",
+      "pubDate": "Wed, 25 Mar 2026 07:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/1/609e4a0b75bf75-948-568-28-87-1092-655.jpg",
+      "dateISO": "2026-03-25T06:00:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Elitarni marines ruszają na Iran. Decyzja o desancie możliwa w ciągu kilku godzin",
+      "link": "https://www.bankier.pl/wiadomosc/Elitarni-marines-ruszaja-na-Iran-Decyzja-o-desancie-mozliwa-w-ciagu-kilku-godzin-9103678.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Pentagon planuje rozmieścić na Bliskim Wschodzie trzy tysiące żołnierzy elitarnej 82. Dywizji Powietrznodesantowej - podał we wtorek dziennik „Wall Street Journal”. Reuters także podał tę informację, pisząc o „tysiącach żołnierzy”. Zdaniem „WSJ” rozkaz wysłania żołnierzy ma zostać wydany w ciągu kil",
+      "pubDate": "Wed, 25 Mar 2026 07:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/8/a9cad13fac0d7a-948-568-532-788-3242-1945.jpg",
+      "dateISO": "2026-03-25T06:00:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Kończy się cierpliwość Państw Zatoki. Rijad i Abu Zabi bliskie dołączenia do wojny",
+      "link": "https://www.bankier.pl/wiadomosc/Konczy-sie-cierpliwosc-Panstw-Zatoki-Rijad-i-Abu-Zabi-bliskie-dolaczenia-do-wojny-9103673.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Państwa Zatoki Perskiej są coraz bliżej przyłączenia się do działań militarnych przeciwko Teheranowi w związku z irańskimi atakami w regionie – napisał „Wall Street Journal”. Dziennik „New York Times” dodał, że faktyczny władca Arabii Saudyjskiej naciska na kontynuowania uderzeń na Iran.",
+      "pubDate": "Wed, 25 Mar 2026 07:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/b/870d506a68a5dd-948-568-158-0-2814-1688.jpg",
+      "dateISO": "2026-03-25T06:00:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "VIGO Photonics przejął aktywa producenta detektorów podczerwieni InfraRed Associates",
+      "link": "https://www.bankier.pl/wiadomosc/VIGO-Photonics-przejal-aktywa-producenta-detektorow-podczerwieni-InfraRed-Associates-9103753.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "VIGO Photonics nabył aktywa amerykańskiej spółki InfraRed Associates, Inc., spółki specjalizującej się w produkcji detektorów podczerwieni - poinformowało VIGO Photonics w komunikacie. Wartość transakcji wyniosła 8,4 mln USD.",
+      "pubDate": "Wed, 25 Mar 2026 06:56:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/0/e/56c4d4c43b90ef-945-567-0-90-1716-1030.jpg",
+      "dateISO": "2026-03-25T05:56:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Portfele banków puchną od \"skarbówek\". Rynek stwarza jednocześnie szansę i ryzyko",
+      "link": "https://businessinsider.com.pl/finanse/rynkowa-zawierucha-po-ataku-na-iran-czy-polskie-banki-maja-powody-do-obaw/n4dkcpl",
+      "description": "Atak na Iran uderzył rykoszetem w rynki finansowe, na czym ucierpiały także polskie obligacje skarbowe. Czy nasze banki, których bilanse są wypchane po brzegi tzw. skarbówkami, odczują negatywne konsekwencje? A może to dla nich szansa?",
+      "pubDate": "Wed, 25 Mar 2026 05:54:10 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/1pOk9kpTURBXy84Mzg0ZWEyNGUzMjBlODA0ZGMwYTRlNWQyMzZjMmQ1ZC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-25T05:54:10.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "„Tam, gdzie terror, nie będzie domów”. Izrael tworzy strefę bezpieczeństwa w Libanie",
+      "link": "https://www.bankier.pl/wiadomosc/Tam-gdzie-terror-nie-bedzie-domow-Izrael-tworzy-strefe-bezpieczenstwa-w-Libanie-9103325.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wojsko izraelskie będzie kontrolować wszystkie mosty na rzece Litani w Libanie oraz tereny na południe od niej – oświadczył we wtorek minister obrony Izraela Israel Kac, zapowiadając stworzenie tam „strefy bezpieczeństwa”.",
+      "pubDate": "Wed, 25 Mar 2026 06:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/d/c774d6b08889ca-948-568-195-165-2400-1440.jpg",
+      "dateISO": "2026-03-25T05:50:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Najem krótkoterminowy można rozliczyć ryczałtem? Fiskus zmienił podejście",
+      "link": "https://businessinsider.com.pl/prawo/podatki/najem-krotkoterminowy-fiskus-zmienia-zasady-szykuja-sie-duze-zmiany/5pzcjn0",
+      "description": "Przez lata fiskus uznawał, że najem krótkoterminowy, np. na Bookingu lub Airbnb, trzeba rozliczać jak działalność gospodarczą. Teraz twierdzi, że w grę wchodzi opodatkowanie ryczałtem, jak przy najmie długoterminowym. Są jednak haczyki, a poza tym to znów może się zmienić.",
+      "pubDate": "Wed, 25 Mar 2026 05:45:34 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/o6ik9kpTURBXy9iOTllNGIzMGJkOTYyMzkwMDM5MGFhZTc2MzEzMzY0My5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-25T05:45:34.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Czy sztuczna inteligencja pogłębi nierówności w leczeniu? Ochrona zdrowia dwóch prędkości",
+      "link": "https://businessinsider.com.pl/biznes/elita-dlugowiecznych-i-cala-reszta-jak-ai-zmieni-medycyne/nszfytz",
+      "description": "Sztuczna inteligencja w ochronie zdrowia wychodzi z fazy eksperymentów, by stać się fundamentem nowoczesnej medycyny. Sposób, w jaki dziś uregulujemy dostęp do danych, technologii i finansowania, zdecyduje, czy AI zmniejszy nierówności zdrowotne, czy wręcz przeciwnie — stworzy nową elitarną kastę \"s",
+      "pubDate": "Wed, 25 Mar 2026 05:45:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/I6vk9kpTURBXy84MGJkMzdkZGY0NzJhMmE3YTg0YjY2MzBiYWQyMWU5YS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-25T05:45:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Nowoczesne zegarki pomagają zachować zdrowie, ale potrzebna jest odpowiednia wiedza. Od czego zacząć?",
+      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/smartwatche-i-smartbandy-pomagaja-zachowac-zdrowie-ale-potrzebna-jest-odpowiednia/77fgq7j",
+      "description": "Dbanie o zdrowie nigdy nie było prostsze. Nie tylko dzięki zwiększeniu wiedzy medycznej, dodatkowej prywatnej opiece zdrowia, ale także za sprawą prostych narzędzi, które mogą za nas monitorować wiele ważnych zdrowotnych parametrów.",
+      "pubDate": "Wed, 25 Mar 2026 05:45:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/-QTk9kpTURBXy8xYjA4NjhkMmZlNDUwYmEzMTRlYmE3ZWE1YmM3NmViNC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-25T05:45:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Europa walczy z wysokimi cenami paliw. Te sposoby dominują",
+      "link": "https://businessinsider.com.pl/gospodarka/kryzys-paliwowy-w-europie-ceny-rosna-kraje-wprowadzaja-limity/7nhf22y",
+      "description": "Od Portugalii po Szwecję europejskie państwa reagują na kryzys paliwowy. Ochrona odbiorców przed cenowym szokiem jest kosztowna, dlatego ograniczenia zaczynają dotykać też popytu.",
+      "pubDate": "Wed, 25 Mar 2026 05:37:17 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/uffk9kpTURBXy84MTMyYzAxOWIzMjFlNmMzNmIyODczMTc3ZjY2YjQwOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-25T05:37:17.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Echo Investment miało w IV kw. 109,1 mln zł zysku netto j.d., wobec 107,7 mln zł konsensusu",
+      "link": "https://www.bankier.pl/wiadomosc/Echo-Investment-mialo-w-IV-kw-109-1-mln-zl-zysku-netto-j-d-wobec-107-7-mln-zl-konsensusu-9103748.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Echo Investment odnotowało w IV kwartale 2025 roku 109,1 mln zł zysku netto j.d. i 159,4 mln zł zysku operacyjnego - wynika z wyliczeń PAP Biznes na podstawie raportu spółki. Konsensus PAP Biznes zakładał zysk netto na poziomie 107,7 mln zł i 180,6 mln zł EBIT.",
+      "pubDate": "Wed, 25 Mar 2026 06:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/9/f/608cc003dc3912-948-568-0-59-1400-839.jpg",
+      "dateISO": "2026-03-25T05:36:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Wojna uderzy w ceny żywności? Wiemy, kiedy fala nadejdzie do Polski i jakie produkty dotknie [ANALIZA]",
+      "link": "https://businessinsider.com.pl/gielda/surowce/drozejaca-zywnosc-wiemy-kiedy-fala-dojdzie-do-polski-i-ktore-produkty-obejmie/ym43pjr",
+      "description": "Czy grozi nam powtórka z 2022 r. i potężny skok cen żywności związany z kryzysem energetycznym? Wiemy, jakie produkty mogą zdrożeć w pierwszej kolejności i w jakim horyzoncie czasowym. Eksperci obalają też kilka mitów.",
+      "pubDate": "Wed, 25 Mar 2026 05:27:35 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/NOJk9kpTURBXy9iZDA1NGM1NGNjZmQzNzI2OWM5MDYxYjYyODFmNjRkMi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-25T05:27:35.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
       "title": "Chciał darmowego kredytu, dostał słony rachunek. Historia, która daje do myślenia",
       "link": "https://businessinsider.com.pl/finanse/sankcja-kredytu-darmowego-grozi-wysokimi-kosztami-kredytobiorcy-przegrywaja-w-sadach/he6syrw",
       "description": "Firmy odszkodowawcze agresywnie promują \"łatwe pieniądze\" dzięki sankcji kredytu darmowego, ale wciąż statystyki wyroków przemawiają na korzyść instytucji finansowych. Analizujemy przypadek jednego z klientów, który przegrał sprawę w sądzie i w akcie desperacji napisał list do prezesa banku, prosząc",
@@ -20,7 +272,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/82216e487002a2-thumb-1000.jpg",
+      "image": "http://galeria.bankier.pl/p/a/7/f9807da1474ca8-948-568-593-319-1480-888.jpg",
       "dateISO": "2026-03-25T05:08:00.000Z",
       "dateFormatted": "25 marca 2026"
     },
@@ -34,18 +286,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/yR7k9kpTURBXy9mZjVjNzVmZGJmM2QwZDY1Y2Y3ZjIzYTUyNTgzNjY4My5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-03-25T05:05:00.000Z",
-      "dateFormatted": "25 marca 2026"
-    },
-    {
-      "title": "Wyniki Echo Investment w IV kw. 2025 roku vs. konsensus PAP (tabela)",
-      "link": "https://www.bankier.pl/wiadomosc/Wyniki-Echo-Investment-w-IV-kw-2025-roku-vs-konsensus-PAP-tabela-9103730.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Poniżej przedstawiamy wyniki Echo Investment w czwartym kwartale 2025 roku, według wyliczeń PAP Biznes, oraz ich odniesienie do konsensusu PAP Biznes i wyników poprzednich okresów.",
-      "pubDate": "Wed, 25 Mar 2026 06:04:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/d/1/785f181c53f0ce-thumb-1000.jpg",
-      "dateISO": "2026-03-25T05:04:00.000Z",
       "dateFormatted": "25 marca 2026"
     },
     {
@@ -169,30 +409,6 @@
       "dateFormatted": "25 marca 2026"
     },
     {
-      "title": "Kurs TRY/PLN 25 marca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-liry-turckiej-dzisiaj-po-ile-jest-lira-turecka-25-marca-2026-r/8nb8xry",
-      "description": "Zobacz zmiany kursu tureckiej liry do polskiego złotego (TRY/PLN). Czy lira, jedna z najszybciej tracących wartość w ostatnich latach walut na świcie, ponownie się osłabiła? Czy aktualnie opłaca się wymieniać liry na inne waluty w tym polską?",
-      "pubDate": "Wed, 25 Mar 2026 05:01:32 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/X-7k9kpTURBXy83MzdiYjIzNDU0YWQyMDIxNjlhOGEzZjM1MDRlN2I4MS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-25T05:01:32.000Z",
-      "dateFormatted": "25 marca 2026"
-    },
-    {
-      "title": "Jak przygotować firmę na KSeF od 1 kwietnia. To doradzają eksperci",
-      "link": "https://businessinsider.com.pl/prawo/podatki/faktury-w-ksef-obowiazkowe-od-1-kwietnia-sprawdz-jak-sie-przygotowac/zgp9ljk",
-      "description": "Od 1 kwietnia prawie wszyscy przedsiębiorcy muszą wystawiać faktury w KSeF. Eksperci podkreślają, że kluczowa jest autoryzacja w KSeF i nadanie dostępów. Trzeba też wdrożyć procedury i przetestować system. Tłumaczymy.",
-      "pubDate": "Wed, 25 Mar 2026 05:01:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/IKNk9kpTURBXy9hNjE2YWM2YzMwYzE4OWE4MWVlMWFlNDViYWNhZGVjZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-25T05:01:00.000Z",
-      "dateFormatted": "25 marca 2026"
-    },
-    {
       "title": "Janusz Krypto: akt zgonu metaverse - jak miliardy dolarów poszły w cyfrowy piach",
       "link": "https://www.bankier.pl/wiadomosc/Janusz-Krypto-akt-zgonu-metaverse-jak-miliardy-dolarow-poszly-w-cyfrowy-piach-9103049.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Był taki czas, gdy działki w internecie drożały szybciej niż masło w osiedlowym sklepie, a Mark Zuckerberg zmienił nazwę swojej firmy, planując nam życie w goglach VR. Dziś, w marcu 2026 roku, rzeczywistość wystawiła tym planom słony rachunek. Meta zamyka projekt Horizon Worlds, a inwestorzy, którzy",
@@ -241,18 +457,6 @@
       "dateFormatted": "25 marca 2026"
     },
     {
-      "title": "Na tych ulgach Polacy zyskali najwięcej. Ministerstwo Finansów pokazało dane",
-      "link": "https://www.bankier.pl/wiadomosc/Na-tych-ulgach-Polacy-zyskali-najwiecej-Ministerstwo-Finansow-pokazalo-dane-9103237.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Największe korzyści podatkowe w rozliczeniu PIT nie ograniczały się wyłącznie do popularnej ulgi na dzieci. Dane Ministerstwa Finansów pokazują, że Polacy masowo obniżali podatek także dzięki wydatkom na termomodernizację domów. Sprawdziliśmy, które preferencje pozwoliły odliczyć najwięcej.",
-      "pubDate": "Wed, 25 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/9/bb0da0c13be910-948-568-154-505-3749-2249.jpg",
-      "dateISO": "2026-03-25T05:00:00.000Z",
-      "dateFormatted": "25 marca 2026"
-    },
-    {
       "title": "Rynek nieruchomości w Hiszpanii na rozdrożu. Hipoteki biją rekordy, sprzedaż spada",
       "link": "https://www.bankier.pl/wiadomosc/Rynek-nieruchomosci-w-Hiszpanii-na-rozdrozu-Hipoteki-bija-rekordy-sprzedaz-spada-9103249.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Hiszpański rynek nieruchomości notuje styczeń pod znakiem korekty. Sprzedaż mieszkań spadła o 5% r/r, co stanowi najgorszy wynik od połowy 2024 roku. Paradoksalnie sektor kredytowy przeżywa rozkwit – liczba hipotek wzrosła o 6,3%, osiągając najwyższy styczniowy poziom od 15 lat.",
@@ -261,18 +465,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/2/ba22949911c55a-948-568-0-115-1773-1064.jpg",
-      "dateISO": "2026-03-25T05:00:00.000Z",
-      "dateFormatted": "25 marca 2026"
-    },
-    {
-      "title": "Lawina wniosków o dopłaty dla rolników. Tempo najwyższe od kilku lat",
-      "link": "https://www.bankier.pl/wiadomosc/Rolnicy-zasypali-system-lawina-wnioskow-o-doplaty-Tempo-najwyzsze-od-kilku-lat-9103405.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Olbrzymi popyt na dopłaty bezpośrednie. W ciągu pierwszego tygodnia rolnicy złożyli ponad 31,5 tys. wniosków o to wsparcie. To znacznie wyższe tempo niż w poprzednich latach. Kto ma szanse na dopłatę i jakie są główne zasady naboru?",
-      "pubDate": "Wed, 25 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/2/3169731173ee73-948-568-0-111-3700-2219.jpg",
       "dateISO": "2026-03-25T05:00:00.000Z",
       "dateFormatted": "25 marca 2026"
     },
@@ -289,27 +481,87 @@
       "dateFormatted": "25 marca 2026"
     },
     {
-      "title": "Zakaz importu rosyjskiej ropy. Unia Europejska odkłada decyzję",
-      "link": "https://businessinsider.com.pl/gospodarka/zakaz-importu-rosyjskiej-ropy-unia-europejska-odklada-wazna-decyzje/w98esw2",
-      "description": "Komisja Europejska nie przedstawi w połowie kwietnia projektu przepisów dotyczących stałego zakazu importu rosyjskiej ropy. Zmiana terminu wynika z aktualnej sytuacji geopolitycznej.",
-      "pubDate": "Tue, 24 Mar 2026 20:52:54 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/qQJk9kpTURBXy8zOTI5ODQwZjc0OTdhMzgyZDQxYzQ4ODVhNjE1ZGY5Yi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-24T20:52:54.000Z",
-      "dateFormatted": "24 marca 2026"
+      "title": "Na tych ulgach Polacy zyskali najwięcej. Ministerstwo Finansów pokazało dane",
+      "link": "https://www.bankier.pl/wiadomosc/Na-tych-ulgach-Polacy-zyskali-najwiecej-Ministerstwo-Finansow-pokazalo-dane-9103237.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Największe korzyści podatkowe w rozliczeniu PIT nie ograniczały się wyłącznie do popularnej ulgi na dzieci. Dane Ministerstwa Finansów pokazują, że Polacy masowo obniżali podatek także dzięki wydatkom na termomodernizację domów. Sprawdziliśmy, które preferencje pozwoliły odliczyć najwięcej.",
+      "pubDate": "Wed, 25 Mar 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/9/bb0da0c13be910-948-568-154-505-3749-2249.jpg",
+      "dateISO": "2026-03-25T05:00:00.000Z",
+      "dateFormatted": "25 marca 2026"
     },
     {
-      "title": "USA chcą rozmawiać z Iranem. Media podają możliwą datę",
-      "link": "https://businessinsider.com.pl/wiadomosci/rozmowy-pokojowe-usa-iran-w-tym-tygodniu-media-wskazuja-na-pakistan/mcnzgpz",
-      "description": "Do rozmów pokojowych na wysokim szczeblu między USA a Iranem mogłoby dojść w Pakistanie jeszcze w tym tygodniu — podają Axios i agencja Reutera. Z kolei Donald Trump mówi o prezencie od Irańczyków.",
-      "pubDate": "Tue, 24 Mar 2026 20:09:35 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/p5Sk9kpTURBXy84MDMwYjU4OTc2MDQ4NzFhZDdjYjVjMjUxMjdmYWQ2Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-24T20:09:35.000Z",
+      "title": "Lawina wniosków o dopłaty dla rolników. Tempo najwyższe od kilku lat",
+      "link": "https://www.bankier.pl/wiadomosc/Rolnicy-zasypali-system-lawina-wnioskow-o-doplaty-Tempo-najwyzsze-od-kilku-lat-9103405.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Olbrzymi popyt na dopłaty bezpośrednie. W ciągu pierwszego tygodnia rolnicy złożyli ponad 31,5 tys. wniosków o to wsparcie. To znacznie wyższe tempo niż w poprzednich latach. Kto ma szanse na dopłatę i jakie są główne zasady naboru?",
+      "pubDate": "Wed, 25 Mar 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/2/3169731173ee73-948-568-0-111-3700-2219.jpg",
+      "dateISO": "2026-03-25T05:00:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "\"Reklama\" warta 11,5 mln zł. Tak igrzyska wypromowały markę rodziny Karola Nawrockiego",
+      "link": "https://www.bankier.pl/wiadomosc/Ekspozycja-warta-miliony-Tak-igrzyska-wypromowaly-marke-rodziny-Karola-Nawrockiego-9103711.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "O Nowrocky zrobiło się głośno przy okazji zimowych igrzysk olimpijskich i spotkania prezydenta z polskimi sportowcami. Jak podał Instytut Monitorowania Mediów (IMM), wartość reklamowa marki, której ubrania miał na sobie Karol Nawrocki, może sięgać nawet 11,5 mln zł – pisze w środę „Gazeta Wyborcza”.",
+      "pubDate": "Wed, 25 Mar 2026 05:24:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/c/7ff44154f1539b-948-568-0-97-3543-2125.jpg",
+      "dateISO": "2026-03-25T04:24:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Budżetowa dziura na „stażowe”. Urzędnicy zapłacą za własne przywileje?",
+      "link": "https://www.bankier.pl/wiadomosc/Budzetowa-dziura-na-stazowe-Urzednicy-zaplaca-za-wlasne-przywileje-9103709.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Skąd wziąć miliony na nieplanowane dodatki stażowe i nagrody jubileuszowe? – to teraz główna bolączka szefów urzędów - pisze w środę „Dziennik Gazeta Prawna” i dodaje, że urzędnicze związki zawodowe o dodatkowe pieniądze chcą zwrócić się do premiera i ministra finansów.",
+      "pubDate": "Wed, 25 Mar 2026 05:09:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/2/2de38a5480d7c4-945-560-0-0-1732-1039.jpg",
+      "dateISO": "2026-03-25T04:09:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Koniec dominacji rodzimych gangów? Wschodnie gangi zapuszczają korzenie w Polsce",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-dominacji-rodzimych-gangow-Wschodnie-gangi-zapuszczaja-korzenie-w-Polsce-9103705.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W ciągu roku o niemal połowę wzrosła liczba cudzoziemców podejrzanych o udział w przestępczości zorganizowanej - pisze w środę „Rzeczpospolitej”. Gazeta podkreśla, że większość z nich pochodzi z państw powstałych po rozpadzie Związku Sowieckiego.",
+      "pubDate": "Wed, 25 Mar 2026 04:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/a/a931c0439543a7-945-560-53-0-1530-917.jpg",
+      "dateISO": "2026-03-25T03:50:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Iran dyktuje warunki w cieśninie Ormuz. Przepłyną tylko statki, które „nie są wrogie”",
+      "link": "https://www.bankier.pl/wiadomosc/Iran-dyktuje-warunki-w-ciesninie-Ormuz-Przeplyna-tylko-statki-ktore-nie-sa-wrogie-9103699.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Iran poinformował we wtorek państwa członkowskie Międzynarodowej Organizacji Morskiej (IMO), że statki, których „nie uzna za wrogie”, mogą przepływać przez cieśninę Ormuz, o ile będą koordynować tranzyt z władzami w Teheranie - napisał we wtorek dziennik „Financial Times” („FT”).",
+      "pubDate": "Wed, 25 Mar 2026 02:23:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/7/dbbb725ec23386-948-568-0-0-3250-1950.jpg",
+      "dateISO": "2026-03-25T01:23:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Marta Nawrocka w Białym Domu. \"Dowód świetnych stosunków z USA\"",
+      "link": "https://www.bankier.pl/wiadomosc/Marta-Nawrocka-w-Bialym-Domu-Andruszkiewicz-Dowod-swietnych-stosunkow-z-USA-9103672.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zaproszenie prezydentowej Marty Nawrockiej do wystąpienia w Białym Domu na szczycie organizowanym przez Melanię Trump to dowód świetnych stosunków Polski z obecną administracją USA - powiedział w środę wiceszef Kancelarii Prezydenta Adam Andruszkiewicz. Zapowiedział też podobny szczyt w Polsce.",
+      "pubDate": "Tue, 24 Mar 2026 22:03:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/2/027c6aa18d829a-948-568-51-76-1996-1198.jpg",
+      "dateISO": "2026-03-24T21:03:00.000Z",
       "dateFormatted": "24 marca 2026"
     },
     {
@@ -325,6 +577,18 @@
       "dateFormatted": "24 marca 2026"
     },
     {
+      "title": "Socjaldemokraci wygrywają wybory w Danii, ale brak jasnej większości",
+      "link": "https://www.bankier.pl/wiadomosc/Socjaldemokraci-wygrywaja-wybory-w-Danii-ale-brak-jasnej-wiekszosci-9103630.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wybory parlamentarne w Danii wygrywa we wtorek Duńska Partia Socjaldemokratyczna ze słabym wynikiem 19,2 proc. Socjaldemokraci wraz z innymi ugrupowaniami lewicowymi nie mają większości, podobnie jak partie prawicowe – wynika z badania exit poll nadawcy publicznego DR.",
+      "pubDate": "Tue, 24 Mar 2026 20:24:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/e/7794d558164dda-948-568-0-210-2805-1682.jpg",
+      "dateISO": "2026-03-24T19:24:00.000Z",
+      "dateFormatted": "24 marca 2026"
+    },
+    {
       "title": "Bill Cosby musi zapłacić fortunę. Blisko 60 mln dolarów odszkodowania za gwałt z 1972 roku",
       "link": "https://www.bankier.pl/wiadomosc/Bill-Cosby-musi-zaplacic-fortune-Blisko-60-mln-dolarow-odszkodowania-za-gwalt-z-1972-roku-9103626.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Amerykański sąd uznał odpowiedzialność 88-aktora Billa Cosb'ego za napaść seksualną na kelnerkę Donnę Motsinger w 1972 r. Cosby ma wypłacić ofierze 59,25 mln dolarów odszkodowania. Wyrok wydała w poniedziałek ława przysięgłych w sądzie w Santa Monica w Kalifornii po dwóch tygodniach procesu.",
@@ -334,18 +598,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/0/8/0388c6055cdf75-948-568-0-247-1652-991.jpg",
       "dateISO": "2026-03-24T19:20:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Nuklearny wyścig zbrojeń. Waszyngton oskarża Pekin i Moskwę o potajemne próby",
-      "link": "https://www.bankier.pl/wiadomosc/Nuklearny-wyscig-zbrojen-Waszyngton-oskarza-Pekin-i-Moskwe-o-potajemne-proby-9103619.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Administracja USA wciąż prowadzi dyskusje na temat tego, w jaki sposób zrealizować polecenie prezydenta Donalda Trumpa o wznowieniu prób jądrowych - powiedział we wtorek podsekretarz stanu w Departamencie Stanu ds. kontroli zbrojeń Thomas DiNanno. Potwierdził, że prób podziemnych dokonują Chiny i Ro",
-      "pubDate": "Tue, 24 Mar 2026 20:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/6/e32b35f90d9e00-945-560-22-319-1719-1031.jpg",
-      "dateISO": "2026-03-24T19:10:00.000Z",
       "dateFormatted": "24 marca 2026"
     },
     {
@@ -397,67 +649,7 @@
       "dateFormatted": "24 marca 2026"
     },
     {
-      "title": "Marta Nawrocka z wizytą u Melanii Trump. Szczyt poświęcony edukacji i technologii",
-      "link": "https://www.bankier.pl/wiadomosc/Marta-Nawrocka-z-wizyta-u-Melanii-Trump-Szczyt-poswiecony-edukacji-i-technologii-9103594.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Pierwsza dama Marta Nawrocka bierze udział w szczycie inicjatywy „Fostering the Future Together” organizowanym przez pierwszą damę USA Melanię Trump w Waszyngtonie. Tematem rozmów jest m.in. bezpieczeństwo dzieci w internecie - przekazał prezydencki minister Adam Andruszkiewicz.",
-      "pubDate": "Tue, 24 Mar 2026 19:05:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/3/df84177d34eea4-948-568-110-66-4321-2592.jpg",
-      "dateISO": "2026-03-24T18:05:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Volkswagen negocjuje z Izraelem. Chodzi o Żelazną Kopułę",
-      "link": "https://businessinsider.com.pl/biznes/zelazna-kopula-w-zakladzie-volkswagena-plan-na-uratowanie-niemieckiej-fabryki/wjw8wer",
-      "description": "W podupadającej niemieckiej fabryce Volkswagena miałaby ruszyć produkcja komponentów do systemu Żelazna Kopuła dla izraelskiego koncernu obronnego Rafael. Firma ma nadzieję sprzedać system rządom w całej Europie.",
-      "pubDate": "Tue, 24 Mar 2026 18:02:15 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/G-Ek9kpTURBXy9jZTdmYTA2Njc3NWMyMWZjZWZmOTgxMmYzOTY3NmQ2NS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-24T18:02:15.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Rynek paliw „na sterydach”. Paliwo lotnicze o 122 proc. w górę za 1700 dolarów za tonę",
-      "link": "https://www.bankier.pl/wiadomosc/Rynek-paliw-na-sterydach-Paliwo-lotnicze-o-122-proc-w-gore-za-1700-dolarow-za-tone-9103583.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Notowania paliwa lotniczego od początku br. wzrosły o 122 proc. do rekordowego poziomu powyżej 1700 dol. za tonę; to wzrost szybszy niż w przypadku diesla, który w tym samym czasie zdrożał o 107 proc. - wynika z analizy ekonomistów PKO Banku Polskiego.",
-      "pubDate": "Tue, 24 Mar 2026 18:53:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/2/801ef6fc431756-948-567-0-20-1000-599.jpg",
-      "dateISO": "2026-03-24T17:53:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Iran wstrzymał dostawy gazu do Turcji. Ministerstwo nie chce komentować",
-      "link": "https://businessinsider.com.pl/gospodarka/iran-wstrzymuje-dostawe-gazu-do-turcji-powodem-atak-na-south-pars/jx2q94x",
-      "description": "Iran niespodziewanie zatrzymał eksport gazu ziemnego do Turcji. Decyzja Teheranu zapadła po izraelskim ataku na strategiczne złoże South Pars, co potwierdziły źródła agencji Bloomberg. South Pars to największe znane złoże gazu ziemnego na świecie.",
-      "pubDate": "Tue, 24 Mar 2026 16:59:46 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/1Ork9kpTURBXy84Nzc5ZWVjZGJlZDI4YjZjMGFhNjMzZjZmODI0MzFiYy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-24T16:59:46.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Państwa Zatoki Perskiej tracą cierpliwość. Rozważają przyłączenie się do wojny",
-      "link": "https://businessinsider.com.pl/wiadomosci/sasiedzi-iranu-rozwazaja-przylaczenie-sie-do-wojny/p0mk6yh",
-      "description": "Najwięksi sąsiedzi Iranu z Zatoki Perskiej rozważają przyłączenie się do wojny USA i Izraela przeciwko Iranowi — pisze Bloomberg.",
-      "pubDate": "Tue, 24 Mar 2026 16:45:31 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/OLek9kpTURBXy85YWI3NDVjMzc4MDI5MTU3MmQwZmMyNWJlYzFkYzkzMy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-24T16:45:31.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Pozew przeciwko Słowacji? UE zapowiada kroki prawne w sprawie cen paliw",
+      "title": "Fico rzuca wyzwanie Brukseli. Słowacja może przedłużyć podwójne ceny paliw",
       "link": "https://www.bankier.pl/wiadomosc/Pozew-przeciwko-Slowacji-UE-zapowiada-kroki-prawne-w-sprawie-cen-paliw-9103531.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Wprowadzenie przez rząd Słowacji ograniczeń w sprzedaży oleju napędowego, w tym wyższych cen dla samochodów z zagranicznymi rejestracjami, jest sprzeczne z prawem Unii Europejskiej - podała we wtorek Komisja Europejska. Regulacje obowiązują od poniedziałku.",
       "pubDate": "Tue, 24 Mar 2026 17:33:00 +0100",
@@ -466,42 +658,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/9/c/3126b22347d743-948-568-0-1095-2000-1199.jpg",
       "dateISO": "2026-03-24T16:33:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Sesja na GPW: korekta oczekiwań na pokój, spadki indeksów i rajd Trans Polonii",
-      "link": "https://www.bankier.pl/wiadomosc/Sesja-na-GPW-korekta-oczekiwan-na-pokoj-spadki-indeksow-i-rajd-Trans-Polonii-9103456.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Po poniedziałkowym roller coasterze na rynkach, wtorek przyniósł ponowne ochłodzenie temperatury na giełdowych parkietach. WIG20, który zaczynał sesję od lekkich wzrostów, zakończył dzień pod kreską, ciągnięty w dół przez akcje banków. Słabo miały się też walory średnich spółek. Na szerokim rynku bł",
-      "pubDate": "Tue, 24 Mar 2026 17:12:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/c/ef0f40dd912748-948-568-0-28-1024-614.jpg",
-      "dateISO": "2026-03-24T16:12:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Cztery scenariusze wojny w Iranie. Analitycy wskazują na skutki",
-      "link": "https://businessinsider.com.pl/gospodarka/wojna-na-bliskim-wschodzie-co-dalej-oto-cztery-scenariusze/pfbdtpg",
-      "description": "Oto cztery główne scenariusze przebiegu wojny w Iranie, od wariantu optymistycznego po najgorszy możliwy, według analityków Ebury.",
-      "pubDate": "Tue, 24 Mar 2026 16:07:14 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/sbzk9kpTURBXy8wZGI5YjRlNTBhMzM4NDVjNzhhZDRkNzAyMjM3ZDNlNi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-24T16:07:14.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Koniec dostaw z złoża South Pars. Turcja traci 14 proc. importowanego gazu",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-dostaw-z-zloza-South-Pars-Turcja-traci-14-proc-importowanego-gazu-9103499.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Iran wstrzymał dostawy gazu ziemnego do Turcji po zeszłotygodniowym izraelskim ataku na irańskie złoże South Pars - poinformowała we wtorek agencja Bloomberga, powołując się źródła zaznajomione ze sprawą. Pole gazowe South Pars to największe znane złoże gazu ziemnego na świecie.",
-      "pubDate": "Tue, 24 Mar 2026 17:05:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/a/d3de37cbc66296-948-568-70-96-3430-2057.jpg",
-      "dateISO": "2026-03-24T16:05:00.000Z",
       "dateFormatted": "24 marca 2026"
     },
     {
@@ -517,18 +673,6 @@
       "dateFormatted": "24 marca 2026"
     },
     {
-      "title": "Drony uderzyły w serce Lwowa. Zagrożone bezcenne polskie dokumenty. NATO poderwało myśliwce",
-      "link": "https://www.bankier.pl/wiadomosc/Drony-uderzyly-w-serce-Lwowa-Zagrozone-bezcenne-polskie-dokumenty-NATO-poderwalo-mysliwce-9103488.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W centrum Lwowa w wyniku rosyjskiego ataku ucierpiał XVII-wieczny kościół św. Andrzeja wpisany na listę światowego dziedzictwa UNESCO; co najmniej dwie osoby zostały poważnie ranne - przekazała we wtorek premierka Ukrainy Julia Swyrydenko.",
-      "pubDate": "Tue, 24 Mar 2026 16:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/e/bdf144a000dd34-948-568-0-372-3725-2234.jpg",
-      "dateISO": "2026-03-24T15:50:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
       "title": "Stopy procentowe są za niskie? Joanna Tyrowicz za podwyżką do 4,75 proc.",
       "link": "https://www.bankier.pl/wiadomosc/Stopy-procentowe-sa-za-niskie-Joanna-Tyrowicz-za-podwyzka-do-4-75-proc-9103470.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Na ten moment odpowiedni poziom stopy procentowej to 4,75 proc. - oceniła członkini Rady Polityki Pieniężnej, Joanna Tyrowicz.",
@@ -541,30 +685,6 @@
       "dateFormatted": "24 marca 2026"
     },
     {
-      "title": "Kurierzy napędzają PKB. Konkurencja obniżyła średni koszt dostawy do 11 zł",
-      "link": "https://www.bankier.pl/wiadomosc/Kurierzy-napedzaja-PKB-Konkurencja-obnizyla-sredni-koszt-dostawy-do-11-zl-9103472.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Znaczenie branży kurierskiej dla polskiej gospodarki systematycznie rośnie – wynika z raportu Zespołu Doradców Gospodarczych TOR. W 2025 r. sektor wygenerował ok. 27,2 mld zł wartości dodanej, co odpowiada blisko 0,75 proc. PKB, wobec 24,7 mld zł rok wcześniej.",
-      "pubDate": "Tue, 24 Mar 2026 16:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/f/9a8bc0ab012095-948-568-0-42-1900-1139.jpg",
-      "dateISO": "2026-03-24T15:30:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "NATO przegrupowuje okręty. Niemcy wypełniają lukę po Brytyjczykach",
-      "link": "https://www.bankier.pl/wiadomosc/NATO-przegrupowuje-okrety-Niemcy-wypelniaja-luke-po-Brytyjczykach-9103462.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Po przeniesieniu przez Wielką Brytanię niszczyciela HMS Dragon na Morze Śródziemne Niemcy wzmacniają obecność swojej marynarki wojennej na północnym Atlantyku. Fregata Sachsen przejęła dowodzenie nad stałą grupą zadaniową NATO - poinformował we wtorek w Singapurze minister obrony RFN Boris Pistorius",
-      "pubDate": "Tue, 24 Mar 2026 16:21:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/8/b3aacc3010a23f-948-567-0-64-1000-599.jpg",
-      "dateISO": "2026-03-24T15:21:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
       "title": "Ile jest krajowego wkładu w największych inwestycjach? Polska zmierzy jako pierwsza w UE",
       "link": "https://www.bankier.pl/wiadomosc/Ile-jest-krajowego-wkladu-w-najwiekszych-inwestycjach-Polska-zmierzy-jako-pierwsza-w-UE-9103454.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Pod koniec pierwszego półrocza Główny Urząd Statystyczny rozpocznie pilotażowe badanie wśród firm z branży energetycznej, które ma dać odpowiedź na pytanie, ile w projektach w tej branży jest tzw. local content, czyli czynnika krajowego. Z czasem badania objąć inne sektory. Polska jest tu pionierem ",
@@ -574,30 +694,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/2/a/8983302723f53d-948-568-0-240-1920-1151.jpg",
       "dateISO": "2026-03-24T15:11:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Zamiast 120 euro jedynie 50 euro za dobę. Przewoźnicy wywalczyli stawki za „parking” na Białorusi",
-      "link": "https://www.bankier.pl/wiadomosc/Zamiast-120-euro-jedynie-50-euro-za-dobe-Przewoznicy-wywalczyli-stawki-za-parking-na-Bialorusi-9103452.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ogólnopolskie Stowarzyszenie Przewoźników z Białej Podlaskiej porozumiało się z władzami Białorusi, a zatrzymane w tym kraju pojazdy należące do polskich firm transportowych wrócą do Polski - poinformował we wtorek PAP prezes stowarzyszenia Marcin Potapczuk.",
-      "pubDate": "Tue, 24 Mar 2026 16:11:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/c/d9e5883609f5d0-948-568-0-0-3000-1799.jpg",
-      "dateISO": "2026-03-24T15:11:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Afera Epsteina uderza w bank Rothschildów. Przeszukania w paryskiej siedzibie",
-      "link": "https://www.bankier.pl/wiadomosc/Afera-Epsteina-uderza-w-bank-Rothschildow-Przeszukania-w-paryskiej-siedzibie-9103444.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Biuro banku Edmond de Rothschild w Paryżu zostało przeszukane 20 marca w związku ze sprawą amerykańskiego przestępcy seksualnego Jeffreya Epsteina - podała we wtorek AFP. Źródła agencji przekazały, że rewizje są częścią śledztwa prowadzonego przez francuską prokuraturę finansową.",
-      "pubDate": "Tue, 24 Mar 2026 16:03:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/b/eb6d1839dd4ee7-948-568-0-67-995-597.jpg",
-      "dateISO": "2026-03-24T15:03:00.000Z",
       "dateFormatted": "24 marca 2026"
     },
     {
@@ -649,19 +745,7 @@
       "dateFormatted": "24 marca 2026"
     },
     {
-      "title": "Prezes TK pisze do prezydenta. Zapowiada kroki prawne przeciwko prokuratorom",
-      "link": "https://www.bankier.pl/wiadomosc/Prezes-TK-pisze-do-prezydenta-Zapowiada-kroki-prawne-przeciwko-prokuratorom-9103376.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezes Trybunału Konstytucyjnego Bogdan Święczkowski zapowiada złożenie zawiadomienia ws. odmowy umorzenia śledztwa w sprawie, w której wnioskowano o uchylenie mu immunitetu. W liście do prezydenta Święczkowski wskazał, że prokuratura, kwestionując uchwałę Zgromadzenia Ogólnego Sędziów TK, może łama",
-      "pubDate": "Tue, 24 Mar 2026 15:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/5/cfc42345b585a6-945-560-5-112-2042-1225.jpg",
-      "dateISO": "2026-03-24T14:00:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Kryzys jak w latach 70.? Ostrzeżenie przed przed paraliżem przemysłu i miliardowymi stratami",
+      "title": "Kryzys jak w latach 70-tych? Ostrzeżenie przed przed paraliżem przemysłu i miliardowymi stratami",
       "link": "https://www.bankier.pl/wiadomosc/Kryzys-jak-w-latach-70-Ostrzezenie-przed-przed-paralizem-przemyslu-i-miliardowymi-stratami-9103360.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Wojna na Bliskim Wschodzie wpływa negatywnie nie tylko na rynki ropy i gazu, ale także kluczowych dla przemysłu wysokich technologii helu, bromu i siarki - ostrzega we wtorek niemiecki dziennik „Frankfurter Allgemeine Zeitung”.",
       "pubDate": "Tue, 24 Mar 2026 14:45:00 +0100",
@@ -685,30 +769,6 @@
       "dateFormatted": "24 marca 2026"
     },
     {
-      "title": "Revolut pokazał wyniki. Najwięcej zarabia wcale nie na wymianie walut",
-      "link": "https://www.bankier.pl/wiadomosc/Revolut-pokazal-wyniki-Najwiecej-zarabia-wcale-nie-na-wymianie-walut-9103225.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Piąty rok „na plusie” Revoluta przynosi rekordowe wyniki. Bank chwali się wzrostem zysku rok do roku o 65 proc. i zdywersyfikowaną działalnością. Próg 100 mln funtów przychodów przekroczyło aż 11 linii produktowych.",
-      "pubDate": "Tue, 24 Mar 2026 12:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/6/9719097d8736f4-618-370-107-0-618-370.png",
-      "dateISO": "2026-03-24T11:00:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Rosyjskie złoto znika ze skarbców. Kreml wyprzedaje rezerwy najszybciej od 24 lat",
-      "link": "https://www.bankier.pl/wiadomosc/Rosyjskie-zloto-znika-ze-skarbcow-Kreml-wyprzedaje-rezerwy-najszybciej-od-24-lat-9103202.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Podczas gdy banki centralne na całym świecie agresywnie gromadzą złoto, Moskwa staje się rynkowym outsiderem i wyprzedaje swoje zasoby w tempie nienotowanym od 2002 roku. Ratowanie dziurawego budżetu kosztem strategicznych rezerw to desperacki ruch, który ma chronić zapasy juanów i utrzymać płynność",
-      "pubDate": "Tue, 24 Mar 2026 11:29:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/8/c4e30829ca60f7-948-567-0-27-1000-599.jpg",
-      "dateISO": "2026-03-24T10:29:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
       "title": "EuroPMI: nie jest aż tak źle? Szok naftowy rodzi ryzyko stagflacji",
       "link": "https://www.bankier.pl/wiadomosc/EuroPMI-nie-jest-az-tak-zle-Szok-naftowy-rodzi-ryzyko-stagflacji-9103180.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Choć groźba wystąpienia stagflacji pozostaje realna, to pierwsze doniesienia z sektora prywatnego nie wyglądają przesadnie niepokojąco.",
@@ -721,18 +781,6 @@
       "dateFormatted": "24 marca 2026"
     },
     {
-      "title": "Warszawa wreszcie doczeka się hali sportowej. Pierwsze mecze za dwa lata",
-      "link": "https://www.bankier.pl/wiadomosc/Nowa-hala-sportowa-w-Warszawie-Kiedy-powstanie-i-ile-osob-pomiesci-9103168.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Już za dwa lata w nowej hali sportowej na warszawskiej Ochocie mają odbyć się pierwsze zawody sportowe. Stolica po wielu latach dołączy tym samym do innych polskich miast posiadających nowoczesne hale. Obiekt za 237,6 mln zł zbuduje Mirbud. Jak będzie wyglądała nowa warszawska hala?",
-      "pubDate": "Tue, 24 Mar 2026 10:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/a/ff7dec02a88667-948-568-0-0-1366-819.jpg",
-      "dateISO": "2026-03-24T09:45:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
       "title": "Przecieki w Waszyngtonie? Podejrzane ruchy na ropie i indeksach tuż przed wpisem Trumpa",
       "link": "https://www.bankier.pl/wiadomosc/Przecieki-w-Waszyngtonie-Podejrzane-ruchy-na-ropie-i-indeksach-tuz-przed-wpisem-Trumpa-9103139.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Donald Trump znów trzęsie giełdą, ale tym razem kontrowersje budzi nie treść wpisów, lecz to, co działo się kwadrans przed ich publikacją. Agresywne ruchy funduszy hedgingowych i nagłe skoki wolumenu sugerują, że poufne informacje o polityce zagranicznej USA mogą wyciekać do wybranych graczy. Analit",
@@ -742,30 +790,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/e/a/095158c2ddd4ca-948-568-0-119-3000-1799.jpg",
       "dateISO": "2026-03-24T09:20:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Ziemniaki za darmo? Ludzie ich nie chcą, a z Niemiec płyną kolejne tony",
-      "link": "https://www.bankier.pl/wiadomosc/Ziemniaki-za-darmo-Ludzie-ich-nie-chca-a-z-Niemiec-plyna-kolejne-tony-9103088.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Po rekordowych jesiennych zbiorach, w magazynach rolników zalegają tony ziemniaków. W ostatnim czasie ich ceny tak bardzo spadły, że nie są w stanie pokryć nawet kosztów produkcji. Część gospodarzy byłaby skłonna rozdawać nadwyżki za darmo, jednak brakuje zainteresowanych. Równocześnie na rynek traf",
-      "pubDate": "Tue, 24 Mar 2026 09:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/4/15fbb03ed113d7-948-568-50-180-3950-2369.jpg",
-      "dateISO": "2026-03-24T08:40:00.000Z",
-      "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Jensen Huang prowokuje: Osiągnęliśmy silną sztuczna Inteligencję",
-      "link": "https://www.bankier.pl/wiadomosc/Jensen-Huang-Osiagnelismy-AGI-Prowokacja-czy-nowa-rzeczywistosc-9103089.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W świecie technologii rzadko zdarzają się deklaracje o tak dużym ciężarze gatunkowym. Podczas wystąpienia w popularnym podcaście Lexa Fridmana Jensen Huang, CEO firmy Nvidia, wypowiedział słowa, które błyskawicznie obiegły branżę: „Myślę, że to teraz. Myślę, że osiągnęliśmy AGI”. Ta odważna teza o z",
-      "pubDate": "Tue, 24 Mar 2026 09:15:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/e/50815050d9f377-945-560-0-90-1500-899.jpg",
-      "dateISO": "2026-03-24T08:15:00.000Z",
       "dateFormatted": "24 marca 2026"
     },
     {
@@ -803,30 +827,6 @@
       "image": "http://galeria.bankier.pl/p/4/d/74315cce009dbf-948-568-373-91-3264-1958.jpg",
       "dateISO": "2026-03-24T05:00:00.000Z",
       "dateFormatted": "24 marca 2026"
-    },
-    {
-      "title": "Wojna czy pokój? Inwestorzy chcą wierzyć w to drugie. Odbicie na Wall Street",
-      "link": "https://www.bankier.pl/wiadomosc/Wojna-czy-pokoj-Inwestorzy-chca-wierzyc-w-to-drugie-Odbicie-na-Wall-Street-9102930.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Sprzeczne wypowiedzi w sprawie wojny z Iranem nie przeszkodziły inwestorom z Wall Street do wykrzesania solidnego odbicia z wielomiesięcznych minimów",
-      "pubDate": "Mon, 23 Mar 2026 21:05:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/a/d/9012fd9b514e1e-948-568-7-0-2992-1795.jpg",
-      "dateISO": "2026-03-23T20:05:00.000Z",
-      "dateFormatted": "23 marca 2026"
-    },
-    {
-      "title": "WIG20 z pełnym wynurzeniem po TACO Trumpa. Prezydent USA znów to zrobił",
-      "link": "https://www.bankier.pl/wiadomosc/WIG20-z-pelnym-wynurzeniem-po-TACO-Trumpa-Prezydent-USA-znow-to-zrobil-9102734.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Za nami jedna z bardziej szalonych sesji tego roku na światowych giełdach. Krwista czerwień jaką jeszcze rano świeciły notowania głównych indeksów, w południe zamieniła się w wyrazistą zieleń. W przypadku WIG20 odbicie od dziennych minimów wyniosło ponad 4 proc., a wszystko przez prezydenta USA Dona",
-      "pubDate": "Mon, 23 Mar 2026 17:05:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/f/f/2b4770d091894c-948-568-112-0-2557-1534.png",
-      "dateISO": "2026-03-23T16:05:00.000Z",
-      "dateFormatted": "23 marca 2026"
     },
     {
       "title": "Bitcoin zyskuje, gdy Trump opóźnia ataki na Iran o pięć dni",
@@ -937,5 +937,5 @@
       "dateFormatted": "13 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-25T05:23:24.076Z"
+  "updatedAt": "2026-03-25T07:04:22.201Z"
 }
