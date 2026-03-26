@@ -1,9 +1,21 @@
 {
   "articles": [
     {
+      "title": "Bliski Wschód w ruinie. Pierwsze szacunki kosztów odbudowy",
+      "link": "https://businessinsider.com.pl/firmy/katar-i-iran-pod-presja-skala-zniszczen-infrastruktury-energetycznej-rekordowa/mlvtf9n",
+      "description": "Naprawa infrastruktury naftowej i gazowej zniszczonej w wyniku konfliktu z Iranem może potrwać nawet pięć lat i pochłonąć co najmniej 25 mld dol. — wynika z raportu norweskiej firmy analitycznej Rystad Energy.",
+      "pubDate": "Thu, 26 Mar 2026 20:52:33 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/UG0k9kpTURBXy8wZjBhNzljOWE3ZDhiNzlkZTVkNmJkZTgzNjQ1NjI1MS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-26T20:52:33.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
       "title": "Donald Trump przesuwa ultimatum dla Iranu. Wyznaczył nową datę",
       "link": "https://businessinsider.com.pl/gospodarka/donald-trump-wstrzymuje-ataki-na-kolejne-10-dni-zgodnie-z-prosba-rzadu-iranu/6pevjje",
-      "description": "Donald Trump ogłosił w czwartek , że jego administracja wstrzyma ataki na irańskie obiekty energetyczne przez kolejne 10 dni.",
+      "description": "Donald Trump ogłosił w czwartek, że jego administracja wstrzyma ataki na irańskie obiekty energetyczne przez kolejne 10 dni.",
       "pubDate": "Thu, 26 Mar 2026 20:31:10 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -430,18 +442,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/vpak9kpTURBXy9mMTcwYWY3YTg4Y2E4NjljNThhODAzZmRhOWYzNDhhNi5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-03-26T15:38:05.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Wołodymyr Zełenski o współpracy z krajami Zatoki Perskiej. \"Pierwsze umowy już gotowe\"",
-      "link": "https://businessinsider.com.pl/wiadomosci/ukraina-oferuje-krajom-zatoki-perskiej-ochrone-przed-dronami-zelenski-umowy-sa-gotowe/755dx1t",
-      "description": "Ukraina oferuje krajom Zatoki Perskiej współpracę. — Nasze zespoły przygotowały już pierwsze umowy — powiedział Wołodymyr Zełenski, który w czwartek udał się do Arabii Saudyjskiej.",
-      "pubDate": "Thu, 26 Mar 2026 15:31:33 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/WVvk9kpTURBXy8xYzZhM2I4M2QxMThjNGJkZjYxOTA1OWNmMzk3ZWE0YS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-26T15:31:33.000Z",
       "dateFormatted": "26 marca 2026"
     },
     {
@@ -973,5 +973,5 @@
       "dateFormatted": "21 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-26T20:37:46.790Z"
+  "updatedAt": "2026-03-26T22:32:02.552Z"
 }
