@@ -1,15 +1,315 @@
 {
   "articles": [
     {
-      "title": "Nie będzie limitów na stacjach paliw. Donald Tusk wskazuje jeden warunek",
+      "title": "Donald Trump mówi, jaki prezent dostał od Iranu. \"Osiem statków\"",
+      "link": "https://businessinsider.com.pl/wiadomosci/prezydent-usa-o-prezencie-od-iranu/hsqvxhd",
+      "description": "Donald Trump powiedział w czwartek, czym był — jak to wcześniej określił kilka dni wcześńiej— \"prezent\" od Iranu.",
+      "pubDate": "Thu, 26 Mar 2026 16:57:43 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Rcjk9kpTURBXy80MDgzYWIwMjg5NGYwMTkyZjlmNjU1YzY3NzIzM2RhOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-26T16:57:43.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Ambitne plany inwestycyjne Enei. Firma rozpisała plan na prawie 10 lat",
+      "link": "https://businessinsider.com.pl/finanse/enea-pokazala-ambitne-plany-inwestycyjne-w-grze-miliardy-zlotych/v4ybyrw",
+      "description": "Grupa Enea planuje do 2035 r. zrealizować inwestycje o łącznej wartości około 108 mld zł.",
+      "pubDate": "Thu, 26 Mar 2026 16:53:40 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/VZuk9kpTURBXy9hODhmMmRmNGYzMmQxNTcyNGVkOWE3MDkzNDFlOGFhZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-26T16:53:40.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Wielkie cięcia podatków. Europejskie rządy walczą z drożyzną na stacjach",
+      "link": "https://www.bankier.pl/wiadomosc/Wielkie-ciecia-podatkow-Europejskie-rzady-walcza-z-drozyzna-na-stacjach-9104948.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wiele państw Europy podjęło działania w związku ze wzrostem cen paliw, wywołanym konfliktem na Bliskim Wschodzie. Niemiecki Bundestag przegłosował w czwartek projekt ustawy mający na celu ograniczenie wzrostu cen paliw. W Hiszpanii parlament przyjął tarczę socjalną obniżającą podatek VAT na paliwa i",
+      "pubDate": "Thu, 26 Mar 2026 17:46:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/7/8d1b7fbb43020b-948-568-0-29-1980-1187.jpg",
+      "dateISO": "2026-03-26T16:46:00.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Zamiast do Ukrainy broń może trafić na Bliski Wschód. Pentagon rozważa opcje",
+      "link": "https://businessinsider.com.pl/wiadomosci/pentagon-rozwaza-przekierowanie-broni-z-ukrainy-na-bliski-wschod/pms2kzc",
+      "description": "Pentagon analizuje możliwość przekierowania części broni przeznaczonej dla Ukrainy na Bliski Wschód. Powodem są wyczerpujące się zapasy kluczowej amunicji wykorzystywanej w operacjach wojskowych związanych z konfliktem z Iranem.",
+      "pubDate": "Thu, 26 Mar 2026 16:42:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/lr7k9kpTURBXy8xZWI0ZWViNWE5ZWY0OTJmMmU1YzQxYTExOWYzNzYwZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-26T16:42:00.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Donald Trump o przejęciu kontroli nad irańską ropą. \"To jest opcja\"",
+      "link": "https://businessinsider.com.pl/finanse/handel/donald-trump-nie-wiem-czy-usa-chca-umowy-z-iranem/d0glx46",
+      "description": "Ceny ropy są na dobrej drodze do osiągnięcia największego miesięcznego wzrostu od 1990 r. Tymczasem Donald Trump stwierdził w czwartek, że przejęcie kontroli nad irańskimi dostawami ropy jest \"opcją\".",
+      "pubDate": "Thu, 26 Mar 2026 16:39:30 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/gHuk9kpTURBXy80MTVhNmQwMDBhOWNiNTU5ZDRmNDk4YjBlYzdiMzM5Yy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-26T16:39:30.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Prezent na komunię pod lupą fiskusa. Nie każdy o tym wie",
+      "link": "https://businessinsider.com.pl/gospodarka/podatki/podatek-od-prezentu-na-komunie-limity-zasady-i-termin-zgloszenia/mcrfc29",
+      "description": "Wielu rodziców i gości imprez komunijnych nie zdaje sobie sprawy, że prezent na komunię to według prawa darowizna, która może podlegać opodatkowaniu. Wystarczy przekroczyć konkretną kwotę, by pojawił się obowiązek wobec fiskusa.",
+      "pubDate": "Thu, 26 Mar 2026 16:30:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/7U7k9kpTURBXy83N2ZlMWY2ZjkzZWU0NTIyNDY2MGVjNDkzMDc5ODg2NS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-26T16:30:00.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Wojna w Iranie uderzy w ceny ubrań. Odzieżowy gigant mówi o podwyżkach u dostawców z Azji",
+      "link": "https://businessinsider.com.pl/gielda/wojna-w-iranie-wplynie-na-ceny-ubran-wlasciciel-sinsay-i-reserved-spodziewa-sie/bhs9z3w",
+      "description": "Atak na Iran, blokada cieśniny Ormuz oraz latające nad regionem Bliskiego Wschodu rakiety i drony wpływają negatywnie na transport między Azją a Europą. Nie jest tajemnicą, że polskie sklepy odzieżowe zlecają produkcję w takich krajach jak Chiny, Bangladesz i Indie. Właściciel sieci Sinsay i Reserve",
+      "pubDate": "Thu, 26 Mar 2026 16:17:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ysLk9kpTURBXy9jZTMzYzFhMGJiZGEwNWZlMWY3OTExMGYwZjc5NTMxZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-26T16:17:00.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Wrócił CPN i przecenił Orlen. Sesję ratowały najdroższe akcje na GPW – ponad 22 tys. za walor",
+      "link": "https://www.bankier.pl/wiadomosc/Wrocil-CPN-i-przecenil-Orlen-Sesje-ratowaly-najdrozsze-akcje-na-GPW-ponad-22-tys-za-walor-9104899.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Sesja na GPW upłynęła pod znakiem wyników gigantów odzieżowego i miedziowego oraz przeceny Orlenu spowodowanej zapowiedzią premiera wprowadzenia urzędowych cen na paliwa i podatku od ekstra zysków. Rząd także chce obniżyć VAT na paliwa, na czym sam mniej zarobi, ale to ceny maksymalnie wystraszyły i",
+      "pubDate": "Thu, 26 Mar 2026 17:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/8/8/e8c6e2767da487-948-568-58-7-1318-791.png",
+      "dateISO": "2026-03-26T16:15:00.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Obowiązkowe szkolenia dla Polaków? Kosiniak-Kamysz patrzy na model szwajcarski",
+      "link": "https://www.bankier.pl/wiadomosc/Obowiazkowe-szkolenia-dla-Polakow-Kosiniak-Kamysz-patrzy-na-model-szwajcarski-9104907.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polska i Szwajcaria pracują nad nową umową o współpracy w zakresie szkolenia wojska – poinformował w czwartek szef MON Władysław Kosiniak-Kamysz po spotkaniu ze swoim szwajcarskim odpowiednikiem Martinem Pfisterem. Wyraził też zainteresowanie szwajcarskim systemem szkolenia ludności cywilnej.",
+      "pubDate": "Thu, 26 Mar 2026 17:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/3/63d3f38fd915b3-945-567-0-100-945-567.jpg",
+      "dateISO": "2026-03-26T16:15:00.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Upadłość Getin Noble Banku. Jest decyzja sądu",
+      "link": "https://businessinsider.com.pl/prawo/wazny-wyrok-w-sprawie-getin-noble-banku-leszek-czarnecki-moze-byc-zaskoczony/8w06k66",
+      "description": "Naczelny Sąd Administracyjny wydał ważny wyrok. Uznał skargę kasacyjną Bankowego Funduszu Gwarancyjnego. Chodzi o przymusową restrukturyzację Getin Noble Banku.",
+      "pubDate": "Thu, 26 Mar 2026 16:00:07 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/XF3k9kpTURBXy80MmRmYzhmMDdkYmVhMGZiYTJlMDNmNWQ5MmNkMjIyOC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-26T16:00:07.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Szef MSZ Niemiec: Ukraina jest priorytetem Europy",
+      "link": "https://www.bankier.pl/wiadomosc/Szef-MSZ-Niemiec-Ukraina-jest-priorytetem-Europy-9104895.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Szef dyplomacji Niemiec Johann Wadephul oświadczył w czwartek przed spotkaniem ministrów spraw zagranicznych G7, że Ukraina jest priorytetem dla państw europejskich, które oczekują uwzględnienia swoich interesów w rozmowach z USA. Ocenił też, że złagodzenie przez Waszyngton sankcji na rosyjską ropę ",
+      "pubDate": "Thu, 26 Mar 2026 17:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/2/6818bd1cd06206-948-568-280-200-3720-2231.jpg",
+      "dateISO": "2026-03-26T16:00:00.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Kolejna kontrowersyjna decyzja Słowacji. Obcokrajowcy zapłacą więcej",
+      "link": "https://businessinsider.com.pl/gospodarka/kolejna-taka-decyzja-slowacji-obcokrajowcy-zaplaca-wiecej/x5h2s97",
+      "description": "Słowacja kolejny raz podwyższa ceny oleju napędowego dla kierowców z zagranicznych tablic rejestracyjnych.",
+      "pubDate": "Thu, 26 Mar 2026 15:58:26 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/OyAk9kpTURBXy8zMDU5MzMyMGIzMWNhZmZhODE0MTMzZTBmZGQ4ZjA4Yy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-26T15:58:26.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "USA chcą zakończyć wojnę? Witkoff potwierdził, że przekazał Iranowi 15-punktową propozycję",
+      "link": "https://www.bankier.pl/wiadomosc/USA-chca-zakonczyc-wojne-Witkoff-potwierdzil-ze-przekazal-Iranowi-15-punktowa-propozycje-9104888.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Specjalny wysłannik ds. misji pokojowych Steve Witkoff potwierdził w czwartek, że USA przekazały Iranowi za pośrednictwem Pakistanu 15-punktowy plan zakończenia wojny. Prezydent USA Donald Trump przekonywał, że Iran „błaga” o porozumienie, lecz wyraził wątpliwości, czy uda się je osiągnąć.",
+      "pubDate": "Thu, 26 Mar 2026 16:49:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/8/289a4d8f7f9081-948-568-15-82-2985-1790.jpg",
+      "dateISO": "2026-03-26T15:49:00.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Ukraińskie drony atakują w obwodzie leningradzkim. Celem rafineria",
+      "link": "https://www.bankier.pl/wiadomosc/Ukrainskie-drony-atakuja-w-obwodzie-leningradzkim-Celem-rafineria-9104887.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Siły Systemów Bezzałogowych (SBS) Ukrainy uderzyły w kolejną rafinerię w obwodzie leningradzkim na północnym zachodzie Rosji – poinformował w czwartek dowódca SBS, pułkownik Robert Browdi.",
+      "pubDate": "Thu, 26 Mar 2026 16:48:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/c/d58748c06da442-948-568-0-269-4000-2399.jpg",
+      "dateISO": "2026-03-26T15:48:00.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Obniżka VAT i akcyzy na paliwa. Skorzystają konsumenci, a firmy?",
+      "link": "https://businessinsider.com.pl/prawo/podatki/obnizka-vat-i-akcyzy-na-paliwo-tlumaczymy-skutki-decyzji-rzadu/k6f7qsn",
+      "description": "VAT na paliwo ma spaść z 23 proc. do 8 proc., a akcyza do najniższego poziomu, jaki jest możliwy. Dla przeciętnego konsumenta oznacza to niższe ceny na stacjach. Skutki dla przedsiębiorców są bardziej skomplikowane.",
+      "pubDate": "Thu, 26 Mar 2026 15:47:16 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/I4Fk9kpTURBXy84YmZiMmFlODBkNDJlZjFiMTYxMTI2MDEzN2ZhZThmYy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-26T15:47:16.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Chaos w wymiarze sprawiedliwości. Sędzia SN podważyła status prokuratora krajowego",
+      "link": "https://www.bankier.pl/wiadomosc/Chaos-w-wymiarze-sprawiedliwosci-Sedzia-SN-podwazyla-status-prokuratora-krajowego-9104880.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sąd Najwyższy umorzył w czwartek sprawę dotyczącą uchylenia immunitetu sędziego Piotra Schaba w związku z niewydaniem akt postępowań dyscyplinarnych. W ocenie SN, wniosek o uchylenie immunitetu sędziego został skierowany przez nieuprawnionego prokuratora.",
+      "pubDate": "Thu, 26 Mar 2026 16:41:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/9/81480edcee391c-948-567-0-67-1000-599.jpg",
+      "dateISO": "2026-03-26T15:41:00.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Rząd obniża VAT i akcyzę na paliwo. Analityk wyliczył, ile zapłacisz",
+      "link": "https://businessinsider.com.pl/finanse/paliwa-moga-byc-tansze-analityk-podal-mozliwe-ceny-skrytykowal-tez-pomysl-rzadu/n1pef6l",
+      "description": "Jak wyliczył analityk Refleksu, Rafał Zywert, przy obecnych cenach hurtowych litr oleju napędowego mógłby potanieć nawet o 1,36 zł, a benzyny o 1,16 zł.",
+      "pubDate": "Thu, 26 Mar 2026 15:38:42 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/0ugk9kpTURBXy9lMmMwOWI4N2VmYzQxMjY0MTEwNTQ5ZDk4YmI0MGI5Ni5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-26T15:38:42.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Zmiana właściciela TVN coraz bliżej. Wyznaczono datę ważnego spotkania",
+      "link": "https://businessinsider.com.pl/firmy/zmiana-wlasciciela-tvn-akcjonariusze-warner-bros-discovery-zdecyduja/k7nfdwj",
+      "description": "Warner Bros. Discovery wyznaczył termin spotkania akcjonariuszy, którzy zadecydują, czy zaakceptują ofertę przejęcia koncernu przez Paramount Skydance wartą 111 mld dol. Ich głosy rozstrzygną, czy dojdzie do jednej z największych fuzji w branży rozrywkowej.",
+      "pubDate": "Thu, 26 Mar 2026 15:38:05 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/vpak9kpTURBXy9mMTcwYWY3YTg4Y2E4NjljNThhODAzZmRhOWYzNDhhNi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-26T15:38:05.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Wołodymyr Zełenski o współpracy z krajami Zatoki Perskiej. \"Pierwsze umowy już gotowe\"",
+      "link": "https://businessinsider.com.pl/wiadomosci/ukraina-oferuje-krajom-zatoki-perskiej-ochrone-przed-dronami-zelenski-umowy-sa-gotowe/755dx1t",
+      "description": "Ukraina oferuje krajom Zatoki Perskiej współpracę. — Nasze zespoły przygotowały już pierwsze umowy — powiedział Wołodymyr Zełenski.",
+      "pubDate": "Thu, 26 Mar 2026 15:31:33 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/WVvk9kpTURBXy8xYzZhM2I4M2QxMThjNGJkZjYxOTA1OWNmMzk3ZWE0YS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-26T15:31:33.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Słowacja uderza w zagranicznych kierowców. Zapłacą jeszcze więcej za olej napędowy",
+      "link": "https://www.bankier.pl/wiadomosc/Slowacja-uderza-w-zagranicznych-kierowcow-Zaplaca-jeszcze-wiecej-za-olej-napedowy-9104866.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Słowacja od piątku podniesie cenę oleju napędowego dla samochodów z zagranicy do 2,012 euro za litr, poinformowało w czwartek ministerstwo finansów. Od poniedziałku kierowcy z zagranicy już płacą za olej napędowy więcej niż Słowacy - 1,826 euro. Decyzja rządu ma obowiązywać 30 dni.",
+      "pubDate": "Thu, 26 Mar 2026 16:26:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/f/c56fb733fb7863-945-567-7-62-991-595.jpg",
+      "dateISO": "2026-03-26T15:26:00.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Stubb: Negocjacje USA–Rosja–Ukraina mogą być faktycznie zakończone",
+      "link": "https://www.bankier.pl/wiadomosc/Stubb-Negocjacje-USA-Rosja-Ukraina-moga-byc-faktycznie-zakonczone-9104865.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Negocjacje USA–Rosja–Ukraina utknęły w martwym punkcie i mogą być faktycznie zakończone – ocenił w czwartek w rozmowie z norweskim dziennikiem „VG” prezydent Finlandii Alexander Stubb. Blokadą ma być brak u Rosjan woli pokoju. Dialog osłabiły też wojna USA z Iranem i poluzowanie sankcji w sprawie ro",
+      "pubDate": "Thu, 26 Mar 2026 16:23:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/b/439b9d27a27a67-948-568-0-11-4500-2699.jpg",
+      "dateISO": "2026-03-26T15:23:00.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Obniżka VAT i akcyzy na paliwo. Kierowcy będą zadowoleni, ale firmy czeka zimny prysznic",
+      "link": "https://www.bankier.pl/wiadomosc/Obnizka-VAT-i-akcyzy-na-paliwo-Kierowcy-oszaleja-z-radosci-ale-firmy-czeka-zimny-prysznic-9104844.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Obniżkę podatku VAT z 23 proc. na 8 proc. wyraźnie odczują kierowcy, w przypadku przedsiębiorców jej efekt nie będzie już tak oczywisty. Dla tej grupy kluczowe będzie zmniejszenie stawki akcyzy oraz zabezpieczenie w postaci ceny maksymalnej na stacjach paliw.",
+      "pubDate": "Thu, 26 Mar 2026 16:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/a/a1dbe448286e29-945-560-0-78-1500-899.jpg",
+      "dateISO": "2026-03-26T15:15:00.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Niemcy ograniczają podwyżki cen paliw. Parlament przyjął projekt ustawy",
+      "link": "https://businessinsider.com.pl/gospodarka/niemcy-ograniczaja-podwyzki-cen-paliw-bundestag-przyjal-wazna-zmiane/l6p098t",
+      "description": "Niemiecki Bundestag przyjął projekt ustawy, zgodnie z którym stacje benzynowe będą mogły podnosić ceny tylko raz dziennie.",
+      "pubDate": "Thu, 26 Mar 2026 15:11:40 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/PJMk9kpTURBXy8yMzQ1ZjUzNWFkOWNmM2Q0NjkyOTQ0YzVlMjcyODhlMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-26T15:11:40.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Kluczowy dokument Pentagonu nie zostanie ujawniony. Sojusznicy z NATO w \"stresie\"",
+      "link": "https://www.bankier.pl/wiadomosc/Kluczowy-dokument-Pentagonu-nie-zostanie-ujawniony-Sojusznicy-z-NATO-w-stresie-9104848.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Pentagon po raz pierwszy od kilkudziesięciu lat nie zamierza opublikować tzw. Global Posture Review, czyli kluczowego dokumentu określającego priorytety wojskowe USA i planowane rozmieszczenie sił za granicą – podał portal Politico.",
+      "pubDate": "Thu, 26 Mar 2026 16:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/8/58c862a57cc30f-948-567-5-45-995-596.jpg",
+      "dateISO": "2026-03-26T15:00:00.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Czy będą limity sprzedaży paliw? Donald Tusk stawia warunek",
       "link": "https://businessinsider.com.pl/gospodarka/donald-tusk-stanowczo-o-turystyce-paliwowej-zapowiada-twarde-narzedzie/fdgm46c",
-      "description": "Premier Donald Tusk poinformował na konferencji prasowej w czwartek, że rząd na razie nie przewiduje wprowadzenia limitów sprzedaży na stacjach paliw w Polsce. Wskazuje jednak sytuację, która może zmienić tę decyzję. Wspomina o turystyce paliwowej.",
+      "description": "Premier Donald Tusk poinformował na konferencji prasowej w czwartek, co z ewentualnym wprowadzeniem limitów sprzedaży na stacjach paliw.",
       "pubDate": "Thu, 26 Mar 2026 14:47:21 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/UALk9kpTURBXy9hNGE4MzJjM2E4YTllNDk0MmE5YmNmMjIwMTI1ZDExYS5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-03-26T14:47:21.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Minister zdrowia do dymisji? Premier Tusk zabrał głos",
+      "link": "https://www.bankier.pl/wiadomosc/Minister-zdrowia-do-dymisji-Premier-Tusk-zabral-glos-9104827.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "- Nie przewiduję dymisji minister zdrowia - powiedział w czwartek premier Donald Tusk, zapytany o krytykę pod adresem szefowej MZ Jolanty Sobierańskiej-Grendy. Ma ona związek z zapowiedzią NFZ przywrócenia limitów w diagnostyce i ambulatoryjnej opiece specjalistycznej.",
+      "pubDate": "Thu, 26 Mar 2026 15:44:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/e/b69081f348b242-948-568-0-0-3672-2203.jpg",
+      "dateISO": "2026-03-26T14:44:00.000Z",
       "dateFormatted": "26 marca 2026"
     },
     {
@@ -37,15 +337,27 @@
       "dateFormatted": "26 marca 2026"
     },
     {
-      "title": "Premier grozi koncernom paliwowym nowym podatkiem. Mówi o nadmiarowych zyskach",
+      "title": "Premier grozi koncernom paliwowym. Mówi o nadmiarowych zyskach",
       "link": "https://businessinsider.com.pl/prawo/podatki/premier-mowi-o-nadmiarowych-zyskach-koncernow-paliwowych-grozi-nowym-podatkiem/zgw6sq1",
-      "description": "Jeśli koncerny paliwowe będą zarabiać zbyt dużo na sprzedaży paliw dzięki wysokim cenom ropy naftowej, rząd wprowadzi podatek od nadmiarowych zysków — poinformował w czwartek premier Donald Tusk. Ogłosił to jednocześnie z informacją, że rząd zaproponował obniżkę podatków VAT i akcyzy od paliw.",
+      "description": "Jeśli koncerny będą zarabiać zbyt dużo na sprzedaży paliw, rząd podejmie działania. Jakie? O tym poinformował w czwartek premier, zapowiadając jednocześnie obniżkę VAT i akcyzy.",
       "pubDate": "Thu, 26 Mar 2026 14:36:37 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/GtAk9kpTURBXy81Y2Y1ZjkzMTc3YTQ3YWE4Y2Q5NTE1ZjkyODBhMDE4Yi5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-03-26T14:36:37.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Paramount przejmie Warner Bros. Discovery? Znamy datę głosowania akcjonariuszy",
+      "link": "https://www.bankier.pl/wiadomosc/Paramount-przejmie-Warner-Bros-Discovery-Znamy-date-glosowania-akcjonariuszy-9104820.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Warner Bros. Discovery ogłosił w czwartek, że specjalne zgromadzenie akcjonariuszy w sprawie przejęcia firmy przez Paramount Skydance odbędzie się 23 kwietnia. Wtedy też dojdzie do głosowania posiadaczy akcji koncernu w tej sprawie.",
+      "pubDate": "Thu, 26 Mar 2026 15:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/9/26e5f705c0ef58-933-560-37-2-933-560.jpg",
+      "dateISO": "2026-03-26T14:36:00.000Z",
       "dateFormatted": "26 marca 2026"
     },
     {
@@ -58,6 +370,18 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/4vTk9kpTURBXy9kMzI5YjE1NTk3ODgzN2NiNDhmYTgzMzBhMDcyNjQzNS5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-03-26T14:29:40.000Z",
+      "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "CherryPick Games podjął decyzję o złożeniu wniosku o ogłoszenie upadłości",
+      "link": "https://www.bankier.pl/wiadomosc/CherryPick-Games-podjal-decyzje-o-zlozeniu-wniosku-o-ogloszenie-upadlosci-9104803.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Cherrypick Games podjął decyzję o złożeniu wniosku o ogłoszenie upadłości spółki - poinformował CherryPick w komunikacie. Przyczyną podjęcia tej decyzji jest utrata zdolności do terminowego regulowania wymagalnych zobowiązań pieniężnych.",
+      "pubDate": "Thu, 26 Mar 2026 15:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/9/6be6a2313e71a9-948-568-0-388-1242-745.png",
+      "dateISO": "2026-03-26T14:20:00.000Z",
       "dateFormatted": "26 marca 2026"
     },
     {
@@ -85,18 +409,6 @@
       "dateFormatted": "26 marca 2026"
     },
     {
-      "title": "Przełom na Bliskim Wschodzie? Pakistan ujawnia kulisy negocjacji USA-Iran",
-      "link": "https://www.bankier.pl/wiadomosc/Przelom-na-Bliskim-Wschodzie-Pakistan-ujawnia-kulisy-negocjacji-USA-Iran-9104785.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Minister spraw zagranicznych Pakistanu Ishaq Dar potwierdził w czwartek, że jego kraj pośredniczy w rozmowach między Iranem a Stanami Zjednoczonymi. Pierwsza wypowiedź przedstawiciela pakistańskich władz na ten temat potwierdza wtorkowe doniesienia dziennika „New York Times” („NYT”).",
-      "pubDate": "Thu, 26 Mar 2026 15:11:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/2/ec90d05d8cf9cb-948-568-0-0-3888-2332.jpg",
-      "dateISO": "2026-03-26T14:11:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
       "title": "Biedronka wydłuża godziny otwarcia. Pracownicy boją się powtórki",
       "link": "https://businessinsider.com.pl/firmy/biedronka-przed-swietami-wydluza-godziny-pracy-pracownicy-maja-obawy/lxrvf6w",
       "description": "Ponad 3 tys. sklepów sieci Biedronka będzie otwartych dłużej w okresie przedświątecznym. Choć dla klientów oznacza to większą dostępność, wśród pracowników rosną obawy o warunki pracy.",
@@ -121,66 +433,6 @@
       "dateFormatted": "26 marca 2026"
     },
     {
-      "title": "Będzie nadzwyczajne posiedzenie rządu w sprawie cen pali. Donald Tusk ogłosił datę",
-      "link": "https://businessinsider.com.pl/gospodarka/donald-tusk-zapowiada-decyzje-w-sprawie-cen-paliw-nadzwyczajne-posiedzenie-rzadu/hck56nc",
-      "description": "W czwartek o godzinie 18 odbędzie się nadzwyczajne posiedzenie Rady Ministrów, na którym rząd ma podjąć decyzje dotyczące obniżenia cen paliw. Informację tę przekazał premier Donald Tusk podczas konferencji prasowej.",
-      "pubDate": "Thu, 26 Mar 2026 14:04:31 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/kHLk9kpTURBXy8zZGYyZGM5MzE1ODlhOTFmMzY0NWQ0NDVlNmE5NzYwZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-26T14:04:31.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Rosyjscy oligarchowie zwrócili się w ważnej sprawie do TSUE. Zapadła decyzja",
-      "link": "https://businessinsider.com.pl/gospodarka/rosyjscy-biznesmeni-chcieli-odblokowac-majatek-tsue-zdecydowal/y1yp67z",
-      "description": "Trybunał Sprawiedliwości Unii Europejskiej oddalił odwołania pięciu rosyjskich oligarchów, którzy dążyli do usunięcia z listy sankcyjnej i odblokowania zamrożonych majątków.",
-      "pubDate": "Thu, 26 Mar 2026 13:54:20 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/K9Uk9kpTURBXy9iZGY0OTVmZTE5ZjYyMDYxNjNiYjRiMWQwNzJhNmViYy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-26T13:54:20.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Cięcie VAT na paliwa. Liczymy, ile ubędzie w budżecie państwa",
-      "link": "https://businessinsider.com.pl/finanse/donald-tusk-oglasza-ciecie-vat-na-paliwa-liczymy-ile-ubedzie-w-budzecie-panstwa/sjxqdb4",
-      "description": "W reakcji na kryzysowe ceny paliw, a szczególnie diesla rząd podjął decyzję. Donald Tusk zapowiedział obniżkę VAT na paliwo z 23 do 8 proc. Policzyliśmy, o ile zwiększy to dziurę budżetową.",
-      "pubDate": "Thu, 26 Mar 2026 13:38:34 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/NHzk9kpTURBXy8zYWMyYjgwMTRmMGY5MWYyYWFkYjhiODJiZDMwOWE2Zi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-26T13:38:34.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Kurs Orlenu mocno spada po zapowiedzi premiera",
-      "link": "https://businessinsider.com.pl/gielda/kurs-orlenu-zanurkowal-bedzie-cena-maksymalna-na-paliwa/9x2mx5r",
-      "description": "Kurs Orlenu gwałtownie spada po informacji, że rząd zaproponuje maksymalną cenę paliw oraz podatek od nadmiarowych zysków koncernów paliwowych. Mocno tanieją też akcje Unimotu.",
-      "pubDate": "Thu, 26 Mar 2026 13:30:04 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/SnGk9kpTURBXy8xZjRkY2MwYTQ0NjE5MDcyZjk5MGY2YjNmZDA5NTY4My5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-26T13:30:04.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Notowania Orlenu spadają. Premier Tusk zapowiada windfall tax",
-      "link": "https://www.bankier.pl/wiadomosc/Kurs-Orlenu-spada-o-5-7-proc-po-informacji-o-planach-wprowadzenia-podatku-dla-koncernow-paliwowych-9104735.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Kurs akcji Orlenu spadał o ponad 6 proc. po informacji o planach rządu wprowadzenia podatku od nadmiarowych zysków koncernów paliwowych. Obroty na akcjach spółki szybko rosną. Obecnie widać skromne odbicie kursu naftowego giganta.",
-      "pubDate": "Thu, 26 Mar 2026 14:28:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/3/4820727b529d05-948-568-15-67-2985-1790.jpg",
-      "dateISO": "2026-03-26T13:28:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
       "title": "Polskie wydatki nokautują w NATO. Rutte: Warszawa absolutnym liderem wydatków",
       "link": "https://www.bankier.pl/wiadomosc/Polskie-wydatki-nokautuja-w-NATO-Rutte-Warszawa-absolutnym-liderem-wydatkow-9104707.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Wydatki na obronność Polski wyniosły w 2025 roku 166,186 mld zł, co odpowiada 4,3 proc. PKB - wynika z szacunków Sojusz Północnoatlantyckiego zawartych w raporcie rocznym sekretarza generalnego NATO. Polska odnotowała najwyższy odsetek; kolejne miejsca zajęły Litwa (4 proc.) i Łotwa (3,74 proc.)",
@@ -190,18 +442,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/1/5/2e0da9759ae25c-948-568-22-127-2977-1786.jpg",
       "dateISO": "2026-03-26T13:15:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Donald Tusk ogłosił decyzję rządu. Będzie specjalny pakiet CPN. \"Ceny paliw niżej\"",
-      "link": "https://businessinsider.com.pl/gospodarka/donald-tusk-oglosil-decyzje-rzadu-w-sprawie-paliw-bedzie-specjalny-pakiet-cpn/16bsqem",
-      "description": "Premier Donald Tusk potwierdził decyzję rządu w sprawie podjęcia działań na rzecz obniżenia cen paliw w Polsce. Zapowiedział specjalny pakiet CPN (\"ceny paliw niżej\"). Najważniejsze decyzje to: obniżenie stawki VAT na paliwa z 23 proc. na 8 proc., obniżenie akcyzy na paliwa do minimum wymaganego w U",
-      "pubDate": "Thu, 26 Mar 2026 13:11:50 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/2qvk9kpTURBXy9iZThiZmRhYjk3Mjk4MjhhMDk2NDBiZjAwNTUzODVhYS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-26T13:11:50.000Z",
       "dateFormatted": "26 marca 2026"
     },
     {
@@ -229,90 +469,6 @@
       "dateFormatted": "26 marca 2026"
     },
     {
-      "title": "Sejm wrócił do ustawy frankowej. Są ważne poprawki dla kredytobiorców",
-      "link": "https://businessinsider.com.pl/prawo/ustawa-frankowa-z-nowymi-poprawkami-poslowie-wracaja-do-prac/wl3t8tj",
-      "description": "Sejm, po ponad trzech miesiącach przerwy, wrócił do prac nad projektem ustawy frankowej. Kredytobiorcy mogą być zadowoleni, bo pojawiły się poprawki, o które zabiegali. Chodzi o odsetki i zarzut potrącenia.",
-      "pubDate": "Thu, 26 Mar 2026 12:45:09 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/VXYk9kpTURBXy9lNTA1YjcyZjhlZDM2OGQ1YTI3ZTBkM2JiMDAyOGI5OS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-26T12:45:09.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Kreml znów dyktuje warunki. \"Rosja wróciła do gry\" i zarabia miliardy",
-      "link": "https://businessinsider.com.pl/gospodarka/rosja-wrocila-do-gry-na-rynku-ropy-eksperci-o-skutkach-decyzji-trumpa/s2704x9",
-      "description": "Rosyjskie ceny ropy szybują na skutek kryzysu na Bliskim Wschodzie i tymczasowego zniesienia sankcji przez administrację Donalda Trumpa. Rosnący popyt na surowiec sprawia, że Rosja może dyktować warunki cenowe, co podbija dochody.",
-      "pubDate": "Thu, 26 Mar 2026 12:43:05 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/qysk9kpTURBXy9lMzIwYmExODk2YTA0YWMyNTg1M2E1ZjQzNjljNTMxMS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-26T12:43:05.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Zawirowania na rynku ropy. Orlen podjął ważną decyzję w sprawie cen",
-      "link": "https://businessinsider.com.pl/gospodarka/zawirowania-na-rynku-ropy-orlen-po-raz-trzeci-obnizyl-hurtowe-ceny-paliw/c7k2n10",
-      "description": "Polski koncern paliwowy Orlen reaguje na wahania światowych cen ropy, które na przemian rosną i spadają. W czwartek spółka poinformowała o obniżce hurtowych cen paliw. To już trzecia taka decyzja w tym tygodniu.",
-      "pubDate": "Thu, 26 Mar 2026 12:43:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/e_wk9kpTURBXy9iZTU5MTE0ZGMwN2E1YjAwNTE1NTBlZTU5MDAzY2FlZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-26T12:43:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Będzie wniosek o odwołanie Hennig-Kloski. Stoi za nim sojusz prawicy",
-      "link": "https://businessinsider.com.pl/gospodarka/wotum-nieufnosci-dla-ministry-klimatu-pis-i-konfederacja-lacza-sily/eljj50e",
-      "description": "Posłowie PiS i Konfederacji zbierają podpisy pod wnioskiem o wotum nieufności dla ministry klimatu Pauliny Hennig-Kloski. Lista zarzutów pod jej adresem liczy kilkanaście pozycji, niektóre zaskakują.",
-      "pubDate": "Thu, 26 Mar 2026 12:41:59 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/zSHk9kpTURBXy84YzZmN2M0OTlhNzBkZmE4MDVkMGZjNjZmNTNhZmJhYi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-26T12:41:59.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Jaką pomoc zapewnia MOPS? Oto wszystkie zasiłki i nie tylko",
-      "link": "https://businessinsider.com.pl/finanse/mops-a-pomoc-spoleczna-formy-wsparcia-oferowane-przez-osrodek/0ke48cn",
-      "description": "MOPS, czyli Miejski Ośrodek Pomocy Społecznej, to podstawa lokalnego systemu wsparcia osób w potrzebie. Nie każdy zdaje sobie jednak sprawę, że MOPS nie tylko zawiaduje przyznawaniem i wypłacaniem zasiłków.",
-      "pubDate": "Thu, 26 Mar 2026 12:40:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/xxfk9kpTURBXy8wOGVmZjlkMDdlYjZlM2QxN2MyZDg2MDlhZTZmZjk0ZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-26T12:40:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Ambasada USA w Iraku wezwała obywateli do ewakuacji. Rakiety i drony nad placówkami dyplomatycznymi",
-      "link": "https://www.bankier.pl/wiadomosc/Ambasada-USA-w-Iraku-wezwala-obywateli-do-ewakuacji-Rakiety-i-drony-nad-placowkami-dyplomatycznymi-9104683.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ambasada Stanów Zjednoczonych w Iraku wezwała obywateli USA do opuszczenia kraju. Zaleciła również, aby Amerykanie nie odwiedzali ani ambasady, ani konsulatu generalnego USA w Irbilu ze względu na utrzymujące się ryzyko ostrzału.",
-      "pubDate": "Thu, 26 Mar 2026 13:38:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/c/290b1dc8fbbc03-948-568-171-63-3333-2000.jpg",
-      "dateISO": "2026-03-26T12:38:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Złoto, srebro i akcje spadają, bo ropa drożeje. Nowa normalność na rynkach",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/ceny-zlota-i-srebra-oraz-notowania-akcji-spadaja-bo-ropa-drozeje-nowa-normalnosc-na/6q0e0x9",
-      "description": "To działa już niemal jak równoważnia. Jeśli z jednej strony jest wzrost, to z drugiej automatycznie spadek. Wzrost dolarowych cen ropy naftowej w czwartek spowodował odwrót inwestorów od aktywów ryzykownych, a do nich obecnie zalicza się złoto, srebro, akcje i kryptowaluty.",
-      "pubDate": "Thu, 26 Mar 2026 12:35:25 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/X46k9kpTURBXy9mZDI5MTAwOWE4YWFmZTI1ZWYzNTQyMzNkMWUxYjZjMy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-26T12:35:25.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
       "title": "Szpitale mają agregaty, ale czy mają procedury? NIK wytyka błędy",
       "link": "https://www.bankier.pl/wiadomosc/Szpitale-maja-agregaty-ale-czy-maja-procedury-NIK-wytyka-bledy-9104642.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Choć wszystkie skontrolowane szpitale posiadają agregaty prądotwórcze, a większość zabezpiecza bezprzerwowe dostarczanie energii, to w części z nich brakuje rzetelnego serwisowania, aktualnych procedur i wymaganych instrukcji eksploatacyjnych - wynika z kontroli NIK w kilkunastu szpitalach.",
@@ -325,25 +481,13 @@
       "dateFormatted": "26 marca 2026"
     },
     {
-      "title": "Wzrost cen ropy może dotknąć światową gospodarkę. Europejski bank alarmuje",
-      "link": "https://businessinsider.com.pl/gospodarka/wzrost-cen-ropy-moze-dotknac-swiatowa-gospodarke-wazna-instytucja-alarmuje/q1bwsdg",
-      "description": "Europejski Bank Odbudowy i Rozwoju ostrzega przed poważnymi konsekwencjami utrzymywania się wysokich cen ropy naftowej dla światowej gospodarki.",
-      "pubDate": "Thu, 26 Mar 2026 12:28:59 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Hx1k9kpTURBXy8xMjg2MmI2ZDVkNjhhZGUxNWRkOGU2MmNmMjRhZmU2ZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-26T12:28:59.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
       "title": "Jest decyzja rządu ws. cen paliw. VAT i akcyza w dół. Wchodzi \"pakiet CPN\"",
-      "link": "https://www.bankier.pl/wiadomosc/Jest-decyzja-rzadu-ws-cen-paliw-VAT-i-akcyza-w-dol-9104669.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Jest-decyzja-rzadu-ws-cen-paliw-VAT-i-akcyza-w-dol-9104669.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Rząd obniży stawkę VAT na paliwa do 8 proc. z 23 proc. - poinformował premier Donald Tusk na konferencji prasowej. Dodał, że zmiany mogą zostać przeprocedowane przez parlament nawet do piątku.",
       "pubDate": "Thu, 26 Mar 2026 13:25:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/4/1/f361f88603f0aa-948-568-11-0-1488-893.jpg",
       "dateISO": "2026-03-26T12:25:00.000Z",
       "dateFormatted": "26 marca 2026"
@@ -358,18 +502,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/9/d/852b3524de1750-948-568-30-50-3970-2381.jpg",
       "dateISO": "2026-03-26T12:24:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Donald Trump znowu grozi Iranowi. \"Lepiej niech szybko się ogarną\"",
-      "link": "https://businessinsider.com.pl/wiadomosci/donald-trump-wysuwa-kolejne-grozby-wobec-iranu-nie-bedzie-odwrotu/8g4w2vt",
-      "description": "Prezydent Stanów Zjednoczonych Donald Trump wezwał władze Iranu do podjęcia poważnych rozmów pokojowych z Waszyngtonem, ostrzegając, że brak współpracy może mieć dla Teheranu poważne konsekwencje. W niecodzienny sposób określił też irańskich negocjatorów.",
-      "pubDate": "Thu, 26 Mar 2026 12:19:59 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/iCek9kpTURBXy83NjhhYWFlOGZjZTIwYjliY2E0NzBlZWE1ZjQ0ZjEwOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-26T12:19:59.000Z",
       "dateFormatted": "26 marca 2026"
     },
     {
@@ -517,18 +649,6 @@
       "dateFormatted": "26 marca 2026"
     },
     {
-      "title": "Zapasy USA szybko się kurczą. Broń dla Ukrainy trafi na wojnę z Iranem?",
-      "link": "https://www.bankier.pl/wiadomosc/Zapasy-USA-szybko-sie-kurcza-Bron-dla-Ukrainy-trafi-na-wojne-z-Iranem-9104593.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Pentagon rozważa przekierowanie broni dla Ukrainy na Bliski Wschód, gdyż wojna przeciw Iranowi wyczerpuje zapasy części kluczowej amunicji amerykańskiego wojska – poinformował w czwartek dziennik „Washington Post”, powołując się na trzy osoby zorientowane w sprawie.",
-      "pubDate": "Thu, 26 Mar 2026 11:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/6/518f79b3522be1-948-568-0-61-2048-1228.jpg",
-      "dateISO": "2026-03-26T10:40:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
       "title": "Grzegorz Braun bez immunitetu. Parlament Europejski zdecydował",
       "link": "https://www.bankier.pl/wiadomosc/Grzegorz-Braun-bez-immunitetu-Parlament-Europejski-zdecydowal-9104580.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Parlament Europejski zagłosował w czwartek w Brukseli za uchyleniem immunitetu europosłowi Grzegorzowi Braunowi. Chodzi o dwie sprawy: zniszczenie flag Ukrainy i Unii Europejskiej oraz zaprzeczanie istnieniu Holokaustu.",
@@ -538,18 +658,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/d/b/1b6089d823204e-948-568-752-40-3051-1830.jpg",
       "dateISO": "2026-03-26T10:39:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Hampont zgłosił zamiar przejęcia wyłącznej kontroli nad Murapolem",
-      "link": "https://www.bankier.pl/wiadomosc/Hampont-zglosil-zamiar-przejecia-wylacznej-kontroli-nad-Murapolem-UOKiK-9104584.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Hampont zgłosił zamiar przejęcia wyłącznej kontroli nad Murapolem - poinformował w komunikacie UOKiK.",
-      "pubDate": "Thu, 26 Mar 2026 11:36:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/1/8a028b8c5b4be3-948-568-944-794-3609-2165.jpg",
-      "dateISO": "2026-03-26T10:36:00.000Z",
       "dateFormatted": "26 marca 2026"
     },
     {
@@ -577,66 +685,6 @@
       "dateFormatted": "26 marca 2026"
     },
     {
-      "title": "Konflikt w Iranie może obniżyć globalny wzrost PKB i przyczynić się do wzrostu inflacji",
-      "link": "https://www.bankier.pl/wiadomosc/Konflikt-w-Iranie-moze-obnizyc-globalny-wzrost-PKB-i-przyczynic-sie-do-wzrostu-inflacji-9104577.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Utrzymywanie się ceny ropy powyżej 100 dol. za baryłkę i zakłóceń w łańcuchach dostaw może obniżyć globalny wzrost PKB o co najmniej 0,4 pp., a inflacja może wzrosnąć o ponad 1,5 pp - prognozuje Europejski Bank Odbudowy i Rozwoju (EBOR).",
-      "pubDate": "Thu, 26 Mar 2026 11:19:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/3/7d0d697b518d3c-948-568-144-48-3520-2112.jpg",
-      "dateISO": "2026-03-26T10:19:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Orlen zmienia zasady. Koniec z papierem, od 1 kwietnia faktury tylko w KSeF",
-      "link": "https://www.bankier.pl/wiadomosc/Orlen-zmienia-zasady-Koniec-z-papierem-od-1-kwietnia-faktury-tylko-w-KSeF-9104573.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Przedsiębiorcy kupujący paliwo na stacjach Orlen od 1 kwietnia nie dostaną już tradycyjnej faktury ani wydruku z drukarki fiskalnej. Państwowy koncern zgodnie z zapowiedzią zmienił zasady - dokumenty dla firm będą dostępne tylko w Krajowym Systemie e-Faktur (KSeF).",
-      "pubDate": "Thu, 26 Mar 2026 11:15:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/d/803f40e047ade5-948-568-6-87-1190-714.jpg",
-      "dateISO": "2026-03-26T10:15:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "USA największym szkodnikiem dla światowej gospodarki. 10 bilionów dolarów długu",
-      "link": "https://www.bankier.pl/wiadomosc/Dlug-klimatyczny-USA-i-Chiny-na-czele-rankingu-Tyle-kosztowaly-swiat-emisje-mocarstw-9104547.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zgodnie z najnowszymi badaniami naukowców z Uniwersytetu Stanforda opublikowanymi w prestiżowym czasopiśmie „Nature”, Stany Zjednoczone wyrządziły reszcie świata największe szkody gospodarcze przekraczające 10 bilionów dol. Kwota określana przez ekspertów jako „przyprawiająca o zawrót głowy”, rzuca ",
-      "pubDate": "Thu, 26 Mar 2026 11:13:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/2/65701a78a8c42f-948-567-0-150-1000-599.jpg",
-      "dateISO": "2026-03-26T10:13:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Złoto po 10 000 USD, a srebro po 150 USD? Anatomia krachu i prognozy dla metali",
-      "link": "https://www.bankier.pl/wiadomosc/Zloto-po-10-000-USD-a-srebro-po-150-USD-Anatomia-krachu-i-prognozy-dla-metali-9104543.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wojna, zawirowania wokół stóp procentowych i potężny rajd sztucznej inteligencji – te czynniki miały wywindować metale szlachetne na historyczne maksima. Poziomy cenowe w wysokości 10 000 dolarów dla złota i 150 dolarów dla srebra przestały wydawać się niemożliwe do osiągnięcia, jednak rynek brutaln",
-      "pubDate": "Thu, 26 Mar 2026 11:13:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/c/91c0f8e053443b-948-568-0-604-4032-2419.jpg",
-      "dateISO": "2026-03-26T10:13:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Jedna faktura, trzy daty. KSeF może namieszać w VAT i księgach",
-      "link": "https://www.bankier.pl/wiadomosc/Jedna-faktura-trzy-daty-KSeF-moze-namieszac-w-VAT-i-ksiegach-9104475.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W KSeF data wystawienia faktury nie zawsze będzie tożsama z datą jej otrzymania i momentem odliczenia VAT. Ta zmiana będzie szczególnie problematyczna przy zamknięciu miesiąca i rozliczeniach na przełomie okresów. Na trzy te trzy termin trzeba patrzeć odrębnie.",
-      "pubDate": "Thu, 26 Mar 2026 11:13:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/8/d091ecff933684-948-568-215-0-3601-2160.jpg",
-      "dateISO": "2026-03-26T10:13:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
       "title": "Kluczowy dowódca zabity w ataku. To on blokował ropę dla świata",
       "link": "https://www.bankier.pl/wiadomosc/Kluczowy-dowodca-zabity-w-ataku-To-on-blokowal-rope-dla-swiata-9104549.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Dowódca marynarki wojennej Korpusu Strażników Rewolucji Islamskiej Alireza Tangsiri został zabity w ataku w mieście Bandar Abbas w południowym Iranie – poinformował w czwartek portal Times of Israel, powołując się na izraelskiego urzędnika.",
@@ -658,18 +706,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/a/ffd6f47fd43e36-948-568-0-59-1980-1187.jpg",
       "dateISO": "2026-03-26T09:16:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "Raport ujawnia skalę wzrostów w sektorze pozabankowym",
-      "link": "https://www.bankier.pl/wiadomosc/Raport-ujawnia-skale-wzrostow-w-sektorze-pozabankowym-9104520.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W lutym wzrosła zarówno liczba jak i wartość sprzedanych pożyczek pozabankowych - wynika z danych BIK. Największy wzrost zanotował segment pożyczek ratalnych, udzielono ich o 25,1 proc. więcej niż rok wcześniej i na wartość o 16,4 proc. wyższą.",
-      "pubDate": "Thu, 26 Mar 2026 09:38:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/f/9537edc489421e-948-568-4-4-1975-1185.jpg",
-      "dateISO": "2026-03-26T08:38:00.000Z",
       "dateFormatted": "26 marca 2026"
     },
     {
@@ -697,18 +733,6 @@
       "dateFormatted": "26 marca 2026"
     },
     {
-      "title": "Mikosz: Zostawiam Pocztę Polską na plusie. Bilans 2-letniej prezesury",
-      "link": "https://www.bankier.pl/wiadomosc/Mikosz-Zostawiam-Poczte-na-plusie-Bilans-2-letniej-prezesury-9104347.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sebastian Mikosz były już prezes Poczty Polskiej w rozmowie z PAP przyznał, że jest zaskoczony jego odwołaniem. Podkreślił, że kiedy wchodził do spółki dwa lata temu, Poczta była w „dramatycznej sytuacji finansowej”, obecnie jest na plusie, a jej sytuacja płynnościowa jest „co najmniej ustabilizowan",
-      "pubDate": "Thu, 26 Mar 2026 08:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/0/a0512d9e652a61-948-568-7-45-2992-1795.jpg",
-      "dateISO": "2026-03-26T07:00:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
       "title": "Gwiazdy Bankier.pl podpowiadają, gdzie szukać zysków w najbliższych 12 miesiącach",
       "link": "https://www.bankier.pl/wiadomosc/Gwiazdy-Bankier-pl-podpowiadaja-gdzie-szukac-zyskow-w-najblizszych-12-miesiacach-9103813.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Geopolityka znów uderzyła w rynki z potężną siłą, wymuszając na inwestorach rewizję portfeli. Podczas ostatniej Debaty Gwiazd Bankier.pl na konferencji Invest Cuffs w Krakowie zapytałem rynkowych ekspertów o ich inwestycyjne typy. W tym tekście przedstawiam ich prognozy - od uranu i zbrojeniówki, po",
@@ -729,18 +753,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/4/6/7b612c2ef88b2f-948-568-0-0-2500-1499.jpg",
-      "dateISO": "2026-03-26T05:00:00.000Z",
-      "dateFormatted": "26 marca 2026"
-    },
-    {
-      "title": "To był ostatni taki kwartał w hipotekach? Na horyzoncie ciemne chmury",
-      "link": "https://www.bankier.pl/wiadomosc/Kredyty-hipoteczne-w-I-kw-2026-oprocentowanie-zdolnosc-kredytowa-9104062.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Pierwsze miesiące roku przyniosły kontynuację korzystnych trendów, które rządziły rynkiem hipotek wcześniej. W połowie marca pojawił się jednak „czarny łabędź”. Wojna w Zatoce Perskiej sprawia, że co najmniej w krótkim terminie zmieni się niemal wszystko.",
-      "pubDate": "Thu, 26 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/c/219a28120564ff-948-568-268-0-2373-1424.png",
       "dateISO": "2026-03-26T05:00:00.000Z",
       "dateFormatted": "26 marca 2026"
     },
@@ -829,18 +841,6 @@
       "dateFormatted": "25 marca 2026"
     },
     {
-      "title": "Janusz Krypto: akt zgonu metaverse - jak miliardy dolarów poszły w cyfrowy piach",
-      "link": "https://www.bankier.pl/wiadomosc/Janusz-Krypto-akt-zgonu-metaverse-jak-miliardy-dolarow-poszly-w-cyfrowy-piach-9103049.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Był taki czas, gdy działki w internecie drożały szybciej niż masło w osiedlowym sklepie, a Mark Zuckerberg zmienił nazwę swojej firmy, planując nam życie w goglach VR. Dziś, w marcu 2026 roku, rzeczywistość wystawiła tym planom słony rachunek. Meta zamyka projekt Horizon Worlds, a inwestorzy, którzy",
-      "pubDate": "Wed, 25 Mar 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/e/b/f7c72e3db0615c-948-568-0-187-3000-1799.jpg",
-      "dateISO": "2026-03-25T05:00:00.000Z",
-      "dateFormatted": "25 marca 2026"
-    },
-    {
       "title": "Xiaomi na zakręcie. Telefony nie schodzą, samochody ledwo dowożą, a kurs nurkuje",
       "link": "https://www.bankier.pl/wiadomosc/Xiaomi-na-zakrecie-Telefony-nie-schodza-samochody-ledwo-dowoza-a-kurs-nurkuje-9103208.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Chiński gigant technologiczny zwalnia tempo. Choć dywizja motoryzacyjna dwoi się i troi, by ratować wyniki, załamanie w segmencie smartfonów ciągnie spółkę w dół. Inwestorzy tracą cierpliwość – akcje Xiaomi spadły już o ponad 40 proc. od szczytów z 2025 roku.",
@@ -849,6 +849,18 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/8/4/5a2e7cf4f2884d-948-568-48-115-3815-2289.jpg",
+      "dateISO": "2026-03-25T05:00:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
+      "title": "Janusz Krypto: akt zgonu metaverse - jak miliardy dolarów poszły w cyfrowy piach",
+      "link": "https://www.bankier.pl/wiadomosc/Janusz-Krypto-akt-zgonu-metaverse-jak-miliardy-dolarow-poszly-w-cyfrowy-piach-9103049.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Był taki czas, gdy działki w internecie drożały szybciej niż masło w osiedlowym sklepie, a Mark Zuckerberg zmienił nazwę swojej firmy, planując nam życie w goglach VR. Dziś, w marcu 2026 roku, rzeczywistość wystawiła tym planom słony rachunek. Meta zamyka projekt Horizon Worlds, a inwestorzy, którzy",
+      "pubDate": "Wed, 25 Mar 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/e/b/f7c72e3db0615c-948-568-0-187-3000-1799.jpg",
       "dateISO": "2026-03-25T05:00:00.000Z",
       "dateFormatted": "25 marca 2026"
     },
@@ -889,18 +901,6 @@
       "dateFormatted": "23 marca 2026"
     },
     {
-      "title": "Wiele aktywów w portfelu? Chodzi nie tylko o dywersyfikację",
-      "link": "https://www.bankier.pl/wiadomosc/Wiele-aktywow-w-portfelu-Chodzi-nie-tylko-o-dywersyfikacje-9102420.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "#investcuffs2026 Zalety portfeli zbudowanych z różnych klas aktywów stają się coraz bardziej widoczne w dynamicznie zmieniającym się otoczeniu rynkowym. Dywersyfikacja, czyli rozłożenie kapitału pomiędzy różne instrumenty finansowe, pozwala inwestorom ograniczać ryzyko i zwiększać stabilność wyników",
-      "pubDate": "Mon, 23 Mar 2026 10:09:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/a/3ed6420f48d23d-948-568-201-38-1078-647.jpg",
-      "dateISO": "2026-03-23T09:09:00.000Z",
-      "dateFormatted": "23 marca 2026"
-    },
-    {
       "title": "Cena Bitcoina dzisiaj: spada do 68 tys. $ w związku z obawami o Iran",
       "link": "https://pl.investing.com/news/cryptocurrency-news/cena-bitcoina-dzisiaj-spada-do-68-tys--w-zwiazku-z-obawami-o-iran-1332653",
       "description": "",
@@ -925,5 +925,5 @@
       "dateFormatted": "21 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-26T15:05:44.458Z"
+  "updatedAt": "2026-03-26T17:03:55.595Z"
 }
