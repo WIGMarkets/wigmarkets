@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Spółka Dominiki Kulczyk rozgaszcza się na morzu. Prąd z pierwszych wiatraków popłynie za dwa lata",
+      "link": "https://businessinsider.com.pl/gospodarka/morskie-farmy-wiatrowe-polenergii-maja-wzmocnic-bezpieczenstwo-polski/x3zxmjd",
+      "description": "Największa prywatna firma energetyczna w Polsce prowadzi inwestycje na Bałtyku. Mimo wysokich cen przekonuje, że morskie farmy wiatrowe będą się nam opłacać.",
+      "pubDate": "Sat, 28 Mar 2026 19:03:42 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/LyYk9kpTURBXy81NmMwNWI5ZjU4NDA3MTFlZTA0YTA4M2Y2M2VlMzUwZC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-28T19:03:42.000Z",
+      "dateFormatted": "28 marca 2026"
+    },
+    {
       "title": "Rząd obniża VAT i akcyzę na paliwa. Rozporządzenia już opublikowane",
       "link": "https://businessinsider.com.pl/gospodarka/obnizka-podatkow-na-paliwa-rzad-wprowadza-nizszy-vat-i-akcyze/13reejm",
       "description": "Rząd uruchomił zapowiadany pakiet obniżek podatkowych na paliwa. W sobotę w Dzienniku Ustaw opublikowano dwa rozporządzenia Ministra Finansów i Gospodarki, które czasowo redukują stawki VAT i akcyzy. Zmiany mają złagodzić wzrost cen obserwowany na rynku paliw w ostatnich tygodniach.",
@@ -406,18 +418,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/4/3/ed34181e9b8002-948-568-9-48-1910-1146.jpg",
       "dateISO": "2026-03-28T11:54:00.000Z",
-      "dateFormatted": "28 marca 2026"
-    },
-    {
-      "title": "Chiny pokazały laser do zwalczania dronów. Broń niemal jak z Gwiezdnych Wojen",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/chiny-maja-bron-jak-z-gwiezdnych-wojen-lasery-do-zwalczania-dronow/sv9mrkb",
-      "description": "Chiny zaprezentowały dwa nowe systemy obrony powietrznej oparte na broni laserowej, które zostały zaprojektowane do niszczenia na krótkim dystansie dronów i amunicji krążącej. Systemy są odpowiedzią na rosnącą lukę w obronie powietrznej, bo takie małe bezzałogowe statki powietrzne omijają tradycyjne",
-      "pubDate": "Sat, 28 Mar 2026 11:41:29 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/MBck9kpTURBXy8wOGZhYTYxMDA2NWRhODU1ZmU3NGY1NjFkNmY1YzEzZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-28T11:41:29.000Z",
       "dateFormatted": "28 marca 2026"
     },
     {
@@ -937,5 +937,5 @@
       "dateFormatted": "24 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-28T18:42:39.326Z"
+  "updatedAt": "2026-03-28T20:32:52.591Z"
 }
