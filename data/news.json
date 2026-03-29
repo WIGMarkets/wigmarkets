@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Forteca na wyspie czeka na nowego właściciela. Inwestycja za prawie półtora mln zł",
+      "link": "https://businessinsider.com.pl/nieruchomosci/wyspa-ostrowek-w-kedzierzynie-kozlu-forteca-z-xviii-wieku-szuka-inwestora/erq6nt6",
+      "description": "Zabytkowa forteca na wyspie w Kędzierzynie-Koźlu jest na sprzedaż za 1,43 mln zł. XVIII-wieczny obiekt może zostać rezydencją, hotelem lub inwestycją turystyczną.",
+      "pubDate": "Sun, 29 Mar 2026 00:14:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/UBhk9kpTURBXy9iZDcxYTBjYjRiOTY3OTg4ODY5M2M1OWQzY2YzOTI3OC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-29T00:14:00.000Z",
+      "dateFormatted": "29 marca 2026"
+    },
+    {
       "title": "Wojna na Bliskim Wschodzie uderza w rynek dóbr luksusowych. LVMH, Hermès i Ferrari tracą miliardy",
       "link": "https://businessinsider.com.pl/biznes/luksusowe-marki-liczyly-na-dubaj-konflikt-z-iranem-zatrzasl-branza/lwfeps8",
       "description": "Największe światowe marki luksusowe notują poważne spadki wartości od początku konfliktu z Iranem. Według analityków, sprzedaż na coraz ważniejszym rynku Bliskiego Wschodu może spaść nawet o połowę.",
@@ -382,18 +394,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/5/71494a2eab111b-948-568-248-9-3567-2140.jpg",
       "dateISO": "2026-03-28T12:30:00.000Z",
-      "dateFormatted": "28 marca 2026"
-    },
-    {
-      "title": "Zerowy PIT dla młodych w 2026 r. Kto nie zapłaci podatku i ile można zyskać?",
-      "link": "https://businessinsider.com.pl/gospodarka/podatki/ulga-dla-mlodych-2026-zasady-limity-i-warunki/d7m9het",
-      "description": "Ulga dla młodych ma zachęcić osoby wchodzące na rynek pracy do aktywności zawodowej. Popularny zerowy PIT może pomóc uniknąć płacenia podatku dochodowego. Wyjaśniamy, ile można zyskać i kto jest uprawniony do skorzystania z tej ulgi podatkowej.",
-      "pubDate": "Sat, 28 Mar 2026 12:25:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/GjHk9kpTURBXy82MTQ4ZjZhNzM4NTUzM2NkMDcwYjE1NTU4ZDBjNjNhNS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-28T12:25:00.000Z",
       "dateFormatted": "28 marca 2026"
     },
     {
@@ -937,5 +937,5 @@
       "dateFormatted": "24 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-28T22:31:02.994Z"
+  "updatedAt": "2026-03-29T02:35:08.798Z"
 }
