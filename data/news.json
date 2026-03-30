@@ -1,6 +1,90 @@
 {
   "articles": [
     {
+      "title": "Trump grozi, Wall Street spada. Obligacje na przekór drożejącej ropie",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-grozi-Wall-Street-spada-Obligacje-na-przekor-drozejacej-ropie-9106821.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Nowojorskie giełdy zakończyły na minusie trzecią sesję z rzędu, a Nasdaq i S&P500 pogłębiły przeszło półroczne minima.",
+      "pubDate": "Mon, 30 Mar 2026 22:05:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/9/a/b740b7a30831a5-948-568-0-97-3000-1799.jpg",
+      "dateISO": "2026-03-30T21:05:00.000Z",
+      "dateFormatted": "30 marca 2026"
+    },
+    {
+      "title": "Tauron w 2025 roku zwiększył EBITDA o 16 proc., zgodnie z szacunkami",
+      "link": "https://www.bankier.pl/wiadomosc/Tauron-w-2025-roku-zwiekszyl-EBITDA-o-16-proc-zgodnie-z-szacunkami-9106818.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Tauron w 2025 roku zwiększył wynik EBITDA o 16 proc., do 7,5 mld zł, a zysk netto poprawił się o 7,9 proc. i wyniósł 3,3 mld zł - poinformowała spółka w komunikacie. Wyniki są zgodne z wcześniej publikowanymi szacunkami.",
+      "pubDate": "Mon, 30 Mar 2026 21:54:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/e/8/3f1457f4fed800-thumb-1000.jpg",
+      "dateISO": "2026-03-30T20:54:00.000Z",
+      "dateFormatted": "30 marca 2026"
+    },
+    {
+      "title": "Spyrosoft kończy przegląd opcji strategicznych; pozyskanie inwestora najlepszym wariantem",
+      "link": "https://www.bankier.pl/wiadomosc/Spyrosoft-konczy-przeglad-opcji-strategicznych-pozyskanie-inwestora-najlepszym-wariantem-9106798.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Grupa Spyrosoft, po zakończonym przeglądzie opcji strategicznych, zdecydowała, że pozyskanie przez nią inwestora strategicznego z rynku prywatnego jest wariantem bardziej atrakcyjnym w obecnym otoczeniu biznesowym niż planowany do tej pory debiut na giełdzie międzynarodowej - poinformowała spółka w ",
+      "pubDate": "Mon, 30 Mar 2026 21:08:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/0/f/5cf4b304c96a2e-thumb-1000.jpg",
+      "dateISO": "2026-03-30T20:08:00.000Z",
+      "dateFormatted": "30 marca 2026"
+    },
+    {
+      "title": "Ukraina prywatyzuje obronę antydronową. Firmy wystawiają pierwsze jednostki",
+      "link": "https://businessinsider.com.pl/firmy/ukrainskie-firmy-wzmacniaja-obrone-powietrzna-pierwsza-jednostka-juz-dziala/96ks4p4",
+      "description": "Ukraińskie przedsiębiorstwa włączają się w działania obronne kraju. Jak informuje ministerstwo obrony, pierwsza z utworzonych przez firmy jednostek obrony powietrznej osiągnęła gotowość bojową, a 13 kolejnych jest w trakcie formowania.",
+      "pubDate": "Mon, 30 Mar 2026 20:07:39 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/I1Vk9kpTURBXy8xNzg2MjAyM2Q3MmNmNDgzMjEwZWE2ZWMwZTdlOThhOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-30T20:07:39.000Z",
+      "dateFormatted": "30 marca 2026"
+    },
+    {
+      "title": "Kolejny szok na rynku. Teraz WTI",
+      "link": "https://businessinsider.com.pl/gospodarka/ceny-ropy-wti-przekroczyly-100-dolarow-brent-jeszcze-drozsza/b35qm3c",
+      "description": "Ceny amerykańskiej ropy WTI wzrosły na zamknięciu poniedziałkowej sesji do ponad 100 dol. za baryłkę — najwyższego poziomu od 2022 r.",
+      "pubDate": "Mon, 30 Mar 2026 19:47:28 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/-3sk9kpTURBXy9mOTBjMDczMDgzNzQ5Nzk1ODYyYmNkNDM2YzY4ODBmZS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-30T19:47:28.000Z",
+      "dateFormatted": "30 marca 2026"
+    },
+    {
+      "title": "Chcemy jasnych zasad. Polacy wyrazili opinię o jawności wynagrodzeń",
+      "link": "https://businessinsider.com.pl/firmy/polacy-chca-jawnosci-plac-wyniki-najnowszego-sondazu-cbos/ss71eh7",
+      "description": "Polacy chcą, aby pracodawcy wprowadzili przejrzyste zasady ustalania płac i awansów — wynika z najnowszego sondażu CBOS. Większość opowiada się również za prawem pracowników do informacji o zarobkach w firmie.",
+      "pubDate": "Mon, 30 Mar 2026 19:37:09 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/3MOk9kpTURBXy82MDhkNGVjOGJjYjI3NjIxMWViOWIwMDUwMzJkYTFmMS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-30T19:37:09.000Z",
+      "dateFormatted": "30 marca 2026"
+    },
+    {
+      "title": "Prognozy inflacji. Minister finansów mówi jasno",
+      "link": "https://businessinsider.com.pl/gospodarka/inflacja-w-polsce-minister-finansow-podal-prognozy/rtdkt4r",
+      "description": "Andrzej Domański potwierdził, że prognoza inflacji na ten rok jest nadal aktualna. Minister finansów został też zapytany, czy rząd planuje obniżyć VAT na żywność.",
+      "pubDate": "Mon, 30 Mar 2026 19:34:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/I_8k9kpTURBXy83YWM1OGZjMmQyZDY2ZjM3MzA5MTA1MmQ5NGIwZWRiYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-30T19:34:00.000Z",
+      "dateFormatted": "30 marca 2026"
+    },
+    {
       "title": "Wstrząs w katolickiej fundacji. Ks. Cisło odpowiada na zarzuty o malwersacje",
       "link": "https://www.bankier.pl/wiadomosc/Wstrzas-w-katolickiej-fundacji-Ks-Cislo-odpowiada-na-zarzuty-o-malwersacje-9106763.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Zarzuty malwersacji, działań niezgodnych z prawem są nieprawdziwe - oświadczył w poniedziałek były dyrektor polskiej sekcji Pomoc Kościołowi w Potrzebie ks. Waldemar Cisło, odnosząc się do informacji o nieprawidłowościach, do których miało dochodzić w tej organizacji.",
@@ -22,6 +106,18 @@
       "category": "gielda",
       "image": "https://galeria.bankier.pl/p/7/e/19631433421bf8-527-315-132-0-435-260.jpg",
       "dateISO": "2026-03-30T18:58:00.000Z",
+      "dateFormatted": "30 marca 2026"
+    },
+    {
+      "title": "Francja: merowie zdejmują flagi UE",
+      "link": "https://www.bankier.pl/wiadomosc/Francja-merowie-zdejmuja-flagi-UE-9106754.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "We Francji kilku merów wybranych w niedawnych wyborach samorządowych z list skrajnie prawicowego Zjednoczenia Narodowego (RN) zdjęło z siedziby swych merostwa flagę Unii Europejskiej. Władze partii poparły ten gest; skrytykował go minister ds. europejskich Benjamin Haddad.",
+      "pubDate": "Mon, 30 Mar 2026 19:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/b/5a93b9388b73f7-948-568-2-30-997-598.jpg",
+      "dateISO": "2026-03-30T18:50:00.000Z",
       "dateFormatted": "30 marca 2026"
     },
     {
@@ -134,12 +230,12 @@
     },
     {
       "title": "Polwax z wielkim kontraktem. Znicze za 28 mln zł trafią do Biedronki",
-      "link": "https://www.bankier.pl/wiadomosc/Polwax-uzgodnil-z-JMP-warunki-dostawy-produktow-na-26-wartosc-ok-28-mln-zl-netto-9106729.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Polwax-uzgodnil-z-JMP-warunki-dostawy-produktow-na-26-wartosc-ok-28-mln-zl-netto-9106729.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Polwax uzgodnił z Jeronimo Martins Poland warunki dostawy produktów (określone rodzaje zniczy) na rok 2026 - poinformował Polwax w komunikacie. Szacowana wartość kontraktu z JMP w ramach dokonanych uzgodnień wyniesie około 28 mln zł netto.",
       "pubDate": "Mon, 30 Mar 2026 19:10:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/0/2/cdd988ae2a318d-948-568-218-483-4389-2633.jpg",
       "dateISO": "2026-03-30T18:10:00.000Z",
       "dateFormatted": "30 marca 2026"
@@ -205,27 +301,15 @@
       "dateFormatted": "30 marca 2026"
     },
     {
-      "title": "Nagły zwrot po decyzji Stanów Zjednoczonych. W tym kraju kupili rosyjską naftę",
+      "title": "Zwrot po decyzji USA. W tym kraju kupili rosyjską ropę",
       "link": "https://businessinsider.com.pl/firmy/w-korei-poludniowej-kupili-rosyjska-nafte-rozwazaja-dalsze-kroki/d86b972",
-      "description": "LG Chem z Korei Południowej zdecydował się na import 27 tys. ton rosyjskiej nafty. To pierwszy taki zakup od czasu, gdy USA złagodziły sankcje wobec rosyjskich produktów naftowych.",
+      "description": "To pierwszy taki zakup od czasu, gdy USA złagodziły sankcje wobec rosyjskich produktów naftowych.",
       "pubDate": "Mon, 30 Mar 2026 17:17:55 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/bkWk9kpTURBXy80Nzc2YzMxNmYxMzc1NDI3ODI1YzA5MTU4NjBkZTM4ZC5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-03-30T17:17:55.000Z",
-      "dateFormatted": "30 marca 2026"
-    },
-    {
-      "title": "Develia kupiła nieruchomość w Warszawie za 16 mln zł pod inwestycję na ok. 109 mieszkań",
-      "link": "https://www.bankier.pl/wiadomosc/Develia-kupila-nieruchomosc-w-Warszawie-za-16-mln-zl-pod-inwestycje-na-ok-109-mieszkan-9106691.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Spółka zależna Develii nabyła prawo własności nieruchomości położonej w Warszawie przy ulicy Głębockiej. Cena wyniosła 16 mln zł. Spółka zamierza zrealizować na nieruchomości projekt inwestycyjny z szacowaną liczbą ok. 109 lokali mieszkalnych - podała Develia w komunikacie.",
-      "pubDate": "Mon, 30 Mar 2026 18:12:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/2/5/b611ad235d489c-948-568-0-3-1302-781.jpg",
-      "dateISO": "2026-03-30T17:12:00.000Z",
       "dateFormatted": "30 marca 2026"
     },
     {
@@ -242,12 +326,12 @@
     },
     {
       "title": "KNF daje zielone światło Niewiadów-PGM. Przeniesienie notowań na GPW",
-      "link": "https://www.bankier.pl/wiadomosc/KNF-zatwierdzila-prospekt-Niewiadow-PGM-dot-ubiegania-sie-o-dopuszczenie-akcji-do-obrotu-na-rynku-regulowanym-9106682.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/KNF-zatwierdzila-prospekt-Niewiadow-PGM-dot-ubiegania-sie-o-dopuszczenie-akcji-do-obrotu-na-rynku-regulowanym-9106682.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Komisja Nadzoru Finansowego zatwierdziła prospekt notowanej obecnie na NewConnect spółki Niewiadów Polska Grupa Militarna, w związku z zamiarem ubiegania się o dopuszczenie do obrotu na rynku regulowanym jej akcji serii A, B, C, D, E, F, G, H, I, TR, FA oraz K - podał Niewiadów - PGM.",
       "pubDate": "Mon, 30 Mar 2026 18:06:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/3/9/b4614689078745-948-568-178-64-1559-935.jpg",
       "dateISO": "2026-03-30T17:06:00.000Z",
       "dateFormatted": "30 marca 2026"
@@ -423,7 +507,7 @@
     {
       "title": "Koniec z marnowaniem prądu z fotowoltaiki? Rząd pompuje miliard w domowe magazyny energii",
       "link": "https://www.bankier.pl/wiadomosc/Koniec-z-marnowaniem-pradu-z-fotowoltaiki-Rzad-pompuje-miliard-w-domowe-magazyny-energii-9106584.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Polskie Sieci Elektroenergetyczne (PSE) wydały już warunki przyłączeniowe dla magazynów energii o łącznej mocy blisko 40 GW - poinformowała ministra klimatu i środowiska Paulina Hennig-Kloska. Dodała, że celem MKiŚ jest osiągnięcie liczby 200 tys. przydomowych magazynów energii w Polsce.",
+      "description": "Polskie Sieci Elektroenergetyczne (PSE) wydały już warunki przyłączeniowe dla magazynów energii o łącznej mocy blisko 40 GW - poinformowała minister klimatu i środowiska Paulina Hennig-Kloska. Dodała, że celem MKiŚ jest osiągnięcie liczby 200 tys. przydomowych magazynów energii w Polsce.",
       "pubDate": "Mon, 30 Mar 2026 16:06:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
@@ -625,30 +709,6 @@
       "dateFormatted": "30 marca 2026"
     },
     {
-      "title": "Norwegia reaguje na wysokie ceny paliw. Ogromne zmiany od 1 kwietnia",
-      "link": "https://businessinsider.com.pl/gospodarka/norwegia-reaguje-na-wysokie-ceny-paliw-ogromne-zmiany-od-1-kwietnia/8gbqgcs",
-      "description": "W Norwegii od 1 kwietnia wyzerowane zostaną podatki od paliw — przekazał tamtejszy minister finansów Jens Stoltenberg. Taką decyzję w tej sprawie wymusiła opozycja przy wsparciu populistycznej Partii Centrum, która dotychczas współpracowała z rządem mniejszościowym.",
-      "pubDate": "Mon, 30 Mar 2026 13:13:25 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/p-Hk9kpTURBXy82NmNlZjZkYjBhOTExMWVmZmYxZDQwNjc1OTFjNGY3Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-30T13:13:25.000Z",
-      "dateFormatted": "30 marca 2026"
-    },
-    {
-      "title": "Cła Donalda Trumpa wywindowały ceny. Restauracje zmieniają menu",
-      "link": "https://businessinsider.com.pl/firmy/europejskie-produkty-drozeja-przez-cla-konsumenci-wybieraja-tansze/95t6c7q",
-      "description": "Cła nałożone na europejskie produkty przez administrację prezydenta USA Donalda Trumpa wywołały znaczące zmiany na amerykańskim rynku wina i alkoholi. Restauracje oraz sklepy zmuszone są do rezygnacji z europejskich marek na rzecz tańszych alternatyw, w tym krajowych produktów.",
-      "pubDate": "Mon, 30 Mar 2026 13:11:53 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/6qwk9kpTURBXy9jYjg2NDNmZWMwOTdmZjBjZmYyODc5YjllNjQ4MWQ4Yi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-30T13:11:53.000Z",
-      "dateFormatted": "30 marca 2026"
-    },
-    {
       "title": "Marcowy powiew inflacji. Oto dane z największej gospodarki Europy",
       "link": "https://www.bankier.pl/wiadomosc/Inflacja-w-Niemczech-w-marcu-2026-Inflacyjny-powiew-dotarl-do-Europy-9106482.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Zgodnie z oczekiwaniami marzec przyniósł silny powiew inflacji w Europie. Opublikowane dziś dane z Niemiec pozwalają oczekiwać, że w skali całej strefy euro marcowa inflacja HICP nie przekroczy 3%.",
@@ -658,30 +718,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/3/8/ddfcecb134c632-948-568-0-249-1720-1032.jpg",
       "dateISO": "2026-03-30T13:00:00.000Z",
-      "dateFormatted": "30 marca 2026"
-    },
-    {
-      "title": "Masz współwłasność? Fiskus może upomnieć się o całość podatku",
-      "link": "https://businessinsider.com.pl/gospodarka/podatki/kto-placi-podatek-od-nieruchomosci-przy-wspolwlasnosci-wyjasniamy/zsn8mm2",
-      "description": "Kto płaci podatek od nieruchomości, gdy tylko część współwłaścicieli faktycznie korzysta z domu? Najnowsze orzecznictwo sądowe rzuca światło na tę kwestię i wyjaśnia, jak interpretować przepisy oraz kto musi uiścić podatek.",
-      "pubDate": "Mon, 30 Mar 2026 12:56:55 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/xj2k9kpTURBXy81OGJhN2M5MWMwYjQ2OWM5MTA3MjU4NjQ0NmQwNTI1NS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-30T12:56:55.000Z",
-      "dateFormatted": "30 marca 2026"
-    },
-    {
-      "title": "Donald Trump grozi \"całkowitym zniszczeniem\" źródeł energii Iranu",
-      "link": "https://businessinsider.com.pl/gospodarka/donald-trump-grozi-iranowi-pisze-o-rozmowach-z-nowym-rezimem/ly7kdkg",
-      "description": "Donald Trump grozi \"całkowitym zniszczeniem\" elektrowni, szybów naftowych, a nawet instalacji odsalania wody w Iranie.",
-      "pubDate": "Mon, 30 Mar 2026 12:53:43 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/7D4k9kpTURBXy9mYzBhZTdlMThlYTc1Y2ZkYmRlMTI3NTM0OThkOGQ4MC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-30T12:53:43.000Z",
       "dateFormatted": "30 marca 2026"
     },
     {
@@ -913,5 +949,5 @@
       "dateFormatted": "24 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-30T19:02:24.858Z"
+  "updatedAt": "2026-03-30T20:47:50.884Z"
 }
