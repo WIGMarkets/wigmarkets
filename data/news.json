@@ -20,7 +20,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/3f1457f4fed800-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/9/3/8d6d4df8d08771-thumb-1000.jpg",
       "dateISO": "2026-03-30T20:54:00.000Z",
       "dateFormatted": "30 marca 2026"
     },
@@ -32,7 +32,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/6/9/663ed7264204bb-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/e/8/82216e487002a2-thumb-1000.jpg",
       "dateISO": "2026-03-30T20:08:00.000Z",
       "dateFormatted": "30 marca 2026"
     },
@@ -218,12 +218,12 @@
     },
     {
       "title": "Sfinks Polska pod lupą inwestora z Malty. Na stole oferta zakupu sieci SPHINX",
-      "link": "https://www.bankier.pl/wiadomosc/Sfinks-Polska-otrzymal-niewiazaca-oferte-nabycia-ZCP-9106732.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Sfinks-Polska-otrzymal-niewiazaca-oferte-nabycia-ZCP-9106732.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Sfinks Polska otrzymał od funduszu inwestycyjnego z siedzibą na Malcie niewiążącą ofertę nabycia zorganizowanej części przedsiębiorstwa - podała spółka w komunikacie.",
       "pubDate": "Mon, 30 Mar 2026 19:12:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/5/626ef96b45e525-945-567-129-4-1790-1074.jpg",
       "dateISO": "2026-03-30T18:12:00.000Z",
       "dateFormatted": "30 marca 2026"
@@ -925,6 +925,18 @@
       "dateFormatted": "25 marca 2026"
     },
     {
+      "title": "Bankier.pl ma już 25 lat. Dziękujemy Wam - Czytelnikom",
+      "link": "https://www.bankier.pl/wiadomosc/Bankier-pl-ma-juz-25-lat-Dziekujemy-Wam-czytelnikom-8957660.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Szanowni Państwo, Drodzy Czytelnicy, z ogromną radością i dumą, jako redaktor naczelny Bankier.pl, ogłaszam, że w czerwcu 2025 roku nasz serwis świętuje wyjątkowy jubileusz – 25 lat istnienia na rynku medialnym! Ćwierć wieku temu Bankier.pl rozpoczął swoją misję, stając się jednym z najważniejszych ",
+      "pubDate": "Wed, 25 Mar 2026 12:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/d/a/d3f9a1b4aa79c3-948-568-12-22-994-596.jpg",
+      "dateISO": "2026-03-25T11:00:00.000Z",
+      "dateFormatted": "25 marca 2026"
+    },
+    {
       "title": "Cena Bitcoina dzisiaj: rośnie powyżej 71 tys. $ przy mieszanych sygnałach",
       "link": "https://pl.investing.com/news/cryptocurrency-news/cena-bitcoina-dzisiaj-rosnie-powyzej-71-tys--przy-mieszanych-sygnalach-1336247",
       "description": "",
@@ -949,5 +961,5 @@
       "dateFormatted": "24 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-30T22:37:36.043Z"
+  "updatedAt": "2026-03-31T02:32:44.863Z"
 }
