@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Przetestował KSeF i jest zaskoczony. \"Liczyłem na więcej zmian\"",
+      "link": "https://businessinsider.com.pl/prawo/podatki/ksef-2026-system-projektowal-ktos-bez-doswiadczenia-informatyk-punktuje-plusy-i/hbvqg1y",
+      "description": "Od dziś, aby legalnie wystawić fakturę, trzeba skorzystać z Krajowego Systemu e-Faktur. — Liczyłem na więcej zmian. Mam wrażenie, że darmowe narzędzie udostępnione przez Ministerstwo Finansów projektowała osoba, która nigdy nie prowadziła nawet bardzo małej firmy — opowiada pan Marek — przedsiębiorc",
+      "pubDate": "Tue, 31 Mar 2026 23:43:09 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/vDPk9kpTURBXy8yYmQ1ZWZkYmNiZmZhNTQ3YzkxMTg3ZGY2ZjYyOGUxYy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-03-31T23:43:09.000Z",
+      "dateFormatted": "31 marca 2026"
+    },
+    {
       "title": "Wall Street stawia na koniec wojny z Iranem. S&P500 odbija z 7-miesięcznego dna",
       "link": "https://www.bankier.pl/wiadomosc/Wall-Street-stawia-na-koniec-wojny-z-Iranem-S-P500-odbija-z-7-miesiecznego-dna-9107540.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Indeks S&P500 zaliczył najlepszą sesję od maja, z impetem odbijając się z 7-miesięcznego minimum.",
@@ -517,18 +529,6 @@
       "dateFormatted": "31 marca 2026"
     },
     {
-      "title": "Nowe dane o długu państwowym. Doszliśmy do niebezpiecznego progu",
-      "link": "https://businessinsider.com.pl/gospodarka/panstwowy-dlug-publiczny-poszedl-w-gore-prog-60-proc-pkb-juz-jest/qs90ynv",
-      "description": "Jeszcze kilka lat temu, w marcu 2020 r. szokiem było dla wielu, że Polska przekracza 1 bln zł zadłużenia. Niedługo zajęło, byśmy tę liczbę niemal podwoili. Brakuje już niewiele. Niebezpieczne jest, że już na koniec 2025 r. doszliśmy do progu, którego nie powinniśmy przekraczać według kryteriów unijn",
-      "pubDate": "Tue, 31 Mar 2026 14:13:13 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/ELCk9kpTURBXy85OWRhMGIxNzMzNzkxMjAyZWU1OTc0YTM3Y2ZjZDQ5Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-03-31T14:13:13.000Z",
-      "dateFormatted": "31 marca 2026"
-    },
-    {
       "title": "UE uderza w Słowację za podwójne ceny paliw: To wysoce dyskryminujące",
       "link": "https://www.bankier.pl/wiadomosc/UE-uderza-w-Slowacje-za-podwojne-ceny-paliw-To-wysoce-dyskryminujace-9107215.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Rzeczniczka Komisji Europejskiej Siobhan McGarry powiedziała we wtorek, że państwa UE mogą podejmować działania wspierające swoich obywateli, np. obniżać akcyzę na paliwo, ale nie powinny dyskryminować ludzi. W ten sposób skomentowała wprowadzone na Słowacji wyższe ceny paliwa dla cudzoziemców.",
@@ -913,5 +913,5 @@
       "dateFormatted": "9 marca 2026"
     }
   ],
-  "updatedAt": "2026-03-31T22:36:08.776Z"
+  "updatedAt": "2026-04-01T02:44:08.252Z"
 }
