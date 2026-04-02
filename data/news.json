@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "title": "Inwestorzy chcą mieć akcje na Wielkanoc. Liczą na otwarcie Cieśniny Ormuz?",
+      "link": "https://www.bankier.pl/wiadomosc/Inwestorzy-chca-miec-akcje-na-Wielkanoc-Licza-na-otwarcie-Ciesniny-Ormuz-9108898.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Pomimo galopujących cen ropy naftowej ostatnia w tym tygodniu sesja na Wall Street zakończyła się tylko minimalnymi zmianami głównych indeksów.",
+      "pubDate": "Thu, 2 Apr 2026 22:05:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/4/3/618da799d4e9ea-948-568-0-112-3000-1799.jpg",
+      "dateISO": "2026-04-02T21:05:00.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Kaja Kallas o sytuacji w cieśninie Ormuz. Wspomina o misji wojskowej",
+      "link": "https://businessinsider.com.pl/gospodarka/ciesnina-ormuz-zagrozona-kaja-kallas-ostrzega-przed-skutkami-blokady/4m2s1s1",
+      "description": "Szefowa unijnej dyplomacji Kaja Kallas podkreśliła konieczność rozszerzenia misji morskiej Aspides, wskazując, że Europa nie może pozwolić sobie na utratę kolejnego strategicznego szlaku handlowego. Jej stanowisko pojawiło się po czwartkowej telekonferencji ponad 40 państw, zorganizowanej przez Wiel",
+      "pubDate": "Thu, 02 Apr 2026 19:59:56 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/zZKk9kpTURBXy84MmY4YzhjMTM5MWFkZGQxYzgyOTA3NjA2OTIxNWZiOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-02T19:59:56.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Zarobki w IT pozostają wysokie. Tyle dzisiaj zarabiają specjaliści",
+      "link": "https://businessinsider.com.pl/firmy/wynagrodzenia-w-it-w-gore-te-specjalizacje-zyskaly-najwiecej/r56etgq",
+      "description": "2025 r. był przełomowy dla branży IT. Jak czytamy w raporcie \"Rynek pracy IT 2025/26. Powrót do stabilności\", przygotowanym przez portal No Fluff Jobs, w minionym roku liczba ogłoszeń o pracę w IT wzrosła o 44 proc. w porównaniu z rokiem poprzednim. Specjaliści mogą także liczyć na znacznie większe ",
+      "pubDate": "Thu, 02 Apr 2026 19:41:09 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/jJQk9kpTURBXy8zNTczODFmNTAyOGUzZGIxMGI4YWQ2ZDY0N2Q3YmM0MS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-02T19:41:09.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
       "title": "Koniec amerykańskich baz w Hiszpanii? Graham żąda odwetu za brak pomocy w wojnie",
       "link": "https://www.bankier.pl/wiadomosc/Koniec-amerykanskich-baz-w-Hiszpanii-Graham-zada-odwetu-za-brak-pomocy-w-wojnie-9108865.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Wpływowy senator Republikanów Lindsey Graham opowiedział się za zmniejszeniem liczby amerykańskich żołnierzy w Europie w związku z tym, że europejscy sojusznicy nie udzielili USA pomocy w wojnie z Iranem.",
@@ -122,12 +158,12 @@
     },
     {
       "title": "Historyczny rekord cen paliwa lotniczego i ON. Notowania wystrzeliły",
-      "link": "https://www.bankier.pl/wiadomosc/Ceny-paliwa-lotniczego-i-oleju-napedowego-w-Europie-najwyzsze-w-historii-9108834.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Ceny-paliwa-lotniczego-i-oleju-napedowego-w-Europie-najwyzsze-w-historii-9108834.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Ceny paliwa lotniczego i oleju napędowego w północno-zachodniej Europie przekroczyły w czwartek odpowiednio 1900 USD/t i 1600 USD/t, osiągając nowe maksima wszech czasów. Uczestnicy rynku spodziewają się dalszej eskalacji na Bliskim Wschodzie podczas długiego weekendu wielkanocnego.",
       "pubDate": "Thu, 2 Apr 2026 18:46:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/f/1ee0b3e349ebd3-948-568-237-188-1559-935.jpg",
       "dateISO": "2026-04-02T17:46:00.000Z",
       "dateFormatted": "2 kwietnia 2026"
@@ -502,30 +538,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/bvnk9kpTURBXy8zNGJiYjk4ZTk0NzgyNmEyYjNjNzAwYzczNDhjMDQ5Zi5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-04-02T13:23:41.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
-      "title": "Słowacki polityk stawia Polskę za wzór. Ograniczeń na stacjach na razie nie ma",
-      "link": "https://businessinsider.com.pl/gospodarka/pakiet-ceny-paliw-nizej-w-praktyce-rzad-monitoruje-zakupy-obcokrajowcow/549nqyp",
-      "description": "Czy rząd zdecyduje się przeciwdziałać tzw. turystyce paliwowej i wprowadzi ograniczenia w tankowaniu dla kierowców z zagranicy? — Sytuacja na rynku musiałaby być ekstremalna — mówi ekspert. Precedensy w Europie jednak już są.",
-      "pubDate": "Thu, 02 Apr 2026 13:11:37 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/HWMk9kpTURBXy81MjI3Mjg4YjZjMTQwOWNkMTAyYzBmODkxMmRlZGY0Ny5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-02T13:11:37.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
-      "title": "Zapasy gazu w Unii Europejskiej na historycznym dnie. Eksperci alarmują",
-      "link": "https://businessinsider.com.pl/gospodarka/unia-europejska-z-rekordowo-niskimi-zapasami-gazu-polska-na-tle-sasiadow/3rg61ge",
-      "description": "Zapasy gazu ziemnego w magazynach Unii Europejskiej spadły do rekordowo niskiego poziomu 27,7 proc., znacznie poniżej 5-letniej średniej sezonowej, wynoszącej 40,9 proc.",
-      "pubDate": "Thu, 02 Apr 2026 13:06:16 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/fIdk9kpTURBXy9kNmRiZjEwZTA1OTM1YjZlNzM2ODAzODgwOThkNmVhMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-02T13:06:16.000Z",
       "dateFormatted": "2 kwietnia 2026"
     },
     {
@@ -973,5 +985,5 @@
       "dateFormatted": "26 marca 2026"
     }
   ],
-  "updatedAt": "2026-04-02T18:58:41.928Z"
+  "updatedAt": "2026-04-02T20:36:56.374Z"
 }
