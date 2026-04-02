@@ -1,15 +1,255 @@
 {
   "articles": [
     {
-      "title": "Kosmiczny debiut wszech czasów. SpaceX szykuje się do IPO z wyceną ponad biliona dolarów",
+      "title": "Dom Development w I kw. sprzedał 1.161 lokali netto",
+      "link": "https://www.bankier.pl/wiadomosc/Dom-Development-w-I-kw-sprzedal-1-161-lokali-netto-9108503.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Grupa Dom Development w I kwartale 2026 roku sprzedała 1.161 lokali netto - 542 w Warszawie, 260 w Trójmieście, 216 we Wrocławiu, 143 w Krakowie - podał deweloper w komunikacie. Spółka przekazała w tym czasie 1.273 lokale , w tym 601 w Warszawie, 132 w Trójmieście, 408 we Wrocławiu oraz 132 w Krakow",
+      "pubDate": "Thu, 2 Apr 2026 12:16:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/d/5/936e350b8ee804-786-471-174-135-1006-604.jpg",
+      "dateISO": "2026-04-02T11:16:00.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Best po fuzji rusza na zakupy. \"Znaczący wzrost inwestycji\" w 2026 roku",
+      "link": "https://www.bankier.pl/wiadomosc/GK-Best-spodziewa-sie-w-2026-roku-znaczacego-wzrostu-inwestycji-w-portfele-9108499.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Grupa Kapitałowa Best, działająca w branży windykacyjnej, chce w 2026 roku znacząco zwiększyć inwestycje w portfele wierzytelności - poinformował prezes Krzysztof Borusowski. Grupa w dalszym horyzoncie chce wchodzić na nowe rynki zagraniczne, ale na razie koncentruje się na poprawie we Włoszech.",
+      "pubDate": "Thu, 2 Apr 2026 12:08:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/b/0/c6d34dbbb5273b-948-567-0-45-1000-599.jpg",
+      "dateISO": "2026-04-02T11:08:00.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Wielkanocny prezent od Ministra Energii? Sprawdź nowe, niższe limity cen paliw na piątek",
+      "link": "https://www.bankier.pl/wiadomosc/Wielkanocny-prezent-od-Ministra-Energii-Sprawdz-nowe-nizsze-limity-cen-paliw-9108492.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Maksymalna cena dla benzyny Pb95 wynosi 6,19 zł/l, dla benzyny Pb98 6,80 zł/l, a dla oleju napędowego 7,64 zł/l - wynika z obwieszczenia ministra energii opublikowanego w Monitorze Polskim. Ceny te będą obowiązywać na stacjach paliw w piątek.",
+      "pubDate": "Thu, 2 Apr 2026 11:54:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/2/4f24a48b11e082-945-567-22-13-1763-1058.jpg",
+      "dateISO": "2026-04-02T10:54:00.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Gazociąg Jamał w nowym planie. Gaz-System ogłasza kluczowe zmiany do 2036 roku",
+      "link": "https://www.bankier.pl/wiadomosc/Gazociag-Jamal-w-nowym-planie-Gaz-System-oglasza-kluczowe-zmiany-do-2036-roku-9108473.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Krajowy plan rozwoju systemu przesyłowego na lata 2027-2036 zakłada utrzymanie istniejących zdolności przesyłowych polskiego odcinka gazociągu Jamał-Europa na kierunku zachód – wschód - poinformował Gaz-System w projekcie nowego planu, który skierował do konsultacji.",
+      "pubDate": "Thu, 2 Apr 2026 11:54:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/4/885e576963662a-948-568-0-52-1156-693.jpg",
+      "dateISO": "2026-04-02T10:54:00.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Ropa po 130 dolarów? S&P ostrzega przed \"prawdziwą burzą\" w regionie",
+      "link": "https://www.bankier.pl/wiadomosc/Ropa-po-130-dolarow-S-P-ostrzega-przed-prawdziwa-burza-w-regionie-9108465.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W scenariuszu bazowym zakładającym średnią cenę ropy naftowej na poziomie 80 USD za baryłkę w 2026 r. negatywne skutki szoków dla ratingów krajów regionu Europy Środkowo-Wschodniej i Turcji będą możliwe do opanowania - ocenia agencja S&P Global Ratings w raporcie.",
+      "pubDate": "Thu, 2 Apr 2026 11:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/6/e8878ddd349085-945-560-7-90-2992-1795.jpg",
+      "dateISO": "2026-04-02T10:50:00.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Ziszcza się wymarzony plan Putina? Tusk ostrzega przed decyzjami Trumpa",
+      "link": "https://www.bankier.pl/wiadomosc/Ziszcza-sie-wymarzony-plan-Putina-Tusk-ostrzega-przed-decyzjami-Trumpa-9108475.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Groźba rozpadu NATO, złagodzenie sankcji wobec Rosji, kryzys energetyczny w Europie, wstrzymanie pomocy dla Ukrainy czy zablokowanie pożyczki dla Kijowa przez Viktora Orbana wygląda jak wymarzony plan Putina - ocenił w czwartek premier Donald Tusk.",
+      "pubDate": "Thu, 2 Apr 2026 11:34:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/a/8bbe24fa9eca26-948-568-0-134-1912-1147.jpg",
+      "dateISO": "2026-04-02T10:34:00.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Prezydent USA podbił ceny paliw na święta. Droższy szczególnie diesel",
+      "link": "https://businessinsider.com.pl/gospodarka/ceny-paliw-na-swieta-w-piatek-bedzie-drozej-szczegolnie-diesel/wfgn8tx",
+      "description": "Jeśli chcemy zatankować taniej na święta, to lepiej zrobić to już w czwartek. W czwartek Orlen jeszcze obniżył ceny w hurcie. Ale ostry wzrost notowań diesla i benzyny w Londynie po przemówieniu Donalda Trumpa odbija się na cenach diesla i benzyny. W tym wszystkim mamy jeszcze maksymalne ceny detali",
+      "pubDate": "Thu, 02 Apr 2026 10:29:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/oAnk9kpTURBXy9lMGY1NmVhN2U0NzAwZGI0YjAzZDBiZWMxZGIyMmMwNi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-02T10:29:00.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Marvipol Development sprzedał w I kw. 150 lokali",
+      "link": "https://www.bankier.pl/wiadomosc/Marvipol-Development-sprzedal-w-I-kw-150-lokali-9108471.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Marvipol Development sprzedał w pierwszym kwartale 2026 roku 150 lokali o łącznej wartości 103,6 mln zł. Liczba wydanych lokali wyniosła w tym czasie 19 sztuk, a ich wartość to 17,9 mln zł - podał deweloper w komunikacie.",
+      "pubDate": "Thu, 2 Apr 2026 11:28:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/1/9/69c86dc879af37-948-567-0-67-1000-599.jpg",
+      "dateISO": "2026-04-02T10:28:00.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Ustawa o Państwowej Inspekcji Pracy. Karol Nawrocki podjął decyzję",
+      "link": "https://businessinsider.com.pl/prawo/ustawa-o-panstwowej-inspekcji-pracy-karol-nawrocki-podjal-decyzje/2y6m11z",
+      "description": "Prezydent podpisał nowelizację ustawy o Państwowej Inspekcji Pracy i skierował ją do następczej oceny Trybunału Konstytucyjnego.",
+      "pubDate": "Thu, 02 Apr 2026 10:23:29 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/dP9k9kpTURBXy81YzEzYTc3MGJjODI4MTg5NzcxZGI5MDIwNDU5NmI3Mi5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-02T10:23:29.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "469 mln zł zysku Poczty Polskiej. Sukces biznesowy czy efekt państwowej kroplówki?",
+      "link": "https://www.bankier.pl/wiadomosc/469-mln-zl-zysku-Poczty-Polskiej-Sukces-biznesowy-czy-efekt-panstwowej-kroplowki-9108469.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wynik netto Poczty Polskiej za 2025 r. wyniósł 469 mln zł wobec 213 mln zł straty w 2024 r. - poinformowali w czwartek przedstawiciele poczty. Przychody spółki ze sprzedaży przekroczyły 6,8 mld zł, rosnąc o 1 proc. rok do roku.",
+      "pubDate": "Thu, 2 Apr 2026 11:23:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/a/4de51c150925f6-948-568-0-72-1920-1151.jpg",
+      "dateISO": "2026-04-02T10:23:00.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Kielecki czy Winiary? Mamy \"ostateczną\" odpowiedź",
+      "link": "https://businessinsider.com.pl/poradnik-finansowy/kielecki-kontra-winiary-spor-rozstrzygniety/y9dz4nb",
+      "description": "Majonez od lat zajmuje szczególne miejsce w wielkanocnym koszyku Polaków. Która z dwóch marek jest jednak popularniejsza? Popularna aplikacja wskazuje na Winiary.",
+      "pubDate": "Thu, 02 Apr 2026 10:15:36 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/1Zdk9kpTURBXy83ZmUzMjNjNGFmMDFlMGEzMmJlMTk4NmI2Yzk4MWY5Zi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-02T10:15:36.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "ZUS wypłaca 336 zł miesięcznie na prąd. Nie obowiązuje kryterium dochodowe",
+      "link": "https://businessinsider.com.pl/praca/emerytury/dodatek-do-pradu-z-zus-2026-kto-dostanie-i-ile/jf0fz68",
+      "description": "Nie każde świadczenie lub dodatek z ZUS jest obwarowane kryterium dochodowym. Przykładem może być dodatek do prądu, który ma pomóc w pokryciu rosnących kosztów energii. Można go otrzymać bez względu na wysokość dochodów, przy czym niezbędne jest spełnienie jednego warunku.",
+      "pubDate": "Thu, 02 Apr 2026 10:15:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/AFOk9kpTURBXy9jNmM0YzYwYTE3NjgzNWU4MmMyZGZkMmY4Y2RhNTU4Yi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-02T10:15:00.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Nowe ceny paliw w Wielki Piątek. Minister ogłosił maksymalne stawki",
+      "link": "https://businessinsider.com.pl/gospodarka/jest-decyzja-w-sprawie-maksymalnych-cen-paliw-tyle-zaplacisz-w-wielki-piatek/szyw7kh",
+      "description": "Minister energii Miłosz Motyka opublikował nowe obwieszczenie w sprawie maksymalnych cen paliw na piątek 3 kwietnia.",
+      "pubDate": "Thu, 02 Apr 2026 10:00:12 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/IbGk9kpTURBXy82NmI0M2I3ZTY3N2IxM2I1ZmEwMGE0ZmFhYmMwM2Y1OS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-02T10:00:12.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Krachu nie było, KSeF póki co działa zaskakująco stabilnie. Do kiedy?",
+      "link": "https://www.bankier.pl/wiadomosc/Krachu-nie-bylo-KSeF-poki-co-dziala-zaskakujaco-stabilnie-Do-kiedy-9108444.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Miało być fiasko systemu, awarie i lamenty użytkowników. Tymczasem – póki co – jest zaskoczenie i Krajowy System e-Faktur wciąż działa bez większych awarii. Użytkownicy zgłaszają trudności, jednak ich liczba jest stosunkowo niewielka w porównaniu z gigantycznymi problemami, jakie miały miejsce w lut",
+      "pubDate": "Thu, 2 Apr 2026 10:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/2/59bc8706a42d83-948-568-12-6-1185-711.jpg",
+      "dateISO": "2026-04-02T09:50:00.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Firma powiązana z Andrzejem Dudą przejmuje bank w Ukrainie",
+      "link": "https://businessinsider.com.pl/biznes/polski-fintech-przejmuje-bank-w-ukrainie-we-wladzach-andrzej-duda/mgt208r",
+      "description": "Zen — firma, w której zatrudniony jest były prezydent Andrzej Duda — poinformowała, że przejmie PIN Bank w Ukrainie.",
+      "pubDate": "Thu, 02 Apr 2026 09:46:17 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/5dSk9kpTURBXy9hZjk0ZTRlNTFiOTg3Y2U5OTRiNjU4ZWE0YTgzOWZmNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-02T09:46:17.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Ultimatum dla Manowskiej wygasa. Czy Trybunał Stanu zostanie sparaliżowany?",
+      "link": "https://www.bankier.pl/wiadomosc/Ultimatum-dla-Manowskiej-wygasa-Czy-Trybunal-Stanu-zostanie-sparalizowany-9108439.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Przewodnicząca Trybunału Stanu Małgorzata Manowska nadal nie zwołała posiedzenia pełnego składu Trybunału ws. serii pytań złożonych na kanwie wniosku o wyłączenie sędziego TS ze sprawy byłego szefa KRRiT Macieja Świrskiego - powiedział w czwartek członek TS Przemysław Rosati. Termin na zwołanie posi",
+      "pubDate": "Thu, 2 Apr 2026 10:41:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/c/8eb69ef7668e52-945-560-0-138-1500-899.jpg",
+      "dateISO": "2026-04-02T09:41:00.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Niemcy alarmują po decyzji Polski. Firmom grozi fala bankructw",
+      "link": "https://businessinsider.com.pl/gospodarka/niemcy-alarmuja-po-decyzji-polski-chca-natychmiastowych-dzialan-rzadu/n1e09d0",
+      "description": "Niemiecki sektor transportowy bije na alarm po wprowadzeniu w Polsce limitów cen paliw. Zdaniem branży nowe regulacje oznaczają poważne zaburzenia konkurencji na rynku europejskim.",
+      "pubDate": "Thu, 02 Apr 2026 09:40:15 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/lNPk9kpTURBXy8yMjk5MWEwZDNkNWRjYzkyZmFmMmQ3MjE5ZDVhNmNlNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-02T09:40:15.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Znacząca poprawa sytuacji Poczty Polskiej. Spółka pokazała wyniki",
+      "link": "https://businessinsider.com.pl/finanse/poczta-polska-pokazala-wyniki-za-2025-r-widac-znaczaca-poprawe/0w11ne2",
+      "description": "Poczta Polska zakończyła 2025 r. z wyraźną poprawą wyników finansowych — poinformowali w czwartek przedstawiciele spółki.",
+      "pubDate": "Thu, 02 Apr 2026 09:38:18 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/y-Ek9kpTURBXy83OThhYmM3M2FjZTFjNjE1ZmViMGUzZTkzOWIxMjBlMi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-02T09:38:18.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Musk pierwszym trylionerem? Kosmiczne IPO SpaceX wyrzuci jego majątek poza orbitę",
       "link": "https://www.bankier.pl/wiadomosc/Kosmiczny-debiut-wszech-czasow-SpaceX-szykuje-sie-do-IPO-z-wycena-ponad-biliona-dolarow-9108404.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Należący do Elona Muska SpaceX ma trafić na giełdę? Jak się okazuje, w środę firma zajmująca się m.in. produkcją rakiet, technologią do badania (podboju) kosmosu i satelitami Starlink złożyła poufny wniosek do amerykańskiej Komisji Papierów Wartościowych i Giełd o przeprowadzenie pierwszej oferty pu",
       "pubDate": "Thu, 2 Apr 2026 10:30:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/8/1ed546f44e75f5-948-568-0-430-2032-1219.jpg",
+      "image": "http://galeria.bankier.pl/p/4/1/f5b57343b11c5d-948-568-450-235-3092-1855.jpg",
       "dateISO": "2026-04-02T09:30:00.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "ZUS podwyższa emerytury. Wystarczy jeden dokument sprzed lat",
+      "link": "https://businessinsider.com.pl/praca/emerytury/zus-podwyzsza-emerytury-za-prace-przed-1999-r-jakie-dokumenty-i-ile-mozna-zyskac/wbpyqj4",
+      "description": "Choć to może brzmieć zbyt pięknie, żeby było prawdziwe, to faktycznie jeden dokument może znacząco zmienić wysokość emerytury wypłacanej przez ZUS. Brakujące poświadczenie zatrudnienia posłuży do ponownego przeliczenia świadczenia i może podwyższyć emeryturę na stałe.",
+      "pubDate": "Thu, 02 Apr 2026 09:11:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Yjok9kpTURBXy9kMGZjM2M0MDFiNjAzZTkzNmVkZDc5YzhmM2MxZjEzNC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-02T09:11:00.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
+      "title": "Gdzie najtaniej kupić jajka i jaka cena jest OK? Ostra walka sieci handlowych",
+      "link": "https://businessinsider.com.pl/finanse/handel/gdzie-najtaniej-kupic-jajka-sieci-handlowe-chronia-swoje-marze/293yvzv",
+      "description": "Sieci handlowe wyraźnie zmieniły strategię promocyjną przed tegoroczną Wielkanocą. Jak wynika z raportu Hiper-Com Poland i UCE Research, liczba akcji promocyjnych na jajka spadła o 4,6 proc. rok do roku.",
+      "pubDate": "Thu, 02 Apr 2026 09:10:05 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/OSCk9kpTURBXy9kYWFmMjU0NzA0NDg4NDYxZmQwM2Q2MGUwYzhhNWQyMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-02T09:10:05.000Z",
       "dateFormatted": "2 kwietnia 2026"
     },
     {
@@ -25,18 +265,6 @@
       "dateFormatted": "2 kwietnia 2026"
     },
     {
-      "title": "62 nowe sklepy w trzy miesiące. Ekspansja Dino nie zna granic",
-      "link": "https://www.bankier.pl/wiadomosc/Dino-Polska-otworzylo-od-stycznia-do-konca-marca-2026-r-62-nowe-sklepy-9108421.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Dino Polska otworzyło od stycznia do końca marca 2026 roku 62 nowe sklepy. Na koniec marca sieć liczyła 3.094 sklepy wobec 2.746 rok wcześniej - poinformowała spółka w komunikacie na stronie internetowej.",
-      "pubDate": "Thu, 2 Apr 2026 10:08:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/3/a/df28ab2c989a7c-948-568-0-42-1900-1139.jpg",
-      "dateISO": "2026-04-02T09:08:00.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
       "title": "Zwolnią 350 pracowników. Redukcje również w Polsce",
       "link": "https://www.bankier.pl/wiadomosc/Zwolnia-350-osob-W-Polsce-zatrudnienie-moze-stracic-nawet-130-pracownikow-9108423.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Fińska spółka Valmet rozpatruje zakończenie działalności produkcyjnej w swojej fabryce w Sundsvall w Szwecji. Taka decyzja mogłaby odbić się nie tylko na lokalnym rynku pracy, ale również na sytuacji pracowników w Polsce, zwłaszcza w Jeleniej Górze. Pracę może tam stracić nawet 130 osób – podaje ser",
@@ -49,13 +277,25 @@
       "dateFormatted": "2 kwietnia 2026"
     },
     {
+      "title": "62 nowe sklepy w trzy miesiące. Ekspansja Dino nie zna granic",
+      "link": "https://www.bankier.pl/wiadomosc/Dino-Polska-otworzylo-od-stycznia-do-konca-marca-2026-r-62-nowe-sklepy-9108421.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Dino Polska otworzyło od stycznia do końca marca 2026 roku 62 nowe sklepy. Na koniec marca sieć liczyła 3.094 sklepy wobec 2.746 rok wcześniej - poinformowała spółka w komunikacie na stronie internetowej.",
+      "pubDate": "Thu, 2 Apr 2026 10:08:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/a/df28ab2c989a7c-948-568-0-42-1900-1139.jpg",
+      "dateISO": "2026-04-02T09:08:00.000Z",
+      "dateFormatted": "2 kwietnia 2026"
+    },
+    {
       "title": "Creotech Quantum celuje w 100 mln zł przychodów. Debiut na giełdzie już w kwietniu",
-      "link": "https://www.bankier.pl/wiadomosc/Creotech-zakonczyl-proces-podzialu-debiut-Creotech-Quantum-na-GPW-planowany-na-17-IV-9108417.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Creotech-zakonczyl-proces-podzialu-debiut-Creotech-Quantum-na-GPW-planowany-na-17-IV-9108417.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Creotech Instruments zakończył proces podziału na dwie niezależne spółki. W środę sąd rejestrowy wpisał do KRS podwyższenie kapitału zakładowego Creotech Quantum, co formalnie finalizuje wydzielenie segmentu kwantowego - podała spółka w komunikacie. Debiut Creotech Quantum na GPW planowany jest na 1",
       "pubDate": "Thu, 2 Apr 2026 10:02:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/e/b9d26f9ae4ae9e-948-568-0-270-4000-2399.jpg",
       "dateISO": "2026-04-02T09:02:00.000Z",
       "dateFormatted": "2 kwietnia 2026"
@@ -214,18 +454,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/PcWk9kpTURBXy9mNTY5MTM0MWNlMTJjNDVkNmNhOTY4N2Y2MGNkMTk0OC5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-04-02T07:48:58.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
-      "title": "Dadelo z mocnym uderzeniem w I kwartale 2026. Nowe sklepy wspierają wyniki",
-      "link": "https://www.bankier.pl/wiadomosc/Przychody-Dadelo-w-I-kw-wyniosly-139-mln-zl-wiecej-o-67-29-proc-rdr-szacunki-9108385.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Przychody Dadelo w pierwszym kwartale 2026 roku wyniosły 139 mln zł, więcej o 67,29 proc. rdr - podała spółka w komunikacie z szacunkami.",
-      "pubDate": "Thu, 2 Apr 2026 08:46:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/b/0/1a402daa606bfe-948-568-0-320-3916-2350.jpg",
-      "dateISO": "2026-04-02T07:46:00.000Z",
       "dateFormatted": "2 kwietnia 2026"
     },
     {
@@ -397,42 +625,6 @@
       "dateFormatted": "2 kwietnia 2026"
     },
     {
-      "title": "ZUS dopłaca nawet 1000 zł do emerytury. Wystarczy spełnić jeden warunek",
-      "link": "https://businessinsider.com.pl/praca/emerytury/zus-doplaca-do-emerytury-2026-kto-dostanie-ponad-1000-zl-i-jakie-warunki/93lzblc",
-      "description": "Wielu seniorów nie wie, że ich emerytura może być wyższa nawet o ponad 1000 zł miesięcznie. Kluczowe jest spełnienie jednego warunku, dzięki któremu można otrzymać świadczenie uzupełniające z ZUS.",
-      "pubDate": "Thu, 02 Apr 2026 06:33:44 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/R73k9kpTURBXy9mMjFkZTczOGY2OGNlNjQ2MzdiNzI0MTMyZGFhYmY3Yi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-02T06:33:44.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
-      "title": "Drony „zabójcy” ruszyły na Bliski Wschód. W tle scenariusz ataku na Iran",
-      "link": "https://www.bankier.pl/wiadomosc/Drony-zabojcy-ruszyly-na-Bliski-Wschod-W-tle-scenariusz-ataku-na-Iran-9108284.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Amerykańskie drony MQ-9 Reaper spodziewane od kilku dni w azorskiej bazie lotniczej Lajes, na wyspie Terceira, odleciały już na Bliski Wschód - poinformował w środę portugalski generał broni Rafael Martins.",
-      "pubDate": "Thu, 2 Apr 2026 07:21:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/0/202f735de05f75-948-568-52-240-2937-1762.jpg",
-      "dateISO": "2026-04-02T06:21:00.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
-      "title": "Kurs dolara reaguje po przemówieniu Donalda Trumpa. Widać nocny skok",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-dolara-oto-co-sie-stalo-w-trakcie-przemowienia-donalda-trumpa/dj90xb2",
-      "description": "Dolar amerykański zyskał na wartości w czwartek, odrabiając straty z ostatnich dwóch dni. Reakcja na wystąpienie Donalda Trumpa była błyskawiczna, co obrazuje wykres.",
-      "pubDate": "Thu, 02 Apr 2026 06:17:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/ocOk9kpTURBXy9iMzc5YTQ5NjJmNWUwNDFjNzYzMmI5MTg2N2EyZTk4Ni5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-02T06:17:00.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
       "title": "Bitcoin spada do 66,5 tys. $, Trump grozi Iranowi \"ekstremalnie mocno\"",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-do-665-tys--trump-grozi-iranowi-ekstremalnie-mocno-1347312",
       "description": "",
@@ -457,42 +649,6 @@
       "dateFormatted": "2 kwietnia 2026"
     },
     {
-      "title": "Trump i Rodriguez: Niesamowita relacja kończy erę sankcji w Wenezueli",
-      "link": "https://www.bankier.pl/wiadomosc/Trump-i-Rodriguez-Niesamowita-relacja-konczy-ere-sankcji-w-Wenezueli-9108260.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ministerstwo finansów USA zdjęło sankcje wobec pełniącej obowiązki prezydenta Wenezueli Delcy Rodriguez - wynika z opublikowanego w środę komunikatu amerykańskiego Biura Kontroli Aktywów Zagranicznych (OFAC).",
-      "pubDate": "Thu, 2 Apr 2026 06:57:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/3/ccb94fd0d865a3-948-568-10-210-3990-2393.jpg",
-      "dateISO": "2026-04-02T05:57:00.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
-      "title": "Nerwowa reakcja na orędzie Donalda Trumpa. Widać to po azjatyckich rynkach",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/donald-trump-zapowiada-atak-na-iran-rynki-juz-reaguja-na-jego-oredzie/dtjdc7x",
-      "description": "Rynki w regionie Azji i Pacyfiku odwróciły czwartkowe wzrosty po wystąpieniu prezydenta USA Donald Trump dotyczącym konfliktu z Iranem.",
-      "pubDate": "Thu, 02 Apr 2026 05:54:07 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/biQk9kpTURBXy8xMGVlYjAwZDg0Nzc1M2I2MjlmZTk4NjQ2ZWIxZmZkMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-02T05:54:07.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
-      "title": "Orban do Tuska: Walczę o Węgrów, kiedyś robiłeś to samo dla Polski",
-      "link": "https://www.bankier.pl/wiadomosc/Orban-do-Tuska-Walcze-o-Wegrow-kiedys-robiles-to-samo-dla-Polski-9108238.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Premier Węgier Viktor Orban skomentował w środę nagranie Koalicji Obywatelskiej krytykujące kontakty szefa węgierskiego MSZ Petera Szijjarto z przedstawicielami Kremla. Zwracając się do premiera Donalda Tuska, napisał: „Walczę o to, co najlepsze dla Węgrów; kiedyś robiłeś to samo dla Polski”.",
-      "pubDate": "Thu, 2 Apr 2026 06:49:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/e/fa44966bd8e329-948-568-20-10-3980-2387.jpg",
-      "dateISO": "2026-04-02T05:49:00.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
       "title": "Plan Trumpa na kolejne tygodnie: cofnąć Iran do epoki kamienia",
       "link": "https://www.bankier.pl/wiadomosc/Plan-Trumpa-na-kolejne-tygodnie-Cofnac-Iran-do-epoki-kamienia-9108295.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W ciągu następnych dwóch-trzech tygodni będziemy mocno atakować Iran, ten kraj powróci do epoki kamienia - zapowiedział w orędziu do narodu prezydent USA Donald Trump. Mimo wcześniejszych sugestii nie odniósł się do wygłaszanych przez siebie gróźb o wyjściu Stanów Zjednoczonych z NATO.",
@@ -505,90 +661,6 @@
       "dateFormatted": "2 kwietnia 2026"
     },
     {
-      "title": "\"Strzela sobie w stopę\". Prawnicy i sędziowie komentują ruch Karola Nawrockiego",
-      "link": "https://businessinsider.com.pl/prawo/karol-nawrocki-popelnil-blad-z-sedziami-prezydent-strzelil-sobie-w-stope/72d5kx5",
-      "description": "Prezydent ma obowiązek odebrania ślubowania od wszystkich sześciu sędziów wybranych 13 marca. Tak uważa prof. Marcin Wiącek, Rzecznik Praw Obywatelskich, i wyjaśnia niuanse. Karol Nawrocki do pałacu zaprosił tylko dwoje sędziów, ale co do pozostałych nie ma jeszcze decyzji. Pozostała czwórka ponowni",
-      "pubDate": "Thu, 02 Apr 2026 05:22:45 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/sZxk9kpTURBXy85MmExYmZhNDY4NDE2NTBmMDI2NzMwZWQ2Y2RiNGEwMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-02T05:22:45.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
-      "title": "Kurs JPY/PLN 02 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-jena-japonskiego-dzisiaj-po-ile-jest-jen-japonski-2-kwietnia-2026-r/8cqvzmh",
-      "description": "Poznaj kurs japońskiego jena na dzień 02 kwietnia 2026. Jen jest jedną z głównych walut rezerwowych świata, dlatego ma znaczenie dla światowej gospodarki. Jednak jego kurs interesuje także podróżujących do Japonii w celach turystycznych. Z tego powodu pokazujemy obecny kurs waluty, jak też zmiany ku",
-      "pubDate": "Thu, 02 Apr 2026 05:03:58 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Ec5k9kpTURBXy81MDBkMTNhZDU5ZTAwNzkwNzZkODM2YjA2ZDkxZTcyNS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-02T05:03:58.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
-      "title": "Kurs EUR/PLN 02 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-euro-dzisiaj-po-ile-jest-euro-2-kwietnia-2026-r/7ktmsgz",
-      "description": "Poznaj zmiany kursu EUR/PLN dla dnia 02 kwietnia 2026. Jak dziś wygląda euro względem złotego? Jak silna jest najważniejsza waluta w Unii Europejskiej? Czy aktualnie opłaca się wymieniać euro na polskie złotówki? Wczoraj wartość euro wyniosła: 4,2926 zł.",
-      "pubDate": "Thu, 02 Apr 2026 05:03:46 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/CSVk9kpTURBXy83NGViYjdhOGQ3ZGYxMDY2NGY2YmE5MTZlNDJkNDAzNy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-02T05:03:46.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
-      "title": "Kurs USD/PLN 02 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-dolara-amerykanskiego-dzisiaj-po-ile-jest-dolar-amerykanski-2-kwietnia-2026-r/s76b4b1",
-      "description": "Przedstawiamy notowania bieżącego kursu USD z dnia 02 kwietnia 2026. Wczorajsza wartość dolara to 3,7203 zł. Od tego, jaki jest kurs USD, zależy cena wielu importowanych towarów oraz usług, których transakcje rozliczane są w dolarach. By pokazać perspektywę, w tym artykule pokazujemy zmianę kursu US",
-      "pubDate": "Thu, 02 Apr 2026 05:03:43 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/rUkk9kpTURBXy9kZTJhOTQ2YmQ5MWI5MDdmMTVmY2QxZjhlNGFlZTcwNi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-02T05:03:43.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
-      "title": "Kurs CHF/PLN 02 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-franka-szwajcarskiego-dzisiaj-po-ile-jest-frank-szwajcarski-2-kwietnia-2026-r/jp6lslr",
-      "description": "Zapraszamy do zapoznania się z bieżącym notowaniem kursu franka szwajcarskiego (CHF) oraz zmianą tygodniowych wskazań. Pokazujemy, jak zmienia się kurs franka w stosunku do polskiego złotego. Czy nasza waluta obecnie traci? Wczoraj kurs CHF wynosił: 4,6587 zł. Szczegóły zmian kursu poznasz, czytając",
-      "pubDate": "Thu, 02 Apr 2026 05:03:30 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/d92k9kpTURBXy81NTJkOGYzYzQzMGVmNGVmMWVkMmY4ZWJiMjdhZTIwNy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-02T05:03:30.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
-      "title": "Kurs GBP/PLN 02 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-funtow-brytyjskich-dzisiaj-po-ile-jest-funt-brytyjski-2-kwietnia-2026-r/3k79lvt",
-      "description": "Prezentujemy bieżące notowania kursu waluty GBP oraz zmiany kursu w ujęciu dziennym. Poniżej znajduje się kurs na dzień 02 kwietnia 2026 — jak zmienił się on w stosunku do złotego? Wczorajszy kurs wynosił 4,9246 zł, jeśli chcesz dowiedzieć się, jak sytuacja wygląda dziś, przeczytaj artykuł.",
-      "pubDate": "Thu, 02 Apr 2026 05:03:27 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/6Onk9kpTURBXy85YjgzMGFmZjYwZGZkMjJhODU5Mzg2OWY0YjEzZmY3MC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-02T05:03:27.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
-      "title": "Kurs CZK/PLN 02 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-czeskiej-dzisiaj-po-ile-jest-korona-czeska-2-kwietnia-2026-r/lsetcwr",
-      "description": "Czeska korona nie ma nawet 30 lat, co sprawia, że jest to jedna z najmłodszych walut europejskich. Pokazujemy bieżący kurs waluty CZK z dnia 02 kwietnia 2026 z godz. 7 rano. Informujemy także o zmianach kursu dzień do dnia i tydzień do tygodnia. Wczoraj kurs CZK wynosił: 0,1750 zł.",
-      "pubDate": "Thu, 02 Apr 2026 05:03:14 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/-bEk9kpTURBXy80ZDNlYTgwNDkyZjI3MzgwNTM2YzI2NTgyMGI5NDM2NS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-02T05:03:14.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
       "title": "Wystarczyło 3,5 proc. żeby być najlepszym. Wojna pokiereszowała portfele ekspertów",
       "link": "https://www.bankier.pl/wiadomosc/Wystarczylo-3-5-proc-zeby-byc-najlepszym-Wojna-pokiereszowala-portfele-ekspertow-9108039.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Marzec 2026 roku na rynkach kapitałowych przypominał trudną przeprawę przez gęstą mgłę. Wojna na Bliskim Wschodzie sprawiła, że wybory ekspertów Portfela Gwiazd poddane były ciężkiemu ostrzałowi ogniem zaporowym. Przebić się przez niego i osiągnąć dodatnią stopę zwrotu udało się nielicznym. Kluczem ",
@@ -597,30 +669,6 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/a/b/a7963bec8620a2-945-560-3-0-1496-897.jpg",
-      "dateISO": "2026-04-02T05:00:00.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
-      "title": "Dekada z 500+. Drogo, bezproduktywnie i demoralizująco",
-      "link": "https://www.bankier.pl/wiadomosc/Dekada-z-500-Drogo-bezproduktywnie-i-demoralizujaco-9087707.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W sensie ekonomicznym była to spektakularna klęska interwencjonizmu państwa: ilość dotowanego dobra spadła pomimo potężnych nakładów zachęcających do jego „produkcji”.",
-      "pubDate": "Thu, 2 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/9/e53248e7af7549-945-560-26-26-3516-2109.jpg",
-      "dateISO": "2026-04-02T05:00:00.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
-      "title": "W czasach, gdy bitcoiny były za darmo i inne historie. Jak zaczynała Rada Janusza?",
-      "link": "https://www.bankier.pl/wiadomosc/W-czasach-gdy-bitcoiny-byly-za-darmo-i-inne-historie-Jak-zaczynala-Rada-Janusza-9107715.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Dziś Wielki Czwartek, zbliżają się Święta Wielkanocne, a w wielu domach trwają właśnie porządki i przygotowania. Wiem doskonale, że w tym natłoku pracy, mało komu chce się śledzić skomplikowane analizy, wykresy czy kolejne badania. Dlatego tym razem postanowiłem odłożyć na bok tabelki i zapytać osob",
-      "pubDate": "Thu, 2 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/e/1a13f89550d7e0-948-568-0-232-3000-1799.jpg",
       "dateISO": "2026-04-02T05:00:00.000Z",
       "dateFormatted": "2 kwietnia 2026"
     },
@@ -721,6 +769,18 @@
       "dateFormatted": "1 kwietnia 2026"
     },
     {
+      "title": "Fortuna za zerwany kontrakt. Polska przegrywa z Pfizerem i ma do zapłaty ponad 5,6 mld zł",
+      "link": "https://www.bankier.pl/wiadomosc/Fortuna-za-zerwany-kontrakt-Polska-przegrywa-z-Pfizerem-i-ma-do-zaplaty-ponad-5-6-mld-zl-9108087.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sąd Pierwszej Instancji w Brukseli orzekł w środę, że Polska musi zrealizować umowę zawartą z amerykańskim koncernem farmaceutycznym Pfizer na zakup szczepionek przeciwko COVID-19. Ma odebrać pozostałe dawki szczepionki i zapłacić 5 mld 644 mln zł. Wyrok jest nieprawomocny.",
+      "pubDate": "Wed, 1 Apr 2026 16:44:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/e/5133a47c74bfe1-948-568-12-0-1718-1030.jpg",
+      "dateISO": "2026-04-01T15:44:00.000Z",
+      "dateFormatted": "1 kwietnia 2026"
+    },
+    {
       "title": "EDX Markets wspierany przez Citadel Securities ubiega się o licencję banku powierniczego",
       "link": "https://pl.investing.com/news/cryptocurrency-news/edx-markets-wspierany-przez-citadel-securities-ubiega-sie-o-licencje-banku-powierniczego-93CH-1346793",
       "description": "",
@@ -766,18 +826,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/4/3/22bf7c40d943c7-948-568-19-0-1900-1140.jpg",
       "dateISO": "2026-04-01T08:00:00.000Z",
-      "dateFormatted": "1 kwietnia 2026"
-    },
-    {
-      "title": "KSeF dla początkujących. Co musisz wiedzieć o systemie? Jak uniknąć błędów?",
-      "link": "https://www.bankier.pl/wiadomosc/KSeF-dla-poczatkujacych-Co-musisz-wiedziec-o-systemie-Jak-uniknac-bledow-9107651.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Krajowy System e-Faktur wszedł w nowy etap. 1 kwietnia objął obowiązkiem wystawiania faktur zdecydowaną większość firm. Dopiero zaczynasz przygodę z systemem? Przeczytaj podstawowe informacje i dowiedz się, na co musisz zwrócić uwagę.",
-      "pubDate": "Wed, 1 Apr 2026 08:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/c/fcd6082687626a-948-568-0-3-1191-714.jpg",
-      "dateISO": "2026-04-01T07:30:00.000Z",
       "dateFormatted": "1 kwietnia 2026"
     },
     {
@@ -889,5 +937,5 @@
       "dateFormatted": "26 marca 2026"
     }
   ],
-  "updatedAt": "2026-04-02T08:59:26.788Z"
+  "updatedAt": "2026-04-02T10:52:10.009Z"
 }
