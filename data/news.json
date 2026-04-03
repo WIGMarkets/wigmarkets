@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "ZUS zawiesza negocjacje płacowe. Związki domagają się więcej",
+      "link": "https://businessinsider.com.pl/zarzad-zus-kontra-zwiazkowcy-spor-o-wysokosc-podwyzek/7tzdddr",
+      "description": "Strony zawiesiły negocjacje płacowe w Zakładzie Ubezpieczeń Społecznych. Podpisały wspólne oświadczenie i ustaliły termin kolejnego spotkania. Spór dotyczy wysokości podwyżek wynagrodzeń dla pracowników instytucji.",
+      "pubDate": "Fri, 03 Apr 2026 18:19:09 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/PZhk9kpTURBXy9iM2ZhMDliNGVmMjE4NjVkYmNiZmVmNGFmYzM1MTQ1OC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-03T18:19:09.000Z",
+      "dateFormatted": "3 kwietnia 2026"
+    },
+    {
       "title": "Mostostal Warszawa wzywa na arbitraż przeciwko GE Hydro France, roszczenia szacuje na 35 mln USD",
       "link": "https://www.bankier.pl/wiadomosc/Mostostal-Warszawa-wzywa-na-arbitraz-przeciwko-GE-Hydro-France-roszczenia-szacuje-na-35-mln-USD-9109292.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Mostostal Warszawa złożył wezwanie na arbitraż przeciwko GE Hydro France do Międzynarodowego Sądu Arbitrażowego Międzynarodowej Izby Handlowej - podał Mostostal w komunikacie. Spółka szacuje aktualną wartość roszczeń na kwotę 35 mln USD.",
@@ -15,7 +27,7 @@
     {
       "title": "Amerykański myśliwiec zestrzelony nad Iranem",
       "link": "https://businessinsider.com.pl/wiadomosci/amerykanski-f15-zestrzelony-nad-iranem-co-z-pilotem/n4zgd9n",
-      "description": "Amerykański myśliwiec F15 został najprawdopodobniej zestrzelony nad Iranem. Trwają poszukiwania załogi i akcja ratunkowa.",
+      "description": "Amerykański myśliwiec F15 został zestrzelony nad Iranem. Trwają poszukiwania załogi i akcja ratunkowa.",
       "pubDate": "Fri, 03 Apr 2026 16:26:11 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -277,18 +289,6 @@
       "dateFormatted": "3 kwietnia 2026"
     },
     {
-      "title": "Czekolada drożeje mimo taniejącego kakao. Oto co robią producenci",
-      "link": "https://businessinsider.com.pl/finanse/handel/ceny-kakao-spadaja-a-czekolada-wciaz-drozeje-producenci-odbudowuja-marze/g5jqfsh",
-      "description": "Ceny kakao na światowych rynkach spadły o ponad 70 proc. od zeszłorocznych rekordów, ale konsumenci w Europie i USA nie odczuwają ulgi przy sklepowych półkach. Wręcz przeciwnie — w okresie wielkanocnym producenci czekolady wykorzystują silny popyt, by odbudować marże po gwałtownym wzroście kosztów z",
-      "pubDate": "Fri, 03 Apr 2026 10:11:09 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/HN0k9kpTURBXy82OWU1MmFkZWNhNjRkNTUwMTFiOWVmNDM2YzgyM2Y4ZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-03T10:11:09.000Z",
-      "dateFormatted": "3 kwietnia 2026"
-    },
-    {
       "title": "Cena Bitcoina dziś: stabilna powyżej 66 tys. $ z uwagą na konflikt z Iranem i dane z rynku pracy w USA",
       "link": "https://pl.investing.com/news/cryptocurrency-news/cena-bitcoina-dzis-stabilna-powyzej-66-tys--z-uwaga-na-konflikt-z-iranem-i-dane-z-rynku-pracy-w-usa-1348761",
       "description": "",
@@ -481,5 +481,5 @@
       "dateFormatted": "26 marca 2026"
     }
   ],
-  "updatedAt": "2026-04-03T16:42:05.210Z"
+  "updatedAt": "2026-04-03T18:50:46.978Z"
 }
