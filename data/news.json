@@ -1,18 +1,6 @@
 {
   "articles": [
     {
-      "title": "Akcjonariusze Energi zdecydowali o podwyższeniu kapitału zakładowego o 3,01 mld zł",
-      "link": "https://www.bankier.pl/wiadomosc/Akcjonariusze-Energi-zdecydowali-o-podwyzszeniu-kapitalu-zakladowego-o-3-01-mld-zl-9108915.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Nadzwyczajne walne zgromadzenie akcjonariuszy spółki Energa zdecydowało o podwyższeniu kapitału zakładowego spółki o 3,01 mld zł do 7,5 mld zł - poinformowała spółka w czwartkowym raporcie giełdowym.",
-      "pubDate": "Thu, 2 Apr 2026 23:14:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/1/0/32ef436f61248c-thumb-1000.jpg",
-      "dateISO": "2026-04-02T22:14:00.000Z",
-      "dateFormatted": "2 kwietnia 2026"
-    },
-    {
       "title": "Inwestorzy chcą mieć akcje na Wielkanoc. Liczą na otwarcie Cieśniny Ormuz?",
       "link": "https://www.bankier.pl/wiadomosc/Inwestorzy-chca-miec-akcje-na-Wielkanoc-Licza-na-otwarcie-Ciesniny-Ormuz-9108898.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Pomimo galopujących cen ropy naftowej ostatnia w tym tygodniu sesja na Wall Street zakończyła się tylko minimalnymi zmianami głównych indeksów.",
@@ -983,7 +971,19 @@
       "image": null,
       "dateISO": "2026-03-26T11:32:13.000Z",
       "dateFormatted": "26 marca 2026"
+    },
+    {
+      "title": "Bankier.pl ma już 25 lat. Dziękujemy Wam - Czytelnikom",
+      "link": "https://www.bankier.pl/wiadomosc/Bankier-pl-ma-juz-25-lat-Dziekujemy-Wam-czytelnikom-8957660.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Szanowni Państwo, Drodzy Czytelnicy, z ogromną radością i dumą, jako redaktor naczelny Bankier.pl, ogłaszam, że w czerwcu 2025 roku nasz serwis świętuje wyjątkowy jubileusz – 25 lat istnienia na rynku medialnym! Ćwierć wieku temu Bankier.pl rozpoczął swoją misję, stając się jednym z najważniejszych ",
+      "pubDate": "Wed, 25 Mar 2026 12:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/d/a/d3f9a1b4aa79c3-948-568-12-22-994-596.jpg",
+      "dateISO": "2026-03-25T11:00:00.000Z",
+      "dateFormatted": "25 marca 2026"
     }
   ],
-  "updatedAt": "2026-04-02T22:33:12.855Z"
+  "updatedAt": "2026-04-03T02:30:36.754Z"
 }
