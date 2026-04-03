@@ -1,6 +1,30 @@
 {
   "articles": [
     {
+      "title": "Zaskoczenie w USA. \"Rynek pracy dużo mocniejszy, niż się wydaje\"",
+      "link": "https://businessinsider.com.pl/gospodarka/duze-zaskoczenie-w-usa-fed-ma-wolna-reke-zeby-martwic-sie-inflacja/044vfwk",
+      "description": "Najnowsze dane z rynku pracy w USA okazały się trzy razy lepsze, niż oczekiwano. \"Rynek jest dużo mocniejszy, niż się wydaje\" — oceniają analitycy. \"Fed ma wolną rękę\" — dodają.",
+      "pubDate": "Fri, 03 Apr 2026 20:24:36 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/BKYk9kpTURBXy8zNmI3OTI5M2YwNWUzZWY1ZTc4NTRiMjM1MjA2NGQ5ZC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-03T20:24:36.000Z",
+      "dateFormatted": "3 kwietnia 2026"
+    },
+    {
+      "title": "Wielka huta zatrzymana po ataku Iranu. Kolejne złe wieści",
+      "link": "https://businessinsider.com.pl/gospodarka/atak-iranu-sparalizowal-hute-w-abu-zabi-produkcja-aluminium-ruszy-za-rok/cgdyers",
+      "description": "Wielka huta w Abu Zabi, który musiał zamknąć zakład po irańskim ataku, przekazała w piątek niepokojące wieści na temat produkcji.",
+      "pubDate": "Fri, 03 Apr 2026 18:53:20 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/p-xk9kpTURBXy84YjZkMjQyMDk5OGFmNWU2NDE0MzA1YTUzMzhhZjVjYi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-03T18:53:20.000Z",
+      "dateFormatted": "3 kwietnia 2026"
+    },
+    {
       "title": "ZUS zawiesza negocjacje płacowe. Związki domagają się więcej",
       "link": "https://businessinsider.com.pl/zarzad-zus-kontra-zwiazkowcy-spor-o-wysokosc-podwyzek/7tzdddr",
       "description": "Strony zawiesiły negocjacje płacowe w Zakładzie Ubezpieczeń Społecznych. Podpisały wspólne oświadczenie i ustaliły termin kolejnego spotkania. Spór dotyczy wysokości podwyżek wynagrodzeń dla pracowników instytucji.",
@@ -265,30 +289,6 @@
       "dateFormatted": "3 kwietnia 2026"
     },
     {
-      "title": "Maksymalne ceny paliw na Wielkanoc. Duży wzrost w przypadku diesla",
-      "link": "https://businessinsider.com.pl/gospodarka/diesel-mocno-podrozeje-na-wielkanoc-minister-podal-nowe-ceny-paliw/e4z1qmf",
-      "description": "Minister energii opublikował najnowsze obwieszczenie dotyczące maksymalnych cen paliw. Stawki te będą obowiązywały aż do wtorku 7 kwietnia. Za litr oleju napędowego zapłacimy ponad 20 gr więcej niż obecnie.",
-      "pubDate": "Fri, 03 Apr 2026 10:19:07 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Apfk9kpTURBXy8xYjA5OTQ2NmY4YmQ3YTlmMWE3NGJjZjEyZjY4YzNkNS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-03T10:19:07.000Z",
-      "dateFormatted": "3 kwietnia 2026"
-    },
-    {
-      "title": "Popularny wydatek bez ulgi w PIT? Oto, co mówi Ministerstwo Finansów",
-      "link": "https://businessinsider.com.pl/gospodarka/podatki/czy-mozna-odliczyc-wydatki-na-pomoc-domowa-w-pit-2025-wyjasnienia-mf/g44b40h",
-      "description": "Wielu seniorów korzysta z pomocy domowej i chciałoby móc pomniejszyć wysokość podatku o kwoty wydawane na ten cel. Formalnie tego popularnego wydatku nie można uwzględnić przy rozliczaniu PIT. Istnieje jednak sposób, aby ująć część kosztów, wykorzystując popularną ulgę podatkową.",
-      "pubDate": "Fri, 03 Apr 2026 10:12:28 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/I7ek9kpTURBXy81ZThhYTA5MzhkYjY3ODEyMWVmZmNhYjEwMmFkZDgxZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-03T10:12:28.000Z",
-      "dateFormatted": "3 kwietnia 2026"
-    },
-    {
       "title": "Cena Bitcoina dziś: stabilna powyżej 66 tys. $ z uwagą na konflikt z Iranem i dane z rynku pracy w USA",
       "link": "https://pl.investing.com/news/cryptocurrency-news/cena-bitcoina-dzis-stabilna-powyzej-66-tys--z-uwaga-na-konflikt-z-iranem-i-dane-z-rynku-pracy-w-usa-1348761",
       "description": "",
@@ -481,5 +481,5 @@
       "dateFormatted": "26 marca 2026"
     }
   ],
-  "updatedAt": "2026-04-03T18:50:46.978Z"
+  "updatedAt": "2026-04-03T20:38:23.039Z"
 }
