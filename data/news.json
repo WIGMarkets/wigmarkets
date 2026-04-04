@@ -1,6 +1,78 @@
 {
   "articles": [
     {
+      "title": "OpenAI zaczęło kupować media. Będzie walczyć o lepszy wizerunek w sieci",
+      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/openai-kupuje-tbpn-popularny-program-w-rekach-sama-altmana/eyj2xep",
+      "description": "OpenAI nie ma ostatnio łatwego życia, a wizerunek firmy, która jeszcze do niedawna była przez wszystkich wychwalana, poważnie ucierpiał. Sam Altman znalazł na to sposób.",
+      "pubDate": "Sat, 04 Apr 2026 12:14:29 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/JdTk9kpTURBXy9lOTI3YzE5MzkyZDdmY2FkOTlhMGQzOWFjZTY0MzkwYS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-04T12:14:29.000Z",
+      "dateFormatted": "4 kwietnia 2026"
+    },
+    {
+      "title": "Tam mają najdroższe paliwo na świecie. Płacą ponad dwa razy więcej niż w Polsce",
+      "link": "https://businessinsider.com.pl/biznes/ceny-benzyny-w-hongkongu-bija-rekordy-placa-ponad-dwa-razy-wiecej-niz-w-polsce/jq7g7hp",
+      "description": "Hongkong to obecnie najdroższe miejsce na świecie pod względem cen paliw — wynika z doniesień CNN. W azjatyckim centrum finansowym za litr benzyny trzeba zapłacić nawet ponad dwa razy więcej niż w Polsce.",
+      "pubDate": "Sat, 04 Apr 2026 11:07:31 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/WXNk9kpTURBXy8yZjFlYzllNzU5NDVlNjE0MDNiZjhjZWJjOTc3MzdiYy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-04T11:07:31.000Z",
+      "dateFormatted": "4 kwietnia 2026"
+    },
+    {
+      "title": "Koniec dyktatu „miastowych” na wsi. Rolnik nie zapłaci już kary za to, że pracuje",
+      "link": "https://www.bankier.pl/wiadomosc/Rolnikom-bedzie-latwiej-bronic-sie-przed-zarzutami-o-uciazliwe-sasiedztwo-9106429.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Uciążliwości wynikające z produkcji rolnej, takie jak hałas, nieprzyjemne zapachy czy zapylenie, nie będą mogły stanowić podstawy do roszczeń wobec rolników - wynika z projektu nowelizacji dotyczącego ochrony rolniczych funkcji produkcyjnych wsi.",
+      "pubDate": "Sat, 4 Apr 2026 12:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/f/ebb44167140afa-948-567-0-17-1000-599.jpg",
+      "dateISO": "2026-04-04T11:00:00.000Z",
+      "dateFormatted": "4 kwietnia 2026"
+    },
+    {
+      "title": "Kryzys energetyczny uderza z nową siłą. Państwa wprowadzają limity na paliwo i pracę zdalną",
+      "link": "https://www.bankier.pl/wiadomosc/Kryzys-energetyczny-uderza-z-nowa-sila-Panstwa-wprowadzaja-limity-na-paliwo-i-prace-zdalna-9108345.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Australia i Malezja zapowiedziały podjęcie działań, mających zabezpieczyć dostawy energii i obniżyć rosnące koszty paliw w obliczu konfliktu zbrojnego na Bliskim Wschodzie - podała w czwartek agencja Reutera. Canberra rozważa ograniczenie eksportu gazu, a Kuala Lumpur wysyła urzędników państwowych n",
+      "pubDate": "Sat, 4 Apr 2026 12:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/9/7428947d1f5872-948-568-7-30-992-595.jpg",
+      "dateISO": "2026-04-04T11:00:00.000Z",
+      "dateFormatted": "4 kwietnia 2026"
+    },
+    {
+      "title": "Ekspert: AI może stworzyć globalną grupę ludzi pracujących w złych warunkach, bez kontroli",
+      "link": "https://www.bankier.pl/wiadomosc/Ekspert-AI-moze-stworzyc-globalna-grupe-ludzi-pracujacych-w-zlych-warunkach-bez-kontroli-9105216.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Platformy takie jak Rent-a-Human pozwalają algorytmom zlecać ludziom zadania w świecie fizycznym – od wizyt w urzędach po działania performatywne. To eksperyment, który może pogłębić istniejące nierówności i wyzwania rynku pracy - powiedział PAP dr Alek Tarkowski, socjolog i badacz świata cyfrowego.",
+      "pubDate": "Sat, 4 Apr 2026 12:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/d/657e4c0ad0f52d-948-568-127-9-3402-2041.jpg",
+      "dateISO": "2026-04-04T11:00:00.000Z",
+      "dateFormatted": "4 kwietnia 2026"
+    },
+    {
+      "title": "Dramatyczne ocalenie na pełnym morzu. Ponad stu migrantów na platformie wiertniczej",
+      "link": "https://www.bankier.pl/wiadomosc/Dramatyczne-ocalenie-na-pelnym-morzu-Ponad-stu-migrantow-na-platformie-wiertniczej-9104374.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ponad stu afrykańskich nielegalnych migrantów uratowało się przed utonięciem, dobijając na pontonach do oddalonej o ponad 120 km od brzegów Tunezji platformy wiertniczej Miskary. Pomocy udzielił im statek organizacji humanitarnej SOS Mediterranee, który wysadził migrantów na włoskim brzegu.",
+      "pubDate": "Sat, 4 Apr 2026 12:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/7/613012a503e7bd-948-568-0-124-1920-1151.jpg",
+      "dateISO": "2026-04-04T11:00:00.000Z",
+      "dateFormatted": "4 kwietnia 2026"
+    },
+    {
       "title": "Artifex Mundi miał 8,6 mln zł przychodów w marcu, o 14 proc. więcej niż w lutym",
       "link": "https://www.bankier.pl/wiadomosc/Artifex-Mundi-mial-8-6-mln-zl-przychodow-w-marcu-o-14-proc-wiecej-niz-w-lutym-9109429.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Artifex Mundi szacuje, że w marcu 2026 roku miał 8,6 mln zł przychodów ze sprzedaży, co oznacza wzrost o 14 proc. wobec lutego tego roku - poinformował producent i wydawca gier w komunikacie.",
@@ -8,7 +80,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/9/3/8d6d4df8d08771-thumb-1000.jpg",
+      "image": "http://galeria.bankier.pl/p/a/a/989b4ed5276ee4-948-568-0-77-4445-2666.jpg",
       "dateISO": "2026-04-04T10:52:00.000Z",
       "dateFormatted": "4 kwietnia 2026"
     },
@@ -49,18 +121,6 @@
       "dateFormatted": "4 kwietnia 2026"
     },
     {
-      "title": "Ubóstwo w Polsce mocno w dół. Stać nas na coraz więcej",
-      "link": "https://www.bankier.pl/wiadomosc/Ubostwo-w-Polsce-mocno-w-dol-Stac-nas-na-coraz-wiecej-9106318.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W 2025 roku 2,0 proc. osób w Polsce z powodów finansowych deklarowało brak możliwości zaspokojenia co najmniej 7 z 13 potrzeb materialnych i społecznych - wynika z badania przeprowadzonego przez GUS.",
-      "pubDate": "Sat, 4 Apr 2026 10:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/4/69500d1890a14a-948-568-10-280-3983-2390.jpg",
-      "dateISO": "2026-04-04T09:00:00.000Z",
-      "dateFormatted": "4 kwietnia 2026"
-    },
-    {
       "title": "Podatek od wagi w samolotach. Pasażerowie alarmują o nowej fali restrykcji",
       "link": "https://www.bankier.pl/wiadomosc/Podatek-od-wagi-w-samolotach-Pasazerowie-alarmuja-o-nowej-fali-restrykcji-9105191.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Pasażerowie linii Southwest Airlines alarmują o nowej fali restrykcji, nazywając je „podatkiem od wagi”. Przewoźnik coraz częściej wymaga od osób o dużych gabarytach wykupienia dodatkowego miejsca, jeśli personel uzna, że nie mieszczą się w jednym fotelu, co budzi oskarżenia o dyskryminację.",
@@ -69,6 +129,18 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/4/1730b2d0450bc2-948-567-25-25-975-584.jpg",
+      "dateISO": "2026-04-04T09:00:00.000Z",
+      "dateFormatted": "4 kwietnia 2026"
+    },
+    {
+      "title": "Ubóstwo w Polsce mocno w dół. Stać nas na coraz więcej",
+      "link": "https://www.bankier.pl/wiadomosc/Ubostwo-w-Polsce-mocno-w-dol-Stac-nas-na-coraz-wiecej-9106318.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W 2025 roku 2,0 proc. osób w Polsce z powodów finansowych deklarowało brak możliwości zaspokojenia co najmniej 7 z 13 potrzeb materialnych i społecznych - wynika z badania przeprowadzonego przez GUS.",
+      "pubDate": "Sat, 4 Apr 2026 10:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/4/69500d1890a14a-948-568-10-280-3983-2390.jpg",
       "dateISO": "2026-04-04T09:00:00.000Z",
       "dateFormatted": "4 kwietnia 2026"
     },
@@ -181,6 +253,18 @@
       "dateFormatted": "4 kwietnia 2026"
     },
     {
+      "title": "Seniorka pożyczyła 25 tys., a musi spłacić 222 proc. kwoty. RPO interweniuje",
+      "link": "https://www.bankier.pl/wiadomosc/Seniorka-pozyczyla-25-tys-a-musi-splacic-222-proc-kwoty-RPO-interweniuje-9109394.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rzecznik Praw Obywatelskich wystąpił ze skargą nadzwyczajną do Sądu Najwyższego w sprawie emerytki, która ma do spłaty 222 proc. pożyczki. W ocenie RPO wyrok nakazujący spłatę długu został wydany m.in. z naruszeniem przepisów konstytucji.",
+      "pubDate": "Sat, 4 Apr 2026 08:06:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/a/8e59b4dbab7f6a-948-568-0-270-4000-2399.jpg",
+      "dateISO": "2026-04-04T07:06:00.000Z",
+      "dateFormatted": "4 kwietnia 2026"
+    },
+    {
       "title": "Sąd miażdży pozew Blake Lively przeciwko reżyserowi \"It Ends With Us\". Nawet Taylor Swift nie pomogła",
       "link": "https://www.bankier.pl/wiadomosc/Sad-miazdzy-pozew-Blake-Lively-przeciwko-rezyserowi-It-Ends-With-Us-Nawet-Taylor-Swift-nie-pomogla-9109081.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Sąd oddalił większość zarzutów zawartych w pozwie, który aktorka Blake Lively (prywatnie żona Ryana Reynoldsa) wniosła przeciwko Justinowi Baldoniemu, partnerowi z planu filmowego \"It Ends With Us\". Tej sądowej batalii przygląda się całe Hollywood, gdyż aktorka oskarża reżysera o molestowanie seksua",
@@ -193,18 +277,6 @@
       "dateFormatted": "4 kwietnia 2026"
     },
     {
-      "title": "Cztery pokolenia w jednej firmie. Jak się pracuje w jednym zespole zetkom i boomerom?",
-      "link": "https://www.bankier.pl/wiadomosc/Cztery-pokolenia-w-jednej-firmie-Jak-sie-pracuje-w-jednym-zespole-zetkom-i-boomerom-9106193.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Już prawie dwie trzecie Polaków funkcjonuje zawodowo w otoczeniu co najmniej trzech pokoleń, a niemal połowa z nich ma w pracy przedstawicieli czterech generacji – wynika z badania SW Research, o którym pisze poniedziałkowa „Rzeczpospolita”.",
-      "pubDate": "Sat, 4 Apr 2026 08:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/7/a495d3bae743b1-948-568-475-289-1425-854.jpg",
-      "dateISO": "2026-04-04T07:00:00.000Z",
-      "dateFormatted": "4 kwietnia 2026"
-    },
-    {
       "title": "Dobre wieści dla rybaków. Populacja luksusowego towaru zaczęła się odradzać",
       "link": "https://www.bankier.pl/wiadomosc/Dobre-wiesci-dla-rybakow-Populacja-luksusowego-towaru-zaczela-sie-odradzac-9106201.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W Wschodniej Skaldzie ponownie pojawiły się młode, zdrowe homary, co daje rybakom nadzieję po kilku latach masowego wymierania populacji. Połowy nadal jednak pozostają znikome, a mimo badań naukowcom wciąż nie udało się jednoznacznie ustalić przyczyny strat.",
@@ -213,6 +285,18 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/0/d6a7b131f7c5c9-948-568-2-15-997-598.jpg",
+      "dateISO": "2026-04-04T07:00:00.000Z",
+      "dateFormatted": "4 kwietnia 2026"
+    },
+    {
+      "title": "Cztery pokolenia w jednej firmie. Jak się pracuje w jednym zespole zetkom i boomerom?",
+      "link": "https://www.bankier.pl/wiadomosc/Cztery-pokolenia-w-jednej-firmie-Jak-sie-pracuje-w-jednym-zespole-zetkom-i-boomerom-9106193.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Już prawie dwie trzecie Polaków funkcjonuje zawodowo w otoczeniu co najmniej trzech pokoleń, a niemal połowa z nich ma w pracy przedstawicieli czterech generacji – wynika z badania SW Research, o którym pisze poniedziałkowa „Rzeczpospolita”.",
+      "pubDate": "Sat, 4 Apr 2026 08:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/7/a495d3bae743b1-948-568-475-289-1425-854.jpg",
       "dateISO": "2026-04-04T07:00:00.000Z",
       "dateFormatted": "4 kwietnia 2026"
     },
@@ -301,18 +385,6 @@
       "dateFormatted": "4 kwietnia 2026"
     },
     {
-      "title": "Łatwiejszy rok z ING. Ruszyła wielka akcja z bonusami dla JDG",
-      "link": "https://www.bankier.pl/wiadomosc/Zgarnij-nawet-4200-zl-premii-z-kontem-firmowym-ING-9109126.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Własny biznes to spore koszty, ale bankowy rachunek może pomóc je zredukować. Dzięki nowej akcji ING, przedsiębiorcy mogą odzyskać do 3000 zł za płatności kartą oraz 1200 zł za terminowe przelewy do ZUS. Sprawdzamy regulamin promocji i podpowiadamy krok po kroku, jak zgarnąć pełną pulę bonusów w cią",
-      "pubDate": "Sat, 4 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/9/58b9d2e92161d9-948-568-0-84-1250-749.jpg",
-      "dateISO": "2026-04-04T05:00:00.000Z",
-      "dateFormatted": "4 kwietnia 2026"
-    },
-    {
       "title": "Szok energetyczny i widmo racjonowania paliw. UE szykuje się na „bardzo długi kryzys”",
       "link": "https://www.bankier.pl/wiadomosc/Szok-energetyczny-i-widmo-racjonowania-paliw-UE-szykuje-sie-na-bardzo-dlugi-kryzys-9109116.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Unijny komisarz energii Dan Joergensen powiedział w piątek brytyjskiemu dziennikowi „Financial Times”, że ceny energii będą wyższe przez bardzo długi czas. Według gazety Unia Europejska rozważa „wszystkie możliwości”, w tym racjonowanie paliwa i uwolnienie większej ilości ropy z rezerw awaryjnych.",
@@ -321,6 +393,18 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/c/0/181b83bdff5ba3-948-568-0-129-1995-1196.jpg",
+      "dateISO": "2026-04-04T05:00:00.000Z",
+      "dateFormatted": "4 kwietnia 2026"
+    },
+    {
+      "title": "Łatwiejszy rok z ING. Ruszyła wielka akcja z bonusami dla JDG",
+      "link": "https://www.bankier.pl/wiadomosc/Zgarnij-nawet-4200-zl-premii-z-kontem-firmowym-ING-9109126.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Własny biznes to spore koszty, ale bankowy rachunek może pomóc je zredukować. Dzięki nowej akcji ING, przedsiębiorcy mogą odzyskać do 3000 zł za płatności kartą oraz 1200 zł za terminowe przelewy do ZUS. Sprawdzamy regulamin promocji i podpowiadamy krok po kroku, jak zgarnąć pełną pulę bonusów w cią",
+      "pubDate": "Sat, 4 Apr 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/9/58b9d2e92161d9-948-568-0-84-1250-749.jpg",
       "dateISO": "2026-04-04T05:00:00.000Z",
       "dateFormatted": "4 kwietnia 2026"
     },
@@ -601,30 +685,6 @@
       "dateFormatted": "3 kwietnia 2026"
     },
     {
-      "title": "Energa wyciąga rękę do Orlenu. Potrzebuje 5 mld zł",
-      "link": "https://businessinsider.com.pl/gielda/akcjonariusze-energi-podjeli-decyzje-orlen-zaplaci-prawie-5-mld-zl/415ms1x",
-      "description": "Energa jest zbyt mocno zadłużona, a poza tym potrzebuje pieniędzy na inwestycje. W tym celu chce wyemitować akcje za ponad 5 mld zł. Większość obejmie Orlen. Cena będzie niższa od rynkowej.",
-      "pubDate": "Fri, 03 Apr 2026 13:16:35 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/VvUk9kpTURBXy82MDZiNTJlZTY1Yjc4MWYyYTU5OTI0MGUzZDRjNjQyOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-03T13:16:35.000Z",
-      "dateFormatted": "3 kwietnia 2026"
-    },
-    {
-      "title": "Kancelaria Sejmu ocenia decyzję prezydenta. \"Uzurpacja kompetencji\".",
-      "link": "https://businessinsider.com.pl/prawo/spor-o-sedziow-tk-kancelaria-sejmu-odpowiada-prezydentowi/8knqe4w",
-      "description": "Odmowa odebrania ślubowania od części sędziów TK nie znajduje podstawy prawnej i stanowi uzurpację kompetencji przez prezydenta — czytamy w oświadczeniu Kancelarii Sejmu.",
-      "pubDate": "Fri, 03 Apr 2026 13:15:36 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/k2zk9kpTURBXy84NDIzMzYxZDRkYTg0ZmFlNWM2MDNkN2FlOGVhZmQ4Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-03T13:15:36.000Z",
-      "dateFormatted": "3 kwietnia 2026"
-    },
-    {
       "title": "Konflikt na budowie Via Carpatia. Mostostal zrywa miliardowy kontrakt, GDDKiA grozi konsekwencjami",
       "link": "https://www.bankier.pl/wiadomosc/Konflikt-na-budowie-Via-Carpatia-Mostostal-zrywa-miliardowy-kontrakt-GDDKiA-grozi-konsekwencjami-9109193.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Rzeszowski oddział GDDKiA szczegółowo analizuje kwestie sporne dotyczące realizacji odcinka drogi ekspresowej S19 Domaradz–Iskrzynia. Rozbieżności interpretacyjne i roszczenia będą rozstrzygane w trybie przewidzianym w kontrakcie – powiedział PAP w piątek Bartosz Wysocki z rzeszowskiego oddziału GDD",
@@ -661,18 +721,6 @@
       "dateFormatted": "3 kwietnia 2026"
     },
     {
-      "title": "Pierwszy zachodni statek przepłynął przez cieśninę Ormuz",
-      "link": "https://www.bankier.pl/wiadomosc/Pierwszy-zachodni-statek-przeplynal-przez-ciesnine-Ormuz-9109100.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Kontenerowiec CMA CGM Kribi, należący do francuskiej grupy żeglugowej, przepłynął w czwartek przez cieśninę Ormuz; to pierwsza zachodnia jednostka, która skorzystała z tego szlaku od 28 lutego, czyli początku wojny USA i Izraela z Iranem - przekazała w piątek agencja Bloomberga.",
-      "pubDate": "Fri, 3 Apr 2026 12:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/6/90abde2793bee8-948-568-10-540-3990-2393.jpg",
-      "dateISO": "2026-04-03T11:00:00.000Z",
-      "dateFormatted": "3 kwietnia 2026"
-    },
-    {
       "title": "Nawet 56 mld dolarów strat. Bliski Wschód zamienia się w turystyczną pustynię",
       "link": "https://www.bankier.pl/wiadomosc/Nawet-56-mld-dolarow-strat-Bliski-Wschod-zamienia-sie-w-turystyczna-pustynie-9109023.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Od 23 do 38 milionów turystów mniej, w zależności od tego, jak długo potrwa konflikt. Może to oznaczać utratę od 34 mld dolarów do 56 mld dolarów z wydatków turystów - taki rachunek za wojnę mogą wystawić Zjednoczone Emiraty Arabskie i sąsiedzi.",
@@ -697,18 +745,6 @@
       "dateFormatted": "3 kwietnia 2026"
     },
     {
-      "title": "Mieszkania droższe o tysiąc złotych na metrze. Nowe przepisy uderzyły w deweloperów",
-      "link": "https://www.bankier.pl/wiadomosc/Mieszkania-drozsze-o-tysiac-zlotych-na-metrze-Nowe-przepisy-uderzyly-w-deweloperow-9108962.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Od początku 2026 roku deweloperów obowiązują nowe regulacje, które zwiększają koszty budowy mieszkań i mogą ograniczyć rentowność nowych inwestycji - wynika z raportu portalu RynekPierwotny. Eksperci wymienili m.in. zaostrzone wymogi techniczne i konieczność budowy schronów.",
-      "pubDate": "Fri, 3 Apr 2026 06:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/c/e2bcf3905408bc-948-568-0-129-1996-1197.jpg",
-      "dateISO": "2026-04-03T05:18:00.000Z",
-      "dateFormatted": "3 kwietnia 2026"
-    },
-    {
       "title": "Ropa szarpie rynkami, AI łapie zadyszkę, a złoto zawodzi. Kolany: Nie ma kapitulacji rynku",
       "link": "https://www.bankier.pl/wiadomosc/Ropa-szarpie-rynkami-AI-lapie-zadyszke-a-zloto-zawodzi-Kolany-Nie-ma-kapitulacji-rynku-9108668.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Pierwszy kwartał 2026 roku nie przyniósł rynkom uspokojenia, tylko kolejną dawkę chaosu. Wojna na Bliskim Wschodzie wywindowała ceny ropy do poziomów, które jeszcze niedawno wydawały się scenariuszem skrajnym. Technologiczni giganci, jeszcze niedawno ciągnący hossę, zaczęli wyraźnie tracić impet. Na",
@@ -717,30 +753,6 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/1/9/e71f3303936863-948-568-0-0-1306-783.jpg",
-      "dateISO": "2026-04-03T05:00:00.000Z",
-      "dateFormatted": "3 kwietnia 2026"
-    },
-    {
-      "title": "Londyn jak syn marnotrawny powróci latem? Starmer chce związku z UE, ale przyjdzie mu zapłacić",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-twardego-brexitu-Londyn-szuka-zblizenia-z-Unia-Europejska-9108459.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Keir Starmer co rusz wraca w swoich przemówieniach do resetu w stosunkach z Unią Europejską. Premier zapowiedział podczas konferencji prasowej na Downing Street, że będzie zmierzał ku złagodzeniu skutków brexitu. Jaką cenę krzyknie za to całe zamieszanie Unia Europejska?",
-      "pubDate": "Fri, 3 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/2/7d797de4546e19-948-568-0-144-992-595.jpg",
-      "dateISO": "2026-04-03T05:00:00.000Z",
-      "dateFormatted": "3 kwietnia 2026"
-    },
-    {
-      "title": "Lawina bankructw linii lotniczych tuż za rogiem. \"Upadłości to kwestia kilkunastu dni\"",
-      "link": "https://www.bankier.pl/wiadomosc/Lawina-bankructw-linii-lotniczych-tuz-za-rogiem-Upadlosci-to-kwestia-kilkunastu-dni-9108586.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Uziemione samoloty, popyt szoruje po dnie, horyzontu ożywienia nie widać - to nie jest opis czasów covidowych lockdownów, ale diagnoza sytuacji, w której znalazła się branża lotnicza przez przedłużający konflikt na Bliskim Wschodzie. Zdaniem ekspertów już niebawem posypią sie upadłości przewoźników.",
-      "pubDate": "Fri, 3 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/d/f839afc33e5f73-948-568-0-202-2475-1485.jpg",
       "dateISO": "2026-04-03T05:00:00.000Z",
       "dateFormatted": "3 kwietnia 2026"
     },
@@ -901,5 +913,5 @@
       "dateFormatted": "27 marca 2026"
     }
   ],
-  "updatedAt": "2026-04-04T10:35:52.654Z"
+  "updatedAt": "2026-04-04T12:58:49.883Z"
 }
