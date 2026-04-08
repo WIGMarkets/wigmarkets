@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Jest przełom na Bliskim Wschodzie. Donald Trump ogłasza",
+      "link": "https://businessinsider.com.pl/wiadomosci/ultimatum-donalda-trumpa-dla-iranu-rozejm-tuz-przed-uplywem-czasu/md6ldh6",
+      "description": "Prezydent USA Donald Trump ogłosił, że zgodził się na pakistańską propozycję dwutygodniowego zawieszenia broni pod warunkiem, że Iran zgodzi się na natychmiastowe otwarcie cieśniny Ormuz. Stało się to na krótko przed upłynięciem ultimatum dla Teheranu.",
+      "pubDate": "Tue, 07 Apr 2026 23:27:01 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Fqlk9kpTURBXy8zNjMzYmMwYjRmYWQ1YmFkZWY0MTE3YjJhZGFjNDJhMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-07T23:27:01.000Z",
+      "dateFormatted": "7 kwietnia 2026"
+    },
+    {
       "title": "Grupa Wielton nie otrzyma wsparcia dla inwestycji w Bełchatowie",
       "link": "https://www.bankier.pl/wiadomosc/Grupa-Wielton-nie-otrzyma-wsparcia-dla-inwestycji-w-Belchatowie-9110343.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Wielton Reefer, spółka z grupy kapitałowej Wielton, nie otrzyma wsparcia Łódzkiej Specjalnej Strefy Ekonomicznej na planowaną inwestycję w Bełchatowie zakładającą budowę zakładu produkcji naczep typu chłodnia - poinformował Wielton w komunikacie.",
@@ -8,7 +20,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/0/f/5cf4b304c96a2e-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/e/8/82216e487002a2-thumb-1000.jpg",
       "dateISO": "2026-04-07T21:46:00.000Z",
       "dateFormatted": "7 kwietnia 2026"
     },
@@ -20,7 +32,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/3f1457f4fed800-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/5/1/e89c740f794180-thumb-1000.jpg",
       "dateISO": "2026-04-07T21:38:00.000Z",
       "dateFormatted": "7 kwietnia 2026"
     },
@@ -188,7 +200,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/2/2/cbeb06dd33a8d3-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/e/8/82216e487002a2-thumb-1000.jpg",
       "dateISO": "2026-04-07T17:30:00.000Z",
       "dateFormatted": "7 kwietnia 2026"
     },
@@ -200,7 +212,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/82216e487002a2-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/0/f/5cf4b304c96a2e-thumb-1000.jpg",
       "dateISO": "2026-04-07T17:10:00.000Z",
       "dateFormatted": "7 kwietnia 2026"
     },
@@ -565,18 +577,6 @@
       "dateFormatted": "7 kwietnia 2026"
     },
     {
-      "title": "Ten dokument daje realne oszczędności. Seniorzy często o tym zapominają",
-      "link": "https://businessinsider.com.pl/praca/emerytury/co-daje-legitymacja-emeryta-rencisty-wszystkie-ulgi-w-2026-r/hhfgzed",
-      "description": "Wiele Polek i Polaków zdaje się zapominać, że legitymacja emeryta-rencisty to klucz do wielu ulg i przywilejów dla seniorów. Wyliczamy, na jakie zniżki mogą liczyć seniorzy w Polsce.",
-      "pubDate": "Tue, 07 Apr 2026 12:33:52 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/67uk9kpTURBXy81YWFlYTE4YjY5YzNkN2Y1MzNhOTU2MjMyZjkwNDMyMS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-07T12:33:52.000Z",
-      "dateFormatted": "7 kwietnia 2026"
-    },
-    {
       "title": "XTB wprowadza handel opcjami dla klientów w Hiszpanii i w Niemczech",
       "link": "https://www.bankier.pl/wiadomosc/XTB-wprowadza-handel-opcjami-dla-klientow-w-Hiszpanii-i-w-Niemczech-9110060.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "XTB wprowadza możliwość handlu opcjami w Hiszpanii i Niemczech, a w najbliższych miesiącach opcje mają być dostępne dla klientów XTB na kolejnych rynkach europejskich - poinformowała spółka w komunikacie prasowym.",
@@ -889,5 +889,5 @@
       "dateFormatted": "27 marca 2026"
     }
   ],
-  "updatedAt": "2026-04-07T22:39:27.526Z"
+  "updatedAt": "2026-04-08T02:34:08.029Z"
 }
