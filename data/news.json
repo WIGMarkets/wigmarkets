@@ -1,15 +1,219 @@
 {
   "articles": [
     {
-      "title": "Koniec drożyzny w Portugalii? Obniżka podatku paliwowego zatwierdzona",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-drozyzny-w-Portugalii-Obnizka-podatku-paliwowego-zatwierdzona-9111072.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Parlament Portugalii, Zgromadzenie Republiki, zatwierdził w środę jednogłośnie obniżkę podatku od produktów paliwowych i energetycznych (ISP).",
-      "pubDate": "Thu, 9 Apr 2026 07:25:00 +0100",
+      "title": "Orlen tnie ceny w hurcie. Diesel i benzyna tanieją o niemal 150 zł",
+      "link": "https://www.bankier.pl/wiadomosc/Orlen-tnie-ceny-w-hurcie-Diesel-i-benzyna-tanieja-o-niemal-150-zl-9111174.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Orlen obniżył w czwartek hurtowe ceny paliw, w tym oleju napędowego Ekodiesel o 147 zł, a benzyny bezołowiowej Eurosuper 95 o 90 zł za metr sześc. - wynika z danych publikowanych przez koncern. Wcześniej, w środę, w hurcie Orlenu olej Ekodiesel staniał, natomiast zdrożała benzyna Eurosuper 95.",
+      "pubDate": "Thu, 9 Apr 2026 08:58:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/a/502e008dcb9ca7-948-568-90-60-3910-2345.jpg",
-      "dateISO": "2026-04-09T06:25:00.000Z",
+      "image": "http://galeria.bankier.pl/p/2/f/0f0bf0c4868d79-948-568-20-190-3980-2387.jpg",
+      "dateISO": "2026-04-09T07:58:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Polska na tle gazowego paraliżu UE. Tyle mamy zapasów",
+      "link": "https://www.bankier.pl/wiadomosc/Polska-na-tle-gazowego-paralizu-UE-Tyle-mamy-zapasow-9111179.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zapasy gazu ziemnego w magazynach UE wynoszą 28,8 proc. wobec średniej 5-letniej na tę porę wynoszącej 41,6 proc. W magazynach znajduje się obecnie 325,40 TWh gazu - wynika z wyliczeń firmy Gas Infrastructure Europe. W Polsce zapełnienie wynosi 45,1 proc. wobec sezonowej średniej 5-letniej wynoszące",
+      "pubDate": "Thu, 9 Apr 2026 08:54:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/9/5b8892d34e4f80-948-568-22-97-2977-1786.jpg",
+      "dateISO": "2026-04-09T07:54:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "150 tysięcy celów w jeden miesiąc. Generał Syrski ujawnia potęgę bezzałogowców",
+      "link": "https://www.bankier.pl/wiadomosc/150-tysiecy-celow-w-jeden-miesiac-General-Syrski-ujawnia-potege-bezzalogowcow-9111178.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Oddziały sił bezzałogowych zaatakowały w marcu o 50 proc. więcej zweryfikowanych celów niż w lutym — poinformował w czwartek naczelny dowódca Sił Zbrojnych Ukrainy gen. Ołeksandr Syrski. Do końca 2026 r. Rosjanie planują zwiększyć liczebność swoich wojsk systemów bezzałogowych do 165,5 tys. - dodał.",
+      "pubDate": "Thu, 9 Apr 2026 08:54:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/f/586a72b12b7fd8-948-568-0-0-4500-2699.jpg",
+      "dateISO": "2026-04-09T07:54:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Rosjanie odkurzają Wołgę, ale nowe modele stworzą Chińczycy",
+      "link": "https://www.bankier.pl/wiadomosc/Rosjanie-odkurzaja-Wolge-ale-nowe-modele-stworza-Chinczycy-9111175.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rosjanie podjęli kolejną próbę przywrócenia na rynek aut marki Wołga – informuje „Auto Świat”. Nie jest to jednak powrót do radzieckiej myśli technicznej. Nowe samochody – SUV i sedan – będą kopiami chińskich modeli produkowanych przez koncern Geely. Ten sam, który miał być bazą do produkcji polskie",
+      "pubDate": "Thu, 9 Apr 2026 08:48:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/2/9626e4e6eceb22-948-568-47-0-1187-712.jpg",
+      "dateISO": "2026-04-09T07:48:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Synektik szacuje wartość zamówień pozyskanych w II kw. na ok. 163 mln zł",
+      "link": "https://www.bankier.pl/wiadomosc/Synektik-szacuje-wartosc-zamowien-pozyskanych-w-II-kw-na-ok-163-mln-zl-9111166.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Grupa Synektik szacuje, że w ramach segmentu sprzedaży sprzętu medycznego, rozwiązań informatycznych oraz usług w II kw. roku finansowego 2025 pozyskała do realizacji zamówienia na dostawy sprzętu medycznego w wysokości ok. 163 mln zł, wobec 33 mln zł w analogicznym okresie poprzedniego roku finanso",
+      "pubDate": "Thu, 9 Apr 2026 08:42:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/e/8/3f1457f4fed800-thumb-1000.jpg",
+      "dateISO": "2026-04-09T07:42:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Santander BM obniża cenę docelową dla Sanok RC do 24,6 zł",
+      "link": "https://www.bankier.pl/wiadomosc/Santander-BM-obniza-cene-docelowa-dla-Sanok-RC-do-24-6-zl-9111158.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Analitycy Santander Biura Maklerskiego, w raporcie z 9 kwietnia, obniżyli cenę docelową dla spółki Sanok Rubber Company w horyzoncie do grudnia 2026 roku do 24,6 zł z 25,2 zł poprzednio, podtrzymując zalecenie \"neutralnie\".",
+      "pubDate": "Thu, 9 Apr 2026 08:34:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/e/8/82216e487002a2-thumb-1000.jpg",
+      "dateISO": "2026-04-09T07:34:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Aktywiści Greenpeace weszli na wieżę w kopalni Szczygłowice. „Stąd wycieka groźny metan”",
+      "link": "https://www.bankier.pl/wiadomosc/Aktywisci-Greenpeace-weszli-na-wieze-w-kopalni-Szczyglowice-Stad-wycieka-grozny-metan-9111149.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Grupa aktywistów Greenpeace wspięła się w czwartek rano na 55-metrową wieżę szybową kopalni Szczygłowice w Knurowie, protestując przeciwko „nielegalnym emisjom metanu”. Uczestnicy akcji zawiesili na wieży transparent z napisem „Stąd wycieka groźny metan”. Na miejscu jest policja i straż pożarna.",
+      "pubDate": "Thu, 9 Apr 2026 08:19:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/4/c/22202b2dc0a88a-948-568-15-317-2030-1218.jpg",
+      "dateISO": "2026-04-09T07:19:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Orlen obniża hurtowe ceny paliw. Oto nowe stawki",
+      "link": "https://businessinsider.com.pl/firmy/orlen-obniza-ceny-paliw-sprawdz-ile-teraz-kosztuje-benzyna-i-diesel/0rv0h0n",
+      "description": "Polski koncern paliwowy Orlen zdecydował się na obniżenie hurtowych cen paliw. W czwartek cena oleju napędowego Ekodiesel spadła o 147 zł za m sześć., a benzyny bezołowiowej Eurosuper 95 o 90 zł za m sześć.",
+      "pubDate": "Thu, 09 Apr 2026 07:11:46 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/D8uk9kpTURBXy83NWYxMzQzMDIzYjA2NzIyODMyOTIwMjliZDc5YjcwMi5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-09T07:11:46.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "W MAP rozwiązano zespół ds. wydzielenia aktywów węglowych ze spółek sektora energetycznego",
+      "link": "https://www.bankier.pl/wiadomosc/W-MAP-rozwiazano-zespol-ds-wydzielenia-aktywow-weglowych-ze-spolek-sektora-energetycznego-9111143.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W resorcie aktywów państwowych rozwiązano zespół ds. wydzielenia aktywów węglowych ze spółek sektora energetycznego z udziałem Skarbu Państwa - podano w zarządzeniu ministra opublikowanym w Dzienniku Urzędowym resortu.",
+      "pubDate": "Thu, 9 Apr 2026 08:05:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/3/e855a394438b2b-948-568-10-3-1429-857.jpg",
+      "dateISO": "2026-04-09T07:05:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Rynki wschodzące w popłochu. Tak źle nie było od wybuchu pandemii",
+      "link": "https://www.bankier.pl/wiadomosc/Rynki-wschodzace-w-poplochu-Tak-zle-nie-bylo-od-wybuchu-pandemii-9111140.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Z rynków wschodzących w marcu odpłynął kapitał wart 70,3 mld USD, po tym jak w lutym napływy osiągnęły 22,4 mld USD - podał w raporcie Instytut Finansów Międzynarodowych (IIF).",
+      "pubDate": "Thu, 9 Apr 2026 07:58:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/2/98937eb74f6b04-948-568-0-0-2418-1451.jpg",
+      "dateISO": "2026-04-09T06:58:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Medialny gigant planuje zwolnienia. Nawet tysiąc osób może stracić pracę",
+      "link": "https://businessinsider.com.pl/firmy/disney-planuje-zwolnienia-w-marketingu-podobne-kroki-zapowiada-sony/2c889fg",
+      "description": "Disney przygotowuje się do znaczącej redukcji zatrudnienia. Jak donosi serwis Variety, medialny gigant zamierza zwolnić nawet tysiąc pracowników w najbliższych miesiącach. Najwięcej cięć ma dotyczyć działu marketingu.",
+      "pubDate": "Thu, 09 Apr 2026 06:57:05 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Gn1k9kpTURBXy8yNDkxZDY2MzgzZWRmZGUwZDQxY2RlMWQ0MzljMjFkZi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-09T06:57:05.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Ipopema podnosi cenę docelową dla Asbisu do 60,4 zł",
+      "link": "https://www.bankier.pl/wiadomosc/Ipopema-podnosi-cene-docelowa-dla-Asbisu-do-60-4-zl-9111139.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Analitycy Ipopema Securities, w raporcie z 9 kwietnia, podwyższyli cenę docelową dla akcji spółki Asbis do 60,4 zł z 36,73 zł, podtrzymując zalecenie \"kupuj\".",
+      "pubDate": "Thu, 9 Apr 2026 07:48:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/0/f/5cf4b304c96a2e-thumb-1000.jpg",
+      "dateISO": "2026-04-09T06:48:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Jest decyzja ws. edukacji zdrowotnej. Przedmiot będzie obowiązkowy",
+      "link": "https://www.bankier.pl/wiadomosc/Jest-decyzja-ws-edukacji-zdrowotnej-Przedmiot-bedzie-obowiazkowy-9111138.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Od nowego roku szkolnego edukacja zdrowotna będzie przedmiotem obowiązkowym – poinformowała w czwartek ministra edukacji Barbara Nowacka. Przekazała też, że nieobowiązkowy będzie jednak moduł dotyczący wiedzy seksualnej.",
+      "pubDate": "Thu, 9 Apr 2026 07:47:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/7/e5f887549118a5-948-568-10-10-4267-2560.jpg",
+      "dateISO": "2026-04-09T06:47:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Import w Polsce wyhamował. Mroźna zima uderzyła w handel zagraniczny",
+      "link": "https://www.bankier.pl/wiadomosc/Import-w-Polsce-wyhamowal-Mrozna-zima-uderzyla-w-handel-zagraniczny-9111136.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Mroźna zima wyhamowała w styczniu import i zakłóciła logistykę w handlu zagranicznym - podało Ministerstwo Finansów w raporcie.",
+      "pubDate": "Thu, 9 Apr 2026 07:42:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/9/8/6db7cd19bb201a-948-568-0-220-2013-1208.jpg",
+      "dateISO": "2026-04-09T06:42:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Medicalgorithmics szacuje przychody w I kw. na 10,2 mln zł, EBITDA na 1 mln zł",
+      "link": "https://www.bankier.pl/wiadomosc/Medicalgorithmics-szacuje-przychody-w-I-kw-na-10-2-mln-zl-EBITDA-na-1-mln-zl-9111135.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Medicalgorithmics szacuje, że w pierwszym kwartale 2026 r. skonsolidowane przychody ze sprzedaży wyniosły łącznie 10,2 mln zł wobec 6,8 mln zł rok wcześniej - podała spółka w komunikacie. EBITDA szacowana jest na 1 mln zł, a przed rokiem spółka miała 3,1 mln zł straty EBITDA.",
+      "pubDate": "Thu, 9 Apr 2026 07:38:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/5/f/f97f4a11579dd1-thumb-1000.jpg",
+      "dateISO": "2026-04-09T06:38:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Ropa znów drożeje po najmocniejszym spadku notowań od IV 2020 r.",
+      "link": "https://www.bankier.pl/wiadomosc/Ropa-znow-drozeje-po-najmocniejszym-spadku-notowan-od-IV-2020-r-9111133.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ceny ropy naftowej znów mocno rosną po najsilniejszym spadku notowań od kwietnia 2020 r. wywołanym ogłoszeniem przez prezydenta USA Donalda Trumpa, że zgodził się na pakistańską propozycję dwutygodniowego zawieszenia broni w konflikcie z Iranem - informują maklerzy.",
+      "pubDate": "Thu, 9 Apr 2026 07:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/7/b477cc1b558cde-948-568-2-0-1021-612.jpg",
+      "dateISO": "2026-04-09T06:36:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Efekt rozejmu nie potrwał długo. Ceny ropy znowu mocno w górę",
+      "link": "https://businessinsider.com.pl/gospodarka/ceny-ropy-ponownie-w-gore-napiecia-wokol-ciesniny-ormuz-nie-slabna/xg4fvjs",
+      "description": "Ceny ropy naftowej ponownie dynamicznie rosną po największym od kwietnia 2020 r. spadku notowań.",
+      "pubDate": "Thu, 09 Apr 2026 06:31:49 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ROlk9kpTURBXy82YjE2MGU0YTkwODRhMjVhMTg0MGIyMDU3NTdhYTQ3MS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-09T06:31:49.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Bon senioralny zamiast gotówki. Sprawdź, komu przysługuje nowa pomoc",
+      "link": "https://www.bankier.pl/wiadomosc/Bon-senioralny-zamiast-gotowki-Sprawdz-komu-przysluguje-nowa-pomoc-9111044.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ustawy o bonie senioralnym i opiece długoterminowej zostaną wprowadzone w ramach jednego aktu prawnego - poinformowała pełnomocniczka rządu ds. polityki senioralnej Marzena Okła-Drewnowicz. Wyraziła nadzieję, że ustawa zostanie przyjęta jeszcze w tym roku.",
+      "pubDate": "Thu, 9 Apr 2026 07:31:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/1/2d45e31e21ca8a-948-568-0-290-3966-2380.jpg",
+      "dateISO": "2026-04-09T06:31:00.000Z",
       "dateFormatted": "9 kwietnia 2026"
     },
     {
@@ -25,7 +229,19 @@
       "dateFormatted": "9 kwietnia 2026"
     },
     {
-      "title": "Kryzys w Trybunale. Sędziowie złożą ślubowanie bez prezydenta Nawrockiego?",
+      "title": "Gwardia Rewolucyjna mogła rozstawić miny w cieśninie Ormuz",
+      "link": "https://www.bankier.pl/wiadomosc/Gwardia-Rewolucyjna-mogla-rozstawic-miny-w-ciesninie-Ormuz-9111128.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Irańskie agencje prasowe ISNA i Tasnim opublikowały w czwartek rano dokument sugerujący, że Gwardia Rewolucyjna (IRGC) zaminowała cieśninę Ormuz w czasie wojny z Izraelem i USA – poinformowała Associated Press.",
+      "pubDate": "Thu, 9 Apr 2026 07:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/3/7d0d697b518d3c-948-568-508-268-3152-1891.jpg",
+      "dateISO": "2026-04-09T06:20:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Kryzys w Trybunale. Sędziowie złożą dziś ślubowanie bez prezydenta Nawrockiego?",
       "link": "https://www.bankier.pl/wiadomosc/Kryzys-w-Trybunale-Sedziowie-zloza-slubowanie-bez-prezydenta-Nawrockiego-9111113.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Czworo sędziów Trybunału Konstytucyjnego złoży w czwartek ślubowanie w Sejmie. W uroczystości udział weźmie marszałek Sejmu Włodzimierz Czarzasty i byli prezesi TK - natomiast - jak deklarował szef KPRP Zbigniew Bogucki - na pewno nie odbędzie się ono „wobec prezydenta Karola Nawrockiego”.",
       "pubDate": "Thu, 9 Apr 2026 07:17:00 +0100",
@@ -46,6 +262,18 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/7/b/dfe27a6b80da6a-948-568-4-124-1915-1149.jpg",
       "dateISO": "2026-04-09T05:56:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Emeryci mogą liczyć na dodatkowe środki. Pierwsze wypłaty już w piątek",
+      "link": "https://businessinsider.com.pl/gospodarka/zus-zwieksza-dodatek-pielegnacyjny-sprawdz-komu-przysluguje-wyzsze-swiadczenie/ezbfjfx",
+      "description": "Seniorzy mogą liczyć na dodatkowe środki od Zakładu Ubezpieczeń Społecznych. Po waloryzacji emerytur kwota dodatku pielęgnacyjnego wzrosła i obecnie wynosi 366,68 zł. Najbliższa wypłata świadczenia zaplanowana jest na 10 kwietnia (piątek).",
+      "pubDate": "Thu, 09 Apr 2026 05:52:57 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/U-3k9kpTURBXy8zOTljNjhlYjFlY2RiMTIyMzA0ODc4ZjAxZTA5NjQ4My5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-09T05:52:57.000Z",
       "dateFormatted": "9 kwietnia 2026"
     },
     {
@@ -82,18 +310,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/b/6/90abde2793bee8-948-568-10-540-3990-2393.jpg",
       "dateISO": "2026-04-09T05:28:00.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
-      "title": "Co dalej z edukacją zdrowotną w szkołach? Dziś decyzja ministerstwa",
-      "link": "https://www.bankier.pl/wiadomosc/Co-dalej-z-edukacja-zdrowotna-w-szkolach-Dzis-decyzja-ministerstwa-9111103.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Środowisko szkolne, m.in. dyrektorzy szkół, którzy przygotowują arkusze organizacyjne, czekają na decyzję ministry edukacji Barbary Nowackiej o ewentualnej obowiązkowości edukacji zdrowotnej. Rzecznik rządu Adam Szłapka zapowiedział, że szefowa MEN poinformuje o przyszłości przedmiotu w czwartek.",
-      "pubDate": "Thu, 9 Apr 2026 06:26:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/7/e5f887549118a5-948-568-10-10-4267-2560.jpg",
-      "dateISO": "2026-04-09T05:26:00.000Z",
       "dateFormatted": "9 kwietnia 2026"
     },
     {
@@ -277,18 +493,6 @@
       "dateFormatted": "9 kwietnia 2026"
     },
     {
-      "title": "Starcie gigantów odchudzania. Novo Nordisk pokona Eli Lilly na cudzym boisku?",
-      "link": "https://www.bankier.pl/wiadomosc/Starcie-gigantow-odchudzania-Novo-Nordisk-pokona-Eli-Lilly-na-cudzym-boisku-9110746.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Większość analityków z Wall Street nie daje duńskiemu Novo Nordisk większych szans w starciu z Eli Lilly na amerykańskim rynku tabletek odchudzających. Danske Bank idzie jednak pod prąd i stawia odważną tezę: to europejski gigant wyjdzie z tego pojedynku zwycięsko. Stawką są miliardy dolarów.",
-      "pubDate": "Thu, 9 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/c/4/b96a74524d7236-948-568-0-140-3504-2102.jpg",
-      "dateISO": "2026-04-09T05:00:00.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
       "title": "Tłumy w polskich salonach, a „Kowalscy” z rekordem. Te modele królują na początku 2026 roku",
       "link": "https://www.bankier.pl/wiadomosc/Tlumy-w-polskich-salonach-a-Kowalscy-z-rekordem-Te-modele-kroluja-na-poczatku-2026-roku-9110483.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Marzec był drugim najlepszym miesiącem w historii polskich salonów samochodowych. W Polsce przybyło blisko 63,9 tys. nowych osobówek – wynika z danych Polskiego Związku Przemysłu Motoryzacyjnego. Rekord ustanowili za to klienci indywidualni i rejestrujący samochody na jednoosobowe działalności gospo",
@@ -333,6 +537,18 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/b/d/132ea5aee5982f-948-568-8-0-3534-2120.jpg",
+      "dateISO": "2026-04-09T05:00:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Starcie gigantów odchudzania. Novo Nordisk pokona Eli Lilly na cudzym boisku?",
+      "link": "https://www.bankier.pl/wiadomosc/Starcie-gigantow-odchudzania-Novo-Nordisk-pokona-Eli-Lilly-na-cudzym-boisku-9110746.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Większość analityków z Wall Street nie daje duńskiemu Novo Nordisk większych szans w starciu z Eli Lilly na amerykańskim rynku tabletek odchudzających. Danske Bank idzie jednak pod prąd i stawia odważną tezę: to europejski gigant wyjdzie z tego pojedynku zwycięsko. Stawką są miliardy dolarów.",
+      "pubDate": "Thu, 9 Apr 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/4/b96a74524d7236-948-568-0-140-3504-2102.jpg",
       "dateISO": "2026-04-09T05:00:00.000Z",
       "dateFormatted": "9 kwietnia 2026"
     },
@@ -385,51 +601,15 @@
       "dateFormatted": "9 kwietnia 2026"
     },
     {
-      "title": "Donald Trump rozważa przesunięcie wojsk USA w Europie. Te państwa mają ucierpieć",
-      "link": "https://businessinsider.com.pl/wiadomosci/donald-trump-rozwaza-przesuniecie-wojsk-usa-w-europie-te-panstwa-maja-ucierpiec/538nfgg",
-      "description": "Administracja Donalda Trumpa analizuje możliwość przesunięcia części amerykańskich wojsk stacjonujących w Europie — informuje \"Wall Street Journal\", powołując się na przedstawicieli Białego Domu.",
-      "pubDate": "Thu, 09 Apr 2026 04:51:02 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/oZek9kpTURBXy9iNzhhZDM3MmY2NGI4ODQyYTQ2YzVmNzFiYzBhODY3NS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-09T04:51:02.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
-      "title": "Loty kasowane, bilety drożeją. Rzecznik LOT-u: te połączenia są zagrożone",
-      "link": "https://businessinsider.com.pl/gospodarka/lot-kasuje-polaczenia-i-podnosi-ceny-biletow-efekt-wojny-w-iranie/38t83x4",
-      "description": "Rosnące ceny paliw zmuszają linie lotnicze do podnoszenia cen biletów i ograniczania liczby lotów. Globalny kryzys dotknął także PLL LOT, który skasował część rotacji. Krzysztof Moczulski, rzecznik polskiego przewoźnika wyjaśnił, które loty są zagrożone i czym kieruje się firma, przy zawieszaniu poł",
-      "pubDate": "Thu, 09 Apr 2026 04:30:47 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/-7Bk9kpTURBXy9mNDhmYTA4NDc1OGQ1MmYwNTdjNjAxYzA1NzFlNDc2OC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-09T04:30:47.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
-      "title": "Rozejm między USA i Iranem na krawędzi załamania. Napięcia eskalują",
-      "link": "https://businessinsider.com.pl/wiadomosci/bliski-wschod-znow-na-krawedzi-zawieszenie-broni-usairan-zagrozone/lq62v8l",
-      "description": "Zaledwie dzień po wejściu w życie porozumienia o zawieszeniu broni między Stanami Zjednoczonymi a Iranem, sytuacja na Bliskim Wschodzie ponownie się zaostrza.",
-      "pubDate": "Thu, 09 Apr 2026 04:29:01 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/sZ1k9kpTURBXy83NDgxOTJkMGQ5YzUwNzM4MGRhZGMzNzUwMjljMzg5NC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-09T04:29:01.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
-      "title": "Rozejm USA i Iranu odczujemy w Polsce nie tylko w cenach paliw. \"Uciekamy spod topora\"",
-      "link": "https://businessinsider.com.pl/gielda/surowce/rozejm-usa-i-iranu-o-tyle-spadna-ceny-paliw-wiemy-na-czym-oszczedza-polacy/7x9cf1v",
-      "description": "Rozejm Iranu i USA oddala najczarniejsze scenariusze dla portfeli Polaków. Wiemy, o ile mogą spaść ceny paliw i na czym będzie można zaoszczędzić.",
-      "pubDate": "Thu, 09 Apr 2026 04:17:22 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Wfqk9kpTURBXy81MWU2MGJiZTliZDUwNGZjNzY5MDNjODdkOWM3NWRjYS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-09T04:17:22.000Z",
+      "title": "Warszawa zdetronizowana? Oto nowe zarobkowe eldorado Polski",
+      "link": "https://www.bankier.pl/wiadomosc/Warszawa-zdetronizowana-Oto-nowe-zarobkowe-eldorado-Polski-9111083.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W Krakowie średnie i duże przedsiębiorstwa płacą najlepiej w kraju. Liderem zarobków ogółem, bez względu na wielkość spółki, wciąż jest jednak Warszawa – cytuje dane GUS-u czwartkowa „Rzeczpospolita”.",
+      "pubDate": "Thu, 9 Apr 2026 05:13:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/b/c690541a6d4734-948-568-0-129-1989-1193.jpg",
+      "dateISO": "2026-04-09T04:13:00.000Z",
       "dateFormatted": "9 kwietnia 2026"
     },
     {
@@ -529,66 +709,6 @@
       "dateFormatted": "8 kwietnia 2026"
     },
     {
-      "title": "Kosiniak-Kamysz: Prezydent popełnia delikt. Powinien przyjąć przysięgę od sędziów TK",
-      "link": "https://www.bankier.pl/wiadomosc/Kosiniak-Kamysz-Prezydent-popelnia-delikt-Powinien-przyjac-przysiege-od-sedziow-TK-9111035.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wicepremier, szef MON Władysław Kosiniak-Kamysz w środę krytycznie odniósł się do działań prezydenta Karola Nawrockiego wobec części wybranych sędziów TK. - Prezydent popełnia delikt nie wypełniając postanowień ustawy i nie działając w zgodzie z polskim prawem; powinien przyjąć przysięgę - ocenił.",
-      "pubDate": "Wed, 8 Apr 2026 20:43:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/e/d423ff32879d90-948-568-532-60-1837-1102.jpg",
-      "dateISO": "2026-04-08T19:43:00.000Z",
-      "dateFormatted": "8 kwietnia 2026"
-    },
-    {
-      "title": "\"Zwyciężył rozsądek, ale cena jest wysoka\". BBC o rozejmie Trumpa z Iranem",
-      "link": "https://www.bankier.pl/wiadomosc/Zwyciezyl-rozsadek-ale-cena-jest-wysoka-BBC-o-rozejmie-Trumpa-z-Iranem-9111023.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zawarte z Iranem porozumienie dotyczące dwutygodniowego zawieszenia broni dało USA możliwość wyjścia z wojny, ale za wysoką cenę zaufania do Waszyngtonu i poparcia dla prezydenta Donalda Trumpa - skomentował w środę brytyjski portal BBC.",
-      "pubDate": "Wed, 8 Apr 2026 20:15:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/d/a0c7df723ff4e5-945-560-19-139-3959-2375.jpg",
-      "dateISO": "2026-04-08T19:15:00.000Z",
-      "dateFormatted": "8 kwietnia 2026"
-    },
-    {
-      "title": "Szefowa KRRiT chce, by prokuratura zbadała proces likwidacji TVP i PR",
-      "link": "https://www.bankier.pl/wiadomosc/Szefowa-KRRiT-chce-by-prokuratura-zbadala-proces-likwidacji-TVP-i-PR-9110943.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Szefowa KRRiT Agnieszka Glapiak chce, by prokuratura zbadała, czy proces likwidacji TVP i Polskiego Radia jest prowadzony zgodnie z prawem. Media publiczne pozostają w stanie likwidacji od grudnia 2023 r., co resort kultury uzasadniał wówczas potrzebą zabezpieczenia dalszego funkcjonowania spółek.",
-      "pubDate": "Wed, 8 Apr 2026 18:47:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/6/0db4776e4690f0-948-568-0-0-3750-2249.jpg",
-      "dateISO": "2026-04-08T17:47:00.000Z",
-      "dateFormatted": "8 kwietnia 2026"
-    },
-    {
-      "title": "PKO Bank Hipoteczny zwiększył pulę oferowanych listów zastawnych do 1 mld zł",
-      "link": "https://www.bankier.pl/wiadomosc/PKO-Bank-Hipoteczny-zwiekszyl-pule-oferowanych-listow-zastawnych-do-1-mld-zl-9110980.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "PKO Bank Hipoteczny zwiększył pulę oferowanych listów zastawnych 2N dla inwestorów detalicznych do maksymalnej wielkości, czyli do 1 mld zł - podał bank w komunikacie prasowym.",
-      "pubDate": "Wed, 8 Apr 2026 18:42:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": null,
-      "dateISO": "2026-04-08T17:42:00.000Z",
-      "dateFormatted": "8 kwietnia 2026"
-    },
-    {
-      "title": "Krok od tragedii milionów. CNN o kulisach nocy, która wstrząsnęła światem. \"Tylko prezydent wie, co zrobi\"",
-      "link": "https://www.bankier.pl/wiadomosc/Krok-od-tragedii-milionow-CNN-o-kulisach-nocy-ktora-wstrzasnela-swiatem-Tylko-prezydent-wie-co-zrobi-9110757.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Mimo że prezydent USA Donald Trump nie dokonał zniszczenia całej irańskiej cywilizacji, wysuwanie takich gróźb przez przywódcę najpotężniejszego państwa świata rodzi poważne pytania konstytucyjne o amerykański system kontroli władzy - oceniła w środę CNN.",
-      "pubDate": "Wed, 8 Apr 2026 18:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/f/5b330c7e1fb799-948-568-0-252-3744-2246.jpg",
-      "dateISO": "2026-04-08T17:00:00.000Z",
-      "dateFormatted": "8 kwietnia 2026"
-    },
-    {
       "title": "Pożar ugaszony, mamy tryb risk-on. Warszawski Indeks Giełdowy najwyżej w historii",
       "link": "https://www.bankier.pl/wiadomosc/Pozar-ugaszony-mamy-tryb-risk-on-Warszawski-Indeks-Gieldowy-najwyzej-w-historii-9110933.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Inwestorzy na warszawskim parkiecie doczekali się prawdziwej eksplozji optymizmu. Informacje o dwutygodniowym zawieszeniu broni w konflikcie USA-Iran oraz odblokowaniu strategicznej cieśniny Ormuz wywołały euforię i apetyt na ryzyko (risk-on), co wyniosło główny indeks GPW na poziomy nienotowane nig",
@@ -625,42 +745,6 @@
       "dateFormatted": "8 kwietnia 2026"
     },
     {
-      "title": "Koniec taniej energii. Bruksela ostrzega: ten kryzys nie będzie krótkotrwały",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-taniej-energii-Bruksela-ostrzega-ten-kryzys-nie-bedzie-krotkotrwaly-9110874.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Nie powinniśmy mieć złudzeń, że obecny kryzys, który wpływa na wysokie ceny energii, będzie krótkotrwały - oświadczyła w środę w Brukseli rzeczniczka Komisji Europejskiej ds. energii Anna-Kaisa Itkonen, dodając, że blokada cieśniny Ormuz poważnie się do tego przyczyniła.",
-      "pubDate": "Wed, 8 Apr 2026 16:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/3/2d6ec95742717a-948-568-19-139-1900-1140.jpg",
-      "dateISO": "2026-04-08T15:50:00.000Z",
-      "dateFormatted": "8 kwietnia 2026"
-    },
-    {
-      "title": "Będzie głosowanie nad votum nieufności wobec minister zdrowia. Rząd staje murem za Sobierańską-Grendą",
-      "link": "https://www.bankier.pl/wiadomosc/Bedzie-glosowanie-nad-votum-nieufnosci-wobec-minister-zdrowia-Rzad-staje-murem-za-Sobieranska-Grenda-9110814.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rzecznik rządu Adam Szłapka skomentował w środę decyzję Czarnka o złożeniu wotum nieufności wobec minister zdrowia. - Opozycja ma prawo składać wnioski o votum nieufności. My będziemy oczywiście głosować przeciw - powiedział.",
-      "pubDate": "Wed, 8 Apr 2026 16:21:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/f/6feb5984ee80a0-948-568-40-30-3960-2375.jpg",
-      "dateISO": "2026-04-08T15:21:00.000Z",
-      "dateFormatted": "8 kwietnia 2026"
-    },
-    {
-      "title": "Hegseth: Iran błagał o rozejm, Trump mógł zniszczyć ich gospodarkę, ale wybrał litość",
-      "link": "https://www.bankier.pl/wiadomosc/Hegseth-Iran-blagal-o-rozejm-Trump-mogl-zniszczyc-ich-gospodarke-ale-wybral-litosc-9110817.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Szef Pentagonu Pete Hegseth powiedział w środę, że Iran „błagał” o rozejm, a prezydent USA Donald Trump „wybrał litość”, choć był gotowy zniszczyć irańską gospodarkę. Jednocześnie zapewnił, że siły USA są nadal gotowe do działania w razie konieczności, np. by przejąć irańskie zapasy wzbogaconego ura",
-      "pubDate": "Wed, 8 Apr 2026 16:14:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/1/e42edcabcc0bed-948-568-1220-740-2780-1667.jpg",
-      "dateISO": "2026-04-08T15:14:00.000Z",
-      "dateFormatted": "8 kwietnia 2026"
-    },
-    {
       "title": "Rewolucja w szkołach. Rząd przyjął przełomowy projekt. Koniec z karami za wygląd?",
       "link": "https://www.bankier.pl/wiadomosc/Prawa-i-obowiazki-ucznia-zostana-zebrane-w-ustawie-rzad-przyjal-projekt-nowelizacji-Prawa-oswiatowego-9110866.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Prawa i obowiązki ucznia będą zebrane w jednym miejscu, w ustawie Prawo oświatowe - zdecydował w środę rząd, przyjmując projekt nowelizacji. Nowelizacja ma m.in. gwarantować uczniom ustawowe prawo do kształtowania własnego wyglądu. Projekt zakłada też powołanie Krajowego Rzecznika Praw Uczniowskich.",
@@ -673,54 +757,6 @@
       "dateFormatted": "8 kwietnia 2026"
     },
     {
-      "title": "Zaskakujący plan Trumpa. Chce stworzyć \"joint venture\" z Iranem?",
-      "link": "https://www.bankier.pl/wiadomosc/Zaskakujacy-plan-Trumpa-Chce-stworzyc-joint-venture-z-Iranem-9110828.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent USA Donald Trump powiedział w środę telewizji ABC, że jego kraj może dążyć do wspólnej kontroli żeglugi przez cieśninę Ormuz i rozważa utworzenie joint venture. Zapowiedział, że siły amerykańskie pozostaną w regionie.",
-      "pubDate": "Wed, 8 Apr 2026 15:35:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/6/d45a7b6e3c003a-948-568-0-70-4000-2399.jpg",
-      "dateISO": "2026-04-08T14:35:00.000Z",
-      "dateFormatted": "8 kwietnia 2026"
-    },
-    {
-      "title": "Niższy VAT na benzynę jest niezgodny z prawem? KE upomina Polskę i Hiszpanię",
-      "link": "https://www.bankier.pl/wiadomosc/Nizszy-VAT-na-benzyne-jest-niezgodny-z-prawem-KE-upomina-Polske-i-Hiszpanie-9110798.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Komisja Europejska poinformowała w środę, że wysłała list do Polski i Hiszpanii, w którym poinformowała władze tych krajów, iż unijna dyrektywa VAT nie zawiera przepisu o obniżeniu tego podatku na paliwa kopalne. Zalecamy raczej stosowanie obniżek akcyzy - powiedziała rzeczniczka KE Louise Bogey.",
-      "pubDate": "Wed, 8 Apr 2026 15:06:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/4/d465f13bbb804e-948-568-0-40-3712-2227.jpg",
-      "dateISO": "2026-04-08T14:06:00.000Z",
-      "dateFormatted": "8 kwietnia 2026"
-    },
-    {
-      "title": "Wizz Air z 13 nowymi kierunkami z Katowic w sezonie letnim",
-      "link": "https://www.bankier.pl/wiadomosc/Wizz-Air-z-13-nowymi-kierunkami-z-Katowic-w-sezonie-letnim-9110779.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W tegorocznym sezonie letnim Wizz Air wprowadzi 13 nowych tras z lotniska Katowice do ośmiu krajów. Jak wynika ze środowej informacji linii, będą to w większości trasy na południe Europy; najwięcej z nich wiedzie do Włoch, Chorwacji i Portugalii.",
-      "pubDate": "Wed, 8 Apr 2026 14:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/3/8aa7429a3935f9-948-568-35-0-3507-2104.jpg",
-      "dateISO": "2026-04-08T13:50:00.000Z",
-      "dateFormatted": "8 kwietnia 2026"
-    },
-    {
-      "title": "Metropolia na Pomorzu. Nowe prawo zmieni życie 1,5 mln mieszkańców",
-      "link": "https://www.bankier.pl/wiadomosc/Metropolia-na-Pomorzu-Nowe-prawo-zmieni-zycie-1-5-mln-mieszkancow-9110751.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rząd przyjął w środę projekt ustawy o związku metropolitalnym w województwie pomorskim - poinformował po posiedzeniu Rady Ministrów rzecznik rządu Adam Szłapka. Projekt przewiduje m.in. nową formę współpracy pomiędzy pomorskimi gminami i powiatami.",
-      "pubDate": "Wed, 8 Apr 2026 14:38:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/a/3dfc16c86838ac-948-568-0-99-1988-1192.jpg",
-      "dateISO": "2026-04-08T13:38:00.000Z",
-      "dateFormatted": "8 kwietnia 2026"
-    },
-    {
       "title": "Afera Zondacrypto, fundacje Ziobry i Wiplera oraz CPAC. Premier uderza w prawicę",
       "link": "https://www.bankier.pl/wiadomosc/Afera-Zondacrypto-fundacje-Ziobry-i-Wiplera-oraz-CPAC-Premier-uderza-w-prawice-9110639.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Premier Donald Tusk przekazał w środę, że na przełomie października i listopada 2025 r. prezes zarządu Zondacrypto Przemysław Kral dokonał wpłat na rzecz dwóch fundacji: „Instytut Polski Suwerennej” i „Dobry Rząd”. Dodał, że Zondacrypto była też głównym sponsorem polskiej imprezy CPAC.",
@@ -730,18 +766,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/8/a/8bbe24fa9eca26-948-568-0-134-1912-1147.jpg",
       "dateISO": "2026-04-08T12:31:00.000Z",
-      "dateFormatted": "8 kwietnia 2026"
-    },
-    {
-      "title": "Iran żąda opłat w Cieśninie Ormuz. Nagły ruch Omanu krzyżuje plany Teheranu",
-      "link": "https://www.bankier.pl/wiadomosc/Iran-zada-oplat-w-Ciesninie-Ormuz-Nagly-ruch-Omanu-krzyzuje-plany-Teheranu-9110623.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Minister transportu Omanu oświadczył w środę, że jego kraj nie będzie pobierał opłat od statków przepływających przez Cieśninę Ormuz. Wcześniej Iran zapowiadał, że będzie pobierał myto sięgające 2 mln dol. za przepuszczenie jednego tankowca i będzie dzielił się wpływami z Omanem.",
-      "pubDate": "Wed, 8 Apr 2026 13:06:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/0/1aa50c6b4bcd6b-948-568-3-0-1567-940.jpg",
-      "dateISO": "2026-04-08T12:06:00.000Z",
       "dateFormatted": "8 kwietnia 2026"
     },
     {
@@ -805,42 +829,6 @@
       "dateFormatted": "8 kwietnia 2026"
     },
     {
-      "title": "Więcej obniżek stóp procentowych w tym roku już nie będzie. RPP zrobi sobie długą przerwę",
-      "link": "https://www.bankier.pl/wiadomosc/Wiecej-obnizek-stop-procentowych-w-tym-roku-juz-nie-bedzie-RPP-zrobi-sobie-dluga-przerwe-9110333.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "W marcu zapewne zobaczyliśmy ostatnią w tym cyklu obniżkę stóp procentowych w Narodowym Banku Polskim. Teraz RPP przejdzie w tryb oczekiwania, choć rynek finansowy wycenia… podwyżki kosztów kredytu.",
-      "pubDate": "Wed, 8 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/a/a/0709fc8ef76f6e-948-568-0-104-3000-1799.jpg",
-      "dateISO": "2026-04-08T05:00:00.000Z",
-      "dateFormatted": "8 kwietnia 2026"
-    },
-    {
-      "title": "Wojna goreje, Trumpowi puszczają nerwy, a Citrini informuje o oszustwach w Ormuz. Tymczasem WIG20 ze szczytem hossy",
-      "link": "https://www.bankier.pl/wiadomosc/Wojna-goreje-Trumpowi-puszczaja-nerwy-a-Citrini-informuje-o-oszustwach-w-Ormuz-Tymczasem-WIG20-ze-szczytem-hossy-9110230.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Inwestorzy powracający z przerwy świątecznej zastali rynki w stanie najwyższego napięcia geopolitycznego. Choć nad parkietami wisi ultimatum Donalda Trumpa wobec Iranu, WIG20 wykazał się dużą odpornością i przed południem poprawił szczyt hossy. Niestety szybko się z niego wycofał i ostatecznie sesję",
-      "pubDate": "Tue, 7 Apr 2026 17:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/7/5/d5bcb07635beb7-948-568-6-134-2251-1350.png",
-      "dateISO": "2026-04-07T16:20:00.000Z",
-      "dateFormatted": "7 kwietnia 2026"
-    },
-    {
-      "title": "Zarządzanie budżetem nam wychodzi, ale na ETF-ach polegamy. Nowy raport",
-      "link": "https://www.bankier.pl/wiadomosc/Polacy-wyzej-oceniaja-swoja-wiedze-o-oszczedzaniu-wyzwaniem-pozostaja-inwestycje-9110046.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "74 proc. Polaków nie wydaje wszystkich swoich pieniędzy, w tym 24 proc. przynajmniej częściowo inwestuje oszczędności. Aż 52 proc. ankietowanych nie podejmuje żadnych działań, by pogłębiać swoją wiedzę ekonomiczną, ale coraz więcej osób - 41 proc. - deklaruje poczucie finansowego bezpieczeństwa.",
-      "pubDate": "Tue, 7 Apr 2026 13:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/2/3/cd91a4a1c23bcf-948-568-105-389-2265-1358.jpg",
-      "dateISO": "2026-04-07T12:20:00.000Z",
-      "dateFormatted": "7 kwietnia 2026"
-    },
-    {
       "title": "Cena Bitcoina dzisiaj: spada poniżej 69 tys. $ z powodu groźby Trumpa",
       "link": "https://pl.investing.com/news/cryptocurrency-news/cena-bitcoina-dzisiaj-spada-ponizej-69-tys--z-powodu-grozby-trumpa-1350698",
       "description": "",
@@ -850,18 +838,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-04-07T07:10:59.000Z",
-      "dateFormatted": "7 kwietnia 2026"
-    },
-    {
-      "title": "Rozpoczęła się wielka rotacja. Uderzenie na Iran zapalnikiem dla giełdowego trendu",
-      "link": "https://www.bankier.pl/wiadomosc/Rozpoczela-sie-wielka-rotacja-Uderzenie-na-Iran-zapalnikiem-dla-gieldowego-trendu-9100283.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Przez poprzednie trzy lata na Wall Street królowały spółki technologiczne powiązane z boomem na AI. Ich czas powoli dobiega końca. Inwestorzy przypomnieli sobie o „najbardziej znienawidzonym segmencie rynku”.",
-      "pubDate": "Tue, 7 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/1/a/d3aa4006db3fbd-945-560-0-74-1496-897.jpg",
-      "dateISO": "2026-04-07T05:00:00.000Z",
       "dateFormatted": "7 kwietnia 2026"
     },
     {
@@ -949,5 +925,5 @@
       "dateFormatted": "31 marca 2026"
     }
   ],
-  "updatedAt": "2026-04-09T05:49:28.581Z"
+  "updatedAt": "2026-04-09T07:25:06.275Z"
 }
