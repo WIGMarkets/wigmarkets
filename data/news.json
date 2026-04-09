@@ -1,6 +1,126 @@
 {
   "articles": [
     {
+      "title": "Ronson Development sprzedał w I kwartale 122 lokale",
+      "link": "https://www.bankier.pl/wiadomosc/Ronson-Development-sprzedal-w-I-kwartale-122-lokale-9111598.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Ronson Development sprzedał w pierwszym kwartale 2026 roku 122 lokale i przekazał w tym czasie 52 lokale - poinformowała spółka we wstępnych danych.",
+      "pubDate": "Thu, 9 Apr 2026 16:58:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/0/f/5cf4b304c96a2e-thumb-1000.jpg",
+      "dateISO": "2026-04-09T15:58:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Rosyjskie okręty u wybrzeży Wielkiej Brytanii. Polowali na kable i rurociągi?",
+      "link": "https://www.bankier.pl/wiadomosc/Rosyjskie-okrety-u-wybrzezy-Wielkiej-Brytanii-Polowali-na-kable-i-rurociagi-9111587.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Brytyjskie wojsko wykryło na brytyjskich wodach i przez miesiąc śledziło trzy rosyjskie okręty podwodne, które stanowiły zagrożenie dla podmorskich kabli i rurociągów - poinformował w czwartek minister obrony Wielkiej Brytanii John Healey. Jednostki opuściły już wody brytyjskie i skierowały się na p",
+      "pubDate": "Thu, 9 Apr 2026 16:43:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/2/ce581c759a04fb-945-567-42-94-3385-2031.jpg",
+      "dateISO": "2026-04-09T15:43:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Mostostal Zabrze skupi 691 000 akcji własnych",
+      "link": "https://www.bankier.pl/wiadomosc/Mostostal-Zabrze-skupi-691-000-akcji-wlasnych-9111563.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "W wyniku przeprowadzonego skupu akcji własnych Mostostal Zabrze kupi 691 000 akcji - podała spółka w komunikacie.",
+      "pubDate": "Thu, 9 Apr 2026 16:22:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/0/f/5cf4b304c96a2e-thumb-1000.jpg",
+      "dateISO": "2026-04-09T15:22:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Szpitale czeka rewolucja. Rząd przeznaczy 1,149 mld zł na konsolidację",
+      "link": "https://www.bankier.pl/wiadomosc/Szpitale-czeka-rewolucja-Rzad-przeznaczy-1-149-mld-zl-na-konsolidacje-9111560.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rząd przeznaczy 1,149 mld złotych na konsolidację lecznic - poinformowała w czwartek minister zdrowia Jolanta Sobierańska-Grenda. Nabór wniosków do konkursu na dofinansowanie procesów konsolidacyjnych szpitali ruszy 1 lipca i potrwa do 30 października 2026 roku.",
+      "pubDate": "Thu, 9 Apr 2026 16:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/f/6feb5984ee80a0-948-568-40-30-3960-2375.jpg",
+      "dateISO": "2026-04-09T15:20:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Paliwo drożeje mimo rozejmu. Diesel idzie w górę najszybciej",
+      "link": "https://businessinsider.com.pl/gospodarka/ceny-paliw-znow-w-gore-powodem-kruche-zawieszenie-broni-w-iranie/ptghhc2",
+      "description": "Koszty benzyny i diesla nadal rosną, mimo ogłoszenia zawieszenia broni między USA a Iranem.",
+      "pubDate": "Thu, 09 Apr 2026 15:14:17 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/oCDk9kpTURBXy9jYmM5N2IwNmRhMjFmMTQ2NzgxZjg5YWQwZDJkNDBiZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-09T15:14:17.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Skrajnie trudna sytuacja Azotów i JSW. Balczun mówi o \"walce o płynność\"",
+      "link": "https://www.bankier.pl/wiadomosc/Skrajnie-trudna-sytuacja-Azotow-i-JSW-Balczun-mowi-o-walce-o-plynnosc-9111547.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Ministerstwo Aktywów Państwowych pracuje nad konstruktywnymi rozwiązaniami dla Grupy Azoty i Jastrzębskiej Spółki Węglowej (JSW), które znajdują się w skrajnie trudnej sytuacji finansowej - poinformował w czwartek minister aktywów państwowych Wojciech Balczun. Dla JSW rozważane są tylko możliwości f",
+      "pubDate": "Thu, 9 Apr 2026 16:12:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/7/3/c1673134ea006a-948-568-0-80-3984-2390.jpg",
+      "dateISO": "2026-04-09T15:12:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Sunex szacuje, że miał w I kw. 42,2 mln zł skonsolidowanych przychodów, 8,4 proc. mniej rdr",
+      "link": "https://www.bankier.pl/wiadomosc/Sunex-szacuje-ze-mial-w-I-kw-42-2-mln-zl-skonsolidowanych-przychodow-8-4-proc-mniej-rdr-9111539.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Sunex szacuje, że wypracował w pierwszym kwartale 2026 roku 42,2 mln zł skonsolidowanych przychodów ze sprzedaży, czyli o 8,4 proc. mniej w porównaniu do analogicznego okresu 2025 roku - podała spółka w komunikacie.",
+      "pubDate": "Thu, 9 Apr 2026 16:04:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/1/0/32ef436f61248c-thumb-1000.jpg",
+      "dateISO": "2026-04-09T15:04:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Energia przyszłości w szkołach podstawowych - Finał OZEdukacja na Enea Stadionie w Poznaniu",
+      "link": "https://businessinsider.com.pl/lifestyle/energia-przyszlosci-w-szkolach-podstawowych-final-ozedukacja-na-enea-stadionie-w/2rhnrwj",
+      "description": "Czy prąd może powstać z wiatru, słońca albo wody? Dla uczestników programu OZEdukacja to już nie teoria, a praktyczna wiedza. W piątek, 27 marca, Enea Stadion stał się miejscem finału ogólnopolskiego projektu edukacyjnego, który pokazuje, że o energetyce można uczyć się poprzez działanie, eksperymen",
+      "pubDate": "Thu, 09 Apr 2026 15:01:15 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ACOk9kuTURBXy84YmVjODQxNi0xYTcyLTQxYjktYWY1NS1kZmFmZTM1ZGZiMzEuanBlZ5GTAs0EsADeAAGhMAE",
+      "dateISO": "2026-04-09T15:01:15.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "Amerykańska gospodarka ledwo urosła. Donald Trump nie ma powodów do zadowolenia",
+      "link": "https://businessinsider.com.pl/gospodarka/pkb-usa-wyraznie-spowolnil-w-koncowce-2025-roku-eksperci-tlumacza-powody/9ph2blt",
+      "description": "Amerykański silnik gospodarczy w czwartym kwartale gwałtownie zwolnił, a ostateczne dane okazały się znacznie słabsze, niż ktokolwiek przypuszczał. Jednak ostatnie odczyty dynamiki PKB nie odzwierciedlają prawdziwej kondycji największej gospodarki świata.",
+      "pubDate": "Thu, 09 Apr 2026 14:59:36 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/a6Dk9kpTURBXy8zOTMwNDMyYWJlYjMwMzY3ZWNiNTQ1MWZkYTNmMzA0Ny5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-09T14:59:36.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
+      "title": "ZUS wypłacił trzynastki. Tyle łącznie otrzymali seniorzy",
+      "link": "https://businessinsider.com.pl/finanse/dodatkowe-pieniadze-dla-emerytow-zus-poinformowal-o-wyplacie-trzynastek/drf7gll",
+      "description": "Zakład Ubezpieczeń Społecznych wypłacił kolejną transzę tzw. trzynastych emerytur. Poinformował też, kiedy jeszcze w tym roku środki trafią do kolejnych seniorów.",
+      "pubDate": "Thu, 09 Apr 2026 14:32:39 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/WIYk9kpTURBXy8xMWI1NTRhZjc1M2ZmZTZkNWUyYTI0ZTJlNjJkODQ5NS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-09T14:32:39.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
       "title": "Trump: Rozczarowujące NATO nie rozumie niczego bez presji",
       "link": "https://www.bankier.pl/wiadomosc/Trump-Rozczarowujace-NATO-nie-rozumie-niczego-bez-presji-9111508.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Rozczarowujące NATO nie rozumiało niczego, dopóki nie wywarto na nich presji - oświadczył w czwartek prezydent USA Donald Trump we wpisie na platformie Truth Social. Prezydent nie wyjaśnił, co ma na myśli.",
@@ -25,18 +145,6 @@
       "dateFormatted": "9 kwietnia 2026"
     },
     {
-      "title": "Zapisy na listy zastawne PKO BH przekroczyły maksymalną liczbę, 10 IV ostatnim dniem zapisów",
-      "link": "https://www.bankier.pl/wiadomosc/Zapisy-na-listy-zastawne-PKO-BH-przekroczyly-maksymalna-liczbe-10-IV-ostatnim-dniem-zapisow-9111492.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Liczba listów zastawnych serii 2N PKO Banku Hipotecznego, na jakie inwestorzy złożyli zapisy, przekroczyła maksymalną liczbę oferowanych listów zastawnych i przyjmowanie zapisów zostało skrócone do 10 kwietnia 2026 r. - podał bank w komunikacie prasowym.",
-      "pubDate": "Thu, 9 Apr 2026 15:16:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/bec068af7bec25-thumb-1000.jpg",
-      "dateISO": "2026-04-09T14:16:00.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
       "title": "Koniec niezależnych mediów w Rosji? Służby w redakcji \"Nowej Gaziety\"",
       "link": "https://www.bankier.pl/wiadomosc/Koniec-niezaleznych-mediow-w-Rosji-Sluzby-w-redakcji-Nowej-Gaziety-9111488.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Niezależna rosyjska „Nowaja Gazieta” podała w czwartek, że w jej redakcji w Moskwie doszło do rewizji. Adwokaci nie zostali dopuszczeni do pomieszczeń redakcji, gdzie znajdowali się niektórzy pracownicy. MSW Rosji ogłosiło, że wszczęto sprawę karną dotyczącą nielegalnego użycia danych osobowych.",
@@ -49,7 +157,7 @@
       "dateFormatted": "9 kwietnia 2026"
     },
     {
-      "title": "Strata NBP w 2025 r. wyniosła blisko 36 mld zł. Prof. Glapiński tłumaczy, skąd ten wynik",
+      "title": "Prezes NBP: Cena złota jest w tej chwili bardzo korzystna. Wykorzystaliśmy spadek i dokupiliśmy kruszcu",
       "link": "https://www.bankier.pl/wiadomosc/Relacja-z-konferencji-prof-Adama-Glapinskiego-NBP-kontra-naftowy-szok-9111419.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Zgodnie z przewidywaniami, stopa referencyjna Rady Polityki Pieniężnej pozostała w kwietniu bez zmian, ale spokój na rynkach jest tylko pozorny. Przy inflacji przyspieszającej do 3 procent i trwającej od tygodni blokadzie Cieśniny Ormuz, prezes NBP prof. Adam Glapiński staje przed trudnym wyzwaniem ",
       "pubDate": "Thu, 9 Apr 2026 15:10:00 +0100",
@@ -73,6 +181,18 @@
       "dateFormatted": "9 kwietnia 2026"
     },
     {
+      "title": "Nie tylko handel i chmura. Amazon wyrasta na potęgę również w tej branży",
+      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/amazon-stawia-na-wlasne-chipy-nowy-filar-technologicznego-imperium/xz5ke2r",
+      "description": "Amazon coraz wyraźniej pokazuje, że jego ambicje technologiczne wykraczają daleko poza e‑commerce i usługi chmurowe. Segment własnych chipów staje się jednym z kluczowych filarów rozwoju spółki, osiągając skalę przychodów porównywalną z dużymi, wyspecjalizowanymi producentami półprzewodników.",
+      "pubDate": "Thu, 09 Apr 2026 13:43:30 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/_BKk9kpTURBXy8yYTYxYWY4MTg3MWQxMWU1NjJkNTBjZTEyOTc2Y2Q5YS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-09T13:43:30.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
       "title": "NBP w trybie oczekiwania. RPP uzależnia decyzje od inflacji i sytuacji globalnej",
       "link": "https://businessinsider.com.pl/finanse/nbp-podkresla-ryzyko-wzrostu-inflacji-stopy-procentowe-bez-zmian/9mrlq4e",
       "description": "Rada Polityki Pieniężnej pozostawiła stopy procentowe bez zmian, ale jednocześnie wyraźnie zasygnalizowała, że kolejne decyzje będą w dużym stopniu zależeć od czynników zewnętrznych. Narodowy Bank Polski wskazuje na rosnącą niepewność związaną z sytuacją geopolityczną, cenami paliw oraz perspektywam",
@@ -85,7 +205,7 @@
       "dateFormatted": "9 kwietnia 2026"
     },
     {
-      "title": "NBP 35 miliardów \"na minusie\". Adam Glapińśki wyjaśnia",
+      "title": "NBP 35 miliardów \"na minusie\". Adam Glapiński wyjaśnia",
       "link": "https://businessinsider.com.pl/gospodarka/strata-nbp-za-2025-rok-adam-glapinski-podal-konkretne-liczby/0cgeqph",
       "description": "Strata NBP w 2025 r. wyniosła 35,7 mld zł — powiedział prezes NBP Adam Glapiński.",
       "pubDate": "Thu, 09 Apr 2026 13:36:13 GMT",
@@ -157,9 +277,9 @@
       "dateFormatted": "9 kwietnia 2026"
     },
     {
-      "title": "Prezes Adam Glapiński zabiera głos po decyzji RPP w sprawie stóp procentowych [NA ŻYWO]",
+      "title": "Prezes Adam Glapiński zabrał głos po decyzji RPP w sprawie stóp procentowych",
       "link": "https://businessinsider.com.pl/gospodarka/prezes-adam-glapinski-zabiera-glos-po-decyzji-rpp-w-sprawie-stop-procentowych/11npslc",
-      "description": "Po dzisiejszej decyzji Rady Polityki Pieniężnej o utrzymaniu stóp procentowych w Polsce prezes Narodowego Banku Polskiego, Adam Glapiński, podczas konferencji prasowej ocenia bieżącą sytuację ekonomiczną.",
+      "description": "Po dzisiejszej decyzji Rady Polityki Pieniężnej o utrzymaniu stóp procentowych Adam Glapiński, prezes Narodowego Banku Polskiego, podczas konferencji prasowej oceniał bieżącą sytuację ekonomiczną. Wskazał, co może dalej dziać się z inflacją i stopami procentowymi.",
       "pubDate": "Thu, 09 Apr 2026 13:10:03 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -205,9 +325,9 @@
       "dateFormatted": "9 kwietnia 2026"
     },
     {
-      "title": "Cena ropy rośnie mimo rozejmu. Pękła psychologiczna bariera",
+      "title": "Rynek czarnego złota nie wierzy do końca w rozejm. Pękła psychologiczna bariera",
       "link": "https://businessinsider.com.pl/gielda/wiadomosci/cena-ropy-szybko-odbila-zawieszenie-broni-nie-przynioslo-dluzszej-ulgi/20s2fz0",
-      "description": "Cena ropy WTI powróciła do poziomu 100 dol. za baryłkę. Sytuacja na Bliskim Wschodzie pozostaje napięta przed negocjacjami USA z Iranem.",
+      "description": "Cena ropy WTI powróciła do wzrostów. To reakcja na nowe doniesienia z Bliskiego Wschodu.",
       "pubDate": "Thu, 09 Apr 2026 13:04:00 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -230,12 +350,12 @@
     },
     {
       "title": "Rusza rebranding Santandera na Erste Bank. Co to oznacza dla klientów?",
-      "link": "https://www.bankier.pl/wiadomosc/24-26-kwietnia-rozpocznie-sie-rebranding-Santander-Bank-Polska-na-Erste-Bank-Polska-9111402.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/24-26-kwietnia-rozpocznie-sie-rebranding-Santander-Bank-Polska-na-Erste-Bank-Polska-9111402.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Santander Bank Polska poinformował, że w weekend 24–26 kwietnia planuje rozpocząć rebranding, czyli formalną zmianę marki na Erste Bank Polska. To kolejny etap procesu integracji z austriacką Erste Group, która od 9 stycznia jest głównym akcjonariuszem banku po sfinalizowaniu transakcji zakupu 49 pr",
       "pubDate": "Thu, 9 Apr 2026 13:54:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/2/f65b3b6a9b49cd-948-568-993-552-2201-1320.jpg",
       "dateISO": "2026-04-09T12:54:00.000Z",
       "dateFormatted": "9 kwietnia 2026"
@@ -301,18 +421,6 @@
       "dateFormatted": "9 kwietnia 2026"
     },
     {
-      "title": "PKO Leasing sfinansuje inwestycje KGHM w kopalni miedzi w USA. Wartość transakcji przekracza 120 mln USD",
-      "link": "https://www.bankier.pl/wiadomosc/PKO-Leasing-sfinansuje-inwestycje-KGHM-w-kopalni-miedzi-w-USA-wartosc-transakcji-przekracza-120-mln-USD-9111394.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "PKO Leasing, przy udziale PKO Banku Polskiego, podpisał umowę z Grupą KGHM Polska Miedź na refinansowanie inwestycji kopalni Robinson w stanie Nevada - podało PKO BP w przesłanym PAP Biznes komunikacie prasowym. Wartość finansowania udzielonego w formie pożyczki leasingowej przekracza 120 mln USD i ",
-      "pubDate": "Thu, 9 Apr 2026 13:36:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/8/0/f26c5478e3feca-948-568-0-0-3543-2125.jpg",
-      "dateISO": "2026-04-09T12:36:00.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
       "title": "Ceny materiałów budowlanych. Koniec stabilizacji, nadchodzą podwyżki",
       "link": "https://www.bankier.pl/wiadomosc/Ceny-materialow-budowlanych-Koniec-stabilizacji-nadchodza-podwyzki-9111392.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W najbliższych miesiącach można spodziewać się podwyżek cen materiałów budowlanych - ocenia Grupa PSB.",
@@ -373,30 +481,6 @@
       "dateFormatted": "9 kwietnia 2026"
     },
     {
-      "title": "Po zwolnieniu tysięcy osób Oracle ma nową CFO. Jej zarobki mogą szokować",
-      "link": "https://businessinsider.com.pl/biznes/oracle-po-zwolnieniach-ma-nowa-cfo-zarobki-hilary-maxson-moga-szokowac/sfre87h",
-      "description": "Hilary Maxson na stanowisku CFO w firmie Oracle liczyć może na zarobki sięgające 29,7 mln dol.",
-      "pubDate": "Thu, 09 Apr 2026 12:12:49 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/_y3k9kpTURBXy82OGM0MjI1ODJmYWRjYzZmMDM5YTNlMzJlNzAyOThlYi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-09T12:12:49.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
-      "title": "RPP zdecydowała o stopach procentowych. W tle konflikt na Bliskim Wschodzie",
-      "link": "https://businessinsider.com.pl/finanse/rada-polityki-pienieznej-zdecydowala-o-stopach-procentowych-w-tle-wojna-w-iranie/xjqtnqf",
-      "description": "Rada Polityki Pieniężnej podczas kwietniowego posiedzenia zdecydowała o poziomie stóp procentowych. Kluczowe znaczenie dla tej decyzji miała wojna w Iranie, przekładająca się na wzrost cen surowców energetycznych i obaw o inflację.",
-      "pubDate": "Thu, 09 Apr 2026 12:05:46 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Yuik9kpTURBXy80YTZjNGRkM2I2MWIyNzg0ZjI4YTkwNjhjYzkyODJhMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-09T12:05:46.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
       "title": "Benzyna i diesel będą tańsze? Minister żąda szybkich spadków",
       "link": "https://www.bankier.pl/wiadomosc/Benzyna-i-diesel-beda-tansze-Minister-zada-szybkich-spadkow-9111364.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Francuski minister gospodarki i finansów Roland Lescure zaapelował w czwartek, by operatorzy stacji benzynowych we Francji zareagowali na spadek cen ropy po ogłoszeniu rozejmu w wojnie na Bliskim Wschodzie. Zapowiedział także kolejne spotkanie ministrów finansów grupy G7 w przyszłym tygodniu.",
@@ -409,30 +493,6 @@
       "dateFormatted": "9 kwietnia 2026"
     },
     {
-      "title": "System kaucyjny z lukami. Producenci omijają przepisy, resort analizuje zmiany",
-      "link": "https://businessinsider.com.pl/gospodarka/system-kaucyjny-pod-lupa-ministerstwo-odpowiada-na-zarzuty-producentow/ye5bsvt",
-      "description": "System kaucyjny obowiązuje w Polsce od 1 października 2025 r. Poseł Grzegorz Matusiak zwraca uwagę, że kolejne zmiany i wyłączenia z przepisów mogą skłaniać część producentów do omijania kaucji.",
-      "pubDate": "Thu, 09 Apr 2026 11:56:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/jXIk9kpTURBXy8zOGQ3MzZiOWZlYTY0YmIwZmIyNTM4YzdlMGMyOWY0Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-09T11:56:00.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
-      "title": "Zaskakujący efekt wojny w Iranie. Analitycy wskazują, co stanie się z cenami mieszkań w dużych miastach",
-      "link": "https://www.bankier.pl/wiadomosc/Konflikt-na-Bliskim-Wschodzie-bez-rewolucyjnych-konsekwencji-dla-polskiego-rynku-mieszkaniowego-opinia-9111346.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Konflikt na Bliskim Wschodzie będzie miał odczuwalne, ale nie rewolucyjne konsekwencje dla polskiego rynku mieszkaniowego - wynika z raportu Alior Banku \"Jak wojna w Iranie wpłynie na polski rynek mieszkaniowy?\". Wskazano, że dynamika popytu na mieszkania nieco wyhamuje m.in. w efekcie ochłodzenia n",
-      "pubDate": "Thu, 9 Apr 2026 12:38:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/0/d/0d121d5a6c3548-948-568-3-0-1458-875.jpg",
-      "dateISO": "2026-04-09T11:38:00.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
       "title": "Sędziowie TK złożyli ślubowanie w Sali Kolumnowej",
       "link": "https://www.bankier.pl/wiadomosc/Sedziowie-TK-slubuja-w-Sali-Kolumnowej-9111335.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W Sejmie w Sali Kolumnowej odbyła się uroczystość złożenia ślubowania przez nowo wybranych sędziów Trybunału Konstytucyjnego. Sędziowie otrzymali również uchwały o wyborze przez Sejm na sędziów TK.",
@@ -442,30 +502,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/c/fe84cd3712e028-948-569-33-0-948-569.png",
       "dateISO": "2026-04-09T11:33:00.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
-      "title": "Księga wieczysta w mObywatelu. Pokazujemy, gdzie i jak sprawdzić dane nieruchomości",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/ksiega-wieczysta-w-mobywatel-jak-zamowic-i-pobrac-odpis-lub-wyciag-instrukcja/3dfejzd",
-      "description": "31 marca 2026 r. w aplikacji mObywatel pojawiła się nowa funkcjonalność dotycząca ksiąg wieczystych. W którym miejscu się znajduje i jakie warunki trzeba spełnić, aby z niej skorzystać?",
-      "pubDate": "Thu, 09 Apr 2026 11:10:11 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/ShRk9kpTURBXy8xOTJkNjA4N2NhZjdiMGVmYjg3YThiMTJhYjYxZWRkMS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-09T11:10:11.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
-      "title": "Komisja Europejska rusza z wypłatą KPO. Miliardy euro już w kwietniu",
-      "link": "https://businessinsider.com.pl/gospodarka/polska-czeka-na-decyzje-komisji-europejskiej-kpo-zbliza-sie-do-realizacji/5w3s6vq",
-      "description": "Już w kwietniu Komisja Europejska ma podjąć decyzję w sprawie wypłaty Polsce około 7,2 mld euro w ramach Krajowego Planu Odbudowy (KPO). Jak poinformowało unijne źródło w Brukseli, wniosek o uruchomienie tych środków został złożony przez polski rząd w grudniu ubiegłego roku.",
-      "pubDate": "Thu, 09 Apr 2026 11:09:49 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/tKmk9kpTURBXy85YzY2NWZiNTRhMGY0NDMzZjU1NzZmZTRlNWY2MzcyNi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-09T11:09:49.000Z",
       "dateFormatted": "9 kwietnia 2026"
     },
     {
@@ -490,18 +526,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/d/8/3705c97d482a3c-948-568-50-220-3950-2369.jpg",
       "dateISO": "2026-04-09T10:45:00.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
-      "title": "Podatek od zysków Orlenu coraz bliżej. Znany ekonomista ostrzega: obniżka VAT na paliwo to błąd",
-      "link": "https://www.bankier.pl/wiadomosc/Podatek-od-zyskow-Orlenu-coraz-blizej-Znany-ekonomista-ostrzega-obnizka-VAT-na-paliwo-to-blad-9111273.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Obniżka VAT i akcyzy na paliwo jest nieuzasadniona, bo subsydiuje konsumpcję - ocenił w Studiu PAP prof. Marcin Piątkowski. Jego zdaniem rząd mógłby odrobić część strat budżetu spowodowanych obniżką i poprawić stan finansów publicznych, wprowadzając podatek od nadmiarowych zysków firm paliwowych.",
-      "pubDate": "Thu, 9 Apr 2026 11:43:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/9/6ab0197abbd486-948-568-667-247-2275-1365.jpg",
-      "dateISO": "2026-04-09T10:43:00.000Z",
       "dateFormatted": "9 kwietnia 2026"
     },
     {
@@ -601,18 +625,6 @@
       "dateFormatted": "9 kwietnia 2026"
     },
     {
-      "title": "Nivea, Volvo i Teva ukarane przez UOKiK. Urząd ujawnia listę spółek, które zalegają z płatnościami",
-      "link": "https://www.bankier.pl/wiadomosc/Nivea-Volvo-i-Teva-ukarane-przez-UOKiK-Urzad-ujawnia-liste-spolek-ktore-zalegaja-z-platnosciami-9111202.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "UOKiK w 2026 r. wydał osiem decyzji, w których nałożył ponad 2,6 mln zł kar za zatory płatnicze – poinformował w czwartek urząd. Z komunikatu wynika, że UOKiK wszczął również siedem postępowań wobec spółek, które nie płacą na czas kontrahentom.",
-      "pubDate": "Thu, 9 Apr 2026 10:32:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/0/0c8cd656a2cb75-948-568-0-169-2508-1504.jpg",
-      "dateISO": "2026-04-09T09:32:00.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
       "title": "Revolut stawia na AI. Wyścig z bankami nabiera tempa",
       "link": "https://www.bankier.pl/wiadomosc/Revolut-stawia-na-AI-Wyscig-z-bankami-nabiera-tempa-9111217.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Revolut wprowadził do swojej aplikacji asystenta opartego na sztucznej inteligencji. Narzędzie o nazwie AIR (AI by Revolut) jest od dziś dostępne dla klientów w Wielkiej Brytanii. Fintech nie ujawnił, na czyich modelach AI opiera się rozwiązanie.",
@@ -709,30 +721,6 @@
       "dateFormatted": "9 kwietnia 2026"
     },
     {
-      "title": "Orlen tnie ceny w hurcie. Diesel i benzyna tanieją o niemal 150 zł",
-      "link": "https://www.bankier.pl/wiadomosc/Orlen-tnie-ceny-w-hurcie-Diesel-i-benzyna-tanieja-o-niemal-150-zl-9111174.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Orlen obniżył w czwartek hurtowe ceny paliw, w tym oleju napędowego Ekodiesel o 147 zł, a benzyny bezołowiowej Eurosuper 95 o 90 zł za metr sześc. - wynika z danych publikowanych przez koncern. Wcześniej, w środę, w hurcie Orlenu olej Ekodiesel staniał, natomiast zdrożała benzyna Eurosuper 95.",
-      "pubDate": "Thu, 9 Apr 2026 08:58:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/f/0f0bf0c4868d79-948-568-20-190-3980-2387.jpg",
-      "dateISO": "2026-04-09T07:58:00.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
-      "title": "Polska na tle gazowego paraliżu UE. Tyle mamy zapasów",
-      "link": "https://www.bankier.pl/wiadomosc/Polska-na-tle-gazowego-paralizu-UE-Tyle-mamy-zapasow-9111179.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zapasy gazu ziemnego w magazynach UE wynoszą 28,8 proc. wobec średniej 5-letniej na tę porę wynoszącej 41,6 proc. W magazynach znajduje się obecnie 325,40 TWh gazu - wynika z wyliczeń firmy Gas Infrastructure Europe. W Polsce zapełnienie wynosi 45,1 proc. wobec sezonowej średniej 5-letniej wynoszące",
-      "pubDate": "Thu, 9 Apr 2026 08:54:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/9/5b8892d34e4f80-948-568-22-97-2977-1786.jpg",
-      "dateISO": "2026-04-09T07:54:00.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
       "title": "Rosjanie odkurzają Wołgę, ale nowe modele stworzą Chińczycy",
       "link": "https://www.bankier.pl/wiadomosc/Rosjanie-odkurzaja-Wolge-ale-nowe-modele-stworza-Chinczycy-9111175.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Rosjanie podjęli kolejną próbę przywrócenia na rynek aut marki Wołga – informuje „Auto Świat”. Nie jest to jednak powrót do radzieckiej myśli technicznej. Nowe samochody – SUV i sedan – będą kopiami chińskich modeli produkowanych przez koncern Geely. Ten sam, który miał być bazą do produkcji polskie",
@@ -742,18 +730,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/2/9626e4e6eceb22-948-568-47-0-1187-712.jpg",
       "dateISO": "2026-04-09T07:48:00.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
-      "title": "Jest decyzja ws. edukacji zdrowotnej. Przedmiot będzie obowiązkowy",
-      "link": "https://www.bankier.pl/wiadomosc/Jest-decyzja-ws-edukacji-zdrowotnej-Przedmiot-bedzie-obowiazkowy-9111138.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Od nowego roku szkolnego edukacja zdrowotna będzie przedmiotem obowiązkowym – poinformowała w czwartek ministra edukacji Barbara Nowacka. Przekazała też, że nieobowiązkowy będzie jednak moduł dotyczący wiedzy seksualnej.",
-      "pubDate": "Thu, 9 Apr 2026 07:47:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/7/e5f887549118a5-948-568-10-10-4267-2560.jpg",
-      "dateISO": "2026-04-09T06:47:00.000Z",
       "dateFormatted": "9 kwietnia 2026"
     },
     {
@@ -789,18 +765,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/0/0/1566872f802f32-948-568-30-269-3966-2379.jpg",
-      "dateISO": "2026-04-09T05:00:00.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
-      "title": "Pułapki w KSeF. Przedsiębiorcy masowo popełniają te błędy",
-      "link": "https://www.bankier.pl/wiadomosc/KSeF-najczestsze-problemy-i-wyzwania-Co-zrobic-aby-ustrzec-sie-bledow-9110827.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Krajowy System e-Faktur od początku daje się przedsiębiorcom mocno we znaki. Mają z nim mnóstwo problemów, zarówno technicznych, jak i dotyczących przepisów. Na które kwestie trzeba szczególnie uważać? O czym pamiętać, aby uniknąć pomyłek?",
-      "pubDate": "Thu, 9 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/d/132ea5aee5982f-948-568-8-0-3534-2120.jpg",
       "dateISO": "2026-04-09T05:00:00.000Z",
       "dateFormatted": "9 kwietnia 2026"
     },
@@ -841,18 +805,6 @@
       "dateFormatted": "8 kwietnia 2026"
     },
     {
-      "title": "\"Piłka po stronie USA\". Iran grozi zerwaniem rozejmu. Stanowcze ultimatum w sprawie Libanu",
-      "link": "https://www.bankier.pl/wiadomosc/Pilka-po-stronie-USA-Iran-grozi-zerwaniem-rozejmu-Stanowcze-ultimatum-w-sprawie-Libanu-9111050.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Stany Zjednoczone muszą dokonać wyboru, czy chcą zawieszenia broni, czy kontynuacji wojny za pośrednictwem Izraela, który wciąż prowadzi ataki na Liban – oświadczył w środę minister spraw zagranicznych Iranu Abbas Aragczi.",
-      "pubDate": "Wed, 8 Apr 2026 21:34:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/1/8488b35487c7e0-948-568-8-8-3334-2000.jpg",
-      "dateISO": "2026-04-08T20:34:00.000Z",
-      "dateFormatted": "8 kwietnia 2026"
-    },
-    {
       "title": "Pożar ugaszony, mamy tryb risk-on. Warszawski Indeks Giełdowy najwyżej w historii",
       "link": "https://www.bankier.pl/wiadomosc/Pozar-ugaszony-mamy-tryb-risk-on-Warszawski-Indeks-Gieldowy-najwyzej-w-historii-9110933.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Inwestorzy na warszawskim parkiecie doczekali się prawdziwej eksplozji optymizmu. Informacje o dwutygodniowym zawieszeniu broni w konflikcie USA-Iran oraz odblokowaniu strategicznej cieśniny Ormuz wywołały euforię i apetyt na ryzyko (risk-on), co wyniosło główny indeks GPW na poziomy nienotowane nig",
@@ -889,7 +841,7 @@
       "dateFormatted": "8 kwietnia 2026"
     },
     {
-      "title": "Banku Millennium płaci 900 zł za konto i aktywność. Poradnik, jak krok po kroku zebrać pełną pulę",
+      "title": "Bank Millennium płaci 900 zł za konto i aktywność. Poradnik, jak krok po kroku zebrać pełną pulę",
       "link": "https://www.bankier.pl/wiadomosc/Banku-Millennium-placi-900-zl-za-konto-i-aktywnosc-Poradnik-jak-krok-po-kroku-zebrac-pelna-pule-9110450.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Bank Millennium wystartował z nową edycją promocji flagowego rachunku Millennium 360°. Nowi klienci mogą zgarnąć do 700 zł gotówką za aktywne korzystanie z konta, a rodzice – dodatkowe 200 zł na eKarcie goodie po założeniu konta dziecku. Akcja potrwa do 27 października 2026 r. lub do wyczerpania lim",
       "pubDate": "Wed, 8 Apr 2026 11:00:00 +0100",
@@ -997,5 +949,5 @@
       "dateFormatted": "1 kwietnia 2026"
     }
   ],
-  "updatedAt": "2026-04-09T13:43:36.837Z"
+  "updatedAt": "2026-04-09T15:22:28.557Z"
 }
