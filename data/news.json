@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "InPost zakończył program odkupu akcji własnych",
+      "link": "https://www.bankier.pl/wiadomosc/InPost-zakonczyl-program-odkupu-akcji-wlasnych-9111770.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "InPost zakończył program odkupu akcji w celu realizacji swoich zobowiązań wynikających z programów motywacyjnych dla pracowników - poinformowała spółka w komunikacie.",
+      "pubDate": "Fri, 10 Apr 2026 00:02:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/6/9/663ed7264204bb-thumb-1000.jpg",
+      "dateISO": "2026-04-09T23:02:00.000Z",
+      "dateFormatted": "9 kwietnia 2026"
+    },
+    {
       "title": "Na Wall Street wzrostów ciąg dalszy. S&P500 i Nasdaq odrabiają marcowe straty",
       "link": "https://www.bankier.pl/wiadomosc/Na-Wall-Street-wzrostow-ciag-dalszy-S-P500-i-Nasdaq-odrabiaja-marcowe-straty-9111760.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "W czwartek na Wall Street akcje wzrosły drugi dzień z rzędu, mimo wzrostu cen ropy naftowej. Wzrósł optymizm wśród inwestorów, którzy wierzą, że kruche, dwutygodniowe zawieszenie broni między USA a Iranem może zostać utrzymane.",
@@ -15,7 +27,7 @@
     {
       "title": "Szefowa MFW szykuje świat na turbulencje. \"Nawet w optymistycznym scenariuszu\"",
       "link": "https://businessinsider.com.pl/gospodarka/rozejm-usa-i-iranu-nie-zmienia-decyzji-mfw-szkody-sa-zbyt-duze/q6xxzkn",
-      "description": "Mimo że USA i Iran zawarły rozejm, szkody są już na tyle duże, że MFW obniży globalne prognozy gospodarcze, nawet w optymistycznym scenariuszu, zapowiedziała szefowa instytucji.",
+      "description": "Mimo że USA i Iran zawarły rozejm, szkody są już na tyle duże, że MFW i tak obniży globalne prognozy gospodarcze, zapowiedziała szefowa instytucji i ostrzegła przed kontrolą cen.",
       "pubDate": "Thu, 09 Apr 2026 20:00:41 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -80,7 +92,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/9/3/8d6d4df8d08771-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/2/2/cbeb06dd33a8d3-thumb-1000.jpg",
       "dateISO": "2026-04-09T18:32:00.000Z",
       "dateFormatted": "9 kwietnia 2026"
     },
@@ -116,7 +128,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/82216e487002a2-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/2/2/cbeb06dd33a8d3-thumb-1000.jpg",
       "dateISO": "2026-04-09T18:14:00.000Z",
       "dateFormatted": "9 kwietnia 2026"
     },
@@ -130,18 +142,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/UfDk9kpTURBXy8xZjFhNTc2MjllZTVmMWJmNmFlNmMyYjY0MTBmZWZjYy5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-04-09T18:06:51.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
-      "title": "Euvic ma umowę z Centrum e-Zdrowia o wartości 37,7 mln zł netto",
-      "link": "https://www.bankier.pl/wiadomosc/Euvic-ma-umowe-z-Centrum-e-Zdrowia-o-wartosci-37-7-mln-zl-netto-9111699.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Euvic Solutions podpisał z Centrum e-Zdrowia umowę o wartości 37,7 mln zł netto na dostawę infrastruktury obliczeniowej i oprogramowania wraz z wdrożeniem oraz zapewnieniem usługi gwarancyjnej - podała spółka w komunikacie.",
-      "pubDate": "Thu, 9 Apr 2026 18:52:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/7/4/2ce22f1888d615-thumb-1000.jpg",
-      "dateISO": "2026-04-09T17:52:00.000Z",
       "dateFormatted": "9 kwietnia 2026"
     },
     {
@@ -949,5 +949,5 @@
       "dateFormatted": "1 kwietnia 2026"
     }
   ],
-  "updatedAt": "2026-04-09T20:53:28.305Z"
+  "updatedAt": "2026-04-09T22:41:31.086Z"
 }
