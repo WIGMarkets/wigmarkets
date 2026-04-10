@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Na Wall Street bez kontynuacji. Nasdaq z najlepszym tygodniem od listopada",
+      "link": "https://www.bankier.pl/wiadomosc/Na-Wall-Street-bez-kontynuacji-Nasdaq-z-najlepszym-tygodniem-od-listopada-9112326.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Po siedmiu wzrostowych sesjach z rzędu nowojorskie indeksy nie chciały już iść w górę. imo słabszego piątku Nasdaq Composite zaliczył największy tygodniowy wzrost od listopada.",
+      "pubDate": "Fri, 10 Apr 2026 22:04:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/2/5/8a2d49e5add5cb-948-568-0-158-4219-2531.jpg",
+      "dateISO": "2026-04-10T21:04:00.000Z",
+      "dateFormatted": "10 kwietnia 2026"
+    },
+    {
       "title": "Koniec ogrzewania gazowego coraz bliżej. Francja ogłasza radykalny plan",
       "link": "https://www.bankier.pl/wiadomosc/Koniec-ogrzewania-gazowego-coraz-blizej-Francja-oglasza-radykalny-plan-i-miliardy-na-doplaty-9112293.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Premier Francji Sebastien Lecornu zapowiedział w piątek kroki mające przyspieszyć zwiększenie wykorzystania elektryczności zamiast importowanych źródeł energii: ropy i gazu. Premier mówił o tym w wystąpieniu telewizyjnym na temat kryzysu energetycznego wywołanego wojną na Bliskim Wschodzie.",
@@ -10,6 +22,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/8/8/672e27ad70e308-948-568-0-75-3000-1799.jpg",
       "dateISO": "2026-04-10T19:25:00.000Z",
+      "dateFormatted": "10 kwietnia 2026"
+    },
+    {
+      "title": "EOS 14% w górę, podczas hossy",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/eos-14-w-gore-podczas-hossy-1356723",
+      "description": "",
+      "pubDate": "2026-04-10 18:57:06",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/LYNXMPED040TQ_M.jpg",
+      "dateISO": "2026-04-10T18:57:06.000Z",
       "dateFormatted": "10 kwietnia 2026"
     },
     {
@@ -118,18 +142,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/-dik9kpTURBXy9kNzEzZWRhNWYyM2E4YmQ3Njk3MWRkNmVhNmQyMWEzNi5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-04-10T17:32:19.000Z",
-      "dateFormatted": "10 kwietnia 2026"
-    },
-    {
-      "title": "Amica miała w 2025 r. 134,4 mln zł EBITDA, zgodnie z szacunkami",
-      "link": "https://www.bankier.pl/wiadomosc/Amica-miala-w-2025-r-134-4-mln-zl-EBITDA-zgodnie-z-szacunkami-9112262.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Amica miała w 2025 r. 134,4 mln zł EBITDA oraz 73,7 mln zł zysku operacyjnego - poinformowała spółka w komunikacie. Rok wcześniej EBITDA wyniosła 125,4 mln zł, a EBIT 65 mln zł. Wyniki są zgodne z wcześniejszymi szacunkami.",
-      "pubDate": "Fri, 10 Apr 2026 18:32:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/2/2/cbeb06dd33a8d3-thumb-1000.jpg",
-      "dateISO": "2026-04-10T17:32:00.000Z",
       "dateFormatted": "10 kwietnia 2026"
     },
     {
@@ -959,19 +971,7 @@
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-04-03T06:26:06.000Z",
       "dateFormatted": "3 kwietnia 2026"
-    },
-    {
-      "title": "Bitcoin spada do 66,5 tys. $, Trump grozi Iranowi \"ekstremalnie mocno\"",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-do-665-tys--trump-grozi-iranowi-ekstremalnie-mocno-1347312",
-      "description": "",
-      "pubDate": "2026-04-02 06:11:26",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "dateISO": "2026-04-02T06:11:26.000Z",
-      "dateFormatted": "2 kwietnia 2026"
     }
   ],
-  "updatedAt": "2026-04-10T18:56:01.895Z"
+  "updatedAt": "2026-04-10T20:39:20.434Z"
 }
