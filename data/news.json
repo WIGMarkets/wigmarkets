@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Trump straszy, ale Wall Street pnie się w górę. Spółki informatyczne odrabiają straty",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-straszy-ale-Wall-Street-pnie-sie-w-gore-Spolki-informatyczne-odrabiaja-straty-9113286.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Inwestorzy najwyraźniej zlekceważyli nowe groźby prezydenta Trumpa i uznali, że kolejne TACO jest już w drodze. Ton zwyżkom nadawał mocno ostatnio przeceniony sektor IT.",
+      "pubDate": "Mon, 13 Apr 2026 22:25:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/6/b/bf250c52eabb7e-948-568-150-70-3850-2309.jpg",
+      "dateISO": "2026-04-13T21:25:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
       "title": "USA blokują irańskie porty. Ekspert wskazuje możliwe ruchy",
       "link": "https://businessinsider.com.pl/gospodarka/dlaczego-usa-blokuja-ormuz-i-co-zrobi-iran/6kpczpf",
       "description": "Iran ma kilka możliwości zmniejszenia skutków gospodarczych blokady USA — ocenia ekspert.",
@@ -92,7 +104,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/7/4/2ce22f1888d615-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/e/8/82216e487002a2-thumb-1000.jpg",
       "dateISO": "2026-04-13T18:40:00.000Z",
       "dateFormatted": "13 kwietnia 2026"
     },
@@ -200,7 +212,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/5/f/f97f4a11579dd1-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/d/1/785f181c53f0ce-thumb-1000.jpg",
       "dateISO": "2026-04-13T17:56:00.000Z",
       "dateFormatted": "13 kwietnia 2026"
     },
@@ -358,18 +370,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/9/b/51eddfd0cdc336-948-568-30-150-3970-2381.jpg",
       "dateISO": "2026-04-13T16:11:00.000Z",
-      "dateFormatted": "13 kwietnia 2026"
-    },
-    {
-      "title": "Widzisz ofertę „Quantum AI”? Ministerstwo Finansów ostrzega: Nie wypełniaj tego formularza",
-      "link": "https://www.bankier.pl/wiadomosc/Widzisz-oferte-Quantum-AI-Ministerstwo-Finansow-ostrzega-Nie-wypelniaj-tego-formularza-9113159.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Oszuści podszywają się pod Ministerstwo Finansów (MF), zachęcają do aktywacji konta na fałszywej platformie inwestycyjnej i w ten sposób próbują wyłudzić dane - ostrzegł w poniedziałek resort.",
-      "pubDate": "Mon, 13 Apr 2026 17:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/3/4/f08853bc218087-948-568-0-32-1844-1106.jpg",
-      "dateISO": "2026-04-13T16:10:00.000Z",
       "dateFormatted": "13 kwietnia 2026"
     },
     {
@@ -937,5 +937,5 @@
       "dateFormatted": "6 kwietnia 2026"
     }
   ],
-  "updatedAt": "2026-04-13T20:57:20.999Z"
+  "updatedAt": "2026-04-13T22:44:16.701Z"
 }
