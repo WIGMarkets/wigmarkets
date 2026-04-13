@@ -1,6 +1,414 @@
 {
   "articles": [
     {
+      "title": "Koniec epoki oskarżeń. Zełenski do Magyara: Budujmy razem bezpieczeństwo",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-epoki-oskarzen-Zelenski-do-Magyara-Budujmy-razem-bezpieczenstwo-9112687.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Ukrainy Wołodymyr Zełenski pogratulował Peterowi Magyarowi, przywódcy opozycyjnej partii Tisza, zwycięstwa w niedzielnych wyborach parlamentarnych na Węgrzech i podkreślił, że ma to wielkie znaczenie, gdy w polityce wygrywa „postawa konstruktywna”.",
+      "pubDate": "Mon, 13 Apr 2026 08:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/6/b8979ae3051bae-948-569-5-13-1036-622.jpg",
+      "dateISO": "2026-04-13T07:00:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Szef BBN o klęsce Orbana: Węgierska lekcja dla polskiej prawicy",
+      "link": "https://www.bankier.pl/wiadomosc/Szef-BBN-o-klesce-Orbana-Wegierska-lekcja-dla-polskiej-prawicy-9112666.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Węgierska lekcja powinna zostać przeanalizowana przez prawicę na różnych płaszczyznach - ocenił w niedzielę wieczorem szef BBN Sławomir Cenckiewicz, komentując częściowe wyniki wyborów na Węgrzech.",
+      "pubDate": "Mon, 13 Apr 2026 07:54:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/0/ecd54743f6ea9f-948-568-7-97-2992-1795.jpg",
+      "dateISO": "2026-04-13T06:54:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Ceny ropy wracają powyżej 100 dol. za baryłkę. Fiasko rozmów i blokada cieśniny Ormuz przez USA",
+      "link": "https://www.bankier.pl/wiadomosc/Ceny-ropy-wracaja-powyzej-100-dol-za-barylke-Fiasko-rozmow-i-blokada-ciesniny-Ormuz-przez-USA-9112763.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Informacje o zerwaniu rozmów pokojowych pomiędzy Stanami Zjednoczonymi i Iranem oraz późniejsza deklaracja Donalda Trumpa, zgodnie z którą USA zaczną blokować cieśninę Ormuz, doprowadziły do skokowego wzrostu cen ropy. Azjatyckie indeksy giełdowe rozpoczęły nowy tydzień spadkami. Już w weekend na wz",
+      "pubDate": "Mon, 13 Apr 2026 07:44:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/0/6/d45a7b6e3c003a-948-568-0-70-4000-2399.jpg",
+      "dateISO": "2026-04-13T06:44:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Budowa dróg zagrożona. Firmy chcą zalać GDDKiA falą pozwów",
+      "link": "https://www.bankier.pl/wiadomosc/Budowa-drog-zagrozona-Firmy-chca-zalac-GDDKiA-fala-pozwow-9112769.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Branża budowlana grozi pozwami za niską waloryzację umów i ostrzega przed zatrzymaniem budowy szybkich dróg - informuje w poniedziałkowym wydaniu „Rzeczpospolita”.",
+      "pubDate": "Mon, 13 Apr 2026 07:31:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/c/24c9928ffdc037-948-568-0-270-4000-2399.jpg",
+      "dateISO": "2026-04-13T06:31:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Milczenie Trumpa po klęsce sojusznika. Obama porównuje Węgry do Polski",
+      "link": "https://www.bankier.pl/wiadomosc/Milczenie-Trumpa-po-klesce-sojusznika-Obama-porownuje-Wegry-do-Polski-9112766.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zwycięstwo wyborcze opozycji na Węgrzech jest podobne do wyborów w Polsce w 2023 roku – ocenił w poniedziałek były prezydent USA Barack Obama. Obecny szef państwa Donald Trump na razie nie skomentował porażki Viktora Orbana, którego wspierał politycznie.",
+      "pubDate": "Mon, 13 Apr 2026 07:31:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/5/1b10f7b07b3b33-948-568-10-170-3990-2393.jpg",
+      "dateISO": "2026-04-13T06:31:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Polska branża muzyczna rośnie szybciej niż światowa. Streaming fundamentem",
+      "link": "https://www.bankier.pl/wiadomosc/Polska-branza-muzyczna-rosnie-szybciej-niz-swiatowa-Streaming-fundamentem-9112721.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polski rynek nagrań muzycznych w 2025 r. urósł o 14,2 proc. rok do roku, osiągnął wartość blisko 971 mln zł i awansował na 16. miejsce w światowym rankingu Międzynarodowej Federacji Przemysłu Fonograficznego - czytamy w poniedziałkowej „Rzeczpospolitej\".",
+      "pubDate": "Mon, 13 Apr 2026 07:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/0/a7d4e74024e98a-948-568-4-964-1915-1149.jpg",
+      "dateISO": "2026-04-13T06:20:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Miliardy z zysków inwestorów zasilą budżet. Ale do rekordów daleko",
+      "link": "https://www.bankier.pl/wiadomosc/Miliardy-z-zyskow-inwestorow-zasila-budzet-Ale-do-rekordow-daleko-9112731.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Resort finansów prognozuje, że wpływy budżetowe z tytułu tzw. podatku Belki przekroczą 9 mld zł w bieżącym roku; oznaczałoby to spadek wobec 2025 r., kiedy było to ponad 9,3 mld zł - wynika z danych przekazanych PAP przez Ministerstwo Finansów.",
+      "pubDate": "Mon, 13 Apr 2026 07:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/0/4/3b3bc682c72215-945-560-7-78-1492-895.jpg",
+      "dateISO": "2026-04-13T06:15:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Donald Trump jako Jezus. Szokująca grafika po ataku na papieża",
+      "link": "https://www.bankier.pl/wiadomosc/Donald-Trump-jako-Jezus-Szokujaca-grafika-w-sieci-po-ataku-na-papieza-9112734.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump zamieścił na swoim profilu na Truth Social w niedzielę wieczorem grafikę, w której występuje w roli Jezusa uzdrawiającego chorego. Grafikę zamieścił niedługo po tym, jak ostro skrytykował papieża Leona XIV.",
+      "pubDate": "Mon, 13 Apr 2026 07:13:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/1/3a730abecc7276-948-567-0-287-950-569.jpg",
+      "dateISO": "2026-04-13T06:13:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Czechy witają nowe Węgry. Praga liczy na przełom w Grupie Wyszehradzkiej",
+      "link": "https://www.bankier.pl/wiadomosc/Czechy-witaja-nowe-Wegry-Praga-liczy-na-przelom-w-Grupie-Wyszehradzkiej-9112702.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Szef czeskiej dyplomacji Petr Macinka oświadczył , że po niedzielnych wyborach parlamentarnych na Węgrzech Czechy tracą w osobie Viktora Orbana sojusznika w UE. Zadeklarował, że z przyszłym rządem w Budapeszcie, który sformuje opozycja, Praga będzie chciała utrzymywać ponadstandardowe stosunki.",
+      "pubDate": "Mon, 13 Apr 2026 07:13:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/5/8145f82aa175d7-948-568-0-220-3970-2381.jpg",
+      "dateISO": "2026-04-13T06:13:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Ekonomości tną prognozy PKB. Stopy procentowe bez zmian, inflacja w ryzach",
+      "link": "https://www.bankier.pl/wiadomosc/Ekonomosci-tna-prognozy-PKB-Stopy-procentowe-bez-zmian-inflacja-w-ryzach-9112758.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ekonomiści banku PKO BP obniżyli prognozę wzrostu PKB w 2026 r. do 3,5 proc. z 3,7 proc. Ich zdaniem, w tym roku inflacja wyniesie 2,8 proc. a Rada Polityki Pieniężnej nie obniży stóp procentowych.",
+      "pubDate": "Mon, 13 Apr 2026 07:01:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/c/fa0ea581ee78f7-948-568-150-60-3850-2309.jpg",
+      "dateISO": "2026-04-13T06:01:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Bruksela świętuje. Von der Leyen: Serce Europy bije na Węgrzech mocniej",
+      "link": "https://www.bankier.pl/wiadomosc/Bruksela-swietuje-Von-der-Leyen-Serce-Europy-bije-na-Wegrzech-mocniej-9112672.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Węgry wybrały Europę; kraj ten powraca na swoją europejską ścieżkę - napisała w niedzielę wieczorem na X szefowa Komisji Europejskiej Ursula von der Leyen. Według częściowych wyników wyborów opozyjna partia Tisza idzie po zwycięstwo w wyborach parlamentarnych.",
+      "pubDate": "Mon, 13 Apr 2026 07:01:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/a/15299431189e8e-948-568-0-250-4000-2399.jpg",
+      "dateISO": "2026-04-13T06:01:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Długi branży eventowej. \"Problem nie znika, tylko rozlewa się\"",
+      "link": "https://www.bankier.pl/wiadomosc/Dlugi-branzy-eventowej-Problem-nie-znika-tylko-rozlewa-sie-9112739.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zadłużenie firm zajmujących się organizowanie wydarzeń (np. biznesowych) wynosi obecnie 151,8 mln zł; w kwietniu 2025 r. wynosiło natomiast 143 mln zł - wynika z raportu Krajowego Rejestru Długów. Liczba przeterminowanych zobowiązań w tej branży wzrosła z 17,7 tys. do 22,7 tys.",
+      "pubDate": "Mon, 13 Apr 2026 07:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/a/ee471157db4db7-948-568-0-99-1892-1135.jpg",
+      "dateISO": "2026-04-13T06:00:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Magyar: Węgry ponownie będą silnym i pewnym sojusznikiem Unii Europejskiej i NATO",
+      "link": "https://www.bankier.pl/wiadomosc/Magyar-Wegry-ponownie-beda-silnym-i-pewnym-sojusznikiem-Unii-Europejskiej-i-NATO-9112691.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Dostaliśmy mandat, który pozwala nam zbudować funkcjonalny i działający dom dla nas wszystkich – powiedział Peter Magyar w niedzielę w nocy do Węgrów zgromadzonych w centrum Budapesztu. Wyniki na podstawie 95 proc. podliczonych głosów dają opozycyjnej Tiszy 138 mandatów w 199-osobowym parlamencie.",
+      "pubDate": "Mon, 13 Apr 2026 06:46:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/d/33f82ec5cf824a-948-568-80-20-3920-2351.jpg",
+      "dateISO": "2026-04-13T05:46:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Rynki reagują na groźby Donalda Trumpa wobec Iranu. Widać to po cenach ropy",
+      "link": "https://businessinsider.com.pl/gospodarka/ceny-ropy-reaguja-na-grozby-donalda-trumpa-wobec-iranu/z5tqdkm",
+      "description": "Ceny ropy naftowej ponownie gwałtownie wzrosły po zapowiedziach działań ze strony Stanów Zjednoczonych wobec Iranu.",
+      "pubDate": "Mon, 13 Apr 2026 05:39:17 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/oZek9kpTURBXy9iNzhhZDM3MmY2NGI4ODQyYTQ2YzVmNzFiYzBhODY3NS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-13T05:39:17.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "GDDKiA ogłasza plany do 2028 roku. Ponad miliard złotych na remonty dróg i mostów",
+      "link": "https://www.bankier.pl/wiadomosc/GDDKiA-oglasza-plany-do-2028-roku-Ponad-miliard-zlotych-na-remonty-drog-i-mostow-9112748.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Generalna Dyrekcja Dróg Krajowych i Autostrad do 2028 r. planuje przeznaczyć na prace remontowe na sieci dróg krajowych 900 mln zł - poinformowała GDDKiA. Dodano, że dodatkowe 250 mln zł przeznaczy w tym czasie na remonty obiektów mostowych.",
+      "pubDate": "Mon, 13 Apr 2026 06:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/4/e7bf327aa603d5-948-567-5-70-995-596.jpg",
+      "dateISO": "2026-04-13T05:36:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Wyniki wyborów na Węgrzech rozpalą rynki? \"Skala powinna być znacząca\"",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/wyniki-wyborow-na-wegrzech-analityk-wieszczy-co-przyniosa-najblizsze-dni-i-miesiace/xnj1hbz",
+      "description": "Partia TISZA Petera Magyara wygrała wybory na Węgrzech z miażdżącą przewagą nad obozem Viktora Orbana. \"Spełnić może się najbardziej optymistyczny z rynkowej perspektywy scenariusz\" — ocenia Michał Jóźwiak — analityk Ebury.",
+      "pubDate": "Mon, 13 Apr 2026 05:27:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/LA3k9kpTURBXy9jYzljN2IwZjZhMjczMjdmODQ4YzU4MTA3YmM2ZGE4MS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-13T05:27:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Ceny ostro w górę. Dawno nie było takich wzrostów [Koszyk zakupowy Business Insidera i aplikacji PanParagon]",
+      "link": "https://businessinsider.com.pl/poradnik-finansowy/sprawdzilismy-ceny-dawno-nie-bylo-tak-drogo/nxj8gl1",
+      "description": "W sklepach jest najdrożej od maja zeszłego roku. Można to z jednej strony tłumaczyć czynnikami sezonowymi, ale sytuacja na świecie na pewno nie sprzyja niedrogim zakupom.",
+      "pubDate": "Mon, 13 Apr 2026 05:03:09 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Liak9kpTURBXy8xODIyODVmMjlkYWZiOTVlNmVmMTQyN2Q3ZDI3MWUyMC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-13T05:03:09.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Echem kryzysu paliwowego może być kryzys żywnościowy. Czeka nas spożywcza inflacja?",
+      "link": "https://www.bankier.pl/wiadomosc/Echem-kryzysu-paliwowego-moze-byc-kryzys-zywnosciowy-Czeka-nas-spozywcza-inflacja-9111458.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Po szoku naftowym zwykle następuje skokowy wzrost cen żywności. Byłoby naiwnością oczekiwać, że tym razem będzie inaczej.",
+      "pubDate": "Mon, 13 Apr 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/9/e/65b4593d506121-948-568-0-224-3736-2241.jpg",
+      "dateISO": "2026-04-13T05:00:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Wiosenne roztopy na rynku najmu. W kilku miastach czynsze niższe niż przed rokiem",
+      "link": "https://www.bankier.pl/wiadomosc/Ceny-ofertowe-wynajmu-mieszkan-kwiecien-2026-Raport-Bankier-pl-9111948.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W marcu w największych w Polsce miastach pojawiła się charakterystyczna dla tego miesiąca korekta oczekiwań wynajmujących mieszkania – wynika z danych Otodom Analytics. W Warszawie średnie ceny ofertowe spadają nieprzerwanie od ponad pół roku, a na kilku największych rynkach przeciętne czynsze są ni",
+      "pubDate": "Mon, 13 Apr 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/2/c89b0f5e692e1b-948-568-0-104-1987-1192.jpg",
+      "dateISO": "2026-04-13T05:00:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "„My byliśmy inni”. Cztery pokolenia na rynku pracy różnią się prawie wszystkim",
+      "link": "https://www.bankier.pl/wiadomosc/Boomersi-X-Y-i-Z-przy-jednym-biurku-Cztery-swiaty-w-jednej-pracy-9112430.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Cztery pokolenia – od Baby Boomers po najmłodsze pokolenie Z – spotykają się dziś często w jednej firmie. Różni je podejście do pracy i technologii, tempo działania, a także styl komunikacji. Sprawdziliśmy, jak w praktyce wygląda ich współpraca w polskich przedsiębiorstwach, gdzie ścierają się różne",
+      "pubDate": "Mon, 13 Apr 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/f/cb6e1a3e47c86b-948-568-0-166-1702-1021.jpg",
+      "dateISO": "2026-04-13T05:00:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Nowy konkurs, do wzięcia 300 mln zł. Na te dotacje od dawna czeka jedna branża",
+      "link": "https://www.bankier.pl/wiadomosc/Nowy-konkurs-do-wziecia-300-mln-zl-Na-te-dotacje-od-dawna-czeka-jedna-branza-9112103.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Masz pomysł na innowację dotyczącą branży rolniczej? Wiesz, co można zrobić, aby unowocześnić polskie rolnictwo? Możesz spróbować szans w konkursie z dotacjami Agrostrateg. Narodowe Centrum Badań i Rozwoju rozdzieli w nim aż 300 mln zł. Jakie warunki należy spełnić, aby zdobyć dofinansowanie?",
+      "pubDate": "Mon, 13 Apr 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/1/b845cf94f094b8-948-568-9-45-1191-714.jpg",
+      "dateISO": "2026-04-13T05:00:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Przychody z reklam z 5-procentowym podatkiem? Zapadł wyrok NSA",
+      "link": "https://businessinsider.com.pl/prawo/podatki/gry-komputerowe-a-ip-box-nsa-rozwial-watpliwosci-co-do-reklam/g4epvqr",
+      "description": "Ulga IP Box oznacza możliwość opodatkowania określonych przychodów 5-procentową stawką PIT lub CIT. NSA orzekł, czy ulga może mieć zastosowanie do przychodów z reklam wyświetlanych podczas korzystania z gier komputerowych.",
+      "pubDate": "Mon, 13 Apr 2026 04:56:57 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/tA-k9kpTURBXy80MWYwMGUzNzM4ODQzZDhlNDNiOTQwZTQyOTRlZDk2ZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-13T04:56:57.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Faktura na przełomie miesiąca w KSeF, oznaczenia w JPK. Tłumaczymy, jak poradzić sobie z problemami",
+      "link": "https://businessinsider.com.pl/prawo/podatki/problemy-z-ksef-i-jpk-eksperci-tlumacza-jak-uniknac-bledow/lnyfldm",
+      "description": "Podwójne fakturowanie: w KSeF i poza KSeF to duży problem dla odbiorców. Kolejne to faktury na przełomie miesiąca, odliczenia VAT i oznaczenia w JPK_VAT. Tłumaczymy, jak sobie z tym poradzić.",
+      "pubDate": "Mon, 13 Apr 2026 04:48:10 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/LTVk9kpTURBXy8zYjY1ZjM1NmE3NzgzYmY1NmE4NmNiMGEwZjkwMzllNC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-13T04:48:10.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Czy stopy w Polsce wzrosną? Teoretycznie NBP może nie przejmować się tym, co myślą rynki",
+      "link": "https://businessinsider.com.pl/finanse/polskie-obligacje-wracaja-do-gry-obawy-o-podwyzki-stop-procentowych-juz-nieaktualne/t02q09n",
+      "description": "Jeden dyplomatyczny gest na Bliskim Wschodzie wystarczył, by światowe parkiety zapłonęły zielenią, a polskie obligacje wróciły z krawędzi. Choć rynki ogarnęła euforia, pod powierzchnią wciąż tli się pytanie o trwałość tego spokoju. Sprawdzamy, czy nagła odwilż na rynku długu skarbowego oznacza, że c",
+      "pubDate": "Mon, 13 Apr 2026 04:43:15 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ezCk9kpTURBXy8wOGRiOWZmNzMwZWU1MWY3Mjg2NjAzN2VhOTgyMWNlOC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-13T04:43:15.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Wyniki wyborów na Węgrzech. Miażdżąca różnica i deklaracja wobec Polski oraz UE",
+      "link": "https://businessinsider.com.pl/gospodarka/wyniki-wyborow-na-wegrzech-miazdzaca-roznica/r0ehk74",
+      "description": "Opozycyjna partia lidera Petera Magyara, Tisza, zdobędzie 138 mandatów w 199-osobowym parlamencie — pokazują wstępne dane Narodowego Biura Wyborczego na podstawie niemal 99 proc. głosów oddanych w niedzielnych wyborach parlamentarnych na Węgrzech. Lider zwycięskiego ugrupowania mówił o Polsce i unij",
+      "pubDate": "Mon, 13 Apr 2026 04:20:28 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Fyek9kpTURBXy80ODAzZDliNmJlNjU3ODMyZDc4MWQxZTc0MTFjNzM0Yy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-13T04:20:28.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Fiasko rozmów pokojowych z Iranem. Trump rozważa wznowienie ataków",
+      "link": "https://www.bankier.pl/wiadomosc/WSJ-Trump-rozwaza-wznowienie-atakow-na-Iran-po-fiasku-negocjacji-pokojowych-9112714.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump rozważa wznowienie ograniczonych uderzeń w Iranie po fiasku rozmów pokojowych w Pakistanie – ujawnił dziennik „Wall Street Journal”, powołując się na amerykańskich urzędników. Opcja ta jest analizowana obok ogłoszonej już blokady cieśniny Ormuz w celu przełamania impasu.",
+      "pubDate": "Mon, 13 Apr 2026 05:12:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/4/ba931c13cacfc9-948-568-310-150-3690-2213.jpg",
+      "dateISO": "2026-04-13T04:12:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Starcie o KSeF. Domański: PiS zostawiło nam minę podłożoną pod gospodarkę",
+      "link": "https://www.bankier.pl/wiadomosc/Starcie-o-KSeF-Domanski-PiS-zostawilo-nam-mine-podlozona-pod-gospodarke-9112713.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Minister finansów Andrzej Domański podkreślił, że Krajowy System e-Faktur działa efektywnie, a zadowolenie z jego funkcjonowania rośnie. Jego zdaniem, wypowiedzi wiceprezesa PiS Przemysława Czarnka są kolejnymi populistycznymi hasłami, których polityk powinien się wstydzić.",
+      "pubDate": "Mon, 13 Apr 2026 05:11:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/3/0f515fe61d4c83-948-568-0-201-3500-2099.jpg",
+      "dateISO": "2026-04-13T04:11:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Mapa drogowa FIRE. Przeszli na emeryturę po \"30\" i zdradzają swoją strategię inwestycyjną",
+      "link": "https://businessinsider.com.pl/poradnik-finansowy/inwestowanie/w-co-inwestowac-w-2026-r-mlodzi-emeryci-zdradzaja-swoja-strategie/s0nlq7k",
+      "description": "Kristy Shen i Bryce Leung przeszli na emeryturę w 2015 r., mając niewiele ponad 30 lat. Powiedzieli, że to \"dwufazowa strategia inwestycyjna\" pomogła im osiągnąć wczesną emeryturę. Faza pierwsza to budowanie majątku, natomiast faza druga to generowanie dochodu. Ich strategia świetnie sprawdziła się ",
+      "pubDate": "Mon, 13 Apr 2026 04:06:31 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/iugk9kpTURBXy80OWYyOTdiMmQzOWUwYjdmYTgxZGYyZWQwMTBkZWFlMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-13T04:06:31.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Budżet UE na lata 2028-2034. Pięć trudnych tematów [ANALIZA]",
+      "link": "https://businessinsider.com.pl/biznes/nowy-unijny-budzet-i-spory-o-pieniadze-co-to-oznacza-dla-polski-analiza/t3hjxyt",
+      "description": "Polska ma dostać najwięcej pieniędzy z przyszłego budżetu UE. Tymczasem w Unii Europejskiej rosną narodowe egoizmy i nacjonalistyczne nastroje. Co to może oznaczać dla Warszawy?",
+      "pubDate": "Mon, 13 Apr 2026 04:03:42 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/zUGk9kpTURBXy8zNTE3MGExNjNlZWY4MzYyYzJjNDRhOWZhODE5NWRiOC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-13T04:03:42.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Zbrojenia, atom i G20. Tusk w Seulu: Nie przyjechał przedstawiciel biednego kraju",
+      "link": "https://www.bankier.pl/wiadomosc/Zbrojenia-atom-i-G20-Tusk-w-Seulu-Nie-przyjechal-przedstawiciel-biednego-kraju-9112703.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Przebywający z wizytą w Seulu premier Donald Tusk podkreślił, że priorytetem w polsko-koreańskich relacjach jest przemysł zbrojeniowy. Wyraził nadzieję, że uda się zrównoważyć bilans handlowy między Polską a Republiką Korei.",
+      "pubDate": "Mon, 13 Apr 2026 03:43:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/b/7647ca9e9e1642-948-568-19-67-1896-1137.jpg",
+      "dateISO": "2026-04-13T02:43:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Fikcyjny rozejm na czas Wielkanocy. Kreml mówi \"nie\" dla dłuższego zawieszenia broni",
+      "link": "https://www.bankier.pl/wiadomosc/Fikcyjny-rozejm-na-czas-Wielkanocy-Kreml-mowi-nie-dla-dluzszego-zawieszenia-broni-9112701.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zawieszenie broni, ogłoszone przez Rosję na czas prawosławnej Wielkanocy, wygasło w niedzielę o północy. Obie strony oskarżają się , że w ciągu 32 godzin obowiązywania rozejmu był on wielokrotnie naruszany.",
+      "pubDate": "Mon, 13 Apr 2026 03:03:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/6/45250be0eda280-948-568-0-244-3261-1957.jpg",
+      "dateISO": "2026-04-13T02:03:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Tusk: Mam nadzieję, że powiem Ziobrze i Romanowskiemu „witam w Polsce”",
+      "link": "https://www.bankier.pl/wiadomosc/Tusk-Mam-nadzieje-ze-powiem-Ziobrze-i-Romanowskiemu-witam-w-Polsce-9112700.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Cieszę się, że ta część Europy pokazuje, że nie jesteśmy skazani na rządy autorytarne – powiedział przebywający w Seulu premier Donald Tusk, komentując wynik wyborów na Węgrzech. Ocenił, że relacje Polski z nowym rządem w Budapeszcie będą „absolutnie wyjątkowe”.",
+      "pubDate": "Mon, 13 Apr 2026 02:26:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/e/a55bc52ada3a26-948-568-14-22-2961-1776.jpg",
+      "dateISO": "2026-04-13T01:26:00.000Z",
+      "dateFormatted": "13 kwietnia 2026"
+    },
+    {
+      "title": "Chaos na europejskim niebie. Lufthansa odwołuje setki lotów",
+      "link": "https://www.bankier.pl/wiadomosc/Chaos-na-europejskim-niebie-Lufthansa-odwoluje-setki-lotow-9112696.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Piloci Lufthansy rozpoczęli w poniedziałek po północy strajk, który ma potrwać do wtorku. Niemiecki przewoźnik planuje odwołać setki lotów, najbardziej dotknięte mają zostać lotniska w Monachium i Frankfurcie nad Menem.",
+      "pubDate": "Mon, 13 Apr 2026 00:32:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/8/b9f05f9774bbc2-945-560-0-7-1500-899.jpg",
+      "dateISO": "2026-04-12T23:32:00.000Z",
+      "dateFormatted": "12 kwietnia 2026"
+    },
+    {
+      "title": "Iran nie boi się \"wystrzelenia do piekła\". Mocna riposta na ultimatum Trumpa",
+      "link": "https://www.bankier.pl/wiadomosc/Iran-nie-boi-sie-wystrzelenia-do-piekla-Mocna-riposta-na-ultimatum-Trumpa-9112642.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Przewodniczący parlamentu Iranu i zarazem jego główny negocjator Mohammad Bager Ghalibaf oświadczył w niedzielę wieczorem, zwracając się do prezydenta Donalda Trumpa, że jeśli on będzie walczyć, to Irańczycy też będą walczyć, a jeśli zachowa się logicznie, to Iran też posłuży się logiką.",
+      "pubDate": "Sun, 12 Apr 2026 21:14:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/c/eba4acd4022e1a-948-568-90-120-3910-2345.jpg",
+      "dateISO": "2026-04-12T20:14:00.000Z",
+      "dateFormatted": "12 kwietnia 2026"
+    },
+    {
       "title": "\"Oddzielamy gotowych od chętnych\". W środku najostrzejszej selekcji armii USA [WIDEO]",
       "link": "https://businessinsider.com.pl/wideo/dzien-zerowy-w-armii-usa-tylko-nieliczni-przechodza-selekcje-w-air-assault-school/ghl73pl",
       "description": "Dzień selekcji, który eliminuje słabych. Tak wygląda \"day zero\" w jednej z najtrudniejszych szkół armii USA.",
@@ -15,7 +423,7 @@
     {
       "title": "Orban miażdżąco pokonany. Pogratulował Magyarowi zwycięstwa w wyborach",
       "link": "https://www.bankier.pl/wiadomosc/Orban-miazdzaco-pokonany-Sondaze-daja-opozycji-wiekszosc-konstytucyjna-9112624.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Obecne projekcje składu przyszłego parlamentu - włączając głosy oddane na listy krajowe i w jednomandatowych okręgach wyborczych - przewidują 136 mandatów dla Tiszy, 56 dla Fideszu i KDNP oraz 7 dla Mi Hazank - wynika z danych Narodowego Biura Wyborczego (NVI) po podliczeniu 60, 24 proc. głosów.",
+      "description": "Partia Tisza Petera Magyara zdobyła 138 mandatów w 199-osobowym węgierskim parlamencie; w ławach zasiądzie też skrajna prawica – wynika z opublikowanych danych Narodowego Biura Wyborczego (NVI) po podliczeniu niemal 95 proc. oddanych głosów.",
       "pubDate": "Sun, 12 Apr 2026 19:40:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
@@ -61,30 +469,6 @@
       "dateFormatted": "12 kwietnia 2026"
     },
     {
-      "title": "\"Wszystko albo nic\". Trump ogłasza blokadę cieśniny Ormuz i uderza w NATO",
-      "link": "https://www.bankier.pl/wiadomosc/Wszystko-albo-nic-Trump-oglasza-blokade-ciesniny-Ormuz-i-uderza-w-NATO-9112608.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent Donald Trump powiedział w niedzielę w wywiadzie z Fox News, że Wielka Brytania i inne państwa przyślą okręty przeciwminowe do cieśniny Ormuz. Jednocześnie stwierdził, że należy „ponownie przemyśleć” NATO. Potwierdził, że zamierza zablokować cieśninę i że może to się odbić na cenach ropy na",
-      "pubDate": "Sun, 12 Apr 2026 17:52:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/5/71494a2eab111b-948-568-248-9-3567-2140.jpg",
-      "dateISO": "2026-04-12T16:52:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Autostrada A2 jeszcze w kwietniu. GDDKiA otwiera kluczowy odcinek na wschodzie",
-      "link": "https://www.bankier.pl/wiadomosc/Autostrada-A2-jeszcze-w-kwietniu-GDDKiA-otwiera-kluczowy-odcinek-na-wschodzie-9110882.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Jeszcze w kwietniu Generalna Dyrekcja Dróg Krajowych i Autostrad (GDDKiA) planuje oddanie do ruchu blisko 30-kilometrowego odcinka autostrady A2 od Łukowiska do Białej Podlaskiej (Lubelskie). Do końca czerwca kierowcy będą mogli pokonać autostradą całe 65 km między Siedlcami i Białą Podlaską.",
-      "pubDate": "Sun, 12 Apr 2026 16:35:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/2/bb21c0775877eb-948-568-225-0-991-594.jpg",
-      "dateISO": "2026-04-12T15:35:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
       "title": "Szef Polskiej Unii Szpitali Klinicznych: finansowanie nie nadąża za nowoczesnymi metodami leczenia",
       "link": "https://www.bankier.pl/wiadomosc/Szef-Polskiej-Unii-Szpitali-Klinicznych-finansowanie-nie-nadaza-za-nowoczesnymi-metodami-leczenia-9111571.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Szpitale kliniczne w Polsce stoją przed paradoksem: dynamiczny rozwój technologii i dostęp do środków z KPO zbiegają się z narastającym niedoborem pieniędzy na świadczenia – powiedział przewodniczący Polskiej Unii Szpitali Klinicznych dr Jakub Kraszewski.",
@@ -106,18 +490,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/xXpk9kpTURBXy83MWJiMTViMWZiMTYwOGNiMGJjZjlmMDYzNTY0ZDU1ZC5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-04-12T15:02:23.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Mieszkania od państwa. Tysiące lokali trafi do użytku jeszcze w tym roku",
-      "link": "https://www.bankier.pl/wiadomosc/Mieszkania-od-panstwa-Tysiace-lokali-trafi-do-uzytku-jeszcze-w-tym-roku-9111310.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Krajowy Zasób Nieruchomości (KZN) chce oddać do użytkowania 4 tys. mieszkań w 2026 r. w formule Społecznej Inicjatywy Mieszkaniowej (SIM); celem do końca 2029 r. jest 30 tys. mieszkań - wskazał podczas czwartkowego śniadania prasowego prezes KZN, Łukasz Bałajewicz.",
-      "pubDate": "Sun, 12 Apr 2026 16:01:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/c/e2bcf3905408bc-948-568-0-129-1996-1197.jpg",
-      "dateISO": "2026-04-12T15:01:00.000Z",
       "dateFormatted": "12 kwietnia 2026"
     },
     {
@@ -145,18 +517,6 @@
       "dateFormatted": "12 kwietnia 2026"
     },
     {
-      "title": "Świadectwo historii przy Chmielnej 130. Dawna perła secesji pod ochroną",
-      "link": "https://www.bankier.pl/wiadomosc/Swiadectwo-historii-przy-Chmielnej-130-Dawna-perla-secesji-pod-ochrona-9110168.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Kamienica przy ulicy Chmielnej 130 została wpisana do rejestru zabytków. Mazowiecki wojewódzki konserwator zabytków Marcin Dawidowicz podkreślił, że kamienica jest cennym reliktem historycznej zabudowy zachodniego odcinka ul. Chmielnej.",
-      "pubDate": "Sun, 12 Apr 2026 15:44:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/9/932dc190366a96-948-568-0-52-997-598.jpg",
-      "dateISO": "2026-04-12T14:44:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
       "title": "Kanye West z zakazem wjazdu do Wielkiej Brytanii",
       "link": "https://www.bankier.pl/wiadomosc/Kanye-West-z-zakazem-wjazdu-do-Wielkiej-Brytanii-9110162.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Rząd Wielkiej Brytanii zablokował Kanye Westowi możliwość wjazdu do kraju, gdyż jego obecność byłaby sprzeczna z dobrem publicznym - podała we wtorek stacja BBC. Amerykański raper miał wystąpić w lipcu jako główna gwiazda festiwalu Wireless w Londynie.",
@@ -181,18 +541,6 @@
       "dateFormatted": "12 kwietnia 2026"
     },
     {
-      "title": "Polska liderem regionu. Miliardy euro płyną na rynek nieruchomości komercyjnych",
-      "link": "https://www.bankier.pl/wiadomosc/Polska-liderem-regionu-Miliardy-euro-plyna-na-rynek-nieruchomosci-komercyjnych-9110157.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Całkowita wartość transakcji inwestycyjnych na rynku nieruchomości komercyjnych w Europie Środkowo-Wschodniej wyniosła w ubiegłym roku ok. 11,8 mld euro, co oznacza wzrost o 34 proc. rok do roku - wynika z danych Cushman & Wakefield. To najlepszy wynik od 2019 r.",
-      "pubDate": "Sun, 12 Apr 2026 15:28:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/3/16d403784817aa-948-568-20-80-3980-2387.jpg",
-      "dateISO": "2026-04-12T14:28:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
       "title": "Donald Trump ogłasza amerykańską blokadę Cieśniny Ormuz",
       "link": "https://businessinsider.com.pl/wiadomosci/donald-trump-oglasza-blokade-ciesniny-ormuz-usa-odpowiadaja-na-grozby-iranu/bbrlzqq",
       "description": "Prezydent Donald Trump ogłosił w niedzielę, że marynarka wojenna USA w trybie natychmiastowym zacznie blokować statki, zamierzające wpłynąć do Cieśniny Ormuz i będzie usuwać umieszczone tam irańskie miny. Dodał, że każdy Irańczyk, który zaatakuje Amerykanów, zostanie \"wystrzelony do piekła\".",
@@ -202,30 +550,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/rzGk9kpTURBXy9iNTAzYjllMDA1MWU0N2FmOTdjNmM5NGE0NTAwMWU5Yi5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-04-12T14:23:41.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Atomowy parasol nad Polską. Wojsko i PAA łączą siły w ramach „Tarczy Wschód”",
-      "link": "https://www.bankier.pl/wiadomosc/Atomowy-parasol-nad-Polska-Wojsko-i-PAA-lacza-sily-w-ramach-Tarczy-Wschod-9110783.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sztab Generalny Wojska Polskiego i Polska Agencja Atomistyki podpisały porozumienie o współpracy m.in. w ochronie radiologicznej kraju i monitoringu radiacyjnego kraju przez służby wojskowe i cywilne. Chodzi przede wszystkim o wymianę danych i doświadczeń oraz współpracę przy analizach.",
-      "pubDate": "Sun, 12 Apr 2026 15:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/3/50de6fd743561f-948-569-365-266-1756-1054.jpg",
-      "dateISO": "2026-04-12T14:00:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Praca zdalna w IT zostaje na stałe, ale poza technologią rządzi biuro",
-      "link": "https://www.bankier.pl/wiadomosc/Praca-zdalna-w-IT-zostaje-na-stale-ale-poza-technologia-rzadzi-biuro-9111427.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W IT praca hybrydowa i zdalna stanowią łącznie 92 proc. ogłoszeń - wynika z \"Barometru Rynku Pracy Q1 2026\", cyklicznej analizy portali justjoin.it i rocketjobs.pl. Podano, że największe zapotrzebowanie dotyczy specjalistów od danych, Javy i project managementu.",
-      "pubDate": "Sun, 12 Apr 2026 15:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/2/8ed67fd3885aba-948-568-0-180-4000-2399.jpg",
-      "dateISO": "2026-04-12T14:00:00.000Z",
       "dateFormatted": "12 kwietnia 2026"
     },
     {
@@ -277,18 +601,6 @@
       "dateFormatted": "12 kwietnia 2026"
     },
     {
-      "title": "Rewolucja cyfrowa w Warszawie i Wrocławiu. Operator zwiększył zasięg o 52 tysiące adresów",
-      "link": "https://www.bankier.pl/wiadomosc/Rewolucja-cyfrowa-w-Warszawie-i-Wroclawiu-Operator-zwiekszyl-zasieg-o-52-tysiace-adresow-9110512.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Polski Światłowód Otwarty zwiększył w marcu zasięg sieci światłowodowej o ok. 52 tys. gospodarstw domowych - podał operator w komunikacie.",
-      "pubDate": "Sun, 12 Apr 2026 14:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/9/32012ccd221d18-948-567-5-70-995-596.jpg",
-      "dateISO": "2026-04-12T13:00:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
       "title": "Netflix wcale nie chciał kupić TVN. Prezes giganta ujawnia powody",
       "link": "https://businessinsider.com.pl/biznes/netflix-nie-chcial-kupic-telewizji-tvn-nie-wiemy-jak-to-dobrze-robic/lh196b3",
       "description": "Netflix nie chciał kupić stacji telewizyjnej TVN, gdy planował przejęcie Warner Bros Discovery. Telewizja była wyłączona z oferty z konkretnych powodów. Prezes Netflixa Greg Peters ujawnił w rozmowie z \"Gazetą Wyborczą\" kulisy negocjacji.",
@@ -301,66 +613,6 @@
       "dateFormatted": "12 kwietnia 2026"
     },
     {
-      "title": "Lot na Księżyc to współczesna budowa piramid. Wkrótce to będzie biznes",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/kosmos-jako-przyszly-rynek-powrot-na-ksiezyc-napedza-wielki-biznes/4dxv979",
-      "description": "Dlaczego od 50 lat nie wylądowaliśmy na Księżycu i czemu wkrótce będzie z tego biznes? W tym tekście poszukamy na to odpowiedzi.",
-      "pubDate": "Sun, 12 Apr 2026 12:30:43 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Llhk9kpTURBXy8wMzMwYWE1ODAxZTA5ZWM3NGVjOTI2ZDAwZTg5Yzc4NS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-12T12:30:43.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Iran już ruszył do napraw. Wtedy rafinerie mają wrócić do pracy",
-      "link": "https://businessinsider.com.pl/gospodarka/iran-juz-naprawia-obiekty-rafinerii-wiceminister-podal-terminy/fsxpqtc",
-      "description": "Iran zamierza naprawić obiekty rafinerii uszkodzone podczas wojny z USA i Izraelem w ciągu maksymalnie dwóch miesięcy — informuje Agencja Reutera. W tym czasie nie wrócą jednak do swojej pełnej wydajności.",
-      "pubDate": "Sun, 12 Apr 2026 12:01:23 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/CQnk9kpTURBXy85YjU5MmI0ODQwYmYyOWU0OTk0NzRhZjk0NjhiM2NmMi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-12T12:01:23.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Wynik wyborów na Węgrzech może dać napęd gospodarce. Blokada funduszy to jej główny hamulec",
-      "link": "https://businessinsider.com.pl/gospodarka/wybory-na-wegrzech-zmiana-wladzy-zwolni-hamulec-wzrostu-pkb/5jknrzy",
-      "description": "Polska gospodarka rośnie w ostatnich latach szybciej niż węgierska. Jest tego jedna ważna przyczyna. Wybory na Węgrzech mogą uwolnić fundusze zablokowane przez Unię rządowi Orbana.",
-      "pubDate": "Sun, 12 Apr 2026 11:48:47 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/_G5k9kpTURBXy8xZjBhMDEzYmMyMTQ0M2YxNTJmOTI3MDZjM2M1OGVhMy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-12T11:48:47.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Skandal w Białym Domu. Urzędnicy zarabiali na informacjach o wojnie?",
-      "link": "https://www.bankier.pl/wiadomosc/Skandal-w-Bialym-Domu-Urzednicy-zarabiali-na-informacjach-o-wojnie-9111979.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Biały Dom przestrzegł pracowników, by nie wykorzystywali poufnych informacji do zawierania transakcji na rynkach finansowych i platformach bukmacherskich - podał Bloomberg w piątek. Ostrzeżenie wydano wkrótce po ujawnieniu przez media informacji o nietypowej fali zleceń zakupu i sprzedaży.",
-      "pubDate": "Sun, 12 Apr 2026 12:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/c/a7cc6be546330b-948-568-324-394-3726-2235.jpg",
-      "dateISO": "2026-04-12T11:30:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Windykacja długów po zmarłym. NSA wydał przełomowy wyrok",
-      "link": "https://www.bankier.pl/wiadomosc/Windykacja-dlugow-po-zmarlym-NSA-wydal-przelomowy-wyrok-9111986.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W skargach wpływających do prezesa UODO pojawia się zjawisko kierowania przez wierzycieli żądań do spadkobierców dłużników - poinformował w piątek urząd. Podkreślił, że spadkobiercy zarzucają wierzycielom brak podstaw do przetwarzania ich danych osobowych.",
-      "pubDate": "Sun, 12 Apr 2026 12:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/a/fe02105d7feb7b-945-567-52-271-3441-2065.jpg",
-      "dateISO": "2026-04-12T11:30:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
       "title": "Ziobro przerywa milczenie z Węgier. \"Unijny miraż\" kontra \"miłość do kraju\"",
       "link": "https://www.bankier.pl/wiadomosc/Ziobro-przerywa-milczenie-z-Wegier-Unijny-miraz-kontra-milosc-do-kraju-9112476.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Przebywający na Węgrzech były szef MS Zbigniew Ziobro (PiS) powiedział PAP, że wierzy, iż podczas węgierskich wyborów w niedzielę zwycięży „rozsądek i miłość do kraju, a nie do unijnego mirażu”. Jego zdaniem, jeśli Viktor Orban zwycięży, to zablokuje „wszystkie unijne plany, groźne także dla Polaków",
@@ -370,30 +622,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/c/0dcfdc728a2ee7-948-568-0-105-4208-2524.jpg",
       "dateISO": "2026-04-12T11:15:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Kierowałam zespołami w pięciu miastach na całym świecie. Oto trzy triki, jak ubierać się, by robić dobre wrażenie w pracy",
-      "link": "https://businessinsider.com.pl/lifestyle/jak-ubierac-sie-w-pracy-ona-kierowala-zespolami-na-calym-swiecie-i-ma-trzy-rady/hb0d5kf",
-      "description": "Liz Weselby, dyrektorka ds. komunikacji, cztery razy przeprowadzała się w trakcie swojej kariery ze względu na pracę. Nauczyła się, jak dostosować garderobę do pracy tak, by była odpowiednia, a jednocześnie podkreślała jej styl.",
-      "pubDate": "Sun, 12 Apr 2026 11:03:29 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/rTbk9kpTURBXy82ZGEyMTQ3YzYwNmJiM2YxZGJmOTQ4ZTg3ZGNlODliOS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-12T11:03:29.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Zmiany w DPS-ach. Przepisanie nieruchomości na rodzinę już nie ochroni przed kosztami",
-      "link": "https://www.bankier.pl/wiadomosc/Zmiany-w-DPS-ach-Przepisanie-nieruchomosci-na-rodzine-juz-nie-ochroni-przed-kosztami-9111797.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Aktualizujemy katalog osób, które powinny ponosić koszty za dom pomocy społecznej, gdy jego mieszkaniec sam nie może zapłacić. Znajdą się w nim osoby, które w ciągu ostatnich 10 lat przejęły nieruchomość od seniora - poinformowała PAP wiceminister rodziny Katarzyna Nowakowska.",
-      "pubDate": "Sun, 12 Apr 2026 12:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/c/eaa7795352d1f9-948-568-0-0-4807-2884.jpg",
-      "dateISO": "2026-04-12T11:00:00.000Z",
       "dateFormatted": "12 kwietnia 2026"
     },
     {
@@ -421,39 +649,15 @@
       "dateFormatted": "12 kwietnia 2026"
     },
     {
-      "title": "Historyczne orzeczenie sądu w USA. \"Punkt zwrotny\" po 158 latach",
-      "link": "https://businessinsider.com.pl/gospodarka/domowa-produkcja-alkoholu-w-usa-legalna-sad-podjal-historyczna-decyzje/9z6ys73",
-      "description": "Amerykański sąd federalny podjął ważną decyzję dotyczącą obowiązującego od 1868 r. przepisu. Uznał zakaz domowej destylacji alkoholu za niekonstytucyjny. Orzeczenie tym samym znosi restrykcje, które obowiązywały w USA od XIX w.",
-      "pubDate": "Sun, 12 Apr 2026 10:35:02 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/GPlk9kpTURBXy9kZTAxMGY0MjM1ZWEzMzYxY2MzNTAyMTAwZGY1YmFlZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-12T10:35:02.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Polacy wypowiedzieli się na temat pomocy USA w odblokowaniu Cieśniny Ormuz [SONDAŻ]",
-      "link": "https://businessinsider.com.pl/wiadomosci/polacy-wypowiedzieli-sie-na-temat-pomocy-usa-w-odblokowaniu-ciesniny-ormuz-nowy/tykkxcj",
-      "description": "Prezydent USA Donald Trump niemal od początku ataku na Iran domagał się pomocy europejskich członków NATO w odblokowaniu Cieśniny Ormuz. W najnowszym sondażu Polacy odpowiedzieli na pytanie, czy państwa Starego Kontynentu powinny uczestniczyć w tym militarnym przedsięwzięciu.",
-      "pubDate": "Sun, 12 Apr 2026 10:27:27 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/hjmk9kpTURBXy8yMjdmNWM2NTBkOWU1MTUwNmNiMTI0ZGYzMjdhNjkyZi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-12T10:27:27.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Historyczny wyrok w USA. 158-letni zakaz domowej produkcji alkoholu uznany za niekonstytucyjny",
-      "link": "https://www.bankier.pl/wiadomosc/Historyczny-wyrok-w-USA-158-letni-zakaz-domowej-produkcji-alkoholu-uznany-za-niekonstytucyjny-9112565.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Amerykański sąd federalny uznał pochodzący z 1868 roku zakaz domowej destylacji alkoholu za niekonstytucyjny. Orzeczenie znosi restrykcje wprowadzone w epoce odbudowy po wojnie secesyjnej, otwierając drogę do legalnego wytwarzania trunków na własny użytek – podała agencja UPI.",
-      "pubDate": "Sun, 12 Apr 2026 11:13:00 +0100",
+      "title": "Koniec z alkoholem na widoku? „To działa jak obniżka cen”",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-z-alkoholem-na-widoku-To-dziala-jak-obnizka-cen-9111220.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Regulacja dostępności jest kluczem do ograniczenia spożycia alkoholu - wskazują analitycy Polskiego Instytut Ekonomicznego. Coraz więcej podmiotów publicznych decyduje się na ograniczanie dostępności np. w wymiarze czasowym; badania pokazują skuteczność tego rozwiązania w ograniczaniu konsumpcji alk",
+      "pubDate": "Sun, 12 Apr 2026 11:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/4/584e0c8ed1ddc6-948-568-337-0-1592-955.jpg",
-      "dateISO": "2026-04-12T10:13:00.000Z",
+      "image": "http://galeria.bankier.pl/p/7/8/edfca06ef12fb8-948-568-10-280-3990-2393.jpg",
+      "dateISO": "2026-04-12T10:00:00.000Z",
       "dateFormatted": "12 kwietnia 2026"
     },
     {
@@ -469,42 +673,6 @@
       "dateFormatted": "12 kwietnia 2026"
     },
     {
-      "title": "Koniec z alkoholem na widoku? „To działa jak obniżka cen”",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-z-alkoholem-na-widoku-To-dziala-jak-obnizka-cen-9111220.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Regulacja dostępności jest kluczem do ograniczenia spożycia alkoholu - wskazują analitycy Polskiego Instytut Ekonomicznego. Coraz więcej podmiotów publicznych decyduje się na ograniczanie dostępności np. w wymiarze czasowym; badania pokazują skuteczność tego rozwiązania w ograniczaniu konsumpcji alk",
-      "pubDate": "Sun, 12 Apr 2026 11:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/8/edfca06ef12fb8-948-568-10-280-3990-2393.jpg",
-      "dateISO": "2026-04-12T10:00:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Cztery dni pracy i brak podatku dochodowego. Snują piękną opowieść o przyszłości z AI",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/czterodniowy-tydzien-pracy-i-pasywny-dochod-openai-odslania-strategie/33m86xw",
-      "description": "\"Inwestujcie w AI, a każdy będzie pracował mniej i zarabiał więcej\" — obiecuje prezes OpenAI. Ten sam, który podpisał kontrakt z Pentagonem na tworzenie inteligentnej broni.",
-      "pubDate": "Sun, 12 Apr 2026 09:58:13 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/-aHk9kpTURBXy85MGY0ZjdjYjczMmU0OWYzN2I3NTIzMDQzMGVkODM2NS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-12T09:58:13.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Tyle zapłacimy za paliwa w niedzielę i poniedziałek. Rekordowo niska cena benzyny",
-      "link": "https://businessinsider.com.pl/gospodarka/ceny-paliw-w-niedziele-i-poniedzialek-tyle-zaplacimy-za-benzyne-i-diesla/92dqct1",
-      "description": "W niedzielę 12 kwietnia i w poniedziałek 13 kwietnia maksymalne ceny paliw w Polsce utrzymają się na tej samej wysokości, co w sobotę. Ile zapłacimy za benzynę bezołowiową, a ile za olej napędowy? Minister energii podał maksymalne ceny detaliczne.",
-      "pubDate": "Sun, 12 Apr 2026 09:48:13 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/iPRk9kpTURBXy8wNzMxYmQxMTEwMjBkMDdiMThhMTc0ZWM5YjkyMjZiYS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-12T09:48:13.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
       "title": "Bitcoin stabilny na 71 tys. $ po impasie rozmów USA-Iran w Islamabadzie",
       "link": "https://pl.investing.com/news/cryptocurrency-news/btc-opiera-sie-zmiennosci-geopolitycznej-w-obliczu-impasu-szczytu-w-islamabadzie-1357001",
       "description": "",
@@ -514,18 +682,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-04-12T09:14:20.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Seniorzy w pałacach, młodzi w klitkach. Amerykańscy millenialsi mają problem",
-      "link": "https://www.bankier.pl/wiadomosc/Seniorzy-w-palacach-mlodzi-w-klitkach-Amerykanscy-millenialsi-maja-problem-9111276.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Nie mają już dzieci, ale w ich rękach pozostaje aż 27 proc. dużych domów. To tzw. puste gniazda pokolenia powojennego wyżu demograficznego, boomersów. Tymczasem millenialsi z dziećmi posiadają tylko 15 proc. większych mieszkań. Oto „niedopasowanie nieruchomościowe” po amerykańsku.",
-      "pubDate": "Sun, 12 Apr 2026 10:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/c/06652d558121e0-948-568-137-0-1170-702.png",
-      "dateISO": "2026-04-12T09:00:00.000Z",
       "dateFormatted": "12 kwietnia 2026"
     },
     {
@@ -541,186 +697,6 @@
       "dateFormatted": "12 kwietnia 2026"
     },
     {
-      "title": "Haiti umiera z głodu. ONZ alarmuje: połowa kraju potrzebuje natychmiastowej pomocy",
-      "link": "https://www.bankier.pl/wiadomosc/Haiti-umiera-z-glodu-ONZ-alarmuje-polowa-kraju-potrzebuje-natychmiastowej-pomocy-9112524.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Około połowa populacji 12-milionowego Haiti doświadcza głodu i potrzebuje pilnej pomocy humanitarnej - wynika z najnowszego raportu Organizacji Narodów Zjednoczonych.",
-      "pubDate": "Sun, 12 Apr 2026 09:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/0/fd6f4b0da9c57f-908-544-67-82-908-544.jpg",
-      "dateISO": "2026-04-12T08:45:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Liczy się marża. Jak Węgry pokochały paliwa z Rosji",
-      "link": "https://businessinsider.com.pl/gospodarka/wegry-zwiekszaja-import-gazu-i-ropy-z-rosji-oto-kulisy-polityki-orbana/0ylx0hw",
-      "description": "Na konsekwentne trwanie Węgier przy paliwach kopalnych z Rosji wpływa kilka czynników. Ze wszystkich kluczowe znaczenie ma jednak świadomie wybrana polityka.",
-      "pubDate": "Sun, 12 Apr 2026 08:42:57 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/iqRk9kpTURBXy9lYTU1ZTM4ZjRkNmYyNzczZGEzYWY2YjkwZmFkYzE5Yy5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-12T08:42:57.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Ropa znów płynie na Zachód. Arabia Saudyjska naprawiła strategiczny rurociąg",
-      "link": "https://www.bankier.pl/wiadomosc/Ropa-znow-plynie-na-Zachod-Arabia-Saudyjska-naprawila-strategiczny-rurociag-9112543.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Arabia Saudyjska przywróciła pełną przepustowość uszkodzonego w irańskim ataku dronowym rurociągu East-West - oświadczyło w niedzielę ministerstwo energii tego kraju. Prowadzący do Morza Czerwonego rurociąg jest po zablokowaniu przez Iran cieśniny Ormuz jedyną drogą eksportu saudyjskiej ropy.",
-      "pubDate": "Sun, 12 Apr 2026 09:04:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/2/92250483bf3db7-948-569-0-17-1716-1030.jpg",
-      "dateISO": "2026-04-12T08:04:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Polska deklasuje Węgry. Oto gospodarczy bilans 22 lat w UE",
-      "link": "https://www.bankier.pl/wiadomosc/Polska-deklasuje-Wegry-Oto-gospodarczy-bilans-22-lat-w-UE-9112376.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Z danych udostępnionych przez Bank Światowy wynika, że od czasu akcesji do UE w 2004 roku polski PKB wzrósł przez dwie dekady niemal 3,6 razy, z 256 mld do blisko 918 mld dolarów. W tym samym czasie PKB Węgier zwiększył się ze 104 mld do blisko 223 mld dolarów, czyli ponad dwukrotnie.",
-      "pubDate": "Sun, 12 Apr 2026 09:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/4/baf11d56830e27-948-568-0-94-1800-1079.jpg",
-      "dateISO": "2026-04-12T08:00:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Szukają juhasów, chętnych brak. Prawdziwy oscypek może zniknąć",
-      "link": "https://www.bankier.pl/wiadomosc/Szukaja-juhasow-chetnych-brak-Prawdziwy-oscypek-moze-zniknac-9112393.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Mimo utrzymującego się na wysokim poziomie pogłowia owiec w Małopolsce, branża zmaga się z brakiem juhasów, co zagraża tradycyjnemu wypasowi. Choć w regionie jest już 74,6 tys. owiec, to pod Tatrami ich liczba od lat systematycznie spada – w ciągu 20 lat o 41 proc. – wynika z danych ARiMR.",
-      "pubDate": "Sun, 12 Apr 2026 08:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/2/c42aaf758142d0-948-568-0-290-3966-2380.jpg",
-      "dateISO": "2026-04-12T07:45:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Naukowcy z Wrocławia opracowali \"kosmiczny internet\"",
-      "link": "https://www.bankier.pl/wiadomosc/Naukowcy-z-Wroclawia-opracowali-kosmiczny-internet-9111410.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Naukowcy opracowali radykalnie szybszą łączność satelitarną. Dzięki unikalnemu rozwiązaniu - technologii E-SSA, możliwe jest radykalne zwiększenie przepustowości bez konieczności rezerwowania dodatkowych pasm radiowych. To przełom w dziedzinie łączności satelitarnej dla internetu rzeczy - ocenili sp",
-      "pubDate": "Sun, 12 Apr 2026 08:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/d/8fc589984e3d13-948-568-0-3-1346-807.png",
-      "dateISO": "2026-04-12T07:00:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Fiasko po 21 godzinach rozmów. J.D. Vance opuszcza Pakistan, Iran mówi o \"nierozsądnych żądaniach\"",
-      "link": "https://www.bankier.pl/wiadomosc/Fiasko-po-21-godzinach-rozmow-J-D-Vance-opuszcza-Pakistan-Iran-mowi-o-nierozsadnych-zadaniach-9112531.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wiceprezydent USA J.D. Vance opuścił w niedzielę Islamabad po fiasku rozmów z Iranem na temat pokoju na Bliskim Wschodzie - poinformowała agencja AFP. Jego samolot wystartował ze stolicy Pakistanu po godz. 7 czasu lokalnego (4 w Polsce).",
-      "pubDate": "Sun, 12 Apr 2026 07:22:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/3/57a38cf56060c5-948-568-0-0-1172-703.jpg",
-      "dateISO": "2026-04-12T06:22:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Małe kubki, wielkie pieniądze. Ceramika w niebieskie kropki podbija świat",
-      "link": "https://www.bankier.pl/wiadomosc/Te-kubki-zarabiaja-miliony-na-calym-swiecie-Fenomen-ceramiki-z-Boleslawca-9111685.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Kubki w kobaltowe kropki, talerze z charakterystycznym stemplem i dzbanki, które trafiają na stoły od Warszawy po Tokio i Nowy Jork – ręcznie malowana ceramika z Bolesławca od lat zdobywa rynki w kraju i za granicą. Sprawdziliśmy, ile kosztują te wyroby, skąd bierze się ich popularność i z jakimi wy",
-      "pubDate": "Sun, 12 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/7/ad07ddabc0146d-948-568-0-109-1901-1140.jpg",
-      "dateISO": "2026-04-12T05:00:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "System kaucyjny. 60 proc. sukcesu, 100 proc. frustracji. \"Zrobiono z nas dziadów\"",
-      "link": "https://www.bankier.pl/wiadomosc/System-kaucyjny-60-proc-sukcesu-100-proc-frustracji-Zrobiono-z-nas-dziadow-9109875.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ministra klimatu Paulina Hennig-Kloska ogłosiła niedawno, że w drugim kwartale do systemu kaucyjnego wróciło około 60 proc. butelek wprowadzonych do sprzedaży w pierwszym kwartale tego roku. „Widzimy gołym okiem, że plastik znika z naszego otoczenia” - powiedziała. Ja też widzę gołym okiem. Widzę pl",
-      "pubDate": "Sun, 12 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/b/80db83e9d16210-787-472-135-42-787-472.jpg",
-      "dateISO": "2026-04-12T05:00:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Klan Bolsonaro wraca do gry. Szokujący sondaż: Flavio może przejąć władzę",
-      "link": "https://www.bankier.pl/wiadomosc/Klan-Bolsonaro-wraca-do-gry-Szokujacy-sondaz-Flavio-moze-przejac-wladze-9112515.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Flavio Bolsonaro, syn byłego prezydenta Brazylii Jaira Bolsonaro, jest faworytem tegorocznych wyborów prezydenckich w tym kraju - wynika z opublikowanego w sobotę sondażu ośrodka badawczego Datafolha.",
-      "pubDate": "Sun, 12 Apr 2026 05:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/b/d1e51d539030ae-948-568-11-11-2208-1325.jpg",
-      "dateISO": "2026-04-12T04:40:00.000Z",
-      "dateFormatted": "12 kwietnia 2026"
-    },
-    {
-      "title": "Trump: Chiny będą miały wielki problem, jeśli wyślą broń Iranowi",
-      "link": "https://www.bankier.pl/wiadomosc/Trump-Chiny-beda-mialy-wielki-problem-jesli-wysla-bron-Iranowi-9112494.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Chiny będą miały wielki problem, jeśli wyślą broń Iranowi - powiedział w sobotę prezydent USA Donald Trump. Odnosząc się do negocjacji z Iranem w Pakistanie ocenił, że nie ma dla niego znaczenia, czy zostanie zawarte porozumienie, bo i tak jego zdaniem Ameryka wygrała wojnę.",
-      "pubDate": "Sat, 11 Apr 2026 23:34:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/6/19fb355276911c-948-568-158-0-4168-2500.jpg",
-      "dateISO": "2026-04-11T22:34:00.000Z",
-      "dateFormatted": "11 kwietnia 2026"
-    },
-    {
-      "title": "Berkut w drodze do Budapesztu? Ukraiński wywiad ostrzega",
-      "link": "https://www.bankier.pl/wiadomosc/Berkut-w-drodze-do-Budapesztu-Ukrainski-wywiad-ostrzega-przed-prowokacjami-na-Wegrzech-9112459.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Byli członkowie rozwiązanej specjalnej jednostki ukraińskiej policji, Berkutu, mogli przybyć do Budapesztu, by organizować prowokacje w związku z niedzielnymi wyborami parlamentarnymi na Węgrzech - ostrzegło ukraińskie rządowe Centrum Przeciwdziałania Dezinformacji (CPD).",
-      "pubDate": "Sat, 11 Apr 2026 19:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/6/d48d9808497839-948-568-12-27-987-592.jpg",
-      "dateISO": "2026-04-11T18:30:00.000Z",
-      "dateFormatted": "11 kwietnia 2026"
-    },
-    {
-      "title": "Izrael idzie na całość przed negocjacjami. Ponad 200 ataków na Hezbollah",
-      "link": "https://www.bankier.pl/wiadomosc/Izrael-idzie-na-calosc-przed-negocjacjami-Ponad-200-atakow-na-Hezbollah-9112471.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Izraelska armia (IDF) poinformowała w sobotę po południu, że w ciągu ostatnich 24 godzin zaatakowała ponad 200 celów terrorystycznego, proirańskiego ugrupowania Hezbollah, które operuje z południowego Libanu. W przyszłym tygodniu w Waszyngtonie mają odbyć się rokowania izraelsko-libańskie.",
-      "pubDate": "Sat, 11 Apr 2026 19:29:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/2/7a7a1c78d9d502-948-568-0-240-4000-2399.jpg",
-      "dateISO": "2026-04-11T18:29:00.000Z",
-      "dateFormatted": "11 kwietnia 2026"
-    },
-    {
-      "title": "Złoto NBP i 169 mld zł \"papierowego\" zysku. Bank centralny uderza w \"falę dezinformacji\"",
-      "link": "https://www.bankier.pl/wiadomosc/Zloto-NBP-i-169-mld-zl-zysku-Bank-centralny-uderza-w-fale-dezinformacji-9112442.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Narodowy Bank Polski zarobił na złocie, choć formalnie notuje straty? NBP odpiera zarzuty w związku \"z nową falą dezinformacji\" i jak podaje w najnowszym wpisie na platformie X, w czwartek (9 kwietnia) niezrealizowany zysk na rezerwach złota w zasobach NBP wynosił 169 mld zł.",
-      "pubDate": "Sat, 11 Apr 2026 14:08:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/3/057bcabff7f529-948-568-2-14-954-572.png",
-      "dateISO": "2026-04-11T13:08:00.000Z",
-      "dateFormatted": "11 kwietnia 2026"
-    },
-    {
-      "title": "SMR-y tylko dla najbogatszych. Porażające koszty budowy reaktorów w Polsce",
-      "link": "https://www.bankier.pl/wiadomosc/SMR-y-tylko-dla-najbogatszych-Porazajace-koszty-budowy-reaktorow-w-Polsce-9111375.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Polska powinna określić jasne i stabilne ramy wsparcia publicznego w inwestycjach w reaktory jądrowe typu SMR, które umożliwią ich realizację przy zachowaniu zgodności z unijnymi zasadami pomocy publicznej - rekomendują eksperci PIE. Ich zdaniem ze względu na koszty technologia ta pozostaje poza zas",
-      "pubDate": "Sat, 11 Apr 2026 14:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/9/b7a5cb6918f6c6-948-568-0-37-3000-1799.jpg",
-      "dateISO": "2026-04-11T13:00:00.000Z",
-      "dateFormatted": "11 kwietnia 2026"
-    },
-    {
       "title": "Bitcoin osiąga 73 000 $ dzięki napływom do ETF i sytuacji na Bliskim Wschodzie",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-osiaga-73-000--po-ulge-na-bliskim-wschodzie-i-naplywie-350-mln--do-etf-1356942",
       "description": "",
@@ -730,18 +706,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-04-11T05:57:47.000Z",
-      "dateFormatted": "11 kwietnia 2026"
-    },
-    {
-      "title": "Dom związany z Black Sabbath na sprzedaż. Osbourne wystawiła go za 17 mln dolarów",
-      "link": "https://www.bankier.pl/wiadomosc/Dom-zwiazany-z-Black-Sabbath-na-sprzedaz-Osbourne-wystawila-go-za-17-mln-dolarow-9110034.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sharon Osbourne sprzedaje posiadłość w Los Angeles. Kwota na ogłoszeniu to 17 mln dolarów i jest to trzecie podejście do sprzedaży nieruchomości. Po śmierci Ozzy'ego wdowa planuje zostawić sobie posiadłość w Buckinghamshire w Wielkiej Brytanii, a w USA przenieść się do mniejszego lokum.",
-      "pubDate": "Sat, 11 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/b/53cfc48dc5cdd0-948-568-0-90-3000-1799.jpg",
-      "dateISO": "2026-04-11T05:00:00.000Z",
       "dateFormatted": "11 kwietnia 2026"
     },
     {
@@ -853,30 +817,6 @@
       "dateFormatted": "9 kwietnia 2026"
     },
     {
-      "title": "Miał być pokój, jest nerwowo. Czerwień na giełdach w Europie, ale WIG20 znów zielony",
-      "link": "https://www.bankier.pl/wiadomosc/Mial-byc-pokoj-jest-nerwowo-Czerwien-na-gieldach-w-Europie-ale-WIG20-znow-zielony-9111631.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Po euforycznej środzie, która przyniosła historyczne rekordy na szerokim rynku, czwartkowa sesja na GPW upłynęła w spokojniejszej atmosferze. Choć główne indeksy próbują utrzymać się nad kreską, nad parkietem zawisły ciemne chmury w postaci kruszącego się rozejmu na Bliskim Wschodzie.",
-      "pubDate": "Thu, 9 Apr 2026 17:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/a/b/39c94a323c29d4-948-568-0-270-4000-2399.jpg",
-      "dateISO": "2026-04-09T16:18:00.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
-      "title": "Rada Polityki Pieniężnej zostawiła stopy w spokoju. Tańszego kredytu może już nie być",
-      "link": "https://www.bankier.pl/wiadomosc/Rada-Polityki-Pienieznej-nie-zmila-stop-procentowych-w-kwietniu-2026-Tanszego-kredytu-moze-juz-nie-byc-9111265.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Rada Polityki Pieniężnej utrzymała stopy procentowe na niezmienionych poziomach, wpisując się w niemal powszechne oczekiwania ekonomistów.",
-      "pubDate": "Thu, 9 Apr 2026 14:05:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/9/f/9f99b97880e845-948-568-92-20-1585-951.jpg",
-      "dateISO": "2026-04-09T13:05:00.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
       "title": "Tok-Edge wyceniony na 15 mln $ przed uruchomieniem funduszu kryptowalut",
       "link": "https://pl.investing.com/news/cryptocurrency-news/tokedge-wyceniony-na-15-mln--przed-uruchomieniem-funduszu-kryptowalut-1354242",
       "description": "",
@@ -886,18 +826,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-04-09T10:00:25.000Z",
-      "dateFormatted": "9 kwietnia 2026"
-    },
-    {
-      "title": "Już ósme ABB na Allegro. Na szybko sprzedali akcje za blisko 1,7 mld zł",
-      "link": "https://www.bankier.pl/wiadomosc/Juz-osme-ABB-na-Allegro-Na-szybko-sprzedali-akcje-za-blisko-1-7-mld-zl-9111244.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Fundusz Cidinan niemal całkowicie wycofuje się z akcjonariatu Allegro, sprzedając pakiet 65 mln akcji. Transakcja przeprowadzona w trybie przyspieszonej budowy księgi popytu (ABB) według doniesień Bloomberg opiewa na blisko 1,7 mld zł.",
-      "pubDate": "Thu, 9 Apr 2026 10:42:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/d/9/490f5bb7a2ceca-948-568-105-135-1895-1136.jpg",
-      "dateISO": "2026-04-09T09:42:00.000Z",
       "dateFormatted": "9 kwietnia 2026"
     },
     {
@@ -949,5 +877,5 @@
       "dateFormatted": "6 kwietnia 2026"
     }
   ],
-  "updatedAt": "2026-04-13T02:49:20.753Z"
+  "updatedAt": "2026-04-13T06:15:54.791Z"
 }
