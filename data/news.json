@@ -1,15 +1,375 @@
 {
   "articles": [
     {
-      "title": "Zarząd Enei rekomenduje wypłatę 0,56 zł dywidendy na akcję z zysku za 2025 rok",
-      "link": "https://www.bankier.pl/wiadomosc/Zarzad-Enei-rekomenduje-wyplate-0-56-zl-dywidendy-na-akcje-z-zysku-za-2025-rok-9113555.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Zarząd Enei podjął uchwałę dotyczącą propozycji podziału zysku za 2025 rok, w której zaproponował przeznaczenie części zysku w kwocie 296 649 412,08 zł na wypłatę dywidendy, tj. 0,56 zł za jedną akcję - podała spółka w komunikacie.",
-      "pubDate": "Tue, 14 Apr 2026 12:40:00 +0100",
+      "title": "Sanok Rubber Company skupił 1.694.172 akcji własnych",
+      "link": "https://www.bankier.pl/wiadomosc/Sanok-Rubber-Company-skupil-1-694-172-akcji-wlasnych-9113715.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Sanok Rubber Company skupił 1.694.172 akcji własnych za łącznie 34,42 mln zł - podał Sanok w komunikacie.",
+      "pubDate": "Tue, 14 Apr 2026 15:18:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/6/9/663ed7264204bb-thumb-1000.jpg",
-      "dateISO": "2026-04-14T11:40:00.000Z",
+      "image": "https://galeria.bankier.pl/p/e/8/3f1457f4fed800-thumb-1000.jpg",
+      "dateISO": "2026-04-14T14:18:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Siedem kluczowych obszarów do obsadzenia. Orlen przedłuża konkurs",
+      "link": "https://www.bankier.pl/wiadomosc/Siedem-kluczowych-obszarow-do-obsadzenia-Orlen-przedluza-konkurs-9113676.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rada nadzorcza Orlenu wydłużyła termin przyjmowania zgłoszeń w konkursie na prezesa i członków zarządu do 27 kwietnia do godz. 12 - poinformowała we wtorek spółka.",
+      "pubDate": "Tue, 14 Apr 2026 14:48:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/7/2997cca2d678d0-948-568-140-200-3860-2315.jpg",
+      "dateISO": "2026-04-14T13:48:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "System kaucyjny w Polsce. Paulina Hennig‑Kloska poinformowała o rekordzie",
+      "link": "https://businessinsider.com.pl/gospodarka/system-kaucyjny-w-polsce-paulina-hennigkloska-poinformowala-o-rekordzie/6zhwx1y",
+      "description": "Minister klimatu Paulina Hennig‑Kloska poinformowała, że jeden ze sklepów przyjął w ciągu doby aż 20 tys. butelek, co uznano za rekord systemu kaucyjnego.",
+      "pubDate": "Tue, 14 Apr 2026 13:38:23 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/7wjk9kpTURBXy9lZGIxOGMwMTBjYzUxOTFjNzljOGYwNjFhZDYwOWYzYi5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-14T13:38:23.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Stalowa blokada UE. Cła rosną do 50 proc., kontyngenty o połowę w dół",
+      "link": "https://www.bankier.pl/wiadomosc/Stalowa-blokada-UE-Cla-rosna-do-50-proc-kontyngenty-o-polowe-w-dol-9113662.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Unia Europejska zamierza zaostrzyć ograniczenia dotyczące importu stali spoza Unii, w tym podwoić cła i zmniejszyć o prawie połowę bezcłowe kontyngenty importowanej stali – wynika z zawartego w nocy z poniedziałku na wtorek porozumienia między Parlamentem Europejskim a państwami członkowskimi.",
+      "pubDate": "Tue, 14 Apr 2026 14:31:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/1/68a6c822273726-948-568-0-118-1900-1139.jpg",
+      "dateISO": "2026-04-14T13:31:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Ukraina i Niemcy podpisują umowy za 4 mld euro. W grze drony i pociski Patriot",
+      "link": "https://businessinsider.com.pl/gospodarka/ukraina-i-niemcy-uzgodnily-pakiet-porozumien-w-dziedzinie-obronnosci-o-wartosci-4-mld/s5d1jjf",
+      "description": "Ukraina i Niemcy uzgodniły pakiet porozumień w dziedzinie obronności o wartości 4 mld euro — przekazał minister obrony Ukrainy.",
+      "pubDate": "Tue, 14 Apr 2026 13:30:25 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/XAgk9kpTURBXy82OTYxM2RiNDE5ZTBhZTNjMzk0YzNmZWE2YzllODE3ZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-14T13:30:25.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Rekordowe zyski największego banku świata. Ryzyko i konflikt zbrojny przerobione na dolary",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/rekordowe-zyski-najwiekszego-banku-swiata-wojna-w-iranie-pomogla/whdytg0",
+      "description": "We wtorek trzech amerykańskich gigantów bankowych pokazało wyniki. Dwóch z nich świetnie sobie poradziło. Największy bank świata JPMorgan pokazał, że zwiększona zmienność spowodowana wojną w Iranie to problem dla gospodarki, ale dla banków już niekoniecznie.",
+      "pubDate": "Tue, 14 Apr 2026 13:30:11 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/_L7k9kpTURBXy9jMjI0YWQxMTliMDY3MGI3ZWIxOTVmOWYwNzdmMTM4NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-14T13:30:11.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Łączny wpływ rozwiązania i utworzenia odpisów zwiększy zysk brutto Trakcji o 1,5 mln zł",
+      "link": "https://www.bankier.pl/wiadomosc/Laczny-wplyw-rozwiazania-i-utworzenia-odpisow-zwiekszy-zysk-brutto-Trakcji-o-1-5-mln-zl-9113661.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Łączny wpływ rozwiązania i utworzenia odpisów zwiększy zysk brutto oraz wartość aktywów trwałych Trakcji o 1,5 mln zł - podała spółka w komunikacie. Uwzględniając zmiany w zakresie odpisów aktualizujących, Trakcja szacuje wynik EBITDA za 2025 rok na 111,9 mln zł oraz 1,4 mld zł przychodów ze sprzeda",
+      "pubDate": "Tue, 14 Apr 2026 14:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/4/9/e4957de41a0525-948-568-22-110-4399-2639.jpg",
+      "dateISO": "2026-04-14T13:30:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Drugi próg podatkowy do 140 tys., ale tylko dla wybranych. Projekt wpłynął do Sejmu",
+      "link": "https://www.bankier.pl/wiadomosc/Drugi-prog-podatkowy-do-140-tys-ale-tylko-dla-wybranych-Projekt-wplynal-do-Sejmu-9113653.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Posłowie Polski 2050 złożyli w Sejmie projekt podnoszący drugi próg podatkowy do 140 tys. zł - podano na platformie X partii, która współtworzy koalicję rządową.",
+      "pubDate": "Tue, 14 Apr 2026 14:24:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/e/12ee89930e670f-948-568-9-168-1180-708.jpg",
+      "dateISO": "2026-04-14T13:24:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Zmiana w konkursie na prezesa Orlenu. Podano nową datę",
+      "link": "https://businessinsider.com.pl/firmy/konkurs-na-prezesa-orlenu-wydluzony-podano-nowa-date/13xgyhq",
+      "description": "Orlen wydłuża termin zgłoszeń na kluczowe stanowiska w zarządzie — poinformowała spółka.",
+      "pubDate": "Tue, 14 Apr 2026 13:23:28 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/5s-k9kpTURBXy82ZTNhZWQwMTkzMzRhOTM5ZjA4Njk2NmMzYzgwM2FiNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-14T13:23:28.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Seniorzy mogą dostać dodatkowe pieniądze co miesiąc. Wielu o tym nie wie",
+      "link": "https://businessinsider.com.pl/praca/emerytury/swiadczenie-ratownicze-jako-dodatek-do-emerytury-komu-przysluguje-i-ile-wynosi/6dlypdy",
+      "description": "Choć formalnie to świadczenie istnieje na liście wsparcia finansowego od kilku lat, nadal wielu o nim nie wie. Otrzymanie świadczenia ratowniczego, które jest dodatkiem do emerytury ZUS, nie wymaga spełnienia kryteriów dochodowych. Potrzebny jest tylko prosty dowód.",
+      "pubDate": "Tue, 14 Apr 2026 13:18:25 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/HiIk9kpTURBXy8wN2Y0MTdjYTgwYzI5Zjk4NWE3ZTAzYjNjNGVlZjE4NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-14T13:18:25.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "BNP Paribas BP wypłaci 10,2 zł dywidendy na akcję",
+      "link": "https://www.bankier.pl/wiadomosc/BNP-Paribas-BP-wyplaci-10-2-zl-dywidendy-na-akcje-9113649.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Zwyczajne Walne Zgromadzenie BNP Paribas Bank Polska zdecydowało, że zysku netto za 2025 roku na dywidendę trafi ok. 1,51 mld zł, co daje 10,2 zł dywidendy na akcję - poinformował bank w komunikacie.",
+      "pubDate": "Tue, 14 Apr 2026 14:16:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/7/c/60e674ac2a8769-948-568-0-297-1980-1187.jpg",
+      "dateISO": "2026-04-14T13:16:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Płać kartą jak zwykle, odbierz Apple Watch SE 3. Citi Handlowy z kolejną promocją",
+      "link": "https://www.bankier.pl/wiadomosc/Plac-karta-jak-zwykle-odbierz-Apple-Watch-SE-3-Citi-Handlowy-z-kolejna-promocja-9113645.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Warunki są jasne: przez trzy kolejne miesiące trzeba wydawać kartą co najmniej 1000 zł w minimum 10 transakcjach miesięcznie. W zamian bank wysyła smartwatcha Apple Watch SE 3 o wartości ok. 1099 zł. Haczyk? Pula wynosi tylko 500 zegarków.",
+      "pubDate": "Tue, 14 Apr 2026 14:12:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/2/d4505d878bc1e7-948-568-0-24-1200-719.jpg",
+      "dateISO": "2026-04-14T13:12:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Creotech Quantum zadebiutuje na GPW w piątek, 17 kwietnia",
+      "link": "https://www.bankier.pl/wiadomosc/Creotech-Quantum-zadebiutuje-na-GPW-w-piatek-17-kwietnia-9113639.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Creotech Quantum zadebiutuje na GPW w piątek, 17 kwietnia - podano w zaproszeniu spółki na uroczystość debiutu.",
+      "pubDate": "Tue, 14 Apr 2026 14:08:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/0/f/5cf4b304c96a2e-thumb-1000.jpg",
+      "dateISO": "2026-04-14T13:08:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Co z lotami na majówkę? Widmo braków paliwa nad Europą, a branża lotnicza bije na alarm",
+      "link": "https://www.bankier.pl/wiadomosc/Co-z-podniebna-majowka-Widmo-brakow-paliwa-nad-Europa-a-branza-lotnicza-bije-na-alarm-9113631.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Obecnie nie ma dowodów na niedobory paliw w Unii Europejskiej, ale w najbliższej przyszłości mogą wystąpić problemy z dostawami, w szczególności w przypadku paliw lotniczych - powiedziała we wtorek w Brukseli rzeczniczka Komisji Europejskiej Anna-Kaisa Itkonen.",
+      "pubDate": "Tue, 14 Apr 2026 14:03:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/f/3bba7427bdb263-948-567-0-35-1000-599.jpg",
+      "dateISO": "2026-04-14T13:03:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "System kaucyjny w Polsce. Paulina Hennig‑Kloska poinformowała o rekordzie",
+      "link": "https://businessinsider.com.pl/gospodarka/system-kaucyjny-w-polsce-paulina-hennigkloska-poinformowala-o-rekordzie/hhg2rdd",
+      "description": "Minister klimatu Paulina Hennig‑Kloska poinformowała, że jeden ze sklepów przyjął w ciągu doby aż 20 tys. butelek, co uznano za rekord systemu kaucyjnego.",
+      "pubDate": "Tue, 14 Apr 2026 13:02:52 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ogdk9kpTURBXy85ZTJiMzY0ODQ3MmZjZGMyOWEwMGU3NDEwYTQwNjliNy5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-14T13:02:52.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Polska firma zbrojeniowa z rekordowymi wynikami. Otrzyma też wsparcie od państwa",
+      "link": "https://businessinsider.com.pl/finanse/mesko-z-rekordowymi-wynikami-finansowymi-otrzyma-tez-wsparcie-od-panstwa/qqq980r",
+      "description": "Mesko, należące do Polskiej Grupy Zbrojeniowej, może pochwalić się najlepszymi wynikami finansowymi w swojej historii.",
+      "pubDate": "Tue, 14 Apr 2026 12:55:14 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/s3qk9kqTURBXy8zZGUyNjQ4ZjE0YjBjNTBlNTNiYmEyMWU4NDFmNTNhZS5qcGVnkZMCzQSwAN4AAaEwAQ",
+      "dateISO": "2026-04-14T12:55:14.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Tegoroczny urlop spędzimy w domu? KE o problemach z paliwem lotniczym",
+      "link": "https://businessinsider.com.pl/firmy/unijny-sektor-lotniczy-zagrozony-komisja-europejska-ostrzega-przed-problemami-z/lx3kzb3",
+      "description": "Unijny sektor lotniczy może wkrótce stanąć w obliczu problemów z zaopatrzeniem w paliwa lotnicze. Choć obecnie dostawy do rafinerii w UE są stabilne, Komisja Europejska nie wyklucza trudności w najbliższej przyszłości.",
+      "pubDate": "Tue, 14 Apr 2026 12:50:17 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Apbk9kpTURBXy8wNzc2NzA4MjFjNDUwMGM2Y2YzMzEzMzgwOTM4ZDQ1NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-14T12:50:17.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Ropa już nie dyktuje warunków dolarowi. Waluta USA traci status „bezpiecznej przystani”?",
+      "link": "https://www.bankier.pl/wiadomosc/Ropa-juz-nie-dyktuje-warunkow-dolarowi-Waluta-USA-traci-status-bezpiecznej-przystani-9113617.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W pierwszych dniach i tygodniach konfliktu na Bliskim Wschodzie dolar pełnił funkcję bezpiecznej przystani, ale w ostatnich dniach zależność między dolarem a cenami ropy wyraźnie się osłabiła - uważa główny strateg makroekonomiczny w Saxo Banku John J. Hardy.",
+      "pubDate": "Tue, 14 Apr 2026 13:45:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/b/59567659985f4d-948-568-21-17-1710-1026.jpg",
+      "dateISO": "2026-04-14T12:45:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Amazon przejmuje Globalstar. Chce dogonić SpaceX",
+      "link": "https://businessinsider.com.pl/gielda/amazon-przejmuje-globalstar-chce-rzucic-wyzwanie-spacex-elona-muska/ybqvp5e",
+      "description": "Amazon przejmie operatora satelitarnego Globalstar za ponad 11 mld dol. Amerykański gigant rzuca wyzwanie Elonowi Muskowi.",
+      "pubDate": "Tue, 14 Apr 2026 12:44:02 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/VeKk9kpTURBXy80MzBlYjUxOWEyZWFmMzRkODhkMzk3MmIwMWVkNDAyMC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-14T12:44:02.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Kaczyński ostro o nowym premierze Węgier: „Takich ludzi nie powinno być w życiu publicznym”",
+      "link": "https://www.bankier.pl/wiadomosc/Kaczynski-ostro-o-nowym-premierze-Wegier-Takich-ludzi-nie-powinno-byc-w-zyciu-publicznym-9113609.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezes PiS Jarosław Kaczyński powiedział, że Peter Magyar przywódca ugrupowania TISZA, które zwyciężyło w wyborach parlamentarnych na Węgrzech, to człowiek, któremu w żadnym wypadku nie będzie składał gratulacji. Takich ludzi nie powinno być w życiu publicznym Polski, Europy i świata - ocenił.",
+      "pubDate": "Tue, 14 Apr 2026 13:38:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/f/18bb9a7099cfc6-948-568-7-67-2992-1795.jpg",
+      "dateISO": "2026-04-14T12:38:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Polska 2050 chce podnieść próg podatkowy. \"Chcemy nagradzać uczciwość\"",
+      "link": "https://businessinsider.com.pl/gospodarka/zmiany-w-podatkach-dla-klasy-sredniej-polska-2050-pokazala-ustawe/jbwn3z9",
+      "description": "14 kwietnia 2026 r. w Sejmie odbyła się konferencja prasowa, podczas której politycy Polski 2050 zaprezentowali projekt zmian w systemie podatkowym.",
+      "pubDate": "Tue, 14 Apr 2026 12:23:43 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ZpRk9kpTURBXy8yNTNhNWRjODQ2NjFlNWEyYTcwMmMyM2Q4NWZmMzA3Zi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-14T12:23:43.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Gwiazdy kina piszą list ws. się fuzji Warner Bros. Discovery i Paramount. Gigant odpowiada",
+      "link": "https://www.bankier.pl/wiadomosc/Gwiazdy-kina-pisza-list-ws-sie-fuzji-Warner-Bros-Discovery-i-Paramount-Gigant-odpowiada-9113588.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ponad tysiąc gwiazd filmowych i telewizyjnych, wśród których znaleźli się m.in. Joaquin Phoenix i Kristen Stewart, opublikowało list otwarty w proteście przeciwko planowanemu przejęciu Warner Bros. Discovery przez Paramount Skydance - powiadomił portal amerykańskiego magazynu branżowego „Variety”.",
+      "pubDate": "Tue, 14 Apr 2026 13:18:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/a/22b34daa72e0a0-948-568-30-0-3970-2381.jpg",
+      "dateISO": "2026-04-14T12:18:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Złoto pnie się w górę. Wieści z wojny irańskiej sterują rynkiem",
+      "link": "https://businessinsider.com.pl/gielda/ceny-zlota-pna-sie-w-gore-wiesci-z-wojny-iranskiej-steruja-rynkiem/7mcerdn",
+      "description": "Złoto jest obecnie jak barometr, na którym obserwuje się wzrosty lub spadki ciśnienia tyle, że geopolitycznego. Od ponad miesiąca ten barometr zmienił sposób działania o 180 stopni. We wtorek przesunął się w pozytywną stronę.",
+      "pubDate": "Tue, 14 Apr 2026 12:14:32 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/3bDk9kpTURBXy9iNjRiMDFkYTRkMjExMzFlODMzMTVjMzQ2OWMyZjYzZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-14T12:14:32.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Czy koalicja zdoła postawić Ziobrę przed sądem? Premier: Mamy realne ograniczenia",
+      "link": "https://www.bankier.pl/wiadomosc/Czy-koalicja-zdola-postawic-Ziobre-przed-sadem-Premier-Mamy-realne-ograniczenia-9113577.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Premier Donald Tusk podkreślił we wtorek, że występują realne ograniczenia, jeżeli chodzi o sprawę postawienia byłego szefa MS Zbigniewa Ziobry przed Trybunałem Stanu, jak brak większości konstytucyjnej obozu rządowego. Dodał, że jest gotów do zdecydowanego działania, ale musi działać w granicach pr",
+      "pubDate": "Tue, 14 Apr 2026 13:11:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/a/8bbe24fa9eca26-948-568-0-134-1912-1147.jpg",
+      "dateISO": "2026-04-14T12:11:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Wielki powrót Koreańczyków do Polic. Orlen dogadał się z Hyundaiem w sprawie „Polimerów”",
+      "link": "https://www.bankier.pl/wiadomosc/Hyundai-Engineering-porozumial-sie-z-Orlenem-i-wesprze-dokonczenie-Polimerow-Police-media-9113574.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Hyundai Engineering zakończył negocjacje z Orlenem w sprawie powrotu do projektu Polimery Police, by doprowadzić do ponownego uruchomienia instalacji już z jej nowym właścicielem - wynika z informacji Business Insider Polska. Orlen potwierdził, że koreańska spółka będzie wspierała projekt.",
+      "pubDate": "Tue, 14 Apr 2026 13:08:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/5/9/85a9a840cdb824-948-568-7-82-2992-1795.jpg",
+      "dateISO": "2026-04-14T12:08:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Zełenski z wizytą w Berlinie. Niemcy podnoszą relacje z Ukrainą do poziomu partnerstwa strategicznego",
+      "link": "https://www.bankier.pl/wiadomosc/Niemcy-podnosza-relacje-z-Ukraina-do-poziomu-partnerstwa-strategicznego-9113569.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Niemcy podnoszą relacje z Ukrainą do poziomu partnerstwa strategicznego - oświadczył we wtorek kanclerz Friedrich Merz, przyjmując w Berlinie ukraińskiego prezydenta Wołodymyra Zełenskiego. Niemiecki rząd zobowiązał się do sfinansowania Ukrainie kilkuset pocisków do systemów obrony przeciwlotniczej ",
+      "pubDate": "Tue, 14 Apr 2026 13:01:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/d/21af32e1f3ff26-948-569-5-10-1036-622.jpg",
+      "dateISO": "2026-04-14T12:01:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Inwestor bierze stery. Polskie Elektrownie Jądrowe same ubezpieczą „budowę stulecia”",
+      "link": "https://www.bankier.pl/wiadomosc/Inwestor-bierze-stery-Polskie-Elektrownie-Jadrowe-same-ubezpiecza-budowe-stulecia-9113566.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polskie Elektrownie Jądrowe wdrażają inwestorski program ubezpieczeniowy, co oznacza, że spółka samodzielnie aranżuje kluczowe ubezpieczenia związane z budową pierwszej elektrowni jądrowej w Polsce - poinformowała spółka.",
+      "pubDate": "Tue, 14 Apr 2026 12:56:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/6/052cc3a663a760-948-568-43-8-3456-2073.jpg",
+      "dateISO": "2026-04-14T11:56:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Klasa energetyczna bez tajemnic. Jedna litera może zmienić rachunki",
+      "link": "https://businessinsider.com.pl/poradnik-finansowy/co-oznacza-klasa-energetyczna-jak-czytac-oznaczenia-od-a-do-g/vnnpltc",
+      "description": "Rosnące ceny energii sprawiają, że znacznie częściej zwracamy uwagę na klasy energetyczne sprzętów domowych. Nie każdy wie, że nowe etykiety energetyczne pojawiają się nie tylko na lodówkach czy pralkach, ale także na smartfonach i tabletach. Wyjaśniamy, co oznaczają poszczególne klasy i jak wpływaj",
+      "pubDate": "Tue, 14 Apr 2026 11:52:49 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Ijuk9kpTURBXy80MGU0MDUzZWU1MTEwZjgzMjc2NjhmYjY3ZDJmMDVkZi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-14T11:52:49.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Ziobro gotowy na \"bitwę\"o prawdę. \"Będę walczył z Tuskiem nawet z aresztu\"",
+      "link": "https://www.bankier.pl/wiadomosc/Ziobro-gotowy-na-bitwe-o-prawde-Bede-walczyl-z-Tuskiem-nawet-z-aresztu-9113536.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Przebywający w Budapeszcie Zbigniew Ziobro, przeciwko któremu prokuratura sformułowała 26 zarzutów, stwierdził we wtorek, że będzie walczył z premierem Tuskiem, gdziekolwiek się znajdzie, nawet będąc w areszcie. Były szef MS, poseł PiS dopytywany o to, czy pozostanie na Węgrzech, odparł, że „czas po",
+      "pubDate": "Tue, 14 Apr 2026 12:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/7/9e173ef60fad27-948-568-0-77-4438-2662.jpg",
+      "dateISO": "2026-04-14T11:50:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "480 funtów z portfela każdego Brytyjczyka. Cena wojny z Iranem przeraziła Londyn",
+      "link": "https://www.bankier.pl/wiadomosc/480-funtow-z-portfela-kazdego-Brytyjczyka-Cena-wojny-z-Iranem-przerazila-Londyn-9113560.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ministra finansów Wielkiej Brytanii Rachel Reeves powiedziała we wtorek w rozmowie z dziennikiem „The Mirror”, że jest „bardzo sfrustrowana i zła”, ponieważ Stany Zjednoczone nie mają jasnej strategii wyjścia ani sprecyzowanych celów w wojnie z Iranem.",
+      "pubDate": "Tue, 14 Apr 2026 12:48:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/c/86aa1cea73f8fd-948-568-1380-100-2433-1460.jpg",
+      "dateISO": "2026-04-14T11:48:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "Zmiana władzy na Węgrzech może uderzyć w Rosję. W tle duże kontrakty na atom",
+      "link": "https://businessinsider.com.pl/gospodarka/wegry-moga-zerwac-kontrakty-z-rosatomem-przyszly-premier-zapowiada/keejxxk",
+      "description": "Przyszły premier Węgier Péter Magyar zapowiedział przegląd, a w razie potrzeby także renegocjację lub zerwanie umów z rosyjskim koncernem Rosatom.",
+      "pubDate": "Tue, 14 Apr 2026 11:36:25 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/DWYk9kpTURBXy85YzNmZGRmODU5YTQzZmYwM2ZmZDE5NmFkOWY1ZDg5NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-14T11:36:25.000Z",
       "dateFormatted": "14 kwietnia 2026"
     },
     {
@@ -37,15 +397,15 @@
       "dateFormatted": "14 kwietnia 2026"
     },
     {
-      "title": "Toyota stawia na Wrocław. Cyfrowe serce japońskiego giganta powstanie w Polsce",
-      "link": "https://www.bankier.pl/wiadomosc/Toyota-stawia-na-Wroclaw-Cyfrowe-serce-japonskiego-giganta-powstanie-w-Polsce-9113534.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Toyota Motor Europe utworzy we Wrocławiu centrum informatyczne wspierające usługi connected dla samochodów marek Toyota i Lexus - poinformował koncern. W R&D Toyota Digital Hub, 200 specjalistów będzie rozwijać aplikacje, infrastrukturę chmurową oraz rozwiązania z zakresu cyberbezpieczeństwa.",
-      "pubDate": "Tue, 14 Apr 2026 12:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/2/73713c4d50a97f-948-568-0-74-983-589.jpg",
-      "dateISO": "2026-04-14T11:20:00.000Z",
+      "title": "Polska ulubionym krajem Chin. Sprzedają tu dużo więcej, niż kupują",
+      "link": "https://businessinsider.com.pl/gospodarka/handel-zagraniczny-chin-polska-ulubionym-krajem-eksport-duzy-import-maly/0yehm5j",
+      "description": "W pierwszych trzech miesiącach roku eksport Chin przekroczył wartość importu o aż 264 mld dol. Tylko nieliczne kraje mogą się poszczycić nadwyżką w handlu z nimi. My jesteśmy na tym drugim biegunie.",
+      "pubDate": "Tue, 14 Apr 2026 11:24:35 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/hR3k9kpTURBXy84YWIwNjlmOWZlYzRiOTI4YmM0NTYyOTljNmQ4YWIwZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-14T11:24:35.000Z",
       "dateFormatted": "14 kwietnia 2026"
     },
     {
@@ -61,21 +421,9 @@
       "dateFormatted": "14 kwietnia 2026"
     },
     {
-      "title": "Sześciu wykonawców ubiega się o kontrakt na budowę pierwszego odcinka KDP",
-      "link": "https://www.bankier.pl/wiadomosc/Szesciu-wykonawcow-ubiega-sie-o-kontrakt-na-budowe-pierwszego-odcinka-KDP-9113524.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Budimex oraz pięć konsorcjów ubiega się o kontrakt na budowę pierwszego odcinka Kolei Dużych Prędkości w Polsce - podała spółka Centralny Port Komunikacyjny. W skład konsorcjów wchodzą spółki giełdowe: ZUE, Torpol, Mirbud, Trakcja, Mostostal Warszawa i Unibep.",
-      "pubDate": "Tue, 14 Apr 2026 12:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/1/5/00697c8bc82087-948-568-0-226-2835-1700.jpg",
-      "dateISO": "2026-04-14T11:00:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
       "title": "Właściciel Onetu i Business Insider Polska o krok od przejęcia giganta. Jest kluczowa zgoda",
       "link": "https://businessinsider.com.pl/biznes/media/axel-springer-o-krok-od-przejecia-telegraph-jest-kluczowa-zgoda/qphcnkd",
-      "description": "Lisa Nandy, Sekretarz Stanu ds. Kultury, Mediów i Sportu Wielkiej Brytanii, udzieliła we wtorek zgody na kontynuowanie przez Axel Springer procesu przejęcia Telegraph Media Group. To ważnym i pozytywny postęp w procesie finalizacji przejęcia spółki — przekazał prezes zarządu Mathias Döpfner.",
+      "description": "Lisa Nandy, Sekretarz Stanu ds. Kultury, Mediów i Sportu Wielkiej Brytanii, udzieliła we wtorek zgody na kontynuowanie przez Axel Springer procesu przejęcia Telegraph Media Group. To ważny i pozytywny postęp w procesie finalizacji przejęcia spółki — przekazał prezes zarządu Mathias Döpfner.",
       "pubDate": "Tue, 14 Apr 2026 10:59:25 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -109,18 +457,6 @@
       "dateFormatted": "14 kwietnia 2026"
     },
     {
-      "title": "Prawie milion Ukraińców z ochroną czasową. Dane pokazują nowy trend migracyjny w Polsce",
-      "link": "https://www.bankier.pl/wiadomosc/Prawie-milion-Ukraincow-z-ochrona-czasowa-Dane-pokazuja-nowy-trend-migracyjny-w-Polsce-9113493.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Liczba obywateli Ukrainy ze statusem ochrony czasowej w Polsce w lutym wzrosła do 966,59 tys. z 965,99 tys. w styczniu - podał Eurostat.",
-      "pubDate": "Tue, 14 Apr 2026 11:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/8/b318b263e1aeee-948-567-0-60-1000-599.jpg",
-      "dateISO": "2026-04-14T10:50:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
       "title": "Marcin D., były mąż Marty Kaczyńskiej, zatrzymany",
       "link": "https://www.bankier.pl/wiadomosc/Marcin-D-byly-maz-Marty-Kaczynskiej-zatrzymany-9113518.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Marcin D., były mąż Marty Kaczyńskiej, został we wtorek zatrzymany na Pomorzu na polecenie warszawskiej prokuratury. Sprawa dotyczy oszustw i prania brudnych pieniędzy. W sumie zatrzymano w tej sprawie trzy osoby.",
@@ -130,30 +466,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/0/507f296fdbfd57-948-568-0-340-4000-2399.jpg",
       "dateISO": "2026-04-14T10:46:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Mirbud ma umowę na budowę hali sportowo-widowiskowej w Warszawie za 237,6 mln zł brutto",
-      "link": "https://www.bankier.pl/wiadomosc/Mirbud-ma-umowe-na-budowe-hali-sportowo-widowiskowej-w-Warszawie-za-237-6-mln-zl-brutto-9113517.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Mirbud podpisał z Miastem Stołecznym Warszawa umowę o wartości 237,599 mln zł brutto na budowę hali sportowo-widowiskowej wraz z parkingiem naziemnym przy ulicy Wawelskiej 5 w Warszawie w ramach zadania inwestycyjnego pn. \"Modernizacja terenu przy ul. Wawelskiej 5 - etap II\" - podał Mirbud w komunik",
-      "pubDate": "Tue, 14 Apr 2026 11:44:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/4/b/12e3f0beada626-948-568-3-33-1344-806.jpg",
-      "dateISO": "2026-04-14T10:44:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Amica liczy na pozytywny 2026 r., skupia się na rozwoju produktowym",
-      "link": "https://www.bankier.pl/wiadomosc/Amica-liczy-na-pozytywny-2026-r-skupia-sie-na-rozwoju-produktowym-9113504.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Amica liczy na dobry 2026 rok oraz na dalsze pozytywne odbicia na rynku w Hiszpanii i Wielkiej Brytanii - poinformowali przedstawiciele spółki na konferencji prasowej. Podano, że Amica obecnie skupia się na rozwoju produktowym.",
-      "pubDate": "Tue, 14 Apr 2026 11:32:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/3f1457f4fed800-thumb-1000.jpg",
-      "dateISO": "2026-04-14T10:32:00.000Z",
       "dateFormatted": "14 kwietnia 2026"
     },
     {
@@ -217,9 +529,9 @@
       "dateFormatted": "14 kwietnia 2026"
     },
     {
-      "title": "Spór o TK: Sędziowie w gmachu, śledztwo na wniosek Żurka [PODSUMOWANIE]",
+      "title": "Spór o TK: Sędziowie w gmachu, śledztwo na wniosek ministra Żurka [PODSUMOWANIE]",
       "link": "https://businessinsider.com.pl/prawo/spor-o-trybunal-konstytucyjny-trwa-sedziowie-wpuszczeni-do-gmachu-ale-bez-prawa-do/skmv3j2",
-      "description": "Nie milkną echa sejmowego ślubowania nowych sędziów TK. Prokurator generalny Waldemar Żurek polecił wszcząć śledztwo wobec osób z Kancelarii Prezydenta, które miały doradzać Karolowi Nawrockiemu w sprawie nieodbierania ślubowań od części sędziów TK. A czterech sędziów wciąż czeka na dopuszczenie do ",
+      "description": "Nie milkną echa sejmowego ślubowania nowych sędziów TK. Prokurator generalny Waldemar Żurek polecił wszcząć śledztwo wobec osób z Kancelarii Prezydenta, które miały doradzać Karolowi Nawrockiemu w sprawie nieodbierania ślubowań od części sędziów TK.",
       "pubDate": "Tue, 14 Apr 2026 10:09:00 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -253,42 +565,6 @@
       "dateFormatted": "14 kwietnia 2026"
     },
     {
-      "title": "Jeszcze więcej broni dla Ukrainy. Niemieccy giganci ogłaszają nowe plany",
-      "link": "https://businessinsider.com.pl/gospodarka/niemcy-zwiekszaja-wsparcie-dla-ukrainy-koncerny-zbrojeniowe-oglaszaja-plany/g2x2wls",
-      "description": "Niemieckie firmy zbrojeniowe zapowiadają zwiększenie produkcji broni. Koncern Rheinmetall wspólnie z holenderską spółką technologiczną Destinus będą produkować więcej pocisków manewrujących, a Quantum Systems — wielozadaniowych dronów. Część produktów trafi do Ukrainy.",
-      "pubDate": "Tue, 14 Apr 2026 09:51:34 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Nfek9kpTURBXy83NmQ1MTg2NzJhZjg4OWEzNGM1MjY0ODVlY2YwYTE2MS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-14T09:51:34.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Kotecki: W razie potrzeby RPP zareaguje bez wahania",
-      "link": "https://www.bankier.pl/wiadomosc/Kotecki-W-razie-potrzeby-RPP-zareaguje-bez-wahania-9113476.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W związku z niepewnymi skutkami makro i podażowym charakterem szoku wojny w Iranie stopy NBP należy pozostawić na obecnym poziomie w kolejnych miesiącach - uważa członek RPP Ludwik Kotecki. Gdyby jednak pojawiło się ryzyko wymknięcia inflacji spod kontroli, czego dzisiaj nie widać, to jego zdaniem R",
-      "pubDate": "Tue, 14 Apr 2026 10:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/4/edbff0d85a2bb8-948-568-0-0-2048-1228.jpg",
-      "dateISO": "2026-04-14T09:50:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Część pracowników może zaplanować długi weekend. Będzie dodatkowy wolny dzień",
-      "link": "https://businessinsider.com.pl/praca/wolne-dni-od-pracy-w-2026-roku-rzad-dorzucil-kolejny-dzien/1e6xxsh",
-      "description": "W 2026 r. kalendarz ułoży się wyjątkowo korzystnie dla pracowników. Dzięki świętu przypadającemu w sobotę wielu z nich zyska dodatkowy dzień wolny. To oznacza, że można będzie zaplanować w sierpniu dłuższy weekend.",
-      "pubDate": "Tue, 14 Apr 2026 09:47:51 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Xj0k9kpTURBXy9jMWM0YzU5NWY3OGE5NzkwNjlkYmJkOGIwODY3MDBhZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-14T09:47:51.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
       "title": "Trzeci powiązany z Iranem tankowiec wpłynął do Zatoki Perskiej mimo amerykańskiej blokady",
       "link": "https://www.bankier.pl/wiadomosc/Trzeci-powiazany-z-Iranem-tankowiec-wplynal-do-Zatoki-Perskiej-mimo-amerykanskiej-blokady-9113474.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Trzeci tankowiec powiązany z Iranem wpłynął we wtorek do Zatoki Perskiej przez cieśninę Ormuz - podała agencja Reutera powołując się na monitoring ruchu statków. Od poniedziałkowego popołudnia trwa ogłoszona przez USA blokada statków zawijających do irańskich portów.",
@@ -298,42 +574,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/1/f/21db958ef62850-937-562-10-0-937-562.jpg",
       "dateISO": "2026-04-14T09:46:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "To byłyby największe linie lotnicze świata. Możliwa fuzja dwóch gigantów",
-      "link": "https://businessinsider.com.pl/firmy/united-airlines-i-american-airlines-lacza-sily-to-bylyby-najwieksze-linie-lotnicze/v988jqh",
-      "description": "United Airlines i American Airlines mogą połączyć siły — informuje Bloomberg. To byłaby fuzja, która stworzyłaby największą linię lotniczą świata.",
-      "pubDate": "Tue, 14 Apr 2026 09:41:21 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/C1bk9kpTURBXy8xMGUyODExZTM1MTg5MzlmYTFjMmE5MTRiN2QyZGJhYi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-14T09:41:21.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Tankowiec powiązany z Chinami testuje blokadę cieśniny Ormuz",
-      "link": "https://businessinsider.com.pl/gospodarka/tankowiec-rich-starry-testuje-blokade-usa-w-ciesninie-ormuz/4jswydk",
-      "description": "Powiązany z Chinami tankowiec, objęty sankcjami USA, wypływa z Cieśniny Ormuz do Zatoki Omańskiej. W ten sposób testuje morską blokadę prezydenta Donalda Trumpa.",
-      "pubDate": "Tue, 14 Apr 2026 09:31:13 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/lf9k9kpTURBXy8yZDhmM2NmNmI3NmQ4YzA5MjUwMDRmMDg0ZjZkN2YxNi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-14T09:31:13.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Prezes: Grupa PKO BP chce być regularnym emitentem listów zastawnych",
-      "link": "https://www.bankier.pl/wiadomosc/Grupa-PKO-BP-chce-byc-regularnym-emitentem-listow-zastawnych-Midera-9113461.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Grupa PKO BP planuje kolejne emisje detalicznych listów zastawnych w ramach programu emisji do 10 mld zł, decyzje o konkretnych terminach podejmie, biorąc pod uwagę aktualną sytuację rynkową i potrzeby płynnościowe - poinformował PAP Biznes prezes PKO BP Szymon Midera.",
-      "pubDate": "Tue, 14 Apr 2026 10:26:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/d/f/91b49bb37f55e4-948-568-810-0-3190-1913.jpg",
-      "dateISO": "2026-04-14T09:26:00.000Z",
       "dateFormatted": "14 kwietnia 2026"
     },
     {
@@ -349,78 +589,6 @@
       "dateFormatted": "14 kwietnia 2026"
     },
     {
-      "title": "Złoty pokazał siłę. Kurs euro najniżej od pierwszych dni marca",
-      "link": "https://www.bankier.pl/wiadomosc/Zloty-pokazal-sile-Kurs-euro-najnizej-od-pierwszych-dni-marca-9113445.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Bez wyraźnych ku temu powodów początek tygodnia przyniósł istotne umocnienie złotego i spadek kursu euro w pobliże 4,24 zł.",
-      "pubDate": "Tue, 14 Apr 2026 09:58:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/b/c5afc3020563da-948-568-0-20-4000-2399.jpg",
-      "dateISO": "2026-04-14T08:58:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Ten podatek trzeba zapłacić do 15 kwietnia. Oto co musisz wiedzieć",
-      "link": "https://businessinsider.com.pl/nieruchomosci/podatek-od-nieruchomosci-i-lesny-termin-do-15-kwietnia/5q3x295",
-      "description": "Już 15 kwietnia upływa ważny termin dla właścicieli nieruchomości i lasów.",
-      "pubDate": "Tue, 14 Apr 2026 08:57:18 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/l9yk9kpTURBXy8xMmFhNzdjMTYxZTQ1NmQ2MWEwM2ZhOWZmNzA1MzU1Zi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-14T08:57:18.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Oszuści podszywają się pod rekruterów znanych firm. Taki mają mechanizm działania",
-      "link": "https://businessinsider.com.pl/praca/oszustwo-na-rekrutera-tak-cyberprzestepcy-wyludzaja-dane-i-pieniadze/d2wjjcd",
-      "description": "Cyberprzestępcy coraz częściej podszywają się pod rekruterów i znane firmy i kuszą rzekomymi ofertami pracy. W rzeczywistości wyłudzają dane osobowe i pieniądze. W ramach kampanii Bankowcy dla CyberEdukacji powstał kolejny materiał wideo, który pokazuje, jak łatwo można dać się zwieść pozornie profe",
-      "pubDate": "Tue, 14 Apr 2026 08:55:56 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/IWnk9kpTURBXy82MmM4NDlkZGEwYjU2NWQxMTk1YjExZmU1ZWNhNmNmNy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-14T08:55:56.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Booking.com ostrzega – atakujący mieli dostęp do twoich rezerwacji",
-      "link": "https://www.bankier.pl/wiadomosc/Booking-com-ostrzega-atakujacy-mieli-dostep-do-twoich-rezerwacji-9113434.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W ostatnich dniach część aktywnych użytkowników platformy Booking.com otrzymała niepokojące powiadomienia. Firma ostrzega, że padła prawdopodobnie ofiarą włamania do systemów obsługujących rezerwacje, a przestępcy mogą wykorzystać pozyskane dane do celowanego phishingu.",
-      "pubDate": "Tue, 14 Apr 2026 09:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/a/38c01362c08151-948-568-0-74-1980-1187.jpg",
-      "dateISO": "2026-04-14T08:50:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Orlen uruchomił produkcję gazu na dwóch złożach w województwie lubelskim i w Wielkopolsce",
-      "link": "https://www.bankier.pl/wiadomosc/Orlen-uruchomil-produkcje-gazu-na-dwoch-zlozach-w-wojewodztwie-lubelskim-i-w-Wielkopolsce-9113436.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Orlen uruchomił produkcję z odwiertów na złożach gazu ziemnego – Jastrzębiec w województwie lubelskim oraz Sierosław w Wielkopolsce - podał koncern w komunikacie prasowym. Łącznie obie inwestycje dostarczą około 140 mln m. sześc. gazu w pierwszym roku i zapewnią wydobycie przez kilkanaście lat.",
-      "pubDate": "Tue, 14 Apr 2026 09:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/b/f7e24ac3237b4a-948-568-62-4-1856-1113.jpg",
-      "dateISO": "2026-04-14T08:50:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Prognoza dla dolara. Po raz pierwszy od roku powyżej kluczowego progu",
-      "link": "https://businessinsider.com.pl/gielda/prognoza-dla-dolara-po-raz-pierwszy-od-roku-powyzej-waznego-progu/bljyqlr",
-      "description": "Indeks DXY mierzy notowania dolara względem sześciu kluczowych walut świata. I właśnie po ostatnim umocnieniu amerykańskiej waluty doszło do przebicia poziomu 100 po raz pierwszy od maja 2025 r. Analitycy Cambridge Currencies przedstawili scenariusz do końca roku.",
-      "pubDate": "Tue, 14 Apr 2026 08:47:19 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/0ZGk9kpTURBXy81YWNmMjE5MWRmOGY0NjEwMTEwNGMwMzM5YTNmZTJhMy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-14T08:47:19.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
       "title": "Orlen zmienia ceny od wtorku. Zaskakująca decyzja w sprawie diesla i benzyny",
       "link": "https://www.bankier.pl/wiadomosc/Orlen-zmienia-ceny-od-wtorku-Zaskakujaca-decyzja-w-sprawie-diesla-i-benzyny-9113418.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Orlen zmienił we wtorek hurtowe ceny paliw. O 155 zł za metr sześc. obniżył cenę oleju napędowego Ekodiesel, natomiast cenę benzyny bezołowiowej Eurosuper 95 podniósł o 43 zł za metr sześc. - wynika z danych opublikowanych przez koncern. Poprzednio w hurcie Orlenu oba te podstawowe paliwa staniały.",
@@ -430,18 +598,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/8/b/aef8b4b6360dfa-948-568-0-337-3857-2314.jpg",
       "dateISO": "2026-04-14T08:44:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Ten zasiłek trafia do konkretnych osób. Można dostać ponad 200 zł",
-      "link": "https://businessinsider.com.pl/finanse/zasilek-pielegnacyjny-a-dodatek-pielegnacyjny-czym-sie-roznia-i-kto-moze-dostac/c939g1k",
-      "description": "Zasiłek pielęgnacyjny a dodatek pielęgnacyjny — te dwa świadczenia często są mylone. Mają inne zasady przyznawania i wypłacane są przez różne instytucje. Warto wiedzieć, kto i na jakich warunkach może je otrzymać, by nie stracić należnego wsparcia.",
-      "pubDate": "Tue, 14 Apr 2026 08:33:52 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/E5ek9kpTURBXy9iODZiNDFkZGIxNjk1OGQ5ZDRmM2YzMDhkYzY0ODQzZC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-14T08:33:52.000Z",
       "dateFormatted": "14 kwietnia 2026"
     },
     {
@@ -457,18 +613,6 @@
       "dateFormatted": "14 kwietnia 2026"
     },
     {
-      "title": "Więcej mieszkań na wynajem w dużych miastach. Czynsze nie idą w górę",
-      "link": "https://businessinsider.com.pl/nieruchomosci/wiecej-mieszkan-na-wynajem-w-duzych-miastach-czynsze-pozostaja-stabilne/985b90e",
-      "description": "Marzec przyniósł wyraźne uspokojenie na rynku najmu w największych polskich miastach. Liczba dostępnych ofert wzrosła, a czynsze pozostały stabilne — wynika z analizy GetHome.pl.",
-      "pubDate": "Tue, 14 Apr 2026 08:30:34 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/YpIk9kpTURBXy8wNmZjYzI1ZTBjOTc1NzI1MTdkODU0NjZhYzk2OGY4ZC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-14T08:30:34.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
       "title": "Szok w Chinach. Szef giganta deweloperskiego Evergrande przyznał się do oszustw i korupcji",
       "link": "https://www.bankier.pl/wiadomosc/Szok-w-Chinach-Szef-giganta-deweloperskiego-Evergrande-przyznal-sie-do-oszustw-i-korupcji-9113407.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Założyciel chińskiego giganta deweloperskiego China Evergrande Group Xu Jiayin przyznał się we wtorek przed sądem do zarzucanych mu czynów, w tym oszustw finansowych, sprzeniewierzenia majątku oraz korupcji. Sąd ogłosi wyrok w późniejszym terminie.",
@@ -478,18 +622,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/3/9/bf7f82edd07793-948-568-183-87-3306-1983.jpg",
       "dateISO": "2026-04-14T08:25:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Koreańczycy wrócą do Polimerów Police. Wesprą Orlen przy gigantycznej inwestycji",
-      "link": "https://businessinsider.com.pl/firmy/orlen-porozumial-sie-z-gigantem-z-korei-prace-nad-polimerami-wkrotce-znow-rusza/5e3qk1c",
-      "description": "Hyundai Engineering wraca do projektu Polimery w Policach. Na mocy porozumienia z Orlenem koreański wykonawca wesprze Orlen w dokończeniu inwestycji kosztującej wcześniej ok. 7 mld zł — dowiedział się Business Insider Polska.",
-      "pubDate": "Tue, 14 Apr 2026 08:24:47 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/vyBk9kpTURBXy9jOGFjZWI1NmJiZTcwNWYwMDg4MzZkZGFmNjk1MDRlYy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-14T08:24:47.000Z",
       "dateFormatted": "14 kwietnia 2026"
     },
     {
@@ -505,30 +637,6 @@
       "dateFormatted": "14 kwietnia 2026"
     },
     {
-      "title": "Przełomowy moment upadku najbardziej zadłużonej firmy na świecie. Założyciel przyznał się do winy",
-      "link": "https://businessinsider.com.pl/gospodarka/przelomowy-moment-upadku-najbardziej-zadluzonej-firmy-na-swieci/64lrhd6",
-      "description": "Hui Ka Yan, założyciel pogrążonego w kryzysie chińskiego dewelopera nieruchomości Evergrande, przyznał się do szeregu zarzutów, w tym sprzeniewierzenia majątku oraz korupcji korporacyjnej — wynika z oświadczenia wydanego przez sąd.",
-      "pubDate": "Tue, 14 Apr 2026 08:09:12 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": null,
-      "dateISO": "2026-04-14T08:09:12.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Kryzys w polskiej fabryce broni. \"Nie potrzebujemy litości, potrzebujemy zamówień\"",
-      "link": "https://businessinsider.com.pl/gospodarka/zwiekszyli-moce-produkcyjne-a-zamowien-brak-kryzys-w-fabryce-broni-w-radomiu/9f4r7b7",
-      "description": "Fabryka Broni Łucznik w Radomiu znalazła się w podbramkowej sytuacji. W maju kończy realizację zamówień dla polskiego wojska, a nowych nie ma. Związkowcy boją się redukcji — zagrożonych może być nawet 140 miejsc pracy — informuje Portal Obronny.",
-      "pubDate": "Tue, 14 Apr 2026 08:07:56 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Rz2k9kpTURBXy8wYjJiNDExOWRmNWI2MjJiOTNkZTI3ZDdkOGIyMDhjMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-14T08:07:56.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
       "title": "Słynne klocki uciekają z Niemiec. Czy mundial uratuje markę?",
       "link": "https://www.bankier.pl/wiadomosc/Playmobil-zamyka-fabryke-w-Niemczech-Czy-mundial-uratuje-marke-9113005.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Przypieczętowany los popularnych klocków - Playmobil zamyka swoją fabrykę w Niemczech. To jednak nie oznacza, że marka zniknie na zawsze. Zabawki będą nadal produkowane na Malcie i w Czechach. Czy piłkarski mundial uratuje Playmobil przed upadkiem?",
@@ -538,18 +646,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/8/6/b53a84363f8413-948-568-20-192-4029-2417.jpg",
       "dateISO": "2026-04-14T08:00:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Hiszpania wraca do Teheranu po zawieszeniu broni. Izrael mocno reaguje",
-      "link": "https://businessinsider.com.pl/gospodarka/pedro-sanchez-przywraca-ambasade-w-iranie-izrael-oburzony/2f8726l",
-      "description": "Hiszpania przywróciła działalność swojej placówki dyplomatycznej w stolicy Iranu po kilkutygodniowym zawieszeniu. Decyzja ta wzbudza kontrowersje w kontekście napiętych stosunków między Madrytem a Tel Awiwem.",
-      "pubDate": "Tue, 14 Apr 2026 07:56:32 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/ok9k9kpTURBXy9hNzZjNmE2ZDUxNDc5MWI2NjE3NjI1ZWJiYTlkNTRiMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-14T07:56:32.000Z",
       "dateFormatted": "14 kwietnia 2026"
     },
     {
@@ -565,18 +661,6 @@
       "dateFormatted": "14 kwietnia 2026"
     },
     {
-      "title": "Zmiana hurtowych cen paliwa. Orlen podał nowe stawki",
-      "link": "https://businessinsider.com.pl/gospodarka/hurtowe-ceny-paliwa-orlen-podal-nowe-stawki/1rc04hp",
-      "description": "Z opublikowanych we wtorek danych wynika, że znacząco potaniał olej napędowy, natomiast cena benzyny wzrosła. To odwrócenie trendu z poprzednich dni, gdy oba paliwa taniały.",
-      "pubDate": "Tue, 14 Apr 2026 07:40:27 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/D8uk9kpTURBXy83NWYxMzQzMDIzYjA2NzIyODMyOTIwMjliZDc5YjcwMi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-14T07:40:27.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
       "title": "Wielkie odszkodowania dla pasażerów. Prezes UOKiK uderza w Enter Air",
       "link": "https://www.bankier.pl/wiadomosc/UOKiK-zobowiazal-Enter-Air-do-wyplaty-konsumentom-przysporzenia-w-lacznej-wartosci-ponad-8-2-mln-zl-9113389.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "UOKiK zobowiązał Enter Air do wypłaty konsumentom przysporzenia w łącznej wartości ponad 8,2 mln zł - podał urząd w komunikacie.",
@@ -586,30 +670,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/7/ad6a3c26194830-945-567-9-16-1300-780.jpg",
       "dateISO": "2026-04-14T07:18:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Uderzenie w mafię lekową. Fabryka w Polsce, surowce z Chin i fikcyjna firma w Indiach",
-      "link": "https://www.bankier.pl/wiadomosc/Uderzenie-w-mafie-lekowa-Fabryka-w-Polsce-surowce-z-Chin-i-fikcyjna-firma-w-Indiach-9113377.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Do Sądu Okręgowego w Gliwicach trafił akt oskarżenia przeciwko 24 osobom podejrzanym o udział w zorganizowanej grupie przestępczej, zajmującej się produkcją i dystrybucją nielegalnych leków – poinformowało Centralne Biuro Śledcze Policji.",
-      "pubDate": "Tue, 14 Apr 2026 08:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/b/59abca0611edcd-948-568-0-352-3000-1799.jpg",
-      "dateISO": "2026-04-14T07:00:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Jeden komputer na wszystkich sędziów? Tak wygląda nadzór nad służbami w Warszawie",
-      "link": "https://www.bankier.pl/wiadomosc/Jeden-komputer-na-wszystkich-sedziow-Tak-wyglada-nadzor-nad-sluzbami-w-Warszawie-9113365.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zaproponowane przez rząd zmiany dotyczące rozszerzenia nadzoru sądu nad kontrolą operacyjną prowadzoną przez służby, w praktyce będą niewykonalne bez zwiększenia liczby sędziów – ocenił w rozmowie z PAP sędzia Ireneusz Szulewicz.",
-      "pubDate": "Tue, 14 Apr 2026 07:49:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/a/daf4c4aca640c5-948-568-35-97-2012-1207.jpg",
-      "dateISO": "2026-04-14T06:49:00.000Z",
       "dateFormatted": "14 kwietnia 2026"
     },
     {
@@ -649,18 +709,6 @@
       "dateFormatted": "14 kwietnia 2026"
     },
     {
-      "title": "Centrum ESA w Polsce? Domański: Decyzja zapadnie lada moment",
-      "link": "https://www.bankier.pl/wiadomosc/Centrum-ESA-w-Polsce-Domanski-Decyzja-zapadnie-lada-moment-9113309.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Decyzja o wyborze miasta w Polsce, w którym powstanie centrum ESA, zostanie ogłoszona do końca maja - zapowiedział minister finansów Andrzej Domański w wywiadzie dla wtorkowej „Rzeczpospolitej”. Poinformował, że jeżeli harmonogram zostanie utrzymany, centrum mogłoby rozpocząć działalność w połowie 2",
-      "pubDate": "Tue, 14 Apr 2026 06:55:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/3/0f515fe61d4c83-948-568-0-201-3500-2099.jpg",
-      "dateISO": "2026-04-14T05:55:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
       "title": "Praktyki jak za czasów Daniela Obajtka. Orlen: spółka zawiesza publikację tych danych",
       "link": "https://www.bankier.pl/wiadomosc/Orlen-znow-ukryl-marze-Praktyki-jak-za-czasow-Daniela-Obajtka-9113124.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Na stronie relacji inwestorskich Grupy Orlen brak zwyczajowych miesięcznych danych o modelowych marżach rafineryjnych, petrochemicznych czy dyferencjale za marzec, które o tej porze już dawno powinny być dostępne. Biuro prasowe Orlenu nie odpowiada na pytania redakcji Bankier.pl o przyczyny opóźnień",
@@ -685,18 +733,6 @@
       "dateFormatted": "14 kwietnia 2026"
     },
     {
-      "title": "„Dzwonię z Lidla”. Dyskont rozszerza własną sieć komórkową o kolejne kraje",
-      "link": "https://www.bankier.pl/wiadomosc/Dzwonie-z-Lidla-Dyskont-rozszerza-wlasna-siec-komorkowa-o-kolejne-kraje-9112828.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Nie będzie łatwo, ale Lidl się nie poddaje. Już niebawem sieć komórkowa należąca do dyskontu planuje ekspansję swoich tanich planów na kolejne kraje. Po Niemczech, Austrii i Szwajcarii planuje podbić swoimi tanimi planami kolejne 30 państw.",
-      "pubDate": "Tue, 14 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/9/99169d4923b7eb-948-567-10-0-990-593.jpg",
-      "dateISO": "2026-04-14T05:00:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
       "title": "Bielany, Wilanów, Mokotów – tutaj mieszkania są tańsze niż dwa lata temu. Sprawdzamy stawki w Warszawie",
       "link": "https://www.bankier.pl/wiadomosc/Ceny-mieszkan-w-dzielnicach-Warszawy-marzec-2026-9113090.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W większości warszawskich dzielnic średnie ceny ofertowe mieszkań notowane w marcu 2026 r. były niższe niż dwa lata temu o tej samej porze – wynika z danych serwisu SonarHome.pl. W dwóch – na Wilanowie i Targówki sprzedający oczekiwali również mniej niż przed rokiem. Od przeszło pół roku stawki jedn",
@@ -705,6 +741,18 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/4/54f1fa15b47670-948-568-24-0-1867-1120.jpg",
+      "dateISO": "2026-04-14T05:00:00.000Z",
+      "dateFormatted": "14 kwietnia 2026"
+    },
+    {
+      "title": "„Dzwonię z Lidla”. Dyskont rozszerza własną sieć komórkową o kolejne kraje",
+      "link": "https://www.bankier.pl/wiadomosc/Dzwonie-z-Lidla-Dyskont-rozszerza-wlasna-siec-komorkowa-o-kolejne-kraje-9112828.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Nie będzie łatwo, ale Lidl się nie poddaje. Już niebawem sieć komórkowa należąca do dyskontu planuje ekspansję swoich tanich planów na kolejne kraje. Po Niemczech, Austrii i Szwajcarii planuje podbić swoimi tanimi planami kolejne 30 państw.",
+      "pubDate": "Tue, 14 Apr 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/9/99169d4923b7eb-948-567-10-0-990-593.jpg",
       "dateISO": "2026-04-14T05:00:00.000Z",
       "dateFormatted": "14 kwietnia 2026"
     },
@@ -721,42 +769,6 @@
       "dateFormatted": "14 kwietnia 2026"
     },
     {
-      "title": "W trakcie rekrutacji proszą cię o przelew na szkolenie? Uważaj to scam!",
-      "link": "https://www.bankier.pl/wiadomosc/W-trakcie-rekrutacji-prosza-cie-o-przelew-na-szkolenie-Uwazaj-to-scam-9112846.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W ostatnich dniach pojawiły się ostrzeżenia przed trzema schematami oszustw – fałszywymi procesami rekrutacji, e-mailami z wirusem kradnącym dane bankowe oraz wyłudzeniami od przedsiębiorców podszywającymi się pod ministerstwo.",
-      "pubDate": "Tue, 14 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/8/9e007583b4abe0-948-568-48-0-1045-627.png",
-      "dateISO": "2026-04-14T05:00:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Rolnicy wchodzą w sezon z większym ryzykiem. 7 na 10 gospodarstw oczekuje strat po zimie",
-      "link": "https://www.bankier.pl/wiadomosc/Ubezpieczenia-upraw-2026-r-Kto-je-oferuje-i-jaki-jest-zakres-ochrony-9113025.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wiosenny sezon ubezpieczeń upraw rusza w momencie, gdy rolnicy mierzą się z wyjątkowo trudnymi warunkami pogodowymi. Badanie Warty pokazuje, że aż 7 na 10 gospodarstw odnotowało straty po tegorocznej zimie, a ubezpieczyciele przygotowują szerokie oferty ochrony na sezon 2026. Jednocześnie system dop",
-      "pubDate": "Tue, 14 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/5/4b383e14aa890b-948-568-0-44-1980-1187.jpg",
-      "dateISO": "2026-04-14T05:00:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "Skandal na szczytach władzy w Hiszpanii. Żona premiera oskarżona o korupcję",
-      "link": "https://www.bankier.pl/wiadomosc/Skandal-na-szczytach-wladzy-w-Hiszpanii-Zona-premiera-oskarzona-o-korupcje-9113293.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sędzia Juan Carlos Peinado oskarżył w poniedziałek Begonę Gomez, żonę premiera Hiszpanii Pedro Sancheza, między innymi o korupcję i nadużywanie wpływów.",
-      "pubDate": "Mon, 13 Apr 2026 23:22:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/5/268e5fa8bc666e-948-568-334-155-2931-1758.jpg",
-      "dateISO": "2026-04-13T22:22:00.000Z",
-      "dateFormatted": "13 kwietnia 2026"
-    },
-    {
       "title": "Trump straszy, ale Wall Street pnie się w górę. Spółki informatyczne odrabiają straty",
       "link": "https://www.bankier.pl/wiadomosc/Trump-straszy-ale-Wall-Street-pnie-sie-w-gore-Spolki-informatyczne-odrabiaja-straty-9113286.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Inwestorzy najwyraźniej zlekceważyli nowe groźby prezydenta Trumpa i uznali, że kolejne TACO jest już w drodze. Ton zwyżkom nadawał mocno ostatnio przeceniony sektor IT.",
@@ -766,30 +778,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/6/b/bf250c52eabb7e-948-568-150-70-3850-2309.jpg",
       "dateISO": "2026-04-13T21:25:00.000Z",
-      "dateFormatted": "13 kwietnia 2026"
-    },
-    {
-      "title": "Sojusz z USA okazał się pułapką? Mocna analiza z Kataru po ataku na terminale LNG",
-      "link": "https://www.bankier.pl/wiadomosc/Sojusz-z-USA-okazal-sie-pulapka-Mocna-analiza-z-Kataru-po-ataku-na-terminale-LNG-9113261.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Niepowodzenie negocjacji USA z Iranem nie jest największym zagrożeniem pokoju, byłoby nim porozumienie bez uwzględnienia interesów państw Zatoki Perskiej i ich oczekiwań - napisano w poniedziałkowym komentarzu katarskiego ośrodka analitycznego, Rady Bliskiego Wschodu do Spraw Globalnych.",
-      "pubDate": "Mon, 13 Apr 2026 20:22:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/0/f102b7eae4e5cc-948-568-0-150-2322-1393.jpg",
-      "dateISO": "2026-04-13T19:22:00.000Z",
-      "dateFormatted": "13 kwietnia 2026"
-    },
-    {
-      "title": "Skandal na Węgrzech? Setki państwowych nieruchomości w prywatnych rękach tuż przed wyborami",
-      "link": "https://www.bankier.pl/wiadomosc/Skandal-na-Wegrzech-Setki-panstwowych-nieruchomosci-w-prywatnych-rekach-tuz-przed-wyborami-9113215.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W ciągu kilkunastu miesięcy poprzedzających niedzielne wybory parlamentarne na Węgrzech, w których zwyciężyła opozycyjna partia TISZA Petera Magyara, doszło do sprzedaży wielu wartościowych nieruchomości państwowych – zauważył węgierski portal gospodarczy G7.hu.",
-      "pubDate": "Mon, 13 Apr 2026 19:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/a/b8192243a406d1-948-568-0-270-4000-2399.jpg",
-      "dateISO": "2026-04-13T18:00:00.000Z",
       "dateFormatted": "13 kwietnia 2026"
     },
     {
@@ -937,5 +925,5 @@
       "dateFormatted": "7 kwietnia 2026"
     }
   ],
-  "updatedAt": "2026-04-14T11:04:39.964Z"
+  "updatedAt": "2026-04-14T13:43:44.647Z"
 }
