@@ -1,6 +1,186 @@
 {
   "articles": [
     {
+      "title": "Rząd podał cenę maksymalną paliwa na piątek",
+      "link": "https://www.bankier.pl/wiadomosc/Rzad-podal-cene-maksymalna-paliwa-na-piatek-9114950.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W piątek litr benzyny 95 ma kosztować nie więcej niż 6,04 zł, benzyny 98 - 6,59 zł, a oleju napędowego - 7,18 zł - wynika z czwartkowego obwieszczenia Ministra Energii. Oznacza to, że w porównaniu z czwartkiem spadną ceny maksymalne wszystkich rodzajów paliw.",
+      "pubDate": "Thu, 16 Apr 2026 12:08:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/b/aef8b4b6360dfa-948-568-0-337-3857-2314.jpg",
+      "dateISO": "2026-04-16T11:08:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Mark Mobius nie żyje. Pożegnanie legendy rynków wschodzących",
+      "link": "https://www.bankier.pl/wiadomosc/Mark-Mobius-nie-zyje-Pozegnanie-legendy-rynkow-wschodzacych-9114937.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "O śmierci Marka Mobiusa poinformowała rzeczniczka Mobius Investment. Swoje kondolencje złożyła m.in . dyrektor generalna F ranklin Templeton Jenny Johnson, która napisała: \"zainspirował pokolenia inwestorów do myślenia bardziej globalnego, odważnego i z większą wyobraźnią o tym, co jest możliwe. Zmi",
+      "pubDate": "Thu, 16 Apr 2026 12:05:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/2/b/a950380cf15d3a-948-568-3-30-1496-897-GR.jpg",
+      "dateISO": "2026-04-16T11:05:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Emmanuel Macron doktorem honoris causa Uniwersytetu Gdańskiego",
+      "link": "https://www.bankier.pl/wiadomosc/Emmanuel-Macron-doktorem-honoris-causa-Uniwersytetu-Gdanskiego-9114896.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Uniwersytet Gdański nadał tytuł doktora honoris causa prezydentowi Francji Emmanuelowi Macronowi. W czwartek uchwałę w tej sprawie podjął Senat uczelni.",
+      "pubDate": "Thu, 16 Apr 2026 11:59:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/a/72e52f4187511e-948-569-5-18-1036-622.jpg",
+      "dateISO": "2026-04-16T10:59:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Giełda w Warszawie kończy 35 lat. Oto kluczowe wydarzenia",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/gielda-papierow-wartosciowych-konczy-35-lat-oto-najwazniejsze-wydarzenia/2qdxys9",
+      "description": "Zaczynało się od maklerów w czerwonych szelkach i transakcji, które można było dopiąć tylko osobiście. Dziś wszystko dzieje się przez internet, a GPW to największa giełda w regionie. Właśnie kończy 35 lat.",
+      "pubDate": "Thu, 16 Apr 2026 10:58:29 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/NQHk9kpTURBXy8xODI4ZjUxMDYwMDM2NDdhY2FjZmMwMjkxZmUxMDQ1ZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T10:58:29.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Żołnierz WOT z zarzutami szpiegostwa. Został zwolniony ze służby",
+      "link": "https://www.bankier.pl/wiadomosc/Zolnierz-WOT-z-zarzutami-szpiegostwa-Zostal-zwolniony-ze-sluzby-9114921.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Funkcjonariusze ABW zatrzymali pod zarzutem szpiegostwa żołnierza WOT - poinformowała w czwartek poznańska prokuratura. Sąd nie zgodził się na aresztowanie podejrzanego. Mężczyzna został zwolniony ze służby.",
+      "pubDate": "Thu, 16 Apr 2026 11:54:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/4/af0f755da1534f-948-567-64-0-960-575.jpg",
+      "dateISO": "2026-04-16T10:54:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "GPW szuka sojuszy. Warszawa chce zatrzymać ucieczkę debiutów na Zachód",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/gpw-stawia-na-wspolprace-gield-warszawa-chce-zatrzymac-najwieksze-ipo/1mz96rm",
+      "description": "Giełda Papierów Wartościowych w Warszawie chce zacieśnić współpracę z rynkami regionu Europy Środkowo-Wschodniej, aby powstrzymać odpływ największych debiutów giełdowych (IPO) na zachodnie parkiety.",
+      "pubDate": "Thu, 16 Apr 2026 10:52:07 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/edck9kpTURBXy8zMTM5ZWFhZWM3NDM5ZDIxMDAwMDkzNGE4ZDJhY2FmNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T10:52:07.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "AI wchodzi do polskiej policji. Resort Kierwińskiego powołuje specjalną jednostkę",
+      "link": "https://www.bankier.pl/wiadomosc/AI-wchodzi-do-polskiej-Policji-Resort-Kierwinskiego-powoluje-specjalna-jednostke-9114892.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Szef MSWiA Marcin Kierwiński powołał zespół do wykorzystania sztucznej inteligencji w obróbce danych policyjnych – mówił w czwartek w Sejmie wiceszef tego resortu Czesław Mroczek. Dodał, że szybka i wieloaspektowa obróbka danych przyspieszy pracę m.in. służb kryminalnych.",
+      "pubDate": "Thu, 16 Apr 2026 11:52:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/a/6d29f2da59bc54-948-568-0-0-1856-1113.jpg",
+      "dateISO": "2026-04-16T10:52:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Norwegia nigdy wcześniej nie zarobiła na ropie naftowej tyle, co w marcu",
+      "link": "https://www.bankier.pl/wiadomosc/Norwegia-nigdy-wczesniej-nie-zarobila-na-ropie-naftowej-tyle-co-w-marcu-9114926.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Norwegia nigdy wcześniej nie uzyskała w ciągu jednego miesiąca tak wysokich przychodów ze sprzedaży ropy naftowej za granicę, jak w marcu 2026 r. – podał w czwartek norweski urząd statystyczny SSB. Wpływy wzrosły o 67,9 proc. - do 4,9 mld euro i były nawet wyższe niż w szczycie kryzysu energetyczneg",
+      "pubDate": "Thu, 16 Apr 2026 11:49:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/5/1524a25e8c1b98-948-567-0-67-1000-599.jpg",
+      "dateISO": "2026-04-16T10:49:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Rynkowy lider wysyła sygnał: AI to nie jest chwilowa moda, a konkretny biznes",
+      "link": "https://businessinsider.com.pl/technologie/tsmc-wysyla-sygnal-ai-to-nie-chwilowa-moda-a-konkretny-biznes/2mvexhb",
+      "description": "Wiele osób nadal zastanawia się, czy AI to po prostu kolejna technologiczna gorączka. Wyniki i zapowiedzi najważniejszego producenta najbardziej zaawansowanych chipów na świecie coraz wyraźniej wskazują jednak, że AI nie jest po prostu szybko przemijającą modą.",
+      "pubDate": "Thu, 16 Apr 2026 10:47:47 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/1Zzk9kpTURBXy8zYTQwMGE2MmVmMmY3N2VkYzZjYjdkYzAzN2I1ODZiYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T10:47:47.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Kredyt czy wynajem? Ta decyzja może kosztować setki tysięcy złotych",
+      "link": "https://businessinsider.com.pl/poradnik-finansowy/kredyty/kredyt-hipoteczny-czy-wynajem-co-sie-bardziej-oplaca-w-2026-roku/y8s566b",
+      "description": "Wybór między wynajmem a kredytem hipotecznym to jedna z najważniejszych decyzji finansowych w życiu. Jedna z ostatnich analiz wskazuje, że w wielu polskich miastach bardziej opłaca się dziś spłacać kredyt hipoteczny niż wynajmować mieszkanie.",
+      "pubDate": "Thu, 16 Apr 2026 10:32:08 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/H4ck9kpTURBXy9hMDQzZGEzNWZmMmYyMzZkZGUxODliZDk4MmEwNGY2YS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T10:32:08.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Pracował z Donaldem Trumpem, dziś go ocenia. \"Zafundował 16 miesięcy dramatu\"",
+      "link": "https://businessinsider.com.pl/gospodarka/pracowal-z-donaldem-trumpem-dzis-go-ocenia-jestesmy-w-recesji/bsnr49c",
+      "description": "Były dyrektor ds. komunikacji w Białym Domu Anthony Scaramucci dołączył do głosów prominentnych ekonomistów, takich jak Mark Zandi, którzy ostatnio wyrażali obawy przed recesją, podkreślając kruchy stan gospodarki i wpływ polityki Donalda Trumpa. Tyle że Scaramucci jej nie wieszczy, uważa, że recesj",
+      "pubDate": "Thu, 16 Apr 2026 10:20:55 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/XX3k9kpTURBXy9iZGZmZGIyNGU3NTlmMDllMDFiMTIzODgyN2NhYzQzYy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T10:20:55.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Koniec wypraw za miasto po klopsiki. IKEA stawia na mniejsze formaty",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-wypraw-za-miasto-po-klopsiki-IKEA-stawia-na-mniejsze-formaty-9114872.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "IKEA w Polsce zamknęła rok obrotowy 2025 z lepszymi wynikami niż rok wcześniej (sprzedaż wzrosła, a rentowność poszła w górę). Co ciekawe, firma radziła sobie lepiej, mimo że zatrudniała mniej osób. Widać też wyraźny skręt w strategii: zamiast stawiać tylko na gigantyczne hale, marka chce pójść w mn",
+      "pubDate": "Thu, 16 Apr 2026 11:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/3/e77e6b36ed6064-948-568-10-110-3990-2393.jpg",
+      "dateISO": "2026-04-16T10:15:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Dobre wieści dla kierowców przed weekendem. Są nowe ceny paliw na piątek",
+      "link": "https://businessinsider.com.pl/gospodarka/ceny-paliw-w-piatek-jest-decyzja-ministra-energii/h0dftj6",
+      "description": "Minister energii Miłosz Motyka opublikował najnowsze obwieszczenie dotyczące maksymalnych cen paliw na piątek 17 kwietnia. Wynika z niego, że ceny znów zostaną obniżone.",
+      "pubDate": "Thu, 16 Apr 2026 10:03:56 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/2NWk9kpTURBXy9hMmU3MTkxY2NlNDZlYTk4NTQ3MGRlNTc0MzJmN2QwYi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T10:03:56.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Euroinflacja dała popalić. W 21 krajach Unii inflacja HICP przekraczała 2%",
+      "link": "https://www.bankier.pl/wiadomosc/Inflacja-w-Unii-Europejskiej-w-marcu-2026-W-21-krajach-Unii-inflacja-HICP-przekraczala-2-9114902.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Niechlubne miano inflacyjnego lidera Europy niezmiennie pozostaje przy Rumunii, gdzie tempo wzrostu cen zbliżyło się do 10%. Ponadto w przeważającej większości krajów Unii inflacja konsumencka przekraczała 2%.",
+      "pubDate": "Thu, 16 Apr 2026 11:01:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/f/9/56fac458963cd8-945-567-0-160-1630-978.jpg",
+      "dateISO": "2026-04-16T10:01:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Miliarderzy finansują ratowanie wieloryba. Jeden z nich założył MediaMarkt",
+      "link": "https://businessinsider.com.pl/technologie/miliarderzy-finansuja-ratowanie-wieloryba/vx3ww9m",
+      "description": "Humbak \"Timmy\", który kilka tygodni temu utknął na Bałtyku w pobliżu wyspy Poel koło Wismaru, ma szansę na ratunek dzięki prywatnie finansowanej operacji.",
+      "pubDate": "Thu, 16 Apr 2026 10:00:50 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/7Fzk9kpTURBXy9iNDYxNzcwMzhkOGZlMDkxMDkxY2M5ZTI2MGFhNDMzNi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T10:00:50.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
       "title": "PGE chce we wrześniu przedstawić aktualizację strategii",
       "link": "https://www.bankier.pl/wiadomosc/PGE-chce-we-wrzesniu-przedstawic-aktualizacje-strategii-9114900.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "PGE chce we wrześniu przedstawić aktualizację strategii – poinformował prezes Dariusz Lubera.",
@@ -8,32 +188,68 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/7/4/2ce22f1888d615-thumb-1000.jpg",
+      "image": "http://galeria.bankier.pl/p/4/5/b47a3d0b33bd38-948-567-0-0-1000-599.jpg",
       "dateISO": "2026-04-16T10:00:00.000Z",
       "dateFormatted": "16 kwietnia 2026"
     },
     {
-      "title": "Zainteresowanie giełdą rośnie, przyjdzie czas na zmianę głównego indeksu - prezes (wywiad)",
-      "link": "https://www.bankier.pl/wiadomosc/Zainteresowanie-gielda-rosnie-przyjdzie-czas-na-zmiane-glownego-indeksu-prezes-wywiad-9114899.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Zainteresowanie zagranicy warszawską giełdą rośnie, podobnie jak płynność i skala notowanych na niej spółek. Kluczowe jest przyciągnięcie krajowych inwestorów - ocenia prezes GPW Tomasz Bardziłowski. Deklaruje, że w przyszłości może powrócić koncepcja głównego indeksu z liczbą spółek wyższą niż 20.",
+      "title": "200 zł za kilo czereśni. W tym roku to już nieaktualne",
+      "link": "https://www.bankier.pl/wiadomosc/W-sklepach-pojawily-sie-czeresnie-Tyle-trzeba-zaplacic-za-kilogram-9114901.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Do polskich sieci handlowych trafiły już pierwsze importowane czereśnie. Choć w ubiegłym roku za kilogram trzeba było zapłacić nawet 200 zł, to obecnie ich ceny mogą zaskakiwać - podaje fakt.pl.",
       "pubDate": "Thu, 16 Apr 2026 11:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/d/1/785f181c53f0ce-thumb-1000.jpg",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/7/276be7786d3842-948-568-0-16-2170-1301.jpg",
       "dateISO": "2026-04-16T10:00:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Nutella na celowniku śledczych. Przeszukania w siedzibie firmy Ferrero",
+      "link": "https://www.bankier.pl/wiadomosc/Nutella-na-celowniku-sledczych-Przeszukania-w-siedzibie-firmy-Ferrero-9114855.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Producent Nutelli i Kinder Bueno musi zmierzyć się z unijnymi inspektorami, którzy prowadzą przeszukania w biurach konrernu. Sprawa ma związek z postępowaniem antymonopolowym. Na początku tygodnia Bruksela poinformowała, że przeprowadza kontrole w siedzibach firmy z branży słodyczy w dwóch krajach c",
+      "pubDate": "Thu, 16 Apr 2026 10:55:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/f/28dee39faf6c97-948-568-5-32-992-595.jpg",
+      "dateISO": "2026-04-16T09:55:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Wyrok TSUE w sprawie kredytów frankowych. Stanowcze oświadczenie banków",
+      "link": "https://businessinsider.com.pl/finanse/tsue-konczy-sny-frankowiczow-o-darmowych-mieszkaniach-banki-odzyskaja-kapital/vr1415f",
+      "description": "\"Koniec snu o darmowych mieszkaniach\" — tak Związek Banków Polskich ocenia czwartkowe orzeczenia Trybunału Sprawiedliwości Unii Europejskiej w sprawach dotyczących tego, czy przedawnienia instytucji finansowych wobec frankowiczów się przedawniły.",
+      "pubDate": "Thu, 16 Apr 2026 09:53:01 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/T6gk9kpTURBXy85NTA0NzI0N2I3MTIwZDk5ODRjZjVhMGJjMWRlMDAxMS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T09:53:01.000Z",
       "dateFormatted": "16 kwietnia 2026"
     },
     {
       "title": "TSUE nie zaskoczył frankowców. Banki: \"koniec snu o darmowych mieszkaniach\"",
-      "link": "https://www.bankier.pl/wiadomosc/Frankowiczu-uwazaj-na-ten-wyrok-TSUE-daje-bankom-ostatnia-deske-ratunku-9114873.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Dyrektywa 93/13/EWG nie stoi na przeszkodzie regulacji krajowej, która pozwala, w wyjątkowych okolicznościach uwzględnić przedawnione roszczenie banku o zwrot kapitału kredytu - orzekł TSUE w jednej z polskich spraw dot. tzw. kredytu frankowego.",
+      "link": "https://www.bankier.pl/wiadomosc/Frankowiczu-uwazaj-na-ten-wyrok-TSUE-daje-bankom-ostatnia-deske-ratunku-9114873.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "TSUE orzekł w serii spraw dotyczących przedawnienia roszczeń o zwrot kapitału w sporach frankowych. Rozstrzygnięcia są korzystne dla banków. Dają im możliwość odzyskania środków, które wypłacone zostały kredytobiorcom przed uznaniem kontraktów za niewiążące.",
       "pubDate": "Thu, 16 Apr 2026 10:24:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/b/0a5a2627b79295-945-560-0-279-4300-2579.jpg",
       "dateISO": "2026-04-16T09:24:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Atak na Iran wpłynął na inflację w Europie. Tak wypadła Polska na tle innych państw",
+      "link": "https://businessinsider.com.pl/gospodarka/eurostat-pokazuje-skok-cen-po-wojnie-w-iranie-polska-juz-poza-czolowka/c1sf9nt",
+      "description": "Wojna w Iranie odbiła się przede wszystkim na rynku paliw. Wyższe ceny oleju napędowego i benzyny widać już we wskaźnikach inflacji. Eurostat opublikował najnowsze dane o wzroście cen konsumpcyjnych w marcu. Są też dane dotyczące Polski.",
+      "pubDate": "Thu, 16 Apr 2026 09:19:06 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/u8tk9kpTURBXy9hZjE4MDYzNzEyYzJiOTU5NmUwOTQ3OTM4OWRmZDExMC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T09:19:06.000Z",
       "dateFormatted": "16 kwietnia 2026"
     },
     {
@@ -51,7 +267,7 @@
     {
       "title": "TSUE rozbił bank? Trzy wyroki frankowe w jeden dzień. Wyjaśniamy skutki",
       "link": "https://businessinsider.com.pl/prawo/tsue-o-przedawnieniu-roszczen-bankow-co-to-oznacza-dla-frankowiczow/j0wp9b8",
-      "description": "W czwartek 16 kwietnia Trybunał Sprawiedliwości Unii Europejskiej wypowiedział się aż w trzech sprawach dotyczących przedawnienia roszczeń banków przeciwko konsumentom po stwierdzeniu nieważności umowy „kredytu frankowego”. W każdym zwrócił uwagę na szczególną sytuację konsumentów, ale nie tylko. W ",
+      "description": "W czwartek 16 kwietnia Trybunał Sprawiedliwości Unii Europejskiej wypowiedział się aż w trzech sprawach dotyczących przedawnienia roszczeń banków przeciwko konsumentom po stwierdzeniu nieważności umowy \"kredytu frankowego\". W każdym zwrócił uwagę na szczególną sytuację konsumentów, ale nie tylko. W ",
       "pubDate": "Thu, 16 Apr 2026 09:12:29 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -289,30 +505,6 @@
       "dateFormatted": "16 kwietnia 2026"
     },
     {
-      "title": "Jacek Frączyk o rynkach: złoto zachowuje się jak nie złoto",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/jacek-fraczyk-o-rynkach-zloto-zachowuje-sie-jak-bitcoin/7ltk2g2",
-      "description": "Złoto w trudnym geopolitycznym otoczeniu tym razem zachowuje się nie jak złoto, a bardziej jak bitcoin. Natomiast mimo trwającej wojny w Iranie rekordy biją spółki w USA. Z kolei bohaterem naszego wykresu dnia został Alior Bank. M.in. o tym przeczytasz w dzisiejszym newsletterze giełdowym Business I",
-      "pubDate": "Thu, 16 Apr 2026 07:27:30 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/mpAk9kpTURBXy9iZDI4YTUyZmYwNmVjZWNlN2ZkOTc5YjA3MTJiZjdhMy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T07:27:30.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Renta wdowia pójdzie w górę. Nie wszyscy jednak skorzystają",
-      "link": "https://businessinsider.com.pl/praca/emerytury/renta-wdowia-2027-ile-wyniesie-i-kto-dostanie-wiecej/ndfyp3y",
-      "description": "Choć renta wdowia to stosunkowo nowe świadczenie, już dwukrotnie przeszło ono istotne zmiany. Ich efektem są wyższe wypłaty dla wdów i wdowców. Na dodatek w 2027 r. wdowią rentę czeka kolejna zmiana, która podniesie kwotę o nawet kilkaset złotych.",
-      "pubDate": "Thu, 16 Apr 2026 07:17:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/uBnk9kpTURBXy85OWIxMGEyMzBhNWJkMzMwMDI2OGMzMGRkOTE1MWE3Yy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T07:17:00.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
       "title": "„Podatek od telewizora” w rozliczeniu PIT? Fiskus sam ściągnie nowy abonament RTV",
       "link": "https://www.bankier.pl/wiadomosc/Likwidacja-abonamentu-RTV-stworzy-nowy-podatek-Fiskus-sam-pobierze-oplate-9114785.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Zapowiadana likwidacja abonamentu RTV ucieszyła wielu Polaków, jednak radość ta może okazać się przedwczesna. Nowa opłata audiowizualna ma być bowiem automatycznie pobrana przez Urząd Skarbowy podczas rozliczania podatku dochodowego - jak informuje Dziennik.pl. Pierwsze szacunki mówią o kwocie od 8 ",
@@ -322,54 +514,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/1/c/f7ad950f444e9e-948-568-768-460-2288-1372.jpg",
       "dateISO": "2026-04-16T07:15:00.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "JSW wchodzi w 2026 rok na wyższych obrotach. Czy to wystarczy, aby pokonać rynek?",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/jsw-zwiekszyla-produkcje-wegla-i-koksu-wyniki-za-pierwszy-kwartal-2026-r/jwpx5nx",
-      "description": "Jastrzębska Spółka Węglowa rozpoczyna rok od mocnego uderzenia produkcyjnego, choć nad kopalniami wciąż krążą cienie globalnej niepewności. Spółka zastrzega, że mimo poprawy parametrów operacyjnych, pozostaje silnie uzależniona od cykliczności rynku stali i globalnych cen surowców.",
-      "pubDate": "Thu, 16 Apr 2026 07:02:03 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/HY3k9kpTURBXy9lYmIxYzY2MWI5MWI0N2Q1OWMzYTEyY2M3ZjlmMjE1Zi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T07:02:03.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Koniec bezpłatnych staży. Minister pracy zapowiada ustawę",
-      "link": "https://businessinsider.com.pl/praca/mlodzi-polacy-dostana-pieniadze-za-staze-minister-zapowiada-ustawe/np1e5q2",
-      "description": "Projekt ustawy zakładającej likwidację bezpłatnych staży już wkrótce trafi do szerokich konsultacji społecznych — poinformowała minister rodziny, pracy i polityki społecznej Agnieszka Dziemianowicz-Bąk.",
-      "pubDate": "Thu, 16 Apr 2026 07:00:27 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Ratk9kpTURBXy80YjRkZjZmZTRjY2VlNzFhMTFkZGRhNTc4YWNkNzQ3Mi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T07:00:27.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Koniec z kończeniem kariery po dwóch egzaminach. Trzecia szansa dla przyszłych sędziów staje się faktem",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-z-konczeniem-kariery-po-dwoch-egzaminach-Trzecia-szansa-dla-przyszlych-sedziow-staje-sie-faktem-9114709.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W czwartek weszła w życie nowelizacja ustawy o Krajowej Szkole Sądownictwa i Prokuratury, która zwiększa z dwóch do trzech liczbę możliwych podejść do egzaminu sędziowskiego lub prokuratorskiego.",
-      "pubDate": "Thu, 16 Apr 2026 08:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/1/e1273b7de9c4a7-948-568-420-0-3200-1920.jpg",
-      "dateISO": "2026-04-16T07:00:00.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "ZUS daje 12 dni. Po tym terminie może wstrzymać emeryturę",
-      "link": "https://businessinsider.com.pl/praca/emerytury/kiedy-zus-moze-wstrzymac-emeryture-wyjasniamy-zasady/ege70f2",
-      "description": "ZUS przypomina seniorom, że niedopełnienie jednego obowiązku może wywołać problemy z wypłatą emerytury lub całkowicie zablokować świadczenie. Należy to zrobić najpóźniej na 12 dni roboczych przed terminem, w którym ZUS wypłaca świadczenie.",
-      "pubDate": "Thu, 16 Apr 2026 06:56:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/yPZk9kpTURBXy8xZDI0Nzk3MmZhZjdmYjUzYTFmYTBiNmQwN2E3ODg3ZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T06:56:00.000Z",
       "dateFormatted": "16 kwietnia 2026"
     },
     {
@@ -399,37 +543,13 @@
     {
       "title": "Co wiesz o polskiej giełdzie? Sprawdź się w jubileuszowym quizie!",
       "link": "https://www.bankier.pl/wiadomosc/Co-wiesz-o-polskiej-gieldzie-Sprawdz-sie-w-jubileuszowym-quizie-9114697.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Dokładnie 16 kwietnia 1991 roku odbyła się pierwsza sesja na warszawskim parkiecie. Zaledwie 5 notowanych spółek, 11 domów maklerskich i handel odbywający się zaledwie raz w tygodniu – tak wyglądały początki krajowego rynku kapitałowego. Dziś, równo 35 lat po tamtych wydarzeniach, GPW to zupełnie in",
+      "description": "Dokładnie 16 kwietnia 1991 roku odbyła się pierwsza sesja na warszawskim parkiecie. Zaledwie 5 notowanych spółek, 7 domów maklerskich i handel odbywający się zaledwie raz w tygodniu – tak wyglądały początki krajowego rynku kapitałowego. Dziś, równo 35 lat po tamtych wydarzeniach, GPW to zupełnie inn",
       "pubDate": "Thu, 16 Apr 2026 07:28:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/9/b/b3d1713add5f0c-948-568-0-0-948-568.jpg",
       "dateISO": "2026-04-16T06:28:00.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Wyzwania transformacji na Śląsku: Praca dla młodych poza górnictwem priorytetem rządu",
-      "link": "https://www.bankier.pl/wiadomosc/Wyzwania-transformacji-na-Slasku-Praca-dla-mlodych-poza-gornictwem-priorytetem-rzadu-9114664.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wiceminister energii Marian Zmarzły ocenił w środę, że głównym wyzwaniem transformacji energetycznej na Śląsku jest to, aby wszyscy mieszkający tam młodzi ludzie znaleźli w przyszłości miejsca pracy poza górnictwem.",
-      "pubDate": "Thu, 16 Apr 2026 07:25:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/7/d45c8fa6b9608e-945-560-22-127-2977-1786.jpg",
-      "dateISO": "2026-04-16T06:25:00.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Karol Nawrocki o projekcie podatkowym Polski 2050",
-      "link": "https://businessinsider.com.pl/gospodarka/podatki/karol-nawrocki-poparl-pomysl-polski-2050-chodzi-o-zmiane-w-podatkach/qqs2jw9",
-      "description": "Wczoraj Polska 2050 zaprezentowała projekt ustawy zakładający podniesienie drugiego progu podatkowego ze 120 tys. zł do 140 tys. zł. Głos w tej sprawie zabrał prezydent Karol Nawrocki.",
-      "pubDate": "Thu, 16 Apr 2026 06:22:32 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Snwk9kpTURBXy8yZDBlNWJmZmQwNDk0ZjlkNTQzZDNlNmRmNWVmNDg2Mi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T06:22:32.000Z",
       "dateFormatted": "16 kwietnia 2026"
     },
     {
@@ -445,18 +565,6 @@
       "dateFormatted": "16 kwietnia 2026"
     },
     {
-      "title": "Niemcy zmieniają podejście do Polaków. Oferty pracy inne niż zwykle",
-      "link": "https://businessinsider.com.pl/gospodarka/koniec-z-latwa-praca-w-niemczech-polacy-musza-spelniac-kluczowy-warunek/xh871gr",
-      "description": "Jeszcze kilka lat temu niemieccy pracodawcy koncentrowali się głównie na rekrutacji niewykwalifikowanych pracowników fizycznych z Polski. Obecnie jednak widać wyraźne i trwałe przesunięcie w stronę kandydatów posiadających doświadczenie zawodowe.",
-      "pubDate": "Thu, 16 Apr 2026 06:08:14 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/_Lck9kpTURBXy85ODRmMWJmM2VhZjg0NWU3Y2IzZTgwM2E4MzkxOWM1OS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T06:08:14.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
       "title": "Prezes GPW: Zainteresowanie giełdą rośnie, przyjdzie czas na zmianę głównego indeksu",
       "link": "https://www.bankier.pl/wiadomosc/Zainteresowanie-gielda-rosnie-przyjdzie-czas-na-zmiane-glownego-indeksu-prezes-wywiad-9114766.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Zainteresowanie zagranicy warszawską giełdą rośnie, podobnie jak płynność i skala notowanych na niej spółek. Kluczowe jest przyciągnięcie krajowych inwestorów - ocenia prezes GPW Tomasz Bardziłowski. Deklaruje, że w przyszłości może powrócić koncepcja głównego indeksu z liczbą spółek wyższą niż 20.",
@@ -469,54 +577,6 @@
       "dateFormatted": "16 kwietnia 2026"
     },
     {
-      "title": "Zysk BOŚ wystrzelił o 56 proc. \"Zielony bank\" wraca do gry z miliardami na ekologię",
-      "link": "https://www.bankier.pl/wiadomosc/Zysk-netto-grupy-BOS-w-2025-r-wyniosl-124-5-mln-zl-tj-56-3-proc-wiecej-rdr-9114758.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Grupa BOŚ zakończyła 2025 rok z zyskiem netto na poziomie 124,5 mln zł, co oznacza wzrost o ponad 56,3 proc. w stosunku do roku ubiegłego - poinformował bank w komunikacie prasowym.",
-      "pubDate": "Thu, 16 Apr 2026 06:58:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/6/10dc453ad4c388-948-568-0-88-1773-1063.jpg",
-      "dateISO": "2026-04-16T05:58:00.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Potężna cena za sankcje. Moskwę musiało zaboleć",
-      "link": "https://businessinsider.com.pl/finanse/rosja-traci-miliardy-przez-sankcje-sektor-energetyczny-w-kryzysie/nryjl90",
-      "description": "Po inwazji na Ukrainę objęta zachodnimi sankcjami Rosja ponosi ogromne koszty związane z próbami utrzymania dostępu do zachodnich towarów.",
-      "pubDate": "Thu, 16 Apr 2026 05:54:10 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/xhRk9kpTURBXy84OGIxZTYxMTJhODQyMmU2OWQ5MGI3MGQzNzY2NzVhMS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T05:54:10.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Prawie miliard na reklamy. Sprawdź, który bank wydał najwięcej",
-      "link": "https://www.bankier.pl/wiadomosc/Prawie-miliard-na-reklamy-Sprawdz-ktory-bank-wydal-najwiecej-9114718.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W 2025 r. łączna wartość wydatków reklamowych dziewięciu największych instytucji finansowych sięgnęła niemal 880 mln zł – wynika z danych, które „Rzeczpospolita” przedstawia w czwartek.",
-      "pubDate": "Thu, 16 Apr 2026 06:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/0/5c9ea219eda988-948-568-40-290-3960-2375.jpg",
-      "dateISO": "2026-04-16T05:40:00.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Nie żyje guru inwestorów na całym świecie. Miał 89 lat",
-      "link": "https://businessinsider.com.pl/gielda/byl-znana-postacia-w-swiecie-finansow-nie-zyje-mark-mobius/tmeww79",
-      "description": "W wieku 89 lat zmarł jeden z najbardziej rozpoznawalnych inwestorów na świecie i propagator inwestowania na rynkach wschodzących.",
-      "pubDate": "Thu, 16 Apr 2026 05:37:25 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/3aXk9kpTURBXy9iZTdiY2FlZmViYjZmMDYzNGMzNjU3ODA1ZTc3MzY4OC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T05:37:25.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
       "title": "Detroit idzie na wojnę. Trump chce, by Ford i GM zamiast aut produkowały rakiety",
       "link": "https://www.bankier.pl/wiadomosc/Detroit-idzie-na-wojne-Trump-chce-by-Ford-i-GM-zamiast-aut-produkowaly-rakiety-9114717.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Administracja prezydenta USA Donalda Trumpa chce, by amerykańscy producenci, w tym z branży motoryzacyjnej, odgrywali rolę w produkcji uzbrojenia - napisał w środę „Wall Street Journal” („WSJ”). Według źródeł gazety rozmowy z przedstawicielami firm rozpoczęły się przed wojną przeciwko Iranowi.",
@@ -525,18 +585,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/f/fcd667c0d4d1dc-948-568-20-0-3980-2387.jpg",
-      "dateISO": "2026-04-16T05:36:00.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Kto już zarabia na AI? Polacy pokochali inteligentne zakupy",
-      "link": "https://www.bankier.pl/wiadomosc/Kto-juz-zarabia-na-AI-Polacy-pokochali-inteligentne-zakupy-9114756.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Co drugi klient e-commerce słucha przy zakupach podpowiedzi sztucznej inteligencji. Aż 70 proc. firm branży, które wprowadziły AI, mówi o wzrostach przychodów – pisze w czwartek „Rzeczpospolita”.",
-      "pubDate": "Thu, 16 Apr 2026 06:36:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/4/17fe95a61e8588-948-568-7-60-992-595.jpg",
       "dateISO": "2026-04-16T05:36:00.000Z",
       "dateFormatted": "16 kwietnia 2026"
     },
@@ -585,18 +633,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/b/a/1f401dd0bd0aa3-948-568-629-878-2575-1545.jpg",
-      "dateISO": "2026-04-16T05:00:00.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "mBank idzie na wojnę z Revolutem? Bezpłatna karta podróżnicza i więcej ekspresowych przelewów",
-      "link": "https://www.bankier.pl/wiadomosc/mBank-idzie-na-wojne-z-Revolutem-Bezplatna-karta-podroznicza-i-wiecej-ekspresowych-przelewow-9114300.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "mBank zapowiada pakiet zmian w ofercie skierowanej do segmentu affluent - posiadaczy mKonta Intensive. Od 17 czerwca 2026 r. bank likwiduje stałą opłatę za kartę Visa Świat Intensive, zwiększa dzienny limit darmowych przelewów ekspresowych i rozszerza benefity podróżne, w tym dostęp do Fast Track na",
-      "pubDate": "Thu, 16 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/6/5dd989a462de9b-948-568-2-87-997-598.jpg",
       "dateISO": "2026-04-16T05:00:00.000Z",
       "dateFormatted": "16 kwietnia 2026"
     },
@@ -661,30 +697,6 @@
       "dateFormatted": "16 kwietnia 2026"
     },
     {
-      "title": "Pracodawcy zapłacą za każdy staż? „Wpisem do CV nie opłacisz rachunków”",
-      "link": "https://www.bankier.pl/wiadomosc/Pracodawcy-zaplaca-za-kazdy-staz-Wpisem-do-CV-nie-oplacisz-rachunkow-9114722.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Projekt ustawy o likwidacji bezpłatnych staży zostanie w przyszłym tygodniu skierowany do szerokich konsultacji – poinformowała PAP ministra rodziny, pracy i polityki społecznej Agnieszka Dziemianowicz-Bąk. Dodała, że zmiany mają wejść w życie jeszcze w tej kadencji Sejmu.",
-      "pubDate": "Thu, 16 Apr 2026 05:52:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/2/c7b6068659e403-948-568-0-0-4208-2524.jpg",
-      "dateISO": "2026-04-16T04:52:00.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "„Wkrótce rozejm w Libanie”. Donald Trump dąży do wygaszenia konfliktu, Liban \"nic nie wie\"",
-      "link": "https://www.bankier.pl/wiadomosc/Wkrotce-rozejm-w-Libanie-Donald-Trump-dazy-do-wygaszenia-konfliktu-9114701.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent USA Donald Trump cieszyłby się z zawieszenia broni w Libanie - napisał w środę portal Axios. Według brytyjskiego dziennika „Financial Times”, który powołuje się na libańskie władze, „wkrótce” należy spodziewać się rozejmu między Izraelem i Libanem.",
-      "pubDate": "Thu, 16 Apr 2026 03:01:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/e/bef8185900f623-948-568-0-202-3000-1799.jpg",
-      "dateISO": "2026-04-16T02:01:00.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
       "title": "Iran \"zaprasza\" USA do inwazji lądowej: Wzięlibyśmy po milion dolarów za każdego zakładnika",
       "link": "https://www.bankier.pl/wiadomosc/Iran-zaprasza-USA-do-inwazji-ladowej-Wzielibysmy-po-milion-dolarow-za-kazdego-zakladnika-9114698.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Doradca wojskowy najwyższego przywódcy Iranu, Modżtaby Chameneiego, zagroził w środę zatopieniem amerykańskich statków, jeśli te będą próbowały pilnować cieśniny Ormuz - poinformowała AFP, cytując wypowiedź Mohsena Rezaeiego dla irańskiej telewizji.",
@@ -742,30 +754,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/b/0/515cb34208e686-948-568-7-60-2992-1795.jpg",
       "dateISO": "2026-04-15T19:45:00.000Z",
-      "dateFormatted": "15 kwietnia 2026"
-    },
-    {
-      "title": "Wojna domowa w PiS. Morawiecki buduje własną armię, Kaczyński grozi wyrzuceniem z list",
-      "link": "https://www.bankier.pl/wiadomosc/Wojna-domowa-w-PiS-Morawiecki-buduje-wlasna-armie-Kaczynski-grozi-wyrzuceniem-z-list-9114650.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Przebieg spotkania prezydium Komitetu Politycznego PiS wykazał, że większość władz partii wyraziła zaniepokojenie inicjatywą stowarzyszenia b. premiera Mateusza Morawieckiego - przekazał PAP rzecznik PiS Rafał Bochenek. Według informacji PAP stowarzyszenie ma być zarejestrowane do końca kwietnia.",
-      "pubDate": "Wed, 15 Apr 2026 20:21:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/5/ecd0a02310d505-948-568-0-80-4000-2399.jpg",
-      "dateISO": "2026-04-15T19:21:00.000Z",
-      "dateFormatted": "15 kwietnia 2026"
-    },
-    {
-      "title": "\"Kuba będzie następna\". Pentagon szykuje inwazję na zlecenie Trumpa",
-      "link": "https://www.bankier.pl/wiadomosc/Pentagon-przyspiesza-prace-nad-planami-dotyczacymi-operacji-militarnej-na-Kubie-9114642.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Po cichu przyspieszają prace nad planami militarnymi, dotyczącymi potencjalnej operacji Pentagonu na Kubie, na wypadek gdyby prezydent USA Donald Trump wydał rozkaz interwencji w tym kraju - podał w środę dziennik „USA Today”, powołując się na dwa źródła.",
-      "pubDate": "Wed, 15 Apr 2026 20:07:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/1/c11f871c0d7628-948-568-100-100-3900-2339.jpg",
-      "dateISO": "2026-04-15T19:07:00.000Z",
       "dateFormatted": "15 kwietnia 2026"
     },
     {
@@ -937,5 +925,5 @@
       "dateFormatted": "9 kwietnia 2026"
     }
   ],
-  "updatedAt": "2026-04-16T09:20:56.928Z"
+  "updatedAt": "2026-04-16T11:04:48.631Z"
 }
