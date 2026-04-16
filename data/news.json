@@ -1,15 +1,387 @@
 {
   "articles": [
     {
-      "title": "Węgry: Armia opuszcza obiekty strategiczne. Koniec \"rzekomego zagrożenia\"",
-      "link": "https://www.bankier.pl/wiadomosc/Wegry-Armia-opuszcza-obiekty-strategiczne-Koniec-rzekomego-zagrozenia-9114655.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Węgierskie wojsko rozpoczęło wycofywanie się z ochrony infrastruktury krytycznej przed rzekomym atakiem z Ukrainy - poinformował w środę portal 444. Rząd ustępującego premiera Viktor Orbana wysłał w lutym do regionu graniczącego z Ukrainą żołnierzy, mających chronić infrastrukturę przed rzekomym ata",
-      "pubDate": "Thu, 16 Apr 2026 07:37:00 +0100",
+      "title": "PGE chce we wrześniu przedstawić aktualizację strategii",
+      "link": "https://www.bankier.pl/wiadomosc/PGE-chce-we-wrzesniu-przedstawic-aktualizacje-strategii-9114900.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "PGE chce we wrześniu przedstawić aktualizację strategii – poinformował prezes Dariusz Lubera.",
+      "pubDate": "Thu, 16 Apr 2026 11:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/7/4/2ce22f1888d615-thumb-1000.jpg",
+      "dateISO": "2026-04-16T10:00:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Zainteresowanie giełdą rośnie, przyjdzie czas na zmianę głównego indeksu - prezes (wywiad)",
+      "link": "https://www.bankier.pl/wiadomosc/Zainteresowanie-gielda-rosnie-przyjdzie-czas-na-zmiane-glownego-indeksu-prezes-wywiad-9114899.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Zainteresowanie zagranicy warszawską giełdą rośnie, podobnie jak płynność i skala notowanych na niej spółek. Kluczowe jest przyciągnięcie krajowych inwestorów - ocenia prezes GPW Tomasz Bardziłowski. Deklaruje, że w przyszłości może powrócić koncepcja głównego indeksu z liczbą spółek wyższą niż 20.",
+      "pubDate": "Thu, 16 Apr 2026 11:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/d/1/785f181c53f0ce-thumb-1000.jpg",
+      "dateISO": "2026-04-16T10:00:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "TSUE nie zaskoczył frankowców. Banki: \"koniec snu o darmowych mieszkaniach\"",
+      "link": "https://www.bankier.pl/wiadomosc/Frankowiczu-uwazaj-na-ten-wyrok-TSUE-daje-bankom-ostatnia-deske-ratunku-9114873.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Dyrektywa 93/13/EWG nie stoi na przeszkodzie regulacji krajowej, która pozwala, w wyjątkowych okolicznościach uwzględnić przedawnione roszczenie banku o zwrot kapitału kredytu - orzekł TSUE w jednej z polskich spraw dot. tzw. kredytu frankowego.",
+      "pubDate": "Thu, 16 Apr 2026 10:24:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/e/b/0a5a2627b79295-945-560-0-279-4300-2579.jpg",
+      "dateISO": "2026-04-16T09:24:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "USA krok od historycznego momentu. Pierwszy raz od drugiej wojny światowej",
+      "link": "https://businessinsider.com.pl/gospodarka/usa-korzystaja-na-swiatowych-konfliktach-eksport-ropy-najwiekszy-od-lat/jzzxpzy",
+      "description": "Stany Zjednoczone są o krok od osiągnięcia statusu eksportera netto ropy naftowej, po raz pierwszy od czasów II wojny światowej — pisze w swojej analizie Agencja Reutera.",
+      "pubDate": "Thu, 16 Apr 2026 09:12:30 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Wckk9kpTURBXy8xNzAzYTc0MmZiMzY4N2I1NTMyYjQ5ZDAwNjM5ZDY3Mi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T09:12:30.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "TSUE rozbił bank? Trzy wyroki frankowe w jeden dzień. Wyjaśniamy skutki",
+      "link": "https://businessinsider.com.pl/prawo/tsue-o-przedawnieniu-roszczen-bankow-co-to-oznacza-dla-frankowiczow/j0wp9b8",
+      "description": "W czwartek 16 kwietnia Trybunał Sprawiedliwości Unii Europejskiej wypowiedział się aż w trzech sprawach dotyczących przedawnienia roszczeń banków przeciwko konsumentom po stwierdzeniu nieważności umowy „kredytu frankowego”. W każdym zwrócił uwagę na szczególną sytuację konsumentów, ale nie tylko. W ",
+      "pubDate": "Thu, 16 Apr 2026 09:12:29 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/3hek9kpTURBXy80ZmVmNzljYzg1YjNlM2YzYWE1ZThlY2Y0N2M0MzA4MC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T09:12:29.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Optymizm czy ryzyko? Cena ropy reaguje na sygnały z Bliskiego Wschodu",
+      "link": "https://businessinsider.com.pl/gielda/surowce/ceny-ropy-pod-presja-rozmow-waszyngtonteheran-inwestorzy-ostrozni/be2dgxv",
+      "description": "Ceny ropy naftowej spadły — inwestorzy coraz mocniej liczą na możliwe porozumienie między USA a Iranem, które mogłoby złagodzić napięcia na Bliskim Wschodzie. Optymizm związany z dyplomacją przeważył nad obawami o zakłócenia dostaw surowca.",
+      "pubDate": "Thu, 16 Apr 2026 09:11:47 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/-Fpk9kpTURBXy84OTJlZGUyYWRmZjU3NDY1YzFiMDA3ZjhlMTE1YTZhNS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T09:11:47.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Złoty trzyma się mocno. Kurs euro odbija z wojennych minimów",
+      "link": "https://www.bankier.pl/wiadomosc/Zloty-trzyma-sie-mocno-Kurs-euro-odbija-z-wojennych-minimow-9114865.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Dobre nastroje na rynkach finansowych służą polskiemu złotemu i pozwoliły na spadek kursu euro do najniższego poziomu od wybuchu wojny na Bliskim Wschodzie.",
+      "pubDate": "Thu, 16 Apr 2026 10:10:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/d/60e2e880f8a507-948-568-780-20-3200-1920.jpg",
-      "dateISO": "2026-04-16T06:37:00.000Z",
+      "image": "http://galeria.bankier.pl/p/e/0/399778448cbf6b-948-568-58-67-3813-2288.jpg",
+      "dateISO": "2026-04-16T09:10:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Trwa obława na sprawców napadu na konwój z pieniędzmi",
+      "link": "https://www.bankier.pl/wiadomosc/Trwa-oblawa-na-sprawcow-napadu-na-konwoj-z-pieniedzmi-9114867.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W środę w centrum Wrocławia doszło do napadu na konwój z pieniędzmi. Sprawcy uciekli ze skradzioną gotówką. Nadal trwa obława i śledztwo prokuratorskie. Nie podajemy szczegółów – poinformowała w czwartek policja.",
+      "pubDate": "Thu, 16 Apr 2026 10:10:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/a/370d9f20f83753-866-520-132-147-866-520.jpg",
+      "dateISO": "2026-04-16T09:10:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Co dzieje się z pieniędzmi na Revolucie po śmierci? Niewiele osób to sprawdza",
+      "link": "https://businessinsider.com.pl/finanse/co-dzieje-sie-z-kontem-revolut-po-smierci-wlasciciela-wyjasniamy/xdrlnct",
+      "description": "Śmierć bliskiej osoby to trudny czas, a formalności związane z zamknięciem konta bankowego mogą wydawać się skomplikowane. Revolut przygotował jasne wytyczne, jak postępować w takiej sytuacji.",
+      "pubDate": "Thu, 16 Apr 2026 09:04:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/NDlk9kpTURBXy80ZjUzMzU4ZmNkM2MzNTY4ODFiNzUxYWM0MzFjMGU4Zi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T09:04:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Budują pierwszy w Polsce biurowiec-schron. Certyfikat wystawiło wojsko",
+      "link": "https://www.bankier.pl/wiadomosc/Buduja-pierwszy-w-Polsce-biurowiec-schron-Certyfikat-wystawilo-wojsko-9114860.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W Poznaniu trwa budowa biurowca wieńczącego inwestycję Nowy Rynek. Choć chronologicznie ostatni, będzie to pierwszy w Polsce biurowiec o parametrach schronu z certyfikatem Wojskowej Akademii Technicznej. Budynek zostanie oddany do użytku w przyszłym roku.",
+      "pubDate": "Thu, 16 Apr 2026 10:01:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/8/1aa99def8497e2-825-494-0-20-825-494.jpg",
+      "dateISO": "2026-04-16T09:01:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Skandal wokół nominacji prezydenta. „Król fake newsów” w Radzie Nowych Mediów",
+      "link": "https://www.bankier.pl/wiadomosc/Skandal-wokol-nominacji-prezydenta-Krol-fake-newsow-w-Radzie-Nowych-Mediow-9114826.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Karol Nawrocki powołał Radę Nowych Mediów, której zadaniem ma być m.in. walka z dezinformacją. Wybuchł skandal, gdy okazało się, że jedno z miejsc w gremium zajął Paweł Swinarski – twórca internetowy, którego treści wojsko i eksperci od bezpieczeństwa wprost oskarżyli o szerzenie rosyjskie",
+      "pubDate": "Thu, 16 Apr 2026 09:55:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/3/621fd0b3636b08-948-568-286-148-1520-912.jpg",
+      "dateISO": "2026-04-16T08:55:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Ile naprawdę zarabia się w Biedronce? Oto najnowsze dane",
+      "link": "https://businessinsider.com.pl/praca/zarobki-w-biedronce-na-tyle-moga-liczyc-sprzedawcykasjerzy/4w0pkl3",
+      "description": "Sprawdziliśmy, ile można zarobić u największego pracodawcy w Polsce, czyli w Biedronce. Okazuje się, że na stanowisku sprzedawcy‑kasjera widełki płacowe są szersze, niż wynikało ze styczniowych podwyżek. Do tego dochodzą również różne dodatki.",
+      "pubDate": "Thu, 16 Apr 2026 08:54:04 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/afuk9kpTURBXy9hNmI1Mjk2OGE4YWJlZTAyZjZlZjkxZmUzMzE2MjI0NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T08:54:04.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Ślub w Berlinie, problemy w Polsce. Transkrypcje aktów małżeństwa jednak nie tak szybko?",
+      "link": "https://www.bankier.pl/wiadomosc/Slub-w-Berlinie-problemy-w-Polsce-Transkrypcje-aktow-malzenstwa-jednak-nie-tak-szybko-9114844.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Trwają prace nad rozwiązaniami umożliwiającymi implementację wyroku TSUE ws. małżeństw jednopłciowych; kwestii tej nie można rozwiązać wyłącznie poprzez zmianę rozporządzenia czy modyfikację formularzy w systemach informatycznych - przekazało MSWiA w odpowiedzi na pytania PAP.",
+      "pubDate": "Thu, 16 Apr 2026 09:51:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/6/f8eb17dc9bf589-948-568-2-32-997-598.jpg",
+      "dateISO": "2026-04-16T08:51:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Lublin przestaje być rynkiem okazji. Popyt wyprzedza podaż i podnosi ceny",
+      "link": "https://businessinsider.com.pl/nieruchomosci/ceny-mieszkan-w-lublinie-rosna-koniec-ery-tanich-lokali-coraz-blizej/wnwlpe7",
+      "description": "Sytuacja z cenami mieszkań w Lublinie zaczyna ulegać zmianie. W kolejnej odsłonie cotygodniowego cyklu przyglądamy się rynkowi mieszkaniowemu w stolicy województwa lubelskiego.",
+      "pubDate": "Thu, 16 Apr 2026 08:31:09 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/K1Ok9kpTURBXy84ZTEwYjJiZmQwZTdlNDMyNTZhODY4MmNkNDc0MDE4Ny5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T08:31:09.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Drugi próg podatkowy w górę? Prezydent popiera projekt Polski2050",
+      "link": "https://www.bankier.pl/wiadomosc/Drugi-prog-podatkowy-w-gore-Prezydent-popiera-projekt-Polski2050-9114825.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Dobra inicjatywa, którą popieram – podkreślił prezydent Karol Nawrocki odnosząc się do projektu ustawy klubu Polski 2050 podnoszącego drugi próg podatkowy ze 120 do 140 tys. zł. Prezydent zauważył, że takie rozwiązanie przewiduje też jego projekt ustawy, który trafił „do sejmowej zamrażarki”.",
+      "pubDate": "Thu, 16 Apr 2026 09:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/9/49b627aba0d3b5-948-568-40-80-3960-2375.jpg",
+      "dateISO": "2026-04-16T08:30:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Pięć funkcji iPhone’a, o których mało kto wie. Można się zdziwić",
+      "link": "https://businessinsider.com.pl/technologie/co-kryje-iphone-od-apple-5-funkcji-o-ktorych-mogles-nie-wiedziec/t5zs4zn",
+      "description": "iPhone to nie tylko rozmowy i zdjęcia — to truizm, a mimo to nadal wiele osób nie zdaje sobie sprawy z \"ukrytych\" funkcji telefonów od Apple. A szkoda, bo jedna z nich może nawet uratować życie. Oto pięć praktycznych funkcji, które warto znać.",
+      "pubDate": "Thu, 16 Apr 2026 08:21:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/9bKk9kpTURBXy8zZWMwMjE3MWMzNGE2OTAzMDUxMmM0YjMzYzBlNmUyZi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T08:21:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Lawina L4 i wycofanie z pracy. Kryzys w firmach narasta",
+      "link": "https://www.bankier.pl/wiadomosc/Kryzys-zdrowia-psychicznego-na-rynku-pracy-Rosnie-wypalenie-zawodowe-9114807.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polskie firmy mierzą się z gwałtownym wzrostem zwolnień lekarskich związanych ze zdrowiem psychicznym oraz rosnącym zjawiskiem wycofania z pracy, informuje Radio Zet. Najnowszy raport Antal i dane ZUS pokazują, że wypalenie zawodowe staje się jednym z najpoważniejszych wyzwań na rynku pracy, a praco",
+      "pubDate": "Thu, 16 Apr 2026 09:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/5/02d2587d67130d-948-568-103-0-1740-1044.jpg",
+      "dateISO": "2026-04-16T08:20:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Hurtowe ceny paliw. Jest nowa decyzja Orlenu",
+      "link": "https://businessinsider.com.pl/gospodarka/hurtowe-ceny-paliw-orlen-zdecydowal/294llg0",
+      "description": "Olej napędowy Ekodiesel w cenach hurtowych potaniał o 52 zł za metr sześcienny, a benzyna bezołowiowa Eurosuper 95 o 36 zł — wynika z najnowszego cennika koncernu.",
+      "pubDate": "Thu, 16 Apr 2026 08:16:07 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/_xUk9kpTURBXy9lYWY2MjMzMzhmMDg4NjUwMTc3N2IyNDdjOGFhYzg2MS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T08:16:07.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Zarabia dla Trumpa 20 miliardów w 20 minut. \"Łaski prezydenta nie kupisz, ale Boeing pomoże\"",
+      "link": "https://www.bankier.pl/wiadomosc/Zarabia-dla-Trumpa-20-miliardow-w-20-minut-Laski-prezydenta-nie-kupisz-ale-Boeing-pomoze-9114793.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "\"20 miliardów dolarów w 20 minut\". Jest to dewiza człowieka, który przypisuje sobie skojarzenie Melanii i Donalda Trump. Zampolli krąży między Europą i Bliskim Wschodem, pojawiając się raz u boku kluczowych amerykańskich urzędników, a kiedy indziej w towarzystwie modelek.",
+      "pubDate": "Thu, 16 Apr 2026 09:10:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/c/f5879e171bd73b-948-568-110-0-3890-2333.jpg",
+      "dateISO": "2026-04-16T08:10:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Orlen ponownie obniżył hurtowe ceny paliw",
+      "link": "https://www.bankier.pl/wiadomosc/Orlen-ponownie-obnizyl-hurtowe-ceny-paliw-9114823.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Orlen obniżył w czwartek hurtowe ceny paliw, w tym oleju napędowego Ekodiesel o 52 zł, a benzyny bezołowiowej Eurosuper 95 o 36 zł za metr sześc. - wynika z danych opublikowanych przez koncern. Poprzednio, w środę, oba te podstawowe paliwa także tam staniały.",
+      "pubDate": "Thu, 16 Apr 2026 09:04:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/7/3636f232c01823-948-568-742-419-2257-1354.jpg",
+      "dateISO": "2026-04-16T08:04:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Ceny gazu w Europie powiększają spadki. Zapasy zbliżają się do 30 proc.",
+      "link": "https://www.bankier.pl/wiadomosc/Ceny-gazu-w-Europie-powiekszaja-spadki-Zapasy-zblizaja-sie-do-30-proc-9114820.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ceny gazu w Europie w czwartek powiększają spadki z poprzedniej sesji. Inwestorzy są optymistami co do możliwego wznowienia rozmów pokojowych pomiędzy USA a Iranem - informują maklerzy.",
+      "pubDate": "Thu, 16 Apr 2026 08:58:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/2/109b6b2434b276-948-568-0-129-1920-1151.jpg",
+      "dateISO": "2026-04-16T07:58:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Te produkty mogą zniknąć z Temu. Zmiany uderzą w miliony klientów",
+      "link": "https://businessinsider.com.pl/wiadomosci/nowe-regulacje-ue-uderzaja-w-temu-co-sie-zmieni-dla-klientow/qg7tt02",
+      "description": "Temu dołącza do walki z podróbkami. Platforma została członkiem międzynarodowej koalicji zwalczającej towary podrabiane, która zrzesza ponad 250 organizacji z 40 krajów. Krok chińskiej platformy może skuteczniej zabezpieczyć prawa twórców, przy czym równocześnie usunąć z oferty część towarów, które ",
+      "pubDate": "Thu, 16 Apr 2026 07:56:12 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/TKkk9kpTURBXy81MGU0NDJjMTE3Njg4ZWI0YjJiNWIzYjdiNGU4ODhkYy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T07:56:12.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Gigant koncertowy uznany za monopol. Przełomowy wyrok w USA",
+      "link": "https://businessinsider.com.pl/biznes/wyrok-przeciwko-live-nation-w-usa-gigant-koncertowy-uznany-za-monopol/0my937n",
+      "description": "Live Nation Entertainment oraz jego platforma Ticketmaster zostały uznane przez federalne ławy przysięgłych w USA za podmioty utrzymujące nielegalny monopol na rynku koncertów i sprzedaży biletów. To jeden z najważniejszych wyroków antymonopolowych ostatnich lat.",
+      "pubDate": "Thu, 16 Apr 2026 07:45:28 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Fzak9kpTURBXy8xOWU4OTgxMjNjNjM5Y2UxMTVlZWMyN2FlZWEyMTQzOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T07:45:28.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Tak urosła polska gospodarka. GUS rewiduje dane o dynamice PKB",
+      "link": "https://businessinsider.com.pl/gospodarka/tak-urosla-polska-gospodarka-gus-rewiduje-dane-o-dynamice-pkb/46pg6k9",
+      "description": "Polska gospodarka w obliczu niepewności na świecie — wzrostu cen ropy naftowej i paliw — stoi przed dużym wyzwaniem. Jednak okazuje się, że w końcówce 2025 roku nasz PKB urósł nieco szybciej, niż pierwotnie szacowano. W górę poszedł wynik także w całym 2024 roku — wynika z danych GUS.",
+      "pubDate": "Thu, 16 Apr 2026 07:38:49 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Rt5k9kpTURBXy8zNGQ2MWY5Zjk2NTVhZTQ1N2EzMzU2YjE1ZjAwNTYwMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T07:38:49.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Jacek Frączyk o rynkach: złoto zachowuje się jak nie złoto",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/jacek-fraczyk-o-rynkach-zloto-zachowuje-sie-jak-bitcoin/7ltk2g2",
+      "description": "Złoto w trudnym geopolitycznym otoczeniu tym razem zachowuje się nie jak złoto, a bardziej jak bitcoin. Natomiast mimo trwającej wojny w Iranie rekordy biją spółki w USA. Z kolei bohaterem naszego wykresu dnia został Alior Bank. M.in. o tym przeczytasz w dzisiejszym newsletterze giełdowym Business I",
+      "pubDate": "Thu, 16 Apr 2026 07:27:30 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/mpAk9kpTURBXy9iZDI4YTUyZmYwNmVjZWNlN2ZkOTc5YjA3MTJiZjdhMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T07:27:30.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Renta wdowia pójdzie w górę. Nie wszyscy jednak skorzystają",
+      "link": "https://businessinsider.com.pl/praca/emerytury/renta-wdowia-2027-ile-wyniesie-i-kto-dostanie-wiecej/ndfyp3y",
+      "description": "Choć renta wdowia to stosunkowo nowe świadczenie, już dwukrotnie przeszło ono istotne zmiany. Ich efektem są wyższe wypłaty dla wdów i wdowców. Na dodatek w 2027 r. wdowią rentę czeka kolejna zmiana, która podniesie kwotę o nawet kilkaset złotych.",
+      "pubDate": "Thu, 16 Apr 2026 07:17:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/uBnk9kpTURBXy85OWIxMGEyMzBhNWJkMzMwMDI2OGMzMGRkOTE1MWE3Yy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T07:17:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "„Podatek od telewizora” w rozliczeniu PIT? Fiskus sam ściągnie nowy abonament RTV",
+      "link": "https://www.bankier.pl/wiadomosc/Likwidacja-abonamentu-RTV-stworzy-nowy-podatek-Fiskus-sam-pobierze-oplate-9114785.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zapowiadana likwidacja abonamentu RTV ucieszyła wielu Polaków, jednak radość ta może okazać się przedwczesna. Nowa opłata audiowizualna ma być bowiem automatycznie pobrana przez Urząd Skarbowy podczas rozliczania podatku dochodowego - jak informuje Dziennik.pl. Pierwsze szacunki mówią o kwocie od 8 ",
+      "pubDate": "Thu, 16 Apr 2026 08:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/c/f7ad950f444e9e-948-568-768-460-2288-1372.jpg",
+      "dateISO": "2026-04-16T07:15:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "JSW wchodzi w 2026 rok na wyższych obrotach. Czy to wystarczy, aby pokonać rynek?",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/jsw-zwiekszyla-produkcje-wegla-i-koksu-wyniki-za-pierwszy-kwartal-2026-r/jwpx5nx",
+      "description": "Jastrzębska Spółka Węglowa rozpoczyna rok od mocnego uderzenia produkcyjnego, choć nad kopalniami wciąż krążą cienie globalnej niepewności. Spółka zastrzega, że mimo poprawy parametrów operacyjnych, pozostaje silnie uzależniona od cykliczności rynku stali i globalnych cen surowców.",
+      "pubDate": "Thu, 16 Apr 2026 07:02:03 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/HY3k9kpTURBXy9lYmIxYzY2MWI5MWI0N2Q1OWMzYTEyY2M3ZjlmMjE1Zi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T07:02:03.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Koniec bezpłatnych staży. Minister pracy zapowiada ustawę",
+      "link": "https://businessinsider.com.pl/praca/mlodzi-polacy-dostana-pieniadze-za-staze-minister-zapowiada-ustawe/np1e5q2",
+      "description": "Projekt ustawy zakładającej likwidację bezpłatnych staży już wkrótce trafi do szerokich konsultacji społecznych — poinformowała minister rodziny, pracy i polityki społecznej Agnieszka Dziemianowicz-Bąk.",
+      "pubDate": "Thu, 16 Apr 2026 07:00:27 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Ratk9kpTURBXy80YjRkZjZmZTRjY2VlNzFhMTFkZGRhNTc4YWNkNzQ3Mi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T07:00:27.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Koniec z kończeniem kariery po dwóch egzaminach. Trzecia szansa dla przyszłych sędziów staje się faktem",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-z-konczeniem-kariery-po-dwoch-egzaminach-Trzecia-szansa-dla-przyszlych-sedziow-staje-sie-faktem-9114709.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W czwartek weszła w życie nowelizacja ustawy o Krajowej Szkole Sądownictwa i Prokuratury, która zwiększa z dwóch do trzech liczbę możliwych podejść do egzaminu sędziowskiego lub prokuratorskiego.",
+      "pubDate": "Thu, 16 Apr 2026 08:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/1/e1273b7de9c4a7-948-568-420-0-3200-1920.jpg",
+      "dateISO": "2026-04-16T07:00:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "ZUS daje 12 dni. Po tym terminie może wstrzymać emeryturę",
+      "link": "https://businessinsider.com.pl/praca/emerytury/kiedy-zus-moze-wstrzymac-emeryture-wyjasniamy-zasady/ege70f2",
+      "description": "ZUS przypomina seniorom, że niedopełnienie jednego obowiązku może wywołać problemy z wypłatą emerytury lub całkowicie zablokować świadczenie. Należy to zrobić najpóźniej na 12 dni roboczych przed terminem, w którym ZUS wypłaca świadczenie.",
+      "pubDate": "Thu, 16 Apr 2026 06:56:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/yPZk9kpTURBXy8xZDI0Nzk3MmZhZjdmYjUzYTFmYTBiNmQwN2E3ODg3ZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T06:56:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Eksportowy rajd Pekinu. Chiński smok odporny na blokadę Cieśniny Ormuz",
+      "link": "https://www.bankier.pl/wiadomosc/Eksportowy-rajd-Pekinu-Chinski-smok-odporny-na-blokade-Ciesniny-Ormuz-9114780.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Chińska gospodarka wzrosła w pierwszym kwartale o 5 proc. rok do roku – wynika z opublikowanych w czwartek danych urzędu statystycznego. Wynik ten znacząco przekroczył oczekiwania analityków, łagodząc obawy przed skutkami toczącej się wojny na Bliskim Wschodzie. Słaby pozostaje popyt krajowy.",
+      "pubDate": "Thu, 16 Apr 2026 07:39:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/5/deebd783c33833-948-568-12-0-2388-1432.jpg",
+      "dateISO": "2026-04-16T06:39:00.000Z",
       "dateFormatted": "16 kwietnia 2026"
     },
     {
@@ -32,7 +404,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/4/7/582d90d6ff8118-948-568-0-0-948-568.png",
+      "image": "http://galeria.bankier.pl/p/9/b/b3d1713add5f0c-948-568-0-0-948-568.jpg",
       "dateISO": "2026-04-16T06:28:00.000Z",
       "dateFormatted": "16 kwietnia 2026"
     },
@@ -49,6 +421,18 @@
       "dateFormatted": "16 kwietnia 2026"
     },
     {
+      "title": "Karol Nawrocki o projekcie podatkowym Polski 2050",
+      "link": "https://businessinsider.com.pl/gospodarka/podatki/karol-nawrocki-poparl-pomysl-polski-2050-chodzi-o-zmiane-w-podatkach/qqs2jw9",
+      "description": "Wczoraj Polska 2050 zaprezentowała projekt ustawy zakładający podniesienie drugiego progu podatkowego ze 120 tys. zł do 140 tys. zł. Głos w tej sprawie zabrał prezydent Karol Nawrocki.",
+      "pubDate": "Thu, 16 Apr 2026 06:22:32 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Snwk9kpTURBXy8yZDBlNWJmZmQwNDk0ZjlkNTQzZDNlNmRmNWVmNDg2Mi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T06:22:32.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
       "title": "Polacy przeciwni pensji dla pierwszej damy",
       "link": "https://www.bankier.pl/wiadomosc/Polacy-przeciwni-pensji-dla-pierwszej-damy-9114772.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "51 proc. ankietowanych jest przeciwnych, by pierwsza dama otrzymywała stałe miesięczne wynagrodzenie za pełnienie funkcji reprezentacyjnych, 49 proc. popiera takie rozwiązanie - wynika z sondażu Instytutu Badań Pollster, którego wyniki opublikował w czwartek \"Super Express\".",
@@ -58,6 +442,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/b/4/7d19deab97f5e8-948-568-22-142-2977-1786.jpg",
       "dateISO": "2026-04-16T06:15:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Niemcy zmieniają podejście do Polaków. Oferty pracy inne niż zwykle",
+      "link": "https://businessinsider.com.pl/gospodarka/koniec-z-latwa-praca-w-niemczech-polacy-musza-spelniac-kluczowy-warunek/xh871gr",
+      "description": "Jeszcze kilka lat temu niemieccy pracodawcy koncentrowali się głównie na rekrutacji niewykwalifikowanych pracowników fizycznych z Polski. Obecnie jednak widać wyraźne i trwałe przesunięcie w stronę kandydatów posiadających doświadczenie zawodowe.",
+      "pubDate": "Thu, 16 Apr 2026 06:08:14 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/_Lck9kpTURBXy85ODRmMWJmM2VhZjg0NWU3Y2IzZTgwM2E4MzkxOWM1OS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-16T06:08:14.000Z",
       "dateFormatted": "16 kwietnia 2026"
     },
     {
@@ -74,12 +470,12 @@
     },
     {
       "title": "Zysk BOŚ wystrzelił o 56 proc. \"Zielony bank\" wraca do gry z miliardami na ekologię",
-      "link": "https://www.bankier.pl/wiadomosc/Zysk-netto-grupy-BOS-w-2025-r-wyniosl-124-5-mln-zl-tj-56-3-proc-wiecej-rdr-9114758.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Zysk-netto-grupy-BOS-w-2025-r-wyniosl-124-5-mln-zl-tj-56-3-proc-wiecej-rdr-9114758.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Grupa BOŚ zakończyła 2025 rok z zyskiem netto na poziomie 124,5 mln zł, co oznacza wzrost o ponad 56,3 proc. w stosunku do roku ubiegłego - poinformował bank w komunikacie prasowym.",
       "pubDate": "Thu, 16 Apr 2026 06:58:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/6/10dc453ad4c388-948-568-0-88-1773-1063.jpg",
       "dateISO": "2026-04-16T05:58:00.000Z",
       "dateFormatted": "16 kwietnia 2026"
@@ -111,7 +507,7 @@
     {
       "title": "Nie żyje guru inwestorów na całym świecie. Miał 89 lat",
       "link": "https://businessinsider.com.pl/gielda/byl-znana-postacia-w-swiecie-finansow-nie-zyje-mark-mobius/tmeww79",
-      "description": "W wieku 89 lat zmarł Mark Mobius — jeden z najbardziej rozpoznawalnych inwestorów na świecie i propagator inwestowania na rynkach wschodzących.",
+      "description": "W wieku 89 lat zmarł jeden z najbardziej rozpoznawalnych inwestorów na świecie i propagator inwestowania na rynkach wschodzących.",
       "pubDate": "Thu, 16 Apr 2026 05:37:25 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -145,162 +541,6 @@
       "dateFormatted": "16 kwietnia 2026"
     },
     {
-      "title": "Wojna w Iranie niepokoi świat, a tymczasem chińska gospodarka przyspiesza. Wzrost przekroczył oczekiwania",
-      "link": "https://businessinsider.com.pl/gospodarka/chiny-z-lepszym-pkb-niz-przewidywano-wojna-w-iranie-nie-szkodzi-ich-gospodarce/cvdvv3g",
-      "description": "Ekonomiści ostrzegają, że gospodarczym zwycięzcą wojny z USA i Izraela z Iranem mogą okazać się Chiny. Najnowsze dane pokazują, że może być w tym sporo racji.",
-      "pubDate": "Thu, 16 Apr 2026 05:32:47 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/xr2k9kpTURBXy83YWNhM2ZkODk4NTZhYmJmZGNmMmYwM2NiNGY1MmE5NC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T05:32:47.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Rząd chce uprościć procedury dla mniejszych inwestycji drogowych",
-      "link": "https://www.bankier.pl/wiadomosc/Rzad-chce-uproscic-procedury-dla-mniejszych-inwestycji-drogowych-9114736.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Projekt zmian w przepisach środowiskowych dla inwestycji drogowych zakłada m.in. wyłączenie części krótkich odcinków dróg z obowiązku uzyskiwania decyzji środowiskowej - poinformowało PAP biuro prasowe Ministerstwa Infrastruktury.",
-      "pubDate": "Thu, 16 Apr 2026 06:15:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/2/5fb5e3a686c740-948-568-0-0-3417-2050.jpg",
-      "dateISO": "2026-04-16T05:15:00.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Kurs JPY/PLN 16 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-jena-japonskiego-dzisiaj-po-ile-jest-jen-japonski-16-kwietnia-2026-r/b0eks93",
-      "description": "Jadąc do Japonii czy to w celach turystycznych, czy też biznesowych, warto znać aktualny kurs jena (JPY). Z tego artykułu dowiesz się, jaki jest aktualny kurs japońskiej waluty na dzień 16 kwietnia 2026, a także jak kurs zmienia się w ujęciu tygodniowym. Ułatwi to podjąć decyzję, kiedy kupić jeny.",
-      "pubDate": "Thu, 16 Apr 2026 05:03:53 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/SoJk9kpTURBXy81NmY2OGRiMTBiNjdhM2ZhOWNiNDU0ZjNhY2EzM2ViYy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T05:03:53.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Kurs EUR/PLN 16 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-euro-dzisiaj-po-ile-jest-euro-16-kwietnia-2026-r/67chnj8",
-      "description": "Poznaj zmiany kursu EUR/PLN dla dnia 16 kwietnia 2026. Jak dziś wygląda euro względem złotego? Jak silna jest najważniejsza waluta w Unii Europejskiej? Czy aktualnie opłaca się wymieniać euro na polskie złotówki? Wczoraj wartość euro wyniosła: 4,2361 zł.",
-      "pubDate": "Thu, 16 Apr 2026 05:03:43 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/CSVk9kpTURBXy83NGViYjdhOGQ3ZGYxMDY2NGY2YmE5MTZlNDJkNDAzNy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T05:03:43.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Kurs USD/PLN 16 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-dolara-amerykanskiego-dzisiaj-po-ile-jest-dolar-amerykanski-16-kwietnia-2026-r/8m4mm3h",
-      "description": "Poznaj bieżący kurs dolara na dzień 16 kwietnia 2026. Informujemy, jak przedstawia się obecny kurs USD oraz jak zmienił się on w perspektywie tygodniowej. Wczorajszy kurs amerykańskiej waluty to 3,5870 zł.",
-      "pubDate": "Thu, 16 Apr 2026 05:03:38 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/BZ3k9kpTURBXy8xZWRmMWIzMjlmNjgyOWUzOGY1ZmFlYzY4Mjg4NDNhMi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T05:03:38.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Kurs CHF/PLN 16 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-franka-szwajcarskiego-dzisiaj-po-ile-jest-frank-szwajcarski-16-kwietnia-2026-r/785cy5b",
-      "description": "Poznaj bieżący kurs franka szwajcarskiego oraz zmianę wartości CHF dzień do dnia, a także tydzień do tygodnia. Jakim zmianom uległ frank w tym okresie? Czy opłaca się dziś wymienić franki na złotówki? Ten artykuł pomoże Ci podjąć decyzję. Wczorajszy kurs CHF/PLN to 4,5938 zł.",
-      "pubDate": "Thu, 16 Apr 2026 05:03:28 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/0wvk9kpTURBXy84MDI3MzFlODBkMTQ3MTMyZTJlNTE2NjMxMTQ4MmNjZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T05:03:28.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Kurs GBP/PLN 16 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-funtow-brytyjskich-dzisiaj-po-ile-jest-funt-brytyjski-16-kwietnia-2026-r/xnwkt3f",
-      "description": "W tym artykule znajdują się informacje o bieżącym kursie funta brytyjskiego 16 kwietnia 2026. Wczorajszy wynosił4,8700 zł, jak zmienił się dziś? Sprawdzisz poniżej.",
-      "pubDate": "Thu, 16 Apr 2026 05:03:23 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/adck9kpTURBXy82MmE1MzM1MDUyZmYzYWFkN2NhM2UzMDYyYmUxZTUzMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T05:03:23.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Kurs CZK/PLN 16 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-czeskiej-dzisiaj-po-ile-jest-korona-czeska-16-kwietnia-2026-r/btvcrn4",
-      "description": "Przedstawiamy notowania aktualnego kursu waluty CZK z dnia 16 kwietnia 2026. Wczoraj wynosił on:0,1741 zł.",
-      "pubDate": "Thu, 16 Apr 2026 05:03:11 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/iifk9kpTURBXy85MDc1YmViZGFhMWM4OTJhYWQ4ODAzMmQzYTAwYmM2MS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T05:03:11.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Kurs NOK/PLN 16 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-norweskiej-dzisiaj-po-ile-jest-korona-norweska-16-kwietnia-2026-r/61hw6z6",
-      "description": "Jak zmienił się kurs korony norweskiej od wczoraj? Czy złoty słabnie, czy może umacnia się względem waluty Norwegów? To ważna informacja dla wszystkich, którzy aktualnie pracują lub wybierają się do Skandynawii. Sprawdź, jak dziś prezentuje się kurs NOK.",
-      "pubDate": "Thu, 16 Apr 2026 05:03:08 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/zsPk9kpTURBXy85OTY3Mjg4MjM2ZGIzY2Y0N2E3MWFkNWVhODI1NWY2Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T05:03:08.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Kurs SEK/PLN 16 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-szwedzkiej-dzisiaj-po-ile-jest-korona-szwedzka-16-kwietnia-2026-r/88hm3gc",
-      "description": "Jeśli chcesz poznać aktualny kurs korony szwedzkiej, to jesteś we właściwym miejscu. Tutaj znajdziesz bieżące notowania SEK i sprawdzisz, czy polski złoty umacnia się, czy słabnie względem szwedzkiej waluty. Wczorajszy kurs wynosił 0,3925 zł.",
-      "pubDate": "Thu, 16 Apr 2026 05:02:56 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/8Kwk9kpTURBXy9iYTA4ODkyYWI0MTcxMWIwMjRiOTEyM2ZjZjI1YjMxMi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T05:02:56.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Kurs DKK/PLN 16 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-dunskiej-dzisiaj-po-ile-jest-korona-dunska-16-kwietnia-2026-r/6cpj5n4",
-      "description": "Jeśli planujesz wyjazd do Danii lub korzystasz z koron duńskich w swojej działalności biznesowej, warto sprawdzić bieżące notowania kursu w stosunku do złotego. W tym artykule znajdziesz aktualny kurs korony duńskiej i będziesz mógł na bieżąco na wykresie sprawdzać zmiany notowań. Wczoraj kurs DKK w",
-      "pubDate": "Thu, 16 Apr 2026 05:02:53 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/newk9kpTURBXy80NzMwMDUzMjI3OTViZDk2MTk1Y2JiODBmM2E4Yjk0Yy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T05:02:53.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Kurs HUF/PLN 16 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-forinta-wegierskiego-dzisiaj-po-ile-jest-forint-wegierski-16-kwietnia-2026-r/5txbehl",
-      "description": "Poznaj zmiany kursu HUF/PLN 16 kwietnia 2026. Jak dziś wygląda siła węgierskiej waluty względem złotego? Czy jadąc np. na urlop na Węgry, opłaca się dziś wymienić pieniądze? Bieżący kurs forinta sprawdzisz w tym artykule.",
-      "pubDate": "Thu, 16 Apr 2026 05:02:42 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/c66k9kpTURBXy9jYzA5MTc0YzkyMDU5NjczOWM4M2NmMDc4YmI1YjQ5Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T05:02:42.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Kurs TRY/PLN 16 kwietnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-liry-turckiej-dzisiaj-po-ile-jest-lira-turecka-16-kwietnia-2026-r/139cy42",
-      "description": "Oto bieżący kurs liry tureckiej. Poznaj wahania waluty Turcji w ujęciu dziennym, a także tygodniowym. Aktualny kurs liry warto poznać m.in. przed wyjazdem na wakacje do jednego z tureckich kurortów.",
-      "pubDate": "Thu, 16 Apr 2026 05:02:38 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/3Csk9kpTURBXy9lOTRmN2IyNzk2NTQ3MmRiZTAzNTg0ZTAyNDFkNjUwZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T05:02:38.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
       "title": "ZUS przeliczył emerytury czerwcowe. Ponad 130 tys. osób otrzymało wyższe świadczenia",
       "link": "https://www.bankier.pl/wiadomosc/ZUS-przeliczyl-emerytury-czerwcowe-Ponad-130-tys-osob-otrzymalo-wyzsze-swiadczenia-9114727.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Po przeliczeniu ponad 219 tys. emerytur czerwcowych 133,1 tys. osób otrzymało wyższe świadczenia – poinformował PAP Zakład Ubezpieczeń Społecznych. Średnia podwyżka świadczenia to 163,36 zł miesięcznie. ZUS przeliczył emerytury z urzędu, nie trzeba było składać wniosków.",
@@ -325,30 +565,6 @@
       "dateFormatted": "16 kwietnia 2026"
     },
     {
-      "title": "Prof. Postuła: 6,3 mld zł na obronność i technologie. Budujemy odporność gospodarki",
-      "link": "https://www.bankier.pl/wiadomosc/Prof-Postula-6-3-mld-zl-na-obronnosc-i-technologie-Budujemy-odpornosc-gospodarki-9114245.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Bank Gospodarstwa Krajowego uruchamia program, który może objąć nawet 7 tys. firm i wygenerować ponad 6,3 mld zł finansowania dla gospodarki. Wsparcie ma być dostępne „tu i teraz”, a jego celem jest rozwój sektora obronnego i technologii podwójnego zastosowania. – Przechodzimy od potencjału do realn",
-      "pubDate": "Thu, 16 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/a/1f401dd0bd0aa3-948-568-629-878-2575-1545.jpg",
-      "dateISO": "2026-04-16T05:00:00.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "TSUE domknie ostatnie frankowe luki? Ważny dzień dla kredytobiorców",
-      "link": "https://www.bankier.pl/wiadomosc/TSUE-domknie-ostatnie-frankowe-luki-Wazny-dzien-dla-kredytobiorcow-9114306.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Jedno z ostatnich zagadnień prawnych ważnych dla frankowiczów spierających się z bankami ma szansę doczekać się rozstrzygnięcia. Trybunał Sprawiedliwości Unii Europejskiej 16 kwietnia zajmie się aż trzema, niezależnymi od siebie, zestawami pytań.",
-      "pubDate": "Thu, 16 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/7/2ebf3089cb6a93-948-568-1045-584-1355-813.png",
-      "dateISO": "2026-04-16T05:00:00.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
       "title": "Bitcoin u siebie, czyli jak nie utonąć z giełdą. Wszystko o portfelach kryptowalut",
       "link": "https://www.bankier.pl/wiadomosc/Bitcoin-u-siebie-czyli-jak-nie-utonac-z-gielda-Wszystko-o-portfelach-kryptowalut-9111915.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W świecie finansów mawiają: \"ufaj, ale sprawdzaj\". W świecie kryptowalut przez lata dodawano do tego: \"nie twoje klucze, nie twoje bitcoiny\". Aktualna sytuacja wokół giełdy zondacrypto pokazuje, że lekcje z przeszłości wciąż są przez wielu odrabiane na własnym portfelu. Zapraszam na kompletny poradn",
@@ -357,6 +573,18 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/6/2a92cb77c36488-948-568-0-352-3000-1799.jpg",
+      "dateISO": "2026-04-16T05:00:00.000Z",
+      "dateFormatted": "16 kwietnia 2026"
+    },
+    {
+      "title": "Prof. Postuła: 6,3 mld zł na obronność i technologie. Budujemy odporność gospodarki",
+      "link": "https://www.bankier.pl/wiadomosc/Prof-Postula-6-3-mld-zl-na-obronnosc-i-technologie-Budujemy-odpornosc-gospodarki-9114245.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Bank Gospodarstwa Krajowego uruchamia program, który może objąć nawet 7 tys. firm i wygenerować ponad 6,3 mld zł finansowania dla gospodarki. Wsparcie ma być dostępne „tu i teraz”, a jego celem jest rozwój sektora obronnego i technologii podwójnego zastosowania. – Przechodzimy od potencjału do realn",
+      "pubDate": "Thu, 16 Apr 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/a/1f401dd0bd0aa3-948-568-629-878-2575-1545.jpg",
       "dateISO": "2026-04-16T05:00:00.000Z",
       "dateFormatted": "16 kwietnia 2026"
     },
@@ -385,14 +613,14 @@
       "dateFormatted": "16 kwietnia 2026"
     },
     {
-      "title": "Inflacyjne hity marca 2026. GUS wydłużył \"listę przebojów\"",
-      "link": "https://www.bankier.pl/wiadomosc/Inflacyjne-hity-marca-2026-GUS-wydluzyl-liste-przebojow-9114242.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W marcu 2026 roku szybko drożały nie tylko paliwa. Lista nieoczywistych \"inflacyjnych hitów\" uległa znacznemu wydłużeniu za sprawą statystyków GUS-u, którzy dodali mnóstwo nowych pozycji.",
+      "title": "Do 2030 roku połowa klientów mBanku będzie spać spokojnie. Bank wpisał \"zdrowe finanse\" do strategii",
+      "link": "https://www.bankier.pl/wiadomosc/Do-2030-roku-polowa-klientow-mBanku-bedzie-spac-spokojnie-Bank-wpisal-zdrowe-finanse-do-strategii-9112890.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "mBank uczynił poprawę kondycji finansowej klientów formalnym elementem strategii biznesowej. Do końca dekady co najmniej połowa z nich ma mieć stabilne finanse i poczucie kontroli nad swoim budżetem. Bank zapowiada też nowe narzędzie w aplikacji – Kompas finansowy.",
       "pubDate": "Thu, 16 Apr 2026 06:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/f/bbaa9369d977b1-948-568-67-97-2932-1759.jpg",
+      "image": "http://galeria.bankier.pl/p/f/5/d9d85f9f6d4c88-948-568-0-64-2000-1199.jpg",
       "dateISO": "2026-04-16T05:00:00.000Z",
       "dateFormatted": "16 kwietnia 2026"
     },
@@ -409,14 +637,14 @@
       "dateFormatted": "16 kwietnia 2026"
     },
     {
-      "title": "Do 2030 roku połowa klientów mBanku będzie spać spokojnie. Bank wpisał \"zdrowe finanse\" do strategii",
-      "link": "https://www.bankier.pl/wiadomosc/Do-2030-roku-polowa-klientow-mBanku-bedzie-spac-spokojnie-Bank-wpisal-zdrowe-finanse-do-strategii-9112890.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "mBank uczynił poprawę kondycji finansowej klientów formalnym elementem strategii biznesowej. Do końca dekady co najmniej połowa z nich ma mieć stabilne finanse i poczucie kontroli nad swoim budżetem. Bank zapowiada też nowe narzędzie w aplikacji – Kompas finansowy.",
+      "title": "Inflacyjne hity marca 2026. GUS wydłużył \"listę przebojów\"",
+      "link": "https://www.bankier.pl/wiadomosc/Inflacyjne-hity-marca-2026-GUS-wydluzyl-liste-przebojow-9114242.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W marcu 2026 roku szybko drożały nie tylko paliwa. Lista nieoczywistych \"inflacyjnych hitów\" uległa znacznemu wydłużeniu za sprawą statystyków GUS-u, którzy dodali mnóstwo nowych pozycji.",
       "pubDate": "Thu, 16 Apr 2026 06:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/5/d9d85f9f6d4c88-948-568-0-64-2000-1199.jpg",
+      "image": "http://galeria.bankier.pl/p/c/f/bbaa9369d977b1-948-568-67-97-2932-1759.jpg",
       "dateISO": "2026-04-16T05:00:00.000Z",
       "dateFormatted": "16 kwietnia 2026"
     },
@@ -433,18 +661,6 @@
       "dateFormatted": "16 kwietnia 2026"
     },
     {
-      "title": "\"Suma szczęścia i wszystkich nadziei\" prysła. Sprawdzamy, czy akcje i obligacje dadzą jeszcze zarobić",
-      "link": "https://businessinsider.com.pl/poradnik-finansowy/inwestowanie/to-byl-miesiac-niespodzianek-na-gieldzie-oto-co-dalej-z-obligacjami-i-akcjami-analiza/43yxtfp",
-      "description": "\"W marcu niemalże wszystko poszło w stronę inną, niż zakładano\" — przyznają eksperci mTFI, komentując turbulencje wywołane konfliktem na Bliskim Wschodzie. Skokowe wzrosty cen ropy i obawy o inflację zmusiły zarządzających do defensywnych ruchów w portfelach. Dowiedz się, jak w dobie niepewności chr",
-      "pubDate": "Thu, 16 Apr 2026 04:53:12 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/RBlk9kpTURBXy84ZTYxNDk2ZTk3MzkzZTA5ODRkODZhYTg0Mjc3ZDAxNi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T04:53:12.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
       "title": "Pracodawcy zapłacą za każdy staż? „Wpisem do CV nie opłacisz rachunków”",
       "link": "https://www.bankier.pl/wiadomosc/Pracodawcy-zaplaca-za-kazdy-staz-Wpisem-do-CV-nie-oplacisz-rachunkow-9114722.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Projekt ustawy o likwidacji bezpłatnych staży zostanie w przyszłym tygodniu skierowany do szerokich konsultacji – poinformowała PAP ministra rodziny, pracy i polityki społecznej Agnieszka Dziemianowicz-Bąk. Dodała, że zmiany mają wejść w życie jeszcze w tej kadencji Sejmu.",
@@ -457,79 +673,7 @@
       "dateFormatted": "16 kwietnia 2026"
     },
     {
-      "title": "Zawodowe zmartwienia Polaków. Tego boimy się bardziej niż reszta Europy",
-      "link": "https://businessinsider.com.pl/praca/zawodowy-spokoj-znika-polacy-czuja-go-coraz-rzadziej/6v4mqpl",
-      "description": "Rynek pracy pełen jest dziś niepokoju, ale to, kto boi się najbardziej — i dlaczego — wcale nie jest oczywiste.",
-      "pubDate": "Thu, 16 Apr 2026 04:44:20 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/kT9k9kpTURBXy8wODI4NGNjYWRlOWUxOWUxNDE1OTgwYjg0YWYyM2FlNS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T04:44:20.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Tarcie w koalicji i w Sejmie. Poszło o najem krótkoterminowy",
-      "link": "https://businessinsider.com.pl/prawo/podatki/projekt-ustawy-o-najmie-krotkoterminowym-rejestracja-kary-zakazy-spor-w-sejmie/lct62tt",
-      "description": "Jedni zarzucali, że zmiany w najmie krótkoterminowym to naruszenie prawa własności, a drudzy podkreślali, że to konieczność uregulowania sytuacji mieszkańców, którzy mierzą się uciążliwymi imprezami urządzanymi przez turystów.",
-      "pubDate": "Thu, 16 Apr 2026 04:36:18 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/vg2k9kpTURBXy85NWEwYWIzZGI4MTkxYjQ4YmMxMzU2NWQ2MGU0MDhhOC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T04:36:18.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Frankowicze mogą dostać mieszkania za darmo. TSUE rozstrzyga trzy kluczowe sprawy",
-      "link": "https://businessinsider.com.pl/finanse/sadny-czwartek-dla-bankow-tsue-analizuje-przedawnienie-w-sprawach-kredytow/clzd49t",
-      "description": "W czwartek Trybunał Sprawiedliwości Unii Europejskiej wyda wyroki w trzech sprawach dotyczących przedawnienia roszczeń banków. W praktyce stawką jest to, czy frankowicze będą mieć nie tylko darmowy kredyt, ale wręcz darmowe mieszkanie.",
-      "pubDate": "Thu, 16 Apr 2026 04:24:28 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/zo3k9kpTURBXy80Y2JiMzNmYmE5MWVmMWUyMWFjZTc4ZDY3YjhlNGUwOS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T04:24:28.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "To wtedy Europie zabraknie paliw. Szef Unimotu podał termin: to największy kryzys w dziejach",
-      "link": "https://businessinsider.com.pl/gielda/surowce/ile-jeszcze-moze-kosztowac-paliwo-w-polsce-prezes-unimotu-nie-ma-limitu/2gbc69n",
-      "description": "Jeśli cieśnina Ormuz nie zostanie odblokowana, Europa wkrótce zacznie odczuwać brak paliw — ocenia Adam Sikorski, prezes Unimotu w Onet Rano Finansowo. Wskazał, kiedy to nastąpi.",
-      "pubDate": "Thu, 16 Apr 2026 04:19:02 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/XQFk9kpTURBXy9kM2IxMDllMDUzZGQ3NDkxNDI5ZGYwNjUzNjkxNmNlYy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T04:19:02.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Jest propozycja zmian w podatkach. Tyle można zyskać [KWOTY]",
-      "link": "https://businessinsider.com.pl/gospodarka/podatki/wyzszy-prog-podatkowy-tyle-mozna-zyskac-kwoty/46le581",
-      "description": "Nawet kilka tysięcy złotych w skali roku na podatkach mogliby zyskać Polacy, gdyby poselski projekt podwyżki progu podatkowego wszedł w życie. Mamy konkretne wyliczenia. Zaoszczędzone pieniądze mogłyby wystarczyć na całkiem solidne wakacje za granicą.",
-      "pubDate": "Thu, 16 Apr 2026 04:11:38 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/_S1k9kpTURBXy8wNzk4NDM4ZTJhZGExYjNkMWE3YWE3YjY3MTNlMzcxNC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-16T04:11:38.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "Nawrocki, Tusk albo... Polacy wskazali winnych paraliżu Trybunału",
-      "link": "https://www.bankier.pl/wiadomosc/Nawrocki-Tusk-albo-Polacy-wskazali-winnych-paralizu-Trybunalu-9114705.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ponad 34 proc. ankietowanych uważa, że Karol Nawrocki, nie przyjmując ślubowania od czworga sędziów, eskaluje kryzys wokół Trybunału Konstytucyjnego – wynika z badania opinii publicznej IBRIS, którego wyniki publikuje w czwartek „Rzeczpospolita”.",
-      "pubDate": "Thu, 16 Apr 2026 04:28:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/9/49b627aba0d3b5-948-568-40-80-3960-2375.jpg",
-      "dateISO": "2026-04-16T03:28:00.000Z",
-      "dateFormatted": "16 kwietnia 2026"
-    },
-    {
-      "title": "„Wkrótce rozejm w Libanie”. Donald Trump dąży do wygaszenia konfliktu",
+      "title": "„Wkrótce rozejm w Libanie”. Donald Trump dąży do wygaszenia konfliktu, Liban \"nic nie wie\"",
       "link": "https://www.bankier.pl/wiadomosc/Wkrotce-rozejm-w-Libanie-Donald-Trump-dazy-do-wygaszenia-konfliktu-9114701.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Prezydent USA Donald Trump cieszyłby się z zawieszenia broni w Libanie - napisał w środę portal Axios. Według brytyjskiego dziennika „Financial Times”, który powołuje się na libańskie władze, „wkrótce” należy spodziewać się rozejmu między Izraelem i Libanem.",
       "pubDate": "Thu, 16 Apr 2026 03:01:00 +0100",
@@ -601,18 +745,6 @@
       "dateFormatted": "15 kwietnia 2026"
     },
     {
-      "title": "Starmer: Nie ulegnę presji Trumpa, nie damy się wciągnąć w wojnę",
-      "link": "https://www.bankier.pl/wiadomosc/Starmer-Nie-ulegne-presji-Trumpa-nie-damy-sie-wciagnac-w-wojne-9114651.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Brytyjski premier Keir Starmer powtórzył w środę, że nie ulegnie presji amerykańskiego prezydenta Donalda Trumpa i nie pozwoli na wciągniecie kraju w wojnę na Bliskim Wschodzie. Wcześniej Trump po raz kolejny krytykował stan stosunków USA i Wielkiej Brytanii.",
-      "pubDate": "Wed, 15 Apr 2026 20:26:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/c/99631b38e07b3b-948-568-0-0-3233-1940.jpg",
-      "dateISO": "2026-04-15T19:26:00.000Z",
-      "dateFormatted": "15 kwietnia 2026"
-    },
-    {
       "title": "Wojna domowa w PiS. Morawiecki buduje własną armię, Kaczyński grozi wyrzuceniem z list",
       "link": "https://www.bankier.pl/wiadomosc/Wojna-domowa-w-PiS-Morawiecki-buduje-wlasna-armie-Kaczynski-grozi-wyrzuceniem-z-list-9114650.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Przebieg spotkania prezydium Komitetu Politycznego PiS wykazał, że większość władz partii wyraziła zaniepokojenie inicjatywą stowarzyszenia b. premiera Mateusza Morawieckiego - przekazał PAP rzecznik PiS Rafał Bochenek. Według informacji PAP stowarzyszenie ma być zarejestrowane do końca kwietnia.",
@@ -637,42 +769,6 @@
       "dateFormatted": "15 kwietnia 2026"
     },
     {
-      "title": "Bogucki o wecie ustawy o kryptoaktywach: Nie ma żadnych szans na jego odrzucenie",
-      "link": "https://www.bankier.pl/wiadomosc/Bogucki-o-wecie-ustawy-o-kryptoaktywach-Nie-ma-zadnych-szans-na-jego-odrzucenie-9114630.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Nie ma żadnych szans na odrzucenie weta do ustawy o kryptoaktywach; marnujemy czas - powiedział w środę szef kancelarii prezydenta Zbigniew Bogucki podczas sejmowej komisji rozpatrujacej prezydenckie weto w tej sprawie. Zapewnił, że prezydent popiera regulacje ws. ochrony konsumentów na rynku krypto",
-      "pubDate": "Wed, 15 Apr 2026 19:34:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/5/1250788cd4913f-948-568-40-90-3960-2375.jpg",
-      "dateISO": "2026-04-15T18:34:00.000Z",
-      "dateFormatted": "15 kwietnia 2026"
-    },
-    {
-      "title": "USA dławią Iran na morzu. CENTCOM: Żaden statek nie przeszedł blokady",
-      "link": "https://www.bankier.pl/wiadomosc/USA-dlawia-Iran-na-morzu-CENTCOM-Zaden-statek-nie-przeszedl-blokady-9114619.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Dowództwo Centralne USA podało w środę, że w ciągu dwóch pierwszych dób amerykańskiej blokady irańskich portów żaden statek się przez nią nie przedostał, a 9 jednostek płynących z irańskich portów lub do nich zawróciło na polecenie sił USA.",
-      "pubDate": "Wed, 15 Apr 2026 19:16:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/7/f0cbc7b637de66-948-568-259-9-3580-2148.jpg",
-      "dateISO": "2026-04-15T18:16:00.000Z",
-      "dateFormatted": "15 kwietnia 2026"
-    },
-    {
-      "title": "Biliony w Brukseli. Parlament Europejski chce budżetu większego o 10 procent",
-      "link": "https://www.bankier.pl/wiadomosc/Boj-o-biliony-w-Brukseli-Parlament-Europejski-chce-budzetu-wiekszego-o-10-procent-9114602.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Komisja budżetowa w Parlamencie Europejskim zaproponowała w środę stanowisko w sprawie nowego budżetu UE, który będzie większy o 10 proc. w stosunku do tego, z czym wyszła wcześniej Komisja Europejska. Europosłowie opowiedzieli się za utrzymaniem podziału pieniędzy na polityki sektorowe, jak do tej ",
-      "pubDate": "Wed, 15 Apr 2026 18:44:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/1/4472c3921c7ca1-948-568-0-79-1995-1196.jpg",
-      "dateISO": "2026-04-15T17:44:00.000Z",
-      "dateFormatted": "15 kwietnia 2026"
-    },
-    {
       "title": "Niemcy budują \"żelazną kopułę\" nad Ukrainą. Setki rakiet Patriot w drodze na front",
       "link": "https://www.bankier.pl/wiadomosc/Niemcy-buduja-zelazna-kopule-nad-Ukraina-Setki-rakiet-Patriot-w-drodze-na-front-9114586.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Kilkaset pocisków do systemów obrony przeciwlotniczej Patriot finansowanych przez Niemcy zostanie dostarczanych Ukrainie w ciągu najbliższych czterech lat - oświadczył w środę niemiecki minister obrony Boris Pistorius.",
@@ -685,18 +781,6 @@
       "dateFormatted": "15 kwietnia 2026"
     },
     {
-      "title": "Polskie służby \"dobrze słyszą\". Przełomowy raport o potędze naszego radiowywiadu",
-      "link": "https://www.bankier.pl/wiadomosc/Polskie-sluzby-dobrze-slysza-Przelomowy-raport-o-potedze-naszego-radiowywiadu-9114585.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sejmowa Komisja ds. Służb Specjalnych zapoznała się z informacjami o pracy wywiadu radioelektronicznego obu służb wywiadowczych – AW i SWW – i pozytywnie je oceniła – przekazał w środę PAP jej przewodniczący Marek Biernacki (PSL-TD). Spotkanie było ściśle tajne.",
-      "pubDate": "Wed, 15 Apr 2026 18:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/0/ddc4ba0ad7f883-948-568-17-248-3525-2115.jpg",
-      "dateISO": "2026-04-15T17:18:00.000Z",
-      "dateFormatted": "15 kwietnia 2026"
-    },
-    {
       "title": "Wojna USA-Iran blisko końca? Żabka i XTB z nowymi rekordami",
       "link": "https://www.bankier.pl/wiadomosc/Wojna-USA-Iran-blisko-konca-Zabka-i-XTB-z-nowymi-rekordami-9114552.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Środowa sesja na warszawskim parkiecie upłynęła pod znakiem optymizmu i bicia kolejnych historycznych szczytów. Podczas gdy zachodnioeuropejskie giełdy łapały zadyszkę, polskie indeksy parły na północ. Najwyżej od giełdowego debiutu zameldował się kurs Grupy Żabka, kolejną sesję mocny pozostaje kurs",
@@ -706,66 +790,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/c/7/d45a9f0d93307c-948-568-24-144-1896-1137.jpg",
       "dateISO": "2026-04-15T16:31:00.000Z",
-      "dateFormatted": "15 kwietnia 2026"
-    },
-    {
-      "title": "Koniec uników. Sąd administracyjny nakazuje transkrypcję aktu małżeństwa osób tej samej płci",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-unikow-Sad-administracyjny-nakazuje-transkrypcje-aktu-malzenstwa-9114542.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wojewódzki Sąd Administracyjny w Gorzowie Wlkp. wydał nieprawomocny wyrok nakazujący przetranskrybowanie niemieckiego aktu małżeństwa dwóch mężczyzn i ujęcie go w rejestrze stanu cywilnego w Polsce – poinformował radca prawny Oskar Hładki reprezentujący Krzysztofa, który zaskarżył decyzje urzędów.",
-      "pubDate": "Wed, 15 Apr 2026 17:25:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/2/8d18d38e90d5ed-948-568-0-770-3395-2037.jpg",
-      "dateISO": "2026-04-15T16:25:00.000Z",
-      "dateFormatted": "15 kwietnia 2026"
-    },
-    {
-      "title": "Test dla Netanjahu. Czy Izrael zatrzyma rosyjski statek z ukraińskim zbożem?",
-      "link": "https://www.bankier.pl/wiadomosc/Test-dla-Netanjahu-Czy-Izrael-zatrzyma-rosyjski-statek-z-ukrainskim-zbozem-9114412.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Władze Ukrainy protestują przeciwko przyjęciu w izraelskim porcie Hajfa rosyjskiego masowca, który według Kijowa przewozi skradzione na okupowanych terenach zboże. W sprawie interweniował m.in. szef ukraińskiej dyplomacji Andrij Sybiha. Izrael oficjalnie nie odniósł się do tych zarzutów.",
-      "pubDate": "Wed, 15 Apr 2026 15:27:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/c/9fd6cbefa591dc-948-567-0-64-1000-599.jpg",
-      "dateISO": "2026-04-15T14:27:00.000Z",
-      "dateFormatted": "15 kwietnia 2026"
-    },
-    {
-      "title": "Polska otwiera drogę do sądu nad Putinem. Przełomowa decyzja MSZ ws. Specjalnego Trybunału",
-      "link": "https://www.bankier.pl/wiadomosc/Polska-otwiera-droge-do-sadu-nad-Putinem-Przelomowa-decyzja-MSZ-ws-Specjalnego-Trybunalu-9114350.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Polska złożyła Sekretarzowi Generalnemu Rady Europy deklarację woli przystąpienia do Poszerzonego Porozumienia Częściowego w sprawie Komitetu Zarządzającego Specjalnego Trybunału do spraw Zbrodni Agresji przeciwko Ukrainie - poinformowało w środę MSZ.",
-      "pubDate": "Wed, 15 Apr 2026 14:27:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/a/5f624d7fc7b8c2-948-568-0-140-4000-2399.jpg",
-      "dateISO": "2026-04-15T13:27:00.000Z",
-      "dateFormatted": "15 kwietnia 2026"
-    },
-    {
-      "title": "Paliwo tanieje z dnia na dzień. Oto ceny maksymalne na 16 kwietnia",
-      "link": "https://www.bankier.pl/wiadomosc/Paliwo-tanieje-z-dnia-na-dzien-Oto-ceny-maksymalne-na-16-kwietnia-9114230.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Maksymalna cena dla benzyny Pb95 wynosi 6,08 zł/l, dla benzyny Pb98: 6,61 zł/l, a dla oleju napędowego: 7,23 zł/l - wynika z obwieszczenia ministra energii opublikowanego w Monitorze Polskim. Ceny te będą obowiązywać na stacjach paliw w czwartek, 16 kwietnia.",
-      "pubDate": "Wed, 15 Apr 2026 12:08:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/b/652230f56fc725-948-568-10-0-3780-2267.jpg",
-      "dateISO": "2026-04-15T11:08:00.000Z",
-      "dateFormatted": "15 kwietnia 2026"
-    },
-    {
-      "title": "Cenckiewicz wygrał. Chodzi o dostęp do informacji niejawnych",
-      "link": "https://www.bankier.pl/wiadomosc/Cenckiewicz-wygral-Chodzi-o-dostep-do-informacji-niejawnych-9114207.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Naczelny Sąd Administracyjny oddalił w środę skargi kancelarii premiera od wyroków Wojewódzkiego Sądu Administracyjnego w Warszawie, w których WSA uchylił decyzje o cofnięciu obecnemu szefowi BBN Sławomirowi Cenckiewiczowi poświadczeń bezpieczeństwa w zakresie dostępu do informacji niejawnych.",
-      "pubDate": "Wed, 15 Apr 2026 11:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/0/ecd54743f6ea9f-948-568-7-97-2992-1795.jpg",
-      "dateISO": "2026-04-15T10:45:00.000Z",
       "dateFormatted": "15 kwietnia 2026"
     },
     {
@@ -793,18 +817,6 @@
       "dateFormatted": "15 kwietnia 2026"
     },
     {
-      "title": "Będzie pokój z Iranem? S&P500 odrobił wojenne straty i dotarł w pobliże 7000 punktów",
-      "link": "https://www.bankier.pl/wiadomosc/Bedzie-pokoj-z-Iranem-S-P500-odrobil-wojenne-straty-i-dotarl-w-poblize-7000-punktow-9113969.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Nadzieje na zakończenie wojny z Iranem i odblokowanie Cieśniny Ormuz we wtorek wyniosły indeks S&P500 najwyżej od lutego.",
-      "pubDate": "Tue, 14 Apr 2026 22:09:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/b/8/6465e2ee53fec9-948-568-0-50-4000-2399.jpg",
-      "dateISO": "2026-04-14T21:09:00.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
       "title": "Giełdy kryptowalut przygotowują się na AI zdolną do wykorzystywania luk w oprogramowaniu",
       "link": "https://pl.investing.com/news/cryptocurrency-news/gieldy-kryptowalut-przygotowuja-sie-na-ai-zdolna-do-wykorzystywania-luk-w-oprogramowaniu-93CH-1360329",
       "description": "",
@@ -814,18 +826,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-04-14T19:03:44.000Z",
-      "dateFormatted": "14 kwietnia 2026"
-    },
-    {
-      "title": "WIG20 w drodze na historyczny szczyt. Czy zdąży na jubileusz 35-lecia GPW?",
-      "link": "https://www.bankier.pl/wiadomosc/WIG20-w-drodze-na-historyczny-szczyt-Czy-zdazy-na-jubileusz-35-lecia-GPW-9113837.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "WIG20 znalazł się we wtorek na poziomach nieoglądanych od 18 lat i pewnym krokiem zmierza w stronę historycznego szczytu z 2007 r. Trudno jednak oczekiwać, że dystans ten indeks polskich blue chipów pokona w ciągu najbliższych dni, kiedy to GPW świętować będzie jubileusz 35-lecia pierwszych notowań.",
-      "pubDate": "Tue, 14 Apr 2026 17:26:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/4/1/e5971aa1c057f1-948-567-0-0-1000-599.jpg",
-      "dateISO": "2026-04-14T16:26:00.000Z",
       "dateFormatted": "14 kwietnia 2026"
     },
     {
@@ -937,5 +937,5 @@
       "dateFormatted": "9 kwietnia 2026"
     }
   ],
-  "updatedAt": "2026-04-16T06:02:15.312Z"
+  "updatedAt": "2026-04-16T09:20:56.928Z"
 }
