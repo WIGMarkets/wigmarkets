@@ -1,15 +1,159 @@
 {
   "articles": [
     {
-      "title": "Unimot chce wypłacić 6 zł dywidendy na akcję za 2025 rok",
-      "link": "https://www.bankier.pl/wiadomosc/Unimot-chce-wyplacic-6-zl-dywidendy-na-akcje-za-2025-rok-9120596.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Zarząd Unimotu rekomenduje walnemu zgromadzeniu wypłatę 6 zł dywidendy na akcję za 2025 rok - podała spółka w komunikacie. Rada nadzorcza spółki pozytywnie rozpatrzyła wniosek zarządu w tej sprawie.",
-      "pubDate": "Tue, 21 Apr 2026 18:30:00 +0100",
+      "title": "Paliwo za mniej niż 6 złotych na majówkę? Rząd szykuje przedłużenie programu obniżek",
+      "link": "https://www.bankier.pl/wiadomosc/Paliwo-za-mniej-niz-6-zlotych-na-majowke-Rzad-szykuje-przedluzenie-programu-obnizek-9120652.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Istnieje możliwość przedłużenia programu CPN na maj – wynika z wtorkowej wypowiedzi ministra finansów i gospodarki Andrzeja Domańskiego. Zaznaczył , że decyzja w tej sprawie będzie uzależniona od dalszego rozwoju sytuacji na rynku ropy i czynników geopolitycznych.",
+      "pubDate": "Tue, 21 Apr 2026 20:33:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/2/6e7c45b7e6a83b-948-567-0-67-1000-599.jpg",
+      "dateISO": "2026-04-21T19:33:00.000Z",
+      "dateFormatted": "21 kwietnia 2026"
+    },
+    {
+      "title": "Stany Zjednoczone zabezpieczają dostawy litu i miedzi. Nowa umowa z Chile",
+      "link": "https://www.bankier.pl/wiadomosc/Stany-Zjednoczone-zabezpieczaja-dostawy-litu-i-miedzi-Nowa-umowa-z-Chile-9120651.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Stany Zjednoczone i Chile podpisały porozumienie w sprawie minerałów krytycznych i metali ziem rzadkich. Chile jest największym na świecie producentem miedzi i drugim pod względem wielkości wytwórcą litu, używanego w akumulatorach.",
+      "pubDate": "Tue, 21 Apr 2026 20:27:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/a/8ca33cae58d622-948-568-38-101-3070-1842.jpg",
+      "dateISO": "2026-04-21T19:27:00.000Z",
+      "dateFormatted": "21 kwietnia 2026"
+    },
+    {
+      "title": "Andrzej Domański zabrał głos w sprawie Zondacrypto. Uderzył w prezydenta",
+      "link": "https://businessinsider.com.pl/finanse/zondacrypto-sparalizowane-andrzej-domanski-uderzyl-w-karola-nawrockiego/5e4sr08",
+      "description": "Minister finansów Andrzej Domański, komentując doniesienia w sprawie firmy Zondacrypto, wprost oskarżył prezydenta Karola Nawrockiego o blokowanie przepisów, które mogłyby ochronić Polaków przed finansową katastrofą.",
+      "pubDate": "Tue, 21 Apr 2026 19:09:05 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/9Nuk9kpTURBXy9mNzcwYzg5NmE0NmY5YzkwNzhmYTQ3Zjc3Y2UzN2FjYy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-21T19:09:05.000Z",
+      "dateFormatted": "21 kwietnia 2026"
+    },
+    {
+      "title": "Wylot Vanca wstrzymany, Iran milczy, Pakistan zdezorientowany. Chaos tuż przed końcem rozejmu",
+      "link": "https://www.bankier.pl/wiadomosc/Wylot-Vanca-wstrzymany-Iran-milczy-Pakistan-zdezorientowany-Chaos-tuz-przed-koncem-rozejmu-9120639.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wylot wiceprezydenta USA J.D. Vance'a do Pakistanu na rozmowy z Iranem został wstrzymany, bo Teheran nie odpowiedział na amerykańskie stanowisko negocjacyjne - podał we wtorek „New York Times”, powołując się na przedstawiciela władz USA.",
+      "pubDate": "Tue, 21 Apr 2026 19:58:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/b/195827d32ac3d1-948-568-0-50-995-597.jpg",
+      "dateISO": "2026-04-21T18:58:00.000Z",
+      "dateFormatted": "21 kwietnia 2026"
+    },
+    {
+      "title": "Arctic Paper miał w IV kw. 21,3 mln zł straty EBITDA",
+      "link": "https://www.bankier.pl/wiadomosc/Arctic-Paper-mial-w-IV-kw-21-3-mln-zl-straty-EBITDA-9120634.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Arctic Paper w czwartym kwartale 2025 r. miał 21,3 mln zł straty EBITDA, a strata operacyjna wyniosła 60 mln zł - wynika z wyliczeń PAP Biznes na podstawie raportu spółki. W lutym Arctic Paper szacował stratę EBITDA na 33,5 mln zł, a stratę EBIT na 72,2 mln zł.",
+      "pubDate": "Tue, 21 Apr 2026 19:50:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/b/1/2906aeeeb5818d-945-560-7-61-3064-1838.jpg",
+      "image": "http://galeria.bankier.pl/p/9/2/037016bb04e5a1-948-568-12-0-2487-1492.jpg",
+      "dateISO": "2026-04-21T18:50:00.000Z",
+      "dateFormatted": "21 kwietnia 2026"
+    },
+    {
+      "title": "Ostatnie ostrzeżenie dla Hawany? USA żądają uwolnienia dysydentów",
+      "link": "https://www.bankier.pl/wiadomosc/Ostatnie-ostrzezenie-dla-Hawany-USA-zadaja-uwolnienia-dysydentow-9120631.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Podczas niedawnych negocjacji w Hawanie delegacja z USA dała władzom Kuby dwa tygodnie na uwolnienie szeregu najbardziej znanych więźniów politycznych – podał w nocy z poniedziałku na wtorek dziennik „USA Today”, powołując się na anonimowe źródła.",
+      "pubDate": "Tue, 21 Apr 2026 19:45:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/2/810e9b8391966a-948-567-0-67-1000-599.jpg",
+      "dateISO": "2026-04-21T18:45:00.000Z",
+      "dateFormatted": "21 kwietnia 2026"
+    },
+    {
+      "title": "Poparcie dla Trumpa szoruje po dnie. Amerykanie wątpią w jego zdrowie i nie chcą wojny",
+      "link": "https://www.bankier.pl/wiadomosc/Poparcie-dla-Trumpa-szoruje-po-dnie-Amerykanie-watpia-w-jego-zdrowie-i-nie-chca-wojny-9120621.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Poziom poparcia dla prezydenta USA Donalda Trumpa utrzymuje się na najniższym poziomie w czasie jego drugiej kadencji i wynosi 36 proc. - wynika z badania Reuters/Ipsos, którego wyniki zaprezentowano we wtorek. Taki sam odsetek Amerykanów popiera ataki na Iran.",
+      "pubDate": "Tue, 21 Apr 2026 19:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/1/7221e3f6fd268b-948-568-10-10-4058-2435.jpg",
+      "dateISO": "2026-04-21T18:30:00.000Z",
+      "dateFormatted": "21 kwietnia 2026"
+    },
+    {
+      "title": "„Donnyland” zamiast Donbasu? Zaskakujący plan Ukrainy na przychylność Trumpa",
+      "link": "https://www.bankier.pl/wiadomosc/Donnyland-zamiast-Donbasu-Zaskakujacy-plan-Ukrainy-na-przychylnosc-Trumpa-9120618.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W ostatnich miesiącach przedstawiciele ukraińskich władz zaproponowali podczas negocjacji, by część Donbasu nosiła nazwę „Donnyland” - napisał we wtorek „New York Times”. Miałoby to uhonorować prezydenta USA Donalda Trumpa.",
+      "pubDate": "Tue, 21 Apr 2026 19:16:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/3/98f8158f65d8b9-945-567-0-140-1991-1195.jpg",
+      "dateISO": "2026-04-21T18:16:00.000Z",
+      "dateFormatted": "21 kwietnia 2026"
+    },
+    {
+      "title": "ZUS zwrócił się do przedsiębiorców. Muszą rozliczyć się do 20 maja",
+      "link": "https://businessinsider.com.pl/finanse/wazny-obowiazek-wobec-zus-dla-przedsiebiorcow-zostalo-kilka-tygodni/k9834ns",
+      "description": "Właściciele firm mają czas tylko do 20 maja na dopełnienie kluczowego obowiązku wobec Zakładu Ubezpieczeń Społecznych. Chodzi o roczne rozliczenie składki zdrowotnej za ubiegły rok.",
+      "pubDate": "Tue, 21 Apr 2026 18:05:57 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/U-3k9kpTURBXy8zOTljNjhlYjFlY2RiMTIyMzA0ODc4ZjAxZTA5NjQ4My5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-21T18:05:57.000Z",
+      "dateFormatted": "21 kwietnia 2026"
+    },
+    {
+      "title": "USA z Iranem w impasie. Cena ropy rośnie przed końcem rozejmu",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/rozmowy-usa-z-iranem-w-pakistanie-cena-ropy-reaguje/3y1gqes",
+      "description": "Cena ropy zaczęła gwałtownie rosnąć we wtorek wieczorem. Rozmowy USA z Iranem w Pakistanie stoją pod coraz większym znakiem zapytania.",
+      "pubDate": "Tue, 21 Apr 2026 17:53:39 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/1OKk9kpTURBXy8xZTVhZmNmZmJkYjVjMWZlNTlmNTc1OWQyZDVhMzNkYS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-21T17:53:39.000Z",
+      "dateFormatted": "21 kwietnia 2026"
+    },
+    {
+      "title": "Unia uderza w Iran sankcjami dla osób blokujących transport ropy",
+      "link": "https://www.bankier.pl/wiadomosc/Unia-uderza-w-Iran-sankcjami-dla-osob-blokujacych-transport-ropy-9120604.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Państwa Unii Europejskiej uzgodniły rozszerzenie sankcji wobec Iranu o osoby odpowiedzialne za blokowanie cieśniny Ormuz - poinformowała we wtorek na konferencji prasowej w Luksemburgu szefowa unijnej dyplomacji Kaja Kallas.",
+      "pubDate": "Tue, 21 Apr 2026 18:38:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/e/57d5e2164bfeb8-948-568-0-25-992-595.jpg",
+      "dateISO": "2026-04-21T17:38:00.000Z",
+      "dateFormatted": "21 kwietnia 2026"
+    },
+    {
+      "title": "„Czyste Powietrze” wychodzi na prostą. Koniec kolejek po pieniądze",
+      "link": "https://www.bankier.pl/wiadomosc/Czyste-Powietrze-wychodzi-na-prosta-Koniec-kolejek-po-pieniadze-9120597.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prace nad projektem specustawy ws. pomocy poszkodowanym w „Czystym Powietrzu” mogą szybko się zakończyć; może w ciągu miesiąca zostanie przyjęty przez rząd - wynika z wypowiedzi ministry klimatu Pauliny Hennig-Kloski. Oceniła, że będzie to możliwe, o ile nie będzie „większych uwag” do projektu.",
+      "pubDate": "Tue, 21 Apr 2026 18:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/a/8ba051dac21168-948-568-143-450-2952-1771.jpg",
       "dateISO": "2026-04-21T17:30:00.000Z",
+      "dateFormatted": "21 kwietnia 2026"
+    },
+    {
+      "title": "Nocna akcja wojska USA. Komandosi wkroczyli na tankowiec z irańską ropą",
+      "link": "https://www.bankier.pl/wiadomosc/Nocna-akcja-wojska-USA-Komandosi-wkroczyli-na-tankowiec-z-iranska-ropa-9120591.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Siły amerykańskie przeprowadziły nocą z poniedziałku na wtorek abordaż tankowca objętego sankcjami USA z uwagi na jego powiązania z Iranem - poinformował we wtorek Pentagon. Operację przeprowadzono na wodach międzynarodowych w regionie Indo-Pacyfiku.",
+      "pubDate": "Tue, 21 Apr 2026 18:10:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/e/754fda006767e6-948-568-0-105-3500-2099.jpg",
+      "dateISO": "2026-04-21T17:10:00.000Z",
       "dateFormatted": "21 kwietnia 2026"
     },
     {
@@ -63,7 +207,7 @@
     {
       "title": "Donald Trump: USA zawrą z Iranem \"świetną umowę\"",
       "link": "https://businessinsider.com.pl/wiadomosci/donald-trump-o-zawieszeniu-broni-i-rozmowach-usa-z-iranem/mtmsj4l",
-      "description": "Donald Trump powiedział we wtorek, że jego zdaniem Stany Zjednoczone \"zawrą świetną umowę\" z Iranem.",
+      "description": "Donald Trump powiedział we wtorek, że jego zdaniem Stany Zjednoczone \"zawrą świetną umowę\" z Iranem. Rośnie napięcie przed końcem rozejmu.",
       "pubDate": "Tue, 21 Apr 2026 16:18:49 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -169,18 +313,6 @@
       "dateFormatted": "21 kwietnia 2026"
     },
     {
-      "title": "LPP ukarane przez KNF za błędy w raportach. Chodzi o straty wojenne",
-      "link": "https://www.bankier.pl/wiadomosc/KNF-nalozylo-na-LPP-kare-pieniezna-w-wysokosci-15-mln-zl-9120488.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "LPP otrzymało decyzję Komisji Nadzoru Finansowego nakładającą na spółkę karę pieniężną w wysokości 15 mln zł - podało LPP w komunikacie. Decyzja nie jest ostateczna, służy od niej droga odwoławcza.",
-      "pubDate": "Tue, 21 Apr 2026 15:58:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/2/78a0bd80b17313-948-568-0-650-3366-2020.jpg",
-      "dateISO": "2026-04-21T14:58:00.000Z",
-      "dateFormatted": "21 kwietnia 2026"
-    },
-    {
       "title": "Zmiana warty w czołowej polskiej instytucji finansowej. Nowy prezes po 25 latach",
       "link": "https://businessinsider.com.pl/finanse/zbigniew-jakubowski-nowym-prezesem-millennium-tfi-zmiana-szefa-po-25-latach/g2kjxw2",
       "description": "Rada nadzorcza Millennium TFI z grupy Banku Millennium powołała Zbigniewa Jakubowskiego na stanowisko prezesa zarządu, podał bank. Dotychczasowy prezes Robert Borecki po 25 latach prowadzenia spółki pozostanie w zarządzie.",
@@ -193,7 +325,7 @@
       "dateFormatted": "21 kwietnia 2026"
     },
     {
-      "title": "Pdzełom w sprawie strategicznego rurociągu. Jasny komunikat Wołodymyra Zełenskiego",
+      "title": "Przełom w sprawie strategicznego rurociągu. Jasny komunikat Wołodymyra Zełenskiego",
       "link": "https://businessinsider.com.pl/gospodarka/wolodymyr-zelenski-rurociag-przyjazn-moze-wznowic-funkcjonowanie/3bsgdbg",
       "description": "Prezydent Ukrainy Wołodymyr Zełenski poinformował o zakończeniu prac naprawczych przy strategicznum dla Europy urociągu. Zwrócił się on jednak do europejskich partnerów z ważnym ostrzeżeniem.",
       "pubDate": "Tue, 21 Apr 2026 14:46:38 GMT",
@@ -301,15 +433,15 @@
       "dateFormatted": "21 kwietnia 2026"
     },
     {
-      "title": "Ultimatum Trumpa dla Iranu. „Spodziewam się, że będę bombardować”",
-      "link": "https://www.bankier.pl/wiadomosc/Ultimatum-Trumpa-dla-Iranu-Spodziewam-sie-ze-bede-bombardowac-9120445.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent USA Donald Trump we wtorek w telewizji CNBC powiedział, że spodziewa się, iż będzie bombardował Iran, jeśli stronom nie uda się zawrzeć porozumienia. Wcześniej zapowiedział, że uznaje środowy wieczór za koniec zawieszenia broni.",
-      "pubDate": "Tue, 21 Apr 2026 14:58:00 +0100",
+      "title": "Podwoiła się liczba firm planujących redukcje etatów. Tak źle nie było od siedmiu lat",
+      "link": "https://www.bankier.pl/wiadomosc/Podwoila-sie-liczba-firm-planujacych-redukcje-etatow-Tak-zle-nie-bylo-od-siedmiu-lat-9120437.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zwiększenie liczby etatów w najbliższym kwartale zapowiada 13,7 proc. przedsiębiorstw, co oznacza spadek rok do roku, a redukcję planuje 9,8 proc., czyli dwa razy więcej niż rok temu - wynika z raportu Gi Group Holding. Jednocześnie blisko połowa organizacji wskazuje na trudności w rekrutacji.",
+      "pubDate": "Tue, 21 Apr 2026 14:50:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/e/ab0e64042cb263-948-568-915-404-2085-1250.jpg",
-      "dateISO": "2026-04-21T13:58:00.000Z",
+      "image": "http://galeria.bankier.pl/p/f/0/d8557a5254cade-948-567-0-20-1000-599.jpg",
+      "dateISO": "2026-04-21T13:50:00.000Z",
       "dateFormatted": "21 kwietnia 2026"
     },
     {
@@ -445,7 +577,7 @@
       "dateFormatted": "21 kwietnia 2026"
     },
     {
-      "title": "Rosja blokuje ropę z Kazachstanu dla Niemiec. PERN jest w stanie zapewnić tłoczenie ropy",
+      "title": "Niemcy odcięte od ropy z Kazachstanu? PERN jest w stanie zapewnić tłoczenie ropy",
       "link": "https://www.bankier.pl/wiadomosc/Niemcy-odciete-od-ropy-z-Kazachstanu-Rosja-szykuje-sie-do-blokady-Przyjazni-9120366.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Kreml szykuje kolejny cios w bezpieczeństwo energetyczne Europy – według źródeł agencji Reutera, już w maju Rosja zablokuje transport kazachskiej ropy rurociągiem „Przyjaźń”. Niemieckie rafinerie nie zostaną jednak na lodzie. Polski gigant logistyczny PERN ogłosił plan awaryjny i zaoferował, że w ra",
       "pubDate": "Tue, 21 Apr 2026 13:26:00 +0100",
@@ -493,66 +625,6 @@
       "dateFormatted": "21 kwietnia 2026"
     },
     {
-      "title": "Oto pełna lista ulg podatkowych. Wiele osób traci na tym pieniądze",
-      "link": "https://businessinsider.com.pl/gospodarka/podatki/jak-zwiekszyc-zwrot-podatku-pit-2026-oto-wszystkie-ulgi-podatkowe/nm2c8p4",
-      "description": "Rozliczenie podatków za 2025 r. może być wyjątkowo korzystne dla podatników. Konsekwencją złożenia rozliczenia PIT może być zwrot podatku sięgający nawet kilkunastu tysięcy złotych. Wszystko zależy od poprawnego skorzystania z przysługujących ulg podatkowych. Wyjaśniamy, które ulgi można wykorzystać",
-      "pubDate": "Tue, 21 Apr 2026 12:06:10 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/S8Qk9kpTURBXy82NGU0NTlhNmFjNWM0OTU5YjM5MjRlOWQyOGRiOGIzNS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-21T12:06:10.000Z",
-      "dateFormatted": "21 kwietnia 2026"
-    },
-    {
-      "title": "SpaceX przed debiutem na giełdzie. Oto co zrobił Elon Musk, by więcej zarobić",
-      "link": "https://businessinsider.com.pl/firmy/elon-musk-zwieksza-udzialy-w-spacex-szykuje-sie-wielki-debiut-gieldowy/b24hsx4",
-      "description": "Elon Musk w 2025 roku znacząco zwiększył swoje udziały w SpaceX, kupując akcje spółki o wartości około 1,4 mld dolarów od obecnych i byłych pracowników — wynika z doniesień medialnych opartych na dokumentach przygotowywanych przed planowanym debiutem giełdowym firmy.",
-      "pubDate": "Tue, 21 Apr 2026 11:56:56 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/vdAk9kpTURBXy84N2MwY2VkNzA2MzJiYjI1MGVjZGRiY2QwZWNkZDhiYy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-21T11:56:56.000Z",
-      "dateFormatted": "21 kwietnia 2026"
-    },
-    {
-      "title": "Wydarzenia na Bliskim Wschodzie wciąż dyktują zachowanie cen złota",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/cena-zlota-w-potrzasku-szlachetny-metal-mozolnie-probuje-odrabiac-straty/j1k4zdn",
-      "description": "Od drugiej połowy marca złoto mozolnie próbuje odrabiać straty. Najnowsze doniesienia mogą sprzyjać kruszcowi, choć nowy tydzień rozpoczął się od spadków.",
-      "pubDate": "Tue, 21 Apr 2026 11:56:32 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/kYOk9kpTURBXy84ZjgzMWIxNjgwNWE2MTQ4YWYwMWQwNmEzYmZkZTgwMy5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-21T11:56:32.000Z",
-      "dateFormatted": "21 kwietnia 2026"
-    },
-    {
-      "title": "CBA w resorcie klimatu. Zabezpiecza dokumenty programu „Czyste powietrze”",
-      "link": "https://www.bankier.pl/wiadomosc/CBA-w-resorcie-klimatu-Zabezpiecza-dokumenty-programu-Czyste-powietrze-9120331.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Centralne Biuro Antykorupcyjne zabezpieczyło we wtorek dokumenty dotyczące programu „Czyste Powietrze” w kilkunastu urzędach. Funkcjonariusze byli m.in. resortach klimatu i funduszy, KPRM i instytucjach wojewódzkich. Śledztwo prowadzi Prokuratura Europejska.",
-      "pubDate": "Tue, 21 Apr 2026 12:42:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/f/584cdb1ba772f8-945-560-36-0-1116-669.jpg",
-      "dateISO": "2026-04-21T11:42:00.000Z",
-      "dateFormatted": "21 kwietnia 2026"
-    },
-    {
-      "title": "Wspólna konferencja Kaczyńskiego z Morawieckim. \"7 godzinna rozmowa przyniosła kompromis\"",
-      "link": "https://www.bankier.pl/wiadomosc/Wspolna-konferencja-Kaczynskiego-z-Morawieckim-7-godzinna-rozmowa-przyniosla-kompromis-9120330.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rozmowa z b. premierem Mateuszem Morawieckim przyniosła kompromis, a założone przez niego Stowarzyszenie Rozwój Plus nie zostanie zlikwidowane, lecz będzie działało „jakby wewnątrz partii” - oświadczył we wtorek prezes PiS Jarosław Kaczyński.",
-      "pubDate": "Tue, 21 Apr 2026 12:39:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/0/dd5c02ee4c232c-948-568-8-0-1592-955.jpg",
-      "dateISO": "2026-04-21T11:39:00.000Z",
-      "dateFormatted": "21 kwietnia 2026"
-    },
-    {
       "title": "Rekordowe 484 mld zł finansowania dla gospodarki. Padła kwota, jaką BGK może wyłożyć na atom",
       "link": "https://www.bankier.pl/wiadomosc/Rekordowe-484-mld-zl-finansowania-dla-gospodarki-Padla-kwota-jaka-BGK-moze-wylozyc-na-atom-9120314.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Rekordową wartość 484 mld zł sięgnęło wsparcie dla krajowej gospodarki zrealizowane w zeszłym roku przez Bank Gospodarstwa Krajowego. Zdecydowanie najwięcej pieniędzy pochłonęła transformacja energetyczna. Wśród zadań na przyszłość będzie m.in. finansowanie elektrowni jądrowej – na ten projekt krajo",
@@ -562,18 +634,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/2/bba9c4708d3e8d-948-568-0-670-3883-2330.jpg",
       "dateISO": "2026-04-21T11:20:00.000Z",
-      "dateFormatted": "21 kwietnia 2026"
-    },
-    {
-      "title": "Minister energii podał ceny paliw na środę. \"Najniższe od wprowadzenia pakietu CPN\"",
-      "link": "https://www.bankier.pl/wiadomosc/Minister-energii-podal-ceny-paliw-na-srode-Najnizsze-od-wprowadzenia-pakietu-CPN-9120313.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W środę litr benzyny 95 ma kosztować nie więcej niż 5,95 zł, benzyny 98 - 6,50 zł, a oleju napędowego - 6,75 zł - wynika z wtorkowego obwieszczenia Ministra Energii. Oznacza to, że ceny na stacjach spadną do najniższego poziomu od wprowadzenia rządowego pakietu „Ceny Paliwa Niżej”.",
-      "pubDate": "Tue, 21 Apr 2026 12:09:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/f/0f0bf0c4868d79-948-568-20-190-3980-2387.jpg",
-      "dateISO": "2026-04-21T11:09:00.000Z",
       "dateFormatted": "21 kwietnia 2026"
     },
     {
@@ -589,18 +649,6 @@
       "dateFormatted": "21 kwietnia 2026"
     },
     {
-      "title": "\"Dramatyczny paradoks\" poszkodowanych ZondaCrypto. Stracili pieniądze, ale muszą zapłacić podatek",
-      "link": "https://www.bankier.pl/wiadomosc/Dramatyczny-paradoks-poszkodowanych-ZondaCrypto-Stracili-pieniadze-ale-musza-zaplacic-podatek-9120131.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Klienci ZondaCrypto znaleźli się w pułapce bez wyjścia. Choć ich środki są zamrożone i nie mają do nich dostępu, prawo podatkowe pozostaje nieubłagane. Transakcje sprzedaży z 2025 roku oznaczają obowiązek zapłaty podatku Belki.",
-      "pubDate": "Tue, 21 Apr 2026 10:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/2/425ca805b5f3ac-948-568-0-138-2048-1228.jpg",
-      "dateISO": "2026-04-21T09:20:00.000Z",
-      "dateFormatted": "21 kwietnia 2026"
-    },
-    {
       "title": "Produkcja przemysłowa w Polsce wystrzeliła. Takiego wzrostu nikt się nie spodziewał",
       "link": "https://www.bankier.pl/wiadomosc/Produkcja-przemyslowa-w-Polsce-wystrzelila-Takiego-wzrostu-nikt-sie-nie-spodziewal-9120170.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Takiego wzrostu rocznej produkcji przemysłowej nie było od 2022 r. Najnowsze dane Głównego Urzędu Statystycznego pobiły nawet najbardziej optymistyczne prognozy analityków. Jak tłumaczą ponad 9-procentowy wzrost sektora wytwórczego? Między innymi tak, że przedsiębiorcy w reakcji na wybuch wojny prod",
@@ -610,30 +658,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/d/d/d8892e46bde9f0-948-568-5-0-1995-1196.jpg",
       "dateISO": "2026-04-21T09:09:00.000Z",
-      "dateFormatted": "21 kwietnia 2026"
-    },
-    {
-      "title": "Skandal z fałszowaniem podpisów. Zastępca szefa kancelarii prezydenta oskarżony",
-      "link": "https://www.bankier.pl/wiadomosc/Skandal-z-falszowaniem-podpisow-Zastepca-szefa-kancelarii-prezydenta-oskarzony-9120166.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prokuratura Regionalna w Lublinie skierowała do sądu akt oskarżenia przeciwko zastępcy szefa KPRP Adama A. Chodzi o śledztwo ws. fałszowania podpisów pod listami wyborczymi z 2014 r. w woj. podlaskim.",
-      "pubDate": "Tue, 21 Apr 2026 10:05:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/a/0c7c072182b66d-948-568-0-80-3574-2144.jpg",
-      "dateISO": "2026-04-21T09:05:00.000Z",
-      "dateFormatted": "21 kwietnia 2026"
-    },
-    {
-      "title": "Hołownia wróci za Czarzastego? \"To byłby koniec koalicji\"",
-      "link": "https://www.bankier.pl/wiadomosc/Holownia-wroci-za-Czarzastego-To-bylby-koniec-koalicji-9120153.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Próba odwołania marszałka Włodzimierza Czarzastego, zwłaszcza podjęta w koalicji, oznaczałaby jej koniec – ocenił we wtorek szef Kancelarii Sejmu Marek Siwiec. Dodał, że ewentualne odwołanie Czarzastego oznaczałoby nie tylko rozpad koalicji, ale konieczność przeprowadzenia nowych wyborów parlamentar",
-      "pubDate": "Tue, 21 Apr 2026 09:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/9/5a590d2ef0ae08-948-568-156-442-1953-1172.jpg",
-      "dateISO": "2026-04-21T08:50:00.000Z",
       "dateFormatted": "21 kwietnia 2026"
     },
     {
@@ -669,18 +693,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/1/8/dc9233769a56fd-948-568-2-37-997-598.jpg",
-      "dateISO": "2026-04-21T08:00:00.000Z",
-      "dateFormatted": "21 kwietnia 2026"
-    },
-    {
-      "title": "4,50% na nowej lokacie półrocznej. Inbank dołącza do walki o oszczędności klientów",
-      "link": "https://www.bankier.pl/wiadomosc/4-50-na-nowej-lokacie-polrocznej-Inbank-dolacza-do-walki-o-oszczednosci-klientow-9120083.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Oferta Inbanku powiększa się. W ostatniej tabeli oprocentowania pojawił się nowy okres Lokaty na Start, czyli tego wyżej oprocentowanego depozytu z oferty banku. Stawka procentowa oraz kwota maksymalna są takie same jak dla obecnie obowiązującego, 3-miesięcznego okresu.",
-      "pubDate": "Tue, 21 Apr 2026 09:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/8/7fdf65f1c2d4e8-948-568-312-193-2043-1226.jpg",
       "dateISO": "2026-04-21T08:00:00.000Z",
       "dateFormatted": "21 kwietnia 2026"
     },
@@ -730,18 +742,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-04-21T07:19:06.000Z",
-      "dateFormatted": "21 kwietnia 2026"
-    },
-    {
-      "title": "Startujemy: „Miliarderzy pod lupą”",
-      "link": "https://www.bankier.pl/wiadomosc/Startujemy-Miliarderzy-pod-lupa-9116522.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Czy da się rzetelnie i bez lukru ocenić ludzi, którzy mają realny wpływ na gospodarkę, biznes i nasze codzienne życie? W pierwszym odcinku bierzemy pod lupę Rafał Brzoska – jednego z najbardziej wpływowych polskich przedsiębiorców ostatnich lat.",
-      "pubDate": "Tue, 21 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/4/8e4943ce0030c1-948-568-48-0-1800-1079.png",
-      "dateISO": "2026-04-21T05:00:00.000Z",
       "dateFormatted": "21 kwietnia 2026"
     },
     {
@@ -959,7 +959,19 @@
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-04-15T07:00:53.000Z",
       "dateFormatted": "15 kwietnia 2026"
+    },
+    {
+      "title": "Dziennikarz Bankier.pl finalistą Nagrody Press Club Polska 2026",
+      "link": "https://www.bankier.pl/wiadomosc/Dziennikarz-Bankier-pl-finalista-Nagrody-Press-Club-Polska-2026-9106947.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wojciech Boczoń z Bankier.pl znalazł się w gronie finalistów Nagrody Dziennikarstwa Ekonomicznego Press Club Polska 2026. Kapituła konkursu doceniła jego cykl publikacji poświęconych kredytowi „Alicja” oferowanego przez PKO BP.",
+      "pubDate": "Tue, 31 Mar 2026 09:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/b/52169feba5b106-948-568-16-0-1255-753.png",
+      "dateISO": "2026-03-31T08:30:00.000Z",
+      "dateFormatted": "31 marca 2026"
     }
   ],
-  "updatedAt": "2026-04-21T17:04:01.518Z"
+  "updatedAt": "2026-04-21T19:14:42.646Z"
 }
