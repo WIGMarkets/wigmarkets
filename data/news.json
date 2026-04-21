@@ -200,7 +200,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/5/f/f97f4a11579dd1-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/5/1/e89c740f794180-thumb-1000.jpg",
       "dateISO": "2026-04-20T17:54:00.000Z",
       "dateFormatted": "20 kwietnia 2026"
     },
@@ -224,7 +224,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/5/1/e89c740f794180-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/6/9/663ed7264204bb-thumb-1000.jpg",
       "dateISO": "2026-04-20T17:20:00.000Z",
       "dateFormatted": "20 kwietnia 2026"
     },
@@ -236,7 +236,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/5/1/e89c740f794180-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/6/9/663ed7264204bb-thumb-1000.jpg",
       "dateISO": "2026-04-20T16:50:00.000Z",
       "dateFormatted": "20 kwietnia 2026"
     },
@@ -793,18 +793,6 @@
       "dateFormatted": "20 kwietnia 2026"
     },
     {
-      "title": "Dwa gospodarcze światy w USA. Amerykanie są niezadowoleni, a Wall Street kwitnie",
-      "link": "https://www.bankier.pl/wiadomosc/Dwa-gospodarcze-swiaty-w-Ameryce-Amerykanie-sa-niezadowoleni-a-Wall-Street-kwitnie-9115015.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "W kwietniu nastroje Amerykanów mierzone przez Uniwersytet Michigan znalazły się na najniższym poziomie we współczesnej historii. Równocześnie na Wall Street trwało odbicie, a S&P500 zbliżył się do szczytu hossy.",
-      "pubDate": "Mon, 20 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/8/b/4a5f97733d0473-948-568-0-104-3000-1799.jpg",
-      "dateISO": "2026-04-20T05:00:00.000Z",
-      "dateFormatted": "20 kwietnia 2026"
-    },
-    {
       "title": "Kwantowa wiosna w Europie. Creotech Quantum i inni w pogoni za amerykańską hossą",
       "link": "https://www.bankier.pl/wiadomosc/Kwantowa-wiosna-w-Europie-Creotech-Quantum-i-inni-w-pogoni-za-amerykanska-hossa-9115709.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Debiut Creotech Quantum to nie tylko lokalne wydarzenie, ale element szerszego, kontynentalnego trendu określanego mianem „Kwantowej Wiosny”. Europejskie spółki, zagrzewane nieprawdopodobnymi wręcz wzrostami swoich odpowiedników za oceanem, coraz śmielej ruszają po kapitał z parkietów giełdowych.",
@@ -813,6 +801,18 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/d/f/1678b03f43c345-948-568-281-7-2534-1520.png",
+      "dateISO": "2026-04-20T05:00:00.000Z",
+      "dateFormatted": "20 kwietnia 2026"
+    },
+    {
+      "title": "Dwa gospodarcze światy w USA. Amerykanie są niezadowoleni, a Wall Street kwitnie",
+      "link": "https://www.bankier.pl/wiadomosc/Dwa-gospodarcze-swiaty-w-Ameryce-Amerykanie-sa-niezadowoleni-a-Wall-Street-kwitnie-9115015.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "W kwietniu nastroje Amerykanów mierzone przez Uniwersytet Michigan znalazły się na najniższym poziomie we współczesnej historii. Równocześnie na Wall Street trwało odbicie, a S&P500 zbliżył się do szczytu hossy.",
+      "pubDate": "Mon, 20 Apr 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/8/b/4a5f97733d0473-948-568-0-104-3000-1799.jpg",
       "dateISO": "2026-04-20T05:00:00.000Z",
       "dateFormatted": "20 kwietnia 2026"
     },
@@ -949,5 +949,5 @@
       "dateFormatted": "14 kwietnia 2026"
     }
   ],
-  "updatedAt": "2026-04-20T22:44:25.318Z"
+  "updatedAt": "2026-04-21T02:43:04.413Z"
 }
