@@ -1,39 +1,99 @@
 {
   "articles": [
     {
-      "title": "KGHM może rozważyć nowe produkty we współpracy z partnerami, w tym polską nauką - prezes",
-      "link": "https://www.bankier.pl/wiadomosc/KGHM-moze-rozwazyc-nowe-produkty-we-wspolpracy-z-partnerami-w-tym-polska-nauka-prezes-9121177.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "title": "Mennica Polska wypłaci 1,5 zł dywidendy na akcję",
+      "link": "https://www.bankier.pl/wiadomosc/Mennica-Polska-wyplaci-1-5-zl-dywidendy-na-akcje-9121269.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Walne zgromadzenie Mennicy Polskiej zdecydowało o przeznaczeniu 76,5 mln zł z zysku netto za 2025 r. na dywidendę, co daje 1,5 zł dywidendy na akcję - podała spółka w komunikacie.",
+      "pubDate": "Wed, 22 Apr 2026 18:48:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/b/0/1a402daa606bfe-948-568-0-320-3916-2350.jpg",
+      "dateISO": "2026-04-22T17:48:00.000Z",
+      "dateFormatted": "22 kwietnia 2026"
+    },
+    {
+      "title": "Zarząd Fasing rekomenduje wypłatę 0,5 zł dywidendy na akcję",
+      "link": "https://www.bankier.pl/wiadomosc/Zarzad-Fasing-rekomenduje-wyplate-0-5-zl-dywidendy-na-akcje-9121265.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Zarząd Fabryki Sprzętu i Narzędzi Górniczych Fasing zaproponował wypłatę za 2025 rok dywidendy w kwocie 1,55 mln zł, czyli 0,5 zł na akcję - podała spółka w komunikacie.",
+      "pubDate": "Wed, 22 Apr 2026 18:44:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/a/a/989b4ed5276ee4-948-568-0-77-4445-2666.jpg",
+      "dateISO": "2026-04-22T17:44:00.000Z",
+      "dateFormatted": "22 kwietnia 2026"
+    },
+    {
+      "title": "Azoty oddzielają przeszłość grubą kreską. Prezes zapowiada transformację i wyjście na prostą",
+      "link": "https://www.bankier.pl/wiadomosc/Azoty-oddzielaja-przeszlosc-gruba-kreska-Prezes-zapowiada-transformacje-i-wyjscie-na-prosta-9121212.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Niezależnie od potrzeb restrukturyzacyjnych Azotów, przyszłość rysuje się bardzo pozytywnie - ocenił w środę podczas Europejskiego Kongresu Gospodarczego, prezes koncernu Marcin Celejewski.",
+      "pubDate": "Wed, 22 Apr 2026 17:37:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/4/d0339faf54a0df-948-568-404-196-1471-882.jpg",
+      "dateISO": "2026-04-22T16:37:00.000Z",
+      "dateFormatted": "22 kwietnia 2026"
+    },
+    {
+      "title": "Zawieszenie broni przedłużone, ale zegar tyka. Trump daje Iranowi zaledwie kilka dni",
+      "link": "https://www.bankier.pl/wiadomosc/Zawieszenie-broni-przedluzone-ale-zegar-tyka-Trump-daje-Iranowi-zaledwie-kilka-dni-9121203.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump nie wyznaczył terminu wygaśnięcia rozejmu z Iranem - podała w środę agencja Reutera, powołując się na przedstawiciela amerykańskich władz. Według źródeł „Wall Street Journal” prezydent da Irańczykom kilka dni na przedstawienie kontrpropozycji.",
+      "pubDate": "Wed, 22 Apr 2026 17:29:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/7/57fa89842eb3ae-948-568-20-10-4075-2445.jpg",
+      "dateISO": "2026-04-22T16:29:00.000Z",
+      "dateFormatted": "22 kwietnia 2026"
+    },
+    {
+      "title": "Zjedzone miliardy i plan ratunkowy dla JSW. Prezes: to walka o życie",
+      "link": "https://www.bankier.pl/wiadomosc/Zjedzone-miliardy-i-plan-ratunkowy-dla-JSW-Prezes-to-walka-o-zycie-9121201.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Dobry plan i dobra jego komunikacja są kluczowe do przeprowadzenia transformacji firmy - mówił w środę na Europejskim Kongresie Gospodarczym w Katowicach p.o. prezesa Jastrzębskiej Spółki Węglowej Bogusław Oleksy. Szczególnie akcentował wagę budowania świadomości załogi w tym zakresie.",
+      "pubDate": "Wed, 22 Apr 2026 17:28:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/b/a8ec395bbe6c7b-948-568-0-119-1773-1063.jpg",
+      "dateISO": "2026-04-22T16:28:00.000Z",
+      "dateFormatted": "22 kwietnia 2026"
+    },
+    {
+      "title": "KGHM odbił po kilku słabszych sesjach. Banki ciężarem dla WIG20",
+      "link": "https://www.bankier.pl/wiadomosc/KGHM-odbil-po-kilku-slabszych-sesjach-Banki-ciezarem-dla-WIG20-9121184.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Środowa sesja na warszawskim parkiecie upłynęła pod znakiem braku reakcji na przedłużenie zawieszenia broni między USA a Iranem. Incydenty w cieśninie Ormuz skutecznie schłodziły nadzieje inwestorów, że konflikt wygasa. WIG20 po ustanowieniu w poprzednim tygodniu nowego szczytu hossy powyżej 3700 pu",
+      "pubDate": "Wed, 22 Apr 2026 17:13:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/3/7/6002bf98f2266b-945-560-25-56-1706-1023.jpg",
+      "dateISO": "2026-04-22T16:13:00.000Z",
+      "dateFormatted": "22 kwietnia 2026"
+    },
+    {
+      "title": "KGHM wchodzi w zbrojeniówkę i energetykę? Koncern chce produkować metale, których brakuje w Europie",
+      "link": "https://www.bankier.pl/wiadomosc/KGHM-moze-rozwazyc-nowe-produkty-we-wspolpracy-z-partnerami-w-tym-polska-nauka-prezes-9121177.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "KGHM może rozważyć rozszerzenie łańcucha wartości o nowe produkty, we współpracy z polską nauką i partnerami - poinformował prezes KGHM Remigiusz Paszkiewicz. Jak poinformował, jeden z nich mógłby być wykorzystywany w sektorze militarnym.",
       "pubDate": "Wed, 22 Apr 2026 17:06:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/d/1/785f181c53f0ce-thumb-1000.jpg",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/d/02c0ad104fd83b-948-568-0-209-1638-983.jpg",
       "dateISO": "2026-04-22T16:06:00.000Z",
       "dateFormatted": "22 kwietnia 2026"
     },
     {
-      "title": "Senat bez poprawek do noweli umożliwiającej pożyczki z ARP dla JSW i Azotów",
-      "link": "https://www.bankier.pl/wiadomosc/Senat-bez-poprawek-do-noweli-umozliwiajacej-pozyczki-z-ARP-dla-JSW-i-Azotow-9121161.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Senat nie zaproponował w środę poprawek do nowelizacji ustawy o systemie instytucji rozwoju, której celem jest umożliwienie Agencji Rozwoju Przemysłu (ARP) udzielania pożyczek przedsiębiorstwom górniczym i innym spółkom o istotnym znaczeniu dla gospodarki, w tym JSW i Azotom.",
-      "pubDate": "Wed, 22 Apr 2026 16:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/7/4/d0339faf54a0df-948-568-404-196-1471-882.jpg",
-      "dateISO": "2026-04-22T15:40:00.000Z",
-      "dateFormatted": "22 kwietnia 2026"
-    },
-    {
-      "title": "Tarcza nad bazami paliwowymi. PERN stawia na systemy antydronowe",
-      "link": "https://www.bankier.pl/wiadomosc/Tarcza-nad-bazami-paliwowymi-PERN-stawia-na-systemy-antydronowe-9121155.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Dzięki infrastrukturze i wysiłkom firm Polska do tej pory nie musi uruchamiać obowiązkowych zapasów paliw, a gdyby musiała je uruchomić już 1. dnia konfliktu na Bliskim Wschodzie, wyczerpałyby się one już z końcem maja - poinformował podczas EKG w Katowicach wiceprezes PERN, Piotr Gryska. Dodał, że ",
-      "pubDate": "Wed, 22 Apr 2026 16:34:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/6/4/5c9f03d94a76ee-948-568-5-74-1015-609.jpg",
-      "dateISO": "2026-04-22T15:34:00.000Z",
+      "title": "Co dalej z pakietem CPN? Minister finansów zapowiada",
+      "link": "https://businessinsider.com.pl/gospodarka/nizsze-ceny-paliw-w-majowke-minister-zapowiada/4dj7svm",
+      "description": "Minister finansów Andrzej Domański zasugerował przedłużenie programu \"Ceny Paliwa Niżej\", choć obecne regulacje wygasają z końcem kwietnia 2026 r.",
+      "pubDate": "Wed, 22 Apr 2026 15:36:31 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/OY1k9kpTURBXy9kOWU5Mjc1ODk4MTZmZTMxZTJkMTVmNTE2NTk2NDc2YS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-22T15:36:31.000Z",
       "dateFormatted": "22 kwietnia 2026"
     },
     {
@@ -63,7 +123,7 @@
     {
       "title": "Niemiecka gospodarka hamuje. \"Sytuacja bardzo niestabilna\".",
       "link": "https://businessinsider.com.pl/gospodarka/wojna-w-iranie-uderza-w-najwieksza-europejska-gospodarke-prognozy-nizsze-o-polowe/wnvjnbn",
-      "description": "Niemcy obniżyły swoją prognozę wzrostu gospodarczego na ten rok o połowę po tym, jak wojna USA z Iranem spowodowała gwałtowny wzrost cen energii dla przemysłu i gospodarstw domowych.",
+      "description": "Czarne chmury nad niemiecką gospodarką. W środę Berlin obciął prognozy wzrostu gospodarczego o połowę.",
       "pubDate": "Wed, 22 Apr 2026 14:52:04 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -145,9 +205,9 @@
       "dateFormatted": "22 kwietnia 2026"
     },
     {
-      "title": "Zmiana po atakach Iranu. USA zwracają się ku ukraińskiej technologii",
+      "title": "Donald Trump odrzucił ukraińską ofertę. Jednak zmienił zdanie?",
       "link": "https://businessinsider.com.pl/wiadomosci/ukrainska-platforma-antydronowa-w-amerykanskiej-bazie-w-arabii-saudyjskiej/s7d2gn7",
-      "description": "USA zwracają się ku ukraińskiej technologii antydronowej po atakach Iranu na kluczową amerykańską bazę w Zatoce Perskiej — ustalił Reuters.",
+      "description": "Mimo że jeszcze miesiąc temu Donald Trump publicznie odrzucił ofertę Wołodymyra Zełenskiego, teraz — po ataku Iranu — USA korzystają z ukraińskiej technologii antydronowej — ustalił Reuters.",
       "pubDate": "Wed, 22 Apr 2026 14:10:58 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -505,39 +565,15 @@
       "dateFormatted": "22 kwietnia 2026"
     },
     {
-      "title": "Dyrektorzy mają zarobki, które frustrują podwładnych. \"Nieporozumienie\"",
+      "title": "Tak zarabiają dyrektorzy. Dla niektórych to frustrujące",
       "link": "https://businessinsider.com.pl/praca/zarobki-w-administracji-publicznej-2026-ile-zarabiaja-dyrektorzy-i-urzednicy/2206t9h",
-      "description": "Zarobki dyrektorów w ministerstwach rosną w szybkim tempie – w ciągu dwóch lat wzrosły o prawie 7 tys. zł i dziś dorównują wynagrodzeniu Prezydenta RP. Tymczasem pracownicy niższego szczebla zarabiają znacznie mniej, co budzi frustrację i podnosi alarm wśród związkowców.",
+      "description": "Zarobki dyrektorów w ministerstwach rosną w szybkim tempie – w ciągu dwóch lat wzrosły o prawie 7 tys. zł i dziś dorównują wynagrodzeniu Prezydenta RP.",
       "pubDate": "Wed, 22 Apr 2026 11:37:50 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/Xcok9kpTURBXy9hYmEzMjFjZjVlN2Y4MGFhMDY4OGUxYjU1ODc2YmJhOC5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-04-22T11:37:50.000Z",
-      "dateFormatted": "22 kwietnia 2026"
-    },
-    {
-      "title": "W tym kraju inflacja wraca do wzrostów. Powodem konflikt na Bliskim Wschodzie",
-      "link": "https://businessinsider.com.pl/gospodarka/w-tym-kraju-inflacja-wraca-do-wzrostow-powodem-konflikt-na-bliskim-wschodzie/4ff80p6",
-      "description": "Wojna na Bliskim Wschodzie zaczyna coraz wyraźniej odbijać się na codziennym życiu w Europie. Najnowsze dane z kluczowejgo kraju pokazują, że rosnące ceny paliw i energii ponownie podbijają inflację, przerywając wcześniejszy trend jej spadku.",
-      "pubDate": "Wed, 22 Apr 2026 11:32:02 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/ftQk9kpTURBXy9hZDIyN2M1ZDdlYjlhZjlhNjRmNjA4MGI4ZjRhN2M2OS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-22T11:32:02.000Z",
-      "dateFormatted": "22 kwietnia 2026"
-    },
-    {
-      "title": "Coraz mniej czasu na PIT. Jedna grupa ma inny termin",
-      "link": "https://businessinsider.com.pl/prawo/podatki/do-kiedy-rozliczyc-pit-2026-termin-30-kwietnia-i-wyjatek-dla-pit-16a/bkq3md1",
-      "description": "Sezon rozliczeń PIT trwa. Ostateczny moment złożenia deklaracji PIT 2026 wypada 30 kwietnia. Przy czym od tej zasady jest jeden wyjątek. Niektórzy podatnicy muszą pamiętać o ważnym terminie, którego przekroczenie może skutkować poważnymi konsekwencjami.",
-      "pubDate": "Wed, 22 Apr 2026 11:19:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/JSOk9kpTURBXy8wMzE4NmY4MmVlZDRjZTI3NWI5NWE1NDVlYjg5OTRkYi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-22T11:19:00.000Z",
       "dateFormatted": "22 kwietnia 2026"
     },
     {
@@ -550,18 +586,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/f/6/b2e9e542261005-948-568-0-173-3300-1979.jpg",
       "dateISO": "2026-04-22T11:11:00.000Z",
-      "dateFormatted": "22 kwietnia 2026"
-    },
-    {
-      "title": "Blokada cieśniny Ormuz w praktyce. Ostrzelano grecki, panamski i liberyjski statek",
-      "link": "https://www.bankier.pl/wiadomosc/Blokada-ciesniny-Ormuz-w-praktyce-Ostrzelano-grecki-panamski-i-liberyjski-statek-9120945.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Co najmniej trzy kontenerowce zostały zaatakowane w środę w cieśninie Ormuz - przekazała agencja Reutera, powołując się na źródła związane z bezpieczeństwem morskim oraz brytyjską agencję bezpieczeństwa żeglugi UKMTO.",
-      "pubDate": "Wed, 22 Apr 2026 12:01:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/5/a8e4d00d90ef47-948-568-0-0-4000-2399.jpg",
-      "dateISO": "2026-04-22T11:01:00.000Z",
       "dateFormatted": "22 kwietnia 2026"
     },
     {
@@ -586,30 +610,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/1/ed177917bd19b4-948-568-0-198-1980-1187.jpg",
       "dateISO": "2026-04-22T11:00:00.000Z",
-      "dateFormatted": "22 kwietnia 2026"
-    },
-    {
-      "title": "Cyfrowy certyfikat dla pracownika? Unia negocjuje rewolucję w delegowaniu",
-      "link": "https://www.bankier.pl/wiadomosc/Cyfrowy-certyfikat-dla-pracownika-Unia-negocjuje-rewolucje-w-delegowaniu-9120918.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Unijni prawodawcy spróbują porozumieć się w środę wieczorem w sprawie przepisów o koordynowaniu systemów zabezpieczenia społecznego. Negocjatorka europarlamentu Gabriele Bischoff ogłosiła, że chce wprowadzenia obowiązku zawiadomienia o delegowaniu jeszcze przed wysłaniem pracownika do innego kraju.",
-      "pubDate": "Wed, 22 Apr 2026 11:54:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/0/3eeda17b4c07cf-945-560-97-161-1400-839.jpg",
-      "dateISO": "2026-04-22T10:54:00.000Z",
-      "dateFormatted": "22 kwietnia 2026"
-    },
-    {
-      "title": "Powstanie 2 Brygada Rakiet. Szef MON i burmistrz Gostynina podpisali list intencyjny",
-      "link": "https://www.bankier.pl/wiadomosc/Powstanie-2-Brygada-Rakiet-Szef-MON-i-burmistrz-Gostynina-podpisali-list-intencyjny-9120932.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W Gostyninie i Łowiczu zostanie utworzona 2 Brygada Rakiet, gdzie stacjonować będzie ok. 800 żołnierzy – poinformował w środę wicepremier, szef MON Władysław Kosiniak-Kamysz po podpisaniu listu intencyjnego w tej sprawie z burmistrz Gostynina. Jak dodał szef MON, do Gostynina trafią m.in. wyrzutnie ",
-      "pubDate": "Wed, 22 Apr 2026 11:49:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/7/976732b4df5424-948-568-51-20-1996-1198.jpg",
-      "dateISO": "2026-04-22T10:49:00.000Z",
       "dateFormatted": "22 kwietnia 2026"
     },
     {
@@ -985,5 +985,5 @@
       "dateFormatted": "31 marca 2026"
     }
   ],
-  "updatedAt": "2026-04-22T15:15:16.068Z"
+  "updatedAt": "2026-04-22T17:03:24.989Z"
 }
