@@ -1,27 +1,123 @@
 {
   "articles": [
     {
-      "title": "Mennica Polska wypłaci 1,5 zł dywidendy na akcję",
-      "link": "https://www.bankier.pl/wiadomosc/Mennica-Polska-wyplaci-1-5-zl-dywidendy-na-akcje-9121269.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Walne zgromadzenie Mennicy Polskiej zdecydowało o przeznaczeniu 76,5 mln zł z zysku netto za 2025 r. na dywidendę, co daje 1,5 zł dywidendy na akcję - podała spółka w komunikacie.",
-      "pubDate": "Wed, 22 Apr 2026 18:48:00 +0100",
+      "title": "Trump ogłasza dyplomatyczny sukces, ale... fakty przeczą wersji Białego Domu",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-oglasza-dyplomatyczny-sukces-ale-fakty-przecza-wersji-Bialego-Domu-9121314.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump poinformował w środę, że Iran uszanował jego prośbę i odwołał zaplanowaną na ten dzień egzekucję ośmiu kobiet. Irańskie władze zaprzeczały, by planowały stracić te kobiety, a obrońcy praw człowieka utrzymują, że dwie z nich od marca są na wolności.",
+      "pubDate": "Wed, 22 Apr 2026 20:15:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/b/0/1a402daa606bfe-948-568-0-320-3916-2350.jpg",
-      "dateISO": "2026-04-22T17:48:00.000Z",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/d/c56c72d05b0fda-948-568-5-460-1995-1196.jpg",
+      "dateISO": "2026-04-22T19:15:00.000Z",
       "dateFormatted": "22 kwietnia 2026"
     },
     {
-      "title": "Zarząd Fasing rekomenduje wypłatę 0,5 zł dywidendy na akcję",
-      "link": "https://www.bankier.pl/wiadomosc/Zarzad-Fasing-rekomenduje-wyplate-0-5-zl-dywidendy-na-akcje-9121265.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Zarząd Fabryki Sprzętu i Narzędzi Górniczych Fasing zaproponował wypłatę za 2025 rok dywidendy w kwocie 1,55 mln zł, czyli 0,5 zł na akcję - podała spółka w komunikacie.",
-      "pubDate": "Wed, 22 Apr 2026 18:44:00 +0100",
+      "title": "Putin zaciera ręce, a rosyjska ropa wraca w chwale. Bessent: zwolniliśmy ją z sankcji",
+      "link": "https://www.bankier.pl/wiadomosc/Putin-zaciera-rece-a-rosyjska-ropa-wraca-w-chwale-Bessent-zwolnilismy-ja-z-sankcji-9121309.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Minister finansów USA Scott Bessent wyjaśnił w środę, że zdecydował się przedłużyć wyłączenie z sankcji na rosyjską ropę naftową na prośbę „najuboższych energetycznie krajów”. Twierdził też, że bez tego cena ropy osiągnęłaby poziom 150 dolarów za baryłkę.",
+      "pubDate": "Wed, 22 Apr 2026 20:08:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/a/049bb951dc0191-948-568-0-217-3000-1799.jpg",
+      "dateISO": "2026-04-22T19:08:00.000Z",
+      "dateFormatted": "22 kwietnia 2026"
+    },
+    {
+      "title": "Miliardy zostaną w Polsce. Jak spółki Skarbu Państwa chcą budować krajowy łańcuch dostaw",
+      "link": "https://www.bankier.pl/wiadomosc/Strategia-local-content-kluczem-do-niezaleznosci-gospodarczej-nowelizacja-PZP-nie-jest-wymagana-debata-na-EKG-9121298.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Budowa krajowego łańcucha dostaw to kwestia bezpieczeństwa i suwerenności Polski, a zamówienia publiczne mogą być narzędziem realizowania strategii państwa - ocenili uczestnicy środowej debaty podczas Europejskiego Kongresu Gospodarczego. Implementacja local content nie będzie wymagać nowelizacji Pr",
+      "pubDate": "Wed, 22 Apr 2026 19:46:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/a/a/989b4ed5276ee4-948-568-0-77-4445-2666.jpg",
-      "dateISO": "2026-04-22T17:44:00.000Z",
+      "image": "http://galeria.bankier.pl/p/9/a/5ef33ec5da882f-948-568-61-5-1860-1116.jpg",
+      "dateISO": "2026-04-22T18:46:00.000Z",
+      "dateFormatted": "22 kwietnia 2026"
+    },
+    {
+      "title": "USA tłumaczą, dlaczego złagodziły sankcje na Rosję. \"Prośby najuboższych krajów\"",
+      "link": "https://businessinsider.com.pl/gospodarka/usa-uzasadniaja-ograniczanie-sankcji-na-rosje-taki-ma-byc-powod/dh3l5cb",
+      "description": "Amerykańska administracja zdecydowała się na niespodziewany krok, przedłużając wyłączenia spod sankcji nałożonych na rosyjską i irańską ropę. Waszyngton argumentuje to chęcią ratowania globalnej gospodarki i najbiedniejszych krajów przed drastycznymi podwyżkami.",
+      "pubDate": "Wed, 22 Apr 2026 18:33:49 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/qROk9kpTURBXy8xNDY2NzU1M2FmNGM2OWE5YzUwZDQyNjc1M2ZlNWNhMS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-22T18:33:49.000Z",
+      "dateFormatted": "22 kwietnia 2026"
+    },
+    {
+      "title": "Kijów w cieniu Bliskiego Wschodu. Wojna z Iranem rykoszetem uderza w Ukrainę i dostawy",
+      "link": "https://www.bankier.pl/wiadomosc/Kijow-w-cieniu-Bliskiego-Wschodu-Wojna-z-Iranem-rykoszetem-uderza-w-Ukraine-i-dostawy-9121290.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Ukrainy Wołodymyr Zełenski powiedział w środę stacji CNN, że w związku z wojną w Iranie zakłócone zostały dostawy części uzbrojenia do jego kraju. Dotyczy to, na przykład, pocisków antybalistycznych.",
+      "pubDate": "Wed, 22 Apr 2026 19:24:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/8/88d8ffa675a228-948-568-0-0-3890-2333.jpg",
+      "dateISO": "2026-04-22T18:24:00.000Z",
+      "dateFormatted": "22 kwietnia 2026"
+    },
+    {
+      "title": "Gigant tnie ceny subskrypcji. Abonament tańszy o 30 zł, ale jest haczyk",
+      "link": "https://www.bankier.pl/wiadomosc/Gigant-tnie-ceny-subskrypcji-Abonament-tanszy-o-30-zl-ale-jest-haczyk-9120948.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "W czasach, gdy niemal każda usługa subskrypcyjna drożeje, Microsoft zdecydował się na ruch pod prąd. Gigant z Redmond właśnie ogłosił obniżkę cen abonamentu Game Pass, co na pierwszy rzut oka wygląda jak wielkie święto dla oszczędnych graczy. Jednak diabeł tkwi w szczegółach nowej oferty.",
+      "pubDate": "Wed, 22 Apr 2026 19:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/1/5/8caeb9ed61c66c-948-568-0-200-3983-2390.jpg",
+      "dateISO": "2026-04-22T18:00:00.000Z",
+      "dateFormatted": "22 kwietnia 2026"
+    },
+    {
+      "title": "Polacy dostają pisma w sprawie butli gazowych. W tych budynkach nie można ich mieć",
+      "link": "https://businessinsider.com.pl/gospodarka/w-takich-budynkach-nie-mozna-miec-butli-gazowej-polacy-dostaja-pisma/fy0cn1x",
+      "description": "Spółdzielnie mieszkaniowe przypominają lokatorom o przepisach regulujących korzystanie z butli gazowych w budynkach wielorodzinnych. Nieprzestrzeganie zakazu może skutkować karami.",
+      "pubDate": "Wed, 22 Apr 2026 17:53:07 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/u4fk9kpTURBXy8xNzhlNzQ4ZmI0ZDA4ZTU3OTM1OGU5MDEwYTJhMDk4YS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-22T17:53:07.000Z",
+      "dateFormatted": "22 kwietnia 2026"
+    },
+    {
+      "title": "Donald Trump przedłużył rozejm, ktoś zarobił fortunę. Podejrzane transakcje",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/spadek-cen-ropy-pozwolil-zarobic-fortune-podejrzane-transakcje/gtevffl",
+      "description": "Zaledwie 15 minut przed tym, jak Donald Trump przedłużył we wtorek zawieszenie broni z Iranem, miały miejsce podejrzane transakcje na ogromną kwotę.",
+      "pubDate": "Wed, 22 Apr 2026 17:50:32 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Bhgk9kpTURBXy9hNzAzZjkyNzAwZTliMmZlNWI4NDdiMjVmZGQ4ODg5Mi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-22T17:50:32.000Z",
+      "dateFormatted": "22 kwietnia 2026"
+    },
+    {
+      "title": "Wyścig o polski atom. Francuzi, Amerykanie czy Kanadyjczycy? Decyzje w 2027",
+      "link": "https://www.bankier.pl/wiadomosc/Wyscig-o-polski-atom-Francuzi-Amerykanie-czy-Kanadyjczycy-Decyzje-w-2027-9121259.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polska chce zakończyć dialog z potencjalnymi dostawcami technologii dla II elektrowni jądrowej w 2027 r.; na razie jest trzech potencjalnych dostawców: Kanadyjczycy, Amerykanie i Francuzi - poinformował PAP Biznes w kuluarach EKG w Katowicach wiceminister energii i pełnomocnik rządu ds. strategiczne",
+      "pubDate": "Wed, 22 Apr 2026 18:32:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/a/f40be4d7fb61ff-948-568-0-168-2500-1499.jpg",
+      "dateISO": "2026-04-22T17:32:00.000Z",
+      "dateFormatted": "22 kwietnia 2026"
+    },
+    {
+      "title": "Zniknięcie założyciela Zondacrypto. W tle tajemnicze transakcje",
+      "link": "https://businessinsider.com.pl/finanse/narastaja-watpliwosci-wokol-zondacrypto-sa-informacje-o-nowych-transakcjach/l51y5bt",
+      "description": "Jak dowiedziała się \"Rzeczpospolita\", założyciel firmy Sylwester Suszek miał dokonać tajemniczych transakcji do spółek zarejestrowanych w Zjednoczonych Emiratach Arabskich.",
+      "pubDate": "Wed, 22 Apr 2026 17:25:15 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/xGpk9kpTURBXy8xOWMyZjA5ZjM0N2Y0Y2M4Y2FlMmRhYTI4M2ViN2M4Yi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-22T17:25:15.000Z",
       "dateFormatted": "22 kwietnia 2026"
     },
     {
@@ -123,7 +219,7 @@
     {
       "title": "Niemiecka gospodarka hamuje. \"Sytuacja bardzo niestabilna\".",
       "link": "https://businessinsider.com.pl/gospodarka/wojna-w-iranie-uderza-w-najwieksza-europejska-gospodarke-prognozy-nizsze-o-polowe/wnvjnbn",
-      "description": "Czarne chmury nad niemiecką gospodarką. W środę Berlin obciął prognozy wzrostu gospodarczego o połowę.",
+      "description": "Czarne chmury nad niemiecką gospodarką. W środę Berlin obciął prognozy wzrostu gospodarczego aż o połowę.",
       "pubDate": "Wed, 22 Apr 2026 14:52:04 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -181,18 +277,6 @@
       "dateFormatted": "22 kwietnia 2026"
     },
     {
-      "title": "Składka zdrowotna to za mało? Ministra zdrowia z ostrą diagnozą systemu ochrony zdrowia",
-      "link": "https://www.bankier.pl/wiadomosc/Skladka-zdrowotna-to-za-malo-Ministra-zdrowia-z-ostra-diagnoza-systemu-ochrony-zdrowia-9121092.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Publiczny system ochrony zdrowia wymaga znalezienia nowych sposobów zasilania finansowego, ponieważ obecny model – oparty na składce zdrowotnej – wyczerpał swoje możliwości – oceniła podczas Europejskiego Kongresu Gospodarczego (EKG) w Katowicach minister zdrowia Jolanta Sobierańska-Grenda.",
-      "pubDate": "Wed, 22 Apr 2026 15:14:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/f/6feb5984ee80a0-948-568-40-30-3960-2375.jpg",
-      "dateISO": "2026-04-22T14:14:00.000Z",
-      "dateFormatted": "22 kwietnia 2026"
-    },
-    {
       "title": "Bybit EU zwiększa dostępność i płynność handlu dla polskich użytkowników",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bybit-eu-zwieksza-dostepnosc-i-plynnosc-handlu-dla-polskich-uzytkownikow-1369512",
       "description": "",
@@ -214,18 +298,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/5AGk9kpTURBXy8xNjI1NGIzMDhiNTQwZjkyMTkxZTRmZjA4YzI4MDM2MS5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-04-22T14:10:58.000Z",
-      "dateFormatted": "22 kwietnia 2026"
-    },
-    {
-      "title": "Berkowicz ukarany za swastykę w Sejmie. Przez trzy miesiące będzie pobierał połowę pensji",
-      "link": "https://www.bankier.pl/wiadomosc/Berkowicz-ukarany-za-swastyke-w-Sejmie-Przez-trzy-miesiace-bedzie-pobieral-polowe-pensji-9121086.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Marszałek Sejmu Włodzimierz Czarzasty poinformował, że podpisał w środę decyzję o ukaraniu posła Konfederacji Konrada Berkowicza za posłużenie się na sali obrad flagą Izraela ze swastyką. Berkowicz w konsekwencji przez trzy miesiące będzie pobierał połowę poselskiej pensji.",
-      "pubDate": "Wed, 22 Apr 2026 15:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/a/3a4002370e4d36-948-567-0-251-950-569.jpg",
-      "dateISO": "2026-04-22T14:10:00.000Z",
       "dateFormatted": "22 kwietnia 2026"
     },
     {
@@ -481,18 +553,6 @@
       "dateFormatted": "22 kwietnia 2026"
     },
     {
-      "title": "Unia uruchamia paliwowy pakiet awaryjny. KE stawia na własne rafinerie",
-      "link": "https://www.bankier.pl/wiadomosc/Unia-uruchamia-paliwowy-pakiet-awaryjny-KE-stawia-na-wlasne-rafinerie-9120998.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Komisja Europejska zaprezentowała w środę rozwiązania, które mają zaradzić skutkom kryzysu energetycznego wywołanego wojną przeciwko Iranowi. KE chce lepszej koordynacji m.in. w zakresie rafinacji paliwa lotniczego, by móc w większym stopniu pokryć popyt na nie w UE.",
-      "pubDate": "Wed, 22 Apr 2026 13:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/3/ec9e1b1fa69bb2-948-568-60-70-3940-2363.jpg",
-      "dateISO": "2026-04-22T12:20:00.000Z",
-      "dateFormatted": "22 kwietnia 2026"
-    },
-    {
       "title": "Przełom w Brukseli. Jest zgoda na 90 mld euro dla Ukrainy i nowe sankcje",
       "link": "https://www.bankier.pl/wiadomosc/Przelom-w-Brukseli-Jest-zgoda-na-90-mld-euro-dla-Ukrainy-i-nowe-sankcje-9120986.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Państwa członkowskie UE osiągnęły w środę wstępne porozumienie w sprawie udzielenia Ukrainie pożyczki w wysokości 90 mld euro oraz nałożenia na Rosję 20. pakietu sankcji - poinformowały źródła unijne. Dotychczas obie decyzje były blokowane przez Węgry, które domagały się naprawy rurociągu Przyjaźń.",
@@ -505,18 +565,6 @@
       "dateFormatted": "22 kwietnia 2026"
     },
     {
-      "title": "Koniec naftowego impasu. Ropa znów płynie rurociągiem „Przyjaźń”",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-naftowego-impasu-Ropa-znow-plynie-rurociagiem-Przyjazn-9120983.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Tranzyt ropy naftowej przez Ukrainę rurociągiem Przyjaźń na Węgry i Słowację został w środę wznowiony - poinformowała agencja AFP, powołując się na ukraińskie źródła energetyczne. Ropociąg został naprawiony po rosyjskim ataku z końca stycznia.",
-      "pubDate": "Wed, 22 Apr 2026 13:07:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/8/49af79c6ca0a64-948-567-0-0-1000-599.jpg",
-      "dateISO": "2026-04-22T12:07:00.000Z",
-      "dateFormatted": "22 kwietnia 2026"
-    },
-    {
       "title": "Budownictwo mieszkaniowe na fali wzrostu. Marcowe statystyki GUS zaskakują",
       "link": "https://businessinsider.com.pl/nieruchomosci/pozwolenia-na-budowe-rosna-sektor-mieszkaniowy-odzyskuje-optymizm/qt00qbx",
       "description": "Marcowe dane Głównego Urzędu Statystycznego (GUS) pokazują wyraźne ożywienie w sektorze budownictwa mieszkaniowego. Po słabym początku roku liczba rozpoczynanych budów wzrosła zarówno w ujęciu miesięcznym, jak i rocznym. Katarzyna Kuniewicz z Otodom podkreśla, że głównym motorem tego wzrostu są inwe",
@@ -526,54 +574,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/K7yk9kpTURBXy8zNzJkMjZiM2E4OGI0NGMwN2MwNDZlMzgyNGJhOWQxNC5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-04-22T12:06:37.000Z",
-      "dateFormatted": "22 kwietnia 2026"
-    },
-    {
-      "title": "Cena złota zmieniła kierunek. Reaguje na nowe doniesienia z Bliskiego Wschodu",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/cena-zlota-zmienila-kierunek-tak-reaguje-na-nowe-doniesienia-z-iranu/5vr99cv",
-      "description": "Sytuacja wokół Iranu zmienia się jak w kalejdoskopie. Cena złota w środę plasuje się mniej więcej w połowie drogi między tegorocznymi minimami i maksimami.",
-      "pubDate": "Wed, 22 Apr 2026 12:03:44 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/NRZk9kpTURBXy9hMzQwMWEyN2ZmNDBkMTI0YmM4YWRjZDBlOTQxNWFhNy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-22T12:03:44.000Z",
-      "dateFormatted": "22 kwietnia 2026"
-    },
-    {
-      "title": "Sebastian Kulczyk o transformacji w Polsce. \"Brakuje nam innowacyjności\"",
-      "link": "https://businessinsider.com.pl/biznes/sebastian-kulczyk-o-innowacyjnosci-w-polsce-brakuje-nam-kapitalu-lokalnego/everpkp",
-      "description": "— Brakuje nam trochę innowacyjności — stwierdza Sebastian Kulczyk, prezes Kulczyk Investments i jeden z najbogatszych Polaków pytany o stan polskiej transformacji technologicznej. — Pomysły są, ale nie dorobiliśmy się kapitału lokalnego — dodaje podczas Europejskiego Kongresu Gospodarczego w Katowic",
-      "pubDate": "Wed, 22 Apr 2026 11:55:06 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/ikxk9kpTURBXy8zNDJjMDY4Yzc2NmViZTgxYzZkNWI2NGFmZDg3NTZiMC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-22T11:55:06.000Z",
-      "dateFormatted": "22 kwietnia 2026"
-    },
-    {
-      "title": "Od kryzysu do transformacji. Bruksela chce więcej OZE i niższe rachunki za prąd",
-      "link": "https://businessinsider.com.pl/wiadomosci/accelerateeu-unia-europejska-stawia-na-czysta-energie-i-nizsze-podatki/y7khvd2",
-      "description": "W odpowiedzi na skoki cen energii i napięcia geopolityczne Komisja Europejska chce przyspieszyć odejście od importowanych paliw kopalnych. Jak ocenia ekspert, kluczowe dla powodzenia planu będą decyzje podatkowe i tempo wdrażania zmian w państwach członkowskich.",
-      "pubDate": "Wed, 22 Apr 2026 11:42:38 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/YPFk9kpTURBXy9mNjljNmE0NGRkNjYxYzIwYjBiNzY1MDAyOWE2YTliOC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-22T11:42:38.000Z",
-      "dateFormatted": "22 kwietnia 2026"
-    },
-    {
-      "title": "Tak zarabiają dyrektorzy. Dla niektórych to frustrujące",
-      "link": "https://businessinsider.com.pl/praca/zarobki-w-administracji-publicznej-2026-ile-zarabiaja-dyrektorzy-i-urzednicy/2206t9h",
-      "description": "Zarobki dyrektorów w ministerstwach rosną w szybkim tempie – w ciągu dwóch lat wzrosły o prawie 7 tys. zł i dziś dorównują wynagrodzeniu Prezydenta RP.",
-      "pubDate": "Wed, 22 Apr 2026 11:37:50 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Xcok9kpTURBXy9hYmEzMjFjZjVlN2Y4MGFhMDY4OGUxYjU1ODc2YmJhOC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-22T11:37:50.000Z",
       "dateFormatted": "22 kwietnia 2026"
     },
     {
@@ -622,18 +622,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/d/9/a765f31cba2411-948-568-35-197-988-592.jpg",
       "dateISO": "2026-04-22T10:46:00.000Z",
-      "dateFormatted": "22 kwietnia 2026"
-    },
-    {
-      "title": "Kryzys paliwowy w Niemczech? Od maja ropa z Kazachstanu przestanie płynąć",
-      "link": "https://www.bankier.pl/wiadomosc/Kryzys-paliwowy-w-Niemczech-Od-maja-ropa-z-Kazachstanu-przestanie-plynac-9120927.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Strona niemiecka została poinformowana, że od maja do rafinerii PCK Schwedt w Brandenburgii, kluczowej dla dostaw paliw do Berlina, może nie docierać ropa naftowa z Kazachstanu - przekazało w środę ministerstwo gospodarki Niemiec.",
-      "pubDate": "Wed, 22 Apr 2026 11:44:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/7/11c445407ba459-948-568-20-280-3980-2387.jpg",
-      "dateISO": "2026-04-22T10:44:00.000Z",
       "dateFormatted": "22 kwietnia 2026"
     },
     {
@@ -745,18 +733,6 @@
       "dateFormatted": "22 kwietnia 2026"
     },
     {
-      "title": "Trzy czwarte firm używa AI, ale tylko 12 proc. jej ufa. Co poszło nie tak?",
-      "link": "https://www.bankier.pl/wiadomosc/AI-wspiera-74-proc-firm-w-Polsce-ale-w-tych-obszarach-zawodzi-9120703.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Aż 74 proc. firm w Polsce wykorzystuje AI do zadań kreatywnych i generowania pomysłów, jednak tylko 12 proc. pracodawców uważa, że sztuczna inteligencja spełnia ich oczekiwania w rekrutacji i rozwoju talentów. Kompetencje miękkie i dopasowanie kulturowe wciąż pozostają domeną ludzi – wynika z opubli",
-      "pubDate": "Wed, 22 Apr 2026 07:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/1/fc5d6ad3efccaf-948-568-0-147-1900-1139.jpg",
-      "dateISO": "2026-04-22T06:20:00.000Z",
-      "dateFormatted": "22 kwietnia 2026"
-    },
-    {
       "title": "Ruszają \"Asy Bankiera\" 2026. Wyłonimy liderów polskiego rynku finansowego",
       "link": "https://www.bankier.pl/wiadomosc/Ruszaja-Asy-Bankiera-2026-Wylonimy-liderow-polskiego-rynku-finansowego-9120405.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Redakcja Bankier.pl rozpoczyna kolejną, drugą edycję rankingu „Asy Bankiera”. Wyłonimy 25 osób, które miały największy, pozytywny wpływ na polski rynek finansowy w ubiegłym roku.",
@@ -853,6 +829,18 @@
       "dateFormatted": "21 kwietnia 2026"
     },
     {
+      "title": "UniCredit kusi lokatą na 6%. Sprawdzamy, czy warto założyć konto",
+      "link": "https://www.bankier.pl/wiadomosc/UniCredit-kusi-lokata-na-6-Sprawdzamy-czy-warto-zalozyc-konto-9120035.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "UniCredit kusi nowych klientów lokatą powitalną na 6% w skali roku. Konto jest bezpłatne i bez ukrytych warunków. Sprawdzamy, co kryje się za ofertą i czy warto po nią sięgnąć.",
+      "pubDate": "Tue, 21 Apr 2026 12:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/0/7054ad2ec0fc83-948-568-37-318-2062-1237.jpg",
+      "dateISO": "2026-04-21T11:00:00.000Z",
+      "dateFormatted": "21 kwietnia 2026"
+    },
+    {
       "title": "Dane z rynku pracy zaskoczyły ekonomistów. Ale jest za wcześnie, aby mówić o zmianie trendu",
       "link": "https://www.bankier.pl/wiadomosc/Dane-z-rynku-pracy-w-marcu-2026-zaskoczyly-ekonomistow-Czy-to-juz-zmiana-trendu-9120154.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Przyspieszającej dynamice płac towarzyszył już tylko minimalny spadek zatrudnienia. Pytanie tylko, czy jeden lepszy miesiąc pozwala mówić o zmianie dotychczasowych trendów.",
@@ -874,18 +862,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-04-21T07:19:06.000Z",
-      "dateFormatted": "21 kwietnia 2026"
-    },
-    {
-      "title": "Najlepsze lokaty półroczne. Nowości na podium i 6,60 proc. dla chętnych",
-      "link": "https://www.bankier.pl/wiadomosc/Najlepsze-lokaty-na-6-miesiecy-kwiecien-2026-r-6-60-proc-na-szczycie-i-nowe-oferty-w-grze-9116582.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Nowe oferty, jedna podwyżka i dwa cięcia – kwiecień na rynku lokat 6-miesięcznych przynosi sporo zmian. Na szczycie rankingu Bankier.pl niezmiennie królują propozycje z \"szóstką\" z przodu, ale tuż za nimi rozegrała się walka o trzecie miejsce. Przedstawiamy zestawienie najlepszych depozytów półroczn",
-      "pubDate": "Tue, 21 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/5/0b57c79bd7e1a9-948-568-0-0-1947-1168.jpg",
-      "dateISO": "2026-04-21T05:00:00.000Z",
       "dateFormatted": "21 kwietnia 2026"
     },
     {
@@ -961,18 +937,6 @@
       "dateFormatted": "16 kwietnia 2026"
     },
     {
-      "title": "Łatwiejszy rok z ING. Ruszyła wielka akcja z bonusami dla JDG",
-      "link": "https://www.bankier.pl/wiadomosc/Zgarnij-nawet-4200-zl-premii-z-kontem-firmowym-ING-9109126.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Własny biznes to spore koszty, ale bankowy rachunek może pomóc je zredukować. Dzięki nowej akcji ING, przedsiębiorcy mogą odzyskać do 3000 zł za płatności kartą oraz 1200 zł za terminowe przelewy do ZUS. Sprawdzamy regulamin promocji i podpowiadamy krok po kroku, jak zgarnąć pełną pulę bonusów w cią",
-      "pubDate": "Sat, 4 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/9/58b9d2e92161d9-948-568-0-84-1250-749.jpg",
-      "dateISO": "2026-04-04T05:00:00.000Z",
-      "dateFormatted": "4 kwietnia 2026"
-    },
-    {
       "title": "Dziennikarz Bankier.pl finalistą Nagrody Press Club Polska 2026",
       "link": "https://www.bankier.pl/wiadomosc/Dziennikarz-Bankier-pl-finalista-Nagrody-Press-Club-Polska-2026-9106947.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Wojciech Boczoń z Bankier.pl znalazł się w gronie finalistów Nagrody Dziennikarstwa Ekonomicznego Press Club Polska 2026. Kapituła konkursu doceniła jego cykl publikacji poświęconych kredytowi „Alicja” oferowanego przez PKO BP.",
@@ -985,5 +949,5 @@
       "dateFormatted": "31 marca 2026"
     }
   ],
-  "updatedAt": "2026-04-22T17:03:24.989Z"
+  "updatedAt": "2026-04-22T19:16:02.022Z"
 }
