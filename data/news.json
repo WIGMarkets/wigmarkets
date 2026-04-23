@@ -1,25 +1,181 @@
 {
   "articles": [
     {
-      "title": "Grupa OT Logistics w 2025 r. miała 36,8 mln zł EBITDA, tj. o 36,7 proc. mniej rdr",
-      "link": "https://www.bankier.pl/wiadomosc/Grupa-OT-Logistics-w-2025-r-miala-36-8-mln-zl-EBITDA-tj-o-36-7-proc-mniej-rdr-9121967.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Grupa OT Logistics odnotowała w 2025 roku EBITDA na poziomie 36,8 mln zł, co oznacza spadek o 36,7 proc. rdr - poinformowała spółka w komunikacie prasowym. W tym okresie przychody grupy wyniosły 272,9 mln zł i były o blisko 15 proc. niższe rdr.",
-      "pubDate": "Thu, 23 Apr 2026 17:48:00 +0100",
+      "title": "Konsorcjum z Arlenem ma umowę o wartości 23,76 mln zł brutto",
+      "link": "https://www.bankier.pl/wiadomosc/Konsorcjum-z-Arlenem-ma-umowe-o-wartosci-23-76-mln-zl-brutto-9122015.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Konsorcjum, którego liderem jest Arlen, a partnerem jest KFR, ma umowę ze Skarbem Państwa - 4 Regionalną Bazę Logistyczną we Wrocławiu o wartości 23,76 mln zł brutto - podał Arlen w komunikacie.",
+      "pubDate": "Thu, 23 Apr 2026 18:58:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/3f1457f4fed800-thumb-1000.jpg",
-      "dateISO": "2026-04-23T16:48:00.000Z",
+      "image": "https://galeria.bankier.pl/p/d/1/785f181c53f0ce-thumb-1000.jpg",
+      "dateISO": "2026-04-23T17:58:00.000Z",
+      "dateFormatted": "23 kwietnia 2026"
+    },
+    {
+      "title": "90 miliardów euro dla Ukrainy. Leyen ujawnia datę pierwszego przelewu",
+      "link": "https://www.bankier.pl/wiadomosc/90-miliardow-euro-dla-Ukrainy-Leyen-ujawnia-date-pierwszego-przelewu-9122006.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Przewodniczący Komisji Europejskiej i Rady Europejskiej, Ursula von der Leyen i Antonio Costa, zapowiedzieli w czwartek po spotkaniu z prezydentem Ukrainy Wołodymyrem Zełenskim, że oczekują pierwszej wypłaty środków z wynoszącej 90 mld euro pożyczki dla tego kraju w drugim kwartale br.",
+      "pubDate": "Thu, 23 Apr 2026 18:40:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/8/bc75352afd95b6-948-568-530-300-3200-1920.jpg",
+      "dateISO": "2026-04-23T17:40:00.000Z",
+      "dateFormatted": "23 kwietnia 2026"
+    },
+    {
+      "title": "Kolejowy „Y” nabiera kształtów. CPK szuka wykonawcy kluczowego odcinka między Warszawą a Łodzią",
+      "link": "https://www.bankier.pl/wiadomosc/Kolejowy-Y-nabiera-ksztaltow-CPK-szuka-wykonawcy-kluczowego-odcinka-miedzy-Warszawa-a-Lodzia-9122000.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Spółka Centralny Port Komunikacyjny (CPK) ogłosiła w czwartek postępowanie na budowę odcinka linii kolei dużych prędkości (KDP) między Warszawą i Łodzią. Poszukiwany jest wykonawca 14,3-kilometrowego odcinka kolejowego „Y” między węzłami lotniskowym i bolimowskim.",
+      "pubDate": "Thu, 23 Apr 2026 18:32:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/e/97a1c46351c195-948-568-339-166-1856-1113.jpg",
+      "dateISO": "2026-04-23T17:32:00.000Z",
+      "dateFormatted": "23 kwietnia 2026"
+    },
+    {
+      "title": "Poczta Polska zbroi się w bankowozy. Setki nowych pojazdów wyjadą na ulice",
+      "link": "https://www.bankier.pl/wiadomosc/Poczta-Polska-zbroi-sie-w-bankowozy-Setki-nowych-pojazdow-wyjada-na-ulice-9121999.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Poczta Polska chce rozbudować flotę bankowozów o 375 pojazdów do końca 2027 r. - poinformowała spółka w czwartek. Do końca 2026 r. planuje odebrać kolejne 35 bankowozów typu B, a następnie 125 takich pojazdów w transzach do końca 2027 r.",
+      "pubDate": "Thu, 23 Apr 2026 18:29:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/f/48f5e8563bbbe2-948-568-9-69-1970-1182.jpg",
+      "dateISO": "2026-04-23T17:29:00.000Z",
+      "dateFormatted": "23 kwietnia 2026"
+    },
+    {
+      "title": "APS Energia liczy na dynamiczny wzrost w 2026 r. w zw. z backlogiem w kwocie ponad 100 mln zł",
+      "link": "https://www.bankier.pl/wiadomosc/APS-Energia-liczy-na-dynamiczny-wzrost-w-2026-r-w-zw-z-backlogiem-w-kwocie-ponad-100-mln-zl-9121998.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "APS Energia liczy na dynamiczny wzrost w 2026 roku w związku z backlogiem sięgającym ponad 100 mln zł - poinformowała spółka w komunikacie prasowym. Na poziomie grupy w 2025 r. przychody wyniosły 93,6 mln zł, zysk operacyjny zbliżył się do 8,9 mln zł, a zysk netto stanowił 4,1 mln zł.",
+      "pubDate": "Thu, 23 Apr 2026 18:28:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/0/f/5cf4b304c96a2e-thumb-1000.jpg",
+      "dateISO": "2026-04-23T17:28:00.000Z",
+      "dateFormatted": "23 kwietnia 2026"
+    },
+    {
+      "title": "Trzęsienie ziemi w norweskiej armii. Pomoc dla Ukrainy w cieniu korupcji?",
+      "link": "https://www.bankier.pl/wiadomosc/Trzesienie-ziemi-w-norweskiej-armii-Pomoc-dla-Ukrainy-w-cieniu-korupcji-9121996.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Norweskie służby antykorupcyjne Oekokrim zatrzymały w czwartek, pod zarzutem poważnych nadużyć finansowych, trzy osoby z kierownictwa państwowej agencji Forsvarsmateriell (FMA), odpowiedzialnej za zakupy dla wojska. To druga ujawniona ostatnio afera korupcyjna w norweskim sektorze obronnym.",
+      "pubDate": "Thu, 23 Apr 2026 18:21:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/e/51ebe11323bc03-948-568-170-70-3633-2180.jpg",
+      "dateISO": "2026-04-23T17:21:00.000Z",
+      "dateFormatted": "23 kwietnia 2026"
+    },
+    {
+      "title": "Javier Milei wyrzuca dziennikarzy z pałacu. \"Odrażające śmiecie\"",
+      "link": "https://www.bankier.pl/wiadomosc/Javier-Milei-wyrzuca-dziennikarzy-z-palacu-Odrazajace-smiecie-9121994.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rząd Argentyny zakazał w czwartek akredytowanym dziennikarzom wstępu do Różowego Domu, czyli pałacu prezydenckiego w Buenos Aires. Jako powód podał obawy o „nielegalne szpiegostwo” oraz śledztwo w sprawie domniemanej rosyjskiej kampanii wpływu w lokalnych mediach.",
+      "pubDate": "Thu, 23 Apr 2026 18:16:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/b/841c50747c5fc1-948-568-1092-126-2450-1470.jpg",
+      "dateISO": "2026-04-23T17:16:00.000Z",
+      "dateFormatted": "23 kwietnia 2026"
+    },
+    {
+      "title": "Gawkowski: Platformy cyfrowe zachowują się jak bandzior w klasie",
+      "link": "https://www.bankier.pl/wiadomosc/Gawkowski-Platformy-cyfrowe-zachowuja-sie-jak-bandzior-w-klasie-9121991.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Kluczowym problemem walki z dezinformacją jest brak regulacji, które pozwalałyby przeciwdziałać jej w sposób systemowy – uważa wicepremier, minister cyfryzacji Krzysztof Gawkowski. W jego ocenie państwo jest obecnie bezradne wobec platform cyfrowych, na których pojawiają się fałszywe treści.",
+      "pubDate": "Thu, 23 Apr 2026 18:12:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/e/b07cc840c8ee47-948-568-0-91-1349-809.jpg",
+      "dateISO": "2026-04-23T17:12:00.000Z",
+      "dateFormatted": "23 kwietnia 2026"
+    },
+    {
+      "title": "Jaki telefon do 1000 zł? Zobacz, jak kupować, żeby nie żałować",
+      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/jaki-telefon-do-1000-zl-zobacz-jak-kupowac-zeby-nie-zalowac-czyli-porady-przy-wyborze/nzr5szk",
+      "description": "Wszyscy interesujemy się nowatorskimi możliwościami topowych telefonów. Prawda jest zaś taka, że naprawdę potrzebują ich tylko nieliczni. Smartfonowe oczekiwania większości z nas spełnią bowiem z nawiązką znacznie tańsze modele. Przyjrzeliśmy się dostępnym na rynku urządzeniom kosztującym około 1000",
+      "pubDate": "Thu, 23 Apr 2026 17:05:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/5uVk9kpTURBXy80NDg2NDk1N2EyNDE5YmRiNzgzYWFjYzQ4MzRmMGYyZi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-23T17:05:00.000Z",
+      "dateFormatted": "23 kwietnia 2026"
+    },
+    {
+      "title": "Tyrowicz: Płace nie przestały być czynnikiem ryzyka dla inflacji",
+      "link": "https://www.bankier.pl/wiadomosc/Tyrowicz-Place-nie-przestaly-byc-czynnikiem-ryzyka-dla-inflacji-9121977.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Płace nie przestały być czynnikiem ryzyka dla inflacji w Polsce, choć ich wpływ na procesy inflacyjne jest mniejszy niż szoków zewnętrznych - ocenia członkini Rady Polityki Pieniężnej, Joanna Tyrowicz.",
+      "pubDate": "Thu, 23 Apr 2026 18:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/9/a3bb0eb90d9b81-948-568-0-266-3942-2365.jpg",
+      "dateISO": "2026-04-23T17:00:00.000Z",
+      "dateFormatted": "23 kwietnia 2026"
+    },
+    {
+      "title": "Miliardowe inwestycje w gaz. Polska sieć gotowa do dużych przesyłów",
+      "link": "https://businessinsider.com.pl/gospodarka/miliardowe-inwestycje-w-gaz-w-polsce-siec-gotowa-do-duzych-przesylow/ek2jrln",
+      "description": "Polska sieć przesyłowa jest gotowa do transportowania ogromnych ilości gazu. Jak informuje członek zarządu Polskiej Spółki Gazownictwa Wojciech Kowalski, spółka co roku wydaje na inwestycje ok. 3 mld zł. Są w tym m.in. wydatki na transformację energetyczną.",
+      "pubDate": "Thu, 23 Apr 2026 16:59:32 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/KcYk9kpTURBXy8yYmE3ZTdjNGU0YzExN2M3Y2IxOGMxYWEzMWRmZmQ2NS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-23T16:59:32.000Z",
+      "dateFormatted": "23 kwietnia 2026"
+    },
+    {
+      "title": "Miliardy na zbrojenia z SAFE dla Polski. KE zwleka z dokumentami",
+      "link": "https://www.bankier.pl/wiadomosc/Miliardy-na-zbrojenia-z-SAFE-dla-Polski-KE-zwleka-z-dokumentami-9121974.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Komisja Europejska jeszcze w tym tygodniu prześle Polsce tekst umowy pożyczkowej SAFE - poinformowało w czwartek źródło PAP. Nie wiadomo jeszcze, czy umowę uda się podpisać zgodnie z oczekiwaniami polskiego rządu do końca kwietnia.",
+      "pubDate": "Thu, 23 Apr 2026 17:58:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/f/8c87342aa12bf2-948-568-652-1710-2156-1293.jpg",
+      "dateISO": "2026-04-23T16:58:00.000Z",
+      "dateFormatted": "23 kwietnia 2026"
+    },
+    {
+      "title": "Gospodarka USA odbija, ale wojna winduje ceny. Oto najnowsze dane",
+      "link": "https://businessinsider.com.pl/gospodarka/usa-notuje-odbicie-gospodarcze-wojna-na-bliskim-wschodzie-podbija-ceny/7xm4r8f",
+      "description": "Aktywność biznesowa w USA znów rośnie, ale to odbicie ma swoją cenę. Wojna na Bliskim Wschodzie zaczyna coraz mocniej uderzać w koszty i inflację — a to może szybko zahamować poprawę.",
+      "pubDate": "Thu, 23 Apr 2026 16:42:31 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/aUvk9kpTURBXy9lMGZiMjI5YzlmMTQzOGU5NDY1NTFiNTJiOTFmM2NlYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-23T16:42:31.000Z",
+      "dateFormatted": "23 kwietnia 2026"
+    },
+    {
+      "title": "Koniec podziału w górnictwie? Nowy projekt ustawy zakłada miliony na osłony dla PG Silesia",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-podzialu-w-gornictwie-Nowy-projekt-ustawy-zaklada-miliony-na-oslony-dla-PG-Silesia-9121938.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Do uzgodnień międzyresortowych skierowano projekt noweli ustawy, która ma objąć pracowników prywatnych kopalń m.in. PG Silesia, systemem osłon socjalnych - wynika z czwartkowego wpisu na stronie Rządowego Centrum Legislacji.",
+      "pubDate": "Thu, 23 Apr 2026 17:26:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/7/a9ebd1ee65f175-948-568-10-118-4292-2575.jpg",
+      "dateISO": "2026-04-23T16:26:00.000Z",
       "dateFormatted": "23 kwietnia 2026"
     },
     {
       "title": "Banki ciążą na wynikach głównych indeksów. Pepco najdroższe od 2023 r., Bumech zdecydował co z działalnością w sektorze obronnym",
-      "link": "https://www.bankier.pl/wiadomosc/Banki-ciaza-na-wynikach-glownych-indeksow-Pepco-najdrozsze-od-2023-r-Bumech-zdecydowal-co-z-dzialalnoscia-w-sektorze-obronnym-9121921.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Banki-ciaza-na-wynikach-glownych-indeksow-Pepco-najdrozsze-od-2023-r-Bumech-zdecydowal-co-z-dzialalnoscia-w-sektorze-obronnym-9121921.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Czwartkowa sesja na warszawskim parkiecie upłynęła pod znakiem wyraźnej przewagi podaży, czym GPW wyróżniła się na tle umiarkowanych spadków, a nawet wzrostów głównych indeksów w Europie. Inwestorzy musieli zmierzyć się z niekorzystnym orzeczeniem unijnego trybunału dla sektora finansowego. Spadki b",
       "pubDate": "Thu, 23 Apr 2026 17:20:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/0/62d855390f6cf3-945-560-540-540-3960-2375.jpg",
       "dateISO": "2026-04-23T16:20:00.000Z",
       "dateFormatted": "23 kwietnia 2026"
@@ -63,7 +219,7 @@
     {
       "title": "Nieoczekiwany skutek konfliktu na Bliskim Wschodzie. \"Wojna jedynie obnażyła problem\"",
       "link": "https://businessinsider.com.pl/gospodarka/konflikt-w-iranie-napedza-sprzedaz-fotowoltaiki-gwaltowne-wzrosty-sprzedazy/6pl0r14",
-      "description": "Przedłużająca się wojna na Bliskim Wschodzie, a także związane z nią problemy z dostawami paliw i wzrosty cen energii spowodowały wyższy popyt na systemy solarne — podaje Reuters, opierając się na rozmowach z dostawcami fotowoltaiki w Europie.",
+      "description": "Przedłużająca się wojna na Bliskim Wschodzie, a także związane z nią problemy z dostawami paliw i wzrosty cen energii spowodowały rosnący popyt na konkretny produkt, który ma być alternatywą dla tradycyjnych rozwiązań.",
       "pubDate": "Thu, 23 Apr 2026 15:49:35 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -154,18 +310,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/oh0k9kpTURBXy84NWIxYjI0YWM1N2MyN2Q5ZWEzYzAzYmJkY2Y2NDU2Ni5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-04-23T14:57:06.000Z",
-      "dateFormatted": "23 kwietnia 2026"
-    },
-    {
-      "title": "Trump uderza w Iran: Ma wielkie trudności z ustaleniem, kto jest jego przywódcą",
-      "link": "https://www.bankier.pl/wiadomosc/Trump-uderza-w-Iran-Ma-wielkie-trudnosci-z-ustaleniem-kto-jest-jego-przywodca-9121827.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Iran ma wielkie trudności z ustaleniem, kto jest jego przywódcą, a walka między radykalnymi i umiarkowanymi przedstawicielami reżimu jest „szalona” - ocenił w czwartek prezydent USA Donald Trump. Oświadczył, że USA sprawują „całkowitą kontrolę” nad cieśniną Ormuz.",
-      "pubDate": "Thu, 23 Apr 2026 15:44:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/3/27994ca32028a8-948-568-20-140-3980-2387.jpg",
-      "dateISO": "2026-04-23T14:44:00.000Z",
       "dateFormatted": "23 kwietnia 2026"
     },
     {
@@ -262,18 +406,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/AaYk9kpTURBXy8xMjI4MmUxYTg2YTg2ZjYzY2U1YjhiZGY2MWQwYWUyMy5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-04-23T13:56:12.000Z",
-      "dateFormatted": "23 kwietnia 2026"
-    },
-    {
-      "title": "Prezes GPW: OKI przyciągną inwestorów indywidualnych na giełdę",
-      "link": "https://www.bankier.pl/wiadomosc/Prezes-GPW-OKI-przyciagna-inwestorow-indywidualnych-na-gielde-9121760.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Osobiste Konta Inwestycyjne przyciągną inwestorów indywidualnych na giełdę – ocenił prezes Giełdy Papierów Wartościowych w Warszawie Tomasz Bardziłowski w czwartek na Europejskim Kongresie Gospodarczym. Jego zdaniem OKI mogą być ogromną szansą dla krajowego rynku kapitałowego.",
-      "pubDate": "Thu, 23 Apr 2026 14:23:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/8/3f2d4264c8acc9-948-568-90-100-3910-2345.jpg",
-      "dateISO": "2026-04-23T13:23:00.000Z",
       "dateFormatted": "23 kwietnia 2026"
     },
     {
@@ -445,42 +577,6 @@
       "dateFormatted": "23 kwietnia 2026"
     },
     {
-      "title": "Kluczowa decyzja UE w sprawie Rosji i Ukrainy. W tle gigantyczne kwoty",
-      "link": "https://businessinsider.com.pl/gospodarka/panstwa-ue-podjely-dwie-kluczowe-decyzje-chodzi-o-ukraine-i-rosje/t67pxvn",
-      "description": "Państwa członkowskie Unii Europejskiej (UE) podjęły w czwartek dwie kluczowe decyzje dotyczące Ukrainy i Rosji. Jedna z nich to zaakceptowanie ogromnej pożyczki dla Ukrainy. Wcześniej tę decyzję blokowały Węgry. Druga decyzja uderza w Rosję.",
-      "pubDate": "Thu, 23 Apr 2026 12:24:08 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/0ztk9kpTURBXy8yZmRhZWY0NmEyOTc5MWQ0MzJmYzMwYWRkODEzZDA2OC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-23T12:24:08.000Z",
-      "dateFormatted": "23 kwietnia 2026"
-    },
-    {
-      "title": "Płaca minimalna wzrośnie w lipcu? Wielu może się zdziwić",
-      "link": "https://businessinsider.com.pl/praca/placa-minimalna-2026-ile-na-reke-wynosi-najnizsza-krajowa/31s5lr8",
-      "description": "Pracownicy na pewno życzyliby sobie, żeby płaca minimalna w 2026 r. wzrosła nie tylko na początku roku, ale także w jego połowie. Tym bardziej że minimalne wynagrodzenie zostanie podniesione od lipca dla osób zatrudnionych w jednym z sektorów.",
-      "pubDate": "Thu, 23 Apr 2026 12:07:57 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/PCtk9kpTURBXy9mYTAwMjc1ZTU1ZjQ3NjAwZTg5MTM5MDNiYzkxZTY5Yi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-23T12:07:57.000Z",
-      "dateFormatted": "23 kwietnia 2026"
-    },
-    {
-      "title": "Jak zwiększyć zwrot podatku? Te ulgi robią największą różnicę",
-      "link": "https://businessinsider.com.pl/gospodarka/podatki/jak-zwiekszyc-zwrot-podatku-pit-2026-oto-wszystkie-ulgi-podatkowe/nm2c8p4",
-      "description": "Rozliczenie podatków za 2025 r. może być wyjątkowo korzystne dla podatników. Konsekwencją złożenia rozliczenia PIT może być zwrot podatku sięgający nawet kilkunastu tysięcy złotych. Wszystko zależy od poprawnego skorzystania z przysługujących ulg podatkowych. Wyjaśniamy, które ulgi można wykorzystać",
-      "pubDate": "Thu, 23 Apr 2026 12:06:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Vnbk9kpTURBXy9iMzU3MjEyYmIwNmM1MGIzNmFkNWVlMWY1Y2ViOTZkMS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-23T12:06:00.000Z",
-      "dateFormatted": "23 kwietnia 2026"
-    },
-    {
       "title": "Cenckiewicz: Złożyłem rezygnację ze stanowiska szefa BBN",
       "link": "https://www.bankier.pl/wiadomosc/Cenckiewicz-Zlozylem-rezygnacje-ze-stanowiska-szefa-BBN-9121676.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Sławomir Cenckiewicz poinformował, że złożył rezygnację ze stanowiska szefa Biura Bezpieczeństwa Narodowego. Jak dodał, decyzję tę podjął „wobec bezprawnych działań rządu Donalda Tuska, który nie szanuje prawomocnych wyroków sądów i bezpodstawnie odbiera mu prawo dostępu do informacji niejawnych”.",
@@ -553,18 +649,6 @@
       "dateFormatted": "23 kwietnia 2026"
     },
     {
-      "title": "Rewolucja w systemie kaucyjnym? Zamiast jednej butelki wrzucasz całą ich torbę",
-      "link": "https://www.bankier.pl/wiadomosc/Rewolucja-w-systemie-kaucyjnym-Zamiast-butelki-wrzucasz-od-razu-cala-ich-torbe-9121576.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Jednym z najczęstszych problemów systemu kaucyjnego zgłaszanych przez konsumentów jest powolna praca automatów – butelki trzeba wrzucać jedna po drugiej, czekając na zeskanowanie. To długo trwa i powoduje kolejki. Jednak niebawem to się zmieni. Do nowych recyklomatów będzie można wrzucić za jednym r",
-      "pubDate": "Thu, 23 Apr 2026 11:53:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/6/9dc1719bbe39ee-948-568-41-8-1087-652.jpg",
-      "dateISO": "2026-04-23T10:53:00.000Z",
-      "dateFormatted": "23 kwietnia 2026"
-    },
-    {
       "title": "Hit powraca. UniCredit daje 200 zł na zakupy do Biedronki bez żadnych warunków",
       "link": "https://www.bankier.pl/wiadomosc/200-zl-do-Biedronki-za-konto-osobiste-UniCredit-wraca-z-promocja-9121540.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Po ekspresowym wyczerpaniu puli dostępnych nagród UniCredit wraca z kolejną edycją promocji swojego konta osobistego. Nowi klienci, którzy otworzą bezpłatny rachunek, otrzymają w nagrodę bon do Biedronki na kwotę 200 zł. Największym plusem jest brak dodatkowych warunków akcji.",
@@ -574,18 +658,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/b/3/5d21e2deab46f0-948-568-1108-332-1848-1108.jpg",
       "dateISO": "2026-04-23T10:53:00.000Z",
-      "dateFormatted": "23 kwietnia 2026"
-    },
-    {
-      "title": "5 miliardów na cyfrową tarczę. Polska w piątce najlepiej chronionych państw świata",
-      "link": "https://www.bankier.pl/wiadomosc/5-miliardow-na-cyfrowa-tarcze-Polska-w-piatce-najlepiej-chronionych-panstw-swiata-9121587.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Łącznie w 2026 r. Polska z różnych źródeł wyda na cyberbezpieczeństwo rekordowe ponad 5 mld zł - poinformował w trakcie panelu na EKG w Katowicach minister cyfryzacji Krzysztof Gawkowski. Dodał, że Polska jest najbardziej cyberatakowanym państwem w UE i jednocześnie znajduje się w piątce najlepiej c",
-      "pubDate": "Thu, 23 Apr 2026 11:14:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/b/7c62b8c646f67e-948-568-0-144-4128-2476.jpg",
-      "dateISO": "2026-04-23T10:14:00.000Z",
       "dateFormatted": "23 kwietnia 2026"
     },
     {
@@ -646,30 +718,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/3/792076c09f233b-948-567-0-15-1000-599.jpg",
       "dateISO": "2026-04-23T09:21:00.000Z",
-      "dateFormatted": "23 kwietnia 2026"
-    },
-    {
-      "title": "Żółte światło dla giganta. Moody's zmienia nastawienie do PKO BH",
-      "link": "https://www.bankier.pl/wiadomosc/Zolte-swiatlo-dla-giganta-Moody-s-zmienia-nastawienie-do-PKO-BH-9121537.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Agecja Moody's utrzymała ratingi PKO Banku Hipotecznego na poziomie A3/P-2 dla zobowiązań długoterminowych (stabilną perspektywą) i krótkoterminowych - podała agencja w komunikacie. Perspektywa ratingów długoterminowych banku została zmieniona do negatywnej ze stabilnej.",
-      "pubDate": "Thu, 23 Apr 2026 10:08:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/6/f83bb34eb1aa41-945-560-0-0-1732-1039.jpg",
-      "dateISO": "2026-04-23T09:08:00.000Z",
-      "dateFormatted": "23 kwietnia 2026"
-    },
-    {
-      "title": "Miliardy na polskie drogi. GDDKiA podpisała 20. umowę na unijne dofinansowanie",
-      "link": "https://www.bankier.pl/wiadomosc/Miliardy-na-polskie-drogi-GDDKiA-podpisala-20-umowe-na-unijne-dofinansowanie-9121526.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Generalna Dyrekcja Dróg Krajowych i Autostrad (GDDKiA) podpisała 20. umowę o dofinansowanie z Programu Fundusze Europejskie na Infrastrukturę, Klimat, Środowisko (FEnIKS) - podano w komunikacie. Łączna wartość inwestycji objętych wsparciem to ponad 28 mld zł, z czego dofinansowanie unijne wynosi bli",
-      "pubDate": "Thu, 23 Apr 2026 09:46:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": null,
-      "dateISO": "2026-04-23T08:46:00.000Z",
       "dateFormatted": "23 kwietnia 2026"
     },
     {
@@ -745,18 +793,6 @@
       "dateFormatted": "23 kwietnia 2026"
     },
     {
-      "title": "Burgery, kurczaki i apetyt na ponad 0,5 mld zł. \"Firma działa trzy lata, ale łącznie mamy setki lat doświadczenia\"",
-      "link": "https://www.bankier.pl/wiadomosc/Burgery-kurczaki-i-apetyt-na-ponad-0-5-mld-zl-Firma-dziala-trzy-lata-ale-lacznie-mamy-setki-lat-doswiadczenia-9121367.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Przeznaczyliśmy nawet do 20% akcji w IPO dla inwestorów detalicznych, ponieważ widzimy ich rosnące zainteresowanie rynkiem kapitałowym i chcemy dać im realną możliwość udziału w rozwoju spółki – przekonuje w rozmowie z Bankier.pl Olgierd Danielewicz, prezes zmierzającej na giełdę restauracyjnej firm",
-      "pubDate": "Thu, 23 Apr 2026 07:26:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/5/d8bf3e4fcf12f2-948-568-314-62-2831-1698.jpg",
-      "dateISO": "2026-04-23T06:26:00.000Z",
-      "dateFormatted": "23 kwietnia 2026"
-    },
-    {
       "title": "Zniknął bez śladu, ale zostawił spółki w Dubaju. Śledczy na tropie założyciela Zondacrypto",
       "link": "https://www.bankier.pl/wiadomosc/Zniknal-bez-sladu-ale-zostawil-spolki-w-Dubaju-Sledczy-na-tropie-zalozyciela-Zondacrypto-9121430.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Udziały w giełdzie kryptowalut trafiły do trzech spółek w Zjednoczonych Emiratach Arabskich; te z kolei były kontrolowane przez firmy w Luksemburgu, należące do zaginionego założyciela Zondacrypto - informuje czwartkowa „Rzeczpospolita”.",
@@ -778,18 +814,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/8/7/53e0e493e74126-948-568-76-322-1971-1182.jpg",
       "dateISO": "2026-04-23T05:12:00.000Z",
-      "dateFormatted": "23 kwietnia 2026"
-    },
-    {
-      "title": "\"Oszukują system\". Ryanair znów zaostrza kontrole bagażu podręcznego",
-      "link": "https://www.bankier.pl/wiadomosc/Oszukuja-system-Ryanair-znow-zaostrza-kontrole-bagazu-podrecznego-9120864.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "40x30x20 - to wymiary bagażu podręcznego dla pasażerów Ryanaira. Za każdą wyłapaną ponadwymiarową walizkę lub plecak do tej pory pracownik otrzymywał premię w wysokości 1,5 euro (czyli ponad 6 zł). Teraz przewoźnik zdecydował się na podwyżkę do 2,5 euro (czyli ponad 10 zł). Dodatkowo zniósł miesięcz",
-      "pubDate": "Thu, 23 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/1/c8a855e2a2c2cd-948-567-0-87-1000-599.jpg",
-      "dateISO": "2026-04-23T05:00:00.000Z",
       "dateFormatted": "23 kwietnia 2026"
     },
     {
@@ -959,19 +983,7 @@
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-04-17T14:57:11.000Z",
       "dateFormatted": "17 kwietnia 2026"
-    },
-    {
-      "title": "Łatwiejszy rok z ING. Ruszyła wielka akcja z bonusami dla JDG",
-      "link": "https://www.bankier.pl/wiadomosc/Zgarnij-nawet-4200-zl-premii-z-kontem-firmowym-ING-9109126.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Własny biznes to spore koszty, ale bankowy rachunek może pomóc je zredukować. Dzięki nowej akcji ING, przedsiębiorcy mogą odzyskać do 3000 zł za płatności kartą oraz 1200 zł za terminowe przelewy do ZUS. Sprawdzamy regulamin promocji i podpowiadamy krok po kroku, jak zgarnąć pełną pulę bonusów w cią",
-      "pubDate": "Sat, 4 Apr 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/9/58b9d2e92161d9-948-568-0-84-1250-749.jpg",
-      "dateISO": "2026-04-04T05:00:00.000Z",
-      "dateFormatted": "4 kwietnia 2026"
     }
   ],
-  "updatedAt": "2026-04-23T15:54:40.554Z"
+  "updatedAt": "2026-04-23T17:21:50.737Z"
 }
