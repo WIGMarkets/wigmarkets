@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Kryptowalutowa ofensywa Trumpa nie ratuje jego memecoin",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/kryptowalutowa-ofensywa-trumpa-nie-ratuje-jego-memecoin-1376991",
+      "description": "",
+      "pubDate": "2026-04-26 00:44:21",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-04-26T00:44:21.000Z",
+      "dateFormatted": "26 kwietnia 2026"
+    },
+    {
       "title": "Ponad 20-godzinny rosyjski atak na Dniepr. 8 osób zabitych, prawie 50 rannych",
       "link": "https://www.bankier.pl/wiadomosc/Ponad-20-godzinny-rosyjski-atak-na-Dniepr-8-osob-zabitych-prawie-50-rannych-9123031.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Władze miasta Dniepr na środowym wschodzie Ukrainy poinformowały w sobotę wieczorem, że wojska rosyjskie ostrzeliwały je przez ponad 20 godzin, zabijając ośmiu i raniąc prawie 50 mieszkańców.",
@@ -865,18 +877,6 @@
       "dateFormatted": "21 kwietnia 2026"
     },
     {
-      "title": "Cena Bitcoina dziś: rośnie w kierunku 76 tys. $ w oczekiwaniu na rozmowy USA-Iran",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/cena-bitcoina-dzis-powyzej-76-tys--wobec-rozmow-usairan-1368210",
-      "description": "",
-      "pubDate": "2026-04-21 07:19:06",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "dateISO": "2026-04-21T07:19:06.000Z",
-      "dateFormatted": "21 kwietnia 2026"
-    },
-    {
       "title": "Santander zmienił się w Erste Bank. Co to oznacza dla klientów?",
       "link": "https://www.bankier.pl/wiadomosc/24-26-kwietnia-rozpocznie-sie-rebranding-Santander-Bank-Polska-na-Erste-Bank-Polska-9111402.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Santander Bank Polska poinformował, że w weekend 24–26 kwietnia planuje rozpocząć rebranding, czyli formalną zmianę marki na Erste Bank Polska. To kolejny etap procesu integracji z austriacką Erste Group, która od 9 stycznia jest głównym akcjonariuszem banku po sfinalizowaniu transakcji zakupu 49 pr",
@@ -889,5 +889,5 @@
       "dateFormatted": "9 kwietnia 2026"
     }
   ],
-  "updatedAt": "2026-04-25T22:38:25.404Z"
+  "updatedAt": "2026-04-26T02:51:19.000Z"
 }
