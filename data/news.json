@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Wezwanie do zapisywania się na sprzedaż akcji Wirtualna Polska Holding S.A.",
+      "link": "https://www.bankier.pl/wiadomosc/Wezwanie-do-zapisywania-sie-na-sprzedaz-akcji-Wirtualna-Polska-Holding-S-A-9123878.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Wezwanie do zapisywania się na sprzedaż akcji Wirtualna Polska Holding S.A. z siedzibą w Warszawie - komunikat.",
+      "pubDate": "Tue, 28 Apr 2026 01:06:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/0/f/c054fce945dcfc-thumb-1000.jpg",
+      "dateISO": "2026-04-28T00:06:00.000Z",
+      "dateFormatted": "28 kwietnia 2026"
+    },
+    {
       "title": "Stoczek Natura z Grupy Makarony Polskie przejmuje Joyfood",
       "link": "https://www.bankier.pl/wiadomosc/Stoczek-Natura-z-Grupy-Makarony-Polskie-przejmuje-Joyfood-9123872.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Joyfood, producent funkcjonalnych dań gotowych, past warzywnych i produktów typu superfoods po zgodzie UOKiK wejdzie w skład Grupy Makarony Polskie - poinformowały Makarony Polskie w komunikacie. Grupa sfinalizowała właśnie umowę warunkową zakupu 100 proc. udziałów w Joyfood.",
@@ -8,7 +20,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/5/f/f97f4a11579dd1-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/6/9/663ed7264204bb-thumb-1000.jpg",
       "dateISO": "2026-04-27T22:40:00.000Z",
       "dateFormatted": "27 kwietnia 2026"
     },
@@ -226,18 +238,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/c/7/e38855cc9365d0-948-568-6-152-2426-1456.jpg",
       "dateISO": "2026-04-27T17:13:00.000Z",
-      "dateFormatted": "27 kwietnia 2026"
-    },
-    {
-      "title": "Develia kupiła działkę w Warszawie za 24,5 mln zł pod 120 lokali mieszkalnych",
-      "link": "https://www.bankier.pl/wiadomosc/Develia-kupila-dzialke-w-Warszawie-za-24-5-mln-zl-pod-120-lokali-mieszkalnych-9123727.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Spółka zależna Develii - Develia Vita - kupiła działkę w Warszawie przy ulicy Wieśniaczej za 24,5 mln zł pod 120 lokali mieszkalnych - podała spółka w komunikacie. Planowany termin rozpoczęcia sprzedaży w ramach tego projektu inwestycyjnego to koniec drugiego kwartału 2027 roku.",
-      "pubDate": "Mon, 27 Apr 2026 18:12:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/0/f/b9c6df6b574304-948-568-13-27-1786-1071.jpg",
-      "dateISO": "2026-04-27T17:12:00.000Z",
       "dateFormatted": "27 kwietnia 2026"
     },
     {
@@ -853,5 +853,5 @@
       "dateFormatted": "22 kwietnia 2026"
     }
   ],
-  "updatedAt": "2026-04-27T22:54:08.090Z"
+  "updatedAt": "2026-04-28T03:22:41.518Z"
 }
