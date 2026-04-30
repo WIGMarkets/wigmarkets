@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "title": "Donald Trump znosi cła na jeden produkt. \"Na cześć króla i królowej\"",
+      "link": "https://businessinsider.com.pl/gospodarka/donald-trump-znosi-cla-na-whisky-na-czesc-krola-i-krolowej/9yswv36",
+      "description": "Prezydent Donald Trump ogłosił w czwartek zniesienie ceł na szkocką whisky. Jak wyjaśnił, do tej decyzji skłoniła go dobiegająca końca wizyta w USA króla Wielkiej Brytanii Karola III i królowej Kamili.",
+      "pubDate": "Thu, 30 Apr 2026 20:03:58 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/wiFk9kpTURBXy9mMDA4MzFmYTM3NjIzMTc0YjMxYzEzMTg2MTFkMTI4OS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-30T20:03:58.000Z",
+      "dateFormatted": "30 kwietnia 2026"
+    },
+    {
+      "title": "Mercosur wchodzi w życie. \"Przedsiębiorcy muszą natychmiast odczuć korzyści\"",
+      "link": "https://businessinsider.com.pl/gospodarka/umowa-mercosur-wchodzi-w-zycie-ursula-von-der-leyen-o-korzysciach/1912dl1",
+      "description": "Już od 1 maja zacznie obowiązywać nowa umowa handlowa pomiędzy Unią Europejską a krajami Mercosuru. — Przedsiębiorcy muszą natychmiast odczuć płynące z niej korzyści — powiedziała w czwartek przewodnicząca Komisji Europejskiej Ursula von der Leyen.",
+      "pubDate": "Thu, 30 Apr 2026 19:46:32 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/XE3k9kpTURBXy8xMThmY2M0NWYzMmFjOGYzYmZmM2E1ZTlmYzVhN2QwZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-30T19:46:32.000Z",
+      "dateFormatted": "30 kwietnia 2026"
+    },
+    {
+      "title": "Polska chce pełnić ważną misję w regionie. Jest deklaracja Stanów Zjednoczonych",
+      "link": "https://businessinsider.com.pl/gospodarka/stany-zjednoczone-poparly-plan-polski-koniec-z-historyczna-zaleznoscia/9q7zgzj",
+      "description": "Polska uzgodniła w czwartek ze Stanami Zjednoczonymi współpracę w dziedzinie bezpieczeństwa energetycznego. USA zadeklarowały poparcie dla ważnej inicjatywy Warszawy, związanej z sektorem energetycznym.",
+      "pubDate": "Thu, 30 Apr 2026 19:38:22 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ASQk9kpTURBXy8wZGNlOGMzODQxYjI3NjAwMTRmN2Y0ZGRhNjA2OWMwNi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-04-30T19:38:22.000Z",
+      "dateFormatted": "30 kwietnia 2026"
+    },
+    {
       "title": "Polska regionalnym hubem LNG? MSZ: USA wyraziły poparcie dla aspiracji",
       "link": "https://www.bankier.pl/wiadomosc/Polska-regionalnym-hubem-LNG-MSZ-USA-wyrazily-poparcie-dla-aspiracji-9126343.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Stany Zjednoczone wyraziły poparcie dla aspiracji Polski, aby stać się regionalnym hubem LNG – poinformowało Ministerstwo Spraw Zagranicznych (MSZ) w oświadczeniu opublikowanym po czwartkowej rundzie Dialogu Strategicznego między Polską a USA.",
@@ -51,7 +87,7 @@
     {
       "title": "Ważne zmiany w Kodeksie pracy od maja. Polacy rzucili się z wnioskami do ZUS",
       "link": "https://businessinsider.com.pl/praca/wazne-zmiany-w-kodeksie-pracy-od-maja-polacy-rzucili-sie-z-wnioskami-do-zus/1lw0b9m",
-      "description": "1 maja wchodzą w życie zmiany w Kodeksie pracy dla pracowników firm prywatnych. Chodzi o nowy sposób obliczania stażu pracy. Aby z niego skorzystać, trzeba dostać odpowiednie zaświadczenie. Już setki tysięcy Polaków zwróciły się o nie do Zakładu Ubezpieczeń Społecznych (ZUS).",
+      "description": "1 maja wchodzą w życie zmiany w Kodeksie pracy dla pracowników firm prywatnych. Aby skorzystać z nowych możliwości, trzeba dostać odpowiednie zaświadczenie. Już setki tysięcy Polaków zwróciły się o nie do Zakładu Ubezpieczeń Społecznych (ZUS).",
       "pubDate": "Thu, 30 Apr 2026 18:59:08 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -541,30 +577,6 @@
       "dateFormatted": "30 kwietnia 2026"
     },
     {
-      "title": "Chaos wokół spółki powiązanej z Zondacrypto. Jest na krawędzi likwidacji",
-      "link": "https://businessinsider.com.pl/firmy/femion-technology-na-krawedzi-likwidacji-kryzys-po-aferze-zondacrypto/48ctms8",
-      "description": "Jeszcze niedawno działała na rynku płatności dla branży krypto, dziś stoi na krawędzi likwidacji. Powiązana z Zondacrypto spółka Femion Technology znalazła się w centrum kryzysu, który doprowadził do odpływu kadry, utraty biznesu i załamania kursu akcji.",
-      "pubDate": "Thu, 30 Apr 2026 13:45:44 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/KV2k9kpTURBXy8yY2EzZTc4Y2U0YTIzMDgwZDc2ZjJiZmE3ODQ3NjAyNy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-30T13:45:44.000Z",
-      "dateFormatted": "30 kwietnia 2026"
-    },
-    {
-      "title": "Konflikt na Bliskim Wschodzie napędza rynek nieruchomości? Wzrosty sprzedaży nawet o 40 proc.",
-      "link": "https://businessinsider.com.pl/biznes/konflikt-na-bliskim-wschodzie-napedza-rynek-nieruchomosci-wzrosty-sprzedazy-nawet-o/m50brgf",
-      "description": "Wybuch konfliktu na Bliskim Wschodzie oprócz tego, że mocno wpłynął na ceny paliw, to pobudził też polski rynek nieruchomości. Sprzedaż mieszkań deweloperskich w siedmiu największych miastach naszego kraju wzrosła w marcu aż o 40 proc. rok do roku, a ceny w Warszawie są niemal o 9 proc. wyższe niż p",
-      "pubDate": "Thu, 30 Apr 2026 13:41:47 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/4Wqk9kpTURBXy8yYTQ1ZTI2YTI2MTc1ZmVhNzdjZDJjNjk1MGQ1Y2NhYy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-30T13:41:47.000Z",
-      "dateFormatted": "30 kwietnia 2026"
-    },
-    {
       "title": "Tym będą żyły rynki: amerykański rynek pracy kontra wyniki giełdowych korporacji",
       "link": "https://www.bankier.pl/wiadomosc/Tym-beda-zyly-rynki-amerykanski-rynek-pracy-kontra-wyniki-gieldowych-korporacji-9126032.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Dogasającemu powoli sezonowi publikacji wyników kwartalnych na Wall Street towarzyszyć będzie początek sezony raportowego na GPW. Nie zabraknie też polskich akcentów: decyzji RPP oraz oceny kredytowej Polski w wykonaniu agencji S&P.",
@@ -574,18 +586,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/4/7/96d589cff6842f-948-568-187-0-2812-1687.jpg",
       "dateISO": "2026-04-30T13:37:00.000Z",
-      "dateFormatted": "30 kwietnia 2026"
-    },
-    {
-      "title": "Fatalne wieści dla polskich kierowców. \"Burzliwa zmienność\" na rynku paliw",
-      "link": "https://businessinsider.com.pl/gospodarka/ceny-paliw-po-majowce-wlasciciele-tych-samochodow-zaplaca-najwiecej/d1b5yxf",
-      "description": "Prognozy ekspertów od rynku paliw na najbliższe dni nie są pozytywne. Wiele wskazuje na to, że po majówce ceny paliw pójdą w górę. Szczególnie złe wieści analitycy mają dla właścicieli diesli.",
-      "pubDate": "Thu, 30 Apr 2026 13:36:37 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/nIKk9kpTURBXy9mZWE0MTMwYTllZGI0N2Y2YmQzOTU0MDQ5OGJjMDJlZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-04-30T13:36:37.000Z",
       "dateFormatted": "30 kwietnia 2026"
     },
     {
@@ -937,5 +937,5 @@
       "dateFormatted": "26 kwietnia 2026"
     }
   ],
-  "updatedAt": "2026-04-30T19:24:12.692Z"
+  "updatedAt": "2026-04-30T21:02:45.504Z"
 }
