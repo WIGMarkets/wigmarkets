@@ -1,6 +1,30 @@
 {
   "articles": [
     {
+      "title": "Trump o Iranie: Mogę ich wykończyć raz na zawsze albo zawrzeć pokój",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-o-Iranie-Moge-ich-wykonczyc-raz-na-zawsze-albo-zawrzec-pokoj-9126669.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Władze Iranu chcą zawrzeć porozumienie i poczyniły wielkie kroki, ale nie jestem usatysfakcjonowany ich propozycjami - powiedział w piątek prezydent USA Donald Trump. Przyznał, że może nigdy nie zawrzeć układu z Iranem i zamiast tego może „wykończyć” Iran.",
+      "pubDate": "Fri, 1 May 2026 21:09:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/b/bf250c52eabb7e-948-568-150-70-3850-2309.jpg",
+      "dateISO": "2026-05-01T20:09:00.000Z",
+      "dateFormatted": "1 maja 2026"
+    },
+    {
+      "title": "Tether spowalnia zakupy złota do 6 ton w pierwszym kwartale",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/tether-spowalnia-zakupy-zlota-do-6-ton-w-pierwszym-kwartale-93CH-1390170",
+      "description": "",
+      "pubDate": "2026-05-01 19:48:04",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-05-01T19:48:04.000Z",
+      "dateFormatted": "1 maja 2026"
+    },
+    {
       "title": "\"Robimy to, aby działać sprawniej\". Meta wprowadza największe cięcia od lat",
       "link": "https://businessinsider.com.pl/technologie/nowe-technologie/meta-oglasza-masowe-zwolnienia-sztuczna-inteligencja-zmienia-branze/dezvkkh",
       "description": "Meta przygotowuje się do jednego z największych cięć etatów w ostatnich latach. Ruch ten ma poprawić efektywność działania i uwolnić środki na kosztowne inwestycje w rozwój sztucznej inteligencji. Firma Marka Zuckerberga nie jest jednak jedyną w branży, która zdecydowała się na podobny ruch.",
@@ -121,14 +145,14 @@
       "dateFormatted": "1 maja 2026"
     },
     {
-      "title": "Wojna celna USA - UE powraca. Cła na samochody wzrosną do 25 proc. Bruksela reaguje: Widzieliśmy już takie arbitralne posunięcia",
+      "title": "Trump ogłasza 25 proc. cła na auta z UE. Bruksela grozi odwetem i obroną interesów",
       "link": "https://www.bankier.pl/wiadomosc/Wojna-celna-USA-UE-powraca-Cla-na-samochody-wzrosna-do-25-proc-9126642.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent USA Donald Trump zapowiedział w piątek, że w przyszłym tygodniu podwyższy cła na samochody z UE do 25 proc. Zarzucił Unii Europejskiej, że nie przestrzega umowy handlowej ze Stanami Zjednoczonymi.",
+      "description": "Prezydent USA Donald Trump zapowiedział drastyczne podwyższenie ceł na samochody z Unii Europejskiej do poziomu 25 proc., oskarżając Brukselę o łamanie umów handlowych. Komisja Europejska natychmiast zapowiedziała ochronę własnych interesów, a europejska branża motoryzacyjna ostrzega przed „ogromnym",
       "pubDate": "Fri, 1 May 2026 18:08:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/b/e30ed3b76b58b1-948-568-0-0-2759-1655.jpg",
+      "image": "http://galeria.bankier.pl/p/1/e/df27be446df65b-948-569-290-8-1441-865.jpg",
       "dateISO": "2026-05-01T17:08:00.000Z",
       "dateFormatted": "1 maja 2026"
     },
@@ -851,19 +875,7 @@
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-04-27T13:06:38.000Z",
       "dateFormatted": "27 kwietnia 2026"
-    },
-    {
-      "title": "Bitcoin utrzymuje się blisko 78 tys. $ po krótkim rajdzie; szczyt w Vegas 2026",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-oddaje-zyski-po-wzroscie-powyzej-79-tys--szczyt-w-vegas-2026-1377253",
-      "description": "",
-      "pubDate": "2026-04-27 07:18:34",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "dateISO": "2026-04-27T07:18:34.000Z",
-      "dateFormatted": "27 kwietnia 2026"
     }
   ],
-  "updatedAt": "2026-05-01T19:14:14.317Z"
+  "updatedAt": "2026-05-01T20:54:31.201Z"
 }
