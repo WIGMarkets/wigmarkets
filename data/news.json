@@ -1,6 +1,450 @@
 {
   "articles": [
     {
+      "title": "Atak drona na luksusowy wieżowiec w Moskwie. Uderzenie tuż obok Kremla",
+      "link": "https://www.bankier.pl/wiadomosc/Atak-drona-na-luksusowy-wiezowiec-w-Moskwie-Uderzenie-tuz-obok-Kremla-9127111.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Dron uderzył w nocy z niedzieli na poniedziałek w wieżowiec w Moskwie – poinformował w komunikatorze Telegram mer rosyjskiej stolicy Siergiej Sobianin. Według portalu Kyiv Post chodzi o luksusowy kompleks wieżowców mieszkalnych, Mosfilm Tower.",
+      "pubDate": "Mon, 4 May 2026 08:17:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/7/cbd69fe847ec48-948-568-0-224-3200-1919.jpg",
+      "dateISO": "2026-05-04T07:17:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Ceny miedzi w Nowym Jorku lekko spadają. W Londynie i Szanghaju wolne",
+      "link": "https://www.bankier.pl/wiadomosc/Ceny-miedzi-w-Nowym-Jorku-lekko-spadaja-W-Londynie-i-Szanghaju-wolne-9127106.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Notowania miedzi na giełdzie metali w Nowym Jorku lekko spadają - informują maklerzy.",
+      "pubDate": "Mon, 4 May 2026 08:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/7/9/76753393cac90d-948-568-18-181-2485-1491.jpg",
+      "dateISO": "2026-05-04T07:00:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Nielegalne automaty, broń i narkotyki. Wielka akcja KAS",
+      "link": "https://www.bankier.pl/wiadomosc/Nielegalne-automaty-bron-i-narkotyki-Wielka-akcja-KAS-9127104.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Funkcjonariusze podkarpackiej KAS zabezpieczyli 47 automatów do gier oraz zatrzymali osiem osób podczas akcji przeciw nielegalnemu hazardowi na Podkarpaciu i Lubelszczyźnie. W 11 lokalizacjach znaleziono także m.in. broń i narkotyki.",
+      "pubDate": "Mon, 4 May 2026 07:51:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/4/5a70894111cd0e-948-568-48-0-1800-1079.jpg",
+      "dateISO": "2026-05-04T06:51:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Na giełdach ropy spadki cen. Wiele się dzieje wokół cieśniny Ormuz",
+      "link": "https://www.bankier.pl/wiadomosc/Na-gieldach-ropy-spadki-cen-Wiele-sie-dzieje-wokol-ciesniny-Ormuz-9127101.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Ceny ropy naftowej na globalnych rynkach spadają w poniedziałek rano. Wiele się dzieje wokół cieśniny Ormuz - informują maklerzy.",
+      "pubDate": "Mon, 4 May 2026 07:46:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/f/d/a06ec1de4120f5-948-568-22-175-3024-1814.jpg",
+      "dateISO": "2026-05-04T06:46:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Poczobut: Chcę spróbować wrócić na Białoruś",
+      "link": "https://www.bankier.pl/wiadomosc/Poczobut-Chce-sprobowac-wrocic-na-Bialorus-9127100.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Chcę spróbować wrócić na Białoruś. Wszystko zależy od tego, jak to się potoczy na granicy - powiedział Andrzej Poczobut w wywiadzie dla poniedziałkowego wydania „Gazety Wyborczej”.",
+      "pubDate": "Mon, 4 May 2026 07:41:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/d/ab892b6f944fcd-948-568-56-33-4443-2666.jpg",
+      "dateISO": "2026-05-04T06:41:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Miliardowa strata NBP za 2025 rok. Wynik gorszy niż rok wcześniej",
+      "link": "https://www.bankier.pl/wiadomosc/Miliardowa-strata-NBP-za-2025-rok-Wynik-gorszy-niz-rok-wczesniej-9127094.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Strata NBP w 2025 r. wyniosła 35,740 mld zł wobec 13,347 mld zł w 2024 roku - poinformował NBP w sprawozdaniu za ubiegły rok.",
+      "pubDate": "Mon, 4 May 2026 07:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/e/3dc459e427a1ce-948-568-0-71-2048-1228.jpg",
+      "dateISO": "2026-05-04T06:36:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Ekspansja PZU w cieniu wojny. Przejmują połowę rynku ubezpieczeń",
+      "link": "https://www.bankier.pl/wiadomosc/PZU-kupi-100-proc-MetLife-Ukraina-chce-wzmocnic-pozycje-w-regionie-CEE-9127092.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "PZU zawarło warunkową umowę nabycia 100 proc. akcji MetLife Ukraina, lidera tamtejszego rynku ubezpieczeń na życie. Transakcja ma wzmocnić pozycję Grupy PZU w Europie Środkowo-Wschodniej oraz istotnie zwiększyć skalę działalności w segmencie ubezpieczeń życiowych – poinformowała spółka.",
+      "pubDate": "Mon, 4 May 2026 07:32:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/1/e/7c65eb35acf3db-948-567-0-67-1000-599.jpg",
+      "dateISO": "2026-05-04T06:32:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "PSG przyłączy w tym roku do sieci 3 lub 4 biometanownie",
+      "link": "https://www.bankier.pl/wiadomosc/PSG-przylaczy-w-tym-roku-do-sieci-3-lub-4-biometanownie-9127091.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Polska Spółka Gazownictwa (PSG) z grupy Orlen planuje w tym roku przyłączyć do sieci 3 lub 4 biometanownie. W przyszłym roku już kilkanaście - poinformował członek zarządu Wojciech Kowalski. Spółka inwestuje przede wszystkim w rozbudowę i modernizację sieci gazowej.",
+      "pubDate": "Mon, 4 May 2026 07:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/0/f/c054fce945dcfc-thumb-1000.jpg",
+      "dateISO": "2026-05-04T06:30:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Koniec dominacji Chin? Japonia i Australia inwestują fortunę w nowe łańcuchy dostaw",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-dominacji-Chin-Japonia-i-Australia-inwestuja-fortune-w-nowe-lancuchy-dostaw-9127090.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Premierzy Japonii i Australii, Sanae Takaichi i Anthony Albanese, podpisali w poniedziałek w Canberze deklarację o dostawach surowców krytycznych i energetycznych. Jak zaznacza agencja Kyodo, ma to chronić gospodarki obu państw przed szokami wywołanymi blokadą cieśniny Ormuz i dominacją Chin na rynk",
+      "pubDate": "Mon, 4 May 2026 07:27:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/4/d0ad70a3a6a8b6-948-568-0-47-1721-1032.jpg",
+      "dateISO": "2026-05-04T06:27:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Prawie 200 ofiar śmiertelnych wypadków w pracy w 2025 roku. PIP wskazuje winnych",
+      "link": "https://www.bankier.pl/wiadomosc/Prawie-200-ofiar-smiertelnych-wypadkow-w-pracy-w-2025-roku-PIP-wskazuje-winnych-9127069.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wypadki przy pracy niemal zawsze są bezpośrednią konsekwencją wadliwej struktury organizacji, paraliżującej presji czasu, zgubnej rutyny i braku realnego wsparcia ze strony kadry kierowniczej – ocenił główny inspektor pracy Marcin Stanecki. W 2025 r. przy pracy zginęło prawie 200 osób.",
+      "pubDate": "Mon, 4 May 2026 07:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/d/2f5ab367a94f90-948-568-0-4-1973-1183.jpg",
+      "dateISO": "2026-05-04T06:20:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Atal chce kupić w Trójmieście udziały w spółkach Budner i nieruchomości za 133,5 mln zł",
+      "link": "https://www.bankier.pl/wiadomosc/Atal-chce-kupic-w-Trojmiescie-udzialy-w-spolkach-Budner-i-nieruchomosci-za-133-5-mln-zl-9127089.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Grupa Atal podpisała umowę przedwstępną dotycząca nabycia udziałów w spółkach z Grupy Budner, w tym zakupu jej nieruchomości za 133,5 mln zł - podał deweloper w komunikacie prasowym. Spółka pozyska możliwość realizacji nowych przedsięwzięć deweloperskich w Trójmieście na ok. 70 tys. m kw. PUM.",
+      "pubDate": "Mon, 4 May 2026 07:16:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/9/3/8d6d4df8d08771-thumb-1000.jpg",
+      "dateISO": "2026-05-04T06:16:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Plastikowe słomki wracają do łask? Gastronomia znalazła lukę w prawie",
+      "link": "https://www.bankier.pl/wiadomosc/Plastikowe-slomki-wracaja-do-lask-Gastronomia-znalazla-luke-w-prawie-9127055.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W niektórych lokalach gastronomicznych nadal można dostać plastikowe słomki do napojów, mimo że od trzech lat obowiązują unijne przepisy zabraniające używania plastiku - podaje w poniedziałek „Dziennik Gazeta Prawna”.",
+      "pubDate": "Mon, 4 May 2026 07:10:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/6/35050f8c710106-948-568-66-4-1833-1100.jpg",
+      "dateISO": "2026-05-04T06:10:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Wielkie przyjęcia i drogie prezenty. Tyle Polacy wydają na pierwszą komunię",
+      "link": "https://businessinsider.com.pl/finanse/polacy-wydaja-miliardy-zlotych-rocznie-tyle-kosztuje-pierwsza-komunia/qsxv345",
+      "description": "Mimo że liczba dzieci, które podchodzą do pierwszej komunii, systematycznie maleje, skala wydatków na tę uroczystość rośnie. Rodzice wydają tysiące złotych na organizację przyjęć. Do tego dochodzą jeszcze coraz droższe prezenty.",
+      "pubDate": "Mon, 04 May 2026 06:00:29 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/UZEk9kpTURBXy85ZGZiMTkzOGU2ODg3NGFkODgxN2JkYWFhZWNiY2NlMC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-04T06:00:29.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Nowy podział społeczeństwa? Sztuczna inteligencja faworyzuje bogatych",
+      "link": "https://www.bankier.pl/wiadomosc/Nowy-podzial-spoleczenstwa-Sztuczna-inteligencja-faworyzuje-bogatych-9127062.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Upowszechnienie sztucznej inteligencji może tworzyć nowy wymiar nierówności społecznych. Osoby lepiej wykształcone i zamożniejsze korzystają z niej częściej, chętniej i bardziej świadomie - wynika z badania opublikowanego w „Information, Communication & Society”.",
+      "pubDate": "Mon, 4 May 2026 07:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/e/46499e9fcbeb01-948-568-0-276-1024-614.jpg",
+      "dateISO": "2026-05-04T06:00:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Hantawirus uderza w turystów. Zmarło 3 pasażerów statku na Atlantyku",
+      "link": "https://www.bankier.pl/wiadomosc/Hantawirus-uderza-w-turystow-Zmarlo-3-pasazerow-statku-na-Atlantyku-9127035.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Światowa Organizacja Zdrowia (WHO) poinformowała w niedzielę o śmierci trzech pasażerów statku wycieczkowego, płynącego po Oceanie Atlantyckim. Potwierdzono jeden przypadek zakażenia hantawirusem, który jest przenoszony przez gryzonie.",
+      "pubDate": "Mon, 4 May 2026 07:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/6/feb8951b8b5b56-945-560-3-84-1197-718.jpg",
+      "dateISO": "2026-05-04T06:00:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Ważne zmiany dla Ukraińców. Nowe zasady w Polsce od poniedziałku",
+      "link": "https://www.bankier.pl/wiadomosc/Wazne-zmiany-dla-Ukraincow-Nowe-zasady-w-Polsce-od-poniedzialku-9127065.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Od poniedziałku obywatele Ukrainy mający PESEL UKR będą mogli składać wnioski o wydanie karty pobytu ważnej przez trzy lata, tzw. karty pobytu CUKR – poinformował PAP Urząd do Spraw Cudzoziemców. Składanie wniosków o wydanie CUKR będzie możliwe wyłącznie za pomocą portalu Moduł Obsługi Spraw (MOS).",
+      "pubDate": "Mon, 4 May 2026 06:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/8/a742570296fecc-948-568-0-276-4096-2457.jpg",
+      "dateISO": "2026-05-04T05:50:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Ile do koperty na komunię w 2026 roku? Polacy wskazali konkretne kwoty",
+      "link": "https://www.bankier.pl/wiadomosc/Ile-do-koperty-na-komunie-w-2026-roku-Polacy-wskazali-konkretne-kwoty-9127064.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Kwotę od 401 do 600 zł w kopercie, w charakterze komunijnego prezentu, skłonnych byłoby wręczyć 28,4 proc. ankietowanych, a przedział 201-400 zł wskazało 24,4 proc. respondentów - wynika z badania „Komunijne prezenty Polaków. Trendy 2026”. W ocenie ekspertów suma zależy nie tylko od zamożności.",
+      "pubDate": "Mon, 4 May 2026 06:45:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/a/40e819dc742d70-948-568-7-39-3163-1897.jpg",
+      "dateISO": "2026-05-04T05:45:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Zaskakujące wieści ze sklepów. Tak zachowują się ceny [Koszyk zakupowy Business Insidera i aplikacji PanParagon]",
+      "link": "https://businessinsider.com.pl/poradnik-finansowy/zaskakujace-wiesci-ze-sklepow-tak-zachowuja-sie-ceny/7d2wtrf",
+      "description": "Na światowych rynkach sytuacja jest wyjątkowo niespokojna, ale ceny w polskich sklepach wyraźnie spadają. Tym razem mamy zjazd aż o 2 proc.",
+      "pubDate": "Mon, 04 May 2026 05:37:23 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/HBak9kpTURBXy9mYzY4MjNiYWJlYjY1NTgxYTVhZjcwYmZlZTcxNGExNy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-04T05:37:23.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Santander Bank Polska to już Erste Bank Polska. Za nami gigantyczny rebranding",
+      "link": "https://www.bankier.pl/wiadomosc/Polski-rynek-finansowy-atrakcyjny-dla-miedzynarodowych-graczy-Nowy-bank-zapowiada-zmiany-w-ofercie-i-wsparcie-ekspansji-firm-9127075.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polska zajmuje pierwsze miejsce w Unii Europejskiej pod kątem liczby transakcji mobilnych i internetowych. Jest także liderem innowacji w finansach. To w połączeniu z wielkością krajowego rynku przyciąga zagraniczne banki. Erste Bank Polska, który 24 kwietnia zastąpił Santander Bank Polska, widzi tu",
+      "pubDate": "Mon, 4 May 2026 06:35:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/8/ad648bd76f3193-948-568-534-110-3144-1886.jpg",
+      "dateISO": "2026-05-04T05:35:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Bitcoin przekracza 80 tys. $ dzięki napływom do ETF",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-przekracza-80-tys--dzieki-naplywom-do-etf-1390542",
+      "description": "",
+      "pubDate": "2026-05-04 05:20:42",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-05-04T05:20:42.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "\"Projekt Wolność\". USA rozpoczynają operację w cieśninie Ormuz",
+      "link": "https://businessinsider.com.pl/gospodarka/nawet-15-tys-zolnierzy-rusza-projekt-wolnosc/08m4nkd",
+      "description": "Rozpoczyna się operacja \"Projekt Wolność\" (ang. Project Freedom), w ramach której — jak mówi Donald Trump — uwolnione mają zostać statki, które utknęły w cieśninie. Media podają coraz więcej szczegółów akcji.",
+      "pubDate": "Mon, 04 May 2026 05:20:23 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/6Jpk9kpTURBXy84YjQzNmRmMGVmZmQwZmMxMTA3NjBjNTE0YWY5YTA2ZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-04T05:20:23.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Te 15 amerykańskich akcji w ciągu dekady dało zarobić najwięcej",
+      "link": "https://www.bankier.pl/wiadomosc/Te-15-amerykanskich-akcji-w-ciagu-dekady-dalo-zarobic-najwiecej-9125826.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Inwestorzy często szukają na giełdzie szybkiego zysku, jednak największą wartość zazwyczaj generuje inwestowanie długoterminowe. Oto zestawienie 15 amerykańskich spółek, które w ciągu ostatnich 10 lat przyniosły najwięcej zysków akcjonariuszom.",
+      "pubDate": "Mon, 4 May 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/c/6/1a3a4c00b3e54e-948-567-0-27-1000-599.jpg",
+      "dateISO": "2026-05-04T05:00:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Mieszkanie bez wkładu własnego: rząd podniósł limity, ale ceny rosną szybciej",
+      "link": "https://www.bankier.pl/wiadomosc/Rodzinny-kredyt-mieszkaniowy-ceny-mieszkan-rosna-wolniej-od-limitow-cen-BGK-9125887.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W ostatnim roku wraz z rosnącymi cenami mieszkań, wzrosły również limity cenowe w ramach programu „Mieszkanie bez wkładu własnego”. I choć jest on bardziej dostępny niż na początku funkcjonowania, to szukający własnego „M” w największych polskich miastach wciąż muszą się mocno nagimnastykować, by zn",
+      "pubDate": "Mon, 4 May 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/3/a1dd93a81c527d-948-568-0-119-1984-1190.jpg",
+      "dateISO": "2026-05-04T05:00:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Do kogo po najszybszy internet mobilny i domowy? Porównanie Orange, T-Mobile, Play, Plus",
+      "link": "https://www.bankier.pl/wiadomosc/Kto-oferuje-najszybszy-internet-mobilny-i-domowy-Porownanie-Orange-T-Mobile-Play-Plus-Netia-INEA-Vectra-9125573.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W ciągu ostatniego roku czołowi operatorzy internetu stacjonarnego i mobilnego w Polsce znacząco podnieśli średnią prędkość łącza – wynika z danych serwisu Speedtest.pl. Przed majówką sprawdzamy, kto oferuje w Polsce najszybszy internet i najbardziej stabilne łącze.",
+      "pubDate": "Mon, 4 May 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/3/9796ec0766cd6b-945-567-0-6-1195-717.jpg",
+      "dateISO": "2026-05-04T05:00:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Ciche przyzwolenie na rabunek. Izraelska armia nie radzi sobie z falą grabieży",
+      "link": "https://www.bankier.pl/wiadomosc/Ciche-przyzwolenie-na-rabunek-Izraelska-armia-nie-radzi-sobie-z-fala-grabiezy-9127058.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Armia nie radzi sobie z falą grabieży mienia cywilnego przez żołnierzy w Libanie i Strefie Gazy – informuje izraelski portal Ynet. Z relacji rezerwistów wynika, że rabunek opuszczonych domów odbywa się rutynowo, a dowództwo nie podejmuje działań dyscyplinarnych.",
+      "pubDate": "Mon, 4 May 2026 05:43:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/1/d26d522f70e2db-948-568-7-149-2992-1795.jpg",
+      "dateISO": "2026-05-04T04:43:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Uzbrojeni, groźni i nieuchwytni. Polska stała się bezpieczną przystanią dla światowej mafii?",
+      "link": "https://www.bankier.pl/wiadomosc/Uzbrojeni-grozni-i-nieuchwytni-Polska-stala-sie-bezpieczna-przystania-dla-swiatowej-mafii-9127051.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W tym roku policjanci wytropili już kilkunastu obcokrajowców ukrywających się w Polsce, a poszukiwanych czerwoną notą - czytamy w poniedziałkowej „Rzeczpospolitej”.",
+      "pubDate": "Mon, 4 May 2026 05:31:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/e/23699a56de8bb7-948-568-0-49-1997-1198.jpg",
+      "dateISO": "2026-05-04T04:31:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Farma fotowoltaiczna jak elektrownia węglowa. Dla OZE otwiera się nowy rozdział",
+      "link": "https://businessinsider.com.pl/gospodarka/oze-w-nowej-roli-farma-zwartowo-w-choczewie-wyznacza-kierunek-zmian/9ftktm3",
+      "description": "Wielka farma fotowoltaiczna zaczęła działać na rynku, na którym do tej pory przeważały klasyczne elektrownie cieplne. — Mamy nad nimi przewagi — deklaruje przedstawiciel współodpowiedzialnej za operację firmy Respect Energy.",
+      "pubDate": "Mon, 04 May 2026 04:30:57 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/XJck9kpTURBXy80YzY4OTcwN2M4NTgxZGViMzExMjBmYTk2Mzg3ODQ0My5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-04T04:30:57.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Czy twoje pieniądze mogą utknąć w funduszu? Gorzka lekcja dla inwestorów",
+      "link": "https://businessinsider.com.pl/finanse/fala-umorzen-zalewa-usa-jak-polskie-fundusze-bronia-sie-przed-turbulencjami/532wtpt",
+      "description": "W USA przez rynki długu prywatnego przetoczyła się fala umorzeń, która spowodowała, że miliardy dolarów zostało \"zamrożonych\" w funduszach tego typu. Choć rynek potrafi czasem \"przeszarżować\", polscy eksperci przekonują, że nad Wisłą, gdzie również występują takie fundusze, gramy według zupełnie inn",
+      "pubDate": "Mon, 04 May 2026 04:23:14 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/45kk9kpTURBXy84NGU2ZmJmMDVlYWU3ZWUzZjJjNzBiZmQzZmE1OWI4MC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-04T04:23:14.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Zablokowana cieśnina Ormuz. Atak na statek handlowy u wybrzeży Emiratów",
+      "link": "https://www.bankier.pl/wiadomosc/Zablokowana-ciesnina-Ormuz-Atak-na-statek-handlowy-u-wybrzezy-Emiratow-9127049.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Tankowiec został trafiony przez „nieznane pociski” u wybrzeży Zjednoczonych Emiratów Arabskich - poinformowała w poniedziałek brytyjska agencja monitorująca bezpieczeństwo żeglugi UKMTO. Do incydentu doszło po ogłoszeniu przez prezydenta USA Donalda Trumpa operacji eskortowania statków tym szlakiem ",
+      "pubDate": "Mon, 4 May 2026 05:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/8/914caf70b11b55-948-569-67-19-1146-688.jpg",
+      "dateISO": "2026-05-04T04:20:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Pięć spółek, które warto mieć na radarze w maju 2026 r. Dużo się dzieje wokół nich",
+      "link": "https://businessinsider.com.pl/gielda/w-co-inwestowac-na-gieldzie-piec-spolek-ktore-warto-miec-na-radarze-w-maju-2026-r/lhl4zgy",
+      "description": "Biznes jednej z najbogatszych rodzin w Polsce na giełdzie jest wart coraz więcej. Analitycy wskazali, kto może być największym beneficjentem local content. Szykuje się też duży debiut.",
+      "pubDate": "Mon, 04 May 2026 04:16:01 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/QJZk9kpTURBXy9jZjRiNjVjMjMwYmEyNjEyOTEzNzUzMGExNTNkYzk2MS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-04T04:16:01.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Karol Nawrocki rozmawiał z Donaldem Trumpem. Jest komunikat",
+      "link": "https://businessinsider.com.pl/wiadomosci/prezydent-nawrocki-rozmawial-z-trumpem-rozmawiano-o-wojskach-usa/dm2phxe",
+      "description": "Prezydent Karol Nawrocki przeprowadził rozmowę telefoniczną z prezydentem USA Donaldem Trumpem. Dotyczyła ona m.in. obecności amerykańskich wojsk na Starym Kontynencie.",
+      "pubDate": "Mon, 04 May 2026 04:08:46 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/BDvk9kpTURBXy9kZDkyMmQ2MTdjOGM3MjdjZTcxOTQ5N2E4ODdjMTc0MC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-04T04:08:46.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Zarabiają 4 tys. zł, chcą prawie 10. Finansowe oczekiwania polskich studentów",
+      "link": "https://www.bankier.pl/wiadomosc/Zarabiaja-4-tysiace-chca-prawie-10-Finansowe-oczekiwania-polskich-studentow-9127046.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Studenci w Polsce zarabiają średnio 4,1 tys. zł netto miesięcznie, jednak za satysfakcjonujący poziom wynagrodzenia uznaliby 9,9 tys. zł na rękę – wynika z badania „Student w pracy”. Największa grupa pracujących studentów dostaje od 4 do 5 tys. zł netto, więcej miesięcznie zarabia co trzeci.",
+      "pubDate": "Mon, 4 May 2026 05:02:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/5/bb2d25ac596cf2-948-568-0-148-1888-1132.jpg",
+      "dateISO": "2026-05-04T04:02:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Rekordowy rocznik przystępuje do matur. Takie zasady obowiązują prawie 350 tys. uczniów",
+      "link": "https://www.bankier.pl/wiadomosc/W-poniedzialek-4-maja-ruszaja-matury-powt-9127045.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W poniedziałek rozpoczną się matury. Przystąpi do nich około 344,8 tys. tegorocznych absolwentów liceów ogólnokształcących, techników i szkół branżowych II stopnia. Wraz z nimi egzaminy będą zdawać abiturienci z wcześniejszych roczników.",
+      "pubDate": "Mon, 4 May 2026 05:02:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/e/59c689ab58c830-948-568-0-0-1730-1038.jpg",
+      "dateISO": "2026-05-04T04:02:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Inni wykorzystali fale inwestycji i mają swoje czempiony. \"Polscy przedsiębiorcy mają o to żal\"",
+      "link": "https://businessinsider.com.pl/biznes/repolonizacja-pod-lupa-jakub-stypula-wskazuje-najwieksze-bariery-dla-local-content/lvzcfp4",
+      "description": "Działania rządu w sprawie repolonizacji poniosą fiasko, jeżeli nie zmieni się podejście zamawiających, czyli spółek Skarbu Państwa organizujących przetargi — przestrzega prezes spółki Polimex-Mostostal Jakub Stypuła w rozmowie z Business Insider Polska. Zdradza też, o co polscy przedsiębiorcy mają ż",
+      "pubDate": "Mon, 04 May 2026 03:55:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/SKRk9kpTURBXy83MDU5OTZiMWU1NTMzN2RiNmVlYTBiOGUwYWQxODM1MS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-04T03:55:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "Nie, rynek pracy nie jest w zapaści. \"Będziemy za tym tęsknić\"",
+      "link": "https://businessinsider.com.pl/praca/bezrobocie-w-polsce-nie-pokazuje-kondycji-rynku-pracy-oto-dlaczego/sy97zel",
+      "description": "— Patrzenie na rynek pracy przez pryzmat stopy bezrobocia rejestrowanego może prowadzić do fałszywych wniosków — mówi Business Insiderowi Kamil Sobolewski, główny ekonomista Pracodawców RP. I przekonuje, że mimo lokalnych i branżowych problemów o żadnej zapaści mowy być nie może. Wręcz odwrotnie.",
+      "pubDate": "Mon, 04 May 2026 03:49:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/fYGk9kpTURBXy81NmU3NTc2NTJlNThiOGIzYWU1Y2VkZDBjMmE5MmQzOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-04T03:49:00.000Z",
+      "dateFormatted": "4 maja 2026"
+    },
+    {
+      "title": "\"Projekt Wolność\" dla cieśniny Ormuz. Trump zapowiedział pomoc statkom",
+      "link": "https://www.bankier.pl/wiadomosc/Projekt-Wolnosc-dla-ciesniny-Ormuz-Trump-zapowiedzial-pomoc-statkom-9127036.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump zapowiedział w niedzielę, że siły USA zaczną pomagać statkom handlowym w bezpiecznym tranzycie przez cieśninę Ormuz. Operacja nazwana „Projekt Wolność” ma ruszyć w poniedziałek.",
+      "pubDate": "Mon, 4 May 2026 00:12:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/c/0a90eeec5ec827-948-568-58-38-3840-2304.jpg",
+      "dateISO": "2026-05-03T23:12:00.000Z",
+      "dateFormatted": "3 maja 2026"
+    },
+    {
+      "title": "Przełom w BBN. Strategia, nie podpisana ani przez Dudę, ani Nawrockiego, ma nową wersję",
+      "link": "https://www.bankier.pl/wiadomosc/Przelom-w-BBN-Strategia-nie-podpisana-ani-przez-Dude-ani-Nawrockiego-ma-nowa-wersje-9127031.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "BBN zakończyło pracę nad Strategią Bezpieczeństwa Narodowego - poinformował w niedzielę gen. Andrzej Kowalski, pełniący obowiązki szefa Biura Bezpieczeństwa Narodowego. Dodał, że dokument został skierowany do rządu, a po podpisaniu przez premiera powinien trafić do prezydenta.",
+      "pubDate": "Sun, 3 May 2026 22:08:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/f/f1fbaab18612f7-948-568-0-70-4000-2399.jpg",
+      "dateISO": "2026-05-03T21:08:00.000Z",
+      "dateFormatted": "3 maja 2026"
+    },
+    {
       "title": "Redukcja amerykańskich sił w Niemczech. Kanclerz Merz zaprzecza, że to odwet",
       "link": "https://www.bankier.pl/wiadomosc/Redukcja-amerykanskich-sil-w-Niemczech-Kanclerz-Merz-zaprzecza-ze-to-odwet-9127020.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Kanclerz Friedrich Merz powiedział w niedzielę, że Amerykanie są najważniejszym partnerem Niemiec w NATO i ocenił, że zapowiedź ograniczenia liczby amerykańskich wojsk w RFN nie ma związku z jego sporem z prezydentem USA Donaldem Trumpem dotyczącym wojny z Iranem.",
@@ -49,18 +493,6 @@
       "dateFormatted": "3 maja 2026"
     },
     {
-      "title": "Liczba zgonów Brytyjczyków większa niż urodzeń po raz pierwszy w historii",
-      "link": "https://www.bankier.pl/wiadomosc/Liczba-zgonow-Brytyjczykow-wieksza-niz-urodzen-po-raz-pierwszy-w-historii-9125009.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Populacja Wielkiej Brytanii znalazła się w punkcie zwrotnym, ponieważ w 2026 r. liczba zgonów po raz pierwszy będzie większa od liczby urodzeń - przekazał w środę brytyjski dziennik „The Times”, powołując się na dane i prognozy opublikowane przez krajowy urząd statystyczny.",
-      "pubDate": "Sun, 3 May 2026 18:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/1/d155e5a40b8431-948-568-30-139-3916-2349.jpg",
-      "dateISO": "2026-05-03T17:00:00.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
       "title": "Satelity i lasery w służbie Tatr. Rusza potężny projekt monitoringu",
       "link": "https://www.bankier.pl/wiadomosc/Satelity-i-lasery-w-sluzbie-Tatr-Rusza-potezny-projekt-monitoringu-9120763.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Tatry zostaną objęte nowoczesnym, precyzyjnym systemem monitoringu przyrody opartym na danych lotniczych i satelitarnych czy skaningu laserowym - poinformował Tatrzański Park Narodowy (TPN). Nowe technologie mają umożliwić precyzyjne zarządzanie przestrzenne całym ekosystemem - wyjaśnił TPN.",
@@ -69,18 +501,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/8/e/a23abf3d33b0ef-948-568-2-57-995-597.jpg",
-      "dateISO": "2026-05-03T17:00:00.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Rośnie populacja rdzennej ludności w Brazylii. Wybiera życie w mieście",
-      "link": "https://www.bankier.pl/wiadomosc/Rosnie-populacja-rdzennej-ludnosci-w-Brazylii-Wybiera-zycie-w-miescie-9120871.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W Brazylii rośnie liczba osób pochodzenia indiańskiego - wynika z najnowszego raportu Narodowej Fundacji Rdzennej Ludności (Funai), podległego Ministerstwu ds. Rdzennej Ludności. Zgodnie z dokumentem populacja ta coraz częściej wybiera życie w mieście.",
-      "pubDate": "Sun, 3 May 2026 18:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/7/9d731f5289527a-948-568-43-8-3456-2073.jpg",
       "dateISO": "2026-05-03T17:00:00.000Z",
       "dateFormatted": "3 maja 2026"
     },
@@ -109,18 +529,6 @@
       "dateFormatted": "3 maja 2026"
     },
     {
-      "title": "Najtańsze i najdroższe lokale kupowane są najczęściej za gotówkę",
-      "link": "https://www.bankier.pl/wiadomosc/Najtansze-i-najdrozsze-lokale-kupowane-sa-najczesciej-za-gotowke-9123490.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Najtańsze i najdroższe lokale kupowane są najczęściej za gotówkę, ale między tymi dwoma biegunami dominują klienci finansujący zakup przede wszystkim kredytem hipotecznym - i to właśnie oni stanowią statystycznie najliczniejszą grupę - podał Otodom w komunikacie prasowym. W I kw. 2026 r. liczba udzi",
-      "pubDate": "Sun, 3 May 2026 16:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/c/7754d6f1d7c343-948-568-30-0-3920-2351.jpg",
-      "dateISO": "2026-05-03T15:00:00.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
       "title": "Rekordowa liczba wniosków o paszport Irlandii. Amerykanie szukają „planu B”?",
       "link": "https://www.bankier.pl/wiadomosc/Rekordowa-liczba-wnioskow-o-paszport-Irlandii-Amerykanie-szukaja-planu-B-9120974.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Liczba Amerykanów ubiegających się o irlandzkie obywatelstwo ze względu na pochodzenie wzrosła w zeszłym roku o 63 proc. - przekazał w środę dziennik „Financial Times”, jako powód tej zmiany wskazując politykę obecnej administracji USA.",
@@ -129,18 +537,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/0/f/9bc9ce135b4412-948-568-0-124-1905-1143.jpg",
-      "dateISO": "2026-05-03T15:00:00.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Koncert i wojenna tajemnica. Publiczność usłyszała stradivariusa skradzionego z Muzeum Narodowego?",
-      "link": "https://www.bankier.pl/wiadomosc/Koncert-i-wojenna-tajemnica-Publicznosc-uslyszala-stradivariusa-skradzionego-z-Muzeum-Narodowego-9122133.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Francuska organizacja Musique et Spoliations, badająca losy instrumentów zrabowanych podczas II wojny światowej, poinformowała w ostatnich dniach, że według jej ocen na koncercie w Colmar w departamencie Górny Ren skrzypek grał na instrumencie Stradivariusa, skradzionym w Warszawie w 1944 roku.",
-      "pubDate": "Sun, 3 May 2026 16:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/b/6f24d2a24d595a-948-568-33-326-4462-2677.jpg",
       "dateISO": "2026-05-03T15:00:00.000Z",
       "dateFormatted": "3 maja 2026"
     },
@@ -205,30 +601,6 @@
       "dateFormatted": "3 maja 2026"
     },
     {
-      "title": "Kłopoty z dostawami sprzętu wojskowego z USA? MON: Dostawy opóźnione, ale skala nie budzi obaw",
-      "link": "https://www.bankier.pl/wiadomosc/Klopoty-z-dostawami-sprzetu-wojskowego-z-USA-MON-Dostawy-opoznione-ale-skala-nie-budzi-obaw-9126977.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Jeśli chodzi o baterie Patriot, nie mamy sygnału, żeby były opóźnienia - powiedział w niedzielę szef MON Władysław Kosiniak-Kamysz pytany przez dziennikarzy o dostawy do Polski. Dodał, że do opóźnień może dojść w przypadku innego sprzętu, ale nie na skalę, która „powodowałaby drżenie”.",
-      "pubDate": "Sun, 3 May 2026 15:19:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/9/1ba6843aa9bb35-948-568-29-280-3839-2303.jpg",
-      "dateISO": "2026-05-03T14:19:00.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Pekin rzuca rękawicę. Chiny blokują sankcje USA na ropę z Iranu",
-      "link": "https://www.bankier.pl/wiadomosc/Pekin-rzuca-rekawice-Chiny-blokuja-sankcje-USA-na-rope-z-Iranu-9126975.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Chińskie ministerstwo handlu zakazało uznawania amerykańskich sankcji na pięć rafinerii w związku z handlem ropą z Iranem – podał w niedzielę rządowy dziennik „Renmin Ribao”. Stawia to globalne firmy w pułapce: za respektowanie sankcji Waszyngtonu grozi im odwet Pekinu, a za ich ignorowanie – restry",
-      "pubDate": "Sun, 3 May 2026 15:02:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/c/b7943e4c6376c8-948-568-120-0-1736-1041.jpg",
-      "dateISO": "2026-05-03T14:02:00.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
       "title": "Historia utraty kontroli na polskim złotem i wielkiej ewakuacji rezerw. Proces w Nowym Jorku, termity i rumuńskie zaskórniaki",
       "link": "https://www.bankier.pl/wiadomosc/Odyseja-polskiego-zlota-Jak-narodowy-skarb-przetrwal-wojne-dzieki-tajnej-ewakuacji-9124377.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Dzisiejsze rezerwy złota Narodowego Banku Polskiego, przekraczające 580 ton, budzą zasłużony podziw i wzbudzają poczucie stabilności finansowej państwa. Jednak w burzliwej historii Polski istniał moment, gdy cały „skarb narodowy” ważył zaledwie 79,5 tony. Ta relatywnie niewielka ilość kruszcu, zgrom",
@@ -265,18 +637,6 @@
       "dateFormatted": "3 maja 2026"
     },
     {
-      "title": "Kulisy przejęcia właściciela TVN. W tle miliardy dolarów od firm z Bliskiego Wschodu",
-      "link": "https://businessinsider.com.pl/biznes/finansowe-kulisy-przejecia-wlasciciela-tvn-w-grze-firmy-z-bliskiego-wschodu/9vfzgtm",
-      "description": "Paramount Skydance szuka możliwości finansowego wsparcia przejęcia Warner Bros. Discovery — właściciela m.in. stacji TVN. W grę wchodzą miliardy dolarów od spółek z Bliskiego Wschodu. Ekspertka wyjaśniła w rozmowie z Wirtualnymi Mediami, co to tak naprawdę oznacza.",
-      "pubDate": "Sun, 03 May 2026 13:12:37 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/7kuk9kpTURBXy8zNDUyZGUzZmVmYjg0MDRiZWJiZTg3ZWEwM2U3ZDQ2OS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-03T13:12:37.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
       "title": "OPEC+ zwiększa limity wydobycia ropy. Eksperci: To zmiana tylko na papierze",
       "link": "https://www.bankier.pl/wiadomosc/OPEC-zwieksza-limity-wydobycia-ropy-Eksperci-To-zmiana-tylko-na-papierze-9126962.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Arabia Saudyjska, Rosja i pięć innych państw OPEC+ zwiększyło w niedzielę limity wydobycia ropy na czerwiec w ramach „współpracy na rzecz stabilności rynku naftowego”. W wydanym w tej sprawie komunikacie organizacja nie odniosła się do wyjścia Zjednoczonych Emiratów Arabskich z jej szeregów.",
@@ -298,102 +658,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/c/e/fce6467e964143-948-568-0-0-1475-885.jpg",
       "dateISO": "2026-05-03T13:00:00.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Leasingowy boom w Polsce. Branża puchnie w oczach",
-      "link": "https://www.bankier.pl/wiadomosc/Leasingowy-boom-w-Polsce-Branza-puchnie-w-oczach-9124114.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rynek leasingu wzrósł I kwartale br. o niemal 11 proc. w ujęciu rocznym i wyniósł 29,2 mld zł, co potwierdza stabilny trend wzrostowy branży - wynika z raportu Związku Polskiego Leasingu. W całym 2026 r. rynek leasingu może wzrosnąć o 9 proc. rdr - podano.",
-      "pubDate": "Sun, 3 May 2026 14:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/b/d17e48934af5a1-948-568-0-209-3105-1862.jpg",
-      "dateISO": "2026-05-03T13:00:00.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Kredyty, depozyty i przestarzała technologia. Banki walczą z rynkowym długiem",
-      "link": "https://www.bankier.pl/wiadomosc/Kredyty-depozyty-i-przestarzala-technologia-Banki-walcza-z-rynkowym-dlugiem-9125553.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Modernizacja systemów core banking, czyli centralnych systemów banków, rodzi wiele wyzwań - od wyboru między ich modernizacją a pełną wymianą po zapewnienie bezpieczeństwa i ciągłości działania....",
-      "pubDate": "Sun, 3 May 2026 14:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/4/0af870bfaf62d4-948-567-0-60-1000-599.jpg",
-      "dateISO": "2026-05-03T13:00:00.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Fałszywy Picasso „Made in Poland”. Duet fałszerzy oszukiwał amerykańskich kolekcjonerów",
-      "link": "https://www.bankier.pl/wiadomosc/Falszywy-Picasso-Made-in-Poland-Duet-falszerzy-oszukiwal-amerykanskich-kolekcjonerow-9125807.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Dwoje Polaków - ojciec i córka z New Jersey - przyznało się do wieloletniego handlu falsyfikatami obrazów Andy'ego Warhola, Banksy'ego i Pabla Picassa. Nielegalne kopie dzieł sztuki wykonywał dla nich polski malarz, nabywcy kupili co najmniej 200 płócien - przekazał w środę dziennik „The Guardian”. ",
-      "pubDate": "Sun, 3 May 2026 14:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/4/c7ccc1d2337125-948-568-0-10-2000-1199.jpg",
-      "dateISO": "2026-05-03T13:00:00.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "15 lat służby i emerytura. Rząd szykuje zmiany dla wybranej grupy zawodowej",
-      "link": "https://businessinsider.com.pl/praca/emerytury/emerytura-mundurowa-2026-mon-szykuje-zmiany/yxky1w7",
-      "description": "Emerytury mundurowe czekają duże zmiany. MON zapowiada ujednolicenie zasad przechodzenia na emeryturę w różnych służbach. Dla części funkcjonariuszy oznacza to możliwość wcześniejszego przejścia na emeryturę – nawet po 15 latach służby.",
-      "pubDate": "Sun, 03 May 2026 12:43:37 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/D_Bk9kpTURBXy9lZThlNzMzNTFkMTllNjAwODEzMzc0ODQyMzM1Yzk0My5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-03T12:43:37.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Rzuciła pracę w korporacji i dekoruje mieszkania. \"Zarabiam mniej, ale żyję!\"",
-      "link": "https://businessinsider.com.pl/nieruchomosci/home-staging-zmienil-jej-zycie-z-korporacji-do-wlasnej-firmy/lel613r",
-      "description": "— Okazało się, że nie trzeba być nieszczęśliwym, żeby dobrze zarabiać — mówi Agata, która po niemal dekadzie w korporacji postawiła wszystko na jedną kartę.",
-      "pubDate": "Sun, 03 May 2026 12:39:26 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/8_Lk9kpTURBXy80OWViM2MyYTFhNjdhYTc5NjI5MzE1ZjVmMmJiYzNkYS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-03T12:39:26.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "O układ będzie trudniej. KNF robi krok wstecz [OPINIA]",
-      "link": "https://businessinsider.com.pl/prawo/opinie/knf-ogranicza-mozliwosc-zawarcia-ukladu-w-postepowaniach-sankcyjnych-co-to-oznacza/dflnfzh",
-      "description": "W najnowszym stanowisku Komisja Nadzoru Finansowego istotnie ograniczyła możliwość zawarcia układu w postępowaniu sankcyjnym. Układ będzie możliwy tylko w wyjątkowych przypadkach. Takie podejście zmienia dotychczasowe zasady gry i stanowi — niestety — krok wstecz. Dlaczego wyjaśniają radca prawny Al",
-      "pubDate": "Sun, 03 May 2026 12:25:54 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/j9qk9kpTURBXy9lYmU2Mzk0ZGY1NmExN2VmZjkwMGU2NjNjZjk2MmFjMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-03T12:25:54.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Mieszkańcy niemieckiego miasta w szoku po decyzji Donalda Trumpa. \"Sieć ekonomicznych zależności\"",
-      "link": "https://businessinsider.com.pl/gospodarka/mieszkancy-niemieckiego-miasta-w-szoku-po-decyzji-trumpa-siec-zaleznosci/5v7x2nx",
-      "description": "W niemieckim mieście Landstuhl (Nadrenia-Palatynat) zawrzało po decyzji Donalda Trumpa o wycofaniu z Niemiec 5 tys. żołnierzy USA. To tutaj mieści się największy amerykański szpital zagraniczny, a żołnierze armii Stanów Zjednoczonych są integralną częścią społeczności od 1945 r. \"Byłam szczerze zasz",
-      "pubDate": "Sun, 03 May 2026 12:15:03 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/51ak9kpTURBXy85YWVjNGJjMmNlZjZmMzQ1ZDUwMmY3M2MwYTEwMjM2NC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-03T12:15:03.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Dom czy mieszkanie na starość? \"Dzieci były w szoku, kiedy im powiedzieliśmy\"",
-      "link": "https://businessinsider.com.pl/nieruchomosci/przeprowadzki-na-emeryturze-dlaczego-coraz-wiecej-seniorow-wybiera-miasto/9ngk1n7",
-      "description": "— Chcieliśmy mieć blisko sklep, lekarzy, kościół — mówią seniorzy, którzy coraz częściej zmieniają swoje miejsce zamieszkania.",
-      "pubDate": "Sun, 03 May 2026 11:32:34 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/LAbk9kpTURBXy83ZDZlNmIyZWY3ODZlZTU0ZDMxYjViMWJlOGMyMTExNy5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-03T11:32:34.000Z",
       "dateFormatted": "3 maja 2026"
     },
     {
@@ -421,78 +685,6 @@
       "dateFormatted": "3 maja 2026"
     },
     {
-      "title": "To jak pójście do rzeźni. Legendarny inwestor ostro o instytucjach finansowych",
-      "link": "https://businessinsider.com.pl/gielda/to-jak-pojscie-do-rzezni-ostrzega-legendarny-inwestor/yppbdst",
-      "description": "Warren Buffett, jeden z najbardziej znanych inwestorów na świecie, podczas dorocznego spotkania Berkshire Hathaway w Omaha przestrzegał przed \"nastrojem hazardowym\" na rynkach finansowych oraz zagrożeniami związanymi z deepfake'ami i bronią nuklearną.",
-      "pubDate": "Sun, 03 May 2026 11:01:28 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/uXfk9kpTURBXy84YmEwNmFjYWMwN2YzMmQxMGU0NzcxMzdiOTFhNDEzYy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-03T11:01:28.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Koniec z fikcją rekrutacji na państwowe stołki? „Nie trzeba mieć wujka ministra”",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-z-fikcja-rekrutacji-na-panstwowe-stolki-Nie-trzeba-miec-wujka-ministra-9124767.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Różne rzeczy lepiej lub gorzej w służbie cywilnej funkcjonują, ale nabór jest wystandaryzowany - wskazała w wywiadzie dla „Dziennika Gazety Prawnej\" szefowa służby cywilnej Anita Noskowska-Piątkowska.",
-      "pubDate": "Sun, 3 May 2026 12:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/a/e3cc5e2382da6b-948-568-634-0-2990-1794.jpg",
-      "dateISO": "2026-05-03T11:00:00.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Rząd szykuje zmiany dla właścicieli domów. \"Stąpamy po wąskiej linii\"",
-      "link": "https://businessinsider.com.pl/nieruchomosci/szykuja-sie-zmiany-dla-wlascicieli-domow-rzad-chce-ukrocic-uciazliwy-proceder/wp88kvj",
-      "description": "Rząd zapowiada zmiany w przepisach dotyczących użytkowania domów jednorodzinnych. Chodzi o ograniczenie szerzącego się nielegalnego procederu. — Ten problem musi się załatwić szybko, zanim dojdzie do tragedii — mówi Marek Wójcik, pełnomocnik Zarządu Związku Miast Polskich ds. legislacyjnych, cytowan",
-      "pubDate": "Sun, 03 May 2026 10:33:37 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/tFsk9kpTURBXy9hMTY3ZjI2ZTY5OWNmNDFiOWU0YjFlZGE3NDkwZjM2NC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-03T10:33:37.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Zmęczyło mnie korporacyjne tempo życia. Rzuciłem dobrze płatną pracę w bankowości i otworzyłem fermę kurczaków na Filipinach",
-      "link": "https://businessinsider.com.pl/firmy/bankier-rzucil-dobrze-platna-prace-pieniadze-zainwestowal-na-filipinach/468d05y",
-      "description": "Andrew pracował w bankowości korporacyjnej w Toronto, otrzymując wysoką stałą miesięczną pensję. Mówi jednak, że każdy dzień był powtarzalny i monotonny.",
-      "pubDate": "Sun, 03 May 2026 10:23:14 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/miyk9kpTURBXy80N2YxZmNhMDFiMjcyZjU3OWJhNWFmMmRjYjJkNDdhYS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-03T10:23:14.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Ostre starcie w Święto 3 Maja. Nawrocki szykuje nową konstytucję na 2030 r. Tusk: Niech najpierw nauczą się przestrzegać tej",
-      "link": "https://www.bankier.pl/wiadomosc/Nawrocki-szykuje-nowa-konstytucje-na-2030-r-Tusk-Niech-najpierw-naucza-sie-przestrzegac-tej-9126924.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Otwarte starcie o fundamenty polskiego państwa w rocznicę uchwalenia historycznej Konstytucji 3 Maja. Podczas gdy prezydent Karol Nawrocki nawołuje do zakończenia paraliżującej państwo „dwuwładzy” i powołuje zespół do napisania nowej ustawy zasadniczej, premier Donald Tusk odpowiada zdecydowanym kon",
-      "pubDate": "Sun, 3 May 2026 11:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/0/524ac7c14b93a7-948-568-5-140-1991-1195.jpg",
-      "dateISO": "2026-05-03T10:18:00.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Amerykanie z Niemiec trafią do Polski? Tusk wzywa sojuszników do solidarności",
-      "link": "https://www.bankier.pl/wiadomosc/Amerykanie-z-Niemiec-trafia-do-Polski-Tusk-wzywa-sojusznikow-do-solidarnosci-9126916.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rząd nie ma sygnałów, żeby żołnierze amerykańscy relokowani z Niemiec mieli trafić na wschodnią flankę NATO - mówił w niedzielę premier Donald Tusk. Podkreślił też, że konflikty wewnątrz NATO to ostatnia rzecz, jakiej potrzebujemy.",
-      "pubDate": "Sun, 3 May 2026 10:49:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/b/6ea016960f5879-948-568-30-290-3966-2380.jpg",
-      "dateISO": "2026-05-03T09:49:00.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
       "title": "Bitcoin celuje w 80 000 $ dzięki postępom regulacyjnym i rekordowi S&P 500",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-celuje-w-80-000--dzieki-postepom-regulacyjnym-i-rekordowi-sp-500-1390425",
       "description": "",
@@ -502,18 +694,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-05-03T09:17:15.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Historyczny zwrot w Czechach. Piwne imperium chwieje się w posadach",
-      "link": "https://www.bankier.pl/wiadomosc/Historyczny-zwrot-w-Czechach-Piwne-imperium-chwieje-sie-w-posadach-9124978.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Spożycie tradycyjnego piwa w Czechach jest na historycznie niskim poziomie, rośnie natomiast produkcja i spożycie piwa bezalkoholowego - napisał w środę dziennik „Mlada Fronta DNES”. Dane statystyczne i tak robią wrażenie - w Czechach wypija się średnio 121 litrów piwa na osobę.",
-      "pubDate": "Sun, 3 May 2026 10:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/1/d091c3b798f825-948-568-10-50-4034-2420.jpg",
-      "dateISO": "2026-05-03T09:00:00.000Z",
       "dateFormatted": "3 maja 2026"
     },
     {
@@ -529,18 +709,6 @@
       "dateFormatted": "3 maja 2026"
     },
     {
-      "title": "Portfel emeryta. Wiemy, ile zostaje w kieszeni po zakupach",
-      "link": "https://www.bankier.pl/wiadomosc/Portfel-emeryta-Wiemy-ile-zostaje-w-kieszeni-po-zakupach-9125539.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Siła nabywcza emerytów wzrosła w marcu w ujęciu miesięcznym i rocznym - wynika z raportu Polskiego Radia 24, UCE Research i Uniwersytetów WSB Merito. Eksperci zwrócili uwagę, że marcowej waloryzacji emerytur towarzyszyła stabilizacja cen produktów wchodzących w skład badanego koszyka.",
-      "pubDate": "Sun, 3 May 2026 10:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/b/7837764d043dff-948-567-0-55-1000-599.jpg",
-      "dateISO": "2026-05-03T09:00:00.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
       "title": "Czwarty polski satelita wojskowy na orbicie. Nawiązano już łączność",
       "link": "https://www.bankier.pl/wiadomosc/Czwarty-polski-satelita-wojskowy-na-orbicie-MON-Budujemy-konstelacje-POLSARIS-9126901.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Potwierdzono łączność z 4. satelitą ICEYE dla polskiego wojska - podała w niedzielę firma. Satelitę wraz z innymi ładunkami wyniosła na orbitę rakieta Falcon 9 firmy SpaceX. Szef MON Władysław Kosiniak-Kamysz zapowiedział, że 15 maja ICEYE przekaże wojsku zdolności operacyjne dot. satelitów obserwac",
@@ -550,18 +718,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/a/15f9648cdb826d-948-568-22-217-2975-1784.jpg",
       "dateISO": "2026-05-03T08:06:00.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Polska na tropie skradzionych dzieł sztuki. Niemcy szykują zwrot królewskiego pierścienia",
-      "link": "https://www.bankier.pl/wiadomosc/Polska-na-tropie-skradzionych-dziel-sztuki-Niemcy-szykuja-zwrot-krolewskiego-pierscienia-9123886.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Niemcy dokonają kolejnego zwrotu dzieł sztuki, które zostały zrabowane w czasie ostatniej wojny - wynika z ustaleń „Rzeczpospolitej” z wtorkowego wydania.",
-      "pubDate": "Sun, 3 May 2026 08:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/1/be79f623f23b56-948-568-86-123-2809-1685.jpg",
-      "dateISO": "2026-05-03T07:00:00.000Z",
       "dateFormatted": "3 maja 2026"
     },
     {
@@ -589,54 +745,6 @@
       "dateFormatted": "3 maja 2026"
     },
     {
-      "title": "Trump odrzuca irański plan: Nie zapłacili jeszcze wystarczającej ceny. Iran ostrzega przed wznowieniem walk",
-      "link": "https://www.bankier.pl/wiadomosc/Trump-odrzuca-iranski-plan-Nie-zaplacili-jeszcze-wystarczajacej-ceny-Iran-ostrzega-przed-wznowieniem-walk-9126864.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent USA Donald Trump powiedział w sobotę, że wkrótce rozważy nową propozycję pokojową Iranu. Zaznaczył zarazem, że nie wyobraża sobie, by była do zaakceptowania. Ocenił też, że Iran „nie zapłacił jeszcze wystarczająco wysokiej ceny za to, co zrobił ludzkości”.",
-      "pubDate": "Sun, 3 May 2026 02:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/9/f80376798ecfa2-948-568-645-220-1686-1011.jpg",
-      "dateISO": "2026-05-03T01:40:00.000Z",
-      "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "„Nie da się tchnąć życia w trupa”. Głośny upadek linii lotniczych: odwołane wszystkie loty",
-      "link": "https://www.bankier.pl/wiadomosc/Gigant-taniego-latania-Spirit-Airlines-oglasza-likwidacje-Pogrzebaly-go-ceny-paliwa-9126787.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Amerykańskie linie lotnicze Spirit Airlines poinformowały w sobotę, że odwołują wszystkie swoje loty. Nie powiodły się bowiem rozmowy z wierzycielami przewoźnika na temat programu ratunkowego zaproponowanego przez Donalda Trumpa w wysokości 500 mln dolarów. Firma od dawna borykała się z problemami f",
-      "pubDate": "Sat, 2 May 2026 17:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/1/288c5eb9710988-948-569-7-72-991-595.jpg",
-      "dateISO": "2026-05-02T16:40:00.000Z",
-      "dateFormatted": "2 maja 2026"
-    },
-    {
-      "title": "Polacy przestali bać się biedy? Rekordowo dobrze oceniamy swoją sytuację materialną",
-      "link": "https://www.bankier.pl/wiadomosc/Polacy-przestali-bac-sie-biedy-Rekordowo-dobrze-oceniamy-swoja-sytuacje-materialna-9123466.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Odsetek respondentów deklarujących swobodę finansową, którym starcza na wiele bez specjalnego oszczędzenia lub też mogą sobie pozwolić na pewien luksus wynosi 39 proc. i jest najwyższy w historii badań CBOS - wynika z opublikowanych w poniedziałek wyników.",
-      "pubDate": "Sat, 2 May 2026 16:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/c/0c931748ec7a93-948-567-0-0-1000-599.jpg",
-      "dateISO": "2026-05-02T15:00:00.000Z",
-      "dateFormatted": "2 maja 2026"
-    },
-    {
-      "title": "Co drugi Polak na L4. ZUS podał najnowsze dane o zwolnieniach",
-      "link": "https://www.bankier.pl/wiadomosc/Co-drugi-Polak-na-L4-ZUS-podal-najnowsze-dane-o-zwolnieniach-9124030.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W 2025 r. ZUS zarejestrował 27,5 mln zaświadczeń lekarskich o czasowej niezdolności do pracy, co przełożyło się na 290,5 mln dni absencji chorobowej – o 0,2 proc. więcej rdr. Największy przyrost odnotowano w nieobecnościach w pracy z tytułu zaburzeń psychicznych.",
-      "pubDate": "Sat, 2 May 2026 14:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/8/4e52e527d98788-948-568-0-228-1500-899.jpg",
-      "dateISO": "2026-05-02T13:00:00.000Z",
-      "dateFormatted": "2 maja 2026"
-    },
-    {
       "title": "Pęka bańka chińskiej motoryzacji. \"Z 100 marek przetrwa kilka\"",
       "link": "https://www.bankier.pl/wiadomosc/Zabojcze-China-speed-Chinska-motoryzacja-zjada-wlasny-ogon-a-na-horyzoncie-pierwsze-bankructwa-9125907.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "To ostatnie dni chwały chińskiej motoryzacji? Słowa prezesa Chery Yin Tongyue mogą o tym świadczyć. \"China speed\", czyli narzucone przez tamtejsze firmy tempo, może się paradoksalnie okazać dla nich zabójcze. Zgodnie z jego prognozami z około 100 koncernów przetrwa zaledwie kilka.",
@@ -658,18 +766,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-05-02T07:35:53.000Z",
-      "dateFormatted": "2 maja 2026"
-    },
-    {
-      "title": "Prezes Fundacji Batorego: Ukraina przestaje być pacjentem, któremu trzeba pomóc",
-      "link": "https://www.bankier.pl/wiadomosc/Prezes-Fundacji-Batorego-Ukraina-przestaje-byc-pacjentem-ktoremu-trzeba-pomoc-9123814.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ukraina przestaje być pacjentem, któremu trzeba pomóc - mówił podczas konferencji „Road to URC – Security and Defence Dimension” prezes Fundacji im. Stefana Batorego Edwin Bendyk. W jego ocenie wspieranie Ukrainy to budowanie relacji partnerskiej, której podstawą jest bezpieczeństwo.",
-      "pubDate": "Sat, 2 May 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/8/5a9fb7f721504c-948-568-0-170-4000-2399.jpg",
-      "dateISO": "2026-05-02T05:00:00.000Z",
       "dateFormatted": "2 maja 2026"
     },
     {
@@ -706,18 +802,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-05-01T16:23:44.000Z",
-      "dateFormatted": "1 maja 2026"
-    },
-    {
-      "title": "Szach mat Mercosurze? Polska uderza w umowę rozporządzeniem o pestycydach",
-      "link": "https://www.bankier.pl/wiadomosc/Szach-mat-Mercosurze-Polska-uderza-w-import-z-umowe-rozporzadzeniem-9126615.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Podpisane zostało rozporządzenie wprowadzające zakaz sprowadzania do Polski, m.in. z państw Mercosur, produktów, które mogą zawierać ślady pestycydów niedozwolonych w Unii Europejskiej - poinformował w piątek minister rolnictwa Stefan Krajewski. Dodał, że rozwiązanie to ma chronić rolników i konsume",
-      "pubDate": "Fri, 1 May 2026 15:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/a/8d95af6d704910-948-568-231-486-2860-1716.jpg",
-      "dateISO": "2026-05-01T14:45:00.000Z",
       "dateFormatted": "1 maja 2026"
     },
     {
@@ -769,18 +853,6 @@
       "dateFormatted": "30 kwietnia 2026"
     },
     {
-      "title": "Kwietniowa inflacja zaskoczyła ekonomistów. Wzrosła zamiast spaść",
-      "link": "https://www.bankier.pl/wiadomosc/Inflacja-w-Polsce-w-kwieniu-2026-zaskoczyla-ekonomistow-Wzrosla-zamiast-spasc-9125698.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Kwiecień przyniósł dalszy wzrost inflacji konsumenckiej w Polsce. Zamiast zgodnie z prognozami ekonomistów spaść poniżej 3%, inflacja okazała się jeszcze wyższa niż w marcu.",
-      "pubDate": "Thu, 30 Apr 2026 09:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/1/3/45382de804df55-948-567-0-20-1000-599.jpg",
-      "dateISO": "2026-04-30T08:30:00.000Z",
-      "dateFormatted": "30 kwietnia 2026"
-    },
-    {
       "title": "Bitcoin bez zmian na poziomie 76,5 tys. $ wobec obaw o konflikt z Iranem",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-ponizej-76-000--z-powodu-obaw-o-konflikt-z-iranem-1384806",
       "description": "",
@@ -791,66 +863,6 @@
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-04-30T07:24:57.000Z",
       "dateFormatted": "30 kwietnia 2026"
-    },
-    {
-      "title": "Ostatnia decyzja FOMC pod wodzą Powella. Aż cztery głosy sprzeciwu",
-      "link": "https://www.bankier.pl/wiadomosc/Decyzja-FOMC-w-kwietniu-2026-Az-cztery-glosy-sprzeciwu-wobec-decyzji-9124999.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Normal 0 21 false false false PL X-NONE X-NONE Zgodnie z powszechnymi oczekiwaniami ekonomistów i inwestorów przedział stopy funduszy federalnych został utrzymany na niezmienionym poziomie. Sensacją były aż cztery głosy przeciwko ustępującemu prezesowi.",
-      "pubDate": "Wed, 29 Apr 2026 20:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/3/3/b0e58635bec05e-948-568-0-81-2509-1505.jpg",
-      "dateISO": "2026-04-29T19:00:00.000Z",
-      "dateFormatted": "29 kwietnia 2026"
-    },
-    {
-      "title": "Orlen pod presją podatków. Miliardowe zyski mimo lekkiego spadku rok do roku",
-      "link": "https://www.bankier.pl/wiadomosc/Orlen-pod-presja-podatkow-Miliardowe-zyski-mimo-lekkiego-spadku-rok-do-roku-9125377.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Zysk netto Grupy Orlen za 2025 r. wyniósł 2 mld 648 mln zł i był niższy o 99 mln zł liczony rok do roku - poinformował koncern w opublikowanym w środę skonsolidowanym raporcie rocznym. Wynika z niego, że w 2025 r. nakłady inwestycyjne w Grupie Orlen wyniosły ponad 33 mld zł.",
-      "pubDate": "Wed, 29 Apr 2026 19:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/6/b/893c2b013d216c-948-567-0-67-1000-599.jpg",
-      "dateISO": "2026-04-29T18:45:00.000Z",
-      "dateFormatted": "29 kwietnia 2026"
-    },
-    {
-      "title": "Szansa na rekord Orlenu ledwo wystarczyła. WIG20 finiszuje na zielono, ale noty za styl są fatalne",
-      "link": "https://www.bankier.pl/wiadomosc/Szansa-na-rekord-Orlenu-ledwo-wystarczyla-WIG20-finiszuje-na-zielono-ale-noty-za-styl-sa-fatalne-9125227.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Po siedmiu dniach spadków, WIG20 zaliczył wreszcie dzień wzrostu, ale styl w jakim to zrobił, budzi więcej obaw niż optymizmu. Jeszcze na trzy godziny przed końcem wydawało się, że uda się zaliczyć solidne odbicie, przyspieszone informacją o szansie na rekordową dywidendę z Orlenu, jednak słaby rynk",
-      "pubDate": "Wed, 29 Apr 2026 17:11:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/b/4/a42ca6f1319839-948-568-0-258-1237-742.jpg",
-      "dateISO": "2026-04-29T16:11:00.000Z",
-      "dateFormatted": "29 kwietnia 2026"
-    },
-    {
-      "title": "Niemiecka inflacja prze na północ. Już prawie 3% na liczniku",
-      "link": "https://www.bankier.pl/wiadomosc/Inflacja-CPI-w-Niemczech-w-kwietniu-2026-roku-Juz-prawie-3-na-liczniku-9125002.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Inflacja konsumencka w Niemczech zgodnie z oczekiwaniami ekonomistów w kwietniu przyspieszyła do niemal 3% i osiągnęła najwyższy poziom od stycznia 2024 roku.",
-      "pubDate": "Wed, 29 Apr 2026 14:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/3/3/b3f46470b871e5-945-560-0-83-3692-2215.png",
-      "dateISO": "2026-04-29T13:00:00.000Z",
-      "dateFormatted": "29 kwietnia 2026"
-    },
-    {
-      "title": "Zagranica kontroluje rekordowe 70 procent obrotów akcjami na GPW. Rośnie liczba aktywnych rachunków",
-      "link": "https://www.bankier.pl/wiadomosc/Polacy-masowo-otwieraja-konta-maklerskie-ale-aktywnych-rachunkow-tylko-15-proc-Z-kolei-zagranica-kontroluje-rekordowe-70-procent-obrotow-9125059.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Jeszcze nigdy w historii inwestorzy zagraniczni nie dominowali na krajowym rynku głównym tak jak w całym 2025 r. Na podstawie najnowszych danych za 2025 rok widać rekordowy poziom ich dominacji oraz dynamiczny wzrost bazy aktywnych rachunków maklerskich, których liczba była największa od 2010 r.",
-      "pubDate": "Wed, 29 Apr 2026 13:58:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/4/c/5aba6902bd9afb-948-568-0-202-3000-1799.jpg",
-      "dateISO": "2026-04-29T12:58:00.000Z",
-      "dateFormatted": "29 kwietnia 2026"
     },
     {
       "title": "Bullish zainwestuje ponad 19 mln $ w platformę finansową Mezo",
@@ -875,19 +887,7 @@
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-04-29T07:10:34.000Z",
       "dateFormatted": "29 kwietnia 2026"
-    },
-    {
-      "title": "EOS 10% w górę, podczas hossy",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/eos-10-w-gore-podczas-hossy-1381588",
-      "description": "",
-      "pubDate": "2026-04-29 04:46:10",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://i-invdn-com.investing.com/news/LYNXNPED8B0RG_M.jpg",
-      "dateISO": "2026-04-29T04:46:10.000Z",
-      "dateFormatted": "29 kwietnia 2026"
     }
   ],
-  "updatedAt": "2026-05-04T03:21:55.715Z"
+  "updatedAt": "2026-05-04T06:38:37.769Z"
 }
