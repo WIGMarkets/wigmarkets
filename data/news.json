@@ -1,6 +1,66 @@
 {
   "articles": [
     {
+      "title": "Zwrot w sprawie ceł na auta z UE. Donald Trump ogłosił decyzję",
+      "link": "https://businessinsider.com.pl/gospodarka/cla-donalda-trumpa-na-auta-z-ue-jest-nowa-data/jd5rxlw",
+      "description": "Donald Trump ogłosił odroczenie wyższych ceł na auta z UE do 4 lipca.",
+      "pubDate": "Thu, 07 May 2026 19:32:48 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/XAgk9kpTURBXy82OTYxM2RiNDE5ZTBhZTNjMzk0YzNmZWE2YzllODE3ZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-07T19:32:48.000Z",
+      "dateFormatted": "7 maja 2026"
+    },
+    {
+      "title": "\"Projekt Wolność\" wraca na kluczowy szlak. Trump dogadał się z szejkami",
+      "link": "https://www.bankier.pl/wiadomosc/Projekt-Wolnosc-wraca-na-kluczowy-szlak-Trump-dogadal-sie-z-szejkami-9129676.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wstrzymana przez prezydenta USA Donalda Trumpa operacja mająca pomóc statkom handlowym w tranzycie przez cieśninę Ormuz „Projekt Wolność” może zostać wznowiona jeszcze w tym tygodniu - podał w czwartek „Wall Street Journal”. To efekt zniesienia restrykcji Arabii Saudyjskiej i Kuwejtu na użycie baz n",
+      "pubDate": "Thu, 7 May 2026 20:17:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/6/d45a7b6e3c003a-948-568-0-70-4000-2399.jpg",
+      "dateISO": "2026-05-07T19:17:00.000Z",
+      "dateFormatted": "7 maja 2026"
+    },
+    {
+      "title": "Hossa na rynku złota i srebra może wrócić. Eksperci wskazują kluczowy warunek",
+      "link": "https://businessinsider.com.pl/gospodarka/rekordy-na-rynku-zlota-i-srebra-moga-wrocic-eksperci-wskazuja-kluczowy-warunek/n8vdzdp",
+      "description": "Rekordowe poziomy cen złota i srebra obserwowane w 2025 r. mogą wkrótce wrócić, jeśli dojdzie do zawarcia porozumienia pokojowego między Stanami Zjednoczonymi a Iranem — twierdzą analitycy rynku w rozmowie z CNBC. Notowania już zaczynają rosnąć.",
+      "pubDate": "Thu, 07 May 2026 19:14:12 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/v16k9kpTURBXy9jN2VlZTgwYmIyOTcxMzY1MTNkNDlhNjM4YTRhMjJkZi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-07T19:14:12.000Z",
+      "dateFormatted": "7 maja 2026"
+    },
+    {
+      "title": "Gigant o kosztach kryzysu w cieśninie Ormuz. \"Przerzucimy na klientów\"",
+      "link": "https://businessinsider.com.pl/biznes/w-ciesninie-ormuz-utknelo-66-statkow-maersk-gigant-podliczyl-straty/he98r21",
+      "description": "Jeden ze statków Maersk był eskortowany przez cieśninę Ormuz, podczas gdy 66 dalej nie może przepłynąć. Szef duńskiego giganta powiedział, że firma przerzuci na klientów wzrost kosztów, szacowany na pół miliarda dolarów miesięcznie.",
+      "pubDate": "Thu, 07 May 2026 19:00:19 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/iT0k9kpTURBXy9jNTE1MDMzNjUwZmZjZDM1YjkyZDExN2NjN2VkZGMyNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-07T19:00:19.000Z",
+      "dateFormatted": "7 maja 2026"
+    },
+    {
+      "title": "Kanada pod lupą wywiadu. Rosja i USA grają separatystami z Alberty",
+      "link": "https://www.bankier.pl/wiadomosc/Kanada-pod-lupa-wywiadu-Rosja-i-USA-graja-separatystami-z-Alberty-9129672.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Separatyzm w prowincji Alberta stał się jednym z największych wyzwań dla władz Kanady, a m.in. Rosja i USA wykorzystują tę sytuację do kampanii dezinformacyjnej – ostrzegają autorzy najnowszego raportu kanadyjskiej platformy monitorującej DisinfoWatch.",
+      "pubDate": "Thu, 7 May 2026 19:52:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/8/7049d3271e9891-948-568-0-119-1773-1063.jpg",
+      "dateISO": "2026-05-07T18:52:00.000Z",
+      "dateFormatted": "7 maja 2026"
+    },
+    {
       "title": "Lucas: Ukraina nie tylko wciąż walczy, ale Ukraina wygrywa",
       "link": "https://www.bankier.pl/wiadomosc/Lucas-Ukraina-nie-tylko-wciaz-walczy-ale-Ukraina-wygrywa-9129663.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Ukraina wygrywa wojnę z Rosją - ocenił ekspert ds. bezpieczeństwa Edward Lucas na warszawskiej konferencji Defense24 Days. Uczestniczący z Lucasem w dyskusji panelowej były szef Ośrodka Studiów Wschodnich Adam Eberhardt zgodził się z jego oceną, jednak wyraził wątpliwość, by wojna szybko się zakończ",
@@ -25,18 +85,6 @@
       "dateFormatted": "7 maja 2026"
     },
     {
-      "title": "Cięcie stóp procentowych nie w tym roku. Ekonomiści PZU: nie ma przestrzeni",
-      "link": "https://www.bankier.pl/wiadomosc/Ciecie-stop-procentowych-nie-w-tym-roku-Ekonomisci-PZU-nie-ma-przestrzeni-9129660.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Jeśli konflikt na Bliskim Wschodzie wygaśnie w drugim lub trzecim kwartale br., powrót do cięć stóp procentowych możliwy jest najwcześniej na przełomie pierwszego i drugiego kwartału 2027 r. - ocenili analitycy PZU. Dodali, że w bieżącym roku nie ma przestrzeni do wznowienia obniżek.",
-      "pubDate": "Thu, 7 May 2026 19:19:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/4/3f44db77a40a51-948-568-168-350-2041-1225.jpg",
-      "dateISO": "2026-05-07T18:19:00.000Z",
-      "dateFormatted": "7 maja 2026"
-    },
-    {
       "title": "Elektrownia jądrowa na Pomorzu. PAA: nie występują okoliczności wykluczające budowę",
       "link": "https://www.bankier.pl/wiadomosc/Elektrownia-jadrowa-na-Pomorzu-PAA-nie-wystepuja-okolicznosci-wykluczajace-budowe-9129659.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Prezes Państwowej Agencji Atomistyki wydał opinię do wstępnego raportu lokalizacyjnego dla przyszłej elektrowni jądrowej na Pomorzu - przekazała w czwartek PAA. Zdaniem Agencji, nie występują okoliczności wykluczające budowę elektrowni w lokalizacji Lubiatowo-Kopalino.",
@@ -46,6 +94,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/b/9/d5e8197b4bc0ff-945-560-7-7-1492-895.jpg",
       "dateISO": "2026-05-07T18:16:00.000Z",
+      "dateFormatted": "7 maja 2026"
+    },
+    {
+      "title": "Hit polskiej zbrojeniówki w nowej odsłonie. Zmieni oblicze polskiej armii",
+      "link": "https://businessinsider.com.pl/technologie/nowa-wersja-borsuka-ze-slowacka-wieza-minister-zapowiada-sukces-w-eksporcie/w8006xp",
+      "description": "Wkrótce ma powstać nowa wersja zbrojeniowego hitu polskiej produkcji — wozu bojowego Borsuk. Jak zapowiedział podczas konferencji Defence24 Days minister obrony Władysław Kosiniak-Kamysz, nowa odsłona Borsuka ma szansę podbijać rynki eksportowe.",
+      "pubDate": "Thu, 07 May 2026 18:15:14 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/oaSk9kpTURBXy9jNDNiNjVhZmUwNDRkM2JjZmMyNGUyZTUxYzhlY2ZhZi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-07T18:15:14.000Z",
       "dateFormatted": "7 maja 2026"
     },
     {
@@ -99,7 +159,7 @@
     {
       "title": "Wywiad USA ocenił możliwości Iranu. Tak długo może przetrwać blokadę",
       "link": "https://businessinsider.com.pl/gospodarka/wywiad-usa-ocenil-mozliwosci-iranu-tak-dlugo-moze-przetrwac-blokade-portow/dytp15e",
-      "description": "Amerykański wywiad ocenił, jak długo Iran może przetrwać blokadę portów przez USA. Okazuje się, że dłużej niż spodziewa się Biały Dom, który zapowiadał rychłą zapaść irańskiej gospodarki — informuje \"Washington Post\".",
+      "description": "Amerykański wywiad ocenił, jak długo Iran może przetrwać blokadę portów przez USA. Okazuje się, że to mogą być trzy-cztery miesiące, a nawet dłużej. Jeden z urzędników w rozmowie z \"Washington Post\" wskazał przyczynę.",
       "pubDate": "Thu, 07 May 2026 17:23:40 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -517,54 +577,6 @@
       "dateFormatted": "7 maja 2026"
     },
     {
-      "title": "Bank centralny Norwegii zaskoczył rynki. Pierwsza taka decyzja w Europie",
-      "link": "https://businessinsider.com.pl/gospodarka/norwegia-przerywa-trend-obnizek-stop-zaskakujaca-decyzja/fx5mjr0",
-      "description": "W czwartek 7 maja zdecydował się na podwyżkę stóp procentowych o 25 punktów bazowych, do poziomu 4,25 proc. To pierwsza taka decyzja w Europie od czasu fali poluzowania polityki monetarnej z lat 2024-2025.",
-      "pubDate": "Thu, 07 May 2026 12:45:45 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/6Mwk9kqTURBXy8yOTEwNTk4NGQ5NmFmZTYyZGNjNTU5Njk1ZDc3YWM1MC5qcGVnkZMCzQSwAN4AAaEwAQ",
-      "dateISO": "2026-05-07T12:45:45.000Z",
-      "dateFormatted": "7 maja 2026"
-    },
-    {
-      "title": "Nie tylko Izera i Foxconn. Tajwan coraz ważniejszy dla polskiej gospodarki",
-      "link": "https://businessinsider.com.pl/gospodarka/nie-tylko-izera-i-foxconn-tajwan-coraz-wazniejszy-dla-polskiej-gospodarki/fe90xy4",
-      "description": "Polska marka samochodu Izera w końcu nabiera realnych kształtów. Do projektu przystąpił tajwański gigant Foxconn. Zainteresowanie Tajwańczyków Polską to pochodna rosnących kontaktów gospodarczych między naszymi krajami.",
-      "pubDate": "Thu, 07 May 2026 12:38:51 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/_77k9kpTURBXy9iOWFjMmRmYTNhMDkzYzRjODYxNzc3NzU4YWM5NzU4OS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-07T12:38:51.000Z",
-      "dateFormatted": "7 maja 2026"
-    },
-    {
-      "title": "Padł rekord najmu krótkoterminowego w Polsce. Liczba noclegów to prawie 45 mln",
-      "link": "https://businessinsider.com.pl/nieruchomosci/najem-krotkoterminowy-w-polsce-bije-rekordy-boom-na-apartamenty-trwa/d2wpfmp",
-      "description": "\"Skala wzrostu po pandemicznym załamaniu jest imponująca\" — komentują eksperci RynekPierwotny.pl po publikacji najnowszych danych Eurostatu dotyczących rynku najmu krótkoterminowego w Polsce.",
-      "pubDate": "Thu, 07 May 2026 12:30:31 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Mc_k9kpTURBXy83OWQ2YjJiNjRhZTZjMDk1NmU0YmYzODI2Mjk4MWQ1NS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-07T12:30:31.000Z",
-      "dateFormatted": "7 maja 2026"
-    },
-    {
-      "title": "Napięcie przed Dniem Zwycięstwa. Rosja ostrzega i wzywa do opuszczenia Kijowa",
-      "link": "https://businessinsider.com.pl/wiadomosci/rosja-grozi-kijowowi-przed-dniem-zwyciestwa-zacharowa-ostrzega-ambasady/cns5rwy",
-      "description": "Na kilka dni przed obchodami Dnia Zwycięstwa napięcie między Rosją a Ukrainą ponownie rośnie. Moskwa ostrzega przed możliwymi uderzeniami, a zagraniczne placówki dyplomatyczne w Kijowie zostały wezwane do zachowania szczególnej ostrożności.",
-      "pubDate": "Thu, 07 May 2026 12:26:46 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/9azk9kpTURBXy8xNGI5Yjc4MmI5ZmM4OGE0NTdiZDEzMDY2ZGFjMDFjZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-07T12:26:46.000Z",
-      "dateFormatted": "7 maja 2026"
-    },
-    {
       "title": "Minister czy osoba prywatna? Prezes UODO walczy o 100 tys. zł kary za wpis Niedzielskiego",
       "link": "https://www.bankier.pl/wiadomosc/Minister-czy-osoba-prywatna-Prezes-UODO-walczy-o-100-tys-zl-kary-za-wpis-Niedzielskiego-9129278.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Prezes UODO Mirosław Wróblewski wniósł skargę kasacyjną od wyroku z 2 marca 2026 r. Wojewódzkiego Sądu Administracyjnego w Warszawie. Uchylił on decyzję organu nadzorczego w sprawie naruszenia przepisów o ochronie danych osobowych przez byłego ministra zdrowia Adama Niedzielskiego.",
@@ -865,5 +877,5 @@
       "dateFormatted": "2 maja 2026"
     }
   ],
-  "updatedAt": "2026-05-07T17:48:59.665Z"
+  "updatedAt": "2026-05-07T19:44:01.150Z"
 }
