@@ -1,15 +1,171 @@
 {
   "articles": [
     {
-      "title": "Rośnie popularność aplikacji Allegro. Zasięgi w górę, czas sesji w dół",
-      "link": "https://www.bankier.pl/wiadomosc/Allegro-w-IV-mialo-22-635-mln-uzytkownikow-na-wszystkich-urzadzeniach-vs-22-35-mln-w-III-Mediapanel-9129806.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Allegro miało w kwietniu 22,635 mln użytkowników (Real Users) na wszystkich urządzeniach wobec 22,35 mln miesiąc wcześniej - wynika z badania Mediapanel, Polskiego Badania Internetu.",
-      "pubDate": "Fri, 8 May 2026 07:46:00 +0100",
+      "title": "Inwestorzy wracają do miedzi. Cena przebija 13,5 tys. dolarów",
+      "link": "https://www.bankier.pl/wiadomosc/Inwestorzy-wracaja-do-miedzi-Cena-przebija-13-5-tys-dolarow-9129854.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Cena miedzi w dostawach 3-miesięcznych na Londyńskiej Giełdzie Metali (LME) rośnie o 1,46 proc. do 13.543 USD za tonę. Analitycy wskazują, że inwestorzy odbudowują pozycje w metalach wobec negocjacji USA-Iran, mimo ostatniej wymiany ognia w Zatoce Perskiej.",
+      "pubDate": "Fri, 8 May 2026 09:23:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/9/3218931b3c5a61-948-568-0-108-1732-1039.jpg",
+      "dateISO": "2026-05-08T08:23:00.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
+      "title": "Właściciel mBanku zwolni 3000 osób. Tak broni się przed przejęciem przez UniCredit",
+      "link": "https://www.bankier.pl/wiadomosc/Commerzbank-zwolni-3000-osob-Tak-broni-sie-przed-przejeciem-przez-UniCredit-9129834.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Commerzbank ogłosił podniesienie swoich celów finansowych oraz plan redukcji 3000 etatów, co stanowi kluczowy element strategii mającej na celu odparcie wrogiego przejęcia przez włoski bank UniCredit. Niemiecka instytucja, publikując lepsze od oczekiwań wyniki za pierwszy kwartał 2026 roku, chce udo",
+      "pubDate": "Fri, 8 May 2026 09:10:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/2/d/2005e3f5389635-948-568-0-251-4031-2418.jpg",
-      "dateISO": "2026-05-08T06:46:00.000Z",
+      "image": "http://galeria.bankier.pl/p/8/8/8bdda137c98048-948-568-0-414-4458-2674.jpg",
+      "dateISO": "2026-05-08T08:10:00.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
+      "title": "Noble Securities obniżył rekomendację dla Creotech Instruments do \"trzymaj\", a wycenę podniósł do 667 zł",
+      "link": "https://www.bankier.pl/wiadomosc/Noble-Securities-obnizyl-rekomendacje-dla-Creotech-Instruments-do-trzymaj-a-wycene-podniosl-do-667-zl-9129845.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Analitycy Noble Securities, w raporcie z 8 maja, obniżyli rekomendację dla Creotech Instruments do \"trzymaj\" z \"akumuluj\", a wycenę akcji w horyzoncie 12-miesięcznym podnieśli do 667 zł z 390 zł wcześniej.",
+      "pubDate": "Fri, 8 May 2026 09:08:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/b/0/1a402daa606bfe-948-568-0-320-3916-2350.jpg",
+      "dateISO": "2026-05-08T08:08:00.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
+      "title": "Trzecia obniżka w tym tygodniu. Orlen mocno tnie hurtowe ceny paliw",
+      "link": "https://www.bankier.pl/wiadomosc/Trzecia-obnizka-w-tym-tygodniu-Orlen-mocno-tnie-hurtowe-ceny-paliw-9129844.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Orlen obniżył w piątek hurtowe ceny paliw, w tym oleju napędowego Ekodiesel o 125 zł, a benzyny bezołowiowej Eurosuper 95 o 53 zł na metr sześc. - wynika z danych opublikowanych przez koncern. To trzecia obniżka cen paliw w hurcie Orlenu w tym tygodniu.",
+      "pubDate": "Fri, 8 May 2026 09:05:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/7/3636f232c01823-948-568-742-419-2257-1354.jpg",
+      "dateISO": "2026-05-08T08:05:00.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
+      "title": "Ropa znów drożeje. „Miłosne stuknięcie” przerywa rynkowy optymizm",
+      "link": "https://www.bankier.pl/wiadomosc/Ropa-znow-drozeje-Milosne-stukniecie-przerywa-rynkowy-optymizm-9129842.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Ceny ropy naftowej w USA rosną. Inwestorzy śledzą wydarzenia w Zatoce Perskiej, gdzie doszło do kolejnej wymiany ognia między USA i Iranem, mimo zapewnień Amerykanów, że zawieszenie broni nadal obowiązuje.",
+      "pubDate": "Fri, 8 May 2026 09:04:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/a/2/35ad37260161f9-948-568-7-82-992-595.jpg",
+      "dateISO": "2026-05-08T08:04:00.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
+      "title": "LPP zanotowało w I kw. wzrost przychodów o 10 proc.; sprzedaż LFL spadła o 2,8 proc.",
+      "link": "https://www.bankier.pl/wiadomosc/LPP-zanotowalo-w-I-kw-wzrost-przychodow-o-10-proc-sprzedaz-LFL-spadla-o-2-8-proc-9129840.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Grupa LPP zanotowała w I kwartale, czyli w okresie luty-kwiecień 2026 r., 10 proc. wzrost dynamiki przychodów w walutach stałych. Sprzedaż LFL spadła o 2,8 proc. - podała spółka w komunikacie.",
+      "pubDate": "Fri, 8 May 2026 09:02:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/a/4/b18a2436709d6b-948-567-0-12-1000-599.jpg",
+      "dateISO": "2026-05-08T08:02:00.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
+      "title": "Japońskie gazowce przerywają blokadę. Kolejne statki ignorują Teheran",
+      "link": "https://www.bankier.pl/wiadomosc/Japonskie-gazowce-przerywaja-blokade-Kolejne-statki-ignoruja-Teheran-9129839.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Trzy jednostki powiązane z japońskim armatorem Mitsui O.S.K. Lines, przewożące skroplony gaz, przepłynęły w kwietniu przez cieśninę Ormuz bez uiszczania opłat tranzytowych – poinformowała w piątek agencja Kyodo. Przewoźnik zapowiada, że nie zamierza płacić za przyszłe rejsy.",
+      "pubDate": "Fri, 8 May 2026 09:01:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/b/46de84a87ff9a7-948-568-20-20-2024-1214.jpg",
+      "dateISO": "2026-05-08T08:01:00.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
+      "title": "Ziemniaki z Niemiec niszczą polski rynek. Ministerstwo Rolnictwa: Zróbmy z nich prąd",
+      "link": "https://www.bankier.pl/wiadomosc/Ziemniaki-z-Niemiec-niszcza-polski-rynek-Ministerstwo-Rolnictwa-Zrobmy-z-nich-prad-9129287.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Tydzień temu w skupie płacono za kilogram ziemniaków 20 groszy. Rolnicy zostali z niesprzedanymi plonami, które niekiedy sięgają 100 proc. zeszłorocznych zbiorów. - Rynek praktycznie się zatrzymał - alarmują branżowe media.",
+      "pubDate": "Fri, 8 May 2026 09:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/8/e65c645e7d2358-948-568-825-467-1582-949.png",
+      "dateISO": "2026-05-08T08:00:00.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
+      "title": "Ceny ropy w górę w reakcji na wydarzenia w Iranie. Wymiana ognia mimo zawieszenia broni",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/ceny-ropy-w-gore-w-reakcji-na-wymiane-ognia-miedzy-usa-a-iranem-co-dalej-z/ldkljly",
+      "description": "Irańskie wojsko poinformowało, że siły zbrojne Stanów Zjednoczonych zaatakowały irański tankowiec, a także obszary cywilne w cieśninie i na kontynencie. Rynek ropy zareagował natychmiast.",
+      "pubDate": "Fri, 08 May 2026 07:48:05 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/D58k9kpTURBXy8xNmRlOTMwODM2MTczZjczZDdlZDJjNjdkOGUzMWYyNC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-08T07:48:05.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
+      "title": "Stare demony budzą się do życia. AfD liderem sondaży w Niemczech",
+      "link": "https://www.bankier.pl/wiadomosc/Stare-demony-budza-sie-do-zycia-AfD-liderem-sondazy-w-Niemczech-9129825.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sondaż telewizji publicznej ARD DeutschlandTrend potwierdził w czwartek pozycję lidera zajmowaną przez Alternatywę dla Niemiec (AfD). Poparcie dla prawicowo-populistycznej partii opozycyjnej wzrosło w maju o dwa punkty procentowe - do 27 proc.",
+      "pubDate": "Fri, 8 May 2026 08:42:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/5/04c1c68805db66-948-568-51-103-4076-2445.jpg",
+      "dateISO": "2026-05-08T07:42:00.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
+      "title": "Ukraińcy nękają Rosję w przeddzień wielkiej defilady. Drony uderzyły w rafinerię i samą Moskwę",
+      "link": "https://www.bankier.pl/wiadomosc/Ukraincy-nekaja-Rosje-w-przeddzien-wielkiej-defilady-Drony-uderzyly-w-rafinerie-i-sama-Moskwe-9129819.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Ukrainy Wołodymyr Zełenski poinformował w piątek o ataku na jedną z najważniejszych rafinerii ropy naftowej w Rosji, znajdującą się w Jarosławiu. Ukraińskie media przekazały doniesienia o nalotach dronów m.in. na Moskwę i Rostów nad Donem.",
+      "pubDate": "Fri, 8 May 2026 08:33:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/9/40f71afef52bc0-948-568-0-588-3593-2155.jpg",
+      "dateISO": "2026-05-08T07:33:00.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
+      "title": "Polski samochód elektryczny coraz bliżej. Padła konkretna data",
+      "link": "https://businessinsider.com.pl/biznes/foxconn-i-polski-rzad-stawiaja-na-elektryki-produkcja-ruszy-w-2029-roku/4rp1ncs",
+      "description": "Po latach nieudanych prób projekt polskiego samochodu elektrycznego wraca w nowej odsłonie. Rząd wskazuje konkretną datę produkcji i partnera technologicznego, przekonując, że tym razem to coś więcej niż tylko ambitne zapowiedzi.",
+      "pubDate": "Fri, 08 May 2026 07:31:33 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/aM6k9kpTURBXy83OTMwZGVkNjY3OWMwMTEzNWQ4OTg2ZjljNDY0ZTVlNy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-08T07:31:33.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
+      "title": "Koniec złotej ery Toyoty? Japoński gigant tnie prognozy, a akcjonariusze są w szoku",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-zlotej-ery-Toyoty-Japonski-gigant-tnie-prognozy-a-akcjonariusze-sa-w-szoku-9129811.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "To koniec serii rekordów w Toyocie? Japoński gigant, który przez ostatnie lata zdawał się niewrażliwy na globalne zawirowania, w końcu uderzył w ścianę. Najnowsze prognozy finansowe na rok 2026/2027 to zimny prysznic dla akcjonariuszy – spółka spodziewa się aż 20-procentowego tąpnięcia zysku operacy",
+      "pubDate": "Fri, 8 May 2026 08:19:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/7/2261bfdcf601b8-948-568-0-79-1998-1198.jpg",
+      "dateISO": "2026-05-08T07:19:00.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
+      "title": "\"Będziemy mogli to zrobić natychmiast\". Andrzej Domański o podpisaniu SAFE",
+      "link": "https://businessinsider.com.pl/gospodarka/polska-wezmie-miliardy-z-programu-safe-andrzej-domanski-korzystna-umowa/5z15nwc",
+      "description": "\"Nie ma tańszego, bardziej efektywnego źródła finansowania modernizacji polskiej armii\" — przekonywał na antenie Polsat News minister finansów Andrzej Domański, odnosząc się do podpisania przez Polskę umowy SAFE.",
+      "pubDate": "Fri, 08 May 2026 07:01:36 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/XvDk9kpTURBXy82NzZlYjEzNDNkYTVhZGI3MTM2OWY1YmE4NDUwNDI1Yy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-08T07:01:36.000Z",
       "dateFormatted": "8 maja 2026"
     },
     {
@@ -22,6 +178,30 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/d/2/ec90d05d8cf9cb-948-568-0-0-3888-2332.jpg",
       "dateISO": "2026-05-08T06:43:00.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
+      "title": "Emigracja zarobkowa nie kusi tak jak kiedyś. Zarobki mocno się zmieniły",
+      "link": "https://businessinsider.com.pl/praca/koniec-emigracji-zarobkowej-do-niemiec-era-wysokich-zarobkow-minela/4j8qs64",
+      "description": "Jak informuje piątkowa \"Rzeczpospolita\", era, w której praca w Niemczech czy Holandii gwarantowała trzykrotność polskiej pensji, bezpowrotnie minęła.",
+      "pubDate": "Fri, 08 May 2026 06:42:44 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/cnAk9kpTURBXy81MjE1MWY2Y2FhZTIyNjU0ZTZlMDJjZTViZGE1NGZmZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-08T06:42:44.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
+      "title": "Nowa chińska marka aut w Polsce. Znamy ceny",
+      "link": "https://businessinsider.com.pl/gospodarka/changan-wjezdza-do-polski-to-kolejny-debiutant-z-chin/5tzfrjk",
+      "description": "Na polskim rynku zadebiutowała kolejna znana marka z Chin — Changan. Jej pojazdy mają być sprzedawane w 17 miastach w kraju.",
+      "pubDate": "Fri, 08 May 2026 06:32:56 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/7iRk9kpTURBXy9mMzgyYjUwZDJjYmMwNjM3M2ZiZTY5NzBhZjg4MTYwYi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-08T06:32:56.000Z",
       "dateFormatted": "8 maja 2026"
     },
     {
@@ -61,6 +241,18 @@
       "dateFormatted": "8 maja 2026"
     },
     {
+      "title": "Bitcoin spada do 79 600 $, szósty tydzień wzrostów z rzędu",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-do-79-600--szosty-tydzien-wzrostow-z-rzedu-1402427",
+      "description": "",
+      "pubDate": "2026-05-08 06:18:04",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-05-08T06:18:04.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
       "title": "Polacy odwracają się od zagranicznych wyjazdów. U nas ceny nawet spadły",
       "link": "https://www.bankier.pl/wiadomosc/Polacy-odwracaja-sie-od-zagranicznych-wyjazdow-U-nas-ceny-nawet-spadly-9129740.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Niepewna sytuacja geopolityczna i rosnące koszty dalekich wojaży kierują ruch turystyczny do Polski. Liczba rezerwacji rośnie w tempie dwucyfrowym - informuje piątkowy „Puls Biznesu\".",
@@ -85,18 +277,6 @@
       "dateFormatted": "8 maja 2026"
     },
     {
-      "title": "East Value Research obniżył cenę docelową akcji Warimpex do 0,93 euro",
-      "link": "https://www.bankier.pl/wiadomosc/East-Value-Research-obnizyl-cene-docelowa-akcji-Warimpex-do-0-93-euro-9129787.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Analitycy East Value Research, w raporcie z 8 maja, obniżyli cenę docelową akcji austriackiej spółki Warimpex, notowanej m.in. na warszawskiej giełdzie, do 0,93 euro (3,92 zł) z 1 euro wcześniej.",
-      "pubDate": "Fri, 8 May 2026 07:04:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/4/c/ab4817a9275b1c-948-568-630-270-2370-1421.jpg",
-      "dateISO": "2026-05-08T06:04:00.000Z",
-      "dateFormatted": "8 maja 2026"
-    },
-    {
       "title": "Nowa konstytucja? Większość Polaków nie widzi takiej potrzeby",
       "link": "https://www.bankier.pl/wiadomosc/Nowa-konstytucja-Wiekszosc-Polakow-nie-widzi-takiej-potrzeby-9129782.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "60 proc. badanych w sondażu Instytutu Badań Pollster na zlecenie „Super Expressu” dobrze ocenia obowiązującą konstytucję, 22 proc. - źle, a 18 proc. nie ma zdania.",
@@ -110,26 +290,26 @@
     },
     {
       "title": "Od „potwora z Tarnowa” po Borsuki. PGZ liczy na 100 miliardów złotych z SAFE",
-      "link": "https://www.bankier.pl/wiadomosc/Od-potwora-z-Tarnowa-po-Borsuki-PGZ-liczy-na-100-miliardow-zlotych-z-SAFE-9129779.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Od-potwora-z-Tarnowa-po-Borsuki-PGZ-liczy-na-100-miliardow-zlotych-z-SAFE-9129779.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Program SAFE może uruchomić największy od lat strumień finansowania dla polskiego przemysłu zbrojeniowego. Polska Grupa Zbrojeniowa szacuje, że do spółek grupy może trafić nawet ok. 100 mld zł z projektów...",
       "pubDate": "Fri, 8 May 2026 07:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/1/1/47b452c7ed4a2b-948-568-153-15-1894-1136.jpg",
       "dateISO": "2026-05-08T06:00:00.000Z",
       "dateFormatted": "8 maja 2026"
     },
     {
-      "title": "Słabszy Downstream ciąży na bilansie. Węgierski gigant paliwowy z 626 mln USD oczyszczonej EBITDA",
-      "link": "https://www.bankier.pl/wiadomosc/MOL-mial-w-I-kw-2026-r-626-mln-USD-oczyszczonej-EBITDA-9129777.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Oczyszczony wynik EBITDA grupy MOL w I kw. 2026 r. wyniósł 626 mln USD, w porównaniu do 833 mln USD rok wcześniej - podał MOL w prezentacji. Prognoza na 2026 r. nadal zakłada ok. 3 mld USD oczyszczonej EBITDA.",
-      "pubDate": "Fri, 8 May 2026 06:54:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/1/5/77802ee929ac67-948-569-7-72-991-595.jpg",
-      "dateISO": "2026-05-08T05:54:00.000Z",
+      "title": "Wymiana ognia w cieśninie Ormuz. Donald Trump: to lekki prztyczek",
+      "link": "https://businessinsider.com.pl/wiadomosci/ciesnina-ormuz-donald-trump-to-lekki-prztyczek/nml1qdf",
+      "description": "USA i Iran wymieniły ogień w cieśninie Ormuz. Doprowadziło to do eskalacji i ponownie postawiło pod znakiem zapytania zawieszenie broni między walczącymi państwami.",
+      "pubDate": "Fri, 08 May 2026 05:56:02 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/59Dk9kpTURBXy8zYzMwOTg1NThmYTA4ZDk2NjRhYWZkMGIxNTQ2YTk1ZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-08T05:56:02.000Z",
       "dateFormatted": "8 maja 2026"
     },
     {
@@ -301,18 +481,6 @@
       "dateFormatted": "8 maja 2026"
     },
     {
-      "title": "Wiosenne przebudzenie na rynku najmu: podwyżki wracają do ofert, ale kawalerki wciąż tańsze niż przed rokiem",
-      "link": "https://www.bankier.pl/wiadomosc/Ceny-ofertowe-wynajmu-mieszkan-maj-2026-Raport-Bankier-pl-9129242.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Podobnie jak przed rokiem kwiecień przyniósł po zimowej korekcie podwyżki na rynku najmu w największych polskich miastach – wynika z danych Otodom Analytics. Te jednak w większości miast nie przekroczyły 1 proc. m/m. W ujęciu rocznym, zwłaszcza w przypadku kawalerek i ponad 60-metrowych mieszkań, st",
-      "pubDate": "Fri, 8 May 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/8/8c9f13d6d52634-948-568-0-0-1982-1189.jpg",
-      "dateISO": "2026-05-08T05:00:00.000Z",
-      "dateFormatted": "8 maja 2026"
-    },
-    {
       "title": "Dyplom z ekonomii już nie wystarczy. Rynek pracy w finansach przechodzi przemianę",
       "link": "https://www.bankier.pl/wiadomosc/Dyplom-z-ekonomii-juz-nie-wystarczy-Nowe-wymagania-w-sektorze-finansowym-9129639.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Sektor finansowy coraz mniej przypomina ten sprzed dekady. Dziś to branża, w której technologia i zmiana stały się codziennością, a kluczowe znaczenie ma nie tylko wiedza ekonomiczna, ale też umiejętność pracy w dynamicznym, cyfrowym środowisku. Zapytaliśmy ekspertów, jak zmieniły się tu potrzeby ka",
@@ -333,6 +501,18 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/8/2/58e79d29fefed5-948-568-216-465-1171-702.jpg",
+      "dateISO": "2026-05-08T05:00:00.000Z",
+      "dateFormatted": "8 maja 2026"
+    },
+    {
+      "title": "Wiosenne przebudzenie na rynku najmu: podwyżki wracają do ofert, ale kawalerki wciąż tańsze niż przed rokiem",
+      "link": "https://www.bankier.pl/wiadomosc/Ceny-ofertowe-wynajmu-mieszkan-maj-2026-Raport-Bankier-pl-9129242.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Podobnie jak przed rokiem kwiecień przyniósł po zimowej korekcie podwyżki na rynku najmu w największych polskich miastach – wynika z danych Otodom Analytics. Te jednak w większości miast nie przekroczyły 1 proc. m/m. W ujęciu rocznym, zwłaszcza w przypadku kawalerek i ponad 60-metrowych mieszkań, st",
+      "pubDate": "Fri, 8 May 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/8/8c9f13d6d52634-948-568-0-0-1982-1189.jpg",
       "dateISO": "2026-05-08T05:00:00.000Z",
       "dateFormatted": "8 maja 2026"
     },
@@ -373,30 +553,6 @@
       "dateFormatted": "8 maja 2026"
     },
     {
-      "title": "Widmo polexitu słabnie, a Polacy chcą Unii. Tylko 15 proc. popiera wyjście",
-      "link": "https://www.bankier.pl/wiadomosc/Widmo-polexitu-slabnie-a-Polacy-chca-Unii-Tylko-15-proc-popiera-wyjscie-9129742.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Tylko 15 proc. Polek i Polaków zagłosowałoby za polexitem, gdyby dziś rozpisano referendum w sprawie wyjścia z Unii Europejskiej – wynika z sondażu Opinia24 dla „Gazety Wyborczej”.",
-      "pubDate": "Fri, 8 May 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/e/908195807f41ba-948-568-115-0-1736-1041.jpg",
-      "dateISO": "2026-05-08T05:00:00.000Z",
-      "dateFormatted": "8 maja 2026"
-    },
-    {
-      "title": "Szwagier Magyara jednak poza rządem. Barna rezygnuje z teki ministra",
-      "link": "https://www.bankier.pl/wiadomosc/Szwagier-Magyara-jednak-poza-rzadem-Barna-rezygnuje-z-teki-ministra-9129711.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Marton Mellethei-Barna, szwagier przyszłego premiera Węgier Petera Magyara i główny prawnik partii TISZA, poinformował w czwartek na Facebooku, że rezygnuje z ubiegania się o stanowisko ministra sprawiedliwości przez związki rodzinne z przyszłym szefem rządu. Magyar ogłosił jego nominację przed tygo",
-      "pubDate": "Fri, 8 May 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/a/48f40c55e334c6-948-568-0-160-4000-2399.jpg",
-      "dateISO": "2026-05-08T05:00:00.000Z",
-      "dateFormatted": "8 maja 2026"
-    },
-    {
       "title": "Benzyna i diesel tanieją przed weekendem. Jak zmieniają się ceny paliw?",
       "link": "https://www.bankier.pl/wiadomosc/Benzyna-i-diesel-tanieja-przed-weekendem-Jak-zmieniaja-sie-ceny-paliw-9129743.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Zgodnie z obwieszczeniem Ministra Energii w piątek litr benzyny 95 kosztuje nie więcej niż 6,41 zł, benzyny 98 - 6,90 zł, a oleju napędowego - 7,17 zł. Oznacza to, że ceny maksymalne na stacjach paliw są niższe niż w czwartek.",
@@ -409,19 +565,7 @@
       "dateFormatted": "8 maja 2026"
     },
     {
-      "title": "Poczta Polska stawia na nieruchomości. Minister zapowiada komercjalizację gruntów",
-      "link": "https://www.bankier.pl/wiadomosc/Poczta-Polska-stawia-na-nieruchomosci-Minister-zapowiada-komercjalizacje-gruntow-9129685.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Poczta Polska musi szukać źródeł przychodów, a jednym z nich może być zagospodarowanie nieruchomości należących do spółki - wskazał w czwartek minister aktywów państwowych Wojciech Balczun. Poinformował, że w najbliższym czasie zostanie wybrany nowy zarząd Poczty.",
-      "pubDate": "Fri, 8 May 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/f/eef68e75c1488d-948-568-9-103-1970-1182.jpg",
-      "dateISO": "2026-05-08T05:00:00.000Z",
-      "dateFormatted": "8 maja 2026"
-    },
-    {
-      "title": "Polska pierwsza w SAFE. 6,5 mld euro na zbrojeniówkę już w maju",
+      "title": "Polska pierwsza podpisuje historyczną umowę. Minister mówi, jaki będzie efekt udziału w SAFE",
       "link": "https://businessinsider.com.pl/biznes/polska-pierwszym-krajem-ue-w-safe-rzad-stawia-na-rozwoj-pgz/tp1ted1",
       "description": "W piątek Polska — jako pierwszy kraj Unii Europejskiej — potwierdzi swój udział w programie SAFE. To dowód na to, że rząd skutecznie ominął weto prezydenta. Czy równie skutecznie zrealizuje ambitne cele, jakie stawia sobie w związku z tym programem? Minister aktywów państwowych Wojciech Balczun w ro",
       "pubDate": "Fri, 08 May 2026 04:54:17 GMT",
@@ -430,78 +574,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/Ykak9kpTURBXy9mZDE0MTdkMTRlYjQ0MTZlYzkyYTE3MjRiOGY3MDRhNy5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-05-08T04:54:17.000Z",
-      "dateFormatted": "8 maja 2026"
-    },
-    {
-      "title": "\"Nie mam do tego zdrowia\". Te zawody skutecznie odstraszają kandydatów",
-      "link": "https://businessinsider.com.pl/praca/pensje-to-nie-wszystko-dlaczego-polacy-uciekaja-z-tych-branz/g3jvf7h",
-      "description": "Polska gospodarka zmaga się z brakiem rąk do pracy w kilkunastu kluczowych branżach, ale problem leży głębiej niż w samej rekrutacji. Zawody, w których najbardziej brakuje kadr — takie jak kierowcy, pracownicy budowlani czy pielęgniarki — to jednocześnie te, które najszybciej rujnują zdrowie. Gdy pa",
-      "pubDate": "Fri, 08 May 2026 04:52:18 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/88Bk9kpTURBXy80ODU4MmJhOGM3ZGQ3MmM2MTUzNTk2MjBhOTY0YWNhNy5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-08T04:52:18.000Z",
-      "dateFormatted": "8 maja 2026"
-    },
-    {
-      "title": "Firma została oszukana, a fiskus domaga się VAT. Jest wyrok NSA",
-      "link": "https://businessinsider.com.pl/prawo/podatki/spolka-padla-ofiara-oszustwa-nsa-wyjasnil-co-z-zaplata-vat/2bdxx3c",
-      "description": "Czy spółka musi odprowadzić VAT do urzędu skarbowego, jeśli wysłała zamówiony towar kontrahentowi, który jedynie podszywał się pod legalnie działającą spółkę i nie zapłacił za niego? Jest odpowiedź NSA.",
-      "pubDate": "Fri, 08 May 2026 04:46:13 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/LQuk9kpTURBXy9lYzEzMDc4NTI2MDg4ZTMwYTQ3ZWJlZGJjMDNjMDVkZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-08T04:46:13.000Z",
-      "dateFormatted": "8 maja 2026"
-    },
-    {
-      "title": "Ceny paliwa lotniczego wystrzeliły. Pytamy, z którymi lotami mogą być problemy",
-      "link": "https://businessinsider.com.pl/gospodarka/pytamy-czy-ceny-paliwa-lotniczego-pokrzyzuja-plany-polakow-oto-co-mowi-branza/d07mes8",
-      "description": "Ceny paliwa lotniczego wystrzeliły, a nikt obecnie nie może przewidzieć tego, co się stanie wokół cieśniny Ormuz w najbliższym czasie. Mało tego — szczyt kryzysu paliwowego może zbiec się w czasie ze startem sezonu. A to wpłynie na ceny biletów.",
-      "pubDate": "Fri, 08 May 2026 04:36:35 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/3MVk9kpTURBXy82ZWNlMTY0ZGVlMDVmNjBlZjUyY2VmNmYxNWRkZDRiYy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-08T04:36:35.000Z",
-      "dateFormatted": "8 maja 2026"
-    },
-    {
-      "title": "Wiemy, kto ma zostać prezesem Poczty Polskiej",
-      "link": "https://businessinsider.com.pl/biznes/zmiany-w-poczcie-polskiej-magdalena-gaj-ma-zostac-prezeska-spolki/4qlws12",
-      "description": "Doświadczona menedżerka Magdalena Gaj ma zostać nową prezeską Poczty Polskiej — potwierdzają nasze źródła. Ujawniają też, kiedy ma zapaść decyzja w tej sprawie, a także, jakie są atuty Gaj w rozgrywce o szefostwo państwowego giganta.",
-      "pubDate": "Fri, 08 May 2026 04:27:43 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/uRsk9kqTURBXy8zOTkwOTVkNTllNGJlYTU0ZmJlM2QyMWMwOTRhZGFmZS5qcGVnkZMCzQSwAN4AAaEwAQ",
-      "dateISO": "2026-05-08T04:27:43.000Z",
-      "dateFormatted": "8 maja 2026"
-    },
-    {
-      "title": "Kiepskie wieści ze stacji. Większość paliw w górę",
-      "link": "https://businessinsider.com.pl/poradnik-finansowy/nie-ma-dobrych-wiesci-tyle-kosztuja-teraz-paliwa/2f9vec1",
-      "description": "Mamy już trzeci tydzień z rzędu z rosnącymi cenami większości paliw — wynika z analizy e-petrol.pl. Cieszyć mogą się jedynie kierowcy aut na gaz.",
-      "pubDate": "Fri, 08 May 2026 04:16:15 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/SsXk9kpTURBXy9iN2MwNjFiMDdhZDhkM2NjNGY0ZmE3NGMzYTAzNWRhMy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-08T04:16:15.000Z",
-      "dateFormatted": "8 maja 2026"
-    },
-    {
-      "title": "Spółka od Izery unika krachu na 6 mld zł, ale gra dopiero startuje. Czy Polska nie okaże się z dykty? [OPINIA]",
-      "link": "https://businessinsider.com.pl/biznes/foxconn-emp-i-nowa-izera-oto-glowne-zagrozenie-opinia/yqkp813",
-      "description": "Było o krok od spektakularnej porażki, ale Electromobility Poland (EMP) znalazło partnera rzutem na taśmę. Wejście Foxconnu to wreszcie dobra wiadomość, ale walka o to, czy państwo zda egzamin, dopiero się rozpocznie. Szanse są duże, ale polski elektryk będzie musiał uniknąć kilku pułapek, które już",
-      "pubDate": "Fri, 08 May 2026 04:01:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/vO0k9kpTURBXy80ZGI1ODQ1N2ZlYmM0M2M2NDBiNjNkOTE1OGI1YjM0Yy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-08T04:01:00.000Z",
       "dateFormatted": "8 maja 2026"
     },
     {
@@ -565,30 +637,6 @@
       "dateFormatted": "7 maja 2026"
     },
     {
-      "title": "\"Projekt Wolność\" wraca na kluczowy szlak. Trump dogadał się z szejkami",
-      "link": "https://www.bankier.pl/wiadomosc/Projekt-Wolnosc-wraca-na-kluczowy-szlak-Trump-dogadal-sie-z-szejkami-9129676.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wstrzymana przez prezydenta USA Donalda Trumpa operacja mająca pomóc statkom handlowym w tranzycie przez cieśninę Ormuz „Projekt Wolność” może zostać wznowiona jeszcze w tym tygodniu - podał w czwartek „Wall Street Journal”. To efekt zniesienia restrykcji Arabii Saudyjskiej i Kuwejtu na użycie baz n",
-      "pubDate": "Thu, 7 May 2026 20:17:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/6/d45a7b6e3c003a-948-568-0-70-4000-2399.jpg",
-      "dateISO": "2026-05-07T19:17:00.000Z",
-      "dateFormatted": "7 maja 2026"
-    },
-    {
-      "title": "Lucas: Ukraina nie tylko wciąż walczy, ale Ukraina wygrywa",
-      "link": "https://www.bankier.pl/wiadomosc/Lucas-Ukraina-nie-tylko-wciaz-walczy-ale-Ukraina-wygrywa-9129663.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ukraina wygrywa wojnę z Rosją - ocenił ekspert ds. bezpieczeństwa Edward Lucas na warszawskiej konferencji Defense24 Days. Uczestniczący z Lucasem w dyskusji panelowej były szef Ośrodka Studiów Wschodnich Adam Eberhardt zgodził się z jego oceną, jednak wyraził wątpliwość, by wojna szybko się zakończ",
-      "pubDate": "Thu, 7 May 2026 19:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/d/162ae9ad028d89-948-568-14-14-1905-1143.jpg",
-      "dateISO": "2026-05-07T18:45:00.000Z",
-      "dateFormatted": "7 maja 2026"
-    },
-    {
       "title": "Aż 4500 zł za założenie konta w trzy miesiące. Erste \"podkręca\" promocję dla firm",
       "link": "https://www.bankier.pl/wiadomosc/4500-zl-za-zalozenie-konta-w-trzy-miesiace-Erste-podkreca-promocje-dla-firm-9129240.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Erste, który od maja działa na polskim rynku pod nową marką po rebrandingu Santander Bank Polska, wystartował z nową promocją dla przedsiębiorców. Tym razem bonus jest jeszcze wyższy niż w poprzednich akcjach i może sięgnąć nawet 4500 zł za aktywność na koncie firmowym. Sprawdzamy zasady oferty i wa",
@@ -601,18 +649,6 @@
       "dateFormatted": "7 maja 2026"
     },
     {
-      "title": "Cięcie stóp procentowych nie w tym roku. Ekonomiści PZU: nie ma przestrzeni",
-      "link": "https://www.bankier.pl/wiadomosc/Ciecie-stop-procentowych-nie-w-tym-roku-Ekonomisci-PZU-nie-ma-przestrzeni-9129660.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Jeśli konflikt na Bliskim Wschodzie wygaśnie w drugim lub trzecim kwartale br., powrót do cięć stóp procentowych możliwy jest najwcześniej na przełomie pierwszego i drugiego kwartału 2027 r. - ocenili analitycy PZU. Dodali, że w bieżącym roku nie ma przestrzeni do wznowienia obniżek.",
-      "pubDate": "Thu, 7 May 2026 19:19:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/4/3f44db77a40a51-948-568-168-350-2041-1225.jpg",
-      "dateISO": "2026-05-07T18:19:00.000Z",
-      "dateFormatted": "7 maja 2026"
-    },
-    {
       "title": "Były prezydent będzie premierem. Po długim kryzysie Bułgaria ma szanse na stabilny rząd",
       "link": "https://www.bankier.pl/wiadomosc/Byly-prezydent-bedzie-premierem-Po-dlugim-kryzysie-Bulgaria-ma-szanse-na-stabilny-rzad-9129634.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Były prezydent Bułgarii Rumen Radew, który założył własną partię, otrzymał w czwartek misję utworzenia nowego rządu. W kwietniu jego ugrupowanie wygrało wybory parlamentarne i zdobyło 131 mandatów w liczącym 240 miejsc parlamencie. Po długim kryzysie politycznym Bułgaria ma szanse na stabilny rząd.",
@@ -622,30 +658,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/b/7/c5dee057070e45-948-568-0-0-4000-2399.jpg",
       "dateISO": "2026-05-07T17:36:00.000Z",
-      "dateFormatted": "7 maja 2026"
-    },
-    {
-      "title": "Koniec prężenia muskułów? Masowe odwoływanie parad w Rosji i zawieszenie broni",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-prezenia-muskulow-Masowe-odwolywanie-parad-w-Rosji-i-zawieszenie-broni-do-10-maja-9129631.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W czwartek po południu rosyjski resort obrony poinformował o wprowadzeniu zawieszenia broni od 8 do 10 maja – poinformowała agencja Reutera. Deklaracja ta jest związana z obchodami Dnia Zwycięstwa 9 maja. Mimo to, w większości regionów Rosji odwołano parady wojskowe.",
-      "pubDate": "Thu, 7 May 2026 18:25:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/9/353e9b84f2859d-948-568-0-213-3051-1830.jpg",
-      "dateISO": "2026-05-07T17:25:00.000Z",
-      "dateFormatted": "7 maja 2026"
-    },
-    {
-      "title": "Gospodarka Iranu bliska zapaści? CIA przeczy słowom Białego Domu",
-      "link": "https://www.bankier.pl/wiadomosc/Gospodarka-Iranu-bliska-zapasci-CIA-przeczy-slowom-Bialego-Domu-9129626.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Amerykański wywiad ocenia, że Iran może przetrzymać amerykańską blokadę portów przez kolejne 3-4 miesiące, przecząc wypowiedziom Białego Domu na temat rychłej zapaści irańskiej gospodarki - podał „Washington Post”, powołując się na nową analizę CIA. Iran wciąż ma posiadać również 70 proc. zapasów ra",
-      "pubDate": "Thu, 7 May 2026 18:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/0/bbf80a161c3f92-948-568-0-269-4000-2399.jpg",
-      "dateISO": "2026-05-07T17:18:00.000Z",
       "dateFormatted": "7 maja 2026"
     },
     {
@@ -733,18 +745,6 @@
       "dateFormatted": "7 maja 2026"
     },
     {
-      "title": "Dyplomatyczny szantaż Kremla. Rosja każe ewakuować ambasady z Kijowa",
-      "link": "https://www.bankier.pl/wiadomosc/Dyplomatyczny-szantaz-Kremla-Rosja-kaze-ewakuowac-ambasady-z-Kijowa-9128893.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ministerstwo spraw zagranicznych Rosji poinformował w środę, że wysłało notę do wszystkich zagranicznych placówek dyplomatycznych i organizacji międzynarodowych akredytowanych w Moskwie z wezwaniem do ewakuowania we właściwym czasie personelu z Kijowa.",
-      "pubDate": "Thu, 7 May 2026 07:43:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/0/8878870a1150fe-948-568-360-470-3483-2090.jpg",
-      "dateISO": "2026-05-07T06:43:00.000Z",
-      "dateFormatted": "7 maja 2026"
-    },
-    {
       "title": "Dokąd zmierza WIG20? Czerwony maj po spadkowej serii?",
       "link": "https://www.bankier.pl/wiadomosc/Dokad-zmierza-WIG20-Czerwony-maj-po-spadkowej-serii-9128473.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Po długiej spadkowej serii z końcówki kwietnia WIG20 wyraźnie zazielenił się na początku maja. Jednakże statystyka jest tu bezlitosna i zgodnie z nią wiosenna korekta na GPW byłaby równie zaskakująca jak majowe burze.",
@@ -753,18 +753,6 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/b/d/0c03051b68beb5-948-568-0-231-2389-1433.png",
-      "dateISO": "2026-05-07T05:00:00.000Z",
-      "dateFormatted": "7 maja 2026"
-    },
-    {
-      "title": "Koszty pracy wystrzeliły. Firmy zmieniają model zatrudniania",
-      "link": "https://www.bankier.pl/wiadomosc/Praca-drozeje-w-zawrotnym-tempie-Przedsiebiorcy-zmieniaja-zasady-gry-9128737.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Praca w Polsce wyraźnie podrożała. W IV kwartale 2025 roku indeks kosztów zatrudnienia wzrósł o 7,7 proc. rok do roku i o 5 proc. względem początku 2025 r. Najwyższe wartości wskaźnika odnotowano w sektorze opieki zdrowotnej i pomocy społecznej oraz w branży TSL – wynika z danych GUS. Obecnie godzin",
-      "pubDate": "Thu, 7 May 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/2/3a2d41bfea87e2-948-568-0-109-1900-1139.jpg",
       "dateISO": "2026-05-07T05:00:00.000Z",
       "dateFormatted": "7 maja 2026"
     },
@@ -863,19 +851,7 @@
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-05-03T09:17:15.000Z",
       "dateFormatted": "3 maja 2026"
-    },
-    {
-      "title": "Bitcoin utrzymuje się powyżej 78 000 $, najlepszy miesiąc od kwietnia 2025",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-powyzej-78-000--dzieki-naplywom-do-etf-w-najsilniejszym-miesiacu-1390362",
-      "description": "",
-      "pubDate": "2026-05-02 07:35:53",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "dateISO": "2026-05-02T07:35:53.000Z",
-      "dateFormatted": "2 maja 2026"
     }
   ],
-  "updatedAt": "2026-05-08T05:57:21.910Z"
+  "updatedAt": "2026-05-08T07:49:39.992Z"
 }
