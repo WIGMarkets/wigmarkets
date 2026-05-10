@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Grupy bankowe i zwolennicy kryptowalut spierają się o nagrody w ustawie",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/grupy-bankowe-i-zwolennicy-kryptowalut-spieraja-sie-o-nagrody-w-ustawie-1405023",
+      "description": "",
+      "pubDate": "2026-05-10 02:01:56",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-05-10T02:01:56.000Z",
+      "dateFormatted": "10 maja 2026"
+    },
+    {
       "title": "Władimir Putin o wojnie w Ukrainie: myślę, że sprawa dobiega końca",
       "link": "https://businessinsider.com.pl/wiadomosci/wladimir-putin-zaskakuje-ws-wojny-w-ukrainie-padly-wazne-slowa/yl0e0we",
       "description": "Prezydent Rosji do tej pory był raczej hamulcowym, jeśli chodzi o negocjacje dotyczące zakończenia wojny w Ukrainie. Teraz jego słowa dają nadzieję na przełamanie.",
@@ -839,19 +851,7 @@
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-05-05T12:19:36.000Z",
       "dateFormatted": "5 maja 2026"
-    },
-    {
-      "title": "Bitcoin optymistyczny blisko 81 tys. $ przy napięciach z Iranem",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-optymistyczny-blisko-81-tys--przy-napieciach-z-iranem-1392843",
-      "description": "",
-      "pubDate": "2026-05-05 07:06:40",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "dateISO": "2026-05-05T07:06:40.000Z",
-      "dateFormatted": "5 maja 2026"
     }
   ],
-  "updatedAt": "2026-05-09T22:47:23.450Z"
+  "updatedAt": "2026-05-10T03:26:53.315Z"
 }
