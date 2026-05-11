@@ -1,6 +1,54 @@
 {
   "articles": [
     {
+      "title": "Marcin Romanowski dołączył do Zbigniewa Ziobry w USA",
+      "link": "https://www.bankier.pl/wiadomosc/Marcin-Romanowski-dolaczyl-do-Zbigniewa-Ziobry-w-USA-9131213.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ponad dwa lata prokuratura usiłowała zebrać dowody przeciwko byłemu ministrowi sprawiedliwości i prokuratorowi generalnemu Zbigniewowi Ziobrze w śledztwie dot. Funduszu Sprawiedliwości, a następnie postawić mu zarzuty. Obecnie b. szef MSZ przebywa w USA. Przedstawiamy najważniejsze wydarzenia w tej ",
+      "pubDate": "Mon, 11 May 2026 20:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/8/b8e9e2ee4c145e-948-568-45-74-2955-1772.jpg",
+      "dateISO": "2026-05-11T19:20:00.000Z",
+      "dateFormatted": "11 maja 2026"
+    },
+    {
+      "title": "Elon Musk leci z Donaldem Trumpem do Chin. Będą też inni prezesi",
+      "link": "https://businessinsider.com.pl/biznes/donald-trump-zabiera-do-chin-elona-muska-i-tima-cooka-w-tle-gigantyczna-umowa/3hrmyks",
+      "description": "Wraz z Donaldem Trumpem do Chin polecą w tym tygodniu liderzy biznesu, w tym Elon Musk, prezes Apple Tim Cook oraz prezes Boeinga, który wiąże z tą wizytą szczególne nadzieje.",
+      "pubDate": "Mon, 11 May 2026 19:06:38 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/L33k9kpTURBXy9kODdiNTQzOGU4NDZjZDZiOGFjOGJiMWI3MTczNWYyNC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-11T19:06:38.000Z",
+      "dateFormatted": "11 maja 2026"
+    },
+    {
+      "title": "Bruksela szykuje nowy podatek. Może wywołać rewolucję w lotach poza UE",
+      "link": "https://businessinsider.com.pl/gospodarka/bilety-lotnicze-moga-podrozec-bruksela-pracuje-nad-nowa-oplata/fj9e96e",
+      "description": "Jak informuje brytyjski dziennik \"Financial Times\", Unia Europejska rozważa wprowadzenie opłat za emisję dwutlenku węgla dla wszystkich lotów odlatujących z terenu Wspólnoty.",
+      "pubDate": "Mon, 11 May 2026 19:03:34 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/mJLk9kpTURBXy9hZDE1ZTMzYWJjMTNiMmVkNTNiNTU1MTI5OTJjN2RiYi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-11T19:03:34.000Z",
+      "dateFormatted": "11 maja 2026"
+    },
+    {
+      "title": "Afera w szpitalu. Tomasz Lenz wyrzucony z partii. Znamy kulisy decyzji ws. zabiegu bez kolejki",
+      "link": "https://www.bankier.pl/wiadomosc/Afera-w-szpitalu-Tomasz-Lenz-wyrzucony-z-partii-Znamy-kulisy-decyzji-ws-zabiegu-bez-kolejki-9131238.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Senator Tomasz Lenz został wykluczony z Koalicji Obywatelskiej i klubu parlamentarnego . Ma to związek z zabiegiem jego syna, który został wykonany poza kolejką w szpitalu w Aleksandrowie. Decyzję - jak poinformował wieczorem przewodniczący klubu Zbigniew Konwiński - podjęto w trybie obiegowym.",
+      "pubDate": "Mon, 11 May 2026 19:56:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/d/27061ac33ef428-948-568-44-33-4434-2660.jpg",
+      "dateISO": "2026-05-11T18:56:00.000Z",
+      "dateFormatted": "11 maja 2026"
+    },
+    {
       "title": "Trump powiedział Fox News, że rozważa uczynienie Wenezueli 51. stanem USA",
       "link": "https://www.bankier.pl/wiadomosc/Trump-powiedzial-Fox-News-ze-rozwaza-uczynienie-Wenezueli-51-stanem-USA-9131233.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Prezydent Donald Trump powiedział w poniedziałek w rozmowie telefonicznej ze stacją Fox News, że „poważnie rozważa uczynienie Wenezueli 51. stanem” USA - przekazał reporter telewizji. Prezydent utrzymywał, że Wenezuelczycy go kochają.",
@@ -20,8 +68,20 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/82216e487002a2-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/2/2/cbeb06dd33a8d3-thumb-1000.jpg",
       "dateISO": "2026-05-11T18:40:00.000Z",
+      "dateFormatted": "11 maja 2026"
+    },
+    {
+      "title": "Trump: Póki ja jestem prezydentem, Xi nie zdecyduje się na przejęcie Tajwanu",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-Poki-ja-jestem-prezydentem-Xi-nie-zdecyduje-sie-na-przejecie-Tajwanu-9131226.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Donald Trump oświadczył w poniedziałek, że przywódca Chin Xi Jinping chce, by USA zaprzestały sprzedaży broni Tajwanowi i zapowiedział rozmowy na ten temat podczas jego wizyty w Pekinie. Podkreślił przy tym, że póki on jest prezydentem, Xi nie zdecyduje się na przejęcie wyspy.",
+      "pubDate": "Mon, 11 May 2026 19:29:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/f/1a1ef97f1fcb17-948-568-15-0-2985-1790.jpg",
+      "dateISO": "2026-05-11T18:29:00.000Z",
       "dateFormatted": "11 maja 2026"
     },
     {
@@ -37,18 +97,6 @@
       "dateFormatted": "11 maja 2026"
     },
     {
-      "title": "Wyniki Answear w I kw. 2026 roku vs. konsensus PAP (tabela)",
-      "link": "https://www.bankier.pl/wiadomosc/Wyniki-Answear-w-I-kw-2026-roku-vs-konsensus-PAP-tabela-9131221.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Poniżej przedstawiono wyniki Answear w pierwszym kwartale 2026 roku i ich odniesienie do konsensusu PAP Biznes oraz poprzednich wyników.",
-      "pubDate": "Mon, 11 May 2026 19:22:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/d/1/785f181c53f0ce-thumb-1000.jpg",
-      "dateISO": "2026-05-11T18:22:00.000Z",
-      "dateFormatted": "11 maja 2026"
-    },
-    {
       "title": "Grupa Unimot szacuje, że w I kw. miała 101 mln zł skorygowanej EBITDA, powyżej oczekiwań",
       "link": "https://www.bankier.pl/wiadomosc/Grupa-Unimot-szacuje-ze-w-I-kw-miala-101-mln-zl-skorygowanej-EBITDA-powyzej-oczekiwan-9131211.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Grupa Unimot szacuje, że w I kwartale 2026 roku miała 101 mln zł skorygowanej EBITDA, wobec 47 mln zł w analogicznym okresie 2025 roku - podała spółka w komunikacie. Konsensus PAP Biznes zakładał, że skorygowana EBITDA wyniesie 70,6 mln zł.",
@@ -56,7 +104,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/6/9/663ed7264204bb-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/0/f/5cf4b304c96a2e-thumb-1000.jpg",
       "dateISO": "2026-05-11T17:54:00.000Z",
       "dateFormatted": "11 maja 2026"
     },
@@ -128,7 +176,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/2/2/cbeb06dd33a8d3-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/0/f/c054fce945dcfc-thumb-1000.jpg",
       "dateISO": "2026-05-11T16:56:00.000Z",
       "dateFormatted": "11 maja 2026"
     },
@@ -164,7 +212,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/6/9/663ed7264204bb-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/1/0/32ef436f61248c-thumb-1000.jpg",
       "dateISO": "2026-05-11T16:46:00.000Z",
       "dateFormatted": "11 maja 2026"
     },
@@ -176,8 +224,20 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/5/1/e89c740f794180-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/0/f/c054fce945dcfc-thumb-1000.jpg",
       "dateISO": "2026-05-11T16:40:00.000Z",
+      "dateFormatted": "11 maja 2026"
+    },
+    {
+      "title": "Gamingowy gigant z Wrocławia publikuje raport. 18,9 mln zł zysku i ważny sygnał dla graczy",
+      "link": "https://www.bankier.pl/wiadomosc/Skorygowana-EBITDA-Ten-Square-Games-w-I-kw-wyniosla-18-9-mln-zl-wobec-konsensusu-18-1-mln-zl-9131158.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Ten Square Games wypracował w pierwszym kwartale 2026 roku 18,9 mln zł skorygowanej EBITDA wobec 30,5 mln zł rok wcześniej - poinformowała spółka w raporcie kwartalnym. Konsensus PAP Biznes zakładał 18,1 mln zł skorygowanej EBITDA.",
+      "pubDate": "Mon, 11 May 2026 17:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/7/9/3270a77e9905ca-948-568-15-20-2032-1219.jpg",
+      "dateISO": "2026-05-11T16:36:00.000Z",
       "dateFormatted": "11 maja 2026"
     },
     {
@@ -469,18 +529,6 @@
       "dateFormatted": "11 maja 2026"
     },
     {
-      "title": "Konto Millennium 360 z bonusem. Nawet 700 zł dla Ciebie i 200 zł dla dziecka",
-      "link": "https://www.bankier.pl/wiadomosc/Zgarnij-nawet-900-zl-premii-z-Kontem-Millennium-360-9130018.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Szukasz nowoczesnego konta, które dopasuje się do Twoich potrzeb, a do tego hojnie Cię nagrodzi? Bank Millennium przygotował wyjątkową promocję, w której jako nowy klient możesz zyskać do 700 zł za otwarcie konta osobistego oraz do 200 zł za założenie konta dla dziecka.",
-      "pubDate": "Mon, 11 May 2026 15:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/c/b4027c07299188-948-568-38-0-1800-1079.jpg",
-      "dateISO": "2026-05-11T14:00:00.000Z",
-      "dateFormatted": "11 maja 2026"
-    },
-    {
       "title": "Światowe ceny żywności wzrosły trzeci miesiąc rzędu. To może być dopiero początek",
       "link": "https://www.bankier.pl/wiadomosc/Swiatowe-ceny-zywnosci-wzrosly-trzeci-miesiac-rzedu-Indeks-FAO-w-kwietniu-2026-9130959.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Kwiecień był trzecim miesiącem z rzędu, w którym odnotowano wzrost globalnych cen żywności – podała oenzetowska agenda ds. Wyżywienia i Rolnictwa (FAO).",
@@ -598,54 +646,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/e/fc888c5aa1bdc9-948-568-21-63-4231-2539.jpg",
       "dateISO": "2026-05-11T13:00:00.000Z",
-      "dateFormatted": "11 maja 2026"
-    },
-    {
-      "title": "Zmiany polityczne w upadłym państwie. UE zapowiada odnowienie współpracy",
-      "link": "https://businessinsider.com.pl/gospodarka/ue-reaktywuje-wspolprace-z-syria-przelomowa-decyzja-po-13-latach/vfc7crq",
-      "description": "Ministrowie spraw zagranicznych państw Unii Europejskiej podjęli w poniedziałek przełomową decyzję o pełnym przywróceniu umowy handlowej z Syrią.",
-      "pubDate": "Mon, 11 May 2026 12:59:04 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/bQMk9kpTURBXy9hZjMxMjdhOTA1NDRkMTRmZTlhNGZlMDNlODJjYmYwZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-11T12:59:04.000Z",
-      "dateFormatted": "11 maja 2026"
-    },
-    {
-      "title": "Sony uchyla rąbka tajemnicy na temat PlayStation 6. \"Nowe modele biznesowe\" nie zwiastują niczego dobrego",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/playstation-6-w-nowym-modelu-biznesowym-konsole-moze-byc-dostepna-jako-subskrypcja/w1bg8h8",
-      "description": "Przychody wyższe od planowanych, ale i spory problem dotyczący najbliższej przyszłości. Tak w skrócie podsumować można wyniki finansowe Sony w kontekście rynku gamingowego. Niepewność dotycząca PlayStation 6 może mieć jednak drugie dno.",
-      "pubDate": "Mon, 11 May 2026 12:40:55 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/qdZk9kpTURBXy80MjYyMmMxZGI2ZTAxMjU0MDE3YWI5NjRhMTJiNzZlMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-11T12:40:55.000Z",
-      "dateFormatted": "11 maja 2026"
-    },
-    {
-      "title": "Premier Starmer: Nie odejdę, udowodnię wątpiącym we mnie, że się mylą",
-      "link": "https://www.bankier.pl/wiadomosc/Premier-Starmer-Nie-odejde-udowodnie-watpiacym-we-mnie-ze-sie-myla-9130937.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Brytyjski premier Keir Starmer zapewnił w poniedziałek, że udowodni wątpiącym w niego, iż się mylą oraz że nie zrezygnuje ze stanowiska. Obiecał m.in. dalsze zbliżenie z Unią Europejską, co jego zdaniem uczyni kraj silniejszym.",
-      "pubDate": "Mon, 11 May 2026 13:27:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/c/386bf50d1c618c-948-568-10-79-3990-2393.jpg",
-      "dateISO": "2026-05-11T12:27:00.000Z",
-      "dateFormatted": "11 maja 2026"
-    },
-    {
-      "title": "MON podpisało porozumienie z PKP Cargo ws. kolejowego transportu wojskowego",
-      "link": "https://www.bankier.pl/wiadomosc/MON-podpisalo-porozumienie-z-PKP-Cargo-ws-kolejowego-transportu-wojskowego-krotka-9130931.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Podpisane w poniedziałek porozumienie między MON a PKP Cargo dotyczy kolejowego transportu wojskowego, w tym m.in. dbania o ważne dla obronności linie kolejne czy zapasy taboru. - To zabezpieczenie nie tylko na wypadek konfliktu, ale też m.in. dla ćwiczeń - mówił szef MON Władysław Kosiniak-Kamysz.",
-      "pubDate": "Mon, 11 May 2026 13:14:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/7/545b7f05440078-948-568-0-7-1496-897.jpg",
-      "dateISO": "2026-05-11T12:14:00.000Z",
       "dateFormatted": "11 maja 2026"
     },
     {
@@ -865,5 +865,5 @@
       "dateFormatted": "6 maja 2026"
     }
   ],
-  "updatedAt": "2026-05-11T17:54:53.909Z"
+  "updatedAt": "2026-05-11T19:49:08.343Z"
 }
