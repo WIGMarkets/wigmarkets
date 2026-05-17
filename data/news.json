@@ -1,6 +1,222 @@
 {
   "articles": [
     {
+      "title": "Apple uczyło ich podstaw produkcji, a teraz będą robić \"Izerę\"",
+      "link": "https://businessinsider.com.pl/technologie/apple-nauczylo-foxconna-produkcji-teraz-korzysta-na-tym-polska/jdznvxg",
+      "description": "Zaczynali od gałek do telewizorów. Dziś są największym kontraktowym producentem elektroniki na świecie — i mają pomóc zbudować polski samochód elektryczny. Foxconn, bo o tej firmie mowa, nie byłby jednak taką potęgą, gdyby nie wieloletnia ścisła współpraca z Apple.",
+      "pubDate": "Sun, 17 May 2026 09:17:55 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/irvk9kpTURBXy80OWE1ZTM2NTE5ZTRkOTFlOWE4MDQ1MTc5YjFjMTU0Ny5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-17T09:17:55.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Polacy wracają do biur podróży. Branża notuje rekordowe wzrosty sprzedaży",
+      "link": "https://businessinsider.com.pl/lifestyle/wojna-na-bliskim-wschodzie-a-podroze-polakow-branza-odpiera-kryzys/1mgbnkl",
+      "description": "Polska branża turystyczna, mimo niepokojów związanych z wojną na Bliskim Wschodzie, prognozuje kolejny rok wzrostów sprzedaży. Jak podkreśla prezes Polskiej Izby Turystyki Paweł Niewiadomski, po początkowym spadku zainteresowania wyjazdami, klienci wracają do rezerwowania wycieczek, a rynek wykazuje",
+      "pubDate": "Sun, 17 May 2026 09:03:49 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Z1dk9kpTURBXy9mZGRhMzRhOWQxYTA0YzA5ZWJlMTk5MTRkOTMwYjk4Yi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-17T09:03:49.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Zwrot na rynkach. 58 miliardów dolarów wpompowane w jeden miesiąc",
+      "link": "https://www.bankier.pl/wiadomosc/Zwrot-na-rynkach-58-miliardow-dolarow-wpompowane-w-jeden-miesiac-9131359.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Napływy portfelowe na rynki wschodzące (EM) wzrosły w kwietniu do 58,3 mld USD, odwracając marcowy odpływ na poziomie 66,2 mld USD – wynika z najnowszego raportu Institute of International Finance.",
+      "pubDate": "Sun, 17 May 2026 10:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/0/3/1d4575b6f42564-948-568-12-25-987-592.jpg",
+      "dateISO": "2026-05-17T09:00:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Trump \"słaby jak Obama\"? Analityk OSW: Xi mami prezydenta USA wizją wielkiego dealu",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-slaby-jak-Obama-Analityk-OSW-Xi-mami-prezydenta-USA-wizja-wielkiego-dealu-9134556.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Przywódca Chin Xi Jinping mami prezydenta USA Donalda Trumpa wizją „wielkiego dealu” handlowego, by utrzymać spokój w relacjach, ale kwestia Tajwanu może doprowadzić do szybkiej eskalacji napięć – ocenił w rozmowie z PAP analityk ds. chińskich w Ośrodku Studiów Wschodnich (OSW) dr Michał Bogusz.",
+      "pubDate": "Sun, 17 May 2026 10:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/3/52bebd923958be-948-568-180-300-3820-2291.jpg",
+      "dateISO": "2026-05-17T09:00:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Przemoc co 76 sekund. To bolesny raport o bezpieczeństwie dzieci w sieci",
+      "link": "https://www.bankier.pl/wiadomosc/Przemoc-co-76-sekund-To-bolesny-raport-o-bezpieczenstwie-dzieci-w-sieci-9132763.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Przemoc to codzienność dzieci w świecie online. Polskie i europejskie raporty wskazują, że najmłodsi są w internecie narażeni na nękanie, szantaże, kradzież danych, a także wykorzystywanie seksualne. Regulacje...",
+      "pubDate": "Sun, 17 May 2026 10:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/1/8f2380e64adf80-948-568-28-95-3771-2262.jpg",
+      "dateISO": "2026-05-17T09:00:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Bitcoin zatrzymuje się przy 78 tys. $, Strategy rozważa sprzedaż BTC",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-zatrzymuje-sie-przy-78-tys--strategy-sugeruje-sprzedaz-1417638",
+      "description": "",
+      "pubDate": "2026-05-17 08:42:16",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-05-17T08:42:16.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Xi Jinping kusi Trumpa \"wielkim dealem\". Pomija jednak jedną rzecz",
+      "link": "https://businessinsider.com.pl/gospodarka/xi-jinping-kusi-trumpa-wielkim-dealem-pomija-jednak-jedna-rzecz/3mj37nx",
+      "description": "Przywódca Chin Xi Jinping stara się utrzymać dobre stosunki z prezydentem USA Donaldem Trumpem, oferując mu wizję szeroko zakrojonej współpracy handlowej.",
+      "pubDate": "Sun, 17 May 2026 08:30:54 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/YL5k9kpTURBXy9iMjAxYmQ1NTBmMmY3YjI1YmM3MzViOGY2NjkyZTNiYy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-17T08:30:54.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Ile do koperty na wesele w 2026 roku? Polacy podali konkretne kwoty",
+      "link": "https://www.bankier.pl/wiadomosc/Ile-do-koperty-na-wesele-w-2026-roku-Polacy-podali-konkretne-kwoty-9134552.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polacy, którzy w tym roku wezmą udział w weselu, na prezent dla młodej pary wydadzą najczęściej między 501 a 1000 zł - wynika z Barometru Providenta. Mniej, około 300 zł planują wydać natomiast na przygotowania do uroczystości - np. na fryzjera czy strój.",
+      "pubDate": "Sun, 17 May 2026 09:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/2/87aed6b7054aab-948-568-0-150-3950-2370.jpg",
+      "dateISO": "2026-05-17T08:15:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Kryzys u podnóża Mount Everestu. Wojna na Bliskim Wschodzie katastrofą dla turystyki",
+      "link": "https://www.bankier.pl/wiadomosc/Kryzys-u-podnoza-Mount-Everestu-Wojna-na-Bliskim-Wschodzie-katastrofa-dla-turystyki-9134549.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Turyści z państw Zachodu masowo odwołują rezerwacje w Nepalu w szczycie sezonu trekkingowego. Wojna USA i Izraela z Iranem zmusza Nepalczyków do szukania pracy poza turystyką, a wielu zgadza się na obniżki wynagrodzeń. Lukę na rynku mają wypełnić turyści z Azji, którzy wydają jednak mniej niż Europe",
+      "pubDate": "Sun, 17 May 2026 09:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/6/173a7e7a8c678e-948-568-0-34-1732-1039.jpg",
+      "dateISO": "2026-05-17T08:00:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Fantastyczne umowy handlowe to fikcja? Resort handlu Chin studzi emocje",
+      "link": "https://www.bankier.pl/wiadomosc/Fantastyczne-umowy-handlowe-to-fikcja-Resort-handlu-Chin-studzi-emocje-9134519.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Chińskie ministerstwo handlu określiło w sobotę porozumienia, zawarte w czasie wizyty prezydenta USA Donalda Trumpa w Pekinie, jako „wstępne” – przekazała agencja Reutera. Dotyczą one ceł, zakupu towarów rolno-spożywczych i samolotów.",
+      "pubDate": "Sun, 17 May 2026 09:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/3/0a588c1d7c2af6-948-568-20-93-4153-2491.jpg",
+      "dateISO": "2026-05-17T08:00:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Inflacja może w maju przekroczyć górne odchylenie od celu NBP",
+      "link": "https://www.bankier.pl/wiadomosc/Inflacja-moze-w-maju-przekroczyc-gorne-odchylenie-od-celu-NBP-9134544.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Inflacja CPI wzrosła w kwietniu do 3,2 proc. rdr z 3 proc. miesiąc wcześniej, a w maju może przekroczyć górne ograniczenie dopuszczalnych odchyleń od celu inflacyjnego NBP – ocenili ekonomiści PKO BP. Ich zdaniem presję na ceny będą wywierać głównie żywność, a także wzrost cen paliw.",
+      "pubDate": "Sun, 17 May 2026 09:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/1/2278312df9b7b4-948-568-30-22-2970-1781.jpg",
+      "dateISO": "2026-05-17T08:00:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "WHO ogłasza międzynarodowy alarm zdrowotny. Chodzi o Ebolę",
+      "link": "https://businessinsider.com.pl/gospodarka/epidemia-eboli-w-kongu-i-ugandzie-who-oglasza-globalny-alarm/5cn7rzc",
+      "description": "Światowa Organizacja Zdrowia ogłosiła stan zagrożenia zdrowia publicznego o zasięgu międzynarodowym w związku z epidemią Eboli w Demokratycznej Republice Konga i Ugandzie. Eksperci ostrzegają, że rzadki szczep wirusa, na który nie ma zatwierdzonej szczepionki ani leczenia, może rozprzestrzeniać się ",
+      "pubDate": "Sun, 17 May 2026 07:45:59 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Rpjk9kpTURBXy82ZTk1OGNhNjA1OTAyYTc2ZDI4ZDJmY2Y5YTVlZjg3ZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-17T07:45:59.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Więcej e-busów do Morskiego Oka. Konie znikną z trasy?",
+      "link": "https://www.bankier.pl/wiadomosc/Wiecej-e-busow-do-Morskiego-Oka-Konie-znikna-z-trasy-9134562.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ministerstwo Klimatu i Środowiska zapewnia, że planowany zakup 16 kolejnych elektrycznych busów na trasę do Morskiego Oka nie oznacza likwidacji transportu konnego. Resort podkreśla, że docelowy model ma łączyć przewozy konne z transportem elektrykami.",
+      "pubDate": "Sun, 17 May 2026 08:31:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/6/acd93e1ae9e70e-948-568-7-44-2992-1795.jpg",
+      "dateISO": "2026-05-17T07:31:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "BBN: doniesienia o ograniczeniu obecności wojsk USA nie dotyczą docelowo Polski",
+      "link": "https://www.bankier.pl/wiadomosc/BBN-doniesienia-o-ograniczeniu-obecnosci-wojsk-USA-nie-dotycza-docelowo-Polski-9134518.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Biuro Bezpieczeństwa Narodowego, kierowane przez Bartosza Grodeckiego, napisało w sobotę na platformie X, że medialne doniesienia o ograniczeniu obecności wojsk USA w Europie nie dotyczą bezpośrednio ani docelowo Polski. Według BBN trwa rotacja sił amerykańskich, a do kraju przemieszcza się sprzęt i",
+      "pubDate": "Sun, 17 May 2026 08:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/e/3fd61a53b37f4c-948-568-189-21-3208-1925.jpg",
+      "dateISO": "2026-05-17T07:30:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Rekrutacyjny jednorożec, czyli techniczny humanista pilnie poszukiwany",
+      "link": "https://businessinsider.com.pl/praca/rekrutacja-wyksztalcenie-czy-umiejetnosci-najlepiej-wszystko-na-raz/j8vc82l",
+      "description": "Formalne wykształcenie wciąż ma znaczenie, ale traci pozycję głównego filtra w rekrutacji. Firmy coraz wyraźniej stawiają na realne kompetencje, zdolność szybkiego uczenia się i elastyczność. Z raportu \"Michael Page Talent Trends 2026\" wynika, że polski rynek pracy przesuwa się w stronę modelu \"skil",
+      "pubDate": "Sun, 17 May 2026 07:26:56 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/JFLk9kpTURBXy9jYzU0Yjg5OThkZjU1ZTdhNzE1ZGNkMzkxNzUzMTU5Mi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-17T07:26:56.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "UE wprowadza rejestrację najmu turystycznego. Polska bez gotowych przepisów",
+      "link": "https://www.bankier.pl/wiadomosc/UE-wprowadza-rejestracje-najmu-turystycznego-Polska-bez-gotowych-przepisow-9134561.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Od 20 maja w UE zacznie obowiązywać rozporządzenie STR wprowadzające obowiązek numerów identyfikacyjnych dla obiektów najmu turystycznego. W Polsce trwają prace nad przepisami krajowymi, dlatego unijne sankcje nie będą na razie stosowane – poinformował wiceminister sportu i turystyki Ireneusz Raś.",
+      "pubDate": "Sun, 17 May 2026 08:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/6/3b36091b51527b-948-567-0-67-1000-599.jpg",
+      "dateISO": "2026-05-17T07:20:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Dzięki AI odzyskał bitcoiny warte 400 tys. dolarów. Claude AI znalazł sposób i odszyfrował portfel",
+      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/na-haju-zmienil-haslo-do-portfela-ai-odzyskalo-bitcoiny-warte-400-tys-dolarow/k2b1dhr",
+      "description": "Zapomniane hasło, lata frustracji i wreszcie przełom — dzięki sztucznej inteligencji. Jeden z użytkowników Bitcoina odzyskał dostęp do swojego portfela po ponad dekadzie, korzystając z modelu AI Claude.",
+      "pubDate": "Sun, 17 May 2026 07:10:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Mhuk9kpTURBXy9mZGE5YTIxMjRhNWMyZjhhZTcyYWU4YWEzMTEzYzg5OS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-17T07:10:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Największy lotniskowiec świata wrócił do portu. Najdłuższa misja od 50 lat",
+      "link": "https://www.bankier.pl/wiadomosc/Najwiekszy-lotniskowiec-swiata-wrocil-do-portu-Najdluzsza-misja-od-50-lat-9134515.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "USS Gerald R. Ford, największy lotniskowiec świata, wrócił w sobotę do portu w stanie Wirginia po 11-miesięcznym rejsie operacyjnym, najdłuższym od czasu wojny w Wietnamie – podała AP. W tym czasie okręt wspierał siły USA w wojnie z Iranem oraz pojmaniu byłego prezydenta Wenezueli Nicolasa Maduro.",
+      "pubDate": "Sun, 17 May 2026 08:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/6/02108e1baa2d39-948-567-0-17-1000-599.jpg",
+      "dateISO": "2026-05-17T07:00:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
       "title": "\"Z tej drogi nie ma już odwrotu\". Unia Europejska uniezależnia się od big techów [ANALIZA]",
       "link": "https://businessinsider.com.pl/gospodarka/unia-europejska-kontra-big-techy-po-grozbach-trumpa-rosnie-napiecie-analiza/c6rxgpr",
       "description": "Dystans między Unią Europejską a Stanami Zjednoczonymi narasta. W krajach Europy Zachodniej zapadają decyzje o uniezależnianiu się od amerykańskich technologicznych monopolistów. W Polsce toczy się zaś debata o podatku cyfrowym. Czy UE może się wybić się na technologiczną suwerenność?",
@@ -25,6 +241,30 @@
       "dateFormatted": "17 maja 2026"
     },
     {
+      "title": "Wojna dronów na pełną skalę. Ukraina i Rosja podsumowały noc",
+      "link": "https://www.bankier.pl/wiadomosc/Wojna-dronow-na-pelna-skale-Ukraina-i-Rosja-podsumowaly-noc-9134553.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Co najmniej trzy osoby zginęły w nocnym ukraińskim ataku dronowym w obwodzie moskiewskim, natomiast 12 zostało rannych, głównie w pobliżu wejścia do rafinerii ropy naftowej - poinformowały w niedzielę rano władze rosyjskiej stolicy. Według resortu obrony Rosji zestrzelono 556 bezzałogowców.",
+      "pubDate": "Sun, 17 May 2026 07:34:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/9/12fe00589bd4da-948-568-0-45-3525-2115.jpg",
+      "dateISO": "2026-05-17T06:34:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Zysk z mieszkania czy z giełdy? Sprawdziliśmy, co dało większy zwrot w dekadę",
+      "link": "https://businessinsider.com.pl/nieruchomosci/inwestycja-w-mieszkanie-czy-akcje-dewelopera-zaskakujace-wyniki-dekady/2gqkxlj",
+      "description": "\"Na mieszkaniu nie da się stracić\" — to przekonanie przez lata napędzało inwestycyjny boom w Polsce, ale dane pokazują, że jeszcze więcej można było zarobić… nie kupując mieszkania, lecz akcje deweloperów.",
+      "pubDate": "Sun, 17 May 2026 06:18:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/eBKk9kpTURBXy9kMmZiOWYzMjVjYTIxZWYzNWJmYjM3MGU5ZGJlNjZlOS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-17T06:18:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
       "title": "Najmłodszy syn Donalda Trumpa idzie w ślady ojca. Wybrał trudną branżę",
       "link": "https://businessinsider.com.pl/biznes/barron-trump-dyrektorem-firmy-z-palm-beach-oto-jego-nowy-projekt/q1vry4y",
       "description": "Syn prezydenta USA idzie w ślady ojca. Barron Trump wchodzi w biznes napojów yerba mate. Oto jak wygląda jego pomysł na zarabianie.",
@@ -46,6 +286,18 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/NxMk9kpTURBXy9kMjYwNmQyMDVjNDhjZDQ0OGQxMDQ5NWViMTUzODZjMS5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-05-17T05:10:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Upchnęła 14 dzieci do Fiata 500. Nielegalny autobus szkolny w Palermo",
+      "link": "https://www.bankier.pl/wiadomosc/Upchnela-14-dzieci-do-Fiata-500-Nielegalny-autobus-szkolny-w-Palermo-9134534.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "14 dzieci przewoziła w Palermo na Sycylii samochodem osobowym kobieta, która zamieniła swój pojazd w nielegalny szkolny autobus. Ściśniętych do granic możliwości uczniów znaleźli w samochodzie policjanci podczas kontroli drogowej. Dzieci były przewożone w ten sposób na prośbę ich rodziców.",
+      "pubDate": "Sun, 17 May 2026 06:01:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/4/0e42ab7c202f99-948-568-110-411-1662-997.jpg",
+      "dateISO": "2026-05-17T05:01:00.000Z",
       "dateFormatted": "17 maja 2026"
     },
     {
@@ -97,18 +349,6 @@
       "dateFormatted": "17 maja 2026"
     },
     {
-      "title": "Wrócił za kraty, bo pokazał prawdę. Kubański raper ponownie uwięziony",
-      "link": "https://www.bankier.pl/wiadomosc/Wrocil-za-kraty-bo-pokazal-prawde-Kubanski-raper-ponownie-uwieziony-9133118.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Znany kubański opozycjonista i muzyk Yasmany Gonzalez Valdes, który na początku maja został tymczasowo zwolniony z hawańskiego więzienia Combinado del Este, został ponownie zamknięty z powodu publikacji w internecie zdjęć swojego wychudłego ciała na skutek pobytu w zakładzie karnym.",
-      "pubDate": "Sun, 17 May 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/f/56843701654f38-948-567-0-40-1000-599.jpg",
-      "dateISO": "2026-05-17T05:00:00.000Z",
-      "dateFormatted": "17 maja 2026"
-    },
-    {
       "title": "Tak rolnicy płacą składki i pobierają emerytury. KRUS pokazał konkretne kwoty",
       "link": "https://businessinsider.com.pl/praca/emerytury/emerytury-rolnikow-sprawdzilismy-jak-dziala-krus/hjvpvq0",
       "description": "Kasa Rolniczego Ubezpieczenia Społecznego, czyli tzw. KRUS, uchodzi za olbrzymi przywilej dla mieszkańców wsi. Czy rzeczywiście tak jest? Sprawdziliśmy na konkretnych liczbach. Składki płacone przez rolników są rzeczywiście dość symboliczne. Ale kij ma dwa końce.",
@@ -119,6 +359,42 @@
       "image": "https://ocdn.eu/pulscms-transforms/1/0pBk9kpTURBXy8yMmNlOWNiYzI4MzJiMDE0NjM5MTNjZWViMjllZGI1OS5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-05-17T05:00:00.000Z",
       "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Kluczowy współpracownik Maduro w rękach USA. W tle pranie pieniędzy",
+      "link": "https://www.bankier.pl/wiadomosc/Kluczowy-wspolpracownik-Maduro-w-rekach-USA-W-tle-pranie-pieniedzy-9134524.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Były minister przemysłu Wenezueli Alex Saab, uważany za jednego z najbardziej zaufanych współpracowników obalonego przywódcy tego kraju Nicolasa Maduro, został deportowany do Stanów Zjednoczonych – poinformował w sobotę wenezuelski urząd migracyjny.",
+      "pubDate": "Sun, 17 May 2026 05:05:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/d/99a67364ed7db5-948-568-11-5-2343-1405.jpg",
+      "dateISO": "2026-05-17T04:05:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Hantawirus w Kanadzie. U 1 osoby wstępnie potwierdzono zakażenie",
+      "link": "https://www.bankier.pl/wiadomosc/Hantawirus-w-Kanadzie-U-1-osoby-wstepnie-potwierdzono-zakazenie-9134514.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Inspektor zdrowia prowincji Kolumbia Brytyjska w Kanadzie poinformował w sobotę, że u osoby, która podróżowała wycieczkowcem MV Hondius, wstępnie potwierdzono zakażenie hantawirusem. Obecnie osoba ta przebywa w izolacji wraz z partnerem, który wykazuje łagodne objawy zakażenia - dodano.",
+      "pubDate": "Sat, 16 May 2026 22:09:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/2/8274f40415509f-948-568-33-480-1886-1131.jpg",
+      "dateISO": "2026-05-16T21:09:00.000Z",
+      "dateFormatted": "16 maja 2026"
+    },
+    {
+      "title": "Wirus Ebola znowu atakuje. WHO ogłasza międzynarodowy stan zagrożenia",
+      "link": "https://www.bankier.pl/wiadomosc/Wirus-Ebola-znowu-atakuje-WHO-oglasza-miedzynarodowy-stan-zagrozenia-9134512.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Władze Demokratycznej Republiki Konga poinformowały w sobotę, że co najmniej 80 osób zmarło w wyniku nowego ogniska zakażeń wirusem Ebola w prowincji Ituri na wschodzie kraju. Epidemia rozprzestrzeniła się też na sąsiednią Ugandę.",
+      "pubDate": "Sat, 16 May 2026 21:51:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/4/c21bb5a2b9f092-948-568-4-9-1915-1149.jpg",
+      "dateISO": "2026-05-16T20:51:00.000Z",
+      "dateFormatted": "16 maja 2026"
     },
     {
       "title": "\"Gracie w orkiestrze wrogów\". Szef MON odniósł się do doniesień o wycofaniu wojsk USA",
@@ -153,30 +429,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/1/2/f0c4ff2de68180-948-568-10-0-3990-2393.jpg",
-      "dateISO": "2026-05-16T18:00:00.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Loteria w butelkomacie? 100 tysięcy euro w puli dla osób oddających butelki",
-      "link": "https://www.bankier.pl/wiadomosc/Loteria-w-butelkomacie-100-tysiecy-euro-w-puli-dla-osob-oddajacych-butelki-9131808.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W Holandii trwa loteria dla osób oddających butelki i puszki z kaucją w wybranych automatach. Za każde 15 centów zwróconej kaucji uczestnik dostaje jeden los. Co tydzień można wygrać 30, 50, 200 lub 400 euro.",
-      "pubDate": "Sat, 16 May 2026 19:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/3/66e65fd5a2ca5f-948-568-0-0-4000-2399.jpg",
-      "dateISO": "2026-05-16T18:00:00.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Prezydent: Nie ma demokracji bez wolnych mediów",
-      "link": "https://www.bankier.pl/wiadomosc/Prezydent-Nie-ma-demokracji-bez-wolnych-mediow-9134500.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Nie ma demokracji bez wolnych mediów, nie ma wolności słowa, tam gdzie dziennikarze zaczynają żyć pod presją interwencji służb - podkreślił prezydent Karol Nawrocki. Podziękował szefowi BBN za inicjatywę ws. wyjaśnienia „okoliczności działań podejmowanych przez służby wobec dziennikarzy” TV Republik",
-      "pubDate": "Sat, 16 May 2026 19:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/8/e0dbab52079fdc-948-568-40-0-3270-1961.jpg",
       "dateISO": "2026-05-16T18:00:00.000Z",
       "dateFormatted": "16 maja 2026"
     },
@@ -217,18 +469,6 @@
       "dateFormatted": "16 maja 2026"
     },
     {
-      "title": "Uznański-Wiśniewski: Potrzebujemy strategii rozwojowej dla sektora kosmicznego",
-      "link": "https://www.bankier.pl/wiadomosc/Uznanski-Wisniewski-Potrzebujemy-strategii-rozwojowej-dla-sektora-kosmicznego-9133342.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Żeby dobrze wykorzystać potencjał misji kosmicznej — tak, by nie stała się tylko symbolem — trzeba zbudować strategię rozwojową dla sektora kosmicznego — powiedział PAP uczestnik tej misji, Sławosz Uznański-Wiśniewski. Zdaniem rektora SGH Piotra Wachowiaka misja kosmiczna jest długofalową inwestycją",
-      "pubDate": "Sat, 16 May 2026 17:56:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/a/62391b452a0675-948-568-730-210-3133-1880.jpg",
-      "dateISO": "2026-05-16T16:56:00.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
       "title": "Pracownicy Amazona nadużywają AI do zbędnych zadań — wyłącznie dla podbicia wskaźników użycia AI",
       "link": "https://businessinsider.com.pl/technologie/nowe-technologie/pracownicy-amazona-naduzywaja-ai-do-zbednych-zadan-zeby-zawyzac-uzywanie-ai/ffy979s",
       "description": "Pracownicy Amazona przyznają się do niepotrzebnego korzystania z AI — wyłącznie do zawyżania wskaźników wykorzystania tej techniki. Skarżą się na silną presję korzystania z wewnętrznych narzędzi AI i boją się, że nieużywanie ich będzie miało negatywne konsekwencje i wpłynie na ocenę przez przełożony",
@@ -238,18 +478,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/A2fk9kpTURBXy83OGZlNzMxOTJmOTM5YWU4Y2EyNmNiNmM4NDdkNzgzZi5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-05-16T16:24:46.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Sojusz bez granic znowu w grze. Putin poleci do Chin",
-      "link": "https://www.bankier.pl/wiadomosc/Sojusz-bez-granic-znowu-w-grze-Putin-poleci-do-Chin-9134494.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Kreml ogłosił w sobotę, że w dniach 19-20 maja przywódca Rosji Władimir Putin złoży wizytę w Pekinie i spotka się z przywódcą Chin Xi Jinpingiem – podała agencja AP. Zapowiedź padła niecałą dobę po tym, gdy wizytę w stolicy Chin zakończył prezydent USA Donald Trump.",
-      "pubDate": "Sat, 16 May 2026 17:16:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/4/d0684f18ba6314-948-568-527-0-3347-2008.jpg",
-      "dateISO": "2026-05-16T16:16:00.000Z",
       "dateFormatted": "16 maja 2026"
     },
     {
@@ -274,30 +502,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/5/2d1c4db94cc135-948-567-5-15-995-596.jpg",
       "dateISO": "2026-05-16T16:00:00.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Resort zdrowia przedłuża o dwa lata pilotaż dostępności tzw. pigułki dzień po",
-      "link": "https://www.bankier.pl/wiadomosc/Resort-zdrowia-przedluza-o-dwa-lata-pilotaz-dostepnosci-tzw-pigulki-dzien-po-9131721.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ministerstwo Zdrowia przedłuża o dwa lata – do 30 czerwca 2028 r. – pilotażowy program sprzedaży antykoncepcji awaryjnej w aptekach. Umożliwia on pacjentkom uzyskanie tzw. tabletki dzień po na podstawie recepty wystawionej przez farmaceutę.",
-      "pubDate": "Sat, 16 May 2026 17:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/1/ae232e0a0f0762-948-568-17-239-3525-2115.jpg",
-      "dateISO": "2026-05-16T16:00:00.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Warszawa podnosi opłaty za pobyt w izbie wytrzeźwień",
-      "link": "https://www.bankier.pl/wiadomosc/Warszawa-podnosi-oplaty-za-pobyt-w-izbie-wytrzezwien-9133274.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Warszawscy radni przyjęli w czwartek uchwałę zwiększającą opłatę za pobyt w Stołecznym Ośrodku dla Osób Nietrzeźwych. Trafiający na Kolską zapłacą po podwyżce 469 zł.",
-      "pubDate": "Sat, 16 May 2026 16:53:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/5/9fcb1fbacd875a-948-568-44-33-4356-2613.jpg",
-      "dateISO": "2026-05-16T15:53:00.000Z",
       "dateFormatted": "16 maja 2026"
     },
     {
@@ -334,18 +538,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/-VGk9kpTURBXy8yNThkMDQ0NDg5YTVhZTNlNWYzZWYyYTQ5ZGMzZGFhZC5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-05-16T15:08:40.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Magyar: Orban nie dostanie odprawy po odejściu ze stanowiska premiera",
-      "link": "https://www.bankier.pl/wiadomosc/Magyar-Orban-nie-dostanie-odprawy-po-odejsciu-ze-stanowiska-premiera-9134488.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Premier Węgier Peter Magyar zapowiedział, że jego poprzednik Viktor Orban nie otrzyma odprawy w wysokości ponad 38 mln forintów (ok. 105 tys. euro). Były szef rządu zadeklarował, że chce przekazać te środki na dom dziecka na zamieszkanym przez mniejszość węgierską Zakarpaciu w Ukrainie.",
-      "pubDate": "Sat, 16 May 2026 16:02:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/0/c344bdd3a99478-948-568-224-38-1885-1131.jpg",
-      "dateISO": "2026-05-16T15:02:00.000Z",
       "dateFormatted": "16 maja 2026"
     },
     {
@@ -409,18 +601,6 @@
       "dateFormatted": "16 maja 2026"
     },
     {
-      "title": "Decyzja Norwegii uderzyła w azjatyckie państwo. \"Umowy to nie konfetti\"",
-      "link": "https://businessinsider.com.pl/gospodarka/norwegia-ogranicza-eksport-broni-azjatyckie-panstwo-oburzone-nagla-decyzja/d1nsxgg",
-      "description": "Norwegia ogłosiła, że ogranicza eksport \"najbardziej wrażliwych\" technologii obronnych do sojuszników i najbliższych partnerów. Z tego powodu zerwała kontrakt z Malezją na dostawę pocisków przeciwokrętowych NSM. Azjatyckie państwo zareagowało oburzeniem.",
-      "pubDate": "Sat, 16 May 2026 14:01:43 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/fdFk9kpTURBXy8wMmY0OWMwNWU2ZDYzY2M3ZjY2NDNmNTNkYWQxNjgxNi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-16T14:01:43.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
       "title": "Ukraińcy i Białorusini masowo odbierają polskie paszporty. Znamy statystyki MSWiA",
       "link": "https://www.bankier.pl/wiadomosc/Ukraincy-i-Bialorusini-masowo-odbieraja-polskie-paszporty-Znamy-statystyki-MSWiA-9132190.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W ubiegłym roku polskie obywatelstwo w różnych trybach nabyło ponad 19 tys. cudzoziemców, z czego ponad 10 tys. stanowili obywatele Ukrainy, zaś 6,5 tys. obywatele Białorusi - poinformowali w Sejmie przedstawiciele MSWiA. Większość cudzoziemców ubiegała się o obywatelstwo w oparciu o Kartę Polaka.",
@@ -433,30 +613,6 @@
       "dateFormatted": "16 maja 2026"
     },
     {
-      "title": "Cerebras rozbił bank na Wall Street. Rekordowy debiut i pytania o realną wartość",
-      "link": "https://businessinsider.com.pl/technologie/akcje-cerebras-szybuja-po-debiucie-analitycy-ostrzegaja-przed-powtorka-z-dotcomow/9xkbpsk",
-      "description": "Producent akceleratorów AI Cerebras rozbił bank i stał się bohaterem największego tegorocznego debiutu na Wall Street. Analiza związanych z tym debiutem liczb i szczegółów produktów Cerebras wyciąga jednak na światło dzienne kilka niewygodnych faktów, które przywołują na pamięć czasy dotcomowej bańk",
-      "pubDate": "Sat, 16 May 2026 13:26:57 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/YE5k9kpTURBXy8zMTQ2NmQ5NTcxM2MxNTA4ZjBhZWU2NWQ1NmQ1YjU2Yi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-16T13:26:57.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Zarobki rosną, satysfakcja także. Ale nie wszędzie jest różowo",
-      "link": "https://businessinsider.com.pl/praca/praca-w-polsce-rekordowe-zadowolenie-kontra-wzrost-przeciazenia/cgk6ehx",
-      "description": "Polacy zadowoleni z pracy, ale coraz bardziej przeciążeni. Najnowszy \"Barometr rynku pracy 2026\"",
-      "pubDate": "Sat, 16 May 2026 13:15:55 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/pYuk9kpTURBXy9hYjFiMzMyY2VhODZhMjUyYWUwMDdkMzA3OTQ0OWE4Yi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-16T13:15:55.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
       "title": "Koszyk zakupowy rodziny 2+2 idzie w górę. Sprawdź, co podrożało najmocniej",
       "link": "https://www.bankier.pl/wiadomosc/Koszyk-zakupowy-rodziny-2-2-idzie-w-gore-Sprawdz-co-podrozalo-najmocniej-9131323.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W kwietniu cena koszyka podstawowych artykułów niezbędnych do funkcjonowania czteroosobowej rodziny przez miesiąc wyniosła 2070 zł, czyli blisko 28 zł więcej w porównaniu do marca - wynika z raportu Polskiego Radia 24, UCE Research i Uniwersytetów WSB Merito.",
@@ -466,102 +622,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/1/4/12a38c1dac1306-948-568-304-318-1512-907.jpg",
       "dateISO": "2026-05-16T13:00:00.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Robert Lewandowski odchodzi z Barcelony. Skusi sią na 90 mln euro od Saudów?",
-      "link": "https://www.bankier.pl/wiadomosc/Robert-Lewandowski-odchodzi-z-Barcelony-Skusi-sia-na-90-mln-euro-od-Saudow-9134476.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Po czterech latach występów Robert Lewandowski oficjalnie poinformował za pośrednictwem platformy Instagram o zakończeniu współpracy z klubem FC Barcelona. Z doniesień medialnych wynika, że kolejnym etapem w karierze sportowej napastnika może być transfer do jednego z klubów w Arabii Saudyjskiej, co",
-      "pubDate": "Sat, 16 May 2026 13:59:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/c/0ee32f2d965224-948-568-340-270-3050-1830.jpg",
-      "dateISO": "2026-05-16T12:59:00.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Polak odpowiedzialny w KE za tłumaczenia na oficjalne języki Unii",
-      "link": "https://www.bankier.pl/wiadomosc/Polak-odpowiedzialny-w-KE-za-tlumaczenia-na-oficjalne-jezyki-Unii-9132307.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Komisja Europejska mianowała w środę Polaka Marcina Stryjeckiego na stanowisko dyrektora do spraw tłumaczeń w Dyrekcji ds. Tłumaczeń Pisemnych (DGT) - poinformowały służby prasowe KE. Chodzi o jeden z największych serwisów tłumaczeniowych na świecie tłumaczący na 24 oficjalne języki UE.",
-      "pubDate": "Sat, 16 May 2026 13:51:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/6/86b697f299216a-948-568-0-148-2030-1218.jpg",
-      "dateISO": "2026-05-16T12:51:00.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Iran ma już plan na zarządzanie ruchem w cieśninie Ormuz. Zapowiada opłaty",
-      "link": "https://businessinsider.com.pl/gospodarka/iran-szykuje-nowy-mechanizm-ruchu-w-ciesninie-ormuz-beda-pobierane-oplaty/lkr2mx0",
-      "description": "Iran zapowiedział, że wkrótce ogłosi mechanizm zarządzania ruchem statków w cieśninie Ormuz. Nowy plan został już opracowany, a ruch w cieśninie ma odbywać się wzdłuż wyznaczonej trasy.",
-      "pubDate": "Sat, 16 May 2026 12:30:02 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/597k9kpTURBXy84ZmY5Y2VjYWI1NTg2YWY1YmNmNDQwYTQ3ZDY4MTEyZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-16T12:30:02.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Od choinki do bomby atomowej. Brokat odegrał kluczową rolę w historii USA",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/co-laczy-brokat-i-bombe-atomowa-niepozorna-ozdoba-to-wojskowy-sekret/mxprrcc",
-      "description": "Wydaje się czymś absolutnie niewinnym, a jednak ta sama substancja ma bezpośredni związek z jednym z najtajniejszych i najbardziej destrukcyjnych projektów w historii ludzkości. Co więcej, dzisiaj w Stanach Zjednoczonych największym odbiorcą brokatu jest… armia. I nie jest to żadna teoria spiskowa.",
-      "pubDate": "Sat, 16 May 2026 12:21:57 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/pGAk9kpTURBXy9iM2ZhZjdiYTJjMTU1NWYxMzkyNDE1OGIxY2JjMGVjZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-16T12:21:57.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Irański plan na Cieśninę Ormuz. \"Zostanie wkrótce ogłoszony\"",
-      "link": "https://www.bankier.pl/wiadomosc/Iranski-plan-na-Ciesnine-Ormuz-Zostanie-wkrotce-ogloszony-9134467.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Iran przygotował mechanizm zarządzania ruchem statków w cieśninie Ormuz wzdłuż wyznaczonej trasy, który zostanie wkrótce ogłoszony – poinformował w sobotę przewodniczący komisji bezpieczeństwa narodowego irańskiego parlamentu Ebrahim Azizi.",
-      "pubDate": "Sat, 16 May 2026 13:17:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/d/8d1a7c996569ee-948-568-17-131-3482-2089.jpg",
-      "dateISO": "2026-05-16T12:17:00.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Uczestnicy konkursu Żubra zaatakowani przez oszustów. Browar ostrzega: to niebezpieczne",
-      "link": "https://businessinsider.com.pl/prawo/uczestnicy-konkursu-w-sieci-zaatakowani-przez-oszustow-organizator-ostrzega/fqp8qnk",
-      "description": "Kompania Piwowarska, właściciel m.in. marki piwa Żubr, ostrzega uczestników swojego konkursu przed działaniami oszustów, podszywających się pod firmę. Organizatorzy poinformowali w sobotę o wstrzymaniu konkursu.",
-      "pubDate": "Sat, 16 May 2026 11:58:18 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/IZkk9kpTURBXy8xNWY1MTdmYTFmYmY5NGFhMjc0MDRlNGM2MjIxNWZiNy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-16T11:58:18.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Robert Lewandowski odchodzi z Barcelony. Wielkie pieniądze może zamienić na jeszcze większe",
-      "link": "https://businessinsider.com.pl/sport/robert-lewandowski-zegna-sie-z-barcelona-na-stole-wielkie-pieniadze/82s65yv",
-      "description": "Robert Lewandowski po czterech latach żegna się z FC Barceloną. Informację tę piłkarz przekazał za pośrednictwem swojego konta na Instagramie. Według doniesień medialnych kolejnym przystankiem w jego karierze może być jeden z klubów w Arabii Saudyjskiej, gdzie miałby zarabiać rekordowe kwoty.",
-      "pubDate": "Sat, 16 May 2026 11:27:33 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/lsjk9kpTURBXy9lMGNjNzkyZjU2OTFkNjFhMDE4ZGJkYmUzYmJhYzI5Mi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-16T11:27:33.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Ataki hakerskie na stacjach benzynowych. USA podejrzewają Iran",
-      "link": "https://www.bankier.pl/wiadomosc/Ataki-hakerskie-na-stacjach-benzynowych-USA-podejrzewaja-Iran-9134452.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Amerykańskie władze podejrzewają, że za serią włamań do systemów monitorujących poziom paliwa w zbiornikach zasilających stacje benzynowe w wielu stanach stoją irańscy hakerzy - podała w piątek wieczorem stacja CNN, powołując się na źródła zaznajomione ze sprawą,",
-      "pubDate": "Sat, 16 May 2026 11:51:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/3/4fe6e3b6a6eb20-945-560-0-98-1411-846.jpg",
-      "dateISO": "2026-05-16T10:51:00.000Z",
       "dateFormatted": "16 maja 2026"
     },
     {
@@ -601,18 +661,6 @@
       "dateFormatted": "16 maja 2026"
     },
     {
-      "title": "System antydronowy SAN ma być gotowy za 18 miesięcy. Budowa przyspieszy dzięki pieniądzom z SAFE",
-      "link": "https://www.bankier.pl/wiadomosc/System-antydronowy-SAN-ma-byc-gotowy-za-18-miesiecy-Budowa-przyspieszy-dzieki-pieniadzom-z-SAFE-9132761.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Po podpisaniu umowy z Komisją Europejską dotyczącej programu SAFE trwają negocjacje konkretnych kontraktów dla przemysłu zbrojeniowego. Zakończenie tego procesu ma doprowadzić do przyspieszenia zapowiadanych inwestycji...",
-      "pubDate": "Sat, 16 May 2026 10:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/d/a/c6781966d614af-948-568-56-0-1827-1096.jpg",
-      "dateISO": "2026-05-16T09:00:00.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
       "title": "Kraksa czy rajd po nowe rekordy? Legendy spierają się o przyszłość rynków",
       "link": "https://www.bankier.pl/wiadomosc/Kraksa-czy-rajd-po-nowe-rekordy-Legendy-spieraja-sie-o-przyszlosc-rynkow-9134177.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Wszyscy na Wall Street patrzą na te same dane: indeksy giełdowe testują rekordowe poziomy, a wskaźniki inflacji są wyższe, niż by tego oczekiwano. Jednak giganci świata inwestycji wyciągają z tego skrajnie odmienne wnioski.",
@@ -622,30 +670,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/f/e/7265920cb6f31d-948-568-0-0-1440-863.jpg",
       "dateISO": "2026-05-16T09:00:00.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Planujesz wyjazd w Tatry? Droga do Morskiego Oka zostanie zamknięta",
-      "link": "https://www.bankier.pl/wiadomosc/Planujesz-wyjazd-w-Tatry-w-maju-Droga-do-Morskiego-Oka-zostanie-zamknieta-9134422.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Droga do Morskiego Oka będzie całkowicie zamknięta dla turystów od 25 do 29 maja w związku z remontem – poinformował Tatrzański Park Narodowy. W tym czasie nie będzie możliwości przejścia pieszo od Łysej Polany do Wodogrzmotów Mickiewicza, a kursy e-busów i transport konny będą zawieszone.",
-      "pubDate": "Sat, 16 May 2026 10:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/a/e6ec7f24961f86-948-568-0-110-4000-2399.jpg",
-      "dateISO": "2026-05-16T09:00:00.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
-      "title": "Hurtowe ceny paliw w górę. Orlen zmienił cennik w sobotę",
-      "link": "https://www.bankier.pl/wiadomosc/Hurtowe-ceny-paliw-w-gore-Orlen-zmienil-cennik-w-sobote-9134430.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Orlen podniósł w sobotę hurtowe ceny paliw, w tym benzyny bezołowiowej Eurosuper 95 o 43 zł, benzyny bezołowiowej Super Plus 98 o 38 zł, a oleju napędowego Ekodiesel o 29 zł za metr sześc. - wynika z danych opublikowanych przez koncern. Poprzednio, w piątek, w hurcie Orlenu paliwa te staniały.",
-      "pubDate": "Sat, 16 May 2026 09:15:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/7/3636f232c01823-948-568-742-419-2257-1354.jpg",
-      "dateISO": "2026-05-16T08:15:00.000Z",
       "dateFormatted": "16 maja 2026"
     },
     {
@@ -685,18 +709,6 @@
       "dateFormatted": "16 maja 2026"
     },
     {
-      "title": "Benzyna po 10 dolarów i puste zbiorniki. Kuba walczy z kryzysami",
-      "link": "https://www.bankier.pl/wiadomosc/Benzyna-po-10-dolarow-i-puste-zbiorniki-Kuba-walczy-z-kryzysami-9134374.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Na Kubie przywrócono w piątek dostawy energii elektrycznej po rozległej awarii, która dotknęla w czwartek siedem z piętnastu prowincji tego kraju. W piątek ogłoszono też znaczne podwyżki cen paliw, ale stacje benzynowe pozostają zamknięte - informują miejscowe media.",
-      "pubDate": "Sat, 16 May 2026 01:46:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/c/cfba17130eba42-948-568-0-236-3500-2099.jpg",
-      "dateISO": "2026-05-16T00:46:00.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
       "title": "Potężna przecena na rynku akcji i duże zmiany na spółkach. +10% na Dino i -8,6% na KGHM",
       "link": "https://www.bankier.pl/wiadomosc/Potezna-przecena-na-rynku-akcji-i-duze-zmiany-na-spolkach-10-na-Dino-i-8-6-na-KGHM-9134167.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Krajowe indeksy podążyły śladem rynków bazowych, które wystraszyły rosnące rentowności amerykańskich obligacji, co wynika z coraz większych szans na wzrost stóp procentowych w USA. U podstaw obaw stoją rosnące ceny ropy, bo choć „epicka furia” się skończyła, to Cieśnina Ormuz nadal jest zamknięta. W",
@@ -706,6 +718,18 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/6/5/988824eb91c023-945-560-20-49-3980-2387.jpg",
       "dateISO": "2026-05-15T16:21:00.000Z",
+      "dateFormatted": "15 maja 2026"
+    },
+    {
+      "title": "Gorący tydzień na rynkach. Czy wyniki Nvidii i dane z polskiej gospodarki zaskoczą?",
+      "link": "https://www.bankier.pl/wiadomosc/Kalendarz-inwestora-Wyniki-Nvidii-PKB-Niemiec-i-maraton-raportow-z-GPW-9134032.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Inwestorzy w Polsce skupią się na bogatym pakiecie danych krajowych, w tym odczytach inflacji bazowej oraz raportach GUS o produkcji i wynagrodzeniach, co zbiegnie się z prawdziwym wysypem wyników spółek z GPW (m.in. JSW, Tauron czy Pepco). Globalny sentyment technologiczny zostanie poddany próbie p",
+      "pubDate": "Fri, 15 May 2026 16:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/c/0475a1b67244a7-948-568-239-0-2557-1534.png",
+      "dateISO": "2026-05-15T15:00:00.000Z",
       "dateFormatted": "15 maja 2026"
     },
     {
@@ -721,18 +745,6 @@
       "dateFormatted": "15 maja 2026"
     },
     {
-      "title": "Hossa na pamięć trwa. Akcje biją rekordy, a i tak stają się… coraz tańsze",
-      "link": "https://www.bankier.pl/wiadomosc/Hossa-na-pamiec-trwa-Akcje-bija-rekordy-a-i-tak-staja-sie-coraz-tansze-9133835.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Nienasycony popyt na chipy pamięci sprawia, że czołowe spółki z tej branży wymykają się rynkowej matematyce. Choć ich notowania szybują na niebotyczne poziomy, z punktu widzenia fundamentów stają się coraz tańsze. Jak zauważa agencja Bloomberg, inwestorzy wciąż nie nadążają za eksplozją zysków napęd",
-      "pubDate": "Fri, 15 May 2026 13:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/5/1/a64da002ed3e16-948-568-73-215-2307-1384.png",
-      "dateISO": "2026-05-15T12:40:00.000Z",
-      "dateFormatted": "15 maja 2026"
-    },
-    {
       "title": "Kto się zakochał w jednej spółce, a kto traci przez WIG20?",
       "link": "https://www.bankier.pl/wiadomosc/Kto-sie-zakochal-w-jednej-spolce-a-kto-traci-przez-WIG20-9133875.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Na mojej giełdowej drodze do 1 mln zł śledzę rynkowe prognozy, poszukując inwestycyjnych inspiracji do własnych analiz. Tym razem bliżej przyjrzałem się Portfelowi Gwiazd Bankier.pl, sprawdzając, jak radzą sobie majowe wskazania uznanych ekspertów i analityków. Muszę przyznać, że mocno zdywersyfikow",
@@ -741,6 +753,18 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/1/8/bf57b3f2882f12-945-560-0-108-1732-1039.jpg",
+      "dateISO": "2026-05-15T12:40:00.000Z",
+      "dateFormatted": "15 maja 2026"
+    },
+    {
+      "title": "Hossa na pamięć trwa. Akcje biją rekordy, a i tak stają się… coraz tańsze",
+      "link": "https://www.bankier.pl/wiadomosc/Hossa-na-pamiec-trwa-Akcje-bija-rekordy-a-i-tak-staja-sie-coraz-tansze-9133835.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Nienasycony popyt na chipy pamięci sprawia, że czołowe spółki z tej branży wymykają się rynkowej matematyce. Choć ich notowania szybują na niebotyczne poziomy, z punktu widzenia fundamentów stają się coraz tańsze. Jak zauważa agencja Bloomberg, inwestorzy wciąż nie nadążają za eksplozją zysków napęd",
+      "pubDate": "Fri, 15 May 2026 13:40:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/5/1/a64da002ed3e16-948-568-73-215-2307-1384.png",
       "dateISO": "2026-05-15T12:40:00.000Z",
       "dateFormatted": "15 maja 2026"
     },
@@ -769,18 +793,6 @@
       "dateFormatted": "15 maja 2026"
     },
     {
-      "title": "Zonda, polityczny chaos i polskie zaprzepaszczone szanse. Misiura: Exodus już się dzieje",
-      "link": "https://www.bankier.pl/wiadomosc/Zonda-polityczny-chaos-i-polskie-zaprzepaszczone-szanse-Misiura-Exodus-juz-sie-dzieje-9133092.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Do końca okresu przejściowego dla unijnego rozporządzenia MiCA zostało już niewiele czasu, a Polska wciąż nie ma przepisów, które pozwoliłyby firmom krypto działać w nowym porządku regulacyjnym. W tle mamy polityczny spór, legislacyjny chaos i aferę Zonda Krypto, która z hukiem przetoczyła się przez",
-      "pubDate": "Fri, 15 May 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/7/3/81c4d9bd1a7b64-948-568-243-83-982-589.png",
-      "dateISO": "2026-05-15T05:00:00.000Z",
-      "dateFormatted": "15 maja 2026"
-    },
-    {
       "title": "Odchodzi \"pierwszy drukarz Ameryki\". Szef Fedu, który przegrał z inflacją",
       "link": "https://www.bankier.pl/wiadomosc/Odchodzi-pierwszy-drukarz-Ameryki-Szef-Fedu-ktory-przegral-z-inflacja-9133128.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Prezesurę Jerome’a Powella zapamiętamy z licznych błędów w polityce monetarnej Rezerwy Federalnej i przeszło 5-letniego okresu wysokiej inflacji w Stanach Zjednoczonych",
@@ -789,6 +801,18 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/d/3/0ff2bd416f9d5f-948-568-0-112-3000-1799.jpg",
+      "dateISO": "2026-05-15T05:00:00.000Z",
+      "dateFormatted": "15 maja 2026"
+    },
+    {
+      "title": "Zonda, polityczny chaos i polskie zaprzepaszczone szanse. Misiura: Exodus już się dzieje",
+      "link": "https://www.bankier.pl/wiadomosc/Zonda-polityczny-chaos-i-polskie-zaprzepaszczone-szanse-Misiura-Exodus-juz-sie-dzieje-9133092.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Do końca okresu przejściowego dla unijnego rozporządzenia MiCA zostało już niewiele czasu, a Polska wciąż nie ma przepisów, które pozwoliłyby firmom krypto działać w nowym porządku regulacyjnym. W tle mamy polityczny spór, legislacyjny chaos i aferę Zonda Krypto, która z hukiem przetoczyła się przez",
+      "pubDate": "Fri, 15 May 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/7/3/81c4d9bd1a7b64-948-568-243-83-982-589.png",
       "dateISO": "2026-05-15T05:00:00.000Z",
       "dateFormatted": "15 maja 2026"
     },
@@ -877,18 +901,6 @@
       "dateFormatted": "10 maja 2026"
     },
     {
-      "title": "Bitcoin zbliża się do 81 tys. $: instytucje kupują, Iran czeka",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-przekracza-80-000--sygnalizujac-globalna-zmiane-w-finansach-1404879",
-      "description": "",
-      "pubDate": "2026-05-09 07:50:38",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "dateISO": "2026-05-09T07:50:38.000Z",
-      "dateFormatted": "9 maja 2026"
-    },
-    {
       "title": "Aż 4500 zł za założenie konta w trzy miesiące. Erste \"podkręca\" promocję dla firm",
       "link": "https://www.bankier.pl/wiadomosc/4500-zl-za-zalozenie-konta-w-trzy-miesiace-Erste-podkreca-promocje-dla-firm-9129240.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Erste, który od maja działa na polskim rynku pod nową marką po rebrandingu Santander Bank Polska, wystartował z nową promocją dla przedsiębiorców. Tym razem bonus jest jeszcze wyższy niż w poprzednich akcjach i może sięgnąć nawet 4500 zł za aktywność na koncie firmowym. Sprawdzamy zasady oferty i wa",
@@ -899,19 +911,7 @@
       "image": "http://galeria.bankier.pl/p/7/b/2ee8b516c68bb2-948-568-0-203-4274-2564.jpg",
       "dateISO": "2026-05-07T18:30:00.000Z",
       "dateFormatted": "7 maja 2026"
-    },
-    {
-      "title": "ING odda przedsiębiorcom nawet 4200 zł. Warunki są bardzo proste",
-      "link": "https://www.bankier.pl/wiadomosc/ING-odda-przedsiebiorcom-nawet-4200-zl-Warunki-sa-bardzo-proste-9128444.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Nowi klienci biznesowi w ING mogą odzyskać nawet 4200 zł w ciągu 12 miesięcy: do 3000 zł zwrotu za płatności kartą oraz 1200 zł za regularne przelewy do ZUS. Sprawdź, jak otworzyć Konto Direct dla Firmy, połączyć je z KSeF i spełnić proste warunki aktywności, aby co miesiąc otrzymywać bonusy na rozw",
-      "pubDate": "Thu, 7 May 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/8/72d1ca1e2da2ec-948-568-0-169-2508-1504.jpg",
-      "dateISO": "2026-05-07T05:00:00.000Z",
-      "dateFormatted": "7 maja 2026"
     }
   ],
-  "updatedAt": "2026-05-17T06:45:33.684Z"
+  "updatedAt": "2026-05-17T09:47:31.764Z"
 }
