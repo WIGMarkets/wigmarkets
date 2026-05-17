@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "title": "Powstanie rządowa strategia dla gamedevu. Brak wsparcia spowolnił rozwój branży",
+      "link": "https://www.bankier.pl/wiadomosc/Powstanie-rzadowa-strategia-dla-gamedevu-Brak-wsparcia-spowolnil-rozwoj-branzy-9132006.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Ponad 96 proc. przychodów polskiej branży gier wideo pochodzi z eksportu, a rodzime produkcje od lat budują rozpoznawalność Polski na świecie. Mimo globalnych sukcesów sektor po raz pierwszy od lat wszedł w okres...",
+      "pubDate": "Sun, 17 May 2026 18:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/d/8/c18f9e4a593631-948-568-740-0-3216-1930.jpg",
+      "dateISO": "2026-05-17T17:00:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "Nawigacja twojego samochodu niedługo stanie się znacznie lepsza",
+      "link": "https://businessinsider.com.pl/technologie/android-auto-z-nowymi-funkcjami-lepszy-asystent-glosowy-wideo-i-3d-w-nawigacji/hplh6yf",
+      "description": "Google zapowiada jedną z największych aktualizacji Android Auto od lat. Na część nowych funkcji kierowcy czekali od lat.",
+      "pubDate": "Sun, 17 May 2026 16:33:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/pf4k9kpTURBXy82MzUzNmUzMTI2MjQ0MDcyZjVlYmIwNDAwMThkYTU4Yy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-17T16:33:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
+      "title": "AI próbuje uprościć życie przedsiębiorców. Na razie tylko wybranych",
+      "link": "https://businessinsider.com.pl/technologie/sztuczna-inteligencja-w-malych-firmach-anthropic-prezentuje-claude-for-small-business/l1xyl5j",
+      "description": "Sztuczna inteligencja idzie po małe firmy, obiecując ich właścicielom mniej wieczorów z fakturami, tabelkami i powtarzalną administracją. Brzmi kusząco, ale na pełną realizację marzeń o ograniczeniu męczącej papierkowej roboty jeszcze sobie poczekamy.",
+      "pubDate": "Sun, 17 May 2026 15:33:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/nEGk9kpTURBXy81OGE2N2JlODllMGFiMmM4MjJkYjE3ZTU1MmRjZjNlMS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-17T15:33:00.000Z",
+      "dateFormatted": "17 maja 2026"
+    },
+    {
       "title": "Był odwrót od wycieczek, teraz sprzedaż ruszyła. \"Branża jest dobrze przygotowana na ewentualne szoki\"",
       "link": "https://www.bankier.pl/wiadomosc/Byl-odwrot-od-wycieczek-teraz-sprzedaz-ruszyla-Branza-jest-dobrze-przygotowana-na-ewentualne-szoki-9134559.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Prezes Polskiej Izby Turystyki Paweł Niewiadomski powiedział, że mimo turbulencji wywołanych wojną na Bliskim Wschodzie branża spodziewa się kolejnego roku ze wzrostem sprzedaży. Jak dodał, na początku, po wybuchu wojny, klienci wstrzymywali się z zakupem wycieczek, teraz sprzedaż ruszyła.",
@@ -303,7 +339,7 @@
     {
       "title": "Dzięki AI odzyskał bitcoiny warte 400 tys. dolarów. Claude AI znalazł sposób i odszyfrował portfel",
       "link": "https://businessinsider.com.pl/technologie/nowe-technologie/na-haju-zmienil-haslo-do-portfela-ai-odzyskalo-bitcoiny-warte-400-tys-dolarow/k2b1dhr",
-      "description": "Właściciel bitcoinów, który zmienił hasło do portfela będąc \"pod wpływem\", a następnie je zapomniał, w końcu odzyskał dostęp do swojego portfela — za pomocą chatu Claude AI. Użytkownik X o nicku cprkrn próbował odzyskać swój portfel od ponad 11 lat. Nie poddawał się, ponieważ portfel zawierał 5 BTC.",
+      "description": "Właściciel bitcoinów, który będąc \"pod wpływem\" zmienił hasło do portfela, a później je zapomniał, w końcu odzyskał dostęp do swoich kryptowalut — za pomocą chatu Claude AI. Użytkownik X o nicku cprkrn próbował odzyskać hasło od ponad 11 lat. Nie poddawał się, bo portfel zawierał 5 BTC — ich obecna ",
       "pubDate": "Sun, 17 May 2026 09:54:07 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -517,30 +553,6 @@
       "dateFormatted": "17 maja 2026"
     },
     {
-      "title": "Zysk z mieszkania czy z giełdy? Sprawdziliśmy, co dało większy zwrot w dekadę",
-      "link": "https://businessinsider.com.pl/nieruchomosci/inwestycja-w-mieszkanie-czy-akcje-dewelopera-zaskakujace-wyniki-dekady/2gqkxlj",
-      "description": "\"Na mieszkaniu nie da się stracić\" — to przekonanie przez lata napędzało inwestycyjny boom w Polsce, ale dane pokazują, że jeszcze więcej można było zarobić… nie kupując mieszkania, lecz akcje deweloperów.",
-      "pubDate": "Sun, 17 May 2026 06:18:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/eBKk9kpTURBXy9kMmZiOWYzMjVjYTIxZWYzNWJmYjM3MGU5ZGJlNjZlOS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-17T06:18:00.000Z",
-      "dateFormatted": "17 maja 2026"
-    },
-    {
-      "title": "Najmłodszy syn Donalda Trumpa idzie w ślady ojca. Wybrał trudną branżę",
-      "link": "https://businessinsider.com.pl/biznes/barron-trump-dyrektorem-firmy-z-palm-beach-oto-jego-nowy-projekt/q1vry4y",
-      "description": "Syn prezydenta USA idzie w ślady ojca. Barron Trump wchodzi w biznes napojów yerba mate. Oto jak wygląda jego pomysł na zarabianie.",
-      "pubDate": "Sun, 17 May 2026 05:55:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Qnqk9kpTURBXy9mMDY0MGZiNTcyODgzYjM4Y2ZhMjQ2MDAwMmMxMjIyMi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-17T05:55:00.000Z",
-      "dateFormatted": "17 maja 2026"
-    },
-    {
       "title": "Upchnęła 14 dzieci do Fiata 500. Nielegalny autobus szkolny w Palermo",
       "link": "https://www.bankier.pl/wiadomosc/Upchnela-14-dzieci-do-Fiata-500-Nielegalny-autobus-szkolny-w-Palermo-9134534.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "14 dzieci przewoziła w Palermo na Sycylii samochodem osobowym kobieta, która zamieniła swój pojazd w nielegalny szkolny autobus. Ściśniętych do granic możliwości uczniów znaleźli w samochodzie policjanci podczas kontroli drogowej. Dzieci były przewożone w ten sposób na prośbę ich rodziców.",
@@ -673,18 +685,6 @@
       "dateFormatted": "16 maja 2026"
     },
     {
-      "title": "Kraksa czy rajd po nowe rekordy? Legendy spierają się o przyszłość rynków",
-      "link": "https://www.bankier.pl/wiadomosc/Kraksa-czy-rajd-po-nowe-rekordy-Legendy-spieraja-sie-o-przyszlosc-rynkow-9134177.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Wszyscy na Wall Street patrzą na te same dane: indeksy giełdowe testują rekordowe poziomy, a wskaźniki inflacji są wyższe, niż by tego oczekiwano. Jednak giganci świata inwestycji wyciągają z tego skrajnie odmienne wnioski.",
-      "pubDate": "Sat, 16 May 2026 10:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/f/e/7265920cb6f31d-948-568-0-0-1440-863.jpg",
-      "dateISO": "2026-05-16T09:00:00.000Z",
-      "dateFormatted": "16 maja 2026"
-    },
-    {
       "title": "Inflacja wrzuca wyższy bieg, PKB hamuje, a surowce przyprawiają o ból głowy. Inwestor Wojtek analizuje wykresy tygodnia",
       "link": "https://www.bankier.pl/wiadomosc/Inflacja-wrzuca-wyzszy-bieg-PKB-hamuje-a-surowce-przyprawiaja-o-bol-glowy-Inwestor-Wojtek-analizuje-wykresy-tygodnia-9133723.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Cześć, tu Inwestor Wojtek. Kolejny piątek, kolejna kawa i kolejne wykresy, które udowadniają jedno – nuda na rynkach nam nie grozi. Jeśli myśleliście, że wiosna 2026 roku przyniesie nam upragnioną stabilizację, to rynek właśnie powiedział: „potrzymaj mi wykres”.",
@@ -733,18 +733,6 @@
       "dateFormatted": "15 maja 2026"
     },
     {
-      "title": "Kto się zakochał w jednej spółce, a kto traci przez WIG20?",
-      "link": "https://www.bankier.pl/wiadomosc/Kto-sie-zakochal-w-jednej-spolce-a-kto-traci-przez-WIG20-9133875.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Na mojej giełdowej drodze do 1 mln zł śledzę rynkowe prognozy, poszukując inwestycyjnych inspiracji do własnych analiz. Tym razem bliżej przyjrzałem się Portfelowi Gwiazd Bankier.pl, sprawdzając, jak radzą sobie majowe wskazania uznanych ekspertów i analityków. Muszę przyznać, że mocno zdywersyfikow",
-      "pubDate": "Fri, 15 May 2026 13:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/1/8/bf57b3f2882f12-945-560-0-108-1732-1039.jpg",
-      "dateISO": "2026-05-15T12:40:00.000Z",
-      "dateFormatted": "15 maja 2026"
-    },
-    {
       "title": "Hossa na pamięć trwa. Akcje biją rekordy, a i tak stają się… coraz tańsze",
       "link": "https://www.bankier.pl/wiadomosc/Hossa-na-pamiec-trwa-Akcje-bija-rekordy-a-i-tak-staja-sie-coraz-tansze-9133835.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Nienasycony popyt na chipy pamięci sprawia, że czołowe spółki z tej branży wymykają się rynkowej matematyce. Choć ich notowania szybują na niebotyczne poziomy, z punktu widzenia fundamentów stają się coraz tańsze. Jak zauważa agencja Bloomberg, inwestorzy wciąż nie nadążają za eksplozją zysków napęd",
@@ -753,6 +741,18 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/5/1/a64da002ed3e16-948-568-73-215-2307-1384.png",
+      "dateISO": "2026-05-15T12:40:00.000Z",
+      "dateFormatted": "15 maja 2026"
+    },
+    {
+      "title": "Kto się zakochał w jednej spółce, a kto traci przez WIG20?",
+      "link": "https://www.bankier.pl/wiadomosc/Kto-sie-zakochal-w-jednej-spolce-a-kto-traci-przez-WIG20-9133875.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Na mojej giełdowej drodze do 1 mln zł śledzę rynkowe prognozy, poszukując inwestycyjnych inspiracji do własnych analiz. Tym razem bliżej przyjrzałem się Portfelowi Gwiazd Bankier.pl, sprawdzając, jak radzą sobie majowe wskazania uznanych ekspertów i analityków. Muszę przyznać, że mocno zdywersyfikow",
+      "pubDate": "Fri, 15 May 2026 13:40:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/1/8/bf57b3f2882f12-945-560-0-108-1732-1039.jpg",
       "dateISO": "2026-05-15T12:40:00.000Z",
       "dateFormatted": "15 maja 2026"
     },
@@ -901,5 +901,5 @@
       "dateFormatted": "7 maja 2026"
     }
   ],
-  "updatedAt": "2026-05-17T14:57:40.985Z"
+  "updatedAt": "2026-05-17T16:58:27.116Z"
 }
