@@ -1,15 +1,39 @@
 {
   "articles": [
     {
-      "title": "Grupa Azoty szacuje w I kw. '26 EBITDA w wys. 317 mln zł",
-      "link": "https://www.bankier.pl/wiadomosc/Grupa-Azoty-szacuje-w-I-kw-26-EBITDA-w-wys-317-mln-zl-9138292.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "title": "Trzecia z rzędu wzrostowa sesja na Wall Street. Dow Jones z nowym rekordem",
+      "link": "https://www.bankier.pl/wiadomosc/Trzecia-z-rzedu-wzrostowa-sesja-na-Wall-Street-Dow-Jones-z-nowym-rekordem-9138308.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Nasdaq oraz S&P500 zakończyły na plusie trzecią sesję z rzędu, a Dow Jones wyznaczył nowy rekord wszech czasów.",
+      "pubDate": "Fri, 22 May 2026 22:08:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/a/f/3561651816a673-948-567-5-60-995-596.jpg",
+      "dateISO": "2026-05-22T21:08:00.000Z",
+      "dateFormatted": "22 maja 2026"
+    },
+    {
+      "title": "Grupa Azoty zaskoczyła rynek. Wyniki EBITDA dużo wyższe od prognoz",
+      "link": "https://www.bankier.pl/wiadomosc/Grupa-Azoty-szacuje-w-I-kw-26-EBITDA-w-wys-317-mln-zl-9138292.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Grupa Azoty szacuje, że w I kwartale 2026 roku wypracowała skonsolidowane przychody ze sprzedaży na poziomie 3.700 mln zł oraz wynik EBITDA w wysokości 317 mln zł, co przełożyło się na marżę EBITDA wynoszącą plus 8,6 proc. - podała grupa w komunikacie prasowym.",
       "pubDate": "Fri, 22 May 2026 21:18:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/4/d0339faf54a0df-948-568-0-109-2188-1312.jpg",
       "dateISO": "2026-05-22T20:18:00.000Z",
+      "dateFormatted": "22 maja 2026"
+    },
+    {
+      "title": "Ważny proces w historii Google. Gigant złożył apelację",
+      "link": "https://businessinsider.com.pl/firmy/dominacja-google-na-rynku-wyszukiwarek-jest-apelacja-w-glosnej-sprawie/pkm4b6b",
+      "description": "Google złożył oficjalną apelację od wyroku sędziego federalnego z Waszyngtonu, który uznał, że firma posiada nielegalny monopol na rynku wyszukiwarek internetowych oraz powiązanych z nimi reklam.",
+      "pubDate": "Fri, 22 May 2026 19:44:34 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/_9jk9kpTURBXy9mM2E2N2NhN2IxMTU4MzAxNmQ1M2M4OGE1OTdhYWQ2NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-22T19:44:34.000Z",
       "dateFormatted": "22 maja 2026"
     },
     {
@@ -481,18 +505,6 @@
       "dateFormatted": "22 maja 2026"
     },
     {
-      "title": "Andrzej Domański o sporze we Lwowie. „Jest wola rozwiązania problemu”",
-      "link": "https://businessinsider.com.pl/biznes/jaki-bedzie-los-projektu-we-lwowie-polsko-ukrainski-spor-o-inwestycje/n3b5exy",
-      "description": "Spór wokół inwestycji polskiej firmy Control Process we Lwowie trafił na najwyższy szczebel rozmów między Warszawą a Kijowem. Do sprawy odniósł się minister finansów Andrzej Domański podczas konferencji po posiedzeniu Polsko-Ukraińskiej Komisji Międzyrządowej do spraw współpracy gospodarczej.",
-      "pubDate": "Fri, 22 May 2026 13:22:31 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/n3Zk9kpTURBXy84N2E3YWYzOGRlYzBjNDAzMmNmMDE4NWViOGQ2NDkzZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-22T13:22:31.000Z",
-      "dateFormatted": "22 maja 2026"
-    },
-    {
       "title": "Sąd zajął nieruchomości Zbigniewa Ziobry. Hipoteka przymusowa na majątku",
       "link": "https://www.bankier.pl/wiadomosc/Sad-zajal-nieruchomosci-Zbigniewa-Ziobry-Hipoteka-przymusowa-na-majatku-9137959.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Sąd Rejonowy w Rawie Mazowieckiej zdecydował o obciążeniu tzw. hipoteką przymusową nieruchomości b. ministra sprawiedliwości, posła PiS Zbigniewa Ziobry - dowiedziała się PAP w piątek w łódzkim sądzie okręgowym.",
@@ -747,7 +759,7 @@
     {
       "title": "Łatwogang znów zbiera pieniądze. Właśnie jedzie rowerem przez Polskę dla chorego Maksa",
       "link": "https://www.bankier.pl/wiadomosc/Rusza-kolejny-stream-Latwoganga-Tworca-zbiera-srodki-na-najdrozszy-lek-swiata-dla-Maksa-9137146.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Twórca internetowy Łatwogang ruszył z kolejną zbiórką. W piątek po 16:30 wystartował stream i sam Youtuber - z Zakopanego jedzie rowerem do Gdańska. Podczas jazdy pokazywanej na żywo zbiera środki dla chorego Maksa. Na liczniku są już dwa miliony złotych.",
+      "description": "Twórca internetowy Łatwogang ruszył z kolejną zbiórką. W piątek po 16:30 wystartował stream i sam Youtuber - z Zakopanego jedzie rowerem do Gdańska. Podczas jazdy pokazywanej na żywo zbiera środki dla chorego Maksa. Na liczniku są już trzy miliony złotych.",
       "pubDate": "Thu, 21 May 2026 14:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
@@ -889,5 +901,5 @@
       "dateFormatted": "16 maja 2026"
     }
   ],
-  "updatedAt": "2026-05-22T19:47:39.949Z"
+  "updatedAt": "2026-05-22T21:11:07.544Z"
 }
