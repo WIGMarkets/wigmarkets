@@ -1,15 +1,63 @@
 {
   "articles": [
     {
-      "title": "Arlen chce wypłacić 0,55 zł dywidendy na akcję za '25",
-      "link": "https://www.bankier.pl/wiadomosc/Arlen-chce-wyplacic-0-55-zl-dywidendy-na-akcje-za-25-9138249.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Zarząd Arlenu rekomenduje walnemu zgromadzeniu wypłatę ok. 12,2 mln zł dywidendy z zysku netto za 2025 rok, co daje 0,55 zł na akcję - podała spółka w komunikacie.",
-      "pubDate": "Fri, 22 May 2026 19:42:00 +0100",
+      "title": "Grupa Azoty szacuje w I kw. '26 EBITDA w wys. 317 mln zł",
+      "link": "https://www.bankier.pl/wiadomosc/Grupa-Azoty-szacuje-w-I-kw-26-EBITDA-w-wys-317-mln-zl-9138292.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Grupa Azoty szacuje, że w I kwartale 2026 roku wypracowała skonsolidowane przychody ze sprzedaży na poziomie 3.700 mln zł oraz wynik EBITDA w wysokości 317 mln zł, co przełożyło się na marżę EBITDA wynoszącą plus 8,6 proc. - podała grupa w komunikacie prasowym.",
+      "pubDate": "Fri, 22 May 2026 21:18:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/d/1/785f181c53f0ce-thumb-1000.jpg",
-      "dateISO": "2026-05-22T18:42:00.000Z",
+      "image": "http://galeria.bankier.pl/p/7/4/d0339faf54a0df-948-568-0-109-2188-1312.jpg",
+      "dateISO": "2026-05-22T20:18:00.000Z",
+      "dateFormatted": "22 maja 2026"
+    },
+    {
+      "title": "Donald Trump nie pojedzie na ślub syna. Podał zaskakujący powód",
+      "link": "https://www.bankier.pl/wiadomosc/Donald-Trump-nie-pojedzie-na-slub-syna-Podal-zaskakujacy-powod-9138270.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump powiedział w piątek, że nie pojedzie na ślub swojego syna Donalda jr., który ma się odbyć wkrótce na Bahamach. Jako powód podał obowiązki służbowe i „miłość do Stanów Zjednoczonych Ameryki”.",
+      "pubDate": "Fri, 22 May 2026 20:33:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/a/c1c528dccfdfda-948-568-730-710-3266-1960.jpg",
+      "dateISO": "2026-05-22T19:33:00.000Z",
+      "dateFormatted": "22 maja 2026"
+    },
+    {
+      "title": "Cięcia w kolejnej polskiej firmie. Jest potentatem branży AGD",
+      "link": "https://businessinsider.com.pl/gospodarka/azja-niszczy-europejski-przemysl-agd-polska-firma-zwalnia-pracownikow/g5q0s41",
+      "description": "Działająca od ćwierć wieku firma Diehl Controls, potentat w projektowaniu i produkcji elementów sterujących do urządzeń AGD, zmuszona jest do radykalnych cięć.",
+      "pubDate": "Fri, 22 May 2026 19:18:23 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/8n0k9kpTURBXy85MzIxNGZjZjg3YjRjNDYxMTg5NTNmZjcwN2QwMjRlZi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-22T19:18:23.000Z",
+      "dateFormatted": "22 maja 2026"
+    },
+    {
+      "title": "Rubio: \"w rozmowach z Iranem coś drgnęło\", ale kluczowe kwestie pozostają nierozwiązane",
+      "link": "https://businessinsider.com.pl/gospodarka/napiecie-wokol-ormuzu-rosnie-trwaja-rozmowy-usairan/qp75tb4",
+      "description": "Waszyngton dostrzega \"pewien postęp\" w negocjacjach z Iranem, ale do przełomu wciąż daleko. Kluczowe spory — od programu nuklearnego po kontrolę nad Cieśniną Ormuz — pozostają nierozwiązane, a rynki energii reagują nerwowo.",
+      "pubDate": "Fri, 22 May 2026 18:58:14 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/f8Sk9kpTURBXy8xZDdjN2JiNWU0MjNhYWQwOTA2MjUwNTQ2ZWU3NDhjZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-22T18:58:14.000Z",
+      "dateFormatted": "22 maja 2026"
+    },
+    {
+      "title": "CBA zatrzymało osiem osób w sprawie „Szybkiej ścieżki” NCBiR",
+      "link": "https://www.bankier.pl/wiadomosc/CBA-zatrzymalo-osiem-osob-w-sprawie-Szybkiej-sciezki-NCBiR-9138258.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Funkcjonariusze Centralnego Biura Antykorupcyjnego na polecenie Prokuratury Europejskiej zatrzymali osiem osób. To efekt śledztwa dotyczącego nieprawidłowości w przyznawaniu dotacji w ramach konkursu „Szybka ścieżka – Innowacje cyfrowe” zorganizowanego przez Narodowe Centrum Badań i Rozwoju.",
+      "pubDate": "Fri, 22 May 2026 19:58:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/8/338f6b1aa7325a-948-568-10-280-3983-2390.jpg",
+      "dateISO": "2026-05-22T18:58:00.000Z",
       "dateFormatted": "22 maja 2026"
     },
     {
@@ -22,6 +70,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/9/3/2eaba3141bd7c7-945-567-19-91-1900-1140.jpg",
       "dateISO": "2026-05-22T18:24:00.000Z",
+      "dateFormatted": "22 maja 2026"
+    },
+    {
+      "title": "Statki widma na Bałtyku. Tak Rosja miesza handel z sabotażem",
+      "link": "https://businessinsider.com.pl/gospodarka/zmiana-w-rosyjskiej-flocie-cieni-tak-wspiera-wojne-hybrydowa-w-europie/yz1dq9x",
+      "description": "Ogromna rosyjska flota cieni, składająca się z tysięcy statków, była dotychczas postrzegana głównie jako narzędzie Kremla do omijania zachodnich sankcji i utrzymywania wpływów z ropy naftowej. Nowy, opublikowany w piątek raport organizacji monitorującej konflikty ACLED rzuca jednak zupełnie nowe, ni",
+      "pubDate": "Fri, 22 May 2026 18:23:59 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Qrik9kpTURBXy82MjFiOTgxYzAwNzA4NmE2NTUxY2NhZWU4NDA4MmZhZi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-22T18:23:59.000Z",
       "dateFormatted": "22 maja 2026"
     },
     {
@@ -373,18 +433,6 @@
       "dateFormatted": "22 maja 2026"
     },
     {
-      "title": "Tysiące protestujących przed ambasadą USA sprzeciwia się oskarżeniu Raula Castro",
-      "link": "https://www.bankier.pl/wiadomosc/Tysiace-protestujacych-przed-ambasada-USA-sprzeciwia-sie-oskarzeniu-Raula-Castro-9138000.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Tysiące Kubańczyków zebrało się w piątek przed ambasadą USA w Hawanie, aby zaprotestować przeciwko decyzji USA o postawieniu w stan oskarżenia byłego przywódcy Kuby Raula Castro w związku ze zestrzeleniem dwóch samolotów cywilnych 30 lat temu - podała agencja Reutera.",
-      "pubDate": "Fri, 22 May 2026 14:48:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/1/b369886d94d3bb-948-568-0-60-4000-2399.jpg",
-      "dateISO": "2026-05-22T13:48:00.000Z",
-      "dateFormatted": "22 maja 2026"
-    },
-    {
       "title": "Podwyżki? Pracownicy patrzą w portfele i myślą o odejściu",
       "link": "https://businessinsider.com.pl/praca/rozmowa-o-podwyzce-czy-nowa-praca-eksperci-radza-co-wybrac/khekqfr",
       "description": "Choć dane GUS pokazują wzrost przeciętnego wynagrodzenia o ok. 6 proc., dla wielu Polaków to abstrakcja. Z badania CBOS wynika, że aż 60 proc. nie widzi poprawy swojej sytuacji materialnej. Luka między statystyką a codziennym doświadczeniem pracowników rośnie.",
@@ -493,30 +541,6 @@
       "dateFormatted": "22 maja 2026"
     },
     {
-      "title": "Odkryli ogromne złoża w rejonie kopalni. To może być przełom. Chodzi o paliwo przyszłości",
-      "link": "https://businessinsider.com.pl/technologie/odkryli-ogromne-zloza-bialego-wodoru-wielki-sukces-w-kanadzie/bhymk5h",
-      "description": "W rejonie kopalni Kidd Creek w kanadyjskim Ontario odkryte zostały ogromne złoża białego wodoru. W przyszłości paliwo to może stać się kluczowe do zasilania światowych sieci transportowych i sieci energetycznych w obliczu kryzysu klimatycznego.",
-      "pubDate": "Fri, 22 May 2026 12:51:24 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/3mxk9kpTURBXy8wNjc4NWM2NDMwY2U2ODgxM2NiN2QwN2E0NzU5ODhkOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-22T12:51:24.000Z",
-      "dateFormatted": "22 maja 2026"
-    },
-    {
-      "title": "\"Ruble nie walczą\". Większe wpływy z ropy i tak nie pomagają Rosji",
-      "link": "https://businessinsider.com.pl/gospodarka/rosja-zyskuje-na-drozszej-ropie-kreml-i-tak-ma-spory-problem/qgwqzps",
-      "description": "Gwałtowny wzrost cen ropy spowodowany konfliktem w Iranie zwiększył dochody Rosji z eksportu ropy, jednak nie zwiększył to zdolności militarnych państwa.",
-      "pubDate": "Fri, 22 May 2026 12:50:09 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/eBbk9kpTURBXy9lZWJlYTk3ODZmOTcxOTdmMDY2YTMxZDExN2JlZjAyZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-22T12:50:09.000Z",
-      "dateFormatted": "22 maja 2026"
-    },
-    {
       "title": "Człowiek Ziobry zawieszony. Skandal w siedzibie prokuratury z TV Republika w tle",
       "link": "https://www.bankier.pl/wiadomosc/Czlowiek-Ziobry-zawieszony-Skandal-w-siedzibie-prokuratury-z-TV-Republika-w-tle-9137893.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Prokurator Generalny Waldemar Żurek zdecydował o w czynnościach służbowych na 6 miesięcy zastępcy PG ds. wojskowych, prokuratora Tomasza Janeczka. Rzeczniczka PG prok. Anna Adamiak przekazała, że ma to związek z wszczętym postępowaniem wyjaśniającym w związku z podejrzeniem, że Janeczek „uchybił god",
@@ -550,18 +574,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/0/9/4360d434d50f04-948-568-190-228-2869-1721.jpg",
       "dateISO": "2026-05-22T12:14:00.000Z",
-      "dateFormatted": "22 maja 2026"
-    },
-    {
-      "title": "Głosami CDU/CSU, SPD i AfD Bundestag przyjmuje obniżkę podatku lotniczego",
-      "link": "https://businessinsider.com.pl/gospodarka/niemcy-zmieniaja-podatek-lotniczy-oto-co-to-oznacza-dla-pasazerow/6224w9v",
-      "description": "Bundestag podjął decyzję o obniżeniu podatku od transportu lotniczego. Od lipca ma on wrócić do wcześniejszego poziomu. Nie jest jednak jasne, czy obniżka faktycznie przełoży się na tańsze bilety.",
-      "pubDate": "Fri, 22 May 2026 12:10:42 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/pcmk9kpTURBXy84YzIyOTEwZjMwOTVhZTYwZjRlMTFlNTYwMjFhMjY4MC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-22T12:10:42.000Z",
       "dateFormatted": "22 maja 2026"
     },
     {
@@ -733,9 +745,9 @@
       "dateFormatted": "21 maja 2026"
     },
     {
-      "title": "Ruszył kolejny stream Łatwoganga. Twórca jedzie rowerem przez Polskę i zbiera środki na najdroższy lek świata dla Maksa",
+      "title": "Łatwogang znów zbiera pieniądze. Właśnie jedzie rowerem przez Polskę dla chorego Maksa",
       "link": "https://www.bankier.pl/wiadomosc/Rusza-kolejny-stream-Latwoganga-Tworca-zbiera-srodki-na-najdrozszy-lek-swiata-dla-Maksa-9137146.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Twórca internetowy Łatwogang ruszył z kolejną zbiórką. Tuż po 16:30 wystartował stream i sam Youtuber - z Zakopanego jedzie rowerem do Gdańska. Podczas jazdy pokazywanej na żywo zbiera środki dla chorego Maksa. Na liczniku jest już pierwszy milion.",
+      "description": "Twórca internetowy Łatwogang ruszył z kolejną zbiórką. W piątek po 16:30 wystartował stream i sam Youtuber - z Zakopanego jedzie rowerem do Gdańska. Podczas jazdy pokazywanej na żywo zbiera środki dla chorego Maksa. Na liczniku są już dwa miliony złotych.",
       "pubDate": "Thu, 21 May 2026 14:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
@@ -877,5 +889,5 @@
       "dateFormatted": "16 maja 2026"
     }
   ],
-  "updatedAt": "2026-05-22T17:52:31.143Z"
+  "updatedAt": "2026-05-22T19:47:39.949Z"
 }
