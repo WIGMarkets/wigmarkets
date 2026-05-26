@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Rekordy na Wall Street. Micron Technology wart ponad bilion dolarów",
+      "link": "https://www.bankier.pl/wiadomosc/Rekordy-na-Wall-Street-Micron-Technology-wart-ponad-bilion-dolarow-9139988.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "S&P 500 i Nasdaq Composite wzrosły we wtorek do nowych, historycznych maksimów, głównie dzięki sektorowi technologicznemu, w tym zwłaszcza dzięki mocnej zwyżce notowań Micron Technology. Inwestorzy oceniają perspektywy potencjalnej umowy między USA a Iranem, która ma zakończyć wojnę.",
+      "pubDate": "Tue, 26 May 2026 23:40:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/c/ca18413f50f771-945-560-22-20-977-586.jpg",
+      "dateISO": "2026-05-26T22:40:00.000Z",
+      "dateFormatted": "26 maja 2026"
+    },
+    {
       "title": "Nowa oś napięć między Pentagonem a Elonem Muskiem. Poszło o Starlinka",
       "link": "https://businessinsider.com.pl/gospodarka/elon-musk-kontra-pentagon-nowa-os-napiec-w-tle-wojna-usa-z-iranem/fj55nde",
       "description": "SpaceX podniosła ceny swoich usług dla amerykańskiego wojska, co niemal podwoiło koszt pojedynczego drona LUCAS, używanego m.in. w czasie ataków na Iran. Pentagon, mimo początkowych zastrzeżeń, zaakceptował nowe warunki finansowe.",
@@ -661,18 +673,6 @@
       "dateFormatted": "26 maja 2026"
     },
     {
-      "title": "Szukają korzeni i uciekają do Europy. Bogaci Amerykanie zabezpieczają przyszłość obywatelstwami",
-      "link": "https://www.bankier.pl/wiadomosc/Szukaja-korzeni-i-uciekaja-do-Europy-Bogaci-Amerykanie-zabezpieczaja-przyszlosc-obywatelstwami-9139364.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Współczesny rynek migracji przechodzi bezprecedensową transformację – Stany Zjednoczone oficjalnie wyprzedziły Chiny i stały się globalnym liderem pod względem liczby zamożnych obywateli poszukujących alternatywnego paszportu lub prawa stałego pobytu.",
-      "pubDate": "Tue, 26 May 2026 10:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/a/29267264f936b2-948-568-20-0-3970-2381.jpg",
-      "dateISO": "2026-05-26T09:10:00.000Z",
-      "dateFormatted": "26 maja 2026"
-    },
-    {
       "title": "Bitcoin spada poniżej 77 tys. $ przez napięcia z Iranem i odpływy z ETF",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-ponizej-77-tys--przez-napiecia-z-iranem-i-odplywy-z-etf-1428297",
       "description": "",
@@ -841,5 +841,5 @@
       "dateFormatted": "18 maja 2026"
     }
   ],
-  "updatedAt": "2026-05-26T21:49:24.235Z"
+  "updatedAt": "2026-05-26T23:10:56.634Z"
 }
