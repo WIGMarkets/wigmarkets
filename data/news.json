@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "WZ Enei zdecydowało o wypłacie 0,56 zł dywidendy na akcję z zysku za 2025 rok",
+      "link": "https://www.bankier.pl/wiadomosc/WZ-Enei-zdecydowalo-o-wyplacie-0-56-zl-dywidendy-na-akcje-z-zysku-za-2025-rok-9141758.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Walne zgromadzenie Enei zdecydowało o przeznaczeniu części zysku netto za 2025 rok w kwocie 296,6 mln zł na wypłatę dywidendy, co daje 0,56 zł dywidendy na jedną akcję - podała spółka w komunikacie.",
+      "pubDate": "Fri, 29 May 2026 00:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/e/8/bec068af7bec25-thumb-1000.jpg",
+      "dateISO": "2026-05-28T23:36:00.000Z",
+      "dateFormatted": "28 maja 2026"
+    },
+    {
       "title": "Jest porozumienie z Iranem? S&P500 i Nasdaq z nowymi rekordami",
       "link": "https://www.bankier.pl/wiadomosc/Jest-porozumienie-z-Iranem-S-P500-i-Nasdaq-z-nowymi-rekordami-9141725.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Czwartkowa sesja przyniosła kontynuację wzrostów na Wall Street i wywindowała giełdowe indeksy na nowe szczyty hossy.",
@@ -22,18 +34,6 @@
       "category": "gielda",
       "image": "https://galeria.bankier.pl/p/6/9/663ed7264204bb-thumb-1000.jpg",
       "dateISO": "2026-05-28T21:00:00.000Z",
-      "dateFormatted": "28 maja 2026"
-    },
-    {
-      "title": "Większościowy akcjonariusz Echo Investment chce wypłaty jeszcze 0,4 zł dywidendy na akcję",
-      "link": "https://www.bankier.pl/wiadomosc/Wiekszosciowy-akcjonariusz-Echo-Investment-chce-wyplaty-jeszcze-0-4-zl-dywidendy-na-akcje-9141702.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Większościowy akcjonariusz Echo Investment, Lisala sp. z o.o., proponuje, by spółka wypłaciła jeszcze 0,4 zł dywidendy na akcję - poinformowała spółka w projektach uchwał na ZWZ.",
-      "pubDate": "Thu, 28 May 2026 21:26:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/5/f/f97f4a11579dd1-thumb-1000.jpg",
-      "dateISO": "2026-05-28T20:26:00.000Z",
       "dateFormatted": "28 maja 2026"
     },
     {
@@ -865,5 +865,5 @@
       "dateFormatted": "22 maja 2026"
     }
   ],
-  "updatedAt": "2026-05-28T21:54:57.529Z"
+  "updatedAt": "2026-05-28T23:18:00.290Z"
 }
