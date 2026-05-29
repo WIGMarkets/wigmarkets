@@ -1,15 +1,411 @@
 {
   "articles": [
     {
-      "title": "Wojciech Haase złożył rezygnację z pełnienia funkcji członka zarządu Banku Millennium ds. ryzyka",
-      "link": "https://www.bankier.pl/wiadomosc/Wojciech-Haase-zlozyl-rezygnacje-z-pelnienia-funkcji-czlonka-zarzadu-Banku-Millennium-ds-ryzyka-9142208.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Wojciech Haase złożył ze skutkiem na dzień 1 czerwca 2026 r. rezygnację z pełnienia funkcji członka zarządu nadzorującego zarządzanie ryzykiem istotnym w działalności banku - podał bank w komunikacie.",
-      "pubDate": "Fri, 29 May 2026 13:32:00 +0100",
+      "title": "5 mld zł z podatku od koncernów paliwowych. To 75 proc. nadmiarowych zysków",
+      "link": "https://www.bankier.pl/wiadomosc/Szacowana-wysokosc-windfall-tax-od-firm-paliwowych-w-26-wynosi-lacznie-5-mld-zl-projekt-9142455.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wysokość podatku od nadzwyczajnych zysków od firm paliwowych za okres od marca do grudnia 2026 r. szacowana jest łącznie na 5 mld zł - podano w ocenie skutków regulacji projektu ustawy o podatku od nadzwyczajnych zysków z tytułu wytwarzania niektórych paliw ciekłych i ich obrotu osiągniętych w 2026 ",
+      "pubDate": "Fri, 29 May 2026 16:54:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/4/d04759ea971b70-948-568-0-40-995-597.jpg",
+      "dateISO": "2026-05-29T15:54:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Pierwszy przypadek wyzdrowienia podczas obecnej epidemii eboli w DRK i Ugandzie",
+      "link": "https://www.bankier.pl/wiadomosc/Pierwszy-przypadek-wyzdrowienia-podczas-obecnej-epidemii-eboli-w-DRK-i-Ugandzie-9142425.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Światowa Organizacja Zdrowia (WHO) oficjalnie potwierdziła w piątek pierwszy przypadek wyzdrowienia pacjenta zakażonego szczepem wirusa ebola, który spowodował obecną epidemię w Demokratycznej Republice Konga i w Ugandzie. WHO spodziewa się kolejnych ozdrowieńców.",
+      "pubDate": "Fri, 29 May 2026 16:26:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "https://galeria.bankier.pl/p/e/1/c6748f00498123-786-466-552-105-1368-820.jpg",
+      "dateISO": "2026-05-29T15:26:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Deszcz pieniędzy nad Budapesztem. KE odblokowała 16 miliardów euro dla Węgier. „Historyczny przełom”",
+      "link": "https://www.bankier.pl/wiadomosc/Deszcz-pieniedzy-nad-Budapesztem-KE-odblokowala-16-miliardow-euro-dla-Wegier-Historyczny-przelom-9142409.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Komisja Europejska jest gotowa odblokować zamrożone 10 mld euro dla Węgier z funduszu odbudowy oraz łącznie 6,2 mld euro funduszy spójności – poinformowała w piątek szefowa KE Ursula von der Leyen po spotkaniu w Brukseli z nowym premierem Węgier Peterem Magyarem.",
+      "pubDate": "Fri, 29 May 2026 16:13:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/a/ebe2375dacb96c-948-568-20-10-3980-2387.jpg",
+      "dateISO": "2026-05-29T15:13:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Bąkiewicz skazany na prace społeczne w procesie wytoczonym mu przez aktywistkę",
+      "link": "https://www.bankier.pl/wiadomosc/Bakiewicz-skazany-na-prace-spoleczne-w-procesie-wytoczonym-mu-przez-aktywistke-9142395.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Na dziesięć miesięcy ograniczenia wolności polegającego na nieodpłatnych pracach na cele społeczne skazał w piątek Roberta Bąkiewicza Sąd Rejonowy dla Warszawy-Śródmieścia. Sąd uznał go winnym spowodowania lekkiego uszczerbku na zdrowiu aktywistki Andżeliki Domańskiej.",
+      "pubDate": "Fri, 29 May 2026 16:03:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/c/23fd0b6667c519-948-568-0-0-1500-899.jpg",
+      "dateISO": "2026-05-29T15:03:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Rząd Gruzji organizuje aukcję cennej kolekcji. Była własnością Józefa Stalina",
+      "link": "https://businessinsider.com.pl/finanse/handel/gruzja-wystawi-na-aukcji-40-tys-butelek-wina-to-historyczny-moment/hpsvhvc",
+      "description": "Gruzja zamierza zorganizować nietypową aukcję. Na sprzedaż zostanie wystawiona kolekcja Józefa Stalina. To 40 tys. butelek rzadkich francuskich i gruzińskich win. Niektóre z nich mają prawie 200 lat. Wiadomo już, na co zostaną przeznaczone pieniądze z ich sprzedaży.",
+      "pubDate": "Fri, 29 May 2026 14:52:14 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/2PEk9kpTURBXy82YTVjMDRmZDc5MTMxYTJlYjgzNDZkOTYxYWY2MzhkZi5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T14:52:14.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Cena ropy zbliżyła się do ważnego poziomu. Spadek w maju już o 20 proc.",
+      "link": "https://businessinsider.com.pl/gielda/ceny-ropy-brent-wyraznie-spadaja-kierowcy-w-polsce-moga-sie-cieszyc/w6x4ssz",
+      "description": "Światowe ceny ropy Brent spadły o około 20 proc. od szczytu w tym roku. To wyraz optymizmu rynków co do perspektyw trwałego zawieszenia broni między USA a Iranem. Kierowcy w Polsce w najbliższych dniach powinni być zadowoleni.",
+      "pubDate": "Fri, 29 May 2026 14:44:32 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/th5k9kpTURBXy9kNDk4NzZmZmQyYTFmYmRiNzZlMzBkNDg2ZGE3YTFmOC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T14:44:32.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Tysiące rezerwacji w Hotelu Gołębiewski. Jest tylko jeden poważny problem",
+      "link": "https://www.bankier.pl/wiadomosc/Odwolaja-rezerwacje-w-Hotelu-Golebiewski-w-Pobierowie-To-mozliwe-9142375.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Największy hotel nad polskim morzem zbliża się do otwarcia zapowiedzianego na 26 czerwca 2026 r. Choć przyjęto już tysiące rezerwacji, okazuje się, że goście, którzy planowali tu wypoczynek, mogą być zmuszeni do zmiany planów. Okazuje się, że obiekt wciąż nie posiada pozwolenia na użytkowanie – poda",
+      "pubDate": "Fri, 29 May 2026 15:43:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/7/9fcb113ce84809-948-568-0-71-1900-1139.jpg",
+      "dateISO": "2026-05-29T14:43:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Ustawa o artystach obudziła populistów. Rząd chciał dobrze, wyszło jak często [OPINIA]",
+      "link": "https://businessinsider.com.pl/poradnik-finansowy/ubezpieczenia/rzadowa-ustawa-o-emeryturach-dla-artystow-dlaczego-wywoluje-sprzeciw/wmyl9k1",
+      "description": "Artyści z gminnych domów kultury i aktorzy z miast powiatowych nie są darmozjadami, a kultura nie podlega zasadom wolnego rynku. Brednie populistów, którzy wyczuli krew, nie zmienią jednak faktu, że pomysł rządu na emerytury dla artystów rzeczywiście przynosi więcej szkód niż pożytku.",
+      "pubDate": "Fri, 29 May 2026 14:31:19 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/j4Ak9kpTURBXy8zZjc4N2U3MjcwN2I1ZWM3MjgxNjA4NmM3Mjg2NjkzMi5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T14:31:19.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Tyle pieniędzy trafiło do Polski z Unii Europejskiej od początku 2026 r.",
+      "link": "https://www.bankier.pl/wiadomosc/Tyle-pieniedzy-trafilo-do-Polski-z-Unii-Europejskiej-od-poczatku-2026-r-9142353.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ponad 10,3 mld euro napłynęło z Unii Europejskiej do Polski od początku bieżącego roku - wynika z opublikowanych w piątek danych Ministerstwa Finansów. W kwietniu do naszego kraju trafił ponad 1 mld euro.",
+      "pubDate": "Fri, 29 May 2026 15:25:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/a/181261589c88d1-948-568-0-99-3990-2393.jpg",
+      "dateISO": "2026-05-29T14:25:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Berkowicz ze swastyką w Sejmie. Prokuratura odmówiła wszczęcia dochodzenia",
+      "link": "https://www.bankier.pl/wiadomosc/Berkowicz-ze-swastyka-w-Sejmie-Prokuratura-odmowila-wszczecia-dochodzenia-9142348.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prokuratura Okręgowa w Warszawie odmówiła wszczęcia dochodzenia ws. użycia przez posła Konfederacji Konrada Berkowicza zmodyfikowanej flagi Izraela i wypowiedzianych wtedy przez niego słów. Prokurator uznał, że ochrona praworządności ani interes społeczny nie wymagały ścigania tego czynu z oskarżeni",
+      "pubDate": "Fri, 29 May 2026 15:22:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/a/3a4002370e4d36-948-567-0-251-950-569.jpg",
+      "dateISO": "2026-05-29T14:22:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Rekordowa poduszka finansowa rządu. Wiceminister ujawnia: 200 mld zł na kontach",
+      "link": "https://www.bankier.pl/wiadomosc/Rekordowa-poduszka-finansowa-rzadu-Wiceminister-ujawnia-200-mld-zl-na-kontach-9142346.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Resort finansów szacuje, że stan środków na rachunkach budżetowych na koniec maja przekroczy 200 mld zł - poinformował wiceminister finansów Jurand Drop. Jak dodał, w czerwcu planowane są dwa przetargi sprzedaży i jeden zamiany obligacji.",
+      "pubDate": "Fri, 29 May 2026 15:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/f/b0d632be613530-948-568-0-159-3360-2015.jpg",
+      "dateISO": "2026-05-29T14:20:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "PKP Intercity rzuca wyzwanie korkom. 560 pociągów dziennie i nowe trasy",
+      "link": "https://www.bankier.pl/wiadomosc/PKP-Intercity-rzuca-wyzwanie-korkom-560-pociagow-dziennie-i-nowe-trasy-9142342.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W wakacyjnym rozkładzie jazdy, wchodzącym w życie 14 czerwca, PKP Intercity będzie uruchamiać codziennie 560 pociągów - przekazał w piątek minister infrastruktury Dariusz Klimczak. Podkreślił, że to o 46 składów więcej niż w poprzednie lato.",
+      "pubDate": "Fri, 29 May 2026 15:18:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/f/beb8afcda3b28b-948-569-274-69-1581-949.jpg",
+      "dateISO": "2026-05-29T14:18:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Luka w kluczowym podatku najniższa od lat. Kiedyś fiskusowi wyciekała ponad jedna czwarta",
+      "link": "https://businessinsider.com.pl/finanse/rekordowa-poprawa-w-sciagalnosci-vat-co-to-oznacza-dla-gospodarki/9tyjgnk",
+      "description": "To dzięki likwidacji luki VAT rządy Prawa i Sprawiedliwości deklarowały, że mogły wprowadzić program 500 plus. Najnowsze dane sugerują, że została już niemal całkowicie zatkana.",
+      "pubDate": "Fri, 29 May 2026 13:59:39 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/7A0k9kpTURBXy9kMDRjYzZlOWVkNWYxMWJjYWY5NmYyZmE1YzdjZWI1Ny5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T13:59:39.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Ogromna kwota trafiła w tym roku do Polski z UE. Ministerstwo Finansów podało najnowsze dane",
+      "link": "https://businessinsider.com.pl/gospodarka/ogromna-kwota-trafila-do-polski-z-ue-sa-nowe-informacje/1jcwynr",
+      "description": "W kwietniu do Polski trafił ponad 1 mld euro z Unii Europejskiej, a od początku roku już łącznie 10,3 mld. Ministerstwo finansów podało również, jak wygląda saldo rozliczeń z UE od początku naszego członkostwa we Wspólnocie.",
+      "pubDate": "Fri, 29 May 2026 13:54:48 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/X4Pk9kpTURBXy8yN2Q3MDc5ZTY2MTA3MTA1MTU2NDYwMDA0MmQwOTNhMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T13:54:48.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Koniec tak tanich zakupów dla Polaków. Od lipca wchodzą nowe regulacje",
+      "link": "https://businessinsider.com.pl/finanse/handel/koniec-tanich-paczek-z-chin-dla-polakow-od-lipca-wchodza-nowe-regulacje/rqn98ct",
+      "description": "Od 1 lipca wchodzą w życie nowe przepisy dotyczące towarów kupowanych online w krajach spoza Unii Europejskiej. Paczki przychodzące spoza UE będą objęte tymczasowym cłem. To może oznaczać duże zmiany dla Polaków zaopatrujących się na popularnych chińskich platformach handlowych jak Temu czy Shein.",
+      "pubDate": "Fri, 29 May 2026 13:44:08 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/3GQk9kpTURBXy85ZWZkMGE4MGY0NGViMDFlYmQ4YzQ5ZjEyNzUxOGVmZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T13:44:08.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Pracownik PGZ został zatrzymany pod zarzutem szpiegostwa",
+      "link": "https://www.bankier.pl/wiadomosc/Pracownik-PGZ-zostal-zatrzymany-pod-zarzutem-szpiegostwa-9142307.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Pracownik jednego z zakładów Grupy PGZ został zatrzymany 27 maja pod zarzutem szpiegostwa na rzecz obcego państwa, a w piątek Sąd Okręgowy w Poznaniu postanowił o aresztowaniu go na trzy miesiące - poinformował wicepremier, szef MON Władysław Kosiniak-Kamysz.",
+      "pubDate": "Fri, 29 May 2026 14:44:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/0/784ca4ff757621-948-568-22-82-2977-1786.jpg",
+      "dateISO": "2026-05-29T13:44:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Sukces skarbówki. Luka VAT rekordowo niska, ale w budżecie brakuje miliardów",
+      "link": "https://www.bankier.pl/wiadomosc/Sukces-skarbowki-Luka-VAT-rekordowo-niska-ale-w-budzecie-brakuje-miliardow-9142306.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W ubiegłym roku nastąpił spadek luki VAT w stosunku do 2024 r.; wyniosła 4,9 proc. wobec 7,8 proc. - szacuje MF w sprawozdaniu z wykonania budżetu państwa za 2025 r. Resort finansów ocenia, że utrzymanie obecnych stawek akcyzy obniży wpływy z tej daniny w relacji do PKB.",
+      "pubDate": "Fri, 29 May 2026 14:43:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/4/350c3bf5442b17-948-568-0-37-2500-1499.jpg",
+      "dateISO": "2026-05-29T13:43:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Kolejne kontrakty w ramach SAFE. Te firmy podpisały umowy",
+      "link": "https://www.bankier.pl/wiadomosc/Kolejne-umowy-w-ramach-SAFE-podpisane-Te-firmy-podpisaly-umowy-9142292.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W piątek Agencja Uzbrojenia zawarła kolejne umowy w ramach unijnego mechanizmu SAFE – dotyczą dostawy terminali łączności satelitarnej oraz transporterów rozpoznawczych Kleszcz i opiewają na prawie 3 mld zł. Podpisano też kontrakty spoza unijnego programu, m.in. na samochody o dużej i średniej ładow",
+      "pubDate": "Fri, 29 May 2026 14:33:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/3/63d3f38fd915b3-948-567-30-30-970-581.jpg",
+      "dateISO": "2026-05-29T13:33:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Koniec tanich paczek spoza UE. Od 1 lipca nowa opłata za każdą przesyłkę",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-tanich-paczek-spoza-UE-Od-1-lipca-nowa-oplata-za-kazda-przesylke-9142266.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Od 1 lipca towary kupowane na odległość w krajach spoza UE i przywożone w przesyłkach będą objęte tymczasowym cłem w wysokości 3 euro. Do tej pory przesyłki takie były zwolnione z cła na mocy unijnych przepisów.",
+      "pubDate": "Fri, 29 May 2026 14:13:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/8/9ce8dd5b46a6c1-948-567-5-70-995-596.jpg",
+      "dateISO": "2026-05-29T13:13:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Pakiet CPN nie na całe wakacje. Resort energii przekazał nowe informacje",
+      "link": "https://businessinsider.com.pl/finanse/do-kiedy-pakiet-cpn-ceny-paliw-nizej-nie-bedzie-decyzji-o-przedluzeniu-na-cale/0qqymnb",
+      "description": "Nie będzie decyzji o przedłużeniu pakietu CPN na całe wakacje — poinformował resort energii.",
+      "pubDate": "Fri, 29 May 2026 13:11:30 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Yr5k9kpTURBXy8zMWUyNDFiMWIxNmQ1ZWMwZmY2ZDg1OWYwZWZjYWMwMS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T13:11:30.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Gołębiewski w Pobierowie szykuje otwarcie. Kontrole wciąż trwają, decyzji brak",
+      "link": "https://businessinsider.com.pl/biznes/hotel-golebiewski-w-pobierowie-szykuje-otwarcie-kontrole-wciaz-trwaja/t7smqeq",
+      "description": "Największy hotel w Polsce, Gołębiewski w Pobierowie, ogłosił wielkie otwarcie na 26 czerwca. Od połowy maja przyjmuje rezerwacje, mimo że wciąż nie posiada pozwolenia na użytkowanie. W obiekcie trwają kontrole nadzoru budowlanego, a ich zakończenie jest kluczowe dla realizacji planów inwestora.",
+      "pubDate": "Fri, 29 May 2026 13:06:51 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Uerk9kpTURBXy85NjcxZjAzMjY0NjQxMjg0MmFlNjljYjY1MjBjNDY3ZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T13:06:51.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Rachunki za prąd będą prostsze. Sejm uchwalił ustawę dot. deregulacji w energetyce",
+      "link": "https://www.bankier.pl/wiadomosc/Rachunki-za-prad-beda-prostsze-Sejm-uchwalil-ustawe-dot-deregulacji-w-energetyce-9142255.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sejm w piątek uchwalił ustawę deregulującą niektóre przepisy dotyczące energetyki; przewidziano m.in. uproszczenie rachunków za energię dla gospodarstw domowych, czy liberalizację niektórych zasad obowiązujących w ciepłownictwie.",
+      "pubDate": "Fri, 29 May 2026 14:05:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/0/aabc5246c186ca-948-568-3-60-1191-714.jpg",
+      "dateISO": "2026-05-29T13:05:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Polska inflacja na tle Europy. Oto w kogo ceny uderzyły najbardziej [MAPA]",
+      "link": "https://businessinsider.com.pl/gospodarka/dane-o-inflacji-w-europie-zaskakuja-polska-i-niemcy-na-czele-zmian-mapa/z9phkp4",
+      "description": "Ekonomistów poważnie zaskoczyły nie tylko polskie odczyty wskaźnika inflacji. Podobne zdumienie jest w Niemczech. Są jednak też kraje, w których wzrost cen przyśpieszył.",
+      "pubDate": "Fri, 29 May 2026 13:03:49 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/sIgk9kpTURBXy9jMGJmOWMwZmZjOWU5NmJkNzE0YzViZDc5YTAzNDYwYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T13:03:49.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Emerytury w Polsce wciąż wyglądają blado na tle Europy. Mamy porównanie",
+      "link": "https://businessinsider.com.pl/finanse/srednia-emerytura-to-4509-zl-w-austrii-jest-prawie-trzykrotnie-wyzsza/mmps0tx",
+      "description": "Z najnowszych danych ZUS wynika, że przeciętna emerytura w marcu 2026 r. wynosiła 4 509,64 zł brutto. Kwota minimalnego świadczenia wyniosła z kolei 1 978,49 zł brutto.",
+      "pubDate": "Fri, 29 May 2026 13:00:46 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/hQfk9kpTURBXy9iNDY5ZDZkMWNkOWRmMGNlNDEyYjAwMDVmOTNhZDlmNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T13:00:46.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Niemiecka inflacja wycięła numer. Ceny zupełnie nieoczekiwanie spadły",
+      "link": "https://www.bankier.pl/wiadomosc/Inflacja-w-Niemczech-w-maju-2026-nieoczekiwanie-spadla-9142225.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Niemiecki indeks cen dóbr konsumpcyjnych (CPI) w maju zanotował nieoczekiwany spadek. W rezultacie roczna inflacja konsumencka w największej gospodarce Europy okazała się niższa niż w kwietniu.",
+      "pubDate": "Fri, 29 May 2026 14:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/1/0/32ef436f61248c-thumb-1000.jpg",
-      "dateISO": "2026-05-29T12:32:00.000Z",
+      "image": "http://galeria.bankier.pl/p/0/8/a0be4af7fdcc99-948-568-0-19-1919-1151.jpg",
+      "dateISO": "2026-05-29T13:00:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Zełenski alarmuje: Rosjanie przygotowują nowy zmasowany atak na Ukrainę",
+      "link": "https://www.bankier.pl/wiadomosc/Zelenski-alarmuje-Rosjanie-przygotowuja-nowy-zmasowany-atak-na-Ukraine-9142238.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Dane wywiadu wskazują na to, że Rosjanie przygotowują nowy zmasowany atak na ukraińskie miasta i społeczności - poinformował w piątek prezydent Ukrainy Wołodymyr Zełenski podczas rozmowy telefonicznej z kanclerzem Austrii Christianem Stockerem.",
+      "pubDate": "Fri, 29 May 2026 13:56:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/f/0d0a084b52228b-948-568-10-300-4274-2564.jpg",
+      "dateISO": "2026-05-29T12:56:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Polacy odkryli podatkowy trik z mieszkaniami w Chorwacji? Oto co mówią przepisy",
+      "link": "https://businessinsider.com.pl/prawo/podatki/czy-zakup-mieszkania-w-chorwacji-zwalnia-z-podatku-pit/vqv06yl",
+      "description": "Coraz więcej Polaków decyduje się na zakup nieruchomości za granicą, zwłaszcza w ciepłych krajach. Powstaje pytanie, czy wydatek na mieszkanie w Chorwacji można uznać za poniesiony na własne cele mieszkaniowe. Organy podatkowe mają w tej sprawie jednoznaczne stanowisko.",
+      "pubDate": "Fri, 29 May 2026 12:52:56 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/oOOk9kpTURBXy9kZjcyZTRlMGNjMmMyOWE3ZDFlNDZmYTg3MzdmZWExMC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T12:52:56.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Jest decyzja rządu w sprawie pakietu paliwowego. \"Rozwiązania mają charakter czasowy\"",
+      "link": "https://businessinsider.com.pl/gospodarka/pakiet-cpn-zostaje-w-polsce-na-dluzej-ministerstwo-finansow-podalo-termin/wpd9qbw",
+      "description": "Ministerstwo Finansów poinformowało w piątek o dalszych losach pakietu paliwowego CPN (Ceny Paliw Niżej). Wprowadzone w marcu regulacje dotyczące podatku VAT i akcyzy na paliwa zostały przedłużone do 15 czerwca.",
+      "pubDate": "Fri, 29 May 2026 12:51:26 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/vb7k9kpTURBXy8yZjgwNjEyNmRlNGIzYTc4MTZhYjY4YTBmMzViMmM2MS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T12:51:26.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Fiskus coraz skuteczniej tropi ukryte pieniądze. Podatnicy wpadają przez jeden błąd",
+      "link": "https://businessinsider.com.pl/finanse/nieujawnione-dochody-a-kontrola-skarbowa-jakie-tlumaczenia-nie-dzialaja/qr5grf4",
+      "description": "Uniknięcie 75-proc. PIT od nieujawnionych dochodów to marzenie niektórych podatników. Często próbują się ratować, powołując się na pożyczki lub darowizny od najbliższych. Najnowsze wyroki Naczelnego Sądu Administracyjnego pokazują jednak, że takie tłumaczenia nie zawsze działają.",
+      "pubDate": "Fri, 29 May 2026 12:50:08 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Cu5k9kpTURBXy8xMWMyNzVkOTVkZmFkNjllODEzNjI5Y2ZiNzFlNmNmMC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T12:50:08.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Ryanair idzie na całość w Warszawie. 12 nowych tras i dwa razy więcej pasażerów",
+      "link": "https://www.bankier.pl/wiadomosc/Ryanair-idzie-na-calosc-w-Warszawie-12-nowych-tras-i-dwa-razy-wiecej-pasazerow-9142223.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W zimowym rozkładzie lotów Ryanair będzie 12 nowych z dwóch warszawskich lotnisk; m.in. do Bolonii, Manchesteru i Neapolu - przekazała linia lotnicza. Dodała, że zamierza zbazować dwa nowe samoloty na lotnisku w Modlinie, tym samym zwiększając liczbę stacjonujących tam maszyn do ośmiu.",
+      "pubDate": "Fri, 29 May 2026 13:46:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/4/63b56aaa0c2fe8-948-568-170-0-2779-1667.jpg",
+      "dateISO": "2026-05-29T12:46:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Alkohol jest zbyt tani? Ministerstwo Finansów mówi „dość”. Podwyżka akcyzy skierowana do komisji finansów",
+      "link": "https://www.bankier.pl/wiadomosc/Alkohol-jest-zbyt-tani-Ministerstwo-Finansow-mowi-dosc-Podwyzka-akcyzy-skierowana-do-komisji-finansow-9142181.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Podwyżka akcyzy na wszystkie napoje alkoholowe: o 15 proc. w 2026 roku (w stosunku do stawek z 2025 r.) oraz o kolejne 10 proc. w 2027 roku (rok do roku) - to najważniejsze założenia projektu, który Sejm skierował w piątek do komisji finansów. Dodatkowe pieniądze mają trafić do NFZ.",
+      "pubDate": "Fri, 29 May 2026 13:42:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/b/f62d58c59988ab-948-568-533-315-2966-1779.jpg",
+      "dateISO": "2026-05-29T12:42:00.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Od 1 czerwca ważne zmiany w KRUS. Chodzi o świadczenia i limity",
+      "link": "https://businessinsider.com.pl/praca/emerytury/krus-od-1-czerwca-2026-jakie-zmienia-sie-stawki-i-limity/e876462",
+      "description": "Od 1 czerwca 2026 r. wchodzą w życie nowe limity przychodów, które mogą wpłynąć na wysokość świadczeń z KRUS. Zmiany oparte są na danych GUS dotyczących przeciętnego wynagrodzenia i obejmą głównie osoby pobierające renty.",
+      "pubDate": "Fri, 29 May 2026 12:37:02 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/v3Fk9kpTURBXy83NTBiYjBiMjBlOTljNjBmMmMyMTQ1NGIzYTEzMzg2ZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T12:37:02.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "MediaTek stawia na TSMC i Intela. Klienci zyskują pełną swobodę wyboru chipów",
+      "link": "https://businessinsider.com.pl/technologie/uklady-ai-i-centra-danych-mediatek-idzie-na-rekordy-dzieki-tsmc-i-intel/c1edstg",
+      "description": "Tajwański producent układów scalonych MediaTek ogłosił, że wspiera zarówno zaawansowaną technologię pakowania TSMC CoWoS, jak i konkurencyjną technologię Intela EMIB. Firma podkreśla, że takie podejście daje klientom możliwość wyboru najlepszego rozwiązania dostosowanego do ich potrzeb.",
+      "pubDate": "Fri, 29 May 2026 12:35:56 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/T-xk9kpTURBXy82YmM2YTczYTc0OTRkMDgwMGY5MzVlYmJhY2EyM2Q2My5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T12:35:56.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Silne przymrozki i susza odbiły się na uprawach. Są dane GUS",
+      "link": "https://businessinsider.com.pl/gospodarka/silne-przymrozki-i-susza-odbily-sie-na-uprawach-gus-publikuje-dane/vevew4k",
+      "description": "GUS informuje, że straty zimowe i wiosenne w zasiewach zbóż ozimych były w tym roku wyższe niż rok wcześniej — wyniosły ok. 1,1 proc. dla mieszanek zbożowych i ok. 1,0 proc. dla jęczmienia ozimego.",
+      "pubDate": "Fri, 29 May 2026 12:34:30 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/uOHk9kpTURBXy84ZjA0OWU0NTBmNWNmYTJiYTNiMWQxZmRjZDM5NTFmMy5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T12:34:30.000Z",
       "dateFormatted": "29 maja 2026"
     },
     {
@@ -25,6 +421,18 @@
       "dateFormatted": "29 maja 2026"
     },
     {
+      "title": "Nowocześni księgowi pracują z AI. Podsumowanie Kongresu Biur Rachunkowych Comarch",
+      "link": "https://businessinsider.com.pl/biznes/nowoczesni-ksiegowi-pracuja-z-ai-podsumowanie-kongresu-biur-rachunkowych-comarch/f4qyyvj",
+      "description": "Za nami intensywne road show w ramach Kongresu Biur Rachunkowych Comarch. Podczas tegorocznej edycji szczególnie wybrzmiała jedna teza: branża księgowa się zmienia, aktywnie wspierając się technologią, w tym sztuczną inteligencją. Wspólnie z setkami właścicieli biur i ekspertów rozmawialiśmy o tym, ",
+      "pubDate": "Fri, 29 May 2026 12:19:52 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/itMk9kpTURBXy82YjI3MjM0ZDU4ZjdmZDkyNGU3NWI5MmI5NmY5NDFhYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T12:19:52.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
       "title": "Rosyjski sąd skazał dyrektora giganta z USA. Disney w szoku po wyroku",
       "link": "https://www.bankier.pl/wiadomosc/Rosyjski-sad-skazal-dyrektora-giganta-z-USA-Disney-w-szoku-po-wyroku-9142182.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Członek kierownictwa amerykańskiej firmy Walt Disney Company, zatrzymany w styczniu w Moskwie, został w piątek skazany przez rosyjski sąd na dwa i pół roku więzienia za posiadanie środków odurzających – poinformowała w piątek AFP, powołując się na rosyjskie media.",
@@ -37,6 +445,30 @@
       "dateFormatted": "29 maja 2026"
     },
     {
+      "title": "Prognozy inflacji w dół. Ekonomiści dali się zaskoczyć",
+      "link": "https://businessinsider.com.pl/gospodarka/prognozy-inflacji-zaskoczyly-ekonomistow-co-dalej-z-cenami-w-polsce/y4jnwg5",
+      "description": "Ze względu na skalę zaskoczenia majowym odczytem inflacji ekonomiści Erste BP zrewidowali w dół swoją prognozę ścieżki CPI na 2026 r. Poprzednie szacunki obniżyli o aż 0,5 pkt proc.",
+      "pubDate": "Fri, 29 May 2026 12:06:33 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/gaGk9kpTURBXy9mOTI3ZWYyOWQxNmNjYThmMDU3NDkyZjBhOWM4Yzc3Mi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T12:06:33.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
+      "title": "Polski nabiał podbije Koreę Południową. Eksport wart miliony",
+      "link": "https://businessinsider.com.pl/gospodarka/korea-poludniowa-otworzyla-sie-na-polskie-mleczarstwo-eksport-wart-miliony/s319cmv",
+      "description": "Od 26 maja 2026 r. rynek Republiki Korei został oficjalnie i szeroko otwarty na zupełnie nowe kategorie polskiego nabiału.",
+      "pubDate": "Fri, 29 May 2026 11:57:32 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/9hKk9kpTURBXy9jZTQ0NWZlMTRmZmNlN2Q2MTk1ZWRhODBhMmQwMDNlNi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-29T11:57:32.000Z",
+      "dateFormatted": "29 maja 2026"
+    },
+    {
       "title": "Tym będą żyły rynki: RPP, PMI i amerykański rynek pracy",
       "link": "https://www.bankier.pl/wiadomosc/Tym-beda-zyly-rynki-RPP-PMI-i-amerykanski-rynek-pracy-9142136.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Pomimo długiego weekendu w Polsce światowe rynki finansowe będą działały w normalnym trybie. Zobaczymy więc całą kaskadę raportów PMI, finalne odczyty PKB za I kwartał i przede wszystkim majowy raport z rynku pracy USA",
@@ -46,18 +478,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/3/d/ae032f1fe11112-948-568-480-0-3333-2000.jpg",
       "dateISO": "2026-05-29T11:35:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Ostra wymiana ciosów. Kosiniak-Kamysz zarzuca Nawrockiemu „wyrzuty sumienia”",
-      "link": "https://www.bankier.pl/wiadomosc/Ostra-wymiana-ciosow-Kosiniak-Kamysz-zarzuca-Nawrockiemu-wyrzuty-sumienia-9142119.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Szef MON Władysław Kosiniak-Kamysz ocenił w piątek, że prezydent Karol Nawrocki, atakując go, chce „przykryć swój wyrzut sumienia” po tym, jak odmówił podpisania ustawy wdrażającej unijny program SAFE. Wicepremier dodał, że prezydent powinien wyrazić satysfakcję z podpisania polsko-brytyjskiego trak",
-      "pubDate": "Fri, 29 May 2026 12:23:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/3/f13d7ca917943e-948-568-0-71-2837-1702.jpg",
-      "dateISO": "2026-05-29T11:23:00.000Z",
       "dateFormatted": "29 maja 2026"
     },
     {
@@ -75,7 +495,7 @@
     {
       "title": "Sprytna księgowa przez 16 lat przywłaszczyła 1,2 mln zł. W jaki sposób wpadła?",
       "link": "https://www.bankier.pl/wiadomosc/Sprytna-ksiegowa-przelewala-publiczne-pieniadze-na-swoje-konto-Przez-16-lat-9142068.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Księgowa z okolic Legnicy wyprowadziła ze szkół i urzędu łącznie ponad 1,2 mln zł. Przez 16 lat przelewała należne im pieniądze na własne konto. Nieprawidłowości wykryła inna księgowa, zatrudniona w tym samym biurze za nią na zastępstwo. Oszustka trafi do więzienia na cztery lata. Musi też zwrócić s",
+      "description": "Księgowa z okolic Legnicy wyprowadziła ze szkół i urzędu łącznie ponad 1,2 mln zł. Przez 16 lat przelewała należne im pieniądze na własne konto. Nieprawidłowości wykryła inna księgowa, zatrudniona w tym samym biurze za nią na zastępstwo. Teraz oszustka trafi do więzienia na cztery lata. Musi też zwr",
       "pubDate": "Fri, 29 May 2026 12:20:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
@@ -97,54 +517,6 @@
       "dateFormatted": "29 maja 2026"
     },
     {
-      "title": "Polska walczy o miliardy na badania. Polscy naukowcy biorą mniej niż 2 proc. z budżetu",
-      "link": "https://www.bankier.pl/wiadomosc/Polska-walczy-o-miliardy-na-badania-Polscy-naukowcy-biora-mniej-niz-2-proc-z-budzetu-9142114.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wiceminister nauki i szkolnictwa wyższego Andrzej Szeptycki przyznał w piątek w Brukseli, że polscy naukowcy składają relatywnie niewiele wniosków w ramach unijnego programu badawczego Horyzont Europa i otrzymują mniej niż 2 proc. unijnych środków. – Te liczby trzeba zwiększyć – powiedział.",
-      "pubDate": "Fri, 29 May 2026 12:16:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/3/ff773990a71ffb-948-568-616-0-2491-1494.jpg",
-      "dateISO": "2026-05-29T11:16:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Niespodzianka inflacyjna w maju. Domański: Polska pokazuje odporność",
-      "link": "https://www.bankier.pl/wiadomosc/Niespodzianka-inflacyjna-w-maju-Domanski-Polska-pokazuje-odpornosc-9142110.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Polska gospodarka kolejny raz pokazuje odporność na zewnętrzne szoki – ocenił w piątek na platformie X minister finansów i gospodarki Andrzej Domański, komentując dane o inflacji.",
-      "pubDate": "Fri, 29 May 2026 12:13:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/8/389a33aaeb8bc5-948-568-0-0-3533-2120.jpg",
-      "dateISO": "2026-05-29T11:13:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Fala alarmów bombowych. Prezydent żąda dymisji ministrów",
-      "link": "https://www.bankier.pl/wiadomosc/Fala-alarmow-bombowych-Prezydent-zada-dymisji-ministrow-9142107.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent Karol Nawrocki, odnosząc się do ostatnich fałszywych alarmów, po których służby interweniowały m.in. w domach polityków, powiedział w piątek, że w normalnym państwie po tym, co się wydarzyło, minister sprawiedliwości czy minister spraw wewnętrznych „po prostu podaliby się do dymisji”.",
-      "pubDate": "Fri, 29 May 2026 12:11:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/c/24a1499a337cea-948-568-0-62-3427-2056.jpg",
-      "dateISO": "2026-05-29T11:11:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Kryzys nawozowy nadciąga. Prezes Azotów podaje termin, szykuje się na falę [TYLKO U NAS]",
-      "link": "https://businessinsider.com.pl/wideo/ceny-zywnosci-wystrzela-azoty-przygotowuja-polske-na-swiatowy-kryzys/413f4xh",
-      "description": "Zbliża się kryzys, który może wpłynąć na ceny żywności. Prezes Grupy Azoty Marcin Celejewski w nowym odcinku videocastu Biznes i Pieniądze twierdzi, że światowe ceny nawozów mogą wystrzelić jeszcze w tym roku. Państwowy gigant przygotowuje się na potencjalny wstrząs, by chronić polski rynek. Wskazuj",
-      "pubDate": "Fri, 29 May 2026 11:07:49 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Pzlk9kpTURBXy8xYjY1N2I2MTU0ZTZjZjM2NDE2ODM5MTI1Zjg1YjQ2Ny5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T11:07:49.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
       "title": "Ulga przy dystrybutorach. Ceny paliw mocno w dół. „Diesel” najtańszy od lutego",
       "link": "https://www.bankier.pl/wiadomosc/Ceny-paliw-pod-koniec-maja-poszly-mocnow-dol-Diesel-jest-najtanszy-od-lutego-9142090.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Ostatni tydzień maja przyniósł wyraźne spadki detalicznych cen paliw w Polsce. Szczególnie mocno potaniał olej napędowy.",
@@ -154,42 +526,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/b/440eb6a37dbc29-948-568-241-0-3780-2267.jpg",
       "dateISO": "2026-05-29T11:02:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Odbicie cen na rynku budowlanym. Hurt napędza kwietniowe wzrosty",
-      "link": "https://www.bankier.pl/wiadomosc/Odbicie-cen-na-rynku-budowlanym-Hurt-napedza-kwietniowe-wzrosty-9142074.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ceny materiałów budowlanych oraz materiałów do domu i ogrodu w kwietniu wzrosły o 2,1 proc. rdr - podały Polskie Składy Budowlane w komunikacie.",
-      "pubDate": "Fri, 29 May 2026 11:46:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/8/4bd9b3010dd5f8-948-568-63-132-1762-1057.jpg",
-      "dateISO": "2026-05-29T10:46:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Zaskakująca polityka kadrowa Donalda Tuska. Tak zatrudnia pracowników",
-      "link": "https://businessinsider.com.pl/finanse/biuro-donalda-tuska-bez-etatow-tak-premier-zatrudnia-swoich-pracownikow/q01wcr6",
-      "description": "Z oficjalnego rocznego sprawozdania finansowego biura poselskiego Donalda Tuska za 2025 r. wynika, że szef rządu na umowy zlecenia wydał 148 tys. 79 zł, podczas gdy w rubryce \"umowy o pracę\" wpisał 0 zł. Taka polityka kadrowa w biurze premiera wzbudziła wątpliwości u koalicjantów — opisuje \"Rzeczpos",
-      "pubDate": "Fri, 29 May 2026 10:45:03 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/aGIk9kpTURBXy8wNjQ4M2JiZDU4ZmM0MmI3OTliZDcxNTA3MTc2NGY4Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T10:45:03.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Topowa gospodarka światowa będzie używać najnowszego ChataGPT w bankowości",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/openai-otwiera-dostep-do-najnowszego-modelu-japonskie-banki-zyskuja-cybertarcze/ek0plec",
-      "description": "Sztuczna inteligencja, która może stać się narzędziem cyberataków, coraz częściej jest też wykorzystywana do obrony przed nimi. Japońskie banki otrzymały dostęp do najnowszego modelu OpenAI, co rząd w Tokio uznaje za istotne wzmocnienie bezpieczeństwa całego systemu finansowego.",
-      "pubDate": "Fri, 29 May 2026 10:41:15 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/yGJk9kpTURBXy9kOGE2MWI1OTA0NzlmODM2ZTc2MjcxYjJlMzg0NTk1YS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T10:41:15.000Z",
       "dateFormatted": "29 maja 2026"
     },
     {
@@ -217,54 +553,6 @@
       "dateFormatted": "29 maja 2026"
     },
     {
-      "title": "Odwiedziłam 50 stanów USA. Oto siedem miast, w których mogłabym zamieszkać",
-      "link": "https://businessinsider.com.pl/lifestyle/podroze/odwiedzilam-wszystkie-stany-usa-te-miasta-skradly-moje-serce/pep4vjb",
-      "description": "Odwiedziłam wszystkie 50 stanów USA. Oto siedem miast, w których z przyjemnością bym zamieszkała, gdyby nie było opcji pozostania w moim obecnym miejscu.",
-      "pubDate": "Fri, 29 May 2026 10:35:21 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/EgAk9kpTURBXy85Mzg2ZDFkNTJjNTEwMWY0MGQyODQ0MTliMmZlYjYyMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T10:35:21.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Rośnie bezrobocie w Niemczech. Ubyło ponad 180 tys. pracujących",
-      "link": "https://businessinsider.com.pl/gospodarka/niemcy-walcza-ze-wzrostem-bezrobocia-rynek-pracy-coraz-slabszy/t311pmw",
-      "description": "Nie tylko w Polsce widać niepokojące zjawisko wzrostu bezrobocia i spadającej liczby pracujących osób. W Niemczech jest podobnie.",
-      "pubDate": "Fri, 29 May 2026 10:33:35 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/VwEk9kpTURBXy9kZjdmMWUyNWRjYjQxY2Q1NjgxMTU3ZjdmMjA0NGU3Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T10:33:35.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Polska dostała pierwsze pieniądze z SAFE. Donald Tusk o \"imponującym tempie\"",
-      "link": "https://businessinsider.com.pl/gospodarka/polska-dostala-pierwsze-pieniadze-z-safe-donald-tusk-o-imponujacym-tempie/bxvc94t",
-      "description": "Premier Donald Tusk poinformował, że wpłynęła pierwsza zaliczka z programu SAFE — 6 mld euro.",
-      "pubDate": "Fri, 29 May 2026 10:19:47 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/xRFk9kpTURBXy8xY2NjYzU2NzI4MWMyM2Q3MmRhYmU2MWY3ZTMxMTM3MS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T10:19:47.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Dell wystrzelił o 40 proc. Jedna decyzja napędza miliardy dolarów",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/ai-zmienia-uklad-sil-dell-podnosi-prognozy-i-zachwyca-rynek/tzd35yz",
-      "description": "Popyt na serwery obsługujące sztuczną inteligencję ponownie rozgrzał Wall Street. Dell Technologies zaskoczył skalą wzrostu wyników i prognoz, a inwestorzy zareagowali natychmiast — kurs spółki eksplodował jeszcze przed otwarciem rynku.",
-      "pubDate": "Fri, 29 May 2026 10:16:50 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/gtWk9kpTURBXy85NDFiZmZhOWNjYjMxNDI4YjY3MzVhNGRkZjA1NWY0Mi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T10:16:50.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
       "title": "Nawet 6 tys. zł za 27 dni. Wystartował nabór na szkolenia wojskowe",
       "link": "https://www.bankier.pl/wiadomosc/Wystartowal-nabor-na-szkolenia-wojskowe-Zarobic-mozna-6-tys-zl-w-27-dni-9141928.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Wojsko Polskie rusza z kolejną edycją programu „Wakacje z wojskiem”. Udział mogą wziąć osoby pełnoletnie, które chcą w wakacje przejść dobrowolne szkolenie wojskowe. Uczestnicy tegorocznej odsłony programu mogą liczyć na blisko 6 tys. zł brutto za 27 dni szkolenia.",
@@ -274,78 +562,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/d/5/fe4ea3d088c8ca-948-568-0-22-3000-1799.jpg",
       "dateISO": "2026-05-29T10:15:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Oto ranking stanów USA według wykształcenia. Massachusetts wygrywa",
-      "link": "https://businessinsider.com.pl/gospodarka/ranking-stanow-usa-wedlug-wyksztalcenia-massachusetts-liderem-zestawienia/wbfl5pm",
-      "description": "Dostęp do szkolnictwa wyższego w USA jest bardzo zróżnicowany. Business Insider przeanalizował najnowsze dane US Census Bureau dotyczące odsetka osób w wieku 25 lat i starszych we wszystkich 50 stanach, które ukończyły studia licencjackie lub wyższe. Na tej podstawie powstał ranking stanów według po",
-      "pubDate": "Fri, 29 May 2026 10:12:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/122k9kpTURBXy80Y2MyZDRmMGRlNjAyOTYzMzAyZGYzYjliZDYyODBjNC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T10:12:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Ceny paliw znów spadają. Jest komunikat ministra energii",
-      "link": "https://businessinsider.com.pl/finanse/milosz-motyka-oglosil-nowe-limity-cen-paliw-kierowcy-odetchna-w-weekend/b32rg4e",
-      "description": "Minister energii Miłosz Motyka poinformował o nowych maksymalnych cenach paliw, które zaczną obowiązywać w sobotę 30 maja i będą aktualne aż do poniedziałku 1 czerwca. Z opublikowanego komunikatu wynika, że kierowcy ponownie będą mogli liczyć na ceny niższe nawet o kilkanaście groszy.",
-      "pubDate": "Fri, 29 May 2026 10:00:33 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/9Lik9kpTURBXy8yMjIzYjg0MzIyZjgyN2FjNmM4Mjk2NzFlMDFlZGI1Mi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T10:00:33.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "AirTag miał zapewnić bezpieczeństwo. Dla mnie to lekcja o granicach i zaufaniu",
-      "link": "https://businessinsider.com.pl/technologie/airtag-na-rowerze-dziecka-dlaczego-zaluje-tej-decyzji-jako-mama/xqghqef",
-      "description": "Mój najstarszy syn ma 8 lat i jest bardzo odpowiedzialny, dlatego zaczęłam dawać mu trochę więcej swobody. Pozwalam mu na przykład jeździć rowerem do jednego z dwóch parków oddalonych o jedną przecznicę od naszego domu albo zostać samemu w domu przez kilka minut, gdy idę do sąsiadki.",
-      "pubDate": "Fri, 29 May 2026 09:57:58 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/v3Sk9kpTURBXy8yYTdhMmEwMWRkNTdkYjA4ZmQ2NTNkMzI5NWMyZGJmOC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T09:57:58.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Wielkie ratowanie wakacji. Ruszają specjalne vouchery, urzędnicy dali aż dwa lata",
-      "link": "https://www.bankier.pl/wiadomosc/Wielkie-ratowanie-wakacji-Ruszaja-specjalne-vouchery-urzednicy-dali-az-dwa-lata-9142016.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sejm uchwalił w piątek nowelizację ustawy wprowadzającą vouchery dla klientów biur podróży za odwołane wycieczki. Voucher będzie można wykorzystać w ciągu dwóch lat.",
-      "pubDate": "Fri, 29 May 2026 10:56:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/1/c7a87c231f9a08-948-568-0-52-1900-1139.jpg",
-      "dateISO": "2026-05-29T09:56:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Zmiany w Ordynacji podatkowej 2026. Nowe przepisy wejdą w życie za 3 miesiące?",
-      "link": "https://www.bankier.pl/wiadomosc/Zmiany-w-Ordynacji-podatkowej-2026-Nowe-przepisy-wejda-w-zycie-za-3-miesiace-9142004.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W piątek Sejm przyjął poprawkę Senatu do nowelizacji Ordynacji podatkowej. Celem ustawy jest publikacja interpretacji dotyczących podatków lokalnych w ogólnopolskiej bazie interpretacji.",
-      "pubDate": "Fri, 29 May 2026 10:49:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/4/82b88531b83ebf-948-568-7-10-992-595.jpg",
-      "dateISO": "2026-05-29T09:49:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Miliardy na zbrojenia już w Polsce. Pierwsza transza z programu SAFE wpłynęła do BGK",
-      "link": "https://www.bankier.pl/wiadomosc/Miliardy-na-zbrojenia-juz-w-Polsce-Pierwsza-transza-z-programu-SAFE-wplynela-do-BGK-9141990.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Na konto w Banku Gospodarstwa Krajowego trafiło 6,5 mld euro z programu SAFE - poinformowała pełnomocniczka rządu ds. SAFE Magdalena Sobkowiak-Czarnecka.",
-      "pubDate": "Fri, 29 May 2026 10:36:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/f/762b383f6d6907-948-568-7-37-2992-1795.jpg",
-      "dateISO": "2026-05-29T09:36:00.000Z",
       "dateFormatted": "29 maja 2026"
     },
     {
@@ -373,30 +589,6 @@
       "dateFormatted": "29 maja 2026"
     },
     {
-      "title": "Budżet Rosji pęka pod ciężarem wojny. Kreml potrzebuje miliardów",
-      "link": "https://businessinsider.com.pl/gospodarka/wojna-kosztuje-rosje-miliardy-wiecej-niz-planowano-ciecia-potrwaja-lata/zbsmby8",
-      "description": "Tegoroczne koszty agresji na Ukrainę wzrosną o dodatkowe 2 bln rubli (około ponad 100 mld zł) — podaje brytyjski dziennik \"Financial Times\".",
-      "pubDate": "Fri, 29 May 2026 09:29:20 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/IeKk9kpTURBXy9hNzhmZWZjOWU3Yjc5YTE3YWU2Nzc5MTgxOGFhOTkxNC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T09:29:20.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Kurs euro na krawędzi wyłamania. Czy „irańskie wsparcie” w końcu pęknie?",
-      "link": "https://www.bankier.pl/wiadomosc/Kurs-euro-na-krawedzi-wylamania-Czy-iranskie-wsparcie-w-koncu-peknie-9141968.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Na fali optymizmu w kwestii irańskiej kurs euro znalazł się blisko najniższych poziomów od wybuchu wojny w Zatoce Perskiej i zamknięcia Cieśniny Ormuz.",
-      "pubDate": "Fri, 29 May 2026 10:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/4/94fc200ed2bef6-948-568-0-168-2406-1443.jpg",
-      "dateISO": "2026-05-29T09:18:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
       "title": "Historyczne głosowanie w Sejmie. Sejm przyjął kompromisowy model związków partnerskich",
       "link": "https://www.bankier.pl/wiadomosc/Historyczne-glosowanie-w-Sejmie-Sejm-przyjal-kompromisowy-model-zwiazkow-partnerskich-9141962.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Sejm uchwalił w piątek ustawę dot. statusu osoby najbliższej w związku i umowie o wspólnym pożyciu. Wcześniej odrzucił wnioski o odrzucenie projektu w całości i przyjął pakiet poprawek doprecyzowujących, które zgłosił klub Lewicy.",
@@ -406,66 +598,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/7/b2358f5706cf78-948-568-520-90-3480-2087.jpg",
       "dateISO": "2026-05-29T09:11:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Przełom w sprawach frankowych. Sejm przyjął ustawę o automatycznym zawieszeniu rat",
-      "link": "https://www.bankier.pl/wiadomosc/Przelom-w-sprawach-frankowych-Sejm-przyjal-ustawe-o-automatycznym-zawieszeniu-rat-9141960.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sejm przyjął w piątek ustawę, która ma usprawnić rozpatrywanie przez sądy tzw. spraw frankowych. Ustawa zawiera m.in. szereg zmian proceduralnych zmierzających - w założeniu jej twórców - do przyspieszenia procesów w takich sprawach.",
-      "pubDate": "Fri, 29 May 2026 10:08:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/d/0f6e2587d0f86d-935-560-65-77-935-560.jpg",
-      "dateISO": "2026-05-29T09:08:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Porozumienie z Iranem blisko? Rynek reaguje wstrzemięźliwością",
-      "link": "https://businessinsider.com.pl/gielda/usa-i-iran-dogadaly-sie-w-sprawie-pokoju-rynki-reaguja/lzvvgmk",
-      "description": "Mamy już coś konkretnego w kwestii pokoju na Bliskim Wschodzie, choć rakiety wciąż latają. Ceny ropy zareagowały spadkiem, rośnie złoto, srebro i giełdy akcji. Czy to koniec epopei? Wstrzemięźliwa reakcja rynków pokazuje, że pewności nie ma. Więcej o sytuacji przeczytasz w dzisiejszym wydaniu newsle",
-      "pubDate": "Fri, 29 May 2026 08:58:23 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/XD-k9kpTURBXy9kNmRiYmYxNDA2YTU2YTU3ZTJlNjAwNDNhMTllYjZkYi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T08:58:23.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Miliardy dolarów z nielegalnego złota. Amazonia to teraz eldorado dla przestępców",
-      "link": "https://businessinsider.com.pl/gospodarka/amazonia-zalewana-nielegalnym-zlotem-raport-greenpeace-ujawnia-skale-problemu/05f5mb8",
-      "description": "Mimo zapowiadanej przez prezydenta Brazylii ofensywy przeciwko nielegalnemu wydobyciu złota, z Amazonii wciąż wypływają miliardy dolarów kruszcu o niejasnym pochodzeniu. Najnowszy raport Greenpeace pokazuje, że górnicy znaleźli sposób, by obejść kontrole państwa — wykorzystując koncesje z miejsc, gd",
-      "pubDate": "Fri, 29 May 2026 08:53:14 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/B9Zk9kpTURBXy8yZjczMmIzZDcxYjRmZTliMzA1ODRjZjRjMTk5ZDAxMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T08:53:14.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Koniec z łańcuchami? Nowy zakaz objął psy i... koty. Sejm uchwalił ustawę",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-z-lancuchami-Nowy-zakaz-objal-psy-i-koty-Sejm-uchwalil-ustawe-9141926.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zakazem trzymania na uwięzi, oprócz psów, objęte będą też koty, a minimalne warunki utrzymywania psów w kojcach, w tym ich powierzchnia, będą określane w rozporządzeniu ministra rolnictwa - zgodnie z nowelizacją ustawy o ochronie zwierząt, którą w piątek uchwalił Sejm.",
-      "pubDate": "Fri, 29 May 2026 09:38:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/0/224564808d325d-948-567-5-70-995-596.jpg",
-      "dateISO": "2026-05-29T08:38:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Koniec kredytów na WIBOR już blisko. Od 2027 r. już tylko POLSTR",
-      "link": "https://businessinsider.com.pl/gospodarka/koniec-wibor-dopiero-za-10-lat-sprawdz-co-sie-zmieni-w-bankach/8s27c20",
-      "description": "GPW Benchmark ogłosiła, że wskaźnik WIBOR zostanie wycofany dopiero z początkiem 2037 r. Oznacza to, że przez kolejne 10 lat nie będą zawierane nowe umowy i kontrakty oparte na tej stopie procentowej, choć dotychczasowe będą funkcjonować do końca 2036 r. Decyzja ta ma kluczowe znaczenie dla kredytob",
-      "pubDate": "Fri, 29 May 2026 08:37:52 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/SH1k9kpTURBXy81ODRlNDE0ZWI4MzJkNzdkY2ZhNmY5Nzg2Yzc5ZGI0ZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T08:37:52.000Z",
       "dateFormatted": "29 maja 2026"
     },
     {
@@ -481,42 +613,6 @@
       "dateFormatted": "29 maja 2026"
     },
     {
-      "title": "Złoto jak akcje na giełdzie. To wygodny i prosty sposób na inwestowanie",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/etf-i-etc-na-zloto-praktyczne-zastosowanie-w-inwestowaniu/n3hwl9v",
-      "description": "W złoto można inwestować na wiele sposobów. Dla osób, którym akcje i giełda nie są obce, jedna opcja jest szczególnie przyjazna. Wskazujemy zalety i wady oraz ważny niuans.",
-      "pubDate": "Fri, 29 May 2026 08:07:50 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/d8Ok9kpTURBXy8wMzYyMzY3MmVjMjc5NjRiM2NmODM1MmJiOWU3NzQ2Zi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T08:07:50.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Donald Trump \"ma w sobie poczucie krzywdy\". \"Polska oczywiście jest tutaj wyjątkiem\"",
-      "link": "https://businessinsider.com.pl/gospodarka/byly-doradca-trumpa-o-frustracji-usa-polska-jest-tutaj-wyjatkiem/txztrc9",
-      "description": "Były doradca Donalda Trumpa H.R. McMaster ostrzega Europę, że Ameryka ma coraz mniej cierpliwości do płacenia za jej bezpieczeństwo. Ocenił też, że Polska jest obecnie \"kamieniem węgielnym europejskiej obrony\".",
-      "pubDate": "Fri, 29 May 2026 08:05:59 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/MX_k9kpTURBXy8xMzBkZjZiNTNiZmNjNDI0YmRkMjE2NDdjMTgwMzQyNS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T08:05:59.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Rolnicy ograniczają inwestycje. Import warzyw i niskie ceny uderzają w branżę",
-      "link": "https://businessinsider.com.pl/gospodarka/niskie-ceny-warzyw-i-rosnacy-import-polski-sektor-nasienny-w-opalach/q3f89x2",
-      "description": "Rosnące koszty produkcji, niepewność na rynku oraz napływ tańszych warzyw z zagranicy coraz mocniej wpływają na sytuację polskich rolników. Wielu z nich ogranicza inwestycje, wybierając sprawdzone odmiany i rozwiązania pozwalające na obniżenie kosztów. O aktualnych wyzwaniach i perspektywach branży ",
-      "pubDate": "Fri, 29 May 2026 08:02:01 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Alik9kpTURBXy8yY2U1YTU1OWEwOGYzZTgzYjZkN2JiZDAyNWQzNTI0ZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T08:02:01.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
       "title": "Czy auta stanieją? Jak rynek zmieniają „chińczyki”? Oto co mówi nam szef jednej z wiodących sieci dealerskich",
       "link": "https://www.bankier.pl/wiadomosc/Czy-auta-stanieja-Jak-rynek-zmieniaja-chinczyki-Oto-co-mowi-nam-szef-jednej-z-wiodacych-sieci-dealerskich-9141771.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Polski rynek motoryzacyjny przechodzi najgłębszą transformację od lat. Wolumen sprzedaży jest rekordowy i sięga blisko 600 tysięcy rejestracji rocznie, a za ten wynik w dużej mierze odpowiada ekspansja marek azjatyckich, które tworzą presję na ceny i – jak mówi nam Piotr Berzyński, dyrektor zarządza",
@@ -526,18 +622,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/e/9242b1dba747be-948-569-340-0-1541-925.jpg",
       "dateISO": "2026-05-29T08:00:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Będzie łatwiej w tzw. sprawach frankowych. Sejm przyjął ustawę",
-      "link": "https://businessinsider.com.pl/prawo/duza-zmiana-dla-frankowiczow-sejm-zaglosowal-za-ustawa/men2kj9",
-      "description": "Sejm przegłosował w piątek nowe przepisy, których głównym zadaniem jest radykalne przyspieszenie i uproszczenie postępowań w tzw. sprawach frankowych.",
-      "pubDate": "Fri, 29 May 2026 07:57:05 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/TGQk9kpTURBXy83YTYxMDI2ZDhiYjg1YjM2YzJmNDEwOTE2ZmMzOGE0OC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T07:57:05.000Z",
       "dateFormatted": "29 maja 2026"
     },
     {
@@ -553,7 +637,7 @@
       "dateFormatted": "29 maja 2026"
     },
     {
-      "title": "Bitcoin odbija w kierunku 74 tys. $ po nadziejach na przedłużenie rozejmu",
+      "title": "Bitcoin odbija od siedmiotygodniowego minimum na tle nadziei na rozejm",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-odbija-w-kierunku-74-tys--po-nadziejach-na-przedluzenie-rozejmu-1433958",
       "description": "",
       "pubDate": "2026-05-29 06:26:34",
@@ -565,15 +649,15 @@
       "dateFormatted": "29 maja 2026"
     },
     {
-      "title": "Płonie blok mieszkalny w Rumunii. Rosyjski dron \"zboczył z kursu\"?",
-      "link": "https://www.bankier.pl/wiadomosc/Plonie-blok-mieszkalny-w-Rumunii-Rosyjski-dron-zboczyl-z-kursu-9141825.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rosyjski dron wleciał w rumuńską przestrzeń powietrzną i rozbił się na dachu bloku mieszkalnego w południowo-wschodnim mieście Gałacz, powodując pożar - poinformowało rumuńskie Ministerstwo Obrony w oświadczeniu wydanym w piątek.",
-      "pubDate": "Fri, 29 May 2026 07:16:00 +0100",
+      "title": "Trump na banknocie 250-dolarowym? Bessent potwierdza plany",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-na-banknocie-250-dolarowym-Bessent-potwierdza-plany-9141705.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Minister finansów (skarbu) USA Scott Bessent poinformował w czwartek, że administracja pracuje nad tym, by wizerunek prezydenta Donalda Trumpa znalazł się na banknocie o nominale 250 dolarów. Wymagałoby to zmiany prawa.",
+      "pubDate": "Fri, 29 May 2026 06:50:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/2/da42c1f2618985-948-568-0-150-4000-2399.jpg",
-      "dateISO": "2026-05-29T06:16:00.000Z",
+      "image": "http://galeria.bankier.pl/p/a/9/d8ca273b5d1cf6-948-568-0-142-3000-1799.jpg",
+      "dateISO": "2026-05-29T05:50:00.000Z",
       "dateFormatted": "29 maja 2026"
     },
     {
@@ -609,54 +693,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/5/a64086f9ede912-948-568-0-730-1502-901.png",
-      "dateISO": "2026-05-29T05:00:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Królowie komisów drożeją na potęgę. Używane auta nawet o jedną trzecią droższe niż przed rokiem",
-      "link": "https://www.bankier.pl/wiadomosc/Ceny-aut-uzywanych-kwiecien-2026-9140948.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Od kilku procent w przypadku najpopularniejszego Opla Astry, przez kilkanaście procent w cennikach Audi A4 i Forda Focusa do ponad 40 proc. w przypadku Volkswagena Golfa. O tyle w ciągu roku wzrosły średnie ceny najpopularniejszych używanych aut w polskich komisach – wynika z danych AAA Auto. I nie ",
-      "pubDate": "Fri, 29 May 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/c/e04556a11f087c-948-568-0-134-1988-1192.jpg",
-      "dateISO": "2026-05-29T05:00:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "\"Fort Trump\" w Polsce. Tak zmieniło się życie w mieście",
-      "link": "https://www.bankier.pl/wiadomosc/Drozsza-kawa-lepszy-biznes-Polskie-miasto-zyskalo-na-obecnosci-wojsk-USA-9141634.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Według ostatnich danych z końca 2025 roku w Europie stacjonuje obecnie 84 tys. amerykańskich żołnierzy, w tym w Polsce około 10 tys. Z tego około pół tysiąca znajduje się w Bolesławcu na Dolnym Śląsku. W związku z planami zwiększenia ich liczby, miasto zaczęło być nawet określane mianem „Fort Trump”",
-      "pubDate": "Fri, 29 May 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/c/44a75e282bcae5-948-568-0-161-1900-1139.jpg",
-      "dateISO": "2026-05-29T05:00:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Drugi rodzic bez wglądu w konto dziecka? Sprawdzamy koszty i haczyki w prowadzeniu rachunków dla małoletnich",
-      "link": "https://www.bankier.pl/wiadomosc/Konto-dla-dziecka-w-2026-r-Ile-kosztuja-i-jakie-sa-formalnosci-9141274.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Darmowe konto i karta dla dziecka? To norma, choć zdarzają się wyjątki. Prawdziwe różnice między ofertami banków obnażają jednak systemy mobilne oraz podejście do przepisów prawa. W tym materiale bierzemy pod lupę nie tylko opłaty za konto, ale i kwestię własności rachunku czy zakres sprawowanej kon",
-      "pubDate": "Fri, 29 May 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/d/e1335ba3c7d023-948-568-56-18-2312-1387.jpg",
-      "dateISO": "2026-05-29T05:00:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "\"Mocno zakredytowani\" wcale nie są najbardziej narażeni. Nadzór zbadał kredytobiorców",
-      "link": "https://www.bankier.pl/wiadomosc/Mocno-zakredytowani-wcale-nie-sa-najbardziej-narazeni-Nadzor-zbadal-kredytobiorcow-9140333.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Jakie są wczesne sygnały zapowiadające finansowe trudności? Takie pytanie zadali sobie badacze brytyjskiego nadzoru finansowego. Sięgnęli po dane z biur kredytowych. Okazało się, że posiadanie kredytu hipotecznego jest jednym z czynników, które najsilniej wpływają na… spadek ryzyka.",
-      "pubDate": "Fri, 29 May 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/0/2da4bd5f3e4787-948-568-0-180-4000-2399.jpg",
       "dateISO": "2026-05-29T05:00:00.000Z",
       "dateFormatted": "29 maja 2026"
     },
@@ -718,18 +754,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-05-28T11:46:48.000Z",
-      "dateFormatted": "28 maja 2026"
-    },
-    {
-      "title": "BNP Paribas z premią 700 zł i bezpłatną kartą walutową. Co jeszcze kryje się w promocji „Podróżnik\"?",
-      "link": "https://www.bankier.pl/wiadomosc/BNP-Paribas-z-premia-700-zl-i-bezplatna-karta-walutowa-Co-jeszcze-kryje-sie-w-promocji-Podroznik-9140952.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "BNP Paribas kusi nowych klientów premią 700 zł rozłożoną na rok, darmową kartą walutową i lokatą do 7,5%. To oferta, która skrojona pod osoby aktywnie korzystające z konta i planujące wyjazdy za granicę.",
-      "pubDate": "Thu, 28 May 2026 11:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/4/5e44cd6bd14361-948-568-0-112-2500-1499.jpg",
-      "dateISO": "2026-05-28T10:00:00.000Z",
       "dateFormatted": "28 maja 2026"
     },
     {
@@ -829,5 +853,5 @@
       "dateFormatted": "23 maja 2026"
     }
   ],
-  "updatedAt": "2026-05-29T11:36:39.973Z"
+  "updatedAt": "2026-05-29T15:36:05.448Z"
 }
