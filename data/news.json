@@ -1,6 +1,186 @@
 {
   "articles": [
     {
+      "title": "Polska ma geniusza, który wygrał z AI. Psyho ostrzega",
+      "link": "https://www.bankier.pl/wiadomosc/Polska-ma-geniusza-ktory-wygral-z-AI-Psyho-ostrzega-9140039.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Są jeszcze miejsca, gdzie modele AI przegrywają w starciu z ludzkim intelektem. O roli intuicji w myśleniu i poszukiwaniu skomplikowanych rozwiązań - mówi w rozmowie z PAP Psyho - Polak, który jako jedyny człowiek pokonał AI w prestiżowym konkursie programistycznym AtCoder.",
+      "pubDate": "Sat, 30 May 2026 08:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/f/798c40f5c2b9b2-911-546-7-2-911-546.png",
+      "dateISO": "2026-05-30T07:00:00.000Z",
+      "dateFormatted": "30 maja 2026"
+    },
+    {
+      "title": "Schron w każdym domu? Wiemy, jakie procedury wojenne chcą skopiować Polacy",
+      "link": "https://www.bankier.pl/wiadomosc/Schron-w-kazdym-domu-Wiemy-jakie-procedury-wojenne-chca-skopiowac-Polacy-9140224.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Dzięki wizytom w Izraelu skorzystaliśmy z doświadczeń tego kraju w zakresie organizacji obrony cywilnej, co może być przydatne również w Polsce; jednocześnie oddzielamy tę kwestię od polityki Izraela wobec Strefy Gazy - zapewniają polscy posłowie związani z parlamentarną grupą polsko-izraelską.",
+      "pubDate": "Sat, 30 May 2026 08:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/d/b4e49fcfddfebf-945-567-4-66-945-567.jpg",
+      "dateISO": "2026-05-30T07:00:00.000Z",
+      "dateFormatted": "30 maja 2026"
+    },
+    {
+      "title": "Turystyczna pustka na Kubie. Efekt pogłębiającego się kryzysu energetycznego",
+      "link": "https://www.bankier.pl/wiadomosc/Turystyczna-pustka-na-Kubie-Efekt-poglebiajacego-sie-kryzysu-energetycznego-9140029.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W ciągu czterech miesięcy 2026 r. na Kubę przybyło rekordowo mało urlopowiczów - 328,6 tys., czyli o prawie 56 proc. mniej w porównaniu do podobnego okresu w 2025 r. - wynika z najnowszego raportu kubańskiego urzędu statystycznego (ONEI).",
+      "pubDate": "Sat, 30 May 2026 08:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/3/a37acd57cb2497-948-568-0-320-4752-2851.jpg",
+      "dateISO": "2026-05-30T07:00:00.000Z",
+      "dateFormatted": "30 maja 2026"
+    },
+    {
+      "title": "Nowy gracz na mapie Polski. Powstanie park rozrywki za 210 mln zł",
+      "link": "https://businessinsider.com.pl/wiadomosci/gliwice-szykuja-najwiekszy-park-rozrywki-na-poludniu-polski-znamy-szczegoly/1qg15tj",
+      "description": "To będzie pierwszy taki projekt na południu Polski — na Śląsku powstanie jeden z największych parków rozrywki w Polsce. Wartość inwestycji to 50 mln euro, czyli ponad 210 mln zł. Business Insider Polska poznał szczegóły projektu i datę otwarcia.",
+      "pubDate": "Sat, 30 May 2026 06:07:50 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/R0Ck9kpTURBXy83NTljYzMyNWIxMDhhZTUxNDE3YzYzYzZhOTI5MjAyNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-30T06:07:50.000Z",
+      "dateFormatted": "30 maja 2026"
+    },
+    {
+      "title": "Ekspert wskazuje ubezpieczenia, które naprawdę warto mieć. Bez nich koszty bywają ogromne",
+      "link": "https://businessinsider.com.pl/poradnik-finansowy/ubezpieczenia-ktore-naprawde-warto-miec-bez-tego-koszty-sa-ogromne/tgl2r4x",
+      "description": "Bez ubezpieczenia na życie domowy budżet może zostać podwójnie obciążony. Dane pokazują, że w Polsce 23 mln osób jest w ten sposób chronionych. Inaczej wygląda to w przypadku kilku innych rodzajów polis, których brak także może słono kosztować.",
+      "pubDate": "Sat, 30 May 2026 05:33:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/KEtk9kpTURBXy84ZjE4ZDA4NjJmODU4YjJlNDRiNzk3YWY1MWYzNmVkNS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-30T05:33:00.000Z",
+      "dateFormatted": "30 maja 2026"
+    },
+    {
+      "title": "Trump nie kończy rozmów z Iranem. W grze 300 mld dol. i los cieśniny Ormuz",
+      "link": "https://businessinsider.com.pl/gospodarka/donald-trump-stawia-twarde-warunki-iranowi-decyzja-wciaz-nie-zapadla/0w0nz83",
+      "description": "Prezydent USA Donald Trump prowadzi negocjacje z Teheranem, które mają zakończyć trwającą wojnę. Mimo wcześniejszych zapowiedzi amerykański przywódca nie sfinalizował jeszcze rozmów dotyczących wstępnego porozumienia. Wcześniej sugerował, że decyzja zapadnie po piątkowych konsultacjach z doradcami. ",
+      "pubDate": "Sat, 30 May 2026 05:22:35 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/pcBk9kpTURBXy8wOGNmN2M5NGY5NTUxODcyMWM2M2Q3YTliMzc0NGFjOC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-30T05:22:35.000Z",
+      "dateFormatted": "30 maja 2026"
+    },
+    {
+      "title": "Orlen bije rekordy, świat boi się o ropę, a inflacja zaszokowała wszystkich. Mocne zamknięcie maja",
+      "link": "https://www.bankier.pl/wiadomosc/Orlen-bije-rekordy-swiat-boi-sie-o-rope-a-inflacja-zaszokowala-wszystkich-Mocne-zamkniecie-maja-9141856.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Cześć, tu Inwestor Wojtek. Mam nadzieję, że macie już swoją kawę, bo ruszamy z kolejnymi wykresami tygodnia. Jeśli myśleliście, że poprzedni tydzień zaoferował nam dawkę emocji to owszem, ale w tym wcale nie było jej mniej. Maj ponieważ zamyka się naprawdę mocnymi danymi.",
+      "pubDate": "Sat, 30 May 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/5/5/a7169f823f9a48-948-568-0-0-4000-2399.jpg",
+      "dateISO": "2026-05-30T05:00:00.000Z",
+      "dateFormatted": "30 maja 2026"
+    },
+    {
+      "title": "\"Czary\" na stacji benzynowej: litr oleju napędowego sprzedawano za 0,20 euro",
+      "link": "https://www.bankier.pl/wiadomosc/Czary-na-stacji-benzynowej-litr-oleju-napedowego-sprzedawano-za-0-20-euro-9140870.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "We Włoszech, gdzie cena litra oleju napędowego wzrosła ostatnio do 2 euro, na stacji benzynowej koło Bolzano na północy kraju, można było kupić litr tego paliwa za 19,9 eurocentów. Doszło tam do szturmu kierowców na stację, na którą wielu z nich przyjechało z kanistrami i ustawiło się w długiej kole",
+      "pubDate": "Sat, 30 May 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/1/35e0fbf1b0ff7e-945-560-495-629-3356-2013.jpg",
+      "dateISO": "2026-05-30T05:00:00.000Z",
+      "dateFormatted": "30 maja 2026"
+    },
+    {
+      "title": "Gry wideo jak hazard? Psychologowie z Krakowa zbadali, dlaczego gry przestają być tylko zabawą",
+      "link": "https://www.bankier.pl/wiadomosc/Gry-wideo-jak-hazard-Psychologowie-z-Krakowa-zbadali-dlaczego-gry-przestaja-byc-tylko-zabawa-9134555.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sam czas spędzony przed ekranem nie jest najlepszą miarą ryzyka uzależnienia od gier. Badania prowadzone przez badaczy z Uniwersytetu Jagiellońskiego wskazują, że z problemem związany bywa nasilający się rage quitting - gwałtowne przerywanie sesji w wyniku złości - powiedziała PAP dr Agnieszka Stroj",
+      "pubDate": "Sat, 30 May 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/7/2bd5667b2beae4-948-568-0-236-4500-2699.jpg",
+      "dateISO": "2026-05-30T05:00:00.000Z",
+      "dateFormatted": "30 maja 2026"
+    },
+    {
+      "title": "Zajadamy się chemią, serce cierpi. Te 8 substancji z marketów wywołuje zawały",
+      "link": "https://www.bankier.pl/wiadomosc/Zajadamy-sie-chemia-serce-cierpi-Te-8-substancji-z-marketow-wywoluje-zawaly-9137653.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Spożywanie żywności zawierającej powszechnie stosowane konserwanty może zwiększać ryzyko wystąpienia nadciśnienia tętniczego i chorób układu krążenia – wynika z badania, które publikuje czasopismo „European Heart Journal”.",
+      "pubDate": "Sat, 30 May 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/2/90201a79a50620-948-568-0-196-1920-1151.jpg",
+      "dateISO": "2026-05-30T05:00:00.000Z",
+      "dateFormatted": "30 maja 2026"
+    },
+    {
+      "title": "Rosną obawy o inflację. Decydenci Fed gotowi do działania w każdej chwili",
+      "link": "https://businessinsider.com.pl/gospodarka/fed-rozwaza-podwyzke-stop-procentowych-inflacja-i-wojna-zmieniaja-plany/re84chq",
+      "description": "Decydenci Rezerwy Federalnej (Fed) coraz częściej wskazują na możliwość podniesienia stóp procentowych w odpowiedzi na rosnące ryzyko inflacyjne. Wojna na Bliskim Wschodzie, która wpłynęła na globalne rynki energetyczne, może dodatkowo zaostrzyć presję cenową w Stanach Zjednoczonych, zmuszając bank ",
+      "pubDate": "Sat, 30 May 2026 04:57:29 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/n3Ck9kpTURBXy9jNjI5MWU1MDlkMTFjNzFhOTEzODRkNjViYzY0Y2NlZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-30T04:57:29.000Z",
+      "dateFormatted": "30 maja 2026"
+    },
+    {
+      "title": "Pierwszy raz w życiu byłem w Kijowie. Otrzeźwienie przyszło po powrocie",
+      "link": "https://businessinsider.com.pl/wiadomosci/jak-wyglada-zycie-w-kijowie-swiadomie-podejmujemy-ryzyko/btqrjqy",
+      "description": "W moim bingo na 2026 r. nie było wizyty w Ukrainie. Nie byłem w tym kraju nigdy wcześniej i nie sądziłem, że zawitam tam akurat w czasie wojny. Jednak zawitałem. I szybko przyjąłem postawę mieszkańców, zapominając o ryzyku. Otrzeźwienie przyszło później.",
+      "pubDate": "Sat, 30 May 2026 04:30:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/3Wkk9kpTURBXy8zZjA3NjQ5YmEwNTZhNDRiMWE5OGFiZjZiNmI2ODQ4Mi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-30T04:30:00.000Z",
+      "dateFormatted": "30 maja 2026"
+    },
+    {
+      "title": "Wojenne straty w oszczędnościach emerytalnych już odrobione. Mowa o miliardach",
+      "link": "https://businessinsider.com.pl/praca/emerytury/ppk-ofe-ike-ikze-po-zawirowaniach-sprawdzilismy-co-stalo-sie-z-oszczednosciami/kzr5979",
+      "description": "Po zawirowaniach rynkowych po ataku na Iran przez kilka tygodni pula oszczędności w OFE, PPK, IKE i IKZE się skurczyła. W większości przypadków wystarczyły dwa tygodnie, żeby wymazać wszystkie straty.",
+      "pubDate": "Sat, 30 May 2026 04:07:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/36Rk9kpTURBXy85ZTE0MTIyYzMwOTEwM2U3ZjliYmFhZjA2NzVjY2MyMC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-30T04:07:00.000Z",
+      "dateFormatted": "30 maja 2026"
+    },
+    {
+      "title": "Sejm uchwalił zmiany ważne dla milionów. Część trafi na biurko prezydenta",
+      "link": "https://businessinsider.com.pl/prawo/zwiazki-partnerskie-frankowicze-podatki-sejm-przeglosowal-kluczowe-ustawy/jh310l4",
+      "description": "Blisko 20 ustaw uchwalili na ostatnim posiedzeniu posłowie. Prześledziliśmy wszystko, co się działo w minionych dniach przy ul. Wiejskiej i wybraliśmy dla naszych czytelników kluczowe informacje. Piszemy nie tylko o najgłośniejszej ustawie dotyczącej statusu osoby najbliższej, a tak naprawdę związkó",
+      "pubDate": "Sat, 30 May 2026 04:00:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Cg2k9kpTURBXy8xYjRhZDdlMDdlY2Y4ZWNiM2Y5ZmExMjFkMjZiNGUwOC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-30T04:00:00.000Z",
+      "dateFormatted": "30 maja 2026"
+    },
+    {
+      "title": "Jak blisko byli Viktor Orban z Władimirem Putinem? Te nagrania to pokazują",
+      "link": "https://businessinsider.com.pl/polityka/ujawniono-rozmowe-orbana-z-putinem-prorosyjskie-stanowisko-wegier-pod-lupa/6h1km9g",
+      "description": "Z nagrania październikowej rozmowy telefonicznej wynika, że Viktor Orbán deklarował wobec Władimira Putina daleko idącą gotowość do współpracy — także w kontekście działań na rzecz zakończenia wojny w Ukrainie. \"Jestem do dyspozycji\" — mówił węgierski premier do rosyjskiego przywódcy",
+      "pubDate": "Sat, 30 May 2026 03:32:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/hMlk9kpTURBXy84ZDUxZjcwNWRlOTEyZDYwNDQyNWFlOWYwZjM4MDM1NS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-05-30T03:32:00.000Z",
+      "dateFormatted": "30 maja 2026"
+    },
+    {
       "title": "Potrójna korona na Wall Street. Dow, S&P 500 i Nasdaq z historycznymi rekordami",
       "link": "https://www.bankier.pl/wiadomosc/Potrojna-korona-na-Wall-Street-Dow-S-P-500-i-Nasdaq-z-historycznymi-rekordami-9142809.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Piątkowa sesja na Wall Street zakończyła się wzrostami głównych indeksów, a Dow, S&P 500 i Nasdaq ustanowiły nowe historyczne rekordy. Analitycy wskazują, że poprawił się apetyt na ryzyko w oczekiwaniu na porozumienie między USA a Iranem",
@@ -217,18 +397,6 @@
       "dateFormatted": "29 maja 2026"
     },
     {
-      "title": "Trump zwołuje Situation Room ws. Iranu. Teheran: Nie ufamy słowom USA",
-      "link": "https://www.bankier.pl/wiadomosc/Trump-zwoluje-Situation-Room-ws-Iranu-Teheran-Nie-ufamy-slowom-USA-9142487.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent USA Donald Trump ogłosił w piątek, że zwołuje na ten dzień spotkanie w Situation Room w Białym Domu, aby podjąć ostateczną decyzję w sprawie porozumienia z Iranem. Z kolei główny irański negocjator Mohammed Bager Kalibaf napisał w piątek na platformie X, że Teheran nie ufa słowom ani gwara",
-      "pubDate": "Fri, 29 May 2026 17:08:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/c/36e10f9ee600c5-948-568-59-11-4735-2841.jpg",
-      "dateISO": "2026-05-29T16:08:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
       "title": "Ameryka narzeka na gigantyczną drożyznę. Trump traci poparcie",
       "link": "https://www.bankier.pl/wiadomosc/Ameryka-narzeka-na-gigantyczna-drozyzne-Trump-traci-poparcie-9142478.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Większość Amerykanów (53 proc.) mówi, że nie pamięta, by koszty życia były kiedykolwiek wyższe - wynika z opublikowanego w piątek badania serwisu Politico. Skarżą się na pogorszenie sytuacji finansowej w wyniku wojny z Iranem.",
@@ -265,18 +433,6 @@
       "dateFormatted": "29 maja 2026"
     },
     {
-      "title": "Deszcz pieniędzy nad Budapesztem. KE odblokowała 16 miliardów euro dla Węgier. „Historyczny przełom”",
-      "link": "https://www.bankier.pl/wiadomosc/Deszcz-pieniedzy-nad-Budapesztem-KE-odblokowala-16-miliardow-euro-dla-Wegier-Historyczny-przelom-9142409.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Komisja Europejska jest gotowa odblokować zamrożone 10 mld euro dla Węgier z funduszu odbudowy oraz łącznie 6,2 mld euro funduszy spójności – poinformowała w piątek szefowa KE Ursula von der Leyen po spotkaniu w Brukseli z nowym premierem Węgier Peterem Magyarem.",
-      "pubDate": "Fri, 29 May 2026 16:13:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/a/ebe2375dacb96c-948-568-20-10-3980-2387.jpg",
-      "dateISO": "2026-05-29T15:13:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
       "title": "Rząd Gruzji organizuje aukcję cennej kolekcji. Była własnością Józefa Stalina",
       "link": "https://businessinsider.com.pl/finanse/handel/gruzja-wystawi-na-aukcji-40-tys-butelek-wina-to-historyczny-moment/hpsvhvc",
       "description": "Gruzja zamierza zorganizować nietypową aukcję. Na sprzedaż zostanie wystawiona kolekcja Józefa Stalina. To 40 tys. butelek rzadkich francuskich i gruzińskich win. Niektóre z nich mają prawie 200 lat. Wiadomo już, na co zostaną przeznaczone pieniądze z ich sprzedaży.",
@@ -289,18 +445,6 @@
       "dateFormatted": "29 maja 2026"
     },
     {
-      "title": "Cena ropy zbliżyła się do ważnego poziomu. Spadek w maju już o 20 proc.",
-      "link": "https://businessinsider.com.pl/gielda/ceny-ropy-brent-wyraznie-spadaja-kierowcy-w-polsce-moga-sie-cieszyc/w6x4ssz",
-      "description": "Światowe ceny ropy Brent spadły o około 20 proc. od szczytu w tym roku. To wyraz optymizmu rynków co do perspektyw trwałego zawieszenia broni między USA a Iranem. Kierowcy w Polsce w najbliższych dniach powinni być zadowoleni.",
-      "pubDate": "Fri, 29 May 2026 14:44:32 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/th5k9kpTURBXy9kNDk4NzZmZmQyYTFmYmRiNzZlMzBkNDg2ZGE3YTFmOC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T14:44:32.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
       "title": "Tysiące rezerwacji w Hotelu Gołębiewski. Jest tylko jeden poważny problem",
       "link": "https://www.bankier.pl/wiadomosc/Odwolaja-rezerwacje-w-Hotelu-Golebiewski-w-Pobierowie-To-mozliwe-9142375.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Największy hotel nad polskim morzem zbliża się do otwarcia zapowiedzianego na 26 czerwca 2026 r. Choć przyjęto już tysiące rezerwacji, okazuje się, że goście, którzy planowali tu wypoczynek, mogą być zmuszeni do zmiany planów. Okazuje się, że obiekt wciąż nie posiada pozwolenia na użytkowanie – poda",
@@ -310,18 +454,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/7/9fcb113ce84809-948-568-0-71-1900-1139.jpg",
       "dateISO": "2026-05-29T14:43:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Ustawa o artystach obudziła populistów. Rząd chciał dobrze, wyszło jak często [OPINIA]",
-      "link": "https://businessinsider.com.pl/poradnik-finansowy/ubezpieczenia/rzadowa-ustawa-o-emeryturach-dla-artystow-dlaczego-wywoluje-sprzeciw/wmyl9k1",
-      "description": "Artyści z gminnych domów kultury i aktorzy z miast powiatowych nie są darmozjadami, a kultura nie podlega zasadom wolnego rynku. Brednie populistów, którzy wyczuli krew, nie zmienią jednak faktu, że pomysł rządu na emerytury dla artystów rzeczywiście przynosi więcej szkód niż pożytku.",
-      "pubDate": "Fri, 29 May 2026 14:31:19 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/j4Ak9kpTURBXy8zZjc4N2U3MjcwN2I1ZWM3MjgxNjA4NmM3Mjg2NjkzMi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T14:31:19.000Z",
       "dateFormatted": "29 maja 2026"
     },
     {
@@ -349,42 +481,6 @@
       "dateFormatted": "29 maja 2026"
     },
     {
-      "title": "Luka w kluczowym podatku najniższa od lat. Kiedyś fiskusowi wyciekała ponad jedna czwarta",
-      "link": "https://businessinsider.com.pl/finanse/rekordowa-poprawa-w-sciagalnosci-vat-co-to-oznacza-dla-gospodarki/9tyjgnk",
-      "description": "To dzięki likwidacji luki VAT rządy Prawa i Sprawiedliwości deklarowały, że mogły wprowadzić program 500 plus. Najnowsze dane sugerują, że została już niemal całkowicie zatkana.",
-      "pubDate": "Fri, 29 May 2026 13:59:39 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/7A0k9kpTURBXy9kMDRjYzZlOWVkNWYxMWJjYWY5NmYyZmE1YzdjZWI1Ny5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T13:59:39.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Ogromna kwota trafiła w tym roku do Polski z UE. Ministerstwo Finansów podało najnowsze dane",
-      "link": "https://businessinsider.com.pl/gospodarka/ogromna-kwota-trafila-do-polski-z-ue-sa-nowe-informacje/1jcwynr",
-      "description": "W kwietniu do Polski trafił ponad 1 mld euro z Unii Europejskiej, a od początku roku już łącznie 10,3 mld. Ministerstwo finansów podało również, jak wygląda saldo rozliczeń z UE od początku naszego członkostwa we Wspólnocie.",
-      "pubDate": "Fri, 29 May 2026 13:54:48 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/X4Pk9kpTURBXy8yN2Q3MDc5ZTY2MTA3MTA1MTU2NDYwMDA0MmQwOTNhMy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T13:54:48.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Koniec tak tanich zakupów dla Polaków. Od lipca wchodzą nowe regulacje",
-      "link": "https://businessinsider.com.pl/finanse/handel/koniec-tanich-paczek-z-chin-dla-polakow-od-lipca-wchodza-nowe-regulacje/rqn98ct",
-      "description": "Od 1 lipca wchodzą w życie nowe przepisy dotyczące towarów kupowanych online w krajach spoza Unii Europejskiej. Paczki przychodzące spoza UE będą objęte tymczasowym cłem. To może oznaczać duże zmiany dla Polaków zaopatrujących się na popularnych chińskich platformach handlowych jak Temu czy Shein.",
-      "pubDate": "Fri, 29 May 2026 13:44:08 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/3GQk9kpTURBXy85ZWZkMGE4MGY0NGViMDFlYmQ4YzQ5ZjEyNzUxOGVmZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T13:44:08.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
       "title": "Pracownik PGZ został zatrzymany pod zarzutem szpiegostwa",
       "link": "https://www.bankier.pl/wiadomosc/Pracownik-PGZ-zostal-zatrzymany-pod-zarzutem-szpiegostwa-9142307.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Pracownik jednego z zakładów Grupy PGZ został zatrzymany 27 maja pod zarzutem szpiegostwa na rzecz obcego państwa, a w piątek Sąd Okręgowy w Poznaniu postanowił o aresztowaniu go na trzy miesiące - poinformował wicepremier, szef MON Władysław Kosiniak-Kamysz.",
@@ -409,18 +505,6 @@
       "dateFormatted": "29 maja 2026"
     },
     {
-      "title": "Kolejne kontrakty w ramach SAFE. Te firmy podpisały umowy",
-      "link": "https://www.bankier.pl/wiadomosc/Kolejne-umowy-w-ramach-SAFE-podpisane-Te-firmy-podpisaly-umowy-9142292.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W piątek Agencja Uzbrojenia zawarła kolejne umowy w ramach unijnego mechanizmu SAFE – dotyczą dostawy terminali łączności satelitarnej oraz transporterów rozpoznawczych Kleszcz i opiewają na prawie 3 mld zł. Podpisano też kontrakty spoza unijnego programu, m.in. na samochody o dużej i średniej ładow",
-      "pubDate": "Fri, 29 May 2026 14:33:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/3/63d3f38fd915b3-948-567-30-30-970-581.jpg",
-      "dateISO": "2026-05-29T13:33:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
       "title": "Koniec tanich paczek spoza UE. Od 1 lipca nowa opłata za każdą przesyłkę",
       "link": "https://www.bankier.pl/wiadomosc/Koniec-tanich-paczek-spoza-UE-Od-1-lipca-nowa-oplata-za-kazda-przesylke-9142266.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Od 1 lipca towary kupowane na odległość w krajach spoza UE i przywożone w przesyłkach będą objęte tymczasowym cłem w wysokości 3 euro. Do tej pory przesyłki takie były zwolnione z cła na mocy unijnych przepisów.",
@@ -433,30 +517,6 @@
       "dateFormatted": "29 maja 2026"
     },
     {
-      "title": "Pakiet CPN nie na całe wakacje. Resort energii przekazał nowe informacje",
-      "link": "https://businessinsider.com.pl/finanse/do-kiedy-pakiet-cpn-ceny-paliw-nizej-nie-bedzie-decyzji-o-przedluzeniu-na-cale/0qqymnb",
-      "description": "Nie będzie decyzji o przedłużeniu pakietu CPN na całe wakacje — poinformował resort energii.",
-      "pubDate": "Fri, 29 May 2026 13:11:30 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Yr5k9kpTURBXy8zMWUyNDFiMWIxNmQ1ZWMwZmY2ZDg1OWYwZWZjYWMwMS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T13:11:30.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Gołębiewski w Pobierowie szykuje otwarcie. Kontrole wciąż trwają, decyzji brak",
-      "link": "https://businessinsider.com.pl/biznes/hotel-golebiewski-w-pobierowie-szykuje-otwarcie-kontrole-wciaz-trwaja/t7smqeq",
-      "description": "Największy hotel w Polsce, Gołębiewski w Pobierowie, ogłosił wielkie otwarcie na 26 czerwca. Od połowy maja przyjmuje rezerwacje, mimo że wciąż nie posiada pozwolenia na użytkowanie. W obiekcie trwają kontrole nadzoru budowlanego, a ich zakończenie jest kluczowe dla realizacji planów inwestora.",
-      "pubDate": "Fri, 29 May 2026 13:06:51 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Uerk9kpTURBXy85NjcxZjAzMjY0NjQxMjg0MmFlNjljYjY1MjBjNDY3ZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T13:06:51.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
       "title": "Rachunki za prąd będą prostsze. Sejm uchwalił ustawę dot. deregulacji w energetyce",
       "link": "https://www.bankier.pl/wiadomosc/Rachunki-za-prad-beda-prostsze-Sejm-uchwalil-ustawe-dot-deregulacji-w-energetyce-9142255.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Sejm w piątek uchwalił ustawę deregulującą niektóre przepisy dotyczące energetyki; przewidziano m.in. uproszczenie rachunków za energię dla gospodarstw domowych, czy liberalizację niektórych zasad obowiązujących w ciepłownictwie.",
@@ -466,18 +526,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/f/0/aabc5246c186ca-948-568-3-60-1191-714.jpg",
       "dateISO": "2026-05-29T13:05:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Polska inflacja na tle Europy. Oto w kogo ceny uderzyły najbardziej [MAPA]",
-      "link": "https://businessinsider.com.pl/gospodarka/dane-o-inflacji-w-europie-zaskakuja-polska-i-niemcy-na-czele-zmian-mapa/z9phkp4",
-      "description": "Ekonomistów poważnie zaskoczyły nie tylko polskie odczyty wskaźnika inflacji. Podobne zdumienie jest w Niemczech. Są jednak też kraje, w których wzrost cen przyśpieszył.",
-      "pubDate": "Fri, 29 May 2026 13:03:49 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/sIgk9kpTURBXy9jMGJmOWMwZmZjOWU5NmJkNzE0YzViZDc5YTAzNDYwYS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-05-29T13:03:49.000Z",
       "dateFormatted": "29 maja 2026"
     },
     {
@@ -538,18 +586,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/3/d/ae032f1fe11112-948-568-480-0-3333-2000.jpg",
       "dateISO": "2026-05-29T11:35:00.000Z",
-      "dateFormatted": "29 maja 2026"
-    },
-    {
-      "title": "Sprytna księgowa przez 16 lat przywłaszczyła 1,2 mln zł. W jaki sposób wpadła?",
-      "link": "https://www.bankier.pl/wiadomosc/Sprytna-ksiegowa-przelewala-publiczne-pieniadze-na-swoje-konto-Przez-16-lat-9142068.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Księgowa z okolic Legnicy wyprowadziła ze szkół i urzędu łącznie ponad 1,2 mln zł. Przez 16 lat przelewała należne im pieniądze na własne konto. Nieprawidłowości wykryła inna księgowa, zatrudniona w tym samym biurze za nią na zastępstwo. Teraz oszustka trafi do więzienia na cztery lata. Musi też zwr",
-      "pubDate": "Fri, 29 May 2026 12:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/f/cf5fd59756c17d-948-568-3-63-1197-718.jpg",
-      "dateISO": "2026-05-29T11:20:00.000Z",
       "dateFormatted": "29 maja 2026"
     },
     {
@@ -745,18 +781,6 @@
       "dateFormatted": "28 maja 2026"
     },
     {
-      "title": "Inwestor Wojtek bierze pod lupę wyniki Orlenu",
-      "link": "https://www.bankier.pl/wiadomosc/Spolka-tygodnia-Orlen-Najwieksza-firma-WIG20-pokazala-wyniki-9141015.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "W dzisiejszym odcinku mojego cyklu „Spółka tygodnia” wracamy do absolutnej wagi ciężkiej warszawskiego parkietu – Grupy Orlen. Po ubiegłotygodniowym unikaniu spadających noży w Modivo, tym razem przyglądamy się gigantowi, który w czwartek dosłownie zmiażdżył rynkowe oczekiwania. Jak wiecie, w tym cy",
-      "pubDate": "Thu, 28 May 2026 10:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/a/a/d6d3554bee7018-948-568-212-60-3306-1984.png",
-      "dateISO": "2026-05-28T09:30:00.000Z",
-      "dateFormatted": "28 maja 2026"
-    },
-    {
       "title": "Bitcoin spada do najniższego poziomu od sześciu tygodni po atakach USA i Iranu",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-ponizej-73-tys--do-6tygodniowego-minimum-1432123",
       "description": "",
@@ -829,5 +853,5 @@
       "dateFormatted": "23 maja 2026"
     }
   ],
-  "updatedAt": "2026-05-30T03:32:25.305Z"
+  "updatedAt": "2026-05-30T06:46:17.907Z"
 }
