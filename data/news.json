@@ -1,6 +1,90 @@
 {
   "articles": [
     {
+      "title": "Trwa festiwal rekordów na Wall Street. To już powoli staje się nudne",
+      "link": "https://www.bankier.pl/wiadomosc/Trwa-festiwal-rekordow-na-Wall-Street-To-juz-powoli-staje-sie-nudne-9144210.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Poniedziałkowa sesja na nowojorskich giełdach przyniosła kolejne nowe rekordy Dow Jonesa, S&P500 i Nasdaqa. Motorem napędowym hossy pozostają spółki korzystające na boomie na generatywną AI.",
+      "pubDate": "Mon, 1 Jun 2026 22:05:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/a/d/9012fd9b514e1e-948-568-7-0-2992-1795.jpg",
+      "dateISO": "2026-06-01T21:05:00.000Z",
+      "dateFormatted": "1 czerwca 2026"
+    },
+    {
+      "title": "USA nie stworzą kluczowego funduszu. Chciał go sam Donald Trump",
+      "link": "https://businessinsider.com.pl/gospodarka/chaos-w-bialym-domu-wladze-usa-rezygnuja-z-utworzenia-waznego-funduszu/tt4thh7",
+      "description": "Administracja USA planuje wycofać się z kontrowersyjnego pomysłu utworzenia funduszu rekompensacyjnego dla sojuszników Donalda Trumpa wartego 1,8 mld dol. — informuje portal Axios.",
+      "pubDate": "Mon, 01 Jun 2026 19:55:25 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/STKk9kpTURBXy80MzQwOGVhY2JkZmVhZTlhNjE5N2E3MTJlZGNkZjBkZi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-01T19:55:25.000Z",
+      "dateFormatted": "1 czerwca 2026"
+    },
+    {
+      "title": "Władimir Putin chce pokazać gospodarczą siłę. Otworzy \"rosyjskie Davos\"",
+      "link": "https://businessinsider.com.pl/gospodarka/wladimir-putin-otworzy-rosyjskie-davos-zabraknie-waznych-gosci/xkgmb5b",
+      "description": "Już w najbliższą środę, 3 czerwca, rozpocznie się 29. edycja Międzynarodowego Forum Ekonomicznego w Petersburgu (SPIEF). Impreza przez lata była nazywana \"rosyjskim Davos\" i stanowiła pomost między Kremlem a zachodnim biznesem, ale jego przedstawicieli teraz zabraknie.",
+      "pubDate": "Mon, 01 Jun 2026 19:29:37 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/x91k9kpTURBXy80NjFlOTllYjZiNjc3YTkxMmZlMTQ0ZmVjOTlkMTMzOC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-01T19:29:37.000Z",
+      "dateFormatted": "1 czerwca 2026"
+    },
+    {
+      "title": "Merz zwoła naradę państw E5, w tym Polski, by uzgodnić strategię przed szczytem NATO",
+      "link": "https://www.bankier.pl/wiadomosc/Merz-zwola-narade-panstw-E5-w-tym-Polski-by-uzgodnic-strategie-przed-szczytem-NATO-9144158.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Kanclerz Niemiec Friedrich Merz zamierza zwołać w czerwcu spotkanie przywódców Francji, Wielkiej Brytanii, Włoch i Polski, by uzgodnić strategię przed szczytem NATO i złagodzić napięcia w relacjach z USA - przekazała agencja Bloomberga.",
+      "pubDate": "Mon, 1 Jun 2026 20:13:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/5/a018942036a79d-948-568-0-82-2992-1795.jpg",
+      "dateISO": "2026-06-01T19:13:00.000Z",
+      "dateFormatted": "1 czerwca 2026"
+    },
+    {
+      "title": "Trump ogłosił zawieszenie broni między Izraelem i Hezbollahem",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-oglosil-zawieszenie-broni-miedzy-Izraelem-i-Hezbollahem-9144146.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump ogłosił w poniedziałek, że przywódcy Izraela i Hezbollahu zgodzili się wstrzymać walki w Libanie. Trump oznajmił też, że żadne izraelskie wojska nie pójdą do Bejrutu.",
+      "pubDate": "Mon, 1 Jun 2026 19:54:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/f/5997eca13c5db0-948-568-85-312-1579-947.jpg",
+      "dateISO": "2026-06-01T18:54:00.000Z",
+      "dateFormatted": "1 czerwca 2026"
+    },
+    {
+      "title": "Kolejne środki z KPO mogą trafić do Polski. Wiceminister wskazał termin",
+      "link": "https://businessinsider.com.pl/gospodarka/kolejne-srodki-z-kpo-moga-trafic-do-polski-wiceminister-wskazal-termin/00ncpfy",
+      "description": "Jest szansa, że w przyszłym tygodniu do Polski trafi kolejna transza pieniędzy z Krajowego Planu Odbudowy. Ma to być ok. 7 mld euro (ok. 29,6 mld zł) — informuje wiceminister funduszy i polityki regionalnej Jacek Karnowski.",
+      "pubDate": "Mon, 01 Jun 2026 18:36:06 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Olmk9kpTURBXy9lM2NmNjZkZjBlYTZmM2U3N2EyMGQyNTBhYTM2ZjIxYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-01T18:36:06.000Z",
+      "dateFormatted": "1 czerwca 2026"
+    },
+    {
+      "title": "Rosyjska gospodarka gwałtownie hamuje. \"Czołgi nie mają wartości konsumpcyjnej\"",
+      "link": "https://businessinsider.com.pl/gospodarka/wladimir-putin-zwolal-narade-rzad-nie-ma-nic-do-zaoferowania/efpw3gc",
+      "description": "W obliczu dotkliwych ukraińskich ataków dronowych na infrastrukturę krytyczną oraz impasu w rozmowach pokojowych prezydent Władimir Putin zwołał kolejną naradę gospodarczą. Eksperci są jednak bezlitośni wobec kondycji rosyjskiej gospodarki i wskazują, że jedynym rozwiązaniem jest zakończenie wojny.",
+      "pubDate": "Mon, 01 Jun 2026 18:35:13 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/VmZk9kpTURBXy83YTgzM2M2NGIwOWU0MGEzZTM0ZWM1NDU1NjQ4MzliYy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-01T18:35:13.000Z",
+      "dateFormatted": "1 czerwca 2026"
+    },
+    {
       "title": "InPost zwiększa inwestycje we Francji do 1,4 mld euro",
       "link": "https://www.bankier.pl/wiadomosc/InPost-zwieksza-inwestycje-we-Francji-do-1-4-mld-euro-9144132.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Grupa InPost poinformowała w poniedziałek, że zwiększy inwestycje we Francji do 1,4 mld euro, czyli o 500 mln euro do 2030 roku. Decyzję tę ogłoszono podczas 9. edycji szczytu Choose France w Wersalu pod Paryżem - konferencji inwestorów, w której brał udział prezes Grupy InPost Rafał Brzoska.",
@@ -13,6 +97,18 @@
       "dateFormatted": "1 czerwca 2026"
     },
     {
+      "title": "Rafał Brzoska ogłasza w Wersalu wielką inwestycję. \"Wyznaczamy nowe szlaki\"",
+      "link": "https://businessinsider.com.pl/firmy/inpost-zwieksza-inwestycje-we-francji-rafal-brzoska-na-szczycie-w-wersalu/qf6t410",
+      "description": "Grupa InPost poinformowała o zwiększeniu inwestycji we Francji do 2030 r. do 1,4 mld euro (ok. 5,93 mld zł).",
+      "pubDate": "Mon, 01 Jun 2026 18:16:01 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/C9Ak9kpTURBXy84ZjFmMDkwMWExODY0OWM5NjJlYjQ5ODdlOWYyOGVmOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-01T18:16:01.000Z",
+      "dateFormatted": "1 czerwca 2026"
+    },
+    {
       "title": "Allegro dostanie 1 mld zł na rozwój innowacji AI w handlu elektronicznym",
       "link": "https://www.bankier.pl/wiadomosc/EBI-przyznalo-Allegro-1-mld-zl-na-rozwoj-innowacji-AI-w-handlu-elektronicznym-9144112.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Europejski Bank Inwestycyjny przyznał Allegro 1 mld zł na rozwój innowacji AI w handlu elektronicznym - podało EBI i Allegro w komunikacie prasowym. Wskazano, że współpraca z Allegro to największy program badawczo-rozwojowy wsparty przez grupę EBI w sektorze prywatnym w Polsce.",
@@ -22,6 +118,18 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/0/e/4e2f979c9a4e2a-908-545-65-17-908-545.jpg",
       "dateISO": "2026-06-01T18:08:00.000Z",
+      "dateFormatted": "1 czerwca 2026"
+    },
+    {
+      "title": "Donald Trump ogłasza przełom. Izrael i Hezbollah wstrzymują walki w Libanie",
+      "link": "https://businessinsider.com.pl/wiadomosci/izrael-i-hezbollah-wstrzymuja-walki-w-libanie-donald-trump-wojska-zostaly-zawrocone/4jdq1hf",
+      "description": "Donald Trump ogłosił w poniedziałek, że przywódcy Izraela i Hezbollahu zgodzili się wstrzymać walki w Libanie.",
+      "pubDate": "Mon, 01 Jun 2026 18:01:53 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/41Pk9kpTURBXy83Yzg2N2ZmNjkxNjgwMjU5ZTNmNDE4OWZhMjkxODhjOC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-01T18:01:53.000Z",
       "dateFormatted": "1 czerwca 2026"
     },
     {
@@ -61,14 +169,14 @@
       "dateFormatted": "1 czerwca 2026"
     },
     {
-      "title": "Cena ropy rośnie. Iran zawiesza komunikację z USA",
+      "title": "Cena ropy rośnie. Iran zawiesza rozmowy z USA, Donald Trump ogłasza przełom w Libanie",
       "link": "https://businessinsider.com.pl/gielda/wiadomosci/cena-ropy-rosnie-po-decyzji-iranu-donald-trump-odpowiedzial/kgk7yle",
-      "description": "Cena ropy rośnie w poniedziałek do 96 dol. po tym, jak Iran poinformował, że zawiesza komunikację z USA.",
+      "description": "Cena ropy rośnie w poniedziałek do 95 dol. po tym, jak Iran poinformował, że zawiesza komunikację z USA.",
       "pubDate": "Mon, 01 Jun 2026 17:23:48 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/zdCk9kpTURBXy9jOGFmNWMxOWQ5MzA1NDY4Y2VkNzJiODQ0NGE3NDFmMS5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://ocdn.eu/pulscms-transforms/1/eFhk9kpTURBXy8zMTI1NmE1OWQ1MWUyMGVkZGE0NGI5YmJiNDU2NmVkZC5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-06-01T17:23:48.000Z",
       "dateFormatted": "1 czerwca 2026"
     },
@@ -94,18 +202,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/2/0/15502b0415f97c-948-568-8-44-1592-955.jpg",
       "dateISO": "2026-06-01T17:12:00.000Z",
-      "dateFormatted": "1 czerwca 2026"
-    },
-    {
-      "title": "Portfel zamówień Feerum w branży maszyn i urządzeń przemysłu rolno-spożywczego wynosi 133,9 mln zł",
-      "link": "https://www.bankier.pl/wiadomosc/Portfel-zamowien-Feerum-w-branzy-maszyn-i-urzadzen-przemyslu-rolno-spozywczego-wynosi-133-9-mln-zl-9143985.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Aktualny poziom zakontraktowanych zamówień na produkty Feerum w zakresie branży maszyn i urządzeń przemysłu rolno-spożywczego wynoszą około 133,9 mln zł - podała spółka w raporcie kwartalnym.",
-      "pubDate": "Mon, 1 Jun 2026 17:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/0/f/c054fce945dcfc-thumb-1000.jpg",
-      "dateISO": "2026-06-01T16:50:00.000Z",
       "dateFormatted": "1 czerwca 2026"
     },
     {
@@ -181,15 +277,15 @@
       "dateFormatted": "1 czerwca 2026"
     },
     {
-      "title": "Irańscy negocjatorzy zawieszają rozmowy z USA. Trump: Przerwa dobrze zrobi",
-      "link": "https://www.bankier.pl/wiadomosc/Iranscy-negocjatorzy-zawieszaja-rozmowy-z-USA-9143666.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Irańscy negocjatorzy przestają komunikować się z USA z powodu ataków na Liban, a dalszych rozmów pokojowych nie będzie, dopóki nie zostaną spełnione żądania Iranu ws. wstrzymania izraelskich operacji w Libanie i Strefie Gazy - podała w poniedziałek półoficjalna irańska agencja Tasnim.",
-      "pubDate": "Mon, 1 Jun 2026 16:47:00 +0100",
+      "title": "KE: 5,9 mld euro z pierwszej transzy pożyczki dla Ukrainy ma być na drony",
+      "link": "https://www.bankier.pl/wiadomosc/KE-5-9-mld-euro-z-pierwszej-transzy-pozyczki-dla-Ukrainy-ma-byc-na-drony-9143672.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Komisja Europejska planuje wypłacić Ukrainie w czerwcu pierwszą transzę w wysokości 9,1 mld euro w ramach pakietu pożyczkowego o wartości 90 mld euro. Z tej kwoty 5,9 mld euro ma zostać przeznaczone na cele obronne, w szczególności zakup dronów, a pozostałe 3,2 mld euro na wsparcie budżetowe.",
+      "pubDate": "Mon, 1 Jun 2026 16:32:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/3/f21d7c51c7676c-948-568-0-182-3840-2303.jpg",
-      "dateISO": "2026-06-01T15:47:00.000Z",
+      "image": "http://galeria.bankier.pl/p/2/b/347475930ec69c-948-568-0-90-4000-2399.jpg",
+      "dateISO": "2026-06-01T15:32:00.000Z",
       "dateFormatted": "1 czerwca 2026"
     },
     {
@@ -397,18 +493,6 @@
       "dateFormatted": "1 czerwca 2026"
     },
     {
-      "title": "Wielka rewolucja w armii do 2030 roku. Generałowie podsumowali kluczowy krok",
-      "link": "https://www.bankier.pl/wiadomosc/Wielka-rewolucja-w-armii-do-2030-roku-Generalowie-podsumowali-kluczowy-krok-9143528.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "SAFE to inwestycja w bezpieczeństwo państwa, zakupy doprowadzą do skokowego wzrostu zdolności operacyjnych polskiego wojska - ocenili generałowie WP podsumowując pierwszy etap wdrażania tego programu . Według nich, na zawartych umowach skorzystają przede wszystkim wojska lądowe, WOT i cyberwojska.",
-      "pubDate": "Mon, 1 Jun 2026 14:24:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/c/83c6259246ec89-948-568-38-0-1194-716.jpg",
-      "dateISO": "2026-06-01T13:24:00.000Z",
-      "dateFormatted": "1 czerwca 2026"
-    },
-    {
       "title": "Nowy limit podatku PCC. Szykują się duże ułatwienia dla Polaków",
       "link": "https://www.bankier.pl/wiadomosc/Nowy-limit-podatku-PCC-Szykuja-sie-duze-ulatwienia-dla-Polakow-9143524.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "MF proponuje podniesienie limitu zwolnienia z podatku PCC do 3 tys. zł z 1 tys. zł - podał resort finansów w projekcie ustawy.",
@@ -517,6 +601,18 @@
       "dateFormatted": "1 czerwca 2026"
     },
     {
+      "title": "Wielki zwrot w sprawie Poczty Polskiej. Chodzi o karę za wybory kopertowe",
+      "link": "https://www.bankier.pl/wiadomosc/Wielki-zwrot-w-sprawie-Poczty-Polskiej-Chodzi-o-kare-za-wybory-kopertowe-9143487.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Do Naczelnego Sądu Administracyjnego złożono skargę kasacyjną od wyroku WSA z początku marca br. uchylającego decyzję prezesa UODO o 27 mln zł kary dla Poczty Polskiej w związku z wyborami korespondencyjnymi - poinformował w poniedziałek PAP prezes tego Urzędu Mirosław Wróblewski.",
+      "pubDate": "Mon, 1 Jun 2026 13:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/5/d86961e1481ae9-945-560-0-0-3174-1904.jpg",
+      "dateISO": "2026-06-01T12:36:00.000Z",
+      "dateFormatted": "1 czerwca 2026"
+    },
+    {
       "title": "Niepokojące kosmiczne manewry Rosji. Gotowa niszczyć europejskie satelity",
       "link": "https://businessinsider.com.pl/technologie/nowe-technologie/rosyjskie-satelity-sledza-satelite-firmy-iceye-zalozonej-i-kierowanej-przez-polaka/e5er24e",
       "description": "Niedawno pisaliśmy, że Rosja rozmieszcza na orbicie niewielkie satelity, które podążają za satelitami USA. Tym razem celem są jednak satelity europejskie. Co najmniej cztery rosyjskie satelity zmieniły w ostatnim tygodniu swoje orbity tak, żeby dopasować je do orbity fińskiego, komercyjnego satelity",
@@ -529,18 +625,6 @@
       "dateFormatted": "1 czerwca 2026"
     },
     {
-      "title": "Legenda YouTube rzuca wyzwanie big techom. Lokalne środowisko AI całkowicie za darmo",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/odysseus-to-lokalna-bron-przeciwko-big-techom-pewdiepie-rzuca-rekawice-chatgpt/vv28yg1",
-      "description": "Felix Kjellberg, znany miliardom internautów jako PewDiePie przedstawił projekt, który może na dobre zmienić nasze podejście do sztucznej inteligencji. Nosi on nazwę Odysseus i nie jest to ani kolejny model językowy, ani kolejna płatna subskrypcja w stylu ChatGPT czy Claude. To w pełni lokalne, open",
-      "pubDate": "Mon, 01 Jun 2026 12:19:45 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/i8Xk9kpTURBXy9kYmQzY2UyNjkzMjlkMzUwY2Y3MDVkMGQ0NDAzMGQ2MC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-01T12:19:45.000Z",
-      "dateFormatted": "1 czerwca 2026"
-    },
-    {
       "title": "Scenariusz blokady Bałtyku. Tyle mogłaby stracić Rosja",
       "link": "https://www.bankier.pl/wiadomosc/NATO-9143467.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Rosja mogłaby stracić 90 mld dolarów rocznie, jeśli państwa NATO zdecydowałyby się na zamknięcie Bałtyku lub 30 mld dolarów, w przypadku częściowej blokady – wynika z ekspertyzy firmy analitycznej Politea dla szwedzkich sił zbrojnych.",
@@ -550,42 +634,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/3/fc151ef9773a7d-948-568-22-164-2977-1786.jpg",
       "dateISO": "2026-06-01T12:13:00.000Z",
-      "dateFormatted": "1 czerwca 2026"
-    },
-    {
-      "title": "Polska olimpijka nie dostała pieniędzy od PKOl. \"Zostałam pominięta\"",
-      "link": "https://businessinsider.com.pl/wiadomosci/miala-dostac-50-tys-zl-w-kryptowalutach-polska-olimpijka-czuje-sie-wykorzystana/b7kgkc6",
-      "description": "Polska sportsmenka — florecistka Julia Walczyk-Klimaszyk — nie dostała obiecanych przez Polski Komitet Olimpijski (PKOl) 50 tys. zł w ramach programu \"Mamy Olimpijki\". Pieniądze miała otrzymać w kryptowalutach na konto w aplikacji Zondacrypto. — Czuję, że mój wizerunek został wykorzystany — mówi oli",
-      "pubDate": "Mon, 01 Jun 2026 12:10:21 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/N_Gk9kpTURBXy9mYTk1ZjZhYThmZmM5NjM1NjY0Yjg1OTlhMjZlMDU3MC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-01T12:10:21.000Z",
-      "dateFormatted": "1 czerwca 2026"
-    },
-    {
-      "title": "Zawody odporne na sztuczną inteligencję. Ekspert wskazuje, co je chroni",
-      "link": "https://businessinsider.com.pl/praca/zawody-odporne-na-sztuczna-inteligencje-ekspert-wskazuje-co-je-chroni/f0nv14d",
-      "description": "Radiolodzy, programiści, piloci — to właśnie te profesje miały według wielu prognoz jako pierwsze paść ofiarą sztucznej inteligencji. A jednak po niemal czterech latach obecności AI w głównym nurcie społeczeństwa te zawody nadal mają się dobrze.",
-      "pubDate": "Mon, 01 Jun 2026 12:00:32 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/f6nk9kpTURBXy9kODY1NGE5OTljYWE5ZmZmYzgzNTM1YjNiNDdkYTUyOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-01T12:00:32.000Z",
-      "dateFormatted": "1 czerwca 2026"
-    },
-    {
-      "title": "Wtedy najlepiej kupić węgiel. Eksperci wskazują konkretny termin",
-      "link": "https://businessinsider.com.pl/finanse/tyle-teraz-kosztuje-wegiel-w-polsce-wiemy-kiedy-warto-go-kupic/2295yg6",
-      "description": "Zdaniem ekspertów najlepszym czasem na zakup węgla na zimę pozostaje okres od kwietnia do czerwca.",
-      "pubDate": "Mon, 01 Jun 2026 11:55:12 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/To5k9kqTURBXy84ZjQ0N2U5Njc2OTA1NTYwMmI5NjZmYzQxMDY0ODUyNS5qcGVnkZMCzQSwAN4AAaEwAQ",
-      "dateISO": "2026-06-01T11:55:12.000Z",
       "dateFormatted": "1 czerwca 2026"
     },
     {
@@ -613,30 +661,6 @@
       "dateFormatted": "1 czerwca 2026"
     },
     {
-      "title": "Eksport paliw wstrzymany. Decyzja Kremla uderzy w światowe ceny?",
-      "link": "https://www.bankier.pl/wiadomosc/Eksport-paliw-wstrzymany-Decyzja-Kremla-uderzy-w-swiatowe-ceny-9143416.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rosyjski rząd zadecydował w poniedziałek o wstrzymaniu eksportu paliwa lotniczego do 30 listopada, o czym poinformowano w oficjalnym komunikacie. Decyzja zapadła po wiosennej kampanii wzmożonych ukraińskich ataków na rosyjskie rafinerie.",
-      "pubDate": "Mon, 1 Jun 2026 12:21:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/d/fe34ef179cb433-948-568-57-57-1843-1105.jpg",
-      "dateISO": "2026-06-01T11:21:00.000Z",
-      "dateFormatted": "1 czerwca 2026"
-    },
-    {
-      "title": "Władimir Putin wydaje krocie na zagranicznych nauczycieli swoich synów. Mają brzmieć jak \"wykształceni Europejczycy\"",
-      "link": "https://businessinsider.com.pl/finanse/dzieci-putina-maja-brzmiec-jak-europejczycy-tyle-wydal-na-ich-ksztalcenie/pmdk9m7",
-      "description": "Tylko w styczniu przywódca Rosji wydał 3,5 mln rubli (ok. 177 tys. zł) na nauczycieli języków dla swoich dwóch synów: Iwana i Władimira — informuje Bild.",
-      "pubDate": "Mon, 01 Jun 2026 11:13:56 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/cBNk9kpTURBXy9lY2VmOWUxOWNhZDNlMmM2NmQ3MTIzZDA4MjE1YTFjMS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-01T11:13:56.000Z",
-      "dateFormatted": "1 czerwca 2026"
-    },
-    {
       "title": "Trump odwrócił wzrok, co z Unią? Prezydent Litwy ujawnia kulisy układu z Moskwą",
       "link": "https://www.bankier.pl/wiadomosc/Trump-odwrocil-wzrok-co-z-Unia-Prezydent-Litwy-ujawnia-kulisy-ukladu-z-Moskwa-9143402.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Powtarzające się apele o współpracę z Rosją nie odzwierciedlają potrzeb bezpieczeństwa Europy – oświadczył w poniedziałek prezydent Litwy Gitanas Nauseda, przemawiając podczas wiosennej sesji Zgromadzenia Parlamentarnego NATO, która odbywa się w litewskim parlamencie.",
@@ -658,18 +682,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/0/1/bc06ab4247dda1-948-568-0-267-3963-2377.jpg",
       "dateISO": "2026-06-01T10:58:00.000Z",
-      "dateFormatted": "1 czerwca 2026"
-    },
-    {
-      "title": "Podatkowe czystki. Skarbówka ujawnia: z budżetu państwa \"wyparowały\" miliardy",
-      "link": "https://www.bankier.pl/wiadomosc/Podatkowe-czystki-Skarbowka-ujawnia-z-budzetu-panstwa-wyparowaly-miliardy-9143378.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Organy skarbowe skierowały 245 zawiadomień do prokuratury oraz 126 zawiadomień do Rzecznika Dyscypliny Finansów Publicznych w wyniku działań audytowych – poinformowało w poniedziałek Ministerstwo Finansów.",
-      "pubDate": "Mon, 1 Jun 2026 11:42:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/3/8ecb82fbc60cbc-948-568-103-218-4082-2449.jpg",
-      "dateISO": "2026-06-01T10:42:00.000Z",
       "dateFormatted": "1 czerwca 2026"
     },
     {
@@ -793,5 +805,5 @@
       "dateFormatted": "28 maja 2026"
     }
   ],
-  "updatedAt": "2026-06-01T17:41:51.597Z"
+  "updatedAt": "2026-06-01T21:33:59.470Z"
 }
