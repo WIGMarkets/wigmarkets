@@ -1,15 +1,339 @@
 {
   "articles": [
     {
-      "title": "Infrastruktura terminalowa Kernela w Czarnomorsku uszkodzona w wyniku ataku dronów",
+      "title": "Dziesiątki miliardów dolarów na służby migracyjne. Ta decyzja to wielki sukces Donalda Trumpa",
+      "link": "https://businessinsider.com.pl/finanse/70-mld-dol-na-sluzby-migracyjne-ta-decyzja-to-wielki-sukces-trumpa/s6v9h8r",
+      "description": "Amerykański Senat opowiedział się za wynoszącym łącznie 70 mld dol. finansowaniem dla służb migracyjnych. Zgodnie z ustawą odpowiednie formacje mają otrzymywać fundusze regularnie do końca kadencji Donalda Trumpa.",
+      "pubDate": "Fri, 05 Jun 2026 16:26:18 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/a8Ek9kpTURBXy84ZGEyOTc2Y2RiMzY0MGZjYzc0MTZhNzZiZDJhM2U0My5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-05T16:26:18.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Akcjonariusz chce sprzedać w ABB 160 tys. akcji spółki Kolejkowo",
+      "link": "https://www.bankier.pl/wiadomosc/Akcjonariusz-chce-sprzedac-w-ABB-160-tys-akcji-spolki-Kolejkowo-9146807.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "JFP Fundacja Rodzinna, akcjonariusz spółki Kolejkowo, chce w procesie przyspieszonej budowy księgi popytu zaoferować do sprzedaży 160 tys. akcji spółki - podało Kolejkowo w komunikacie.",
+      "pubDate": "Fri, 5 Jun 2026 17:22:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/4/9/e4957de41a0525-948-568-22-110-4399-2639.jpg",
+      "dateISO": "2026-06-05T16:22:00.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Doradca najwyższego przywódcy Iranu o rozmowach z USA: 24 mld dolarów są testem zaufania",
+      "link": "https://businessinsider.com.pl/wiadomosci/usa-wejda-w-ciemny-korytarz-doradca-najwyzszego-przywodcy-iranu-ostrzega/q2knvh5",
+      "description": "Potencjalne porozumienie pokojowe między Stanami Zjednoczonymi a Iranem zależy od zgody administracji Trumpa na uwolnienie zamrożonych irańskich aktywów o wartości 24 miliardów dolarów — powiedział w piątek CNN Mohsen Rezaei, doradca wojskowy najwyższego przywódcy Iranu ajatollaha Modżtaby Chameneie",
+      "pubDate": "Fri, 05 Jun 2026 16:17:04 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/5RYk9kpTURBXy9jNTJiN2FhY2Y1MzZkYzhiY2QwNGE3NWMwNGFkNzE2My5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-05T16:17:04.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Mocne spadki na GPW. „Payrollsy” okazały się stanowczo za dobre",
+      "link": "https://www.bankier.pl/wiadomosc/Mocne-spadki-na-GPW-Payrollsy-okazaly-sie-stanowczo-za-dobre-9146786.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Do już wcześniej kiepskiego sentymentu dołożyły się zdecydowanie zbyt dobre dane z amerykańskiego rynku pracy, co przywróciło obawy przed podwyżką stóp procentowych w Rezerwie Federalnej.",
+      "pubDate": "Fri, 5 Jun 2026 17:10:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/c/0/52084439f6661c-948-568-40-30-3960-2375.jpg",
+      "dateISO": "2026-06-05T16:10:00.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Gamivo kupiło 127.629 akcji własnych",
+      "link": "https://www.bankier.pl/wiadomosc/Gamivo-kupilo-127-629-akcji-wlasnych-9146797.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "W odpowiedzi na zaproszenie do składania ofert sprzedaży akcji Gamivo złożono oferty na sprzedaż 1.536.572 akcji. Stopa redukcji wyniosła 91,69 proc. - poinformowała spółka w komunikacie. Gamivo nabyło bezpośrednio 127.629 akcji własnych, stanowiących 7,3 proc. w kapitale zakładowym i ogólnej liczbi",
+      "pubDate": "Fri, 5 Jun 2026 17:04:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/b/0/1a402daa606bfe-948-568-0-320-3916-2350.jpg",
+      "dateISO": "2026-06-05T16:04:00.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Alarm na pokładzie ISS. Astronauci w pełnej gotowości do awaryjnej ewakuacji",
+      "link": "https://www.bankier.pl/wiadomosc/Alarm-na-pokladzie-ISS-Astronauci-w-pelnej-gotowosci-do-awaryjnej-ewakuacji-9146793.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "NASA poleciła astronautom przebywającym na Międzynarodowej Stacji Kosmicznej (ISS), aby schronili się w swoim statku kosmicznym na czas piątkowych napraw w rosyjskim segmencie stacji, doświadczającym wycieku powietrza. Astronauci mają też przygotować się do potencjalnej ewakuacji - podał Reuters.",
+      "pubDate": "Fri, 5 Jun 2026 17:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/b/56366a7304d64f-948-567-0-25-1000-599.jpg",
+      "dateISO": "2026-06-05T16:00:00.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Barometr WTO idzie w dół. Globalny handel towarami zaczyna hamować",
+      "link": "https://www.bankier.pl/wiadomosc/Barometr-WTO-idzie-w-dol-Globalny-handel-towarami-zaczyna-hamowac-9146789.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Światowa Organizacja Handlu ogłosiła w piątek, że pojawiły się oznaki wskazujące na możliwe spowolnienie globalnego wzrostu handlu towarami, choć w pierwszej połowie 2026 r. wykazał on odporność w obliczu powszechnych zakłóceń wywołanych konfliktem na Bliskim Wschodzie.",
+      "pubDate": "Fri, 5 Jun 2026 16:55:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/b/c6a8d495edef15-948-568-0-153-1920-1151.jpg",
+      "dateISO": "2026-06-05T15:55:00.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Kurs EOS traci 11%, w bessie",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/kurs-eos-traci-11-w-bessie-1443712",
+      "description": "",
+      "pubDate": "2026-06-05 15:50:05",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/LYNXNPEC4I1KY_M.jpg",
+      "dateISO": "2026-06-05T15:50:05.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Kreml ma problem po atakach Ukrainy. \"Sprzedaż benzyny zawieszona\"",
+      "link": "https://businessinsider.com.pl/wiadomosci/kryzys-paliwowy-na-krymie-sprzedaz-benzyny-zawieszona/jgzlrp0",
+      "description": "Władze anektowanego Krymu wstrzymały w czwartek sprzedaż benzyny i wydawanie bonów paliwowych.",
+      "pubDate": "Fri, 05 Jun 2026 15:43:07 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/58Nk9kpTURBXy8wOTVmM2U4YTc1MmMxMDI4YjIzZThjNmU5OGY3OTFjYi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-05T15:43:07.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Zupełnie odmienili dawny, zniszczony PGR. Gospodarstwo ma prawie 2 tys. ha",
+      "link": "https://businessinsider.com.pl/gospodarka/ze-zniszczonego-pgr-u-zrobili-wizytowke-innowacyjne-gospodarstwo-w-juchowie/c14r82q",
+      "description": "W Juchowie (woj. zachodniopomorskie) na terenie dawnego PGR-u powstało biodynamiczne gospodarstwo, które może być traktowane jako wizytówka na skalę polską.",
+      "pubDate": "Fri, 05 Jun 2026 15:09:55 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/41Pk9kpTURBXy9iMjI4ZTlkOTEyZTViNTcwZGI3ZWNhMmQ4NmRkNzFhMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-05T15:09:55.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Kurs Ethereum traci 10%, na rynku niedźwiedzia",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/kurs-ethereum-traci-10-na-rynku-niedzwiedzia-1443680",
+      "description": "",
+      "pubDate": "2026-06-05 15:03:06",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/LYNXMPEA7A0O3_M.jpg",
+      "dateISO": "2026-06-05T15:03:06.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Prasa w Ukrainie filtruje głos z Warszawy. Odezwa Kosiniaka-Kamysza bez echa w Kijowie",
+      "link": "https://www.bankier.pl/wiadomosc/Prasa-w-Ukrainie-filtruje-glos-z-Warszawy-Odezwa-Kosiniaka-Kamysza-bez-echa-w-Kijowie-9146768.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Apel wicepremiera, szefa MON Władysława Kosiniaka-Kamysza do władz Ukrainy o rewizję decyzji ws. nazwania jednostki wojskowej imieniem bohaterów UPA opublikowały nieliczne media w Ukrainie. Nie znalazł się on w serwisach największych ukraińskich agencji informacyjnych.",
+      "pubDate": "Fri, 5 Jun 2026 15:59:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/0/925b24b4512e7f-948-568-455-46-1044-626.jpg",
+      "dateISO": "2026-06-05T14:59:00.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "\"Irańska pułapka\" ciągle grozi konsekwencjami dla rynków finansowych",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/niedobory-ropy-przez-dluzszy-czas-oznaczaja-umiarkowana-recesje-w-europie/h6pn9rc",
+      "description": "\"Rynek będzie boleśnie przeciskał się przez kolejne wąskie gardła światowych łańcuchów dostaw. Prawdopodobne jest, że inwestorzy powinni przygotować się na lawinę spadającą w zwolnionym tempie, a nie na widowiskowe załamanie czy kryzys\" — ostrzega analityk rynkowy Kamil Szczepański.",
+      "pubDate": "Fri, 05 Jun 2026 14:50:53 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/XT-k9kpTURBXy81OTU3YjA4MmQyMzM3Y2EwMTAxYjRmNzQzMjIyODE3Yy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-05T14:50:53.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Nocny maraton w Waszyngtonie. Senat zabezpieczył miliardy dla ICE na lata",
+      "link": "https://www.bankier.pl/wiadomosc/Nocny-maraton-w-Waszyngtonie-Senat-zabezpieczyl-miliardy-dla-ICE-na-lata-9146762.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Senat USA w piątek nad ranem przegłosował finansowanie w wysokości 70 mld dolarów dla służb migracyjnych do końca kadencji prezydenta Donalda Trumpa. Teraz ustawa trafi do ostatecznego przyjęcia przez Izbę Reprezentantów.",
+      "pubDate": "Fri, 5 Jun 2026 15:45:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/7/91519797a555a4-948-568-0-118-4725-2834.jpg",
+      "dateISO": "2026-06-05T14:45:00.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Przez 30 lat Polacy zaoszczędzili z Auchan 2,6 biliona. Licznik wciąż rośnie.",
+      "link": "https://businessinsider.com.pl/lifestyle/przez-30-lat-polacy-zaoszczedzili-z-auchan-26-biliona-licznik-wciaz-rosnie/bk35p61",
+      "description": "Ponad 2,6 biliona złotych zostało w portfelach Polaków dzięki zakupom w Auchan przez 30 lat obecności sieci w Polsce. W oparciu o model gospodarstwa domowego powstał licznik oszczędności, który pokazuje, że to nie pojedyncze decyzje, lecz miliony codziennych wyborów – promocji, tańszych produktów i ",
+      "pubDate": "Fri, 05 Jun 2026 14:42:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/TLUk9kpTURBXy83ODc3NTQ3NjEyZWZlNTI3MTc1MDdkMTY1Yzk3NjkwNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-05T14:42:00.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "2 miliony nowych milionerów. Zarobili na giełdzie",
+      "link": "https://businessinsider.com.pl/finanse/w-co-inwestuja-milionerzy-rosnie-przepasc-miedzy-bogatymi/gl9mej9",
+      "description": "Mocne wzrosty na giełdach stworzyły w zeszłym roku na całym świecie prawie 2 mln nowych milionerów.",
+      "pubDate": "Fri, 05 Jun 2026 14:38:03 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/_zDk9kpTURBXy8wNTgzNzA1NmVmMzY1MzY5NjcwNWJjZWM2ZmQ0ZmIwYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-05T14:38:03.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Kryzys dyplomatyczny wokół Zełenskiego i UPA. Budanow z misją w Polsce",
+      "link": "https://www.bankier.pl/wiadomosc/Kryzys-dyplomatyczny-wokol-Zelenskiego-i-UPA-Budanow-z-misja-w-Polsce-9146759.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W ciągu najbliższych godzin w Warszawie szef kancelarii prezydenta Ukrainy Kyryło Budanow ma spotkać się z szefem prezydenckiego Biura Polityki Międzynarodowej Marcinem Przydaczem - dowiedziała się PAP ze źródeł związanych z Pałacem Prezydenckim.",
+      "pubDate": "Fri, 5 Jun 2026 15:38:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/c/0132c5cab84b1b-948-568-60-90-2940-1763.jpg",
+      "dateISO": "2026-06-05T14:38:00.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Cios w kremlowską cenzurę. Apple usuwa państwowy komunikator z App Store",
+      "link": "https://www.bankier.pl/wiadomosc/Cios-w-kremlowska-cenzure-Apple-usuwa-panstwowy-komunikator-z-App-Store-9146754.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Amerykański gigant technologiczny Apple poinformował w piątek, że usunął rosyjski państwowy komunikator Max ze swojego sklepu z aplikacjami App Store. Koncern tłumaczy te decyzję sankcjami, nie precyzując, o które konkretnie kary chodzi.",
+      "pubDate": "Fri, 5 Jun 2026 15:32:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/0/c3052dc34d6671-948-568-0-400-4000-2399.jpg",
+      "dateISO": "2026-06-05T14:32:00.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Dlaczego stopy procentowe w Polsce nie spadają? NBP opublikował wnioski z posiedzenia",
+      "link": "https://businessinsider.com.pl/gospodarka/stopy-procentowe-w-polsce-spadna-rpp-wskazuje-najwazniejsze-kwestie/mwfv42f",
+      "description": "\"Uwzględniając różne scenariusze co do poziomu cen ropy naftowej i działań osłonowych rządu w zakresie cen paliw – w najbliższych miesiącach możliwy jest dalszy wzrost inflacji\" - czytamy w protokole RPP, który ujrzał światło dzienne w piątek.",
+      "pubDate": "Fri, 05 Jun 2026 14:17:16 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/zN2k9kpTURBXy8yZGJiODM0ZDgyZWIwYzFjYjFjZjZhZTQzNjQ4ZWZjNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-05T14:17:16.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Grecja planuje 15% podatek od zysków kapitałowych z kryptowalut",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/grecja-planuje-15-podatek-od-zyskow-kapitalowych-z-kryptowalut-93CH-1443643",
+      "description": "",
+      "pubDate": "2026-06-05 14:13:57",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-06-05T14:13:57.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Kolejne zgody Ukrainy na ekshumacje. Bohaterowie 1939 roku zostaną godnie pochowani",
+      "link": "https://www.bankier.pl/wiadomosc/Kolejne-zgody-Ukrainy-na-ekshumacje-Bohaterowie-1939-roku-zostana-godnie-pochowani-9146740.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ukraina wydała oficjalną zgodę na przeprowadzenie prac ekshumacyjnych na lwowskim Hołosku - poinformował w piątek Instytut Pamięci Narodowej.",
+      "pubDate": "Fri, 5 Jun 2026 14:54:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/5/218ffa8e3f6e9b-948-568-57-79-4507-2704.jpg",
+      "dateISO": "2026-06-05T13:54:00.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Ten start-up posprząta twoje mieszkanie za darmo — jeśli pozwolisz, by AI patrzyło",
+      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/nowy-jork-przyciaga-darmowym-sprzataniem-firma-zbiera-dane-dla-ai/gbsrw3t",
+      "description": "W Nowym Jorku, gdzie niemal nic nie jest za darmo, start-up o nazwie shift oferuje sprzątanie mieszkania za darmo.",
+      "pubDate": "Fri, 05 Jun 2026 13:47:23 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/at8k9kpTURBXy8yMWJmYTQ3YWQ2YWY0YjM2N2M2MDkwMjdhZjU1OGY0MS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-05T13:47:23.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "W co inwestować? Raport z rynku akcji, obligacji i nieruchomości",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/w-co-inwestowac-w-2026-obligacje-nieruchomosci-czy-akcje/p6ydcry",
+      "description": "Pierwsza połowa 2026 r. była pod znakiem wysokich wycen, napięć geopolitycznych, drogiej energii i niepewności co do stóp procentowych. Akcje zachowały potencjał, obligacje mogą być atrakcyjne, a w nieruchomościach można szukać stabilizacji.",
+      "pubDate": "Fri, 05 Jun 2026 13:34:57 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/j0ok9kpTURBXy9kNTQ1OTQ4MGVhYjM4ZGQzNGQ3NjM5MWU1MzNmODlhYS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-05T13:34:57.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Sensacja w payrollsach. Z amerykańskim rynkiem pracy jednak nie jest tak źle?",
+      "link": "https://www.bankier.pl/wiadomosc/Dane-z-amerykanskiego-rynku-pracy-w-maju-2026-byly-dwukrotnie-lepsze-od-oczekiwan-9146722.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Majowy raport z rynku pracy USA pokazał dwukrotnie wyższy od oczekiwań wzrost liczby etatów w sektorach pozarolniczych – poinformowało rządowe Biuro Statystyki Pracy.",
+      "pubDate": "Fri, 5 Jun 2026 14:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/8/b/4de187e2de9b24-948-568-142-0-2812-1687.jpg",
+      "dateISO": "2026-06-05T13:30:00.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Wojenne straty ukraińskiego giganta z GPW. Rosjanie uderzyli w terminale zbożowe Kernela",
       "link": "https://www.bankier.pl/wiadomosc/Infrastruktura-terminalowa-Kernela-w-Czarnomorsku-uszkodzona-w-wyniku-ataku-dronow-9146728.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Infrastruktura terminalowa ukraińskiego Kernel Holding w porcie Czornomorsk uległa zniszczeniu w wyniku rosyjskiego ataku dronów wymierzonego w region - poinformowała notowana na warszawskiej giełdzie spółka. Kernel prowadzi obecnie działania porządkowe oraz ocenia zakres szkód i związanych z nimi s",
       "pubDate": "Fri, 5 Jun 2026 14:30:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/0/9/544f9477d70d16-948-568-0-130-2000-1199.jpg",
+      "image": "http://galeria.bankier.pl/p/0/9/544f9477d70d16-948-568-0-130-2000-1199.jpg",
       "dateISO": "2026-06-05T13:30:00.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Nie będziesz musiał oddawać butelek w sklepie. Na osiedlach pojawią się specjalne magazyny",
+      "link": "https://businessinsider.com.pl/finanse/handel/rewolucja-w-systemie-kaucyjnym-zwrotomaty-stana-na-osiedlach/n8jhdnd",
+      "description": "W niektórych miejscach butelki objęte systemem kaucyjnym można już zwracać nie tylko w sklepach. Wszystko za sprawą nowoczesnych urządzeń montowanych przez operatora Polska Kaucja (PolKa). Środki zwracane są bezpośrednio na kartę płatniczą.",
+      "pubDate": "Fri, 05 Jun 2026 13:18:04 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/12bk9kpTURBXy82YWNlZWE3MzMxOTIzOGRjMjdkYWMwMThmOTc0Y2Y0Ni5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-05T13:18:04.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Ważą się losy legendarnej fabryki w Szczecinie. W tle nazwisko polskiego miliardera",
+      "link": "https://businessinsider.com.pl/gospodarka/legendarna-fabryka-wodek-czeka-na-nowego-wlasciciela-wkrotce-rozstrzygniecie/vgk09q0",
+      "description": "Minął już termin składania ofert na zakup legendarnej fabryki w Szczecinie. Wkrótce okaże się, czy jest na nią chętny. Wśród potencjalnych nabywców media wymieniały nazwisko jednego z najbogatszych Polaków — właściciela sieci Dino Tomasza Biernackiego.",
+      "pubDate": "Fri, 05 Jun 2026 13:06:02 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/fKhk9kpTURBXy9iNmJmZGYwZTdhYzRmZDg5ZjhjMGYxY2Y0ZGFmYzBmOC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-05T13:06:02.000Z",
+      "dateFormatted": "5 czerwca 2026"
+    },
+    {
+      "title": "Nowe dane z USA mocno przebiły prognozy",
+      "link": "https://businessinsider.com.pl/praca/rynek-pracy-w-usa-stabilny-nowe-dane-zaskoczyly-ekonomistow/6hf9t3g",
+      "description": "Sytuacja na rynku pracy w USA, w przeciwieństwie do rosnącej inflacji, się stabilizuje. Tak przynajmniej sugerują piątkowe dane dotyczące zatrudnienia i bezrobocia. Nie zabrakło niespodzianek.",
+      "pubDate": "Fri, 05 Jun 2026 13:05:40 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/hKSk9kpTURBXy85MWMwOGExMzU5ZGE4N2UzOGYzOGI4MWE1OTc2ZDc3MS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-05T13:05:40.000Z",
       "dateFormatted": "5 czerwca 2026"
     },
     {
@@ -46,18 +370,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/3/9/932dc190366a96-948-568-0-52-997-598.jpg",
       "dateISO": "2026-06-05T12:44:00.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Mega przetarg na komputery dla Poczty Polskiej. Kontrowersyjny warunek zwiększa koszt o nawet 100 mln zł",
-      "link": "https://businessinsider.com.pl/finanse/poczta-polska-kupuje-tysiace-komputerow-kontrowersyjny-warunek-kosztuje-nawet-100-mln/xbr8wjp",
-      "description": "Poczta Polska kupuje komputery. Ogłosiła wielki przetarg. I okazało się przy okazji, jak duże znaczenie ma zwiększona konkurencja wśród uczestników przetargu, jeśli zdejmie się wymóg dwóch certyfikatów dodawanych od około trzech lat do warunków państwowych przetargów.",
-      "pubDate": "Fri, 05 Jun 2026 12:31:50 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/nXPk9kpTURBXy9iOGIxYWM2ZWQwMTJhYjU5MjJkMWZlNWZlYzkwZmFmOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-05T12:31:50.000Z",
       "dateFormatted": "5 czerwca 2026"
     },
     {
@@ -289,18 +601,6 @@
       "dateFormatted": "5 czerwca 2026"
     },
     {
-      "title": "GDDKiA podnosi limit waloryzacji do 25 proc. Miliardy złotych trafią do firm budowlanych",
-      "link": "https://www.bankier.pl/wiadomosc/Wsrod-inwestycji-objetych-nowym-poziomem-waloryzacji-jest-m-in-10-Budimeksu-i-7-Mirbudu-9146610.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Wśród inwestycji objętych nowym poziomem waloryzacji jest m.in dziesięć Budimeksu i siedem Mirbudu - podała GDDKiA. Limit waloryzacji zwiększony został do 25 proc. z 15 proc.",
-      "pubDate": "Fri, 5 Jun 2026 12:12:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/0/b/665a4ab396befc-948-568-0-241-3861-2316.jpg",
-      "dateISO": "2026-06-05T11:12:00.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
       "title": "Benzyna i ON najtańsze od wybuchu wojny. Ceny paliw w hurcie przestały spadać",
       "link": "https://www.bankier.pl/wiadomosc/Ceny-paliw-w-hurcie-przestaly-spadac-Ile-kosztuje-benzyna-i-ON-na-poczatku-czerwca-2026-9146604.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W długi weekend rynek paliw ma dla nas dwie wiadomości: dobrą i nieco gorszą. Dobra jest taka, że na początku czerwca ceny benzyny i oleju napędowego spadły do najniższego poziomu od lutego",
@@ -310,30 +610,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/d/7/2997cca2d678d0-948-568-140-200-3860-2315.jpg",
       "dateISO": "2026-06-05T11:09:00.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Maja Chwalińska z rekordowym wynikiem. Sponsorzy na nią czekają",
-      "link": "https://businessinsider.com.pl/sport/maja-chwalinska-podbija-roland-garros-sponsorskie-oferty-juz-czekaja/mgdrrtz",
-      "description": "— Nie mam sponsora — powiedziała po wygranej w półfinale Rolanda Garrosa Maja Chwalińska. Tylko teoretycznie. Eksperci nie mają wątpliwości, że po sukcesie, jaki już osiągnęła, największe firmy sportowe już ustawiają się w kolejce do polskiej tenisistki. W rzeczywistości sponsor już na nią czeka, pe",
-      "pubDate": "Fri, 05 Jun 2026 11:07:02 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/YwYk9kpTURBXy81NTIwZmU0OWNhOGQ4NTk4Njk0NmY3NDA4YTZmZmE2ZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-05T11:07:02.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Pieniądze z SAFE trafiły do polskich firm. Jest potwierdzenie",
-      "link": "https://businessinsider.com.pl/gospodarka/pieniadze-z-safe-sa-juz-w-polsce-pierwsza-transza-trafila-do-firm/46t41q7",
-      "description": "Pełnomocniczka rządu do spraw SAFE Magdalena Sobkowiak-Czarnecka informuje, że na konta polskich firm trafiła pierwsza płatność z programu SAFE.",
-      "pubDate": "Fri, 05 Jun 2026 10:57:03 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/mhlk9kpTURBXy8wZDVhOGZmNWU3NzBlMTkyY2U1NjhhYjRjY2NiZTVjYy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-05T10:57:03.000Z",
       "dateFormatted": "5 czerwca 2026"
     },
     {
@@ -361,42 +637,6 @@
       "dateFormatted": "5 czerwca 2026"
     },
     {
-      "title": "Sztuczna inteligencja w PSE. Nadchodzi rewolucja w przesyle energii",
-      "link": "https://www.bankier.pl/wiadomosc/Sztuczna-inteligencja-w-PSE-Nadchodzi-rewolucja-w-przesyle-energii-9146588.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Polskie Sieci Elektroenergetyczne (PSE) dołączyły do inicjatywy AI Grids, która ma na celu opracowanie modelu sztucznej inteligencji na potrzeby operatorów systemów przesyłu energii elektrycznej w UE - poinformowały w piątek PSE.",
-      "pubDate": "Fri, 5 Jun 2026 11:35:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/3/ca834b452e7d30-948-568-25-140-2520-1512.jpg",
-      "dateISO": "2026-06-05T10:35:00.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Oto maksymalne ceny paliw na weekend. Benzyna i diesel drożeją",
-      "link": "https://businessinsider.com.pl/gospodarka/maksymalne-ceny-paliw-na-weekend-w-najblizszych-dniach-zaplacimy-wiecej/9x57x34",
-      "description": "Minister energii ogłosił już nowe maksymalne ceny paliw, które będą obowiązywały na stacjach w Polsce w weekend oraz poniedziałek. Zarówno za benzynę, jak i olej napędowy zapłacimy nieco więcej niż w czwartek i piątek.",
-      "pubDate": "Fri, 05 Jun 2026 10:28:04 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/-5Ck9kpTURBXy84NGQ0ODMyODc4OTIxNTdiNTkyNDlmYjgwN2JhNDAyZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-05T10:28:04.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Diamentowy rynek w kryzysie? Laboratoria wywracają branżę do góry nogami",
-      "link": "https://businessinsider.com.pl/biznes/diamentowy-rynek-w-kryzysie-laboratoria-zmienily-branze/njf3cvz",
-      "description": "Globalny rynek diamentów przechodzi wyraźne przetasowanie. Rosnąca popularność diamentów z laboratorium powoduje gwałtowny spadek cen naturalnych kamieni. W ciągu ostatnich czterech lat ceny naturalnych, oszlifowanych kamieni spadły o ok. 40 proc., co uderzyło w producentów i regiony zależne od wydo",
-      "pubDate": "Fri, 05 Jun 2026 10:22:12 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/PZVk9kpTURBXy9lMmUyNmRkMDUzMmI2NThmM2IwZjVjNjJhY2M1YmZjMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-05T10:22:12.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
       "title": "Automat zatrzymał puszkę, kaucji nie naliczył. Żabka wyjaśnia, co ma zrobić klient",
       "link": "https://www.bankier.pl/wiadomosc/Automat-zatrzymal-puszke-kaucji-nie-naliczyl-Zabka-wyjasnia-co-ma-zrobic-klient-9146574.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Automat kaucyjny może fizycznie zatrzymać opakowanie, ale go nie rozpoznać. Wtedy klient nie dostaje automatycznie zwrotu kaucji. Żabka tłumaczy, że takie zdarzenie można reklamować, a nierozpoznane opakowanie trafia dalej do operatora systemu.",
@@ -410,12 +650,12 @@
     },
     {
       "title": "Mniej finansów w tym roku, więcej w 2030? Nowe fakty o budowie polskiej elektrowni",
-      "link": "https://www.bankier.pl/wiadomosc/Mniej-finansow-w-tym-roku-wiecej-w-2030-Nowe-fakty-o-budowie-polskiej-elektrowni-9146571.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Mniej-finansow-w-tym-roku-wiecej-w-2030-Nowe-fakty-o-budowie-polskiej-elektrowni-9146571.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Limit wydatków budżetu państwa na udzielenie Polskim Elektrowniom Jądrowym wsparcia publicznego wyniesie w tym roku 8 mld zł zamiast przewidywanych 11 mld zł, zaś w 2030 r. wyniesie on 9,6 mld zł zamiast planowanych 6,6 mld zł - wynika z projektu nowelizacji tzw. specustawy jądrowej, zamieszczonego ",
       "pubDate": "Fri, 5 Jun 2026 11:04:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/d/6/052cc3a663a760-948-568-43-8-3456-2073.jpg",
       "dateISO": "2026-06-05T10:04:00.000Z",
       "dateFormatted": "5 czerwca 2026"
@@ -433,39 +673,15 @@
       "dateFormatted": "5 czerwca 2026"
     },
     {
-      "title": "Europejska gospodarka radzi sobie jeszcze gorzej. Polska wyróżnia się rocznym wzrostem",
-      "link": "https://businessinsider.com.pl/gospodarka/pkb-europy-zaskakuje-polska-wsrod-liderow-wzrostu/l5gx30s",
-      "description": "Konflikt na Bliskim Wschodzie musiał się odbić na europejskiej gospodarce. Zapowiadali to ekonomiści. Rzeczywistość okazała się jednak jeszcze gorsza. PKB spadł w ciągu kwartału, a w skali roku wzrost mocno wyhamował.",
-      "pubDate": "Fri, 05 Jun 2026 09:58:12 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Y2ek9kpTURBXy83NGIwMTJmYmU4NjAwNmIxY2YwZjY4MjdiN2E1YjQ5Zi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-05T09:58:12.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
       "title": "Koniec epoki Citi w detalu. VeloBank ujawnia kulisy fuzji i wejścia na giełdę",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-epoki-Citi-w-detalu-VeloBank-ujawnia-kulisy-fuzji-i-wejscia-na-gielde-9146568.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-epoki-Citi-w-detalu-VeloBank-ujawnia-kulisy-fuzji-i-wejscia-na-gielde-9146568.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Przyłączenie bankowości detalicznej Citi Handlowego to istotny skok w rozwoju VeloBanku, który planuje podwojenie portfela kredytowego. Bank cały czas zwiększa swoje udziały rynkowe, ale chce też być bardziej rentowny, a w 2028 roku rozważy opcję wejścia na giełdę - poinformował PAP Biznes prezes ba",
       "pubDate": "Fri, 5 Jun 2026 10:52:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/7/3a660ea9bb65a3-948-567-0-45-1000-599.jpg",
       "dateISO": "2026-06-05T09:52:00.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Indianie idą na wojnę z separatystami. Grożą zablokowaniem gospodarki Alberty",
-      "link": "https://www.bankier.pl/wiadomosc/Indianie-ida-na-wojne-z-separatystami-Groza-zablokowaniem-gospodarki-Alberty-9146565.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Kanadyjscy Indianie, którzy dotąd jedynie przypominali separatystom w Albercie, że według konstytucji Kanady nie mogą oderwać prowincji od kraju bez ich zgody, przystąpili do działań politycznych - zagrozili blokadą gospodarki prowincji i spotkali się z królem Zjednoczonego Królestwa Karolem III.",
-      "pubDate": "Fri, 5 Jun 2026 10:47:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/3/19978d8b725311-948-568-0-236-3456-2073.jpg",
-      "dateISO": "2026-06-05T09:47:00.000Z",
       "dateFormatted": "5 czerwca 2026"
     },
     {
@@ -481,18 +697,6 @@
       "dateFormatted": "5 czerwca 2026"
     },
     {
-      "title": "Gdzie jest najlepsza plaża nad Bałtykiem? Znajdź odpowiedź razem z nami",
-      "link": "https://businessinsider.com.pl/lifestyle/kierunek-baltyk-2026-gdzie-jest-najlepsza-plaza-w-polsce/sn111dp",
-      "description": "Szukając idealnego miejsca na wypoczynek nad Bałtykiem, możesz teraz skorzystać z nowoczesnego narzędzia przygotowanego przez zespoły Onetu, Faktu oraz BI. Policzalne dane to jedno, a nasze odczucia to drugie. Dlatego zapraszamy Was, byście pomogli nam znaleźć najfajniejsze miejsce nad polskim morze",
-      "pubDate": "Fri, 05 Jun 2026 09:34:05 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/FTDk9kpTURBXy84ZDU0YjZjMzc2YTgzZGU2YTRjMmJiYmIyMDk2YzMxMS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-05T09:34:05.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
       "title": "Kolejny incydent w Rumunii. Wojenny bezzałogowiec eksplodował w pobliżu portu",
       "link": "https://www.bankier.pl/wiadomosc/Wybuch-u-wrot-NATO-Dron-morski-eksplodowal-pod-rumunskim-portem-9146556.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Dron morski nieznanego pochodzenia eksplodował w piątek w pobliżu rumuńskiego portu w Konstancy nad Morzem Czarnym – poinformowało ministerstwo obrony Rumunii, cytowane przez agencję Reutera. Detonacja nie spowodowała ofiar w ludziach ani strat materialnych - dodano.",
@@ -502,30 +706,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/2/f/205b94288a0cc1-948-568-0-40-3900-2340.jpg",
       "dateISO": "2026-06-05T09:33:00.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Brak paliwa na Krymie. Rosjanie kupują benzynę ekstrakcyjną",
-      "link": "https://businessinsider.com.pl/gospodarka/na-krymie-zabraklo-paliwa-rosjanie-kupuja-benzyne-ekstrakcyjna/n5zev5v",
-      "description": "Na okupowanym przez rosyjskie wojsko Krymie wybuchł ogromny kryzys paliwowy. Benzyna jest racjonowana, a Rosjanie kupują w sklepach benzynę ekstrakcyjną, która służy do czyszczenia i odtłuszczania. Interwencję w tej sprawie miał osobiście podjąć Władimir Putin.",
-      "pubDate": "Fri, 05 Jun 2026 09:11:26 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/brKk9kpTURBXy9kOWRiMWFlZDk0YzU1ZjI0OWYxZGVmZDhmNGU2MWIxNi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-05T09:11:26.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Forum Gospodarcze w Petersburgu. Zaskakujący wymóg Putina",
-      "link": "https://businessinsider.com.pl/gospodarka/putin-boi-sie-zakazenia-zaskakujacy-wymog-forum-gospodarczego-w-petersburgu/2j6rq1p",
-      "description": "Wszyscy uczestnicy Forum Gospodarczego w Petersburgu będą musieli się poddać testom PCR. Badania obejmują nie tylko koronawirusa, ale także grypę i inne choroby układu oddechowego.",
-      "pubDate": "Fri, 05 Jun 2026 09:03:49 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/5r1k9kpTURBXy9hM2NmNDYzNjUzZDBjMWM2Y2ExN2UxYWQ0MGY2M2QyYi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-05T09:03:49.000Z",
       "dateFormatted": "5 czerwca 2026"
     },
     {
@@ -541,18 +721,6 @@
       "dateFormatted": "5 czerwca 2026"
     },
     {
-      "title": "Trans Polonia złożyła ofertę przejęcia europejskiego operatora logistycznego",
-      "link": "https://www.bankier.pl/wiadomosc/Trans-Polonia-zlozyla-oferte-przejecia-europejskiego-operatora-logistycznego-9146537.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Trans Polonia złożyła niewiążącą ofertę nabycia międzynarodowego przedsiębiorstwa transportowo-logistycznego - poinformowała spółka w komunikacie. Wartość złożonej oferty wynosi 33,5 mln euro.",
-      "pubDate": "Fri, 5 Jun 2026 09:54:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/f/c/ef0f40dd912748-948-568-0-28-1024-614.jpg",
-      "dateISO": "2026-06-05T08:54:00.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
       "title": "Rewolucja w Nowym Jorku. Socjalistyczny burmistrz zaskoczył, deweloperzy przecierają oczy",
       "link": "https://www.bankier.pl/wiadomosc/Rewolucja-w-Nowym-Jorku-Socjalistyczny-burmistrz-zaskoczyl-deweloperzy-przecieraja-oczy-9146535.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Czy radykalny socjalista może uratować rynek nieruchomości w Nowym Jorku? Najnowszy, warty 22 miliardy dolarów plan mieszkaniowy burmistrza Zohrana Mamdaniego zaskoczył wszystkich – zamiast wojny z kapitalizmem, przynosi bezwzględny pragmatyzm, deregulację i wyciągniętą rękę do deweloperów. Czy to s",
@@ -562,90 +730,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/1/8/29f211ca1e51a5-948-568-0-119-1773-1063.jpg",
       "dateISO": "2026-06-05T08:52:00.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Być jak Maja Chwalińska kosztuje fortunę. Mało kogo na to stać",
-      "link": "https://businessinsider.com.pl/sport/polska-tenisistka-o-finansach-sportowca-droga-do-sukcesu-pelna-wydatkow/zz29d0g",
-      "description": "Sukces Mai Chwalińskiej rozpala wyobraźnię młodych tenisistów i ich rodziców. Droga do wielkiej kariery wymaga jednak nie tylko talentu i ciężkiej pracy, ale też wielkich pieniędzy. Polska tenisistka ich nie miała. Podobnie jak większość początkujących sportowców, bo kwota sięga nawet 2,5 mln zł.",
-      "pubDate": "Fri, 05 Jun 2026 08:19:30 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/2trk9kpTURBXy8zZTRhM2UzNDAzYWFjZjhhNTc5NDYzMGYzOTkxYjY5Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-05T08:19:30.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Azjatycka giełda zaliczyła mocny zjazd. W centrum uwagi półprzewodniki",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/samsung-i-sk-hynix-pod-presja-gwaltowny-spadek-na-gieldzie-w-korei/95rkd9b",
-      "description": "Koreańska giełda poinformowała, że zagraniczni i instytucjonalni inwestorzy sprzedali w piątek akcje o wartości netto idącej w setki milionów dolarów. W centrum uwagi są wielkie, rozpoznawalne marki, takie jak Samsung.",
-      "pubDate": "Fri, 05 Jun 2026 08:12:43 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/LqIk9kpTURBXy8wNjhhMGU0NzY0ZWM2MjE0OTQ2NmZhNDRlZTE1NjkyOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-05T08:12:43.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Podbieranie ekspertów napędza chińskie ambicje w AI. Kierunek: model USA",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/chiny-ida-sciezka-usa-w-ai-giganci-podbieraja-talenty-z-doliny-krzemowej/xvnmynt",
-      "description": "Chiny wzmacniają ambicje w wyścigu o sztuczną inteligencję ogólną (AGI). Yao Shunyu, były badacz OpenAI, objął stanowisko głównego naukowca do spraw sztucznej inteligencji w chińskim Tencent. Ma pokierować długofalową strategią koncernu w tym obszarze.",
-      "pubDate": "Fri, 05 Jun 2026 08:09:12 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/BDXk9kpTURBXy9jNDA0ZDczNGZkN2I2ODkzYTBhYTRhZWRiYzhmNjZkOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-05T08:09:12.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "PKO BP ostrzega klientów. \"Możesz stracić pieniądze i kontrolę\"",
-      "link": "https://businessinsider.com.pl/finanse/pko-bp-ostrzega-klientow-przed-oszustami-chodzi-o-falszywe-wiadomosci/3kg5ckh",
-      "description": "PKO Bank Polski ostrzega klientów przed atakami oszustów, które trwają w sieci. Wysyłają oni fałszywe wiadomości, w których proszą o uzupełnienie danych we wniosku. Oto jak można uchronić się przed cyberprzestępcami.",
-      "pubDate": "Fri, 05 Jun 2026 08:09:03 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/AJqk9kpTURBXy84YTY5MGE5Mzk2ZDZlMmY0NzNmNGU1Y2QxMDk2MTQxMi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-05T08:09:03.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Strach zagląda na GPW. Inwestorzy masowo uciekają od optymizmu",
-      "link": "https://www.bankier.pl/wiadomosc/Strach-zaglada-na-GPW-Inwestorzy-masowo-uciekaja-od-optymizmu-9146508.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Odsetek inwestorów spodziewających się w ciągu sześciu miesięcy trendu wzrostowego na GPW spadł o 15,3 pkt. proc. i wyniósł 43,8 proc. Odsetek respondentów oczekujących trendu spadkowego wzrósł o 12,4 pkt. proc. do 26 proc. - wynika z cotygodniowego sondażu Indeksu Nastrojów Inwestorów.",
-      "pubDate": "Fri, 5 Jun 2026 08:52:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/9/51cb0ce0c72320-948-568-19-19-3880-2328.jpg",
-      "dateISO": "2026-06-05T07:52:00.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Apel o ponowne rozpatrzenie. \"Gloryfikacja UPA jest dla Polaków nie do przyjęcia\"",
-      "link": "https://www.bankier.pl/wiadomosc/Apel-o-ponowne-rozpatrzenie-Gloryfikacja-UPA-jest-dla-Polakow-nie-do-przyjecia-9146503.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wicepremier, szef MON Władysław Kosiniak-Kamysz zaapelował do władz Ukrainy o ponowne rozważenie decyzji o nadaniu jednej z ukraińskich jednostek wojskowych imienia bohaterów UPA. Jak podkreślił, w wystąpieniu przesłanym ukraińskim mediom, państwowa gloryfikacja UPA jest dla Polaków „nie do przyjęci",
-      "pubDate": "Fri, 5 Jun 2026 08:46:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/f/56ef66d19bd20f-948-568-7-112-2992-1795.jpg",
-      "dateISO": "2026-06-05T07:46:00.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Kontrakt za 33 mld euro. Indie kupią od Francji 114 myśliwców Rafale",
-      "link": "https://www.bankier.pl/wiadomosc/Kontrakt-za-33-mld-euro-Indie-kupia-od-Francji-114-mysliwcow-Rafale-9146491.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ministerstwo obrony Indii złożyło wniosek o zakup 114 kolejnych samolotów wielozadaniowych Rafale we Francji za 33 mld euro – poinformował francuski portal Zone Militaire. Indyjskie siły powietrzne zamówiły wcześniej 36 maszyn tego typu.",
-      "pubDate": "Fri, 5 Jun 2026 08:23:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/4/2681656ffc2721-948-568-10-0-3950-2370.jpg",
-      "dateISO": "2026-06-05T07:23:00.000Z",
       "dateFormatted": "5 czerwca 2026"
     },
     {
@@ -673,18 +757,6 @@
       "dateFormatted": "5 czerwca 2026"
     },
     {
-      "title": "Ekshumacje Polaków na Wołyniu i we Lwowie ruszą po latach. Ukraina dała zgodę",
-      "link": "https://www.bankier.pl/wiadomosc/Ekshumacje-Polakow-na-Wolyniu-i-we-Lwowie-rusza-po-latach-Ukraina-dala-zgode-9146416.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ukraina wydała zgodę na ekshumacje szczątków polskich ofiar w Ostrówkach i Woli Ostrowieckiej na Wołyniu oraz prochów żołnierzy Wojska Polskiego we Lwowie – poinformował w czwartek szef ukraińskiego Instytutu Pamięci Narodowej (UINP) Ołeksandr Ałfiorow.",
-      "pubDate": "Fri, 5 Jun 2026 08:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/e/c53423d562c49a-948-568-240-510-3570-2141.jpg",
-      "dateISO": "2026-06-05T07:00:00.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
       "title": "Auta z Chin podbijają nasz rynek. W grę wchodzi potężna różnica w cenie",
       "link": "https://www.bankier.pl/wiadomosc/Auta-z-Chin-podbijaja-nasz-rynek-W-gre-wchodzi-potezna-roznica-w-cenie-9146451.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Chińskie marki samochodowe błyskawicznie zwiększają udział w polskim rynku. W pierwszych pięciu miesiącach 2026 r. odpowiadały za ponad 12 proc. sprzedaży nowych aut osobowych, a w 2027 r. może to być już 20 proc. - informuje piątkowa „Rzeczpospolita”.",
@@ -706,42 +778,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/c/4/60aab13c377304-948-568-213-25-3204-1922.jpg",
       "dateISO": "2026-06-05T06:00:00.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Tomahawki dla Niemiec pod znakiem zapytania. W tle obawy o reakcję Moskwy",
-      "link": "https://www.bankier.pl/wiadomosc/Tomahawki-dla-Niemiec-pod-znakiem-zapytania-W-tle-obawy-o-reakcje-Moskwy-9146434.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Pentagon może wycofać się ze sprzedaży pocisków manewrujących Tomahawk do Niemiec, częściowo z obawy przed odebraniem takiego kroku w Moskwie jako eskalacji - poinformował w czwartek portal Politico.",
-      "pubDate": "Fri, 5 Jun 2026 07:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/d/cf69e6f15a2e9a-945-560-0-179-2950-1769.jpg",
-      "dateISO": "2026-06-05T06:00:00.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Zamknięcie z mocnym wzrostem Dow Jones. Wall Street porzuca technologie i stawia na banki?",
-      "link": "https://www.bankier.pl/wiadomosc/Zamkniecie-z-mocnym-wzrostem-Dow-Jones-Wall-Street-porzuca-technologie-i-stawia-na-banki-9146421.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Czwartkowa sesja na amerykańskich giełdach zakończyła się mocnym wzrostem Dow Jones. Zyskał też S&P 500, ale skala jego wzrostu była ograniczona ze względu na przerzucanie się inwestorów z akcji spółek technologicznych na rzecz banków i detalistów.",
-      "pubDate": "Fri, 5 Jun 2026 06:38:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/8/6465e2ee53fec9-948-568-0-50-4000-2399.jpg",
-      "dateISO": "2026-06-05T05:38:00.000Z",
-      "dateFormatted": "5 czerwca 2026"
-    },
-    {
-      "title": "Giełda leci w dół, ale w sklepach tanio nie będzie. Brutalny raport o cenach kawy",
-      "link": "https://www.bankier.pl/wiadomosc/Gielda-leci-w-dol-ale-w-sklepach-tanio-nie-bedzie-Brutalny-raport-o-cenach-kawy-9146473.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Notowania arabiki na giełdach są obecnie o 11 proc. niższe niż rok temu, jednak w ocenie ekspertów regularne ceny kawy w sklepach w najbliższym czasie nie spadną. Z przekazanych PAP danych UCE Research wynika, że w styczniu br. kawa mielona zdrożała o 30 proc. rdr., a w kwietniu o 10,7 proc.",
-      "pubDate": "Fri, 5 Jun 2026 06:34:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/3/349d7b28ce26eb-948-568-0-450-3940-2363.jpg",
-      "dateISO": "2026-06-05T05:34:00.000Z",
       "dateFormatted": "5 czerwca 2026"
     },
     {
@@ -790,18 +826,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/2/62cd5a8a71f062-948-568-191-0-4200-2520.jpg",
       "dateISO": "2026-06-04T22:29:00.000Z",
-      "dateFormatted": "4 czerwca 2026"
-    },
-    {
-      "title": "Awantura o zdjęcie komandosów w BBN. Kierwiński: Wizerunek żołnierzy sił specjalnych jest chroniony",
-      "link": "https://www.bankier.pl/wiadomosc/Awantura-o-zdjecie-komandosow-w-BBN-Kierwinski-Wizerunek-zolnierzy-sil-specjalnych-jest-chroniony-To-abecadlo-9146329.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Biuro Bezpieczeństwa Narodowego odniosło się w czwartek do zarzutów Onetu ws. publikacji zdjęcia z odsłoniętymi twarzami żołnierzy wojsk specjalnych. BBN oświadczyło, że fotografię otrzymało od organizatorów uroczystości Święta Wojsk Specjalnych, którzy nie zgłaszali zastrzeżeń do jej upublicznienia",
-      "pubDate": "Thu, 4 Jun 2026 13:46:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/4/b31cd6773c0138-948-569-0-8-1486-892.jpg",
-      "dateISO": "2026-06-04T12:46:00.000Z",
       "dateFormatted": "4 czerwca 2026"
     },
     {
@@ -863,43 +887,7 @@
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-06-03T12:13:48.000Z",
       "dateFormatted": "3 czerwca 2026"
-    },
-    {
-      "title": "Bitcoin spada do 65 tys. $ po sprzedaży przez Strategy",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-do-65-tys--po-sprzedazy-przez-strategy-1439363",
-      "description": "",
-      "pubDate": "2026-06-03 06:27:41",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "dateISO": "2026-06-03T06:27:41.000Z",
-      "dateFormatted": "3 czerwca 2026"
-    },
-    {
-      "title": "Stablecoiny liry tureckiej na drugim miejscu po dolarze",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/stablecoiny-liry-tureckiej-na-drugim-miejscu-po-dolarze-93CH-1438805",
-      "description": "",
-      "pubDate": "2026-06-02 15:10:14",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "dateISO": "2026-06-02T15:10:14.000Z",
-      "dateFormatted": "2 czerwca 2026"
-    },
-    {
-      "title": "Charles Schwab wprowadza handel kontraktami krypto 24/7",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/charles-schwab-wprowadza-handel-kontraktami-krypto-247-432SI-1438284",
-      "description": "",
-      "pubDate": "2026-06-02 12:03:26",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": null,
-      "dateISO": "2026-06-02T12:03:26.000Z",
-      "dateFormatted": "2 czerwca 2026"
     }
   ],
-  "updatedAt": "2026-06-05T12:38:50.875Z"
+  "updatedAt": "2026-06-05T16:29:58.681Z"
 }
