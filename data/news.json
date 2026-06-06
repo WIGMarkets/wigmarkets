@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Uzbekistan stawia na elektrownię jądrową. Ma wsparcie Rosji",
+      "link": "https://businessinsider.com.pl/wiadomosci/nowa-era-energetyczna-uzbekistanu-atom-ma-dac-nawet-15-proc-pradu/5r4mmn6",
+      "description": "Uzbekistan rozpoczyna największy projekt energetyczny w swojej historii. W obwodzie dżyzackim ruszyła budowa pierwszej elektrowni jądrowej w kraju, którą realizuje rosyjski Rosatom. Inwestycja ma znacząco zwiększyć bezpieczeństwo energetyczne państwa i ograniczyć zależność od gazu.",
+      "pubDate": "Sat, 06 Jun 2026 19:56:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/uMJk9kpTURBXy80N2M1ZmU1YmVmNDE4Y2UzMzA4ZDQ1MzliZjRlYzhkOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-06T19:56:00.000Z",
+      "dateFormatted": "6 czerwca 2026"
+    },
+    {
       "title": "Praca zdalna? \"Biuro może przyspieszyć karierę nawet o kilka lat\"",
       "link": "https://businessinsider.com.pl/praca/eksperci-o-pracy-zdalnej-dlaczego-mlodzi-moga-stracic-na-elastycznosci/2192fpt",
       "description": "Elastyczność, oszczędność czasu i brak dojazdów sprawiły, że praca zdalna stała się jednym z najbardziej pożądanych benefitów. Coraz więcej badań pokazuje jednak, że dla osób rozpoczynających karierę całkowite odejście od biura może mieć wysoką cenę.",
@@ -685,18 +697,6 @@
       "dateFormatted": "6 czerwca 2026"
     },
     {
-      "title": "Będzie nowy przywilej dla mundurówki? Szansa na podwójną emeryturę",
-      "link": "https://businessinsider.com.pl/praca/emerytury/emerytury-mundurowe-rzad-szykuje-zmiany-w-przepisach/t87w7r8",
-      "description": "Do tej pory szanse na podwójną emeryturę: mundurową i z ZUS, mieli tylko młodsi funkcjonariusze. Teraz może się to zmienić. Rząd zastanawia się nad zmianami w przepisach pod naciskiem najstarszych przedstawicieli służb.",
-      "pubDate": "Sat, 06 Jun 2026 04:11:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/vSNk9kpTURBXy9jZTRhZmRkYzM2ZWExMDViZGNhMDliMTU3YzY2MTRiZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-06T04:11:00.000Z",
-      "dateFormatted": "6 czerwca 2026"
-    },
-    {
       "title": "Tąpnięcie na Wall Street. Dane z rynku pracy okazały się zbyt mocne dla inwestorów",
       "link": "https://www.bankier.pl/wiadomosc/Tapniecie-na-Wall-Street-Dane-z-rynku-pracy-okazaly-sie-zbyt-mocne-dla-inwestorow-9146887.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Bardzo mocne dane z amerykańskiego rynku pracy wzbudziły lęk przed podwyżką (-ami?) stóp procentowych w Rezerwie Federalnej. A to doprowadziła do przebicia spekulacyjnego balona.",
@@ -913,5 +913,5 @@
       "dateFormatted": "3 czerwca 2026"
     }
   ],
-  "updatedAt": "2026-06-06T19:24:57.492Z"
+  "updatedAt": "2026-06-06T21:06:07.818Z"
 }
