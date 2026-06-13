@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Zapasy ropy w USA topnieją. Rynek zbliża się do punktu krytycznego",
+      "link": "https://businessinsider.com.pl/gospodarka/ceny-ropy-moga-wystrzelic-analitycy-bija-na-alarm-po-danych-z-usa/r25tszq",
+      "description": "Zapasy ropy naftowej w magazynach Cushing w Oklahomie spadły do poziomu 21 mln baryłek — informuje telewizja CNN. Analitycy stacji podają, że rynek zbliża się do punktu krytycznego.",
+      "pubDate": "Sat, 13 Jun 2026 22:55:38 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/zdCk9kpTURBXy9jOGFmNWMxOWQ5MzA1NDY4Y2VkNzJiODQ0NGE3NDFmMS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-13T22:55:38.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
       "title": "ZE PAK rozmawia o umowie kredytowej do 340 mln zł",
       "link": "https://www.bankier.pl/wiadomosc/ZE-PAK-rozmawia-o-umowie-kredytowej-do-340-mln-zl-9150883.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Zarząd ZE PAK zdecydował o wejściu w kluczową fazę negocjacji warunków umowy kredytowej z bankiem UniCredit SpA, na podstawie której spółka mogłaby pozyskać finansowanie w wysokości do 340 mln zł - poinformowała energetyczna firma w komunikacie.",
@@ -637,18 +649,6 @@
       "dateFormatted": "13 czerwca 2026"
     },
     {
-      "title": "Orlen podjął ważną decyzję. To reakcja na zmiany cen ropy",
-      "link": "https://businessinsider.com.pl/gospodarka/orlen-obnizyl-hurtowe-ceny-paliw-detaliczne-ceny-i-tak-poszly-w-gore/xrx58y9",
-      "description": "Krajowy potentat paliwowy zdecydował się na wyraźne obniżki cen w obrocie hurtowym, reagując na piątkowe spadki notowań ropy na światowych giełdach.",
-      "pubDate": "Sat, 13 Jun 2026 07:39:05 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/ckhk9kpTURBXy8wZGRkODg5NWY5OGZhYmVlZmIzZTc2NGE1Mzk2ZGNmNC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-13T07:39:05.000Z",
-      "dateFormatted": "13 czerwca 2026"
-    },
-    {
       "title": "Nowa szczepionka może chronić przed fentanylem i jego nielegalnymi pochodnymi",
       "link": "https://www.bankier.pl/wiadomosc/Nowa-szczepionka-moze-chronic-przed-fentanylem-i-jego-nielegalnymi-pochodnymi-9150780.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Naukowcy z USA opracowali eksperymentalną szczepionkę, która w badaniach na myszach chroniła przed działaniem fentanylu oraz jego syntetycznych pochodnych, w tym przed nowymi narkotykami z tej grupy pojawiającymi się na czarnym rynku - informuje czasopismo „Journal of Medicinal Chemistry”.",
@@ -913,5 +913,5 @@
       "dateFormatted": "3 czerwca 2026"
     }
   ],
-  "updatedAt": "2026-06-13T21:17:22.909Z"
+  "updatedAt": "2026-06-13T23:05:42.599Z"
 }
