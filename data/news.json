@@ -1,39 +1,255 @@
 {
   "articles": [
     {
-      "title": "Biały Dom ujawnia tekst porozumienia z Iranem. \"Ustępstwo na którym zależało prezydentowi\".",
-      "link": "https://businessinsider.com.pl/wiadomosci/co-zawiera-porozumienie-iran-usa-oto-cztery-glowne-punkty/5mcxeqk",
-      "description": "Tekst wstępnego porozumienia został już uzgodniony z Iranem — powiedział w piątek wysoki rangą przedstawiciel administracji USA. Jak dodał, Modżtaba Chamenei \"jest zadowolony\".",
-      "pubDate": "Fri, 12 Jun 2026 21:11:59 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/VlDk9kpTURBXy8wM2FiOGE3NWNkYTdlMzcyNDQyNTA0MTE2Mzk4ZWQwZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T21:11:59.000Z",
-      "dateFormatted": "12 czerwca 2026"
+      "title": "Dzietność w najludniejszym kraju świata pierwszy raz spadła poniżej progu reprodukcji",
+      "link": "https://www.bankier.pl/wiadomosc/Dzietnosc-w-najludniejszym-kraju-swiata-pierwszy-raz-spadla-ponizej-progu-reprodukcji-9149485.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Współczynnik dzietności w Indiach, najludniejszym państwie świata, po raz pierwszy w historii pomiarów spadł z 5,2 do 1,9, czyli poniżej kluczowego progu zastępowalności pokoleń - wynika z krajowego badania demograficznego SRS.",
+      "pubDate": "Sat, 13 Jun 2026 09:19:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/9/8483f3754e9ad3-948-568-0-140-3112-1867.jpg",
+      "dateISO": "2026-06-13T08:19:00.000Z",
+      "dateFormatted": "13 czerwca 2026"
     },
     {
-      "title": "Sygnity ma aneks do umowy z NBP podwyższający wynagrodzenie o 25 mln zł brutto",
-      "link": "https://www.bankier.pl/wiadomosc/Sygnity-ma-aneks-do-umowy-z-NBP-podwyzszajacy-wynagrodzenie-o-25-mln-zl-brutto-9150714.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Sygnity podpisało aneks do umowy z Narodowym Bankiem Polskim, na podstawie którego łączne maksymalne wynagrodzenie zostało zwiększone o 25 mln zł brutto, a tym samym łącznie maksymalne wynagrodzenie nie przekroczy kwoty ok. 135 mln zł brutto - podała spółka w komunikacie.",
-      "pubDate": "Fri, 12 Jun 2026 20:50:00 +0100",
+      "title": "„USA to nie monarchia” – eksperci o planach Trumpa na 80. urodziny",
+      "link": "https://www.bankier.pl/wiadomosc/USA-to-nie-monarchia-eksperci-o-planach-Trumpa-na-80-urodziny-9148570.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Amerykańscy prezydenci nie obchodzili dotąd hucznie swoich urodzin, bo w USA ma rządzić lud, a nie król – powiedział PAP amerykanista Bohdan Szklarski, nawiązując do planu zorganizowania w dniu 80. urodzin Donalda Trumpa m.in. gali UFC przed Białym Domem. Zdaniem innego amerykanisty Rafała Michalski",
+      "pubDate": "Sat, 13 Jun 2026 09:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/3/ecab508477c651-948-568-0-860-3064-1838.jpg",
+      "dateISO": "2026-06-13T08:00:00.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
+      "title": "Putin: Liczba rosyjskich żołnierzy na Ukrainie przekroczyła 700 tys.",
+      "link": "https://www.bankier.pl/wiadomosc/Putin-Liczba-rosyjskich-zolnierzy-na-Ukrainie-przekroczyla-700-tys-9150617.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Przywódca Rosji Władimir Putin powiedział, że liczba żołnierzy armii rosyjskiej zaangażowanych w działania bojowe na terytorium Ukrainy przekroczyła 700 tys. – poinformowała w piątek agencja Reutera, powołując się na rosyjskie media państwowe.",
+      "pubDate": "Sat, 13 Jun 2026 09:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/e/0444ac905e6cd1-948-568-180-254-2687-1612.jpg",
+      "dateISO": "2026-06-13T08:00:00.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
+      "title": "Benzyna i diesel tańsze w hurcie. Orlen obniża ceny paliw",
+      "link": "https://www.bankier.pl/wiadomosc/Benzyna-i-diesel-tansze-w-hurcie-Orlen-obniza-ceny-paliw-9150796.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Orlen obniżył w sobotę hurtowe ceny benzyny Eurosuper 95 o 62 zł, benzyny Super Plus 98 o 55 zł, a oleju napędowego Ekodiesel o 31 zł na metr sześc. - wynika z danych opublikowanych przez koncern. Poprzednio, w piątek, w hurcie Orlenu wszystkie te paliwa zdrożały.",
+      "pubDate": "Sat, 13 Jun 2026 08:49:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/7/3636f232c01823-948-568-742-419-2257-1354.jpg",
+      "dateISO": "2026-06-13T07:49:00.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
+      "title": "Resort sprawiedliwości zgodził się na przejęcie Warner Bros. przez Paramount",
+      "link": "https://www.bankier.pl/wiadomosc/Resort-sprawiedliwosci-zgodzil-sie-na-przejecie-Warner-Bros-przez-Paramount-9150749.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Wydział antymonopolowy ministerstwa sprawiedliwości USA zatwierdził przejęcie Warner Bros Discovery (WBD) przez Paramount Skydance - poinformował portal Politico, powołując się na dwa źródła. Według serwisu decyzja zostanie ogłoszona jeszcze w piątek.",
+      "pubDate": "Sat, 13 Jun 2026 08:44:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/2/2/cbeb06dd33a8d3-thumb-1000.jpg",
-      "dateISO": "2026-06-12T19:50:00.000Z",
+      "image": "http://galeria.bankier.pl/p/1/a/22b34daa72e0a0-948-568-30-0-3970-2381.jpg",
+      "dateISO": "2026-06-13T07:44:00.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
+      "title": "Masło najtańsze od lat. Cena kostki spadła poniżej 5 zł",
+      "link": "https://www.bankier.pl/wiadomosc/Maslo-najtansze-od-lat-Cena-200-g-spadla-ponizej-5-zl-9150795.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W maju br. średnia cena 200-gramowej kostki masła wyniosła 4,92 zł, a rok wcześniej 7,62 zł - wynika z danych przekazanych PAP przez UCE Research. Eksperci zwrócili uwagę, że masło nie było tak tanie od lat, a skokowego wzrostu cen w najbliższych miesiącach najprawdopodobniej nie będzie.",
+      "pubDate": "Sat, 13 Jun 2026 08:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/b/598814b0f334bd-948-568-0-483-4608-2764.jpg",
+      "dateISO": "2026-06-13T07:36:00.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
+      "title": "Trump kazał usuwać tablice o niewolnictwie i klimacie. Sąd właśnie to zatrzymał",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-kazal-usuwac-tablice-o-niewolnictwie-i-klimacie-Sad-wlasnie-to-zatrzymal-9150756.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Federalna sędzia w Bostonie Angel Kelley nakazała administracji prezydenta Donalda Trumpa przywrócenie usuniętych z parków narodowych informacji na temat niewolnictwa, zmian klimatu i historii marginalizowanych społeczności. Uznała działania rządu za naruszenie prawa i „niebezpieczny precedens cenzu",
+      "pubDate": "Sat, 13 Jun 2026 08:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/6/2a9dd6c6cd712c-948-568-0-0-3000-1799.jpg",
+      "dateISO": "2026-06-13T07:36:00.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
+      "title": "Sąd uderza w decyzję Centrum Kennedy’ego. Nazwisko Trumpa musi zniknąć z fasady",
+      "link": "https://www.bankier.pl/wiadomosc/Sad-uderza-w-decyzje-Centrum-Kennedy-ego-Nazwisko-Trumpa-musi-zniknac-z-fasady-9150785.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Amerykański sędzia federalny odrzucił w piątek wniosek kompleksu kulturalnego Centrum Kennedy’ego w Waszyngtonie, które jest kontrolowane przez prezydenta Donalda Trumpa, o odroczenie usunięcia jego nazwiska z fasady tego prestiżowego ośrodka.",
+      "pubDate": "Sat, 13 Jun 2026 08:25:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/0/1e061059c39207-948-568-0-310-3933-2360.jpg",
+      "dateISO": "2026-06-13T07:25:00.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
+      "title": "USA uderzyły w serce Tren de Aragua. Przywódca jednego z najgroźniejszych gangów nie żyje",
+      "link": "https://www.bankier.pl/wiadomosc/USA-uderzyly-w-serce-Tren-de-Aragua-Przywodca-jednego-z-najgrozniejszych-gangow-nie-zyje-9150794.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wenezuelskie ministerstwo komunikacji i informacji potwierdziło śmierć przywódcy międzynarodowego gangu Tren de Aragua, Hectora Rusthenforda Guerrero Floresa, w ramach „wspólnej operacji” ze Stanami Zjednoczonymi.",
+      "pubDate": "Sat, 13 Jun 2026 08:18:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/d/43f7c60bc78c64-948-568-8-256-3507-2104.jpg",
+      "dateISO": "2026-06-13T07:18:00.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
+      "title": "Nowa szczepionka może chronić przed fentanylem i jego nielegalnymi pochodnymi",
+      "link": "https://www.bankier.pl/wiadomosc/Nowa-szczepionka-moze-chronic-przed-fentanylem-i-jego-nielegalnymi-pochodnymi-9150780.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Naukowcy z USA opracowali eksperymentalną szczepionkę, która w badaniach na myszach chroniła przed działaniem fentanylu oraz jego syntetycznych pochodnych, w tym przed nowymi narkotykami z tej grupy pojawiającymi się na czarnym rynku - informuje czasopismo „Journal of Medicinal Chemistry”.",
+      "pubDate": "Sat, 13 Jun 2026 08:11:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/5/120889a6477c70-948-568-20-0-3933-2359.jpg",
+      "dateISO": "2026-06-13T07:11:00.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
+      "title": "Niezniszczalne irańskie miasta rakietowe? Fiasko planu o \"całkowitym unicestwieniu\"",
+      "link": "https://www.bankier.pl/wiadomosc/Niezniszczalne-iranskie-miasta-rakietowe-Fiasko-planu-o-calkowitym-unicestwieniu-9150290.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Intensywna, trwająca 40 dni kampania nalotów przeprowadzona przez siły zbrojne USA i Izraela nie zdołała zlikwidować kluczowych podziemnych struktur militarnych Iranu. Celem nalotów były strategiczne, wykute bazy rakietowe zlokalizowane w rejonie starożytnego miasta Jazd - czytamy w \"Financial Times",
+      "pubDate": "Sat, 13 Jun 2026 08:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/b/ee4e91989c5cc5-948-568-0-0-3750-2249.jpg",
+      "dateISO": "2026-06-13T07:00:00.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
+      "title": "EOS 10% w górę, podczas hossy",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/eos-10-w-gore-podczas-hossy-1452350",
+      "description": "",
+      "pubDate": "2026-06-13 06:55:10",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/LYNXNPEC410B3_M.jpg",
+      "dateISO": "2026-06-13T06:55:10.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
+      "title": "Wielkie ambicje związane z AI karmione coraz gorszej jakości długiem",
+      "link": "https://www.bankier.pl/wiadomosc/Wielkie-ambicje-zwiazane-z-AI-karmione-coraz-gorszej-jakosci-dlugiem-9150634.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Na Wall Street nie słabną zachwyty nad SpaceX oraz gigantycznym potencjałem sztucznej inteligencji. Jednak dyrektor inwestycyjny giganta rynku długu, firmy Pimco, ostrzega, że aby sfinansować te ogromne ambicje, emituje się coraz bardziej skomplikowane i gorzej zabezpieczone instrumenty dłużne.",
+      "pubDate": "Sat, 13 Jun 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/9/a/ad6b49e84f87d6-948-568-0-270-4000-2399.jpg",
+      "dateISO": "2026-06-13T05:00:00.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
+      "title": "EBC podniósł stopy, Fed przegrywa starcie z inflacją, a Chiny dalej na złotych zakupach",
+      "link": "https://www.bankier.pl/wiadomosc/EBC-podniosl-stopy-Fed-przegrywa-starcie-z-inflacja-a-Chiny-dalej-na-zlotych-zakupach-9150248.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Cześć, tu Inwestor Wojtek. Z pozoru spokojnie zapowiadający się tydzień nie przyniósł nudy. Konflikt na Bliskim Wschodzie sprawił, że EBC podniósł stopy procentowe w odpowiedzi na rosnącą inflację. Ale z całego świata płyną coraz słabsze dane gospodarcze. Zapraszam na przegląd najważniejszych danych",
+      "pubDate": "Sat, 13 Jun 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/f/9/64c214e40836ea-948-568-33-40-2603-1561.png",
+      "dateISO": "2026-06-13T05:00:00.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
+      "title": "3 najdroższy turniej w historii. Mundial staje się zbyt kosztowny dla jednego państwa",
+      "link": "https://www.bankier.pl/wiadomosc/3-najdrozszy-turniej-w-historii-Mundial-staje-sie-zbyt-kosztowny-dla-jednego-panstwa-9150153.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Mundial w 2026 r. szacunkowo ma kosztować ok. 14 mld dol., z czego 11 mld dol. pokryją USA; co oznacza, że będą to trzecie najdroższe mistrzostwa świata w piłce nożnej w historii - wskazał Polski Instytut Ekonomiczny. Zdaniem PIE organizacja mundialu staje się zbyt kosztowna dla jednego państwa.",
+      "pubDate": "Sat, 13 Jun 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/7/e06cae0fc66e6b-948-568-0-102-4096-2457.jpg",
+      "dateISO": "2026-06-13T05:00:00.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
+      "title": "250–600 euro za opóźniony lot. UE uzgadnia nowe przepisy",
+      "link": "https://www.bankier.pl/wiadomosc/250-600-euro-za-opozniony-lot-UE-uzgadnia-nowe-przepisy-9150646.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Po ponad tygodniu niemal nieustannych negocjacji z Parlamentem Europejskim i na kilka dni przez ostatecznym terminem, Rada UE (państwa członkowskie) poinformowała w piątek, że negocjatorzy doszli do porozumienia w sprawie zmian w prawach pasażerów linii lotniczych.",
+      "pubDate": "Sat, 13 Jun 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/7/cd0111ca8a8984-948-568-0-10-4000-2399.jpg",
+      "dateISO": "2026-06-13T05:00:00.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
+      "title": "Afera w Argentynie. Szef gabinetu Mileia zataił ponad pół miliona dolarów",
+      "link": "https://www.bankier.pl/wiadomosc/Afera-w-Argentynie-Szef-gabinetu-Mileia-zatail-ponad-pol-miliona-dolarow-9150114.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Jeden z najbliższych współpracowników prezydenta Argentyny Javiera Mileia, szef gabinetu ministrów Manuel Adorni przyznał, że zataił przed organami podatkowymi ponad 0,5 mln dolarów. To kolejna odsłona afery, która uderza w notowania rządu.",
+      "pubDate": "Sat, 13 Jun 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/5/dc045988b75a17-948-568-0-50-4000-2399.jpg",
+      "dateISO": "2026-06-13T05:00:00.000Z",
+      "dateFormatted": "13 czerwca 2026"
+    },
+    {
+      "title": "Giełdy kończą na plusie, w centrum uwagi debiut SpaceX",
+      "link": "https://www.bankier.pl/wiadomosc/Gieldy-koncza-na-plusie-w-centrum-uwagi-debiut-SpaceX-9150743.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Piątkowa sesja na Wall Street zakończyła się mocnymi wzrostami głównych indeksów. Wydarzeniem dnia był debiut na giełdzie Nasdaq firmy SpaceX, należącej do Elona Muska.",
+      "pubDate": "Fri, 12 Jun 2026 23:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/2/e88d5e8241bf90-948-568-20-190-3980-2387.jpg",
+      "dateISO": "2026-06-12T22:15:00.000Z",
       "dateFormatted": "12 czerwca 2026"
     },
     {
-      "title": "Elon Musk został pierwszym bilionerem na świecie. Tak wzbgacił się w piątek",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/elon-musk-i-jego-majatek-debiut-spacex-przeszedl-do-historii-z-dwoch-powodow/93p5vep",
-      "description": "Elon Musk właśnie został pierwszym bilionerem na historii. Debiut SpaceX na giełdzie przyniósł również tysiące nowych milionerów i kilku miliarderów.",
-      "pubDate": "Fri, 12 Jun 2026 19:32:59 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/6Ldk9kpTURBXy8wOWUwYTI5MmZiNGY5NDQyMjE2ZDJiZTE5MmNmNGI0Mi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T19:32:59.000Z",
+      "title": "Prezydent Kuby ogłosił pakiet reform częściowo liberalizujących gospodarkę",
+      "link": "https://www.bankier.pl/wiadomosc/Prezydent-Kuby-oglosil-pakiet-reform-czesciowo-liberalizujacych-gospodarke-9150728.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Kuby Miguel Diaz-Canel ogłosił w piątek w rozmowie z mediami państwowymi reformy, mające zmodernizować i częściowo zliberalizować gospodarkę. Zapowiedział większą autonomię firm i władz lokalnych, uproszczenie biurokracji oraz działania w celu przyciągnięcia inwestycji zagranicznych.",
+      "pubDate": "Fri, 12 Jun 2026 21:32:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/c/72a2ac72ce4f39-948-568-0-26-3500-2099.jpg",
+      "dateISO": "2026-06-12T20:32:00.000Z",
+      "dateFormatted": "12 czerwca 2026"
+    },
+    {
+      "title": "UFC wkracza do Białego Domu. Sąd dał zielone światło dla kontrowersyjnej gali",
+      "link": "https://www.bankier.pl/wiadomosc/UFC-wkracza-do-Bialego-Domu-Sad-dal-zielone-swiatlo-dla-kontrowersyjnej-gali-9150723.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sąd nie przychylił się w piątek do wniosku o zablokowanie gali mieszanych sztuk walki (MMA), która ma odbyć się w niedzielę przy Białym Domu. Wydarzenie, które kosztuje organizatorów co najmniej 60 mln dolarów, zgromadzi na terenie Białego Domu i w jego pobliżu ponad 100 tys. widzów.",
+      "pubDate": "Fri, 12 Jun 2026 21:19:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/c/a5b972284fb1f0-948-568-0-240-4000-2399.jpg",
+      "dateISO": "2026-06-12T20:19:00.000Z",
+      "dateFormatted": "12 czerwca 2026"
+    },
+    {
+      "title": "Słowacja blokuje uznawanie małżeństw jednopłciowych zawartych za granicą",
+      "link": "https://www.bankier.pl/wiadomosc/Slowacja-blokuje-uznawanie-malzenstw-jednoplciowych-zawartych-za-granica-9150722.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Premier Słowacji Roberto Fico w piątek faktycznie zabronił transkrypcji związków małżeńskich osób tej samej płci zawartych za granicą. Oświadczył, że nie można domagać się rejestracji czegoś, co nie istnieje w porządku prawnym Słowacji.",
+      "pubDate": "Fri, 12 Jun 2026 21:06:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/8/587c320f0d12d6-948-568-60-90-3940-2363.jpg",
+      "dateISO": "2026-06-12T20:06:00.000Z",
       "dateFormatted": "12 czerwca 2026"
     },
     {
@@ -46,18 +262,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/f/8/4beb98d19b33fa-948-568-20-120-3980-2387.jpg",
       "dateISO": "2026-06-12T19:12:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "GE Hydro France zgłosił wobec Mostostalu Warszawa roszczenia wzajemne",
-      "link": "https://www.bankier.pl/wiadomosc/GE-Hydro-France-zglosil-wobec-Mostostalu-Warszawa-roszczenia-wzajemne-9150695.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "GE Hydro France zgłosił wobec Mostostalu Warszawa roszczenia wzajemne w związku z umową dotyczącą elektrowni wodnej Porąbka-Żar i wniósł m.in. o zobowiązanie do zapłaty kwoty zapłaconych przez niego do tej pory kar umownych w kwocie 31 mln zł - podał Mostostal Warszawa w komunikacie.",
-      "pubDate": "Fri, 12 Jun 2026 19:52:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/6/b/0eb79702fa726b-948-568-0-207-2952-1771.jpg",
-      "dateISO": "2026-06-12T18:52:00.000Z",
       "dateFormatted": "12 czerwca 2026"
     },
     {
@@ -121,66 +325,6 @@
       "dateFormatted": "12 czerwca 2026"
     },
     {
-      "title": "Ustawa o kryptoaktywach z uwagami Zondacrypto? Minister dementuje",
-      "link": "https://businessinsider.com.pl/gospodarka/ustawa-o-kryptoaktywach-z-uwagami-zondacrypto-minister-dementuje/mksjcsr",
-      "description": "\"Żadna z poprawek do ustawy o rynku kryptoaktywów, (...) która według prasy miała być konsultowana z Zondacrypto, nie znalazła się w ostatecznej wersji ustawy o rynku kryptoaktywów przyjętej przez rząd — przekazało Ministerstwo Finansów.",
-      "pubDate": "Fri, 12 Jun 2026 17:05:58 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/fv9k9kpTURBXy83NmFmODViMTAyYjhjYmM0NjEwZmU5NzllYzIzMjcyZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T17:05:58.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Szweda: Tegoroczne statystyki publicznych emisji przedstawiają się wyjątkowo słabo",
-      "link": "https://www.bankier.pl/wiadomosc/Szweda-Tegoroczne-statystyki-publicznych-emisji-przedstawiaja-sie-wyjatkowo-slabo-9150642.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Tegoroczne statystyki emisji publicznych przedstawiają się wyjątkowo słabo, wartościowo jednak rynek i tak zanotuje rekord, ale to ze względu na emisje listów zastawnych - ocenił analityk portalu Obligacje.pl, Emil Szweda.",
-      "pubDate": "Fri, 12 Jun 2026 18:04:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/b/d17e48934af5a1-948-568-0-209-3105-1862.jpg",
-      "dateISO": "2026-06-12T17:04:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Ropa tanieje. Iran: umowa z USA nigdy nie była bliższa",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/cena-ropy-reaguje-porozumienie-iran-usa-coraz-blizej/fzrzjtt",
-      "description": "Cena ropy spada w piątek do 87 dol. za baryłkę. Szef irańskiej dyplomacji Abbas Aragczi ogłosił w piątek, że wstępne porozumienie między Iranem a USA jeszcze nigdy nie było tak bliskie.",
-      "pubDate": "Fri, 12 Jun 2026 16:59:11 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/eFhk9kpTURBXy8zMTI1NmE1OWQ1MWUyMGVkZGE0NGI5YmJiNDU2NmVkZC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T16:59:11.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Czy można dać prezent nauczycielowi na zakończenie roku? Na kilka spraw trzeba uważać",
-      "link": "https://businessinsider.com.pl/finanse/czy-mozna-dac-prezent-nauczycielowi-na-zakonczenie-roku/renhmsr",
-      "description": "Fikuśne mydełka, bombonierki, karty podarunkowe do sklepów i usług, bony do SPA, a także zawsze popularne zestawy kaw i herbat — lista prezentów dla nauczycieli jest długa. Zwykły gest uznania od strony prawnej to darowizna, co formalnie podlega opodatkowaniu. W praktyce nie oznacza to jednak, że na",
-      "pubDate": "Fri, 12 Jun 2026 16:43:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/4v6k9kpTURBXy81ODVhZThkYzc2YWRiMzQ2YzkwZjk4OTYyNjE2NTE0Ny5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T16:43:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "SpaceX już przed debiutem wpływał na amerykańską giełdę. Kolejny test już niebawem",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/elon-musk-i-spacex-z-rekordowym-ipo-kosmiczny-debiut-juz-wplywa-i-bedzie-wplywal-na/mmbnfcw",
-      "description": "W piątek po południu polskiego czasu na nowojorskiej giełdzie zadebiutowała spółka SpaceX, która kontrolowana jest przez Elona Muska, najbogatszego człowieka świata. Debiut poprzedziła oferta publiczna o niespotykanej wcześniej skali. To nie pozostaje bez wpływu na notowania innych spółek.",
-      "pubDate": "Fri, 12 Jun 2026 16:27:35 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/La-k9kpTURBXy9lMzU3NmFhYTkzOWQ5ZDExNjNlODliMjNkYzNiMTFjZS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T16:27:35.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
       "title": "Notowania na polskiej giełdzie coraz wyżej. Hossa nie odpuszcza mimo kosmicznej korekty",
       "link": "https://www.bankier.pl/wiadomosc/Notowania-na-polskiej-gieldzie-coraz-wyzej-Hossa-nie-odpuszcza-mimo-kosmicznej-korekty-9150618.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Połączenie geopolitycznych informacji dużego kalibru dotyczących Bliskiego Wschodu oraz gigantycznych emocji związanych z historycznym debiutem giełdowym SpaceX doprowadziło do fali optymizmu na rynkach, która zawitała także na GPW. Warszawski parkiet bił rekordy, a inwestorzy masowo kupowali akcje ",
@@ -205,18 +349,6 @@
       "dateFormatted": "12 czerwca 2026"
     },
     {
-      "title": "Ukraina dostanie 700 mln dolarów, choć nie wywiązała się z ustaleń",
-      "link": "https://businessinsider.com.pl/gospodarka/mfw-nie-czeka-na-reformy-ukrainy-pieniadze-i-tak-poplyna/657d7zr",
-      "description": "Ukraina otrzyma kolejną ratę pożyczki z Międzynarodowego Funduszu Walutowego. Pieniądze będą mogły być przelane w najbliższych tygodniach, choć władze w Kijowie nie wywiązały się z wcześniejszych ustaleń i nie zmieniły ustawy dotyczącej podatków.",
-      "pubDate": "Fri, 12 Jun 2026 16:01:55 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/YbGk9kqTURBXy8zOWQ0OGMxOTljNTMwZTljYjhjMTY0NDhmNGYwYjQ2Zi5qcGVnkZMCzQSwAN4AAaEwAQ",
-      "dateISO": "2026-06-12T16:01:55.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
       "title": "Nowe zarzuty w aferze Pegasusa. W tle inwigilacja adwokata",
       "link": "https://www.bankier.pl/wiadomosc/Nowe-zarzuty-w-aferze-Pegasusa-W-tle-inwigilacja-adwokata-9150589.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Prokurator przedstawił zarzuty obecnej funkcjonariuszce Centralnego Biura Antykorupcyjnego w śledztwie dotyczącym oprogramowania „Pegasus” – podał rzecznik PK prok. Przemysław Nowak. Uzupełnione zostały także zarzuty dla dwóch byłych funkcjonariuszy CBA.",
@@ -226,18 +358,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/0/73f305c22921af-948-568-337-90-4162-2497.jpg",
       "dateISO": "2026-06-12T15:47:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "SFD planuje wypłacić 0,04 zł dywidendy na akcję",
-      "link": "https://www.bankier.pl/wiadomosc/SFD-planuje-wyplacic-0-04-zl-dywidendy-na-akcje-9150581.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Zarząd SFD rekomenduje, by na dywidendę trafiło 1,76 mln zł, co da 0,04 zł dywidendy na akcję - poinformowała spółka w komunikacie.",
-      "pubDate": "Fri, 12 Jun 2026 16:36:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/7/4/2ce22f1888d615-thumb-1000.jpg",
-      "dateISO": "2026-06-12T15:36:00.000Z",
       "dateFormatted": "12 czerwca 2026"
     },
     {
@@ -253,66 +373,6 @@
       "dateFormatted": "12 czerwca 2026"
     },
     {
-      "title": "Starmer: Nie odejdę z funkcji premiera, odrzucam wezwania do dymisji",
-      "link": "https://www.bankier.pl/wiadomosc/Starmer-Nie-odejde-z-funkcji-premiera-odrzucam-wezwania-do-dymisji-9150562.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Brytyjski premier Keir Starmer zadeklarował, że będzie walczył o pozostanie na stanowisku, wbrew apelom części własnej partii, by podał się do dymisji. W piątkowej rozmowie z BBC odrzucił też krytykę, że zaniedbuje finansowanie obronności.",
-      "pubDate": "Fri, 12 Jun 2026 16:17:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/c/386bf50d1c618c-948-568-10-79-3990-2393.jpg",
-      "dateISO": "2026-06-12T15:17:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Rolnicy będą mogli liczyć na wsparcie. Na stole aż 1,5 mld euro",
-      "link": "https://businessinsider.com.pl/gospodarka/rolnicy-beda-mogli-liczyc-na-wsparcie-na-stole-az-15-mld-euro/jz17mpl",
-      "description": "Rolnicy będą mogli otrzymać wsparcie ze środków unijnych z powodu wzrostu cen związanych z wojną na Bliskim Wschodzie.",
-      "pubDate": "Fri, 12 Jun 2026 15:02:05 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/DjTk9kqTURBXy8yZTUxN2EwY2Q1NGFiZWZiMWJhMjQ2ZDY1Zjg0NmE2My5qcGVnkZMCzQSwAN4AAaEwAQ",
-      "dateISO": "2026-06-12T15:02:05.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Co dalej z pakietem CPN? Rząd ogłosił decyzję",
-      "link": "https://businessinsider.com.pl/gospodarka/pakiet-cpn-przedluzony-decyzja-zapadla/14zx4el",
-      "description": "Rząd zdecydował w sprawie pakietu CPN. Obowiązywanie niższej stawki VAT zostało przedłużone o dwa tygodnie. Nie ma przedłużenia niższej stawki akcyzy.",
-      "pubDate": "Fri, 12 Jun 2026 15:02:05 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/DN9k9kpTURBXy82NTZkZGM1ZWViMTBlMThkY2ExY2IzNDYyYjU2Y2U0OC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T15:02:05.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Wyrok ws. Pfizera z pilnym zwrotem akcji. Do Polski trafił nakaz zapłaty",
-      "link": "https://www.bankier.pl/wiadomosc/Wyrok-ws-Pfizera-z-pilnym-zwrotem-akcji-Do-Polski-trafil-nakaz-zaplaty-9150535.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W tym tygodniu Polsce została doręczona kopia wykonawcza wyroku ws. Pfizera wraz z nakazem zapłaty zasądzonych kwot i kosztów komorniczych. Termin do wniesienia apelacji biegnie od daty doręczenia kopii wykonawczej wyroku – poinformował resort w piątek PAP.",
-      "pubDate": "Fri, 12 Jun 2026 15:43:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/e/5133a47c74bfe1-948-568-12-0-1718-1030.jpg",
-      "dateISO": "2026-06-12T14:43:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "SpaceX debiutuje na giełdzie. Kosmiczna spółka Elona Muska wystartowała",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/spacex-od-elona-muska-debiutuje-na-gieldzie-w-usa-kiedy-pierwsza-reakcja-wall-street/9kz2b7v",
-      "description": "Ten moment zapisze się w historii światowych rynków finansowych. Na amerykańskiej giełdzie można już handlować akcjami SpaceX, czyli kosmicznej spółki założonej przez Elona Muska. Inwestorzy długo czekali w napięciu, a Nasdaq nie publikował kursu SpaceX.",
-      "pubDate": "Fri, 12 Jun 2026 14:41:45 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/j7tk9kpTURBXy84MTU0ZDhhZDM0YzM2ZmRiYTc4ZWUzYzk4MjNmNzA0Yi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T14:41:45.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
       "title": "Zmiany w polskim KPO zaakceptowane, Polska może wysłać kolejny wniosek o płatność",
       "link": "https://www.bankier.pl/wiadomosc/Zmiany-w-polskim-KPO-zaakceptowane-Polska-moze-wyslac-kolejny-wniosek-o-platnosc-9150529.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Ministrowie finansów państw UE zaakceptowali w piątek zmiany w Krajowym Planie Odbudowy (KPO) Polski. Zgodzili się m.in. na usunięcie z planu zobowiązania do wprowadzenia opłat od aut spalinowych. Zakończenie procesu zmian oznacza, że Polska może wysłać kolejny wniosek o płatność.",
@@ -325,18 +385,6 @@
       "dateFormatted": "12 czerwca 2026"
     },
     {
-      "title": "Pracownicy, których desperacko potrzebują Meta i Google, nie znajdują się w Dolinie Krzemowej",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/google-i-meta-szkola-amerykanow-do-budowy-centrow-danych-ai-brakuje-rak-do-pracy/kwkz5kf",
-      "description": "Rozwój infrastruktury AI ujawnia poważny niedobór wykwalifikowanych pracowników fizycznych. Google, Meta i inne giganty technologiczne inwestują w programy przygotowujące Amerykanów do pracy przy budowie centrów danych.",
-      "pubDate": "Fri, 12 Jun 2026 14:20:04 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Px1k9kpTURBXy9lNDdhYmNhYmNkZjE4Mzc4YjczNGNhOTkzOGQ2ZTY1MS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T14:20:04.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
       "title": "225% zysku w dwa miesiące i niecałe 2% w finale. Tak inwestowali najlepsi studenci",
       "link": "https://www.bankier.pl/wiadomosc/225-zysku-w-dwa-miesiace-i-niecale-2-w-finale-Tak-inwestowali-najlepsi-studenci-9150502.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W trakcie całej dwumiesięcznej rozgrywki w tegorocznej edycji Index Investment Challenge najlepszy wynik uzyskał Sebastian Klocek z Uniwersytetu Ekonomicznego w Krakowie, osiągając stopę zwrotu na poziomie 225,27%. W rozegranym w czwartek finale w Sali Notowań GPW zwyciężył Maksymilian Kruszyński z ",
@@ -346,66 +394,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/9/46f19f89a07ebe-948-568-0-9-1200-719.jpg",
       "dateISO": "2026-06-12T14:20:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Zmiany w polskim KPO zatwierdzone",
-      "link": "https://businessinsider.com.pl/gospodarka/podatek-od-aut-spalinowych-zmiany-w-kpo-dla-polski-zatwierdzone/803khkg",
-      "description": "Ministrowie finansów państw UE zaakceptowali w piątek zmiany w Krajowym Planie Odbudowy (KPO) Polski. Dotyczą one m.in. podatku od aut spalinowych.",
-      "pubDate": "Fri, 12 Jun 2026 14:07:34 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/LnYk9kpTURBXy9iMmE0ZjZhZmJlODA4MDNjZjBkNmMyZDI0ZmJmZDBhYi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T14:07:34.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "mObywatel z nową funkcją. Ucieszy miliony Polaków",
-      "link": "https://businessinsider.com.pl/gospodarka/mobywatel-z-nowa-funkcja-ucieszy-miliony-polakow/sgm8w8v",
-      "description": "Elektroniczne doręczenia korespondencji urzędowej dostępne w systemie e-Doręczeń będą teraz dostępne w aplikacji mObywatel. Dlatego jej użytkownicy mogą zapomnieć np. o tradycyjnym awizo, będą je otrzymywali na smartfona — poinformował resort cyfryzacji.",
-      "pubDate": "Fri, 12 Jun 2026 14:05:51 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/yvpk9kpTURBXy8wM2JkYTNjMzQ4ZWY5MzQ3ZDhhMzJkZGJkYWQ1MjIxNC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T14:05:51.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Netanjahu: Dopóki jestem premierem, Iran nie zdobędzie broni atomowej",
-      "link": "https://www.bankier.pl/wiadomosc/Netanjahu-Dopoki-jestem-premierem-Iran-nie-zdobedzie-broni-atomowej-9150498.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Benjamin Netanjahu ogłosił w piątek, że dopóki będzie premierem Izraela, Iran nie będzie miał broni atomowej. Dodał, że prezydent USA Donald Trump całkowicie się z nim w tym zgadza. Kancelaria Netanjahu podała wcześniej, że Izrael nie jest stroną ogłoszonego przez Trumpa wstępnego porozumienia z Ira",
-      "pubDate": "Fri, 12 Jun 2026 15:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/8/2656017b3a32b5-948-568-15-30-3056-1833.jpg",
-      "dateISO": "2026-06-12T14:00:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Powiązana z Iranem grupa grozi atakami podczas mundialu",
-      "link": "https://www.bankier.pl/wiadomosc/Powiazana-z-Iranem-grupa-grozi-atakami-podczas-mundialu-9150477.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Powiązana z Iranem grupa hakerów Handala twierdzi, że przejęła drony amerykańskiego Federalnego Biura Śledczego (FBI) i może wziąć na cel mistrzostwa świata w piłce nożnej - przekazała w piątek organizacja monitorująca grupy ekstremistyczne, SITE Intelligence Group.",
-      "pubDate": "Fri, 12 Jun 2026 14:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/c/b7e806a1fc53bb-948-568-20-0-3980-2387.jpg",
-      "dateISO": "2026-06-12T13:40:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Praca coraz bardziej niebezpieczna. Ponad 17 tys. poszkodowanych w I kwartale",
-      "link": "https://businessinsider.com.pl/gospodarka/wypadki-przy-pracy-w-polsce-gus-alarmuje-liczby-rosna-w-2026-roku/mdcdssc",
-      "description": "W Polsce rośnie liczba wypadków przy pracy. Średnio zdarza się 190 wypadków każdego dnia, także w dni świąteczne.",
-      "pubDate": "Fri, 12 Jun 2026 13:30:19 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Df5k9kpTURBXy80ODEyZjg5Mjg2NDg2ODkzYzQ3ZTc2YTM2NDM1YjY1Zi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T13:30:19.000Z",
       "dateFormatted": "12 czerwca 2026"
     },
     {
@@ -445,102 +433,6 @@
       "dateFormatted": "12 czerwca 2026"
     },
     {
-      "title": "Bilans płatniczy Polski na dużym minusie. Wynik kilkukrotnie przebił prognozy",
-      "link": "https://businessinsider.com.pl/gospodarka/bilans-platniczy-polski-nowe-dane-nbp-zaskoczyly/rmrv4jc",
-      "description": "Saldo rachunku bieżącego w krajowej walucie było ujemne i wyniosło 6,6 mld zł — poinformował w piątkowym raporcie NBP. Tylko w jednym miesiącu dochody zagranicznych inwestorów bezpośrednich wyniosły 13,6 mld zł.",
-      "pubDate": "Fri, 12 Jun 2026 13:06:12 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Rtek9kpTURBXy84ZWI4OWU3NTJhNGZhYjBlMDBmZDRhMTgxNzI5MDczNi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T13:06:12.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Biznes i Pieniądze: spór z Ukrainą trafia do biznesu, debiut SpaceX, konflikt Orlenu i \"franki 2.0\"",
-      "link": "https://businessinsider.com.pl/gospodarka/napiecie-rosnie-ukrainski-szczyt-w-polsce-spor-o-kredyty-debiut-spacex/mwlecjm",
-      "description": "Konferencja odbudowy Ukrainy w Polsce miała być biznesowym triumfem, a może zakończyć się klęską. Wielki debiut SpaceX rozpala marzenia Wall Street, a spór Orlenu z Michałem Sołowowem pokazuje, jak trudne jest w Polsce partnerstwo państwa z prywatnym kapitałem, a sankcja kredytu darmowego może stać ",
-      "pubDate": "Fri, 12 Jun 2026 13:04:25 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/LDek9kpTURBXy9iMDQ5NWI5NzMxYmU2MjZiN2I2ZDBiODQ1OGE1ODUxNS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T13:04:25.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Polska znów na minusie. NBP pokazał dane o handlu zagranicznym",
-      "link": "https://www.bankier.pl/wiadomosc/Polska-znow-na-minusie-NBP-pokazal-dane-o-handlu-zagranicznym-9150437.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W kwietniu br. saldo rachunku bieżącego było ujemne i wyniosło 6,6 mld zł. W analogicznym miesiącu 2025 r. saldo rachunku bieżącego było również ujemne i wyniosło 1,1 mld zł – podał w piątek Narodowy Bank Polski.",
-      "pubDate": "Fri, 12 Jun 2026 14:01:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/4/b3570e8f0cf7ef-948-568-7-5-992-595.jpg",
-      "dateISO": "2026-06-12T13:01:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Topowe smartwatche na każdą kieszeń. Nie tylko dla sportowców i podróżników",
-      "link": "https://businessinsider.com.pl/biznes/garmin-dla-wymagajacych-i-aktywnych-najlepsze-smartwatche-w-zestawieniu/qnznngx",
-      "description": "Na rynku smartwatchy znajdziemy dziesiątki urządzeń przeznaczonych do różnych zastosowań. Warto sięgać po te produkty, które gwarantują wysoką jakość, a ich możliwości zostały potwierdzone przez użytkowników. Sprzęt marki Garmin zdecydowanie należy do tej grupy i jest pewnym wyborem. Przyjrzyjmy się",
-      "pubDate": "Fri, 12 Jun 2026 12:52:56 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Klxk9kpTURBXy9mNWU5MjI3NTVhN2NhNmU2NzVmM2M0YzY2NGY0OTdjMi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T12:52:56.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Projekt ustawy o kryptoaktywach z uwagami od Zondacrypto. Rosjanie mogli mieć wpływ na polskie prawo",
-      "link": "https://businessinsider.com.pl/gospodarka/przepisy/zondacrypto-mialo-wplyw-na-polskie-prawo-kontrowersje-wokol-ustawy-o-kryptoaktywach/ejgmjph",
-      "description": "Związek Banków Polskich (ZBP) przekazał do Ministerstwa Finansów uwagi, których autorem był prezes Zondacrypto Przemysław Kral. Zgodnie z ustaleniami ABW spółka jest opanowana przez rosyjskie służby i mafię.",
-      "pubDate": "Fri, 12 Jun 2026 12:51:48 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/DuZk9kpTURBXy9mYTVlNTBjZjVmNzAyYjM0ZWQ1OTZiYTZhNmZkY2E0ZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T12:51:48.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "\"Ceny benzyny mogą spaść ok. 10–15 groszy\". Kierowcy czekają na ruch rządu",
-      "link": "https://businessinsider.com.pl/finanse/pakiet-cpn-przedluzony-ceny-paliw-pod-znakiem-zapytania/k6kckmd",
-      "description": "Ceny benzyny mogą spaść w przyszłym tygodniu o ok. 10–15 gr na litrze, a ceny diesla jeszcze mocniej, o ile rząd przedłuży pakiet CPN — oceniają analitycy BM Reflex. Decyzja stoi jednak pod znakiem zapytania.",
-      "pubDate": "Fri, 12 Jun 2026 12:48:06 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/R88k9kpTURBXy8xOWQ4MjQ3NDA3MzVkMGI2OTczOTAyNmI2NmQyNTgyNi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-12T12:48:06.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Szef MSZ: Staramy się prowadzić z dialog z Niemcami, a nie szczuć na sąsiadów",
-      "link": "https://www.bankier.pl/wiadomosc/Szef-MSZ-Staramy-sie-prowadzic-z-dialog-z-Niemcami-a-nie-szczuc-na-sasiadow-9150425.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Szef MSZ Radosław Sikorski podkreślił, że obecnie polski rząd stara się mieć normalne stosunki z Niemcami i prowadzić z nimi dialog, mimo występujących między oboma państwami kwestii spornych. Zaznaczył, że alternatywą wobec tej postawy jest „szczucie na sąsiadów, by punktować w elektoratach radykal",
-      "pubDate": "Fri, 12 Jun 2026 13:47:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/2/67b8beb379e977-948-568-390-100-3610-2165.jpg",
-      "dateISO": "2026-06-12T12:47:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "„Domański powiedział „nie” drogiej energii. Minister Motyka tłumaczy stanowisko rządu”",
-      "link": "https://www.bankier.pl/wiadomosc/Domanski-powiedzial-nie-drogiej-energii-Minister-Motyka-tlumaczy-stanowisko-rzadu-9150421.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rząd ma jedną strategię, która przede wszystkim opiera się na tym, by rozwój technologii w energetyce determinowała też cena - poinformował w piątek minister energii Miłosz Motyka, odnosząc się do słów A.Domańskiego o braku akceptacji dla cen pow. 500 zł/MWh. Szef ME dodał, że ta wypowiedź była skor",
-      "pubDate": "Fri, 12 Jun 2026 13:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/2/1fdaa10381dbb7-948-568-0-0-3361-2017.jpg",
-      "dateISO": "2026-06-12T12:40:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
       "title": "Ukraina znów ostrzega. \"Duże prawdopodobieństwo ataku rakietą Oriesznik\"",
       "link": "https://www.bankier.pl/wiadomosc/Ukraina-znow-ostrzega-Duze-prawdopodobienstwo-ataku-rakieta-Oriesznik-9150379.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Ukraińskie Siły Powietrzne ostrzegły w piątek przed dużym prawdopodobieństwem ataku rakietą Oriesznik z rosyjskiego poligonu Kapustin Jar. Ukraina nie dysponuje jeszcze środkami technicznymi, by samodzielnie wykrywać starty Oriesznika - przekazała agencja RBK-Ukraina.",
@@ -550,18 +442,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/f/2/a6b5c54778efdb-948-568-12-0-2505-1503.jpg",
       "dateISO": "2026-06-12T12:35:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Tarcia wokół Orlen Synthos Green Energy. Rząd włącza się w negocjacje między partnerami",
-      "link": "https://www.bankier.pl/wiadomosc/Model-wspolpracy-przy-projekcie-SMR-we-Wloclawku-moze-wymagac-poprawy-Motyka-9150375.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Model pracy spółki do realizacji projektu SMR we Włocławku będzie wymagał zapewne poprawy - ocenił podczas prezentacji aktualizacji PPEJ minister energii Miłosz Motyka. Projekt ten realizują Orlen i Synthos.",
-      "pubDate": "Fri, 12 Jun 2026 12:58:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/9/b7a5cb6918f6c6-948-568-285-225-2462-1477.jpg",
-      "dateISO": "2026-06-12T11:58:00.000Z",
       "dateFormatted": "12 czerwca 2026"
     },
     {
@@ -577,30 +457,6 @@
       "dateFormatted": "12 czerwca 2026"
     },
     {
-      "title": "Branża funduszy zjeżdża do Nałęczowa. W centrum uwagi przyszłość rynku kapitałowego",
-      "link": "https://www.bankier.pl/wiadomosc/XX-Forum-Funduszy-w-Naleczowie-W-centrum-uwagi-przyszlosc-rynku-kapitalowego-9150291.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Spokojny, uzdrowiskowy klimat Nałęczowa po raz kolejny stanie się tłem dla jednego z najważniejszych i najbardziej wpływowych spotkań polskiego rynku finansowego. 15 i 16 czerwca, czyli już w najbliższy poniedziałek i wtorek, odbędzie się jubileuszowe XX Forum Funduszy, organizowane przez Izbę Zarzą",
-      "pubDate": "Fri, 12 Jun 2026 11:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/9/4ab36092d755c2-948-568-0-0-1274-764.jpg",
-      "dateISO": "2026-06-12T10:50:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Ceny paliw: benzyna lekko w dół, ON prawie bez zmian, LPG najtaniej od marca",
-      "link": "https://www.bankier.pl/wiadomosc/Ceny-paliw-benzyna-lekko-w-dol-ON-prawie-bez-zmian-LPG-najtaniej-od-marca-9150301.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ceny benzyny spadły do najniższego poziomu od wybuchu wojny w Zatoce Perskiej. Olej napędowy nieznacznie podrożał, ale za to wyraźnie w dół poszły stawki za LPG.",
-      "pubDate": "Fri, 12 Jun 2026 11:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/6/4c47360534b558-948-568-10-201-4021-2413.jpg",
-      "dateISO": "2026-06-12T10:45:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
       "title": "Standard Chartered: rynek kryptowalut osiągnął dołek cyklu",
       "link": "https://pl.investing.com/news/cryptocurrency-news/standard-chartered-rynek-kryptowalut-osiagnal-dolek-cyklu-1451331",
       "description": "",
@@ -613,54 +469,6 @@
       "dateFormatted": "12 czerwca 2026"
     },
     {
-      "title": "Hub gamingowy w Katowicach znacznie droższy, niż planowano. Najtańsza oferta o ponad 164 mln zł przekracza budżet",
-      "link": "https://www.bankier.pl/wiadomosc/Hub-gamingowy-w-Katowicach-znacznie-drozszy-niz-planowano-Najtansza-oferta-o-ponad-164-mln-zl-przekracza-budzet-9150293.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W przetargu na realizację drugiego etapu hubu gamingowo-technologicznego w Katowicach złożono cztery ofert – od 415,2 do 536,5 mln zł. Najniższa o 164,7 mln zł przekroczyła kwotę, którą Katowickie Inwestycje zamierzają przeznaczyć na sfinansowanie zamówienia.",
-      "pubDate": "Fri, 12 Jun 2026 11:26:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/7/7fe2e79fbfd559-948-568-387-11-3621-2172.jpg",
-      "dateISO": "2026-06-12T10:26:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Nowe F-35 w Polsce. \"Husarze\" oficjalnie wchodzą do służby",
-      "link": "https://www.bankier.pl/wiadomosc/Nowe-F-35-w-Polsce-Husarze-oficjalnie-wchodza-do-sluzby-9150281.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W 32. Bazie Lotnictwa Taktycznego w Łasku odbyła się w piątek ceremonia przyjęcia polskich samolotów F-35 do Sił Zbrojnych RP. W uroczystości brali udział m.in. prezydent Karol Nawrocki oraz wicepremier, szef MON Władysław Kosiniak-Kamysz.",
-      "pubDate": "Fri, 12 Jun 2026 11:14:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/d/409b82a1b76d63-948-568-81-5-1911-1146.jpg",
-      "dateISO": "2026-06-12T10:14:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Maraton banków centralnych. Nowy szef Fedu wchodzi do gry",
-      "link": "https://www.bankier.pl/wiadomosc/Maraton-bankow-centralnych-Nowy-szef-Fedu-wchodzi-do-gry-9150279.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Przed nami emocjonujący i intensywny tydzień na rynkach finansowych. Inwestorzy na całym świecie będą śledzić doniesienia z posiedzeń najważniejszych banków centralnych świata, w tym przede wszystkim Fedu, którym kieruje już nowy szef nominowany przez prezydenta Donalda Trumpa. Jakby tego było mało,",
-      "pubDate": "Fri, 12 Jun 2026 11:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/f/d70a29e6103bdb-948-568-0-10-4000-2399.jpg",
-      "dateISO": "2026-06-12T10:10:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Najwyższa stawka na rynku zachowana. 7% roku nadal dostępne i to na dłużej",
-      "link": "https://www.bankier.pl/wiadomosc/Najwyzsza-stawka-na-rynku-zachowana-7-roku-nadal-dostepne-i-to-na-dluzej-9150275.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Najwyżej oprocentowana oferta na rynku depozytowym doczekała się przedłużenia. BOŚ Bank udostępnił na kolejny okres promocję Konta Oszczędnościowego Cyfrowy Zysk. Stawka na tym rachunku to 7 proc. w skali roku. Zmianie nie uległa również kwota maksymalna objęta promocją.",
-      "pubDate": "Fri, 12 Jun 2026 11:05:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/d/918d2460852e12-948-568-0-91-2448-1468.jpg",
-      "dateISO": "2026-06-12T10:05:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
       "title": "Polacy wśród światowych liderów wzrostu według \"Time\". Dwie spółki z GPW wysoko w rankingu",
       "link": "https://www.bankier.pl/wiadomosc/Polacy-wsrod-swiatowych-liderow-wzrostu-wedlug-Time-Dwie-spolki-z-GPW-wysoko-w-rankingu-9150211.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Amerykański dwutygodnik \"Time\" we współpracy z firmą badawczą Statista opublikował pierwszą edycję globalnego zestawienia \"World’s Growth Leaders 2026\". W projekcie wyróżniającym 1000 notowanych spółek o najwyższej dynamice przychodów i stabilnej pozycji finansowej znalazły się dwa podmioty z Giełdy",
@@ -670,18 +478,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/6/a/3b5bcbf92657a9-945-567-191-135-4308-2585.jpg",
       "dateISO": "2026-06-12T09:40:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Sikorski o wizycie Nawrockiego w USA: Niech przypomni, żeby cofneli wizę Ziobrze",
-      "link": "https://www.bankier.pl/wiadomosc/Sikorski-o-wizycie-Nawrockiego-w-USA-Niech-przypomni-zeby-cofneli-wize-Ziobrze-9150250.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Szef MSZ Radosław Sikorski wyraził nadzieję, że prezydent Karol Nawrocki upomni się w Waszyngtonie o pozbawienie Zbigniewa Ziobry ochrony USA tak, by polityk PiS mógł stanąć przed polską prokuraturą i sądem. Podkreślił też, że Nawrocki ma wsparcie rządu w zabieganiu o zwiększenie obecności wojsk ame",
-      "pubDate": "Fri, 12 Jun 2026 10:16:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/5/2e7b0fe022503e-948-568-0-0-3000-1799.jpg",
-      "dateISO": "2026-06-12T09:16:00.000Z",
       "dateFormatted": "12 czerwca 2026"
     },
     {
@@ -717,18 +513,6 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/2/5/490a663cb700ee-948-568-0-4-1792-1075.png",
-      "dateISO": "2026-06-12T05:00:00.000Z",
-      "dateFormatted": "12 czerwca 2026"
-    },
-    {
-      "title": "Kosmiczny biznes Elona Muska. Akcje SpaceX to żyła złota czy pułapka?",
-      "link": "https://www.bankier.pl/wiadomosc/Falcony-Starlink-porazki-i-szalone-plany-Czy-akcje-SpaceX-to-gratka-dla-inwestorow-9149817.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Podczas gdy na krajowej giełdzie rodzimy lider sektora kosmicznego sfinalizował ofertę akcji i pozyskał 113 mln euro, na Wall Street papiery za miliardy dolarów sprzedaje i na giełdę wchodzi SpaceX. Kapitalizacja firmy Elona Muska jest szacowana na astronomiczne 2 biliony dolarów. Czy globalny wyści",
-      "pubDate": "Fri, 12 Jun 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/6/bec654a553a098-948-568-0-67-3381-2028.jpg",
       "dateISO": "2026-06-12T05:00:00.000Z",
       "dateFormatted": "12 czerwca 2026"
     },
@@ -853,15 +637,15 @@
       "dateFormatted": "9 czerwca 2026"
     },
     {
-      "title": "Bitcoin osiągnie nowe szczyty w ciągu 3 lat, twierdzi CEO Transform Ventures",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-osiagnie-nowe-szczyty-w-ciagu-3-lat-twierdzi-ceo-transform-ventures-1446700",
-      "description": "",
-      "pubDate": "2026-06-09 12:48:01",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "dateISO": "2026-06-09T12:48:01.000Z",
+      "title": "Klienci detaliczni Citi Handlowego przejdą do VeloBanku. W weekend będzie długa przerwa techniczna",
+      "link": "https://www.bankier.pl/wiadomosc/Klienci-Citi-Handlowego-przejda-do-VeloBanku-W-weekend-bedzie-dluga-przerwa-techniczna-9148147.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Na najbliższy weekend 13-14 czerwca VeloBank zaplanował przerwę techniczną związaną z migracją bankowości detalicznej Citi Handlowego. Dla klientów oznacza to czasowy brak dostępu do bankowości internetowej, aplikacji mobilnej i BLIK-a. Karty oraz bankomaty mają działać, choć nie wszystko będzie dos",
+      "pubDate": "Tue, 9 Jun 2026 13:40:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/b/62b51f2ecc3dd0-948-568-0-337-4092-2455.jpg",
+      "dateISO": "2026-06-09T12:40:00.000Z",
       "dateFormatted": "9 czerwca 2026"
     },
     {
@@ -877,5 +661,5 @@
       "dateFormatted": "3 czerwca 2026"
     }
   ],
-  "updatedAt": "2026-06-13T03:53:58.548Z"
+  "updatedAt": "2026-06-13T07:49:22.199Z"
 }
