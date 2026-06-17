@@ -1,27 +1,219 @@
 {
   "articles": [
     {
-      "title": "Fitch potwierdził rating IDR ING BS na poziomie \"A+\"; perspektywa negatywna",
-      "link": "https://www.bankier.pl/wiadomosc/Fitch-potwierdzil-rating-IDR-ING-BS-na-poziomie-A-perspektywa-negatywna-9153051.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Agencja Fitch Ratings potwierdziła długoterminowy rating (IDR) ING Banku Śląskiego na poziomie \"A+\" z negatywną perspektywą - podała agencja ratingowa w komunikacie.",
-      "pubDate": "Wed, 17 Jun 2026 17:18:00 +0100",
+      "title": "Trump o porozumieniu z Iranem: Pokój dla giełdy i gospodarki",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-o-porozumieniu-z-Iranem-Pokoj-dla-gieldy-i-gospodarki-9153189.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump powiedział w środę podczas konferencji prasowej w Evian-les-Bains we Francji, że zawarł porozumienie z Iranem, bo chciał uniknąć katastrofy gospodarczej, spowodowanej zablokowaniem cieśniny Ormuz. Zapowiedział, że do podpisania umowy dojdzie w czwartek lub w piątek.",
+      "pubDate": "Wed, 17 Jun 2026 19:48:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/0/f/5cf4b304c96a2e-thumb-1000.jpg",
-      "dateISO": "2026-06-17T16:18:00.000Z",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/b/c9829c94986ee8-948-568-0-160-4000-2399.jpg",
+      "dateISO": "2026-06-17T18:48:00.000Z",
       "dateFormatted": "17 czerwca 2026"
     },
     {
-      "title": "Makolab chce wypłacić 0,22 zł dywidendy na akcję",
-      "link": "https://www.bankier.pl/wiadomosc/Makolab-chce-wyplacic-0-22-zl-dywidendy-na-akcje-9153037.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Makolab rekomenduje wypłatę 1,5 mln zł dywidendy z zysku netto za 2025 rok, co daje 0,22 zł na akcję - podała spółka w komunikacie. Rekomendacja uzyskała pozytywną opinię rady nadzorczej.",
-      "pubDate": "Wed, 17 Jun 2026 17:04:00 +0100",
+      "title": "ECB wypłaci 0,8 zł dywidendy na akcję",
+      "link": "https://www.bankier.pl/wiadomosc/ECB-wyplaci-0-8-zl-dywidendy-na-akcje-9153170.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Walne zgromadzenie ECB zdecydowało o przeznaczeniu na dywidendę 2,5 mln zł, co daje 0,8 zł dywidendy na akcję - poinformowała spółka w komunikacie.",
+      "pubDate": "Wed, 17 Jun 2026 19:36:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/6/9/663ed7264204bb-thumb-1000.jpg",
-      "dateISO": "2026-06-17T16:04:00.000Z",
+      "image": "https://galeria.bankier.pl/p/e/8/bec068af7bec25-thumb-1000.jpg",
+      "dateISO": "2026-06-17T18:36:00.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "Polskie embargo solą w oku Brukseli. Będzie otwarcie na ukraińskie produkty?",
+      "link": "https://www.bankier.pl/wiadomosc/Polskie-embargo-sola-w-oku-Brukseli-Bedzie-otwarcie-na-ukrainskie-produkty-9153160.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Unijny komisarz rolnictwa Christophe Hansen powiedział PAP, że w trakcie wizyty w Polsce w czwartek i piątek podejmie dialog z polskimi władzami na temat zniesienia zakazu importu ukraińskich produktów rolnych. Nawet jeśli te ograniczenia politycznie mają sens, to ekonomicznie nie — zaznaczył.",
+      "pubDate": "Wed, 17 Jun 2026 19:26:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/f/3844e6f12f46b7-948-567-5-35-995-596.jpg",
+      "dateISO": "2026-06-17T18:26:00.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "Donald Trump wyjaśnia powód porozumienia z Iranem. \"Nie chciałem widzieć jednej rzeczy\"",
+      "link": "https://businessinsider.com.pl/gospodarka/donald-trump-wyjasnil-porozumienie-z-iranem-nie-chcialem-widziec-jednej-rzeczy/wcszvxv",
+      "description": "Prezydent USA Donald Trump wyjaśnił w środę podczas konferencji prasowej w Evian-les-Bains we Francji powód zawarcia porozumienia z Iranem. Podkreślił, że chciał uniknąć katastrofy gospodarczej, spowodowanej zablokowaniem cieśniny Ormuz.",
+      "pubDate": "Wed, 17 Jun 2026 18:12:55 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/CaKk9kpTURBXy81ODAzYjUwZTAwYTMxNzNjZDY5ZWMzNjRlYjY0ODJlMi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-17T18:12:55.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "Miażdżący werdykt Komisji Weneckiej nt. prezydenckiego projektu ustawy ws. sądownictwa",
+      "link": "https://www.bankier.pl/wiadomosc/Miazdzacy-werdykt-Komisji-Weneckiej-nt-prezydenckiego-projektu-ustawy-ws-sadownictwa-9153137.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Projekt karania sędziów stanowi zagrożenie dla niezawisłości sądownictwa — wynika z opublikowanej w środę opinii Komisji Weneckiej na temat prezydenckiego projektu ustawy o przywróceniu prawa do sądu oraz rozpoznania sprawy bez nieuzasadnionej zwłoki. Uznano, że projekt nie może być uznany za rozwią",
+      "pubDate": "Wed, 17 Jun 2026 19:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/1/e1273b7de9c4a7-948-568-420-0-3200-1920.jpg",
+      "dateISO": "2026-06-17T18:00:00.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "Darmowe bilety kolejowe do Niemiec. Ruszy wielka akcja dla młodych",
+      "link": "https://www.bankier.pl/wiadomosc/Darmowe-bilety-kolejowe-do-Niemiec-Ruszy-wielka-akcja-dla-mlodych-9153136.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Resort infrastruktury oraz Federalne Ministerstwo Transportu Niemiec uruchamiają kolejowy Polsko-Niemiecki Bilet Przyjaźni, z którego będzie mogło skorzystać 60 tys. młodych osób w wieku od 18 do 27 lat. Każdy z krajów udostępni po 30 tys. biletów - poinformowało w środę polskie ministerstwo.",
+      "pubDate": "Wed, 17 Jun 2026 18:58:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/5/2d1c4db94cc135-948-567-5-15-995-596.jpg",
+      "dateISO": "2026-06-17T17:58:00.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "DM BOŚ obniżył cenę docelową akcji Votum",
+      "link": "https://www.bankier.pl/wiadomosc/DM-BOS-obnizyl-cene-docelowa-akcji-Votum-do-53-1-zl-9153134.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Analitycy DM BOŚ, w raporcie z 17 czerwca, obniżyli 12-miesięczną wycenę akcji grupy Votum do 53,1 z 58,1 zł wcześniej, podtrzymując rekomendację \"kupuj\".",
+      "pubDate": "Wed, 17 Jun 2026 18:52:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/d/2/876846e0d0a6c4-948-568-0-203-1328-797.jpg",
+      "dateISO": "2026-06-17T17:52:00.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "Jeff Bezos wbrew obawom: AI nie zabierze pracy. Stworzy jej niedobór",
+      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/paradoks-ai-mniej-ludzi-wiecej-pracy-bezos-przekonuje-ze-to-mozliwe/6bmqbbv",
+      "description": "W czasie gdy firmy tną etaty w związku z wdrożeniami AI, Jeff Bezos przedstawia zupełnie inną wizję przyszłości. Jego zdaniem sztuczna inteligencja nie doprowadzi do masowych zwolnień, ale… do niedoboru pracowników.",
+      "pubDate": "Wed, 17 Jun 2026 17:41:25 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/WYPk9kpTURBXy9iOTY4YWVkYTIwYWUyZTJlOWNkMmEyNjk0Mjk0ZWU0MS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-17T17:41:25.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "Historyczny rekord na GPW. WIG zakończył sesję powyżej 140 tys. punktów",
+      "link": "https://www.bankier.pl/wiadomosc/Historyczny-rekord-na-GPW-WIG-zakonczyl-sesje-powyzej-140-tys-punktow-9153121.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Warszawski Indeks Giełdowy, który obejmuje wszystkie spółki notowane na głównym rynku warszawskiego parkietu, po raz pierwszy w historii zakończył sesję powyżej 140 tys. punktów - zauważył w środę minister finansów i gospodarki Andrzej Domański.",
+      "pubDate": "Wed, 17 Jun 2026 18:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/f/c0a3ed123f8b66-948-568-710-440-3290-1973.jpg",
+      "dateISO": "2026-06-17T17:36:00.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "Wielkie zmiany w rozwodach i alimentach. MS chce nowego prawa rodzinnego",
+      "link": "https://www.bankier.pl/wiadomosc/Wielkie-zmiany-w-rozwodach-i-alimentach-MS-chce-nowego-prawa-rodzinnego-9153109.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Resort sprawiedliwości przygotował pakiet prawa rodzinnego, który wprowadza elastyczną pieczę współdzieloną i szybkie postępowanie o alimenty podstawowe z nakazem w siedem dni. Według resortu osobne postępowanie wykonawcze gwarantuje, że orzeczenia chroniące dzieci będą skuteczniej egzekwowane.",
+      "pubDate": "Wed, 17 Jun 2026 18:14:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/4/dcb2399955064d-948-568-0-103-1732-1039.jpg",
+      "dateISO": "2026-06-17T17:14:00.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "Amerykańskie firmy odbudowują zapasy. To dobry sygnał dla PKB",
+      "link": "https://businessinsider.com.pl/biznes/zapasy-rosna-zgodnie-z-prognozami-wsparcie-dla-gospodarki-usa/8g70x1l",
+      "description": "Zapasy amerykańskich firm znów rosną, a to może przełożyć się na lepsze wyniki gospodarki w drugim kwartale. Po okresie ich ograniczania pojawiają się sygnały stabilizacji i odbicia aktywności.",
+      "pubDate": "Wed, 17 Jun 2026 17:04:26 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ojPk9kpTURBXy9kZTE1NThkY2JkMjlhMDM3YTczOTFjNmM4YmY4N2IxNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-17T17:04:26.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "Miliardy euro dla polskich rolników. Nowy unijny budżet przyniesie wyższe wypłaty",
+      "link": "https://www.bankier.pl/wiadomosc/Miliardy-euro-dla-polskich-rolnikow-Nowy-unijny-budzet-przyniesie-wyzsze-wyplaty-9153098.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polscy rolnicy dostaną co najmniej 33,6 mld euro z nowego budżetu UE na lata 2028-2034, co oznacza wzrost w stosunku do obecnej wspólnej polityki rolnej dla Polski - powiedział PAP komisarz rolnictwa Christophe Hansen. Jak podkreślił, Polska znajdzie się w gronie 16 państw, które dostaną więcej.",
+      "pubDate": "Wed, 17 Jun 2026 18:01:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/2/3169731173ee73-948-568-0-111-3700-2219.jpg",
+      "dateISO": "2026-06-17T17:01:00.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "Koniec tajemnic w szpitalach. Sejmowa komisja poparła bat na zarobki lekarzy",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-tajemnic-w-szpitalach-Sejmowa-komisja-poparla-bat-na-zarobki-lekarzy-9153090.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sejmowa Komisja Zdrowia poparła projekt ustawy umożliwiający powiązanie informacji o wynagrodzeniach medyków z numerem PESEL i numerem prawa wykonywania zawodu. Według wiceminister zdrowia Katarzyny Kęckiej pozwoli to odzwierciedlić wpływ wynagrodzeń na poziom kosztów świadczeń.",
+      "pubDate": "Wed, 17 Jun 2026 17:55:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/5/9ff77fa55b69a6-948-568-22-0-4405-2643.jpg",
+      "dateISO": "2026-06-17T16:55:00.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "Nieoczekiwany skutek porozumienia USA z Iranem. Eksperci zapowiadają nadmiar ropy na świecie",
+      "link": "https://businessinsider.com.pl/gospodarka/bedzie-wiecej-ropy-niz-swiat-potrzebuje-eksperci-prognozuja-skutki-porozumienia/rr5xw68",
+      "description": "Międzynarodowa Agencja Energetyczna (IEA) prognozuje, że po podpisaniu porozumienia między USA a Iranem może dojść do gwałtownego wzrostu podaży ropy naftowej na świecie — pisze \"Telegraph\". Ropy może być na rynku znacznie więcej, niż świat potrzebuje.",
+      "pubDate": "Wed, 17 Jun 2026 16:54:12 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/78Xk9kpTURBXy8zOTllOTQ2MmE4ZjgwZWQzNTk1MGFkZDM1MGExZDYyNi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-17T16:54:12.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "Nowa baza USA w Polsce. Kosiniak-Kamysz gotowy na spotkanie z prezydentem",
+      "link": "https://www.bankier.pl/wiadomosc/Nowa-baza-USA-w-Polsce-Kosiniak-Kamysz-gotowy-na-spotkanie-z-prezydentem-9153065.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wicepremier, szef MON Władysław Kosiniak-Kamysz podkreślił, że jest gotowy do rozmowy z Karolem Nawrockim ws. bezpieczeństwa, jak tylko dostanie zaproszenie na spotkanie z prezydentem. Nawrocki zapowiedział wcześniej, że po powrocie z USA będzie chciał rozmawiać z ministrem ws. obecności żołnierzy U",
+      "pubDate": "Wed, 17 Jun 2026 17:39:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/8/b974f9edf4b403-948-568-160-270-3840-2303.jpg",
+      "dateISO": "2026-06-17T16:39:00.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "Nowy budżet UE hojny dla polskich rolników. Dostaną ponad 33 mld euro",
+      "link": "https://businessinsider.com.pl/gospodarka/nowy-budzet-ue-hojny-dla-polskich-rolnikow-dostana-ponad-33-mld-euro/953m4f7",
+      "description": "Nowy budżet Unii Europejskiej przewiduje wyższe niż obecnie wsparcie finansowe dla polskich rolników. Unijny komisarz rolnictwa Christophe Hansen poinformował w środę, że Polska dostanie na ten cel co najmniej 33,6 mld euro.",
+      "pubDate": "Wed, 17 Jun 2026 16:24:22 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/PiYk9kpTURBXy8zYzE3MDI4ZjhhYTdjMzQ2ZDczMWIxYzVkNTczNmU1Mi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-17T16:24:22.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "Anomalia na GPW? WIG20 w dół, a WIG w górę, przy płaskich mWIG40 i sWIG80",
+      "link": "https://www.bankier.pl/wiadomosc/Anomalia-na-GPW-WIG20-w-dol-a-WIG-w-gore-przy-plaskich-mWIG40-i-sWIG80-9153049.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Środowa sesja na warszawskim parkiecie wpisała się w rynkowy nastrój wyczekiwania. Brak większych zmian na europejskich indeksach bazowych oraz benchmarkach z Wall Street wynikał z ostrożnego podejścia inwestorów przed nie tyle samą decyzją Fedu, ile komunikacją nowego prezesa. WIG20 skończył co pra",
+      "pubDate": "Wed, 17 Jun 2026 17:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/2/2621a1049e72d4-948-568-0-0-2600-1559.jpg",
+      "dateISO": "2026-06-17T16:20:00.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "Przełomowe słowa Macrona. \"Stosunek sił zmienił się na korzyść Kijowa\"",
+      "link": "https://www.bankier.pl/wiadomosc/Przelomowe-slowa-Macrona-Stosunek-sil-zmienil-sie-na-korzysc-Kijowa-9153034.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Francji Emmanuel Macron oświadczył w środę na konferencji prasowej na zakończenie szczytu G7 w Evian-les-Bains, że kraje grupy zgodziły się, iż w wojnie w Ukrainie stosunek sił zmienił się na korzyść Kijowa. Uznał, że doszło do ponownej mobilizacji krajów G7 w sprawie zwiększenia presji na",
+      "pubDate": "Wed, 17 Jun 2026 17:02:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/e/4f4dfd88806806-948-568-500-610-3283-1970.jpg",
+      "dateISO": "2026-06-17T16:02:00.000Z",
       "dateFormatted": "17 czerwca 2026"
     },
     {
@@ -49,6 +241,18 @@
       "dateFormatted": "17 czerwca 2026"
     },
     {
+      "title": "Grupa „Bronimy Polskiej Granicy” pod lupą śledczych. Ruszyło pilne postępowanie",
+      "link": "https://www.bankier.pl/wiadomosc/Grupa-Bronimy-Polskiej-Granicy-pod-lupa-sledczych-Ruszylo-pilne-postepowanie-9153018.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prokuratura wszczęła postępowanie ws. podszywania się pod funkcjonariuszy publicznych oraz legitymowania innych osób na Dworcu Centralnym w Warszawie - poinformował w środę PAP rzecznik Prokuratury Regionalnej w Warszawie prok. Mateusz Martyniuk. Chodzi o członków grupy „Bronimy Polskiej Granicy”.",
+      "pubDate": "Wed, 17 Jun 2026 16:47:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/9/92e3fd17b8f46f-948-568-21-0-1655-993.jpg",
+      "dateISO": "2026-06-17T15:47:00.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
       "title": "Nowy układ pracy w Poczcie Polskiej. Zarząd spotkał się ze związkami",
       "link": "https://www.bankier.pl/wiadomosc/Nowy-uklad-pracy-w-Poczcie-Polskiej-Zarzad-spotkal-sie-ze-zwiazkami-zawodowymi-9153009.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W środę odbyło się pierwsze spotkanie nowego zarządu Poczty Polskiej z przedstawicielami związków zawodowych w spółce. Celem spotkania było rozpoczęcie prac nad wprowadzeniem nowego Zakładowego Układu Zbiorowego Pracy, gdyż poprzedni nie obowiązuje od lutego ubiegłego roku.",
@@ -58,6 +262,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/3/e/996e1cbfaad040-945-560-0-69-1152-691.jpg",
       "dateISO": "2026-06-17T15:42:00.000Z",
+      "dateFormatted": "17 czerwca 2026"
+    },
+    {
+      "title": "Pomysł Lewicy może uderzyć w pacjentów. Ekspert ostrzega przed nowym zakazem dla lekarzy",
+      "link": "https://businessinsider.com.pl/praca/ekspert-ostrzega-przed-pomyslem-lewicy-wydluza-sie-kolejki-do-lekarzy/nz7qsb4",
+      "description": "Propozycja zakazu łączenia pracy lekarzy w sektorze publicznym i prywatnym może mieć negatywne skutki dla pacjentów — ostrzega dr Jerzy Gryglewicz z Instytutu Zarządzania w Ochronie Zdrowia Uczelni Łazarskiego w Warszawie. Chodzi o jeden z radykalnych pomysłów Lewicy dotyczących zmian w ochronie zdr",
+      "pubDate": "Wed, 17 Jun 2026 15:34:14 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/sjjk9kpTURBXy9mNjBlMDlhOWYyMTg4MzA0NTEwMjg5NmQ5NTdjYzJiZi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-17T15:34:14.000Z",
       "dateFormatted": "17 czerwca 2026"
     },
     {
@@ -157,18 +373,6 @@
       "dateFormatted": "17 czerwca 2026"
     },
     {
-      "title": "Zakaz łączenia praktyki prywatnej z publiczną. Oddziały będą zamykane?",
-      "link": "https://www.bankier.pl/wiadomosc/Zakaz-laczenia-praktyki-prywatnej-z-publiczna-Oddzialy-beda-zamykane-9152953.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zakaz dla lekarzy łączenia pracy w sektorze publicznym i prywatnym spowoduje zamykanie oddziałów szpitalnych, co jest niebezpieczne dla pacjentów - powiedział PAP dr Jerzy Gryglewicz. Według eksperta obecnie przeszkodą dla wprowadzenia takiej regulacji jest zbyt mała liczba lekarzy.",
-      "pubDate": "Wed, 17 Jun 2026 15:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/6/47e1793f67cd67-948-568-14-4-1905-1143.jpg",
-      "dateISO": "2026-06-17T14:50:00.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
       "title": "Przełomowa umowa handlowa UE. Wiadomo, kiedy wejdzie w życie",
       "link": "https://businessinsider.com.pl/finanse/handel/bruksela-i-delhi-koncza-negocjacje-umowa-handlowa-zmieni-globalny-uklad-sil/wfd3ymw",
       "description": "Unia Europejska i Indie finalizują jedną z najważniejszych umów handlowych ostatnich lat. Porozumienie ma znacząco obniżyć cła, zwiększyć wymianę towarową i zmienić układ globalnych powiązań gospodarczych.",
@@ -229,18 +433,6 @@
       "dateFormatted": "17 czerwca 2026"
     },
     {
-      "title": "Pociski dalekiego zasięgu na Ukrainie. Kraje G7 ruszą z produkcją",
-      "link": "https://www.bankier.pl/wiadomosc/Pociski-dalekiego-zasiegu-na-Ukrainie-Kraje-G7-rusza-z-produkcja-9152894.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Agencja AFP podała w środę, powołując się na źródło dyplomatyczne, że kraje G7 będą produkować na Ukrainie na licencji systemy obrony przeciwlotniczej i pociski dalekiego zasięgu.",
-      "pubDate": "Wed, 17 Jun 2026 15:01:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/3/68cf3dd9cd576a-948-568-105-0-1295-776.jpg",
-      "dateISO": "2026-06-17T14:01:00.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
       "title": "Apple wprowadza \"kill switch\". Zamienia iPhone'a w bezużyteczny złom",
       "link": "https://www.bankier.pl/wiadomosc/Apple-wprowadza-kill-switch-Zamienia-iPhone-a-w-bezuzyteczny-zlom-9151337.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "200 telefonów dziennie jest kradzionych w Londynie. I choć to stolica Wielkiej Brytanii otrzymała przydomek \"najbardziej złodziejskiego miasta\", to w sezonie letnim kradzieże komórek to plaga. Nic więc dziwnego, że Apple wprowadza tzn. \"kill switch\", czyli wyłącznik bezpieczeństwa, który uniemożliwi",
@@ -262,18 +454,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/grwk9kpTURBXy9iOGNhMWE3ZTE1OTY3Yzg4ODkxNjI3OWZkNTFiZjJkOC5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-06-17T13:40:58.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
-      "title": "Leyen: KE zaproponuje przedłużenie ochrony dla Ukraińców i zaostrzenie wiz dla Rosjan",
-      "link": "https://www.bankier.pl/wiadomosc/Leyen-KE-zaproponuje-przedluzenie-ochrony-dla-Ukraincow-i-zaostrzenie-wiz-dla-Rosjan-9152871.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Komisja Europejska zaproponuje przedłużenie tymczasowej ochrony Ukraińców, ale ograniczy jej zakres (…) Pracujemy też nad nowymi wytycznymi ws. wydawania wiz Rosjanom – napisała szefowa Komisji Europejskiej Ursula von der Leyen w liście do przywódców przed czwartkowym szczytem Rady Europejskiej.",
-      "pubDate": "Wed, 17 Jun 2026 14:39:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/a/6e446180571897-948-568-180-140-3820-2291.jpg",
-      "dateISO": "2026-06-17T13:39:00.000Z",
       "dateFormatted": "17 czerwca 2026"
     },
     {
@@ -433,18 +613,6 @@
       "dateFormatted": "17 czerwca 2026"
     },
     {
-      "title": "Morderstwo rosyjskiego dysydenta w Polsce. Tusk: Znamiona terroryzmu państwowego",
-      "link": "https://www.bankier.pl/wiadomosc/Morderstwo-rosyjskiego-dysydenta-w-Polsce-Tusk-Znamiona-terroryzmu-panstwowego-9152749.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wszystko na to wskazuje, że było to zabójstwo polityczne, ale musimy czekać na dowody i bardziej konkretne przesłanki - ocenił w środę na konferencji premier Donald Tusk pytany o zabójstwo Rosjanina Roberta K. w Białej Podlaskiej.",
-      "pubDate": "Wed, 17 Jun 2026 13:01:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/9/2dcdaf3ab15d7d-948-568-500-160-2890-1733.jpg",
-      "dateISO": "2026-06-17T12:01:00.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
       "title": "Ceny mieszkań w Warszawie biją rekordy. Granica 20 tys. zł za metr coraz bliżej",
       "link": "https://businessinsider.com.pl/nieruchomosci/warszawa-podbija-ceny-mieszkan-granica-20-tys-zl-za-metr-coraz-blizej/0nhxgnp",
       "description": "Średnia cena nowych mieszkań w Warszawie niemal osiągnęła psychologiczną granicę 20 tys. zł za metr kwadratowy.",
@@ -454,30 +622,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/9EAk9kpTURBXy8xYmUyMzU5Y2NlMDJkNTljNDRlODE2OTE3NzkxNTFiNi5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-06-17T11:48:24.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
-      "title": "Inicjatywa Stop Killing Games poniosła klęskę, Komisja Europejska stanęła po stronie wydawców. Wyjaśniamy, co dalej",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/co-dalej-ze-stop-killing-games-komisja-europejska-stanela-po-stronie-korporacji/9cm3m96",
-      "description": "Ponad milion zweryfikowanych, zebranych podpisów i długie miesiące rozmów na temat odpowiednich przepisów na niewiele się zdały. Legislacja, która miała gwarantować, że gry nie będą mogły być ot tak przez twórców i wydawców wyłączane, niestety na tym etapie nie powstanie. Komisja Europejska wydała w",
-      "pubDate": "Wed, 17 Jun 2026 11:41:32 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/gghk9kpTURBXy84NDlkODJmOWVmOWZhNGJmYzNjNjZiNmUyODBjNzFlZi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-17T11:41:32.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
-      "title": "Sądowe zwycięstwo Elona Muska nad niemiecką telewizją. \"Oburzające kłamstwa\"",
-      "link": "https://businessinsider.com.pl/prawo/elon-musk-wygrywa-pierwszy-spor-z-zdf-niemiecka-stacja-usuwa-kontrowersyjny-fragment/xze6fmn",
-      "description": "Elon Musk odniósł pierwsze zwycięstwo w sporze z niemieckim nadawcą publicznym ZDF. Stacja poinformowała, że ​​usunie z programu wyemitowanego w zeszłym tygodniu fragment dotyczący domniemanej roli Muska w wybuchu zamieszek w Irlandii Północnej.",
-      "pubDate": "Wed, 17 Jun 2026 11:28:44 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Gfrk9kpTURBXy84ZGRmNTRmMjdmZTcxNjk2NzVlZGM0MThjNjA0MGJhOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-17T11:28:44.000Z",
       "dateFormatted": "17 czerwca 2026"
     },
     {
@@ -493,30 +637,6 @@
       "dateFormatted": "17 czerwca 2026"
     },
     {
-      "title": "Orlen odcina dywidendę i traci na wartości miliardy. Spadł za rosyjskiego giganta",
-      "link": "https://businessinsider.com.pl/gielda/orlen-traci-miliardy-i-wyprzedza-go-lukoil-notowania-akcji-pod-presja-cen-ropy/lrqlzks",
-      "description": "Cena akcji Orlenu z dnia na dzień mocno spadła. Kurs znalazł się poniżej 130 zł. Rynek znowu wycenia Łukoil wyżej od polskiego czempiona. Sprawdziliśmy, jak wypada na tle Gazpromu i Rosnefta.",
-      "pubDate": "Wed, 17 Jun 2026 11:21:01 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/B-jk9kpTURBXy80MzVlZGY3OGU1OGYzZjUzYThkOWY1NmVmYWVhNDQyNC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-17T11:21:01.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
-      "title": "Ranking nieruchomościowych milionerów w Sejmie. Warte nawet 72 mln zł",
-      "link": "https://businessinsider.com.pl/wiadomosci/andrzej-gut-mostowy-deklasuje-poslow-pod-wzgledem-majatku-nieruchomosciowego/zs0vfwl",
-      "description": "Opublikowane właśnie oświadczenia majątkowe posłów ujawniają, że część parlamentarzystów zgromadziła imponujące portfele nieruchomości. W niektórych przypadkach wartość zadeklarowanych domów, mieszkań, kamienic czy działek przekracza kilkadziesiąt milionów złotych. Nieruchomościowym królem jest pose",
-      "pubDate": "Wed, 17 Jun 2026 11:15:06 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/pBbk9kpTURBXy81Yjc0ZTNjYjU0M2Q1NmI2YmRjODI4ZTFjYmRiODQ0Mi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-17T11:15:06.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
       "title": "Europa bierze większą odpowiedzialność. Rutte: Mniej wojsk USA, więcej sił z Europy",
       "link": "https://www.bankier.pl/wiadomosc/Europa-bierze-wieksza-odpowiedzialnosc-Rutte-Mniej-wojsk-USA-wiecej-sil-z-Europy-9152719.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Europejscy członkowie NATO zwiększyli deklaracje dotyczące wojsk, które mogą zostać postawione do dyspozycji Sojuszu w sytuacji kryzysowej po ograniczeniu wkładu Stanów Zjednoczonych - poinformował w środę sekretarz generalny NATO Mark Rutte.",
@@ -529,18 +649,6 @@
       "dateFormatted": "17 czerwca 2026"
     },
     {
-      "title": "Wakacje za granicą tańsze niż w Polsce. Ceny noclegów zaskakują",
-      "link": "https://businessinsider.com.pl/gospodarka/mazury-drozsze-od-egiptu-i-turcji-roznice-sa-ogromne/plrrc8d",
-      "description": "Najnowsza analiza Rankomat.pl pokazuje, że w wielu przypadkach koszt noclegu w Egipcie, Turcji czy na Sycylii okazuje się porównywalny, a nawet niższy niż w znanych polskich miejscowościach turystycznych. Mowa o różnicach sięgających nawet ponad 1 tys. zł.",
-      "pubDate": "Wed, 17 Jun 2026 11:01:28 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/4mik9kpTURBXy82ZTdjYzQwNmRkNmIxMmRiZjhkZTdiYzNlMzI4MjFhMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-17T11:01:28.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
       "title": "Duże TFI wraca do korzeni. Od poniedziałku zmiana szyldu, później czas na nowe produkty",
       "link": "https://www.bankier.pl/wiadomosc/Goldman-Sachs-TFI-zmieni-22-czerwca-nazwe-na-ING-TFI-9152693.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "ING TFI – to od poniedziałku nowa, a tak naprawdę stara nazwa Goldman Sachs TFI, do której towarzystwo wraca po ponad dekadzie. Jest to efekt niedawnego przejęcia pełnej kontroli nad firmą przez ING Bank Śląski. – Obecność ING TFI w naszej grupie przyspieszy rozwój oferty inwestycyjnej i emerytalnej",
@@ -550,78 +658,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/b/9/b54ffca6ce1a00-948-568-666-463-1031-618.jpg",
       "dateISO": "2026-06-17T10:46:00.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
-      "title": "Powstanie AI Lab Poland. Spółka BGK inwestuje ponad 40 mln zł w ElevenLabs",
-      "link": "https://www.bankier.pl/wiadomosc/Powstanie-AI-Lab-Poland-Spolka-BGK-inwestuje-ponad-40-mln-zl-w-ElevenLabs-9152692.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Spółka Vinci z grupy Banku Gospodarstwa Krajowego zainwestowała ponad 40 mln zł w ElevenLabs - poinformowali w środę przedstawiciele polskiego banku rozwoju. Kapitał ten ma wspomóc rozwój ElevenLabs, w tym ekspansję w Polsce.",
-      "pubDate": "Wed, 17 Jun 2026 11:43:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/3/bd2f23b79bc217-948-568-22-517-3637-2182.jpg",
-      "dateISO": "2026-06-17T10:43:00.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
-      "title": "Gotówka wciąż w cenie. Zbliża się symboliczna granica 500 miliardów złotych",
-      "link": "https://www.bankier.pl/wiadomosc/Gotowka-wciaz-w-cenie-Zbliza-sie-symboliczna-granica-500-miliardow-zlotych-9152690.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W najbliższych dniach wartość pieniądza gotówkowego w obiegu sięgnie 500 mld zł - poinformował członek zarządu NBP Artur Soboń w trakcie posiedzenia sejmowej Komisji Finansów Publicznych. Oznaczać to będzie wzrost o 6,25 proc. względem końca 2025 r.",
-      "pubDate": "Wed, 17 Jun 2026 11:42:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/8/89f99773fba5a0-945-560-15-26-2106-1263.jpg",
-      "dateISO": "2026-06-17T10:42:00.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
-      "title": "300 mld dol. dla Iranu. USA oferują inwestycje zamiast reparacji",
-      "link": "https://businessinsider.com.pl/gospodarka/300-mld-dol-dla-iranu-usa-oferuja-inwestycje/skfmh37",
-      "description": "Stany Zjednoczone i Iran osiągnęły ramowe porozumienie dotyczące utworzenia prywatnego funduszu inwestycyjnego o wartości 300 mld dol., który ma stymulować rozwój gospodarczy w Iranie. Jak poinformowało źródło agencji Reuters, ponad połowa tej kwoty została już zadeklarowana przez inwestorów. Fundus",
-      "pubDate": "Wed, 17 Jun 2026 10:36:25 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/igKk9kpTURBXy9iOTdjODk1YTM3YWFjMzQ1MjZmMGIzMTUxMDc4MmIyNS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-17T10:36:25.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
-      "title": "USA wypycha Gazprom z Bałkanów. MOL o krok od przejęcia serbskiego NIS",
-      "link": "https://www.bankier.pl/wiadomosc/MOL-ma-zgode-USA-na-kontynuowanie-negocjacji-dot-wiekszosciowych-udzialow-NIS-do-1-lipca-9152687.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Węgierski koncern naftowy MOL otrzymał od Biura Kontroli Aktywów Zagranicznych Departamentu Skarbu USA zgodę na kontynuowanie negocjacji dotyczących nabycia większościowych udziałów w Serbskim Przemyśle Naftowym (NIS) do 1 lipca - podał MOL w komunikacie.",
-      "pubDate": "Wed, 17 Jun 2026 11:36:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/5/77802ee929ac67-948-569-7-72-991-595.jpg",
-      "dateISO": "2026-06-17T10:36:00.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
-      "title": "Ceny w strefie euro rosną najszybciej od blisko trzech lat. Inflacja w całej UE jeszcze wyższa",
-      "link": "https://www.bankier.pl/wiadomosc/Inflacja-w-calej-UE-jeszcze-wyzsza-Polska-w-rankingu-wzrostu-cen-9152655.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Majowy odczyt inflacji HICP w strefie euro potwierdził wstępny odczyt osiągając najwyższą wartość od września 2023 roku. Przyspieszenie wzrostu cen wybiło euroland z dotychczasowego celu monetarnego i zmusiło Europejski Bank Centralny do podwyżki stóp procentowych.",
-      "pubDate": "Wed, 17 Jun 2026 11:31:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/a/a36b8a12b3b753-948-567-0-25-1000-599.jpg",
-      "dateISO": "2026-06-17T10:31:00.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
-      "title": "KNF karze InterRisk. 2,7 mln zł grzywny za zaniżanie składek OC",
-      "link": "https://www.bankier.pl/wiadomosc/KNF-karze-InterRisk-2-7-mln-zl-grzywny-za-zanizanie-skladek-OC-9152673.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Komisja Nadzoru Finansowego nałożyła na InterRisk Towarzystwo Ubezpieczeń Spółka Akcyjna Vienna Insurance Group karę pieniężną w wysokości 2,7 mln zł w związku ze sposobem ustalania składek na rynku ubezpieczeń OC ppm w latach 2023-2024 - poinformowała KNF w komunikacie.",
-      "pubDate": "Wed, 17 Jun 2026 11:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/6/4053709ab12e4f-948-568-0-175-1360-815.jpg",
-      "dateISO": "2026-06-17T10:20:00.000Z",
       "dateFormatted": "17 czerwca 2026"
     },
     {
@@ -649,30 +685,6 @@
       "dateFormatted": "17 czerwca 2026"
     },
     {
-      "title": "Oszuści uderzają na dwa fronty. Podszywają się pod ZUS i skarbówkę",
-      "link": "https://www.bankier.pl/wiadomosc/Falszywe-wiadomosci-z-ZUS-i-skarbowki-Oszusci-uderzaja-na-dwa-fronty-9152542.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zakład Ubezpieczeń Społecznych i Krajowa Administracja Skarbowa przed nową falą oszustw. Przestępcy rozsyłają fałszywe SMS-y i e-maile, w których informują m.in. o zwrocie podatku, błędzie w rozliczeniu składki zdrowotnej lub konieczności potwierdzenia danych. Oszuści chcą wyłudzić dane osobowe i pi",
-      "pubDate": "Wed, 17 Jun 2026 08:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/1/55595efe1a1cee-948-568-480-75-2200-1320.jpg",
-      "dateISO": "2026-06-17T07:40:00.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
-      "title": "Renata Wanat-Szelenbaum: Musimy zainteresować inwestora w inny sposób niż do tej pory",
-      "link": "https://www.bankier.pl/wiadomosc/Renata-Wanat-Szelenbaum-Musimy-zainteresowac-inwestora-w-inny-sposob-niz-do-tej-pory-9152472.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "– Pytanie nie brzmi, czy branża inwestycyjna powinna być obecna w mediach społecznościowych, tylko w jaki sposób. Myślę, że mamy w tej chwili nowe otwarcie i ciekawą rozmowę z regulatorem, który pokazuje nam, że naprawdę możemy zrobić coś w tej kwestii – mówi Renata Wanat-Szelenbaum, wiceprezes PKO ",
-      "pubDate": "Wed, 17 Jun 2026 08:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/b/c9c32fd04d9b5a-948-568-0-0-3600-2159.jpg",
-      "dateISO": "2026-06-17T07:00:00.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
       "title": "Grzegorz Chłopek: OKI dużą szansą, ale jest jedno zagrożenie",
       "link": "https://www.bankier.pl/wiadomosc/Grzegorz-Chlopek-OKI-duza-szansa-ale-jest-jedno-zagrozenie-9152471.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "– OKI na pewno są bardzo dużą szansą dla rynku. Będą szczególnie korzystne w przypadku takich instrumentów, które przynoszą regularny, wyższy dochód niż benchmark dla ustalania podatku, czyli obligacje skarbowe – mówi Grzegorz Chłopek, prezes zarządu Michael/Stroem TFI.",
@@ -694,18 +706,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/a/9f6457429a089c-948-568-0-0-3600-2159.jpg",
       "dateISO": "2026-06-17T07:00:00.000Z",
-      "dateFormatted": "17 czerwca 2026"
-    },
-    {
-      "title": "To nie USA zapłacą Iranowi. Globalne konsorcjum wyłoży 300 mld dolarów na odbudowę",
-      "link": "https://www.bankier.pl/wiadomosc/To-nie-USA-zaplaca-Iranowi-Globalne-konsorcjum-wylozy-300-mld-dolarow-na-odbudowe-9152448.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Przewidziane w ramach porozumienia Waszyngtonu z Teheranem 300 mld dolarów na modernizowanie Iranu, to „prywatny mechanizm inwestycyjny”, który pozwolił już zebrać w pięciu regionach świata ponad 150 mld dol. - poinformowała we wtorek Reutera osoba znająca bezpośrednio szczegóły tych ustaleń.",
-      "pubDate": "Wed, 17 Jun 2026 07:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/b/64b1dfeeb8834a-948-568-190-400-3783-2270.jpg",
-      "dateISO": "2026-06-17T06:00:00.000Z",
       "dateFormatted": "17 czerwca 2026"
     },
     {
@@ -949,5 +949,5 @@
       "dateFormatted": "14 czerwca 2026"
     }
   ],
-  "updatedAt": "2026-06-17T15:34:01.999Z"
+  "updatedAt": "2026-06-17T18:19:14.094Z"
 }
