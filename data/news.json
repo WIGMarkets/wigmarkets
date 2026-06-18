@@ -1,15 +1,255 @@
 {
   "articles": [
     {
-      "title": "Novavis Group rozpoczął poszukiwanie inwestora zainteresowanego zakupem akcji Voolt",
-      "link": "https://www.bankier.pl/wiadomosc/Novavis-Group-rozpoczal-poszukiwanie-inwestora-zainteresowanego-zakupem-akcji-Voolt-9153837.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Novavis Group podjął decyzję o rozpoczęciu procesu zmierzającego do zbycia posiadanych akcji spółki Voolt, w której jest największym akcjonariuszem - podała spółka w komunikacie.",
-      "pubDate": "Thu, 18 Jun 2026 17:16:00 +0100",
+      "title": "Zniknęła radioaktywna kapsuła. Ogłoszono alarm w całej Argentynie",
+      "link": "https://www.bankier.pl/wiadomosc/Zniknela-radioaktywna-kapsula-Ogloszono-alarm-w-calej-Argentynie-9153907.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Z laboratorium instytutu medycznego w Rosario we wschodniej części Argentyny skradziono kapsułę zawierającą niebezpieczny dla zdrowia, promieniotwórczy cez-137 – podały miejscowe media. Władze ogłosiły ogólnokrajowy alarm i uruchomiły protokół awaryjny.",
+      "pubDate": "Thu, 18 Jun 2026 20:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/6/a6b130e0394f0a-948-568-0-256-3543-2125.jpg",
+      "dateISO": "2026-06-18T19:00:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Mniej USA w NATO? Pistorius: Państwa będą potrzebowały planu działania",
+      "link": "https://www.bankier.pl/wiadomosc/Mniej-USA-w-NATO-Pistorius-Panstwa-beda-potrzebowaly-planu-dzialania-9153977.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Państwa NATO będą potrzebowały planu działania umożliwiającego stopniowe przejęcie większej odpowiedzialności za obronę Europy od Stanów Zjednoczonych w związku z ograniczaniem przez Waszyngton swojego zaangażowania – powiedział w czwartek niemiecki minister obrony Boris Pistorius.",
+      "pubDate": "Thu, 18 Jun 2026 19:31:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/c/03db6983d9cfe0-948-568-1170-430-2733-1640.jpg",
+      "dateISO": "2026-06-18T18:31:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "To oni najwięcej stracili na systemie kaucyjnym. Ekspert wskazuje trzy grupy",
+      "link": "https://businessinsider.com.pl/prawo/to-oni-najwiecej-stracili-na-systemie-kaucyjnym-ekspert-wskazuje-trzy-grupy/tr35skq",
+      "description": "Są w Polsce grupy, którym wprowadzony pod koniec ubiegłego roku system kaucyjny przyniósł głównie straty. Trójkę największych przegranych wskazał w rozmowie z Portalem Spożywczym ekspert samorządowy Leszek Świętalski. Należy do nich m.in. mały handel.",
+      "pubDate": "Thu, 18 Jun 2026 18:21:11 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/SJDk9kpTURBXy81N2U3MjdkZGNjMTZhZTcwOGMyYTk2ZTkzM2YzYmJmYy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-18T18:21:11.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Dopłaty do ZUS dla artystów. Nowy projekt ustawy w Sejmie",
+      "link": "https://www.bankier.pl/wiadomosc/Doplaty-do-ZUS-dla-artystow-Nowy-projekt-ustawy-w-Sejmie-9153968.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Artysta z niewielkim dochodem otrzyma dopłaty do składek ZUS; będzie mógł korzystać ze świadczeń chorobowych oraz urlopów macierzyńskich, a także z pomocy przy zmianie zawodu – zakłada rządowy projekt ustawy, którego pierwsze czytanie Sejm rozpoczął w czwartek wieczorem.",
+      "pubDate": "Thu, 18 Jun 2026 19:17:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/e/0d295af58dd8c4-948-568-0-23-1900-1139.jpg",
+      "dateISO": "2026-06-18T18:17:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Vance: Znieśliśmy blokadę, Irańczycy przestali atakować statki w cieśninie Ormuz",
+      "link": "https://www.bankier.pl/wiadomosc/Vance-Znieslismy-blokade-Iranczycy-przestali-atakowac-statki-w-ciesninie-Ormuz-9153956.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wiceprezydent USA J.D. Vance poinformował w czwartek, że zarówno USA jak i Iran dotrzymują dotąd warunków zawartego wstępnego porozumienia pokojowego, umożliwiając żeglugę przez cieśninę Ormuz. Dodał, że oczekuje, iż umowy będzie przestrzegać też Izrael.",
+      "pubDate": "Thu, 18 Jun 2026 19:11:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/d/a22d364c063130-948-568-0-105-3840-2303.jpg",
+      "dateISO": "2026-06-18T18:11:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Sikorski w Londynie: Europa musi nadal współpracować z USA",
+      "link": "https://www.bankier.pl/wiadomosc/Sikorski-w-Londynie-Europa-musi-nadal-wspolpracowac-z-USA-9153938.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "By odstraszać Rosję, Europa powinna utrzymywać współpracę z USA, jednocześnie wzmacniając własne zdolności obronne - ocenił w Londynie szef polskiego MSZ, Radosław Sikorski.",
+      "pubDate": "Thu, 18 Jun 2026 18:56:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/e/72caf9ec67dfc3-948-568-40-130-3960-2375.jpg",
+      "dateISO": "2026-06-18T17:56:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Kanclerz Niemiec stanowczo o nowym budżecie UE. \"Wyraziłem się jasno\"",
+      "link": "https://businessinsider.com.pl/gospodarka/friedrich-merz-odrzuca-nowy-dlug-ue-chce-zrownowazonego-budzetu/z72ege6",
+      "description": "Kanclerz Niemiec Friedrich Merz stanowczo odrzucił możliwość zaciągania kolejnych wspólnych zobowiązań finansowych przez Unię Europejską. Berlin oczekuje, że przyszły budżet wspólnoty będzie opierał się na zasadzie równowagi.",
+      "pubDate": "Thu, 18 Jun 2026 17:30:09 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Ic1k9kpTURBXy9lYTU4MjAyZGE0ODA1ZTFhNTA5NGI1NzNjMzk5NGFhYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-18T17:30:09.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "J.D. Vance przekazał najnowsze wieści z cieśniny Ormuz. \"12,5 mln baryłek\"",
+      "link": "https://businessinsider.com.pl/wiadomosci/wiceprezydent-usa-o-ciesninie-ormuz-wspomnial-o-izraelu/pb2czer",
+      "description": "— Ostatniej nocy 12,5 mln baryłek ropy wypłynęło przez cieśninę Ormuz — powiedział J.D. Vance. — Świat arabski i świat poza nim bardzo pragną zaangażować się w Iran — dodał, pytany o fundusz wart 300 md dol.",
+      "pubDate": "Thu, 18 Jun 2026 17:26:04 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/XP2k9kpTURBXy8yMTU2N2U3Mjc1M2YxMDI0YjliODViNzZiMjkwY2I5My5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-18T17:26:04.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Wsparcie dla Ukrainy. Amerykanie naciskają na kraje NATO w Brukseli",
+      "link": "https://www.bankier.pl/wiadomosc/Wsparcie-dla-Ukrainy-Amerykanie-naciskaja-na-kraje-NATO-w-Brukseli-9153903.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Państwa NATO powinny utrzymać, a nawet zwiększyć wsparcie dla obrony Ukrainy poprzez zakupy uzbrojenia produkowanego w Stanach Zjednoczonych – oświadczył w czwartek wiceszef Pentagonu Elbridge Colby podczas spotkania poświęconego Ukrainie w siedzibie NATO w Brukseli.",
+      "pubDate": "Thu, 18 Jun 2026 18:12:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/0/dfe95d127c0995-948-568-0-0-4000-2399.jpg",
+      "dateISO": "2026-06-18T17:12:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Netanjahu: Utrzymanie bliskich więzi z USA ma dla nas ogromne znaczenie",
+      "link": "https://www.bankier.pl/wiadomosc/Netanjahu-Utrzymanie-bliskich-wiezi-z-USA-ma-dla-nas-ogromne-znaczenie-9153897.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Premier Izraela Benjamin Netanjahu oświadczył w czwartek, że utrzymanie bliskich więzi ze Stanami Zjednoczonymi ma dla jego kraju ogromne znaczenie. Odniósł się w ten sposób do porozumienia pokojowego między Iranem a USA, które w środę zostało podpisane przez prezydentów obu krajów.",
+      "pubDate": "Thu, 18 Jun 2026 18:05:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/d/9aba4785e881e4-948-568-0-235-3893-2336.jpg",
+      "dateISO": "2026-06-18T17:05:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Grabiec: Afera z Kacprzykiem nie ma związku z KO",
+      "link": "https://www.bankier.pl/wiadomosc/Grabiec-Afera-z-Kacprzykiem-nie-ma-zwiazku-z-KO-9153895.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "„Afera Kacprzyka” nie ma związku z Koalicją Obywatelską, ale ponieważ był on radnym KO, tym surowiej będziemy ją rozliczać — powiedział w czwartek dziennikarzom szef KPRM i przewodniczący mazowieckiej KO Jan Grabiec. Nieoficjalnie politycy KO mówią o kryzysowej sytuacji. - Jesteśmy w matni — przyzna",
+      "pubDate": "Thu, 18 Jun 2026 18:03:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/4/2a89f7ebbef2ab-948-568-331-62-1488-892.jpg",
+      "dateISO": "2026-06-18T17:03:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Wspólny dług Unii Europejskiej. Stanowcze \"nie\" ze strony Berlina",
+      "link": "https://www.bankier.pl/wiadomosc/Wspolny-dlug-Unii-Europejskiej-Stanowcze-nie-ze-strony-Berlina-9153892.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Kanclerz Niemiec Friedrich Merz powiedział w czwartek przed rozpoczęciem szczytu UE w Brukseli, że Niemcy nie zgodzą się na zaciągnięcie nowego wspólnego długu przez Unię Europejską. - Przyszły budżet UE powinien być zrównoważony ocenił.",
+      "pubDate": "Thu, 18 Jun 2026 18:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/6/bb88fcb7c53b77-948-568-4-143-1975-1185.jpg",
+      "dateISO": "2026-06-18T17:00:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Pokój w Ukrainie? Costa: Nabieramy większego impetu",
+      "link": "https://www.bankier.pl/wiadomosc/Pokoj-w-Ukrainie-Costa-Nabieramy-wiekszego-impetu-9153885.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Przewodniczący Rady Europejskiej Antonio Costa ogłosił we wspólnym oświadczeniu z prezydentem Ukrainy Wołodymyrem Zełenskim, przed rozpoczęciem w czwartek unijnego szczytu w Brukseli, że UE może liczyć na USA w wywieraniu nacisku na Rosję. Nabieramy większego impetu w drodze do pokoju w Ukrainie - p",
+      "pubDate": "Thu, 18 Jun 2026 17:57:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/e/3c118b0f9b399e-948-568-155-542-3512-2107.jpg",
+      "dateISO": "2026-06-18T16:57:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Prawie 15 mln zł kary dla mBanku. \"Naruszenie standardów\"",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/kara-dla-mbanku-knf-zarzuca-powazne-uchybienia/necfdj7",
+      "description": "KNF nałożyła prawie 15 mln zł kar na mBank. Jak wyjaśnia KNF, bank dopuścił do współpracy z nieuprawnionymi osobami trzecimi w ramach obsługi klientów.",
+      "pubDate": "Thu, 18 Jun 2026 16:56:33 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/xmFk9kpTURBXy85NzU0ODllOGViZWMzMTE3ZTAxNTQwMzMwMjk1N2M4MS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-18T16:56:33.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Nowe prawo o zarobkach lekarzy. Senat szykuje ekspresowe tempo",
+      "link": "https://www.bankier.pl/wiadomosc/Nowe-prawo-o-zarobkach-lekarzy-Senat-szykuje-ekspresowe-tempo-9153884.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Marszałek Senatu Małgorzata Kidawa-Błońska zadeklarowała w czwartek, że jeżeli Sejm uchwali na trwającym posiedzeniu rządową ustawę umożliwiającą zbieranie informacji o zarobkach medyków, to będzie ona procedowana na przyszłotygodniowym posiedzeniu Senatu.",
+      "pubDate": "Thu, 18 Jun 2026 17:54:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/7/70c3751a26c051-948-568-0-131-3500-2099.jpg",
+      "dateISO": "2026-06-18T16:54:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "\"Ratunkowy\" projekt ustawy o kryptoaktywach wraca do Sejmu. To reakcja na weto prezydenta",
+      "link": "https://businessinsider.com.pl/biznes/ratunkowy-projekt-ustawy-o-kryptowaktywach-wraca-do-sejmu-po-wecie-prezydenta/g1tv59t",
+      "description": "Kolejna już wersja \"ratunkowego\" projektu ustawy regulującej rynek kryptoaktywów w Polsce trafiła do Sejmu. Wcześniej Karol Nawrocki trzykrotnie zawetował rządowy projekt. Propozycja Polski 2050 — jak informuje wnioskodawca poseł Adam Gomoła — uwzględnia oczekiwania prezydenta.",
+      "pubDate": "Thu, 18 Jun 2026 16:48:59 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/oNYk9kpTURBXy9kZWQ3YTA4OWJkOTBhMWJiYTIyOTQ4OTc1NGY2M2Q2OS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-18T16:48:59.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Grupa Kęty wypłaci 48,97 zł dywidendy na akcję za '25",
+      "link": "https://www.bankier.pl/wiadomosc/Grupa-Kety-wyplaci-48-97-zl-dywidendy-na-akcje-za-25-9153876.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Zwyczajne walne zgromadzenie Grupy Kęty zdecydowało o przeznaczeniu na dywidendę kwoty 482,77 mln zł, co daje 48,97 zł dywidendy na akcję za 2025 r. - podała spółka w komunikacie.",
+      "pubDate": "Thu, 18 Jun 2026 17:48:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/82216e487002a2-thumb-1000.jpg",
-      "dateISO": "2026-06-18T16:16:00.000Z",
+      "image": "https://galeria.bankier.pl/p/e/8/3f1457f4fed800-thumb-1000.jpg",
+      "dateISO": "2026-06-18T16:48:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "GPW WATS łapie opóźnienie. Giełda podaje nowy termin technologicznej rewolucji",
+      "link": "https://www.bankier.pl/wiadomosc/GPW-WATS-lapie-opoznienie-Gielda-podaje-nowy-termin-technologicznej-rewolucji-9153858.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Giełda Papierów Wartościowych w Warszawie zaktualizowała harmonogram wdrożenia swojej nowej, krytycznej infrastruktury – systemu transakcyjnego GPW WATS. Decyzja ta zapadła w porozumieniu z uczestnikami rynku oraz Komitetem Wdrożenia Systemu, który składa się z reprezentantów Członków Giełdy, KDPW/K",
+      "pubDate": "Thu, 18 Jun 2026 17:35:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/3/d/3c2fb6b34c1c3e-945-560-173-17-3302-1981.jpg",
+      "dateISO": "2026-06-18T16:35:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Trump: Iran nigdy nie będzie mógł posiadać broni jądrowej",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-Iran-nigdy-nie-bedzie-mogl-posiadac-broni-jadrowej-9153850.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump oświadczył w czwartek, że Iran nigdy nie będzie mógł posiadać broni jądrowej. Dodał, że Stany Zjednoczone są szanowane jak nigdy wcześniej.",
+      "pubDate": "Thu, 18 Jun 2026 17:32:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/3/760a686364e101-948-568-167-114-3551-2130.jpg",
+      "dateISO": "2026-06-18T16:32:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Image Power rozpoczął przegląd opcji strategicznych",
+      "link": "https://www.bankier.pl/wiadomosc/Image-Power-rozpoczal-przeglad-opcji-strategicznych-9153842.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Zarząd Image Power zdecydował o rozpoczęciu przeglądu opcji strategicznych - podała spółka w komunikacie.",
+      "pubDate": "Thu, 18 Jun 2026 17:26:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/0/f/c054fce945dcfc-thumb-1000.jpg",
+      "dateISO": "2026-06-18T16:26:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Przełomowy ruch Allegro i InPostu. Zakopali topór wojenny i ogłaszają decyzję",
+      "link": "https://www.bankier.pl/wiadomosc/Przelomowy-ruch-Allegro-i-InPostu-Zakopali-topor-wojenny-i-oglaszaja-decyzje-9153840.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Allegro oraz InPost podpisały niewiążący list intencyjny dotyczący wypracowania w nadchodzących miesiącach nowej umowy ramowej, która będzie regulować współpracę pomiędzy stronami w zakresie usług dostaw poza domem (out-of-home) - poinformowano Allegro w komunikacie.",
+      "pubDate": "Thu, 18 Jun 2026 17:24:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/a/2/e6890559fa45aa-948-568-0-10-3333-2000.jpg",
+      "dateISO": "2026-06-18T16:24:00.000Z",
       "dateFormatted": "18 czerwca 2026"
     },
     {
@@ -37,6 +277,42 @@
       "dateFormatted": "18 czerwca 2026"
     },
     {
+      "title": "Przełomowa decyzja w sprawie tunelu w Łodzi. Mieszkańcy kamienic nie wrócą do swoich mieszkań",
+      "link": "https://businessinsider.com.pl/gospodarka/budowa-tunelu-w-lodzi-moze-wkrotce-ruszyc-zapadla-decyzja-w-sprawie-kamienic/073rmv5",
+      "description": "Zapadły dwie ważne decyzje dotyczące tunelu średnicowego w Łodzi — poinformowały w czwartek PKP Polskie Linie Kolejowe. Ma to umożliwić wznowienie potężnej inwestycji wstrzymanej w 2024 r. Jedna z decyzji oznacza, że mieszkańcy czterech kamienic będą musieli opuścić swoje mieszkania.",
+      "pubDate": "Thu, 18 Jun 2026 16:02:22 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/58ak9kpTURBXy9kMWZkYTgwMDkxMDMxMGYzZDdhMjczY2FkNTM2MDM0Yy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-18T16:02:22.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Grupa Wyszehradzka wraca do gry. Donald Tusk ogłasza przełom",
+      "link": "https://www.bankier.pl/wiadomosc/Grupa-Wyszehradzka-wraca-do-gry-Donald-Tusk-oglasza-przelom-9153820.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Premier Donald Tusk w czwartek ogłosił pierwsze od lat spotkanie przywódców Grupy Wyszehradzkiej przed unijnym szczytem w Brukseli. Szef polskiego rządu poinformował, że bardzo chce odblokować ten format, ponieważ Polska, Czechy, Słowacja i Węgry mają parę wspólnych rzeczy do załatwienia w Europie.",
+      "pubDate": "Thu, 18 Jun 2026 17:02:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/f/f4106297c8c6c0-948-568-153-91-1766-1059.jpg",
+      "dateISO": "2026-06-18T16:02:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Prąd za 1 grosz w weekendy. Wakacyjna oferta dużego dostawcy",
+      "link": "https://businessinsider.com.pl/finanse/jak-oszczedzac-na-rachunkach-za-prad-sprawdz-czy-nowa-oferta-jest-dla-ciebie/zyz8r1z",
+      "description": "Zaledwie 1 gr za kWh — tyle kosztuje prąd w nowej ofercie dla klientów Energi. Stawka obowiązuje w wybrane dni przez osiem godzin dziennie. Oto szczegóły.",
+      "pubDate": "Thu, 18 Jun 2026 15:53:03 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/auGk9kpTURBXy84YmYyYzBhY2FhMmIyOGIyM2MwNjQxNjQ1ODdmN2E0Yi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-18T15:53:03.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
       "title": "Kret w brytyjskich służbach. Szpiegował dla Hongkongu i Chin",
       "link": "https://www.bankier.pl/wiadomosc/Kret-w-brytyjskich-sluzbach-Szpiegowal-dla-Hongkongu-i-Chin-9153802.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Brytyjski sąd skazał w czwartek na kary więzienia dwóch mężczyzn, w tym byłego urzędnika imigracyjnego, za szpiegowanie na rzecz Hongkongu i Chin, podała Brytyjska Prokuratura Koronna (CPS). Mężczyźni inwigilowali dysydentów prodemokratycznych, którzy znaleźli schronienie w Wielkiej Brytanii.",
@@ -61,18 +337,6 @@
       "dateFormatted": "18 czerwca 2026"
     },
     {
-      "title": "Ukraina i Niemcy łączą technologie. Powstanie nowa tarcza",
-      "link": "https://www.bankier.pl/wiadomosc/Ukraina-i-Niemcy-lacza-technologie-Powstanie-nowa-tarcza-9153787.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ukraina i Niemcy podpisały umowę o połączeniu wysiłków na rzecz opracowania systemów przeciwrakietowych do zwalczania pocisków balistycznych – poinformował w czwartek w Brukseli ukraiński prezydent Wołodymyr Zełenski.",
-      "pubDate": "Thu, 18 Jun 2026 16:25:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/0/0c29af1145c412-948-568-110-10-3740-2243.jpg",
-      "dateISO": "2026-06-18T15:25:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
       "title": "Problemy po migracji Citi do VeloBanku. Rzecznik Finansowy zapowiada możliwe zawiadomienie UKNF",
       "link": "https://www.bankier.pl/wiadomosc/Problemy-po-migracji-Citi-do-VeloBanku-Rzecznik-Finansowy-zapowiada-mozliwe-zawiadomienie-UKNF-9153777.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Rzecznik Finansowy reaguje na doniesienia o problemach klientów VeloBanku po migracji detalicznej części Citi Handlowego. Urząd zobowiązał bank do usunięcia nieprawidłowości przy reklamacjach i nie wyklucza zawiadomienia UKNF.",
@@ -82,30 +346,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/9/892849ce71d5cf-948-568-0-0-1500-899.jpg",
       "dateISO": "2026-06-18T15:20:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Dom Development wypłaci łącznie 14 zł dywidendy na akcję za 2025 rok",
-      "link": "https://www.bankier.pl/wiadomosc/Dom-Development-wyplaci-lacznie-14-zl-dywidendy-na-akcje-za-2025-rok-9153773.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Zwyczajne walne zgromadzenie Dom Development zdecydowało, że na dywidendę za 2025 roku trafi łącznie 361,2 mln zł, czyli 14 zł na akcję - podała spółka w komunikacie.",
-      "pubDate": "Thu, 18 Jun 2026 16:08:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/7/9/ea627dce29326b-948-568-0-23-4608-2764.jpg",
-      "dateISO": "2026-06-18T15:08:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Lekarze ostrzegają przed odpływem kadr po wprowadzeniu Centralnego Rejestru Umów",
-      "link": "https://www.bankier.pl/wiadomosc/Lekarze-ostrzegaja-przed-odplywem-kadr-po-wprowadzeniu-Centralnego-Rejestru-Umow-9153556.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Obowiązek zgłaszania kontraktów lekarzy z publicznych szpitali do Centralnego Rejestru Umów doprowadzi do odpływu kadr do sektora prywatnego – ostrzegł Ogólnopolski Związek Zawodowy Lekarzy. Podkreślił też, że upublicznianie zarobków uderzy w dostęp pacjentów do leczenia.",
-      "pubDate": "Thu, 18 Jun 2026 16:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/2/270acb15aa5e5c-948-568-9-28-1910-1146.jpg",
-      "dateISO": "2026-06-18T15:00:00.000Z",
       "dateFormatted": "18 czerwca 2026"
     },
     {
@@ -181,30 +421,6 @@
       "dateFormatted": "18 czerwca 2026"
     },
     {
-      "title": "Zarząd Action został upoważniony do nabycia do 1,3 mln akcji własnych",
-      "link": "https://www.bankier.pl/wiadomosc/Zarzad-Action-zostal-upowazniony-do-nabycia-do-1-3-mln-akcji-wlasnych-9153739.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Walne zgromadzenie Action zdecydowało o upoważnieniu zarządu spółki do nabywania do 1,3 mln akcji własnych, stanowiących ok. 9,2 proc. kapitału, za maksymalną kwotę 50 mln zł - podała spółka w komunikacie.",
-      "pubDate": "Thu, 18 Jun 2026 15:26:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/bec068af7bec25-thumb-1000.jpg",
-      "dateISO": "2026-06-18T14:26:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "MSZ Chin: G7 podważa ład handlowy surowców krytycznych",
-      "link": "https://www.bankier.pl/wiadomosc/MSZ-Chin-G7-podwaza-lad-handlowy-surowcow-krytycznych-9153733.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Chiny skrytykowały w czwartek deklarację grupy G7, w której zapowiedziano zmniejszenie zależności od chińskich surowców krytycznych. Rzecznik MSZ w Pekinie oskarżył najbogatsze państwa świata o łamanie zasad rynkowych i tworzenie „małych kręgów” w celu zakłócenia globalnego handlu.",
-      "pubDate": "Thu, 18 Jun 2026 15:19:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/0/17431c3c17709b-948-568-10-0-3990-2393.jpg",
-      "dateISO": "2026-06-18T14:19:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
       "title": "Fed proponuje zasady identyfikacji klientów dla emitentów stablecoinów",
       "link": "https://pl.investing.com/news/cryptocurrency-news/fed-proponuje-zasady-identyfikacji-klientow-dla-emitentow-stablecoinow-93CH-1458235",
       "description": "",
@@ -214,18 +430,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-06-18T14:18:35.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Enter Air wypłaci 2,5 zł dywidendy na akcję",
-      "link": "https://www.bankier.pl/wiadomosc/Enter-Air-wyplaci-2-5-zl-dywidendy-na-akcje-9153719.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Zwyczajne walne zgromadzenie Enter Air zdecydowało o wypłacie dywidendy w wysokości 2,5 zł na akcję - podała spółka w komunikacie.",
-      "pubDate": "Thu, 18 Jun 2026 15:14:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/0/f/5cf4b304c96a2e-thumb-1000.jpg",
-      "dateISO": "2026-06-18T14:14:00.000Z",
       "dateFormatted": "18 czerwca 2026"
     },
     {
@@ -279,25 +483,13 @@
     {
       "title": "Niemcy podjęły decyzję w sprawie Ukrainy. Chodzi o 500 mln dol.",
       "link": "https://businessinsider.com.pl/technologie/boris-pistorius-oglosil-nowe-wsparcie-dla-ukrainy-chodzi-o-500-mln-dol/5m2gn8x",
-      "description": "Niemcy zdecydowały o zwiększeniu wsparcia dla armii Ukrainy. Niemiecki minister obrony Boris Pistorius wygłosił w tej sprawie oświadczenie — informuje w czwartek agencja Ukrinform.",
+      "description": "Niemcy zdecydowały o dodatkowym wsparciu dla Ukrainy. Chodzi o 500 mln dol. Niemiecki minister obrony Boris Pistorius wygłosił w tej sprawie oświadczenie.",
       "pubDate": "Thu, 18 Jun 2026 13:46:44 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/8THk9kpTURBXy8xMDc1NjU2M2JjMTc4YmI2ZTZkZjU1MzMzNDJlNDgzOC5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-06-18T13:46:44.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Stała baza wojsk USA w Polsce. Kosiniak-Kamysz rozmawiał z Hegsethem",
-      "link": "https://www.bankier.pl/wiadomosc/Stala-baza-wojsk-USA-w-Polsce-Kosiniak-Kamysz-rozmawial-z-Hegsethem-9153670.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Stany Zjednoczone pozytywnie odnoszą się do propozycji utworzenia stałej bazy wojsk USA w Polsce - powiedział w czwartek, po spotkaniu z szefem Pentagonu, wicepremier, szef MON Władysław Kosiniak-Kamysz",
-      "pubDate": "Thu, 18 Jun 2026 14:44:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/6/1962fd77542999-948-568-112-120-1108-664.jpg",
-      "dateISO": "2026-06-18T13:44:00.000Z",
       "dateFormatted": "18 czerwca 2026"
     },
     {
@@ -337,18 +529,6 @@
       "dateFormatted": "18 czerwca 2026"
     },
     {
-      "title": "Ponury transport z Rosji. Na Ukrainę sprowadzono setki ciał żołnierzy",
-      "link": "https://www.bankier.pl/wiadomosc/Ponury-transport-z-Rosji-Na-Ukraine-sprowadzono-setki-cial-zolnierzy-9153656.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Na Ukrainę sprowadzono ciała 522 poległych żołnierzy – poinformował w czwartek Sztab Koordynacyjny ds. Jeńców Wojennych w Kijowie.",
-      "pubDate": "Thu, 18 Jun 2026 14:29:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/1/44839e753f2395-948-568-10-10-3990-2393.jpg",
-      "dateISO": "2026-06-18T13:29:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
       "title": "Bitcoin spada do 64 tys. $: jastrzębi Fed i deal USA-Iran",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-do-64-tys--jastrzebi-fed-i-deal-usairan-1458142",
       "description": "",
@@ -358,18 +538,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-06-18T13:28:28.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Tyrowicz znowu chciała podwyżki. RPP w maju była nieugięta",
-      "link": "https://www.bankier.pl/wiadomosc/Tyrowicz-znowu-chciala-podwyzki-RPP-w-maju-byla-nieugieta-9153640.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rada Polityki Pieniężnej ponownie odrzuciła w maju wniosek Joanny Tyrowicz o podwyżkę stóp o 100 pb., przy sprzeciwie pozostałych członków RPP - podano na stronach Narodowego Banku Polskiego.",
-      "pubDate": "Thu, 18 Jun 2026 14:12:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/4/94b276f06335d1-948-568-48-21-2112-1267.jpg",
-      "dateISO": "2026-06-18T13:12:00.000Z",
       "dateFormatted": "18 czerwca 2026"
     },
     {
@@ -394,18 +562,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/3/3/af912145f37dfd-948-568-0-79-3543-2125.jpg",
       "dateISO": "2026-06-18T12:55:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Wojska USA w Meksyku? Vance: Zastrzegamy sobie prawo do działań militarnych",
-      "link": "https://www.bankier.pl/wiadomosc/Wojska-USA-w-Meksyku-Vance-Zastrzegamy-sobie-prawo-do-dzialan-militarnych-9153614.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wiceprezydent USA JD Vance w rozmowie z telewizją Univision oświadczył, że Stany Zjednoczone zastrzegają sobie prawo do podjęcia działań militarnych na terytorium Meksyku, jeśli będzie to konieczne do ochrony obywateli USA – przekazał meksykański dziennik „El Universal”.",
-      "pubDate": "Thu, 18 Jun 2026 13:53:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/4/262beea75807d2-948-568-10-0-4190-2514.jpg",
-      "dateISO": "2026-06-18T12:53:00.000Z",
       "dateFormatted": "18 czerwca 2026"
     },
     {
@@ -445,18 +601,6 @@
       "dateFormatted": "18 czerwca 2026"
     },
     {
-      "title": "Komisja Europejska wizytuje farmy wiatrowe na Bałtyku",
-      "link": "https://www.bankier.pl/wiadomosc/Komisja-Europejska-wizytuje-farmy-wiatrowe-na-Baltyku-9153501.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W czwartek Komisja Europejska wizytuje farmy wiatrowe budowane na Bałtyku ze środków z Krajowego Planu Odbudowy. Jak zaznaczył podczas konferencji prasowej w Łebie wiceminister funduszy i polityki regionalnej Jan Szyszko na początku lipca prąd z wiatraków na morzu popłynie do Polski.",
-      "pubDate": "Thu, 18 Jun 2026 13:38:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/f/490a28f0f86ea6-948-568-48-153-1872-1123.jpg",
-      "dateISO": "2026-06-18T12:38:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
       "title": "Zabójstwo Rosjanina w Białej Podlaskiej. Służby ujęły podejrzanego",
       "link": "https://www.bankier.pl/wiadomosc/Zabojstwo-Rosjanina-w-Bialej-Podlaskiej-Sluzby-ujely-podejrzanego-9153602.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Dziś w godzinach rannych policja ujęła osobę, która jest podejrzewana o zabójstwo Rosjanina – zabójstwo, które wstrząsnęło całą Polską – powiedział szef MSWiA Marcin Kierwiński. Dodał, że mężczyzna jest powiązany ze zorganizowaną przestępczością.",
@@ -478,42 +622,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/MH_k9kpTURBXy9jNjFmOTc2YmM5YTkyMDY0MjE5ZDg2OTFhNzQyOWM2MC5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-06-18T12:36:23.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Ostry kryzys na linii UE-Izrael. Szef MSZ zrywa kontakty, Kallas odpowiada",
-      "link": "https://www.bankier.pl/wiadomosc/Ostry-kryzys-na-linii-UE-Izrael-Szef-MSZ-zrywa-kontakty-Kallas-odpowiada-9153598.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Szefowa dyplomacji UE Kaja Kallas zapewniła w czwartek, że ceni sobie dialog i współpracę z Izraelem oraz jest otwarta na ich kontynuowanie. Szef izraelskiego MSZ Gideon Saar oświadczył wcześniej, że zrywa kontakty z Kallas przez jej uwagę na temat Izraela.",
-      "pubDate": "Thu, 18 Jun 2026 13:33:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/b/d423a529b684d6-948-568-0-3-1200-719.jpg",
-      "dateISO": "2026-06-18T12:33:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Prof. Alojzy Nowak: Trzeba inwestować w młodzież, w naukę, we wszystkich, którzy są przedsiębiorczy i innowacyjni",
-      "link": "https://www.bankier.pl/wiadomosc/Prof-Alojzy-Nowak-Trzeba-inwestowac-w-mlodziez-w-nauke-we-wszystkich-ktorzy-sa-przedsiebiorczy-i-innowacyjni-9153542.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "– Okazało się, że Polacy są niezwykle przedsiębiorczy, innowacyjni i osiągają sukcesy także na poziomie międzynarodowym. Co będzie za pięć czy za dziesięć lat? Bez dużych inwestycji m.in. w przemysł elektroniczny, w cyfryzację, w nowe technologie, nanotechnologię raczej będzie trudno utrzymać nam ta",
-      "pubDate": "Thu, 18 Jun 2026 13:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/3/ea2433af7f90e6-948-568-0-0-3600-2159.jpg",
-      "dateISO": "2026-06-18T12:30:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Ubezpieczenia Polaków 2026. Gigantyczny paradoks w raportach",
-      "link": "https://www.bankier.pl/wiadomosc/Polakom-wciaz-brakuje-wiedzy-o-ubezpieczeniach-i-swiadomosci-ryzyka-raport-PIU-9153582.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Polska Izba Ubezpieczeń przygotowała raport \"Świadomość ubezpieczeniowa Polaków 2026\", który pokazuje, co Polacy wiedzą i myślą o ubezpieczeniach, w jaki sposób podejmują decyzje dotyczące ochrony ubezpieczeniowej oraz dlaczego w Polsce nadal utrzymuje się znacząca luka ubezpieczeniowa.",
-      "pubDate": "Thu, 18 Jun 2026 13:16:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/8/4e76e5c163bbd2-948-568-0-410-4001-2400.jpg",
-      "dateISO": "2026-06-18T12:16:00.000Z",
       "dateFormatted": "18 czerwca 2026"
     },
     {
@@ -541,90 +649,6 @@
       "dateFormatted": "18 czerwca 2026"
     },
     {
-      "title": "Domowy monitoring. Ile to realnie kosztuje i co należy kupić?",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/domowy-monitoring-ile-to-realnie-kosztuje-i-co-nalezy-kupic/qts1vkx",
-      "description": "Poczucie bezpieczeństwa we własnych czterech ścianach to jedna z tych wartości, na których nie warto oszczędzać... ale za którą nie musimy także przepłacać.",
-      "pubDate": "Thu, 18 Jun 2026 11:59:41 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/3-Pk9kpTURBXy8yMDNkZGQ3NDBmMjUzNzYxNmRiMGFhNTQ2NGQyZTZkMi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-18T11:59:41.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Supertankowce znów w Ormuz. Rynek ropy reaguje na porozumienie USA–Iran",
-      "link": "https://www.bankier.pl/wiadomosc/Przez-Ormuz-przeplynely-trzy-supertankowce-pod-bandera-saudyjska-9153534.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Trzy supertankowce pod banderą Arabii Saudyjskiej transportujące 6 mln baryłek ropy naftowej przepłynęły przez cieśninę Ormuz po podpisaniu przez prezydentów USA i Iranu wstępnego porozumienia – poinformowała w czwartek agencja Reutera, powołując się na dane z monitoringu transportu morskiego.",
-      "pubDate": "Thu, 18 Jun 2026 12:52:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/d/8d1a7c996569ee-948-568-17-131-3482-2089.jpg",
-      "dateISO": "2026-06-18T11:52:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Minister energii obniża maksymalną cenę paliw. Zmiany od piątku",
-      "link": "https://www.bankier.pl/wiadomosc/Minister-energii-obniza-maksymalna-cene-paliw-Zmiany-od-piatku-9153528.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Maksymalna cena dla benzyny Pb95 wynosi 6,00 zł/l, dla benzyny Pb98 to 6,66 zł/l, a dla oleju napędowego 6,20 zł/l - wynika z obwieszczenia ministra energii opublikowanego w Monitorze Polskim. Ceny te będą obowiązywać w piątek, 19 czerwca.",
-      "pubDate": "Thu, 18 Jun 2026 12:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/6/b2e9e542261005-948-568-0-173-3300-1979.jpg",
-      "dateISO": "2026-06-18T11:18:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Polityk PiS przebija polityka PiS. Chodzi o próg podatkowy",
-      "link": "https://businessinsider.com.pl/wiadomosci/podatki-w-polsce-moga-sie-zmienic-morawiecki-o-podniesieniu-progu-do-200-tys-zl/vqzy744",
-      "description": "Kandydat PiS na premiera Przemysław Czarnek zaproponował podniesienie drugiego progu podatkowego ze 120 tys. zł do 180 tys. zł. Mateusz Morawiecki ocenił jednak, że granica ta mogłaby zostać zwiększona jeszcze bardziej — nawet do 200 tys. zł.",
-      "pubDate": "Thu, 18 Jun 2026 11:15:38 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/dSIk9kpTURBXy9lY2ZlMWRkODM3Yjk4ZDZjNGNjMWM5MDY3YWQxOWM2ZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-18T11:15:38.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Szwajcarzy przechodzą na emeryturę po 60. Właśnie zmienia się wiek emerytalny w Szwajcarii",
-      "link": "https://businessinsider.com.pl/praca/emerytury/szwajcarzy-przechodza-na-emeryture-po-60-zmienia-sie-wiek-emerytalny/ksx3626",
-      "description": "W Szwajcarii podjęto decyzję o zrównaniu wieku emerytalnego kobiet i mężczyzn. Zmiany będą wprowadzane sukcesywnie. Wyjaśniamy, co to oznacza w praktyce dla Polaków, którzy pracują w Szwajcarii oraz jakie są konsekwencje wcześniejszego lub późniejszego przejścia na emeryturę.",
-      "pubDate": "Thu, 18 Jun 2026 11:09:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/mgUk9kpTURBXy85N2Y5OTVhOTY4MGQ4N2I3OWMyZGY3ZDkyNzBmY2EzMS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-18T11:09:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Tyle Polacy mogą wydać na stałą bazę wojsk USA. Członek rządu zdradził szczegóły",
-      "link": "https://businessinsider.com.pl/gospodarka/kilka-kilkanascie-miliardow-wiceszef-mon-o-stalej-bazie-usa-w-polsce/1j481km",
-      "description": "Budowa stałej bazy wojsk amerykańskich w Polsce może kosztować od kilku do nawet kilkunastu miliardów złotych — poinformował wiceminister obrony narodowej Paweł Zalewski.",
-      "pubDate": "Thu, 18 Jun 2026 11:08:48 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/G_Dk9kpTURBXy85NTkyN2UyNzc1ZTY1ZGM1OTkyOGM5ZjIwNjk2YzI0My5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-18T11:08:48.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Korupcja w zakładach Pesy. CBA zatrzymało siedem osób",
-      "link": "https://www.bankier.pl/wiadomosc/Korupcja-w-zakladach-Pesy-CBA-zatrzymalo-siedem-osob-9153496.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Centralne Biuro Antykorupcyjne zatrzymało siedem osób, które miały uczestniczyć w układzie korupcyjnym w zakładach PESA w Mińsku Mazowieckim – poinformował w czwartek zespół prasowy Biura. Zatrzymani to trzej pracownicy spółki i czterej przedsiębiorcy.",
-      "pubDate": "Thu, 18 Jun 2026 11:43:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/3/64eb21dca43be1-945-560-0-158-1894-1136.jpg",
-      "dateISO": "2026-06-18T10:43:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
       "title": "Singapurski regulator dodał Bybit do listy ostrzeżeń dla inwestorów",
       "link": "https://pl.investing.com/news/cryptocurrency-news/singapurski-regulator-dodal-bybit-do-listy-ostrzezen-dla-inwestorow-93CH-1457691",
       "description": "",
@@ -649,66 +673,6 @@
       "dateFormatted": "18 czerwca 2026"
     },
     {
-      "title": "Kolejny taki ruch ministra energii. Ogłosił ceny paliw na piątek",
-      "link": "https://businessinsider.com.pl/gospodarka/minister-energii-znow-obniza-limity-cen-paliw-tyle-zaplacisz-w-piatek/vlwelc1",
-      "description": "Kierowcy poznali nowe maksymalne ceny paliw, które będą obowiązywać w piątek, 19 czerwca. Z najnowszego komunikatu ministra energii wynika, że limity te zostaną ponownie obniżone. Najmocniej spadnie cena diesla.",
-      "pubDate": "Thu, 18 Jun 2026 10:12:08 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/ioDk9kpTURBXy8yZWQxMWY1NjY3MDEyZWU1Y2U3YmU4Zjk4NjkwMTZkNC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-18T10:12:08.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Na jaką pensję możesz liczyć w Danii? Polacy muszą wiedzieć o jednym",
-      "link": "https://businessinsider.com.pl/praca/na-jaka-pensje-mozesz-liczyc-w-danii/kghlyps",
-      "description": "Dania od lat przyciąga Polaków zarobkami i stabilnością rynku pracy. Jednak większość wielu nie wie, że w kraju, który podarował światu słynne klocki, nie obowiązuje ustawowa płaca minimalna. Wyjaśniamy, od czego zależy pensja w tym kraju oraz ile naprawdę można tam zarobić.",
-      "pubDate": "Thu, 18 Jun 2026 10:06:30 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/m4Uk9kpTURBXy8wMzdlOTRmZTkwMzVlNWM0ZmI4NjVkNTRiOWUxZTdkYi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-18T10:06:30.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Pete Hegseth zapowiada przegląd obecności sił zbrojnych USA i ich baz w Europie",
-      "link": "https://www.bankier.pl/wiadomosc/Pete-Hegseth-zapowiada-przeglad-obecnosci-sil-zbrojnych-USA-i-ich-baz-w-Europie-9153451.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Szef Pentagonu Pete Hegseth zapowiedział w czwartek przegląd obecności sił zbrojnych USA i amerykańskich baz w Europie, który potrwa do sześciu miesięcy. Niektóre kraje Sojuszu obleją ten sprawdzian, a inne zdadzą go celująco - ocenił.",
-      "pubDate": "Thu, 18 Jun 2026 11:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/a/2cba8289a62f45-948-568-30-0-3970-2381.jpg",
-      "dateISO": "2026-06-18T10:00:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Odkładasz na mieszkanie? Państwo może zwiększyć twoje oszczędności",
-      "link": "https://businessinsider.com.pl/finanse/konto-mieszkaniowe-2026-jak-dziala-premia-od-panstwa/vpvcw7m",
-      "description": "Konto mieszkaniowe to propozycja dla osób planujących zakup pierwszego mieszkania lub domu. Oprócz standardowego oprocentowania, oferuje premię mieszkaniową i zwolnienie z podatku Belki.",
-      "pubDate": "Thu, 18 Jun 2026 09:59:18 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/O_hk9kpTURBXy83YjMwZGE4N2I0NzdhYzgyN2Y0NGI5ZGY0ODg5ZWI2Ny5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-18T09:59:18.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Bardziej „jastrzębi” Fed to nieco słabszy złoty. Kurs euro ruszył w górę",
-      "link": "https://www.bankier.pl/wiadomosc/Bardziej-jastrzebi-Fed-to-nieco-slabszy-zloty-Kurs-euro-ruszyl-w-gore-9153441.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "„Jastrzębi” przekaz z Rezerwy Federalnej umocnił dolara i osłabił złotego. Kurs euro ruszył w górę, zatrzymując się w strefie 4,25 zł.",
-      "pubDate": "Thu, 18 Jun 2026 10:17:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/a/04c815a8aa5159-948-568-0-318-2500-1499.jpg",
-      "dateISO": "2026-06-18T09:17:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
       "title": "JPMorgan: Hash rate Bitcoina coraz bardziej wrażliwy na zmiany cen",
       "link": "https://pl.investing.com/news/cryptocurrency-news/jpmorgan-hash-rate-bitcoina-coraz-bardziej-wrazliwy-na-zmiany-cen-93CH-1457503",
       "description": "",
@@ -718,18 +682,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-06-18T09:01:33.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Francuska marka wchodzi do Polski. Zapowiada się początek większej ekspansji",
-      "link": "https://www.bankier.pl/wiadomosc/Francuska-marka-wchodzi-do-Polski-Zapowiada-sie-poczatek-wiekszej-ekspansji-9153377.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Polski rynek handlowy szykuje się na debiut kolejnej zagranicznej marki. Znany francuski producent biżuterii planuje otwarcie swojego pierwszego salonu nad Wisłą, jednak firma już teraz deklaruje, że to zaledwie pierwszy krok w ramach szerokiej strategii rozwoju.",
-      "pubDate": "Thu, 18 Jun 2026 10:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/0/23581a91240d8b-948-568-0-50-4000-2399.jpg",
-      "dateISO": "2026-06-18T09:00:00.000Z",
       "dateFormatted": "18 czerwca 2026"
     },
     {
@@ -778,18 +730,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/3/2/4df5c8d45d814b-948-568-0-169-2508-1504.jpg",
       "dateISO": "2026-06-18T07:00:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Prof. Krzysztof Jajuga: Chcę dalej edukować i reprezentować CFA Society Poland",
-      "link": "https://www.bankier.pl/wiadomosc/Prof-Krzysztof-Jajuga-Chce-dalej-edukowac-i-reprezentowac-CFA-Society-Poland-9153271.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "– Jestem współtwórcą CFA Society Poland, kierowałem tą organizacją przez 22 lata, ale przyszedł czas na sukcesję. Chcę jednak pozostać aktywny, zajmować się edukacją oraz reprezentowaniem stowarzyszenia podczas forów i konferencji – mówi prof. Krzysztof Jajuga, członek zarządu CFA Society Poland.",
-      "pubDate": "Thu, 18 Jun 2026 07:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/f/0b89fe2ad04a07-948-568-0-0-3600-2159.jpg",
-      "dateISO": "2026-06-18T06:30:00.000Z",
       "dateFormatted": "18 czerwca 2026"
     },
     {
@@ -901,5 +841,5 @@
       "dateFormatted": "15 czerwca 2026"
     }
   ],
-  "updatedAt": "2026-06-18T15:27:23.441Z"
+  "updatedAt": "2026-06-18T18:26:18.250Z"
 }
