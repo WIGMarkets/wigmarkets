@@ -1,6 +1,66 @@
 {
   "articles": [
     {
+      "title": "InPost i Allegro zawieszają spór o 100 mln zł. Spółki podpisały list intencyjny",
+      "link": "https://businessinsider.com.pl/biznes/allegro-i-inpost-zawieszaja-spor-o-100-mln-zl-firmy-podpisaly-list-intencyjny/z2ythnf",
+      "description": "Allegro i InPost negocjują nową umowę dotyczącą współpracy. Ma obowiązywać do końca 2031 r. i zastąpić obecną, która została podpisana w 2020 r. na siedem lat. Obie firmy podpisały list intencyjny, w którym m.in. informują o zawieszeniu trwającego między nimi sporu.",
+      "pubDate": "Thu, 18 Jun 2026 19:50:43 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/WJkk9kpTURBXy9iMjIwYjFjZmQ2OTY0NTU4OGY0Y2M5NTUyNzMyNzhhYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-18T19:50:43.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Kryzys wstrząsnął jednym z najdroższych rynków nieruchomości. Milionowe przeceny",
+      "link": "https://businessinsider.com.pl/nieruchomosci/rynek-luksusowych-nieruchomosci-w-dubaju-w-kryzysie-sprzedawcy-tna-ceny/cqekpqp",
+      "description": "Sprzedawcy luksusowych nieruchomości w Dubaju obniżają ceny wywoławcze o miliony dolarów po tym, jak rynek przeżył załamanie. Rabaty sięgają 25 proc.",
+      "pubDate": "Thu, 18 Jun 2026 19:30:14 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/TPzk9kpTURBXy82ZDJkNWI4YjllNzU0ODc1MTMyMDZiNjlkMWVjYmIwMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-18T19:30:14.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Klepsydra planuje wypłacić 0,04 zł dywidendy na akcję",
+      "link": "https://www.bankier.pl/wiadomosc/Klepsydra-planuje-wyplacic-0-04-zl-dywidendy-na-akcje-9154046.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Zarząd Klepsydry rekomenduje, by na dywidendę trafiło 954.269,40 zł, co da 0,04 zł dywidendy na akcję - poinformowała spółka w komunikacie.",
+      "pubDate": "Thu, 18 Jun 2026 20:24:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/e/8/82216e487002a2-thumb-1000.jpg",
+      "dateISO": "2026-06-18T19:24:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Chamenei: Zatwierdziłem wstępne porozumienie z USA. \"Byłem mu przeciwny\"",
+      "link": "https://www.bankier.pl/wiadomosc/Chamenei-Zatwierdzilem-wstepne-porozumienie-z-USA-Bylem-mu-przeciwny-9154038.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Najwyższy przywódca Iranu Modżtaba Chamenei oświadczył w czwartek, że zatwierdził podpisane przez USA i Iran wstępne porozumienie między obydwoma krajami. Przyznał, że był temu przeciwny, ale przekonał go irański prezydent Masud Pezeszkian.",
+      "pubDate": "Thu, 18 Jun 2026 20:19:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/1/cce523a2f51621-948-568-0-202-3000-1799.jpg",
+      "dateISO": "2026-06-18T19:19:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Koniec pakietu CPN na stacjach. Motyka: Nie będzie radykalnych podwyżek cen paliw",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-pakietu-CPN-na-stacjach-Motyka-Nie-bedzie-radykalnych-podwyzek-cen-paliw-9154020.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Nie będzie radykalnych podwyżek cen paliw. Różnice będą pewnie kilkugroszowe w stosunku do pakietu CPN - powiedział w czwartek szef resortu energii Miłosz Motyka. Obniżka VAT na paliwo w ramach pakietu CPN wygasa 30 czerwca.",
+      "pubDate": "Thu, 18 Jun 2026 20:02:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/f/9ad23ca036f6ac-948-568-82-51-4051-2430.jpg",
+      "dateISO": "2026-06-18T19:02:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
       "title": "Zniknęła radioaktywna kapsuła. Ogłoszono alarm w całej Argentynie",
       "link": "https://www.bankier.pl/wiadomosc/Zniknela-radioaktywna-kapsula-Ogloszono-alarm-w-calej-Argentynie-9153907.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Z laboratorium instytutu medycznego w Rosario we wschodniej części Argentyny skradziono kapsułę zawierającą niebezpieczny dla zdrowia, promieniotwórczy cez-137 – podały miejscowe media. Władze ogłosiły ogólnokrajowy alarm i uruchomiły protokół awaryjny.",
@@ -10,6 +70,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/6/a6b130e0394f0a-948-568-0-256-3543-2125.jpg",
       "dateISO": "2026-06-18T19:00:00.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Radykalnych wzrostów cen paliw nie będzie. Minister energii uspokaja kierowców",
+      "link": "https://businessinsider.com.pl/gospodarka/radykalnych-wzrostow-cen-paliw-nie-bedzie-minister-energii-wyjasnia-powody/jyhfhtt",
+      "description": "Minister energii Miłosz Motyka nie spodziewa się radykalnych podwyżek cen paliw po tym, jak całkowicie wygaśnie rządowy pakiet CPN. W rozmowie z Radiem Zet wyjaśnił, dlaczego różnice będą nieznaczne.",
+      "pubDate": "Thu, 18 Jun 2026 18:55:59 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/qy8k9kpTURBXy85NGE5YjQyOTUzYmI0MTFkODFkMzRhNDgwZmYzMTdiYi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-18T18:55:59.000Z",
       "dateFormatted": "18 czerwca 2026"
     },
     {
@@ -34,6 +106,18 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/SJDk9kpTURBXy81N2U3MjdkZGNjMTZhZTcwOGMyYTk2ZTkzM2YzYmJmYy5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-06-18T18:21:11.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "AI zastąpi dziennikarzy? Setki osób wyszły na ulice Paryża",
+      "link": "https://www.bankier.pl/wiadomosc/AI-zastapi-dziennikarzy-Setki-osob-wyszly-na-ulice-Paryza-9153970.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W Paryżu kilkuset dziennikarzy i pracowników prasy francuskiej wzięło w czwartek udział w proteście, którego powodem były plany zwolnień i zmiany w zawodzie wywołane możliwościami sztucznej inteligencji (AI). Protest odbył się pod hasłem „obrony informacji jako dobra służącego demokracji”.",
+      "pubDate": "Thu, 18 Jun 2026 19:18:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/f/6c00001f2841ef-948-568-0-124-1920-1151.jpg",
+      "dateISO": "2026-06-18T18:18:00.000Z",
       "dateFormatted": "18 czerwca 2026"
     },
     {
@@ -87,7 +171,7 @@
     {
       "title": "J.D. Vance przekazał najnowsze wieści z cieśniny Ormuz. \"12,5 mln baryłek\"",
       "link": "https://businessinsider.com.pl/wiadomosci/wiceprezydent-usa-o-ciesninie-ormuz-wspomnial-o-izraelu/pb2czer",
-      "description": "— Ostatniej nocy 12,5 mln baryłek ropy wypłynęło przez cieśninę Ormuz — powiedział J.D. Vance. — Świat arabski i świat poza nim bardzo pragną zaangażować się w Iran — dodał, pytany o fundusz wart 300 md dol.",
+      "description": "— Ostatniej nocy 12,5 mln baryłek ropy wypłynęło przez cieśninę Ormuz, co jest rekordem od początku konfliktu — powiedział wiceprezydent USA J.D. Vance. Dodał, że Irańczycy przestali atakować statki.",
       "pubDate": "Thu, 18 Jun 2026 17:26:04 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -118,18 +202,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/c/d/9aba4785e881e4-948-568-0-235-3893-2336.jpg",
       "dateISO": "2026-06-18T17:05:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Grabiec: Afera z Kacprzykiem nie ma związku z KO",
-      "link": "https://www.bankier.pl/wiadomosc/Grabiec-Afera-z-Kacprzykiem-nie-ma-zwiazku-z-KO-9153895.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "„Afera Kacprzyka” nie ma związku z Koalicją Obywatelską, ale ponieważ był on radnym KO, tym surowiej będziemy ją rozliczać — powiedział w czwartek dziennikarzom szef KPRM i przewodniczący mazowieckiej KO Jan Grabiec. Nieoficjalnie politycy KO mówią o kryzysowej sytuacji. - Jesteśmy w matni — przyzna",
-      "pubDate": "Thu, 18 Jun 2026 18:03:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/4/2a89f7ebbef2ab-948-568-331-62-1488-892.jpg",
-      "dateISO": "2026-06-18T17:03:00.000Z",
       "dateFormatted": "18 czerwca 2026"
     },
     {
@@ -200,7 +272,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/3f1457f4fed800-thumb-1000.jpg",
+      "image": null,
       "dateISO": "2026-06-18T16:48:00.000Z",
       "dateFormatted": "18 czerwca 2026"
     },
@@ -226,18 +298,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/c/3/760a686364e101-948-568-167-114-3551-2130.jpg",
       "dateISO": "2026-06-18T16:32:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Image Power rozpoczął przegląd opcji strategicznych",
-      "link": "https://www.bankier.pl/wiadomosc/Image-Power-rozpoczal-przeglad-opcji-strategicznych-9153842.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Zarząd Image Power zdecydował o rozpoczęciu przeglądu opcji strategicznych - podała spółka w komunikacie.",
-      "pubDate": "Thu, 18 Jun 2026 17:26:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/0/f/c054fce945dcfc-thumb-1000.jpg",
-      "dateISO": "2026-06-18T16:26:00.000Z",
       "dateFormatted": "18 czerwca 2026"
     },
     {
@@ -457,18 +517,6 @@
       "dateFormatted": "18 czerwca 2026"
     },
     {
-      "title": "Stopy procentowe w USA bez zmian do końca roku",
-      "link": "https://www.bankier.pl/wiadomosc/Stopy-procentowe-w-USA-bez-zmian-do-konca-roku-9153679.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Środowa decyzja Federalnego Komitetu ds. Operacji Otwartego Rynku (FOMC) amerykańskiego banku centralnego o pozostawieniu stóp procentowych na poziomie 3,5-3,75 proc. oraz wyższa ścieżka stóp w najnowszej projekcji nie oznaczają zapowiedzi dalszych podwyżek – oceniają ekonomiści PZU.",
-      "pubDate": "Thu, 18 Jun 2026 14:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/9/1d9758b84927bb-948-568-171-10-3225-1935.jpg",
-      "dateISO": "2026-06-18T13:50:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
       "title": "Cieśnina Ormuz po wojnie. \"Są nierozstrzygnięte kwestie\"",
       "link": "https://businessinsider.com.pl/gospodarka/ciesnina-ormuz-otwarta-po-porozumieniu-iran-usa-chaos-moze-potrwac-dluzej/2dp7n9t",
       "description": "Nawet po osiągnięciu politycznego porozumienia między Iranem a USA w sprawie ponownego otwarcia cieśniny Ormuz, wznowienie ruchu będzie skomplikowane i etapowe — twierdzą eksperci.",
@@ -490,6 +538,18 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/8THk9kpTURBXy8xMDc1NjU2M2JjMTc4YmI2ZTZkZjU1MzMzNDJlNDgzOC5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-06-18T13:46:44.000Z",
+      "dateFormatted": "18 czerwca 2026"
+    },
+    {
+      "title": "Stała baza wojsk USA w Polsce. Kosiniak-Kamysz rozmawiał z Hegsethem",
+      "link": "https://www.bankier.pl/wiadomosc/Stala-baza-wojsk-USA-w-Polsce-Kosiniak-Kamysz-rozmawial-z-Hegsethem-9153670.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Stany Zjednoczone pozytywnie odnoszą się do propozycji utworzenia stałej bazy wojsk USA w Polsce - powiedział w czwartek, po spotkaniu z szefem Pentagonu, wicepremier, szef MON Władysław Kosiniak-Kamysz",
+      "pubDate": "Thu, 18 Jun 2026 14:44:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/6/1962fd77542999-948-568-112-120-1108-664.jpg",
+      "dateISO": "2026-06-18T13:44:00.000Z",
       "dateFormatted": "18 czerwca 2026"
     },
     {
@@ -577,18 +637,6 @@
       "dateFormatted": "18 czerwca 2026"
     },
     {
-      "title": "Nadpłaty diet w Wodzisławiu Śląskim. Radna z KO nie oddała pieniędzy",
-      "link": "https://businessinsider.com.pl/finanse/radni-wodzislawia-slaskiego-musieli-oddac-diety-radna-ko-czeka-na-sad/87lzv31",
-      "description": "Jak informuje portal wodzislawslaski.naszemiasto.pl, w wyniku błędnej interpretacji przepisów dotyczących potrąceń za nieobecności na sesjach i posiedzeniach komisji, 21 radnym wypłacono łącznie prawie 50 tys. zł więcej, niż powinni otrzymać. Nadpłacone kwoty zwrócili wszyscy, poza jedną radną Koali",
-      "pubDate": "Thu, 18 Jun 2026 12:43:17 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/iQ-k9kpTURBXy83MDE1MzM2NTE1MDVkNTgyYjkzYWJhODg0OTExODcxOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-18T12:43:17.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
       "title": "67 miliardów złotych z KPO rozdane. BGK kończy wielką alokację dla energetyki",
       "link": "https://www.bankier.pl/wiadomosc/67-miliardow-zlotych-z-KPO-rozdane-BGK-konczy-wielka-alokacje-dla-energetyki-9153608.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Bank Gospodarstwa Krajowego zakończył alokację środków z Funduszu Wsparcia Energetyki w ramach KPO. Umowy z beneficjentami podpisał na łącznie 67,2 mld zł - poinformowała w czwartek wiceprezeska BGK Marta Postuła.",
@@ -610,30 +658,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/c/2fcfcff14fa896-948-567-0-65-1000-599.jpg",
       "dateISO": "2026-06-18T12:37:00.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Szykuje się duży ruch Disneya w reklamach opartych na AI",
-      "link": "https://businessinsider.com.pl/biznes/disney-testuje-reklamy-generowane-przez-ai-co-zmieni-sie-w-branzy/n037362",
-      "description": "Disney planuje w lipcu uruchomić reklamy telewizyjne generowane przez sztuczną inteligencję, skierowane głównie do małych i średnich firm. Jeden z menedżerów Disneya niedawno wskazał reklamy AI jako kluczowy obszar postępu w strategii jego zespołu. Kontrola jakości w przypadku reklam AI nadal pozost",
-      "pubDate": "Thu, 18 Jun 2026 12:36:23 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/MH_k9kpTURBXy9jNjFmOTc2YmM5YTkyMDY0MjE5ZDg2OTFhNzQyOWM2MC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-18T12:36:23.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
-      "title": "Pierwszy sygnał po umowie Trumpa z Iranem. Chodzi o cieśninę Ormuz",
-      "link": "https://businessinsider.com.pl/gospodarka/ormuz-czesciowo-odblokowany-przeplynely-pierwsze-tankowce-z-saudyjska-ropa/j5wbh96",
-      "description": "Po wstępnym porozumieniu USA–Iran przez zablokowaną dotąd cieśninę Ormuz ruszyły pierwsze duże tankowce. To największy ruch w tym rejonie od tygodni.",
-      "pubDate": "Thu, 18 Jun 2026 12:11:27 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/X1Rk9kpTURBXy9jNjcwN2I3MDYxOTE5NWY0MTMwZjk5MzExNDgzNDkzYi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-18T12:11:27.000Z",
       "dateFormatted": "18 czerwca 2026"
     },
     {
@@ -841,5 +865,5 @@
       "dateFormatted": "15 czerwca 2026"
     }
   ],
-  "updatedAt": "2026-06-18T18:26:18.250Z"
+  "updatedAt": "2026-06-18T22:09:49.208Z"
 }
