@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Rosja sprzedała czołową kopalnię złota. Za połowę ceny",
+      "link": "https://businessinsider.com.pl/biznes/rosja-sprzedala-czolowa-kopalnie-zlota-przejela-ja-od-oligarchy/9n5hyyf",
+      "description": "Rosja sprzedała kopalnię złota, którą przejęła od miliardera. Chętny znalazł się po wielu próbach i po obniżce ceny o prawie połowę.",
+      "pubDate": "Fri, 19 Jun 2026 20:33:22 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/mY0k9kpTURBXy80OGU2MWNkYWQ3ZWI5MDc5NTMwMGQ5NTQ3YmE5M2I3Zi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-19T20:33:22.000Z",
+      "dateFormatted": "19 czerwca 2026"
+    },
+    {
       "title": "Maciej Lasek żegna się nie tylko z CPK. Będzie wiceministrem do końca czerwca",
       "link": "https://businessinsider.com.pl/wiadomosci/maciej-lasek-zegna-sie-nie-tylko-z-cpk-zmiany-w-resorcie-infrastruktury/cx5p38x",
       "description": "Maciej Lasek, odwołany z funkcji pełnomocnika rządu ds. PCK, z końcem czerwca przestanie być też wiceministrem infrastruktury — wynika z piątkowej wypowiedzi szefa resortu infrastruktury Dariusza Klimczaka.",
@@ -589,18 +601,6 @@
       "dateFormatted": "19 czerwca 2026"
     },
     {
-      "title": "UE podzielona w sprawie kontaktów z Putinem. Inicjatywa szefa rady europejskiej budzi sprzeciw",
-      "link": "https://businessinsider.com.pl/wiadomosci/costa-pod-presja-liderzy-ue-krytykuja-probe-otwarcia-dialogu-z-kremlem/zp5m4vk",
-      "description": "Nieformalna próba otwarcia kanałów komunikacji między Unią Europejską a Kremlem wywołała poważne napięcia wśród przywódców państw członkowskich. Inicjatywa szefa Rady Europejskiej António Costy miała stworzyć fundament pod ewentualne negocjacje pokojowe dotyczące Ukrainy, ale zamiast tego ujawniła b",
-      "pubDate": "Fri, 19 Jun 2026 11:51:27 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/y02k9kpTURBXy9mMTVkZDdjMWM2MDhlOWFiMzVlNzFjZTY2ODMxMGZmMy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-19T11:51:27.000Z",
-      "dateFormatted": "19 czerwca 2026"
-    },
-    {
       "title": "Premierka Ukrainy: Otwieramy dostęp do rosyjskich technologii wojskowych",
       "link": "https://www.bankier.pl/wiadomosc/Premierka-Ukrainy-Otwieramy-dostep-do-rosyjskich-technologii-wojskowych-9154337.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Ukraina otwiera dostęp do rosyjskich technologii wojskowych dla swoich specjalistów oraz partnerów międzynarodowych; ta wiedza przyspieszy opracowywanie środków przeciwdziałania Kremlowi – oświadczyła w piątek szefowa rządu w Kijowie Julia Swyrydenko.",
@@ -925,5 +925,5 @@
       "dateFormatted": "16 czerwca 2026"
     }
   ],
-  "updatedAt": "2026-06-19T19:59:36.741Z"
+  "updatedAt": "2026-06-19T21:16:48.587Z"
 }
