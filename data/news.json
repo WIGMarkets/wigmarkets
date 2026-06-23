@@ -1,15 +1,243 @@
 {
   "articles": [
     {
-      "title": "Bloober Team: Przychody z \"Cronos: The New Dawn\" przekroczyły koszty produkcji",
-      "link": "https://www.bankier.pl/wiadomosc/Przychody-z-Cronos-The-New-Dawn-przekroczyly-koszty-produkcji-Bloober-Team-9156333.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Przychody z \"Cronos: The New Dawn\" przekroczyły koszty produkcji - poinformował Bloober Team w komunikacie prasowym.",
-      "pubDate": "Tue, 23 Jun 2026 16:16:00 +0100",
+      "title": "Szpitale czekają duże zmiany. Dotyczą dziewięciu województw",
+      "link": "https://businessinsider.com.pl/rozwoj-osobisty/zdrowie/duze-zmiany-w-szpitalach-w-polsce-wiekszosc-juz-w-2026-roku/dyp0nds",
+      "description": "W szpitalach w dziewięciu województwach rusza fala restrukturyzacji — ustaliła \"Rzeczpospolita\". Zmiany dotyczą m.in. łączenia placówek i odchodzenia od całodobowej hospitalizacji.",
+      "pubDate": "Tue, 23 Jun 2026 17:43:34 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ACwk9kpTURBXy9kNDNjNTM0ZDUzNDI1ZGRlMGZkZDFiMjMwYWU1ODI3NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-23T17:43:34.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "VeloBank ogłasza zwolnienia grupowe po przejęciu detalu Citi Handlowego",
+      "link": "https://www.bankier.pl/wiadomosc/VeloBank-oglasza-zwolnienia-grupowe-po-przejeciu-detalu-Citi-Handlowego-9156483.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "VeloBank poinformował o rozpoczęciu zwolnień grupowych. Bank przedstawia je jako kolejny etap integracji po przejęciu detalicznej części Citi Handlowego - etap, którego celem ma być budowa docelowej struktury organizacyjnej.",
+      "pubDate": "Tue, 23 Jun 2026 18:43:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/e/5ad05aa3e97edf-948-567-20-0-960-575.png",
+      "dateISO": "2026-06-23T17:43:00.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "Unibep wypłaci 0,4 zł dywidendy na akcję",
+      "link": "https://www.bankier.pl/wiadomosc/Unibep-wyplaci-0-4-zl-dywidendy-na-akcje-9156456.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Unibep wypłaci z zysku netto za 2025 rok 13,2 mln zł dywidendy, co daje 0,4 zł dywidendy na akcję (po wyłączeniu akcji własnych posiadanych przez Unibep) - poinformowała budowlana spółka w komunikacie.",
+      "pubDate": "Tue, 23 Jun 2026 18:18:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/3/3/f8734ea0aab8d3-948-568-90-0-1208-724.jpg",
-      "dateISO": "2026-06-23T15:16:00.000Z",
+      "image": "http://galeria.bankier.pl/p/c/e/eaa031f2b6c890-948-567-5-0-995-596.jpg",
+      "dateISO": "2026-06-23T17:18:00.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "Kontrowersje wokół odesłania Orderu Orła Białego. Szef Ukrposzty zabrał głos",
+      "link": "https://businessinsider.com.pl/gospodarka/zwrot-orderu-wywolal-lawine-kolejne-odznaczenia-wracaja-z-ukrainy/tpldk5z",
+      "description": "Po fali decyzji o zwrotach państwowych odznaczeń prezydent Wołodymyr Zełenski odesłał do Warszawy Order Orła Białego. Co zaskakujące, przesyłkę powierzono prywatnej firmie kurierskiej. Przy okazji na jaw wyszedł ostry spór wokół ukraińskiej poczty państwowej, której szef oskarża polskich celników o ",
+      "pubDate": "Tue, 23 Jun 2026 17:07:01 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/YbGk9kqTURBXy8zOWQ0OGMxOTljNTMwZTljYjhjMTY0NDhmNGYwYjQ2Zi5qcGVnkZMCzQSwAN4AAaEwAQ",
+      "dateISO": "2026-06-23T17:07:01.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "Zapadła decyzja o ewakuacji 11 tys. marynarzy z cieśniny Ormuz",
+      "link": "https://businessinsider.com.pl/wiadomosci/rusza-ewakuacja-tysiecy-marynarzy-z-ciesniny-ormuz-po-miesiacach-trudnosci-i/lpv8s7l",
+      "description": "Agencja ONZ poinformowała o rozpoczęciu ewakuacji ponad 11 tys. marynarzy uwięzionych w cieśninie Ormuz.",
+      "pubDate": "Tue, 23 Jun 2026 16:18:15 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/dRRk9kpTURBXy9hOWJkMjkyMGEwMGY5N2Y2NzczYWUwZjRmYjhlY2FkYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-23T16:18:15.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "KGHM i Orlen pod dwóch stronach. WIG20 znów traci przy coraz droższym dolarze",
+      "link": "https://www.bankier.pl/wiadomosc/KGHM-i-Orlen-pod-dwoch-stronach-WIG20-znow-traci-przy-coraz-drozszym-dolarze-9156394.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Splot niekorzystnych czynników, jak jastrzębie deklaracje zza oceanu oraz fatalne nastroje w sektorze technologicznym uderzyły w rynki akcji na całym świecie. Tłem dla słabych krajowych indeksów była także słabość polskiego złotego, który wyraźnie tracił do głównych walut świata, w tym zwłaszcza do ",
+      "pubDate": "Tue, 23 Jun 2026 17:16:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/6/b/707008f5dc5870-900-539-0-2-900-539.jpg",
+      "dateISO": "2026-06-23T16:16:00.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "11 bit studios zakłada, że drugie DLC do \"Frostpunka 2\" będzie widoczne w wynikach za II kw.",
+      "link": "https://www.bankier.pl/wiadomosc/11-bit-studios-zaklada-ze-drugie-DLC-do-Frostpunka-2-bedzie-widoczne-w-wynikach-za-II-kw-wywiad-9156375.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "11 bit studios zakłada, że premiera dodatku \"Breach of Trust\" do \"Frostpunka 2\" będzie widoczna w wynikach za II kw. - poinformował PAP Biznes COO i CFO 11 bit studios, Piotr Bajraszewski. Podtrzymał termin premiery trzeciego dodatku do gry pod koniec 2026 roku.",
+      "pubDate": "Tue, 23 Jun 2026 17:04:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/8/1/b8cfd5e720a04f-948-568-192-0-2252-1351.jpg",
+      "dateISO": "2026-06-23T16:04:00.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "Gdańsk zamieni się w twierdzę. Zamknięte ulice, zakaz noszenia broni i lotów dronami",
+      "link": "https://www.bankier.pl/wiadomosc/Gdansk-zamieni-sie-w-twierdze-Zamkniete-ulice-zakaz-noszenia-broni-i-lotow-dronami-9156373.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Od środy do piątku w Gdańsku będą obowiązywać zmiany w organizacji ruchu, parkowaniu i funkcjonowaniu komunikacji miejskiej w związku z Konferencją na rzecz Odbudowy Ukrainy. Największych utrudnień należy spodziewać się w rejonie Letnicy, Głównego Miasta i Europejskiego Centrum Solidarności.",
+      "pubDate": "Tue, 23 Jun 2026 17:03:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/4/dce794274243df-948-568-0-104-2000-1199.jpg",
+      "dateISO": "2026-06-23T16:03:00.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "Ethereum Foundation zwalnia 20% pracowników w ramach restrukturyzacji",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/ethereum-foundation-zwalnia-20-pracownikow-w-ramach-restrukturyzacji-1461899",
+      "description": "",
+      "pubDate": "2026-06-23 15:54:50",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "dateISO": "2026-06-23T15:54:50.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "Przedsprzedaż oferty \"Zima 2026/2027\" Rainbow Tours wzrosła o 5,1 proc. rdr",
+      "link": "https://www.bankier.pl/wiadomosc/Przedsprzedaz-oferty-Zima-2026-2027-Rainbow-Tours-wzrosla-o-5-1-proc-rdr-9156352.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Rainbow Tours do 19 czerwca 2026 r. przedsprzedało ofertę \"Zima 2026/2027\" 34.901 osobom, wobec 33.192 osób rok wcześniej w tym samym okresie, co oznacza wzrost o ok. 5,1 proc. rdr - podała spółka w komunikacie.",
+      "pubDate": "Tue, 23 Jun 2026 16:32:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/e/c/f5499a7ddb5dd5-948-567-0-294-950-569.png",
+      "dateISO": "2026-06-23T15:32:00.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "Nowy pływający terminal gazowy. Jeszcze nie powstał, a Orlen już ma na nim rezerwację",
+      "link": "https://businessinsider.com.pl/gielda/orlen-rezerwuje-moce-w-planowanym-terminalu-gazowy-hub-baltic-eagle-coraz-blizej/8dd0100",
+      "description": "W ub.r. roczne zapotrzebowanie odbiorców krajowych na gaz wynosiło według Gaz-System ponad 16 mld m sześc. Podpisana we wtorek przez Orlen umowa świadczy o tym, że zapotrzebowanie skokowo wzrośnie w najbliższych latach.",
+      "pubDate": "Tue, 23 Jun 2026 15:30:07 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/XeVk9kpTURBXy85YTM1N2IxNzA2YzdlYjExZmY0M2Q2ZDViYmFhMzM2My5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-23T15:30:07.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "Iran przepuszcza przez Ormuz tylko wybrane statki. \"Nigdy nie wrócimy do stanu sprzed wojny\"",
+      "link": "https://www.bankier.pl/wiadomosc/Iran-przepuszcza-przez-Ormuz-tylko-wybrane-statki-Nigdy-nie-wrocimy-do-stanu-sprzed-wojny-9156343.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Irańska agencja Fars podaje we wtorek, powołując się na źródła w siłach zbrojnych, że Iran przepuszcza tylko ograniczoną liczbę statków dziennie przez cieśninę Ormuz, a decyzje w sprawie ich liczby są podejmowane w porozumieniu z marynarką wojenną Korpusu Strażników Rewolucji.",
+      "pubDate": "Tue, 23 Jun 2026 16:24:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/d/33d7ecf6ae11fc-948-568-165-0-2790-1673.jpg",
+      "dateISO": "2026-06-23T15:24:00.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "\"Ten most już nie istnieje\". Precyzyjny cios w serce rosyjskiej logistyki na Krymie",
+      "link": "https://www.bankier.pl/wiadomosc/Ten-most-juz-nie-istnieje-Precyzyjny-cios-w-serce-rosyjskiej-logistyki-na-Krymie-9156337.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Siły Operacji Specjalnych (SSO) Sił Zbrojnych Ukrainy poinformowały we wtorek o zniszczeniu mostu kolejowego nad Kanałem Północnokrymskim na okupowanym przez Rosję terytorium Ukrainy, który pełnił funkcję strategicznego szlaku wojskowo - logistycznego armii rosyjskiej.",
+      "pubDate": "Tue, 23 Jun 2026 16:19:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/6/7c6bd5e55b59b8-948-568-98-484-3856-2313.jpg",
+      "dateISO": "2026-06-23T15:19:00.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "Co się stało z 500 tys. zł od Dawida Kacprzyka? Posłowie PiS zarzucają prokuraturze kłamstwo",
+      "link": "https://businessinsider.com.pl/finanse/kontrola-poselska-w-szpitalu-poludniowym-chodzi-o-500-tys-zl/tzqlep6",
+      "description": "Opozycja zarzuca prokuraturze mijanie się z prawdą. Choć rzecznik twierdzi, że 500 tys. zł wróciło do lekarza Dawida Kacprzyka, posłowie utrzymują, że pieniądze nadal leżą na koncie szpitala.",
+      "pubDate": "Tue, 23 Jun 2026 15:12:27 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/TbXk9kpTURBXy80MTYwODE5MDc1YTBiMzY4NGYxZWIxYTA1ZDY1OWRiYy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-23T15:12:27.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "Nawet 30 tys. zł kary za nielegalną wycinkę. Wielkie zmiany w polskich lasach",
+      "link": "https://www.bankier.pl/wiadomosc/Nawet-30-tys-zl-kary-za-nielegalna-wycinke-Wielkie-zmiany-w-polskich-lasach-9156325.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rząd przyjął projekt ustawy, która ma m.in. umożliwić zaskarżanie planów urządzenia lasu do sądów administracyjnych oraz rozszerzyć proces uzgodnień społecznych - poinformowała we wtorek kancelaria premiera. Nowe przepisy to odpowiedź na wyrok TSUE z 2023 r.",
+      "pubDate": "Tue, 23 Jun 2026 16:12:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/5/8049848cab7b42-948-567-0-67-1000-599.jpg",
+      "dateISO": "2026-06-23T15:12:00.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "\"Bezczynność nie wchodzi w grę\". Niemcy szykują bolesną rewolucję emerytalną",
+      "link": "https://www.bankier.pl/wiadomosc/Bezczynnosc-nie-wchodzi-w-gre-Niemcy-szykuja-bolesna-rewolucje-emerytalna-9156315.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Kanclerz Niemiec Friedrich Merz zapowiedział we wtorek, że przeforsuje proponowaną reformę systemu emerytalnego, dodając że „bezczynność nie wchodzi w grę”. Reforma miałaby obejmować stopniowe podnoszenie w przyszłości wieku emerytalnego w powiązaniu ze średnią długością życia.",
+      "pubDate": "Tue, 23 Jun 2026 16:01:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/6/bb88fcb7c53b77-948-568-4-143-1975-1185.jpg",
+      "dateISO": "2026-06-23T15:01:00.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "Od pracowników fizycznych do biurowych. Tego w erze AI chce dla 700 tys. pracowników CEO \"chińskiego Amazona\"",
+      "link": "https://businessinsider.com.pl/praca/jdcom-stawia-na-roboty-richard-liu-zapowiada-rewolucje-dla-kurierow/3yveet0",
+      "description": "Założyciel JD.com, Richard Liu, zapowiedział, że zamierza przekształcić pracowników pracujących w modelu gig w pracowników umysłowych. Liu stwierdził, że roboty przejmą manualną pracę związaną z dostawami. Dodał jednak, że ludzie nadal będą potrzebni do naprawy i obsługi tych robotów — a takie zadan",
+      "pubDate": "Tue, 23 Jun 2026 14:59:44 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/0pJk9kpTURBXy81ZDg4ZGYyMjhmNjVmYjM4YjNhNzljMDM2YzE1YjU4NS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-23T14:59:44.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "Broń \"wystarczająco dobra\", a nie luksusowa. Komisarz UE wzywa do masowej produkcj",
+      "link": "https://www.bankier.pl/wiadomosc/Bron-wystarczajaco-dobra-a-nie-luksusowa-Komisarz-UE-wzywa-do-masowej-produkcj-9156314.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Komisarz obrony Andrius Kubilius zapowiedział we wtorek, że Komisja Europejska wyjdzie wkrótce z planem zintegrowania rynków obronnych w 27 krajach członkowskich. Jak podkreślił, bez tego przemysły zbrojeniowe nie będą mogły się rozwijać, a ich działalność pozostanie ograniczona.",
+      "pubDate": "Tue, 23 Jun 2026 15:59:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/c/7218c935f72a8c-948-568-45-277-2512-1507.jpg",
+      "dateISO": "2026-06-23T14:59:00.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "mObywatel potężniejszy niż kiedykolwiek. Rząd dorzuca do aplikacji wyczekiwane nowości",
+      "link": "https://www.bankier.pl/wiadomosc/mObywatel-potezniejszy-niz-kiedykolwiek-Rzad-dorzuca-do-aplikacji-wyczekiwane-nowosci-9156313.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Z poziomu aplikacji mObywatel będzie można m.in. elektronicznie poprzeć kandydatów w wyborach, a także uzyskać dostęp do dyplomu ukończenia studiów i części dokumentów zawodowych. To efekt rozszerzenia przez rząd zakresu rejestrów publicznych, z których mObywatel może pobierać dane.",
+      "pubDate": "Tue, 23 Jun 2026 15:59:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/c/478160f3e79927-948-568-0-59-1980-1188.jpg",
+      "dateISO": "2026-06-23T14:59:00.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "3 tygodnie zamiast 2 lat czekania. Posłanka KO wzięta pod lupę za badanie w szpitalu!",
+      "link": "https://www.bankier.pl/wiadomosc/3-tygodnie-zamiast-2-lat-czekania-Poslanka-KO-wzieta-pod-lupe-za-badanie-w-szpitalu-9156306.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rzecznik rządu Adam Szłapka powiedział we wtorek, że posłanka KO Małgorzata Pępek złoży wyjaśnienia przed kolegium klubu Koalicji Obywatelskiej. Chodzi o sprawę badania, jakie posłanka przeszła w szpitalu w Żywcu.",
+      "pubDate": "Tue, 23 Jun 2026 15:55:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/6/aeab518d255c96-948-568-26-175-3473-2084.jpg",
+      "dateISO": "2026-06-23T14:55:00.000Z",
       "dateFormatted": "23 czerwca 2026"
     },
     {
@@ -22,6 +250,18 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/5sxk9kuTURBXy80MTBiZjMxYy00OGJjLTQyMWEtYTgyZS1mNmYyM2U4MjcyNzEuanBlZ5GTAs0EsADeAAGhMAE",
       "dateISO": "2026-06-23T14:47:25.000Z",
+      "dateFormatted": "23 czerwca 2026"
+    },
+    {
+      "title": "Koniec z podwójnymi prowizjami. Rząd bierze się za nieuczciwych pośredników nieruchomości",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-z-podwojnymi-prowizjami-Rzad-bierze-sie-za-nieuczciwych-posrednikow-nieruchomosci-9156290.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rząd chce w III kw. 2026 r. przyjąć projekt zmierzający do poprawy jakości usług pośrednictwa w obrocie nieruchomościami, wzmocnienia ochrony osób korzystających z tych usług oraz zwiększenia transparentności na rynku nieruchomości - podano w wykazie prac Rady Ministrów.",
+      "pubDate": "Tue, 23 Jun 2026 15:46:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/f/7985749f12aa97-948-568-247-307-2752-1651.jpg",
+      "dateISO": "2026-06-23T14:46:00.000Z",
       "dateFormatted": "23 czerwca 2026"
     },
     {
@@ -50,12 +290,12 @@
     },
     {
       "title": "Masz dość smogu? Będziesz mógł łatwiej pozwać władze. Rząd daje obywatelom nową broń",
-      "link": "https://www.bankier.pl/wiadomosc/Masz-dosc-smogu-Bedziesz-mogl-latwiej-pozwac-wladze-Rzad-daje-obywatelom-nowa-bron-9156270.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Masz-dosc-smogu-Bedziesz-mogl-latwiej-pozwac-wladze-Rzad-daje-obywatelom-nowa-bron-9156270.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Rada Ministrów przyjęła projekt ustawy wzmacniającej prawa obywateli do ochrony zdrowia i czystego powietrza, dzięki której mieszkańcy, przedsiębiorcy i organizacje społeczne będą mogli składać skargi na programy ochrony powietrza lub ich brak.",
       "pubDate": "Tue, 23 Jun 2026 15:30:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/7/4603ab26865f96-945-560-22-14-2977-1786.jpg",
       "dateISO": "2026-06-23T14:30:00.000Z",
       "dateFormatted": "23 czerwca 2026"
@@ -68,20 +308,8 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/XAgk9kpTURBXy82OTYxM2RiNDE5ZTBhZTNjMzk0YzNmZWE2YzllODE3ZS5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ewqk9kpTURBXy8wMjg0YWI4ZTMyOTczMWIwZjA1YmVjMDE0MTY1ZTA4Yy5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-06-23T14:27:11.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
-      "title": "Odlewnie Polskie wypłacą 0,45 zł dywidendy na akcję",
-      "link": "https://www.bankier.pl/wiadomosc/Odlewnie-Polskie-wyplaca-0-45-zl-dywidendy-na-akcje-9156260.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Odlewnie Polskie wypłacą z zysku netto za 2025 rok 9,04 mln zł dywidendy, czyli 0,45 zł na jedną akcję - poinformowała spółka w komunikacie.",
-      "pubDate": "Tue, 23 Jun 2026 15:24:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/a/c/78fd2f69e751c6-948-568-300-0-3700-2220.jpg",
-      "dateISO": "2026-06-23T14:24:00.000Z",
       "dateFormatted": "23 czerwca 2026"
     },
     {
@@ -94,30 +322,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/f/8/807719ed33e901-948-568-0-44-1796-1077.jpg",
       "dateISO": "2026-06-23T14:13:00.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
-      "title": "\"Ludzie cicho nienawidzą tej władzy\". Aleś Bialacki obnaża prawdę o reżimie Łukaszenki",
-      "link": "https://www.bankier.pl/wiadomosc/Ludzie-cicho-nienawidza-tej-wladzy-Ales-Bialacki-obnaza-prawde-o-rezimie-Lukaszenki-9156246.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "O zaprzestaniu represji politycznych na Białorusi nie ma mowy, jedni wychodzą z więzień, inni tam trafiają - zwrócił we wtorek uwagę laureat Pokojowej Nagrody Nobla, białoruski obrońca praw człowieka Aleś Bialacki na konferencji prasowej w Białymstoku.",
-      "pubDate": "Tue, 23 Jun 2026 15:12:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/7/f979250e822f72-948-568-0-255-3782-2269.jpg",
-      "dateISO": "2026-06-23T14:12:00.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
-      "title": "Energa z pozwem o uchylenie uchwał NWZ. Chodzi o emisję akcji serii CC",
-      "link": "https://www.bankier.pl/wiadomosc/Energa-otrzymala-pozew-o-uchylenie-uchwal-NWZ-dot-m-in-emisji-akcji-serii-CC-9156244.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Energa otrzymała pozew o uchylenie uchwał NWZ dotyczących m.in. uchwały w sprawie podwyższenia kapitału zakładowego spółki w drodze emisji akcji serii CC w trybie subskrypcji zamkniętej - poinformowała Energa w komunikacie. Wskazano, że spółka nie zgadza się z wniesionym pozwem i złoży na niego odpo",
-      "pubDate": "Tue, 23 Jun 2026 15:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/e/4/b6ee0e9f1171f2-945-560-0-19-3843-2305.jpg",
-      "dateISO": "2026-06-23T14:10:00.000Z",
       "dateFormatted": "23 czerwca 2026"
     },
     {
@@ -217,9 +421,9 @@
       "dateFormatted": "23 czerwca 2026"
     },
     {
-      "title": "Coraz więcej pieniądza krąży w gospodarce. Rośnie groźba wzrostu inflacji",
+      "title": "Coraz więcej pieniędzy krąży w gospodarce. Rośnie groźba wzrostu inflacji",
       "link": "https://businessinsider.com.pl/gospodarka/pieniadze-plyna-szerokim-strumieniem-szybki-wzrost-gotowki-i-depozytow-w-polsce/5w60cdx",
-      "description": "W maju 2026 r. wartość podaży pieniądza zwiększyła się o 18,7 mld zł do 2 bln 852 mld zł — podał NBP. Najszybciej zwiększała się ilość pieniądza gotówkowego w obiegu.",
+      "description": "W maju 2026 r. po polskiej gospodarce krążyło 2 bln 852 mld zł — podał NBP. Najszybciej przybywało w obiegu pieniądza gotówkowego. Dużo wyższy od wzrostu PKB przyrost pieniędzy znacząco podnosił w historii inflację.",
       "pubDate": "Tue, 23 Jun 2026 12:59:35 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -265,18 +469,6 @@
       "dateFormatted": "23 czerwca 2026"
     },
     {
-      "title": "Polska i Tajwan budują łańcuch półprzewodników. Premier: To miliardy dolarów inwestycji",
-      "link": "https://www.bankier.pl/wiadomosc/Polska-i-Tajwan-buduja-lancuch-polprzewodnikow-Premier-To-miliardy-dolarow-inwestycji-9156100.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Park technologiczny pod Wrocławiem tworzony z tajwańskim przemysłem oznacza miliardy dolarów inwestycji i stworzenie tysięcy miejsc pracy - poinformował premier Donald Tusk przed posiedzeniem rządu.",
-      "pubDate": "Tue, 23 Jun 2026 13:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/8/946e2be8966666-948-568-0-129-1920-1151.jpg",
-      "dateISO": "2026-06-23T12:30:00.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
       "title": "Trzy kłamstwa zwolenników brexitu. Kluczowe cytaty sprzed 10 lat zderzone z faktami",
       "link": "https://businessinsider.com.pl/gospodarka/brexit-cytaty-zwolennikow-i-fakty-wielka-brytania-10-lat-po-referendum-ws-ue/fh63dnz",
       "description": "Autorzy brexitu zapowiadali świetlaną przyszłość Wielkiej Brytanii po wyjściu z Unii Europejskiej. Nigdy się to nie ziściło. Po dziesięciu latach od referendum zderzamy z danymi najgłośniejsze cytaty zwolenników opcji \"leave\".",
@@ -289,18 +481,6 @@
       "dateFormatted": "23 czerwca 2026"
     },
     {
-      "title": "Pół miliarda euro na stole. EBOR odkrywa karty przed Konferencją na rzecz Odbudowy Ukrainy w Gdańsku",
-      "link": "https://www.bankier.pl/wiadomosc/Pol-miliarda-euro-na-stole-EBOR-odkrywa-karty-przed-Konferencja-na-rzecz-Odbudowy-Ukrainy-w-Gdansku-9156130.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Podczas Konferencji na rzecz Odbudowy Ukrainy (URC) w Gdańsku Europejski Bank Odbudowy i Rozwoju (EBOR) zamierza podpisać umowy o wartości przekraczającej 500 mln euro - poinformował PAP Biznes Arvid Tuerkner, dyrektor zarządzający w EBOR ds. Ukrainy i Mołdawii. Konferencja rozpoczyna się w czwartek",
-      "pubDate": "Tue, 23 Jun 2026 13:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/7/3b57abc9e4d156-945-560-43-0-3456-2073.jpg",
-      "dateISO": "2026-06-23T12:20:00.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
       "title": "Revolut piątym bankiem w Polsce pod względem liczby klientów. Sprawdziliśmy, kogo wyprzedził",
       "link": "https://www.bankier.pl/wiadomosc/Revolut-piatym-bankiem-w-Polsce-pod-wzgledem-liczby-klientow-Sprawdzilismy-kogo-wyprzedzil-9156002.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Polskie banki obsługują razem ponad 60 mln klientów. Po raz pierwszy doliczyliśmy do nich Revolut - i od razu wskoczył do pierwszej piątki, wyprzedzając mBank czy Alior. A wkrótce będzie u nas działał już jako pełnoprawny oddział.",
@@ -310,18 +490,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/9/20048c3239a5a3-948-568-82-44-974-584.png",
       "dateISO": "2026-06-23T12:00:00.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
-      "title": "Konferencja odbudowy Ukrainy w Gdańsku. Kijów deleguje premier Swyrydenko",
-      "link": "https://www.bankier.pl/wiadomosc/Konferencja-odbudowy-Ukrainy-w-Gdansku-Kijow-deleguje-premier-Swyrydenko-9156112.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Premier Ukrainy Julia Swyrydenko ogłosiła we wtorek, że stanie na czele delegacji, która weźmie w tym tygodniu udział w Konferencji na rzecz Odbudowy Ukrainy (URC 2026) w Gdańsku. Wcześniej oczekiwano, że Kijów będzie reprezentowany przez prezydenta Wołodymyra Zełenskiego.",
-      "pubDate": "Tue, 23 Jun 2026 12:54:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/5/546b896584a3d7-948-568-20-307-1264-758.jpg",
-      "dateISO": "2026-06-23T11:54:00.000Z",
       "dateFormatted": "23 czerwca 2026"
     },
     {
@@ -370,18 +538,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/8/7/6e2fe3f4df1a7b-948-568-0-84-3892-2335.jpg",
       "dateISO": "2026-06-23T11:47:00.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
-      "title": "Rząd zapowiada współpracę z Shield AI. W grze produkcja i serwis F-16",
-      "link": "https://www.bankier.pl/wiadomosc/Rzad-zapowiada-wspolprace-z-Shield-AI-W-grze-produkcja-i-serwis-F-16-9156102.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Premier Donald Tusk poinformował we wtorek, iż spotkał się w poniedziałek z przedstawicielami amerykańskiej firmy Shield AI, która planuje inwestycje w Polsce.",
-      "pubDate": "Tue, 23 Jun 2026 12:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/d/939fd95a7460cb-945-560-0-82-1644-986.jpg",
-      "dateISO": "2026-06-23T11:40:00.000Z",
       "dateFormatted": "23 czerwca 2026"
     },
     {
@@ -445,30 +601,6 @@
       "dateFormatted": "23 czerwca 2026"
     },
     {
-      "title": "ZUS wysłał pisma do prawie 8,9 mln emerytów. Dwie ważne decyzje w jednej kopercie",
-      "link": "https://businessinsider.com.pl/praca/emerytury/zus-wyslal-pisma-do-prawie-89-mln-emerytow-dwie-informacje-w-jednej-kopercie/41x43t0",
-      "description": "Zakład Ubezpieczeń Społecznych (ZUS) wysłał do prawie 8,9 mln emerytów i rencistów w Polsce ważne pisma. To pakiety dokumentów dotyczących waloryzacji świadczeń oraz tzw. trzynastek. Warto zajrzeć do skrzynek pocztowych.",
-      "pubDate": "Tue, 23 Jun 2026 10:18:58 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/tBWk9kpTURBXy81NzVjYTE2OTlhODRlMTRlOTQzOTY4OTFjYzYzYWRkMi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-23T10:18:58.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
-      "title": "Minister infrastruktury stanowczo o budowie dróg w Ukrainie. \"Nie ma mowy\"",
-      "link": "https://businessinsider.com.pl/gospodarka/co-z-przedluzeniem-a4-do-lwowa-klimczak-wprost-o-budowie-drog-w-ukrainie/fqw0568",
-      "description": "Dariusz Klimczak został zapytany o budowę przedłużenia autostrady A4 do Lwowa. Minister infrastruktury jednoznacznie zdementował doniesienia o finansowaniu przez Polskę budowy jakichkolwiek dróg na terytorium Ukrainy. — Nie ma o tym mowy — podkreślił.",
-      "pubDate": "Tue, 23 Jun 2026 10:15:26 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/rhQk9kpTURBXy81MWZmOGNiNjgwYWFhYjc5NDY0NzgzNTgwOWE5Y2YyNC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-23T10:15:26.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
       "title": "CD Projekt zmienia nazwę spółki",
       "link": "https://www.bankier.pl/wiadomosc/CD-Projekt-zmienia-nazwe-spolki-na-CD-Projekt-RED-9156039.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Walne zgromadzenie CD Projektu zdecydowało o zmianie nazwy spółki na CD Projekt RED - wynika z głosowań. Nazwa spółki zostanie oficjalnie zmieniona po zarejestrowaniu przez sąd zmian w statucie.",
@@ -478,18 +610,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/3/2/212bce0bcf14c6-948-568-0-161-4608-2764.jpg",
       "dateISO": "2026-06-23T10:14:00.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
-      "title": "Znamy ceny paliw na środę 24 czerwca. Minister energii wydał komunikat",
-      "link": "https://businessinsider.com.pl/gospodarka/znamy-maksymalne-ceny-paliw-na-srode-24-czerwca-minister-wydal-komunikat/m86z7gy",
-      "description": "Są już nowe maksymalne ceny paliw na środę 24 czerwca. Zgodnie z komunikatem ministra energii na stacjach paliw zapłacimy za olej napędowy tyle samo co we wtorek, a za oba rodzaje benzyny — nieznacznie mniej.",
-      "pubDate": "Tue, 23 Jun 2026 10:02:51 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/BY1k9kpTURBXy9jMTY5MDg2YmQzZGY3MWI1YTE3N2RmMGI2NDQ4NzVlNy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-23T10:02:51.000Z",
       "dateFormatted": "23 czerwca 2026"
     },
     {
@@ -505,18 +625,6 @@
       "dateFormatted": "23 czerwca 2026"
     },
     {
-      "title": "Rynek rolny pod presją. Wyraźne obniżki cen w maju",
-      "link": "https://businessinsider.com.pl/finanse/handel/majowe-ceny-w-rolnictwie-znow-spadly-najmocniej-potanialo-mleko-i-trzoda/yjhnely",
-      "description": "Maj przyniósł dalsze pogorszenie sytuacji cenowej w rolnictwie. Choć część produktów nieznacznie podrożała w ujęciu miesięcznym, w skali roku dominują wyraźne spadki — w niektórych przypadkach sięgające nawet 20 proc.",
-      "pubDate": "Tue, 23 Jun 2026 09:49:21 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/KRMk9kpTURBXy8yMTU4YWIxNDU3NWZiNzFmZjAzYmM0YmM0NTcxOTQ4Yi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-23T09:49:21.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
       "title": "Zostawiamy tu grube miliardy. Niemiecka sieć ma rekordowe zyski i zero długów",
       "link": "https://www.bankier.pl/wiadomosc/Zostawiamy-tu-grube-miliardy-Niemiecka-siec-ma-rekordowe-zyski-i-zero-dlugow-9155985.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Niemiecka sieć drogerii Rossmann ma za sobą kolejny rok ogromnych sukcesów na polskim rynku. Z najnowszego sprawozdania finansowego spółki wynika, że obroty netto ze sprzedaży towarów oraz usług osiągnęły zawrotną kwotę 16,52 mld zł. To skok w porównaniu z wcześniejszym rokiem, kiedy przychody firmy",
@@ -525,18 +633,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/a/d1378dffbdf064-948-568-80-280-3200-1920.jpg",
-      "dateISO": "2026-06-23T09:45:00.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
-      "title": "Trzęsienie ziemi na Litwie. Rząd podał się do dymisji",
-      "link": "https://www.bankier.pl/wiadomosc/Trzesienie-ziemi-na-Litwie-Rzad-podal-sie-do-dymisji-9156020.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Gabinet Litwy, kierowany dotychczas przez socjaldemokratkę Ingę Ruginiene, podał się we wtorek do dymisji po zmianach w koalicji rządzącej. Na mocy porozumienia nowej większości stanowisko szefa rządu ma objąć lider socjaldemokratów Mindaugas Sinkeviczius.",
-      "pubDate": "Tue, 23 Jun 2026 10:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/d/3e4b50ba09b2e9-948-568-0-191-4500-2699.jpg",
       "dateISO": "2026-06-23T09:45:00.000Z",
       "dateFormatted": "23 czerwca 2026"
     },
@@ -553,30 +649,6 @@
       "dateFormatted": "23 czerwca 2026"
     },
     {
-      "title": "Jest nadzieja dla europejskich gospodarek. Ważny wskaźnik ruszył w górę",
-      "link": "https://businessinsider.com.pl/gospodarka/strefa-euro-zaskakuje-wynikami-pmi-niemcy-najslabsi-od-miesiecy/tq66hec",
-      "description": "Wskaźniki PMI to jedno z najlepszych narzędzi prognostycznych dla gospodarki. Wyliczenia dynamiki PKB przez krajowe urzędy statystyczne publikowane są z dużym opóźnieniem, a tu są informacje niemal na bieżąco. Najnowsze wskazania dla europejskich potęg gospodarczych optymistyczne jeszcze co prawda n",
-      "pubDate": "Tue, 23 Jun 2026 09:31:35 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/vWNk9kpTURBXy8wMTY2YWY3ZTllNWYzYjY4ZGZjMTQ2YTcxMWI2N2QxYi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-23T09:31:35.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
-      "title": "Chcesz tani kredyt? Sprawdź, jak działa RRSO i na co uważać przy wyborze",
-      "link": "https://businessinsider.com.pl/porownywarka/baza-wiedzy/kredyt-lub-pozyczka-rrso-zdradza-realny-koszt-to-musisz-wiedziec/p1cz1es",
-      "description": "RRSO — ten skrót coraz częściej pojawia się w reklamach kredytów i pożyczek, ale dla wielu Polaków wciąż pozostaje zagadką. Tymczasem to właśnie rzeczywista roczna stopa oprocentowania powinna być kluczowym kryterium przy wyborze oferty finansowej. Co tak naprawdę oznacza ten wskaźnik i dlaczego war",
-      "pubDate": "Tue, 23 Jun 2026 09:28:22 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/oR7k9kpTURBXy85YzRiNjA4MTA5NGVhYjY1OTAxYjk4ZGQ2NWY5NzUyYi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-23T09:28:22.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
       "title": "Strategiczny projekt KGHM na Pomorzu coraz bliżej. Do gry włączyło się MON",
       "link": "https://www.bankier.pl/wiadomosc/Strategiczny-projekt-KGHM-na-Pomorzu-coraz-blizej-Do-gry-wlaczylo-sie-MON-9155994.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Ministerstwo Obrony Narodowej zaangażowało się w analizowany przez KGHM projekt budowy kopalni soli potasowo-magnezowych w powiecie puckim.",
@@ -586,42 +658,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/e/b0dc388c05d645-948-568-0-0-4000-2399.jpg",
       "dateISO": "2026-06-23T08:53:00.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
-      "title": "Złoty robi się coraz słabszy. Funt już prawie po 5 złotych",
-      "link": "https://www.bankier.pl/wiadomosc/Zloty-robi-sie-coraz-slabszy-Funt-juz-prawie-po-5-zlotych-9155993.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Kurs euro wyrwał się górą z lokalnego trendu bocznego, zapowiadając dalsze osłabienie polskiej waluty. Dolar jest najdroższy od marca, a funt brytyjski zmierza w stronę 5 złotych.",
-      "pubDate": "Tue, 23 Jun 2026 09:53:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/b/c5afc3020563da-948-568-0-20-4000-2399.jpg",
-      "dateISO": "2026-06-23T08:53:00.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
-      "title": "Deweloperzy złapali zadyszkę. Maj przyniósł schłodzenie na rynku mieszkaniowym",
-      "link": "https://www.bankier.pl/wiadomosc/Spadek-liczby-nowych-budow-w-maju-Co-dzieje-sie-na-rynku-nieruchomosci-9155965.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Po kwietniowym powiewie optymizmu na placach budów mieszkań pojawiła się zadyszka. Nowych budów było o ponad 3 tys. (-21 proc.) mniej niż w kwietniu, choć jednocześnie był to najlepszy maj od czterech lat. Więcej niż w ostatnich latach pojawiło się także oddanych mieszkań, jednak kiepskie poprzednie",
-      "pubDate": "Tue, 23 Jun 2026 09:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/a/885d0a7b622923-948-568-54-0-1857-1114.jpg",
-      "dateISO": "2026-06-23T08:40:00.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
-      "title": "Migracja \"obsługiwana\" wyłącznie poza Europą? Pierwszy taki zwrot w polityce unijnej",
-      "link": "https://www.bankier.pl/wiadomosc/Migracja-obslugiwana-wylacznie-poza-Europa-Pierwszy-taki-zwrot-w-polityce-unijnej-9155943.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Unia Europejska stoi u progu radykalnego zaostrzenia swojej polityki migracyjnej, czego efektem może być utworzenie finansowanych ze wspólnotowego budżetu ośrodków deportacyjnych poza granicami Wspólnoty już w przyszłym roku.",
-      "pubDate": "Tue, 23 Jun 2026 09:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/0/3850e76a88280a-948-568-40-50-3960-2375.jpg",
-      "dateISO": "2026-06-23T08:30:00.000Z",
       "dateFormatted": "23 czerwca 2026"
     },
     {
@@ -646,18 +682,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/0/51b051c54fb03d-948-568-10-0-3720-2232.jpg",
       "dateISO": "2026-06-23T07:35:00.000Z",
-      "dateFormatted": "23 czerwca 2026"
-    },
-    {
-      "title": "Google rośnie w Krakowie. Drugie biuro i setki nowych miejsc pracy",
-      "link": "https://www.bankier.pl/wiadomosc/Google-rosnie-w-Krakowie-Drugie-biuro-i-setki-nowych-miejsc-pracy-9155934.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Google uruchomiło we wtorek swoje drugie biuro w Krakowie, w którym znalazło się 300 stanowisk pracy. Według przedstawicieli koncernu rozbudowa krakowskiego centrum inżynieryjnego, liczącego obecnie ponad 400 pracowników, pozwoli na dalszy rozwój firmy w Polsce.",
-      "pubDate": "Tue, 23 Jun 2026 08:32:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/6/425766b6d9f990-948-568-0-430-3670-2201.jpg",
-      "dateISO": "2026-06-23T07:32:00.000Z",
       "dateFormatted": "23 czerwca 2026"
     },
     {
@@ -889,18 +913,6 @@
       "dateFormatted": "18 czerwca 2026"
     },
     {
-      "title": "Bitcoin spada do 64 tys. $: jastrzębi Fed i deal USA-Iran",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-do-64-tys--jastrzebi-fed-i-deal-usairan-1458142",
-      "description": "",
-      "pubDate": "2026-06-18 13:28:28",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "dateISO": "2026-06-18T13:28:28.000Z",
-      "dateFormatted": "18 czerwca 2026"
-    },
-    {
       "title": "600 zł za konto od ING. Sprawdzamy promocję „Mobilni zyskują\"",
       "link": "https://www.bankier.pl/wiadomosc/600-zl-za-konto-od-ING-Sprawdzamy-promocje-Mobilni-zyskuja-9149506.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "ING rusza z promocją „Mobilni zyskują\" i płaci 600 zł nowym posiadaczom kont w kilku planach. Warunki aktywności są łagodniejsze niż u konkurencji, ale jeden nietypowy wymóg z konkretną datą w kalendarzu może kosztować całą premię. Sprawdzamy szczegóły.",
@@ -913,5 +925,5 @@
       "dateFormatted": "11 czerwca 2026"
     }
   ],
-  "updatedAt": "2026-06-23T14:50:57.226Z"
+  "updatedAt": "2026-06-23T17:57:00.759Z"
 }
