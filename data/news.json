@@ -1,6 +1,66 @@
 {
   "articles": [
     {
+      "title": "Sytuacja najlepsza od czasów Piasta Kołodzieja, czyli co w połowie roku wiemy o kondycji polskiej gospodarki [OPINIA]",
+      "link": "https://businessinsider.com.pl/gospodarka/wzrost-gospodarczy-w-polsce-bije-rekordy-nowe-zamowienia-daja-impuls/d1w5xzp",
+      "description": "Jest dobrze, będzie jeszcze lepiej — tak opisują polską gospodarkę dane opublikowane w czerwcu. Solidny, 3,5-proc. wzrost produktu krajowego brutto był pierwszym widokiem w lusterku wstecznym polskiej gospodarki w czerwcu 2026 r. Wystąpił mimo srogiej zimy w styczniu i lutym oraz słabszego od oczeki",
+      "pubDate": "Sat, 27 Jun 2026 13:11:53 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/SGTk9kpTURBXy83ODI5MDcxODg4ZDZlMzA0YTBlOTU5OGIwZDQ5ODEzNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-27T13:11:53.000Z",
+      "dateFormatted": "27 czerwca 2026"
+    },
+    {
+      "title": "Bruksela reaguje po groźbach Donalda Trumpa. Chodzi o 100-proc. cła",
+      "link": "https://businessinsider.com.pl/wiadomosci/donald-trump-grozi-europie-100-proc-clami-bruksela-reaguje/qcd9wmc",
+      "description": "Komisja Europejska zareagowała na zapowiedzi prezydenta Stanów Zjednoczonych dotyczące 100-proc. ceł na państwa planujące wprowadzić podatek cyfrowy. Bruksela podkreśliła, że Unia Europejska oraz jej kraje członkowskie zachowują pełną swobodę w kształtowaniu zasad funkcjonowania gospodarki na własny",
+      "pubDate": "Sat, 27 Jun 2026 12:38:11 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/3t6k9kpTURBXy85NjRkMjM3YmUwYTVkMWFlMjEzNTk5MjI0Y2NlMjgwZi5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-27T12:38:11.000Z",
+      "dateFormatted": "27 czerwca 2026"
+    },
+    {
+      "title": "Aplikacja, która zbiera w jednym miejscu twoje bony kaucyjne. Sprawdziłem, jak działa",
+      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/cyfrowe-bony-kaucyjne-nowa-funkcja-w-popularnej-aplikacji/x5jb7d0",
+      "description": "System kaucyjny, choć wciąż zbierający z niektórych stron krytykę, na dobre zagościł w polskiej rzeczywistości. Aby móc z niego korzystać jeszcze efektywniej i wygodniej, można posłużyć się pewną aplikacją. Jak działa i na co pozwala? Postanowiłem to sprawdzić.",
+      "pubDate": "Sat, 27 Jun 2026 11:33:36 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/NWsk9kpTURBXy8wYWVkNmZhYWJhYmE5NGY3ZDk1NDZhMDI2NTQ1ZjU1ZC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-27T11:33:36.000Z",
+      "dateFormatted": "27 czerwca 2026"
+    },
+    {
+      "title": "Napięcie w cieśninie Ormuz. Pocisk trafił w tankowiec",
+      "link": "https://businessinsider.com.pl/wiadomosci/napiecie-w-ciesninie-ormuz-pocisk-trafil-w-tankowiec/p15hmyk",
+      "description": "Brytyjska agencja monitorująca bezpieczeństwo żeglugi UKMTO przekazała w sobotę, że tankowiec znalazł się pod ostrzałem niezidentyfikowanego pocisku. Według wstępnych ustaleń straty nie są poważne.",
+      "pubDate": "Sat, 27 Jun 2026 11:20:46 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/-M4k9kpTURBXy8xMTY1NWFjNDllNDEwYmY1OGU3NDMwMWU1NzNmNGUzZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-27T11:20:46.000Z",
+      "dateFormatted": "27 czerwca 2026"
+    },
+    {
+      "title": "Koniec prawa pobytu w Danii. Cios Kopenhagi w uciekających przed ukraińskim wojskiem",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-prawa-pobytu-w-Danii-Cios-Kopenhagi-w-uciekajacych-przed-ukrainskim-wojskiem-9157682.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rząd Danii zapowiedział zaostrzenie przepisów wobec uchodźców wojennych z Ukrainy. Mężczyznom w wieku 23-60 lat, którzy nie są zwolnieni z odbycia służby w ukraińskim wojsku, nie będzie już przysługiwać prawo pobytu.",
+      "pubDate": "Sat, 27 Jun 2026 12:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/0/12ae0cb81d324c-948-568-7-0-2992-1795.jpg",
+      "dateISO": "2026-06-27T11:15:00.000Z",
+      "dateFormatted": "27 czerwca 2026"
+    },
+    {
       "title": "Chłodny prysznic dla Elona Muska, obawy o pęknięcie bańki AI i trudna do zduszenia inflacja",
       "link": "https://www.bankier.pl/wiadomosc/Chlodny-prysznic-dla-Elona-Muska-obawy-o-pekniecie-banki-AI-i-trudna-do-zduszenia-inflacja-9158881.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Na Wall Street nie słabną dyskusje o perspektywach inflacji i kolejnych krokach banków centralnych. Inwestorzy z uwagą śledzą jednak również rynkowe zawirowania wokół SpaceX, a eksperci coraz częściej kreślą negatywne scenariusze dla giełdowego boomu napędzanego sztuczną inteligencją.",
@@ -10,6 +70,78 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/9/b/5d3f11816e7473-948-568-0-47-958-575.jpg",
       "dateISO": "2026-06-27T11:00:00.000Z",
+      "dateFormatted": "27 czerwca 2026"
+    },
+    {
+      "title": "„Nie mogłem czekać”. Polacy biorą kredyty, żeby zdążyć na wymarzone wakacje i zakupy",
+      "link": "https://www.bankier.pl/wiadomosc/Nie-moglem-czekac-Polacy-biora-kredyty-zeby-zdazyc-na-wymarzone-wakacje-i-zakupy-9155042.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W ciągu ostatniego roku 24 proc. Polaków skorzystało z kredytu, rat lub płatności odroczonych po to, aby nie stracić dobrej okazji, np. wyjazdu last minute - wynika z raportu Santander Consumer Bank. Natomiast 65 proc. badanych zadeklarowało, że pilnuje budżetu na hobby nawet przy atrakcyjnych ofert",
+      "pubDate": "Sat, 27 Jun 2026 12:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/9/a7a62192b65cfe-948-568-4-47-1844-1106.jpg",
+      "dateISO": "2026-06-27T11:00:00.000Z",
+      "dateFormatted": "27 czerwca 2026"
+    },
+    {
+      "title": "GOPR chce zbudować stację ratunkową w Wiśle. Brakuje funduszy",
+      "link": "https://www.bankier.pl/wiadomosc/GOPR-chce-zbudowac-stacje-ratunkowa-w-Wisle-Brakuje-funduszy-9155047.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Całoroczną stację ratunkową chcą wybudować w Wiśle goprowcy. Naczelnik Grupy Beskidzkiej GOPR Marcin Szczurek powiedział PAP, że potrzebne jest około 3,2 mln zł, które ratownicy starają się pozyskać. Mają już działkę, projekt i pozwolenie na budowę.",
+      "pubDate": "Sat, 27 Jun 2026 12:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/a/4c6387c9b6c096-945-560-15-105-2992-1795.jpg",
+      "dateISO": "2026-06-27T11:00:00.000Z",
+      "dateFormatted": "27 czerwca 2026"
+    },
+    {
+      "title": "Samolot uderzył w chiński wieżowiec. Przyglądają się czarnemu samochodowi",
+      "link": "https://businessinsider.com.pl/wiadomosci/samolot-wbil-sie-w-chinski-wiezowiec-dzien-pozniej-pierwszy-komunikat-wladz/39rl95d",
+      "description": "Władze pekińskiej dzielnicy Chaoyang po prawie dobie milczenia ujawniły, że w wyniku uderzenia niewielkiego samolotu w najwyższy wieżowiec w mieście zginął pilot, a 13 osób odniosło obrażenia. Policja przeszukała samochód zarejestrowany na osobę, której nazwisko pokrywa się z danymi menedżera spółki",
+      "pubDate": "Sat, 27 Jun 2026 10:52:27 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Ru0k9kpTURBXy9mYzViNWI4NTcxZjQ0MzI5ODFkYjdhNDkxMTc4N2E1OC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-27T10:52:27.000Z",
+      "dateFormatted": "27 czerwca 2026"
+    },
+    {
+      "title": "To oni będą chcieli wypaczyć polskie wybory parlamentarne w 2027. Tak działa rosyjskie Storm-1516",
+      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/rosyjska-grupa-storm-1516-szykuje-sie-na-polskie-wybory-parlamentarne/bpxgxem",
+      "description": "Polskie wybory w 2027 r. będą pierwszą \"okazją\", w której zmierzymy się z naprawdę zaawansowanymi formami dezinformacji i sfabrykowanymi materiałami, praktycznie nieodróżnialnymi od prawdziwych.",
+      "pubDate": "Sat, 27 Jun 2026 10:41:48 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Vook9kpTURBXy8wMTEwOWE5ZGNkYjZkMzgxNDkxYTAwOGQ4MTliZDc0MC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-06-27T10:41:48.000Z",
+      "dateFormatted": "27 czerwca 2026"
+    },
+    {
+      "title": "Zły kierunek w polskiej edukacji. 58 proc. badanych o problemach",
+      "link": "https://www.bankier.pl/wiadomosc/Zly-kierunek-w-polskiej-edukacji-58-proc-badanych-o-problemach-9158416.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Kierunek zmian w edukacji negatywnie ocenia 58,3 proc. respondentów; co czwarta osoba ma pozytywne zdanie w tej sprawie - wynika z badania IBRiS dla PAP. Ponad połowa badanych uznaje też, że zbyt dużą rolę odgrywają w polskiej szkole oceny.",
+      "pubDate": "Sat, 27 Jun 2026 11:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/5/b9de05b16f397d-948-568-6-0-2473-1484.jpg",
+      "dateISO": "2026-06-27T10:00:00.000Z",
+      "dateFormatted": "27 czerwca 2026"
+    },
+    {
+      "title": "Zełenski: Uderzyliśmy w rosyjskie zakłady zbrojeniowe w Wołgogradzie",
+      "link": "https://www.bankier.pl/wiadomosc/Zelenski-Uderzylismy-w-rosyjskie-zaklady-zbrojeniowe-w-Wolgogradzie-9159229.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Ukrainy Wołodymyr Zełenski poinformował w sobotę, że ukraińskie wojska z powodzeniem uderzyły w zakład Titan-Barrikady w Wołgogradzie, stanowiący kluczowy element kompleksu zbrojeniowego Rosji. Prezydent dodał, że atak skutkował pożarem na terenie przedsiębiorstwa.",
+      "pubDate": "Sat, 27 Jun 2026 10:35:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/6/b8979ae3051bae-948-569-5-13-1036-622.jpg",
+      "dateISO": "2026-06-27T09:35:00.000Z",
       "dateFormatted": "27 czerwca 2026"
     },
     {
@@ -46,6 +178,30 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/y_2k9kpTURBXy8wNTM2MDk2MmEwYjgxYWM3M2ZjNmM3M2I4M2E4OWY4Ni5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-06-27T09:18:21.000Z",
+      "dateFormatted": "27 czerwca 2026"
+    },
+    {
+      "title": "Polski biznes podbija Ukrainę. Ponad 57 miliardów złotych z eksportu i historyczny rekord",
+      "link": "https://www.bankier.pl/wiadomosc/Polski-biznes-podbija-Ukraine-Ponad-57-miliardow-zlotych-z-eksportu-i-historyczny-rekord-9157457.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W ubiegłym roku do Ukrainy wysłano polskie towary za kwotę niemal 57 mld zł, co oznacza, że ten kraj jest siódmym największym rynkiem zbytu dla naszego kraju. Jeśli chodzi o import, Ukraina jest poza pierwszą dziesiątką największych dostawców towarów do Polski.",
+      "pubDate": "Sat, 27 Jun 2026 10:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/b/f471516710905c-836-501-27-4-836-501.jpg",
+      "dateISO": "2026-06-27T09:00:00.000Z",
+      "dateFormatted": "27 czerwca 2026"
+    },
+    {
+      "title": "Spór o Biblię w szkołach. Teksas przyjął nową listę obowiązkowych lektur",
+      "link": "https://www.bankier.pl/wiadomosc/USA-Teksas-Biblia-jako-lektura-obowiazkowa-w-szkolach-publicznych-9159159.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rada Edukacji stanu Teksas zatwierdziła w piątek listę lektur obowiązkowych dla uczniów szkół publicznych. Obejmuje ona, między innymi, fragmenty Biblii.",
+      "pubDate": "Sat, 27 Jun 2026 10:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/7/283080be2119f0-948-568-0-174-4100-2459.jpg",
+      "dateISO": "2026-06-27T09:00:00.000Z",
       "dateFormatted": "27 czerwca 2026"
     },
     {
@@ -109,18 +265,6 @@
       "dateFormatted": "27 czerwca 2026"
     },
     {
-      "title": "USA łagodzą restrykcje wobec Anthropic. Mythos wraca do zaufanych klientów",
-      "link": "https://www.bankier.pl/wiadomosc/USA-lagodza-restrykcje-wobec-Anthropic-Mythos-wraca-do-zaufanych-klientow-9159160.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rząd USA zezwolił w piątek firmie Anthropic na udostępnienie wybranym „zaufanym klientom” jej zaawansowanego modelu sztucznej inteligencji Claude Mythos 5. Dwa tygodnie wcześniej Waszyngton wymusił wstrzymanie dostępu do usługi, uzasadniając to względami bezpieczeństwa narodowego.",
-      "pubDate": "Sat, 27 Jun 2026 08:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/5/506cd8e2f10443-948-567-0-67-1000-599.jpg",
-      "dateISO": "2026-06-27T07:50:00.000Z",
-      "dateFormatted": "27 czerwca 2026"
-    },
-    {
       "title": "Ceny w Polsce coraz wyższe. Tak wypadamy na tle średniej unijnej",
       "link": "https://businessinsider.com.pl/finanse/ceny-w-polsce-coraz-wyzsze-tak-wypadamy-na-tle-sredniej-unijnej/yd9sb3n",
       "description": "Ceny w Polsce coraz bliżej średniej w Unii Europejskiej. Najnowszy raport Polskiego Instytutu Ekonomicznego (PIE) pokazuje, że dystans cenowy między Polską a resztą wspólnoty wyraźnie się skurczył. Za przyspieszeniem tego procesu stoją przede wszystkim wydatki gospodarstw domowych na podstawowe potr",
@@ -181,18 +325,6 @@
       "dateFormatted": "27 czerwca 2026"
     },
     {
-      "title": "Trump: Komuniści największym zagrożeniem dla kraju od jego powstania",
-      "link": "https://www.bankier.pl/wiadomosc/Trump-Komunisci-najwiekszym-zagrozeniem-dla-kraju-od-jego-powstania-9159118.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent USA Donald Trump powiedział w piątek, że „komuniści” są największym zagrożeniem dla Stanów Zjednoczonych w historii, twierdząc, że „bezbożni” zamierzają zamykać kościoły i zabijać ludzi. Trump odniósł się w ten sposób do wyborczych zwycięstw socjalistycznych kandydatów Demokratów.",
-      "pubDate": "Sat, 27 Jun 2026 08:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/8/628a6cee0aa4f3-948-568-170-62-3413-2048.jpg",
-      "dateISO": "2026-06-27T07:00:00.000Z",
-      "dateFormatted": "27 czerwca 2026"
-    },
-    {
       "title": "Kolejny etap prac w Puźnikach. Poszukiwania zakończone bez przełomu",
       "link": "https://www.bankier.pl/wiadomosc/Kolejny-etap-prac-w-Puznikach-Poszukiwania-zakonczone-bez-przelomu-9159149.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Zakończyły się kolejne prace poszukiwawcze w Puźnikach na Ukrainie. Nie odnaleziono drugiej zbiorowej mogiły ofiar. To trudna wiadomość, ale nie zmienia naszego celu - poinformowała w piątek minister kultury Marta Cienkowska. Dodała, że poszukiwania będą kontynuowane w sierpniu.",
@@ -201,6 +333,18 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/2/e/c53423d562c49a-948-568-20-200-3980-2387.jpg",
+      "dateISO": "2026-06-27T07:00:00.000Z",
+      "dateFormatted": "27 czerwca 2026"
+    },
+    {
+      "title": "Trump: Komuniści największym zagrożeniem dla kraju od jego powstania",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-Komunisci-najwiekszym-zagrozeniem-dla-kraju-od-jego-powstania-9159118.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump powiedział w piątek, że „komuniści” są największym zagrożeniem dla Stanów Zjednoczonych w historii, twierdząc, że „bezbożni” zamierzają zamykać kościoły i zabijać ludzi. Trump odniósł się w ten sposób do wyborczych zwycięstw socjalistycznych kandydatów Demokratów.",
+      "pubDate": "Sat, 27 Jun 2026 08:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/8/628a6cee0aa4f3-948-568-170-62-3413-2048.jpg",
       "dateISO": "2026-06-27T07:00:00.000Z",
       "dateFormatted": "27 czerwca 2026"
     },
@@ -469,18 +613,6 @@
       "dateFormatted": "26 czerwca 2026"
     },
     {
-      "title": "Prowadzili fikcyjne „call center” i okradali Polaków. 4 Ukraińcom grozi surowa kara",
-      "link": "https://www.bankier.pl/wiadomosc/Prowadzili-fikcyjne-call-center-i-okradali-Polakow-4-Ukraincom-grozi-surowa-kara-9158699.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Lubelska prokuratura skierowała do sądu akt oskarżenia przeciwko czterem obywatelom Ukrainy, którym zarzuca m.in. wyłudzenie od kilkudziesięciu osób w sumie 5 mln zł. Grupa działała metodą na pracownika banku i była aktywna w latach 2024-2025 m.in. w Gdańsku, Krakowie i Poznaniu.",
-      "pubDate": "Fri, 26 Jun 2026 18:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/3/7177c412613ee9-948-568-37-37-2262-1357.jpg",
-      "dateISO": "2026-06-26T17:30:00.000Z",
-      "dateFormatted": "26 czerwca 2026"
-    },
-    {
       "title": "Nowe bazy i poligony na pograniczu z Ukrainą. Ale Białoruś koncentracji wojsk nie prowadzi",
       "link": "https://www.bankier.pl/wiadomosc/Nowe-bazy-i-poligony-na-pograniczu-z-Ukraina-Ale-Bialorus-koncentracji-wojsk-nie-prowadzi-9158992.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Pomimo rozbudowy infrastruktury wojskowej w pobliżu granicy z Ukrainą, białoruska armia nie prowadzi koncentracji sił w rejonach przygranicznych – poinformował w piątek portal Ukraińska Prawda, powołując się na oświadczenie Państwowej Służby Przygranicznej Ukrainy.",
@@ -493,66 +625,6 @@
       "dateFormatted": "26 czerwca 2026"
     },
     {
-      "title": "Samolot uderzył w najwyższy wieżowiec w Pekinie. Kazali ludziom kasować nagrania",
-      "link": "https://www.bankier.pl/wiadomosc/Samolot-uderzyl-w-najwyzszy-wiezowiec-w-Pekinie-Kazali-ludziom-kasowac-nagrania-9158978.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Mały samolot uderzył w piątek w 108-piętrowy wieżowiec CITIC Tower (China Zun) w Pekinie - poinformowały agencje Reutera i AP. To najwyższy budynek w chińskiej stolicy. Nie ma doniesień o ofiarach. Władze oficjalnie nie skomentowały wypadku.",
-      "pubDate": "Fri, 26 Jun 2026 17:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/d/fd32a430e6999f-948-568-0-137-3425-2054.jpg",
-      "dateISO": "2026-06-26T16:50:00.000Z",
-      "dateFormatted": "26 czerwca 2026"
-    },
-    {
-      "title": "Donald Trump grozi 100-proc. cłami państwom wprowadzającym podatek cyfrowy",
-      "link": "https://businessinsider.com.pl/gospodarka/trump-zagrozil-nalozeniem-100-proc-cla-na-panstwa-wprowadzajace-podatki-cyfrowe/lljhbbm",
-      "description": "Donald Trump zagroził w piątek, że nałoży 100-proc. cła na towary z państw, które wprowadzą podatek od usług cyfrowych.",
-      "pubDate": "Fri, 26 Jun 2026 16:43:03 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Qv3k9kpTURBXy9iZTk5ZjI2ODNmNTdiMmI5OWVlZjk3NDg0NTk1NTIwNi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-26T16:43:03.000Z",
-      "dateFormatted": "26 czerwca 2026"
-    },
-    {
-      "title": "Mocne spadki na giełdach. \"Widać oznaki przegrzania\"",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/wyprzedaz-akcji-w-usa-i-azji-widac-oznaki-przegrzania/3k76ffm",
-      "description": "Notowania amerykańskich spółek technologicznych spadają w piątek, zmierzając ku najdłuższej w tym roku serii strat. Wśród inwestorów rosną obawy, że wzrosty napędzane przez boom na sztuczną inteligencję były przesadzone.",
-      "pubDate": "Fri, 26 Jun 2026 16:40:44 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Rrpk9kpTURBXy9jOGU2Y2I1ODFhZDRiNzE1ODk2NGZhMzI4YzhjNWUzMS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-26T16:40:44.000Z",
-      "dateFormatted": "26 czerwca 2026"
-    },
-    {
-      "title": "Odbudowa Ukrainy z polskim udziałem. Wiceministra zapowiada kroki",
-      "link": "https://businessinsider.com.pl/firmy/wiceministra-zapowiada-kroki-polskich-gigantow-chodzi-o-ukraine/604xxze",
-      "description": "Polskie spółki energetyczne rozpoczęły wspólne planowanie zaangażowania się w odbudowę ukraińskiej infrastruktury. Podpisany list intencyjny ma być wstępem do szerszej współpracy, której szczegóły mają zostać przedstawione w najbliższym czasie.",
-      "pubDate": "Fri, 26 Jun 2026 16:39:10 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/ZY9k9kpTURBXy9kYjMzNjE2ZDA4NzMxZTJhOTNkOWQyNzMwZmUwODc1Zi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-26T16:39:10.000Z",
-      "dateFormatted": "26 czerwca 2026"
-    },
-    {
-      "title": "Donald Trump oskarża Iran o naruszenie porozumienia",
-      "link": "https://businessinsider.com.pl/wiadomosci/donald-trump-oskarzyl-iran-o-naruszenie-porozumienia-w-ciesninie-ormuz/qvdp4xv",
-      "description": "Prezydent USA Donald Trump oskarżył Iran o naruszenie porozumienia o zawieszeniu broni poprzez ostrzelanie statków towarowych przepływających przez cieśninę Ormuz.",
-      "pubDate": "Fri, 26 Jun 2026 16:23:27 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/eFLk9kpTURBXy8xMzU4MDJlN2Y3YTc0MjNlNTdhMjYyY2M3NGFmNjg0NC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-26T16:23:27.000Z",
-      "dateFormatted": "26 czerwca 2026"
-    },
-    {
       "title": "Błąd na GPW i unieważniona sesja spółki z NC. Na głównym rynku czerwono",
       "link": "https://www.bankier.pl/wiadomosc/Blad-na-GPW-i-uniewazniona-sesja-spolki-z-NC-Na-glownym-rynku-czerwono-9158948.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Piątkowa sesja na warszawskim parkiecie przyniosła ochłodzenie nastrojów, a dominującym kolorem kursach spółek z GPW była czerwień. Choć większość dużych spółek boleśnie odczuła kolejny odcinek rynkowej sagi pod tytułem „co dalej z hossą AI?” to znalazł się popyt na akcje Grupy Kęty i Żabki. Nie oby",
@@ -562,30 +634,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/0/b/aa65f864127c80-945-560-0-0-4256-2553.jpg",
       "dateISO": "2026-06-26T16:21:00.000Z",
-      "dateFormatted": "26 czerwca 2026"
-    },
-    {
-      "title": "URC 2026 w Gdańsku. Zeidler: Blisko 200 umów, porozumień i listów intencyjnych",
-      "link": "https://www.bankier.pl/wiadomosc/URC-2026-w-Gdansku-Zeidler-Blisko-200-umow-porozumien-i-listow-intencyjnych-9158922.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prawie 200 umów, porozumień i listów intencyjnych, około 7,5 tys. uczestników, 70 delegacji państwowych i 30 delegacji organizacji międzynarodowych, to - jak poinformowała wiceminister aktywów państwowych Eliza Zeidler - wstępny bilans Konferencji na rzecz Odbudowy Ukrainy w Gdańsku.",
-      "pubDate": "Fri, 26 Jun 2026 16:52:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/9/ff0dcef077aaa6-948-568-100-240-3900-2339.jpg",
-      "dateISO": "2026-06-26T15:52:00.000Z",
-      "dateFormatted": "26 czerwca 2026"
-    },
-    {
-      "title": "Oto najdroższy hotel na świecie. Jedna noc kosztuje tyle co segment w Warszawie",
-      "link": "https://businessinsider.com.pl/lifestyle/oto-najdrozszy-hotel-na-swiecie-jedna-noc-kosztuje-tyle-co-segment-w-warszawie/pbsfghn",
-      "description": "Na świecie są miejsca noclegowe, dla których słowo \"luksus\" to za mało. Wiele obiektów oferuje zaskakujące usługi za szokująco wysokie ceny. Kilka miejsc pretenduje do tytułu najdroższego hotelu na świecie. Szczególnie jeden z nich może naprawdę zaskoczyć gości, nawet tych z bardzo pękatym portfelem",
-      "pubDate": "Fri, 26 Jun 2026 15:47:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/agjk9kpTURBXy84YmVkNzczZjhhMzIxZjcyNDBlZjg3YTc2ZjUxNTdiOC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-26T15:47:00.000Z",
       "dateFormatted": "26 czerwca 2026"
     },
     {
@@ -613,18 +661,6 @@
       "dateFormatted": "26 czerwca 2026"
     },
     {
-      "title": "Polska autostrada zyska pasy ruchu. Będą utrudnienia",
-      "link": "https://businessinsider.com.pl/motoryzacja/autostrada-a2-zyska-nowe-pasy-ruchu-ale-beda-tez-utrudnienia/c0mcq8m",
-      "description": "Generalna Dyrekcja Dróg Krajowych i Autostrad (GDDKiA) zawarła ze spółką Strabag kontrakt o wartości niemal 257 mln zł. Umowa dotyczy dobudowy dodatkowych pasów na fragmencie autostrady A2 w okolicach Warszawy i stanowi pierwszy element większego planu modernizacji trasy łączącej stolicę z Łodzią.",
-      "pubDate": "Fri, 26 Jun 2026 14:56:29 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/iT7k9kpTURBXy8zOTQ5NGM4YWFlMGFiZmMxOGI3YWIwNTE2NTE2NmRjOC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-06-26T14:56:29.000Z",
-      "dateFormatted": "26 czerwca 2026"
-    },
-    {
       "title": "Sąd podjął decyzję ws. \"Patyka\". Skarb Państwa musi wypłacić miliony",
       "link": "https://www.bankier.pl/wiadomosc/Sad-podjal-decyzje-ws-Patyka-Skarb-Panstwa-musi-wyplacic-miliony-9158836.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Igor M., ps. Patyk, za niesłuszne tymczasowe aresztowanie w związku z zarzutem zabójstwa b. Komendanta Głównego Policji nadinsp. Marka Papały ma otrzymać od Skarbu Państwa łącznie ponad 3 mln 284 tys. zł zadośćuczynienia i odszkodowania wraz z odsetkami - zdecydował sąd w Płocku.",
@@ -634,18 +670,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/2/1/304a61004cd095-948-568-33-22-4369-2621.jpg",
       "dateISO": "2026-06-26T14:24:00.000Z",
-      "dateFormatted": "26 czerwca 2026"
-    },
-    {
-      "title": "Lawina po decyzji Kaczyńskiego. Ważni politycy PiS odsyłają ordery na Ukrainę",
-      "link": "https://www.bankier.pl/wiadomosc/Lawina-po-decyzji-Kaczynskiego-Wazni-politycy-PiS-odsylaja-ordery-na-Ukraine-9158826.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "B. szef MON Mariusz Błaszczak, b. szef MSZ Zbigniew Rau, europoseł Adam Bielan i poseł Marek Kuchciński poinformowali w piątek, że zwrócą przyznane im ukraińskie odznaczenia. To wyraz m.in. lojalności wobec prezydenta Polski i sprzeciwu wobec eskalacji konfliktu przez ukraińskie elity - argumentowal",
-      "pubDate": "Fri, 26 Jun 2026 15:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/4/73b0455c002a76-948-568-0-54-3651-2190.jpg",
-      "dateISO": "2026-06-26T14:18:00.000Z",
       "dateFormatted": "26 czerwca 2026"
     },
     {
@@ -661,18 +685,6 @@
       "dateFormatted": "26 czerwca 2026"
     },
     {
-      "title": "Dramatyczny bilans wstrząsów w Wenezueli. Liczba ofiar gwałtownie wzrosła",
-      "link": "https://www.bankier.pl/wiadomosc/Dramatyczny-bilans-wstrzasow-w-Wenezueli-Liczba-ofiar-gwaltownie-wzrosla-9158790.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Do 920 osób wzrosła liczba ofiar śmiertelnych środowych trzęsień ziemi w Wenezueli; jest też 3360 rannych - przekazał w piątek przewodniczący parlamentu Jorge Rodriguez. Wcześniej informowano o 589 zabitych i blisko 3 tys. rannych. Eksperci obawiają się, że ostateczny bilans może być znacznie wyższy",
-      "pubDate": "Fri, 26 Jun 2026 14:53:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/7/8e14f6cd9e4158-948-568-0-292-4500-2699.jpg",
-      "dateISO": "2026-06-26T13:53:00.000Z",
-      "dateFormatted": "26 czerwca 2026"
-    },
-    {
       "title": "Krach którego nie było. Cena runęła o 61 %, a GPW unieważniła kursy",
       "link": "https://www.bankier.pl/wiadomosc/Krach-rzedu-61-na-gieldzie-GPW-uniewaznila-kursy-Fintechu-z-NewConnect-9158725.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Akcje spółki Fintech po wielomiesięcznym zawieszeniu notowań ze względu na podejrzenie manipulacji powróciły dziś na chwilę do obrotu na rynku NewConnect, chociaż nie powinny ani na moment. Co prawda o wznowienie zawnioskowała KNF, która badała wątek manipulacji, ale wcześniej GPW zdecydowała o podt",
@@ -685,30 +697,6 @@
       "dateFormatted": "26 czerwca 2026"
     },
     {
-      "title": "Fikcyjna ochrona demaskatorów? Mecenas uderza w procedury w warszawskim ratuszu",
-      "link": "https://www.bankier.pl/wiadomosc/Fikcyjna-ochrona-demaskatorow-Mecenas-uderza-w-procedury-w-warszawskim-ratuszu-9158735.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W imieniu pana Piotra (b. pracownika ZDM - PAP) składam do prokuratury zawiadomienie o możliwości popełnienia przestępstwa z art. 55 ustawy o ochronie sygnalistów z uwagi na podjęcie w warszawskim ratuszu tzw. działań odwetowych wobec mojego klienta - poinformował w piątek mecenas Bartosz Lewandowsk",
-      "pubDate": "Fri, 26 Jun 2026 13:54:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/a/1b5031fc18dccb-948-568-0-179-3000-1799.jpg",
-      "dateISO": "2026-06-26T12:54:00.000Z",
-      "dateFormatted": "26 czerwca 2026"
-    },
-    {
-      "title": "Euro na Węgrzech? Magyar: Dążymy do spełnienia kryteriów do około 2030 r.",
-      "link": "https://www.bankier.pl/wiadomosc/Euro-na-Wegrzech-Magyar-Dazymy-do-spelnienia-kryteriow-do-okolo-2030-r-9158691.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Premier Węgier Peter Magyar oświadczył w piątek, że jego rząd dąży do spełnienia kryteriów przystąpienia do strefy euro do około 2030 r. Szef węgierskiego rządu spotkał się tego dnia w Budapeszcie z przewodniczącym Eurogrupy Kyriakosem Perrakakisem.",
-      "pubDate": "Fri, 26 Jun 2026 13:17:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/8/90e636e50903c3-948-568-0-12-995-597.jpg",
-      "dateISO": "2026-06-26T12:17:00.000Z",
-      "dateFormatted": "26 czerwca 2026"
-    },
-    {
       "title": "Tym będą żyły rynki: amerykański rynek pracy i europejska inflacja",
       "link": "https://www.bankier.pl/wiadomosc/Tym-beda-zyly-rynki-amerykanski-rynek-pracy-i-europejska-inflacja-9158686.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Przełom miesiąca na rynkach finansowych nieuchronnie przynosi ze sobą dwie grupy danych makroekonomicznych.",
@@ -718,18 +706,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/b/b/e30ed3b76b58b1-948-568-0-0-2759-1655.jpg",
       "dateISO": "2026-06-26T12:14:00.000Z",
-      "dateFormatted": "26 czerwca 2026"
-    },
-    {
-      "title": "Gdzie ukrywa się Marcin Romanowski? Trop wiedzie na Bałkany",
-      "link": "https://www.bankier.pl/wiadomosc/Gdzie-ukrywa-sie-Marcin-Romanowski-Trop-wiedzie-na-Balkany-9158654.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prokurator Generalna Serbii zadeklarowała współpracę w sprawie Marcina Romanowskiego; nie wiedziała jeszcze, czy u nich jest – poinformował w piątek PAP minister sprawiedliwości, prokurator generalny Waldemar Żurek.",
-      "pubDate": "Fri, 26 Jun 2026 13:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/4/a22847a88ff8ca-948-568-0-0-4000-2399.jpg",
-      "dateISO": "2026-06-26T12:00:00.000Z",
       "dateFormatted": "26 czerwca 2026"
     },
     {
@@ -925,5 +901,5 @@
       "dateFormatted": "22 czerwca 2026"
     }
   ],
-  "updatedAt": "2026-06-27T10:09:44.056Z"
+  "updatedAt": "2026-06-27T13:45:05.665Z"
 }
