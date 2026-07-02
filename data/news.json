@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Minister finansów nie kryje rozczarowania decyzją prezydenta. \"Trudno zrozumieć jakąkolwiek logikę\"",
+      "link": "https://businessinsider.com.pl/prawo/andrzej-domanski-krytykuje-karola-nawrockiego-oczekuje/mwt4j9e",
+      "description": "Minister finansów i gospodarki Andrzej Domański skomentował w czwartek w TVP Info decyzję prezydenta Karola Nawrockiego, który skierował do Trybunału Konstytucyjnego nowelizację ustawy o akcyzie. Szef resortu finansów ocenił, że decyzja prezydenta jest niezrozumiała i pozbawiona logiki.",
+      "pubDate": "Thu, 02 Jul 2026 19:58:44 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/zlxk9kpTURBXy80ZDgzZWYxYzczYmI4ZTZiZGJjYjNmNjVlMGU4MGNmNi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-02T19:58:44.000Z",
+      "dateFormatted": "2 lipca 2026"
+    },
+    {
       "title": "Prezydent przeciw ustawie morskiej. \"To realizacja Zielonego Ładu\"",
       "link": "https://www.bankier.pl/wiadomosc/Prezydent-przeciw-ustawie-morskiej-To-realizacja-Zielonego-Ladu-9162917.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Prezydent Karol Nawrocki w czwartek zawetował ustawę o zapobieganiu zanieczyszczania morza przez statki; wdrożenie zmian — jego zdaniem — oznaczałoby w praktyce realizację założeń Zielonego Ładu, czemu Nawrocki się sprzeciwia. Według wiceministra infrastruktury, prezydent uderza w polską żeglugę.",
@@ -709,18 +721,6 @@
       "dateFormatted": "2 lipca 2026"
     },
     {
-      "title": "Zwrot w głośnej sprawie dewelopera. Sąd ogłosił upadłość spółki HREIT",
-      "link": "https://businessinsider.com.pl/biznes/zwrot-w-glosnej-sprawie-dewelopera-wierzyciele-hreit-czekaja-na-pieniadze/ld1n105",
-      "description": "Sąd zdecydował o ogłoszeniu upadłości firmy HREIT — kluczowej spółki z grupy HRE Investments Michała Sapoty — informuje \"Puls Biznesu\". Nie ma szans na restrukturyzację, co nie jest dobrą wiadomością dla tysięcy wierzycieli firmy.",
-      "pubDate": "Thu, 02 Jul 2026 09:42:52 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/E5vk9kpTURBXy80NjY3OGE2ZGVhMDNiNWEyZjUzY2QzYWIxYjFkNWU0Zi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-02T09:42:52.000Z",
-      "dateFormatted": "2 lipca 2026"
-    },
-    {
       "title": "Inflacja w Szwajcarii znów bliżej zera. Tylko połówka procenta za cały rok",
       "link": "https://www.bankier.pl/wiadomosc/Inflacja-w-Szwajcarii-w-czerwcu-2026-Tylko-polowka-procenta-za-caly-rok-9162397.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Wskaźnik inflacji konsumenckiej ledwo drgnął i tylko nieznacznie oddalił się od zera. Zerową inflację CPI odnotowano za to w relacji miesięcznej.",
@@ -925,5 +925,5 @@
       "dateFormatted": "26 czerwca 2026"
     }
   ],
-  "updatedAt": "2026-07-02T19:25:23.451Z"
+  "updatedAt": "2026-07-02T21:08:39.324Z"
 }
