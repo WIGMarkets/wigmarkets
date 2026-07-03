@@ -1,39 +1,183 @@
 {
   "articles": [
     {
-      "title": "Polski wskaźnik GNI wzrósł o 18 proc., zwiększa to szanse na wejście do MSCI World (opinia)",
+      "title": "Szyby głębokie na 800 metrów nad polskim morzem. Wielka inwestycja KGHM",
+      "link": "https://www.bankier.pl/wiadomosc/KGHM-zamierza-zbudowac-pierwsza-w-Polsce-kopalnie-polihalitu-w-okolicach-Pucka-9163507.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "KGHM Polska Miedź planuje budowę pierwszej w Polsce kopalni polihalitu w rejonie Zatoki Puckiej.",
+      "pubDate": "Fri, 3 Jul 2026 18:52:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/c/7/3fb104b6b27c2a-945-567-0-232-2950-1770.jpg",
+      "dateISO": "2026-07-03T17:52:00.000Z",
+      "dateFormatted": "3 lipca 2026"
+    },
+    {
+      "title": "Cardano 11% w górę, podczas hossy",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/cardano-11-w-gore-podczas-hossy-1474199",
+      "description": "",
+      "pubDate": "2026-07-03 17:08:08",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://i-invdn-com.investing.com/news/LYNXMPED6B1CK_M.jpg",
+      "dateISO": "2026-07-03T17:08:08.000Z",
+      "dateFormatted": "3 lipca 2026"
+    },
+    {
+      "title": "Porażające wyniki kontroli taksówek w Warszawie. Ratusz ujawnia dane",
+      "link": "https://businessinsider.com.pl/gospodarka/porazajace-wyniki-kontroli-taksowek-w-warszawie-ratusz-ujawnia-dane/dk7sh1q",
+      "description": "Jak wynika z kontroli taksówek w Warszawie przeprowadzonej w pierwszej połowie tego roku, w prawie co piątej wykryto jakieś nieprawidłowości.",
+      "pubDate": "Fri, 03 Jul 2026 17:02:07 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ysSk9kpTURBXy82ZjM1YWNjNzU4YWQ1MzY2OWVjZjE5NjNhNDcwYTJjYi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-03T17:02:07.000Z",
+      "dateFormatted": "3 lipca 2026"
+    },
+    {
+      "title": "Donald Tusk apeluje o ostrożność. Chodzi o finansowe wsparcie Ukrainy przez Polskę",
+      "link": "https://businessinsider.com.pl/gospodarka/donald-tusk-wzywa-do-ostroznosci-chodzi-o-finansowe-wsparcie-ukrainy/rts1mpb",
+      "description": "— Ukraina potrzebuje wsparcia finansowego, ale Polska musi chronić wschodnią granicę UE — powiedział Donald Tusk. Szef rządu wprost zaapelował do Władysława Kosiniaka-Kamysza i Radosława Sikorskiego.",
+      "pubDate": "Fri, 03 Jul 2026 16:46:12 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/1Rdk9kpTURBXy81MGRjMjMzMDdiNWRhYzM4YmU3NDU2MzJiMWRmZmFlYi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-03T16:46:12.000Z",
+      "dateFormatted": "3 lipca 2026"
+    },
+    {
+      "title": "Orlen wyemituje obligacje o łącznej wartości 750 mln euro",
+      "link": "https://www.bankier.pl/wiadomosc/Orlen-wyemituje-obligacje-o-lacznej-wartosci-750-mln-euro-9163447.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Orlen wyemituje obligacje serii E o łącznej wartości nominalnej 750 mln euro - podała spółka w komunikacie.",
+      "pubDate": "Fri, 3 Jul 2026 17:28:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/a/d/803f40e047ade5-948-568-6-87-1190-714.jpg",
+      "dateISO": "2026-07-03T16:28:00.000Z",
+      "dateFormatted": "3 lipca 2026"
+    },
+    {
+      "title": "NWZ Enei zdecyduje ws. zgody na podział spółki",
+      "link": "https://www.bankier.pl/wiadomosc/NWZ-Enei-zdecyduje-ws-zgody-na-podzial-spolki-9163437.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Walne zgromadzenie Enei zdecyduje w sprawie wyrażenia zgody na podział spółki oraz związane z tym zmiany - wynika ze zwołanego na 31 lipca NWZ.",
+      "pubDate": "Fri, 3 Jul 2026 17:18:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/6/1/a9d33589836d18-948-568-261-148-1715-1029.jpg",
+      "dateISO": "2026-07-03T16:18:00.000Z",
+      "dateFormatted": "3 lipca 2026"
+    },
+    {
+      "title": "Koniec jastrzębiego strachu? GPW kończy tydzień wzrostami, DAX bije historyczne rekordy",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-jastrzebiego-strachu-GPW-konczy-tydzien-wzrostami-DAX-bije-historyczne-rekordy-9163432.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Piątkowa sesja na warszawskim parkiecie przyniosła kontynuację dobrych nastrojów, a główne indeksy przypieczętowały udany tydzień lekkimi zwyżkami. Inwestorzy z optymizmem patrzą w przyszłość, licząc na wygaszenie jastrzębiej polityki banków centralnych po słabszych danych z USA. Podczas gdy Wall St",
+      "pubDate": "Fri, 3 Jul 2026 17:11:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/6/b/d4d97cc36249bf-945-560-157-56-4297-2578.jpg",
+      "dateISO": "2026-07-03T16:11:00.000Z",
+      "dateFormatted": "3 lipca 2026"
+    },
+    {
+      "title": "Wyścig z czasem o budżet UE. Rekordowe środki dla Polski zależą od tempa negocjacji i... Francji",
+      "link": "https://www.bankier.pl/wiadomosc/Wyscig-z-czasem-o-budzet-UE-Rekordowe-srodki-dla-Polski-zaleza-od-tempa-negocjacji-i-Francji-9163423.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zakończenie negocjacji budżetowych do końca 2026 r. wydaje się nie tylko pożądane, ale i możliwe; robimy wszystko, aby tak się stało – powiedział w piątek wiceminister finansów Jurand Drop na konferencji poświęconej wieloletniej perspektywie finansowej UE.",
+      "pubDate": "Fri, 3 Jul 2026 17:04:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/4/b08b3dfe599328-948-568-0-209-2977-1786.jpg",
+      "dateISO": "2026-07-03T16:04:00.000Z",
+      "dateFormatted": "3 lipca 2026"
+    },
+    {
+      "title": "Pierwszy tydzień złota na plusie po czterech spadkowych. Co prognozują analitycy",
+      "link": "https://businessinsider.com.pl/gielda/zloto-w-koncu-na-plusie-przelom-po-serii-spadkow-i-nowe-prognozy/szhtbg0",
+      "description": "Piątkowy wzrost dolarowych notowań złota sprawia, że w skali całego tygodnia wychodzi ono na plus. Rynek nie zdecydował się na to przez cztery poprzednie tygodnie, więc może to być swego rodzaju przełom.",
+      "pubDate": "Fri, 03 Jul 2026 15:13:50 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/HYgk9kpTURBXy9jM2Q4MWU0YjdkOWJlNmI2N2JlYTNmNWJmZmM4NDA3NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-03T15:13:50.000Z",
+      "dateFormatted": "3 lipca 2026"
+    },
+    {
+      "title": "37 autobusów jednej marki wycofanych z ruchu po pożarze",
+      "link": "https://businessinsider.com.pl/technologie/motoryzacja/pozar-autobusu-w-warszawie-37-pojazdow-solbus-znika-z-ulic/k6m1cm3",
+      "description": "37 autobusów marki Solbus z silnikami napędzanymi gazem zostało wycofanych z ruchu — zdecydował Zarząd Transportu Miejskiego. Powodem decyzji jest pożar pojazdu w Warszawie.",
+      "pubDate": "Fri, 03 Jul 2026 15:11:07 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/tJRk9kpTURBXy9iN2E2ZWRiODNlMDIxZDkxNDRkMzU0MThmYTJlYmNlNi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-03T15:11:07.000Z",
+      "dateFormatted": "3 lipca 2026"
+    },
+    {
+      "title": "Kurs JPY/PLN 01 lipca 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-jena-japonskiego-dzisiaj-po-ile-jest-jen-japonski-1-lipca-2026-r/nsesn4z",
+      "description": "Jeśli wybierasz się do Japonii lub prowadzisz wymianę handlową z tym krajem, warto poznać aktualne notowania kursu jena. W tym artykule pokazujemy, jak zmienia się kurs japońskiej waluty (JPY) w ujęciu dziennym oraz tygodniowym. Na tej podstawie na pewno łatwiej będzie podjąć decyzję o właściwym cza",
+      "pubDate": "Fri, 03 Jul 2026 15:09:53 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/-b6k9kpTURBXy9lZjMwZWQ5NzAzMGNjN2RiZjcxYWZlMzIwMDk4N2EyZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-03T15:09:53.000Z",
+      "dateFormatted": "3 lipca 2026"
+    },
+    {
+      "title": "Polski wskaźnik GNI wzrósł o 18 proc. Zwiększa to szanse na wejście do MSCI World",
       "link": "https://www.bankier.pl/wiadomosc/Polski-wskaznik-GNI-wzrosl-o-18-proc-zwieksza-to-szanse-na-wejscie-do-MSCI-World-opinia-9163381.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Bank Światowy na początku lipca opublikował wskaźniki dochodu na osobę (GNI per capita) za 2025 rok. Polska zanotowała wzrost o 18 proc., co - zdaniem rozmówców PAP Biznes z PKO BP i PKO TFI - zwiększa szanse na reklasyfikację kraju jako rynku rozwiniętego i włączenie do indeksu MSCI World.",
       "pubDate": "Fri, 3 Jul 2026 16:02:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/82216e487002a2-thumb-1000.jpg",
+      "image": "http://galeria.bankier.pl/p/c/0/95ad9dbb90968b-948-567-0-67-1000-599.jpg",
       "dateISO": "2026-07-03T15:02:00.000Z",
       "dateFormatted": "3 lipca 2026"
     },
     {
-      "title": "Toya nabyła 8,75 mln akcji własnych",
-      "link": "https://www.bankier.pl/wiadomosc/Toya-nabyla-8-75-mln-akcji-wlasnych-9163369.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Toya, w ramach zaproszenia do składania ofert, nabyła 8.754.000 akcji własnych, stanowiących 11,67 proc. kapitału zakładowego, po cenie 10 zł za akcję - podała Toya w komunikacie. Stopa redukcji wyniosła 17,59 proc.",
-      "pubDate": "Fri, 3 Jul 2026 15:50:00 +0100",
+      "title": "Co zrobi RPP ze stopami na wakacje? Ostatnia decyzja przed dłuższą przerwą",
+      "link": "https://www.bankier.pl/wiadomosc/Co-zrobi-RPP-ze-stopami-na-wakacje-Ostatnia-decyzja-przed-dluzsza-przerwa-9163383.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Początek lipca upłynie pod znakiem decyzji RRP na temat stóp procentowych. Jest ona o tyle ważna, że ustawi poziom kosztów pieniądza aż do września. Bez względu na to, co zrobi RPP, inwestorzy będą pilnie śledzić retorykę prezesa Adama Glapińskiego na konferencji prasowej. Emocji nie zabraknie w zag",
+      "pubDate": "Fri, 3 Jul 2026 16:02:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/0/f/c054fce945dcfc-thumb-1000.jpg",
-      "dateISO": "2026-07-03T14:50:00.000Z",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/a/0709fc8ef76f6e-948-568-0-104-3000-1799.jpg",
+      "dateISO": "2026-07-03T15:02:00.000Z",
       "dateFormatted": "3 lipca 2026"
     },
     {
-      "title": "Obroty akcjami na GPW w czerwcu wzrosły o 37 proc. rdr do 63,5 mld zł",
-      "link": "https://www.bankier.pl/wiadomosc/Obroty-akcjami-na-GPW-w-czerwcu-wzrosly-o-37-proc-rdr-do-63-5-mld-zl-9163357.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Łączna wartość obrotu akcjami na Głównym Rynku GPW w czerwcu 2026 r. wyniosła 63,5 mld zł, co oznacza wzrost rdr o 37 proc. - poinformowała giełda w komunikacie. Wartość obrotu akcjami w ramach arkusza zleceń zwiększyła się o 29,2 proc. rdr do poziomu 55,8 mld zł.",
-      "pubDate": "Fri, 3 Jul 2026 15:26:00 +0100",
+      "title": "Tak rząd chce pomóc Polakom podczas upałów. Pojawił się nowy projekt",
+      "link": "https://businessinsider.com.pl/prawo/praca/rzad-chce-pomoc-polakom-podczas-upalow-nowy-projekt-w-sprawie-pracy/wmq7dmk",
+      "description": "Projekt rozporządzenia regulującego pracę podczas upałów jest już przygotowany i trafił do konsultacji. Nowe przepisy mają zacząć obowiązywać w wakacje 2027 r. — przekazała ministra rodziny, pracy i polityki społecznej Agnieszka Dziemianowicz-Bąk. Resort chce jasno sprecyzować obowiązki pracodawców,",
+      "pubDate": "Fri, 03 Jul 2026 15:01:57 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/qKYk9kpTURBXy9iMDc2M2U2OGNkMWU4MjhlZTNkOWRkODk3YWIzOTE4MS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-03T15:01:57.000Z",
+      "dateFormatted": "3 lipca 2026"
+    },
+    {
+      "title": "Kryzys w ochronie zdrowia uderza w koalicję. Balicki wieszczy „samo-grillowanie” rządu",
+      "link": "https://www.bankier.pl/wiadomosc/Kryzys-w-ochronie-zdrowia-uderza-w-koalicje-Balicki-wieszczy-samo-grillowanie-rzadu-9163365.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Głębokie zmiany personalne na stanowiskach ministra zdrowia i prezesa NFZ są po prostu konieczne. Trudno oczekiwać od ludzi, którzy przez tyle czasu nie przygotowali żadnej reformy strukturalnej, że nagle uzdrowią system - powiedział PAP były minister zdrowia Marek Balicki.",
+      "pubDate": "Fri, 3 Jul 2026 15:42:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/6/e/b9d26f9ae4ae9e-948-568-0-270-4000-2399.jpg",
-      "dateISO": "2026-07-03T14:26:00.000Z",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/6/8be2de9622c51c-948-568-202-142-2797-1678.jpg",
+      "dateISO": "2026-07-03T14:42:00.000Z",
       "dateFormatted": "3 lipca 2026"
     },
     {
@@ -61,27 +205,27 @@
       "dateFormatted": "3 lipca 2026"
     },
     {
-      "title": "Prezes NIL o sytuacji lekarzy. \"Nikt z nami rozmawiać nie chce\"",
+      "title": "Prezydent odskakuje rywalom. Tusk i Kaczyński z ogromnym bagażem nieufności",
+      "link": "https://www.bankier.pl/wiadomosc/Prezydent-odskakuje-rywalom-Tusk-i-Kaczynski-z-ogromnym-bagazem-nieufnosci-9163320.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Karol Nawrocki pozostaje w czerwcu liderem rankingu zaufania do polityków, ufa mu 53 proc. badanych - wynika z sondażu CBOS. Na drugim miejscu plasuje się wicepremier, szef MON Władysław Kosiniak-Kamysz (45 proc. zaufania), a na trzecim - wicepremier, szef MSZ Radosław Sikorski (42 proc. z",
+      "pubDate": "Fri, 3 Jul 2026 14:49:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/5/1250788cd4913f-948-568-40-90-3960-2375.jpg",
+      "dateISO": "2026-07-03T13:49:00.000Z",
+      "dateFormatted": "3 lipca 2026"
+    },
+    {
+      "title": "Prezes NIL o sytuacji lekarzy. \"Staliśmy się kozłem ofiarnym\"",
       "link": "https://businessinsider.com.pl/wiadomosci/zarobki-lekarzy-i-budzety-szpitali-prezes-nil-to-mit/n7e0ryg",
-      "description": "— Widzimy kominy płacowe, widzimy konieczność odpolitycznienia, ale nikt z nami rozmawiać nie chce — powiedział w piątek w TVN24 prezes Naczelnej Izby Lekarskiej Łukasz Jankowski.",
+      "description": "— Widzimy kominy płacowe, widzimy konieczność odpolitycznienia, ale nikt z nami rozmawiać nie chce — powiedział w piątek w TVN24 prezes Naczelnej Izby Lekarskiej Łukasz Jankowski. — Staliśmy się kozłem ofiarnym — dodał.",
       "pubDate": "Fri, 03 Jul 2026 13:48:33 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/SQrk9kpTURBXy84NmNkYmIxZTc1ODNkYWY2MTA5NzI0NGM5NjMyOGM4Yi5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-07-03T13:48:33.000Z",
-      "dateFormatted": "3 lipca 2026"
-    },
-    {
-      "title": "Grupa Inter Cars miała w czerwcu 2.036,7 mln zł przychodów, wzrost rdr o 18,1 proc.",
-      "link": "https://www.bankier.pl/wiadomosc/Grupa-Inter-Cars-miala-w-czerwcu-2-036-7-mln-zl-przychodow-wzrost-rdr-o-18-1-proc-9163307.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Grupa Inter Cars miała w czerwcu 2026 roku 2.036,7 mln zł przychodów, co oznacza wzrost rdr o 18,1 proc. - podała spółka w komunikacie.",
-      "pubDate": "Fri, 3 Jul 2026 14:28:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/e/1/405bdeb56729ec-945-560-60-37-2940-1763.jpg",
-      "dateISO": "2026-07-03T13:28:00.000Z",
       "dateFormatted": "3 lipca 2026"
     },
     {
@@ -158,12 +302,12 @@
     },
     {
       "title": "Miliardy na inwestycje i pewny zysk. KGHM ujawnia swój plan na najbliższe lata",
-      "link": "https://www.bankier.pl/wiadomosc/KGHM-zaklada-sredniorocznie-w-latach-2026-30-EBITDA-skorygowana-grupy-na-poziomie-12-mld-zl-9163265.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/KGHM-zaklada-sredniorocznie-w-latach-2026-30-EBITDA-skorygowana-grupy-na-poziomie-12-mld-zl-9163265.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "KGHM zakłada średniorocznie w latach 2026-2030 EBITDA skorygowaną grupy na poziomie 12 mld zł oraz marżę EBITDA na poziomie 25,6 proc. - poinformowała spółka w strategii. Grupa zakłada nakłady inwestycyjne na ponad 32 mld zł oraz planuje utrzymanie produkcji miedzi płatnej na poziomie 730 tys. ton.",
       "pubDate": "Fri, 3 Jul 2026 13:46:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/c/e/3bd13f83419735-945-560-0-270-4163-2497.jpg",
       "dateISO": "2026-07-03T12:46:00.000Z",
       "dateFormatted": "3 lipca 2026"
@@ -181,6 +325,18 @@
       "dateFormatted": "3 lipca 2026"
     },
     {
+      "title": "Tusk zrzeka się immunitetu: Ujawnimy zaangażowanie polityków prawicy na rzecz kryptowalut",
+      "link": "https://www.bankier.pl/wiadomosc/Tusk-zrzeka-sie-immunitetu-Ujawnimy-zaangazowanie-politykow-prawicy-na-rzecz-kryptowalut-9163261.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Premier Donald Tusk potwierdził, że zrzekł się immunitetu poselskiego w związku z prywatnym aktem oskarżenia, skierowanym wobec niego przez Instytut Polski Suwerennej. To będzie dobra okazja, żeby ujawnić wątki potwierdzające w jeszcze większym stopniu zaangażowanie polityków prawicy na rzecz krypto",
+      "pubDate": "Fri, 3 Jul 2026 13:39:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/6/05b0051e6ffa61-948-568-0-0-2041-1225.jpg",
+      "dateISO": "2026-07-03T12:39:00.000Z",
+      "dateFormatted": "3 lipca 2026"
+    },
+    {
       "title": "Wybuch bomby w Monako. Interpol ściga Ukrainkę podejrzaną o zamach na oligarchę",
       "link": "https://www.bankier.pl/wiadomosc/Wybuch-bomby-w-Monako-Interpol-sciga-Ukrainke-podejrzana-o-zamach-na-oligarche-9163257.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Monakijska prokuratura podała w piątek, że główną podejrzaną osobą w sprawie wybuchu bomby przed jednym z domów w Monako jest obywatelka Ukrainy. Interpol wydał za nią czerwoną notę, z której wynika, że chodzi o 39-letnią Anastasiję Berezowską. Według mediów wśród rannych jest ukraiński oligarcha.",
@@ -190,18 +346,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/d/4b682c2e196a34-948-568-620-911-3385-2031.jpg",
       "dateISO": "2026-07-03T12:36:00.000Z",
-      "dateFormatted": "3 lipca 2026"
-    },
-    {
-      "title": "Kolejne dymisje w partii i rządzie? Premier: Nie dam się namówić na nagonkę",
-      "link": "https://www.bankier.pl/wiadomosc/Kolejne-dymisje-w-partii-i-rzadzie-Premier-Nie-dam-sie-namowic-na-nagonke-9163254.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Premier Donald Tusk pytany o ewentualne dymisje w KO i rządzie w związku z sytuacją w Szpitalu Południowym powiedział, że nie będzie uczestniczył w politycznej nagonce na ludzi, którzy za tę sytuację nie odpowiadają. Dodał jednocześnie, że osoby naruszające prawo będą odpowiadały za swoje czyny.",
-      "pubDate": "Fri, 3 Jul 2026 13:35:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/c/20fc6507319806-948-568-7-215-3059-1835.jpg",
-      "dateISO": "2026-07-03T12:35:00.000Z",
       "dateFormatted": "3 lipca 2026"
     },
     {
@@ -325,18 +469,6 @@
       "dateFormatted": "3 lipca 2026"
     },
     {
-      "title": "Przemęczeni i niezadowoleni, a B2B to mit? Oto jak naprawdę pracują kurierzy",
-      "link": "https://www.bankier.pl/wiadomosc/Przemeczeni-i-niezadowoleni-a-B2B-to-mit-Oto-jak-naprawde-pracuja-kurierzy-9163157.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Z badania przeprowadzonego przez platformę Furgonetka.pl wynika, że model B2B wcale nie jest najpopularniejszą formą zatrudnienia w branży kurierskiej. Przeanalazowano także nastroje rynkowe, pytając dostawców o ich poziom zadowolenia z codziennej pracy.",
-      "pubDate": "Fri, 3 Jul 2026 12:44:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/4/215a5d3586fca2-948-568-50-0-3770-2262.jpg",
-      "dateISO": "2026-07-03T11:44:00.000Z",
-      "dateFormatted": "3 lipca 2026"
-    },
-    {
       "title": "Zmiana nastrojów Polaków w sprawie cen. Najnowsze badania CBOS zaskakują",
       "link": "https://businessinsider.com.pl/finanse/handel/zmiana-nastrojow-polakow-w-sprawie-cen-najnowsze-badania-cbos-zaskakuja/7byjb0v",
       "description": "Polacy dziś już mniej niż kilka miesięcy wcześniej obawiają się rosnących cen na rynku. Na wzrost optymizmu pod tym względem wskazuje najnowsze badanie CBOS. Odsetek osób, które spodziewają się, że ceny będą rosły szybciej, spadł do 22 proc. z 45 proc. w kwietniu.",
@@ -346,6 +478,18 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/WRrk9kpTURBXy81ZGQ0MGRmZjVmODNmNDYxMWQ0MGNhNmFkMDJkMzdlOS5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-07-03T11:43:55.000Z",
+      "dateFormatted": "3 lipca 2026"
+    },
+    {
+      "title": "Szykują się kolejne dymisje? Premier zapowiada decyzje personalne",
+      "link": "https://www.bankier.pl/wiadomosc/Szykuja-sie-kolejne-dymisje-Premier-zapowiada-decyzje-personalne-9163199.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Premier Donald Tusk zapowiedział decyzje - także personalne - w środę, jeśli do wtorku nie otrzyma satysfakcjonujących i precyzyjnych rekomendacji od Ministerstwa Zdrowia i NFZ ws. eliminacji nadużyć w systemie ochrony zdrowia - wynika z wypowiedzi premiera na piątkowej konferencji.",
+      "pubDate": "Fri, 3 Jul 2026 12:38:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/8/8fa410b732552d-948-568-483-230-1763-1057.jpg",
+      "dateISO": "2026-07-03T11:38:00.000Z",
       "dateFormatted": "3 lipca 2026"
     },
     {
@@ -433,18 +577,6 @@
       "dateFormatted": "3 lipca 2026"
     },
     {
-      "title": "Premier reaguje na aferę w Szpitalu Południowym. Dał czas do wtorku",
-      "link": "https://businessinsider.com.pl/wiadomosci/donald-tusk-reaguje-na-afere-w-szpitalu-poludniowym/stx67zf",
-      "description": "Premier Donald Tusk zapowiedział drastyczne zmiany w systemie ochrony zdrowia po aferze w Szpitalu Południowym w Warszawie. — Przyszły tydzień będzie w tej kwestii rozstrzygający. Jeśli do wtorku nie dostanę satysfakcjonujących rekomendacji, to w środę podejmę decyzje personalne — stwierdził podczas",
-      "pubDate": "Fri, 03 Jul 2026 10:22:13 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/QMDk9kpTURBXy85YjQ4NTY2NzNiMjVlYmQ3MGZkOWZlMzYzNzhmOWFiMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-03T10:22:13.000Z",
-      "dateFormatted": "3 lipca 2026"
-    },
-    {
       "title": "Afera w szpitalu, czystki w ratuszu. Trzaskowski przyjął dymisję wiceprezydentek",
       "link": "https://www.bankier.pl/wiadomosc/Afera-w-szpitalu-czystki-w-ratuszu-Trzaskowski-przyjal-dymisje-wiceprezydentek-9163138.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Wiceprezydentki Warszawy Renata Kaznowska i Aldona Machnowska-Góra złożyły w piątek dymisje, które zostały przyjęte - poinformował prezydent stolicy Rafał Trzaskowski. Zaznaczył, że nie będzie przesądzał o żadnej winie.",
@@ -469,54 +601,6 @@
       "dateFormatted": "3 lipca 2026"
     },
     {
-      "title": "Pilne spotkanie w Warszawie. Szef MSZ Ukrainy przybył ratować sojusz",
-      "link": "https://www.bankier.pl/wiadomosc/Pilne-spotkanie-w-Warszawie-Szef-MSZ-Ukrainy-przybyl-do-Sikorskiego-ratowac-sojusz-9163133.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Szef ukraińskiej dyplomacji Andrij Sybiha w piątek przed południem przybył do MSZ na spotkanie z wicepremierem, ministrem spraw zagranicznych Radosławem Sikorskim. Wśród tematów rozmów obu ministrów mają być relacje polsko-ukraińskie oraz sytuacja na froncie.",
-      "pubDate": "Fri, 3 Jul 2026 11:15:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/2/80142df52e4348-948-568-14-14-2945-1767.jpg",
-      "dateISO": "2026-07-03T10:15:00.000Z",
-      "dateFormatted": "3 lipca 2026"
-    },
-    {
-      "title": "Zamieszanie na rynku owoców po fali upałów. Ceny poszły ostro w górę",
-      "link": "https://businessinsider.com.pl/finanse/handel/zamieszanie-na-rynku-owocow-po-fali-upalow-wahania-popytu-i-wzrost-cen/gh2ekjn",
-      "description": "Fala upałów, która przetoczyła się przez Polskę i Europę w ciągu ostatnich kilku dni, była bezlitosna dla owoców sezonowych. Wpłynęła na niestabilność podaży i popytu m.in. truskawek, malin, czereśni, a także na ich ceny. Cena malin skoczyła w piątek do poziomu znacznie wyższego niż w poprzednim sez",
-      "pubDate": "Fri, 03 Jul 2026 10:06:18 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/2gkk9kpTURBXy8yM2I5OGU5NzljZmM2Y2IzMDQ4NTEzMjcyNzlhMzI2My5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-03T10:06:18.000Z",
-      "dateFormatted": "3 lipca 2026"
-    },
-    {
-      "title": "Największa od lat zmiana dla indywidualnych inwestorów. Do 100 tys. zł bez podatku",
-      "link": "https://businessinsider.com.pl/biznes/zmiany-dla-indywidualnych-inwestorow-przeglosowane-do-100-tys-zl-bez-podatku/t4k1n9e",
-      "description": "Sejm przyjął ustawę o Osobistych Kontach Inwestycyjnych (OKI). Aktywa inwestycyjne np. akcje i jednostki funduszy inwestycyjnych miałyby być zwolnione z tzw. podatku Belki do kwoty 100 tys. zł.",
-      "pubDate": "Fri, 03 Jul 2026 10:01:23 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/ucqk9kpTURBXy9iZjY0NzM1OWU5NTljMTIyY2QwNDYwZWFiODcxYjg2Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-03T10:01:23.000Z",
-      "dateFormatted": "3 lipca 2026"
-    },
-    {
-      "title": "Spadkowe tendencje w głównych gospodarkach Europy. Tylko jedna z nich na plus",
-      "link": "https://businessinsider.com.pl/gospodarka/gospodarka-niemiec-i-francji-pod-presja-tylko-wlochy-notuja-wzrost-aktywnosci/nj5ypd1",
-      "description": "Największe cztery gospodarki Europy i tylko jedna, włoska, notuje wzrost aktywności. Firmy wciąż widzą więcej negatywów niż pozytywów — wynika z nowego badania PMI.",
-      "pubDate": "Fri, 03 Jul 2026 09:52:31 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/n7vk9kpTURBXy8wM2ZiYWRhOGNlOGQ1M2M2Zjg5MzZhNWFjZmQyOTNlNi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-03T09:52:31.000Z",
-      "dateFormatted": "3 lipca 2026"
-    },
-    {
       "title": "Firmy paliwowe oddadzą miliardy złotych. Sejm przegłosował windfall tax",
       "link": "https://www.bankier.pl/wiadomosc/Firmy-paliwowe-oddadza-miliardy-zlotych-Sejm-przeglosowal-windfall-tax-9163109.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Sejm przyjął w piątek zgłoszone przez Senat poprawki do ustawy o podatku od nadzwyczajnych zysków firm paliwowych; zgodził się na wprowadzenie limitu kwoty podatku do zapłacenia. Szacowane na 4 mld zł wpływy z tego podatku tzw. windfall tax mają posłużyć sfinansowaniu pakietu CPN. Ustawa trafi teraz",
@@ -526,30 +610,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/2/a/1bf0d970ad0339-948-568-108-346-4219-2531.jpg",
       "dateISO": "2026-07-03T09:42:00.000Z",
-      "dateFormatted": "3 lipca 2026"
-    },
-    {
-      "title": "Dymisje w Warszawie. Jest decyzja Rafała Trzaskowskiego",
-      "link": "https://businessinsider.com.pl/wiadomosci/dymisje-w-warszawie-jest-decyzja-rafala-trzaskowskiego/z864ywl",
-      "description": "Prezydent Warszawy Rafał Trzaskowski przyjął dymisje swoich zastępczyń Renaty Kaznowskiej i Aldony Machnowskiej-Góry.",
-      "pubDate": "Fri, 03 Jul 2026 09:12:16 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/ESJk9kpTURBXy80YmEwZGJjM2VhMWYxMmI5ODBiMjM1MTZmNGVjZjVjNC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-03T09:12:16.000Z",
-      "dateFormatted": "3 lipca 2026"
-    },
-    {
-      "title": "Nowa \"strategia mieszkaniowa\" polskiego rządu. Powstaną tysiące mieszkań",
-      "link": "https://businessinsider.com.pl/nieruchomosci/tysiace-nowych-mieszkan-o-umiarkowanym-czynszu-rzad-oferuje-bezzwrotne-wsparcie/8537zhm",
-      "description": "Ponad 680 mln zł zarezerwowano w budżecie państwa na wsparcie budowy mieszkań socjalnych i komunalnych w Polsce. Ruszył kolejny etap programu, dzięki któremu ma powstać ok. 2 tys. nowych lokali. To element \"strategii mieszkaniowej\" rządu, ogłoszonej w marcu.",
-      "pubDate": "Fri, 03 Jul 2026 09:09:24 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/-j_k9kpTURBXy80YmFjYTdjYWVjOWUwYzg4MzNjODUzMWU1OGQ0NDY3Ny5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-03T09:09:24.000Z",
       "dateFormatted": "3 lipca 2026"
     },
     {
@@ -586,18 +646,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/f/9/92e3fd17b8f46f-948-568-21-0-1655-993.jpg",
       "dateISO": "2026-07-03T08:34:00.000Z",
-      "dateFormatted": "3 lipca 2026"
-    },
-    {
-      "title": "Języki obce na plus, matematyka tradycyjnie najtrudniejsza. Wyniki ósmoklasistów bez tajemnic",
-      "link": "https://www.bankier.pl/wiadomosc/Jezyki-obce-na-plus-matematyka-tradycyjnie-najtrudniejsza-Wyniki-osmoklasistow-bez-tajemnic-9163043.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Uczniowie VIII klas szkół podstawowych, którzy w maju przystąpili do obowiązkowego egzaminu ósmoklasisty, za rozwiązanie zadań z języka polskiego uzyskali średnio 65 proc. punktów możliwych do otrzymania, a z matematyki – 55 proc. – poinformowała w piątek Centralna Komisja Egzaminacyjna.",
-      "pubDate": "Fri, 3 Jul 2026 09:08:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/7/88c81055a68296-948-568-0-280-3983-2390.jpg",
-      "dateISO": "2026-07-03T08:08:00.000Z",
       "dateFormatted": "3 lipca 2026"
     },
     {
@@ -887,19 +935,7 @@
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-06-28T08:39:29.000Z",
       "dateFormatted": "28 czerwca 2026"
-    },
-    {
-      "title": "Bitcoin utrzymuje się powyżej 60 000 $, model finansowania Strategy pod lupą",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-utrzymuje-sie-powyzej-60-000--model-finansowania-strategy-pod-lupa-1466873",
-      "description": "",
-      "pubDate": "2026-06-27 08:33:57",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "dateISO": "2026-06-27T08:33:57.000Z",
-      "dateFormatted": "27 czerwca 2026"
     }
   ],
-  "updatedAt": "2026-07-03T14:06:51.424Z"
+  "updatedAt": "2026-07-03T17:26:41.712Z"
 }
