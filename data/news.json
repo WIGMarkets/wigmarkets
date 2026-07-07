@@ -1,15 +1,411 @@
 {
   "articles": [
     {
-      "title": "Voolt zmieni nazwę na R Ventures II i docelowo trafić ma na rynek główny GPW",
-      "link": "https://www.bankier.pl/wiadomosc/Voolt-zmieni-nazwe-na-R-Ventures-II-i-docelowo-trafic-ma-na-rynek-glowny-GPW-9164483.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "W ramach notowanej na NewConnect spółki Voolt powstaje R Ventures II, giełdowy wehikuł inwestycyjny grupy Rubicon Partners, który docelowo trafić ma na rynek główny - poinformowała spółka w komunikacie prasowym.",
-      "pubDate": "Tue, 7 Jul 2026 09:12:00 +0100",
+      "title": "Letnie schłodzenie w Allegro. Gigant notuje spadki, ale aplikacja mobilna bije rekordy",
+      "link": "https://www.bankier.pl/wiadomosc/Allegro-w-VI-mialo-21-926-mln-uzytkownikow-na-wszystkich-urzadzeniach-vs-22-336-mln-w-V-Mediapanel-9164611.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Allegro miało w czerwcu 21,926 mln użytkowników (Real Users) na wszystkich urządzeniach wobec 22,336 mln miesiąc wcześniej - wynika z badania Mediapanel, Polskiego Badania Internetu.",
+      "pubDate": "Tue, 7 Jul 2026 12:38:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/2/d/2005e3f5389635-948-568-0-251-4031-2418.jpg",
+      "dateISO": "2026-07-07T11:38:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "„Nie trzeba codziennie patrzeć w notowania”. KISS to zasada, która się sprawdza",
+      "link": "https://www.bankier.pl/wiadomosc/Nie-trzeba-codziennie-patrzec-w-notowania-KISS-to-zasada-ktora-sie-sprawdza-9164601.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "W wirtualnej rywalizacji w ramach konkursu Wakacje na Giełdzie bierze udział już ponad 1700 osób! Giełdowe zmagania to dla nas świetna okazja, by zachęcać Was do inwestowania – i to nie tylko w wydaniu wirtualnym, ale też tym w stu procentach realnym.",
+      "pubDate": "Tue, 7 Jul 2026 12:27:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/0/9/f455172657abc7-948-568-0-39-966-579.jpg",
+      "dateISO": "2026-07-07T11:27:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Miliardy dla Ukrainy i pilne rozmowy o pokoju. Zełenski przybywa na szczyt NATO",
+      "link": "https://www.bankier.pl/wiadomosc/Miliardy-dla-Ukrainy-i-pilne-rozmowy-o-pokoju-Zelenski-przybywa-na-szczyt-NATO-9164586.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ukraina oczekuje silnego i skutecznego szczytu NATO w Ankarze, w tym decyzji wzmacniających obronę powietrzną i zwiększających możliwości obronne – przekazał we wtorek prezydent Ukrainy Wołodymyr Zełenski, który przybył do stolicy Turcji. Prezydent zapowiedział 20 spotkań dwustronnych z przywódcami ",
+      "pubDate": "Tue, 7 Jul 2026 12:08:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/f/a5802675952302-948-568-0-0-3483-2090.jpg",
+      "dateISO": "2026-07-07T11:08:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Rakietowy przełom w Ankarze. Polska i sojusznicy stworzą centrum Patriotów, Stingerów i ATACMS",
+      "link": "https://www.bankier.pl/wiadomosc/Rakietowy-przelom-w-Ankarze-Polska-i-sojusznicy-stworza-centrum-Patriotow-Stingerow-i-ATACMS-9164576.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "USA, Polska, Niemcy, Holandia i Szwecja we wtorek podpiszą z firmą Lockheed Martin oświadczenie woli w sprawie utworzenia europejskiego centrum serwisowania pocisków PAC-3 do systemów obrony powietrznej Patriot - poinformował we wtorek portal Politico, powołując się na dokumenty w tej sprawie.",
+      "pubDate": "Tue, 7 Jul 2026 11:57:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/9/120e065c06c64e-948-568-2-30-997-598.jpg",
+      "dateISO": "2026-07-07T10:57:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Zamach na Macrona? W 2 eksplozjach w Damaszku rannych zostało 18 osób",
+      "link": "https://www.bankier.pl/wiadomosc/Zamach-na-Macrona-W-2-eksplozjach-w-Damaszku-rannych-zostalo-18-osob-9164572.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Co najmniej 18 osób, w tym czterech policjantów, zostało rannych we wtorek rano w wyniku dwóch eksplozji w stolicy Syrii, Damaszku - poinformowało syryjskie ministerstwo spraw wewnętrznych. Do eksplozji doszło w czasie, gdy wizytę w mieście składał prezydent Francji Emmanuel Macron.",
+      "pubDate": "Tue, 7 Jul 2026 11:51:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/2/58bb932edd4451-948-568-29-0-1565-939.jpg",
+      "dateISO": "2026-07-07T10:51:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Chiny zbroją się coraz bardziej w złoto. Czerwcowa przecena zachęciła do dużych zakupów",
+      "link": "https://www.bankier.pl/wiadomosc/Chiny-zbroja-sie-coraz-bardziej-w-zloto-Czerwcowa-przecena-zachecila-do-duzych-zakupow-9164564.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Najniższa od 2025 r. cena złota mogła zachęcić Ludowy Bank Chin do większych zakupów złota w czerwcu. Z najnowszych danych Państwowej Administracji Walutowej wynika, że oficjalne rezerwy Chin, którymi zarządza bank centralny zostały zwiększony w poprzednim miesiącu o prawie 15 ton. Zbiegło się to w ",
+      "pubDate": "Tue, 7 Jul 2026 11:39:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/a/951564646a7c57-948-568-289-20-2470-1482.png",
+      "dateISO": "2026-07-07T10:39:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Nocny koszmar Putina. Ukraina zaatakowała osiem potężnych tankowców",
+      "link": "https://www.bankier.pl/wiadomosc/Nocny-koszmar-Putina-Ukraina-zaatakowala-osiem-poteznych-tankowcow-9164563.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Siły Systemów Bezzałogowych (SBS) ukraińskiej armii zaatakowały w nocy z poniedziałku na wtorek na Morzu Azowskim osiem tankowców przewożących paliwo; statki te należą do rosyjskiej tzw. floty cieni – poinformował we wtorek dowódca SBS Robert „Madiar” Browdi.",
+      "pubDate": "Tue, 7 Jul 2026 11:39:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/3/b1f394849bfd26-948-568-70-390-3890-2334.jpg",
+      "dateISO": "2026-07-07T10:39:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "NATO 3.0 i wielkie pieniądze. Prezydent leci do Turcji z jasnym celem",
+      "link": "https://www.bankier.pl/wiadomosc/Wspolny-lot-Sikorskiego-i-Nawrockiego-Nadchodzi-szczyt-NATO-3-0-9164562.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Utrzymanie jak najlepszych relacji transatlantyckich priorytetami prezydenta na szczycie NATO w Ankarze – podkreślił szef prezydenckiego Biura Polityki Międzynarodowej Marcin Przydacz przed wylotem na rozpoczynający się we wtorek dwudniowy szczyt NATO.",
+      "pubDate": "Tue, 7 Jul 2026 11:39:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/2/ade1d3e7ce36f7-948-568-20-0-3980-2387.jpg",
+      "dateISO": "2026-07-07T10:39:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "mBankowi nie udało się powtórzyć sukcesu PKO BP. Oszczędzający nie dopisali",
+      "link": "https://businessinsider.com.pl/poradnik-finansowy/inwestowanie/mbank-rozczarowal-wynikami-sprzedazy-listow-zastawnych-inwestorzy-wybrali-obligacje/0npy0zd",
+      "description": "mBank jako drugi kredytodawca w Polsce w czerwcu ruszył z ofertą listów zastawnych dla drobnych inwestorów. Apetyt banku był duży, ale nie udało się osiągnąć zamierzonego celu.",
+      "pubDate": "Tue, 07 Jul 2026 10:35:55 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/76Hk9kpTURBXy9lOWNhZTkyNjIyZjQwNTczZDZlYzcwMjk3MTkyMGZiYS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-07T10:35:55.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Rosja nie dostanie ani centa za Nord Stream. Sąd zablokował miliardowe odszkodowanie",
+      "link": "https://www.bankier.pl/wiadomosc/Rosja-nie-dostanie-ani-centa-za-Nord-Stream-Sad-zablokowal-miliardowe-odszkodowanie-9164558.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ubezpieczyciele nie muszą wypłacać setek milionów euro spółce Nord Stream za zniszczenie gazociągu do Europy - uznał sąd w Londynie. Wymiar sprawiedliwości oddalił żądanie Rosjan, podkreślając, że spółce nie należą się pieniądze, ponieważ polisy nie obejmują szkód wojennych.",
+      "pubDate": "Tue, 7 Jul 2026 11:25:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/d/18410c29c7ca5c-948-568-0-2-1146-687.jpg",
+      "dateISO": "2026-07-07T10:25:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Euro Styl z Grupy Dom Development wprowadził do sprzedaży 159 lokali w Marina Hel Apartamenty",
+      "link": "https://www.bankier.pl/wiadomosc/Euro-Styl-z-Grupy-Dom-Development-wprowadzil-do-sprzedazy-159-lokali-w-Marina-Hel-Apartamenty-9164547.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Euro Styl z Grupy Dom Development uruchomił sprzedaż 159 apartamentów inwestycyjnych w dwóch pierwszych budynkach inwestycji Marina Hel Apartamenty - podał Euro Styl w komunikacie prasowym.",
+      "pubDate": "Tue, 7 Jul 2026 11:10:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/3/1/1d630e05cabedc-945-560-25-17-1706-1023.jpg",
+      "dateISO": "2026-07-07T10:10:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Szef NATO zapowiada. \"Czas zamienić pieniądze na realne zdolności wojskowe\"",
+      "link": "https://businessinsider.com.pl/wiadomosci/mark-rutte-zapowiada-nowa-ere-w-nato-inwestycje-i-kontrakty-zbrojeniowe/xde27lz",
+      "description": "NATO szykuje kolejne wspólne inwestycje w zdolności wojskowe. Podczas szczytu w Ankarze sojusznicy mają ogłosić nowe projekty dotyczące transportu strategicznego, rozpoznania oraz przemysłu obronnego. Według sekretarza generalnego Marka Ruttego celem jest szybsze przekucie rosnących wydatków na obro",
+      "pubDate": "Tue, 07 Jul 2026 10:02:16 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/btqk9kpTURBXy81MjhlZDU4NWUzZTQwZDljZDgzNzNiMjlmMzgyODY1MS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-07T10:02:16.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Rosja cofa się o lata. Powrót benzyny, która psuje samochody",
+      "link": "https://businessinsider.com.pl/rosja-wrocila-do-paliwa-euro-3-kierowcy-koczuja-na-stacjach-40-godzin/0c371ev",
+      "description": "Kreml, próbując ratować rynek paliwowy po ukraińskich atakach na rafinerie, zdecydował się na drastyczny krok: powrót do paliwa niskiej jakości. Skutki są opłakane — rosyjskie samochody masowo odmawiają posłuszeństwa, a kierowcy godzinami koczują na stacjach.",
+      "pubDate": "Tue, 07 Jul 2026 09:54:29 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/TWjk9kpTURBXy83OTlmZjQ0OTg5MGUzNDg4MTFlMzQxZmRhZjJlZTk2Zi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-07T09:54:29.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Kraków rusza na zakupy. Miasto odkupi mieszkania, by ratować setki rodzin?",
+      "link": "https://www.bankier.pl/wiadomosc/Krakow-rusza-na-zakupy-Miasto-odkupi-mieszkania-by-ratowac-setki-rodzin-9164532.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Miasto Kraków przeznaczy blisko 10 milionów złotych na zakup lokali mieszkalnych od prywatnych właścicieli. Inicjatywa ta ma na celu szybkie powiększenie zasobu mieszkań komunalnych, na które na dzień dzisiejszy czeka około 480 rodzin - podaje Urząd Miasta Krakowa.",
+      "pubDate": "Tue, 7 Jul 2026 10:43:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/5/6a9bde15bb8873-948-568-140-100-3233-1940.jpg",
+      "dateISO": "2026-07-07T09:43:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Hemp & Health ma list intencyjny w celu produkcji odlewów na potrzeby przemysłu obronnego",
+      "link": "https://www.bankier.pl/wiadomosc/Hemp-Health-ma-list-intencyjny-w-celu-produkcji-odlewow-na-potrzeby-przemyslu-obronnego-9164529.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Hemp & Health zawarł list intencyjny z Grupą Virtus i spółką Andoria dotyczący warunków prowadzenia negocjacji, które docelowo mają doprowadzić do podjęcia przez Hemp & Health produkcji, w oparciu o majątek Andorii, odlewów żeliwnych, ze szczególną koncentracją na odlewach przeznaczonych na potrzeby",
+      "pubDate": "Tue, 7 Jul 2026 10:36:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/a/a/989b4ed5276ee4-948-568-0-77-4445-2666.jpg",
-      "dateISO": "2026-07-07T08:12:00.000Z",
+      "dateISO": "2026-07-07T09:36:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Polska wysłała na Ukrainę czołgi T-72, Rosomaki i pociski PAC-3. MON podał listę",
+      "link": "https://www.bankier.pl/wiadomosc/Polska-wyslala-na-Ukraine-czolgi-T-72-Rosomaki-i-pociski-PAC-3-MON-podal-liste-9164526.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polska w latach 2022-2026 przekazała Ukrainie m.in. czołgi T-72, bojowe wozy piechoty Rosomak oraz pociski rakietowe PAC-3 do systemu Patriot - wynika z informacji MON. Łączny koszt polskich donacji dla Ukrainy od 2022 r. do około 16,5 mld zł.",
+      "pubDate": "Tue, 7 Jul 2026 10:34:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/7/8d1a2f4ff6804c-948-568-470-0-3150-1890.jpg",
+      "dateISO": "2026-07-07T09:34:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Ceny żywności mogą wzrosnąć przez suszę. Mapa zagrożeń",
+      "link": "https://businessinsider.com.pl/wiadomosci/mapa-zagrozen-susza-w-polsce-problemy-z-woda-i-rosnace-ceny-zywnosci/yb0wv5j",
+      "description": "Polska wchodzi w kolejną fazę walki z suszą. Według danych Instytutu Meteorologii i Gospodarki Wodnej (IMGW) susza hydrologiczna nadal się pogłębia, a ostrzeżenia obejmują już około połowy kraju. Obecnie obowiązuje 61 ostrzeżeń przed suszą hydrologiczną, a eksperci przewidują, że ich liczba może wzr",
+      "pubDate": "Tue, 07 Jul 2026 09:28:53 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/i2Uk9kpTURBXy9jNDcyYTM0Njg3OTdhNGIzYTBiM2QxZmU5MmVlMzlmMi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-07T09:28:53.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Donald Trump poprosił Walmart o obniżkę cen. Efektem pochwalił się w internecie",
+      "link": "https://businessinsider.com.pl/donald-trump-oglasza-obnizki-w-walmart-tysiace-produktow-taniej-na-jubileusz/jcw0he7",
+      "description": "Prezydent Donald Trump poinformował, że sieć Walmart zdecydowała się na obniżkę cen szerokiej gamy produktów. Decyzja ta ma być odpowiedzią na prośbę administracji prezydenckiej w związku z nadchodzącymi obchodami 250. rocznicy powstania Stanów Zjednoczonych. Wśród przecenionych artykułów znajdzie s",
+      "pubDate": "Tue, 07 Jul 2026 09:27:15 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Ytjk9kpTURBXy8yYTNmMzk3OTU5OTE4NzYwOTU0ODM0NmIyYzViMGRkYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-07T09:27:15.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "mBank Hipoteczny sprzedał detaliczne listy zastawne za 106 mln zł",
+      "link": "https://www.bankier.pl/wiadomosc/mBank-Hipoteczny-sprzedal-detaliczne-listy-zastawne-za-106-mln-zl-9164523.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "mBank Hipoteczny przydzielił 105.976 sztuk hipotecznych listów zastawnych serii D1 o łącznej wartości nominalnej ok. 106 mln zł - poinformował bank w informacji o rezultatach oferty.",
+      "pubDate": "Tue, 7 Jul 2026 10:26:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/5/1/dcc19fd1f78dcf-945-567-56-10-1783-1070.jpg",
+      "dateISO": "2026-07-07T09:26:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Zarobili miliardy na rosyjskiej ropie. Greccy armatorzy pod lupą",
+      "link": "https://www.bankier.pl/wiadomosc/Zarobili-miliardy-na-rosyjskiej-ropie-Greccy-armatorzy-pod-lupa-9164516.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Greccy armatorzy zarobili co najmniej 3,8 miliarda dolarów na transporcie rosyjskiej ropy od połowy 2023 roku, utrzymując kluczową pozycję w logistyce Moskwy – wynika z analizy „Financial Times”. Choć operacje te są legalne w ramach limitów cenowych G7, a firmy deklarują pełną zgodność z prawem, wys",
+      "pubDate": "Tue, 7 Jul 2026 10:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/2/35ad37260161f9-948-568-7-82-992-595.jpg",
+      "dateISO": "2026-07-07T09:20:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Nowe dane GUS na temat rynku pracy. Chodzi o obcokrajowców",
+      "link": "https://businessinsider.com.pl/praca/w-polsce-pracuje-coraz-wiecej-obcokrajowcow-sa-nowe-dane-gus/vrbcb3w",
+      "description": "Rynek pracy w Polsce coraz silniej opiera się na pracownikach zza granicy. Najnowsze dane pokazują, jak zmienia się skala zatrudnienia cudzoziemców i którzy obywatele dominują w tej grupie.",
+      "pubDate": "Tue, 07 Jul 2026 09:15:15 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/wjMk9kpTURBXy9kMGUzOGFlOTBkYzQzNmEwZDc1ZjExYzY2NzUwOTU4NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-07T09:15:15.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Prezydent Nawrocki nie spotka się z Zełenskim w Ankarze. \"Inicjatywa powinna być po stronie ukraińskiej\"",
+      "link": "https://www.bankier.pl/wiadomosc/Prezydent-Nawrocki-nie-spotka-sie-z-Zelenskim-w-Ankarze-Inicjatywa-powinna-byc-po-stronie-ukrainskiej-9164514.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Podczas szczytu NATO w Ankarze nie jest planowane spotkanie prezydenta Karola Nawrockiego z prezydentem Ukrainy Wołodymyrem Zełenskim - poinformował szef prezydenckiego Biura Polityki Międzynarodowej Marcin Przydacz. Jego zdaniem inicjatywa w tej sprawie powinna być po stronie ukraińskiej.",
+      "pubDate": "Tue, 7 Jul 2026 10:11:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/5/990a903d61bee0-948-568-6-0-1194-716.jpg",
+      "dateISO": "2026-07-07T09:11:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Funt najdroższy od ponad roku. Kurs euro nadal w „boczniaku”",
+      "link": "https://www.bankier.pl/wiadomosc/Funt-najdrozszy-od-ponad-roku-Kurs-euro-nadal-w-boczniaku-9164512.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Notowania funta brytyjskiego osiągnęły najwyższy poziom od zeszłorocznego czerwca, podczas gdy kurs euro zdołał utrzymać się w ramach wiosenno-letniej konsolidacji.",
+      "pubDate": "Tue, 7 Jul 2026 10:05:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/1/41f4eb3088ceac-948-568-0-44-1773-1063.jpg",
+      "dateISO": "2026-07-07T09:05:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Nowe AWACS-y, więcej cystern i transportowców oraz drony. NATO wybiera się na przełomowe zakupy",
+      "link": "https://www.bankier.pl/wiadomosc/Nowe-AWACS-y-wiecej-cystern-i-transportowcow-oraz-drony-NATO-wybiera-sie-na-przelomowe-zakupy-9164511.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "NATO uruchomi strategiczną flotę transportową złożoną z samolotów transportowych A400M oraz powiększy o jeden samolot dotychczasową flotę tankowców i samolotów transportowych typu A330 MRTT - poinformował we wtorek w Ankarze sekretarz generalny Sojuszu Mark Rutte.",
+      "pubDate": "Tue, 7 Jul 2026 10:05:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/9/afce6ff4431cd2-948-568-128-0-1920-1151.jpg",
+      "dateISO": "2026-07-07T09:05:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Nowy \"podatek od pieniędzy\" coraz bliżej. Sejm przyjął zmiany dla oszczędzających",
+      "link": "https://businessinsider.com.pl/finanse/rzad-siega-po-kapital-polakow-ale-daje-tez-ulge-kluczowe-zmiany-od-2027-r/xhxbdvh",
+      "description": "Sejm przegłosował zmiany, które mogą zasadniczo wpłynąć na oszczędności Polaków. W debacie pojawia się pojęcie \"podatku od posiadanych pieniędzy\", choć w praktyce chodzi o coś więcej niż nową daninę.",
+      "pubDate": "Tue, 07 Jul 2026 08:44:39 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/sKsk9kpTURBXy9lZjViZGUzN2IyMzc2MTBkNDQxNTFkODEwZGVlZjAyMi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-07T08:44:39.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Awaria w Alior Banku. Klienci skarżą się na problemy z aplikacją i bankowością internetową",
+      "link": "https://www.bankier.pl/wiadomosc/Awaria-w-Alior-Banku-Klienci-skarza-sie-na-problemy-z-aplikacja-i-bankowoscia-internetowa-9164505.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Od rana klienci Alior Banku mają problem z dostępem do bankowości elektronicznej. Awaria uniemożliwia zalogowanie się do aplikacji mobilnej i serwisu internetowego, a w efekcie także wykonanie podstawowych operacji na koncie.",
+      "pubDate": "Tue, 7 Jul 2026 09:43:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/e/4f9fdd79093c07-948-568-162-406-2218-1331.jpg",
+      "dateISO": "2026-07-07T08:43:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Pogłoski o śmierci niemieckiego przemysłu są przesadzone. Pomaga sztuczna inteligencja",
+      "link": "https://businessinsider.com.pl/gospodarka/niemiecki-przemysl-wraca-do-gry-dane-destatis-i-opinie-ekonomistow-rzucaja-nowe/xxvp8qj",
+      "description": "Od dłuższego czasu niemiecki przemysł przypominał uśpionego olbrzyma, ale najnowsze dane sugerują, że maszyny wreszcie zaczynają pracować na wyższych obrotach.",
+      "pubDate": "Tue, 07 Jul 2026 08:42:20 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/fKek9kpTURBXy8wODU5MTA0NjZmOTkxNDc3ZDEzNjgwNjJmYTRhNTRjNC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-07T08:42:20.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Ponad 1,1 miliona cudzoziemców pracuje w Polsce. Ukraińcy absolutnymi liderami, ale goni ich nowa fala",
+      "link": "https://www.bankier.pl/wiadomosc/Ponad-1-1-miliona-cudzoziemcow-pracuje-w-Polsce-Ukraincy-absolutnymi-liderami-ale-goni-ich-nowa-fala-9164502.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Liczba cudzoziemców wykonujących w Polsce pracę wyniosła w końcu stycznia 1.119,0 tys. osób, o 7,1 proc. więcej rdr - podał GUS. W porównaniu do poprzedniego miesiąca ich liczba spadła o 1,9 proc.",
+      "pubDate": "Tue, 7 Jul 2026 09:42:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/7/791635da85e3fd-948-568-0-0-1900-1139.jpg",
+      "dateISO": "2026-07-07T08:42:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "MLP Group zdecydował o emisji zielonych obligacji o wartości nominalnej do 100 mln euro",
+      "link": "https://www.bankier.pl/wiadomosc/MLP-Group-zdecydowal-o-emisji-zielonych-obligacji-o-wartosci-nominalnej-do-100-mln-euro-9164498.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "MLP Group postanowił przeprowadzić emisję zielonych obligacji o łącznej nominalnej wartości do 100 mln euro z terminem zapadalności przypadającym w 2029 roku i w związku z tym rozpoczął oferowanie obligacji - podała spółka w komunikacie, ujawniając informację poufną, której upublicznienie zostało op",
+      "pubDate": "Tue, 7 Jul 2026 09:38:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/a/a/989b4ed5276ee4-948-568-0-77-4445-2666.jpg",
+      "dateISO": "2026-07-07T08:38:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Fiskus kontroluje firmowe auta. Rozliczenia VAT pod lupą",
+      "link": "https://businessinsider.com.pl/technologie/motoryzacja/samochod-w-firmie-pod-lupa-skarbowki-kto-ryzykuje-korekte-vat/trp6r90",
+      "description": "Przedsiębiorcy korzystający z samochodów firmowych muszą liczyć się z dokładniejszą kontrolą skarbówki. Urzędy sprawdzają, czy dane przedstawiane w ewidencji przebiegu pojazdów odpowiadają rzeczywistemu użytkowaniu aut - podaje \"Gazeta Wyborcza\".",
+      "pubDate": "Tue, 07 Jul 2026 08:31:39 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/cO7k9kpTURBXy9jNzhkNmFhZTE2ZTcxNTI4YWJlMDc0ODQ4MmU1Nzg3YS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-07T08:31:39.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Sycylia odcięta od świata. Erupcja Etny zablokowała loty, ucierpią też turyści z Polski",
+      "link": "https://www.bankier.pl/wiadomosc/Sycylia-odcieta-od-swiata-Erupcja-Etny-zablokowala-loty-ucierpia-tez-turysci-z-Polski-9164495.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Z powodu aktywności wulkanu Etna na Sycylii do godziny 14 we wtorek wstrzymane zostały przyloty i odloty na międzynarodowym lotnisku w Katanii - podał zarząd tego portu lotniczego. Wcześniej informowano, że lotnisko będzie zamknięte do godz. 10.",
+      "pubDate": "Tue, 7 Jul 2026 09:31:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/c/98ab8f8faf6d3f-948-568-0-0-4455-2673.jpg",
+      "dateISO": "2026-07-07T08:31:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Zyski Samsunga wzrosły 19 razy. Ale to za mało na apetyt inwestorów",
+      "link": "https://www.bankier.pl/wiadomosc/Zyski-Samsunga-wzrosly-19-razy-Ale-to-za-malo-na-apetyt-inwestorow-9164493.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Samsung zanotował gigantyczny, 19-krotny wzrost zysków w II kwartale, jednak nawet to nie zaspokoiło wygórowanych apetytów inwestorów. Mimo rekordowych wyników napędzanych boomem na pamięci AI, akcje technologicznego giganta taniały na azjatyckiej giełdzie nawet o ponad 10%, co pogłębia nerwowość i ",
+      "pubDate": "Tue, 7 Jul 2026 09:28:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/f/2/bcbce7cea53b0a-920-552-57-0-920-552.jpg",
+      "dateISO": "2026-07-07T08:28:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Rynki znów koncentrują się na ropie. Złoto i giełdy akcji w dół",
+      "link": "https://businessinsider.com.pl/gielda/ropa-znow-zajmuje-rynek-tym-razem-wzrost-podazy-i-perspektywy/21rqqvv",
+      "description": "Ropa w górę, złoto i giełdy akcji w dół. Wygląda na to, że wracamy do ustawień sprzed paru tygodni, zanim jeszcze rynki zaczęły się koncentrować na stopach procentowych w USA — m.in. o tym przeczytasz w dzisiejszym wydaniu newslettera giełdowego Business Insidera.",
+      "pubDate": "Tue, 07 Jul 2026 08:18:49 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/iKwk9kpTURBXy8zMzg4OTliZDE1YWJiMmY2NmJjYTgxZWU0MWQzOTk3ZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-07T08:18:49.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Ważne zmiany dla właścicieli fotowoltaiki. Zegar tyka, spóźnialskim grozi kara",
+      "link": "https://businessinsider.com.pl/oze-nowe-obowiazki-dla-wlascicieli-instalacji-ure-grozi-karami-za-spoznienie/4mfn4z5",
+      "description": "Wytwórcy energii z odnawialnych źródeł (OZE), w tym właściciele małych instalacji fotowoltaicznych, muszą przygotować się na nowe formalności. Urząd Regulacji Energetyki (URE) wprowadza nowy wzór sprawozdania, który należy złożyć do końca lipca. Za niedopełnienie tego obowiązku grożą dotkliwe kary f",
+      "pubDate": "Tue, 07 Jul 2026 08:03:21 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/_KUk9kpTURBXy9hZjUyZjhjZDFlMzY2NmYxY2MzODc4MGU1ZTY4NDkwMS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-07T08:03:21.000Z",
       "dateFormatted": "7 lipca 2026"
     },
     {
@@ -22,6 +418,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/c/3/90b77ce9830142-948-568-150-120-3850-2309.jpg",
       "dateISO": "2026-07-07T07:54:00.000Z",
+      "dateFormatted": "7 lipca 2026"
+    },
+    {
+      "title": "Upały w Polsce. Ekspert wskazuje, kiedy grozi nam blackout",
+      "link": "https://businessinsider.com.pl/biznes/czy-polsce-grozi-blackout-nowe-inwestycje-zmieniaja-sytuacje-energetyczna/43npf93",
+      "description": "Rekordowe temperatury — te zresztą za chwilę mają wrócić — i rosnące zużycie energii elektrycznej ponownie rodzą pytania o bezpieczeństwo polskiego systemu energetycznego. Zdaniem Tobiasza Adamczewskiego, wiceprezesa Forum Energii, obecna sytuacja jest znacznie lepsza niż jeszcze dekadę temu. Ryzyko",
+      "pubDate": "Tue, 07 Jul 2026 07:45:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/dBlk9kpTURBXy85NTcxNzJjYzQxMWU0MmJkZGQwZDZjODM1YTJiZDJlOC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-07T07:45:00.000Z",
       "dateFormatted": "7 lipca 2026"
     },
     {
@@ -49,19 +457,7 @@
       "dateFormatted": "7 lipca 2026"
     },
     {
-      "title": "BM PKO BP podniósł cenę docelową Text do 57 zł",
-      "link": "https://www.bankier.pl/wiadomosc/BM-PKO-BP-podniosl-cene-docelowa-Text-do-57-zl-9164467.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Analitycy BM PKO BP, w raporcie z 6 lipca, podnieśli cenę docelową akcji Text do 57 zł z 45 zł, podtrzymując rekomendację \"kupuj\".",
-      "pubDate": "Tue, 7 Jul 2026 08:32:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/a/a/989b4ed5276ee4-948-568-0-77-4445-2666.jpg",
-      "dateISO": "2026-07-07T07:32:00.000Z",
-      "dateFormatted": "7 lipca 2026"
-    },
-    {
-      "title": "Bitcoin utrzymuje się powyżej 63 tys. $ mimo napięć na Bliskim Wschodzie",
+      "title": "Bitcoin utrzymuje się powyżej 63 tys. $ wśród napięć na Bliskim Wschodzie",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-utrzymuje-sie-powyzej-63-tys--mimo-napiec-na-bliskim-wschodzie-1476248",
       "description": "",
       "pubDate": "2026-07-07 07:31:36",
@@ -73,7 +469,7 @@
       "dateFormatted": "7 lipca 2026"
     },
     {
-      "title": "Microsoft tnie etaty i stawia na AI. Zwolnienia obejmą także Xbox",
+      "title": "AI pochłania miliardy. Microsoft zwolni 4800 osób, Xbox też oberwie",
       "link": "https://www.bankier.pl/wiadomosc/Microsoft-tnie-etaty-i-stawia-na-AI-Zwolnienia-obejma-takze-Xbox-9164465.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Microsoft ogłosił plany redukcji około 4800 miejsc pracy, co stanowi 2,1% globalnej siły roboczej firmy. Według dyrektor ds. zasobów ludzkich Amy Coleman, decyzja ta wynika ze zmieniającego się otoczenia biznesowego oraz szybkiego tempa transformacji technologicznej. Coleman zaznaczyła, że choć prac",
       "pubDate": "Tue, 7 Jul 2026 08:30:00 +0100",
@@ -106,30 +502,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/ZFek9kpTURBXy85MDE2NTQ5YWM2NThmMWRkNWE3YmM1YjMyNDRjM2EyOC5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-07-07T07:06:37.000Z",
-      "dateFormatted": "7 lipca 2026"
-    },
-    {
-      "title": "Irańskie rakiety \"uderzyły\" w miedź. Czerwień na giełdach metali",
-      "link": "https://www.bankier.pl/wiadomosc/Iranskie-rakiety-uderzyly-w-miedz-Czerwien-na-gieldach-metali-9164459.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Notowania miedzi na giełdzie metali LME w Londynie spadają po atakach na statki w cieśninie Ormuz, co wywołuje obawy inwestorów o potencjalny wzrost inflacji w związku z rosnącymi cenami ropy naftowej - informują maklerzy.",
-      "pubDate": "Tue, 7 Jul 2026 08:06:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/1/3677cc8c62d867-948-568-0-0-1500-899.jpg",
-      "dateISO": "2026-07-07T07:06:00.000Z",
-      "dateFormatted": "7 lipca 2026"
-    },
-    {
-      "title": "Iran strzela w tankowce, ropa idzie w górę. Gorąco w cieśninie Ormuz",
-      "link": "https://www.bankier.pl/wiadomosc/Iran-strzela-w-tankowce-ropa-idzie-w-gore-Goraco-w-ciesninie-Ormuz-9164456.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ropa na świecie drożeje we wtorek po niepokojących informacjach dotyczących cieśniny Ormuz, kluczowego szlaku wodnego dla transportu ropy naftowej, gazu ziemnego i innych surowców z Zatoki Perskiej - podają maklerzy.",
-      "pubDate": "Tue, 7 Jul 2026 07:58:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/5/ffd4d0e8caa7f5-948-568-0-270-4000-2399.jpg",
-      "dateISO": "2026-07-07T06:58:00.000Z",
       "dateFormatted": "7 lipca 2026"
     },
     {
@@ -301,14 +673,14 @@
       "dateFormatted": "7 lipca 2026"
     },
     {
-      "title": "Podatek od prezentów weselnych? Fiskus wyjaśnia, kiedy koperta jest bez podatku",
-      "link": "https://www.bankier.pl/wiadomosc/Podatek-od-prezentow-weselnych-Fiskus-wyjasnia-kiedy-koperta-jest-bez-podatku-9164024.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ruszył sezon ślubny, a wraz z nim wraca pytanie o weselne koperty. W najnowszej interpretacji fiskus potwierdza, że gotówkowe prezenty od gości nie muszą oznaczać ani podatku, ani zgłoszenia do urzędu skarbowego. Pod warunkiem że kwota od jednej osoby mieści się w limicie dla jej grupy podatkowej li",
+      "title": "Ranking lokat miesięcznych. Dwie podwyżki i najwyższa stawka na rynku",
+      "link": "https://www.bankier.pl/wiadomosc/Najlepsze-lokaty-na-miesiac-lipiec-2026-r-Zmiany-na-podium-zestawienia-9164124.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Oferta na 7,00 proc. rocznie otwiera lipcowe zestawienie najlepszych lokat miesięcznych. W porównaniu do poprzedniego rankingu w tabeli pojawiły się dwie zmiany na plus – BOŚ Bank podniósł stawkę do 4,00 proc. w skali roku, dzięki czemu wskoczył na trzecie miejsce podium (obok Banku Millennium), a I",
       "pubDate": "Tue, 7 Jul 2026 06:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/b/8e9bf926512ea0-948-568-0-380-1707-1024.jpg",
+      "image": "http://galeria.bankier.pl/p/f/6/0fac41fb9fe175-948-568-668-18-1831-1098.jpg",
       "dateISO": "2026-07-07T05:00:00.000Z",
       "dateFormatted": "7 lipca 2026"
     },
@@ -325,14 +697,14 @@
       "dateFormatted": "7 lipca 2026"
     },
     {
-      "title": "Ranking lokat miesięcznych. Dwie podwyżki i najwyższa stawka na rynku",
-      "link": "https://www.bankier.pl/wiadomosc/Najlepsze-lokaty-na-miesiac-lipiec-2026-r-Zmiany-na-podium-zestawienia-9164124.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Oferta na 7,00 proc. rocznie otwiera lipcowe zestawienie najlepszych lokat miesięcznych. W porównaniu do poprzedniego rankingu w tabeli pojawiły się dwie zmiany na plus – BOŚ Bank podniósł stawkę do 4,00 proc. w skali roku, dzięki czemu wskoczył na trzecie miejsce podium (obok Banku Millennium), a I",
+      "title": "Podatek od prezentów weselnych? Fiskus wyjaśnia, kiedy koperta jest bez podatku",
+      "link": "https://www.bankier.pl/wiadomosc/Podatek-od-prezentow-weselnych-Fiskus-wyjasnia-kiedy-koperta-jest-bez-podatku-9164024.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ruszył sezon ślubny, a wraz z nim wraca pytanie o weselne koperty. W najnowszej interpretacji fiskus potwierdza, że gotówkowe prezenty od gości nie muszą oznaczać ani podatku, ani zgłoszenia do urzędu skarbowego. Pod warunkiem że kwota od jednej osoby mieści się w limicie dla jej grupy podatkowej li",
       "pubDate": "Tue, 7 Jul 2026 06:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/6/0fac41fb9fe175-948-568-668-18-1831-1098.jpg",
+      "image": "http://galeria.bankier.pl/p/4/b/8e9bf926512ea0-948-568-0-380-1707-1024.jpg",
       "dateISO": "2026-07-07T05:00:00.000Z",
       "dateFormatted": "7 lipca 2026"
     },
@@ -361,42 +733,6 @@
       "dateFormatted": "7 lipca 2026"
     },
     {
-      "title": "Pozwał państwo o zaległą emeryturę. Usłyszał od premiera o nadużyciu prawa",
-      "link": "https://businessinsider.com.pl/prawo/praca/emeryt-pozwal-skarb-panstwa-o-100-tys-zl-uslyszal-od-premiera-o-naduzyciu-prawa/2lb6z07",
-      "description": "Ta historia pokazuje, jak emerytom trudno jest walczyć o sprawiedliwość. 76-letni pan Krzysztof, któremu państwo jest winne blisko 100 tys. zł, został potraktowany arogancko, lekceważąco i bez szacunku. W imieniu premiera Donalda Tuska wypowiada się radca prawny, jako jego pełnomocnik.",
-      "pubDate": "Tue, 07 Jul 2026 04:24:49 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/6txk9kpTURBXy9lYTMzOWM3ZGM3MjIxNDkyNGFhODU4YjQzNDlhNTBhNS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-07T04:24:49.000Z",
-      "dateFormatted": "7 lipca 2026"
-    },
-    {
-      "title": "Chcesz ogarnąć swoje finanse? Doświadczony analityk: wielu popełnia ten sam błąd już na starcie",
-      "link": "https://businessinsider.com.pl/poradnik-finansowy/jak-zaczac-oszczedzac-na-poczatek-zrob-wszystko-zeby-uniknac-tego-bledu/wg9j73h",
-      "description": "\"Dobra, czas poważnie ogarnąć swoje finanse i zacząć oszczędzać\" — jeśli pomyślałeś tak w ciągu ostatnich kilku miesięcy, a budowanie poduszki finansowej wciąż ci nie idzie, to prawdopodobnie popełniasz ten sam błąd. Nie jesteś cierpliwy. Ekspert podpowiada, jak sobie z tym radzić.",
-      "pubDate": "Tue, 07 Jul 2026 04:00:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/KJbk9kpTURBXy8xZDY0ZTBlZTc0M2UwOWVmN2NiNjQzYmMyZmJkMDU5Ni5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-07T04:00:00.000Z",
-      "dateFormatted": "7 lipca 2026"
-    },
-    {
-      "title": "\"Ochrona w szpitalach to fikcja, nie ma dnia bez jakiegoś ataku\". Lekarz po napaści nożownika w szpitalu apeluje o zmiany",
-      "link": "https://businessinsider.com.pl/praca/lekarz-o-ataku-nozownika-w-szpitalu-nie-ma-dnia-bez-agresji/0mg9evl",
-      "description": "Po ataku nożownika w szpitalu w Jastrzębiu-Zdroju lekarz Artur Ploch nie ma złudzeń. — Człowiek, który zaatakował naszych pacjentów i pracowników, chodził po naszym szpitalu boso, rozebrany do połowy i nikt nie zwrócił na niego uwagi — mówi w rozmowie z Business Insider Polska. Opowiada, z jaką agre",
-      "pubDate": "Tue, 07 Jul 2026 04:00:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/dT1k9kpTURBXy85MTlhMTZkMTA3ZDM5ZDkxYmQ3ZTlhYjY0NGNjN2M3MC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-07T04:00:00.000Z",
-      "dateFormatted": "7 lipca 2026"
-    },
-    {
       "title": "Test rakiety wywołał poruszenie na świecie. Waszyngton krytykuje Pekin",
       "link": "https://www.bankier.pl/wiadomosc/Test-rakiety-wywolal-poruszenie-na-swiecie-Waszyngton-krytykuje-Pekin-9164402.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Departament Stany USA wyraził zaniepokojenie chińską próbą rakiety balistycznej o zasięgu międzykontynentalnym (ICBM) wystrzelonej z okrętu podwodnego. Waszyngton wezwał Pekin do zaangażowania się w rozmowy o kontroli zbrojeń i informowania o testach.",
@@ -409,18 +745,6 @@
       "dateFormatted": "7 lipca 2026"
     },
     {
-      "title": "„Złodziej wzywa policję”. Premier Węgier drwi z Orbána, nadchodzi wielki protest",
-      "link": "https://www.bankier.pl/wiadomosc/Zlodziej-wzywa-policje-Premier-Wegier-drwi-z-Orbana-nadchodzi-wielki-protest-9164393.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Partie opozycyjne Fidesz i Chrześcijańsko-Demokratyczna Partia Ludowa (KDNP), które do niedawna tworzyły węgierski rząd pod kierownictwem byłego premiera Viktora Orbana, zapowiedziały na czwartek protest w obronie demokracji. Premier Węgier Peter Magyar ocenił, że to tak, jakby „złodziej wzywał poli",
-      "pubDate": "Mon, 6 Jul 2026 23:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/0/c344bdd3a99478-948-568-224-38-1885-1131.jpg",
-      "dateISO": "2026-07-06T22:20:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
       "title": "Rotacja sektorów ratuje nowojorską giełdę. Dow Jones pobił rekord wszech czasów",
       "link": "https://www.bankier.pl/wiadomosc/Rotacja-sektorow-ratuje-nowojorska-gielde-Dow-Jones-pobil-rekord-wszech-czasow-9164392.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Poniedziałkowa sesja na Wall Street zakończyła się wyraźnymi wzrostami głównych indeksów, a Dow Jones pierwszy raz w historii zamknął dzień powyżej poziomu 53 tys. punktów. Tym samym amerykańskie giełdy kontynuują solidne zwyżki z poprzedniego tygodnia.",
@@ -430,18 +754,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/c/b/f6a2ad61d177f1-948-568-0-0-4000-2399.jpg",
       "dateISO": "2026-07-06T22:06:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Ponad 3500 ofiar trzęsienia ziemi w Wenezueli. Nadzieja gaśnie",
-      "link": "https://www.bankier.pl/wiadomosc/Ponad-3500-ofiar-podwojnego-trzesienia-ziemi-w-Wenezueli-Nadzieja-gasnie-9164379.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Do 3535 wzrosła liczba ofiar śmiertelnych podwójnego trzęsienia ziemi, które 24 czerwca nawiedziło Wenezuelę - poinformował w poniedziałek przewodniczący parlamentu Jorge Rodriguez.",
-      "pubDate": "Mon, 6 Jul 2026 22:04:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/3/9e7266d6741c7b-948-568-22-146-4477-2686.jpg",
-      "dateISO": "2026-07-06T21:04:00.000Z",
       "dateFormatted": "6 lipca 2026"
     },
     {
@@ -457,18 +769,6 @@
       "dateFormatted": "6 lipca 2026"
     },
     {
-      "title": "Kolejny blackout na Kubie. 9,6 mln mieszkańców bez prądu",
-      "link": "https://www.bankier.pl/wiadomosc/Kolejny-blackout-na-Kubie-9-6-mln-mieszkancow-bez-pradu-9164365.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Kuba, licząca 9,6 mln mieszkańców, została w poniedziałek pozbawiona prądu z powodu awarii krajowego systemu energetycznego - poinformowało państwowe przedsiębiorstwo Union Electrica, cytowane przez agencję AFP. Zapewniło, że stara się znaleźć przyczynę blackoutu.",
-      "pubDate": "Mon, 6 Jul 2026 20:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/6/d230d347e15d01-948-568-0-196-3906-2343.jpg",
-      "dateISO": "2026-07-06T19:45:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
       "title": "Ciało Chameneiego dotarło do świętego miasta Kom. Zdjęcia Trumpa ukamieniowane",
       "link": "https://www.bankier.pl/wiadomosc/Cialo-Chameneiego-dotarlo-do-swietego-miasta-Kom-Zdjecia-Trumpa-ukamieniowane-9164364.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W Iranie od weekendu trwają uroczystości pogrzebowe najwyższego przywódcy politycznego i duchowego, ajatollaha Alego Chameneiego. W poniedziałek po masowej procesji pogrzebowej w Teheranie ciało zabitego 28 lutego w amerykańsko-izraelskim ataku duchownego dotarło do świętego dla szyitów miasta Kom.",
@@ -478,174 +778,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/c/f/3a1b8a623c250e-948-568-0-70-2550-1529.jpg",
       "dateISO": "2026-07-06T19:44:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Tyle NFZ wydał w rok. Najwięcej na leczenie szpitalne",
-      "link": "https://businessinsider.com.pl/finanse/nfz-podsumowal-rok-wplywy-ze-skladek-koszty-i-przychody/qcesjlm",
-      "description": "Wydatki NFZ przekroczyły w ubiegły roku 217 mld zł — wynika z przyjętego rocznego sprawozdania z wykonania planu finansowego Funduszu. Największą pozycją w wydatkach było leczenie szpitalne",
-      "pubDate": "Mon, 06 Jul 2026 19:43:32 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/TiZk9kpTURBXy82ODdiYmE0MjYyZGM2NmUyNWJkZjlmMGQzMzlkNTk3ZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-06T19:43:32.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Obowiązkowe systemy w nowych autach. Zmiany właśnie wchodzą w życie",
-      "link": "https://businessinsider.com.pl/gospodarka/przepisy/nowe-unijne-wytyczne-obowiazkowe-systemy-w-samochodach/wtjr43s",
-      "description": "We wtorek zaczną obowiązywać nowe unijne regulacje dotyczące obowiązkowego wyposażenia aut. Chodzi m.in. o systemy rozpoznające zmęczenie kierowcy czy wspomagające awaryjne hamowanie.",
-      "pubDate": "Mon, 06 Jul 2026 19:42:40 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Xp6k9kpTURBXy8xMGJiM2M2NzhmNWExMzVjZDE4MDA2Y2M1ZGVmZGMwZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-06T19:42:40.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Norwegia naciska na Chiny. Zmuszenie Rosji do rozmów pokojowych?",
-      "link": "https://www.bankier.pl/wiadomosc/Norwegia-naciska-na-Chiny-Zmuszenie-Rosji-do-rozmow-pokojowych-9164356.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Minister spraw zagranicznych Norwegii Espen Barth Eide oświadczył w poniedziałek, że jego kraj wezwał Chiny „do wzmocnienia działań na rzecz sprowadzenia Rosji do stołu negocjacyjnego i zawarcia trwałego pokoju w Ukrainie”. Eide uczynił to w trakcie briefingu po spotkaniu w Oslo z szefem dyplomacji ",
-      "pubDate": "Mon, 6 Jul 2026 20:28:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/1/355dd0ed71d3f0-948-568-0-100-4000-2399.jpg",
-      "dateISO": "2026-07-06T19:28:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Sensacyjna wizyta Macrona. Historyczny przełom na Bliskim Wschodzie",
-      "link": "https://www.bankier.pl/wiadomosc/Sensacyjna-wizyta-Macrona-Historyczny-przelom-na-Bliskim-Wschodzie-9164350.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent Francji Emmanuel Macron przybył w poniedziałek w Damaszku - poinformowała AFP. Jak zauważyła agencja, Macron jest pierwszym zachodnim przywódcą, który udał się do Syrii od obalenia reżimu Baszara al-Asada w grudniu 2024 roku.",
-      "pubDate": "Mon, 6 Jul 2026 20:14:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/5/733cbdabff474a-948-568-185-22-2775-1664.jpg",
-      "dateISO": "2026-07-06T19:14:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Nadzwyczajna sesja rady Warszawy. Radni odrzucili wniosek o odwołanie Menciny",
-      "link": "https://www.bankier.pl/wiadomosc/Nadzwyczajna-sesja-rady-Warszawy-Radni-odrzucili-wniosek-o-odwolanie-Menciny-9164343.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Na poniedziałkowej nadzwyczajnej sesji rady Warszawy zwołanej m.in. w związku z sytuacją w Szpitalu Południowym i zwolnieniem sygnalisty w Zarządzie Dróg Miejskich, stawił się prezydent miasta Rafał Trzaskowski. Głosami radnych KO odrzucono wniosek radnych PiS o wezwanie do dymisji wiceprezydenta To",
-      "pubDate": "Mon, 6 Jul 2026 19:53:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/b/e86b5092c6da33-948-568-0-62-3543-2125.jpg",
-      "dateISO": "2026-07-06T18:53:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Słowacja w ścisłej światowej czołówce. Z atomu będą mieć aż 77,7 proc. prądu",
-      "link": "https://www.bankier.pl/wiadomosc/Slowacja-w-scislej-swiatowej-czolowce-Z-atomu-beda-miec-az-77-7-proc-pradu-9164341.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zakończono ładowanie paliwa jądrowego do reaktora czwartego bloku w elektrowni w Mochovcach - poinformowała w poniedziałek spółka Słowackie Elektrownie. Po uruchomieniu reaktora Słowacja będzie miała w miksie energetycznym 77,7 proc. energii z atomu; to jeden z najwyższych wskaźników na świecie.",
-      "pubDate": "Mon, 6 Jul 2026 19:41:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/4/80e325eeadb378-948-568-60-180-3940-2364.jpg",
-      "dateISO": "2026-07-06T18:41:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Kolejna zuchwała kradzież we Francji. Straty sięgają 4 mln euro",
-      "link": "https://businessinsider.com.pl/wiadomosci/kradziez-bizuterii-we-francji-zlodzieje-weszli-do-muzeum-laliquea/12q51pq",
-      "description": "Złodzieje ukradli z francuskiego muzeum biżuterię o wartości około 4 mln euro. \"Na miejscu jako pierwsza pojawiła się sprzątaczka\" — pisze agencja AFP.",
-      "pubDate": "Mon, 06 Jul 2026 18:26:05 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/6xDk9kpTURBXy85NGQxNThlODdiZjgyOThlNTc0YzlkZjE5MjBiN2Y0Zi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-06T18:26:05.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Inwestorzy rzucili się na euroobligacje. Obligacyjny hit Pekao",
-      "link": "https://www.bankier.pl/wiadomosc/Pekao-SA-zakonczyl-subskrypcje-euroobligacji-o-lacznej-wartosci-500-mln-euro-9164335.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Bank Pekao SA zakończył subskrypcję zrównoważonych euroobligacji podporządkowanych Tier 2 serii 7 o łącznej wartości nominalnej 500 mln euro. Stopa redukcji euroobligacji przydzielonych w jednej transzy wyniosła 72,09 proc. - poinformował bank w komunikacie.",
-      "pubDate": "Mon, 6 Jul 2026 19:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/1/c/38398e5f886018-948-568-248-373-1552-931.jpg",
-      "dateISO": "2026-07-06T18:18:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Wołodymyr Zełenski o kluczowej fazie wojny z Rosją. \"Pozostaje tylko jedna niewiadoma\"",
-      "link": "https://businessinsider.com.pl/wiadomosci/zelenski-o-pociskach-do-patriotow-docieraly-doslownie-dzien-przed-zmasowanym-atakiem/5mpj6j1",
-      "description": "Wołodymyr Zełenski oświadczył, że decydująca faza rosyjskiej wojny przeciwko Ukrainie przeniosła się z lądu i morza w przestrzeń powietrzną. \"Bitwa na niebie\" przesądzi o wyniku konfliktu — uważa prezydent Ukrainy.",
-      "pubDate": "Mon, 06 Jul 2026 17:45:50 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/zU0k9kpTURBXy9iYzhmNTJiNGRjODA3NGNiOGU0ODk4ZmYxOWExMGY3NS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-06T17:45:50.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "\"Zamknij się!\" – Awantura w Brukseli z udziałem Brauna. Sypią się kary",
-      "link": "https://www.bankier.pl/wiadomosc/Zamknij-sie-Awantura-w-Brukseli-z-udzialem-Brauna-Sypia-sie-kary-9164322.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Grzegorz Braun utraci dietę europosła za okres dwóch dni i na 20 dni zostanie wykluczony z obrad komisji ds. bezpieczeństwa i obrony — poinformowała przewodnicząca Parlamentu Europejskiego Roberta Metsola. Kara została nałożona w związku z obrażaniem przez niego szefowej unijnej dyplomacji Kai Kalla",
-      "pubDate": "Mon, 6 Jul 2026 18:37:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/3/6abd4bc204a31d-948-568-352-0-2302-1381.jpg",
-      "dateISO": "2026-07-06T17:37:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Regulator wyznaczył wymóg MREL dla Erste. Znamy szczegóły decyzji",
-      "link": "https://www.bankier.pl/wiadomosc/Minimalny-wymog-MREL-grupy-Erste-BP-wyznaczony-na-15-36-proc-TREA-9164308.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Minimalny wymóg dotyczący funduszy własnych i zobowiązań kwalifikowalnych (MREL) dla grupy Erste Bank Polska został wyznaczony na poziomie 15,36 proc. łącznej kwoty ekspozycji na ryzyko (TREA) oraz oraz 5,91 proc. TEM - poinformował bank w komunikacie.",
-      "pubDate": "Mon, 6 Jul 2026 18:02:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/2/0/158b37ad4b074b-948-568-250-224-2250-1349.jpg",
-      "dateISO": "2026-07-06T17:02:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Historyczny skok wydatków na armię. Szef NATO żąda 5 procent PKB na obronność",
-      "link": "https://www.bankier.pl/wiadomosc/Historyczny-skok-wydatkow-na-armie-Szef-NATO-zada-5-procent-PKB-na-obronnosc-9164301.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Kraje europejskie i Kanada zwiększyły już wydatki na obronność do poziomu ok. 4 proc. ich PKB - powiedział sekretarz generalny NATO Mark Rutte w poniedziałek na konferencji prasowej poprzedzającej szczyt NATO w Ankarze, który rozpocznie się we wtorek.",
-      "pubDate": "Mon, 6 Jul 2026 17:52:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/f/85033682358a68-948-568-50-290-3956-2374.jpg",
-      "dateISO": "2026-07-06T16:52:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Voolt zakończył przegląd opcji strategicznych i ma nową strategię rozwoju",
-      "link": "https://www.bankier.pl/wiadomosc/Voolt-zakonczyl-przeglad-opcji-strategicznych-i-ma-nowa-strategie-rozwoju-9164294.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Zarząd Voolt uznał, iż najbardziej perspektywicznym kierunkiem rozwoju spółki jest prowadzenie działalności jako publiczny wehikuł inwestycyjny działający pod marką R Ventures II, koncentrujący się na inwestowaniu własnego kapitału w spółki z obszaru deeptech, ze szczególnym uwzględnieniem biotechno",
-      "pubDate": "Mon, 6 Jul 2026 17:46:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/d/3/a7e9e5b48d3441-948-568-0-81-2508-1504.jpg",
-      "dateISO": "2026-07-06T16:46:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Kosiniak-Kamysz ucina dyskusję: Nie zejdziemy z drogi wspierania Ukrainy",
-      "link": "https://www.bankier.pl/wiadomosc/Kosiniak-Kamysz-ucina-dyskusje-Nie-zejdziemy-z-drogi-wspierania-Ukrainy-9164287.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Łączny koszt zrealizowanych donacji Polski dla Ukrainy wynosi około 16,45 mld zł, z czego 14,9 mld zł przypadło na lata 2022-2023; w latach 2024-2026 ich wartość wyniosła ok. 1,55 mld zł, czyli 9,4 proc. wszystkich donacji - poinformował wicepremier, szef MON Władysław Kosiniak-Kamysz.",
-      "pubDate": "Mon, 6 Jul 2026 17:38:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/3/ce72c421d661ab-948-568-212-372-1153-692.jpg",
-      "dateISO": "2026-07-06T16:38:00.000Z",
       "dateFormatted": "6 lipca 2026"
     },
     {
@@ -661,78 +793,6 @@
       "dateFormatted": "6 lipca 2026"
     },
     {
-      "title": "Przychody grupy BoomBit w czerwcu wyniosły 17,4 mln zł",
-      "link": "https://www.bankier.pl/wiadomosc/Przychody-grupy-BoomBit-w-czerwcu-wyniosly-17-4-mln-zl-9164272.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Grupa BoomBit odnotowała w czerwcu 2026 roku przychody ze sprzedaży na poziomie 17,4 mln zł, co oznacza wzrost o 9,1 proc. rdr oraz spadek o 6 proc. w porównaniu z poprzednim miesiącem - poinformowała spółka w komunikacie.",
-      "pubDate": "Mon, 6 Jul 2026 17:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/b/0/1a402daa606bfe-948-568-0-320-3916-2350.jpg",
-      "dateISO": "2026-07-06T16:18:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Trump ogłasza przełom: Putin chce zakończyć wojnę. Kulisy tajnego planu?",
-      "link": "https://www.bankier.pl/wiadomosc/Trump-oglasza-przelom-Putin-chce-zakonczyc-wojne-Kulisy-tajnego-planu-9164266.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent USA Donald Trump wyraził w poniedziałek przekonanie, że przywódca Rosji Władimir Putin odczuwa presję i chce zakończyć wojnę w Ukrainie. Dodał, że Kijów też chce zakończenia konfliktu. Podkreślił, że będzie o tym rozmawiać na szczycie NATO w Ankarze.",
-      "pubDate": "Mon, 6 Jul 2026 17:14:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/a/29adab5dc82fa3-948-568-30-120-3970-2381.jpg",
-      "dateISO": "2026-07-06T16:14:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "AI zabiera im prace? Jeszcze nie, ale zmienia wymagania",
-      "link": "https://businessinsider.com.pl/praca/nowe-oczekiwania-wobec-specjalistow-sztuczna-inteligencja-podnosi-poprzeczke/8sq0ff2",
-      "description": "Pracujący w branży technologicznej najwyraźniej nie muszą jeszcze obawiać się, że sztuczna inteligencja odbierze im pracę. Jednak technologia coraz mocniej wpływa na zakres umiejętności, które cenią pracodawcy.",
-      "pubDate": "Mon, 06 Jul 2026 16:11:38 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Lg7k9kpTURBXy9mNDZlNmY1ODgxMzA2MTgwZDkwMTg2NDBhMWRlZTU2ZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-06T16:11:38.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Zastanawiasz się, kiedy najlepiej przejść na emeryturę? Podpowiadamy, kiedy zyskasz najwięcej",
-      "link": "https://businessinsider.com.pl/praca/emerytury/zastanawiasz-sie-kiedy-najlepiej-przejsc-na-emeryture-wtedy-zyskasz-najwiecej/eet4fm9",
-      "description": "Przejście na emeryturę to ważna decyzja, która może znacząco wpłynąć na wysokość przyszłego świadczenia. Okazuje się, że nie tylko miesiąc, ale nawet konkretny dzień złożenia wniosku ma duże znaczenie. Sprawdzamy, kiedy najlepiej złożyć wniosek i na co zwrócić uwagę.",
-      "pubDate": "Mon, 06 Jul 2026 15:48:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/kUCk9kpTURBXy9jZmM1YzcxNjg2ZDY1NWMyYTJhZjRhZDM1MjEyN2E3Yi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-06T15:48:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Rekordowy popyt na obligacje PragmaGO. Inwestorzy przynieśli 147 milionów złotych",
-      "link": "https://www.bankier.pl/wiadomosc/Rekordowy-popyt-na-obligacje-PragmaGO-Inwestorzy-przyniesli-147-milionow-zlotych-9164232.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Zarząd PragmaGO zdecydował w sprawie warunkowego przydziału obligacji serii E2 o łącznej wartości nominalnej 80 mln zł. Łączny popyt wyniósł 147 mln zł, najwięcej w historii emisji obligacji PragmaGO - podała spółka w komunikacie.",
-      "pubDate": "Mon, 6 Jul 2026 16:28:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/6/c/55eab85f9d19f3-945-560-0-33-1500-899.jpg",
-      "dateISO": "2026-07-06T15:28:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Nawet 90 tysięcy złotych kary za śmieciówki. Ministra pracy ostrzega: Skala kontroli będzie potężna",
-      "link": "https://www.bankier.pl/wiadomosc/Nawet-90-tysiecy-zlotych-kary-za-smieciowki-Ministra-pracy-ostrzega-Skala-kontroli-bedzie-potezna-9164221.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ministra rodziny, pracy i polityki społecznej Agnieszka Dziemianowicz-Bąk oceniła w poniedziałek, że skala kontroli Państwowej Inspekcji Pracy w sprawie tzw. umów śmieciowych może być znacząca. Nowe przepisy pozwalające na kontrolę umów pomiędzy pracownikami a pracodawcami wejdą w życie w środę.",
-      "pubDate": "Mon, 6 Jul 2026 16:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/b/3f54180c4535ef-945-560-104-47-3707-2224.jpg",
-      "dateISO": "2026-07-06T15:18:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
       "title": "\"Niesprowokowana eskalacja\". Bruksela murem za Polską w sporze o Wołyń i UPA",
       "link": "https://www.bankier.pl/wiadomosc/Niesprowokowana-eskalacja-Bruksela-murem-za-Polska-w-sporze-o-Wolyn-i-tradycje-UPA-9164216.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Parlament Europejski we wtorek na posiedzeniu w Strasburgu przeprowadzi debatę na temat postępów akcesyjnych Ukrainy. Do projektu rezolucji w tej sprawie większość frakcji w izbie zgłosiła poprawki krytyczne wobec nadania jednostce wojskowej nazwy UPA przez prezydenta Wołodymyra Zełenskiego.",
@@ -742,42 +802,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/8/88d8ffa675a228-948-568-0-0-3890-2333.jpg",
       "dateISO": "2026-07-06T15:14:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Donacje dla Ukrainy. MON podał kwotę",
-      "link": "https://businessinsider.com.pl/gospodarka/donacje-dla-ukrainy-i-pociski-do-patriotow-mon-podal-szczegoly/fgfjj0y",
-      "description": "Największe donacje Polski dla Ukrainy były realizowane w latach 2022-2023, a ich szacowany koszt to ok. 15 mld zł — poinformował w poniedziałek MON.",
-      "pubDate": "Mon, 06 Jul 2026 15:12:12 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/tUmk9kpTURBXy9lZjgyNDQxMTFmMTMwNDhmNmUyNTg0MGJlMTRiOWJhZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-06T15:12:12.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Złoty w wąskim kanale, dolar zyskuje. Nowe projekcje inflacji mogą zmienić układ sił",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/notowania-dolara-i-euro-kluczowe-dla-zlotego-co-czeka-rynek-walut/5vglbjm",
-      "description": "W poniedziałek dolar wrócił do zwyżek po słabej końcówce ubiegłego tygodnia, wywołanej słabszymi danymi z rynku pracy, które zmniejszyły prawdopodobieństwo obniżek stóp procentowych.",
-      "pubDate": "Mon, 06 Jul 2026 15:07:25 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Nu8k9kpTURBXy9hZjAyMGRiNWIxOWQwZWQ0ODg2NjE1NzRlOGYzOTdkNC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-06T15:07:25.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Jak utrzymać pozycję lidera rynku motoryzacyjnego w warunkach ceł, konkurencji z Chin i elektryfikacji",
-      "link": "https://businessinsider.com.pl/biznes/volkswagen-group-polska-inwestuje-w-elektromobilnosc-i-produkcje-wywiad-z-carla/txbqm1p",
-      "description": "Skala sprzedaży to dziś tylko jeden z elementów budowania pozycji w branży motoryzacyjnej. Carla Wentzel, prezeska Volkswagen Group Polska, wyjaśnia, na czym opiera się dominacja spółki na polskim rynku oraz jaką rolę odgrywają w niej szerokie portfolio modelowe, rozbudowana sieć posprzedażowa i ofe",
-      "pubDate": "Mon, 06 Jul 2026 15:07:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/ie_k9kqTURBXy80MjYwYjgzYzE5MDMyN2JkNTk2ZDA5NTA2YTE4MjFiYS5qcGVnkZMCzQSwAN4AAaEwAQ",
-      "dateISO": "2026-07-06T15:07:00.000Z",
       "dateFormatted": "6 lipca 2026"
     },
     {
@@ -793,18 +817,6 @@
       "dateFormatted": "6 lipca 2026"
     },
     {
-      "title": "Awantura o rakiety Patriot. PiS żąda pilnego posiedzenia Sejmu",
-      "link": "https://www.bankier.pl/wiadomosc/Awantura-o-rakiety-Patriot-PiS-zada-pilnego-posiedzenia-Sejmu-9164148.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Klub PiS złoży wniosek o dodatkowe posiedzenie Sejmu w tym tygodniu, aby wicepremier, szef MON Władysław Kosiniak-Kamysz przedstawił informacje dot. doniesień o przekazaniu Ukrainie pocisków do systemu Patriot — zapowiedział szef klubu Mariusz Błaszczak. Wniosek w tej sprawie złożył też wicemarszałe",
-      "pubDate": "Mon, 6 Jul 2026 14:53:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/a/c3e2c5bddf91b0-948-567-0-0-1000-599.jpg",
-      "dateISO": "2026-07-06T13:53:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
       "title": "Trwający niedźwiedzi rynek Bitcoina był „dość pocieszający\"",
       "link": "https://pl.investing.com/news/cryptocurrency-news/trwajacy-niedzwiedzi-rynek-bitcoina-byl-dosc-pocieszajacy-1475443",
       "description": "",
@@ -814,30 +826,6 @@
       "category": "gielda",
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
       "dateISO": "2026-07-06T12:59:57.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "Chiński szok uderza w Polskę. Straciliśmy 11 miliardów euro, zagrożone tysiące miejsc pracy",
-      "link": "https://www.bankier.pl/wiadomosc/Chinski-szok-uderza-w-Polske-Stracilismy-11-miliardow-euro-zagrozone-tysiace-miejsc-pracy-9164106.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W 2025 roku europejski przemysł stracił na rzecz chińskiej konkurencji 87 mld euro wartości dodanej, w tym 11,4 mld euro, które pośrednio utraciła polska gospodarka - wynika z opublikowanego w poniedziałek raportu Związku Przedsiębiorców i Pracodawców oraz Ośrodka Studiów Wschodnich.",
-      "pubDate": "Mon, 6 Jul 2026 13:48:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/5/8c0914a1040ba7-948-568-170-0-3830-2297.jpg",
-      "dateISO": "2026-07-06T12:48:00.000Z",
-      "dateFormatted": "6 lipca 2026"
-    },
-    {
-      "title": "MSZ Włoch odpowiada Kremlowi: Pełna solidarność z Polską",
-      "link": "https://www.bankier.pl/wiadomosc/MSZ-Wloch-odpowiada-Kremlowi-Pelna-solidarnosc-z-Polska-9164101.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Szef MSZ Włoch, wicepremier Antonio Tajani zapewnił w poniedziałek o solidarności z Polską w związku z wypowiedziami rzecznika Kremla Dmitrija Pieskowa, który stwierdził, że „Warszawa powinna zastanowić się dobrze nad swoim bezpieczeństwem”.",
-      "pubDate": "Mon, 6 Jul 2026 13:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/8/e90706ae6f6c62-948-568-235-187-1684-1010.jpg",
-      "dateISO": "2026-07-06T12:45:00.000Z",
       "dateFormatted": "6 lipca 2026"
     },
     {
@@ -937,5 +925,5 @@
       "dateFormatted": "3 lipca 2026"
     }
   ],
-  "updatedAt": "2026-07-07T07:39:04.710Z"
+  "updatedAt": "2026-07-07T10:57:15.490Z"
 }
