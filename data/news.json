@@ -1,6 +1,78 @@
 {
   "articles": [
     {
+      "title": "Parlament przyjął poprawkę do konstytucji w celu usunięcia prezydenta",
+      "link": "https://www.bankier.pl/wiadomosc/Parlament-przyjal-poprawke-do-konstytucji-w-celu-usuniecia-prezydenta-9167586.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Parlament Węgier przyjął podczas poniedziałkowego głosowania poprawkę do konstytucji, która ma na celu usunięcie prezydenta Tamasa Sulyoka, powołanego jeszcze przez poprzedni parlament pod kontrolą byłego premiera Viktora Orbana.",
+      "pubDate": "Mon, 13 Jul 2026 20:14:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/4/444ed9afae5880-948-568-0-47-1920-1151.jpg",
+      "dateISO": "2026-07-13T19:14:00.000Z",
+      "dateFormatted": "13 lipca 2026"
+    },
+    {
+      "title": "Macron: Ukraina chce kupić 16 samolotów Rafale i systemy SAMP/T",
+      "link": "https://www.bankier.pl/wiadomosc/Macron-Ukraina-chce-kupic-16-samolotow-Rafale-i-systemy-SAMP-T-9167582.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Francji Emmanuel Macron powiedział w poniedziałek, że Ukraina chce kupić 16 samolotów Rafale i systemy obrony powietrznej SAMP/T. Macron mówił o tym na konferencji prasowej po spotkaniu w Paryżu koalicji chętnych.",
+      "pubDate": "Mon, 13 Jul 2026 20:06:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/c/2089d20eb18212-948-568-0-10-4000-2399.jpg",
+      "dateISO": "2026-07-13T19:06:00.000Z",
+      "dateFormatted": "13 lipca 2026"
+    },
+    {
+      "title": "Wojsko USA potwierdza plan Donalda Trumpa. Cena ropy wystrzeliła",
+      "link": "https://businessinsider.com.pl/gospodarka/cena-ropy-mocno-rosnie-wojsko-usa-potwierdza-blokade-iranu/6gndn54",
+      "description": "Cena ropy gwałtownie rośnie po tym, jak Donald Trump oświadczył, że USA przywrócą blokadę morską Iranu i zaczną pobierać opłatę w cieśninie Ormuz.",
+      "pubDate": "Mon, 13 Jul 2026 18:59:36 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/yWJk9kpTURBXy8xMzk1YWM3MjYwNGFhMGU2NjVkMmM3ZmJlYzk3NzRmNS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-13T18:59:36.000Z",
+      "dateFormatted": "13 lipca 2026"
+    },
+    {
+      "title": "Referendum w ZUS: 97 proc. głosujących poparło strajk. Zakład uważa, że jest bezprzedmiotowe",
+      "link": "https://www.bankier.pl/wiadomosc/Referendum-w-ZUS-97-proc-glosujacych-poparlo-strajk-Zaklad-uwaza-ze-jest-bezprzedmiotowe-9167577.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ponad 21 tys. osób, czyli ok. 97 proc. głosujących w referendum pracowników ZUS opowiedziało się za strajkiem - poinformował przewodniczący Związkowej Alternatywy Piotr Szumlewicz. Chodzi o postulowany wzrost wynagrodzeń zasadniczych o 1200 zł. - Referendum ws. strajku jest bezprzedmiotowe - ocenił ",
+      "pubDate": "Mon, 13 Jul 2026 19:41:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/f/25b78cc6caa966-948-568-210-315-2597-1558.jpg",
+      "dateISO": "2026-07-13T18:41:00.000Z",
+      "dateFormatted": "13 lipca 2026"
+    },
+    {
+      "title": "Zasady refundacji leków dla seniorów do zmiany. Resort szuka oszczędności",
+      "link": "https://businessinsider.com.pl/finanse/bezplatne-leki-dla-seniorow-od-65-r-zycia-ministerstwo-zdrowia-szykuje-zmiany/8qm0x7e",
+      "description": "Resort zdrowia pracuje nad zmianami w refundacji bezpłatnych leków dla seniorów powyżej 65 r. życia — wynika z analizy NFZ, do której dotarła \"Rzeczpospolita\".",
+      "pubDate": "Mon, 13 Jul 2026 18:17:27 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ddzk9kpTURBXy8yMjdiMTU5N2RmY2E5MjMxNzJjODQ2ZWY4NTUyYzBlNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-13T18:17:27.000Z",
+      "dateFormatted": "13 lipca 2026"
+    },
+    {
+      "title": "Takiej inwestycji jeszcze nie było. Rusza budowa Przylądka Pomerania w Świnoujściu",
+      "link": "https://businessinsider.com.pl/gospodarka/rusza-budowa-przyladka-pomerania-w-swinoujsciu-to-inwestycja-za-10-mld-zl/4fnf796",
+      "description": "W Świnoujściu oficjalnie zainaugurowano budowę Głębokowodnego Terminala Kontenerowego Przylądek Pomerania. Minister infrastruktury Dariusz Klimczak podkreślił, że to największa i najbardziej wyczekiwana inwestycja portowa w najnowszej historii Polski, której wartość szacuje się na 10 mld zł.",
+      "pubDate": "Mon, 13 Jul 2026 18:08:57 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/lAhk9kpTURBXy9jNjRhNWFmZDRkMTAwNzJhM2JmNmY0Y2UyZWZlYjNjZi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-13T18:08:57.000Z",
+      "dateFormatted": "13 lipca 2026"
+    },
+    {
       "title": "Śmierć w łazience i taśmy prawdy. Naczelna Izba Lekarska wszczęła czynności w sprawie patomorfologa ze Szpitala Południowego",
       "link": "https://www.bankier.pl/wiadomosc/Smierc-w-lazience-i-tasmy-prawdy-Naczelna-Izba-Lekarska-wszczela-czynnosci-w-sprawie-patologa-ze-Szpitala-Poludniowego-9167565.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Naczelna Izba Lekarska wszczęła czynności w sprawie patomorfologa z Warszawskiego Szpitala Południowego. Złożyła też w jego sprawie zawiadomienie do Naczelnego Rzecznika Odpowiedzialności Zawodowej - poinformowała rzeczniczka NIL Iwona Kania.",
@@ -10,6 +82,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/f/f5563d953c67d7-948-568-1021-309-2728-1636.jpg",
       "dateISO": "2026-07-13T17:55:00.000Z",
+      "dateFormatted": "13 lipca 2026"
+    },
+    {
+      "title": "Siły Systemów Bezzałogowych zaatakowały połączenie energetyczne pomiędzy Krymem a Rosją",
+      "link": "https://www.bankier.pl/wiadomosc/Sily-Systemow-Bezzalogowych-zaatakowaly-polaczenie-energetyczne-pomiedzy-Krymem-a-Rosja-9167563.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ukraińskie bezzałogowce zaatakowały elementy tzw. mostu energetycznego pomiędzy okupowanym Krymem a będącym częścią Rosji Kubaniem, położonym po drugiej stronie cieśniny Kerczeńskiej – poinformował w poniedziałek na Telegramie dowódca Sił Systemów Bezzałogowych Ukrainy, Robert Browdi (Madziar).",
+      "pubDate": "Mon, 13 Jul 2026 18:51:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/6/ef57674d692018-948-568-0-0-4000-2399.jpg",
+      "dateISO": "2026-07-13T17:51:00.000Z",
       "dateFormatted": "13 lipca 2026"
     },
     {
@@ -73,18 +157,6 @@
       "dateFormatted": "13 lipca 2026"
     },
     {
-      "title": "USA nałożyły kolejne sankcje na Kubę wymierzone w aparat represji i turystykę",
-      "link": "https://www.bankier.pl/wiadomosc/USA-nalozyly-kolejne-sankcje-na-Kube-wymierzone-w-aparat-represji-i-turystyke-9167525.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Amerykański Departament Stanu nałożył w poniedziałek sankcje na dziesięć kubańskich podmiotów, w tym paramilitarne bojówki oraz ministerstwo turystyki. Decyzja wpisuje się w politykę zaostrzania kursu wobec Kuby prowadzoną przez administrację Donalda Trumpa.",
-      "pubDate": "Mon, 13 Jul 2026 17:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/1/c11f871c0d7628-948-568-100-100-3900-2339.jpg",
-      "dateISO": "2026-07-13T16:45:00.000Z",
-      "dateFormatted": "13 lipca 2026"
-    },
-    {
       "title": "Historyczne użycie dronów morskich USA. Corsairy zaatakowały irańską bazę nad Ormuzem",
       "link": "https://www.bankier.pl/wiadomosc/Historyczne-uzycie-dronow-morskich-USA-Corsairy-zaatakowaly-iranska-baze-nad-Ormuzem-9167521.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Dowództwo Centralne USA (CENCTOM) poinformowało w poniedziałek, że podczas niedzielnych ataków na Iran po raz pierwszy w historii siły USA użyły dronów morskich Corsair. Bezzałogowców użyto do ataku na bazę marynarki wojennej w Bandar Abbas nad cieśniną Ormuz.",
@@ -128,7 +200,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/5/1/e89c740f794180-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/5/f/f97f4a11579dd1-thumb-1000.jpg",
       "dateISO": "2026-07-13T16:16:00.000Z",
       "dateFormatted": "13 lipca 2026"
     },
@@ -140,7 +212,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/bec068af7bec25-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/2/2/cbeb06dd33a8d3-thumb-1000.jpg",
       "dateISO": "2026-07-13T16:16:00.000Z",
       "dateFormatted": "13 lipca 2026"
     },
@@ -224,7 +296,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/3f1457f4fed800-thumb-1000.jpg",
+      "image": null,
       "dateISO": "2026-07-13T14:58:00.000Z",
       "dateFormatted": "13 lipca 2026"
     },
@@ -277,15 +349,15 @@
       "dateFormatted": "13 lipca 2026"
     },
     {
-      "title": "Znane są imiona i nazwiska ośmiu ofiar zbrodni wołyńskiej w Puźnikach",
-      "link": "https://www.bankier.pl/wiadomosc/Znane-sa-imiona-i-nazwiska-osmiu-ofiar-zbrodni-wolynskiej-w-Puznikach-9167416.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Dzięki pierwszym w historii genetycznym badaniom porównawczym, przywrócono imiona i nazwiska ośmiu ofiarom zbrodni wołyńskiej w Puźnikach. – Na grobie można wreszcie wyryć imię i nazwisko. Człowiek przestaje być anonimową ofiarą historii – powiedziała szefowa MKiDN Marta Cienkowska, wręczając noty i",
-      "pubDate": "Mon, 13 Jul 2026 15:34:00 +0100",
+      "title": "Miliardy za szczepionki na Covid-19. Pfizer chce wyegzekwować wyrok od Polski",
+      "link": "https://www.bankier.pl/wiadomosc/Miliardy-za-szczepionki-na-Covid-19-Pfizer-chce-wyegzekwowac-wyrok-od-Polski-9167410.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wyrok belgijskiego sądu potwierdza znaczenie zobowiązań umownych, które stanowiły podstawę skutecznej europejskiej odpowiedzi na pandemię; Pfizer podejmuje kroki, by zapewnić wykonanie tego wyroku za pomocą przewidzianych prawem mechanizmów egzekucyjnych – przekazała PAP w poniedziałek firma Pfizer.",
+      "pubDate": "Mon, 13 Jul 2026 15:27:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/e/c53423d562c49a-948-568-20-200-3980-2387.jpg",
-      "dateISO": "2026-07-13T14:34:00.000Z",
+      "image": "http://galeria.bankier.pl/p/0/b/3e86376558cef8-948-568-0-0-2506-1503.jpg",
+      "dateISO": "2026-07-13T14:27:00.000Z",
       "dateFormatted": "13 lipca 2026"
     },
     {
@@ -373,18 +445,6 @@
       "dateFormatted": "13 lipca 2026"
     },
     {
-      "title": "Macron: Francja i Europa są gotowe bronić wolności, nawet za cenę krwi",
-      "link": "https://www.bankier.pl/wiadomosc/Macron-Francja-i-Europa-sa-gotowe-bronic-wolnosci-nawet-za-cene-krwi-9167345.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent Francji Emmanuel Macron powiedział w poniedziałek, że Francja i kraje europejskie chcą pokoju, a przy tym są gotowe, by bronić wolności i prawa, nawet - jeśli będzie trzeba - „za cenę krwi”. Francuski prezydent mówił o tym w wystąpieniu do sił zbrojnych przed świętem narodowym 14 lipca.",
-      "pubDate": "Mon, 13 Jul 2026 14:43:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/6/00fc15d24d88bb-948-568-450-90-3550-2129.jpg",
-      "dateISO": "2026-07-13T13:43:00.000Z",
-      "dateFormatted": "13 lipca 2026"
-    },
-    {
       "title": "Ponad miliard euro na polskie drogi. Potężny zastrzyk gotówki na S17 i S74",
       "link": "https://businessinsider.com.pl/gospodarka/s17-i-s74-z-ogromnym-dofinansowaniem-ponad-11-mld-euro-na-nowe-drogi/xwx6tmb",
       "description": "Blisko 205 km nowych dróg ekspresowych zyskało właśnie potężne wsparcie finansowe. Dzięki nowej, trójstronnej umowie do Krajowego Funduszu Drogowego trafi 1,1 mld euro ze środków Europejskiego Banku Inwestycyjnego. Pieniądze te pozwolą na sfinansowanie kluczowych odcinków tras S17 i S74, które zmien",
@@ -394,18 +454,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/J-ak9kpTURBXy81ZmFkYmU2ODk1OWFkNTJmYjM0ZWE1YzljNTlhNGJmNi5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-07-13T13:37:48.000Z",
-      "dateFormatted": "13 lipca 2026"
-    },
-    {
-      "title": "Masowa akcja w Turcji. Prawie tysiąc osób podejrzanych o powiązania z FETO",
-      "link": "https://www.bankier.pl/wiadomosc/Masowa-akcja-w-Turcji-Prawie-tysiac-osob-podejrzanych-o-powiazania-z-FETO-9167354.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Tureccy prokuratorzy nakazali aresztowanie prawie 1 tys. osób podejrzanych o powiązania z kaznodzieją Fetullahem Gulenem, którego władze w Ankarze oskarżają o próbę przeprowadzenia zamachu stanu w 2016 r. - poinformował w poniedziałek minister sprawiedliwości Turcji Akin Gurlek.",
-      "pubDate": "Mon, 13 Jul 2026 14:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/6/da9b7756d675be-945-567-26-0-3473-2084.jpg",
-      "dateISO": "2026-07-13T13:30:00.000Z",
       "dateFormatted": "13 lipca 2026"
     },
     {
@@ -541,18 +589,6 @@
       "dateFormatted": "13 lipca 2026"
     },
     {
-      "title": "Londyn uderza w rosyjski wywiad. Sankcje za cyberszpiegostwo i ataki na infrastrukturę",
-      "link": "https://www.bankier.pl/wiadomosc/Londyn-uderza-w-rosyjski-wywiad-Sankcje-za-cyberszpiegostwo-i-ataki-na-infrastrukture-9167279.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rząd Wielkiej Brytanii ogłosił w poniedziałek nowy pakiet sankcji wymierzonych w osoby i podmioty powiązane z rosyjskimi atakami cybernetycznymi i hybrydowymi. Według Londynu Moskwa prowadzi działania mające na celu sianie chaosu, destabilizację oraz pogłębianie podziałów w Europie.",
-      "pubDate": "Mon, 13 Jul 2026 12:25:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/d/dfa639595ddf16-948-568-0-113-3500-2099.jpg",
-      "dateISO": "2026-07-13T11:25:00.000Z",
-      "dateFormatted": "13 lipca 2026"
-    },
-    {
       "title": "Niemiecki gigant może zwolnić kolejne 50 tys. osób. Szef ostrzega pracowników",
       "link": "https://businessinsider.com.pl/firmy/prezes-volkswagena-potrzebne-moga-byc-kolejne-zwolnienia-chodzi-o-konkurencyjnosc/893465p",
       "description": "Volkswagen przygotowuje się do dalszej restrukturyzacji. Prezes koncernu Oliver Blume w wewnętrznym piśmie do pracowników przyznał, że firma może być zmuszona do kolejnych masowych zwolnień. Powodem są rosnące koszty, słabnące wyniki i coraz silniejsza konkurencja na światowym rynku motoryzacyjnym.",
@@ -637,18 +673,6 @@
       "dateFormatted": "13 lipca 2026"
     },
     {
-      "title": "Drogie paliwo obciąży LOT. Spółka szacuje wzrost kosztów o 1,3 mld zł",
-      "link": "https://www.bankier.pl/wiadomosc/Drogie-paliwo-obciazy-LOT-Spolka-szacuje-wzrost-kosztow-o-1-3-mld-zl-9167256.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wyzwaniem dla krajowego i globalnego rynku paliwa lotniczego jest nie jego dostępność, ale poziom cen. Koszt paliwa lotniczego dla PLL LOT w 2026 r. wzrośnie do ok. 3,6 mld zł z pierwotnie planowanych 2,3 mld zł - podał resort infrastruktury w odpowiedzi na interpelację poselską.",
-      "pubDate": "Mon, 13 Jul 2026 12:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/9/7da6fec8ecd75c-948-568-0-20-3983-2390.jpg",
-      "dateISO": "2026-07-13T11:00:00.000Z",
-      "dateFormatted": "13 lipca 2026"
-    },
-    {
       "title": "Nowa era polskiej energetyki. Minister zapowiada tańszą energię i wielkie inwestycje",
       "link": "https://www.bankier.pl/wiadomosc/Nowa-era-polskiej-energetyki-Minister-zapowiada-tansza-energie-i-wielkie-inwestycje-9167252.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Polska energetyka wchodzi w etap, którego głównymi celami są niskie ceny energii, bezpieczeństwo dostaw i większa odporność systemu – powiedział w poniedziałek minister energii Miłosz Motyka. Zapowiedział rozwój magazynów energii, sieci i udział polskich firm w inwestycjach.",
@@ -718,42 +742,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/rH4k9kpTURBXy9lYzYzY2Y5ODhmMjBiZTc1OGFiMGQyZDc1MzI0NWUwNi5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-07-13T09:49:06.000Z",
-      "dateFormatted": "13 lipca 2026"
-    },
-    {
-      "title": "Cieśnina Ormuz bez kontroli. Iran ostrzega, USA odpowiadają militarnie",
-      "link": "https://businessinsider.com.pl/finanse/handel/ciesnina-ormuz-pod-presja-iran-i-usa-zaostrzaja-konflikt-o-kontrole/h35xjze",
-      "description": "Przez cieśninę Ormuz w niedzielę przepłynęło sześć jednostek, a wszystkie z nich miały wyłączone transpondery. O sprawie poinformowała agencja Bloomberg, opierając się na danych firmy Kpler zajmującej się monitorowaniem ruchu na szlakach morskich.",
-      "pubDate": "Mon, 13 Jul 2026 09:44:42 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Qxmk9kpTURBXy82OWJiOGZkZmI1ODkxMThlMzlmMzRjMGYxYzIyOTViMS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-13T09:44:42.000Z",
-      "dateFormatted": "13 lipca 2026"
-    },
-    {
-      "title": "Urzędy przeżywają oblężenie. Chodzi o przepisy dotyczące działek. Czas do końca sierpnia",
-      "link": "https://businessinsider.com.pl/nieruchomosci/zmiana-dzialek-rolnych-na-budowlane-od-konca-sierpnia-wchodza-nowe-przepisy/t4m4q37",
-      "description": "Urzędy miast i gmin w całej Polsce przeżywają w ostatnim czasie oblężenie związane z masowym składaniem wniosków o przekształcenie działek rolnych na budowlane. Wszystko przez przepisy, które mają wejść w życie pod koniec sierpnia. To wtedy minie termin na uchwalenie tzw. planów ogólnych.",
-      "pubDate": "Mon, 13 Jul 2026 09:39:06 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/6HSk9kpTURBXy84MWRlZjA5NWUyMDliMzc4NDA4NTQzNTUyNGJmY2E0OC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-13T09:39:06.000Z",
-      "dateFormatted": "13 lipca 2026"
-    },
-    {
-      "title": "Oto ile wydajemy na wakacyjne zakupy. Polacy nie tną budżetów na urlop",
-      "link": "https://businessinsider.com.pl/finanse/wakacje-2026-polacy-nie-rezygnuja-z-wydatkow-mimo-wysokich-cen/97bgxzb",
-      "description": "Zgodnie z najnowszym raportem Inquiry dotyczącym wakacyjnych zakupów w 2026 r., przeciętny Polak planujący urlop zamierza wydać na ten cel 1002 zł. Pomimo utrzymujących się wysokich cen, niemal połowa ankietowanych nie zamierza modyfikować swojego budżetu przeznaczonego na letnie wydatki.",
-      "pubDate": "Mon, 13 Jul 2026 09:13:22 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/okVk9kpTURBXy84MjFiMjdlMWQ1ZGZkMzRjMzM3MTQ0MDhjYmMxNWI5NS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-13T09:13:22.000Z",
       "dateFormatted": "13 lipca 2026"
     },
     {
@@ -913,5 +901,5 @@
       "dateFormatted": "7 lipca 2026"
     }
   ],
-  "updatedAt": "2026-07-13T17:55:13.316Z"
+  "updatedAt": "2026-07-13T19:23:54.786Z"
 }
