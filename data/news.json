@@ -1,6 +1,30 @@
 {
   "articles": [
     {
+      "title": "Mój blok oddawał sedno lat 90. Za taką Polską dziś tęsknię",
+      "link": "https://businessinsider.com.pl/wiadomosci/chory-kraj-z-dobrymi-rokowaniami-tesknie-za-polska-lat-90/rvg0k13",
+      "description": "Jak się żyło w latach 90. w Polsce? Był to biedny, zacofany kraj z patologiami na każdym kroku. Mimo tego kilka niezwykle istotnych rzeczy robiliśmy zdecydowanie lepiej niż dzisiaj.",
+      "pubDate": "Sun, 19 Jul 2026 05:00:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/vnxk9kpTURBXy81NDcxOGIzNGRiZWYzNDk1NGIxYmVlYzQwOWVjYzY3Yi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-19T05:00:00.000Z",
+      "dateFormatted": "19 lipca 2026"
+    },
+    {
+      "title": "Reforma PIP. Prawniczka wskazuje na mity, które firmę mogą kosztować fortunę",
+      "link": "https://businessinsider.com.pl/prawo/praca/reforma-pip-te-bledy-moga-kosztowac-pracodawcow-fortune/bl2xh8b",
+      "description": "Reforma Państwowej Inspekcji Pracy to jedno z największych wyzwań dla pracodawców i firm w ostatnich latach. Wraz z nią wokół modelu B2B narosło wiele mitów i fałszywych przekonań, które mogą skończyć się kontrolą, zakwestionowaniem współpracy i wysokimi kosztami dla przedsiębiorstwa. Katarzyna Łody",
+      "pubDate": "Sun, 19 Jul 2026 04:50:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/pnwk9kpTURBXy9iZWZjNzU4NTBhOTA3NGRjZTg0ODY2ZmIyYTI1YzNiOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-19T04:50:00.000Z",
+      "dateFormatted": "19 lipca 2026"
+    },
+    {
       "title": "Nowa arena politycznej komunikacji. Dlaczego partie nie mogą ignorować TikToka?",
       "link": "https://www.bankier.pl/wiadomosc/Nowa-arena-politycznej-komunikacji-Dlaczego-partie-nie-moga-ignorowac-TikToka-9169073.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Partie wykorzystują trendy TikToka w komunikacji z wyborcami, a ich nagrania zdobywają setki tysięcy wyświetleń. - TikTok jest drugą pod względem liczby użytkowników platformą w Polsce, dlatego trudno, by politycy go pomijali - powiedział PAP ekspert ds. wizerunku politycznego Mateusz Sabat.",
@@ -553,30 +577,6 @@
       "dateFormatted": "18 lipca 2026"
     },
     {
-      "title": "Kurs TRY/PLN 16 lipca 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-liry-turckiej-dzisiaj-po-ile-jest-lira-turecka-16-lipca-2026-r/j1srxyl",
-      "description": "Zapraszamy do zapoznania się z najnowszymi notowaniami zmian kursu tureckiej liry. Są one szczególnie intersujące dla turystów. Turcja to jeden z najpopularniejszych kierunków urlopowych dla Polaków.",
-      "pubDate": "Sat, 18 Jul 2026 11:58:20 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/vu6k9kpTURBXy80ZDIyZWMwNmUwMjlkYWU3ZmQ2YTE2ZGRlOGFhYWE3NC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-18T11:58:20.000Z",
-      "dateFormatted": "18 lipca 2026"
-    },
-    {
-      "title": "Zara wyprzedziła Gucci, to jednak nie koniec. Wkrótce może przebić Hermesa",
-      "link": "https://businessinsider.com.pl/gospodarka/inditex-wyprzedzil-wlasciciela-gucci-zara-zbliza-sie-do-hermesa/819qsm8",
-      "description": "Koncern Inditex, który zarządza markami takimi, jak Zara, Massimo Dutti, Bershka, Stradivarius czy Pull&Bear jest warta więcej niż Kering, do którego należy dom mody Gucci — informuje \"Rzeczpospolita\". Wkrótce hiszpański koncern może przebić kolejne przedsiębiorstwo, oferujące luksusowe produkty — H",
-      "pubDate": "Sat, 18 Jul 2026 11:42:05 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/oQRk9kpTURBXy9jNzY3MGI4N2VmMDhkYTU3YmM3ZWI3NmFjYTUyZTQ2Ni5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-18T11:42:05.000Z",
-      "dateFormatted": "18 lipca 2026"
-    },
-    {
       "title": "Bitcoin odrabia straty i zbliża się do 65 tys. $",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-odrabia-straty-i-zmierza-ku-64-000--1491531",
       "description": "",
@@ -901,5 +901,5 @@
       "dateFormatted": "13 lipca 2026"
     }
   ],
-  "updatedAt": "2026-07-19T02:47:57.349Z"
+  "updatedAt": "2026-07-19T06:30:23.065Z"
 }
