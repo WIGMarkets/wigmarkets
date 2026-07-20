@@ -1,14 +1,62 @@
 {
   "articles": [
     {
-      "title": "Giełda od 21 VII tymczasowo zawiesza obrót akcjami Novaturas",
-      "link": "https://www.bankier.pl/wiadomosc/Gielda-od-21-VII-tymczasowo-zawiesza-obrot-akcjami-Novaturas-9170853.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Zarząd Giełdy postanowił zawiesić obrót akcjami spółki AB Novaturas począwszy od 21 lipca do dnia poprzedzającego wprowadzenie akcji nowej emisji do obrotu na Głównym Rynku GPW - wynika z uchwały GPW.",
-      "pubDate": "Mon, 20 Jul 2026 19:46:00 +0100",
+      "title": "Niemrawe otwarcie tygodnia na nowojorskich giełdach",
+      "link": "https://www.bankier.pl/wiadomosc/Niemrawe-otwarcie-tygodnia-na-nowojorskich-gieldach-9170894.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Poniedziałkowa sesja na Wall Street zakończyła się lekkimi spadkami głównych indeksów, chociaż w ciągu dnia w ślad za rosnącymi notowaniami producentów półprzewodników w górę szedł Nasdaq.",
+      "pubDate": "Mon, 20 Jul 2026 22:10:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/d/1/785f181c53f0ce-thumb-1000.jpg",
+      "image": "http://galeria.bankier.pl/p/a/1/4a7d0c408cf553-948-568-97-22-2902-1741.jpg",
+      "dateISO": "2026-07-20T21:10:00.000Z",
+      "dateFormatted": "20 lipca 2026"
+    },
+    {
+      "title": "Akcjonariusz Mostostalu Warszawa chce, by NWZ głosowało nad emisją z prawem poboru i bez",
+      "link": "https://www.bankier.pl/wiadomosc/Akcjonariusz-Mostostalu-Warszawa-chce-by-NWZ-glosowalo-nad-emisja-z-prawem-poboru-i-bez-9170883.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Akcjonariusz Mostostalu Warszawa - Otwarty Fundusz Emerytalny PZU \"Złota Jesień\" chce, by ZWZ spółki, zwołane na 29 lipca, zdecydowało w sprawie emisji nowych akcji serii VI bez prawa poboru i w sprawie emisji tych akcji z prawem poboru - poinformowała spółka w komunikacie.",
+      "pubDate": "Mon, 20 Jul 2026 21:14:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/e/8/3f1457f4fed800-thumb-1000.jpg",
+      "dateISO": "2026-07-20T20:14:00.000Z",
+      "dateFormatted": "20 lipca 2026"
+    },
+    {
+      "title": "NWZ cyber_Folks zdecydowało o ustanowieniu programu motywacyjnego",
+      "link": "https://www.bankier.pl/wiadomosc/NWZ-cyber-Folks-zdecydowalo-o-ustanowieniu-programu-motywacyjnego-9170866.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "NWZ cyber_Folks zdecydowało o ustanowieniu programu motywacyjnego - wynika z uchwał podjętych przez poniedziałkowe walne zgromadzenie. Nie została podjęta uchwała w sprawie emisji warrantów subskrypcyjnych.",
+      "pubDate": "Mon, 20 Jul 2026 20:14:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/5/f/f97f4a11579dd1-thumb-1000.jpg",
+      "dateISO": "2026-07-20T19:14:00.000Z",
+      "dateFormatted": "20 lipca 2026"
+    },
+    {
+      "title": "Larq i Wise Ventures ASI zamierzają ogłosić wezwanie na sprzedaż akcji Larq po cenie 2,29 zł/szt.",
+      "link": "https://www.bankier.pl/wiadomosc/Larq-i-Wise-Ventures-ASI-zamierzaja-oglosic-wezwanie-na-sprzedaz-akcji-Larq-po-cenie-2-29-zl-szt-9170864.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Larq oraz Wise Ventures ASI zamierzają ogłosić wezwanie do zapisywania się na sprzedaż 6.812.104 akcji Larq. Cena, po jakiej wzywający zamierzają nabywać akcje to 2,29 zł za papier - poinformowało Q Securities, podmiot pośredniczący, w poniedziałkowym komunikacie.",
+      "pubDate": "Mon, 20 Jul 2026 20:04:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/9/3/8d6d4df8d08771-thumb-1000.jpg",
+      "dateISO": "2026-07-20T19:04:00.000Z",
+      "dateFormatted": "20 lipca 2026"
+    },
+    {
+      "title": "Trump grozi Iranowi po śmierci amerykańskich żołnierzy",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-grozi-Iranowi-po-smierci-amerykanskich-zolnierzy-9170839.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Za każdym razem, gdy Iran zabije amerykańskiego żołnierza, poniesie wielokrotnie gorsze konsekwencje - zagroził w poniedziałek prezydent USA Donald Trump. USA potwierdziły śmierć trzech żołnierzy amerykańskich w miniony weekend na Bliskim Wschodzie.",
+      "pubDate": "Mon, 20 Jul 2026 19:46:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/5/71494a2eab111b-948-568-248-9-3567-2140.jpg",
       "dateISO": "2026-07-20T18:46:00.000Z",
       "dateFormatted": "20 lipca 2026"
     },
@@ -37,6 +85,18 @@
       "dateFormatted": "20 lipca 2026"
     },
     {
+      "title": "Wielka Brytania ma nowego ministra finansów. Wcześniej był w resorcie obrony",
+      "link": "https://businessinsider.com.pl/polityka/zmiany-na-downing-street-john-healey-przechodzi-z-obrony-do-finansow/0jpv6xv",
+      "description": "John Healey objął stanowisko ministra finansów w gabinecie premiera Andy'ego Burnhama. Nominację potwierdziło w poniedziałek Downing Street, kilka godzin po zmianie na fotelu szefa brytyjskiego rządu.",
+      "pubDate": "Mon, 20 Jul 2026 18:20:44 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/04Fk9kpTURBXy8zM2VmOWVmMTE0ODc0NzE4NDMwMThlMDVhYmNlNGI1ZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-20T18:20:44.000Z",
+      "dateFormatted": "20 lipca 2026"
+    },
+    {
       "title": "Zagrożona niezależność TVN24? Potężna fuzja gigantów pod lupą unijnych urzędników",
       "link": "https://www.bankier.pl/wiadomosc/Zagrozona-niezaleznosc-TVN24-Potezna-fuzja-gigantow-pod-lupa-unijnych-urzednikow-9170826.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Proponowane przejęcie Warner Bros. Discovery przez Paramount Skydance może bezpośrednio zagrozić niezależności stacji TVN24 - ostrzegła w poniedziałek organizacja Reporterzy bez Granic (RSF). Grupa zaapelowała do Komisji Europejskiej, by zgodę na ewentualne przejęcie uwarunkowała gwarancjami dla TVN",
@@ -46,18 +106,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/d/e/9d4479c6787148-948-568-0-170-4000-2399.jpg",
       "dateISO": "2026-07-20T18:10:00.000Z",
-      "dateFormatted": "20 lipca 2026"
-    },
-    {
-      "title": "Kernel sprzedał 338 tys. ton oleju w okresie kwiecień - czerwiec 2026 r.",
-      "link": "https://www.bankier.pl/wiadomosc/Kernel-sprzedal-338-tys-ton-oleju-w-okresie-kwiecien-czerwiec-2026-r-9170822.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Kernel Holding sprzedał 338 tys. ton oleju w czwartym kwartale roku obrotowego 2025/26, czyli w okresie kwiecień - czerwiec 2026 r. Oznacza to spadek o 12 proc. rok do roku i spadek o 9 proc. kwartał do kwartału - podała spółka w komunikacie.",
-      "pubDate": "Mon, 20 Jul 2026 18:34:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/82216e487002a2-thumb-1000.jpg",
-      "dateISO": "2026-07-20T17:34:00.000Z",
       "dateFormatted": "20 lipca 2026"
     },
     {
@@ -118,18 +166,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/c/4/69d16c1ceb3e48-948-567-5-32-995-596.jpg",
       "dateISO": "2026-07-20T16:32:00.000Z",
-      "dateFormatted": "20 lipca 2026"
-    },
-    {
-      "title": "Lentex nabył 1 mln akcji własnych po cenie 12,5 zł za akcję",
-      "link": "https://www.bankier.pl/wiadomosc/Lentex-nabyl-1-mln-akcji-wlasnych-po-cenie-12-5-zl-za-akcje-9170786.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Lentex w ramach ogłoszonej oferty zakupu nabył 1 mln akcji własnych po cenie 12,5 zł za akcję - podała spółka w komunikacie.",
-      "pubDate": "Mon, 20 Jul 2026 17:28:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/82216e487002a2-thumb-1000.jpg",
-      "dateISO": "2026-07-20T16:28:00.000Z",
       "dateFormatted": "20 lipca 2026"
     },
     {
@@ -250,18 +286,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/c/b19dbccfa2e7ac-948-568-0-164-2950-1769.jpg",
       "dateISO": "2026-07-20T14:32:00.000Z",
-      "dateFormatted": "20 lipca 2026"
-    },
-    {
-      "title": "PHR przejmie udziały w spółce z obszaru technologii kwantowych; planuje debiut nowego podmiotu na GPW",
-      "link": "https://www.bankier.pl/wiadomosc/PHR-przejmie-udzialy-w-spolce-z-obszaru-technologii-kwantowych-planuje-debiut-nowego-podmiotu-na-GPW-9170703.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "PHR Trade, spółka zależna Polskiego Holdingu Rozwoju, przejmie 100 proc. udziałów w Sonovero R&D, spółce specjalizującej się m.in. w technologiach kwantowych i sztucznej inteligencji. Docelowo PHR Trade będzie rozwijała się jako PHR Quantum, która zakłada debiut na GPW - podał PHR w komunikacie.",
-      "pubDate": "Mon, 20 Jul 2026 15:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": null,
-      "dateISO": "2026-07-20T14:18:00.000Z",
       "dateFormatted": "20 lipca 2026"
     },
     {
@@ -625,18 +649,6 @@
       "dateFormatted": "20 lipca 2026"
     },
     {
-      "title": "Miliard humanoidalnych robotów do 2040 r., przewiduje CEO SoftBank. Jak to wpłynie na świat?",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/rewolucja-humanoidow-czy-miliard-robotow-ai-do-2040-r-odmieni-gospodarke-swiatowa/l0s614j",
-      "description": "Masayoshi Son, założyciel i prezes SoftBank Group (Japonia), podczas corocznej konferencji inwestorskiej przedstawił wizję, która może na zawsze zmienić sposób, w jaki funkcjonuje światowa gospodarka. Według niego do 2040 r. na świecie powstanie 1 mld humanoidów wyposażonych w zaawansowaną sztuczną ",
-      "pubDate": "Mon, 20 Jul 2026 12:00:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Xmlk9kpTURBXy9iNjQxMWE5YjY1YjNlODkzNzM5NzQ3ZWM4YTNlNTNmZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-20T12:00:00.000Z",
-      "dateFormatted": "20 lipca 2026"
-    },
-    {
       "title": "Kosiniak-Kamysz ostro o pomyśle Czarnka: Odcięcie pomocy dla Ukrainy to głupota i zagrożenie",
       "link": "https://www.bankier.pl/wiadomosc/Kosiniak-Kamysz-ostro-o-pomysle-Czarnka-Odciecie-pomocy-dla-Ukrainy-to-glupota-i-zagrozenie-9170570.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Najważniejsza w niedawnej deklaracji prezydenta Ukrainy prezydenta Wołodymyra Zełenskiego jest zmiana nastawienia, języka i podejścia do ekshumacji ofiar zbrodni wołyńskiej w porównaniu do tego, co obserwowano przez ostatnie tygodnie - ocenił w poniedziałek wicepremier, szef MON Władysław Kosiniak-K",
@@ -646,18 +658,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/1/6/55475e6d964a48-948-568-540-67-3420-2051.jpg",
       "dateISO": "2026-07-20T11:59:00.000Z",
-      "dateFormatted": "20 lipca 2026"
-    },
-    {
-      "title": "Dron na drona. Wojsko szuka nowych systemów przechwytujących",
-      "link": "https://www.bankier.pl/wiadomosc/Dron-na-drona-Wojsko-szuka-nowych-systemow-przechwytujacych-9170549.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wojsko rozpoczęło nabór wniosków od producentów i dostawców bezzałogowych platform powietrznych przeznaczonych do zwalczania innych dronów. Mają one likwidować bezzałogowce prowadzące rozeznanie oraz te przenoszące ładunki wybuchowe. Zgłoszenia można przesyłać do 31 lipca tego roku.",
-      "pubDate": "Mon, 20 Jul 2026 12:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/2/680bdab3e3820f-945-560-0-2-1000-599.jpg",
-      "dateISO": "2026-07-20T11:40:00.000Z",
       "dateFormatted": "20 lipca 2026"
     },
     {
@@ -694,18 +694,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/5/23332fe2244a12-948-568-0-4-1991-1194.jpg",
       "dateISO": "2026-07-20T10:58:00.000Z",
-      "dateFormatted": "20 lipca 2026"
-    },
-    {
-      "title": "Niższa inflacja i wyższe wynagrodzenia. Realny wzrost płac przyspieszył",
-      "link": "https://www.bankier.pl/wiadomosc/Nizsza-inflacja-i-wyzsze-wynagrodzenia-Realny-wzrost-plac-przyspieszyl-9170475.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Czerwiec był trzecim miesiącem z rzędu gdy odnotowano realny wzrost płac w sektorze przedsiębiorstw. To efekt niższej inflacji i najnowszych danych GUS o przeciętnych wynagrodzeniach, które okazały się nieco lepsze od prognoz.",
-      "pubDate": "Mon, 20 Jul 2026 09:51:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/6/fd0c78756ad3b0-948-568-0-123-3520-2111.jpg",
-      "dateISO": "2026-07-20T08:51:00.000Z",
       "dateFormatted": "20 lipca 2026"
     },
     {
@@ -757,18 +745,6 @@
       "dateFormatted": "20 lipca 2026"
     },
     {
-      "title": "Rzeź koreańskich \"mrówek\". 300 000 wyzerowanych kont, odwołane śluby i samobójstwa",
-      "link": "https://www.bankier.pl/wiadomosc/Rzez-koreanskich-mrowek-300-000-wyzerowanych-kont-odwolane-sluby-i-samobojstwa-9168336.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Niespełna miesiąc temu główny indeks giełdy w Seulu KOSPI przebił po raz pierwszy w historii 9000 pkt, ale to co nastąpiło później można określić bez większej przesady rzezią inwestorów indywidualnych. Wezwania do uzupełniania depozytów otrzymało ponad milion Koreańczyków, przymusowe likwidacje dotk",
-      "pubDate": "Mon, 20 Jul 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/c/6/2c0619585b51e5-948-568-216-0-2351-1410.jpg",
-      "dateISO": "2026-07-20T05:00:00.000Z",
-      "dateFormatted": "20 lipca 2026"
-    },
-    {
       "title": "Jak pobić rynkowy benchmark? Sztuka selekcji i mądrej dywersyfikacji portfela",
       "link": "https://www.bankier.pl/wiadomosc/Jak-pobic-rynkowy-benchmark-Sztuka-selekcji-i-madrej-dywersyfikacji-portfela-9169918.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "ETF-y (tj. fundusze giełdowe, które odwzorowują wyniki określonych indeksów lub sektorów, np. WIG20 lub S&P 500) zdobywają w Polsce coraz większą popularność, dla wielu osób stając się pierwszym kontaktem z rynkami. Przy wielu zaletach takie instrumenty mają jednak ukryty koszt. Kupując ekspozycję n",
@@ -777,6 +753,18 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/9/1/3ef8a2da2c5b61-945-560-245-262-3255-1952.jpg",
+      "dateISO": "2026-07-20T05:00:00.000Z",
+      "dateFormatted": "20 lipca 2026"
+    },
+    {
+      "title": "Rzeź koreańskich \"mrówek\". 300 000 wyzerowanych kont, odwołane śluby i samobójstwa",
+      "link": "https://www.bankier.pl/wiadomosc/Rzez-koreanskich-mrowek-300-000-wyzerowanych-kont-odwolane-sluby-i-samobojstwa-9168336.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Niespełna miesiąc temu główny indeks giełdy w Seulu KOSPI przebił po raz pierwszy w historii 9000 pkt, ale to co nastąpiło później można określić bez większej przesady rzezią inwestorów indywidualnych. Wezwania do uzupełniania depozytów otrzymało ponad milion Koreańczyków, przymusowe likwidacje dotk",
+      "pubDate": "Mon, 20 Jul 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/c/6/2c0619585b51e5-948-568-216-0-2351-1410.jpg",
       "dateISO": "2026-07-20T05:00:00.000Z",
       "dateFormatted": "20 lipca 2026"
     },
@@ -901,5 +889,5 @@
       "dateFormatted": "14 lipca 2026"
     }
   ],
-  "updatedAt": "2026-07-20T18:04:12.242Z"
+  "updatedAt": "2026-07-20T21:12:34.022Z"
 }
