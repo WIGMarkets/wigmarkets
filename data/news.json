@@ -2,12 +2,12 @@
   "articles": [
     {
       "title": "Na Wall Street tylko lekkie spadki. Inwestorzy czekali na wyniki Google'a",
-      "link": "https://www.bankier.pl/wiadomosc/Na-Wall-Street-tylko-lekkie-spadki-Inwestorzy-czekali-na-wyniki-Google-a-9172042.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "link": "https://www.bankier.pl/wiadomosc/Na-Wall-Street-tylko-lekkie-spadki-Inwestorzy-czekali-na-wyniki-Google-a-9172042.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Środa na Wall Street zakończyła się lekkimi spadkami głównych indeksów, a w centrum uwagi są wyniki Tesli i Alphabetu, które pokażą swoje kwartalne dokonania po zakończeniu sesji. Mocno drożała ropa naftowa.",
       "pubDate": "Wed, 22 Jul 2026 22:10:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
+      "category": "gielda",
       "image": "http://galeria.bankier.pl/p/b/5/136bdbad4ccdd0-948-568-2-70-995-597.jpg",
       "dateISO": "2026-07-22T21:10:00.000Z",
       "dateFormatted": "22 lipca 2026"
@@ -781,18 +781,6 @@
       "dateFormatted": "21 lipca 2026"
     },
     {
-      "title": "Wycena SpaceX skurczyła się o bilion dolarów. Spółka Muska przed kluczową datą",
-      "link": "https://www.bankier.pl/wiadomosc/Wycena-SpaceX-skurczyla-sie-o-bilion-dolarow-Spolka-Muska-przed-kluczowa-data-9170959.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Akcje SpaceX zamknęły poniedziałkową sesję na nowym dołku, zaliczając siódmy spadkowy dzień z rzędu. Od czerwcowego szczytu wycena kosmicznego giganta skurczyła się o ponad bilion dolarów, spychając kurs coraz dalej od ceny z debiutu. W cieniu kiepskiej passy na notowaniach spółka Elona Muska oficja",
-      "pubDate": "Tue, 21 Jul 2026 08:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/1/6/1a4aeee395b186-948-568-10-100-3990-2393.jpg",
-      "dateISO": "2026-07-21T07:10:00.000Z",
-      "dateFormatted": "21 lipca 2026"
-    },
-    {
       "title": "Bitcoin zbliża się do 66 tys. $, gdy napływy do ETF odżywają",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-zbliza-sie-do-66-tys--gdy-naplywy-do-etf-odzywaja-1493544",
       "description": "",
@@ -913,5 +901,5 @@
       "dateFormatted": "15 lipca 2026"
     }
   ],
-  "updatedAt": "2026-07-22T21:08:23.903Z"
+  "updatedAt": "2026-07-22T23:04:16.396Z"
 }
