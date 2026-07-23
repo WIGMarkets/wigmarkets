@@ -1,9 +1,33 @@
 {
   "articles": [
     {
+      "title": "Mocna przecena na Wall Street. Ropa, Trump, Tesla , Google i cała reszta",
+      "link": "https://www.bankier.pl/wiadomosc/Mocna-przecena-na-Wall-Street-Ropa-Trump-Tesla-Google-i-cala-reszta-9172656.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Kombinacja eskalacji wojny z Iranem, zwyżkujących notowań ropy naftowej oraz rozczarowanie wynikami Google’a i Tesli sprawiły, że czwartkowa sesja na nowojorskich giełdach zakończyła się dotkliwymi spadkami głównych indeksów.",
+      "pubDate": "Thu, 23 Jul 2026 22:03:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/f/c/fb5341436b4ac0-948-568-530-360-2800-1680.jpg",
+      "dateISO": "2026-07-23T21:03:00.000Z",
+      "dateFormatted": "23 lipca 2026"
+    },
+    {
+      "title": "Polska złożyła USA ofertę. Chcemy produkować pociski Patriot",
+      "link": "https://businessinsider.com.pl/gospodarka/wspolna-produkcja-patriotow-polska-wychodzi-z-inicjatywa-do-usa-i-ukrainy/cn9d954",
+      "description": "Wiceminister obrony narodowej Magdalena Sobkowiak-Czarnecka powiedziała w czwartek w Waszyngtonie, że zaproponowała stronie amerykańskiej produkcję pocisków do systemów Patriot we współpracy z USA i Ukrainą. Dodała, że \"chodzi o to, by ta produkcja odbywała się w miejscu bezpiecznym\", czyli w Polsce",
+      "pubDate": "Thu, 23 Jul 2026 19:36:38 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/xCjk9kpTURBXy8wNTc1N2VhMDY1MjZkNDc5ZmU5YmI1ZDBhMmY3ZjFlMi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-07-23T19:36:38.000Z",
+      "dateFormatted": "23 lipca 2026"
+    },
+    {
       "title": "Rekordowa kara Unii dla Google. Administracja Trumpa reaguje",
       "link": "https://businessinsider.com.pl/prawo/google-ukarany-przez-ue-rekordowa-grzywna-usa-ostrzegaja-przed-kryzysem/1vz43hc",
-      "description": "Przedstawiciel USA ds. handlu Jamieson Greer zareagował w czwartek na nałożoną tego dnia przez UE karę na firmę Google wysokości 890 mln euro i oznajmił, że tworzy to \"poważny klimat niepewności\" w relacjach Stanów Zjednoczonych ze Wspólnotą i ryzyko w stosunkach transatlantyckich.",
+      "description": "Przedstawiciel USA ds. handlu Jamieson Greer zareagował w czwartek na nałożoną tego dnia przez UE karę na firmę Google wysokości 890 mln euro. Oznajmił, że tworzy to ryzyko w stosunkach transatlantyckich.",
       "pubDate": "Thu, 23 Jul 2026 19:06:16 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -68,7 +92,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/7/4/2ce22f1888d615-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/e/8/bec068af7bec25-thumb-1000.jpg",
       "dateISO": "2026-07-23T17:38:00.000Z",
       "dateFormatted": "23 lipca 2026"
     },
@@ -166,18 +190,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/6/c695cd28142089-948-568-5-140-1991-1195.jpg",
       "dateISO": "2026-07-23T16:40:00.000Z",
-      "dateFormatted": "23 lipca 2026"
-    },
-    {
-      "title": "Eurotel nabył 28.908 akcji własnych po cenie 31,50 zł/szt.",
-      "link": "https://www.bankier.pl/wiadomosc/Eurotel-nabyl-28-908-akcji-wlasnych-po-cenie-31-50-zl-szt-9172548.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Eurotel, w ramach zaproszenia do składania ofert sprzedaży akcji spółki, nabył 28.908 akcji po cenie 31,50 zł za jedną akcję - podał Eurotel w komunikacie.",
-      "pubDate": "Thu, 23 Jul 2026 17:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/1/0/32ef436f61248c-thumb-1000.jpg",
-      "dateISO": "2026-07-23T16:20:00.000Z",
       "dateFormatted": "23 lipca 2026"
     },
     {
@@ -673,18 +685,6 @@
       "dateFormatted": "23 lipca 2026"
     },
     {
-      "title": "Celne uderzenie Ukrainy w rosyjski handel i rafinerie. Cios w łańcuchy dostaw",
-      "link": "https://businessinsider.com.pl/gospodarka/cios-w-rosyjski-przemysl-naftowy-wazne-obiekty-wstrzymuja-produkcje/1xpqr0s",
-      "description": "W nocy ze środy na czwartek siły zbrojne Ukrainy ponownie przeprowadziły ataki na magazyny Wildberries i obiekty kompleksu paliwowo-energetycznego w Rosji. Seria uderzeń w strategiczną infrastrukturę — od przesyłu surowców po hale dystrybucyjne — sprawia, że rosyjski biznes z dnia na dzień traci gwa",
-      "pubDate": "Thu, 23 Jul 2026 11:04:10 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/hNXk9kpTURBXy9lNjg5YTBhNjYxNDExNzNlZjBlYTRhMDIzN2IxODI2My5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-07-23T11:04:10.000Z",
-      "dateFormatted": "23 lipca 2026"
-    },
-    {
       "title": "Google ukarane na 890 mln euro za faworyzowanie własnych usług i blokowanie konkurencji",
       "link": "https://www.bankier.pl/wiadomosc/Google-ukarane-na-890-mln-euro-za-faworyzowanie-wlasnych-uslug-i-blokowanie-konkurencji-9172277.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Komisja Europejska poinformowała w czwartek o nałożeniu kary w wysokości 890 mln euro na Google. Według KE koncern złamał unijne przepisy Aktu o rynkach cyfrowych (DMA), faworyzując własne usługi w wyszukiwarce Google i ograniczając dostęp do alternatywnych, często tańszych ofert w sklepie Google Pl",
@@ -949,5 +949,5 @@
       "dateFormatted": "15 lipca 2026"
     }
   ],
-  "updatedAt": "2026-07-23T19:18:46.169Z"
+  "updatedAt": "2026-07-23T21:05:15.423Z"
 }
