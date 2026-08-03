@@ -1,6 +1,30 @@
 {
   "articles": [
     {
+      "title": "Goldman Sachs liderem obrotów na rynku akcji GPW w lipcu, drugi BoFA",
+      "link": "https://www.bankier.pl/wiadomosc/Goldman-Sachs-liderem-obrotow-na-rynku-akcji-GPW-w-lipcu-drugi-BoFA-9177447.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Goldman Sachs w lipcu 2026 roku był liderem obrotów na rynku akcji w transakcjach sesyjnych GPW. Na drugim miejscu znalazł się Bank of America Securities - podała GPW na stronie internetowej.",
+      "pubDate": "Mon, 3 Aug 2026 22:18:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/7/4/2ce22f1888d615-thumb-1000.jpg",
+      "dateISO": "2026-08-03T21:18:00.000Z",
+      "dateFormatted": "3 sierpnia 2026"
+    },
+    {
+      "title": "Zwyżka ulgi na Wall Street. Rekordowy kurs zamknięcia Dow Jonesa",
+      "link": "https://www.bankier.pl/wiadomosc/Zwyzka-ulgi-na-Wall-Street-Rekordowy-kurs-zamkniecia-Dow-Jonesa-9177444.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Nadzieja na odblokowanie dostaw ropy naftowej z Zatoki Perskiej w poniedziałek była głównym katalizatorem zwyżki ulgi na nowojorskich giełdach. Stara średnia przemysłowa Dow Jonesa wyznaczyła nowy historyczny rekord liczony po kursach zamknięcia.",
+      "pubDate": "Mon, 3 Aug 2026 22:06:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/d/2/3f4b995f302ca5-948-568-0-327-4010-2406.jpg",
+      "dateISO": "2026-08-03T21:06:00.000Z",
+      "dateFormatted": "3 sierpnia 2026"
+    },
+    {
       "title": "Saudyjskie statki omijają blokadę Huti. Opływają Afrykę",
       "link": "https://businessinsider.com.pl/wiadomosci/blokada-huti-na-morzu-czerwonym-saudyjskie-statki-zmieniaja-kurs/t21et8z",
       "description": "Saudyjskie statki omijają blokadę Huti, zmieniając trasę i opływając Afrykę. To wydłuża podróż o około dwa tygodnie.",
@@ -649,18 +673,6 @@
       "dateFormatted": "3 sierpnia 2026"
     },
     {
-      "title": "Orlen pod presją cen paliw. Minister wskazuje na minimalne marże",
-      "link": "https://www.bankier.pl/wiadomosc/Zakres-promocji-Orlenu-dot-cen-paliw-wymaga-pewnego-rozszerzenia-Motyka-ME-9177133.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Deklaracja ze strony prezesa Orlenu jest dość jednoznaczna, marże detaliczne są obniżone do minimum - poinformował dziennikarzy w kuluarach konferencji w Gaz-Systemie minister energii Miłosz Motyka. Zauważył jednocześnie, że pewnego rozszerzenia wymaga zakres promocji Orlenu dot. cen paliw.",
-      "pubDate": "Mon, 3 Aug 2026 12:12:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/b/f/dc5e6b9e1a33d9-948-568-50-110-3595-2157.jpg",
-      "dateISO": "2026-08-03T11:12:00.000Z",
-      "dateFormatted": "3 sierpnia 2026"
-    },
-    {
       "title": "Znajomy prosi o głos na Zofię. Tak oszuści przejmują konta na WhatsAppie",
       "link": "https://www.bankier.pl/wiadomosc/Znajomy-prosi-o-glos-na-Zofie-Tak-oszusci-przejmuja-konta-na-WhatsAppie-9177111.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Wiadomość przychodzi z konta osoby zapisanej w telefonie. Nadawca prosi o głos na dziewczynkę walczącą o stypendium i podaje link do konkursu. Potem pojawia się fałszywa weryfikacja przez WhatsApp. Zeskanowanie kodu QR lub przepisanie kodu z aplikacji pozwala oszustowi powiązać własne urządzenie z k",
@@ -766,18 +778,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/f/1/e537ac3e7de13f-948-568-0-0-1920-1151.jpg",
       "dateISO": "2026-08-03T07:47:00.000Z",
-      "dateFormatted": "3 sierpnia 2026"
-    },
-    {
-      "title": "Ceny miedzi w Londynie rosną i przedłużają lipcowe zwyżki",
-      "link": "https://www.bankier.pl/wiadomosc/Ceny-miedzi-w-Londynie-rosna-i-przedluzaja-lipcowe-zwyzki-9177003.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Notowania miedzi na giełdzie metali LME w Londynie rosną i przedłużają lipcowe zwyżki - informują maklerzy.",
-      "pubDate": "Mon, 3 Aug 2026 07:55:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/d/8/715aae4aff42d9-945-560-0-0-1000-599.jpg",
-      "dateISO": "2026-08-03T06:55:00.000Z",
       "dateFormatted": "3 sierpnia 2026"
     },
     {
@@ -937,5 +937,5 @@
       "dateFormatted": "27 lipca 2026"
     }
   ],
-  "updatedAt": "2026-08-03T19:38:03.789Z"
+  "updatedAt": "2026-08-03T21:03:17.060Z"
 }
