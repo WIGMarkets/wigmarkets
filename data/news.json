@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Euforia na Wall Street. S&P500 wybił przez sufit",
+      "link": "https://www.bankier.pl/wiadomosc/Euforia-na-Wall-Street-S-P500-wybil-przez-sufit-9177963.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "S&P500 z impetem wybił się na nowe szczyty wszech czasów. Dow Jones ustanowił nowy historyczny rekord. A Nasdaq zaliczył trzecią silnie wzrostową sesję z rzędu.",
+      "pubDate": "Tue, 4 Aug 2026 22:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/8/1/ac8359aa06920e-948-569-7-72-991-595.jpg",
+      "dateISO": "2026-08-04T21:20:00.000Z",
+      "dateFormatted": "4 sierpnia 2026"
+    },
+    {
       "title": "Tyle koncerny naftowe zarobiły w trakcie wojny. \"Robią nas w balona\"",
       "link": "https://businessinsider.com.pl/biznes/fala-upalow-i-wojna-z-iranem-koncerny-naftowe-zarobily-astronomiczna-kwote/kjgbgde",
       "description": "Osiem największych koncernów naftowych osiągnęło zyski przekraczające 90 mld dol. w ciągu zaledwie trzech miesięcy — podaje \"The Guardian\". \"Robią nas w balona, ​​skoro nawet Donald Trump wzywa je do ukrócenia żerowania na wysokich cenach\" — ocenia jeden z ekspertów.",
@@ -202,18 +214,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/6/9cbdf452b88478-948-568-0-763-1920-1151.jpg",
       "dateISO": "2026-08-04T16:14:00.000Z",
-      "dateFormatted": "4 sierpnia 2026"
-    },
-    {
-      "title": "Rekordowy lipiec na giełdzie. Obroty akcjami na GPW wzrosły o ponad 41 procent",
-      "link": "https://www.bankier.pl/wiadomosc/Obroty-akcjami-na-GPW-w-lipcu-wzrosly-o-41-8-proc-rdr-do-58-1-mld-zl-9177865.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Łączna wartość obrotu akcjami na Głównym Rynku GPW w lipcu 2026 r. wyniosła 58,1 mld zł, co oznacza wzrost rdr o 41,8 proc. - poinformowała giełda w komunikacie. Wartość obrotu akcjami w ramach arkusza zleceń zwiększyła się o 43,8 proc. rdr do poziomu 57,6 mld zł.",
-      "pubDate": "Tue, 4 Aug 2026 16:58:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/2/0/07f77a059fedc1-948-568-0-124-1765-1059.jpg",
-      "dateISO": "2026-08-04T15:58:00.000Z",
       "dateFormatted": "4 sierpnia 2026"
     },
     {
@@ -901,5 +901,5 @@
       "dateFormatted": "27 lipca 2026"
     }
   ],
-  "updatedAt": "2026-08-04T19:38:08.783Z"
+  "updatedAt": "2026-08-04T21:12:30.474Z"
 }
