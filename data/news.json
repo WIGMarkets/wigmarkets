@@ -649,18 +649,6 @@
       "dateFormatted": "8 sierpnia 2026"
     },
     {
-      "title": "Wall Street z rekordami. Słabe dane z rynku pracy wsparły giełdowe wzrosty",
-      "link": "https://www.bankier.pl/wiadomosc/Wall-Street-z-rekordami-Slabe-dane-z-rynku-pracy-wsparly-gieldowe-wzrosty-9179634.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Piątkowa sesja na Wall Street zakończyła się wzrostami głównych indeksów, gdyż inwestorzy zinterpretowali nieoczekiwaną utratę miejsc pracy w lipcu jako sygnał, że Rezerwa Federalna nie będzie musiała wkrótce podnosić stóp procentowych.",
-      "pubDate": "Fri, 7 Aug 2026 23:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/9/d/169b58f5c57319-948-568-22-134-2977-1786.jpg",
-      "dateISO": "2026-08-07T22:30:00.000Z",
-      "dateFormatted": "7 sierpnia 2026"
-    },
-    {
       "title": "Seria chińskich statków popłynie trasą arktyczną. Rosjanie wydali zezwolenia",
       "link": "https://businessinsider.com.pl/gospodarka/chinskie-statki-ruszaja-nowym-szlakiem-arktyczna-trasa-zamiast-kanalu-sueskiego/yp49k6k",
       "description": "Skoro trasy transportowe na Bliskim Wschodzie są obarczone tak dużym niebezpieczeństwem, to przewoźnicy szukają alternatywy. Chiński armator znalazł ją w porozumieniu z Rosją i trasie arktycznej",
@@ -841,6 +829,18 @@
       "dateFormatted": "6 sierpnia 2026"
     },
     {
+      "title": "Sesja na GPW: Rekordowe spadków początki. Banki w odwrocie",
+      "link": "https://www.bankier.pl/wiadomosc/Sesja-na-GPW-Rekordowe-spadkow-poczatki-Banki-w-odwrocie-9178394.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Środowa sesja na warszawskiej giełdzie zaczęła się od nowych historycznych rekordów, ale skończyła się niewielkimi spadkami głównych indeksów.",
+      "pubDate": "Wed, 5 Aug 2026 17:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/6/d/bd2a3de3e0b8d7-948-568-0-143-4386-2631.jpg",
+      "dateISO": "2026-08-05T16:15:00.000Z",
+      "dateFormatted": "5 sierpnia 2026"
+    },
+    {
       "title": "Bitcoin powyżej 64 tys. $, uwaga skupiona na umowie ws. Hormuz",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-utrzymuje-sie-powyzej-64-tys--w-oczekiwaniu-na-umowe-ws-hormuz-1517786",
       "description": "",
@@ -913,5 +913,5 @@
       "dateFormatted": "28 lipca 2026"
     }
   ],
-  "updatedAt": "2026-08-08T22:29:29.633Z"
+  "updatedAt": "2026-08-09T01:47:00.198Z"
 }
