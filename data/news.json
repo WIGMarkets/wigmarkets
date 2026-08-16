@@ -721,18 +721,6 @@
       "dateFormatted": "15 sierpnia 2026"
     },
     {
-      "title": "Lekkie spadki na Wall Street na koniec tygodnia",
-      "link": "https://www.bankier.pl/wiadomosc/Lekkie-spadki-na-Wall-Street-na-koniec-tygodnia-9182734.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Piątkowa sesja na Wall Street zakończyła się lekkimi spadkami głównych indeksów, ale w skali całego tygodnia S&P 500 zanotował trzeci wzrost z rzędu. W górę szły notowania ropy naftowej po ponownej eskalacji konfliktu na Bliskim Wschodzie.",
-      "pubDate": "Fri, 14 Aug 2026 22:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/a/f/3561651816a673-948-567-5-60-995-596.jpg",
-      "dateISO": "2026-08-14T21:10:00.000Z",
-      "dateFormatted": "14 sierpnia 2026"
-    },
-    {
       "title": "Fałszywa informacja o otwarciu granicy. W sieci mobilizują migrantów do szturmu na Ceutę",
       "link": "https://www.bankier.pl/wiadomosc/Falszywa-informacja-o-otwarciu-granicy-W-sieci-mobilizuja-migrantow-do-szturmu-na-Ceute-9182719.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W serwisach społecznościowych pojawiły się namowy do ponownego masowego przełamania granicy w Ceucie przez migrantów w sobotę - przekazał portal francuskiego radia RFI. Dziennikarzom nie udało się ustalić, kto zainicjował kampanię w marokańskich serwisach, ujawnili jednak oznaki manipulacji.",
@@ -961,6 +949,18 @@
       "dateFormatted": "13 sierpnia 2026"
     },
     {
+      "title": "Polska giełda pnie się w górę. Norweski fundusz namieszał w akcjonariatach",
+      "link": "https://www.bankier.pl/wiadomosc/Polska-gielda-pnie-sie-w-gore-Norweski-fundusz-namieszal-w-akcjonariatach-9181355.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Środowa sesja na warszawskim parkiecie była kontynuacją powolnej wspinaczki indeksów na wyższe poziomy i przyniosła kolejny w tym tygodniu rekord zamknięcia WIG20. Inwestorzy bez większych emocji przyjęli zgodny z prognozami odczyt inflacji CPI z USA, koncentrując uwagę na raportach wynikowych oraz ",
+      "pubDate": "Wed, 12 Aug 2026 17:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/8/b/ccf4d09f95918d-945-560-978-236-3521-2112.jpg",
+      "dateISO": "2026-08-12T16:15:00.000Z",
+      "dateFormatted": "12 sierpnia 2026"
+    },
+    {
       "title": "Bitcoin stabilny przy 64 tys. $; lipcowy CPI spada",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-stabilny-przy-63-tys--rynek-czeka-na-dane-cpi-1529540",
       "description": "",
@@ -1009,5 +1009,5 @@
       "dateFormatted": "10 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-15T22:21:30.119Z"
+  "updatedAt": "2026-08-16T01:19:56.614Z"
 }
