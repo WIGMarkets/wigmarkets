@@ -1,6 +1,30 @@
 {
   "articles": [
     {
+      "title": "Cardano 10% w górę, na rynku byka",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/cardano-10-w-gore-na-rynku-byka-1539846",
+      "description": "",
+      "pubDate": "2026-08-19 21:23:04",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/CryptoBitcoindigital_800x533_L_1641975060.jpg",
+      "dateISO": "2026-08-19T21:23:04.000Z",
+      "dateFormatted": "19 sierpnia 2026"
+    },
+    {
+      "title": "XRP 10% w górę, na rynku byka",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/xrp-10-w-gore-na-rynku-byka-1539820",
+      "description": "",
+      "pubDate": "2026-08-19 20:56:06",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/CryptoBitcoindigital_800x533_L_1641975060.jpg",
+      "dateISO": "2026-08-19T20:56:06.000Z",
+      "dateFormatted": "19 sierpnia 2026"
+    },
+    {
       "title": "Wojna z Iranem pomaga Rosji. Putin zyskał czas",
       "link": "https://businessinsider.com.pl/gospodarka/wojna-na-bliskim-wschodzie-ratuje-rosyjska-gospodarke-putin-zyskal-czas/7bpje8l",
       "description": "Konflikt na Bliskim Wschodzie, wywołany przez działania USA i Izraela wobec Iranu, przyczynia się do utrzymania rosyjskiej gospodarki na powierzchni. Według europejskich służb wywiadowczych Władimir Putin może kontynuować działania wojenne w Ukrainie co najmniej do przyszłej wiosny lub nawet przez k",
@@ -22,6 +46,42 @@
       "category": "gielda",
       "image": "https://content-media.investing.com/news/LYNXNPEC440T3_M.jpg",
       "dateISO": "2026-08-19T20:00:08.000Z",
+      "dateFormatted": "19 sierpnia 2026"
+    },
+    {
+      "title": "Fedowskie \"minutki\". Kilku członków FOMC chciało podwyżki stóp już w lipcu",
+      "link": "https://www.bankier.pl/wiadomosc/Fedowskie-minutki-Kilku-czlonkow-FOMC-chcialo-podwyzki-stop-juz-w-lipcu-9184602.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wielu członków FOMC uważa, że podwyżka stóp proc. może być konieczna, jeśli dynamika inflacji nie obniży się – wynika z protokołu z ostatniego posiedzenia Fedu. Z minutes wynika też, że kilkoro członków FOMC opowiadało się za podwyżką stóp proc. w lipcu.",
+      "pubDate": "Wed, 19 Aug 2026 20:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/8/0263c63886cb5a-948-568-2-19-997-598.jpg",
+      "dateISO": "2026-08-19T19:20:00.000Z",
+      "dateFormatted": "19 sierpnia 2026"
+    },
+    {
+      "title": "Rząd nie odpuszcza nadmiarowych zysków. Balczun. Będziemy podejmować inicjatywy",
+      "link": "https://www.bankier.pl/wiadomosc/Rzad-bedzie-podejmowac-inicjatywy-dot-nadzwyczajnych-zyskow-koncernow-paliwowych-w-tym-Orlenu-Balczun-MAP-9184601.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rząd będzie podejmować inicjatywy dot. nadzwyczajnych zysków koncernów paliwowych, w tym Orlenu - poinformował minister aktywów państwowych Wojciech Balczun.",
+      "pubDate": "Wed, 19 Aug 2026 20:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/8/ea4331a8fb6a1a-948-568-797-417-3090-1854.jpg",
+      "dateISO": "2026-08-19T19:20:00.000Z",
+      "dateFormatted": "19 sierpnia 2026"
+    },
+    {
+      "title": "PIT do zmiany co 12 miesięcy? Domański: Chciałbym, żebyśmy mogli waloryzować progi co roku",
+      "link": "https://www.bankier.pl/wiadomosc/PIT-do-zmiany-co-12-miesiecy-Domanski-Chcialbym-zebysmy-mogli-waloryzowac-progi-co-roku-9184597.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Minister finansów i gospodarki Andrzej Domański chciałby w kolejnych latach waloryzować progi podatkowe co roku, ale zaznacza, że decyzje w tej sprawie będą uzależnione od sytuacji budżetu.",
+      "pubDate": "Wed, 19 Aug 2026 20:12:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/a/af1dbb804afd65-948-568-625-9-2501-1501.jpg",
+      "dateISO": "2026-08-19T19:12:00.000Z",
       "dateFormatted": "19 sierpnia 2026"
     },
     {
@@ -73,18 +133,6 @@
       "dateFormatted": "19 sierpnia 2026"
     },
     {
-      "title": "Trump jeszcze w tym roku spotka się z Kim Dzong Unem. „Dobrze się dogadujemy”",
-      "link": "https://www.bankier.pl/wiadomosc/Trump-jeszcze-w-tym-roku-spotka-sie-z-Kim-Dzong-Unem-Dobrze-sie-dogadujemy-9184567.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent USA Donald Trump potwierdził w środę chęć spotkania się z przywódcą Korei Północnej Kim Dzong Unem, z którym „bardzo dobrze” się dogaduje. Do organizacji spotkania ma dojść jeszcze w tym roku.",
-      "pubDate": "Wed, 19 Aug 2026 18:27:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "https://galeria.bankier.pl/p/a/b/dc339174b45645-640-384-412-29-663-398.jpg",
-      "dateISO": "2026-08-19T17:27:00.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
       "title": "Cyfrowy Polsat bije prognozy rynkowe. Zysk netto skoczył o ponad 70 proc.",
       "link": "https://www.bankier.pl/wiadomosc/Cyfrowy-Polsat-mial-w-II-kw-853-4-mln-zl-skor-EBITDA-wobec-850-5-mln-zl-konsensusu-9184562.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Cyfrowy Polsat miał II kw. 2026 roku 853,4 mln zł skorygowanej EBITDA oraz 3.694,7 mln zł przychodów - podała spółka w raporcie. Konsensus PAP Biznes zakładał 850,5 mln zł skorygowanej EBITDA oraz 3.694,4 mln zł przychodów.",
@@ -94,18 +142,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/8/b6177c4493ccfb-945-560-398-13-4409-2645.jpg",
       "dateISO": "2026-08-19T17:20:00.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
-      "title": "Wyższe rachunki uderzają w Wyspiarzy. Inflacja w Wielkiej Brytanii mocno w górę",
-      "link": "https://www.bankier.pl/wiadomosc/Wyzsze-rachunki-uderzaja-w-Wyspiarzy-Inflacja-w-Wielkiej-Brytanii-mocno-w-gore-9184559.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Roczna stopa inflacji w Wielkiej Brytanii osiągnęła w lipcu poziom 2,9 proc. - najwyższy od czterech miesięcy – poinformowało w środę Narodowe Biuro Statystyk ONS, dodając, że główna przyczyna wzrostu to rosnące rachunki za energię. W czerwcu inflacja wyniosła 2,6 proc.",
-      "pubDate": "Wed, 19 Aug 2026 18:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/8/4e470aa90b15e0-948-567-10-12-990-593.jpg",
-      "dateISO": "2026-08-19T17:18:00.000Z",
       "dateFormatted": "19 sierpnia 2026"
     },
     {
@@ -130,18 +166,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/b/a7e847f30e83da-948-568-230-66-1294-776.jpg",
       "dateISO": "2026-08-19T17:00:00.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
-      "title": "10 miliardów złotych za reformę PIT. Analitycy wyliczyli, kto za to zapłaci",
-      "link": "https://www.bankier.pl/wiadomosc/10-miliardow-zlotych-za-reforme-PIT-Analitycy-wyliczyli-kto-za-to-zaplaci-9184543.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Propozycje rządu w zakresie podniesienia progu podatkowego ze 120 do 130 tys. zł to koszt rzędu ok. 10 mld zł - ocenili analitycy Erste Bank Polska. Jak dodali, koszt ten zostanie sfinansowany podwyżkami innych danin.",
-      "pubDate": "Wed, 19 Aug 2026 17:54:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/0/4c7476bcf55e94-948-568-2-2-997-598.jpg",
-      "dateISO": "2026-08-19T16:54:00.000Z",
       "dateFormatted": "19 sierpnia 2026"
     },
     {
@@ -839,31 +863,7 @@
       "image": "https://content-media.investing.com/news/LYNXMPEE6N0TG_M.jpg",
       "dateISO": "2026-08-14T06:46:20.000Z",
       "dateFormatted": "14 sierpnia 2026"
-    },
-    {
-      "title": "Tether otrzymał pierwszy pełny niezależny audyt od KPMG",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/tether-otrzymal-pierwszy-pelny-niezalezny-audyt-od-kpmg-1533019",
-      "description": "",
-      "pubDate": "2026-08-13 19:20:39",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/LYNXMPED6U1NX_M.jpg",
-      "dateISO": "2026-08-13T19:20:39.000Z",
-      "dateFormatted": "13 sierpnia 2026"
-    },
-    {
-      "title": "Trezor ujawnia naruszenie danych dotyczące prawie 14 000 klientów",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/trezor-ujawnia-naruszenie-danych-dotyczace-prawie-14-000-klientow-93CH-1532929",
-      "description": "",
-      "pubDate": "2026-08-13 16:50:37",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/Cryptocurrencies_800x533_L_1535981327.jpg",
-      "dateISO": "2026-08-13T16:50:37.000Z",
-      "dateFormatted": "13 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-19T20:27:54.004Z"
+  "updatedAt": "2026-08-19T22:24:38.023Z"
 }
