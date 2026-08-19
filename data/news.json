@@ -1,6 +1,90 @@
 {
   "articles": [
     {
+      "title": "Prezes PFR odchodzi ze stanowiska. Trafi do zarządu znanej spółki",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/z-pfr-do-zarzadu-pzu-kim-jest-piotr-matczuk/z064b3t",
+      "description": "Rada nadzorcza PZU powołała na członka zarządu spółki Piotra Matczuka, obecnego prezesa PFR.",
+      "pubDate": "Wed, 19 Aug 2026 18:13:16 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Hlek9kpTURBXy9lYmM4NWE5ODdmNjdlMTNiMjNjNWU2ZDBlZDg0YTY1Zi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-19T18:13:16.000Z",
+      "dateFormatted": "19 sierpnia 2026"
+    },
+    {
+      "title": "Szwecja i Dania zbroją się przed dronami. Historyczny zakup nowej broni",
+      "link": "https://www.bankier.pl/wiadomosc/Szwecja-i-Dania-zbrojaja-sie-przed-dronami-Historyczny-zakup-nowej-broni-9184577.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Władze w Sztokholmie poinformowały w środę o zakupie dronów, mogących również atakować wroga, co jest nowością w szwedzkim wojsku. Natomiast resort obrony Danii nabył system antydronowy, który pozwala na reakcję w czasie rzeczywistym.",
+      "pubDate": "Wed, 19 Aug 2026 18:55:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/2/2c600cdaeb7f01-948-568-6-57-1194-716.jpg",
+      "dateISO": "2026-08-19T17:55:00.000Z",
+      "dateFormatted": "19 sierpnia 2026"
+    },
+    {
+      "title": "\"Polska kolej przyspiesza\". Pendolino pojedzie 250 km na godz.",
+      "link": "https://businessinsider.com.pl/lifestyle/podroze/pkp-intercity-przyspiesza-na-cmk-niedlugo-warszawa-krakow-w-mniej-niz-2-godziny/xbn4wgs",
+      "description": "W przyszłym roku pierwsze pociągi PKP Intercity pojadą CMK z prędkością 250 km na godz. Pozwoli to skrócić czas przejazdu pomiędzy Warszawą a Krakowem do niecałych dwóch godzin.",
+      "pubDate": "Wed, 19 Aug 2026 17:48:08 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/CEJk9kqTURBXy80MTMxYzExMTU5YWIzYzBjOTJmOTllYTA1YjljNzg5NS5qcGVnkZMCzQSwAN4AAaEwAQ",
+      "dateISO": "2026-08-19T17:48:08.000Z",
+      "dateFormatted": "19 sierpnia 2026"
+    },
+    {
+      "title": "Trump jeszcze w tym roku spotka się z Kim Dzong Unem. „Dobrze się dogadujemy”",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-jeszcze-w-tym-roku-spotka-sie-z-Kim-Dzong-Unem-Dobrze-sie-dogadujemy-9184567.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump potwierdził w środę chęć spotkania się z przywódcą Korei Północnej Kim Dzong Unem, z którym „bardzo dobrze” się dogaduje. Do organizacji spotkania ma dojść jeszcze w tym roku.",
+      "pubDate": "Wed, 19 Aug 2026 18:27:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "https://galeria.bankier.pl/p/a/b/dc339174b45645-640-384-412-29-663-398.jpg",
+      "dateISO": "2026-08-19T17:27:00.000Z",
+      "dateFormatted": "19 sierpnia 2026"
+    },
+    {
+      "title": "Cyfrowy Polsat bije prognozy rynkowe. Zysk netto skoczył o ponad 70 proc.",
+      "link": "https://www.bankier.pl/wiadomosc/Cyfrowy-Polsat-mial-w-II-kw-853-4-mln-zl-skor-EBITDA-wobec-850-5-mln-zl-konsensusu-9184562.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Cyfrowy Polsat miał II kw. 2026 roku 853,4 mln zł skorygowanej EBITDA oraz 3.694,7 mln zł przychodów - podała spółka w raporcie. Konsensus PAP Biznes zakładał 850,5 mln zł skorygowanej EBITDA oraz 3.694,4 mln zł przychodów.",
+      "pubDate": "Wed, 19 Aug 2026 18:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/8/b6177c4493ccfb-945-560-398-13-4409-2645.jpg",
+      "dateISO": "2026-08-19T17:20:00.000Z",
+      "dateFormatted": "19 sierpnia 2026"
+    },
+    {
+      "title": "Wyższe rachunki uderzają w Wyspiarzy. Inflacja w Wielkiej Brytanii mocno w górę",
+      "link": "https://www.bankier.pl/wiadomosc/Wyzsze-rachunki-uderzaja-w-Wyspiarzy-Inflacja-w-Wielkiej-Brytanii-mocno-w-gore-9184559.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Roczna stopa inflacji w Wielkiej Brytanii osiągnęła w lipcu poziom 2,9 proc. - najwyższy od czterech miesięcy – poinformowało w środę Narodowe Biuro Statystyk ONS, dodając, że główna przyczyna wzrostu to rosnące rachunki za energię. W czerwcu inflacja wyniosła 2,6 proc.",
+      "pubDate": "Wed, 19 Aug 2026 18:18:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/8/4e470aa90b15e0-948-567-10-12-990-593.jpg",
+      "dateISO": "2026-08-19T17:18:00.000Z",
+      "dateFormatted": "19 sierpnia 2026"
+    },
+    {
+      "title": "Analitycy: zmiany w PIT to koszt 10 mld zł. Tyle mogą zyskać najlepiej zarabiający",
+      "link": "https://businessinsider.com.pl/finanse/nowe-progi-podatkowe-analitycy-obliczyli-koszt-zmian-w-pit/yjxq23k",
+      "description": "Propozycje rządu w zakresie podniesienia progu podatkowego ze 120 do 130 tys. zł to koszt rzędu ok. 10 mld zł — szacują analitycy Erste Bank Polska.",
+      "pubDate": "Wed, 19 Aug 2026 17:04:29 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/exIk9kpTURBXy9mNDk0ZDEwNDFiYmY1NmU2YTJlZjBmNGQ5NmYxZDUwYi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-19T17:04:29.000Z",
+      "dateFormatted": "19 sierpnia 2026"
+    },
+    {
       "title": "Bruksela hamuje negocjacje z Ukrainą. Kolejne klastry przełożone na jesień",
       "link": "https://www.bankier.pl/wiadomosc/Bruksela-hamuje-negocjacje-z-Ukraina-Kolejne-klastry-przelozone-na-jesien-9184546.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Unia Europejska może się wstrzymać z otwarciem kolejnych klastrów negocjacyjnych z Ukrainą do momentu zaprezentowania przez Komisję Europejką zmian w polityce rozszerzenia - powiedział unijny dyplomata. KE ma zaproponować reformę procedur przyjmowania nowych państw w październiku.",
@@ -349,18 +433,6 @@
       "dateFormatted": "19 sierpnia 2026"
     },
     {
-      "title": "„Nie można lekceważyć gróźb Rosji”. „Independent” apeluje o dozbrojenie Wielkiej Brytanii",
-      "link": "https://www.bankier.pl/wiadomosc/Nie-mozna-lekcewazyc-grozb-Rosji-Independent-apeluje-o-dozbrojenie-Wielkiej-Brytanii-9184307.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Inwestycje w obronę i kontrwywiad oraz przygotowanie na ataki hybrydowe Rosji – tak według portalu Independent powinny zareagować władze Wielkiej Brytanii na groźby Moskwy. Jak podkreśla w środowym komentarzu, gróźb tych nie można lekceważyć.",
-      "pubDate": "Wed, 19 Aug 2026 12:55:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/6/7aaa53efd93710-948-568-14-124-1905-1143.jpg",
-      "dateISO": "2026-08-19T11:55:00.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
       "title": "\"Tusk kombinuje\". Przemysław Czarnek reaguje na zmiany w podatkach",
       "link": "https://businessinsider.com.pl/gospodarka/tusk-kombinuje-przemyslaw-czarnek-o-propozycjach-podatkowych-rzadu/2j87y2c",
       "description": "Przemysław Czarnek, kandydat PiS na premiera, nie jest zachwycony zaproponowanymi przez rząd zmianami w systemie podatkowym. \"Zamiast realnie obniżyć podatki, Tusk wymyśla kolejny próg\" — stwierdził polityk.",
@@ -445,18 +517,6 @@
       "dateFormatted": "19 sierpnia 2026"
     },
     {
-      "title": "Pierwszy na świecie tunel dla statków powstanie w Norwegii. Jest umowa",
-      "link": "https://www.bankier.pl/wiadomosc/Pierwszy-na-swiecie-tunel-dla-statkow-powstanie-w-Norwegii-Jest-umowa-9184072.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Umowa na budowę pierwszego na świecie pełnowymiarowego tunelu dla statków została podpisana – poinformował w komunikacie Norweski Zarząd Wybrzeża. Kontrakt ma wartość 5,6 mld koron (ponad 2,2 mld złotych). Pierwsza jednostka ma przepłynąć tunelem za pięć lat.",
-      "pubDate": "Wed, 19 Aug 2026 12:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/1/071fb557f8c4dd-948-568-0-306-1704-1022.jpg",
-      "dateISO": "2026-08-19T11:00:00.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
       "title": "Kreml skorzystał na konflikcie. Rosja zarobiła miliardy dzięki wojnie na Bliskim Wschodzie",
       "link": "https://businessinsider.com.pl/gospodarka/putin-dostal-prezent-od-wojny-na-bliskim-wschodzie/wjgj9gl",
       "description": "Wojna na Bliskim Wschodzie przyniosła Rosji nieoczekiwany zastrzyk dochodów. Ograniczenie dostaw surowców i wzrost cen ropy sprawiły, że rosyjski eksport w drugim kwartale był wart o dziesiątki miliardów dolarów więcej niż rok wcześniej. Kreml nie może jednak w pełni wykorzystać tego efektu, a najno",
@@ -517,18 +577,6 @@
       "dateFormatted": "19 sierpnia 2026"
     },
     {
-      "title": "Maksymalne ceny paliw na czwartek. Minister energii ogłasza",
-      "link": "https://businessinsider.com.pl/gospodarka/coraz-wyzsze-ceny-maksymalne-paliw-minister-energii-oglasza/vwzgrhj",
-      "description": "Minister energii Miłosz Motyka ogłosił maksymalne ceny paliwa na czwartek w ramach programu CPN. Kwoty są nieco wyższe niż te środowe.",
-      "pubDate": "Wed, 19 Aug 2026 10:21:54 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Tpuk9kpTURBXy8wMjdjNTg5OGEzZWU2ZGIwMTg1MTkyZGYxN2MyOGJhMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-19T10:21:54.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
       "title": "Lagarde ostrzega Europę. Powojenny model wzrostu gospodarczego się kończy",
       "link": "https://www.bankier.pl/wiadomosc/Lagarde-ostrzega-Europe-Powojenny-model-wzrostu-gospodarczego-sie-konczy-9184238.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Powojenny model wzrostu gospodarczego w Europie ulega erozji i jest mało prawdopodobne, by powrócił on do postaci, jaką znaliśmy kiedyś, ale Europa nadal dysponuje jednak znacznymi atutami, na których może się opierać - oceniła w środę szefowa Europejskiego Banku Centralnego Christine Lagarde.",
@@ -553,18 +601,6 @@
       "dateFormatted": "19 sierpnia 2026"
     },
     {
-      "title": "Premier Tusk zapowiada zmiany w podatkach. Oto nowy próg",
-      "link": "https://businessinsider.com.pl/gospodarka/premier-tusk-zapowiada-zmiany-w-podatkach-skorzystac-ma-klasa-srednia/zb6z9rr",
-      "description": "Nawet 3,5 mln Polaków ma skorzystać z nowych rozwiązań podatkowych — zapowiada premier Donald Tusk. Dodał, że nowe podatki mają być \"sprawiedliwsze\". — Podniesiemy próg podatkowy z 120 tys. zł do 130 tys. zł — mówi premier. Wyjaśnił też, co z podniesieniem kwoty wolnej od podatku.",
-      "pubDate": "Wed, 19 Aug 2026 10:04:56 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/v1Kk9kpTURBXy80NmM0ZWM0MDg4M2ZhNGVjMTZmNmRlOTIwZTJhZjIzYi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-19T10:04:56.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
       "title": "\"Napiwki powinny być obowiązkiem\". Gessler wywołał burzę",
       "link": "https://www.bankier.pl/wiadomosc/Napiwki-powinny-byc-obowiazkiem-Gessler-wywolal-burze-9184216.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Kwestia przekazywania napiwków w restauracjach stanowi przedmiot stałych dyskusji konsumenckich oraz branżowych. W rozmowie z portalem Pyszności.pl restaurator Mateusz Gessler odniósł się do roli tipów w strukturze dochodów pracowników obsługi oraz do mechanizmu rozliczania automatycznie doliczanego",
@@ -574,18 +610,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/3/979e17deb0c2e7-948-568-38-153-1880-1128.jpg",
       "dateISO": "2026-08-19T09:45:00.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
-      "title": "Państwo-niepaństwo. Siedem rzeczy, które warto wiedzieć o Naddniestrzu, gdzie ma ukrywać się Romanowski",
-      "link": "https://businessinsider.com.pl/gospodarka/naddniestrze-jak-dziala-panstwo-niepanstwo-w-sercu-europy/0kcyww7",
-      "description": "Według premiera Donalda Tuska istnieje 99-procentowe prawdopodobieństwo, że Marcin Romanowski przebywa w Naddniestrzu. Sam region od ponad trzech dekad pozostaje jednym z najbardziej zagadkowych miejsc na mapie Europy. Oto siedem rzeczy, które pomagają zrozumieć, o co chodzi z Naddniestrzem.",
-      "pubDate": "Wed, 19 Aug 2026 09:42:53 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/j1fk9kpTURBXy83NWQ1MjVjNDU5MDZlMGRlYTJiOWE4MmVmNmNiNzE5My5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-19T09:42:53.000Z",
       "dateFormatted": "19 sierpnia 2026"
     },
     {
@@ -841,5 +865,5 @@
       "dateFormatted": "13 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-19T16:31:48.018Z"
+  "updatedAt": "2026-08-19T18:35:40.264Z"
 }
