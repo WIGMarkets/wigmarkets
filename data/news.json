@@ -1,15 +1,171 @@
 {
   "articles": [
     {
-      "title": "W ramach skupu złożono oferty sprzedaży na łącznie 1.970.772 akcji Immobile",
-      "link": "https://www.bankier.pl/wiadomosc/W-ramach-skupu-zlozono-oferty-sprzedazy-na-lacznie-1-970-772-akcji-Immobile-9185087.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "W ramach skupu złożono oferty sprzedaży obejmujące łącznie 1.970.772 akcji Immobile - podała spółka w komunikacie. Średnia stopa redukcji wyniosła 23,89 proc.",
-      "pubDate": "Thu, 20 Aug 2026 16:24:00 +0100",
+      "title": "Grodno miało 2,5 mln zł zysku netto w I kw. 2026/27, o 2,6 proc. więcej rdr",
+      "link": "https://www.bankier.pl/wiadomosc/Grodno-mialo-2-5-mln-zl-zysku-netto-w-I-kw-2026-27-o-2-6-proc-wiecej-rdr-9185178.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Grodno miało w I kwartale roku obrotowego 2026/27 (od 1 kwietnia do 30 czerwca 2026 r.) 2,5 mln zł zysku netto, co oznacza wzrost o 2,6 proc. rdr - podała spółka w komunikacie.",
+      "pubDate": "Thu, 20 Aug 2026 18:20:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/0/f/c054fce945dcfc-thumb-1000.jpg",
-      "dateISO": "2026-08-20T15:24:00.000Z",
+      "image": "http://galeria.bankier.pl/p/3/1/1d630e05cabedc-945-560-25-17-1706-1023.jpg",
+      "dateISO": "2026-08-20T17:20:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Chiny zniosą niemal wszystkie cła na szwajcarski eksport",
+      "link": "https://www.bankier.pl/wiadomosc/Chiny-zniosa-niemal-wszystkie-cla-na-szwajcarski-eksport-9185173.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Szwajcarii Guy Parmelin i minister handlu Chin Wang Wentao poinformowali w czwartek, że zakończyli negocjacje w sprawie poszerzenia dwustronnego porozumienia o wolnym handlu, które zniesie 99,8 proc ceł na szwajcarskie dobra eksportowe.",
+      "pubDate": "Thu, 20 Aug 2026 18:14:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/9/b4baa3651b1ab7-948-567-0-0-1000-599.jpg",
+      "dateISO": "2026-08-20T17:14:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Podlaskie z nowym czekiem turystycznym. Turyści dostaną dopłaty do noclegów",
+      "link": "https://www.bankier.pl/wiadomosc/Podlaskie-z-nowym-czekiem-turystycznym-Turysci-dostana-doplaty-do-noclegow-9185153.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Od września turyści planujący odwiedzić województwo podlaskie będą się mogli ubiegać o dofinansowanie do noclegów z programu Podlaski Czek Turystyczny. Do końca listopada na ten cel będzie przeznaczone 3,4 mln zł.",
+      "pubDate": "Thu, 20 Aug 2026 17:37:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/7/60a9d788f19c18-948-568-0-150-4000-2399.jpg",
+      "dateISO": "2026-08-20T16:37:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Zmiana na Bliskim Wschodzie. USS George Washington zastąpi USS Abraham Lincoln",
+      "link": "https://www.bankier.pl/wiadomosc/Zmiana-na-Bliskim-Wschodzie-USS-George-Washington-zastapi-USS-Abraham-Lincoln-9185154.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Amerykański lotniskowiec USS George Washington dotarł w środę na Bliski Wschód - poinformowało w czwartek Dowództwo Centralne USA (CENTCOM). Jednostka ma wymienić lotniskowiec USS Abraham Lincoln.",
+      "pubDate": "Thu, 20 Aug 2026 17:37:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/0/83715a9adde86c-948-568-0-288-3491-2094.jpg",
+      "dateISO": "2026-08-20T16:37:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Serbia zwróciła się do Putina o pomoc. Rosyjski Ił-76P walczy z ogniem",
+      "link": "https://www.bankier.pl/wiadomosc/Serbia-zwrocila-sie-do-Putina-o-pomoc-Rosyjski-Il-76P-walczy-z-ogniem-9185150.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Serbia zwróciła się do Rosji o pomoc w walce z pożarami, ponieważ Unia Europejska nie dysponowała dostępnymi samolotami gaśniczymi – poinformowało serbskie MSW. Rosyjski samolot został w czwartek zaangażowany w gaszenie największego pożaru w kraju, który objął rezerwat przyrody Deliblatska Peszczara",
+      "pubDate": "Thu, 20 Aug 2026 17:35:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/3/0378c117a15b44-948-568-0-80-4000-2399.jpg",
+      "dateISO": "2026-08-20T16:35:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "KGHM i banki ciągną GPW w dół. Wyniki badań klinicznych podbiły notowania polskiej spółki farmaceutycznej",
+      "link": "https://www.bankier.pl/wiadomosc/KGHM-i-banki-ciagna-GPW-w-dol-Wyniki-badan-klinicznych-podbily-notowania-polskiej-spolki-farmaceutycznej-9185143.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Czwartkowa sesja na warszawskiej giełdzie przyniosła przewagę wyraźną realizację zysków po środowym mocnym odbiciu. Pogorszenie sentymentu na globalnych rynkach, wywołane rosnącymi cenami ropy oraz niepewnością geopolityczną, skutecznie zepchnęło główne indeksy z GPW pod kreskę. Inwestorzy reagowali",
+      "pubDate": "Thu, 20 Aug 2026 17:22:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/4/b/a9085f00b3f83c-948-568-458-616-2083-1249.jpg",
+      "dateISO": "2026-08-20T16:22:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Amerykański naukowiec zatrzymany w Chinach. USA żądają jego uwolnienia",
+      "link": "https://www.bankier.pl/wiadomosc/Amerykanski-naukowiec-zatrzymany-w-Chinach-USA-zadaja-jego-uwolnienia-9185134.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sekretarz stanu USA Marco Rubio uznał, że obywatel Stanów Zjednoczonych Min Zin jest bezprawnie przetrzymywany w Chinach - poinformował w czwartek Departament Stanu. Naukowiec został aresztowany w czerwcu i zarzucono mu narażenie bezpieczeństwa Chin.",
+      "pubDate": "Thu, 20 Aug 2026 17:17:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/3/0a588c1d7c2af6-948-568-20-93-4153-2491.jpg",
+      "dateISO": "2026-08-20T16:17:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Bitcoin ruszył w górę i przebił psychologiczną granicę. Donald Trump naciska",
+      "link": "https://businessinsider.com.pl/gielda/kryptowaluty/kryptowaluty-zyskuja-po-interwencji-donalda-trumpa-bitcoin-odrabia-straty/4cp090f",
+      "description": "Jeśli ustawa forsowana przez prezydenta USA wejdzie w życie, określi, czy kryptowaluta jest papierem wartościowym, czy towarem. Rynek pozytywnie reaguje, podbijając notowania bitcoina do poziomów niewidzianych od początku czerwca.",
+      "pubDate": "Thu, 20 Aug 2026 16:01:35 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/wQgk9kpTURBXy81Nzg2YTNlYjcxZWY5YjhlOGRhNTlkMDgxNWE1MGE3Zi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-20T16:01:35.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Mediatorzy ostrzegają Izrael. Ataki w Gazie podważają rozmowy pokojowe",
+      "link": "https://www.bankier.pl/wiadomosc/Mediatorzy-ostrzegaja-Izrael-Ataki-w-Gazie-podwazaja-rozmowy-pokojowe-9185109.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Turcja, Egipt i Katar potępiły w czwartek ostatnie, śmiertelne ataki Izraela na Strefę Gazy. Trzy państwa, które są mediatorami w rozmowach mających doprowadzić do pokoju w tym regionie, ostrzegły, że izraelskie uderzenia podważają ten proces i wezwały władze w Jerozolimie do przestrzegania rozejmu.",
+      "pubDate": "Thu, 20 Aug 2026 16:45:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/c/c15c921a57d5d1-948-568-0-0-4000-2399.jpg",
+      "dateISO": "2026-08-20T15:45:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "NFZ chce płacić więcej za lepsze wyniki leczenia. Chodzi o pacjentów po zawale",
+      "link": "https://www.bankier.pl/wiadomosc/NFZ-chce-placic-wiecej-za-lepsze-wyniki-leczenia-Chodzi-o-pacjentow-po-zawale-9185095.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Narodowy Fundusz Zdrowia chce uzależnić system finansowania od jakości leczenia pacjentów kardiologicznych. Do konsultacji skierowano projekt rozporządzenia prezesa NFZ w sprawie współczynników korygujących dla podmiotów realizujących program KOS-zawał - Kompleksowa Opieka po Zawale Mięśnia Sercoweg",
+      "pubDate": "Thu, 20 Aug 2026 16:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/6/47e1793f67cd67-948-568-14-4-1905-1143.jpg",
+      "dateISO": "2026-08-20T15:36:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Centralny Bank Rosji sprzedał już blisko 50 ton złota. Największa wyprzedaż w XXI wieku",
+      "link": "https://www.bankier.pl/wiadomosc/Centralny-Bank-Rosji-sprzedal-juz-blisko-50-ton-zlota-Najwieksza-wyprzedaz-w-XXI-wieku-9185077.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Według najnowszych danych Centralnego Banku Rosji jego zasoby złota wchodzące w skład oficjalnych rezerw walutowych państwa spadły na koniec lipca do 73,2 mln uncji. Oznacza to, że poprzednim miesiącu Rosja znów upłynniała złoto, sprzedając kruszec siódmy miesiąc z rzędu. Według danych Światowej Rad",
+      "pubDate": "Thu, 20 Aug 2026 16:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/5/7e48a9a962ca46-945-560-138-77-1572-943.jpg",
+      "dateISO": "2026-08-20T15:30:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Nowa klasa miliarderów pompuje pieniądze w wybory w USA. \"Bezprecedensowa skala\"",
+      "link": "https://businessinsider.com.pl/biznes/wybory-w-usa-pod-wplywem-miliarderow-rekordowe-wydatki-korporacji/f83l22j",
+      "description": "Garstka miliarderów i korporacji napędza wydatki przedsiębiorstw w zbliżających się wyborach w USA. Nie są to jednak zwykli gracze, którzy w poprzednich dekadach zajmowali czołowe miejsca w politycznej hierarchii Waszyngtonu.",
+      "pubDate": "Thu, 20 Aug 2026 15:25:09 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/zURk9kpTURBXy83N2U1NjcxNjIwZmMyYzY0YTkwNjJjZWM1ZmY5NmFmNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-20T15:25:09.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Wyścigówki opanują centrum stolicy USA. Zamknięte ulice i wstrzymane loty",
+      "link": "https://www.bankier.pl/wiadomosc/Wyscigowki-opanuja-centrum-stolicy-USA-Zamkniete-ulice-i-wstrzymane-loty-9185084.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W weekend w Waszyngtonie odbędą się zapowiedziane przez prezydenta USA Donalda Trumpa wyścigi z serii IndyCar. Łączna długość trasy biegnącej wokół National Mall to ok. 400 km. W centrum będą zamknięte ulice, a pobliskie lotnisko wstrzyma loty.",
+      "pubDate": "Thu, 20 Aug 2026 16:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/c/ec100b8b120a1e-948-567-0-52-1000-599.jpg",
+      "dateISO": "2026-08-20T15:20:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Gigantyczna inwestycja KGHM. Poszukiwany kredyt na miliard dolarów",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/sierra-gorda-z-nowa-inwestycja-kghm-i-south32-przygotowuja-miliardowy-projekt/s3446p6",
+      "description": "KGHM, który wspólnie z australijskim partnerem South32 planuje wybudować czwartą linię produkcyjną w chilijskiej kopalni Sierra Gorda, spodziewa się największych nakładów przy tej inwestycji w latach 2027-2028. Fizycznie rozbudowa zakładu powinna się wkrótce rozpocząć.",
+      "pubDate": "Thu, 20 Aug 2026 15:02:39 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ga1k9kpTURBXy82ZWIyMWI4NzUyMGIyNzQwYWJlODY1NDlmN2UyZTFlYi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-20T15:02:39.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -25,27 +181,15 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Trump zwiększa presję na Iran. \"Amerykanie mają ograniczone możliwości\"",
-      "link": "https://www.bankier.pl/wiadomosc/Trump-zwieksza-presje-na-Iran-Amerykanie-maja-ograniczone-mozliwosci-9185070.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Amerykanie mają ograniczone możliwości zmuszenia Iranu do negocjacji, więc zwiększają presję ekonomiczną, by osiągnąć cele dyplomatyczne – oceniła dla PAP Julia Sochacka z PISM, komentując wypowiedzenie Iranowi „wojny gospodarczej” przez prezydenta USA Donalda Trumpa.",
-      "pubDate": "Thu, 20 Aug 2026 15:53:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/1/cce523a2f51621-948-568-0-202-3000-1799.jpg",
-      "dateISO": "2026-08-20T14:53:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Prezydent nie wie, czy odbierze przysięgę od Berka. \"Poważne wątpliwości\"",
-      "link": "https://www.bankier.pl/wiadomosc/Prezydent-nie-wie-czy-odbierze-przysiege-od-Berka-Powazne-watpliwosci-9185067.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rzecznik prezydenta RP Rafał Leśkiewicz ocenił w czwartek, że „są poważne wątpliwości”, co do formalnych kompetencji Macieja Berka jako ewentualnego przyszłego sędziego TK. Rzecznik głowy państwa zauważył, że Berek nie jest doktorem habilitowanym oraz nie wiadomo, czy wystarczająco długo był radcą p",
-      "pubDate": "Thu, 20 Aug 2026 15:48:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/f/e227169e5dd6a5-948-568-494-48-1425-855.jpg",
-      "dateISO": "2026-08-20T14:48:00.000Z",
+      "title": "Rząd kombinuje z podatkami. Polacy oczekują innych zmian",
+      "link": "https://businessinsider.com.pl/gospodarka/podatki/podatki-do-zmiany-sondaz-pokazuje-czego-chca-polacy/n32j4l7",
+      "description": "Zmiany progów podatkowych nie były na szczycie listy oczekiwań Polaków. Niemal połowa badanych w sondażu najbardziej oczekiwałaby realizacji obietnicy wyborczej KO dotyczącej kwoty wolnej od podatku.",
+      "pubDate": "Thu, 20 Aug 2026 14:34:43 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/SNak9kpTURBXy8wNjNlOTIwOTVmMDJiZGI0NzA0ZTA2NzkwOWM1M2ZjNy5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-20T14:34:43.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -121,18 +265,6 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "KGHM spodziewa się największych nakładów przy rozbudowie Sierra Gorda w latach 2027-28",
-      "link": "https://www.bankier.pl/wiadomosc/KGHM-spodziewa-sie-najwiekszych-nakladow-przy-rozbudowie-Sierra-Gorda-w-latach-2027-28-9185020.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "KGHM, który wspólnie z australijskim partnerem South32 planuje wybudować czwartą linię produkcyjną w chilijskiej kopalni Sierra Gorda, spodziewa się największych nakładów przy tej inwestycji w latach 2027-28 - poinformowali przedstawiciele KGHM. Fizycznie rozbudowa zakładu powinna się wkrótce rozpoc",
-      "pubDate": "Thu, 20 Aug 2026 14:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/82216e487002a2-thumb-1000.jpg",
-      "dateISO": "2026-08-20T13:40:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
       "title": "Miliony na rurociągi pod Wisłą. PERN podpisał kluczową umowę",
       "link": "https://www.bankier.pl/wiadomosc/Miliony-na-rurociagi-pod-Wisla-PERN-podpisal-kluczowa-umowe-9185008.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "PERN podpisał umowę z firmą Romgos Gwiazdowscy na wykonanie przewiertów metodą bezwykopową (HDD) na I i II nitce rurociągów ropy naftowej pod Wisłą na odcinku centralnym - podała spółka. Wartość całego programu HDD realizowanego przez PERN to 140 mln zł, a zakończenie wszystkich prac planowane jest ",
@@ -178,18 +310,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/KG9k9kpTURBXy8xOWI4ZjhhZWFhYzUyMGQzYTliMmIzZTBjNGU5NTc1Yi5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-08-20T13:00:09.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "UE gotowa wesprzeć Ukrainę w wyborach. Jest deklaracja KE",
-      "link": "https://www.bankier.pl/wiadomosc/UE-gotowa-wesprzec-Ukraine-w-wyborach-Jest-deklaracja-Komisji-Europejskiej-9184977.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rzeczniczka Komisji Europejskiej Anitta Hipper powiedziała w czwartek, że decyzja o tym, kiedy przeprowadzić wybory, należy do Ukrainy. UE jest gotowa wspierać Ukrainę w całym procesie wyborczym, w tym w spełnieniu odpowiednich standardów i oczekiwań demokratycznych - zaznaczyła.",
-      "pubDate": "Thu, 20 Aug 2026 13:49:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/7/e25d2ad9f3e4d6-948-568-0-8-1773-1063.jpg",
-      "dateISO": "2026-08-20T12:49:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -373,18 +493,6 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "PZU szykuje szeroką ofertę OKI. Chce wykorzystać całą grupę i banki",
-      "link": "https://www.bankier.pl/wiadomosc/PZU-chce-wykorzystac-potencjal-calej-grupy-w-oferowaniu-produktow-OKI-9184915.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "PZU będzie chciało wykorzystać potencjał całej grupy i w ramach oferty Osobistych Kont Inwestycyjnych przygotuje różne produkty - poinformował prezes PZU Bogdan Benczak. Ubezpieczyciel przygotowuje się do wdrożenia nowego systemu likwidacji szkód, a prace nad częściowym modelem wewnętrznym są bardzo",
-      "pubDate": "Thu, 20 Aug 2026 12:26:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/8/4e76e5c163bbd2-948-568-0-410-4001-2400.jpg",
-      "dateISO": "2026-08-20T11:26:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
       "title": "Podwyżka CIT uderzy także w polskie firmy rodzinne? Ekspert BCC ostrzega",
       "link": "https://www.bankier.pl/wiadomosc/Podwyzka-CIT-uderzy-takze-w-polskie-firmy-rodzinne-Ekspert-BCC-ostrzega-9184843.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Proponowana przez rząd podwyżka CIT dla podmiotów z rocznymi przychodami przekraczającymi 50 mln euro może objąć też wiele polskich firm rodzinnych średniej wielkości, a nie tylko wielkie korporacje - ocenił w czwartek ekspert Business Centre Club Michał Borowski.",
@@ -394,18 +502,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/f/7/f9d38720f9d1a6-812-487-122-2-812-487.jpg",
       "dateISO": "2026-08-20T11:15:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Rozłam na szczytach władzy w Kijowie. Były minister chce wyborów i ostrzega przed autorytaryzmem",
-      "link": "https://www.bankier.pl/wiadomosc/Rozlam-na-szczytach-wladzy-w-Kijowie-Byly-minister-chce-wyborow-i-ostrzega-przed-autorytaryzmem-9184889.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Apel byłego ministra obrony Ukrainy Mychajła Fedorowa o przeprowadzenie wyborów mimo wojny może pogłębić kryzys polityczny w kraju – uważają eksperci. Ich zdaniem wybory są obecnie niezwykle trudne do zorganizowania, ale nie można ignorować społecznego zapotrzebowania na proces polityczny.",
-      "pubDate": "Thu, 20 Aug 2026 12:12:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/8/d87ee9907ed28a-948-568-880-120-2583-1550.jpg",
-      "dateISO": "2026-08-20T11:12:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -433,18 +529,6 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Przeciętny Polak żyje 78,5 roku, o dwa lata mniej niż średnia UE. Eksperci wskazują przyczyny",
-      "link": "https://www.bankier.pl/wiadomosc/Przecietny-Polak-zyje-78-5-roku-o-dwa-lata-mniej-niz-srednia-UE-Eksperci-wskazuja-przyczyny-9184858.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Przeciętny Polak żyje 78,5 roku – o około dwa lata krócej niż wynosi średnia w Unii Europejskiej. Według analizy ekonomistów Banku BNP Paribas jednym z głównych powodów jest niedofinansowanie profilaktyki, diagnostyki i opieki ambulatoryjnej, a także niedobór personelu medycznego. Zrównanie wydatków",
-      "pubDate": "Thu, 20 Aug 2026 12:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/5/9d5fd9e801be51-948-568-0-171-3600-2159.jpg",
-      "dateISO": "2026-08-20T11:00:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
       "title": "Cztery godziny wolnego dla rodziców. Dzieci zostały pod opieką miasta",
       "link": "https://www.bankier.pl/wiadomosc/Cztery-godziny-wolnego-dla-rodzicow-Dzieci-zostaly-pod-opieka-miasta-9184790.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Burmistrz Nowego Jorku Zohran Mamdani uruchomił nową inicjatywę skierowaną do rodziców i opiekunów. „Parents’ Night Out” ma dać dorosłym kilka godzin wolnego, podczas gdy ich dzieci będą bezpłatnie uczestniczyć w zajęciach organizowanych przez miejskie centra rekreacyjne.",
@@ -454,18 +538,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/7/dcfc44dca35880-948-568-0-0-4000-2399.jpg",
       "dateISO": "2026-08-20T11:00:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Zmiana w opłacie turystycznej. Tusk: Pieniądze w całości mają trafiać do gmin",
-      "link": "https://www.bankier.pl/wiadomosc/Zmiana-w-oplacie-turystycznej-Tusk-Pieniadze-w-calosci-maja-trafiac-do-gmin-9184841.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Premier Donald Tusk powiedział w czwartek, że planowana opłata turystyczna będzie trafiała w 100 procentach, nie w 80 proc. do budżetu gminy. - Wstępnie ustalałem to z ministrem finansów; tę zmianę, drobną, ale istotną, wprowadzimy - powiedział szef rządu.",
-      "pubDate": "Thu, 20 Aug 2026 11:57:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/2/7884beeaa61822-948-568-90-40-3900-2340.jpg",
-      "dateISO": "2026-08-20T10:57:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -493,18 +565,6 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Tajna operacja wojsk na Bliskim Wschodzie. Korytarz morski chroni dostawy 10 mln baryłek ropy",
-      "link": "https://www.bankier.pl/wiadomosc/Tajna-operacja-wojsk-na-Bliskim-Wschodzie-Korytarz-morski-chroni-dostawy-10-mln-barylek-ropy-9184839.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Amerykańskie siły zbrojne po cichu utworzyły korytarz żeglugowy prowadzący przez cieśninę Ormuz, który umożliwia transport milionów baryłek ropy naftowej dziennie - poinformował portal Axios, powołując się na dwóch przedstawicieli władz Stanów Zjednoczonych.",
-      "pubDate": "Thu, 20 Aug 2026 11:23:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/8/3d8244aa918de2-948-568-90-50-3666-2200.jpg",
-      "dateISO": "2026-08-20T10:23:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
       "title": "Analitycy: Płace nadal będą rosły szybciej od inflacji. RPP nie musi ciąć stóp",
       "link": "https://www.bankier.pl/wiadomosc/Analitycy-Erste-Place-nadal-beda-rosly-szybciej-od-inflacji-To-wesprze-konsumpcje-9184827.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Silniejsza od oczekiwań dynamika płac ogółem w lipcu była pod wpływem kilku branż z wyjątkowo wysokimi wzrostami, co nie sygnalizuje trwałego przyspieszenia płac dla całego sektora przedsiębiorstw, a popyt na pracę też może zacząć wychodzić z dołka. W związku z tym rynek pracy w Polsce nie wymaga ws",
@@ -514,30 +574,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/c/f/bbaa9369d977b1-948-568-67-97-2932-1759.jpg",
       "dateISO": "2026-08-20T10:23:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "OKI trafią na rynek w momencie rekordowego zainteresowania inwestowaniem",
-      "link": "https://www.bankier.pl/wiadomosc/OKI-trafia-na-rynek-w-momencie-rekordowego-zainteresowania-inwestowaniem-9184832.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Planowane na 1 stycznia 2027 r. uruchomienie Osobistych Kont Inwestycyjnych (OKI) zbiegnie się z okresem silnego wzrostu aktywności inwestorów indywidualnych w Polsce - uważają analitycy Polskiego Instytutu Ekonomicznego.",
-      "pubDate": "Thu, 20 Aug 2026 11:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/e/27b00c7cbba7fd-948-568-14-72-1905-1143.jpg",
-      "dateISO": "2026-08-20T10:20:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Dolar wyraźnie traci przez administrację Trumpa. Złoty w lepszej formie może jeszcze zyskać",
-      "link": "https://www.bankier.pl/wiadomosc/Dolar-wyraznie-traci-przez-administracje-Trumpa-Zloty-w-lepszej-formie-moze-jeszcze-zyskac-9184833.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wyraźna przecena amerykańskiego dolara na rynku globalnym oraz pozytywny odbiór planów reformy podatkowej skutkowały umocnieniem polskiej waluty. \"Oczekujemy zatem zejścia EUR/PLN w okolice 4,31 oraz próby przełamania przez USD/PLN linii średnioterminowego trendu wzrostowego, przebiegającej w pobliż",
-      "pubDate": "Thu, 20 Aug 2026 11:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/d/d54800330e0395-948-568-0-292-2842-1705.jpg",
-      "dateISO": "2026-08-20T10:10:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -625,30 +661,6 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Płace wzrosły szybciej, niż oczekiwano: programiści przed górnikami i leśnikami. Kto zarabiał najmniej w lipcu?",
-      "link": "https://www.bankier.pl/wiadomosc/Place-wzrosly-szybciej-niz-oczekiwano-programisci-przed-gornikami-i-lesnikami-Kto-zarabial-najmniej-w-lipcu-9184748.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wzrost płac w polskiej gospodarce zaskoczył pozytywnie, także przez przyspieszenie realnej dynamiki, mimo wyższej inflacji. Odbiło również zatrudnienie, co jednak można tłumaczyć sezonowym popytem na pracę w rolnictwie, gastronomii czy hotelarstwie. Jak wynika z danych GUS najlepiej zarabiającą grup",
-      "pubDate": "Thu, 20 Aug 2026 10:12:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/d/f82463c1a031e7-945-560-19-19-3916-2349.jpg",
-      "dateISO": "2026-08-20T09:12:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Wakacyjne ochłodzenie w polskich fabrykach. Przemysł zwalnia tempo po czerwcowym zrywie",
-      "link": "https://www.bankier.pl/wiadomosc/Wakacyjne-ochlodzenie-w-polskich-fabrykach-Przemysl-zwalnia-tempo-po-czerwcowym-zrywie-9184759.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Po czerwcowym ożywieniu w polskich fabrykach doszło do lipcowego spowolnienia - wskazują najnowsze dane GUS. Choć tempo rozwoju krajowego przemysłu wyraźnie wyhamowało, wciąż mamy do czynienia z utrzymaniem dodatniego trendu. Jak pokazują dane statystyczne, za spadkiem w zeszłym miesiącu stała w duż",
-      "pubDate": "Thu, 20 Aug 2026 10:02:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/4/2752d6cf8c2b88-948-568-0-218-3500-2099.jpg",
-      "dateISO": "2026-08-20T09:02:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
       "title": "Krytyczna awaria w elektrowni atomowej w Enerhodarze. To 1,2 tys. km od Polski",
       "link": "https://businessinsider.com.pl/gospodarka/elektrownia-atomowa-w-enerhodarze-bez-pradu-walki-uniemozliwiaja-naprawe/kqp25xk",
       "description": "Zaporoska Elektrownia Atomowa w Enerhodarze utraciła dostęp do zewnętrznego zasilania. Uszkodzenie linii wysokiego napięcia spowodowało konieczność uruchomienia awaryjnych źródeł energii w obiekcie okupowanym przez wojska rosyjskie. Od granicy z Polską elektrownia oddalona jest o 1,2 tys. kilometrów",
@@ -673,18 +685,6 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Iran odpowiada na groźby USA. \"Nie ugniemy się pod naporem restrykcji\"",
-      "link": "https://businessinsider.com.pl/gospodarka/donald-trump-oglasza-gospodarczy-d-day-iran-ostrzega-przed-eskalacja/rc6r4fg",
-      "description": "Iran odpowiedział w czwartek na najnowsze groźby ze strony Stanów Zjednoczonych. Minister spraw zagranicznych tego kraju ostrzegł Waszyngton przed dalszą eskalacją presji gospodarczej. Donald Trump zapowiedział wcześniej bezprecedensową kampanię sankcyjną przeciwko Teheranowi.",
-      "pubDate": "Thu, 20 Aug 2026 08:43:57 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Texk9kpTURBXy8zYzg2ZTgyMGVkMDY2YTlkMTVlMzAzZjc1NGE3NGVjOC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-20T08:43:57.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
       "title": "Czarzasty zapowiada dalsze reformy. \"Rozpoczynamy od olbrzymiej zmiany, będą kolejne\"",
       "link": "https://www.bankier.pl/wiadomosc/Czarzasty-zapowiada-dalsze-reformy-Rozpoczynamy-od-olbrzymiej-zmiany-beda-kolejne-9184764.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Marszałek Sejmu, przewodniczący Nowej Lewicy Włodzimierz Czarzasty podkreślił w czwartek, że koalicja ustaliła „określony plan dalej” wprowadzania zmian dot. podatków . Rozpoczynamy od olbrzymiej zmiany, te zmiany będą kontynuowane - powiedział.",
@@ -697,30 +697,6 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Niemcy tankują w Polsce na potęgę. Takiej różnicy cen dawno nie było",
-      "link": "https://businessinsider.com.pl/gospodarka/paliwo-w-polsce-znacznie-tansze-niz-w-niemczech-kierowcy-ruszyli-na-zakupy/2htyws4",
-      "description": "Polskie stacje benzynowe przy zachodniej granicy przeżywają prawdziwe oblężenie. Po obniżce VAT i wprowadzeniu maksymalnych cen paliw różnica między Polską a Niemcami sięga nawet 80–90 eurocentów na litrze. Dla niemieckich kierowców przejazd przez granicę stał się więc wyjątkowo opłacalny.",
-      "pubDate": "Thu, 20 Aug 2026 08:16:28 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/sZmk9kpTURBXy82YWY2ZjY0ZmY1MWFkY2NkMTI4MDQ4YmVjMTBlNjU1Mi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-20T08:16:28.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Wielka zmiana na PGE Narodowym. Orlen ma zostać sponsorem tytularnym",
-      "link": "https://www.bankier.pl/wiadomosc/Wielka-zmiana-na-PGE-Narodowym-Orlen-ma-zostac-sponsorem-tytularnym-9184730.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "PGE Narodowy może jeszcze w tym roku zmienić nazwę. Według ustaleń serwisu Meczyki.pl nowym sponsorem tytularnym warszawskiego stadionu ma zostać Orlen, który zastąpi PGE. Kontrakt ma opiewać na ponad 10 mln zł rocznie.",
-      "pubDate": "Thu, 20 Aug 2026 09:15:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/0/79442185334891-948-568-0-0-1500-899.jpg",
-      "dateISO": "2026-08-20T08:15:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
       "title": "Bitcoin 10% w górę, na rynku byka",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-10-w-gore-na-rynku-byka-1540246",
       "description": "",
@@ -730,30 +706,6 @@
       "category": "gielda",
       "image": "https://content-media.investing.com/news/CryptoBitcoindigital_800x533_L_1641975060.jpg",
       "dateISO": "2026-08-20T08:13:05.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Zyski Grupy PZU na rekordowych poziomach. Wysokie dochody na ubezpieczeniach życiowych",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/zyski-pzu-na-rekordowych-poziomach-wyniki-przebily-prognozy/ch2fhrf",
-      "description": "Grupa PZU przedstawiła wyniki finansowe za pierwsze półrocze bieżącego roku. Odnotowała zysk przekraczający 3 mld zł. Prezes spółki podkreślił odporność zdywersyfikowanego modelu biznesowego firmy.",
-      "pubDate": "Thu, 20 Aug 2026 08:11:53 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Hb1k9kpTURBXy9mODE5MGYzMzY4YjY4NTc0M2VhZDMwOGVmZWQ2MDAwMi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-20T08:11:53.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Polski przemysł przyspiesza w lipcu. Wyniki GUS lepsze od oczekiwań",
-      "link": "https://businessinsider.com.pl/gospodarka/gus-podal-dane-o-produkcji-przemyslowej-lipiec-zaskoczyl-ekonomistow/xce3x00",
-      "description": "Lipiec okazał się korzystny dla polskiego przemysłu. Najnowsze dane GUS wskazują na wzrost produkcji nieco szybszy od prognoz. Słabo wypadło jednak budownictwo, widać też pewien wzrost inflacji producentów.",
-      "pubDate": "Thu, 20 Aug 2026 07:52:08 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/whXk9kpTURBXy9iNDMzYjQ4NDU1OTk1OGZlMjNmZmQyMGE3Y2M0YjNjNi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-20T07:52:08.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -985,5 +937,5 @@
       "dateFormatted": "19 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-20T14:35:56.716Z"
+  "updatedAt": "2026-08-20T16:35:06.139Z"
 }
