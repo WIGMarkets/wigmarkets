@@ -1,27 +1,291 @@
 {
   "articles": [
     {
-      "title": "Robyg kończy budowę na Bemowie. Wprowadza do sprzedaży ostatnie mieszkania",
-      "link": "https://www.bankier.pl/wiadomosc/Robyg-wprowadzil-do-sprzedazy-230-lokali-na-warszawskim-Bemowie-9184799.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Robyg wprowadził do sprzedaży ostatnie 2 etapy Osiedla Kameralnego, czyli 230 lokali na?warszawskim Bemowie - podał deweloper w komunikacie prasowym. Łącznie osiedle obejmie około 900 lokali w 8 etapach. (PAP Biznes)",
-      "pubDate": "Thu, 20 Aug 2026 10:26:00 +0100",
+      "title": "Elektrotim i duży kontrakt w Warszawie. Umowa z Orlen Termika warta 124 mln zł",
+      "link": "https://www.bankier.pl/wiadomosc/Elektrotim-ma-umowe-z-Orlen-Termika-za-124-mln-zl-netto-9184894.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Elektrotim zawarł umowę z Orlen Termika na budowę i przyłączenie do sieci przesyłowej PSE nowej rozdzielni wnętrzowej 110kV w EC Żerań - podał Elektrotim w komunikacie. Wynagrodzenie ustalono na 124 mln zł netto.",
+      "pubDate": "Thu, 20 Aug 2026 12:14:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/b/0/1a402daa606bfe-948-568-0-320-3916-2350.jpg",
-      "dateISO": "2026-08-20T09:26:00.000Z",
+      "image": "http://galeria.bankier.pl/p/6/8/1288b01e0a034a-948-568-12-75-987-592.jpg",
+      "dateISO": "2026-08-20T11:14:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Wielki kontrakt Orlenu z Equinorem. Norwegia dostarczy ropę na jedną czwartą potrzeb",
-      "link": "https://www.bankier.pl/wiadomosc/Orlen-ma-umowe-z-Equinorem-na-dostawy-ropy-z-Norwegii-9184796.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Orlen zawarł z Equinorem trzyletnią umowę na dostawy ropy ze złoża Johan Sverdrup na Norweskim Szelfie Kontynentalnym - podał Orlen w komunikacie prasowym. Dostawy rozpoczną się we wrześniu, a zakontraktowany wolumen może sięgnąć ponad 9 mln ton rocznie, co odpowiada ok. jednej czwartej rocznego zap",
-      "pubDate": "Thu, 20 Aug 2026 10:18:00 +0100",
+      "title": "Celon Pharma uzyskał pozytywne wyniki badania biorównoważności Semaglutydu Celon",
+      "link": "https://www.bankier.pl/wiadomosc/Celon-Pharma-uzyskal-pozytywne-wyniki-badania-biorownowaznosci-Semaglutydu-Celon-9184876.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Celon Pharma uzyskał pozytywne wyniki badania biorównoważności produktu leczniczego zawierającego semaglutyd (Reduzek), rozwijanego przez spółkę - podała Celon Pharma w komunikacie.",
+      "pubDate": "Thu, 20 Aug 2026 12:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/d/7/2997cca2d678d0-948-568-140-200-3860-2315.jpg",
-      "dateISO": "2026-08-20T09:18:00.000Z",
+      "image": "https://galeria.bankier.pl/p/e/8/82216e487002a2-thumb-1000.jpg",
+      "dateISO": "2026-08-20T11:00:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Cztery godziny wolnego dla rodziców. Dzieci zostały pod opieką miasta",
+      "link": "https://www.bankier.pl/wiadomosc/Cztery-godziny-wolnego-dla-rodzicow-Dzieci-zostaly-pod-opieka-miasta-9184790.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Burmistrz Nowego Jorku Zohran Mamdani uruchomił nową inicjatywę skierowaną do rodziców i opiekunów. „Parents’ Night Out” ma dać dorosłym kilka godzin wolnego, podczas gdy ich dzieci będą bezpłatnie uczestniczyć w zajęciach organizowanych przez miejskie centra rekreacyjne.",
+      "pubDate": "Thu, 20 Aug 2026 12:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/7/dcfc44dca35880-948-568-0-0-4000-2399.jpg",
+      "dateISO": "2026-08-20T11:00:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Przeciętny Polak żyje 78,5 roku, o dwa lata mniej niż średnia UE. Eksperci wskazują przyczyny",
+      "link": "https://www.bankier.pl/wiadomosc/Przecietny-Polak-zyje-78-5-roku-o-dwa-lata-mniej-niz-srednia-UE-Eksperci-wskazuja-przyczyny-9184858.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Przeciętny Polak żyje 78,5 roku – o około dwa lata krócej niż wynosi średnia w Unii Europejskiej. Według analizy ekonomistów Banku BNP Paribas jednym z głównych powodów jest niedofinansowanie profilaktyki, diagnostyki i opieki ambulatoryjnej, a także niedobór personelu medycznego. Zrównanie wydatków",
+      "pubDate": "Thu, 20 Aug 2026 12:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/5/9d5fd9e801be51-948-568-0-171-3600-2159.jpg",
+      "dateISO": "2026-08-20T11:00:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Bezpieczny poziom marży i rekordowy backlog. ZUE podsumowuje wyniki i szuka kontraktów za granicą",
+      "link": "https://www.bankier.pl/wiadomosc/ZUE-ocenia-poziom-marzy-6-7-proc-jako-bezpieczny-chce-zwiekszac-udzial-kontraktow-zagr-w-backlogu-9184875.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "ZUE ocenia obecny poziom backlogu jako satysfakcjonujący, a bezpieczny poziom marży brutto na sprzedaży na 6-7 proc. - poinformowali przedstawiciele zarządu podczas wideokonferencji. Grupa chce zwiększać udział kontraktów zagranicznych w portfelu, ale ze względu na specyfikę niemieckiego rynku rozwi",
+      "pubDate": "Thu, 20 Aug 2026 11:58:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/c/0/52084439f6661c-948-568-40-30-3960-2375.jpg",
+      "dateISO": "2026-08-20T10:58:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Zmiana w opłacie turystycznej. Tusk: Pieniądze w całości mają trafiać do gmin",
+      "link": "https://www.bankier.pl/wiadomosc/Zmiana-w-oplacie-turystycznej-Tusk-Pieniadze-w-calosci-maja-trafiac-do-gmin-9184841.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Premier Donald Tusk powiedział w czwartek, że planowana opłata turystyczna będzie trafiała w 100 procentach, nie w 80 proc. do budżetu gminy. - Wstępnie ustalałem to z ministrem finansów; tę zmianę, drobną, ale istotną, wprowadzimy - powiedział szef rządu.",
+      "pubDate": "Thu, 20 Aug 2026 11:57:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/2/7884beeaa61822-948-568-90-40-3900-2340.jpg",
+      "dateISO": "2026-08-20T10:57:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Ceny maksymalne paliw znów w górę. Resort energii podał stawki na piątek",
+      "link": "https://www.bankier.pl/wiadomosc/Ceny-maksymalne-paliw-znow-w-gore-Resort-energii-podal-stawki-na-piatek-9184869.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Maksymalna cena dla benzyny Pb95 wynosi 6,52 zł/l, dla benzyny Pb98 to 7,33 zł/l, a dla oleju napędowego 7,56 zł/l - poinformowało Ministerstwo Energii na platformie X. Ceny te będą obowiązywały w piątek, 21 sierpnia.",
+      "pubDate": "Thu, 20 Aug 2026 11:52:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/4/f020967d5c2801-948-568-0-0-3749-2249.jpg",
+      "dateISO": "2026-08-20T10:52:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Tusk tłumaczy reformę podatków: Zdejmujemy ciężar z klasy średniej, dociążamy najbogatszych",
+      "link": "https://www.bankier.pl/wiadomosc/Tusk-tlumaczy-reforme-podatkow-Zdejmujemy-ciezar-z-klasy-sredniej-dociazamy-najbogatszych-9184867.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zaproponowane zmiany w progach podatkowych i CIT mają częściowo odciążyć klasę średnią jednocześnie nie zwiększając deficytu budżetowego - powiedział w czwartek premier Donald Tusk podczas konferencji w Krakowie.",
+      "pubDate": "Thu, 20 Aug 2026 11:51:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/d/f427fab4801fd3-948-568-20-0-3980-2387.jpg",
+      "dateISO": "2026-08-20T10:51:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Tusk o bezpieczeństwie: Przeznaczamy najwięcej na świecie na zbrojenia",
+      "link": "https://www.bankier.pl/wiadomosc/Tusk-o-bezpieczenstwie-Przeznaczamy-najwiecej-na-swiecie-na-zbrojenia-9184855.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polska jest bezpieczniejsza na ścianie wschodniej bardziej niż kiedykolwiek - ocenił w czwartek premier Donald Tusk. Zapewnił, że rząd będzie starał się zwiększyć możliwości obrony powietrznej w Polsce wszędzie, gdzie się da.",
+      "pubDate": "Thu, 20 Aug 2026 11:37:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/7/0c4fa65978bd55-948-568-60-30-3940-2363.jpg",
+      "dateISO": "2026-08-20T10:37:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Miliardowe szkody i widmo upadłości. Grupa Azoty idzie do prokuratury ws. Polimery Police",
+      "link": "https://www.bankier.pl/wiadomosc/Grupa-Azoty-przygotowuje-kilka-zawiadomien-do-prokuratury-ws-projektu-Polimery-Police-9184845.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Grupa Azoty przygotowuje kilka kolejnych zawiadomień do prokuratury w sprawie prowadzonej przez wiele lat inwestycji Polimery Police - poinformowała Małgorzata Królak, prezes Grupy Azoty Polyolefins. Spółka mówi o wielomiliardowych szkodach i doprowadzeniu grupy na skraj upadłości.",
+      "pubDate": "Thu, 20 Aug 2026 11:34:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/9/85a9a840cdb824-948-568-7-82-2992-1795.jpg",
+      "dateISO": "2026-08-20T10:34:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Tajna operacja wojsk na Bliskim Wschodzie. Korytarz morski chroni dostawy 10 mln baryłek ropy",
+      "link": "https://www.bankier.pl/wiadomosc/Tajna-operacja-wojsk-na-Bliskim-Wschodzie-Korytarz-morski-chroni-dostawy-10-mln-barylek-ropy-9184839.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Amerykańskie siły zbrojne po cichu utworzyły korytarz żeglugowy prowadzący przez cieśninę Ormuz, który umożliwia transport milionów baryłek ropy naftowej dziennie - poinformował portal Axios, powołując się na dwóch przedstawicieli władz Stanów Zjednoczonych.",
+      "pubDate": "Thu, 20 Aug 2026 11:23:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/8/3d8244aa918de2-948-568-90-50-3666-2200.jpg",
+      "dateISO": "2026-08-20T10:23:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Analitycy: Płace nadal będą rosły szybciej od inflacji. RPP nie musi ciąć stóp",
+      "link": "https://www.bankier.pl/wiadomosc/Analitycy-Erste-Place-nadal-beda-rosly-szybciej-od-inflacji-To-wesprze-konsumpcje-9184827.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Silniejsza od oczekiwań dynamika płac ogółem w lipcu była pod wpływem kilku branż z wyjątkowo wysokimi wzrostami, co nie sygnalizuje trwałego przyspieszenia płac dla całego sektora przedsiębiorstw, a popyt na pracę też może zacząć wychodzić z dołka. W związku z tym rynek pracy w Polsce nie wymaga ws",
+      "pubDate": "Thu, 20 Aug 2026 11:23:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/f/bbaa9369d977b1-948-568-67-97-2932-1759.jpg",
+      "dateISO": "2026-08-20T10:23:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "OKI trafią na rynek w momencie rekordowego zainteresowania inwestowaniem",
+      "link": "https://www.bankier.pl/wiadomosc/OKI-trafia-na-rynek-w-momencie-rekordowego-zainteresowania-inwestowaniem-9184832.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Planowane na 1 stycznia 2027 r. uruchomienie Osobistych Kont Inwestycyjnych (OKI) zbiegnie się z okresem silnego wzrostu aktywności inwestorów indywidualnych w Polsce - uważają analitycy Polskiego Instytutu Ekonomicznego.",
+      "pubDate": "Thu, 20 Aug 2026 11:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/e/27b00c7cbba7fd-948-568-14-72-1905-1143.jpg",
+      "dateISO": "2026-08-20T10:20:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Dolar wyraźnie traci przez administrację Trumpa. Złoty w lepszej formie może jeszcze zyskać",
+      "link": "https://www.bankier.pl/wiadomosc/Dolar-wyraznie-traci-przez-administracje-Trumpa-Zloty-w-lepszej-formie-moze-jeszcze-zyskac-9184833.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wyraźna przecena amerykańskiego dolara na rynku globalnym oraz pozytywny odbiór planów reformy podatkowej skutkowały umocnieniem polskiej waluty. \"Oczekujemy zatem zejścia EUR/PLN w okolice 4,31 oraz próby przełamania przez USD/PLN linii średnioterminowego trendu wzrostowego, przebiegającej w pobliż",
+      "pubDate": "Thu, 20 Aug 2026 11:10:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/d/d54800330e0395-948-568-0-292-2842-1705.jpg",
+      "dateISO": "2026-08-20T10:10:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Ewakuacja plaży w Ceucie. Ruszyła operacja przenoszenia migrantów do ośrodków",
+      "link": "https://www.bankier.pl/wiadomosc/Ewakuacja-plazy-w-Ceucie-Ruszyla-operacja-przenoszenia-migrantow-do-osrodkow-9184831.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W czwartek rano rozpoczęła się ewakuacja do tymczasowych ośrodków recepcyjnych migrantów koczujących na plaży w Ceucie – hiszpańskiej eksklawie w Afryce Północnej, do której pod koniec lipca przedarło się z Maroka ponad 70 tys. osób; operacja przebiega spokojnie – przekazała agencja EFE.",
+      "pubDate": "Thu, 20 Aug 2026 11:09:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/3/4627a1a24a8c43-948-568-0-438-2207-1324.jpg",
+      "dateISO": "2026-08-20T10:09:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Binance uruchamia platformę Agent OS dla aplikacji AI w tradingu",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/binance-uruchamia-platforme-agent-os-dla-aplikacji-ai-w-tradingu-93CH-1540432",
+      "description": "",
+      "pubDate": "2026-08-20 10:08:56",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/Cryptocurrencies_800x533_L_1556444885.jpg",
+      "dateISO": "2026-08-20T10:08:56.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Blik bije kolejny rekord. Dynamiczny wzrost nie tylko w internecie",
+      "link": "https://businessinsider.com.pl/biznes/blik-bije-kolejny-rekord-dynamiczny-wzrost-nie-tylko-w-internecie/s3j3cly",
+      "description": "System płatności mobilnych Blik odnotował znaczący wzrost aktywności użytkowników. Zrealizowali rekordowe niemal 1,6 mld transakcji w pierwszej połowie 2026 r.",
+      "pubDate": "Thu, 20 Aug 2026 10:07:26 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/hGJk9kpTURBXy80Y2JmYjA3YjJmODJiY2ZiZmJjOTJjYjdmZmYzNzExZi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-20T10:07:26.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Są maksymalne ceny paliw na piątek. Znowu drożej",
+      "link": "https://businessinsider.com.pl/gospodarka/minister-motyka-oglasza-ceny-paliw-na-piatek-jest-podwyzka/eldg0ns",
+      "description": "Minister energii Miłosz Motyka ogłosił maksymalne ceny paliw na piątek w ramach programu \"Ceny Paliw Niżej\". Znów jest drożej niż w dzień poprzedni.",
+      "pubDate": "Thu, 20 Aug 2026 10:06:36 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Qdtk9kpTURBXy8zMGZhZWZkMDIzMTI5ZTgxYmVjY2Q3MDgxNzgyNmY0YS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-20T10:06:36.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Nowe procedury i zmiany. MON zapowiada szybsze rozmieszczanie jednostek i sprzętu",
+      "link": "https://www.bankier.pl/wiadomosc/Nowe-procedury-i-zmiany-MON-zapowiada-szybsze-rozmieszczanie-jednostek-i-sprzetu-9184822.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wszystkie możliwe do użycia polskie systemy obrony powietrznej są zagospodarowane i rozmieszczone według wskazań wojska - powiedział w czwartek wicepremier, szef MON Władysław Kosiniak-Kamysz. Zapowiedział zmiany „w ustawie o obronie Ojczyzny, „żeby szybciej móc rozmieszczać m.in. różnego rodzaju sp",
+      "pubDate": "Thu, 20 Aug 2026 10:58:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/0/6e4d7d4bf24212-948-568-0-211-1784-1070.jpg",
+      "dateISO": "2026-08-20T09:58:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "BLIK mocno w górę. Ponad 1,5 mld transakcji w pierwsze półrocze 2026 roku",
+      "link": "https://www.bankier.pl/wiadomosc/BLIK-mocno-w-gore-Ponad-1-5-mld-transakcji-w-pierwsze-polrocze-2026-roku-9184821.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W ciągu pierwszego półrocza 2026 roku użytkownicy BLIKA zrealizowali 1,58 mld transakcji, czyli o 13 proc. więcej niż rok wcześniej - poinformowała członkini zarządu ds. finansowych Katarzyna Matuszczyk. Dodała, że ekspansja zagraniczna pozostaje jednym z fundamentów strategii spółki i w ciągu nastę",
+      "pubDate": "Thu, 20 Aug 2026 10:56:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/d/38a9d4f255b3a1-948-568-60-450-3940-2363.jpg",
+      "dateISO": "2026-08-20T09:56:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Ukraina zaatakowała rosyjską infrastrukturę. Trafione rafineria i most energetyczny do Krymu",
+      "link": "https://businessinsider.com.pl/gospodarka/ukrainskie-drony-uderzyly-w-rafinerie-w-rosji-pozary-i-przerwy-w-dostawach-pradu/zrjwmrs",
+      "description": "Ukraińska armia przeprowadziła kolejne uderzenia bezzałogowcami na rosyjską infrastrukturę paliwowo-energetyczną. Celem ataków stały się rafineria, terminal naftowy oraz podstacja energetyczna w różnych regionach Rosji.",
+      "pubDate": "Thu, 20 Aug 2026 09:32:32 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/TMWk9kpTURBXy85YjNjMjc2YmQ3MzBkNTMwMDIwZTI2NGI0M2NkOWY5OC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-20T09:32:32.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Wzrost płac czy ceny ropy naftowej? RPP będzie musiała zważyć oba czynniki",
+      "link": "https://businessinsider.com.pl/gospodarka/ceny-ropy-i-inflacja-zdecyduja-o-stopach-procentowych-co-zrobi-rpp-we-wrzesniu/gd0bkx7",
+      "description": "To ceny ropy naftowej i perspektywy inflacji pozostają głównym czynnikiem — a nie podwyższone tempo wzrostu płac — decydującym w najbliższym czasie o wysokości stóp procentowych w Polsce. Ekonomiści przewidują, co we wrześniu zrobi RPP.",
+      "pubDate": "Thu, 20 Aug 2026 09:29:07 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/5H4k9kpTURBXy82ZmUzYzM1Y2MxODQ2NzYwZTExYzhmMWM5ODUwNDQ3NS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-20T09:29:07.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Credit Agricole wprowadza nowe flagowe konto. Od teraz jest ono darmowe",
+      "link": "https://www.bankier.pl/wiadomosc/Bezplatne-konto-w-Credit-Agricole-Bank-zmienia-swoja-oferte-9184793.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Credit Agricole dokonał zmian w swojej palecie kont osobistych. Dotychczasowe, nieco droższe w prowadzeniu, flagowe Konto dla Ciebie zostało zastąpiona przez Konto dla Ciebie MAX. Cennik obejmujący opłaty podstawowe jest zdecydowanie bardziej korzystny dla klientów. Przykładowo bank zrezygnował z op",
+      "pubDate": "Thu, 20 Aug 2026 10:13:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/c/d28191d550255f-948-568-312-276-973-584.jpg",
+      "dateISO": "2026-08-20T09:13:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "\"Mocne wejście w półrocze\". Andrzej Domański o polskiej gospodarce i zmianach podatkowych",
+      "link": "https://businessinsider.com.pl/gospodarka/polska-gospodarka-przyspiesza-minister-finansow-komentuje-wyniki-i-planuje-zmiany/ttmn76y",
+      "description": "Minister finansów i gospodarki Andrzej Domański ocenił, że polska gospodarka rozpoczęła drugą połowę roku od solidnych wyników. Odnosząc się do najnowszych danych Głównego Urzędu Statystycznego (GUS), zapowiedział jednocześnie zmiany w podatku dochodowym od osób fizycznych.",
+      "pubDate": "Thu, 20 Aug 2026 09:12:28 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/7VEk9kpTURBXy82ODA5ZTkzMzc4NTQ1M2RhMGI3YWQwZTQ1YzQ3Y2EzMS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-20T09:12:28.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -46,6 +310,42 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/f/4/2752d6cf8c2b88-948-568-0-218-3500-2099.jpg",
       "dateISO": "2026-08-20T09:02:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Krytyczna awaria w elektrowni atomowej w Enerhodarze. To 1,2 tys. km od Polski",
+      "link": "https://businessinsider.com.pl/gospodarka/elektrownia-atomowa-w-enerhodarze-bez-pradu-walki-uniemozliwiaja-naprawe/kqp25xk",
+      "description": "Zaporoska Elektrownia Atomowa w Enerhodarze utraciła dostęp do zewnętrznego zasilania. Uszkodzenie linii wysokiego napięcia spowodowało konieczność uruchomienia awaryjnych źródeł energii w obiekcie okupowanym przez wojska rosyjskie. Od granicy z Polską elektrownia oddalona jest o 1,2 tys. kilometrów",
+      "pubDate": "Thu, 20 Aug 2026 09:01:45 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/RU0k9kpTURBXy8xM2Y4YTEwY2ZhNWJhZTJjMDRiNDAyNDM0N2FjZGRmOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-20T09:01:45.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Akcje kryptowalutowe rosną po rekordowej likwidacji shortów za 2,7 mld $",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/akcje-kryptowalutowe-rosna-po-rekordowej-likwidacji-shortow-za-27-mld--1540313",
+      "description": "",
+      "pubDate": "2026-08-20 08:57:07",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/LYNXNPEC6413U_M.jpg",
+      "dateISO": "2026-08-20T08:57:07.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Iran odpowiada na groźby USA. \"Nie ugniemy się pod naporem restrykcji\"",
+      "link": "https://businessinsider.com.pl/gospodarka/donald-trump-oglasza-gospodarczy-d-day-iran-ostrzega-przed-eskalacja/rc6r4fg",
+      "description": "Iran odpowiedział w czwartek na najnowsze groźby ze strony Stanów Zjednoczonych. Minister spraw zagranicznych tego kraju ostrzegł Waszyngton przed dalszą eskalacją presji gospodarczej. Donald Trump zapowiedział wcześniej bezprecedensową kampanię sankcyjną przeciwko Teheranowi.",
+      "pubDate": "Thu, 20 Aug 2026 08:43:57 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Texk9kpTURBXy8zYzg2ZTgyMGVkMDY2YTlkMTVlMzAzZjc1NGE3NGVjOC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-20T08:43:57.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -110,12 +410,12 @@
     },
     {
       "title": "Wielka zmiana na PGE Narodowym. Orlen ma zostać sponsorem tytularnym",
-      "link": "https://www.bankier.pl/wiadomosc/Wielka-zmiana-na-PGE-Narodowym-Orlen-ma-zostac-sponsorem-tytularnym-9184730.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Wielka-zmiana-na-PGE-Narodowym-Orlen-ma-zostac-sponsorem-tytularnym-9184730.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "PGE Narodowy może jeszcze w tym roku zmienić nazwę. Według ustaleń serwisu Meczyki.pl nowym sponsorem tytularnym warszawskiego stadionu ma zostać Orlen, który zastąpi PGE. Kontrakt ma opiewać na ponad 10 mln zł rocznie.",
       "pubDate": "Thu, 20 Aug 2026 09:15:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/4/0/79442185334891-948-568-0-0-1500-899.jpg",
       "dateISO": "2026-08-20T08:15:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
@@ -159,7 +459,7 @@
     {
       "title": "Polski przemysł przyspiesza w lipcu. Wyniki GUS lepsze od oczekiwań",
       "link": "https://businessinsider.com.pl/gospodarka/gus-podal-dane-o-produkcji-przemyslowej-lipiec-zaskoczyl-ekonomistow/xce3x00",
-      "description": "Lipiec okazał się korzystny dla polskiego przemysłu. Najnowsze dane GUS wskazują na wzrost produkcji nieco szybszy od prognoz.",
+      "description": "Lipiec okazał się korzystny dla polskiego przemysłu. Najnowsze dane GUS wskazują na wzrost produkcji nieco szybszy od prognoz. Słabo wypadło jednak budownictwo, widać też pewien wzrost inflacji producentów.",
       "pubDate": "Thu, 20 Aug 2026 07:52:08 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -289,30 +589,6 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Cyberatak na Łotwie. Całe kierownictwo CSDD podało się do dymisji",
-      "link": "https://www.bankier.pl/wiadomosc/Cyberatak-na-Lotwie-Cale-kierownictwo-CSDD-podalo-sie-do-dymisji-9184672.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Całe kierownictwo Dyrekcji Bezpieczeństwa Ruchu Drogowego (CSDD) na Łotwie złożyło w środę rezygnację ze stanowisk po tym jak w wyniku cyberataku wyciekły dane około 1,2 mln osób oraz około 200 tys. podmiotów prawnych.",
-      "pubDate": "Thu, 20 Aug 2026 07:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/f/632f52d37d579e-945-560-0-366-4076-2445.jpg",
-      "dateISO": "2026-08-20T06:40:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Katastrofa misji ratunkowej NASA. Obserwatorium Swift spłonie w atmosferze",
-      "link": "https://www.bankier.pl/wiadomosc/Katastrofa-misji-ratunkowej-NASA-Obserwatorium-Swift-splonie-w-atmosferze-9184663.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "NASA i firma Katalyst poinformowały w środę o odwołaniu misji, mającej na celu uratowanie starzejącego się obserwatorium kosmicznego Swift. Statek wysłany do przetransportowania satelity doznał problemów technicznych.",
-      "pubDate": "Thu, 20 Aug 2026 07:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/9/b682b03becd30b-948-568-0-240-1632-979.jpg",
-      "dateISO": "2026-08-20T06:40:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
       "title": "Podwyżka CIT uderzy w większość spółek z WIG. Trigon DM wskazuje skalę",
       "link": "https://www.bankier.pl/wiadomosc/Podwyzka-CIT-uderzy-w-wiekszosc-spolek-z-WIG-Trigon-DM-wskazuje-skale-9184587.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Przedstawiona w środę przez rząd premiera Donalda Tuska propozycja podniesienia stawki CIT z 19 do 22 proc. dla firm z przychodami powyżej 50 mln euro rocznie dotyczy około 2/3 spółek z indeksu WIG i przekłada się na obniżenie ich wycen o 3-4 proc. - szacują analitycy Trigon DM.",
@@ -322,18 +598,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/7/fc9dcdc6907a90-948-568-0-127-4256-2553.jpg",
       "dateISO": "2026-08-20T06:35:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Była zastępczyni szefa biura Zełenskiego podejrzana o korupcję. NABU prowadzi śledztwo",
-      "link": "https://www.bankier.pl/wiadomosc/Byla-zastepczyni-szefa-biura-Zelenskiego-podejrzana-o-korupcje-NABU-prowadzi-sledztwo-9184618.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Podejrzewana o korupcję i zwolniona w środę ze stanowiska zastępczyni szefa Biura Prezydenta Ukrainy Iryna Mudra przyznała, że przeprowadzono u niej przeszukania, jednak wbrew doniesieniom medialnym, nie została zatrzymana.",
-      "pubDate": "Thu, 20 Aug 2026 07:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/f/b09900c96409d5-948-568-950-340-1920-1151.jpg",
-      "dateISO": "2026-08-20T06:30:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -349,18 +613,6 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Rząd Hiszpanii przenosi nieletnie migrantki. Władze Ceuty i Maroko protestują",
-      "link": "https://www.bankier.pl/wiadomosc/Rzad-Hiszpanii-przenosi-nieletnie-migrantki-Wladze-Ceuty-i-Maroko-protestuja-9184657.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rząd Hiszpanii Pedra Sancheza zapowiedział w środę skierowanie do kontynentalnej części tego kraju 500 nieletnich migrantek, które podczas kryzysu migracyjnego 30 i 31 lipca przedostały się z Maroka do Ceuty.",
-      "pubDate": "Thu, 20 Aug 2026 07:25:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/1/d007c84ae17a6a-948-568-174-270-3274-1964.jpg",
-      "dateISO": "2026-08-20T06:25:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
       "title": "Londyn ostro przeciwko rozbudowie izraelskich osiedli. „Niedopuszczalne i destrukcyjne”",
       "link": "https://www.bankier.pl/wiadomosc/Londyn-ostro-przeciwko-rozbudowie-izraelskich-osiedli-Niedopuszczalne-i-destrukcyjne-9184641.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Brytyjski minister spraw zagranicznych Ed Miliband potępił w środę decyzję Izraela o ogłoszeniu przetargu na projekt budowy żydowskiego osiedla E1 na palestyńskim terytorium. MSZ przekazał stanowisko ministra wezwanemu chargé d'affaires Izraela.",
@@ -369,18 +621,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/8/c/cdf22ad980e279-948-568-25-16-3316-1990.jpg",
-      "dateISO": "2026-08-20T06:25:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Okręt podwodny A17 coraz bliżej Polski. Marynarze rozpoczęli szkolenia w Szwecji",
-      "link": "https://www.bankier.pl/wiadomosc/Okret-podwodny-A17-coraz-blizej-Polski-Marynarze-rozpoczeli-szkolenia-w-Szwecji-9184626.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wicepremier, szef MON Władysław Kosiniak-Kamysz poinformował, że w Szwecji rozpoczęły się szkolenia polskich marynarzy, którzy będą tworzyć załogę okrętu podwodnego A17. Jest to jednostka, która zostanie wypożyczona jako rozwiązanie pomostowe, zanim do Polski trafią trzy okręty w ramach programu Ork",
-      "pubDate": "Thu, 20 Aug 2026 07:25:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/f/84f7b0f60f06f2-948-568-17-0-3482-2089.jpg",
       "dateISO": "2026-08-20T06:25:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
@@ -445,30 +685,6 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Rosjanie płacą za auta 76% więcej niż przed wojną",
-      "link": "https://www.bankier.pl/wiadomosc/Rosjanie-placa-za-auta-76-wiecej-niz-przed-wojna-9184656.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "3,5 mln rubli, tyle średnio trzeba było w lipcu zapłacić za nowy samochód- czytamy w czwartkowym wydaniu „Pulsu Biznesu”. Sprzedaż aut wciąż jest niższa niż przed atakiem na Ukrainę w 2022 roku. Od stycznia do lipca 2026 roku sprzedano ich o prawie 184 tys. mniej niż w tym samym czasie w 2021 roku.",
-      "pubDate": "Thu, 20 Aug 2026 07:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/f/67c34e846b0776-948-569-7-72-991-595.jpg",
-      "dateISO": "2026-08-20T06:10:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Kijów pod ciężkim ostrzałem. Cywilne obiekty zniszczone, ratownicy wydobywają ludzi spod gruzów",
-      "link": "https://www.bankier.pl/wiadomosc/Kijow-pod-ciezkim-ostrzalem-Cywilne-obiekty-zniszczone-ratownicy-wydobywaja-ludzi-spod-gruzow-9184701.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Do 12 wzrosła liczba zabitych w nocnych, zmasowanych atakach Rosji na Kijów; piątek będzie w stolicy Ukrainy dniem żałoby – ogłosił w czwartek mer miasta Witalij Kliczko. Władze podały, że celem ataków byli przede wszystkim cywile i infrastruktura.",
-      "pubDate": "Thu, 20 Aug 2026 07:09:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/c/4ec6d06097a56d-948-568-0-547-2425-1454.jpg",
-      "dateISO": "2026-08-20T06:09:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
       "title": "Polska wyprzedza sąsiadów w inwestycjach netto. Wydatki na innowacje wciąż niskie",
       "link": "https://businessinsider.com.pl/gospodarka/polska-liderem-inwestycji-netto-w-regionie-eksperci-bnp-paribas-wyjasniaja-fenomen/z9cj7f3",
       "description": "Polska, mimo relatywnie niskiego wskaźnika inwestycji brutto do PKB, radzi sobie znacznie lepiej niż sąsiedzi z regionu, gdy weźmie się pod uwagę inwestycje netto — ocenili analitycy BNP Paribas.",
@@ -478,18 +694,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/Pu6k9kpTURBXy9hMWI1YTQzNWY1YWU3ZTg4OWMyMzBmZDBkZmNhZmJiYy5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-08-20T06:08:17.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Izraelski nalot na komisariat w Gazie. Co najmniej 9 zabitych i kilkunastu rannych",
-      "link": "https://www.bankier.pl/wiadomosc/Izraelski-nalot-na-komisariat-w-Gazie-Co-najmniej-9-zabitych-i-kilkunastu-rannych-9184609.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Co najmniej dziewięć osób zginęło, 15 zostało rannych w izraelskim nalocie na komisariat policji w Strefie Gazy - przekazały w środę źródła medyczne, cytowane przez agencję Reutera. W oddzielnym nalocie na obóz dla uchodźców w Nuseirat zginęła jedna osoba.",
-      "pubDate": "Thu, 20 Aug 2026 06:55:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/7/1d4521a34f361c-948-568-18-2-1023-614.png",
-      "dateISO": "2026-08-20T05:55:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -517,99 +721,15 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Kurs DKK/PLN 20 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-dunskiej-dzisiaj-po-ile-jest-korona-dunska-20-sierpnia-2026-r/j96w6zl",
-      "description": "Jeśli potrzebujesz informacji o kursie korony duńskiej, warto śledzić nasze bieżące notowania. Aby dokonać korzystnych transakcji wymiany walut sprawdź, jak kurs DKK wygląda dnia 20 sierpnia 2026.",
-      "pubDate": "Thu, 20 Aug 2026 05:02:22 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/IFxk9kpTURBXy8xNWVlZDQ3MzM0MDAxMzhiZGY5Y2IzMjA4ZjdiZTBiOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-20T05:02:22.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Kurs JPY/PLN 20 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-jena-japonskiego-dzisiaj-po-ile-jest-jen-japonski-20-sierpnia-2026-r/ptvmqrd",
-      "description": "Poznaj kurs japońskiego jena na dzień 20 sierpnia 2026. Jen jest jedną z głównych walut rezerwowych świata, dlatego ma znaczenie dla światowej gospodarki. Jednak jego kurs interesuje także podróżujących do Japonii w celach turystycznych. Z tego powodu pokazujemy obecny kurs waluty, jak też zmiany ku",
-      "pubDate": "Thu, 20 Aug 2026 05:02:22 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/SoJk9kpTURBXy81NmY2OGRiMTBiNjdhM2ZhOWNiNDU0ZjNhY2EzM2ViYy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-20T05:02:22.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Kurs USD/PLN 20 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-dolara-amerykanskiego-dzisiaj-po-ile-jest-dolar-amerykanski-20-sierpnia-2026-r/734e5xf",
-      "description": "Oto aktualny kurs waluty USD na dzień 20 sierpnia 2026. Dolar jest jedną z głównych walut, w których przeprowadzane są transakcje na światowych rynkach. Od jego ceny zależą surowce takie jak ropa, mające wpływ na nasze codzienne życie. Z tego powodu warto wiedzieć, po ile obecnie można wymienić amer",
-      "pubDate": "Thu, 20 Aug 2026 05:02:18 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/rUkk9kpTURBXy9kZTJhOTQ2YmQ5MWI5MDdmMTVmY2QxZjhlNGFlZTcwNi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-20T05:02:18.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Kurs EUR/PLN 20 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-euro-dzisiaj-po-ile-jest-euro-20-sierpnia-2026-r/8zv1vpl",
-      "description": "Poznaj zmiany kursu EUR/PLN dla dnia 20 sierpnia 2026. Jak dziś wygląda euro względem złotego? Jak silna jest najważniejsza waluta w Unii Europejskiej? Czy aktualnie opłaca się wymieniać euro na polskie złotówki? Wczoraj wartość euro wyniosła: 4,3178 zł.",
-      "pubDate": "Thu, 20 Aug 2026 05:02:18 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/DEhk9kpTURBXy9kNzYwMDkzOTZiYjgwZGY2NTI0N2JhMjRjY2EzYzY0Mi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-20T05:02:18.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Kurs GBP/PLN 20 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-funtow-brytyjskich-dzisiaj-po-ile-jest-funt-brytyjski-20-sierpnia-2026-r/xxzs6tc",
-      "description": "Prezentujemy bieżące notowania kursu waluty GBP oraz zmiany kursu w ujęciu dziennym. Poniżej znajduje się kurs na dzień 20 sierpnia 2026 — jak zmienił się on w stosunku do złotego? Wczorajszy kurs wynosił 5,0332 zł, jeśli chcesz dowiedzieć się, jak sytuacja wygląda dziś, przeczytaj artykuł.",
-      "pubDate": "Thu, 20 Aug 2026 05:02:13 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/yvxk9kqTURBXy9kYjdmYjNhNWUyMTYxZTA0MmY3NzYwMzgwZWRhNjY3Yi5qcGVnkZMCzQSwAN4AAaEwAQ",
-      "dateISO": "2026-08-20T05:02:13.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Kurs CHF/PLN 20 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-franka-szwajcarskiego-dzisiaj-po-ile-jest-frank-szwajcarski-20-sierpnia-2026-r/nezs3jh",
-      "description": "Poznaj bieżący kurs franka szwajcarskiego oraz zmianę wartości CHF dzień do dnia, a także tydzień do tygodnia. Jakim zmianom uległ frank w tym okresie? Czy opłaca się dziś wymienić franki na złotówki? Ten artykuł pomoże Ci podjąć decyzję. Wczorajszy kurs CHF/PLN to 4,6230 zł.",
-      "pubDate": "Thu, 20 Aug 2026 05:02:13 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/w2Jk9kpTURBXy9iMGYzNjg1MWNiNTVhNjhkMTY4ZTkxNjEyYTViY2E1ZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-20T05:02:13.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Kurs CZK/PLN 20 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-czeskiej-dzisiaj-po-ile-jest-korona-czeska-20-sierpnia-2026-r/b0d4cxc",
-      "description": "Prezentujemy aktualne notowania kursu korony czeskiej z 20 sierpnia 2026. Kurs CZK z wczoraj wynosił 0,1786 zł. Sprawdź, czy obecnie nasza waluta zyskuje, czy traci na wartości.",
-      "pubDate": "Thu, 20 Aug 2026 05:02:08 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/MPMk9kpTURBXy84NDIwMmNiNDNiZTc0OWEzOWViNGNlNThkMWQ3MTAyOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-20T05:02:08.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Kurs NOK/PLN 20 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-norweskiej-dzisiaj-po-ile-jest-korona-norweska-20-sierpnia-2026-r/fl7hlp7",
-      "description": "Sprawdź, jak zmienia się kurs korony norweskiej. Wczoraj wynosił 0,3965 zł. Jeśli chcesz dowiedzieć się, ile za koronę norweską trzeba zapłacić w tej chwili, przeczytaj poniższy artykuł.",
-      "pubDate": "Thu, 20 Aug 2026 05:02:08 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/zsPk9kpTURBXy85OTY3Mjg4MjM2ZGIzY2Y0N2E3MWFkNWVhODI1NWY2Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-20T05:02:08.000Z",
+      "title": "80% na spokojnie, 20% na ryzyko. Ekspert zdradza sposób na portfel ETF",
+      "link": "https://www.bankier.pl/wiadomosc/80-na-spokojnie-20-na-ryzyko-Ekspert-zdradza-sposob-na-portfel-ETF-9181818.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Inwestowanie w fundusze ETF zyskało ogromną popularność jako prosta, przejrzysta i tania forma długoterminowego pomnażania kapitału. Jednak nawet najlepsze narzędzie finansowe nie uchroni inwestora przed błędami behawioralnymi i brakiem konsekwencji. W odcinku programu „Wakacje na giełdzie” Michał N",
+      "pubDate": "Thu, 20 Aug 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/8/0ce01df3b9dcc7-948-568-28-3-1194-716.jpg",
+      "dateISO": "2026-08-20T05:00:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -621,18 +741,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/c/8/fc5e998e98cc70-948-568-0-161-1844-1106.jpg",
-      "dateISO": "2026-08-20T05:00:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "80% na spokojnie, 20% na ryzyko. Ekspert zdradza sposób na portfel ETF",
-      "link": "https://www.bankier.pl/wiadomosc/80-na-spokojnie-20-na-ryzyko-Ekspert-zdradza-sposob-na-portfel-ETF-9181818.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Inwestowanie w fundusze ETF zyskało ogromną popularność jako prosta, przejrzysta i tania forma długoterminowego pomnażania kapitału. Jednak nawet najlepsze narzędzie finansowe nie uchroni inwestora przed błędami behawioralnymi i brakiem konsekwencji. W odcinku programu „Wakacje na giełdzie” Michał N",
-      "pubDate": "Thu, 20 Aug 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/8/0ce01df3b9dcc7-948-568-28-3-1194-716.jpg",
       "dateISO": "2026-08-20T05:00:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
@@ -721,18 +829,6 @@
       "dateFormatted": "19 sierpnia 2026"
     },
     {
-      "title": "Bruksela hamuje negocjacje z Ukrainą. Kolejne klastry przełożone na jesień",
-      "link": "https://www.bankier.pl/wiadomosc/Bruksela-hamuje-negocjacje-z-Ukraina-Kolejne-klastry-przelozone-na-jesien-9184546.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Unia Europejska może się wstrzymać z otwarciem kolejnych klastrów negocjacyjnych z Ukrainą do momentu zaprezentowania przez Komisję Europejką zmian w polityce rozszerzenia - powiedział unijny dyplomata. KE ma zaproponować reformę procedur przyjmowania nowych państw w październiku.",
-      "pubDate": "Wed, 19 Aug 2026 18:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/b/a7e847f30e83da-948-568-230-66-1294-776.jpg",
-      "dateISO": "2026-08-19T17:00:00.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
       "title": "Podatkowy wiatr w żagle giełdy. Zainteresowanie budziły głównie banki",
       "link": "https://www.bankier.pl/wiadomosc/Podatkowy-wiatr-w-zagle-gieldy-Zainteresowanie-budzily-glownie-banki-9184526.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Środowe sesja na warszawskiej giełdzie przyniosła wyraźne przełamanie słabszych nastrojów z początku tygodnia. Inwestorzy około południa ruszyli do kupowania akcji do czego przyczyniły się wieści z rządowej konferencji prasowej dotyczące zmian podatkowych utrwalone w kolejnych godzinach pozytywnymi ",
@@ -778,54 +874,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/0/7/4456ec12effcfb-948-568-0-64-1732-1039.jpg",
       "dateISO": "2026-08-19T14:19:00.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
-      "title": "Mieszkania znów mogą drożeć. Analitycy wskazują na ożywienie rynku",
-      "link": "https://www.bankier.pl/wiadomosc/Mieszkania-znow-moga-drozec-Analitycy-wskazuja-na-ozywienie-rynku-9184264.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Polski rynek mieszkaniowy wykazuje wyraźne oznaki ożywienia, a zarówno popyt, jak i podaż stopniowo zyskują na sile - oceniają analitycy Erste Bank Polska w raporcie rynkowym. Oczekują dalszego wzrostu cen mieszkań w nadchodzących kwartałach, choć tempo tego wzrostu powinno pozostać umiarkowane.",
-      "pubDate": "Wed, 19 Aug 2026 15:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/d/46bc50cd6288d1-948-567-10-5-990-593.jpg",
-      "dateISO": "2026-08-19T14:00:00.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
-      "title": "Maksymalnie 240 zł za godzinę dla lekarzy? Tusk: Nie chcę ich demotywować",
-      "link": "https://www.bankier.pl/wiadomosc/Maksymalnie-240-zl-za-godzine-dla-lekarzy-Tusk-Nie-chce-ich-demotywowac-9184350.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Premier Donald Tusk powiedział w środę, że chce uniknąć sytuacji, w której m.in. ograniczanie najwyższych zarobków lekarzy doprowadzi do mniejszej liczby realizowanych procedur. - Nie chcę demotywować lekarzy - zaznaczył szef rządu.",
-      "pubDate": "Wed, 19 Aug 2026 13:23:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/3/18941747780516-948-568-15-89-2955-1772.jpg",
-      "dateISO": "2026-08-19T12:23:00.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
-      "title": "Ceny paliw znów w górę. Minister podał maksymalne stawki na czwartek",
-      "link": "https://www.bankier.pl/wiadomosc/Ceny-paliw-znow-w-gore-Minister-podal-maksymalne-stawki-na-czwartek-9184284.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W czwartek litr benzyny 95 ma kosztować nie więcej niż 6,49 zł, benzyny 98 - 7,30 zł, a oleju napędowego - 7,52 zł - wynika ze środowego obwieszczenia Ministra Energii. Oznacza to, że w czwartek ceny maksymalne wszystkich rodzajów paliw będą wyższe niż w środę.",
-      "pubDate": "Wed, 19 Aug 2026 12:21:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/b/652230f56fc725-948-568-10-0-3780-2267.jpg",
-      "dateISO": "2026-08-19T11:21:00.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
-      "title": "Lagarde ostrzega Europę. Powojenny model wzrostu gospodarczego się kończy",
-      "link": "https://www.bankier.pl/wiadomosc/Lagarde-ostrzega-Europe-Powojenny-model-wzrostu-gospodarczego-sie-konczy-9184238.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Powojenny model wzrostu gospodarczego w Europie ulega erozji i jest mało prawdopodobne, by powrócił on do postaci, jaką znaliśmy kiedyś, ale Europa nadal dysponuje jednak znacznymi atutami, na których może się opierać - oceniła w środę szefowa Europejskiego Banku Centralnego Christine Lagarde.",
-      "pubDate": "Wed, 19 Aug 2026 11:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/7/2f520eb33ddd3f-948-568-0-42-2416-1449.jpg",
-      "dateISO": "2026-08-19T10:20:00.000Z",
       "dateFormatted": "19 sierpnia 2026"
     },
     {
@@ -887,31 +935,7 @@
       "image": "http://galeria.bankier.pl/p/e/d/9045260b7544de-948-568-0-0-948-568.jpg",
       "dateISO": "2026-08-19T05:00:00.000Z",
       "dateFormatted": "19 sierpnia 2026"
-    },
-    {
-      "title": "SEC proponuje nowe przepisy dla kontraktów inwestycyjnych w kryptoaktywach",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/sec-proponuje-nowe-przepisy-dla-kontraktow-inwestycyjnych-w-kryptoaktywach-93CH-1538084",
-      "description": "",
-      "pubDate": "2026-08-18 18:41:43",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/Cryptocurrencies_800x533_L_1556444885.jpg",
-      "dateISO": "2026-08-18T18:41:43.000Z",
-      "dateFormatted": "18 sierpnia 2026"
-    },
-    {
-      "title": "Bitcoin zatrzymany na 64 tys. $; Iran i stopy procentowe ciążą kryptowalutom",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-lekko-rosnie-do-64-tys--iran-i-stopy-procentowe-ciaza-kryptowalutom-1536930",
-      "description": "",
-      "pubDate": "2026-08-18 06:54:54",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/LYNXMPEB3E0UM_M.jpg",
-      "dateISO": "2026-08-18T06:54:54.000Z",
-      "dateFormatted": "18 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-20T08:38:25.845Z"
+  "updatedAt": "2026-08-20T10:30:38.864Z"
 }
