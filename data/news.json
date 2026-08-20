@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "EOS 11% w górę, podczas hossy",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/eos-11-w-gore-podczas-hossy-1539936",
+      "description": "",
+      "pubDate": "2026-08-19 23:58:06",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/CryptoBitcoindigital_800x533_L_1641975060.jpg",
+      "dateISO": "2026-08-19T23:58:06.000Z",
+      "dateFormatted": "19 sierpnia 2026"
+    },
+    {
       "title": "Cardano 10% w górę, na rynku byka",
       "link": "https://pl.investing.com/news/cryptocurrency-news/cardano-10-w-gore-na-rynku-byka-1539846",
       "description": "",
@@ -27,7 +39,7 @@
     {
       "title": "Wojna z Iranem pomaga Rosji. Putin zyskał czas",
       "link": "https://businessinsider.com.pl/gospodarka/wojna-na-bliskim-wschodzie-ratuje-rosyjska-gospodarke-putin-zyskal-czas/7bpje8l",
-      "description": "Konflikt na Bliskim Wschodzie, wywołany przez działania USA i Izraela wobec Iranu, przyczynia się do utrzymania rosyjskiej gospodarki na powierzchni. Według europejskich służb wywiadowczych Władimir Putin może kontynuować działania wojenne w Ukrainie co najmniej do przyszłej wiosny lub nawet przez k",
+      "description": "Konflikt na Bliskim Wschodzie przyczynia się do utrzymania rosyjskiej gospodarki na powierzchni. Według europejskich służb wywiadowczych Władimir Putin może kontynuować działania wojenne w Ukrainie co najmniej do przyszłej wiosny lub nawet przez kolejny sezon.",
       "pubDate": "Wed, 19 Aug 2026 20:08:07 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -851,19 +863,7 @@
       "image": "https://content-media.investing.com/news/LYNXMPED040TQ_M.jpg",
       "dateISO": "2026-08-15T09:41:11.000Z",
       "dateFormatted": "15 sierpnia 2026"
-    },
-    {
-      "title": "Bitcoin spada poniżej 63 tys. $, opóźnienia regulacyjne niwelują optymizm",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-do-63-315---opoznienia-regulacyjne-niwecza-optymizm-1533513",
-      "description": "",
-      "pubDate": "2026-08-14 06:46:20",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/LYNXMPEE6N0TG_M.jpg",
-      "dateISO": "2026-08-14T06:46:20.000Z",
-      "dateFormatted": "14 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-19T22:24:38.023Z"
+  "updatedAt": "2026-08-20T01:15:29.917Z"
 }
