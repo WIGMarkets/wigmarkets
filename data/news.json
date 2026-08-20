@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "XRP 13% w górę, na rynku byka",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/xrp-13-w-gore-na-rynku-byka-1541514",
+      "description": "",
+      "pubDate": "2026-08-20 20:58:07",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/LYNXMPEDAE0PJ-ORUBS_M.jpg",
+      "dateISO": "2026-08-20T20:58:07.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
       "title": "Grupa Torpol szacuje wzrost zysku netto w I półroczu do 33,8 mln zł",
       "link": "https://www.bankier.pl/wiadomosc/Grupa-Torpol-szacuje-wzrost-zysku-netto-w-I-polroczu-do-33-8-mln-zl-9185234.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Grupa Torpol wstępnie szacuje, że zwiększyła zysk netto w I półroczu 2026 roku do 33,8 mln zł z 30,5 mln zł rok wcześniej - poinformowała budowlana firma w komunikacie.",
@@ -8,7 +20,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/1/0/32ef436f61248c-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/2/2/cbeb06dd33a8d3-thumb-1000.jpg",
       "dateISO": "2026-08-20T20:06:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
@@ -925,18 +937,6 @@
       "dateFormatted": "19 sierpnia 2026"
     },
     {
-      "title": "Bitcoin stabilny przy 65 tys. $ – regulacje USA i napięcia z Iranem",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-stabilny-przy-64-tys---regulacje-usa-i-napiecia-z-iranem-1538461",
-      "description": "",
-      "pubDate": "2026-08-19 06:20:45",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/LYNXMPEE060BB_M.jpg",
-      "dateISO": "2026-08-19T06:20:45.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
       "title": "Buffett i co tygrysy lubią najbardziej. Wall Street poznało zmiany w portfelach",
       "link": "https://www.bankier.pl/wiadomosc/Warren-Buffett-i-co-tygrysy-lubia-najbardziej-Wall-Street-poznalo-zmiany-w-portfelach-9183933.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Wehikuł inwestycyjny Warrena Buffetta coraz mocniej angażuje się w akcje Alphabet, czyli spółki macierzystej Google – wynika z najnowszego raportu 13f, jaki Berkshire Hathway złożyło w ubiegłym tygodniu do SEC. Poza portfelem legendarnego inwestora sprawdzamy jakie zmiany zaszył w funduszach z listy",
@@ -961,5 +961,5 @@
       "dateFormatted": "19 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-20T20:28:31.001Z"
+  "updatedAt": "2026-08-20T22:27:34.579Z"
 }
