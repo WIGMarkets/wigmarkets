@@ -1,15 +1,135 @@
 {
   "articles": [
     {
-      "title": "Grodno miało 2,5 mln zł zysku netto w I kw. 2026/27, o 2,6 proc. więcej rdr",
-      "link": "https://www.bankier.pl/wiadomosc/Grodno-mialo-2-5-mln-zl-zysku-netto-w-I-kw-2026-27-o-2-6-proc-wiecej-rdr-9185178.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Grodno miało w I kwartale roku obrotowego 2026/27 (od 1 kwietnia do 30 czerwca 2026 r.) 2,5 mln zł zysku netto, co oznacza wzrost o 2,6 proc. rdr - podała spółka w komunikacie.",
-      "pubDate": "Thu, 20 Aug 2026 18:20:00 +0100",
+      "title": "USA nałożyły sankcje na 10 osób wspierających proirański Hezbollah",
+      "link": "https://www.bankier.pl/wiadomosc/USA-nalozyly-sankcje-na-10-osob-wspierajacych-proiranski-Hezbollah-9185219.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ministerstwo finansów (skarbu) USA poinformowało w czwartek o objęciu sankcjami 10 osób, należących do sieci odpowiedzialnej za przekazywanie środków pieniężnych proirańskiemu Hezbollahowi.",
+      "pubDate": "Thu, 20 Aug 2026 20:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/5/3503d46f17d814-948-568-14-487-1936-1161.jpg",
+      "dateISO": "2026-08-20T19:15:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Burnham: Bezpieczeństwo Harry'ego i Meghan to ich sprawa prywatna",
+      "link": "https://www.bankier.pl/wiadomosc/Burnham-Bezpieczenstwo-Harry-ego-i-Meghan-to-ich-sprawa-prywatna-9185213.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Brytyjski premier Andy Burnham podkreślił w czwartek, że kwestia bezpieczeństwa powracających do kraju Harry'ego i Meghan to ich prywatna sprawa. Sussexowie mają się przeprowadzić do Wielkiej Brytanii w najbliższych tygodniach.",
+      "pubDate": "Thu, 20 Aug 2026 19:57:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/b/075b9cca7cf920-948-568-0-161-2684-1610.jpg",
+      "dateISO": "2026-08-20T18:57:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Nowe zasady oceniania zachowania i prac domowych. Zmiany od 1 września",
+      "link": "https://www.bankier.pl/wiadomosc/Nowe-zasady-oceniania-zachowania-i-prac-domowych-Zmiany-od-1-wrzesnia-9185209.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zmiany w zadawaniu pisemnych i praktyczno-technicznych prac domowych w podstawówce oraz nowe brzmienie obszarów uwzględnianych przy ustalaniu śródrocznej i rocznej oceny klasyfikacyjnej zachowania - zakłada nowela rozporządzenia podpisana w czwartek przez ministrę edukacji Barbarę Nowacką.",
+      "pubDate": "Thu, 20 Aug 2026 19:49:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/0/a9514549353f6a-948-567-0-55-1000-599.jpg",
+      "dateISO": "2026-08-20T18:49:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "\"Nie ma mowy o komplikowaniu systemu\". Minister finansów odpowiada opozycji",
+      "link": "https://businessinsider.com.pl/prawo/podatki/zmiany-w-pit-i-cit-andrzej-domanski-komentuje-kontrowersje/nnkvwb6",
+      "description": "— Urzędy skarbowe wypełniają PIT-y za Polaków — zwraca uwagę minister finansów Andrzej Domański, dopytywany o krytykę opozycji wobec ogłoszonych planów zmian w podatkach PIT i CIT. Podkreśla, że wyższy próg podatkowy to potężna ulga, na której skorzysta 3,5 mln obywateli.",
+      "pubDate": "Thu, 20 Aug 2026 18:31:11 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/h7Rk9kpTURBXy9lZGNhMmM0YzA4MmRkMDFkOTFlN2I3MjQ4YzQxMzUxNC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-20T18:31:11.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Uzbrojeni mężczyźni przejęli tankowiec. Statek płynie w stronę Somalii",
+      "link": "https://www.bankier.pl/wiadomosc/Uzbrojeni-mezczyzni-przejeli-tankowiec-Statek-plynie-w-strone-Somalii-9185205.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Brytyjska Agencja ds. Operacji Handlowych na Morzu (UKMTO) poinformowała w czwartek, że sześciu uzbrojonych mężczyzn przejęło kontrolę nad tankowcem u wybrzeży Jemenu, a jego kurs został przekierowany w stronę Somalii.",
+      "pubDate": "Thu, 20 Aug 2026 19:23:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/2/35ad37260161f9-948-568-7-82-992-595.jpg",
+      "dateISO": "2026-08-20T18:23:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Raport \"Polaków portret własny\" wywołał burzę. Autorka przyznaje: wykorzystywałam AI",
+      "link": "https://www.bankier.pl/wiadomosc/Raport-Polakow-portret-wlasny-wywolal-burze-Autorka-przyznaje-wykorzystywalam-AI-9185203.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Raport „Polaków portret własny” Barbary Mróz-Gorgoń wywołał w czwartek krytykę z powodu błędów i wykorzystania AI. Autorka zaznaczyła, że był wewnętrznie wykorzystywany w think tanku i przyznała, że nie powinien trafić do sieci. MSiT zaprzeczyło, by raport był objęty umową z resortem.",
+      "pubDate": "Thu, 20 Aug 2026 19:21:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/5/ae206775971736-948-568-0-680-1991-1195.jpg",
+      "dateISO": "2026-08-20T18:21:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Opłaty koncesyjne w górę. Rząd chce je podnieść pięciokrotnie",
+      "link": "https://www.bankier.pl/wiadomosc/Oplaty-koncesyjne-w-gore-Rzad-chce-je-podniesc-pieciokrotnie-9185204.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Podniesienie minimalnej opłaty koncesyjnej z 1 tys. do 5 tys. zł, jej coroczną waloryzację, a także zniesienie górnego limitu opłat - przewiduje projekt nowelizacji Prawa energetycznego, którego założenia zostały w czwartek opublikowane w wykazie prac rządu.",
+      "pubDate": "Thu, 20 Aug 2026 19:21:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/2/f5bc55068def03-948-568-2-67-997-598.jpg",
+      "dateISO": "2026-08-20T18:21:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Ministerstwo proponuje kilkukrotny wzrost opłat. Firmy energetyczne zapłacą więcej",
+      "link": "https://businessinsider.com.pl/biznes/ministerstwo-energii-szykuje-rewolucje-w-oplatach-koncesyjnych-firmy-zaplaca-wiecej/0h3pzme",
+      "description": "Ministerstwo Energii przygotowało projekt nowelizacji Prawa energetycznego, który zakłada pięciokrotny wzrost minimalnych opłat koncesyjnych dla firm energetycznych. Zmiany mają również uszczelnić system i zapobiec omijaniu płatności przez duże przedsiębiorstwa.",
+      "pubDate": "Thu, 20 Aug 2026 17:48:44 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/d-gk9kpTURBXy84MGM4NDY3MTYxZjE4MTJhY2JmYWUzNGEyYjE0ODViNi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-20T17:48:44.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Duża podwyżka CIT dla energetyki i paliw. Rząd chce stawki 30 proc.",
+      "link": "https://www.bankier.pl/wiadomosc/Duza-podwyzka-CIT-dla-energetyki-i-paliw-Rzad-chce-stawki-30-proc-9185185.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Rząd proponuje podwyżkę stawki CIT dla największych firm energetycznych i paliwowych – wynika z opublikowanych w czwartek założeń do projektu ustawy. Stawka CIT dla firm o przychodach przekraczających 50 mln euro w 2027 r. ma wzrosnąć do 30 proc. z 19 proc. obecnie.",
+      "pubDate": "Thu, 20 Aug 2026 18:35:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/3/1/1d630e05cabedc-945-560-25-17-1706-1023.jpg",
-      "dateISO": "2026-08-20T17:20:00.000Z",
+      "image": "http://galeria.bankier.pl/p/1/9/f06d9c153c2438-948-567-0-45-1000-599.jpg",
+      "dateISO": "2026-08-20T17:35:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Rząd dokręca śrubę ryczałtowcom. Wyższa stawka od 300 tys. euro przychodu",
+      "link": "https://www.bankier.pl/wiadomosc/Rzad-dokreca-srube-ryczaltowcom-Wyzsza-stawka-od-300-tys-euro-przychodu-9185179.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W ramach zmian w systemie podatkowym oprócz obniżenia limitu warunkującego wybór ryczałtu od przychodów ewidencjonowanych do 250 tys. euro z 2 mln euro rząd planuje wprowadzić wyższą 17-proc. stawkę ryczałtu do nadwyżki przychodów ponad 300 tys. euro - podano w wykazie prac Rady Ministrów.",
+      "pubDate": "Thu, 20 Aug 2026 18:28:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/0/03cbd31d85180b-948-568-0-0-2987-1792.jpg",
+      "dateISO": "2026-08-20T17:28:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Dino Polska z lepszym zyskiem od prognoz. Sieć ma już 3176 sklepów",
+      "link": "https://www.bankier.pl/wiadomosc/Dino-Polska-mialo-w-II-kw-400-1-mln-zl-zysku-netto-j-d-wobec-konsensusu-391-8-mln-zl-zysku-9185181.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zysk netto jednostki dominującej grupy Dino Polska wyniósł w drugim kwartale 2026 roku 400,1 mln zł wobec 397,5 mln zł zysku rok wcześniej - podała spółka w raporcie. Konsensus PAP Biznes zakładał 391,8 mln zł zysku netto.",
+      "pubDate": "Thu, 20 Aug 2026 18:28:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/8/aaff9011dcdeb5-948-568-33-85-1862-1117.jpg",
+      "dateISO": "2026-08-20T17:28:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -22,6 +142,42 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/8/9/b4baa3651b1ab7-948-567-0-0-1000-599.jpg",
       "dateISO": "2026-08-20T17:14:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Niemieccy saperzy pomagają Polakom przy budowie Tarczy Wschód",
+      "link": "https://www.bankier.pl/wiadomosc/Niemieccy-saperzy-pomagaja-Polakom-przy-budowie-Tarczy-Wschod-9185163.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Kilkudziesięciu niemieckich saperów pomaga polskim żołnierzom przy budowie Tarczy Wschód przy Obwodzie Królewieckim. Żołnierze z Niemiec uczestniczą w rozmieszczaniu tzw. betonowych jeży w newralgicznych dla bezpieczeństwa naszego kraju miejscach.",
+      "pubDate": "Thu, 20 Aug 2026 18:03:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/2/018f6863fea1c6-948-568-4-9-1915-1149.jpg",
+      "dateISO": "2026-08-20T17:03:00.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Rząd chce podwyżki podatków. Obejmą największe firmy energetyczne i paliwowe",
+      "link": "https://businessinsider.com.pl/firmy/podatki/podwyzka-podatku-cit-dla-najwiekszych-firm-paliwowych-rzad-ujawnia-plany/kr6b8rp",
+      "description": "Rząd proponuje podwyżkę stawki CIT dla największych firm energetycznych i paliwowych — wynika z opublikowanych w czwartek założeń do projektu ustawy. Stawka CIT dla firm o przychodach przekraczających 50 mln euro w 2027 r. ma wzrosnąć do 30 proc. z 19 proc. obecnie.",
+      "pubDate": "Thu, 20 Aug 2026 16:57:13 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/vkCk9kpTURBXy8zNzVmYTQ5YmM4OThjMGRlZmRiNGFhYzljYjU0ZjRiYi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-20T16:57:13.000Z",
+      "dateFormatted": "20 sierpnia 2026"
+    },
+    {
+      "title": "Niespodziewany wpis Daniela Obajtka o Orlenie. \"To akurat się nowej ekipie udało\"",
+      "link": "https://businessinsider.com.pl/biznes/orlen-przejmuje-stadion-narodowy-zaskakujaca-reakcja-daniela-obajtka/8meqlqc",
+      "description": "Orlen ma być nowym sponsorem tytularnym Stadionu Narodowego. Przyklasnął temu były prezes, który znany jest z ciągłej krytyki swoich następców. Zaskakujący wpis krótko skomentowało też biuro prasowe państwowej spółki.",
+      "pubDate": "Thu, 20 Aug 2026 16:39:19 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/2jPk9kpTURBXy81YzRjMGQyOTYzYTczOWNhZjZkZjI3ZGVkNjljNjQ4NS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-20T16:39:19.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -145,18 +301,6 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Wyścigówki opanują centrum stolicy USA. Zamknięte ulice i wstrzymane loty",
-      "link": "https://www.bankier.pl/wiadomosc/Wyscigowki-opanuja-centrum-stolicy-USA-Zamkniete-ulice-i-wstrzymane-loty-9185084.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W weekend w Waszyngtonie odbędą się zapowiedziane przez prezydenta USA Donalda Trumpa wyścigi z serii IndyCar. Łączna długość trasy biegnącej wokół National Mall to ok. 400 km. W centrum będą zamknięte ulice, a pobliskie lotnisko wstrzyma loty.",
-      "pubDate": "Thu, 20 Aug 2026 16:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/c/ec100b8b120a1e-948-567-0-52-1000-599.jpg",
-      "dateISO": "2026-08-20T15:20:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
       "title": "Gigantyczna inwestycja KGHM. Poszukiwany kredyt na miliard dolarów",
       "link": "https://businessinsider.com.pl/gielda/wiadomosci/sierra-gorda-z-nowa-inwestycja-kghm-i-south32-przygotowuja-miliardowy-projekt/s3446p6",
       "description": "KGHM, który wspólnie z australijskim partnerem South32 planuje wybudować czwartą linię produkcyjną w chilijskiej kopalni Sierra Gorda, spodziewa się największych nakładów przy tej inwestycji w latach 2027-2028. Fizycznie rozbudowa zakładu powinna się wkrótce rozpocząć.",
@@ -169,18 +313,6 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Polska zaostrza politykę migracyjną. O połowę mniej zezwoleń na pracę",
-      "link": "https://www.bankier.pl/wiadomosc/Polska-zaostrza-polityke-migracyjna-O-polowe-mniej-zezwolen-na-prace-9185073.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W pierwszym półroczu liczba nowo wydanych zezwoleń na pracę dla cudzoziemców spadła o 50 proc. w porównaniu do takiego samego okresu ubiegłego roku - poinformowało w czwartek MSWiA. Resort dodał, że w tym samym czasie zatrzymano blisko 11 tys. osób w związku z nielegalnym pobytem na terytorium Polsk",
-      "pubDate": "Thu, 20 Aug 2026 15:59:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/9/003a26463e9ed2-948-568-0-210-4000-2399.jpg",
-      "dateISO": "2026-08-20T14:59:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
       "title": "Rząd kombinuje z podatkami. Polacy oczekują innych zmian",
       "link": "https://businessinsider.com.pl/gospodarka/podatki/podatki-do-zmiany-sondaz-pokazuje-czego-chca-polacy/n32j4l7",
       "description": "Zmiany progów podatkowych nie były na szczycie listy oczekiwań Polaków. Niemal połowa badanych w sondażu najbardziej oczekiwałaby realizacji obietnicy wyborczej KO dotyczącej kwoty wolnej od podatku.",
@@ -190,18 +322,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/SNak9kpTURBXy8wNjNlOTIwOTVmMDJiZGI0NzA0ZTA2NzkwOWM1M2ZjNy5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-08-20T14:34:43.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Epidemia eboli w DRK. WHO przekaże 70 tys. dawek szczepionki",
-      "link": "https://www.bankier.pl/wiadomosc/Epidemia-eboli-w-DRK-WHO-przekaze-70-tys-dawek-szczepionki-9185040.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zmagająca się z epidemią wirusa eboli Demokratyczna Republika Konga (DRK) otrzyma 70 tys. dawek szczepionki Ervebo, która okazała się skuteczna podczas poprzednich epidemii – poinformowała w czwartek Światowa Organizacja Zdrowia (WHO), cytowana przez agencję Associated Press (AP).",
-      "pubDate": "Thu, 20 Aug 2026 15:23:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/6/feb8951b8b5b56-945-560-3-84-1197-718.jpg",
-      "dateISO": "2026-08-20T14:23:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -421,18 +541,6 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Rosyjski opozycjonista znaleziony martwy w Warszawie. Są wyniki sekcji zwłok",
-      "link": "https://www.bankier.pl/wiadomosc/Rosyjski-opozycjonista-znaleziony-martwy-w-Warszawie-Sa-wyniki-sekcji-zwlok-9184940.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sekcja zwłok Siergieja Własienki nie wykazała obrażeń, które mogłyby wskazywać na działanie osób trzecich - powiedział PAP rzecznik Prokuratury Okręgowej w Warszawie prok. Piotr Antoni Skiba. Chodzi o rosyjskiego opozycjonistę, który we wtorek został znaleziony martwy w mieszkaniu na warszawskim Mok",
-      "pubDate": "Thu, 20 Aug 2026 13:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/9/897a7c746a0698-948-568-0-350-4000-2399.jpg",
-      "dateISO": "2026-08-20T12:00:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
       "title": "Prezydent odrzuca projekt rządu. Ustawa o prawach pacjenta i RPP trafia do Trybunału",
       "link": "https://www.bankier.pl/wiadomosc/Prezydent-odrzuca-projekt-rzadu-Ustawa-o-prawach-pacjenta-i-RPP-trafia-do-Trybunalu-9184938.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Prezydent Karol Nawrocki skieruje do Trybunału Konstytucyjnego nowelizację ustawy o prawach pacjenta i Rzeczniku Praw Pacjenta (RPP). Cel tej ustawy jest słuszny, ale problemem mogą okazać się proponowane w niej środki – wyjaśnił w opublikowanym w czwartek nagraniu.",
@@ -442,18 +550,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/3/1/f42739f8d36a89-945-560-158-230-1889-1133.jpg",
       "dateISO": "2026-08-20T11:56:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Niecodziennie okoliczności zatrzymania podejrzanego o wysadzenie Nord Streamu. Był na planie filmowym",
-      "link": "https://www.bankier.pl/wiadomosc/Niecodziennie-okolicznosci-zatrzymania-podejrzanego-o-wysadzenie-Nord-Streamu-Byl-na-planie-filmowym-9184917.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Do zatrzymania Wołodymyra Żurawlowa, obywatela Ukrainy podejrzanego przez prokuraturę Niemiec o udział w wysadzeniu gazociągów Nord Stream, doszło w Chorwacji podczas zdjęć do filmu fabularnego inspirowanego tym zdarzeniem – podał portal Legal Tribune Online (LTO).",
-      "pubDate": "Thu, 20 Aug 2026 12:51:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/b/aedc35af52e895-948-568-133-9-1710-1026.jpg",
-      "dateISO": "2026-08-20T11:51:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -490,18 +586,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/5/3cdb8625869dcb-948-568-0-9-1900-1139.jpg",
       "dateISO": "2026-08-20T11:30:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Podwyżka CIT uderzy także w polskie firmy rodzinne? Ekspert BCC ostrzega",
-      "link": "https://www.bankier.pl/wiadomosc/Podwyzka-CIT-uderzy-takze-w-polskie-firmy-rodzinne-Ekspert-BCC-ostrzega-9184843.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Proponowana przez rząd podwyżka CIT dla podmiotów z rocznymi przychodami przekraczającymi 50 mln euro może objąć też wiele polskich firm rodzinnych średniej wielkości, a nie tylko wielkie korporacje - ocenił w czwartek ekspert Business Centre Club Michał Borowski.",
-      "pubDate": "Thu, 20 Aug 2026 12:15:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/7/f9d38720f9d1a6-812-487-122-2-812-487.jpg",
-      "dateISO": "2026-08-20T11:15:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -565,18 +649,6 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Analitycy: Płace nadal będą rosły szybciej od inflacji. RPP nie musi ciąć stóp",
-      "link": "https://www.bankier.pl/wiadomosc/Analitycy-Erste-Place-nadal-beda-rosly-szybciej-od-inflacji-To-wesprze-konsumpcje-9184827.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Silniejsza od oczekiwań dynamika płac ogółem w lipcu była pod wpływem kilku branż z wyjątkowo wysokimi wzrostami, co nie sygnalizuje trwałego przyspieszenia płac dla całego sektora przedsiębiorstw, a popyt na pracę też może zacząć wychodzić z dołka. W związku z tym rynek pracy w Polsce nie wymaga ws",
-      "pubDate": "Thu, 20 Aug 2026 11:23:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/f/bbaa9369d977b1-948-568-67-97-2932-1759.jpg",
-      "dateISO": "2026-08-20T10:23:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
       "title": "Binance uruchamia platformę Agent OS dla aplikacji AI w tradingu",
       "link": "https://pl.investing.com/news/cryptocurrency-news/binance-uruchamia-platforme-agent-os-dla-aplikacji-ai-w-tradingu-93CH-1540432",
       "description": "",
@@ -613,30 +685,6 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Ukraina zaatakowała rosyjską infrastrukturę. Trafione rafineria i most energetyczny do Krymu",
-      "link": "https://businessinsider.com.pl/gospodarka/ukrainskie-drony-uderzyly-w-rafinerie-w-rosji-pozary-i-przerwy-w-dostawach-pradu/zrjwmrs",
-      "description": "Ukraińska armia przeprowadziła kolejne uderzenia bezzałogowcami na rosyjską infrastrukturę paliwowo-energetyczną. Celem ataków stały się rafineria, terminal naftowy oraz podstacja energetyczna w różnych regionach Rosji.",
-      "pubDate": "Thu, 20 Aug 2026 09:32:32 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/TMWk9kpTURBXy85YjNjMjc2YmQ3MzBkNTMwMDIwZTI2NGI0M2NkOWY5OC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-20T09:32:32.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Wzrost płac czy ceny ropy naftowej? RPP będzie musiała zważyć oba czynniki",
-      "link": "https://businessinsider.com.pl/gospodarka/ceny-ropy-i-inflacja-zdecyduja-o-stopach-procentowych-co-zrobi-rpp-we-wrzesniu/gd0bkx7",
-      "description": "To ceny ropy naftowej i perspektywy inflacji pozostają głównym czynnikiem — a nie podwyższone tempo wzrostu płac — decydującym w najbliższym czasie o wysokości stóp procentowych w Polsce. Ekonomiści przewidują, co we wrześniu zrobi RPP.",
-      "pubDate": "Thu, 20 Aug 2026 09:29:07 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/5H4k9kpTURBXy82ZmUzYzM1Y2MxODQ2NzYwZTExYzhmMWM5ODUwNDQ3NS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-20T09:29:07.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
       "title": "Credit Agricole wprowadza nowe flagowe konto. Od teraz jest ono darmowe",
       "link": "https://www.bankier.pl/wiadomosc/Bezplatne-konto-w-Credit-Agricole-Bank-zmienia-swoja-oferte-9184793.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Credit Agricole dokonał zmian w swojej palecie kont osobistych. Dotychczasowe, nieco droższe w prowadzeniu, flagowe Konto dla Ciebie zostało zastąpiona przez Konto dla Ciebie MAX. Cennik obejmujący opłaty podstawowe jest zdecydowanie bardziej korzystny dla klientów. Przykładowo bank zrezygnował z op",
@@ -646,30 +694,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/1/c/d28191d550255f-948-568-312-276-973-584.jpg",
       "dateISO": "2026-08-20T09:13:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "\"Mocne wejście w półrocze\". Andrzej Domański o polskiej gospodarce i zmianach podatkowych",
-      "link": "https://businessinsider.com.pl/gospodarka/polska-gospodarka-przyspiesza-minister-finansow-komentuje-wyniki-i-planuje-zmiany/ttmn76y",
-      "description": "Minister finansów i gospodarki Andrzej Domański ocenił, że polska gospodarka rozpoczęła drugą połowę roku od solidnych wyników. Odnosząc się do najnowszych danych Głównego Urzędu Statystycznego (GUS), zapowiedział jednocześnie zmiany w podatku dochodowym od osób fizycznych.",
-      "pubDate": "Thu, 20 Aug 2026 09:12:28 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/7VEk9kpTURBXy82ODA5ZTkzMzc4NTQ1M2RhMGI3YWQwZTQ1YzQ3Y2EzMS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-20T09:12:28.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Krytyczna awaria w elektrowni atomowej w Enerhodarze. To 1,2 tys. km od Polski",
-      "link": "https://businessinsider.com.pl/gospodarka/elektrownia-atomowa-w-enerhodarze-bez-pradu-walki-uniemozliwiaja-naprawe/kqp25xk",
-      "description": "Zaporoska Elektrownia Atomowa w Enerhodarze utraciła dostęp do zewnętrznego zasilania. Uszkodzenie linii wysokiego napięcia spowodowało konieczność uruchomienia awaryjnych źródeł energii w obiekcie okupowanym przez wojska rosyjskie. Od granicy z Polską elektrownia oddalona jest o 1,2 tys. kilometrów",
-      "pubDate": "Thu, 20 Aug 2026 09:01:45 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/RU0k9kpTURBXy8xM2Y4YTEwY2ZhNWJhZTJjMDRiNDAyNDM0N2FjZGRmOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-20T09:01:45.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -718,30 +742,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/c/f/e5aa655f81f46f-948-568-160-0-3750-2249.jpg",
       "dateISO": "2026-08-20T07:45:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Bitcoin przebija 70 tys. USD, ethereum zyskuje 18%. Waszyngton odpalił cyfrowy rajd",
-      "link": "https://www.bankier.pl/wiadomosc/Bitcoin-o-krok-od-70-tys-USD-Ethereum-zyskuje-18-Waszyngton-odpalil-cyfrowy-rajd-9184726.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Bitcoin wybudził się z rynkowej flauty, w ciągu kilkunastu godzin zwiększając rynkową wycenę o blisko 11% i po raz pierwszy od początku czerwca przebił poziom 70 000 USD. Prawdziwy rajd zaliczyło Ethereum, które zyskało prawie 18%. Nagły wystrzał notowań kryptowalut wywołał największą w historii teg",
-      "pubDate": "Thu, 20 Aug 2026 08:43:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/6/7cba5480875fef-948-567-0-0-1000-599.jpg",
-      "dateISO": "2026-08-20T07:43:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Prywatny szpital ujawnił zarobki lekarzy pracujących na NFZ. Rekordzista dostał 337 tys. zł",
-      "link": "https://www.bankier.pl/wiadomosc/Prywatny-szpital-ujawnil-zarobki-lekarzy-pracujacych-na-NFZ-Rekordzista-dostal-337-tys-zl-9184717.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prawie 8 tys. zł za godzinę pracy – tyle, według danych ujawnionych przez prywatny szpital w Warszawie, Warsaw Medical Center, wynosiły najwyższe stawki wypłacane lekarzom realizującym świadczenia w ramach kontraktu z Narodowym Funduszem Zdrowia. Rekordzista w ciągu zaledwie 43 godzin otrzymał 337 t",
-      "pubDate": "Thu, 20 Aug 2026 08:25:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/8/e078c6bdba4d5a-948-568-52-264-1696-1017.jpg",
-      "dateISO": "2026-08-20T07:25:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -937,5 +937,5 @@
       "dateFormatted": "19 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-20T16:35:06.139Z"
+  "updatedAt": "2026-08-20T18:39:19.421Z"
 }
