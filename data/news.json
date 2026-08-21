@@ -1,6 +1,30 @@
 {
   "articles": [
     {
+      "title": "Litecoin 10% w górę, podczas hossy",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/litecoin-10-w-gore-podczas-hossy-1542872",
+      "description": "",
+      "pubDate": "2026-08-21 22:01:07",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/CryptoBitcoindigital_800x533_L_1641975060.jpg",
+      "dateISO": "2026-08-21T22:01:07.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "XRP 10% w górę, na rynku byka",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/xrp-10-w-gore-na-rynku-byka-1542845",
+      "description": "",
+      "pubDate": "2026-08-21 21:00:08",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/LYNXMPEA7A0O3_M.jpg",
+      "dateISO": "2026-08-21T21:00:08.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
       "title": "Volkswagen w kryzysie. \"Sytuacja jest więcej niż krytyczna\"",
       "link": "https://businessinsider.com.pl/biznes/zarzad-volkswagena-bije-na-alarm-pracownicy-czekaja-na-trudne-decyzje/0ydm81r",
       "description": "Ledwie skończyły się przerwy urlopowe w zakładach, a w Volkswagenie znów zrobiło się niespokojnie. Prezes koncernu Oliver Blume tuż przed serią zebrań pracowniczych opisał napiętą sytuację największego producenta samochodów w Europie. — Sytuacja jest więcej niż krytyczna — powiedział w wywiadzie opu",
@@ -887,31 +911,7 @@
       "image": "https://content-media.investing.com/news/LYNXNPEC6413U_M.jpg",
       "dateISO": "2026-08-20T08:57:07.000Z",
       "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Bitcoin 10% w górę, na rynku byka",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-10-w-gore-na-rynku-byka-1540246",
-      "description": "",
-      "pubDate": "2026-08-20 08:13:05",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/CryptoBitcoindigital_800x533_L_1641975060.jpg",
-      "dateISO": "2026-08-20T08:13:05.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Bitcoin odbija do blisko 70 tys. $ po komentarzach Trumpa",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-odbija-do-blisko-70-tys--po-komentarzach-trumpa-1540121",
-      "description": "",
-      "pubDate": "2026-08-20 06:24:16",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/LYNXMPED9A0RJ-ORUBS_M.jpg",
-      "dateISO": "2026-08-20T06:24:16.000Z",
-      "dateFormatted": "20 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-21T20:26:01.964Z"
+  "updatedAt": "2026-08-21T22:25:07.734Z"
 }
