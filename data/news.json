@@ -1,15 +1,267 @@
 {
   "articles": [
     {
-      "title": "Ekonomista o planie podatkowym rządu: rynek spodziewał się czegoś znacznie gorszego",
-      "link": "https://www.bankier.pl/wiadomosc/Ekonomista-o-planie-podatkowym-rzadu-rynek-spodziewal-sie-czegos-znacznie-gorszego-9185397.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zaproponowane przez rząd zmiany podatkowe są umiarkowanie pozytywne, stanowią neutralny budżetowo krok w stronę bardziej progresywnego systemu podatkowego – ocenia członek Rady Fiskalnej Jacek Tomkiewicz. Rynek przyjmuje je ze spokojem; obawiano się bardziej radykalnych ruchów. Ryzykiem pozostaje ew",
-      "pubDate": "Fri, 21 Aug 2026 10:12:00 +0100",
+      "title": "Ceny paliw w górę. Minister podał nowe maksymalne stawki na weekend",
+      "link": "https://www.bankier.pl/wiadomosc/Ceny-paliw-w-gore-Minister-podal-nowe-maksymalne-stawki-na-weekend-9185490.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Maksymalna cena dla benzyny Pb95 wynosi 6,54 zł/l, dla benzyny Pb98 to 7,36 zł/l, a dla oleju napędowego 7,59 zł/l - poinformował Minister Energii w obwieszczeniu. Ceny te będą obowiązywały w od soboty, 22 sierpnia, do poniedziałku, 24 sierpnia, włącznie.",
+      "pubDate": "Fri, 21 Aug 2026 12:12:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/b/c8b1170281c3b5-948-568-15-7-3056-1833.jpg",
-      "dateISO": "2026-08-21T09:12:00.000Z",
+      "image": "http://galeria.bankier.pl/p/8/b/aef8b4b6360dfa-948-568-0-337-3857-2314.jpg",
+      "dateISO": "2026-08-21T11:12:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Drony AI miały zamknąć lotniska w Moskwie. \"The Atlantic\" ujawnia szczegóły planu",
+      "link": "https://www.bankier.pl/wiadomosc/Drony-AI-mialy-zamknac-lotniska-w-Moskwie-The-Atlantic-ujawnia-szczegoly-planu-9185475.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ukraina rozważała wysłanie rojów dronów napędzanych sztuczną inteligencją na lotniska w Moskwie, by zmusić zagraniczne linie lotnicze do wstrzymania rejsów do stolicy Rosji i wywrzeć presję na rosyjskie elity – podał „The Atlantic”. Plan wstrzymano po dymisji ministra obrony Mychajła Fedorowa.",
+      "pubDate": "Fri, 21 Aug 2026 11:52:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/3/817b2ceb64cbe7-948-568-567-30-3488-2092.jpg",
+      "dateISO": "2026-08-21T10:52:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Afera GetBack wraca na wokandę. Dwóm osobom grozi do 25 lat więzienia",
+      "link": "https://www.bankier.pl/wiadomosc/Afera-GetBack-wraca-na-wokande-Dwom-osobom-grozi-do-25-lat-wiezienia-9185471.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prokuratura Regionalna w Warszawie skierowała 16. już akt oskarżenia w sprawie GetBack S.A.. Dotyczy on wyrządzenia szkody w wysokości ponad 1,3 miliarda złotych.",
+      "pubDate": "Fri, 21 Aug 2026 11:46:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/3/d6a50c09b8c09f-945-560-0-303-4500-2699.jpg",
+      "dateISO": "2026-08-21T10:46:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Dadelo liczy na osiągniecie 1 mld zł przychodów i start działalności w Czechach w 2027 r.",
+      "link": "https://www.bankier.pl/wiadomosc/Dadelo-liczy-na-osiagniecie-1-mld-zl-przychodow-i-start-dzialalnosci-w-Czechach-w-2027-r-9185460.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Dadelo liczy na wypracowanie ok. 700 mln zł przychodów w 2026 r. i osiągnięcie 1 mld zł przychodów w 2027 r. - poinformował prezes Ryszard Zawieruszyński. Zapowiedział też otwarcie działalności w Czechach, w formie stacjonarnej i online, w 2027 r., przy czym nie wykluczył w tym kraju akwizycji.",
+      "pubDate": "Fri, 21 Aug 2026 11:42:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/3/d/8d4d494d37f23b-948-568-0-104-1232-739.jpg",
+      "dateISO": "2026-08-21T10:42:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Budżet na 2027 r. pod presją. Tusk wskazuje na kosztowne priorytety",
+      "link": "https://www.bankier.pl/wiadomosc/Budzet-na-2027-r-pod-presja-Tusk-wskazuje-na-kosztowne-priorytety-9185450.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polska ma priorytety, które kosztują dużo pieniędzy, a sytuacja jest obiektywnie bardzo wymagająca - ocenił premier Donald Tusk rozpoczynając piątkowe, robocze posiedzenie rządu dotyczące budżetu na 2027 r. Wśród tych priorytetów wymienił bezpieczeństwo, zdrowie i transformację energetyczną.",
+      "pubDate": "Fri, 21 Aug 2026 11:28:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/3/8206e4755891b5-948-568-0-129-1920-1151.jpg",
+      "dateISO": "2026-08-21T10:28:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Polska liderem podwyżek cen paliw w UE. Benzyna zdrożała o 17 proc.",
+      "link": "https://www.bankier.pl/wiadomosc/Polska-liderem-podwyzek-cen-paliw-w-UE-Benzyna-zdrozala-o-17-proc-9185444.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polska odnotowała w lipcu 2026 r. najwyższe w Unii Europejskiej miesięczne wzrosty cen zarówno oleju napędowego, jak i benzyny. Ceny diesla wzrosły o 13,4 proc. wobec czerwca, a benzyny o 17,2 proc. - wynika z danych Eurostatu.",
+      "pubDate": "Fri, 21 Aug 2026 11:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/6/4c47360534b558-948-568-1199-1401-2217-1330.jpg",
+      "dateISO": "2026-08-21T10:20:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Grzegorz Braun z zarzutami. Prokuratura wskazuje cztery przestępstwa",
+      "link": "https://www.bankier.pl/wiadomosc/Grzegorz-Braun-z-zarzutami-Prokuratura-wskazuje-cztery-przestepstwa-9185428.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Lider Konfederacji Korony Polskiej, europoseł Grzegorz Braun usłyszał w czwartek w Prokuraturze Okręgowej w Warszawie zarzuty popełnienia czterech przestępstw - przekazał prokurator krajowy Dariusz Korneluk. Dodał, że Braun nie przyznał się do zarzucanych mu czynów i odmówił składania wyjaśnień.",
+      "pubDate": "Fri, 21 Aug 2026 11:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/a/880fe62c804c00-948-568-0-63-2833-1699.jpg",
+      "dateISO": "2026-08-21T10:15:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Regulacje, nie makro, napędzają wzrost Bitcoina – analitycy",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/regulacje-nie-makro-napedzaja-wzrost-bitcoina--analitycy-1542081",
+      "description": "",
+      "pubDate": "2026-08-21 10:14:11",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/LYNXMPED9G1CM_M.jpg",
+      "dateISO": "2026-08-21T10:14:11.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Sanok Rubber Company spodziewa się wzrostu kosztów surowców; pracuje nad akwizycjami",
+      "link": "https://www.bankier.pl/wiadomosc/Sanok-Rubber-Company-spodziewa-sie-wzrostu-kosztow-surowcow-pracuje-nad-akwizycjami-9185435.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Sanok Rubber spodziewa się dalszego wzrostu kosztów większości istotnych surowców. Spółka kontynuuje prace nad potencjalnymi akwizycjami, choć żaden z projektów nie jest obecnie blisko finalizacji - poinformował podczas konferencji wynikowej prezes spółki Piotr Szamburski.",
+      "pubDate": "Fri, 21 Aug 2026 11:12:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/e/8/3f1457f4fed800-thumb-1000.jpg",
+      "dateISO": "2026-08-21T10:12:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "W Europie rusza autonomiczny Uber. Znamy lokalizację",
+      "link": "https://businessinsider.com.pl/gospodarka/autonomiczne-przejazdy-juz-w-europie-zagrzeb-na-poczatek/9hhgq0b",
+      "description": "W USA czy Chinach autonomiczne taksówki nie robią już wrażenia. W Europie to jednak ciągle nowość. Firma Uber jednak rusza z pierwszym takim projektem na kontynencie — w Zagrzebiu.",
+      "pubDate": "Fri, 21 Aug 2026 10:07:55 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/mzxk9kpTURBXy83NmUyOGY4YWUyYzFiNzZjNjRkMzBlNmJlYzk0Yzg1MC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-21T10:07:55.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Chiny nie poprą gospodarczej izolacji Iranu. Pekin odpowiada na apele USA",
+      "link": "https://www.bankier.pl/wiadomosc/Chiny-nie-popra-gospodarczej-izolacji-Iranu-Pekin-odpowiada-na-apele-USA-9185430.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Chińskie ministerstwo spraw zagranicznych oświadczyło w piątek, że amerykańskie sankcje i wzmożona presja na Iran nie stanowią rozwiązania kryzysu. Chiny, będące kluczowym partnerem handlowym Teheranu, odrzuciły tym samym apele Waszyngtonu o dołączenie do działań zmierzających do gospodarczej izolac",
+      "pubDate": "Fri, 21 Aug 2026 11:06:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/c/f7e16b43e74656-948-568-211-14-2266-1360.png",
+      "dateISO": "2026-08-21T10:06:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "\"Mamy kosztowne priorytety\". Donald Tusk przed pracami nad budżetem",
+      "link": "https://businessinsider.com.pl/gospodarka/budzet-2027-pod-presja-wydatkow-donald-tusk-wskazuje-na-priotytety/0eedjy2",
+      "description": "Bezpieczeństwo, ochrona zdrowia i transformacja energetyczna będą należały do najważniejszych wyzwań przy konstruowaniu budżetu państwa na 2027 r. Premier Donald Tusk podkreślił, że Polska znajduje się w wymagającej sytuacji, a realizacja kluczowych celów wymaga znaczących nakładów finansowych. Jedn",
+      "pubDate": "Fri, 21 Aug 2026 10:05:39 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/8EMk9kpTURBXy9hOTNhZjBmYjhjMmY4OTUyYjlhNmE2NmY2NWZiNjg2MC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-21T10:05:39.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Europejski przemysł zaskakuje wzrostem. Polska gospodarka już korzysta",
+      "link": "https://businessinsider.com.pl/gospodarka/strefa-euro-zaskakuje-wzrostem-wskazniki-pmi-najwyzej-od-miesiecy/1ysmq55",
+      "description": "Ze strefy euro napływają dobre informacje. Wstępne odczyty PMI za sierpień wskazują na dalszą poprawę koniunktury, a wzrost aktywności był napędzany przede wszystkim przez przemysł. Korzysta na tym także polska gospodarka.",
+      "pubDate": "Fri, 21 Aug 2026 10:00:58 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/_1Vk9kpTURBXy9hZDNiNzlkZTk0NzRhMTYxZGNlNDg4Y2JhY2UxNDU4Yy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-21T10:00:58.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Rząd chce podnieść podatki wielkim firmom. Pytamy, czy wrócą \"rachunki grozy\"",
+      "link": "https://businessinsider.com.pl/gospodarka/rzad-przykreca-srube-firmom-tak-to-moze-odczuc-zwykly-kowalski/yycs5yw",
+      "description": "Nie opadł jeszcze kurz po zapowiedziach reformy podatkowej, a rząd przedstawił nowy pomysł — przykręcenia śruby największym firmom paliwowym i energetycznym. Eksperci przyznają: dla wielkich firm to może oznaczać ból głowy, ale \"rachunków grozy\" raczej nie będzie. Przynajmniej na razie.",
+      "pubDate": "Fri, 21 Aug 2026 09:56:14 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ozsk9kpTURBXy83OGY5MjllYTIwMTI3N2UwMDExOTQ3NDU2YThhNmY4Ny5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-21T09:56:14.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "A2 Łódź–Warszawa zostanie poszerzona. Podpisano drugi z czterech kontraktów",
+      "link": "https://www.bankier.pl/wiadomosc/A2-Lodz-Warszawa-zostanie-poszerzona-Podpisano-drugi-z-czterech-kontraktow-9185423.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Generalna Dyrekcja Dróg Krajowych i Autostrad podpisała umowę na odcinek od węzła Łowicz do granicy woj. łódzkiego i mazowieckiego o długości 21,8 km - podała GDDKiA w komunikacie. Wykonawcą jest firma Strabag, a wartość kontraktu to 321,4 mln zł.",
+      "pubDate": "Fri, 21 Aug 2026 10:56:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/e/6/f439567f374da0-948-568-0-0-2048-1228.jpg",
+      "dateISO": "2026-08-21T09:56:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Benefit Systems podtrzymuje cele na '26. Planuje raczej rozwój organiczny sieci klubów",
+      "link": "https://www.bankier.pl/wiadomosc/Benefit-Systems-podtrzymuje-cele-na-26-planuje-raczej-rozwoj-organiczny-sieci-klubow-9185419.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Benefit Systems podtrzymuje po pierwszym półroczu założenia na ten rok - poinformował Marcin Fojudzki, członek zarządu Benefit Systems. Jak dodał, spółka będzie się przyglądać możliwościom akwizycji, ale w obszarze klubów fitness planuje raczej rozwój organiczny na poszczególnych rynkach.",
+      "pubDate": "Fri, 21 Aug 2026 10:48:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/a/d/1327e8c261d2d6-948-568-4-9-955-573.jpg",
+      "dateISO": "2026-08-21T09:48:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "\"Kredkowa drożyzna\" atakuje. Tyle kosztuje wyprawka",
+      "link": "https://businessinsider.com.pl/poradnik-finansowy/kredkowa-drozyzna-atakuje/337e005",
+      "description": "Rodzice przygotowują się do nowego roku szkolnego. Dane aplikacji PanParagon pokazują, że tanio nie jest — a komplet kredek podrożał o niemal 17 proc.",
+      "pubDate": "Fri, 21 Aug 2026 09:46:23 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/6PRk9kpTURBXy80MDc1ZjY2YzI1YmI0MDM2NzYwMDQ3YzZlNDRjMzk4MC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-21T09:46:23.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Pod ukraińskim stepem kryje się \"białe złoto\". W grę wchodzą miliardy",
+      "link": "https://businessinsider.com.pl/gospodarka/lit-z-ukrainy-moze-zmienic-rynek-inwestorzy-z-usa-i-europy-juz-dzialaja/0jqfhsg",
+      "description": "Ukraina może w przyszłości stać się jednym z najważniejszych europejskich dostawców litu — surowca kluczowego dla produkcji baterii, samochodów elektrycznych i nowoczesnej elektroniki. Szczególnie duży potencjał znajduje się w obwodzie kirowohradzkim, gdzie leżą dwa perspektywiczne obszary. Jeden z ",
+      "pubDate": "Fri, 21 Aug 2026 09:37:46 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/gv6k9kpTURBXy85ZWMwYmU5ZWYxZTVkYzEyM2Q3MjkxYTE3NmFmZGVhZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-21T09:37:46.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "MON rozszerza listę strategicznych spółek. Trafią na nią Huta Częstochowa i APS",
+      "link": "https://www.bankier.pl/wiadomosc/MON-rozszerza-liste-strategicznych-spolek-Trafia-na-nia-Huta-Czestochowa-i-Advanced-Protection-Systems-9185415.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Advanced Protection Systems i Huta Częstochowa mają być dopisane do listy spółek chronionych na postawie ustawy o kontroli niektórych inwestycji - wynika z wpisu MON do wykazu prac rządu. Uzasadniono, że chodzi o chronioną działalność tych spółek związaną m.in. z wytwarzaniem broni i technologiami o",
+      "pubDate": "Fri, 21 Aug 2026 10:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/a/2f74a52905f7b9-945-560-38-192-2161-1296.jpg",
+      "dateISO": "2026-08-21T09:36:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Gospodarka strefy euro daje oznaki życia. Niemiecki przemysł i usługi południa zaskakują",
+      "link": "https://www.bankier.pl/wiadomosc/Gospodarka-strefy-euro-daje-oznaki-zycia-Niemiecki-przemysl-i-uslugi-poludnia-zaskakuja-9185413.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wstępne szacunki wskaźników PMI za sierpień 2026 roku przynoszą pozytywne wieści dla strefy euro. Na poziomie zagregowanym odczyt okazał nieco wyższy niż w lipcu. Dane sugerują, że koniunktura trzecim kwartale uległa ożywieniu po słabym pierwszym półroczu europejskiej gospodarki.",
+      "pubDate": "Fri, 21 Aug 2026 10:34:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/f/2f4c279c55be72-948-567-5-62-995-596.jpg",
+      "dateISO": "2026-08-21T09:34:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Zmiany w podatkach. Są szczegóły rządowych projektów",
+      "link": "https://businessinsider.com.pl/prawo/podatki/rewolucja-podatkowa-donalda-tuska-i-andrzeja-domanskiego-oto-glowne-zalozenia/6mvwvee",
+      "description": "To już nie tylko zapowiedzi z konferencji prasowej. Ministerstwo Finansów opublikowało założenia do projektu zmian w PIT i CIT, w tym podwyższenia progu skali PIT do 130 tys. zł. Są też założenia dotyczące podwyżki CIT dla firm energetycznych i paliwowych.",
+      "pubDate": "Fri, 21 Aug 2026 09:24:10 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/WXKk9kpTURBXy8xMGZlODU0ZWNkOTIxYWNjZjE0NTU4ZWRkMDMxZWE4Mi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-21T09:24:10.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Ukraińskie drony zaatakowały rafinerię Łukoilu w Rosji. Wybuchł pożar",
+      "link": "https://www.bankier.pl/wiadomosc/Ukrainskie-drony-zaatakowaly-rafinerie-Lukoilu-w-Rosji-Wybuchl-pozar-9185406.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ukraińskie drony zaatakowały miasto Perm w europejskiej części Rosji w nocy z czwartku na piątek, wywołując pożar w rafinerii koncernu Łukoil – podał portal Ukrainska Prawda, cytując relacje świadków z portalu Telegram. Władze regionu poinformowały o uszkodzeniu obiektu przemysłowego w mieście.",
+      "pubDate": "Fri, 21 Aug 2026 10:18:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/9/b3c693ce15f6af-948-568-17-248-3525-2115.jpg",
+      "dateISO": "2026-08-21T09:18:00.000Z",
       "dateFormatted": "21 sierpnia 2026"
     },
     {
@@ -37,6 +289,18 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
+      "title": "Bitcoin 10% w górę, podczas hossy",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-10-w-gore-podczas-hossy-1541936",
+      "description": "",
+      "pubDate": "2026-08-21 08:59:09",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/CryptoBitcoindigital_800x533_L_1641975060.jpg",
+      "dateISO": "2026-08-21T08:59:09.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
       "title": "Firmy ostrożne z inwestycjami. Wysokie koszty największą barierą",
       "link": "https://www.bankier.pl/wiadomosc/Firmy-hamuja-z-inwestycjami-Wysokie-koszty-najwieksza-bariera-9185392.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Większość przedsiębiorstw w Polsce planuje w 2026 r. utrzymać nakłady inwestycyjne na poziomie zbliżonym do ubiegłorocznego, a najważniejszą barierą dla inwestycji pozostają wysokie koszty ich realizacji - wynika z opublikowanego w piątek badania koniunktury gospodarczej Głównego Urzędu Statystyczne",
@@ -61,6 +325,18 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
+      "title": "Rządowa zmiana podatkowa. Mentzen wsparł Nawrockiego",
+      "link": "https://businessinsider.com.pl/firmy/podatki/mentzen-popiera-zapowiedz-nawrockiego-w-sprawie-podatkow/bcf4065",
+      "description": "Lider Konfederacji na portalu X pozytywnie ocenia deklarację prezydenta Karola Nawrockiego dotyczącą zawetowania ustawy o zmianach podatkowych.",
+      "pubDate": "Fri, 21 Aug 2026 08:51:33 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/pjsk9kpTURBXy9mNmFlYTFiNzA3YmZlYWVjZTY4ZDljNjg5YzVjMTIzMC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-21T08:51:33.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
       "title": "Strajk kontrolerów lotów w Norwegii. W niedzielę zamkną lotnisko w Oslo",
       "link": "https://www.bankier.pl/wiadomosc/Strajk-kontrolerow-lotow-w-Norwegii-W-niedziele-zamkna-lotnisko-w-Oslo-9185389.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Kontrolerzy ruchu lotniczego w Norwegii rozpoczęli w piątek rano strajk, który objął lotniska Oslo-Gardermoen, Bergen-Flesland i port lotniczy w Stavanger oraz centrum kontroli ruchu w Roeyken. Strajkujący żądają wyższych pensji i lepszych warunków pracy.",
@@ -70,6 +346,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/8/7/b0bf6d7172efd6-948-568-0-0-4000-2399.jpg",
       "dateISO": "2026-08-21T08:50:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Biedronka rekrutuje. Tyle można zarobić na starcie",
+      "link": "https://businessinsider.com.pl/praca/biedronka-rekrutuje-tyle-mozna-zarobic-na-starcie/xbne6ke",
+      "description": "Biedronka intensywnie rekrutuje pracowników do nowych placówek. Sieć zapowiada, że w 2026 r. otworzy w Polsce ponad 120 sklepów. Wraz z ekspansją rośnie liczba ofert pracy, w których można sprawdzić, ile dziś można zarobić na stanowiskach w największej sieci handlowej w Polsce - nawet 7450 zł.",
+      "pubDate": "Fri, 21 Aug 2026 08:49:21 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Uqrk9kpTURBXy9jOGQ4OTljMjcwNDI4MGY2NDZiNjUwNmZkOGMxMzcxMi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-21T08:49:21.000Z",
       "dateFormatted": "21 sierpnia 2026"
     },
     {
@@ -109,18 +397,6 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
-      "title": "Wyniki Dino Polska za II kw. zgodne z oczekiwaniami",
-      "link": "https://www.bankier.pl/wiadomosc/Wyniki-Dino-Polska-za-II-kw-zgodne-z-oczekiwaniami-opinia-9185374.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Grupa Dino przedstawiła wyniki za drugi kwartał, które okazały się zbliżone do oczekiwań. Analitycy oceniają, że reakcja rynku może być neutralna. Ich zdaniem słabe dane za II kwartał zostały już uwzględnione w wycenie rynkowej, a uwaga inwestorów powinna teraz skupić się na poprawie wyników od III ",
-      "pubDate": "Fri, 21 Aug 2026 09:32:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/2/a/064acf59f84583-948-567-0-52-1000-599.jpg",
-      "dateISO": "2026-08-21T08:32:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
       "title": "Dolar najtańszy od miesięcy, złoty zyskuje. Ruch Waszyngtonu wpłynął na waluty",
       "link": "https://www.bankier.pl/wiadomosc/Dolar-najtanszy-od-miesiecy-zloty-zyskuje-Ruch-Waszyngtonu-wplynal-na-waluty-9185360.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W piątek rano kontynuacja globalnej wyprzedaży amerykańskiej waluty zepchnęła kurs USD/PLN poniżej granicy 3,69 zł, wyznaczając nowe kilkumiesięczne minima. Złoty utrzymywał dobrą formę z czwartku, a notowania pozostałych walut wykazywały niewielką zmienność w oczekiwaniu na wstępne odczyty wskaźnik",
@@ -130,42 +406,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/1/baa30289b7749b-945-560-25-95-1706-1023.jpg",
       "dateISO": "2026-08-21T08:30:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Cena miedzi na LME rośnie. Obligacje USA w centrum uwagi",
-      "link": "https://www.bankier.pl/wiadomosc/Cena-miedzi-na-LME-rosnie-Obligacje-USA-w-centrum-uwagi-9185373.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Cena miedzi w dostawach 3-miesięcznych na Londyńskiej Giełdzie Metali (LME) rośnie o 0,9 proc. do 14 161 USD za tonę. Inwestorów niepokoją ostatnie wiadomości nt. obligacji USA.",
-      "pubDate": "Fri, 21 Aug 2026 09:27:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/e/b/4cf343bc075f92-948-568-0-169-2506-1503.jpg",
-      "dateISO": "2026-08-21T08:27:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Kurs Dino rośnie o 5,5 proc. WIG20 w górę o 1 proc.",
-      "link": "https://www.bankier.pl/wiadomosc/Kurs-Dino-rosnie-o-5-5-proc-przy-zwyzce-WIG20-o-1-proc-9185371.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Kurs akcji Dino rośnie o 5,5 proc. do 34,06 zł. Indeks WIG20 zwyżkuje o 1 proc.",
-      "pubDate": "Fri, 21 Aug 2026 09:24:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/e/a/c8b8151fc98085-948-568-0-9-1923-1154.jpg",
-      "dateISO": "2026-08-21T08:24:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "MLP Group planuje w 2 kolejnych kw. oddać do użytkowania ok. 200 tys. mkw. nowej powierzchni najmu",
-      "link": "https://www.bankier.pl/wiadomosc/MLP-Group-planuje-w-2-kolejnych-kw-oddac-do-uzytkowania-ok-200-tys-mkw-nowej-powierzchni-najmu-9185372.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "MLP Group planuje w dwóch kolejnych kwartałach oddać do użytkowania ok. 200 tys. mkw. nowej powierzchni najmu - podała spółka w komunikacie prasowym. Wskazano, że spółka oczekuje dalszego wysokiego jednocyfrowego wzrostu zarówno stawek czynszów, jak i rynkowej wartości czynszu ERV.",
-      "pubDate": "Fri, 21 Aug 2026 09:24:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/bec068af7bec25-thumb-1000.jpg",
-      "dateISO": "2026-08-21T08:24:00.000Z",
       "dateFormatted": "21 sierpnia 2026"
     },
     {
@@ -229,7 +469,7 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
-      "title": "Kolejny awans Polski. Minister finansów zabrał głos",
+      "title": "Kolejny awans Polski. Jest komentarz ministra",
       "link": "https://businessinsider.com.pl/finanse/handel/kolejny-awans-polski-minister-finansow-zabral-glos/1rddmwk",
       "description": "Polska gospodarka i rynek kapitałowy zyskują kolejny ważny sygnał uznania na świecie. S&P Dow Jones Indices uznał, że polski rynek spełnia kryteria stawiane rynkom rozwiniętym. Sprawę skomentował minister finansów Andrzej Domański.",
       "pubDate": "Fri, 21 Aug 2026 07:48:14 GMT",
@@ -262,30 +502,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/kGPk9kpTURBXy82MmUyZTIyMWQ1NmU4YzNhMjE0Yjk1OWZlMWJmMDYyNC5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-08-21T07:24:10.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Japonia wykonała egzekucję. Pierwsza kara śmierci za rządów premierki Takaichi",
-      "link": "https://www.bankier.pl/wiadomosc/Japonia-wykonala-egzekucje-Pierwsza-kara-smierci-za-rzadow-premierki-Takaichi-9185269.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Mężczyzna skazany na karę śmierci za podpalenie salonu gier w 2009 r. został powieszony w piątek rano – poinformowały lokalne media. W ataku na obiekt w Osace zginęło pięć osób, a 10 odniosło obrażenia. Jest to pierwsza egzekucja w Japonii od czasu objęcia władzy przez premierkę Sanae Takaichi.",
-      "pubDate": "Fri, 21 Aug 2026 08:04:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/2/e34dddbf57199e-948-567-0-45-1000-599.jpg",
-      "dateISO": "2026-08-21T07:04:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Organizatorzy obchodów Tiananmen skazani w Hongkongu. Grozi im do 10 lat więzienia",
-      "link": "https://www.bankier.pl/wiadomosc/Organizatorzy-obchodow-Tiananmen-skazani-w-Hongkongu-Grozi-im-do-10-lat-wiezienia-9185289.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sąd w Hongkongu uznał w piątek dwoje organizatorów czuwań ku czci ofiar masakry na Tiananmen za winnych podżegania do działalności wywrotowej. Lee Cheuk-yanowi oraz Chow Hang-tung grozi do 10 lat pozbawienia wolności na mocy narzuconej przez Pekin ustawy o bezpieczeństwie narodowym.",
-      "pubDate": "Fri, 21 Aug 2026 08:03:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/6/f9705329181512-948-568-0-47-1730-1037.jpg",
-      "dateISO": "2026-08-21T07:03:00.000Z",
       "dateFormatted": "21 sierpnia 2026"
     },
     {
@@ -361,30 +577,6 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
-      "title": "Koniec eksperymentu z dronami w armii USA. Jednostka opuszcza Europę",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-eksperymentu-z-dronami-w-armii-USA-Jednostka-opuszcza-Europe-9185276.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Stacjonująca w Europie jednostka Armii USA, specjalizująca się w wykorzystywaniu dronów w działaniach zbrojnych, otrzymała polecenie powrotu do roli tradycyjnego batalionu piechoty - poinformowali w czwartek przedstawiciele wojska, cytowani przez agencję AP.",
-      "pubDate": "Fri, 21 Aug 2026 07:33:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/4/9a14b3e7c4b71d-948-568-30-40-3970-2381.jpg",
-      "dateISO": "2026-08-21T06:33:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Alarm na norweskim szelfie. Wydobycie ropy i gazu może spaść niemal do zera",
-      "link": "https://www.bankier.pl/wiadomosc/Alarm-na-norweskim-szelfie-Wydobycie-ropy-i-gazu-moze-spasc-niemal-do-zera-9185231.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W 2050 roku norweskie wydobycie ropy naftowej i gazu ziemnego może spaść niemal do zera – ocenił w opublikowanym w czwartek raporcie zarządzający zasobami Urząd ds. Szelfu. Bez odkrycia nowych dużych złóż gwałtowny spadek produkcji może rozpocząć się już po 2030 roku.",
-      "pubDate": "Fri, 21 Aug 2026 07:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/7/613012a503e7bd-948-568-0-124-1920-1151.jpg",
-      "dateISO": "2026-08-21T06:30:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
       "title": "Radom tnie etaty, ale rośnie liczba pasażerów. PPL mają plan dla lotniska",
       "link": "https://www.bankier.pl/wiadomosc/Radom-tnie-etaty-ale-rosnie-liczba-pasazerow-PPL-maja-plan-dla-lotniska-9185293.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Struktura zatrudnienia na lotnisku w Radomiu została zoptymalizowana, co pozwoliło na redukcję etatów o 20 proc. – poinformował PAP w czwartek Piotr Rudzki z Polskich Portów Lotniczych. PPL pracują także nad nowym podziałem kompetencji, co może wiązać się z rotacją pracowników wewnątrz całej organiz",
@@ -406,18 +598,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/c/9b4dcc4ba0fac1-948-568-713-129-1892-1135.jpg",
       "dateISO": "2026-08-21T06:30:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Pociągi jak za PRL? Rosnąca frekwencja obnaża słabości polskiej kolei",
-      "link": "https://www.bankier.pl/wiadomosc/Pociagi-jak-za-PRL-Rosnaca-frekwencja-obnaza-slabosci-polskiej-kolei-9185264.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Upały i mrozy plus rosnąca frekwencja coraz bardziej obnażają słabości polskiej kolei. Pociągów brakuje, a te jeżdżące coraz bardziej się spóźniają - czytamy w piątkowej „Rzeczpospolitej”.",
-      "pubDate": "Fri, 21 Aug 2026 07:21:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/1/01680d5fe6faa2-948-568-0-99-4000-2399.jpg",
-      "dateISO": "2026-08-21T06:21:00.000Z",
       "dateFormatted": "21 sierpnia 2026"
     },
     {
@@ -493,18 +673,6 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
-      "title": "Kryzys migracyjny w Ceucie. Hiszpania wysyła dodatkowych żołnierzy",
-      "link": "https://www.bankier.pl/wiadomosc/Kryzys-migracyjny-w-Ceucie-Hiszpania-wysyla-dodatkowych-zolnierzy-9185260.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ponad 150 żołnierzy z Wysp Kanaryjskich zostało wysłanych do Ceuty, eksklawy Hiszpanii w Afryce Północnej, w związku z trwającym tam od końca lipca kryzysem migracyjnym - przekazało w czwartek wieczorem dowództwo hiszpańskiej armii.",
-      "pubDate": "Fri, 21 Aug 2026 07:05:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/4/df30bba8a042f1-948-568-600-142-2400-1439.jpg",
-      "dateISO": "2026-08-21T06:05:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
       "title": "\"Najostrzejsze sankcje w historii\". USA zapowiadają gospodarczy paraliż Iranu",
       "link": "https://businessinsider.com.pl/gospodarka/amerykanie-maja-uderzyc-w-iran-jak-nigdy-wczesniej-najostrzejsze-sankcje/kcds27n",
       "description": "Waszyngton zamierza jeszcze mocniej zacisnąć gospodarczy uścisk na Iranie. Sekretarz skarbu USA Scott Bessent zapowiedział pakiet sankcji, który określił jako \"najostrzejsze sankcje w historii\". Amerykańska administracja chce w ten sposób zmusić Teheran do ustępstw, a jednocześnie ostrzega państwa u",
@@ -529,9 +697,9 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
-      "title": "„Prawa ręka” Tuska sędzią TK? Zdecydowany opór znanych organizacji",
+      "title": "\"Prawa ręka\" Tuska sędzią TK? Zdecydowany opór znanych organizacji",
       "link": "https://businessinsider.com.pl/prawo/maciej-berek-kandydatem-do-trybunalu-konstytucyjnego-organizacje-protestuja/2q8jnkk",
-      "description": "Doskonały urzędnik budzi ogromne kontrowersje. Maciej Berek, nazywany \"prawą ręką\" Donalda Tuska, ma zostać kandydatem do Trybunału Konstytucyjnego. Przeciwko ostro protestuje dziewięć znanych organizacji pozarządowych. Apelują o wycofanie kandydatury w imię odpolitycznienia i ratowania autorytetu T",
+      "description": "Doskonały urzędnik budzi ogromne kontrowersje. Maciej Berek, nazywany \"prawą ręką\" Donalda Tuska, ma zostać kandydatem do Trybunału Konstytucyjnego. Przeciwko ostro protestuje dziewięć znanych organizacji pozarządowych, w tym Helsińska Fundacja Praw Człowieka i Instytut Spraw Publicznych. Apelują o ",
       "pubDate": "Fri, 21 Aug 2026 05:57:32 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -589,114 +757,6 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
-      "title": "Kurs USD/PLN 21 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-dolara-amerykanskiego-dzisiaj-po-ile-jest-dolar-amerykanski-21-sierpnia-2026-r/tdf1n6j",
-      "description": "Przedstawiamy notowania bieżącego kursu USD z dnia 21 sierpnia 2026. Wczorajsza wartość dolara to 3,6928 zł. Od tego, jaki jest kurs USD, zależy cena wielu importowanych towarów oraz usług, których transakcje rozliczane są w dolarach. By pokazać perspektywę, w tym artykule pokazujemy zmianę kursu US",
-      "pubDate": "Fri, 21 Aug 2026 05:03:33 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/rUkk9kpTURBXy9kZTJhOTQ2YmQ5MWI5MDdmMTVmY2QxZjhlNGFlZTcwNi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-21T05:03:33.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Kurs CZK/PLN 21 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-czeskiej-dzisiaj-po-ile-jest-korona-czeska-21-sierpnia-2026-r/z0m4n6l",
-      "description": "Czeska korona nie ma nawet 30 lat, co sprawia, że jest to jedna z najmłodszych walut europejskich. Pokazujemy bieżący kurs waluty CZK z dnia 21 sierpnia 2026 z godz. 7 rano. Informujemy także o zmianach kursu dzień do dnia i tydzień do tygodnia. Wczoraj kurs CZK wynosił: 0,1790 zł.",
-      "pubDate": "Fri, 21 Aug 2026 05:03:30 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/-bEk9kpTURBXy80ZDNlYTgwNDkyZjI3MzgwNTM2YzI2NTgyMGI5NDM2NS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-21T05:03:30.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Kurs CHF/PLN 21 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-franka-szwajcarskiego-dzisiaj-po-ile-jest-frank-szwajcarski-21-sierpnia-2026-r/ssxt0xh",
-      "description": "Poznaj szczegółowe zmiany kursu CHF/PLN. Jak kształtuje się kurs złotego do franka? Jak silna jest waluta, od której zależy wysokość raty kredytowej wielu pożyczkobiorców? Wczoraj kurs franka wynosił 4,6158 zł. O tym, jak kształtuje się on dziś, dowiesz się z tego artykułu. Sprawdź, czy opłaca się w",
-      "pubDate": "Fri, 21 Aug 2026 05:03:30 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/0wvk9kpTURBXy84MDI3MzFlODBkMTQ3MTMyZTJlNTE2NjMxMTQ4MmNjZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-21T05:03:30.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Kurs GBP/PLN 21 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-funtow-brytyjskich-dzisiaj-po-ile-jest-funt-brytyjski-21-sierpnia-2026-r/6dvrzmw",
-      "description": "Czy kurs funta brytyjskiego zmienił się od wczoraj? Wczorajsza cena waluty to 5,0378 zł. Czy złoty słabnie, czy może jednak umacnia się względem funta brytyjskiego? To ważna informacja dla wszystkich, którzy pracują aktualnie na Wyspach Brytyjskich.",
-      "pubDate": "Fri, 21 Aug 2026 05:03:30 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Xn9k9kpTURBXy8zMTY5ODI1MDkyYzVhNjYyMzFiODQ2NmNhZWQ2MWUwZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-21T05:03:30.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Kurs NOK/PLN 21 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-norweskiej-dzisiaj-po-ile-jest-korona-norweska-21-sierpnia-2026-r/r7vz2rs",
-      "description": "Pokazujemy bieżące notowania kursu korony norweskiej oraz zmiany kursu w ujęciu dziennym. Wczoraj kurs NOK wynosił 0,3958 zł. Dzisiejszą zmianę sprawdzisz w poniższym artykule.",
-      "pubDate": "Fri, 21 Aug 2026 05:03:26 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/-32k9kpTURBXy9lM2FlNTdhZjBiMDM3ODBmNmE1MTA2YTc3Mzk2ZWQ1Yi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-21T05:03:26.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Kurs DKK/PLN 21 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-dunskiej-dzisiaj-po-ile-jest-korona-dunska-21-sierpnia-2026-r/y5m7rgx",
-      "description": "Jeśli potrzebujesz informacji o kursie korony duńskiej, warto śledzić nasze bieżące notowania. Aby dokonać korzystnych transakcji wymiany walut sprawdź, jak kurs DKK wygląda dnia 21 sierpnia 2026.",
-      "pubDate": "Fri, 21 Aug 2026 05:03:23 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/newk9kpTURBXy80NzMwMDUzMjI3OTViZDk2MTk1Y2JiODBmM2E4Yjk0Yy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-21T05:03:23.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Kurs HUF/PLN 21 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-forinta-wegierskiego-dzisiaj-po-ile-jest-forint-wegierski-21-sierpnia-2026-r/efvcvgj",
-      "description": "Jadąc na urlop nad Balaton lub prowadząc biznesy z wegierskimi firmami, warto znać bieżacy kurs forinta. W tym artykule przedstawiamy notowania HUF/PLN na dzień 21 sierpnia 2026 oraz zmiany wartości w czasie.",
-      "pubDate": "Fri, 21 Aug 2026 05:03:23 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/c66k9kpTURBXy9jYzA5MTc0YzkyMDU5NjczOWM4M2NmMDc4YmI1YjQ5Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-21T05:03:23.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Kurs SEK/PLN 21 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-szwedzkiej-dzisiaj-po-ile-jest-korona-szwedzka-21-sierpnia-2026-r/cmcjecd",
-      "description": "Prezentujemy aktualne notowania kursu korony szwedzkiej do złotego oraz zmiany w ujęciu tygodniowym i dziennym na dzień 21 sierpnia 2026. Wczoraj kurs SEK wynosił 0,3900 zł. Więcej informacji o kursie znajdziesz w tym artykule.",
-      "pubDate": "Fri, 21 Aug 2026 05:03:23 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/8Kwk9kpTURBXy9iYTA4ODkyYWI0MTcxMWIwMjRiOTEyM2ZjZjI1YjMxMi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-21T05:03:23.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Kurs TRY/PLN 21 sierpnia 2026 r.",
-      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-liry-turckiej-dzisiaj-po-ile-jest-lira-turecka-21-sierpnia-2026-r/l9k460b",
-      "description": "Lira to jedna z walut, której kurs ulega w ostatnich latach największym zmianom. Poznaj bieżący kurs tureckiej waluty (TRY). Przedstawiamy zmianę notowań w ujęciu tygodniowym, a także dziennym.",
-      "pubDate": "Fri, 21 Aug 2026 05:03:20 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/XMbk9kpTURBXy9iOTJmZjZjYjNlMWZkMzQxNjhjNmZkYjI5ZWRiOGRiOC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-21T05:03:20.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
       "title": "ETF-y wchodzą na nowy poziom. Jak zbudować portfel na lata?",
       "link": "https://www.bankier.pl/wiadomosc/ETF-y-wchodza-na-nowy-poziom-Jak-zbudowac-portfel-na-lata-9184999.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Jeszcze kilka lat temu polski inwestor, który chciał wykorzystać ETF-y do budowy swojego portfela, miał do wyboru zaledwie kilka możliwości. Dziś na warszawskiej giełdzie systematycznie pojawiają się nowe fundusze, rośnie liczba dostępnych klas aktywów, a ETF-y coraz mocniej przebijają się do świado",
@@ -721,18 +781,6 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
-      "title": "W tej branży brakuje 50 tys. pracowników. Pensje rosną, ale chętnych brak",
-      "link": "https://www.bankier.pl/wiadomosc/Brakuje-50-tys-pracownikow-Bez-cudzoziemcow-moze-byc-jeszcze-gorzej-9184996.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Co najmniej 500 tys. osób w Polsce potrzebuje opieki długoterminowej, a już dziś w branży brakuje około 50 tys. opiekunów. Tylko w 2026 r. sektor może potrzebować 47,3 tys. nowych pracowników, a do 2035 r. zapotrzebowanie może sięgnąć 100 tys. osób. Branża ostrzega, że bez pracowników z zagranicy lu",
-      "pubDate": "Fri, 21 Aug 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/7/892af243668f84-948-568-0-0-1900-1139.jpg",
-      "dateISO": "2026-08-21T05:00:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
       "title": "Te banki pożyczą najtaniej. Sprawdzamy kredyty gotówkowe na 15 tys. zł",
       "link": "https://www.bankier.pl/wiadomosc/Ranking-kredytow-gotowkowych-sierpien-2026-r-Ranking-Bankier-pl-9184921.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Prawie 5 pp. różnicy – taki rozrzut proponowanych stawek odnotowaliśmy w sierpniowym rankingu kredytów gotówkowych. To przekłada się, przy 15 tys. zł kredytu na 2 lata, nawet kilkadziesiąt złotych różnicy w racie.",
@@ -741,6 +789,18 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/8/ee8d1903a5bd06-948-567-5-70-995-596.jpg",
+      "dateISO": "2026-08-21T05:00:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "W tej branży brakuje 50 tys. pracowników. Pensje rosną, ale chętnych brak",
+      "link": "https://www.bankier.pl/wiadomosc/Brakuje-50-tys-pracownikow-Bez-cudzoziemcow-moze-byc-jeszcze-gorzej-9184996.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Co najmniej 500 tys. osób w Polsce potrzebuje opieki długoterminowej, a już dziś w branży brakuje około 50 tys. opiekunów. Tylko w 2026 r. sektor może potrzebować 47,3 tys. nowych pracowników, a do 2035 r. zapotrzebowanie może sięgnąć 100 tys. osób. Branża ostrzega, że bez pracowników z zagranicy lu",
+      "pubDate": "Fri, 21 Aug 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/7/892af243668f84-948-568-0-0-1900-1139.jpg",
       "dateISO": "2026-08-21T05:00:00.000Z",
       "dateFormatted": "21 sierpnia 2026"
     },
@@ -757,19 +817,7 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
-      "title": "Ormuz, Ukraina i rafinerie. Pięć czynników podbija ceny paliw",
-      "link": "https://www.bankier.pl/wiadomosc/Ormuz-Ukraina-i-rafinerie-Piec-czynnikow-podbija-ceny-paliw-9185104.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Jest szereg czynników destabilizujących sytuację na rynku ropy, m.in. wojna w Ukrainie i konflikt w Zatoce Perskiej; przy takiej niepewności na ceny wpływa nawet przedstawienie przez Trumpa mapy z Cieśniną Ormuz jako częścią terytorium USA - przyznaje Agata Łoskot-Strachota z OSW.",
-      "pubDate": "Fri, 21 Aug 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/a/1bf0d970ad0339-948-568-108-346-4219-2531.jpg",
-      "dateISO": "2026-08-21T05:00:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Bitcoin testuje 75 tys. $, Trump napędza optymizm regulacyjny",
+      "title": "Bitcoin zbliża się do 78 tys. $, Trump wspiera regulacje kryptowalut",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-testuje-75-tys--trump-napedza-optymizm-regulacyjny-1541676",
       "description": "",
       "pubDate": "2026-08-21 04:14:46",
@@ -814,30 +862,6 @@
       "category": "gielda",
       "image": "https://content-media.investing.com/news/LYNXMPEDAE0PJ-ORUBS_M.jpg",
       "dateISO": "2026-08-20T20:58:07.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Kolejny incydent na granicy Finlandii i Rosji. Podejrzany rosyjski samolot",
-      "link": "https://www.bankier.pl/wiadomosc/Kolejny-incydent-na-granicy-Finlandii-i-Rosji-Podejrzany-rosyjski-samolot-9185244.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Fiński minister obrony Antti Hakkanen poinformował w czwartek wieczorem, że władze jego kraju podejrzewają, iż przestrzeń powietrzna Finlandii została tego dnia naruszona przez rosyjski samolot. Według komunikatu resortu śledztwo w tej sprawie prowadzi straż graniczna.",
-      "pubDate": "Thu, 20 Aug 2026 21:39:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/2/cffebf2b0e992b-948-568-0-184-4600-2759.jpg",
-      "dateISO": "2026-08-20T20:39:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Trzęsienie ziemi o magnitudzie 6,7 nawiedziło Peru. Jest bilans strat",
-      "link": "https://www.bankier.pl/wiadomosc/Trzesienie-ziemi-o-magnitudzie-6-7-nawiedzilo-Peru-Wstrzasy-odczuwalne-w-wielu-miastach-9185236.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Trzęsienie ziemi o magnitudzie 6,7 nawiedziło w czwartek południowe Peru – poinformowały Amerykańska Służba Geologiczna (USGS) i niemieckie Centrum Nauk o Ziemi (GFZ). Na razie brak informacji o możliwych ofiarach i zniszczeniach.",
-      "pubDate": "Thu, 20 Aug 2026 21:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/4/6a99aac663def4-948-568-0-110-4000-2399.jpg",
-      "dateISO": "2026-08-20T20:20:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -937,30 +961,6 @@
       "dateFormatted": "19 sierpnia 2026"
     },
     {
-      "title": "Cardano 10% w górę, na rynku byka",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/cardano-10-w-gore-na-rynku-byka-1539846",
-      "description": "",
-      "pubDate": "2026-08-19 21:23:04",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/CryptoBitcoindigital_800x533_L_1641975060.jpg",
-      "dateISO": "2026-08-19T21:23:04.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
-      "title": "XRP 10% w górę, na rynku byka",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/xrp-10-w-gore-na-rynku-byka-1539820",
-      "description": "",
-      "pubDate": "2026-08-19 20:56:06",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/CryptoBitcoindigital_800x533_L_1641975060.jpg",
-      "dateISO": "2026-08-19T20:56:06.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
       "title": "150 zł na zakupy w Żabce. UniCredit ruszył z promocją dla nowych klientów",
       "link": "https://www.bankier.pl/wiadomosc/150-zl-na-zakupy-w-Zabce-UniCredit-ruszyl-z-promocja-dla-nowych-klientow-9184369.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Na rynku promocji bankowych pojawiła się nowa propozycja od UniCredit. W ramach akcji „Bonus na start – Żabka” nowi klienci mogą zdobyć trzy e-vouchery do popularnej sieci sklepów o łącznej wartości 150 zł. Prześwietlamy zapisy regulaminu i wyjaśniamy, jak krok po kroku zgarnąć nagrody.",
@@ -973,5 +973,5 @@
       "dateFormatted": "19 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-21T08:40:27.608Z"
+  "updatedAt": "2026-08-21T10:30:45.534Z"
 }
