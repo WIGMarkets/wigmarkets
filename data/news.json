@@ -1,27 +1,267 @@
 {
   "articles": [
     {
-      "title": "Asbis szacuje, że przychody w lipcu wzrosły o 89 proc. rdr do 531 mln USD",
-      "link": "https://www.bankier.pl/wiadomosc/Asbis-szacuje-ze-przychody-w-lipcu-wzrosly-o-89-proc-rdr-do-531-mln-USD-9185344.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Grupa Asbis szacuje, że w lipcu 2026 r. wypracowała skonsolidowane przychody na poziomie ok. 531 mln USD i były one wyższe o 89 proc. od przychodów wypracowanych w lipcu 2025 r. - poinformowała spółka w komunikacie. Był to najwyższy pod względem przychodów lipiec w historii grupy.",
-      "pubDate": "Fri, 21 Aug 2026 08:28:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/4/d/f9d5309474b226-948-568-360-0-4140-2483.jpg",
-      "dateISO": "2026-08-21T07:28:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Ukraina chce wykorzystać Starlink do ataków w Rosji. Potrzebna zgoda Muska",
-      "link": "https://www.bankier.pl/wiadomosc/Ukraina-chce-wykorzystac-Starlink-do-atakow-w-Rosji-Potrzebna-zgoda-Elona-Muska-9185340.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ze względu na niedobór pocisków przechwytujących Ukraina zabiega o zgodę Elona Muska na wykorzystanie systemu łączności satelitarnej Starlink w atakach dronowych na rosyjskie wyrzutnie pocisków balistycznych do 200 km w głąb Rosji - poinformował w piątek dziennik „Financial Times”, powołując się na ",
-      "pubDate": "Fri, 21 Aug 2026 08:08:00 +0100",
+      "title": "Ekonomista o planie podatkowym rządu: rynek spodziewał się czegoś znacznie gorszego",
+      "link": "https://www.bankier.pl/wiadomosc/Ekonomista-o-planie-podatkowym-rzadu-rynek-spodziewal-sie-czegos-znacznie-gorszego-9185397.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zaproponowane przez rząd zmiany podatkowe są umiarkowanie pozytywne, stanowią neutralny budżetowo krok w stronę bardziej progresywnego systemu podatkowego – ocenia członek Rady Fiskalnej Jacek Tomkiewicz. Rynek przyjmuje je ze spokojem; obawiano się bardziej radykalnych ruchów. Ryzykiem pozostaje ew",
+      "pubDate": "Fri, 21 Aug 2026 10:12:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/1/72a0dc5a691b76-948-568-0-90-2592-1555.jpg",
-      "dateISO": "2026-08-21T07:08:00.000Z",
+      "image": "http://galeria.bankier.pl/p/8/b/c8b1170281c3b5-948-568-15-7-3056-1833.jpg",
+      "dateISO": "2026-08-21T09:12:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Rynek mieszkaniowy odbija? Deweloperzy z najlepszym lipcem od pięciu lat",
+      "link": "https://www.bankier.pl/wiadomosc/Rynek-mieszkaniowy-odbija-Deweloperzy-z-najlepszym-lipcem-od-pieciu-lat-9185399.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Firmy deweloperskie odnotowały najlepszy lipiec pod względem mieszkań oddanych do użytkowania od pięciu lat, przekazując ponad 12 tysięcy lokali - podał Otodom w komunikacie prasowym.",
+      "pubDate": "Fri, 21 Aug 2026 10:04:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/3/3/c1620453bb53a9-948-568-0-73-1732-1039.jpg",
+      "dateISO": "2026-08-21T09:04:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "NFZ zmieni finansowanie szpitali? Resort zdrowia proponuje nowe wskaźniki",
+      "link": "https://www.bankier.pl/wiadomosc/NFZ-zmieni-finansowanie-szpitali-Resort-zdrowia-proponuje-nowe-wskazniki-9185398.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ministerstwo Zdrowia chce wprowadzić trzy nowe wskaźniki jakości w ochronie zdrowia, które mają dotyczyć wydatków na wynagrodzenia. Projekt rozporządzenia w tej sprawie skierowano do konsultacji publicznych. Na wysokość finansowania z NFZ wskaźniki mają mieć wpływ w przyszłym roku.",
+      "pubDate": "Fri, 21 Aug 2026 10:03:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/b/e0e99846d7869d-948-568-216-129-1377-826.jpg",
+      "dateISO": "2026-08-21T09:03:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Firmy ostrożne z inwestycjami. Wysokie koszty największą barierą",
+      "link": "https://www.bankier.pl/wiadomosc/Firmy-hamuja-z-inwestycjami-Wysokie-koszty-najwieksza-bariera-9185392.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Większość przedsiębiorstw w Polsce planuje w 2026 r. utrzymać nakłady inwestycyjne na poziomie zbliżonym do ubiegłorocznego, a najważniejszą barierą dla inwestycji pozostają wysokie koszty ich realizacji - wynika z opublikowanego w piątek badania koniunktury gospodarczej Głównego Urzędu Statystyczne",
+      "pubDate": "Fri, 21 Aug 2026 09:56:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/1/2278312df9b7b4-948-568-30-22-2970-1781.jpg",
+      "dateISO": "2026-08-21T08:56:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Skandal z raportem „Polaków portret własny”. Rząd zapowiada wyjaśnienia",
+      "link": "https://www.bankier.pl/wiadomosc/Skandal-z-raportem-Polakow-portret-wlasny-Rzad-zapowiada-wyjasnienia-9185387.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wszystkie okoliczności powstania raportu „Polaków portret własny” zostaną wyjaśnione - zapowiedział wiceminister cyfryzacji Dariusz Standerski, odnosząc się do dokumentu, który w czwartek był krytykowany m.in. z powodu wykorzystania sztucznej inteligencji przez jego autorkę - dr hab. Barbarę Mróz-Go",
+      "pubDate": "Fri, 21 Aug 2026 09:55:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/2/01096e8d6a271d-948-568-61-38-3010-1806.jpg",
+      "dateISO": "2026-08-21T08:55:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Strajk kontrolerów lotów w Norwegii. W niedzielę zamkną lotnisko w Oslo",
+      "link": "https://www.bankier.pl/wiadomosc/Strajk-kontrolerow-lotow-w-Norwegii-W-niedziele-zamkna-lotnisko-w-Oslo-9185389.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Kontrolerzy ruchu lotniczego w Norwegii rozpoczęli w piątek rano strajk, który objął lotniska Oslo-Gardermoen, Bergen-Flesland i port lotniczy w Stavanger oraz centrum kontroli ruchu w Roeyken. Strajkujący żądają wyższych pensji i lepszych warunków pracy.",
+      "pubDate": "Fri, 21 Aug 2026 09:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/7/b0bf6d7172efd6-948-568-0-0-4000-2399.jpg",
+      "dateISO": "2026-08-21T08:50:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Osiem z 15 pomp zakwestionowanych. UOKiK wskazuje na braki i ryzyko pożaru",
+      "link": "https://www.bankier.pl/wiadomosc/Osiem-z-15-pomp-zakwestionowanych-UOKiK-wskazuje-na-braki-i-ryzyko-pozaru-9185379.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Inspekcja Handlowa skontrolowała 15 modeli pomp do wody czystej i brudnej; nieprawidłowości wykryto w ośmiu z nich; w dwóch przypadkach wady stwarzały ryzyko pożaru - poinformował w piątek Urząd Ochrony Konkurencji i Konsumentów (UOKiK).",
+      "pubDate": "Fri, 21 Aug 2026 09:47:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/f/657063338903ea-948-568-0-276-4608-2764.jpg",
+      "dateISO": "2026-08-21T08:47:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Wyższy CIT uderzy w zyski energetyki. Analitycy szacują skalę spadków",
+      "link": "https://www.bankier.pl/wiadomosc/Erste-Group-szacuje-negatywny-wplyw-podwyzki-CIT-na-zyski-firm-energetycznych-na-5-14-proc-9185378.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Analitycy Erste Group szacują, że zaproponowana w czwartek przez rząd tymczasowa podwyżka CIT dla dużych firm z sektora energetycznego, paliwowego i gazowego może oznaczać spadek ich zysków w latach 2027-2029 odpowiednio o 14, 9 i 5 proc.",
+      "pubDate": "Fri, 21 Aug 2026 09:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/4/e/a6c13d1d2de57a-948-568-0-62-1920-1151.jpg",
+      "dateISO": "2026-08-21T08:36:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "DM BOŚ ocenia wyniki kwartalne Benefit Systems lekko pozytywnie",
+      "link": "https://www.bankier.pl/wiadomosc/DM-BOS-ocenia-wyniki-kwartalne-Benefit-Systems-lekko-pozytywnie-opinia-9185377.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Analitycy DM BOŚ oceniają wyniki kwartalne Benefit Systems jako nieco pozytywne i wskazują na zdrowe trendy w sprzedaży i na silne generowanie gotówki przez spółkę.",
+      "pubDate": "Fri, 21 Aug 2026 09:34:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/2/f/578570740f417d-945-560-0-124-1920-1151.jpg",
+      "dateISO": "2026-08-21T08:34:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Wyniki Dino Polska za II kw. zgodne z oczekiwaniami",
+      "link": "https://www.bankier.pl/wiadomosc/Wyniki-Dino-Polska-za-II-kw-zgodne-z-oczekiwaniami-opinia-9185374.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Grupa Dino przedstawiła wyniki za drugi kwartał, które okazały się zbliżone do oczekiwań. Analitycy oceniają, że reakcja rynku może być neutralna. Ich zdaniem słabe dane za II kwartał zostały już uwzględnione w wycenie rynkowej, a uwaga inwestorów powinna teraz skupić się na poprawie wyników od III ",
+      "pubDate": "Fri, 21 Aug 2026 09:32:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/2/a/064acf59f84583-948-567-0-52-1000-599.jpg",
+      "dateISO": "2026-08-21T08:32:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Dolar najtańszy od miesięcy, złoty zyskuje. Ruch Waszyngtonu wpłynął na waluty",
+      "link": "https://www.bankier.pl/wiadomosc/Dolar-najtanszy-od-miesiecy-zloty-zyskuje-Ruch-Waszyngtonu-wplynal-na-waluty-9185360.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W piątek rano kontynuacja globalnej wyprzedaży amerykańskiej waluty zepchnęła kurs USD/PLN poniżej granicy 3,69 zł, wyznaczając nowe kilkumiesięczne minima. Złoty utrzymywał dobrą formę z czwartku, a notowania pozostałych walut wykazywały niewielką zmienność w oczekiwaniu na wstępne odczyty wskaźnik",
+      "pubDate": "Fri, 21 Aug 2026 09:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/1/baa30289b7749b-945-560-25-95-1706-1023.jpg",
+      "dateISO": "2026-08-21T08:30:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Cena miedzi na LME rośnie. Obligacje USA w centrum uwagi",
+      "link": "https://www.bankier.pl/wiadomosc/Cena-miedzi-na-LME-rosnie-Obligacje-USA-w-centrum-uwagi-9185373.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Cena miedzi w dostawach 3-miesięcznych na Londyńskiej Giełdzie Metali (LME) rośnie o 0,9 proc. do 14 161 USD za tonę. Inwestorów niepokoją ostatnie wiadomości nt. obligacji USA.",
+      "pubDate": "Fri, 21 Aug 2026 09:27:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/e/b/4cf343bc075f92-948-568-0-169-2506-1503.jpg",
+      "dateISO": "2026-08-21T08:27:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Kurs Dino rośnie o 5,5 proc. WIG20 w górę o 1 proc.",
+      "link": "https://www.bankier.pl/wiadomosc/Kurs-Dino-rosnie-o-5-5-proc-przy-zwyzce-WIG20-o-1-proc-9185371.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Kurs akcji Dino rośnie o 5,5 proc. do 34,06 zł. Indeks WIG20 zwyżkuje o 1 proc.",
+      "pubDate": "Fri, 21 Aug 2026 09:24:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/e/a/c8b8151fc98085-948-568-0-9-1923-1154.jpg",
+      "dateISO": "2026-08-21T08:24:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "MLP Group planuje w 2 kolejnych kw. oddać do użytkowania ok. 200 tys. mkw. nowej powierzchni najmu",
+      "link": "https://www.bankier.pl/wiadomosc/MLP-Group-planuje-w-2-kolejnych-kw-oddac-do-uzytkowania-ok-200-tys-mkw-nowej-powierzchni-najmu-9185372.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "MLP Group planuje w dwóch kolejnych kwartałach oddać do użytkowania ok. 200 tys. mkw. nowej powierzchni najmu - podała spółka w komunikacie prasowym. Wskazano, że spółka oczekuje dalszego wysokiego jednocyfrowego wzrostu zarówno stawek czynszów, jak i rynkowej wartości czynszu ERV.",
+      "pubDate": "Fri, 21 Aug 2026 09:24:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/e/8/bec068af7bec25-thumb-1000.jpg",
+      "dateISO": "2026-08-21T08:24:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Optymistyczne dane z rynku pracy podbijają wskaźnik dobrobytu. Jest jednak zagrożenie",
+      "link": "https://businessinsider.com.pl/gospodarka/ekonomisci-biec-analizuja-wzrost-wskaznika-dobrobytu-zatrudnienie-w-centrum-uwagi/06njxnx",
+      "description": "Pierwszy w tym roku miesięczny wzrost zatrudnienia w dużych firmach oraz zaskakujące przyśpieszenie wzrostu wynagrodzeń podbiło wskaźnik dobrobytu, obliczany przez BIEC. Negatywny wpływ ma jednak inflacja.",
+      "pubDate": "Fri, 21 Aug 2026 08:19:44 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/sgwk9kpTURBXy85OTNkY2Y4OWMzYjYwYTQ5ZTI0N2VjY2ZlZGQ2NDNhOS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-21T08:19:44.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Ukraina ma zabiegać o względy Muska. Chodzi o Starlinki",
+      "link": "https://businessinsider.com.pl/wiadomosci/ukraina-prosi-elona-muska-o-zgode-na-uzycie-starlinka-do-atakow-dronami/vbww0dq",
+      "description": "Ukraina zwróciła się do właściciela SpaceX o rozszerzenie funkcjonalności satelitarnej sieci Starlink. Chodzi o możliwość wykorzystania systemu w dronach uderzających w rosyjskie stanowiska wyrzutni rakiet balistycznych. Powodem jest kurczący się arsenał środków obrony przeciwlotniczej.",
+      "pubDate": "Fri, 21 Aug 2026 08:00:06 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/j95k9kpTURBXy9hM2I4ZDFjZjFiM2MxNTg5YWExZTc2OTNjMzE5NmU1NS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-21T08:00:06.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Masowe przekształcanie śmieciówek w etaty? PIP prześwietla kolejne branże",
+      "link": "https://www.bankier.pl/wiadomosc/B2B-i-zlecenia-pod-lupa-PIP-Te-przypadki-moga-oznaczac-etat-9185354.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Od 8 lipca Państwowa Inspekcja Pracy ma nowe uprawnienia, które pozwalają inspektorom przekształcać umowy cywilnoprawne, w tym kontrakty B2B i umowy zlecenia, w umowy o pracę. Pierwsze interpretacje pokazują, że nie liczy się sama nazwa umowy, ale przede wszystkim sposób, w jaki praca jest faktyczni",
+      "pubDate": "Fri, 21 Aug 2026 09:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/6/f7579bdfc4cfd0-948-568-110-10-3766-2260.jpg",
+      "dateISO": "2026-08-21T08:00:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Upały uderzają w zbiory. IGC obniża prognozę produkcji zbóż",
+      "link": "https://www.bankier.pl/wiadomosc/Upaly-uderzaja-w-europejskie-zbiory-IGC-obniza-prognoze-produkcji-zboz-9185336.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Międzynarodowa Rada Zbożowa (IGC) obniżyła prognozę światowej produkcji zbóż w sezonie 2026/27 o 5 mln ton, do 2,416 mld ton. Korekta wynika głównie z pogorszenia perspektyw plonów w Europie, gdzie utrzymujące się upały skłoniły analityków do drugiego z rzędu obniżenia prognoz dla UE.",
+      "pubDate": "Fri, 21 Aug 2026 09:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/4/f19d346daa29c8-948-568-130-0-3750-2249.jpg",
+      "dateISO": "2026-08-21T08:00:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Inwestowanie z AI daje przewagi, ale są też pułapki. Porównujemy zalety i wady",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/inwestowanie-na-gieldzie-z-ai-przewagi-i-pulapki-zalety-i-wady/vrlpgxc",
+      "description": "Sztuczna inteligencja błyskawicznie zmienia większość dziedzin życia, od sposobu wyszukiwania informacji po organizację pracy. Jej rozwój coraz mocniej oddziałuje również na inwestowanie na giełdzie, dając dostęp do narzędzi, które jeszcze niedawno były zarezerwowane głównie dla największych instytu",
+      "pubDate": "Fri, 21 Aug 2026 07:56:19 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/blYk9kpTURBXy8zMTJjOGE0OWExNzA5NmU2MTIzNGQ2NmVjNjgyZTBkNC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-21T07:56:19.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Kolejny awans Polski. Minister finansów zabrał głos",
+      "link": "https://businessinsider.com.pl/finanse/handel/kolejny-awans-polski-minister-finansow-zabral-glos/1rddmwk",
+      "description": "Polska gospodarka i rynek kapitałowy zyskują kolejny ważny sygnał uznania na świecie. S&P Dow Jones Indices uznał, że polski rynek spełnia kryteria stawiane rynkom rozwiniętym. Sprawę skomentował minister finansów Andrzej Domański.",
+      "pubDate": "Fri, 21 Aug 2026 07:48:14 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/y5Nk9kpTURBXy9kZTM1MmJlZDg1YTViZDQxMzZiYTRlM2Q0NGJlZDE3NS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-21T07:48:14.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Katastrofa na Alasce. Samolot rozbił się w pobliżu wojskowego radaru",
+      "link": "https://www.bankier.pl/wiadomosc/Katastrofa-na-Alasce-Samolot-rozbil-sie-w-poblizu-wojskowego-radaru-9185352.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Osiem osób zginęło wskutek rozbicia się samolotu czarterowego w pobliżu wojskowej instalacji radarowej w zachodniej części Alaski, na północnym zachodzie USA - poinformowało lokalne dowództwo sił zbrojnych USA, na które w piątek powołała się agencja Reutera.",
+      "pubDate": "Fri, 21 Aug 2026 08:43:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/8/4716834f2f307d-948-568-0-189-2813-1687.jpg",
+      "dateISO": "2026-08-21T07:43:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Tak nowy pomysł Donalda Tuska o podwyżce podatku wpłynął na GPW",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/podwyzka-podatkow-dla-orlenu-i-pge-rynek-reaguje-ostroznie/nyp58k8",
+      "description": "Pierwsza reakcja rynku na planowaną podwyżkę podatków dla firm energetycznych i paliwowych była umiarkowana. Notowania Orlenu i PGE oraz innych spółek z branży zachowywały się w piątek na otwarciu nieco słabiej od głównych indeksów.",
+      "pubDate": "Fri, 21 Aug 2026 07:24:10 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/kGPk9kpTURBXy82MmUyZTIyMWQ1NmU4YzNhMjE0Yjk1OWZlMWJmMDYyNC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-21T07:24:10.000Z",
       "dateFormatted": "21 sierpnia 2026"
     },
     {
@@ -109,18 +349,6 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
-      "title": "Rząd bierze się za budżet na 2027 rok. W tle rewolucja podatkowa",
-      "link": "https://www.bankier.pl/wiadomosc/Rzad-bierze-sie-za-budzet-na-2027-rok-W-tle-rewolucja-podatkowa-9185301.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W piątek odbędzie się nieformalne posiedzenie rządu poświęcone pracom nad budżetem państwa na 2027 r.; a tydzień później - 28 sierpnia - kolejne, kiedy rząd ma podjąć decyzję w tej sprawie - wynika z zapowiedzi premiera Donalda Tuska.",
-      "pubDate": "Fri, 21 Aug 2026 07:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/9/d3802fd8645e71-948-568-465-292-1454-872.jpg",
-      "dateISO": "2026-08-21T06:40:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
       "title": "Polska awansuje do grona rynków rozwiniętych. S&P DJI zmienia klasyfikację",
       "link": "https://www.bankier.pl/wiadomosc/Polska-awansuje-do-grona-rynkow-rozwinietych-S-P-DJI-zmienia-klasyfikacje-9185299.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "S&P Dow Jones Indices (S&P DJI), globalny dostawca indeksów giełdowych i wskaźników rynkowych, zdecydował o zmianie klasyfikacji Polski z rynku wschodzącego na rynek rozwinięty - podał S&P DJI w komunikacie. Zmiana klasyfikacji zostanie wprowadzona wraz z aktualizacją indeksów we wrześniu 2027 r.",
@@ -145,25 +373,13 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
-      "title": "Premierzy krajów nordyckich zacieśniają współpracę w sprawie dronów",
-      "link": "https://www.bankier.pl/wiadomosc/Premierzy-krajow-nordyckich-zaciesniaja-wspolprace-w-sprawie-dronow-9185239.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Premierzy krajów nordyckich rozmawiali w czwartek w Kopenhadze o zacieśnieniu współpracy w sprawie zakupu systemów dronowych, a także ochronie dzieci przed szkodliwością środowiska cyfrowego.",
-      "pubDate": "Fri, 21 Aug 2026 07:31:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/3/a3cfac22343ce5-948-568-8-137-3431-2058.jpg",
-      "dateISO": "2026-08-21T06:31:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
       "title": "Alarm na norweskim szelfie. Wydobycie ropy i gazu może spaść niemal do zera",
-      "link": "https://www.bankier.pl/wiadomosc/Alarm-na-norweskim-szelfie-Wydobycie-ropy-i-gazu-moze-spasc-niemal-do-zera-9185231.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Alarm-na-norweskim-szelfie-Wydobycie-ropy-i-gazu-moze-spasc-niemal-do-zera-9185231.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W 2050 roku norweskie wydobycie ropy naftowej i gazu ziemnego może spaść niemal do zera – ocenił w opublikowanym w czwartek raporcie zarządzający zasobami Urząd ds. Szelfu. Bez odkrycia nowych dużych złóż gwałtowny spadek produkcji może rozpocząć się już po 2030 roku.",
       "pubDate": "Fri, 21 Aug 2026 07:30:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/9/7/613012a503e7bd-948-568-0-124-1920-1151.jpg",
       "dateISO": "2026-08-21T06:30:00.000Z",
       "dateFormatted": "21 sierpnia 2026"
@@ -229,25 +445,13 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
-      "title": "To nie koniec zmian w CIT. Biznes grzmi po zapowiedziach premiera",
-      "link": "https://www.bankier.pl/wiadomosc/To-nie-koniec-zmian-w-CIT-Biznes-grzmi-po-zapowiedziach-premiera-9185263.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Kolejne zmiany w podatku dla firm rząd ma ogłosić jeszcze w tym tygodniu – wynika z ustaleń „Rzeczpospolitej”. Przedsiębiorcy ostrzegają: podwyżka CIT ograniczy rozwój, inwestycje i innowacje.",
-      "pubDate": "Fri, 21 Aug 2026 07:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/1/a7068b7238729b-948-568-0-67-3000-1799.jpg",
-      "dateISO": "2026-08-21T06:18:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
       "title": "Budimex zwiększył przychody i zysk brutto. Portfel zamówień sięga 17,9 mld zł",
-      "link": "https://www.bankier.pl/wiadomosc/Budimex-mial-w-II-kw-163-4-mln-zl-zysku-netto-j-d-zgodnie-z-szacunkami-9185324.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Budimex-mial-w-II-kw-163-4-mln-zl-zysku-netto-j-d-zgodnie-z-szacunkami-9185324.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Grupa Budimex miała w II kwartale 2026 roku 204,9 mln zł zysku operacyjnego i 163,4 mln zł zysku netto j.d. - podała spółka w raporcie półrocznym. Wyniki są zgodne z wcześniejszymi szacunkami.",
       "pubDate": "Fri, 21 Aug 2026 07:16:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/0/6d03ef0f3e11ef-948-568-162-69-4226-2536.jpg",
       "dateISO": "2026-08-21T06:16:00.000Z",
       "dateFormatted": "21 sierpnia 2026"
@@ -334,18 +538,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/VA6k9kpTURBXy83M2UyOTdkYTk1MTFmOWE4OTIzZGExZGQyNmZkODE5Ny5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-08-21T05:57:32.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Wyniki Sanok Rubber Company w II kw. 2026 roku vs. konsensus PAP (tabela)",
-      "link": "https://www.bankier.pl/wiadomosc/Wyniki-Sanok-Rubber-Company-w-II-kw-2026-roku-vs-konsensus-PAP-tabela-9185309.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Poniżej przedstawiamy wyniki Sanok Rubber Company w drugim kwartale 2026 roku i ich odniesienie do konsensusu PAP Biznes.",
-      "pubDate": "Fri, 21 Aug 2026 06:38:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": null,
-      "dateISO": "2026-08-21T05:38:00.000Z",
       "dateFormatted": "21 sierpnia 2026"
     },
     {
@@ -505,25 +697,13 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
-      "title": "ETF-y na GPW biją rekordy. Czy naprawdę zmieniają sposób, w jaki Polacy inwestują?",
-      "link": "https://www.bankier.pl/wiadomosc/ETF-y-na-GPW-bija-rekordy-Czy-naprawde-zmieniaja-sposob-w-jaki-Polacy-inwestuja-9184828.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "W pierwszym półroczu 2026 r. obroty ETF-ami, ETC i ETN na warszawskiej giełdzie sięgnęły 3,44 mld zł i były wyższe niż w całym 2025 r. Rośnie też liczba dostępnych strategii. Michał Zaleski z GPW wyjaśnia w rozmowie Bankier TV, co ta zmiana oznacza dla inwestorów i gdzie za prostotą ETF-ów kryją się",
-      "pubDate": "Fri, 21 Aug 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/5/5/8b95c1deac1cdb-948-568-214-51-1065-639.jpg",
-      "dateISO": "2026-08-21T05:00:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
       "title": "ETF-y wchodzą na nowy poziom. Jak zbudować portfel na lata?",
-      "link": "https://www.bankier.pl/wiadomosc/ETF-y-wchodza-na-nowy-poziom-Jak-zbudowac-portfel-na-lata-9184999.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/ETF-y-wchodza-na-nowy-poziom-Jak-zbudowac-portfel-na-lata-9184999.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Jeszcze kilka lat temu polski inwestor, który chciał wykorzystać ETF-y do budowy swojego portfela, miał do wyboru zaledwie kilka możliwości. Dziś na warszawskiej giełdzie systematycznie pojawiają się nowe fundusze, rośnie liczba dostępnych klas aktywów, a ETF-y coraz mocniej przebijają się do świado",
       "pubDate": "Fri, 21 Aug 2026 06:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/a/fa2035a27bcaad-948-568-0-43-1696-1017.jpg",
       "dateISO": "2026-08-21T05:00:00.000Z",
       "dateFormatted": "21 sierpnia 2026"
@@ -565,6 +745,18 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
+      "title": "ETF-y na GPW biją rekordy. Czy naprawdę zmieniają sposób, w jaki Polacy inwestują?",
+      "link": "https://www.bankier.pl/wiadomosc/ETF-y-na-GPW-bija-rekordy-Czy-naprawde-zmieniaja-sposob-w-jaki-Polacy-inwestuja-9184828.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W pierwszym półroczu 2026 r. obroty ETF-ami, ETC i ETN na warszawskiej giełdzie sięgnęły 3,44 mld zł i były wyższe niż w całym 2025 r. Rośnie też liczba dostępnych strategii. Michał Zaleski z GPW wyjaśnia w rozmowie Bankier TV, co ta zmiana oznacza dla inwestorów i gdzie za prostotą ETF-ów kryją się",
+      "pubDate": "Fri, 21 Aug 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/5/8b95c1deac1cdb-948-568-214-51-1065-639.jpg",
+      "dateISO": "2026-08-21T05:00:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
       "title": "Ormuz, Ukraina i rafinerie. Pięć czynników podbija ceny paliw",
       "link": "https://www.bankier.pl/wiadomosc/Ormuz-Ukraina-i-rafinerie-Piec-czynnikow-podbija-ceny-paliw-9185104.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Jest szereg czynników destabilizujących sytuację na rynku ropy, m.in. wojna w Ukrainie i konflikt w Zatoce Perskiej; przy takiej niepewności na ceny wpływa nawet przedstawienie przez Trumpa mapy z Cieśniną Ormuz jako częścią terytorium USA - przyznaje Agata Łoskot-Strachota z OSW.",
@@ -574,42 +766,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/2/a/1bf0d970ad0339-948-568-108-346-4219-2531.jpg",
       "dateISO": "2026-08-21T05:00:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "PKP ofiarą własnego sukcesu. Rekordowa popularność pociągów uwypukla problemy",
-      "link": "https://businessinsider.com.pl/firmy/polska-kolej-pod-presja-rekordowej-frekwencji-pasazerowie-narzekaja/1h53ef8",
-      "description": "Polska kolej mierzy się z konsekwencjami rosnącej popularności podróży pociągiem. Coraz większa liczba pasażerów w połączeniu z ekstremalnymi temperaturami odsłania słabości systemu — brakuje taboru, a punktualność systematycznie się pogarsza.",
-      "pubDate": "Fri, 21 Aug 2026 04:55:39 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/wYGk9kpTURBXy81N2FmMjQ1MDQ4YzM3MTg5ZDcyYmE1OTQ4NTJiNWJjZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-21T04:55:39.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Były poseł PSL winny wszystkich zarzutów. Chodzi o miliony ze SKOK Wołomin",
-      "link": "https://businessinsider.com.pl/prawo/wyrok-dla-wladyslawa-serafina-szesc-lat-wiezienia-za-afere-skok-wolomin/w0e01xq",
-      "description": "Wieloletni prezes Krajowego Związku Rolników, Kółek i Organizacji Rolniczych ma poważny problem. Właśnie zapadł wyrok bezwzględnego więzienia w jego sprawie.",
-      "pubDate": "Fri, 21 Aug 2026 04:49:10 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/l8Vk9kpTURBXy9jMmUwM2NhZTliYzE4MTIzMGYxYjMzNTdlOTZiYmFmZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-21T04:49:10.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Rząd ma szykować kolejne zmiany w CIT. Donald Tusk czeka na wyliczenia",
-      "link": "https://businessinsider.com.pl/prawo/podatki/donald-tusk-zapowiada-rewolucje-w-cit-przedsiebiorcy-bija-na-alarm/frysk0f",
-      "description": "Rząd szykuje w tym tygodniu kolejny pakiet zmian w podatku dochodowym od osób prawnych. Przedsiębiorcy alarmują, że podwyżka obciążeń uderzy w tempo rozwoju i plany inwestycyjne polskich firm.",
-      "pubDate": "Fri, 21 Aug 2026 04:35:10 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Twzk9kpTURBXy83NGY5NWFkOTRjYjhiNzhjOGQ0Nzc3ZThlZjA1M2E3Mi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-21T04:35:10.000Z",
       "dateFormatted": "21 sierpnia 2026"
     },
     {
@@ -625,30 +781,6 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
-      "title": "Efekt CPN 2.0. Wiemy, jak zmieniły się stawki na stacjach",
-      "link": "https://businessinsider.com.pl/poradnik-finansowy/tak-zmienily-sie-stawki-po-wprowadzeniu-cpn-20/j6vtdtt",
-      "description": "Na koniec wakacji rząd Donalda Tuska postanowił przywrócić program CPN, choć tym razem w trochę uboższej wersji. Wiemy, jak zmieniły się stawki. Benzyna 95 znów kosztuje poniżej 7 zł za litr, ale jest dużo drożej niż np. w czerwcu.",
-      "pubDate": "Fri, 21 Aug 2026 04:10:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/4_lk9kpTURBXy82ZjJjNmEyNzk2ZTRhMTNlZThmZjQ0OWZjOWM4NWQ0Ny5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-21T04:10:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Zlecenie dla studenta. Niepokojące stanowisko PIP",
-      "link": "https://businessinsider.com.pl/prawo/praca/reforma-pip-uderza-w-umowy-studenckie-nowa-interpretacja-wywoluje-niepokoj/dl1z4ez",
-      "description": "Reforma PIP przynosi wymierne efekty. Inspektorzy wydali ponad 100 decyzji o przekształceniu umów. Główny inspektor pracy wydał też niepokojącą interpretację dotyczącą umów-zleceń dla studentów. Tej grupy dotyczy jedno z największych ryzyk, jakie niosą obecne uprawnienia inspektorów PIP.",
-      "pubDate": "Fri, 21 Aug 2026 04:06:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/k-6k9kpTURBXy9lNTE0YmZhZmI0YWI5OTE5MzM5ZjQ5MWVjZDA3YzMwMi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-21T04:06:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
       "title": "Cardano 10% w górę, na rynku byka",
       "link": "https://pl.investing.com/news/cryptocurrency-news/cardano-10-w-gore-na-rynku-byka-1541614",
       "description": "",
@@ -659,18 +791,6 @@
       "image": "https://content-media.investing.com/news/LYNXMPEDA611J_M.jpg",
       "dateISO": "2026-08-21T00:55:05.000Z",
       "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "USA nakładają nowe sankcje na Kubę. Na liście ministerstwo i 9 instytucji",
-      "link": "https://www.bankier.pl/wiadomosc/USA-nakladaja-nowe-sankcje-na-Kube-Na-liscie-ministerstwo-i-9-instytucji-9185252.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sekretarz stanu USA Marco Rubio poinformował w czwartek o nałożeniu nowych sankcji na Kubę. Ograniczeniami objęto dziewięć instytucji, w tym kubańskie ministerstwo budownictwa, oraz trzy osoby, zarzucając im działanie przeciwko Stanom Zjednoczonym i wspieranie reżimu w Hawanie.",
-      "pubDate": "Thu, 20 Aug 2026 22:32:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/1/c11f871c0d7628-948-568-100-100-3900-2339.jpg",
-      "dateISO": "2026-08-20T21:32:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
     },
     {
       "title": "Powrót spadków na Wall Street. Obawy o rentowności długu",
@@ -718,66 +838,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/4/6a99aac663def4-948-568-0-110-4000-2399.jpg",
       "dateISO": "2026-08-20T20:20:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "MSZ Iranu: USA stosują terroryzm ekonomiczny",
-      "link": "https://www.bankier.pl/wiadomosc/MSZ-Iranu-USA-stosuja-terroryzm-ekonomiczny-9185224.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Irańskie ministerstwo spraw zagranicznych oskarżyło w czwartek USA o „terroryzm ekonomiczny”, podkreślając, że sankcje tego kraju uderzają w zwykłych Irańczyków.. Prezydent Stanów Zjednoczonych Donald Trump ogłosił w środę objęcie Iranu izolacją ekonomiczną i „wojną gospodarczą”.",
-      "pubDate": "Thu, 20 Aug 2026 20:39:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/c/cf5f76e4d53025-948-568-0-10-4000-2399.jpg",
-      "dateISO": "2026-08-20T19:39:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Domański zapowiada kolejne zmiany dla podatników",
-      "link": "https://www.bankier.pl/wiadomosc/Domanski-zapowiada-kolejne-zmiany-dla-podatnikow-9185220.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Oprócz przedstawionych w bieżącym tygodniu planów zmian w systemie podatkowym Ministerstwo Finansów pracuje nad innymi rozwiązaniami dla podatników – poinformował w TVP Info minister finansów i gospodarki Andrzej Domański.",
-      "pubDate": "Thu, 20 Aug 2026 20:26:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/e/114862394f9516-948-568-0-0-4752-2851.jpg",
-      "dateISO": "2026-08-20T19:26:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Nowe zasady oceniania zachowania i prac domowych. Zmiany od 1 września",
-      "link": "https://www.bankier.pl/wiadomosc/Nowe-zasady-oceniania-zachowania-i-prac-domowych-Zmiany-od-1-wrzesnia-9185209.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zmiany w zadawaniu pisemnych i praktyczno-technicznych prac domowych w podstawówce oraz nowe brzmienie obszarów uwzględnianych przy ustalaniu śródrocznej i rocznej oceny klasyfikacyjnej zachowania - zakłada nowela rozporządzenia podpisana w czwartek przez ministrę edukacji Barbarę Nowacką.",
-      "pubDate": "Thu, 20 Aug 2026 19:49:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/0/a9514549353f6a-948-567-0-55-1000-599.jpg",
-      "dateISO": "2026-08-20T18:49:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Raport \"Polaków portret własny\" wywołał burzę. Autorka przyznaje: wykorzystywałam AI",
-      "link": "https://www.bankier.pl/wiadomosc/Raport-Polakow-portret-wlasny-wywolal-burze-Autorka-przyznaje-wykorzystywalam-AI-9185203.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Raport „Polaków portret własny” Barbary Mróz-Gorgoń wywołał w czwartek krytykę z powodu błędów i wykorzystania AI. Autorka zaznaczyła, że był wewnętrznie wykorzystywany w think tanku i przyznała, że nie powinien trafić do sieci. MSiT zaprzeczyło, by raport był objęty umową z resortem.",
-      "pubDate": "Thu, 20 Aug 2026 19:21:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/5/ae206775971736-948-568-0-680-1991-1195.jpg",
-      "dateISO": "2026-08-20T18:21:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Dino Polska z lepszym zyskiem od prognoz. Sieć ma już 3176 sklepów",
-      "link": "https://www.bankier.pl/wiadomosc/Dino-Polska-mialo-w-II-kw-400-1-mln-zl-zysku-netto-j-d-wobec-konsensusu-391-8-mln-zl-zysku-9185181.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zysk netto jednostki dominującej grupy Dino Polska wyniósł w drugim kwartale 2026 roku 400,1 mln zł wobec 397,5 mln zł zysku rok wcześniej - podała spółka w raporcie. Konsensus PAP Biznes zakładał 391,8 mln zł zysku netto.",
-      "pubDate": "Thu, 20 Aug 2026 18:28:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/8/aaff9011dcdeb5-948-568-33-85-1862-1117.jpg",
-      "dateISO": "2026-08-20T17:28:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
     {
@@ -865,18 +925,6 @@
       "dateFormatted": "20 sierpnia 2026"
     },
     {
-      "title": "Konta oszczędnościowe dla firm. Do 6,10% na start, ale wybór jest skromny",
-      "link": "https://www.bankier.pl/wiadomosc/Gdzie-ulokowac-firmowe-nadwyzki-Oferta-dla-biznesu-daleko-za-ta-dla-klienta-indywidualnego-9184379.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Podczas gdy klienci indywidualni przebierają w podwyższonych stawkach na kontach oszczędnościowych, na rynku dla biznesu banki są wyjątkowo powściągliwe w rozdawaniu profitów. Dedykowany rachunek lokacyjny dla firm to produkt deficytowy, a atrakcyjne promocje można policzyć na palcach jednej ręki.",
-      "pubDate": "Thu, 20 Aug 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/8/154159097c255f-948-568-43-143-2456-1473.jpg",
-      "dateISO": "2026-08-20T05:00:00.000Z",
-      "dateFormatted": "20 sierpnia 2026"
-    },
-    {
       "title": "EOS 11% w górę, podczas hossy",
       "link": "https://pl.investing.com/news/cryptocurrency-news/eos-11-w-gore-podczas-hossy-1539936",
       "description": "",
@@ -913,18 +961,6 @@
       "dateFormatted": "19 sierpnia 2026"
     },
     {
-      "title": "Podatkowy wiatr w żagle giełdy. Zainteresowanie budziły głównie banki",
-      "link": "https://www.bankier.pl/wiadomosc/Podatkowy-wiatr-w-zagle-gieldy-Zainteresowanie-budzily-glownie-banki-9184526.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Środowe sesja na warszawskiej giełdzie przyniosła wyraźne przełamanie słabszych nastrojów z początku tygodnia. Inwestorzy około południa ruszyli do kupowania akcji do czego przyczyniły się wieści z rządowej konferencji prasowej dotyczące zmian podatkowych utrwalone w kolejnych godzinach pozytywnymi ",
-      "pubDate": "Wed, 19 Aug 2026 17:22:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/b/7/86c555980b4d7f-948-568-185-35-1815-1088.jpg",
-      "dateISO": "2026-08-19T16:22:00.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
       "title": "150 zł na zakupy w Żabce. UniCredit ruszył z promocją dla nowych klientów",
       "link": "https://www.bankier.pl/wiadomosc/150-zl-na-zakupy-w-Zabce-UniCredit-ruszyl-z-promocja-dla-nowych-klientow-9184369.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Na rynku promocji bankowych pojawiła się nowa propozycja od UniCredit. W ramach akcji „Bonus na start – Żabka” nowi klienci mogą zdobyć trzy e-vouchery do popularnej sieci sklepów o łącznej wartości 150 zł. Prześwietlamy zapisy regulaminu i wyjaśniamy, jak krok po kroku zgarnąć nagrody.",
@@ -937,5 +973,5 @@
       "dateFormatted": "19 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-21T06:47:55.804Z"
+  "updatedAt": "2026-08-21T08:40:27.608Z"
 }
