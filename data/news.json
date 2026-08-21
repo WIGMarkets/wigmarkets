@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Cardano 10% w górę, na rynku byka",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/cardano-10-w-gore-na-rynku-byka-1541614",
+      "description": "",
+      "pubDate": "2026-08-21 00:55:05",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/LYNXMPEDA611J_M.jpg",
+      "dateISO": "2026-08-21T00:55:05.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
       "title": "XRP 13% w górę, na rynku byka",
       "link": "https://pl.investing.com/news/cryptocurrency-news/xrp-13-w-gore-na-rynku-byka-1541514",
       "description": "",
@@ -20,7 +32,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/2/2/cbeb06dd33a8d3-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/7/4/2ce22f1888d615-thumb-1000.jpg",
       "dateISO": "2026-08-20T20:06:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
     },
@@ -877,18 +889,6 @@
       "dateFormatted": "19 sierpnia 2026"
     },
     {
-      "title": "Kadra FTX unika kar w ugodzie z CFTC po upadku giełdy",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/kadra-ftx-unika-kar-w-ugodzie-z-cftc-po-upadku-gieldy-93CH-1539622",
-      "description": "",
-      "pubDate": "2026-08-19 16:11:20",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/Cryptocurrencies_800x533_L_1556528132.jpg",
-      "dateISO": "2026-08-19T16:11:20.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
       "title": "Moderna wraca ze szczepionką mRNA. Tym razem na raka, a akcje rosną o ponad 100 proc.",
       "link": "https://www.bankier.pl/wiadomosc/Moderna-wraca-ze-szczepionka-mRNA-Tym-razem-na-raka-a-akcje-rosna-o-ponad-100-proc-9184443.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Notowania Moderny wzrosły w handlu przedsesyjnym o ponad 106%. Koncern wraz z firmą Merck ogłosił sukces przełomowych badań klinicznych trzeciej fazy nad szczepionką mRNA przeciwko czerniakowi. To pierwszy przypadek w historii, gdy terapia genowa mRNA osiąga tak wysokie wskaźniki skuteczności w końc",
@@ -937,18 +937,6 @@
       "dateFormatted": "19 sierpnia 2026"
     },
     {
-      "title": "Buffett i co tygrysy lubią najbardziej. Wall Street poznało zmiany w portfelach",
-      "link": "https://www.bankier.pl/wiadomosc/Warren-Buffett-i-co-tygrysy-lubia-najbardziej-Wall-Street-poznalo-zmiany-w-portfelach-9183933.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Wehikuł inwestycyjny Warrena Buffetta coraz mocniej angażuje się w akcje Alphabet, czyli spółki macierzystej Google – wynika z najnowszego raportu 13f, jaki Berkshire Hathway złożyło w ubiegłym tygodniu do SEC. Poza portfelem legendarnego inwestora sprawdzamy jakie zmiany zaszył w funduszach z listy",
-      "pubDate": "Wed, 19 Aug 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/a/2/89ec503a04b832-948-569-15-7-1516-910.png",
-      "dateISO": "2026-08-19T05:00:00.000Z",
-      "dateFormatted": "19 sierpnia 2026"
-    },
-    {
       "title": "Giełda od kuchni. Kupiłeś akcje, ale kurs spadł przed rozliczeniem transakcji? Czy to coś zmienia?",
       "link": "https://www.bankier.pl/wiadomosc/Gielda-od-kuchni-Kupiles-akcje-ale-kurs-spadl-przed-rozliczeniem-transakcji-Czy-to-cos-zmienia-9183893.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Widok czerwonej świecy na wykresie tuż po kliknięciu “Kup” może zestresować początkującego inwestora, który usłyszał, że fizyczne przelewy gotówki i papierów w KDPW trwają dwa dni. W głowie pojawia się wątpliwość: czy giełda naliczy kwotę z momentu zlecenia, czy zaktualizuje ją po nowym kursie?",
@@ -959,7 +947,19 @@
       "image": "http://galeria.bankier.pl/p/e/d/9045260b7544de-948-568-0-0-948-568.jpg",
       "dateISO": "2026-08-19T05:00:00.000Z",
       "dateFormatted": "19 sierpnia 2026"
+    },
+    {
+      "title": "Buffett i co tygrysy lubią najbardziej. Wall Street poznało zmiany w portfelach",
+      "link": "https://www.bankier.pl/wiadomosc/Warren-Buffett-i-co-tygrysy-lubia-najbardziej-Wall-Street-poznalo-zmiany-w-portfelach-9183933.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Wehikuł inwestycyjny Warrena Buffetta coraz mocniej angażuje się w akcje Alphabet, czyli spółki macierzystej Google – wynika z najnowszego raportu 13f, jaki Berkshire Hathway złożyło w ubiegłym tygodniu do SEC. Poza portfelem legendarnego inwestora sprawdzamy jakie zmiany zaszył w funduszach z listy",
+      "pubDate": "Wed, 19 Aug 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/a/2/89ec503a04b832-948-569-15-7-1516-910.png",
+      "dateISO": "2026-08-19T05:00:00.000Z",
+      "dateFormatted": "19 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-20T22:27:34.579Z"
+  "updatedAt": "2026-08-21T01:19:02.203Z"
 }
