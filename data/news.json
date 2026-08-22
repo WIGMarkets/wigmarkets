@@ -1,6 +1,30 @@
 {
   "articles": [
     {
+      "title": "Cardano 11% w górę, podczas hossy",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/cardano-11-w-gore-podczas-hossy-1542908",
+      "description": "",
+      "pubDate": "2026-08-22 00:56:05",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/LYNXMPED09124_M.jpg",
+      "dateISO": "2026-08-22T00:56:05.000Z",
+      "dateFormatted": "22 sierpnia 2026"
+    },
+    {
+      "title": "Agencja Fitch opublikowała rating Polski. \"Osłabione zaufanie do władz\"",
+      "link": "https://businessinsider.com.pl/finanse/negatywna-perspektywa-ratingu-polski-w-fitch-rzad-i-prezydent-pod-ostrzalem/36blmc7",
+      "description": "Agencja Fitch Ratings potwierdziła w piątek wieczorem długoterminowy rating Polski w walucie obcej na poziomie \"A-\" z perspektywą negatywną — podała agencja w komunikacie. Negatywna perspektywa odzwierciedla w ocenie agencji m.in. brak wiarygodnego planu konsolidacji fiskalnej.",
+      "pubDate": "Fri, 21 Aug 2026 22:47:55 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/i_Ik9kpTURBXy80ZjUyZjczMDFiNTljNDQ0ODdmMzc3YTY4MWIxZWYwZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-21T22:47:55.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
       "title": "Litecoin 10% w górę, podczas hossy",
       "link": "https://pl.investing.com/news/cryptocurrency-news/litecoin-10-w-gore-podczas-hossy-1542872",
       "description": "",
@@ -589,18 +613,6 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
-      "title": "Polska Rada Biznesu po stronie Rafała Brzoski. \"Nie można zarabiać na oszustwie i uchylać się od odpowiedzialności\"",
-      "link": "https://businessinsider.com.pl/biznes/media/rafal-brzoska-kontra-meta-polska-rada-biznesu-zada-zmian-na-rynku-reklam/6n903qr",
-      "description": "Spór Rafała Brzoski z koncernem Meta przestaje być wyłącznie prywatną batalią przedsiębiorcy z właścicielem Facebooka i Instagrama. Polska Rada Biznesu opublikowała stanowisko, w którym jednoznacznie popiera postulaty dotyczące większej odpowiedzialności platform cyfrowych za publikowane reklamy wyk",
-      "pubDate": "Fri, 21 Aug 2026 12:06:38 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/b7ck9kpTURBXy9mYzIyM2VkYTdiYjhjYmYxMTlmZmE5NTk0ODBmNTllNS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-21T12:06:38.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
       "title": "Tarcza Wschód pochłonęła już 10 mld euro. MON zapowiada kolejne inwestycje",
       "link": "https://www.bankier.pl/wiadomosc/Tarcza-Wschod-pochlonela-juz-10-mld-euro-MON-zapowiada-kolejne-inwestycje-9185521.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Po dwóch latach programu Tarczy Wschód w wielu miejscach osiągana jest wstępna gotowość operacyjna – powiedział w piątek wicepremier, szef MON Władysław Kosiniak-Kamysz. Dodał, że na działania związane z zabezpieczaniem wschodniej granicy przeznaczono już ok 10 mld euro.",
@@ -899,19 +911,7 @@
       "image": "http://galeria.bankier.pl/p/1/c/d28191d550255f-948-568-312-276-973-584.jpg",
       "dateISO": "2026-08-20T09:13:00.000Z",
       "dateFormatted": "20 sierpnia 2026"
-    },
-    {
-      "title": "Akcje kryptowalutowe rosną po rekordowej likwidacji shortów za 2,7 mld $",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/akcje-kryptowalutowe-rosna-po-rekordowej-likwidacji-shortow-za-27-mld--1540313",
-      "description": "",
-      "pubDate": "2026-08-20 08:57:07",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/LYNXNPEC6413U_M.jpg",
-      "dateISO": "2026-08-20T08:57:07.000Z",
-      "dateFormatted": "20 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-21T22:25:07.734Z"
+  "updatedAt": "2026-08-22T01:15:02.773Z"
 }
