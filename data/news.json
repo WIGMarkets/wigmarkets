@@ -1,6 +1,30 @@
 {
   "articles": [
     {
+      "title": "Fitch ostrzega Polskę. Rating utrzymany, ale z negatywną perspektywą",
+      "link": "https://www.bankier.pl/wiadomosc/Fitch-ostrzega-Polske-Rating-utrzymany-ale-z-negatywna-perspektywa-9185796.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Agencja Fitch Ratings potwierdziła w piątek wieczorem długoterminowy rating Polski w walucie obcej na poziomie \"A-\" z perspektywą negatywną - podała agencja w komunikacie. Negatywna perspektywa odzwierciedla w ocenie agencji m.in. brak wiarygodnego planu konsolidacji fiskalnej",
+      "pubDate": "Sat, 22 Aug 2026 08:08:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/0/b6555239186c46-945-567-41-18-1418-851.jpg",
+      "dateISO": "2026-08-22T07:08:00.000Z",
+      "dateFormatted": "22 sierpnia 2026"
+    },
+    {
+      "title": "\"To jak spłacanie hipoteki kartą kredytową\". Czarne chmury nad amerykańskimi obligacjami i dolarem",
+      "link": "https://www.bankier.pl/wiadomosc/To-jak-splacanie-hipoteki-karta-kredytowa-Czarne-chmury-nad-amerykanskimi-obligacjami-i-dolarem-9185800.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Rynków finansowych nie przekonują wysiłki Departamentu Skarbu USA, który interwencjami próbuje powstrzymać wzrost rentowności obligacji. Nad dolarem zbierają się czarne chmury, a czołowi stratedzy inwestycyjni doradzają dywersyfikację kapitału poza granice Stanów Zjednoczonych.",
+      "pubDate": "Sat, 22 Aug 2026 07:57:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/0/b/108fc0a513f219-812-487-27-0-812-487.jpg",
+      "dateISO": "2026-08-22T06:57:00.000Z",
+      "dateFormatted": "22 sierpnia 2026"
+    },
+    {
       "title": "Rajd bitcoina, wynagrodzeń i największa wyprzedaż złota w XXI wieku",
       "link": "https://www.bankier.pl/wiadomosc/Rajd-bitcoina-wynagrodzen-i-najwieksza-wyprzedaz-zlota-w-XXI-wieku-9185409.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Ten tydzień przyniósł mieszany obraz gospodarki i rynków. Z jednej strony dane z Polski pokazują odporność rynku pracy i utrzymujący się wzrost aktywności gospodarczej, z drugiej firmy pozostają ostrożne z inwestycjami, a inflacja wciąż nie daje powodów do pełnego spokoju. Na światowych rynkach uwag",
@@ -37,18 +61,6 @@
       "dateFormatted": "22 sierpnia 2026"
     },
     {
-      "title": "Korea Północna ma więcej głowic, niż twierdzi Trump? Seul podaje szacunki",
-      "link": "https://www.bankier.pl/wiadomosc/Korea-Polnocna-ma-wiecej-glowic-niz-twierdzi-Trump-Seul-podaje-szacunki-9184720.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Minister obrony Korei Południowej An Gju Bak oświadczył w parlamencie, że reżim w Pjongjangu posiada od 80 do 120 głowic atomowych. To znacznie więcej, niż podał prezydent USA Donald Trump, który w środę powiedział, że Korea Północna posiada 57 ładunków jądrowych.",
-      "pubDate": "Sat, 22 Aug 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/b/7300507032db84-948-568-110-80-3240-1943.jpg",
-      "dateISO": "2026-08-22T05:00:00.000Z",
-      "dateFormatted": "22 sierpnia 2026"
-    },
-    {
       "title": "Polacy kupują coraz mniej piwa. Rynek kurczy się już ósmy rok z rzędu",
       "link": "https://www.bankier.pl/wiadomosc/Polacy-kupuja-coraz-mniej-piwa-Rynek-kurczy-sie-juz-osmy-rok-z-rzedu-9184990.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W pierwszym półroczu 2026 r. sprzedaż piwa alkoholowego spadła o 11,9 proc. rdr - podał Związek Pracodawców Przemysłu Piwowarskiego Browary Polskie w komunikacie prasowym. Wskazano, że rynek piwa spada nieprzerwanie ósmy rok.",
@@ -57,6 +69,18 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/4/f/532c2a1e0419f8-948-568-0-97-1777-1066.jpg",
+      "dateISO": "2026-08-22T05:00:00.000Z",
+      "dateFormatted": "22 sierpnia 2026"
+    },
+    {
+      "title": "Korea Północna ma więcej głowic, niż twierdzi Trump? Seul podaje szacunki",
+      "link": "https://www.bankier.pl/wiadomosc/Korea-Polnocna-ma-wiecej-glowic-niz-twierdzi-Trump-Seul-podaje-szacunki-9184720.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Minister obrony Korei Południowej An Gju Bak oświadczył w parlamencie, że reżim w Pjongjangu posiada od 80 do 120 głowic atomowych. To znacznie więcej, niż podał prezydent USA Donald Trump, który w środę powiedział, że Korea Północna posiada 57 ładunków jądrowych.",
+      "pubDate": "Sat, 22 Aug 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/b/7300507032db84-948-568-110-80-3240-1943.jpg",
       "dateISO": "2026-08-22T05:00:00.000Z",
       "dateFormatted": "22 sierpnia 2026"
     },
@@ -83,6 +107,18 @@
       "image": "https://content-media.investing.com/news/LYNXMPED09124_M.jpg",
       "dateISO": "2026-08-22T00:56:05.000Z",
       "dateFormatted": "22 sierpnia 2026"
+    },
+    {
+      "title": "Udany piątek, ale słaby tydzień na Wall Street. Inwestorzy czekają na wyniki Nvidii",
+      "link": "https://www.bankier.pl/wiadomosc/Udany-piatek-ale-slaby-tydzien-na-Wall-Street-Inwestorzy-czekaja-na-wyniki-Nvidii-9185798.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Piątkowa sesja na Wall Street zakończyła się wzrostami głównych indeksów, ale w skali całego tygodnia zanotowały one 1-2 proc. spadki. W centrum uwagi inwestorów w przyszłym tygodniu będą wyniki Nvidii oraz wystąpienie prezesa Fed Kevina Warsha.",
+      "pubDate": "Fri, 21 Aug 2026 23:58:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/2/d/3a6e6d4bcb4fbf-948-568-240-0-3633-2180.jpg",
+      "dateISO": "2026-08-21T22:58:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
     },
     {
       "title": "Agencja Fitch opublikowała rating Polski. \"Osłabione zaufanie do władz\"",
@@ -493,18 +529,6 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
-      "title": "Wyniki Dino pod presją deflacji. Zarząd obiecuje odbicie, ale ostrzega przed kosztami",
-      "link": "https://www.bankier.pl/wiadomosc/Dino-skupia-sie-na-wolumenach-sprzedazy-przy-utrzymujacej-sie-deflacji-opis-9185616.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Dino spodziewa się wzrostu dynamiki sprzedaży w kolejnych kwartałach i przewiduje stopniową poprawę sprzedaży LFL w drugim półroczu - poinformował członek zarządu Michał Krauze. Spółka skupia się w trzecim kwartale na wzroście wolumenów, nadal działa w warunkach deflacji.",
-      "pubDate": "Fri, 21 Aug 2026 15:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/2/a/064acf59f84583-948-567-0-52-1000-599.jpg",
-      "dateISO": "2026-08-21T14:18:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
       "title": "Gdzie jest Merz? Kanclerz od ponad trzech tygodni bez publicznych wystąpień",
       "link": "https://www.bankier.pl/wiadomosc/Gdzie-jest-Merz-Kanclerz-od-ponad-trzech-tygodni-bez-publicznych-wystapien-9185594.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Niemieckie media debatują nad wakacyjną nieobecnością Friedricha Merza, który od 29 lipca nie pojawił się publicznie. Kontrowersje wywołuje fakt, że kanclerz nie przerwał urlopu po incydencie z uzbrojonym dronem na lotnisku w Lipsku.",
@@ -541,18 +565,6 @@
       "dateFormatted": "21 sierpnia 2026"
     },
     {
-      "title": "Dino zakłada stopniową poprawę sprzedaży LFL w II półroczu",
-      "link": "https://www.bankier.pl/wiadomosc/Dino-zaklada-stopniowa-poprawe-sprzedazy-LFL-w-II-polroczu-9185580.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Dino zakłada stopniową poprawę sprzedaży LFL w II półroczu - poinformował członek zarządu Michał Krauze.",
-      "pubDate": "Fri, 21 Aug 2026 14:34:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/a/5/899f958126d10a-948-568-0-14-1900-1139.jpg",
-      "dateISO": "2026-08-21T13:34:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
       "title": "PKO BP ze zgodą KNF na zarządzanie portfelami. Bank wyznacza nowy cel",
       "link": "https://www.bankier.pl/wiadomosc/BM-PKO-BP-jeszcze-w-2026-r-chce-zaoferowac-usluge-zarzadzania-portfelami-9185566.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Oferta Biura Maklerskiego PKO BP w 2026 r. poszerzy się o usługę zarządzania portfelami. Jest ona elementem rozwoju wealth management w banku. Aktywa klientów Bankowości Prywatnej wynoszą obecnie ok. 85 mld zł, a strategicznym celem banku jest 100 mld zł do końca 2027 r. - poinformowało PKO BP w kom",
@@ -562,18 +574,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/1/e/115e97bb1f7dd3-948-568-20-192-1460-876.jpg",
       "dateISO": "2026-08-21T13:16:00.000Z",
-      "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "Polska coraz bliżej 700 ton złota. NBP dokupił kruszec także w lipcu",
-      "link": "https://www.bankier.pl/wiadomosc/Polska-coraz-blizej-700-ton-zlota-NBP-dokupil-kruszec-takze-w-lipcu-9185563.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ponad 640 ton złota posiadał Narodowy Bank Polski w swoich rezerwach na koniec lipca 2026 r. - wynika z najnowszych danych banku centralnego. Oznacza to, że w lipcu NBP ponownie zwiększył zasoby złota, tym razem o około 8 ton.",
-      "pubDate": "Fri, 21 Aug 2026 14:13:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/0/a84e9a093a4f55-948-568-0-0-997-598.jpg",
-      "dateISO": "2026-08-21T13:13:00.000Z",
       "dateFormatted": "21 sierpnia 2026"
     },
     {
@@ -706,6 +706,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/7/1ce961d1c57103-945-560-7-71-1492-895.jpg",
       "dateISO": "2026-08-21T11:26:00.000Z",
+      "dateFormatted": "21 sierpnia 2026"
+    },
+    {
+      "title": "Ceny paliw w górę. Minister podał nowe maksymalne stawki na weekend",
+      "link": "https://www.bankier.pl/wiadomosc/Ceny-paliw-w-gore-Minister-podal-nowe-maksymalne-stawki-na-weekend-9185490.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Maksymalna cena dla benzyny Pb95 wynosi 6,54 zł/l, dla benzyny Pb98 to 7,36 zł/l, a dla oleju napędowego 7,59 zł/l - poinformował Minister Energii w obwieszczeniu. Ceny te będą obowiązywały w od soboty, 22 sierpnia, do poniedziałku, 24 sierpnia, włącznie.",
+      "pubDate": "Fri, 21 Aug 2026 12:12:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/b/aef8b4b6360dfa-948-568-0-337-3857-2314.jpg",
+      "dateISO": "2026-08-21T11:12:00.000Z",
       "dateFormatted": "21 sierpnia 2026"
     },
     {
@@ -913,5 +925,5 @@
       "dateFormatted": "13 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-22T04:32:39.149Z"
+  "updatedAt": "2026-08-22T06:40:07.845Z"
 }
