@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "CD Projekt RED wyda 29 września '26 remaster \"Wiedźmina 3\"",
+      "link": "https://www.bankier.pl/wiadomosc/CD-Projekt-RED-wyda-29-wrzesnia-26-remaster-Wiedzmina-3-9187108.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "CD Projekt RED wyda 29 września grę \"Wiedźmin 3: Dziki Gon - Remaster\" - poinformowała spółka podczas prezentacji na Gamescom Opening Night Live. Remaster trzeciej odsłony wiedźmińskiej sagi będzie zawierał oba dodatki - \"Serca z kamienia\" oraz \"Krew i wino\". Posiadacze gry dostaną darmową aktualiza",
+      "pubDate": "Tue, 25 Aug 2026 23:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/0/f/5cf4b304c96a2e-thumb-1000.jpg",
+      "dateISO": "2026-08-25T22:00:00.000Z",
+      "dateFormatted": "25 sierpnia 2026"
+    },
+    {
       "title": "\"Czarny sierpień\" w Rosji. Putin bagatelizuje kryzys",
       "link": "https://businessinsider.com.pl/wiadomosci/sierpniowa-klatwa-w-rosji-putin-zamiata-kryzys-pod-dywan/7mrsf3c",
       "description": "\"Czarny sierpień\" — czy też \"sierpniowa klątwa\" — to termin określający poważne kryzysy, które zdają się wybuchać w Rosji w ostatnich tygodniach lata.",
@@ -238,18 +250,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/y38k9kpTURBXy82ZjIxNGYzNzU1MmY4ZTExNDgwYjc3ZDYyZDE2YzZiYi5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-08-25T16:06:47.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Bank Pocztowy zdecydował o wcześniejszym wykupie obligacji serii C3 o wartości 50 mln zł",
-      "link": "https://www.bankier.pl/wiadomosc/Bank-Pocztowy-zdecydowal-o-wczesniejszym-wykupie-obligacji-serii-C3-o-wartosci-50-mln-zl-9186991.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Bank Pocztowy podjął decyzję w sprawie wcześniejszego wykupu obligacji serii C3, wyemitowanych 18 września 2017 r. na okres 10 lat, o łącznej wartości nominalnej 50 mln zł w dniu 18 września 2026 r. - podał bank w komunikacie.",
-      "pubDate": "Tue, 25 Aug 2026 17:04:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/3/e/3772b635f24ac8-948-568-0-60-1090-654.jpg",
-      "dateISO": "2026-08-25T16:04:00.000Z",
       "dateFormatted": "25 sierpnia 2026"
     },
     {
@@ -901,5 +901,5 @@
       "dateFormatted": "21 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-25T20:29:03.516Z"
+  "updatedAt": "2026-08-25T22:27:27.852Z"
 }
