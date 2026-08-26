@@ -1,6 +1,414 @@
 {
   "articles": [
     {
+      "title": "DM BOŚ podniósł wycenę akcji Orlenu do 180 zł",
+      "link": "https://www.bankier.pl/wiadomosc/DM-BOS-podniosl-wycene-akcji-Orlenu-do-180-zl-9187189.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Analitycy Domu Maklerskiego BOŚ w raporcie z 18 sierpnia podnieśli cenę docelową akcji Orlenu w horyzoncie 12 miesięcy do 180 zł ze 175 zł wcześniej, podtrzymując rekomendację \"kupuj\".",
+      "pubDate": "Wed, 26 Aug 2026 08:24:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/2/7/ec06ec288b92a6-948-568-0-0-4803-2881.jpg",
+      "dateISO": "2026-08-26T07:24:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "DM BOŚ podniósł cenę docelową akcji Unimotu do 260 zł",
+      "link": "https://www.bankier.pl/wiadomosc/DM-BOS-podniosl-cene-docelowa-akcji-Unimotu-do-260-zl-9187187.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Analitycy DM BOŚ w raporcie z 18 sierpnia podwyższyli cenę docelową akcji Unimotu w perspektywie 12 miesięcy do 260 zł z 200 zł wcześniej, podtrzymując rekomendację \"kupuj\".",
+      "pubDate": "Wed, 26 Aug 2026 08:16:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/b/0/1a402daa606bfe-948-568-0-320-3916-2350.jpg",
+      "dateISO": "2026-08-26T07:16:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "SpaceX rusza z projektem za 100 mld dol. W Luizjanie powstanie Starbase",
+      "link": "https://www.bankier.pl/wiadomosc/SpaceX-rusza-z-projektem-za-100-mld-dol-W-Luizjanie-powstanie-Starbase-9187185.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "SpaceX ogłosił budowę kompleksu Starbase w Luizjanie o wartości 100 miliardów dolarów. Inwestycja obejmie teren 125 000 akrów (ok. 50 585 hektarów) i ułatwi obsługę corocznych lotów Starshipa w kierunku orbity okołoziemskiej, Księżyca oraz Marsa. Pierwsze starty z nowej bazy zaplanowano na 2029 rok.",
+      "pubDate": "Wed, 26 Aug 2026 08:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/8/d68ef44c3ebe05-948-568-143-209-3387-2032.jpg",
+      "dateISO": "2026-08-26T07:15:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Orlen rozpoczyna produkcję z trzech nowych złóż w Norwegii",
+      "link": "https://www.bankier.pl/wiadomosc/Orlen-rozpoczyna-produkcje-z-trzech-nowych-zloz-w-Norwegii-9187186.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Orlen Upstream Norway, wraz z partnerami koncesyjnymi, rozpoczął wydobycie gazu ze złoża Idun Nord na Morzu Norweskim. W ciągu kilku następnych tygodni spółka uruchomi produkcję z dwóch kolejnych – Alve Nord i Orn - poinformowała spółka w komunikacie prasowym.",
+      "pubDate": "Wed, 26 Aug 2026 08:14:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/3/7/3636f232c01823-948-568-742-419-2257-1354.jpg",
+      "dateISO": "2026-08-26T07:14:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Szybkie pożyczki i zakupy na raty. Polacy zaciągają zobowiązania na potęgę",
+      "link": "https://www.bankier.pl/wiadomosc/Szybkie-pozyczki-i-zakupy-na-raty-Polacy-zaciagaja-zobowiazania-na-potege-9187183.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W lipcu 2026 r. firmy pożyczkowe udzieliły 1,58 mln pożyczek o łącznej wartości 2,68 mld zł - wynika z opublikowanych w środę danych Biura Informacji Kredytowej (BIK). Największy wzrost dotyczył pożyczek ratalnych, których liczba zwiększyła się o 18,5 proc., a wartość o 23,7 proc. rdr.",
+      "pubDate": "Wed, 26 Aug 2026 08:07:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/b/98701a3fa770bd-948-568-0-37-2500-1499.jpg",
+      "dateISO": "2026-08-26T07:07:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Medicalgorithmics ma umowę z amerykańską spółką z branży zdalnego monitorowania kardiologicznego",
+      "link": "https://www.bankier.pl/wiadomosc/Medicalgorithmics-ma-umowe-z-amerykanska-spolka-z-branzy-zdalnego-monitorowania-kardiologicznego-9187181.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Medicalgorithmics podpisał strategiczną umowę z amerykańską spółką technologiczną obsługującą ponad 300 placówek klinicznych z branży zdalnego monitoringu kardiologicznego. Na mocy umowy technologia DeepRhythmAI (DRAI) będzie wspierać analizę EKG w ramach ekosystemu kardiomonitoringu partnera - poin",
+      "pubDate": "Wed, 26 Aug 2026 08:04:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/2/5/7927b774aa1a17-948-568-0-263-1185-710.jpg",
+      "dateISO": "2026-08-26T07:04:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Miliony jaj wycofane przez salmonellę. Służby ostrzegają konsumentów",
+      "link": "https://www.bankier.pl/wiadomosc/Miliony-jaj-wycofane-przez-salmonelle-Sluzby-ostrzegaja-konsumentow-9187180.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Co najmniej 306 osób w Belgii zakaziło się salmonellą po spożyciu jaj pochodzących z fermy drobiu we Flandrii - poinformowała belgijska agencja ds. bezpieczeństwa żywności (AFSCA). Według portalu RTL Info skażone jaja mogły trafić również do kilku innych państw europejskich, w tym Polski.",
+      "pubDate": "Wed, 26 Aug 2026 08:03:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/8/2cd61518b503cd-948-568-0-40-3981-2388.jpg",
+      "dateISO": "2026-08-26T07:03:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Miedź najdroższa w historii? Amerykanie skupują metal na potęgę",
+      "link": "https://www.bankier.pl/wiadomosc/Miedz-najdrozsza-w-historii-Amerykanie-skupuja-metal-na-potege-9187178.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Notowania miedzi na giełdzie metali LME w Londynie rosną 4. dzień i zbliżają się do rekordowego poziomu m.in. z powodu niskich zapasów tego metalu - informują maklerzy.",
+      "pubDate": "Wed, 26 Aug 2026 08:01:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/1/603436cf2637f1-948-568-0-56-2508-1504.jpg",
+      "dateISO": "2026-08-26T07:01:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Dwie wielkie koalicje w wyborach do Sejmu? Politolog: To nie do pomyślenia",
+      "link": "https://www.bankier.pl/wiadomosc/Dwie-wielkie-koalicje-w-wyborach-do-Sejmu-Politolog-To-nie-do-pomyslenia-9187174.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Gdyby w wyborach do Sejmu starły się dwie koalicje, to 55 proc. Polaków oddałoby głos na blok wyborczy KO, PSL, Nowej Lewicy, Polski 2050, Unii Centrum i Partii Razem, a 43 proc. na koalicję PiS, obu Konfederacji i Rozwoju Plus - wynika z najnowszego sondażu Instytutu Badań Pollster dla „Super Expre",
+      "pubDate": "Wed, 26 Aug 2026 07:54:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/5/55f1d69eb26fe5-948-568-100-120-3900-2339.jpg",
+      "dateISO": "2026-08-26T06:54:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Żabka znika z giełdy? Właściciel Circle K rusza po 100 proc. akcji sieci",
+      "link": "https://www.bankier.pl/wiadomosc/Alimentation-Couche-Tard-oglosil-wezwanie-na-wszystkie-akcje-Zabka-Group-po-cenie-32-zl-szt-9187168.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Alimentation Couche-Tard ogłosił wezwanie na 1.002.974.605 akcji Zabka Group, stanowiących 100 proc. akcji, po cenie 32 zł/szt. - poinformował w środę pośredniczący w wezwaniu Ipopema Securities.",
+      "pubDate": "Wed, 26 Aug 2026 07:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/4/a/396c06610e9ca1-948-568-112-0-1834-1100.jpg",
+      "dateISO": "2026-08-26T06:36:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Bitcoin spada do 79 tys. $, gdy rajd odbicia wyhamowuje",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-do-79-tys--gdy-rajd-odbicia-wyhamowuje-1546072",
+      "description": "",
+      "pubDate": "2026-08-26 06:28:45",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/LYNXNPEC6413U_M.jpg",
+      "dateISO": "2026-08-26T06:28:45.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "\"Więzienie w Serbii jest piękniejsze niż słońce gdzie indziej\". Vuczić odpowiada opozycji",
+      "link": "https://www.bankier.pl/wiadomosc/Wiezienie-w-Serbii-jest-piekniejsze-niz-slonce-gdzie-indziej-Vuczic-odpowiada-opozycji-9187110.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Serbii Aleksandar Vuczić zaprzeczył we wtorek twierdzeniom opozycji, jakoby w razie przegranej w wyborach planował opuścić kraj. W ubiegłym tygodniu serbski przywódca ogłosił, że przedterminowe wybory parlamentarne odbędą się 18 lub 25 października.",
+      "pubDate": "Wed, 26 Aug 2026 07:23:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/e/bf5998006a42a0-948-568-0-0-2372-1423.jpg",
+      "dateISO": "2026-08-26T06:23:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Polacy coraz gorzej oceniają Ukraińców. Wołyń i świadczenia na czele powodów",
+      "link": "https://www.bankier.pl/wiadomosc/Wolyn-czy-rosyjska-propaganda-Polityczne-podzialy-widac-w-ocenach-Ukraincow-9187125.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wołyń, świadczenia i rosyjska propaganda – to najczęściej wskazywane przez Polaków źródła pogorszenia stosunku do Ukraińców. Ale za wynikiem ogólnym kryje się głęboki polityczny podział. Zwolennicy rządzących i opozycji odpowiadają inaczej na pytanie, skąd bierze się rosnąca niechęć – pisze w środę ",
+      "pubDate": "Wed, 26 Aug 2026 07:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/4/0cb99de5276234-948-568-0-0-3000-1799.jpg",
+      "dateISO": "2026-08-26T06:15:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Rekordowe lato zabija Europejczyków. Co najmniej 35 tys. zgonów",
+      "link": "https://www.bankier.pl/wiadomosc/Rekordowe-lato-zabija-Europejczykow-Co-najmniej-35-tys-zgonow-9187091.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Tego lata w całej Europie odnotowano co najmniej 35 tys. nadmiarowych zgonów z powodu upałów – podał we wtorek brytyjski dziennik „Guardian”. Gazeta cytuje dane z poszczególnych państw i podkreśla, że liczba ta może być znacznie większa.",
+      "pubDate": "Wed, 26 Aug 2026 07:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/e/6eecd1f6cf93c0-948-568-0-0-1900-1139.jpg",
+      "dateISO": "2026-08-26T06:15:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Gorzkie słowa o państwie i korupcji. \"Wygląda na to, że powoli przegrywamy tę wojnę\"",
+      "link": "https://www.bankier.pl/wiadomosc/Gorzkie-slowa-o-panstwie-i-korupcji-Wyglada-na-to-ze-powoli-przegrywamy-te-wojne-9187084.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Były minister obrony Ukrainy Mychajło Fedorow powiedział w wywiadzie dla agencji Reutera, że jego kraj znajduje się w punkcie zwrotnym i wydaje się stopniowo, powoli przegrywać wojnę z Rosją. Według Fedorowa jest kilka miesięcy na podjęcie decyzji, które zmienią sytuację na korzyść Ukrainy.",
+      "pubDate": "Wed, 26 Aug 2026 07:09:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/3/3b4f8a97323a1b-948-568-291-25-1418-850.jpg",
+      "dateISO": "2026-08-26T06:09:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Zaparkował pod Kongresem z gilotyną na pace. Mężczyzna trafił do aresztu",
+      "link": "https://www.bankier.pl/wiadomosc/Zaparkowal-pod-Kongresem-z-gilotyna-na-pace-Mezczyzna-trafil-do-aresztu-9187122.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Policja Kapitolu Stanów Zjednoczonych poinformowała we wtorek o aresztowaniu mężczyzny, który w pobliżu Kongresu i Sądu Najwyższego zaparkował samochód z gilotyną na pace.",
+      "pubDate": "Wed, 26 Aug 2026 07:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/b/cb222d7151dcac-948-568-108-4-1492-895.jpg",
+      "dateISO": "2026-08-26T06:00:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Estonia wybierze nową prezydent. Jest tylko... jedna kandydatka",
+      "link": "https://www.bankier.pl/wiadomosc/Estonia-wybierze-nowa-prezydent-Jest-tylko-jedna-kandydatka-9187126.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Ulle Madise, obecna kanclerz sprawiedliwości, jest jedyną zarejestrowaną kandydatką w wyborach prezydenckich, które odbędą się w parlamencie Estonii na początku września. Pod jej nominacją podpisało się 75 ze 101 deputowanych - poinformowała krajowa komisja wyborcza.",
+      "pubDate": "Wed, 26 Aug 2026 07:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/1/a03b5f780f1e65-948-568-0-160-4000-2399.jpg",
+      "dateISO": "2026-08-26T06:00:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Napięcie między Turcją a Izraelem rośnie. W tle \"krwawe scenariusze”",
+      "link": "https://www.bankier.pl/wiadomosc/Napiecie-miedzy-Turcja-a-Izraelem-rosnie-W-tle-krwawe-scenariusze-9187115.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Turcji Recep Tayyip Erdogan skrytykował we wtorek premiera Izraela Benjamina Netanjahu, zarzucając mu dążenie do rozlewu krwi i niestabilności w regionie. Oświadczył, że Turcja nie pozwoli na realizację jego „krwawych scenariuszy” - przekazał dziennik „Daily Sabah”.",
+      "pubDate": "Wed, 26 Aug 2026 06:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/f/6e2ff1d0d909c0-948-568-80-130-3920-2351.jpg",
+      "dateISO": "2026-08-26T05:50:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Ogień zbliża się do Barcelony. 14 tys. osób musi zostać w domach",
+      "link": "https://www.bankier.pl/wiadomosc/Ogien-zbliza-sie-do-Barcelony-14-tys-osob-musi-zostac-w-domach-9187119.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Pożar trawiący od wtorku park krajobrazowy Collserola pod Barceloną doprowadził do konieczności wydania nakazu pozostania w domach 14 tys. mieszkańców miasta.",
+      "pubDate": "Wed, 26 Aug 2026 06:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/c/41fe373759b35b-948-568-0-11-4500-2699.jpg",
+      "dateISO": "2026-08-26T05:50:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Ikea tnie zatrudnienie w Polsce. W fabryce w Wielbarku pracę straciło 250 osób",
+      "link": "https://businessinsider.com.pl/praca/ikea-zwalnia-pracownikow-w-polsce-redukcja-dotknela-setki-osob/wsft73k",
+      "description": "Ikea przeprowadziła zwolnienia grupowe w swojej fabryce w Wielbarku, gdzie zatrudnienie straciło około 250 osób. To kolejna redukcja etatów w polskich zakładach koncernu, który równolegle realizuje program zmian organizacyjnych również na poziomie międzynarodowym.",
+      "pubDate": "Wed, 26 Aug 2026 05:46:25 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/MARk9kpTURBXy8xNzAzZmZmN2U0OTc4OTA5YzM2NjNkNGRhNTRlNGI1MC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-26T05:46:25.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Rynek biurowy zbliża się do punktu zwrotnego. PKO BP prognozuje spadek podaży",
+      "link": "https://www.bankier.pl/wiadomosc/Rynek-biurowy-zbliza-sie-do-punktu-zwrotnego-PKO-BP-prognozuje-spadek-podazy-9187143.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Początek tego roku przyniósł na rynku powierzchni biurowej wysoką podaż, co przyczyniło się do wzrostu ogólnej powierzchni pustostanów - wskazali analitycy PKO BP. Według ich prognoz w najbliższym czasie nowa oferta zacznie się kurczyć, co doprowadzi do zmniejszenia niezagospodarowanej powierzchni.",
+      "pubDate": "Wed, 26 Aug 2026 06:45:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/a/5b2268ba2d06fc-948-567-0-0-1000-599.jpg",
+      "dateISO": "2026-08-26T05:45:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "USA zmieniają taktykę wobec Iranu. Na razie bez kolejnych uderzeń",
+      "link": "https://businessinsider.com.pl/gospodarka/amerykanie-wstrzymuja-ataki-na-iran-jest-nowa-strategia-trumpa/9r6bp01",
+      "description": "Stany Zjednoczone na razie nie planują kolejnych szeroko zakrojonych ataków na Iran. Takie zapewnienie miał przekazać partnerom sekretarz stanu Marco Rubio. Waszyngton nie zamierza jednak rezygnować z presji na Teheran — zamiast kolejnych nalotów chce wykorzystać blokadę morską, sankcje i presję na ",
+      "pubDate": "Wed, 26 Aug 2026 05:21:19 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/1mdk9kpTURBXy9iM2Q4NzE5ZWZjZjljZmIyNWFhNGY4ODcyM2Y3YTZlNi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-26T05:21:19.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Kurs EUR/PLN 26 sierpnia 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-euro-dzisiaj-po-ile-jest-euro-26-sierpnia-2026-r/2t7er6m",
+      "description": "Przedstawiamy bieżące notowania kursu waluty EUR oraz zmiany w ujęciu tygodniowym i dzień po dniu na 26 sierpnia 2026. Pokazujemy, jak zmienia się kurs euro w stosunku do polskiego złotego. Czy nasza waluta obecnie traci? Wczoraj kurs EUR wynosił: 4,3029 zł. Wszystkiego dowiesz się z poniższego arty",
+      "pubDate": "Wed, 26 Aug 2026 05:10:45 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/CSVk9kpTURBXy83NGViYjdhOGQ3ZGYxMDY2NGY2YmE5MTZlNDJkNDAzNy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-26T05:10:45.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Kurs JPY/PLN 26 sierpnia 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-jena-japonskiego-dzisiaj-po-ile-jest-jen-japonski-26-sierpnia-2026-r/vch6hll",
+      "description": "Poznaj kurs japońskiego jena na dzień 26 sierpnia 2026. Jen jest jedną z głównych walut rezerwowych świata, dlatego ma znaczenie dla światowej gospodarki. Jednak jego kurs interesuje także podróżujących do Japonii w celach turystycznych. Z tego powodu pokazujemy obecny kurs waluty, jak też zmiany ku",
+      "pubDate": "Wed, 26 Aug 2026 05:10:45 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Ec5k9kpTURBXy81MDBkMTNhZDU5ZTAwNzkwNzZkODM2YjA2ZDkxZTcyNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-26T05:10:45.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Kurs CHF/PLN 26 sierpnia 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-franka-szwajcarskiego-dzisiaj-po-ile-jest-frank-szwajcarski-26-sierpnia-2026-r/2rzyp28",
+      "description": "Oto bieżące notowania kursu franka szwajcarskiego (CHF). Poznaj, jak zmienia się kurs franka w stosunku do polskiej waluty (PLN). Czy polska waluta umacnia się, czy osłabia? Wczoraj kurs franka wynosił: 4,5912 zł. O dzisiejszych zmianach dowiesz się z tego artykułu.",
+      "pubDate": "Wed, 26 Aug 2026 05:08:43 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/0wvk9kpTURBXy84MDI3MzFlODBkMTQ3MTMyZTJlNTE2NjMxMTQ4MmNjZi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-26T05:08:43.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Kurs USD/PLN 26 sierpnia 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-dolara-amerykanskiego-dzisiaj-po-ile-jest-dolar-amerykanski-26-sierpnia-2026-r/d2kmmxm",
+      "description": "Oto aktualny kurs waluty USD na dzień 26 sierpnia 2026. Dolar jest jedną z głównych walut, w których przeprowadzane są transakcje na światowych rynkach. Od jego ceny zależą surowce takie jak ropa, mające wpływ na nasze codzienne życie. Z tego powodu warto wiedzieć, po ile obecnie można wymienić amer",
+      "pubDate": "Wed, 26 Aug 2026 05:08:43 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/EBHk9kpTURBXy85YWUwYmNmZGYyMWIwODNmOTkzNDgzZjgzZDVjYTQ1NS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-26T05:08:43.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Kurs GBP/PLN 26 sierpnia 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-funtow-brytyjskich-dzisiaj-po-ile-jest-funt-brytyjski-26-sierpnia-2026-r/sb3002j",
+      "description": "Czy kurs funta brytyjskiego zmienił się od wczoraj? Wczorajsza cena waluty to 5,0294 zł. Czy złoty słabnie, czy może jednak umacnia się względem funta brytyjskiego? To ważna informacja dla wszystkich, którzy pracują aktualnie na Wyspach Brytyjskich.",
+      "pubDate": "Wed, 26 Aug 2026 05:08:42 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/yvxk9kqTURBXy9kYjdmYjNhNWUyMTYxZTA0MmY3NzYwMzgwZWRhNjY3Yi5qcGVnkZMCzQSwAN4AAaEwAQ",
+      "dateISO": "2026-08-26T05:08:42.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Kurs SEK/PLN 26 sierpnia 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-szwedzkiej-dzisiaj-po-ile-jest-korona-szwedzka-26-sierpnia-2026-r/8kz4z1r",
+      "description": "Jeśli chcesz poznać aktualny kurs korony szwedzkiej, to jesteś we właściwym miejscu. Tutaj znajdziesz bieżące notowania SEK i sprawdzisz, czy polski złoty umacnia się, czy słabnie względem szwedzkiej waluty. Wczorajszy kurs wynosił 0,3897 zł.",
+      "pubDate": "Wed, 26 Aug 2026 05:06:40 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/8Kwk9kpTURBXy9iYTA4ODkyYWI0MTcxMWIwMjRiOTEyM2ZjZjI1YjMxMi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-26T05:06:40.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Kurs CZK/PLN 26 sierpnia 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-czeskiej-dzisiaj-po-ile-jest-korona-czeska-26-sierpnia-2026-r/nkyd1m6",
+      "description": "Czeska korona nie ma nawet 30 lat, co sprawia, że jest to jedna z najmłodszych walut europejskich. Pokazujemy bieżący kurs waluty CZK z dnia 26 sierpnia 2026 z godz. 7 rano. Informujemy także o zmianach kursu dzień do dnia i tydzień do tygodnia. Wczoraj kurs CZK wynosił: 0,1788 zł.",
+      "pubDate": "Wed, 26 Aug 2026 05:06:40 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/fjuk9kpTURBXy8xNDkxNjk4YmYxYmQ4OGM0YjI2MDQyYjRmNjY0Mzk0Ny5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-26T05:06:40.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Kurs NOK/PLN 26 sierpnia 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-norweskiej-dzisiaj-po-ile-jest-korona-norweska-26-sierpnia-2026-r/k5p3gx4",
+      "description": "Sprawdź, jak zmienia się kurs korony norweskiej. Wczoraj wynosił 0,3953 zł. Jeśli chcesz dowiedzieć się, ile za koronę norweską trzeba zapłacić w tej chwili, przeczytaj poniższy artykuł.",
+      "pubDate": "Wed, 26 Aug 2026 05:06:40 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/zsPk9kpTURBXy85OTY3Mjg4MjM2ZGIzY2Y0N2E3MWFkNWVhODI1NWY2Ni5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-26T05:06:40.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Kurs TRY/PLN 26 sierpnia 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-liry-turckiej-dzisiaj-po-ile-jest-lira-turecka-26-sierpnia-2026-r/07wcctf",
+      "description": "Zapraszamy do zapoznania się z najnowszymi notowaniami zmian kursu tureckiej liry. Są one szczególnie intersujące dla turystów. Turcja to jeden z najpopularniejszych kierunków urlopowych dla Polaków.",
+      "pubDate": "Wed, 26 Aug 2026 05:04:38 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/XMbk9kpTURBXy9iOTJmZjZjYjNlMWZkMzQxNjhjNmZkYjI5ZWRiOGRiOC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-26T05:04:38.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Kurs HUF/PLN 26 sierpnia 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-forinta-wegierskiego-dzisiaj-po-ile-jest-forint-wegierski-26-sierpnia-2026-r/7649qky",
+      "description": "Poznaj bieżące notowanie kursu węgierskiego forinta wraz ze zmianami w odniesieniu dziennym i tygodniowym. Poniższe dane dotyczą kursu HUF na dzień 26 sierpnia 2026. Czy złoty wzmacania się, czy traci? Pokazujemy to na wykresie i w danych poniższego artykułu.",
+      "pubDate": "Wed, 26 Aug 2026 05:04:38 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/0TBk9kpTURBXy9mZDgxYzc2YTk2MzIyNDM3MzIzZGRkYjg1NjFlOGM5MC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-26T05:04:38.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Kurs DKK/PLN 26 sierpnia 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-dunskiej-dzisiaj-po-ile-jest-korona-dunska-26-sierpnia-2026-r/1t8396b",
+      "description": "Interesuje cię wymiana waluty i chcesz poznać bieżący kurs korony duńskiej? Tutaj znajdziesz aktualne notowania DKK i będziesz mógł sprawdzić, czy polski złoty umacnia się, czy słabnie względem tej waluty. Wczoraj kurs wynosił: 0,5755 zł.",
+      "pubDate": "Wed, 26 Aug 2026 05:04:38 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/newk9kpTURBXy80NzMwMDUzMjI3OTViZDk2MTk1Y2JiODBmM2E4Yjk0Yy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-26T05:04:38.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Szpital Południowy wyda 16 mln zł na meble. W przetargu jeden chętny",
+      "link": "https://businessinsider.com.pl/wiadomosci/szpital-poludniowy-sie-mebluje-za-158-mln-zl-dostanie-min-sofy-szafki-i-fotele/1f7rx2n",
+      "description": "Warszawski Szpital Południowy planuje wydać niemal 16 mln zł na wyposażenie meblowe. Wśród zamawianych produktów są m.in. sofy, fotele, szafki, lodówki medyczne i wyposażenie pomieszczeń biurowych. O szczegółach zamówienia zdecyduje jednak nie tylko specyfikacja techniczna — wykonawca będzie musiał ",
+      "pubDate": "Wed, 26 Aug 2026 05:04:35 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Ng6k9kpTURBXy9mM2UyYTkzMjAyZGU2MzUzMjUzOGIzMWRjZTEyZjFmYy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-26T05:04:35.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
       "title": "Bank chętnie przyjmie przelew. Z gotówką każe się gimnastykować",
       "link": "https://www.bankier.pl/wiadomosc/Bank-chetnie-przyjmie-przelew-Z-gotowka-kaze-sie-gimnastykowac-9186684.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Mikroprzedsiębiorca kończy dzień z kilkudziesięcioma tysiącami złotych w kasie, a w mieście nie znajdzie placówki swojego banku z czynną kasą. Zostaje wpłatomat, który nie przyjmuje monet i liczy banknoty na sztuki. Sprawdziłem w trzynastu bankach, gdzie firma może dziś wpłacić duży utarg.",
@@ -25,6 +433,18 @@
       "dateFormatted": "26 sierpnia 2026"
     },
     {
+      "title": "Nowy podatek może uderzyć w branżę używek. Fundusz Zdrowia Publicznego ma zyskać miliony",
+      "link": "https://businessinsider.com.pl/gospodarka/ministerstwo-chce-dodatkowych-srodkow-firmy-tytoniowe-i-alkoholowe-zaplaca-wiecej/rgy5xyl",
+      "description": "Rząd pracuje nad kolejnym podatkiem. Nowa opłata miałaby dotyczyć producentów i dystrybutorów alkoholu oraz papierosów, a wpływy z niej trafiłyby na cele związane z ochroną zdrowia publicznego.",
+      "pubDate": "Wed, 26 Aug 2026 04:42:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/YX8k9kpTURBXy9iMDBlMDQ2OGNjZWI2MTM2ZDhjMGJjNzY2NWQ5YTRiNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-08-26T04:42:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
       "title": "Fundacja rodzinna. W Austrii też zmieniano podatki. Warto wyciągnąć wnioski [Opinia]",
       "link": "https://businessinsider.com.pl/prawo/jak-budowac-silne-fundacje-rodzinne-warto-skorzystac-z-doswiadczen-austrii/h93vme7",
       "description": "Rozwiązania pozwalające zabezpieczyć majątek i służące zabezpieczeniu majątku rodzinnego kapitału działają od dziesięcioleci np. w Austrii, Niemczech, Lichtensteinie czy Malcie. Warto spojrzeć na doświadczenia Austrii, w której fundacje prywatne można tworzyć od 1993 r. I wyciągnąć wnioski przy plan",
@@ -37,9 +457,9 @@
       "dateFormatted": "26 sierpnia 2026"
     },
     {
-      "title": "Ulga dla tysięcy przedsiębiorców, w tym ryczałtowców. Jest projekt",
+      "title": "Ulga dla prawie trzech milionów przedsiębiorców, w tym ryczałtowców. Jest projekt",
       "link": "https://businessinsider.com.pl/prawo/podatki/zmiany-w-ewidencji-elektronicznej-sprawdz-kogo-dotyczy-zwolnienie/lt6eqd5",
-      "description": "Od początku 2026 r. przedsiębiorcy muszą prowadzić w formie elektronicznej swoje księgi rachunkowe i podatkowe oraz ewidencje, w tym środków trwałych. Po zakończeniu roku muszą przesłać je fiskusowi w formie JPK_PIT i JPK_CIT. Minister finansów chce zwolnić z tych obowiązków niektórych podatników na",
+      "description": "Ministerstwo Finansów opublikowało dwa kluczowe projekty rozporządzeń, które przesuwają w czasie obowiązek prowadzenia i przesyłania cyfrowych ksiąg oraz ewidencji podatkowych (tzw. JPK_PIT). Zmiany dadzą przedsiębiorcom więcej czasu na dostosowanie systemów informatycznych, a w przypadku ewidencji ",
       "pubDate": "Wed, 26 Aug 2026 04:14:57 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -73,6 +493,18 @@
       "dateFormatted": "26 sierpnia 2026"
     },
     {
+      "title": "Warszawa z antydronową kopułą. Ratusz zabezpiecza kluczowe obiekty",
+      "link": "https://www.bankier.pl/wiadomosc/Warszawa-z-antydronowa-kopula-Ratusz-zabezpiecza-kluczowe-obiekty-9187128.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "System, jak zapowiada ratusz, pozwoli na wczesne wykrywanie ewentualnych zagrożeń, szybszą reakcję służb i skuteczniejsze przeciwdziałanie incydentom – czytamy w środę w „Gazecie Wyborczej”.",
+      "pubDate": "Wed, 26 Aug 2026 05:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/5/9af69168a5e666-948-568-68-285-3546-2127.jpg",
+      "dateISO": "2026-08-26T04:00:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
       "title": "Ranking najlepszych miast do życia w 2026 r. Zupełnie nowy lider i zaskakujące podium",
       "link": "https://businessinsider.com.pl/poradnik-finansowy/najlepsze-miasta-do-zycia-w-polsce-2026-szczecin-zaskakuje/dlyj1m2",
       "description": "Ani Poznań, ani Rzeszów nie są już liderami najnowszej odsłony rankingu miast Business Insidera. Spadły nawet poza podium zestawienia, na którego czele znalazł się reprezentant północnej części kraju, wcześniej kryjący się gdzieś w połowie stawki. A to nie jedyne zaskoczenie.",
@@ -85,27 +517,75 @@
       "dateFormatted": "26 sierpnia 2026"
     },
     {
-      "title": "CD Projekt RED wyda 29 września '26 remaster \"Wiedźmina 3\"",
-      "link": "https://www.bankier.pl/wiadomosc/CD-Projekt-RED-wyda-29-wrzesnia-26-remaster-Wiedzmina-3-9187108.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "CD Projekt RED wyda 29 września grę \"Wiedźmin 3: Dziki Gon - Remaster\" - poinformowała spółka podczas prezentacji na Gamescom Opening Night Live. Remaster trzeciej odsłony wiedźmińskiej sagi będzie zawierał oba dodatki - \"Serca z kamienia\" oraz \"Krew i wino\". Posiadacze gry dostaną darmową aktualiza",
+      "title": "Nowy podatek od alkoholu i papierosów? Rząd chce pozyskać 225 mln zł",
+      "link": "https://www.bankier.pl/wiadomosc/Nowy-podatek-od-alkoholu-i-papierosow-Rzad-chce-pozyskac-225-mln-zl-9187124.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W rządzie trwają prace nad wprowadzeniem 0,25-proc. opłaty od sprzedaży papierosów i wyrobów alkoholowych. Miałaby zasilić specjalny fundusz służący ochronie zdrowia – czytamy w środę w „Rzeczpospolitej”.",
+      "pubDate": "Wed, 26 Aug 2026 04:07:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/7/a8904ac1819adb-948-568-132-425-3218-1930.jpg",
+      "dateISO": "2026-08-26T03:07:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "„To marokańskie terytorium”. Rabat żąda zwrotu hiszpańskich enklaw (w tym Ceuty)",
+      "link": "https://www.bankier.pl/wiadomosc/To-marokanskie-terytorium-Rabat-zada-zwrotu-hiszpanskich-enklaw-w-tym-Ceuty-9187121.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Marokański minister ds. islamskich Ahmed Toufiq wysunął roszczenia wobec Ceuty, hiszpańskiej eksklawy w Afryce Północnej, nazywając ją w obecności króla Maroka Muhammada VI miastem „okupowanym”.",
+      "pubDate": "Wed, 26 Aug 2026 03:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/6/113cc68996f51d-948-568-622-819-2973-1784.jpg",
+      "dateISO": "2026-08-26T02:36:00.000Z",
+      "dateFormatted": "26 sierpnia 2026"
+    },
+    {
+      "title": "Trump ma dość wojny z Iranem? Waszyngton zmienia strategię i stawia na sankcje",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-ma-dosc-wojny-z-Iranem-Waszyngton-zmienia-strategie-i-stawia-na-sankcje-9187116.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sekretarz stanu USA Marco Rubio powiedział w ostatnich dniach kilku swoim odpowiednikom, że „na razie” Amerykanie nie przewidują nowych ataków na Iran - podał we wtorek serwis Axios, powołując się na źródła. Nacisk na Teheran ma być wywierany innymi środkami, w tym poprzez sankcje.",
+      "pubDate": "Wed, 26 Aug 2026 00:42:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/9/36a79c3fdf29ae-948-568-0-0-4128-2476.jpg",
+      "dateISO": "2026-08-25T23:42:00.000Z",
+      "dateFormatted": "25 sierpnia 2026"
+    },
+    {
+      "title": "Zielony wtorek na Wall Street. Indeksy w górę, inwestorzy czekają na wyniki Nvidii",
+      "link": "https://www.bankier.pl/wiadomosc/Zielony-wtorek-na-Wall-Street-Indeksy-w-gore-inwestorzy-czekaja-na-wyniki-Nvidii-9187109.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wtorkowa sesja na Wall Street zakończyła się wzrostami głównych indeksów, a rentowności amerykańskich obligacji skarbowych spadły. W górę szły akcje producentów półprzewodników, a także notowania Nvidii, która w środę publikuje wyniki za drugi kwartał.",
+      "pubDate": "Tue, 25 Aug 2026 23:01:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/c/6b41e0444bb6ed-948-568-204-399-3888-2333.jpg",
+      "dateISO": "2026-08-25T22:01:00.000Z",
+      "dateFormatted": "25 sierpnia 2026"
+    },
+    {
+      "title": "Wizja „NATO 3.0” i redukcja wojsk. Kluczowy urzędnik Pentagonu w Europie",
+      "link": "https://www.bankier.pl/wiadomosc/Wizja-NATO-3-0-i-redukcja-wojsk-Kluczowy-urzednik-Pentagonu-w-Europie-9187107.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wiceminister obrony (wojny) USA Elbridge Colby przebywa w tym tygodniu w Europie, gdzie prowadzi rozmowy o „NATO 3.0” - poinformował we wtorek Pentagon. W planach podróży polityka jest wizyta w Niemczech i Belgii.",
       "pubDate": "Tue, 25 Aug 2026 23:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/5/1/e89c740f794180-thumb-1000.jpg",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/0/dfe95d127c0995-948-568-0-0-4000-2399.jpg",
       "dateISO": "2026-08-25T22:00:00.000Z",
       "dateFormatted": "25 sierpnia 2026"
     },
     {
-      "title": "\"Czarny sierpień\" w Rosji. Putin bagatelizuje kryzys",
-      "link": "https://businessinsider.com.pl/wiadomosci/sierpniowa-klatwa-w-rosji-putin-zamiata-kryzys-pod-dywan/7mrsf3c",
-      "description": "\"Czarny sierpień\" — czy też \"sierpniowa klątwa\" — to termin określający poważne kryzysy, które zdają się wybuchać w Rosji w ostatnich tygodniach lata.",
-      "pubDate": "Tue, 25 Aug 2026 19:52:43 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/zidk9kpTURBXy8xYjU2NTZjYTNlYTc4ZDEyYjQ2N2E3NDQwMmZmYzBiOC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-25T19:52:43.000Z",
+      "title": "„Wiemy, co planujecie. Nie róbcie tego”. Tajna misja szefa CIA w Moskwie",
+      "link": "https://www.bankier.pl/wiadomosc/Wiemy-co-planujecie-nie-robcie-tego-Tajna-misja-szefa-CIA-w-Moskwie-9187095.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Nieoczekiwana wizyta dyrektora CIA Johna Ratcliffe'a w Moskwie mogła mieć na celu ostrzeżenie Rosji przed planami prowokacji przeciwko NATO lub mobilizacją - napisał we wtorek „Wall Street Journal”. Ratcliffe miał spędzić w Rosji cztery godziny.",
+      "pubDate": "Tue, 25 Aug 2026 21:58:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/2/ca8b9b90aa43d3-948-568-0-120-2992-1795.jpg",
+      "dateISO": "2026-08-25T20:58:00.000Z",
       "dateFormatted": "25 sierpnia 2026"
     },
     {
@@ -121,18 +601,6 @@
       "dateFormatted": "25 sierpnia 2026"
     },
     {
-      "title": "Iran i Oman mają plan dla cieśniny Ormuz. Dobre wieści po tygodniach negocjacji",
-      "link": "https://businessinsider.com.pl/finanse/handel/zegluga-w-ciesninie-ormuz-iran-i-oman-uzgodnily-wstepny-plan/qe3xdql",
-      "description": "Oman i Iran uzgodniły wstępny ramowy plan wznowienia bezpiecznej żeglugi przez cieśninę Ormuz, w tym utworzenia wspólnego, tymczasowego korytarza morskiego — wynika ze wspólnego komunikatu po rozmowach obu ministrów.",
-      "pubDate": "Tue, 25 Aug 2026 19:04:10 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/jCbk9kpTURBXy81YmQxMTdiMmI1MGQzNmUyODEwODE5YWIwZjVmZTAyMC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-25T19:04:10.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
       "title": "Iran bierze na celownik rodzinę prezydenta USA? Reakcja Secret Service",
       "link": "https://www.bankier.pl/wiadomosc/Iran-bierze-na-celownik-rodzine-prezydenta-USA-Reakcja-Secret-Service-9187072.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Odpowiadająca m.in. za bezpieczeństwo prezydenta USA służba Secret Service poinformowała we wtorek, że wie o istnieniu nagrania, wyemitowanego przez irańskie media państwowe, w którym zagrożono najmłodszemu synowi Donalda Trumpa - Barronowi.",
@@ -142,54 +610,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/9/f/445daf183600cb-948-568-0-101-1630-978.jpg",
       "dateISO": "2026-08-25T18:43:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Dolly Parton nie żyje. Legenda muzyki country zmarła w wieku 80 lat",
-      "link": "https://businessinsider.com.pl/wiadomosci/dolly-parton-nie-zyje-gwiazda-miala-80-lat/rkp3t6y",
-      "description": "Zmarła Dolly Parton — uwielbiana i wielokrotnie nagradzana ikona amerykańskiej muzyki country. Miała 80 lat.",
-      "pubDate": "Tue, 25 Aug 2026 18:34:59 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/MLEk9kpTURBXy82MTVlZDA2ODMwOGIwZmJlOGY5ZTlmMzAzNDVmZDczOS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-25T18:34:59.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Euro na Węgrzech do 2030 roku. Rząd walczy z deficytem i sceptycyzmem rynków",
-      "link": "https://www.bankier.pl/wiadomosc/Euro-na-Wegrzech-do-2030-roku-Rzad-walczy-z-deficytem-i-sceptycyzmem-rynkow-9187068.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Węgry nadal planują spełnić kryteria przystąpienia do strefy euro do 2030 roku, mimo trudnej sytuacji budżetowej odziedziczonej po rządach Viktora Orbana, dodatkowo pogorszonej przez suszę i kryzys energetyczny – poinformował we wtorek minister finansów Węgier Andras Karman.",
-      "pubDate": "Tue, 25 Aug 2026 19:31:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/c/03bea1184e1d53-948-567-0-12-1000-599.jpg",
-      "dateISO": "2026-08-25T18:31:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Costa nagli ws. budżetu UE. Na szali nowa architektura finansowa Wspólnoty",
-      "link": "https://www.bankier.pl/wiadomosc/Costa-nagli-ws-budzetu-UE-Na-szali-nowa-architektura-finansowa-Wspolnoty-9187067.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Szef Rady Europejskiej Antonio Costa we wtorek rozpoczął doroczne tournee po państwach UE od wizyt w Bratysławie i Tallinie. W stolicach Słowacji i Estonii wezwał do zakończenia prac nad nowym budżetem UE (na lata 2028-2034) do końca tego roku.",
-      "pubDate": "Tue, 25 Aug 2026 19:29:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/a/caf7c2fd7dfd59-948-568-540-269-1562-937.jpg",
-      "dateISO": "2026-08-25T18:29:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Montaż pocisków Storm Shadow w Ukrainie? Ekspert: Pierwsze efekty możliwe za pół roku",
-      "link": "https://www.bankier.pl/wiadomosc/Montaz-pociskow-Storm-Shadow-w-Ukrainie-Ekspert-Pierwsze-efekty-mozliwe-za-pol-roku-9186968.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ekspert lotniczy Anatolij Chrapczynski uważa, że Ukraina dysponuje zapleczem technologicznym umożliwiającym uruchomienie montażu pocisków manewrujących Storm Shadow i SCALP. Jego zdaniem montaż z wykorzystaniem dużych podzespołów byłby możliwy już w ciągu 6–12 miesięcy",
-      "pubDate": "Tue, 25 Aug 2026 19:25:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/2/d529cb5ce04e24-948-567-0-20-1000-599.jpg",
-      "dateISO": "2026-08-25T18:25:00.000Z",
       "dateFormatted": "25 sierpnia 2026"
     },
     {
@@ -205,54 +625,6 @@
       "dateFormatted": "25 sierpnia 2026"
     },
     {
-      "title": "Czwarty stopień zagrożenia dla Korfu i Zakintos. Setki strażaków i samoloty gaśnicze wokół Aten",
-      "link": "https://www.bankier.pl/wiadomosc/Czwarty-stopien-zagrozenia-dla-Korfu-i-Zakintos-Setki-strazakow-i-samoloty-gasnicze-wokol-Aten-9187054.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Kilkuset strażaków wspieranych przez samoloty zrzucające wodę kontynuuje gaszenie rozległych pożarów lasów w pobliżu Aten, a także na północy Grecji – poinformowała we wtorek grecka straż pożarna. Władze wydały też ostrzeżenie przed możliwymi pożarami na wyspach zachodniej części Morza Jońskiego.",
-      "pubDate": "Tue, 25 Aug 2026 19:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/9/f9871ad9e78bc3-948-568-0-35-3553-2131.jpg",
-      "dateISO": "2026-08-25T18:00:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Największa inwestycja w historii ZGM Zębiec. Państwowe miliony na produkcję bentonitów",
-      "link": "https://www.bankier.pl/wiadomosc/Najwieksza-inwestycja-w-historii-ZGM-Zebiec-Panstwowe-miliony-na-produkcje-bentonitow-9187039.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Agencja Rozwoju Przemysłu zdecydowała o wsparciu nowego projektu spółki ZGM Zębiec w ramach Polskiej Strefy Inwestycji - poinformowała ARP we wtorek. Dodała, że zaangażowanie kapitałowe ARP wyniesie blisko 74,5 mln zł, a powstać ma nowa linia do produkcji bentonitów i mieszanek bentonitowych.",
-      "pubDate": "Tue, 25 Aug 2026 18:06:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/6/e62310621f88fa-948-568-0-131-2508-1504.jpg",
-      "dateISO": "2026-08-25T17:06:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Mieli napalm i gotowy plan. Chcieli spalić fabrykę dronów na Słowacji",
-      "link": "https://www.bankier.pl/wiadomosc/Mieli-napalm-i-gotowy-plan-Chcieli-spalic-fabryke-dronow-na-Slowacji-9187033.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Słowacka policja poinformowała we wtorek o udaremnieniu planowanego podpalenia zakładów produkujących drony. Zatrzymano trzech obcokrajowców. Dwaj z nich zostali zatrzymani na Słowacji, za trzecim wysłano list gończy i został ujęty w Niemczech.",
-      "pubDate": "Tue, 25 Aug 2026 18:03:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/5/540bc86d6de4ea-937-562-62-0-937-562.jpg",
-      "dateISO": "2026-08-25T17:03:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Kernel ma 100 mln euro kredytu z duńskiego funduszu EIFO na elektrownię wiatrową w Ukrainie",
-      "link": "https://www.bankier.pl/wiadomosc/Kernel-ma-100-mln-euro-kredytu-z-dunskiego-funduszu-EIFO-na-elektrownie-wiatrowa-w-Ukrainie-9187030.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Kernel Holding podpisał umowę kredytową z Duńskim Funduszem Eksportu i Inwestycji (EIFO) na kwotę do 100 mln euro - podała spółka w komunikacie. Finansowanie jest udzielane w ramach specjalnego programu EIFO wspierającego inwestycje w Ukrainie i zostanie przeznaczone na sfinansowanie budowy pierwsze",
-      "pubDate": "Tue, 25 Aug 2026 18:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/9/a/00bc325cbd4b65-948-567-0-5-1000-599.jpg",
-      "dateISO": "2026-08-25T17:00:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
       "title": "„Ekonomiczne uduszenie” Iranu rozwścieczyło Pekin. Spór z USA o ropę",
       "link": "https://www.bankier.pl/wiadomosc/Ekonomiczne-uduszenie-Iranu-rozwscieczylo-Pekin-Spor-z-USA-o-rope-9187024.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Chiny sprzeciwiają się „bezprawnym i jednostronnym” sankcjom USA wobec Iranu i podejmą niezbędne kroki, by chronić własne interesy – oświadczyło we wtorek MSZ w Pekinie. To reakcja na ogłoszenie przez Waszyngton sankcji wtórnych, których celem jest uderzenie w partnerów handlowych Iranu.",
@@ -265,51 +637,15 @@
       "dateFormatted": "25 sierpnia 2026"
     },
     {
-      "title": "Drony, termowizja i taktyka. Tak USA pomagają Polsce chronić wschodnią granicę",
-      "link": "https://www.bankier.pl/wiadomosc/Drony-termowizja-i-taktyka-Tak-USA-pomagaja-Polsce-chronic-wschodnia-granice-9187020.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W Komendzie Głównej Straży Granicznej podpisano we wtorek umowę z Departamentem Stanu USA, na mocy której polska formacja odebrała nowoczesny sprzęt do ochrony granic o wartości ponad 2,1 mln dolarów - poinformowała Straż Graniczna.",
-      "pubDate": "Tue, 25 Aug 2026 17:50:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/7/67676c66402b89-948-568-0-32-995-597.jpg",
-      "dateISO": "2026-08-25T16:50:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Quantum Assets zaprasza do składania ofert sprzedaży do 73 tys. akcji Quantum Software, w cenie 38 zł/szt.",
-      "link": "https://www.bankier.pl/wiadomosc/Quantum-Assets-zaprasza-do-skladania-ofert-sprzedazy-do-73-tys-akcji-Quantum-Software-w-cenie-38-zl-szt-9187014.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Quantum Assets zaprasza do składania ofert sprzedaży do 73 tys. akcji Quantum Software, w cenie 38 zł za sztukę - podała spółka w komunikacie.",
-      "pubDate": "Tue, 25 Aug 2026 17:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/e/8/3f2d4264c8acc9-948-568-90-100-3910-2345.jpg",
-      "dateISO": "2026-08-25T16:40:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
       "title": "„Klauni” oddają cios. Kanada uderza w USA potężnymi cłami na towary za 20 mld dolarów",
-      "link": "https://www.bankier.pl/wiadomosc/Klauni-oddaja-cios-Kanada-uderza-w-USA-poteznymi-clami-na-towary-z-USA-za-20-mld-dolarow-9187011.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Klauni-oddaja-cios-Kanada-uderza-w-USA-poteznymi-clami-na-towary-z-USA-za-20-mld-dolarow-9187011.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Kanada ogłosiła we wtorek cła odwetowe na towary z USA o wartości ok. 20 mld dolarów, odpowiadające nowym cłom nałożonym przez Waszyngton, a także zapowiedziała wsparcie finansowe dla kanadyjskich firm i pracowników dotkniętych eskalacją wojny handlowej.",
       "pubDate": "Tue, 25 Aug 2026 17:36:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/9/2c93a4018bfcac-948-568-312-493-3719-2231.jpg",
       "dateISO": "2026-08-25T16:36:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Trump ogłasza pełną kontrolę nad cieśniną Ormuz. „Monitorujemy każdy cal kwadratowy”",
-      "link": "https://www.bankier.pl/wiadomosc/Trump-oglasza-pelna-kontrole-nad-ciesnina-Ormuz-Monitorujemy-kazdy-cal-kwadratowy-9187006.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent Donald Trump poinformował we wtorek, że siły USA usunęły lub zdetonowały wszystkie miny na wodach międzynarodowych cieśniny Ormuz. Ogłosił jednocześnie „politykę zera tolerancji” dla stawiania nowych min przez Iran.",
-      "pubDate": "Tue, 25 Aug 2026 17:27:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/5/c661660feaf470-948-568-0-89-3000-1799.jpg",
-      "dateISO": "2026-08-25T16:27:00.000Z",
       "dateFormatted": "25 sierpnia 2026"
     },
     {
@@ -325,30 +661,6 @@
       "dateFormatted": "25 sierpnia 2026"
     },
     {
-      "title": "Nowa wersja Netfliksa dostępna w Polsce. Oto co się zmieni, gdy pobierzesz aktualizację",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/nowa-wersja-netfliksa-dostepna-w-polsce-oto-co-sie-zmieni-gdy-pobierzesz-aktualizacje/0ml0eb2",
-      "description": "Od 25 sierpnia Netflix zmienia się (prawie) nie do poznania. Po latach funkcjonowania w tradycyjnym modelu aplikacja wprowadza pionowe treści. Przyglądamy się bliżej temu, co konkretnie zmieni się dla polskich użytkowników.",
-      "pubDate": "Tue, 25 Aug 2026 16:06:47 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/y38k9kpTURBXy82ZjIxNGYzNzU1MmY4ZTExNDgwYjc3ZDYyZDE2YzZiYi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-25T16:06:47.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Idą na noże. Jest odpowiedź Kanady",
-      "link": "https://businessinsider.com.pl/gospodarka/kanada-odpowiada-na-cla-donalda-trumpa-mark-carney-o-wojnie-celnej/dk0d1nc",
-      "description": "Premier Kanady Mark Carney odpowiedział na nowe cła wprowadzone w weekend przez Donalda Trumpa, nakładając cła odwetowe o tej samej wartości. Ogłosił też programy wsparcia dla kanadyjskich przedsiębiorstw dotkniętych eskalacją wojny handlowej.",
-      "pubDate": "Tue, 25 Aug 2026 15:54:26 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/-XWk9kpTURBXy9hMDY1ZjM2YWRjZmM3NTIyMzY1ZTU0NTM3NGMzZjY2NS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-25T15:54:26.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
       "title": "Armenia wybiera Europę, Kreml żąda referendum. Wielka ucieczka z rosyjskiej strefy wpływów",
       "link": "https://www.bankier.pl/wiadomosc/Armenia-wybiera-Europe-Kreml-zada-referendum-Wielka-ucieczka-z-rosyjskiej-strefy-wplywow-9186979.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Armenia nigdy nie była tak blisko Unii Europejskiej jak jest dzisiaj - powiedział we wtorek rzecznik Komisji Europejskiej Markus Lammert. W ten sposób skomentował zapowiedź premiera Armenii Nikola Paszyniana, że wkrótce Erywań rozpocznie proces ubiegania się o członkostwo w UE.",
@@ -358,54 +670,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/8/7/b41b6a3a9c3794-948-568-0-190-4000-2399.jpg",
       "dateISO": "2026-08-25T15:41:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "50 mld euro dla Ukrainy pod znakiem zapytania. UE przypomina o wymogu walki z korupcją",
-      "link": "https://www.bankier.pl/wiadomosc/50-mld-euro-dla-Ukrainy-pod-znakiem-zapytania-UE-przypomina-o-wymogu-walki-z-korupcja-9186977.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Komisja Europejska ponagliła we wtorek Ukrainę do kontynuowania reform po tym, gdy komisja w ukraińskim parlamencie zablokowała część z nich. Praworządność i walka z korupcją są kluczowymi elementami każdego kraju ubiegającego się o członkostwo w UE - powiedział rzecznik KE Markus Lammert.",
-      "pubDate": "Tue, 25 Aug 2026 16:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/2/cdfd4cf5b235f4-948-568-0-280-3966-2380.jpg",
-      "dateISO": "2026-08-25T15:40:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Szef CIA w tajemnicy ląduje w Moskwie. Cel spotkań pozostaje nieznany",
-      "link": "https://www.bankier.pl/wiadomosc/Szef-CIA-w-tajemnicy-laduje-w-Moskwie-Cel-spotkan-pozostaje-nieznany-9186973.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Dyrektor CIA John Ratcliffe przybył we wtorek do Moskwy, gdzie ma odbyć spotkania - podała we wtorek amerykańska telewizja CBS News, powołując się na anonimowe źródła. Nie ma dotąd szczegółów dotyczących celu wizyty.",
-      "pubDate": "Tue, 25 Aug 2026 16:32:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/a/e5dbda4a97d2c2-948-568-0-100-3632-2179.jpg",
-      "dateISO": "2026-08-25T15:32:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Wakacyjne kontrole na ulicach Warszawy. Posypały się mandaty",
-      "link": "https://businessinsider.com.pl/wiadomosci/mandat-za-jazde-po-alkoholu-hulajnogi-na-celowniku-policji/zw4pc4n",
-      "description": "Policja podsumowała dwie ostatnie akcje kontrolne — policjanci zatrzymali w Warszawie 33 osoby kierujące hulajnogami elektrycznymi pod wpływem alkoholu. Posypały się mandaty na łączną kwotę ponad 80 tys. zł.",
-      "pubDate": "Tue, 25 Aug 2026 15:30:29 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/m8Jk9kpTURBXy81ODZhNzliYmQxZTNhMDZiZjA3NWUxOTZlNWUwNDBlMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-25T15:30:29.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Akcje CD Projekt zanurkowały. Wiedźmin 4 w innym terminie",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/rynek-rozczarowany-decyzja-cd-projekt-wiedzmin-4-pojawi-sie-w-innym-terminie/bfmxsvf",
-      "description": "Momentami o ponad 8 proc. spadały we wtorek akcje CD Projektu. Jedna wypowiedź prezesa na platformie X o terminie premiery Wiedźmina 4 uruchomiła bardziej niecierpliwych inwestorów a zarazem zmieniła wyceny spółki.",
-      "pubDate": "Tue, 25 Aug 2026 15:10:31 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/2vuk9kpTURBXy9mM2E2M2YyYTZjOTdlMDFlMjA3N2ZlODUwNjFlYzc4Yy5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-25T15:10:31.000Z",
       "dateFormatted": "25 sierpnia 2026"
     },
     {
@@ -421,18 +685,6 @@
       "dateFormatted": "25 sierpnia 2026"
     },
     {
-      "title": "Prąd i uprawy na jednej działce. Energa zainwestuje miliony w agrofotowoltaikę na Pomorzu",
-      "link": "https://www.bankier.pl/wiadomosc/Prad-i-uprawy-na-jednej-dzialce-Energa-zainwestuje-miliony-w-agrofotowoltaike-na-Pomorzu-9186940.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Pomorze staje się energetycznym sercem Polski, a kluczem do niższych cen prądu jest produkcja energii lokalnie – przekonywał we wtorek minister energii Miłosz Motyka. W Lubaniu (pow. kościerski) zainaugurowano projekt badawczo-rozwojowy „Wyspa energetyczna Lubań”.",
-      "pubDate": "Tue, 25 Aug 2026 15:41:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/f/0d195904dcd100-948-568-14-297-1904-1142.jpg",
-      "dateISO": "2026-08-25T14:41:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
       "title": "Włochy i Węgry zwlekają, Polska chce skorzystać. Miliardy euro w drugim naborze SAFE",
       "link": "https://www.bankier.pl/wiadomosc/Wlochy-i-Wegry-zwlekaja-Polska-chce-skorzystac-Miliardy-euro-w-drugim-naborze-SAFE-9186932.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Komisja Europejska jeszcze w tym roku ogłosi drugi nabór wniosków w ramach programu SAFE, by rozdysponować niewykorzystane pieniądze - zapowiedział rzecznik KE Thomas Regnier. Wiceszef MON Paweł Zalewski potwierdził PAP, że Polska jest zainteresowana udziałem w drugim naborze.",
@@ -445,66 +697,6 @@
       "dateFormatted": "25 sierpnia 2026"
     },
     {
-      "title": "Rosyjski gaz z Bałtyku popłynął do Chin. Znaleźli skrót",
-      "link": "https://businessinsider.com.pl/gospodarka/rosyjski-gaz-z-baltyku-poplynal-do-chin-znalezli-skrot/f41wxt6",
-      "description": "Do tego momentu cały bałtycki LNG transportowany był do Azji wyłącznie przez Atlantyk, Morze Śródziemne i Kanał Sueski. Nikt wcześniej nie transportował gazu bałtyckiego bezpośrednio przez morze wokół Arktyki. To ma się wkrótce zmienić, a trasę przeciera rosyjski pływający magazyn LNG \"Portowyj\".",
-      "pubDate": "Tue, 25 Aug 2026 14:07:29 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/NX9k9kpTURBXy9iODgzM2JiZWE5NWVhZGQ3NDkxZjUwZTZkOGRhMjlhYy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-25T14:07:29.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Nowy podatek w Niemczech. Cola Zero też trafiła na listę",
-      "link": "https://businessinsider.com.pl/gospodarka/podatki/nowy-podatek-w-niemczech-cola-zero-tez-trafila-na-liste/54dcfsv",
-      "description": "\"Jak bardzo ten rząd chce jeszcze oszukiwać swoich obywateli?\". W Niemczech panuje oburzenie z powodu planów wprowadzenia podatku cukrowego.",
-      "pubDate": "Tue, 25 Aug 2026 14:06:41 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/cD7k9kpTURBXy9kOGU2ZTYyYTZjNmJjNTI2ZTkyOWNhZGJlNGQxMWVjZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-25T14:06:41.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Tysiące migrantów wciąż koczują w Ceucie. Madryt prosi UE o pieniądze",
-      "link": "https://www.bankier.pl/wiadomosc/Tysiace-migrantow-wciaz-koczuja-w-Ceucie-Madryt-prosi-UE-o-pieniadze-9186905.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Hiszpania zwróciła się do Komisji Europejskiej o unijną pomoc finansową w związku z sytuacją w Ceucie. Wniosek w tej sprawie ma zostać rozpatrzony „szybko”. Komisja jest gotowa udzielić unijnego wsparcia - zapowiedział w Brukseli rzecznik KE Markus Lammert.",
-      "pubDate": "Tue, 25 Aug 2026 14:51:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/0/c1a70a33696253-948-568-10-282-4015-2409.jpg",
-      "dateISO": "2026-08-25T13:51:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "167-letni niemiecki browar nad przepaścią. Pojawiła się szansa na ratunek",
-      "link": "https://businessinsider.com.pl/biznes/niemiecki-browar-mauritius-walczy-o-przetrwanie/sff312c",
-      "description": "Niemiecki browar Mauritius Brauerei produkuje m.in. dla sieci supermarketów Rewe i Globus, a także dla dyskontu Lidl. Jednak ani silne partnerstwa, ani dopracowana oferta produktów, ani zakorzenienie w regionie nie zdołały powstrzymać kryzysu. Jest jednak światło w tunelu. Trwają negocjacje z inwest",
-      "pubDate": "Tue, 25 Aug 2026 13:20:42 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/dVJk9kpTURBXy8yYTFmOGM3ODI2NDU0M2Y5ZTRjYWI0OGZkY2I0MTJhZS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-25T13:20:42.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Bitcoin przebił 80 tys. dol. Potem stało się coś nieoczekiwanego",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/80-tys-dolarow-przebite-przez-bitcoina-co-dalej-z-cena-kryptowaluty/zdwqn0c",
-      "description": "We wtorek rano cena bitcoina przekroczyła z impetem próg 80 tys. dol., czyli poziom ostatnio widziany w lutym tego roku. Inwestorzy nie odważyli się jednak iść dużo dalej i wielu z nich przystąpiło do realizowania zysków. To zaskakujące, zważywszy na bardzo duży napływ środków do funduszy ETF na bit",
-      "pubDate": "Tue, 25 Aug 2026 13:18:46 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Bpfk9kpTURBXy9kMmNlNWE5NDRkZTczYzdjMTk5N2M0ZDkxM2YzZDZiMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-25T13:18:46.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
       "title": "Obława na zagranicznych inwestorów w Tajlandii. Polski wątek luksusowych willi w centrum śledztwa",
       "link": "https://www.bankier.pl/wiadomosc/Oblawa-na-zagranicznych-inwestorow-w-Tajlandii-Polski-watek-luksusowych-willi-w-centrum-sledztwa-9186875.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Władze Tajlandii nasilają walkę z nielegalnym handlem nieruchomościami przez obcokrajowców – podały we wtorek media w tym kraju. Kontrolami objęto setki zagranicznych inwestorów obchodzących prawo za pomocą fikcyjnych spółek i udziałowców-słupów. Wśród podejrzanych są obywatele Polski.",
@@ -514,18 +706,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/2/2/640901bded53d8-948-568-0-251-3729-2237.jpg",
       "dateISO": "2026-08-25T13:12:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Wizja lokalna po śmiertelnym wypadku w Krakowie. \"To wina sprawcy, nie drogi\"",
-      "link": "https://www.bankier.pl/wiadomosc/Wizja-lokalna-po-smiertelnym-wypadku-w-Krakowie-To-wina-sprawcy-nie-drogi-9186872.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wizja lokalna przeprowadzona z udziałem m.in. policji wykazała, że ze strony miasta nie było zaniedbań w rejonie ulic Nadwiślańskiej, Solnej i Zabłocie, gdzie w sobotę doszło do śmiertelnego potrącenia rodziny – przekazał we wtorek pełniący funkcję prezydenta Krakowa Stanisław Kracik.",
-      "pubDate": "Tue, 25 Aug 2026 14:08:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/0/3bc148d39ed2ec-948-568-0-202-3000-1799.jpg",
-      "dateISO": "2026-08-25T13:08:00.000Z",
       "dateFormatted": "25 sierpnia 2026"
     },
     {
@@ -553,30 +733,6 @@
       "dateFormatted": "25 sierpnia 2026"
     },
     {
-      "title": "Donald Trump grozi zmianą nazwy słynnego jeziora. W tle wojna handlowa",
-      "link": "https://businessinsider.com.pl/wiadomosci/donald-trump-grozi-kanadzie-jezioro-ameryka-zamiast-jeziora-ontario/0knsk54",
-      "description": "Donald Trump zagroził we wtorek zmianą nazwy jeziora Ontario, zaostrzając tym samym spór z kanadyjskimi władzami w obliczu nasilającego się konfliktu handlowego.",
-      "pubDate": "Tue, 25 Aug 2026 12:47:17 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/KMTk9kpTURBXy83YWZlOTc3NzBkMjJhMjc2MGMyYTk1MzdkNjIyNzRiMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-25T12:47:17.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "84 tys. zł unijnej dotacji na astrologię. Pieniądze pójdą na naukę 3 języków",
-      "link": "https://www.bankier.pl/wiadomosc/84-tys-zl-unijnej-dotacji-na-astrologie-Pieniadze-pojda-na-nauke-3-jezykow-9186826.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Urząd Marszałkowski w Olsztynie przyznał ponad 84 tys. zł dotacji dla Instytutu Badań nad Astrologią AstroLab z Ełku. Instytut tworzy jedna osoba, Robert Marzewski, który za te pieniądze chce się nauczyć języków angielskiego, niemieckiego i rosyjskiego, by w oryginale móc czytać książki o astrologii",
-      "pubDate": "Tue, 25 Aug 2026 13:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/a/351e2ec117f525-948-568-4-31-1775-1065.jpg",
-      "dateISO": "2026-08-25T12:45:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
       "title": "Mark Zuckerberg z żoną kupili zamek w Irlandii. Posiadłość ma 178 hektarów",
       "link": "https://www.bankier.pl/wiadomosc/Mark-Zuckerberg-z-zona-kupili-zamek-w-Irlandii-Posiadlosc-ma-178-hektarow-9186799.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Mark Zuckerberg powiększył swój portfel nieruchomości o posiadłość w Irlandii. Szef Meta wraz z żoną Priscillą Chan kupił Strancally Castle, XIX-wieczny zamek w hrabstwie Waterford. Wartość nieruchomości szacowana jest na 20-30 mln euro.",
@@ -601,18 +757,6 @@
       "dateFormatted": "25 sierpnia 2026"
     },
     {
-      "title": "Cena ropy zawróciła mocno w dół. Rynek ocenił działania USA",
-      "link": "https://businessinsider.com.pl/gielda/polscy-kierowcy-odczuja-ulge-na-stacjach-benzynowych-ropa-tanieje-mimo-napiec-wokol/jx9tm5q",
-      "description": "Na takie zmiany czekają polscy kierowcy i w ogóle polska gospodarka. Cena ropy Brent spada we wtorek o 3,3 proc. Presja ekonomiczna Donalda Trumpa na Iran okazała się dla rynku informacją lepszą niż eskalacja działań zbrojnych.",
-      "pubDate": "Tue, 25 Aug 2026 12:18:29 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/0U4k9kpTURBXy8xYjc4MzEyNWNkNjBmOWYwNGY1MmI2ZmQ5ODJkODIyOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-25T12:18:29.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
       "title": "Prokuratura ściga rosyjskich biegłych od Smoleńska. Wydano listy gończe",
       "link": "https://www.bankier.pl/wiadomosc/Prokuratura-sciga-rosyjskich-bieglych-od-Smolenska-Wydano-listy-goncze-9186834.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Sądy zdecydowały o zastosowaniu tzw. aresztu poszukiwawczego wobec 14 spośród 40 rosyjskich biegłych medyków sądowych od sekcji zwłok ofiar katastrofy smoleńskiej; są poszukiwani listami gończymi. Wobec 26 aresztu odmówiono, 6 odmów jest nieprawomocnych - dowiedziała się PAP w Prokuraturze Krajowej.",
@@ -622,54 +766,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/1/43a27c580de4d3-948-568-0-1163-2674-1604.jpg",
       "dateISO": "2026-08-25T12:18:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Szukali ropy na południu Polski. Znaleźli coś znacznie cenniejszego",
-      "link": "https://businessinsider.com.pl/biznes/szukali-ropy-na-poludniu-polski-znalezli-cos-znacznie-cenniejszego/d9g2m2b",
-      "description": "Kazimierza Wielka szykuje się na inwestycyjny przełom. Może tam powstać jeden z największych kompleksów uzdrowiskowych w Polsce. Wszystko dzięki bogatym złożom wód siarczkowych.",
-      "pubDate": "Tue, 25 Aug 2026 12:13:31 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/3t0k9kpTURBXy8xNjk3NjM1NzNiNzc3OTk2MDU2MWE5N2YzZDRlYTUwMC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-25T12:13:31.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Wojna hybrydowa dociera do Niemiec. \"Bez skrupułów godzą się na ofiary\"",
-      "link": "https://www.bankier.pl/wiadomosc/Wojna-hybrydowa-dociera-do-Niemiec-Bez-skrupulow-godza-sie-na-ofiary-9186827.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Kanclerz Niemiec Friedrich Merz powiedział we wtorek, że odpowiedzialni za ataki hybrydowe na kraj zapłacą za nie cenę. Zapowiedział, że rząd przedstawi wkrótce informacje dotyczące sprawców incydentu dronowego na lotnisku w Lipsku z początku sierpnia.",
-      "pubDate": "Tue, 25 Aug 2026 13:02:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/6/bb88fcb7c53b77-948-568-4-143-1975-1185.jpg",
-      "dateISO": "2026-08-25T12:02:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Przełom w sprawie Zondacrypto. Minister Żurek ogłasza",
-      "link": "https://businessinsider.com.pl/prawo/zurek-o-zondacrypto-nowe-dowody-nowi-podejrzani-sledztwo-przyspiesza/tn9fkfz",
-      "description": "Śledztwo dotyczące giełdy kryptowalut Zondacrypto wchodzi w nową fazę. Minister sprawiedliwości i prokurator generalny Waldemar Żurek poinformował o przełomie w postępowaniu, ujawniając, że pojawili się nowi podejrzani, nowe dowody oraz osoby gotowe współpracować z prokuraturą.",
-      "pubDate": "Tue, 25 Aug 2026 11:40:23 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/kPYk9kpTURBXy81NmE2Yjg3MjQwYmQ2N2U3Mjg5MWM3MDI4NGFkNGM4OS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-08-25T11:40:23.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Przełom w śledztwie ws. Zondacrypto. Minister sprawiedliwości: Są nowi podejrzani i dowody",
-      "link": "https://www.bankier.pl/wiadomosc/Przelom-w-sprawie-Zondacrypto-Minister-Zurek-apeluje-o-cierpliwosc-9186778.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Jest przełom w śledztwie - powiedział we wtorek minister sprawiedliwości Waldemar Żurek pytany o czynności prokuratury w sprawie Zondacyrpto. - Są nowi podejrzani, nowe dowody i nowe osoby, które chcą współpracować z prokuraturą - dodał. Śledczy weryfikują informacje, uzyskane w trakcie postępowania",
-      "pubDate": "Tue, 25 Aug 2026 12:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/4/6a334b35f9ba88-948-568-7-187-2992-1795.jpg",
-      "dateISO": "2026-08-25T11:18:00.000Z",
       "dateFormatted": "25 sierpnia 2026"
     },
     {
@@ -694,30 +790,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/0/2b1668b4e2b1af-948-568-23-212-4698-2819.jpg",
       "dateISO": "2026-08-25T10:00:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Kurs CD Projekt Red spada o ponad 6%. Chodzi o zapowiedź daty premiery \"Wiedźmina 4\"?",
-      "link": "https://www.bankier.pl/wiadomosc/Kurs-CD-Projekt-Red-spada-o-6-proc-przy-zwyzce-WIG20-o-0-2-proc-9186653.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Kurs akcji CD Projekt Red spada o 6 proc., przy wysokich obrotach. WIG20 zwyżkuje o 0,2 proc.",
-      "pubDate": "Tue, 25 Aug 2026 09:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/0/7a0d2be3a7ff56-948-568-76-30-1902-1141.jpg",
-      "dateISO": "2026-08-25T08:10:00.000Z",
-      "dateFormatted": "25 sierpnia 2026"
-    },
-    {
-      "title": "Zmarł jeden z najbogatszych Niemców. Stworzył logistycznego giganta",
-      "link": "https://www.bankier.pl/wiadomosc/Zmarl-jeden-z-najbogatszych-Niemcow-Stworzyl-logistycznego-giganta-9186647.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Niemiecki inwestor Klaus-Michael Kühne, główny udziałowiec szwajcarskiej grupy logistycznej Kühne + Nagel, zmarł w wieku 89 lat – poinformowała spółka.",
-      "pubDate": "Tue, 25 Aug 2026 09:01:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/2/a467ab5856c0eb-948-568-0-0-1500-899.jpg",
-      "dateISO": "2026-08-25T08:01:00.000Z",
       "dateFormatted": "25 sierpnia 2026"
     },
     {
@@ -778,18 +850,6 @@
       "category": "gielda",
       "image": "https://content-media.investing.com/news/LYNXMPEDB30UQ_M.jpg",
       "dateISO": "2026-08-24T06:24:30.000Z",
-      "dateFormatted": "24 sierpnia 2026"
-    },
-    {
-      "title": "Giełda od kuchni. Kto zna Twój giełdowy stan posiadania? Tajemnica rachunku a rejestry KDPW",
-      "link": "https://www.bankier.pl/wiadomosc/Gielda-od-kuchni-Kto-zna-Twoj-gieldowy-stan-posiadania-Tajemnica-rachunku-a-rejestry-KDPW-9186020.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Czy kupując akcje na giełdzie, Twój majątek staje się publiczną wiedzą, czy pozostaje dyskretny? Zastanawiasz się, kto poza Tobą ma wgląd w Twój portfel i czy spółka, w którą inwestujesz, wie, że masz jej papiery? Prześwietlamy dwupoziomowy system rejestracji własności - od Twojego konta w aplikacji",
-      "pubDate": "Mon, 24 Aug 2026 07:15:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/b/5/72a83bfa7bfe60-940-564-7-0-940-564.jpg",
-      "dateISO": "2026-08-24T06:15:00.000Z",
       "dateFormatted": "24 sierpnia 2026"
     },
     {
@@ -863,19 +923,7 @@
       "image": "https://content-media.investing.com/news/CryptoBitcoindigital_800x533_L_1641975060.jpg",
       "dateISO": "2026-08-21T22:01:07.000Z",
       "dateFormatted": "21 sierpnia 2026"
-    },
-    {
-      "title": "XRP 10% w górę, na rynku byka",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/xrp-10-w-gore-na-rynku-byka-1542845",
-      "description": "",
-      "pubDate": "2026-08-21 21:00:08",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/LYNXMPEA7A0O3_M.jpg",
-      "dateISO": "2026-08-21T21:00:08.000Z",
-      "dateFormatted": "21 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-26T04:39:47.113Z"
+  "updatedAt": "2026-08-26T06:50:19.308Z"
 }
