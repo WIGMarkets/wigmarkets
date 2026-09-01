@@ -20,7 +20,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/6/9/663ed7264204bb-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/e/8/3f1457f4fed800-thumb-1000.jpg",
       "dateISO": "2026-08-31T19:58:00.000Z",
       "dateFormatted": "31 sierpnia 2026"
     },
@@ -44,7 +44,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/0/f/c054fce945dcfc-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/1/0/32ef436f61248c-thumb-1000.jpg",
       "dateISO": "2026-08-31T18:52:00.000Z",
       "dateFormatted": "31 sierpnia 2026"
     },
@@ -116,7 +116,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/9/3/8d6d4df8d08771-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/1/0/32ef436f61248c-thumb-1000.jpg",
       "dateISO": "2026-08-31T17:10:00.000Z",
       "dateFormatted": "31 sierpnia 2026"
     },
@@ -805,18 +805,6 @@
       "dateFormatted": "31 sierpnia 2026"
     },
     {
-      "title": "Spadki na giełdzie, czyli o dziedziczeniu akcji. Co się dzieje z kontem maklerskim po śmierci inwestora?",
-      "link": "https://www.bankier.pl/wiadomosc/Spadki-na-gieldzie-czyli-o-dziedziczeniu-akcji-Co-sie-dzieje-z-kontem-maklerskim-po-smierci-inwestora-9188737.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Pan Jan inwestował na giełdzie i zmarł, a jego spadkobiercy nie wiedzą w jakim domu maklerskim znajdował się jego rachunek - co powinni zrobić, by to ustalić? Pani Zofia zostawiła bliskim w spadku pokaźną sumę akcji, ale czy znając jej loginy, spadkobiercy mogą po prostu sprzedać jej papiery wartośc",
-      "pubDate": "Mon, 31 Aug 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/1/5/0c45f6f328d723-948-568-0-190-4000-2399.jpg",
-      "dateISO": "2026-08-31T05:00:00.000Z",
-      "dateFormatted": "31 sierpnia 2026"
-    },
-    {
       "title": "Giełda od kuchni. Akcje na giełdzie a śmierć inwestora. Gdzie trafią Twoje udziały?",
       "link": "https://www.bankier.pl/wiadomosc/Gielda-od-kuchni-Akcje-na-gieldzie-a-smierc-inwestora-Gdzie-trafia-Twoje-udzialy-9188710.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "W przeciwieństwie do fizycznej gotówki czy nieruchomości, akcje zapisane na rachunku maklerskim mają formę wyłącznie cyfrową. Po śmierci właściciela papiery wartościowe nie wyparowują jednak z serwerów ani nie przechodzą na własność biura maklerskiego. Wyjaśniamy, jak przepisy prawa chronią portfel ",
@@ -825,6 +813,18 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/b/5/72a83bfa7bfe60-940-564-7-0-940-564.jpg",
+      "dateISO": "2026-08-31T05:00:00.000Z",
+      "dateFormatted": "31 sierpnia 2026"
+    },
+    {
+      "title": "Spadki na giełdzie, czyli o dziedziczeniu akcji. Co się dzieje z kontem maklerskim po śmierci inwestora?",
+      "link": "https://www.bankier.pl/wiadomosc/Spadki-na-gieldzie-czyli-o-dziedziczeniu-akcji-Co-sie-dzieje-z-kontem-maklerskim-po-smierci-inwestora-9188737.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Pan Jan inwestował na giełdzie i zmarł, a jego spadkobiercy nie wiedzą w jakim domu maklerskim znajdował się jego rachunek - co powinni zrobić, by to ustalić? Pani Zofia zostawiła bliskim w spadku pokaźną sumę akcji, ale czy znając jej loginy, spadkobiercy mogą po prostu sprzedać jej papiery wartośc",
+      "pubDate": "Mon, 31 Aug 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/1/5/0c45f6f328d723-948-568-0-190-4000-2399.jpg",
       "dateISO": "2026-08-31T05:00:00.000Z",
       "dateFormatted": "31 sierpnia 2026"
     },
@@ -925,5 +925,5 @@
       "dateFormatted": "26 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-08-31T22:34:19.981Z"
+  "updatedAt": "2026-09-01T03:58:07.336Z"
 }
