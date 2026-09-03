@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Akcjonariusz XTB sprzedał w ABB 8 proc. akcji spółki, po 160 zł za sztukę",
+      "link": "https://www.bankier.pl/wiadomosc/Akcjonariusz-XTB-sprzedal-w-ABB-8-proc-akcji-spolki-po-160-zl-za-sztuke-9191304.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "XX ZW Investment Group w ramach zakończonego w środę procesu przyspieszonej budowy księgi popytu (ABB) sprzedał 8 proc. akcji giełdowej spółki XTB, po cenie 160 zł za sztukę - poinformował XTB w komunikacie.",
+      "pubDate": "Thu, 3 Sep 2026 00:32:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/e/8/3f1457f4fed800-thumb-1000.jpg",
+      "dateISO": "2026-09-02T23:32:00.000Z",
+      "dateFormatted": "2 września 2026"
+    },
+    {
       "title": "Na Wall Street nieśmiałe wzrosty po trzech dniach spadków",
       "link": "https://www.bankier.pl/wiadomosc/Na-Wall-Street-niesmiale-wzrosty-po-trzech-dniach-spadkow-9191292.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Środowa sesja na Wall Street zakończyła się wzrostami głównych indeksów. Tym samym S&P 500, a także technologiczny Nasdaq i Dow Jones, przerwały trzydniową serię spadków.",
@@ -829,18 +841,6 @@
       "dateFormatted": "1 września 2026"
     },
     {
-      "title": "Inflacja w strefie euro najwyższa od blisko 3 lat. Cel EBC został daleko w tyle",
-      "link": "https://www.bankier.pl/wiadomosc/Inflacja-w-strefie-euro-w-sierpniu-2026-byla-najwyzsza-od-blisko-3-lat-9190222.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Roczna dynamika wskaźnika HICP przyjęła najwyższą wartość od września 2023 roku, coraz bardziej oddalając się od celu Europejskiego Banku Centralnego.",
-      "pubDate": "Tue, 1 Sep 2026 11:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/7/c/337bc83df43f4f-948-568-0-124-2500-1499.jpg",
-      "dateISO": "2026-09-01T10:00:00.000Z",
-      "dateFormatted": "1 września 2026"
-    },
-    {
       "title": "Bitcoin stabilny powyżej 78 tys. $ – Strategy wznawia zakupy",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-rosnie-do-79-tys--strategy-wznawia-zakupy-1551818",
       "description": "",
@@ -937,5 +937,5 @@
       "dateFormatted": "28 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-09-02T22:24:38.933Z"
+  "updatedAt": "2026-09-03T03:20:04.579Z"
 }
