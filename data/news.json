@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "title": "Kurs EOS traci 10%, na rynku niedźwiedzia",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/kurs-eos-traci-10-na-rynku-niedzwiedzia-1557417",
+      "description": "",
+      "pubDate": "2026-09-04 21:03:04",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/LYNXNPED8B0RG_M.jpg",
+      "dateISO": "2026-09-04T21:03:04.000Z",
+      "dateFormatted": "4 września 2026"
+    },
+    {
+      "title": "\"Mamy pomysł na pokój\". Donald Trump i Wołodymyr Zełenski komentują szanse na przełom",
+      "link": "https://businessinsider.com.pl/wiadomosci/rozmowy-pokojowe-w-ukrainie-zelenski-i-trump-komentuja-misje-wyslannikow-usa/26n9sb7",
+      "description": "Wołodymyr Zełenski zapewnił, że w związku z wizytą Amerykanów nie będzie żadnych nalotów ze strony Ukrainy i zaapelował o podobny krok do Rosji. \"Może jest duża szansa, że nam się uda\" — skomentował planowane rozmowy pokojowe prezydent USA.",
+      "pubDate": "Fri, 04 Sep 2026 19:37:40 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/geBk9kpTURBXy81MGU1YmM3NjY0NmVmOGE5ZGQ3ZjZjMjk5Mzg0OGFlYi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-04T19:37:40.000Z",
+      "dateFormatted": "4 września 2026"
+    },
+    {
+      "title": "Prezes państwowej spółki ostrzega przed konsekwencjami drogiego gazu",
+      "link": "https://businessinsider.com.pl/biznes/ceny-gazu-uderzaja-w-producentow-nawozow-grupa-azoty-komentuje-sytuacje/0g7yqv8",
+      "description": "Już widać w Europie ograniczanie lub rozważanie ograniczenia produkcji amoniaku przez część producentów. \"Utrzymanie konkurencyjności europejskiego przemysłu nawozowego ma znaczenie nie tylko dla samych producentów, ale również dla stabilności rynku nawozów, kosztów produkcji rolnej i bezpieczeństwa",
+      "pubDate": "Fri, 04 Sep 2026 19:10:11 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/73Lk9kpTURBXy8zZWNjNTliMmEzOWVjMjM5MzdlYzYxMjdlNTZlNzBjNC5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-04T19:10:11.000Z",
+      "dateFormatted": "4 września 2026"
+    },
+    {
       "title": "Chciał zbudować taras w ogrodzie. Znalazł skarb",
       "link": "https://businessinsider.com.pl/lifestyle/chcial-zbudowac-taras-w-ogrodzie-znalazl-18-kg-skarbu/mer4b26",
       "description": "W Rebild w północnej Jutlandii odkryto największy znany skarb z duńskiej epoki wikingów. Według stowarzyszenia muzealnego Nordjyske Museer odzyskano 18,5 kg srebra.",
@@ -249,6 +285,18 @@
       "sourceColor": "#2c3e50",
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/BR9k9kpTURBXy9hNDM4NjgwZTgyZjRiNTMxNGE4NjNmMGQxZWM2ZjkyMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-04T16:00:00.000Z",
+      "dateFormatted": "4 września 2026"
+    },
+    {
+      "title": "Kalendarium afery Zondacrypto. Prezes PKOL to płotka",
+      "link": "https://businessinsider.com.pl/prawo/zondacrypto-i-sylwester-suszek-na-celowniku-sledczych-kalendarium-wielkiej-afery/2dexkv6",
+      "description": "Problemy giełdy kryptowalut założonej przez Sylwestra Suszka nie zaczęły się pod koniec 2025 r. Aresztowanie prezesa Polskiego Komitetu Olimpijskiego to dziś najbardziej medialny odłamek afery, która tak naprawdę zaczęła wychodzić na światło dzienne już w 2018 r. Oto kalendarium najważniejszych wyda",
+      "pubDate": "Fri, 04 Sep 2026 16:00:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/UdNk9kpTURBXy9hMDVjMzQ0ZWJhNjM3MjllM2UzMThjZjBmMGZkYjAyZC5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-09-04T16:00:00.000Z",
       "dateFormatted": "4 września 2026"
     },
@@ -637,30 +685,6 @@
       "dateFormatted": "4 września 2026"
     },
     {
-      "title": "Afera Zondacrypto. To Polacy sądzą o wetach Karola Nawrockiego",
-      "link": "https://businessinsider.com.pl/wiadomosci/afera-zondacrypto-to-polacy-sadza-o-wetach-karola-nawrockiego/kh0n1ft",
-      "description": "39,1 proc. Polaków negatywnie ocenia decyzję Karola Nawrockiego o wetowaniu przepisów regulujących rynek kryptowalut. Tak wynika z sondażu SW Research dla Onetu.",
-      "pubDate": "Fri, 04 Sep 2026 11:29:17 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/9sxk9kpTURBXy9hOWZjYWRiODc0MGMyMGE1Y2UyOGE0NDg4ODVhNTc1Zi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-04T11:29:17.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "Ponad połowa mieszkańców Unii Europejskiej ma nadwagę. Polacy wypadają jeszcze gorzej",
-      "link": "https://businessinsider.com.pl/wiadomosci/otylosc-w-unii-europejskiej-rosnie-polacy-powyzej-sredniej-unijnej/msytpq9",
-      "description": "Co szósty dorosły mieszkaniec Unii Europejskiej jest otyły. Polacy wypadają gorzej niż średnia unijna: według Eurostatu do otyłych zaliczało się w 2025 r. około 19,4 proc. dorosłego społeczeństwa.",
-      "pubDate": "Fri, 04 Sep 2026 11:18:35 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/cdrk9kpTURBXy81NmMzNzVlYTk1MGJmNjEzNDRlYWJiY2Q1NDA5YmIwNS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-04T11:18:35.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
       "title": "O ponad złotówkę więcej na litrze. O tyle więcej płacimy za paliwa",
       "link": "https://www.bankier.pl/wiadomosc/O-ponad-zlotowke-wiecej-na-litrze-O-tyle-wiecej-placimy-za-paliwa-9192166.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Przywrócenie 23-procentowej stawki VAT sprawiło, że na początku września detaliczne ceny paliw w Polsce wzrosły o ponad złotówkę na litrze.Wyższe opodatkowanie zbiegło się z silnymi podwyżkami cen hurtowych.",
@@ -670,18 +694,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/0/a/8fdb5a4743d5a3-948-568-0-0-4000-2399.jpg",
       "dateISO": "2026-09-04T11:00:00.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "Zdolność UE do obrony przed inwazją niepewna do 2030 r. Za bardzo polegamy na USA",
-      "link": "https://businessinsider.com.pl/wiadomosci/zdolnosc-ue-do-obrony-niepewna-do-2030-r-ekspert-wskazuje-powazne-trudnosci/eh21g5y",
-      "description": "Europa wciąż nie jest w pełni gotowa do odparcia ewentualnej agresji zbrojnej ze strony Rosji, chociaż jej możliwości znacznie wzrosły w ostatnich latach. Według raportu Europejskiego Trybunału Obrachunkowego przeszkodą jest rozdrobniona infrastruktura i zbyt silne poleganie na USA.",
-      "pubDate": "Fri, 04 Sep 2026 10:47:45 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/o0qk9kpTURBXy8zNDExZWMwYjRmMmU0ZTA2MTA3NzIxNjg3NGU2MDk5My5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-04T10:47:45.000Z",
       "dateFormatted": "4 września 2026"
     },
     {
@@ -947,19 +959,7 @@
       "image": "https://content-media.investing.com/news/LYNXMPED9A0RJ-ORUBS_M.jpg",
       "dateISO": "2026-08-30T08:56:50.000Z",
       "dateFormatted": "30 sierpnia 2026"
-    },
-    {
-      "title": "EOS 12% w górę, na rynku byka",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/eos-12-w-gore-na-rynku-byka-1550581",
-      "description": "",
-      "pubDate": "2026-08-29 09:43:07",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/LYNXMPED703B3_M.jpg",
-      "dateISO": "2026-08-29T09:43:07.000Z",
-      "dateFormatted": "29 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-09-04T18:51:21.845Z"
+  "updatedAt": "2026-09-04T22:10:28.772Z"
 }
