@@ -1,6 +1,342 @@
 {
   "articles": [
     {
+      "title": "Tak zmieniła się dieta Polaków. Rekordowe spożycie mięsa, spadło spożycie alkoholu",
+      "link": "https://www.bankier.pl/wiadomosc/Tak-zmienila-sie-dieta-Polakow-Rekordowe-spozycie-miesa-spadlo-spozycie-alkoholu-9189544.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Przeciętne spożycie mięsa w Polsce wzrosło w 2025 r. do 82,0 kg na mieszkańca z 76,3 kg rok wcześniej, osiągając najwyższy poziom od co najmniej 2010 r. Jednocześnie Polacy zwiększyli konsumpcję jaj, cukru, owoców i produktów zbożowych, natomiast ograniczyli spożycie napojów alkoholowych - podał GUS",
+      "pubDate": "Sat, 5 Sep 2026 14:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/5/ab2b5eebb165c3-948-568-0-10-4000-2399.jpg",
+      "dateISO": "2026-09-05T13:00:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Szwedzkie elektrociepłownie palą śmieci z Polski. Import mocno wzrósł",
+      "link": "https://www.bankier.pl/wiadomosc/Szwedzkie-elektrocieplownie-pala-smieci-z-Polski-Import-mocno-wzrosl-9190248.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Szwedzkie elektrociepłownie produkują tanią energię, spalając coraz więcej śmieci sprowadzanych m.in. z Wielkiej Brytanii, Włoch oraz Polski – poinformowała we wtorek gazeta „Dagens Nyheter”. W latach 2010-24 import odpadów wzrósł o 189 proc., z 1,34 mln ton do 3,86 mln ton rocznie.",
+      "pubDate": "Sat, 5 Sep 2026 14:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/6/fe06b1c9c34087-948-568-0-110-4000-2399.jpg",
+      "dateISO": "2026-09-05T13:00:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Najlepiej opłacani menadżerowie w Polsce. Awans Grupy Inpost w rankingu",
+      "link": "https://businessinsider.com.pl/biznes/inpost-bije-rekordy-plac-menadzerow-brzoska-i-pulchny-na-czele-zestawienia/8t3qc6k",
+      "description": "Menadżerowie Grupy Inpost, w tym prezes Rafał Brzoska i wiceprezes Marcin Pulchny zarabiali najlepiej w 2025 r. Co więcej, następnych w rankingu wyprzedzili o 20 proc. Na kolejnych miejscach były spore przetasowania.",
+      "pubDate": "Sat, 05 Sep 2026 13:00:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Qluk9kpTURBXy85ZjFkODgzYjg4MDNjYTkwMGY1NDI1YjQxNWRiMWI2NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-05T13:00:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Wysłannicy Donalda Trumpa z misją pokojową. Rosja zgodziła się na chwilowe wstrzymanie ataków",
+      "link": "https://businessinsider.com.pl/wiadomosci/wladimir-putin-nakazal-wstrzymac-ataki-na-kijow-wyslannicy-donalda-trumpa-jada-z/0tmpfep",
+      "description": "Przywódca Rosji Władimir Putin polecił nie atakować Kijowa przez trzy dni, począwszy od północy z piątku na sobotę, w związku z przygotowaniami do rozmów z amerykańskimi wysłannikami — poinformowała w sobotę agencja Reutera, powołując się na rzecznika Kremla Dmitrija Pieskowa.",
+      "pubDate": "Sat, 05 Sep 2026 12:59:24 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/IETk9kpTURBXy8yOTIxOGM0NGNiYTlkYmI0MTRkOGY1MzMwZDcwMjUxNi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-05T12:59:24.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Afera Zondacrypto. Zbigniew Ziobro odpowiada premierowi Donaldowi Tuskowi",
+      "link": "https://businessinsider.com.pl/wiadomosci/afera-zondacrypto-zbigniew-ziobro-odpowiada-na-zarzuty-premiera-donalda-tuska/1dqlzwd",
+      "description": "Były minister sprawiedliwości Zbigniew Ziobro zaapelował do premiera Donalda Tuska o ujawnienie akt z wszystkich śledztw dotyczących Przemysława Krala, Zondacrypto i powiązanych z nimi podmiotów. To reakcja na piątkowe wystąpienie szefa rządu w Sejmie.",
+      "pubDate": "Sat, 05 Sep 2026 12:36:27 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/tbfk9kpTURBXy9lMjFhNTk1ZTcyMTQwNGMzN2QwN2NlYmY4NzVlYTdmZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-05T12:36:27.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Nowy system transportu do Morskiego Oka. Konie tylko na części trasy",
+      "link": "https://www.bankier.pl/wiadomosc/Nowy-system-transportu-do-Morskiego-Oka-Konie-tylko-na-czesci-trasy-9190323.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Od wtorku Tatrzański Park Narodowy rozpoczyna pilotaż przewozów konnych na skróconej trasie do Morskiego Oka. TPN chce w ten sposób sprawdzić organizację przyszłego systemu, w którym przewozy konne mają być połączone z transportem elektrycznym.",
+      "pubDate": "Sat, 5 Sep 2026 13:27:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/3/d1008af788247a-948-568-10-0-3990-2393.jpg",
+      "dateISO": "2026-09-05T12:27:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Polska znów daleko za naukową Europą. Tylko sześć grantów ERC",
+      "link": "https://www.bankier.pl/wiadomosc/Polska-znow-daleko-za-naukowa-Europa-Tylko-szesc-grantow-ERC-9191593.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Europejska Rada ds. Badań Naukowych (ERC) przyznała w czwartek 421 stypendiów dla początkujących naukowców o wartości 705 mln euro. Polsce przyznano zaledwie sześć grantów. Najwięcej otrzymały placówki naukowe z Niemiec (89), Wielkiej Brytanii (47), Francji (38), Szwajcarii (36) i Holandii (33).",
+      "pubDate": "Sat, 5 Sep 2026 13:27:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/c/6c8eda7cbf4301-948-568-0-203-3536-2122.jpg",
+      "dateISO": "2026-09-05T12:27:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "„Solidarność” zbiera paragony ze sklepów otwartych w niedziele. Chce zawiadomić prokuraturę",
+      "link": "https://www.bankier.pl/wiadomosc/Solidarnosc-zbiera-paragony-ze-sklepow-otwartych-w-niedziele-Chce-zawiadomic-prokurature-9191574.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "NSZZ „Solidarność” zaapelował do klientów o przesyłanie paragonów ze sklepów otwartych w niedziele objęte zakazem handlu. Związek chce zgromadzić dowody naruszania przepisów i złożyć wniosek do Prokuratora Generalnego o podjęcie działań wobec sieci handlowych.",
+      "pubDate": "Sat, 5 Sep 2026 13:09:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/b/bc319874c54492-948-568-15-195-2992-1795.jpg",
+      "dateISO": "2026-09-05T12:09:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "LOT poleci z Warszawy do Turynu. Nowe połączenie od stycznia 2027 r.",
+      "link": "https://www.bankier.pl/wiadomosc/LOT-poleci-z-Warszawy-do-Turynu-Nowe-polaczenie-od-stycznia-2027-r-9191542.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "PLL LOT uruchomią 16 stycznia 2027 r. bezpośrednie rejsy z Warszawy do Turynu w północno-zachodnich Włoszech - poinformował w czwartek przewoźnik. Loty na tej trasie będą się odbywały do 27 marca 2027 r., w każdą sobotę.",
+      "pubDate": "Sat, 5 Sep 2026 13:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/2/09ad7e0588a0af-948-568-0-160-3572-2143.jpg",
+      "dateISO": "2026-09-05T12:00:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Duże zmiany w egzaminach pielęgniarek i położnych. Będzie nowy organizator",
+      "link": "https://www.bankier.pl/wiadomosc/Duze-zmiany-w-egzaminach-pielegniarek-i-poloznych-Bedzie-nowy-organizator-9190204.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Od stycznia 2027 r. egzaminy specjalizacyjne pielęgniarek i położnych ma organizować Centrum Egzaminów Medycznych (CEM). Projekt rozporządzenia w tej sprawie skierowano do konsultacji publicznych.",
+      "pubDate": "Sat, 5 Sep 2026 13:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/2/06c8b8a2e87bd0-948-568-0-128-1900-1139.jpg",
+      "dateISO": "2026-09-05T12:00:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Amerykańska misja pokojowa w Moskwie i Kijowie. Sprzeczne informacje o zawieszeniu broni",
+      "link": "https://businessinsider.com.pl/wiadomosci/wizyte-wyslannikow-donalda-trumpa-poprzedzily-proby-zawieszenia-broni-w-ukrainie/97flz2l",
+      "description": "Ukraina zaproponowała Rosji wstrzymanie ognia; propozycja ta została przekazana rosyjskiemu przywódcy Władimirowi Putinowi, lecz Moskwa nie udzieliła odpowiedzi — poinformował w sobotę szef Biura Prezydenta Ukrainy Kyryło Budanow.",
+      "pubDate": "Sat, 05 Sep 2026 11:55:25 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ENmk9kpTURBXy8wMjkzM2RkYmQ0YmVkNDllYzNhNzNkZTJlNWZlYTJhYi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-05T11:55:25.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Banki chcą więcej od BLIKA. \"Powinniśmy wrócić do korzeni i rzucić wyzwanie gigantom\"",
+      "link": "https://businessinsider.com.pl/finanse/blik-na-rozdrozu-nowy-prezes-bedzie-musial-polaczyc-dwa-cele-strategiczne/h0ee59h",
+      "description": "BLIK stał się podstawowym sposobem płatności bezgotówkowych w Polsce, ale potencjał rozwoju na domowym rynku jest wciąż bardzo duży. Ekspansja zagraniczna na razie nie przyniosła oczekiwanych rezultatów. To będą dwa główne zadania dla nowego prezesa.",
+      "pubDate": "Sat, 05 Sep 2026 11:30:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/VxEk9kpTURBXy9jMDkxMzA1NDhkMGJjNGRiMWMzMmNhNTFlZWJmY2RmZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-05T11:30:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Witkoff i Kushner w Moskwie. W tle propozycja zakończenia wojny",
+      "link": "https://www.bankier.pl/wiadomosc/Witkoff-i-Kushner-w-Moskwie-W-tle-propozycja-zakonczenia-wojny-9192652.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Specjalni wysłannicy prezydenta USA, Steve Witkoff i Jared Kushner, spotkają się w sobotę w Moskwie z doradcą Władimira Putina ds. inwestycji i współpracy gospodarczej Kiriłłem Dmitrijewem – podała agencja Reutera, powołując się na dwie osoby zaznajomione z tą sprawą.",
+      "pubDate": "Sat, 5 Sep 2026 12:08:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/b/e5bddb7ad64ca7-948-567-0-30-1000-599.jpg",
+      "dateISO": "2026-09-05T11:08:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Wall Street bije na alarm. Rentowność obligacji na poziomie 5 proc. to sygnał do cięcia ryzyka",
+      "link": "https://www.bankier.pl/wiadomosc/Rentownosc-obligacji-na-poziomie-5-proc-to-sygnal-do-ciecia-ryzyka-Alarm-na-Wall-Street-9192311.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Za nami tydzień z uwagą skupioną na obligacjach skarbowych, których rentowności osiągnęły wielodekadowe maksima. Skokowy wzrost rentowności (co oznacza wyprzedaż tych papierów i spadek ich cen) odzwierciedla obawy inwestorów o inflację, podsycaną rosnącymi cenami ropy, a także perspektywy wyższych s",
+      "pubDate": "Sat, 5 Sep 2026 12:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/7/e/4bb08c4e7c65d8-879-527-72-0-879-527.jpg",
+      "dateISO": "2026-09-05T11:00:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Polska trzecim największym producentem piwa w UE",
+      "link": "https://www.bankier.pl/wiadomosc/Polska-trzecim-najwiekszym-producentem-piwa-w-UE-9189578.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Kraje Unii Europejskiej wyprodukowały w 2025 r. 34,4 mld litrów piwa, o 0,7 proc. mniej niż rok wcześniej - wynika z danych opublikowanych przez Eurostat.",
+      "pubDate": "Sat, 5 Sep 2026 12:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/4/d5f38fef09c42f-948-569-0-0-1861-1117.jpg",
+      "dateISO": "2026-09-05T11:00:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Nadchodzi bezprecedensowy boom inwestycyjny. Europejskie budownictwo ma problem",
+      "link": "https://www.bankier.pl/wiadomosc/Nadchodzi-bezprecedensowy-boom-inwestycyjny-Europejskie-budownictwo-ma-problem-9190139.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Europejski sektor budowlany wchodzi w okres bezprecedensowego zapotrzebowania na inwestycje i potrzebuje wzmocnienia potencjału wykonawczego, by realizować je w zakładanym tempie - ocenia w raporcie Polski Związek Pracodawców Budownictwa (PZPB).",
+      "pubDate": "Sat, 5 Sep 2026 12:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/b/df230473620921-948-568-0-110-4000-2399.jpg",
+      "dateISO": "2026-09-05T11:00:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Kreatywność, AI i krytyczne myślenie. Takich pracowników szuka dziś marketing",
+      "link": "https://www.bankier.pl/wiadomosc/Kreatywnosc-AI-i-krytyczne-myslenie-Takich-pracownikow-szuka-dzis-marketing-9190079.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Branża komunikacji marketingowej potrzebuje osób, które potrafią łączyć kreatywność i komunikację z umiejętnościami analitycznymi i technologicznymi - takie wnioski płyną z badania Sektorowej...",
+      "pubDate": "Sat, 5 Sep 2026 12:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/1/9ec4f9902b140b-948-568-0-181-2487-1492.jpg",
+      "dateISO": "2026-09-05T11:00:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Wielu mówiło o \"lecie apokalipsy\". Sprawdzamy liczby",
+      "link": "https://businessinsider.com.pl/gospodarka/wielu-mowilo-o-lecie-apokalipsy-w-europie-sprawdzamy-dane/0cg7n55",
+      "description": "To lato obfitowało w dramatyczne wieści z naszego kontynentu. Pożary trawiły lasy, ale i wsie oraz miasteczka, setki tys. osób musiały zostać ewakuowane, a życie z powodu upałów mogły stracić dziesiątki tysięcy osób. Rekord średniej temperatury z 2010 r. nie padł, gdy zbliżyła się do 21 st. C, ale w",
+      "pubDate": "Sat, 05 Sep 2026 10:58:28 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/DIZk9kpTURBXy82OGM4ZGYxMTFlNWI0YmVmODQxMmE2NDgxZjJkNWJmNC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-05T10:58:28.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Rosjanie zaatakowali lotniska pod Kijowem. W tle wizyta wysłanników Trumpa",
+      "link": "https://www.bankier.pl/wiadomosc/Rosjanie-zaatakowali-lotniska-pod-Kijowem-W-tle-wizyta-wyslannikow-Trumpa-9192651.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rosja przeprowadziła w nocy z piątku na sobotę celowe ataki na lotniska w Kijowie i Boryspolu, co może być reakcją na dyskusje o możliwym przylocie na Ukrainę amerykańskich wysłanników samolotem i lądowania na jednym z tych lotnisk - przekazał prezydent Ukrainy Wołodymyr Zełenski.",
+      "pubDate": "Sat, 5 Sep 2026 11:57:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/4/3f6dcbbbc8e958-948-568-0-180-4000-2399.jpg",
+      "dateISO": "2026-09-05T10:57:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Księgi wieczyste całkowicie online? Resort sprawiedliwości planuje duże zmiany",
+      "link": "https://www.bankier.pl/wiadomosc/Ksiegi-wieczyste-calkowicie-online-Resort-sprawiedliwosci-planuje-duze-zmiany-9190659.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Każdy, kto założy konto w systemie teleinformatycznym obsługującym postępowanie sądowe, będzie mógł złożyć wniosek o wpis do księgi wieczystej za pośrednictwem tego systemu - to jeden z głównych celów planowanych przez MS zmian ws. wieczystoksięgowych. Projekt trafił do konsultacji.",
+      "pubDate": "Sat, 5 Sep 2026 11:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/b/2c873b4c858846-948-568-0-0-1980-1188.jpg",
+      "dateISO": "2026-09-05T10:00:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "„Wojna matematyczna”. Ukraina potrzebuje tanich dronów przechwytujących",
+      "link": "https://www.bankier.pl/wiadomosc/Wojna-matematyczna-Ukraina-potrzebuje-tanich-dronow-przechwytujacych-9190134.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Głównym zadaniem Ukrainy jest obecnie znalezienie taniego drona przechwytującego, który w trybie automatycznym będzie w stanie niszczyć drony o napędzie odrzutowym, a także zapewnienie większej liczby radarów i systemów wykrywania takich celów – ocenił w rozmowie z PAP ukraiński ekspert ds. lotnictw",
+      "pubDate": "Sat, 5 Sep 2026 11:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/a/b13d0c6af1dfa7-948-568-30-290-3966-2380.jpg",
+      "dateISO": "2026-09-05T10:00:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Badaczki z Krakowa opracowały metodę, która ma zwiększyć skuteczność in vitro",
+      "link": "https://www.bankier.pl/wiadomosc/Badaczki-z-Krakowa-opracowaly-metode-ktora-ma-zwiekszyc-skutecznosc-in-vitro-9191987.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rozkład kropli tłuszczu w komórce pozwala ocenić jej szanse przeżycia. Badaczki z Krakowa po raz pierwszy na świecie użyły holotomografii do bezinwazyjnego badania żywych komórek jajowych w trójwymiarze. Metoda ma – jak wskazują – zwiększyć ma skuteczność procedur zapłodnienia pozaustrojowego (in vi",
+      "pubDate": "Sat, 5 Sep 2026 11:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/3/eaa5a71dff7e18-945-560-0-35-2362-1417.jpg",
+      "dateISO": "2026-09-05T10:00:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "\"Nie wyglądają na takich, którzy chcą pracować\". Mit gotowości do pracy wyjątkowo mocno uderza w \"zetki\"",
+      "link": "https://businessinsider.com.pl/praca/firmy-narzekaja-na-pokolenie-z-gotowosc-do-pracy-to-sliskie-pojecie/2t8ghr8",
+      "description": "Do pokolenia Z przylgnęła łatka niegotowych do poważnej pracy. Tyle że żadne pokolenie absolwentów nie wiedziało, jak pracować, a \"zetki\" mają w tej kwestii szczególnie ciężko.",
+      "pubDate": "Sat, 05 Sep 2026 10:00:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/jBKk9kpTURBXy81Yzk0YzgzNTk1NjNiMGNmMWMwNThhZmM4NTc1YWE3YS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-05T10:00:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Już nie nazywają się klasą średnią. Coraz więcej Amerykanów czuje się klasą pracującą",
+      "link": "https://businessinsider.com.pl/finanse/ubywa-klasy-sredniej-przybywa-pracujacej-zwrot-w-usa/0bqxv1l",
+      "description": "Coraz więcej Amerykanów uważa się za klasę pracującą, zwłaszcza osoby o średnich dochodach. Z nowego badania wynika, że nawet pracownicy mający oszczędności i opłacone rachunki nadal czują się częścią klasy pracującej. Na to, czy ktoś utożsamia się z klasą pracującą, wpływają także poglądy polityczn",
+      "pubDate": "Sat, 05 Sep 2026 09:49:06 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/pPfk9kpTURBXy9jZWVjZDAyODA2MmQ0NWEzMmI3NjVjOTkxZDNjYWFiZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-05T09:49:06.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Niższe plony, droższe nawozy i paliwo. Rolnicy czekają na wsparcie",
+      "link": "https://www.bankier.pl/wiadomosc/Nizsze-plony-drozsze-nawozy-i-paliwo-Rolnicy-czekaja-na-wsparcie-9192644.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Tegoroczne plony zbóż są niższe niż przed rokiem – powiedział w sobotę w Częstochowie minister rolnictwa Stefan Krajewski. Jak ocenił, sytuację rolników komplikują też trudne warunki pogodowe i niestabilność rynków.",
+      "pubDate": "Sat, 5 Sep 2026 10:25:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/d/ab46948cbda1a3-948-568-130-130-3533-2120.jpg",
+      "dateISO": "2026-09-05T09:25:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Bitcoin spada poniżej 80 000 $, gdy dane z rynku pracy straszą podwyżką stóp",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-ponizej-80-000--gdy-dane-z-rynku-pracy-usa-niepokoja-1557553",
+      "description": "",
+      "pubDate": "2026-09-05 09:24:34",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/LYNXMPEDA71MJ_M.jpg",
+      "dateISO": "2026-09-05T09:24:34.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "ONZ przegłosowała zmianę mapy świata. Tylko USA były przeciw",
+      "link": "https://www.bankier.pl/wiadomosc/ONZ-przeglosowala-zmiane-mapy-swiata-Tylko-USA-byly-przeciw-9192630.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zgromadzenie Ogólne ONZ przyjęło w piątek rezolucję na rzecz wprowadzenia nowej mapy świata, wierniej odzwierciedlającej rozmiary państw i kontynentów. O przyjęcie uchwały zabiegały kraje afrykańskie.",
+      "pubDate": "Sat, 5 Sep 2026 10:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/7/9e76f3c28cd002-887-532-81-0-887-532.jpg",
+      "dateISO": "2026-09-05T09:15:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Wakacyjne wybory Polaków. Te kraje były w tym roku najpopularniejsze",
+      "link": "https://www.bankier.pl/wiadomosc/Wakacyjne-wybory-Polakow-Te-kraje-byly-w-tym-roku-najpopularniejsze-9192628.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polacy spędzali wakacje głównie w krajach śródziemnomorskich, zarówno południa Europy, jak i m.in. w Turcji i Egipcie - wynika z danych przedstawicieli branży turystycznej. W przypadku podróży krajowych, największą popularnością cieszyły się góry i Morze Bałtyckie.",
+      "pubDate": "Sat, 5 Sep 2026 10:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/0/a387707b5cef7c-948-568-10-280-3983-2390.jpg",
+      "dateISO": "2026-09-05T09:00:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
       "title": "Ukraińcy coraz mniej bezpieczni w Polsce? \"Wcześniej tego nie było\"",
       "link": "https://www.bankier.pl/wiadomosc/Ukraincy-coraz-mniej-bezpieczni-w-Polsce-Wczesniej-tego-nie-bylo-9190673.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Rosnąca niechęć wobec Ukraińców w Polsce wpływa na ich poczucie bezpieczeństwa i może niweczyć kapitał pozytywnych emocji w relacjach polsko-ukraińskich zbudowany po wybuchu pełnoskalowej wojny – powiedziała PAP dr Dominika Blachnicka-Ciacek z Wydziału Socjologii Uniwersytetu Warszawskiego.",
@@ -49,6 +385,18 @@
       "dateFormatted": "5 września 2026"
     },
     {
+      "title": "Gang kradł maszyny budowlane i samochody. Straty sięgają 10 mln zł",
+      "link": "https://www.bankier.pl/wiadomosc/Gang-kradl-maszyny-budowlane-i-samochody-Straty-siegaja-10-mln-zl-9190739.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sosnowiecka policja rozpracowała grupę przestępczą, która zajmowała się m.in. kradzieżami maszyn budowlanych, elementów infrastruktury kolejowej i samochodów, a także przestępstwami narkotykowymi. Służby zatrzymały w tej sprawie siedmiu mężczyzn w wieku od 37 do 51 lat, w tym lidera gangu.",
+      "pubDate": "Sat, 5 Sep 2026 09:52:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/c/8b1b228ee47f2a-948-568-0-85-1900-1139.jpg",
+      "dateISO": "2026-09-05T08:52:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
       "title": "Rosja i Ukraina tracą możliwości eksportu zbóż. Ucierpi światowy rynek",
       "link": "https://www.bankier.pl/wiadomosc/Rosja-i-Ukraina-traca-mozliwosci-eksportu-zboz-Ucierpi-swiatowy-rynek-9192610.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Rosyjskie uderzenia na port w Odessie oraz ukraińskie ataki na port w Noworosyjsku wstrzymały większość transportu zbóż z obydwu krajów - przekazał Polski Instytut Ekonomiczny (PIE). Ziarno z Rosji i Ukrainy stanowiło łącznie 1/3 światowego eksportu.",
@@ -58,6 +406,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/7/6/55f58ab838612c-948-568-0-62-1772-1063.jpg",
       "dateISO": "2026-09-05T08:50:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "Wybitny ekonomista z USA ostrzega przed boomem AI. Mówi o \"dziecku dwóch kryzysów\"",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/profesor-biznesu-o-bance-ai-zaraza-na-rynkach-finansowych-przypomni-nam-wielki-kryzys/nf7dt5x",
+      "description": "Załamanie związane z AI połączy cechy pęknięcia bańki internetowej i wielkiego kryzysu finansowego — uważa Erik Gordon. Profesor biznesu powiedział, że boom na AI łączy skrajnie zawyżone wyceny z ogromnym ryzykiem rozlania się kryzysu. Wskazuje też potencjalnych \"przegranych\".",
+      "pubDate": "Sat, 05 Sep 2026 08:45:58 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Emek9kpTURBXy8xZDI4ZjcyNTRjZjAxNDBiMmNkZjhiYjJjZGQ4NjU1Yy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-05T08:45:58.000Z",
       "dateFormatted": "5 września 2026"
     },
     {
@@ -73,18 +433,6 @@
       "dateFormatted": "5 września 2026"
     },
     {
-      "title": "Chińskie traktory mogą szpiegować brytyjskich rolników. Eksperci ostrzegają",
-      "link": "https://www.bankier.pl/wiadomosc/Chinskie-traktory-moga-szpiegowac-brytyjskich-rolnikow-Eksperci-ostrzegaja-9192593.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Eksperci ostrzegają, że Chiny mogą wykorzystywać traktory i inne maszyny rolnicze do szpiegowania brytyjskich rolników - przekazał w piątek dziennik „The Telegraph”, powołując się na raport Koalicji na rzecz Bezpiecznej Technologii (CST).",
-      "pubDate": "Sat, 5 Sep 2026 09:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/f/ecec84150363e5-948-568-90-0-4368-2621.jpg",
-      "dateISO": "2026-09-05T08:30:00.000Z",
-      "dateFormatted": "5 września 2026"
-    },
-    {
       "title": "Cisza na ukraińskim froncie. Taki rozkaz dostało wojsko",
       "link": "https://www.bankier.pl/wiadomosc/Cisza-na-ukrainskim-froncie-Taki-rozkaz-dostalo-wojsko-9192590.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Ukraińskie jednostki mają obowiązek zachowania ciszy na lądzie, w powietrzu i na morzu od 5 do 8 września w czasie wizyty amerykańskich negocjatorów w Moskwie i w Kijowie, poinformowały w sobotę ukraińskie media",
@@ -94,6 +442,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/c/1/0820ba44c4032f-948-567-0-27-1000-599.jpg",
       "dateISO": "2026-09-05T08:25:00.000Z",
+      "dateFormatted": "5 września 2026"
+    },
+    {
+      "title": "6 tys. zł emerytury to już nieźle. Zobacz, ile musisz zarabiać, żeby tyle dostać [WYLICZENIA]",
+      "link": "https://businessinsider.com.pl/praca/emerytury/6-tys-zl-emerytury-ile-trzeba-zarabiac/vswqfjh",
+      "description": "Sprawdziliśmy, ile trzeba zarabiać, żeby wypracować 6 tys. zł emerytury w zależności od wieku. Kobiety z zasady mają gorzej, bo co prawda kończą pracę wcześniej, ale ich świadczenia z reguły są niższe.",
+      "pubDate": "Sat, 05 Sep 2026 08:21:41 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/xirk9kpTURBXy9kNDViMDJiYjZmZDBjZmFkY2I2YTgxNjVjMzc3Mzg2Ni5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-05T08:21:41.000Z",
       "dateFormatted": "5 września 2026"
     },
     {
@@ -109,30 +469,6 @@
       "dateFormatted": "5 września 2026"
     },
     {
-      "title": "Wizyta szefa CIA w Moskwie nie przyniosła efektu. Putin miał odebrać ją jako oznakę słabości",
-      "link": "https://www.bankier.pl/wiadomosc/Wizyta-szefa-CIA-w-Moskwie-nie-przyniosla-efektu-Putin-mial-odebrac-ja-jako-oznake-slabosci-9192586.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Dyrektor CIA John Ratcliffe po wizycie w Rosji uznał, że choć przekazał Moskwie zamierzony komunikat w sprawie Ukrainy, to nie zmienił nastawienia Rosji, a Putin odczytał ją jako oznakę słabości - podał „Washington Post”, powołując się na wtajemniczone źródło.",
-      "pubDate": "Sat, 5 Sep 2026 09:15:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/2/ca8b9b90aa43d3-948-568-0-120-2992-1795.jpg",
-      "dateISO": "2026-09-05T08:15:00.000Z",
-      "dateFormatted": "5 września 2026"
-    },
-    {
-      "title": "\"Polska wymarzonym krajem dla młodych\". Morawiecki o nowej strategii dla kraju",
-      "link": "https://www.bankier.pl/wiadomosc/Polska-wymarzonym-krajem-dla-mlodych-Morawiecki-o-nowej-strategii-dla-kraju-9192578.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Chciałbym, aby Polska była wymarzonym krajem dla młodych ludzi - podkreślił lider stowarzyszenia Rozwój Plus Mateusz Morawiecki. Jak ocenił, by tak się stało, kraj potrzebuje nowego wielkiego mitu, wielkiego zestrojenia dwóch równo oddychających płuc oraz „archipelagu patriotów”.",
-      "pubDate": "Sat, 5 Sep 2026 09:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/7/105beccc6f7123-948-568-0-15-3000-1799.jpg",
-      "dateISO": "2026-09-05T08:00:00.000Z",
-      "dateFormatted": "5 września 2026"
-    },
-    {
       "title": "Rosyjskie i ukraińskie porty sparaliżowane przez wojnę. Gwałtowna reakcja rynku",
       "link": "https://businessinsider.com.pl/biznes/sparalizowany-eksport-jednej-trzeciej-swiatowej-produkcji-zboz-rynek-reaguje/24q3pjp",
       "description": "Rosyjskie uderzenia na port w Odessie oraz ukraińskie ataki na port w Noworosyjsku wstrzymały większość transportu zbóż z obydwu krajów — przekazał Polski Instytut Ekonomiczny (PIE). Ziarno z Rosji i Ukrainy stanowiło łącznie 1/3 światowego eksportu.",
@@ -142,18 +478,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/utDk9kpTURBXy83YWIzZmQyMDQ5MDg4MWZiMzA3NWQ0MzZhZDg3MDBhZi5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-09-05T07:54:28.000Z",
-      "dateFormatted": "5 września 2026"
-    },
-    {
-      "title": "Co jeśli Rosja zaatakuje NATO? Wojenny scenariusz przyniósł niepokojące wnioski",
-      "link": "https://www.bankier.pl/wiadomosc/Co-jesli-Rosja-zaatakuje-NATO-Wojenny-scenariusz-przyniosl-niepokojace-wnioski-9192577.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Administracja USA w dużym stopniu nie zdaje sobie sprawy ze skali hybrydowych ataków Rosji w Europie, ani z jej intencji; ponowne zaangażowanie we współpracę z UE i w ramach NATO jest konieczne dla uniknięcia katastrofy - ocenił w magazynie „Foreign Policy” wpływowy publicysta David Ignatius.",
-      "pubDate": "Sat, 5 Sep 2026 08:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/9/da7d3e7f2298b8-948-568-22-7-2977-1786.jpg",
-      "dateISO": "2026-09-05T07:45:00.000Z",
       "dateFormatted": "5 września 2026"
     },
     {
@@ -205,9 +529,9 @@
       "dateFormatted": "5 września 2026"
     },
     {
-      "title": "Włodzimierz Czarzasty przeciwko Maciejowi Berkowi. O tym zdecydował Sejm",
+      "title": "Sejm uchwalił ustawy. Bez jednej, ważnej dla tysięcy Polaków",
       "link": "https://businessinsider.com.pl/prawo/ekosciema-jeszcze-przez-rok-tak-sejm-zmienil-prawo-dla-milionow-polakow/lyqdg10",
-      "description": "W cieniu głosowań nad wyborem Macieja Berka do Trybunału Konstytucyjnego i odrzuceniem weta wobec ustawy o kryptoaktywach Sejm uchwalił kilka ważnych ustaw. Niestety nie ma wśród nich przepisów ważnych dla tysięcy osób z niepełnosprawnością. W ostatniej chwili zostały usunięte z harmonogramu głosowa",
+      "description": "Sejm na zakończonym w piątek posiedzeniu uchwalił kilka ważnych ustaw. Poniżej zestawienie najważniejszych zmian. Niestety nie ma wśród nich przepisów ważnych dla tysięcy osób z niepełnosprawnością. W ostatniej chwili zostały usunięte z harmonogramu głosowań.",
       "pubDate": "Sat, 05 Sep 2026 07:00:00 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
@@ -249,42 +573,6 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/f/6/10e95b3f8d2232-948-568-0-0-2670-1601.jpg",
-      "dateISO": "2026-09-05T05:00:00.000Z",
-      "dateFormatted": "5 września 2026"
-    },
-    {
-      "title": "Najwyższa huśtawka w Europie już działa. Ma 20 metrów wysokości",
-      "link": "https://www.bankier.pl/wiadomosc/Najwyzsza-hustawka-w-Europie-juz-dziala-Ma-20-metrow-wysokosci-9189263.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Lot Ikara - tak nazywa się uruchomiona we włoskim regionie Basilicata gigantyczna huśtawka, uznana za najwyższą w Europie. Metalowa instalacja powstała w miejscowości Baragiano koło Potenzy na południu kraju, a lokalne władze mają nadzieję, że będzie to atrakcja, która przyciągnie turystów.",
-      "pubDate": "Sat, 5 Sep 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/e/71c4f660f29f50-948-567-0-0-1000-599.jpg",
-      "dateISO": "2026-09-05T05:00:00.000Z",
-      "dateFormatted": "5 września 2026"
-    },
-    {
-      "title": "ChatGPT zostawia ślad w języku. Te słowa zaczęliśmy stosować znacznie częściej",
-      "link": "https://www.bankier.pl/wiadomosc/ChatGPT-zostawia-slad-w-jezyku-Te-slowa-zaczelismy-stosowac-znacznie-czesciej-9190658.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Duże modele językowe są stale dostępne, reagują natychmiast i pozwalają na bardzo dużą częstotliwość interakcji. Dlatego stają się kolejnym elementem socjalizacji językowej dla najmłodszych pokoleń, obok rodziców, szkoły czy mediów - mówi PAP dr Ada Florentyna Pawlak z Uniwersytetu SWPS.",
-      "pubDate": "Sat, 5 Sep 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/f/c6ddb7253b21f5-948-568-0-346-1414-848.jpg",
-      "dateISO": "2026-09-05T05:00:00.000Z",
-      "dateFormatted": "5 września 2026"
-    },
-    {
-      "title": "Taksówkarze zadłużeni na potęgę. Ich długi sięgają 60 mln zł",
-      "link": "https://www.bankier.pl/wiadomosc/Taksowkarze-zadluzeni-na-potege-Ich-dlugi-siegaja-60-mln-zl-9190068.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Podczas ostatniego roku zadłużenie taksówkarzy i przedsiębiorców przewożących pasażerów wzrosło o 3,5 mln zł - wynika z danych Krajowego Rejestru Długów. Obecnie 2,6 tys. dłużników ma do oddania blisko 60 mln zł.",
-      "pubDate": "Sat, 5 Sep 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/6/07374123ab4706-948-568-0-153-1747-1048.jpg",
       "dateISO": "2026-09-05T05:00:00.000Z",
       "dateFormatted": "5 września 2026"
     },
@@ -349,18 +637,6 @@
       "dateFormatted": "4 września 2026"
     },
     {
-      "title": "3 weto ws. kryptowalut utrzymane. Domański chce forsować 4. raz ten sam projekt",
-      "link": "https://www.bankier.pl/wiadomosc/3-weto-ws-kryptowalut-utrzymane-Domanski-chce-forsowac-4-raz-ten-sam-projekt-9192560.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Minister finansów i gospodarki Andrzej Domański jest zwolennikiem złożenia do Sejmu czwartego, takiego samego rządowego projektu ustawy ws. kryptoaktywów; decyzja w tej sprawie jeszcze nie zapadła - powiedział w piątek szef resortu finansów.",
-      "pubDate": "Fri, 4 Sep 2026 21:09:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/1/bd9676bebeed14-948-568-17-26-3482-2089.jpg",
-      "dateISO": "2026-09-04T20:09:00.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
       "title": "\"Mamy pomysł na pokój\". Donald Trump i Wołodymyr Zełenski komentują szanse na przełom",
       "link": "https://businessinsider.com.pl/wiadomosci/rozmowy-pokojowe-w-ukrainie-zelenski-i-trump-komentuja-misje-wyslannikow-usa/26n9sb7",
       "description": "Wołodymyr Zełenski zapewnił, że w związku z wizytą Amerykanów nie będzie żadnych nalotów ze strony Ukrainy i zaapelował o podobny krok do Rosji. \"Może jest duża szansa, że nam się uda\" — skomentował planowane rozmowy pokojowe prezydent USA.",
@@ -385,18 +661,6 @@
       "dateFormatted": "4 września 2026"
     },
     {
-      "title": "Chciał zbudować taras w ogrodzie. Znalazł skarb",
-      "link": "https://businessinsider.com.pl/lifestyle/chcial-zbudowac-taras-w-ogrodzie-znalazl-18-kg-skarbu/mer4b26",
-      "description": "W Rebild w północnej Jutlandii odkryto największy znany skarb z duńskiej epoki wikingów. Według stowarzyszenia muzealnego Nordjyske Museer odzyskano 18,5 kg srebra.",
-      "pubDate": "Fri, 04 Sep 2026 18:34:11 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Z7kk9kpTURBXy83OTUwNTU5ZTZmNzIxOTdjZWJhOTk5OGM2ODY5ZDkzMS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-04T18:34:11.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
       "title": "Sikorski: Jak długo można pielęgnować rany, które zadali nam Niemcy",
       "link": "https://www.bankier.pl/wiadomosc/Sikorski-Jak-dlugo-mozna-pielegnowac-rany-ktore-zadali-nam-Niemcy-9192538.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Nasza dzisiejsza opozycja cały czas widzi w Niemcu hitlerowca; jak długo można pielęgnować rany, które zadali nam Niemcy? – mówił w piątek w Poznaniu wicepremier, szef MSZ Radosław Sikorski.",
@@ -406,30 +670,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/1/f/a4ff1131f695d7-948-568-120-120-2880-1727.jpg",
       "dateISO": "2026-09-04T18:23:00.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "Dorożała odchodzi z resortu klimatu. Jego miejsce ma zająć Sławomir Ćwik",
-      "link": "https://www.bankier.pl/wiadomosc/Dorozala-odchodzi-z-resortu-klimatu-Jego-miejsce-ma-zajac-Slawomir-Cwik-9192534.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Poseł klubu Centrum Sławomir Ćwik ma zostać wiceministrem klimatu i środowiska - dowiedziała się PAP w źródłach zbliżonych do polityków tego klubu. Ćwik nie przejmie wprost dotychczasowych kompetencji Mikołaja Dorożały, który w piątek poinformował o rezygnacji z funkcji wiceszefa MKiŚ.",
-      "pubDate": "Fri, 4 Sep 2026 19:11:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/3/8206e4755891b5-948-568-0-129-1920-1151.jpg",
-      "dateISO": "2026-09-04T18:11:00.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "TikTok ukrywa dokument na temat bulwersującego testu. \"Oburzające\"",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/tiktok-odmowil-ujawnienia-dokumentow-senatorowie-mowia-o-skandalu/5pwvv7w",
-      "description": "Dwóch amerykańskich senatorów określiło odmowę firmy jako \"bulwersującą\" i \"obraźliwą\". Zażądali od serwisu TikTok ujawnienia poufnego dokumentu dotyczącego eksperymentu algorytmicznego przeprowadzonego na milionach użytkowników, w tym nastolatka, który popełnił samobójstwo.",
-      "pubDate": "Fri, 04 Sep 2026 17:55:58 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/_Lwk9kpTURBXy81YzgzYTZjMzk5YzMxZWZmNzQ0NTE3YjkwODVjNDcwMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-04T17:55:58.000Z",
       "dateFormatted": "4 września 2026"
     },
     {
@@ -445,18 +685,6 @@
       "dateFormatted": "4 września 2026"
     },
     {
-      "title": "Witkoff i Kushner odwiedzą Kijów. Wcześniej spotkają się z Putinem",
-      "link": "https://www.bankier.pl/wiadomosc/Witkoff-i-Kushner-odwiedza-Kijow-Wczesniej-spotkaja-sie-z-Putinem-9192510.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wysłannicy prezydenta USA Donalda Trumpa, Steve Witkoff i Jared Kushner, będą w Kijowie w niedzielę; wcześniej złożą wizytę w Moskwie – ogłosił w piątek prezydent Ukrainy Wołodymyr Zełenski.",
-      "pubDate": "Fri, 4 Sep 2026 18:29:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/2/703828d960fef3-948-568-10-0-3990-2393.jpg",
-      "dateISO": "2026-09-04T17:29:00.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
       "title": "Berlin nie zapłacił okupu. Hakerzy opublikowali 1,4 mln skradzionych danych",
       "link": "https://www.bankier.pl/wiadomosc/Berlin-nie-zaplacil-okupu-Hakerzy-opublikowali-1-4-mln-skradzionych-danych-9192506.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Hakerzy, którzy na początku sierpnia włamali się do miejskich systemów Berlina i wykradli z nich dane, po upływie w piątek po południu wyznaczonego przez nich terminu na zapłacenie okupu, opublikowali te dane w sieci dark web do pobrania - poinformowało radio rbb24.",
@@ -466,78 +694,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/b/5/3c610552da3083-948-568-0-0-3750-2249.jpg",
       "dateISO": "2026-09-04T17:23:00.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "Od soboty nowe zasady taryf oraz rozliczeń za energię. Zyskają firmy i obywatele",
-      "link": "https://businessinsider.com.pl/firmy/oszczednosci-dla-firm-i-prostsze-rachunki-minister-energii-wprowadza-nowe-zasady/bmp81hy",
-      "description": "Pół miliarda złotych rocznie — tyle będą mogły zaoszczędzić zakłady energochłonne dzięki rozporządzeniu ministra energii. Od 5 września zaczną obowiązywać nowe zasady kształtowania i kalkulacji taryf oraz rozliczeń w obrocie energią elektryczną. Rozporządzenie odnosi się zarówno do przedsiębiorstw, ",
-      "pubDate": "Fri, 04 Sep 2026 17:17:43 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/lGgk9kpTURBXy9lNWJlZmVjMDc1NWQ3NjJlNzI1ZjZiMDAyMzkxOGM3My5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-04T17:17:43.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "Ziobro o aferze Zondacrypto: nigdy nie rozmawiałem z Kralem",
-      "link": "https://www.bankier.pl/wiadomosc/Ziobro-o-aferze-Zondacrypto-nigdy-nie-rozmawialem-z-Kralem-9192479.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "B. szef MS Zbigniew Ziobro podkreślił, że nigdy nie rozmawiał z szefem Zondacrypto Przemysławem Kralem nawet telefonicznie. Dodał, że spotykał się tylko z b. funkcjonariuszem CBA Arturem Chodzińskim, który zaproponował jego fundacji wsparcie ze strony Krala. Uznałem, że zachodzą okoliczności, żeby t",
-      "pubDate": "Fri, 4 Sep 2026 17:43:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/7/071c2c7d7d12df-948-568-0-112-2987-1792.jpg",
-      "dateISO": "2026-09-04T16:43:00.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "Solorzowie budują wielki hotel. Prywatna plaża i marina",
-      "link": "https://businessinsider.com.pl/biznes/crowne-plaza-warsaw-zegrze-resort-solorzowie-buduja-pierwszy-taki-hotel-w-polsce/brf7tte",
-      "description": "\"Od początku wiedzieliśmy, że nie chcemy budować tutaj po prostu kolejnego hotelu\" — wspomina Tobias Solorz, komentując start budowy Crowne Plaza Warsaw Zegrze Resort. Pierwszy hotel pod tą marką powstanie nad Jeziorem Zegrzyńskim.",
-      "pubDate": "Fri, 04 Sep 2026 16:39:30 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Cf-k9kpTURBXy81Yjc4NmNkYTcxMzU2YTQzYjE4MmZhMmY4MTI4YTViZi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-04T16:39:30.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "Program nuklearny Iranu na celowniku. USA i Europa naciskają na MAEA",
-      "link": "https://www.bankier.pl/wiadomosc/Program-nuklearny-Iranu-na-celowniku-USA-i-Europa-naciskaja-na-MAEA-9192468.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "USA i europejscy sojusznicy chcą, by Rada Gubernatorów Międzynarodowej Agencji Energii Atomowej (MAEA) przyjęła rezolucję w sprawie zgłoszenia Iranu do Rady Bezpieczeństwa ONZ – w związku z naruszeniami Układu o nierozprzestrzenianiu broni jądrowej (NPT) poinformował w piątek Reuters.",
-      "pubDate": "Fri, 4 Sep 2026 17:27:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/4/68b31a526eb4b4-948-568-101-22-3956-2373.png",
-      "dateISO": "2026-09-04T16:27:00.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "Prezes Azotów: Europejski rynek nawozów pozostaje pod presją cen gazu",
-      "link": "https://www.bankier.pl/wiadomosc/Europejski-rynek-nawozow-pozostaje-pod-presja-cen-gazu-ktora-moze-utrzymac-sie-w-kolejnych-miesiacach-prezes-Grupy-Azoty-9192465.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Europejski rynek nawozów pozostaje pod presją wysokich i zmiennych cen gazu, który jest kluczowym surowcem w produkcji amoniaku i nawozów azotowych. Presja ta może utrzymać się w kolejnych miesiącach - ocenił prezes Grupy Azoty Marcin Celejewski.",
-      "pubDate": "Fri, 4 Sep 2026 17:24:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/e/836e9884fda31a-945-560-18-0-3654-2192.jpg",
-      "dateISO": "2026-09-04T16:24:00.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "Bliski Orbanowi tygodnik traci państwowe finansowanie. Prezes zwolniony",
-      "link": "https://www.bankier.pl/wiadomosc/Bliski-Orbanowi-tygodnik-traci-panstwowe-finansowanie-Prezes-zwolniony-9192463.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezes spółki wydającej bliski środowisku Viktora Orbana tygodnik „Mandiner” został zwolniony na polecenie ministra finansów - ogłosił w piątek na Facebooku premier Węgier Peter Magyar.",
-      "pubDate": "Fri, 4 Sep 2026 17:23:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/a/5b689cf1a24bfe-948-568-0-209-4381-2629.jpg",
-      "dateISO": "2026-09-04T16:23:00.000Z",
       "dateFormatted": "4 września 2026"
     },
     {
@@ -553,78 +709,6 @@
       "dateFormatted": "4 września 2026"
     },
     {
-      "title": "Czy premier Donald Tusk ujawnił tajemnicę śledztwa? \"To zależy\" mówi prawnik",
-      "link": "https://businessinsider.com.pl/prawo/zeznania-w-sprawie-zondacrypto-ujawnione-przez-tuska-czy-naruszyl-prawo/yl37mtl",
-      "description": "Nikt chyba nie ma wątpliwości, że premier Donald Tusk ujawnił na posiedzeniu Sejmu RP informację z toczącego się śledztwa — mówi adwokat Maciej Zaborowski. By mógł to zrobić zgodnie z prawem, musiałby mieć zgodę prokuratury. W Sejmie jej nie pokazał.",
-      "pubDate": "Fri, 04 Sep 2026 16:03:12 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/8k_k9kpTURBXy84YTg4ZTVkMTBhOWJhMzU1ZDI2MmYwMWY4ZDJhM2ExYy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-04T16:03:12.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "Tyle zarabia maszynista w 2026 roku. Pensje rosną, chętnych brakuje",
-      "link": "https://businessinsider.com.pl/praca/opadnie-ci-szczeka-tyle-zarabia-maszynista-w-2026-roku-pkp-placi-coraz-wiecej/c25jvre",
-      "description": "Wynagrodzenia maszynistów należą do najwyższych w transporcie lądowym, ale różnice między spółkami i rodzajami zadań są spore. Choć pensje rosną, to polska kolei boryka się z problemem braku zainteresowanych.",
-      "pubDate": "Fri, 04 Sep 2026 16:00:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/BR9k9kpTURBXy9hNDM4NjgwZTgyZjRiNTMxNGE4NjNmMGQxZWM2ZjkyMy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-04T16:00:00.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "Kalendarium afery Zondacrypto. Prezes PKOL to płotka",
-      "link": "https://businessinsider.com.pl/prawo/zondacrypto-i-sylwester-suszek-na-celowniku-sledczych-kalendarium-wielkiej-afery/2dexkv6",
-      "description": "Problemy giełdy kryptowalut założonej przez Sylwestra Suszka nie zaczęły się pod koniec 2025 r. Aresztowanie prezesa Polskiego Komitetu Olimpijskiego to dziś najbardziej medialny odłamek afery, która tak naprawdę zaczęła wychodzić na światło dzienne już w 2018 r. Oto kalendarium najważniejszych wyda",
-      "pubDate": "Fri, 04 Sep 2026 16:00:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/UdNk9kpTURBXy9hMDVjMzQ0ZWJhNjM3MjllM2UzMThjZjBmMGZkYjAyZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-04T16:00:00.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "Sławomir Mentzen szuka pracowników. Tyle im płaci",
-      "link": "https://businessinsider.com.pl/praca/kancelaria-slawomira-mentzena-szuka-pracownikow-widelki-plac-zaskakuja/xedyzmt",
-      "description": "Interesuje cię spokojna praca na osiem godzin? Raczej nie masz szans na zatrudnienie w kancelarii Sławomira Mentzena. Firma jednego z liderów Konfederacji szuka chętnych do pracy. 15 tys. zł brutto to maksimum. Dolne widełki są niewiele powyżej minimalnej krajowej.",
-      "pubDate": "Fri, 04 Sep 2026 15:42:23 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/06qk9kpTURBXy9hZjIwMTk0ZDhjOGFmNjkyYmU5ZDE1NGMzOTdhYjk3Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-04T15:42:23.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "Rekordy wróciły na warszawską giełdę. Te spółki napędzają wzrosty",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/gpw-bije-rekordy-wig20-na-historycznym-szczycie-dzieki-bankom-i-orlenowi/6t0s8n6",
-      "description": "Lepsze nastroje na światowych giełdach udzieliły się warszawskiej GPW. W piątek pod koniec sesji WIG20 ustanowił nowy rekord wszech czasów, do czego przyczyniła się zwyżka notowań banków, których indeks również wybił nowy szczyt.",
-      "pubDate": "Fri, 04 Sep 2026 15:04:24 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/3VJk9kpTURBXy8xYTkwOWU4YTdjNWUyMTRkNDZhM2Q3NGM0MjY3ODQ0MS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-04T15:04:24.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "PKP PLK wyceniły koszty naprawy po zderzeniu pociągu z ciężarówką",
-      "link": "https://businessinsider.com.pl/gospodarka/pkp-plk-wycenily-koszty-naprawy-po-zderzeniu-pociagu-z-ciezarowka/mzp4cl4",
-      "description": "Grubo ponad 100 tys. zł pochłoną koszty napraw na kolei po głośnym wypadku. PKP podsumowało nie tylko pieniężne konsekwencje. Ponad 200 pociągów pasażerskich zanotowało łącznie 17598 min opóźnień przez jedno bezmyślne zachowanie.",
-      "pubDate": "Fri, 04 Sep 2026 15:02:12 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Uwik9kpTURBXy81NTEzOTgxMzM0MzFjNzg3ZjliOWRlNjJmOGE4ZWFmMC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-04T15:02:12.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
       "title": "Dokąd zmierzają rentowności obligacji i dlaczego Fed jednak nie podniesie stóp",
       "link": "https://www.bankier.pl/wiadomosc/Dokad-zmierzaja-rentownosci-obligacji-i-dlaczego-Fed-jednak-nie-podniesie-stop-9192359.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Gdy rentowność amerykańskich oblacji 10-letnich zbliża się do 5%, Wall Street wciąż nic sobie z tego nie robi. Tak samo jak z „jastrzębich” pohukiwań szefa Rezerwy Federalnej Kevina Warsha. O tym, dlaczego tak jest i jak to wszystko może się skończyć rozmawiają Krzysztof Kolany i Sobiesław Kozłowski",
@@ -634,30 +718,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/4/d/7fb578a231ff8e-948-568-51-0-1200-720.jpg",
       "dateISO": "2026-09-04T15:00:00.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "Rosyjski dron uderzył w centrum Kijowa. Trafił w siedzibę SBU",
-      "link": "https://www.bankier.pl/wiadomosc/Rosyjski-dron-uderzyl-w-centrum-Kijowa-Trafil-w-siedzibe-SBU-9192364.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rosyjski dron uderzył w główną siedzibę Służby Bezpieczeństwa Ukrainy (SBU) w centrum Kijowa, trafiając bezpośrednio w gabinet p.o. szefa tej służby Ołeksandra Pokłada, którego w chwili ataku nie było na miejscu – poinformował w piątek prezydent Ukrainy Wołodymyr Zełenski.",
-      "pubDate": "Fri, 4 Sep 2026 15:34:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/d/162ae9ad028d89-948-568-14-14-1905-1143.jpg",
-      "dateISO": "2026-09-04T14:34:00.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "AmRest chce do końca roku otworzyć w Polsce 3 restauracje Taco Bell",
-      "link": "https://www.bankier.pl/wiadomosc/AmRest-chce-do-konca-roku-otworzyc-w-Polsce-trzy-restauracje-Taco-Bell-9192339.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Grupa AmRest chce do końca roku otworzyć w Polsce trzy restauracje pod marką Taco Bell - poinformowali przedstawiciele spółki.",
-      "pubDate": "Fri, 4 Sep 2026 15:04:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/f/e8cb2c4b95a022-948-568-345-277-1927-1156.jpg",
-      "dateISO": "2026-09-04T14:04:00.000Z",
       "dateFormatted": "4 września 2026"
     },
     {
@@ -697,30 +757,6 @@
       "dateFormatted": "4 września 2026"
     },
     {
-      "title": "Twórca Art-B poszukiwany przez Interpol. Bogusław Bagsik ścigany czerwoną notą",
-      "link": "https://www.bankier.pl/wiadomosc/Tworca-Art-B-poszukiwany-przez-Interpol-Boguslaw-Bagsik-scigany-czerwona-nota-9192287.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Twórca Art-B Bogusław Bagsik jest ścigany czerwoną notą Interpolu w związku z oszustwami – poinformował Interpol. Ciąży na nim wyrok sześciu lat więzienia za doprowadzenie setek inwestorów do milionowych strat. Wcześniej odsiedział wyrok za aferę Art-B.",
-      "pubDate": "Fri, 4 Sep 2026 14:04:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/1/8144e231d28c49-945-560-30-7-2970-1781.jpg",
-      "dateISO": "2026-09-04T13:04:00.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "Nowe zasady wykonywania wyroków ETPC. Sejm przyjął ustawę",
-      "link": "https://www.bankier.pl/wiadomosc/Nowe-zasady-wykonywania-wyrokow-ETPC-Sejm-przyjal-ustawe-9192233.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sejm uchwalił w piątek ustawę o wykonywaniu orzeczeń Europejskiego Trybunału Praw Człowieka. Celem przepisów jest ustanowienie zasad i trybu wykonywania orzeczeń ETPC, a w konsekwencji usprawnienie tego procesu.",
-      "pubDate": "Fri, 4 Sep 2026 13:04:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/7/4192d5526a6433-948-568-10-289-4270-2562.jpg",
-      "dateISO": "2026-09-04T12:04:00.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
       "title": "Miliardy budżetu, rekordy na Netfliksie i szał na PS5. GTA VI demoluje rynek na miesiące przed premierą",
       "link": "https://www.bankier.pl/wiadomosc/Miliardy-budzetu-rekordy-na-Netfliksie-i-szal-na-PS5-GTA-VI-demoluje-rynek-na-miesiace-przed-premiera-9192101.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Jedno jest pewne - na tę grę czeka obecnie cały świat. Pierwszy obszerny pokaz rozgrywki z Grand Theft Auto VI wyemitowany premierowo na platformie Netflix przyciągnął dziesiątki milionów widzów i wywindował wyniki przedsprzedaży na niespotykane dotąd poziomy. Wszystko wskazuje na to, iż Rockstar ma",
@@ -730,18 +766,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/a/8/30211b05ca5d7c-948-568-0-92-3360-2015.jpg",
       "dateISO": "2026-09-04T10:30:00.000Z",
-      "dateFormatted": "4 września 2026"
-    },
-    {
-      "title": "Sejm wybrał Macieja Berka na sędziego Trybunału Konstytucyjnego",
-      "link": "https://www.bankier.pl/wiadomosc/Sejm-wybral-Macieja-Berka-na-sedziego-Trybunalu-Konstytucyjnego-9192088.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sejm wybrał w piątek Macieja Berka na sędziego Trybunału Konstytucyjnego. Berek do niedawna pełnił funkcję ministra ds. nadzoru nad wdrażaniem polityki rządu; jego kandydaturę zgłosili posłowie KO.",
-      "pubDate": "Fri, 4 Sep 2026 11:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/a/eb9629dd421362-948-568-20-0-3980-2387.jpg",
-      "dateISO": "2026-09-04T10:00:00.000Z",
       "dateFormatted": "4 września 2026"
     },
     {
@@ -769,14 +793,14 @@
       "dateFormatted": "4 września 2026"
     },
     {
-      "title": "Wrześniowa „klątwa” GPW. Czy wrzesień zawsze przynosi spadki?",
-      "link": "https://www.bankier.pl/wiadomosc/Wrzesniowa-klatwa-GPW-Czy-wrzesien-zawsze-przynosi-spadki-9191559.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Wrzesień nie bez kozery owiany jest sławą „najgorszego giełdowego miesiąca roku”. Ale tegoroczny wrzesień może okazać się wyjątkowy.",
+      "title": "Podatek od wartości aktywów na OKI. Ile zapłacisz przy 80, 150 i 300 tys. zł?",
+      "link": "https://www.bankier.pl/wiadomosc/Podatek-od-wartosci-aktywow-na-OKI-Ile-zaplacisz-przy-80-150-i-300-tys-zl-9191778.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Osobiste Konta Inwestycyjne mają zmienić sposób opodatkowania części oszczędności Polaków. Zyski, odsetki i dywidendy osiągane na OKI nie będą objęte 19-proc. podatkiem Belki. W zamian przy większych portfelach pojawi się podatek od wartości aktywów. W pierwszym roku jego stawka wyniesie 0,85 proc. ",
       "pubDate": "Fri, 4 Sep 2026 06:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/5/7/1cbb573ee4abfe-948-568-0-0-2216-1330.jpg",
+      "image": "http://galeria.bankier.pl/p/c/d/a64227103dac65-948-568-16-40-1584-950.jpg",
       "dateISO": "2026-09-04T05:00:00.000Z",
       "dateFormatted": "4 września 2026"
     },
@@ -793,14 +817,14 @@
       "dateFormatted": "4 września 2026"
     },
     {
-      "title": "Podatek od wartości aktywów na OKI. Ile zapłacisz przy 80, 150 i 300 tys. zł?",
-      "link": "https://www.bankier.pl/wiadomosc/Podatek-od-wartosci-aktywow-na-OKI-Ile-zaplacisz-przy-80-150-i-300-tys-zl-9191778.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Osobiste Konta Inwestycyjne mają zmienić sposób opodatkowania części oszczędności Polaków. Zyski, odsetki i dywidendy osiągane na OKI nie będą objęte 19-proc. podatkiem Belki. W zamian przy większych portfelach pojawi się podatek od wartości aktywów. W pierwszym roku jego stawka wyniesie 0,85 proc. ",
+      "title": "Wrześniowa „klątwa” GPW. Czy wrzesień zawsze przynosi spadki?",
+      "link": "https://www.bankier.pl/wiadomosc/Wrzesniowa-klatwa-GPW-Czy-wrzesien-zawsze-przynosi-spadki-9191559.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Wrzesień nie bez kozery owiany jest sławą „najgorszego giełdowego miesiąca roku”. Ale tegoroczny wrzesień może okazać się wyjątkowy.",
       "pubDate": "Fri, 4 Sep 2026 06:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/c/d/a64227103dac65-948-568-16-40-1584-950.jpg",
+      "image": "http://galeria.bankier.pl/p/5/7/1cbb573ee4abfe-948-568-0-0-2216-1330.jpg",
       "dateISO": "2026-09-04T05:00:00.000Z",
       "dateFormatted": "4 września 2026"
     },
@@ -817,18 +841,6 @@
       "dateFormatted": "4 września 2026"
     },
     {
-      "title": "Wall Street w górę. Dow Jones miał najlepszy dzień od miesiąca",
-      "link": "https://www.bankier.pl/wiadomosc/Wall-Street-w-gore-Dow-Jones-mial-najlepszy-dzien-od-miesiaca-9191947.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "W czwartek akcje na amerykańskich giełdach poszły w górę, indeks Dow Jones zanotował najlepszy dzień od miesiąca, a rentowności obligacji skarbowych spadły, gdyż inwestorzy nabrali nadziei, że Rezerwa Federalna pozostawi stopy procentowe bez zmian w tym miesiącu.",
-      "pubDate": "Thu, 3 Sep 2026 22:12:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/9/c/6b41e0444bb6ed-948-568-204-399-3888-2333.jpg",
-      "dateISO": "2026-09-03T21:12:00.000Z",
-      "dateFormatted": "3 września 2026"
-    },
-    {
       "title": "Cardano 10% w górę, na rynku byka",
       "link": "https://pl.investing.com/news/cryptocurrency-news/cardano-10-w-gore-na-rynku-byka-1555910",
       "description": "",
@@ -838,18 +850,6 @@
       "category": "gielda",
       "image": "https://content-media.investing.com/news/CryptoBitcoindigital_800x533_L_1641975060.jpg",
       "dateISO": "2026-09-03T14:50:04.000Z",
-      "dateFormatted": "3 września 2026"
-    },
-    {
-      "title": "Bank Pekao daje firmom nawet 5000 zł. Sprawdzamy warunki promocji",
-      "link": "https://www.bankier.pl/wiadomosc/Bank-Pekao-daje-firmom-nawet-5000-zl-Sprawdzamy-warunki-promocji-9190850.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Przedsiębiorcy mogą zgarnąć nawet 5000 zł w nowej promocji Banku Pekao. Na pełną pulę składają się premie za otwarcie konta, płatności kartą, korzystanie z terminala oraz finansowanie działalności. Sprawdzamy, kto może skorzystać z oferty, jakie warunki trzeba spełnić i jak najłatwiej sięgnąć po mak",
-      "pubDate": "Thu, 3 Sep 2026 12:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/f/d785646eee544f-948-568-0-66-1773-1063.jpg",
-      "dateISO": "2026-09-03T11:00:00.000Z",
       "dateFormatted": "3 września 2026"
     },
     {
@@ -947,19 +947,7 @@
       "image": "https://content-media.investing.com/news/LYNXNPEE340J6_M.jpg",
       "dateISO": "2026-08-31T06:44:14.000Z",
       "dateFormatted": "31 sierpnia 2026"
-    },
-    {
-      "title": "Bitcoin oscyluje wokół 78 000 $, gdy globalny dostęp do ETF kształtuje adopcję",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-oscyluje-wokol-78-000--gdy-globalny-dostep-do-etf-ksztaltuje-adopcje-1550644",
-      "description": "",
-      "pubDate": "2026-08-30 08:56:50",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/LYNXMPED9A0RJ-ORUBS_M.jpg",
-      "dateISO": "2026-08-30T08:56:50.000Z",
-      "dateFormatted": "30 sierpnia 2026"
     }
   ],
-  "updatedAt": "2026-09-05T08:08:00.203Z"
+  "updatedAt": "2026-09-05T13:16:32.520Z"
 }
