@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Nowy korytarz omija Rosję. Trasa z Chin weszła w nowy etap",
+      "link": "https://businessinsider.com.pl/finanse/handel/nowy-korytarz-z-chin-do-europy-gigantyczna-inwestycja-omija-rosje/keeh17x",
+      "description": "Budowa jednej z najważniejszych inwestycji transportowych w Azji Środkowej wkroczyła w nowy etap. W Kirgistanie ukończono pierwszy tunelu na trasie kolei Chiny–Kirgistan–Uzbekistan. Nowy korytarz może skrócić trasę przewozu towarów do Europy i ograniczyć zależność od Rosji.",
+      "pubDate": "Wed, 09 Sep 2026 19:50:30 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/hS6k9kpTURBXy84ZWQ5MTk0OGM5NTBlMjI5N2M2NWNjOTY3NmFkZmUxOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-09T19:50:30.000Z",
+      "dateFormatted": "9 września 2026"
+    },
+    {
       "title": "KPRP pyta o kandydaturę Berka do TK. „Gigantyczne wątpliwości” co do stażu",
       "link": "https://www.bankier.pl/wiadomosc/KPRP-pyta-o-kandydature-Berka-do-TK-Gigantyczne-watpliwosci-co-do-stazu-9194659.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Kancelaria Prezydenta RP wysłała pismo do Kancelarii Sejmu ws. „wyjaśnienia okoliczności procedowania formalnie kandydatury” Macieja Berka na stanowisko sędziego TK - przekazał szef KPRP Zbigniew Bogucki. Ocenił, że są „gigantyczne wątpliwości” co do tego, czy Berek ma 10-letni staż radcy prawnego.",
@@ -37,7 +49,7 @@
       "dateFormatted": "9 września 2026"
     },
     {
-      "title": "Ile jednostek korzysta z przekopu Mierzei Wiślanej? nadal królują żeglarze i turyści",
+      "title": "Ile jednostek korzysta z przekopu Mierzei Wiślanej? Nadal królują żeglarze i turyści",
       "link": "https://businessinsider.com.pl/finanse/przekop-mierzei-wislanej-wciaz-atrakcja-dla-zeglarzy-co-z-ruchem-towarowym/8gd7ykg",
       "description": "Cztery lata po otwarciu przekopu Mierzei Wiślanej — inwestycji za 2 mld zł — w statystykach przepraw wciąż dominują żeglarze i właściciele łodzi motorowych.",
       "pubDate": "Wed, 09 Sep 2026 18:44:20 GMT",
@@ -80,7 +92,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/e/8/3f1457f4fed800-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/9/3/8d6d4df8d08771-thumb-1000.jpg",
       "dateISO": "2026-09-09T17:54:00.000Z",
       "dateFormatted": "9 września 2026"
     },
@@ -188,7 +200,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/1/0/32ef436f61248c-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/d/1/785f181c53f0ce-thumb-1000.jpg",
       "dateISO": "2026-09-09T16:44:00.000Z",
       "dateFormatted": "9 września 2026"
     },
@@ -745,18 +757,6 @@
       "dateFormatted": "9 września 2026"
     },
     {
-      "title": "Polscy uczniowie w czołówce Unii Europejskiej. Jest jednak jeden haczyk",
-      "link": "https://businessinsider.com.pl/wiadomosci/polska-wysoko-w-wynikach-waznego-badania-tylko-dwa-kraje-ue-sa-lepsze/cp9dev9",
-      "description": "Wyniki polskich uczniów w międzynarodowym badaniu PISA 2025 przekroczyły średnią dla krajów Unii Europejskiej we wszystkich objętych nim trzech obszarach. Jak wskazują jednak autorzy badania, ogólne wyniki badania drastycznie spadły, a średnia jest najniższa w historii.",
-      "pubDate": "Wed, 09 Sep 2026 10:55:28 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/tGok9kpTURBXy9jNDVjNGU3N2I3NDA0MzlhMGQ4NGRiZTJmZDRmOTA1My5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-09T10:55:28.000Z",
-      "dateFormatted": "9 września 2026"
-    },
-    {
       "title": "Bitcoin odrabia straty do 79 400 $; Fed i ropa ograniczają wzrost",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-odbija-powyzej-79-tys--fed-i-ropa-ograniczaja-wzrosty-1559789",
       "description": "",
@@ -925,5 +925,5 @@
       "dateFormatted": "3 września 2026"
     }
   ],
-  "updatedAt": "2026-09-09T19:06:49.915Z"
+  "updatedAt": "2026-09-09T22:18:58.745Z"
 }
