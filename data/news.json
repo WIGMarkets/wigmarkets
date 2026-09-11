@@ -1,15 +1,27 @@
 {
   "articles": [
     {
-      "title": "All in! Games ma porozumienie z wierzycielem regulujące spłatę wierzytelności",
-      "link": "https://www.bankier.pl/wiadomosc/All-in-Games-ma-porozumienie-z-wierzycielem-regulujace-splate-wierzytelnosci-objetej-ukladem-9196014.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "All in! Games zawarł z podmiotem niepowiązanym ze spółką porozumienie, regulujące spłatę wierzytelności przysługującej temu wierzycielowi od spółki, o wartości 3 mln zł (wg kwoty na dzień układowy; wierzytelność ta objęta jest układem) - podała spółka w komunikacie.",
-      "pubDate": "Fri, 11 Sep 2026 19:54:00 +0100",
+      "title": "Wall Street w górę na przekór inflacji i kryzysu naftowego. Dług USA płaci już prawie 5%",
+      "link": "https://www.bankier.pl/wiadomosc/Wall-Street-w-gore-na-przekor-inflacji-i-kryzysu-naftowego-Dlug-USA-placi-juz-prawie-5-9196041.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Ta sesja nie powinna była tak wyglądać. Inwestorzy dostali wszytko to, czego obawiali się przez poprzednie tygodnie. A rynek zamiast dalej spadać, to zanotował solidne odreagowanie.",
+      "pubDate": "Fri, 11 Sep 2026 22:05:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/b/0/1a402daa606bfe-948-568-0-320-3916-2350.jpg",
-      "dateISO": "2026-09-11T18:54:00.000Z",
+      "image": "http://galeria.bankier.pl/p/b/8/6465e2ee53fec9-948-568-0-50-4000-2399.jpg",
+      "dateISO": "2026-09-11T21:05:00.000Z",
+      "dateFormatted": "11 września 2026"
+    },
+    {
+      "title": "Wołodymyr Zełenski proponuje Rosji rozejm. Wzajemna ochrona energetyki",
+      "link": "https://businessinsider.com.pl/gospodarka/wolodymyr-zelenski-proponuje-porozumienie-rosji-w-sprawie-energetyki/c5clrvl",
+      "description": "Prezydent Ukrainy Wołodymyr Zełenski zaproponował zawarcie porozumienia z Rosją w sprawie wzajemnej ochrony infrastruktury energetycznej oraz przywrócenia swobodnej żeglugi handlowej. Taką propozycję przedstawił podczas wystąpienia na konferencji w Kijowie.",
+      "pubDate": "Fri, 11 Sep 2026 19:34:24 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/7nfk9kpTURBXy8yZmFlY2NkYTU0NWI1N2Q0Zjc3NThkZDg1N2IzNGIxOS5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-11T19:34:24.000Z",
       "dateFormatted": "11 września 2026"
     },
     {
@@ -277,18 +289,6 @@
       "dateFormatted": "11 września 2026"
     },
     {
-      "title": "Koniec protestu maszynistów. Opóźnienia jednak potrwają",
-      "link": "https://businessinsider.com.pl/gospodarka/protest-maszynistow-sparalizowal-kolej-w-polsce-opoznienia-potrwaja/3xw83hl",
-      "description": "Protest maszynistów sparaliżował ruch kolejowy w całej Polsce. Zwolnienie prędkości na przejazdach kolejowo-drogowych przełożyło się na tysiące minut opóźnień, a niemal wszystkie składy dalekobieżne największego przewoźnika docierają do stacji z opóźnieniem. Mimo, że protest skończył się w południe,",
-      "pubDate": "Fri, 11 Sep 2026 11:08:59 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Gcsk9kpTURBXy8xY2JlNWNkMzEwYmRhNDhiNDA2OGI5MDY4MzRiODFjYS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-11T11:08:59.000Z",
-      "dateFormatted": "11 września 2026"
-    },
-    {
       "title": "Bitcoin odbija w okolice 79 tys. $ po zgodnym z prognozami raporcie inflacyjnym",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-do-771-tys--wsrod-napiec-usairan-i-danych-cpi-1563592",
       "description": "",
@@ -481,5 +481,5 @@
       "dateFormatted": "5 września 2026"
     }
   ],
-  "updatedAt": "2026-09-11T19:00:29.435Z"
+  "updatedAt": "2026-09-11T22:17:59.606Z"
 }
