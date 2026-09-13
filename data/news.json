@@ -13,18 +13,6 @@
       "dateFormatted": "12 września 2026"
     },
     {
-      "title": "Dłuższa wojna, droższa ropa i wyższe stopy procentowe uderzą w rynki",
-      "link": "https://www.bankier.pl/wiadomosc/Dluzsza-wojna-drozsza-ropa-i-wyzsze-stopy-procentowe-uderza-w-rynki-9195900.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Inwestorzy z niepokojem analizują scenariusz, w którym konflikt na Bliskim Wschodzie potrwa dłużej. Cena ropy naftowej umacniająca się powyżej 100 dolarów za baryłkę stwarza bezpośrednie zagrożenie dla wielu klas aktywów.",
-      "pubDate": "Sat, 12 Sep 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/5/8/ce328003eb4744-948-567-0-57-1000-599.jpg",
-      "dateISO": "2026-09-12T05:00:00.000Z",
-      "dateFormatted": "12 września 2026"
-    },
-    {
       "title": "RPP nie rusza stóp, EBC podnosi. Złoto, GPW i banki pod lupą Inwestora Wojtka",
       "link": "https://www.bankier.pl/wiadomosc/RPP-nie-rusza-stop-EBC-podnosi-Zloto-GPW-i-banki-pod-lupa-Inwestora-Wojtka-9195448.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Cześć, tu Inwestor Wojtek. Zapraszam do przeglądu najważniejszych wydarzeń gospodarczych i rynkowych, w którym przyglądamy się m.in. decyzjom banków centralnych. Rada Polityki Pieniężnej zdecydowała o pozostawieniu stóp procentowych w Polsce bez zmian, ale EBC zdecydował się na już drugą w tym roku ",
@@ -33,6 +21,18 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/0/7/3e9a191a9a8bf2-948-568-0-0-2454-1472.png",
+      "dateISO": "2026-09-12T05:00:00.000Z",
+      "dateFormatted": "12 września 2026"
+    },
+    {
+      "title": "Dłuższa wojna, droższa ropa i wyższe stopy procentowe uderzą w rynki",
+      "link": "https://www.bankier.pl/wiadomosc/Dluzsza-wojna-drozsza-ropa-i-wyzsze-stopy-procentowe-uderza-w-rynki-9195900.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Inwestorzy z niepokojem analizują scenariusz, w którym konflikt na Bliskim Wschodzie potrwa dłużej. Cena ropy naftowej umacniająca się powyżej 100 dolarów za baryłkę stwarza bezpośrednie zagrożenie dla wielu klas aktywów.",
+      "pubDate": "Sat, 12 Sep 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/5/8/ce328003eb4744-948-567-0-57-1000-599.jpg",
       "dateISO": "2026-09-12T05:00:00.000Z",
       "dateFormatted": "12 września 2026"
     },
@@ -241,5 +241,5 @@
       "dateFormatted": "5 września 2026"
     }
   ],
-  "updatedAt": "2026-09-12T23:48:35.012Z"
+  "updatedAt": "2026-09-13T03:37:46.361Z"
 }
