@@ -8081,5 +8081,50 @@
     ],
     "indicatorsUsed": 3,
     "updatedAt": "2026-09-11T20:43:02.072Z"
+  },
+  {
+    "date": "2026-09-14",
+    "value": 47,
+    "label": "Neutralny",
+    "color": "#ca8a04",
+    "indicators": [
+      {
+        "name": "Siła wolumenu",
+        "value": 59,
+        "label": "Chciwość",
+        "description": "Stosunek wolumenu w dniach wzrostowych do spadkowych na GPW (30 sesji). Przewaga kupujących to sygnał chciwości. Ratio: 1.09.",
+        "weight": 0.1,
+        "details": {
+          "upVol": 654625239,
+          "downVol": 601081618,
+          "ratio": 1.09
+        }
+      },
+      {
+        "name": "Szerokość rynku",
+        "value": 42,
+        "label": "Strach",
+        "description": "Procent spółek GPW notujących powyżej 50-sesyjnej średniej. Im więcej spółek rośnie, tym wyższy wskaźnik. Obecnie 53 z 125 spółek.",
+        "weight": 0.2,
+        "details": {
+          "above": 53,
+          "total": 125,
+          "pct": 42.4
+        }
+      },
+      {
+        "name": "Nowe szczyty vs dołki",
+        "value": 46,
+        "label": "Neutralny",
+        "description": "Stosunek spółek blisko 52-tygodniowych maksimów do tych blisko minimów. Obecnie 18 spółek blisko szczytów, 21 blisko dołków.",
+        "weight": 0.15,
+        "details": {
+          "highs": 18,
+          "lows": 21
+        }
+      }
+    ],
+    "indicatorsUsed": 3,
+    "updatedAt": "2026-09-14T21:39:36.991Z"
   }
 ]
