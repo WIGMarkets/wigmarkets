@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Wall Street ponownie w dół. Rentowności 10-letnich obligacji najwyżej od 19 lat",
+      "link": "https://www.bankier.pl/wiadomosc/Wall-Street-ponownie-w-dol-Rentownosci-10-letnich-obligacji-najwyzej-od-19-lat-9197631.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Wtorkowa sesja na Wall Street zakończyła się spadkami, a rentowności 10-letnich amerykańskich obligacji skarbowych wzrosła do najwyższych poziomów od 19 lat. Inwestorzy czekają na środową decyzję Fed w sprawie stóp procentowych.",
+      "pubDate": "Tue, 15 Sep 2026 22:10:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/5/a/97131571f46a11-948-568-0-202-3000-1799.jpg",
+      "dateISO": "2026-09-15T21:10:00.000Z",
+      "dateFormatted": "15 września 2026"
+    },
+    {
       "title": "Szefowie naftowych gigantów zabrali głos. Mówią o kryzysie",
       "link": "https://businessinsider.com.pl/gospodarka/ceny-paliw-rosna-szefowie-naftowych-gigantow-kryzys-juz-tu-jest/e9ld5cb",
       "description": "Przedstawiciele branży naftowej w USA od miesięcy ostrzegali, że przedłużające się zamknięcie cieśniny Ormuz nieuchronnie doprowadzi do kryzysu paliwowego. Teraz twierdzą, że kryzys ten właśnie nadszedł.",
@@ -8,7 +20,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/ROlk9kpTURBXy82YjE2MGU0YTkwODRhMjVhMTg0MGIyMDU3NTdhYTQ3MS5wbmeRkwLNBLAA3gABoTAB",
+      "image": "https://cdn.businessinsider.com.pl/1/frsk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy82YjE2MGU0YTkwODRhMjVhMTg0MGIyMDU3NTdhYTQ3MS5wbmeSlQMAAM0HgM0EOJMFzQlgzQZA3gACoTAHoTEE",
       "dateISO": "2026-09-15T19:59:52.000Z",
       "dateFormatted": "15 września 2026"
     },
@@ -50,12 +62,12 @@
     },
     {
       "title": "Ponad 2 miliardy złotych zysku w trzy miesiące. PGE przedstawia oficjalne wyniki finansowe",
-      "link": "https://www.bankier.pl/wiadomosc/PGE-miala-zysk-netto-j-d-w-II-kw-26-w-wys-2-02-mld-zl-zgodnie-z-szacunkami-9197569.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/PGE-miala-zysk-netto-j-d-w-II-kw-26-w-wys-2-02-mld-zl-zgodnie-z-szacunkami-9197569.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Grupa PGE odnotowała w drugim kwartale 2026 roku 2,02 mld zł zysku netto j.d. - podała spółka w raporcie. Wcześniej PGE szacowało zysk netto j.d. w drugim kwartale na ok. 2,06 mld zł. W tym okresie przychody ze sprzedaży wyniosły 15,26 mld zł, a zysk z działalności operacyjnej 2,65 mld zł.",
       "pubDate": "Tue, 15 Sep 2026 19:24:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/8/1/089521acbd9505-948-568-0-243-3600-2159.jpg",
       "dateISO": "2026-09-15T18:24:00.000Z",
       "dateFormatted": "15 września 2026"
@@ -116,7 +128,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/yKhk9kpTURBXy85Y2E0ODUxZGJkYzQzNTk2MTgzZGIxODA1OGNiZDIxOS5wbmeRkwLNBLAA3gABoTAB",
+      "image": "https://cdn.businessinsider.com.pl/1/atTk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy85Y2E0ODUxZGJkYzQzNTk2MTgzZGIxODA1OGNiZDIxOS5wbmeSlQMAAM0HgM0EOJMFzQlgzQZA3gACoTAHoTEE",
       "dateISO": "2026-09-15T17:58:20.000Z",
       "dateFormatted": "15 września 2026"
     },
@@ -272,7 +284,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/kddk9kpTURBXy84ZjY4ZTVmODM5ZDFiZjI0NDIzZDk4ZTE2MWI5MzU4Zi5wbmeRkwLNBLAA3gABoTAB",
+      "image": "https://cdn.businessinsider.com.pl/1/isKk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy84ZjY4ZTVmODM5ZDFiZjI0NDIzZDk4ZTE2MWI5MzU4Zi5wbmeSlQMAAM0HgM0EOJMFzQlgzQZA3gACoTAHoTEE",
       "dateISO": "2026-09-15T16:29:41.000Z",
       "dateFormatted": "15 września 2026"
     },
@@ -320,7 +332,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/nIhk9kpTURBXy9mZmMxOWU4NWZhMmY0Yjk5ZjhjY2M4OWQyNDY2ZTI2NC5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://cdn.businessinsider.com.pl/1/fAPk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9mZmMxOWU4NWZhMmY0Yjk5ZjhjY2M4OWQyNDY2ZTI2NC5qcGeSlQMAzQKDzRngzQ6RkwXNCWDNBkDeAAKhMAehMQQ",
       "dateISO": "2026-09-15T15:44:49.000Z",
       "dateFormatted": "15 września 2026"
     },
@@ -404,7 +416,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/n7Ok9kpTURBXy9jNzFhZTQwY2QzZmZhYjAzMTFlYzNhZmU1MDRkZjlmOS5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://cdn.businessinsider.com.pl/1/NPKk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9jNzFhZTQwY2QzZmZhYjAzMTFlYzNhZmU1MDRkZjlmOS5qcGeSlQMASs0D6M0CM5MFzQlgzQZA3gACoTAHoTEE",
       "dateISO": "2026-09-15T14:34:17.000Z",
       "dateFormatted": "15 września 2026"
     },
@@ -428,7 +440,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Yetk9kpTURBXy80ZmE0MzZhMzZkODIzMWIxYjlhNTEzZTJlM2RiODA4My5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://cdn.businessinsider.com.pl/1/xfdk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy80ZmE0MzZhMzZkODIzMWIxYjlhNTEzZTJlM2RiODA4My5qcGeSlQMAAM0FE80C25MFzQlgzQZA3gACoTAHoTEE",
       "dateISO": "2026-09-15T14:32:51.000Z",
       "dateFormatted": "15 września 2026"
     },
@@ -440,7 +452,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/OqCk9kpTURBXy9mM2Y4YjliYTYyOWQ1MjM0YzQ5OTQ3ZDFlODdkZGE2Yi5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://cdn.businessinsider.com.pl/1/HCwk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9mM2Y4YjliYTYyOWQ1MjM0YzQ5OTQ3ZDFlODdkZGE2Yi5qcGeSlQMAzQJlzRd8zQ06kwXNCWDNBkDeAAKhMAehMQQ",
       "dateISO": "2026-09-15T14:21:50.000Z",
       "dateFormatted": "15 września 2026"
     },
@@ -464,7 +476,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/RhFk9kpTURBXy80MDk1MWM4YjAxYTdkMzVmYmU2YTM2NmQ1M2E2ZjViYy5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://cdn.businessinsider.com.pl/1/25ik9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy80MDk1MWM4YjAxYTdkMzVmYmU2YTM2NmQ1M2E2ZjViYy5qcGeSlQMAS80FFM0C25MFzQlgzQZA3gACoTAHoTEE",
       "dateISO": "2026-09-15T13:48:53.000Z",
       "dateFormatted": "15 września 2026"
     },
@@ -476,7 +488,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/4Qek9kpTURBXy9hZDc3OTIzNTk4Nzk4YzlmOGQ5Yjg1MmFlMzdlM2QxZC5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://cdn.businessinsider.com.pl/1/E1Ek9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9hZDc3OTIzNTk4Nzk4YzlmOGQ5Yjg1MmFlMzdlM2QxZC5qcGeSlQPNBokAzRZjzQybkwXNCWDNBkDeAAKhMAehMQQ",
       "dateISO": "2026-09-15T13:38:45.000Z",
       "dateFormatted": "15 września 2026"
     },
@@ -488,7 +500,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/mwNk9kpTURBXy8yYTBhYzZmZmZmZTE0ZGJmNmYyNjliMWYxNjY3MDYwYy5wbmeRkwLNBLAA3gABoTAB",
+      "image": "https://cdn.businessinsider.com.pl/1/G3bk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8yYTBhYzZmZmZmZTE0ZGJmNmYyNjliMWYxNjY3MDYwYy5wbmeSlQMAAM0HgM0EOJMFzQlgzQZA3gACoTAHoTEE",
       "dateISO": "2026-09-15T13:30:06.000Z",
       "dateFormatted": "15 września 2026"
     },
@@ -512,8 +524,20 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/M_ak9kpTURBXy8zNzQyZWYxYjEzMWYwZWU5ODA5ZTkwMWI0OTk3YzExYi5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://cdn.businessinsider.com.pl/1/xK_k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8zNzQyZWYxYjEzMWYwZWU5ODA5ZTkwMWI0OTk3YzExYi5qcGeSlQMAXc0LuM0Gl5MFzQlgzQZA3gACoTAHoTEE",
       "dateISO": "2026-09-15T13:27:42.000Z",
+      "dateFormatted": "15 września 2026"
+    },
+    {
+      "title": "Żywołapka na kuny, szczury i inne zwierzęta. Prosty sposób na nieproszonych gości",
+      "link": "https://businessinsider.com.pl/technologie/zywolapka-na-kuny-szczury-i-inne-zwierzeta-prosty-sposob-na-nieproszonych-gosci/t074331",
+      "description": "Dziki i nieproszony gość w domu, na strychu czy w ogrodzie może narobić sporych szkód. Kuny, szczury, łasice czy myszy to powszechny problem, ale można się ich pozbyć w humanitarny sposób, bez sięgania po niebezpieczne trucizny oraz chemię. Stalowa klatka żywołowna z automatycznym mechanizmem zapadk",
+      "pubDate": "Tue, 15 Sep 2026 13:19:52 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://cdn.businessinsider.com.pl/1/7s9k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9kM2MwMmRkMTY0NGY2YTc2MDY1NDBhOTE4ZWI4NzQyYi5qcGeSlQMAAM0OZM0IGJMFzQlgzQZA3gACoTAHoTEE",
+      "dateISO": "2026-09-15T13:19:52.000Z",
       "dateFormatted": "15 września 2026"
     },
     {
@@ -536,8 +560,20 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/fK4k9kpTURBXy82OThiZWRiZDhmYzgyMTEwMjM5ZDQ5MDM4NmVmMWZjZC5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://cdn.businessinsider.com.pl/1/Lj3k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy82OThiZWRiZDhmYzgyMTEwMjM5ZDQ5MDM4NmVmMWZjZC5qcGeSlQMAzNHNB9DNBGWTBc0JYM0GQN4AAqEwB6ExBA",
       "dateISO": "2026-09-15T13:08:32.000Z",
+      "dateFormatted": "15 września 2026"
+    },
+    {
+      "title": "Polska wchodzi w erę megainwestycji. Wymaga to nowego modelu wsparcia prawnego",
+      "link": "https://businessinsider.com.pl/biznes/biezace-doradztwo-kontraktowe-jak-ograniczac-ryzyko-przy-duzych-inwestycjach/njs34nt",
+      "description": "Nowa fala dużych inwestycji będzie sprawdzianem sposobu, w jaki wykonawcy i dostawcy przechodzą przez kolejne etapy realizacji. Bieżące doradztwo kontraktowe powinno koncentrować wsparcie prawne na momentach, w którym powstają ryzyka oraz zapadają decyzje kluczowe dla czasu wykonania i marży z kontr",
+      "pubDate": "Tue, 15 Sep 2026 12:59:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://cdn.businessinsider.com.pl/1/WY-k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy80MTQyMmMyYmY4YWRlZGVlYTM5MDRiYjdmZWRmN2U4MC5qcGeSlQMAAM0Wt80MyZMFzQlgzQZA3gACoTAHoTEE",
+      "dateISO": "2026-09-15T12:59:00.000Z",
       "dateFormatted": "15 września 2026"
     },
     {
@@ -548,7 +584,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/qGZk9kpTURBXy8yNTJiM2IxYmI0NDM5NzQ1Y2U2NTU2MWM4YmY4YjI1Yy5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://cdn.businessinsider.com.pl/1/9yQk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8yNTJiM2IxYmI0NDM5NzQ1Y2U2NTU2MWM4YmY4YjI1Yy5qcGeSlQMAzQEmzSUgzRTjkwXNCWDNBkDeAAKhMAehMQQ",
       "dateISO": "2026-09-15T12:57:22.000Z",
       "dateFormatted": "15 września 2026"
     },
@@ -560,7 +596,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/tHFk9kpTURBXy8yMGIyNTQyYTc5YTgwMGJmYzdjYTI4MzQ4NjcwN2Q0NC5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://cdn.businessinsider.com.pl/1/BNVk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8yMGIyNTQyYTc5YTgwMGJmYzdjYTI4MzQ4NjcwN2Q0NC5qcGeSlQMTH80JMc0FLJMFzQlgzQZA3gACoTAHoTEE",
       "dateISO": "2026-09-15T12:57:09.000Z",
       "dateFormatted": "15 września 2026"
     },
@@ -574,6 +610,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/3/0/dc3d0fb07785e7-948-568-4-124-1596-957.jpg",
       "dateISO": "2026-09-15T12:46:00.000Z",
+      "dateFormatted": "15 września 2026"
+    },
+    {
+      "title": "Zegarek swiss made z szafirowym szkłem za grosze. Wygląda na droższy",
+      "link": "https://businessinsider.com.pl/technologie/zegarek-swiss-made-z-szafirowym-szklem-za-grosze-wyglada-na-drozszy/0xqrye8",
+      "description": "Trudno jest znaleźć zegarek męski ze szwajcarskim mechanizmem i szkłem szafirowym w niskiej cenie. Nam udało się to zrobić. Bisset ma kwarcowy mechanizm pochodzący ze Szwajcarii, trwałą stalową kopertę oraz szkło szafirowe, które wykazuje doskonałą odporność na zarysowania. Koperta ma zaledwie 8 mm ",
+      "pubDate": "Tue, 15 Sep 2026 12:45:02 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://cdn.businessinsider.com.pl/1/4eGk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy85OTNlYmQwNjQ5YjIzYWJhYjRmMDQ0MGQzODZhYWM0NC5wbmeSlQMADs0DO80B0ZMFzQlgzQZA3gACoTAHoTEE",
+      "dateISO": "2026-09-15T12:45:02.000Z",
       "dateFormatted": "15 września 2026"
     },
     {
@@ -596,7 +644,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/YaUk9kpTURBXy9kNjQwNGYzMDg5MjA1N2UyMDQ1MzI0ZTQ3MzBkYzA5NC5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://cdn.businessinsider.com.pl/1/QX2k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9kNjQwNGYzMDg5MjA1N2UyMDQ1MzI0ZTQ3MzBkYzA5NC5qcGeSlQMAzNDNGfrNDpyTBc0JYM0GQN4AAqEwB6ExBA",
       "dateISO": "2026-09-15T12:38:18.000Z",
       "dateFormatted": "15 września 2026"
     },
@@ -610,6 +658,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/0/8/64290ca7001bae-948-568-517-817-1987-1192.jpg",
       "dateISO": "2026-09-15T12:32:00.000Z",
+      "dateFormatted": "15 września 2026"
+    },
+    {
+      "title": "17 wycieczek, które już teraz warto zaplanować na kolejny rok. To prawdziwe hity",
+      "link": "https://businessinsider.com.pl/lifestyle/podroze/17-wycieczek-ktore-juz-teraz-warto-zaplanowac-na-kolejny-rok-to-prawdziwe-hity/1d9gcj0",
+      "description": "Coraz więcej podróżnych wybiera wycieczki objazdowe, które pozwalają w krótkim czasie poznać wiele miejsc, kultur i atrakcji. Najciekawsze trasy na kolejny rok obejmują zarówno kultowe europejskie kierunki, jak i bardziej egzotyczne zakątki świata, łącząc intensywne zwiedzanie z wyjątkowymi doświadc",
+      "pubDate": "Tue, 15 Sep 2026 12:25:29 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://cdn.businessinsider.com.pl/1/-m_k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy80ODkzMTQwZGFiMDdmYTZmNGEwNjZlZTUxNTZiM2E4OC5qcGeSlQMAzNvNG2DND2aTBc0JYM0GQN4AAqEwB6ExBA",
+      "dateISO": "2026-09-15T12:25:29.000Z",
       "dateFormatted": "15 września 2026"
     },
     {
@@ -632,56 +692,8 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/WgYk9kpTURBXy9mMDE4OTkyOGExMjRiZTViODY5MTQ2ODBjOTdmYWU1My5qcGeRkwLNBLAA3gABoTAB",
+      "image": "https://cdn.businessinsider.com.pl/1/55qk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9mMDE4OTkyOGExMjRiZTViODY5MTQ2ODBjOTdmYWU1My5qcGeSlQMAAM0HgM0EOJMFzQlgzQZA3gACoTAHoTEE",
       "dateISO": "2026-09-15T12:07:34.000Z",
-      "dateFormatted": "15 września 2026"
-    },
-    {
-      "title": "Dziesiątki miliardów na import energii. Ten kraj będzie miał problem",
-      "link": "https://businessinsider.com.pl/gospodarka/wielka-brytania-bije-rekordy-importu-energii-eksperci-ostrzegaja-przed-kryzysem/s4d0vsp",
-      "description": "Wielka Brytania wydała w ubiegłym roku 84 mld funtów (ok. 419 mld zł) na zakup ropy naftowej, gazu i energii elektrycznej z zagranicy. Pojawiają się przy tym ostrzeżenia, że wysokie podatki niszczą miejsca pracy na Morzu Północnym i zagrażają bezpieczeństwu energetycznemu kraju.",
-      "pubDate": "Tue, 15 Sep 2026 12:03:40 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/BBpk9kpTURBXy9iNzFkMDEzMjZlMjg3ZDBkOGVlMTY0ZDk0MjkyY2ZiOC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-15T12:03:40.000Z",
-      "dateFormatted": "15 września 2026"
-    },
-    {
-      "title": "ABW ostrzega przed aktami sabotażu. \"Nie ignoruj takich sygnałów\"",
-      "link": "https://businessinsider.com.pl/wiadomosci/abw-publikuje-ostrzezenie-to-co-wyglada-niewinnie-moze-miec-znaczenie/jznhb3z",
-      "description": "Agencja Bezpieczeństwa Wewnętrznego (ABW) zamieściła w mediach społecznościowych ostrzegawczy wpis. Informuje tam o pozornie niewinnych zdarzeniach, które w rzeczywistości mogą okazać się groźne. Wskazuje, jak należy się zachować w nietypowych sytuacjach.",
-      "pubDate": "Tue, 15 Sep 2026 12:00:14 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/8PLk9kpTURBXy8wODFkOTQ2NzJhZWMxOTI1ZGRiOGEyZTU4OTJjZGY3Zi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-15T12:00:14.000Z",
-      "dateFormatted": "15 września 2026"
-    },
-    {
-      "title": "Polski klient kupuje mniej, bo stał się \"wytrawnym graczem\". Jest badanie",
-      "link": "https://businessinsider.com.pl/gospodarka/polacy-robia-coraz-mniejsze-zakupy-spadek-o-niemal-4-proc/69c412z",
-      "description": "W pierwszym półroczu wolumen zakupów zmniejszył się w Polsce o 3,7 proc., podczas gdy średnie ceny wzrosły o 3,5 proc. — wynika z danych YouGov. Jednocześnie eksperci wskazują, że rośnie rola promocji i marek własnych.",
-      "pubDate": "Tue, 15 Sep 2026 11:46:12 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/0p6k9kpTURBXy9jYWMxYzJkNGQxODdhMmRjYjBhOGI5NWE4ZDkxM2JjNC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-15T11:46:12.000Z",
-      "dateFormatted": "15 września 2026"
-    },
-    {
-      "title": "Mapa płacy minimalnej. Zarobki rosną wyjątkowo szybko",
-      "link": "https://businessinsider.com.pl/praca/wynagrodzenia/wzrost-placy-minimalnej-w-polsce-wyprzedza-srednie-wynagrodzenie-eksperci-wyjasniaja/74tr4jr",
-      "description": "W latach 2016-2025 Polska była w ścisłej czołówce krajów pod względem wzrostu płacy minimalnej w relacji do wzrostu średniego wynagrodzenia. Choć różnie wygląda to w zależności od powiatu. Ekonomiści przy okazji obalają mit, że wyższa płaca minimalna musi negatywnie odbić się na zatrudnieniu.",
-      "pubDate": "Tue, 15 Sep 2026 11:45:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/mW2k9kpTURBXy85YWYyYmZmMGNkMTUyYTEyMjUzNjZjZmJmMmQ1YjY0ZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-15T11:45:00.000Z",
       "dateFormatted": "15 września 2026"
     },
     {
@@ -913,5 +925,5 @@
       "dateFormatted": "10 września 2026"
     }
   ],
-  "updatedAt": "2026-09-15T21:11:40.156Z"
+  "updatedAt": "2026-09-16T00:00:01.877Z"
 }
