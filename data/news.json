@@ -1,19 +1,331 @@
 {
   "articles": [
     {
+      "title": "LPP nie widzi żadnych opóźnień w dostawach w związku z sytuacją na Morzu Czerwonym",
+      "link": "https://www.bankier.pl/wiadomosc/LPP-nie-widzi-zadnych-opoznien-w-dostawach-w-zwiazku-z-sytuacja-na-Morzu-Czerwonym-9198891.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Grupa LPP nie widzi żadnych opóźnień w dostawach w związku z sytuacją na Morzu Czerwonym - poinformował wiceprezes LPP Marcin Bójko.",
+      "pubDate": "Thu, 17 Sep 2026 19:22:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/6/9/663ed7264204bb-thumb-1000.jpg",
+      "dateISO": "2026-09-17T18:22:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "PHN planuje emisję nie więcej niż 250.000 obligacji serii F2",
+      "link": "https://www.bankier.pl/wiadomosc/PHN-planuje-emisje-nie-wiecej-niz-250-000-obligacji-serii-F2-9198890.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Polski Holding Nieruchomości zdecydował w sprawie emisji nie więcej niż 250.000 obligacji serii F2 o łącznej wartości nominalnej nie większej niż 250 mln zł - podała spółka w komunikacie. (PAP Biznes)",
+      "pubDate": "Thu, 17 Sep 2026 19:18:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/d/1/785f181c53f0ce-thumb-1000.jpg",
+      "dateISO": "2026-09-17T18:18:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Był menedżerem w gigafabryce Elona Muska. Opowiada o kulisach pracy dla miliardera",
+      "link": "https://www.bankier.pl/wiadomosc/Byl-menedzerem-w-gigafabryce-Elona-Muska-Opowiada-o-kulisach-pracy-dla-miliardera-9197807.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Amerykanin Steven Prast przez wiele lat pracował na stanowiskach kierowniczych pod kierownictwem Elona Muska w SpaceX i Tesli. Teraz opowiada, jak wyglądała praca dla ekscentrycznego przedsiębiorcy.",
+      "pubDate": "Thu, 17 Sep 2026 19:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/e/a320ccf8025244-948-568-568-405-1399-839.jpg",
+      "dateISO": "2026-09-17T18:00:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Donald Trump: wkrótce możemy ogłosić lokalizację bazy USA w Polsce",
+      "link": "https://businessinsider.com.pl/wiadomosci/baza-usa-w-polsce-donald-trump-wkrotce-mozemy-oglosic-lokalizacje/lnk6ql8",
+      "description": "Poczyniliśmy wielkie postępy w kierunku ustanowienia bazy US Army w Polsce — przekazał Donald Trump.",
+      "pubDate": "Thu, 17 Sep 2026 17:46:50 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/i0uk9kpTURBXy8yMGZhMTk0ZmFkYzlhNGZlNDM2ZjM1MGRmOTViMzQ5Yy5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-17T17:46:50.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Premier ujawnia plan Moskwy. \"Przypadkowe\" ataki mogą dosięgać Polski",
+      "link": "https://www.bankier.pl/wiadomosc/Premier-ujawnia-plan-Moskwy-Przypadkowe-ataki-moga-dosiegac-Polski-9198831.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rosja ma nową strategię wojny wobec Ukrainy w celu zniszczenia w możliwie dużej skali jej gospodarki i logistyki. W planach Moskwy, według ocen wywiadów, są także hybrydowe uderzenia dronami i rakietami na państwa wspierające Ukrainę, w tym Polskę, które mają mieć rzekomo przypadkowy charakter - poi",
+      "pubDate": "Thu, 17 Sep 2026 18:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/b/6e5ac2790372c3-948-568-9-4-1910-1146.jpg",
+      "dateISO": "2026-09-17T17:00:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Ukraina znalazła sposób na odrzutowe Shahedy? Zełenski o wynikach testów",
+      "link": "https://www.bankier.pl/wiadomosc/Ukraina-znalazla-sposob-na-odrzutowe-Shahedy-Zelenski-o-wynikach-testow-9198827.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Ukrainy Wołodymyr Zełensky poinformował, że Ukraina ma już własne drony przechwytujące, zdolne do zestrzeliwania odrzutowych bezzałogowców typu Shahed/Geran. Jego oświadczenie przekazał w czwartek portal Ukrainska Prawda.",
+      "pubDate": "Thu, 17 Sep 2026 17:48:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/6/be7857602b466a-948-568-19-19-3922-2353.jpg",
+      "dateISO": "2026-09-17T16:48:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Wojciech Król może zostać zatrzymany i aresztowany. Jest zgoda Sejmu",
+      "link": "https://www.bankier.pl/wiadomosc/Wojciech-Krol-moze-zostac-zatrzymany-i-aresztowany-Jest-zgoda-Sejmu-9198824.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sejm wyraził w czwartek zgodę na zatrzymanie i tymczasowe aresztowanie posła Wojciecha Króla, o co zawnioskowała Prokuratura Europejska. Prowadzi ona śledztwo dot. podejrzeń o oszustwa i korupcję przy procesie modernizacji infrastruktury tramwajowej w Górnośląsko-Zagłębiowskiej Metropolii.",
+      "pubDate": "Thu, 17 Sep 2026 17:47:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/c/ecd902f0f27661-948-568-0-79-3967-2380.jpg",
+      "dateISO": "2026-09-17T16:47:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "LPP mocno powyżej oczekiwań. Zysk netto wzrósł do 768 mln zł",
+      "link": "https://www.bankier.pl/wiadomosc/LPP-mocno-powyzej-oczekiwan-Zysk-netto-wzrosl-do-768-mln-zl-9198823.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Grupa LPP, właściciel m.in. marek odzieżowych Sinsay, Reserved i House, zwiększyła w drugim kwartale 2026/27 zysk netto do 768 mln zł. Analitycy ankietowani przez PAP Biznes liczyli, że w kwartale zakończonym 31 lipca LPP osiągnie 684,1 mln zł zysku netto.",
+      "pubDate": "Thu, 17 Sep 2026 17:46:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/2/78a0bd80b17313-948-568-0-650-3366-2020.jpg",
+      "dateISO": "2026-09-17T16:46:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Kurs Orlenu szybko oddał 6% od szczytu i jest najniżej od wakacji. Allegro mocne w Polsce i wreszcie szybko rośnie za granicą",
+      "link": "https://www.bankier.pl/wiadomosc/Kurs-Orlenu-szybko-oddal-6-od-szczytu-i-jest-najnizej-od-wakacji-Allegro-mocne-w-Polsce-i-wreszcie-szybko-rosnie-za-granica-9198801.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Czwartkowa sesja na warszawskim parkiecie upłynęła pod znakiem wyraźnych wzrostów. Indeks WIG20 powrócił w okolice historycznych rekordów. Sprzyjające nastroje panowały również na globalnych rynkach, gdzie inwestorzy dyskontowali decyzje banków centralnych oraz spadki cen ropy naftowej. Nie sprzyjał",
+      "pubDate": "Thu, 17 Sep 2026 17:22:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/d/a/b86f474ab95658-945-560-44-386-3366-2019.jpg",
+      "dateISO": "2026-09-17T16:22:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Sejm zgodził się na zatrzymanie posła Wojciecha Króla. Oto jego oświadczenie majątkowe",
+      "link": "https://businessinsider.com.pl/finanse/wojciech-krol-zawieszony-w-klubie-ko-ile-ma-na-koncie-oto-jego-majatek/zb8e27m",
+      "description": "Sejm wyraził w czwartek zgodę na zatrzymanie i tymczasowe aresztowanie posła Koalicji Obywatelskiej Wojciecha Króla. Sprawdziliśmy oświadczenie majątkowe posła.",
+      "pubDate": "Thu, 17 Sep 2026 16:00:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/KAPk9kpTURBXy85OThjN2ExN2ViYmQ3Nzg2YTliNTk2ZWQ0M2Y1NzVhOC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-17T16:00:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Koniec przekształcania mieszkań lokatorskich we własność? Projekt trafił na rząd",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-przeksztalcania-mieszkan-lokatorskich-we-wlasnosc-Projekt-trafil-na-rzad-9198775.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Projekt noweli, który ma m.in. wyeliminować możliwość przekształcenia spółdzielczego lokatorskiego prawa do lokalu w odrębną własność, został skierowany przez Stały Komitet Rady Ministrów na posiedzenie rządu - poinformował w czwartek resort rozwoju i technologii.",
+      "pubDate": "Thu, 17 Sep 2026 16:54:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/e/6c477cb3692c35-948-568-0-286-4250-2549.jpg",
+      "dateISO": "2026-09-17T15:54:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Ustawa o statusie osoby najbliższej. Sejm zdecydował w sprawie weta prezydenta",
+      "link": "https://businessinsider.com.pl/prawo/ustawa-o-statusie-osoby-najblizszej-sejm-nie-odrzucil-weta-prezydenta/v6e1p2q",
+      "description": "Sejm nie odrzucił weta prezydenta do ustawy o statusie osoby najbliższej w związku i umowie o wspólnym pożyciu.",
+      "pubDate": "Thu, 17 Sep 2026 15:37:13 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Xtyk9kpTURBXy85NjlhNjcxYTkzNDA1MTdiOTFmMmM2YWYwYWQ4MTRlNi5wbmeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-17T15:37:13.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Nawet 6 tys. baryłek ropy naftowej dziennie. Odkryto nowe złoże",
+      "link": "https://businessinsider.com.pl/biznes/ropa-naftowa-zloze-w-libii-moze-zapewnic-6-tys-barylek-dziennie/z79k71k",
+      "description": "Austriacki koncern energetyczny OMV potwierdził opłacalność komercyjną odwiertu \"Essar\". Wydobycie ze złoża może sięgnąć 6 tys. baryłek ropy naftowej dziennie.",
+      "pubDate": "Thu, 17 Sep 2026 15:29:56 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/yxxk9kpTURBXy84OWM2OTM3MDJmZmEzY2ZmMjk2YjlkM2RjMGU0ZjNmYi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-17T15:29:56.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Karol III alarmuje w sprawie AI. „Potrzebujemy kontroli, zanim będzie za późno”",
+      "link": "https://www.bankier.pl/wiadomosc/Karol-III-alarmuje-w-sprawie-AI-Potrzebujemy-kontroli-zanim-bedzie-za-pozno-9198743.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W niepowołanych rękach sztuczna inteligencja może być śmiertelnym zagrożeniem - to ostrzeżenie króla Karola III, które wygłosił w Szkocji, podczas czwartkowego szczytu poświęconego AI. Monarcha zaapelował o kontrolowanie rozwoju technologii „nim będzie za późno”.",
+      "pubDate": "Thu, 17 Sep 2026 16:29:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/8/07ffd02d425251-945-560-165-293-2842-1705.jpg",
+      "dateISO": "2026-09-17T15:29:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Afera z dokumentacją Akademii Wymiaru Sprawiedliwości. Żurek zawiadamia prokuraturę",
+      "link": "https://www.bankier.pl/wiadomosc/Afera-z-dokumentacja-Akademii-Wymiaru-Sprawiedliwosci-Zurek-zawiadamia-prokurature-9198756.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Złożyliśmy do Prokuratury Krajowej zawiadomienie o podejrzeniu popełnienia przestępstwa ws. ingerencji w dokumentację Akademii Wymiaru Sprawiedliwości - przekazał szef MS, prokurator generalny Waldemar Żurek. Chodzi o dwa różne dokumenty z tym samym numerem podpisane przez b. rektora AWS Michała Sop",
+      "pubDate": "Thu, 17 Sep 2026 16:27:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/4/6a334b35f9ba88-948-568-7-187-2992-1795.jpg",
+      "dateISO": "2026-09-17T15:27:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Oslo przekaże miliard koron na przygotowanie Ukrainy do członkostwa w UE",
+      "link": "https://www.bankier.pl/wiadomosc/Oslo-przekaze-miliard-koron-na-przygotowanie-Ukrainy-do-czlonkostwa-w-UE-9198741.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Norwegia przekaże za pośrednictwem UE 1 mld koron (ok. 400 mln zł) na wsparcie Ukrainy. Szef norweskiego MSZ Espen Barth Eide zadeklarował w czwartek w Oslo, że jego kraj chce, by Ukraina została pełnoprawną częścią rynku europejskiego.",
+      "pubDate": "Thu, 17 Sep 2026 16:26:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/e/942e28b0c55dc8-948-567-0-62-1000-599.jpg",
+      "dateISO": "2026-09-17T15:26:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Nawrocki: Rosja się nie zmienia. Wojna hybrydowa może być przygotowaniem do tego, co wydarzyło się w 1939 r.",
+      "link": "https://www.bankier.pl/wiadomosc/Nawrocki-Rosja-sie-nie-zmienia-Wojna-hybrydowa-moze-byc-przygotowaniem-do-tego-co-wydarzylo-sie-w-1939-r-9198729.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rosja wciąż prowokuje, bo Rosja się nie zmienia – podkreślił prezydent Karol Nawrocki odnosząc się do czwartkowego incydentu z udziałem rosyjskiego drona niedaleko polskiej granicy. Dodał, że „każda rosyjska prowokacja jest zadaniem dla prezydenta Polski”.",
+      "pubDate": "Thu, 17 Sep 2026 16:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/f/b313de3cfae94b-948-568-20-70-3980-2387.jpg",
+      "dateISO": "2026-09-17T15:20:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Ceny ropy mocno w dół. Zwrot akcji na rynku",
+      "link": "https://businessinsider.com.pl/gielda/ceny-ropy-mocno-w-dol-diesel-tanieje-jeszcze-bardziej-zwrot-akcji-na-rynku/p81s81z",
+      "description": "Wciąż ceny są wysokie, ale kierowcy samochodów spalinowych przez chwilę mogą odetchnąć z ulgą. Wygląda na to, że wzrosty cen na polskich stacjach wyhamują, bo cena ropy Brent zawróciła w dół i spadała o nawet ponad 3 proc. w czwartek.",
+      "pubDate": "Thu, 17 Sep 2026 14:58:59 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/556k9kpTURBXy9jY2M0N2U1YWI0YTM0YmZhZTQ4OTVlZGY0ODgxZWE1ZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-17T14:58:59.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Rosja prowadzi kampanię przeciw Europie. ISW ostrzega NATO",
+      "link": "https://businessinsider.com.pl/wiadomosci/rosja-testuje-obrone-nato-isw-ostrzega/lsh2376",
+      "description": "Rosja nie ogranicza się do wojny na Ukrainie — prowadzi szeroko zakrojoną kampanię wymierzoną w państwa NATO, a Sojusz powinien być gotowy na konwencjonalny atak szybciej, niż przewidują obecne plany. Szczególną rolę w tym scenariuszu odgrywa wschodnia flanka, w tym Polska — wynika z najnowszego rap",
+      "pubDate": "Thu, 17 Sep 2026 14:31:03 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/8QNk9kpTURBXy84MGM2MTUyOWI5NDYwNDQ2M2QwZjRhY2Q2MDA3YjFiMC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-17T14:31:03.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Tusk tej nocy pojedzie przez Ukrainę. „Dam państwu raport po powrocie”",
+      "link": "https://www.bankier.pl/wiadomosc/Tusk-tej-nocy-pojedzie-przez-Ukraine-Dam-panstwu-raport-po-powrocie-9198686.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Premier Donald Tusk poinformował, że w nocy będzie jechał przez Ukrainę i po powrocie przedstawi raport o tym, jak wygląda tam infrastruktura energetyczna. Odniósł się tak m.in. do czwartkowego ataku Rosji na zachodnią Ukrainę przy granicy z Polską.",
+      "pubDate": "Thu, 17 Sep 2026 15:28:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/3/18941747780516-948-568-15-89-2955-1772.jpg",
+      "dateISO": "2026-09-17T14:28:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "PE przyjął rezolucję o migracji. Polska wśród państw docenionych za ochronę granic",
+      "link": "https://www.bankier.pl/wiadomosc/PE-przyjal-rezolucje-o-migracji-Polska-wsrod-panstw-docenionych-za-ochrone-granic-9198692.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rezolucja na temat kryzysu migracyjnego podzieliła koalicjantów w Parlamencie Europejskim. Poparła ją centroprawica wspólnie z grupami skrajnej prawicy, przeciwko byli jej sojusznicy: socjaldemokraci i część liberałów. Rezolucja doceniła wysiłki m.in. Polski w kwestii ochrony granic.",
+      "pubDate": "Thu, 17 Sep 2026 15:28:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/f/3844e6f12f46b7-948-567-5-35-995-596.jpg",
+      "dateISO": "2026-09-17T14:28:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Amerykański inwestor przejmuje dwa zakłady w Polsce. Wykłada 52 mln euro",
+      "link": "https://businessinsider.com.pl/biznes/fundusz-z-usa-kupuje-zaklady-purmo-w-walczu-i-rybniku-umowa-na-20-lat/50hjxpl",
+      "description": "Amerykański inwestor kupił dwa obiekty przemysłowe należące do Purmo Group — producenta m.in. grzejników — zlokalizowane w Wałczu (woj. zachodniopomorskie) i Rybniku (woj. śląskie). Odblokowany w ten sposób kapitał pozwoli na rozwój fabryki — informuje portal Investmap.",
+      "pubDate": "Thu, 17 Sep 2026 14:12:51 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Hbqk9kpTURBXy8wNmY1ODBkZjA5N2FkYzJmMGU2ZjJkZTNkYWRhZTNjMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-17T14:12:51.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Wielki rywal KFC wkracza nad Wisłę. Czy pokochamy teksańskie skrzydełka w 11 smaków?",
+      "link": "https://www.bankier.pl/wiadomosc/Wielki-rywal-KFC-wkracza-nad-Wisle-Czy-pokochamy-teksanskie-skrzydelka-w-11-smakow-9198655.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "KFC przestaje być jedyną restauracją serwującą skrzydełka. Amerykańska sieć Wingstop wchodzi do pięciu polskich miast na początek. Ma już jednak gotowy plan na około 1000 restauracji. Ich operatorem zostanie brytyjski Lemon Pepper Holdings.",
+      "pubDate": "Thu, 17 Sep 2026 14:56:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/a/0f09438b61375e-948-568-0-1035-2000-1199.jpg",
+      "dateISO": "2026-09-17T13:56:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Koszt polskiego długu zmalał najbardziej na świecie. Reakcja rynku na stopy Fed",
+      "link": "https://businessinsider.com.pl/finanse/koszt-polskiego-dlugu-zmalal-najbardziej-na-swiecie-wyjasniamy-reakcje-rynku-na/qv9fp39",
+      "description": "Amerykańska Rezerwa Federalna podniosła w środę stopy procentowe o 0,25 pkt proc. Takiego scenariusza rynek oczekiwał, zważywszy na rosnącą inflację, co niestety negatywnie wpływało ostatnio również na koszty odsetek od długu Polski. Po samej decyzji jednak nastąpił zaskakujący ruch w dół.",
+      "pubDate": "Thu, 17 Sep 2026 13:50:41 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/uh-k9kpTURBXy83NzFmZTE1YjE4MjMxNTAxZjliZDJlODY5NzY1ZmRmYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-17T13:50:41.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Rekordowe ceny paliw w Niemczech. Diesel najdroższy w historii",
+      "link": "https://businessinsider.com.pl/gospodarka/ceny-paliw-na-stacjach-w-niemczech-bija-rekordy-rzad-zapowiada-nowe-ulgi/8yvq9zm",
+      "description": "W Niemczech ceny paliw biją rekordy. Według opublikowanych w czwartek danych ADAC diesel jeszcze nigdy nie kosztował tak dużo. Niemiecki rząd obiecuje ulgi, padła m.in. propozycja obniżenia stawki VAT.",
+      "pubDate": "Thu, 17 Sep 2026 13:33:08 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ifFk9kpTURBXy8zNWQ2YTgzMzVlZDUzNTJkYjQzZTZmNzUxMDc3NDc4YS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-17T13:33:08.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
+      "title": "Nowe alerty RCB. Inny komunikat przy ataku na Ukrainę, inny przy zagrożeniu w Polsce",
+      "link": "https://www.bankier.pl/wiadomosc/Nowe-alerty-RCB-Inny-komunikat-przy-ataku-na-Ukraine-inny-przy-zagrozeniu-w-Polsce-9198663.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rządowe Centrum Bezpieczeństwa zaktualizowało treści alertów dotyczących zagrożenia z powietrza. Inny alert mieszkańcy otrzymają w przypadku ataku na terenie Ukrainy, gdy zagrożenie jest niskie, a inny gdy zagrożenie jest wysokie. Jeszcze inną treść alertu RCB wyśle w przypadku zagrożenia na terenie",
+      "pubDate": "Thu, 17 Sep 2026 14:22:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/1/67d8d67bfcfe00-948-568-0-87-2508-1504.jpg",
+      "dateISO": "2026-09-17T13:22:00.000Z",
+      "dateFormatted": "17 września 2026"
+    },
+    {
       "title": "Europa chce własnego systemu rozpoznania z kosmosu. ICEYE pokieruje pracami",
-      "link": "https://www.bankier.pl/wiadomosc/Europa-chce-wlasnego-systemu-rozpoznania-z-kosmosu-ICEYE-pokieruje-pracami-9198659.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Europa-chce-wlasnego-systemu-rozpoznania-z-kosmosu-ICEYE-pokieruje-pracami-9198659.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Europejska Agencja Kosmiczna wybrała konsorcjum ARISE (Architecture for Resilient and Federated ISR in Sovereign Europe), kierowane przez Iceye, do przeprowadzenia studium architektury unijnego systemu obserwacji Ziemi na potrzeby instytucji publicznych (EU Earth Observation Governmental Service, EO",
       "pubDate": "Thu, 17 Sep 2026 14:18:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/0/f37768f1f3e0cd-948-568-283-0-1480-888.jpg",
       "dateISO": "2026-09-17T13:18:00.000Z",
       "dateFormatted": "17 września 2026"
     },
     {
-      "title": "Kaucje: trwa wyścig sieci na długość ważności voucherów. Nowy termin w Biedronce",
+      "title": "Kaucje: trwa wyścig na długość ważności voucherów. Nowy termin w Biedronce",
       "link": "https://www.bankier.pl/wiadomosc/System-kaucyjny-trwa-wyscig-sieci-na-dlugosc-waznosci-voucherow-Nowy-termin-w-Biedronce-9198623.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Sieci handlowe nie czekają na zmiany w prawie, tylko biorą sprawy we własne ręce. Samodzielnie decydują się na wydłużenie ważności voucherów za zwrot opakowań w ramach systemu kaucyjnego. Niedawno Netto wprowadziło 90-dniowy termin ważności, a Lidl poinformował o 100-dniowym terminie. Natomiast Bied",
       "pubDate": "Thu, 17 Sep 2026 14:17:00 +0100",
@@ -32,20 +344,8 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/5/cbe2ae3ab55500-580-347-160-135-580-347.jpg",
+      "image": "http://galeria.bankier.pl/p/f/1/8f2380e64adf80-948-568-28-95-3771-2262.jpg",
       "dateISO": "2026-09-17T13:14:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
-      "title": "Prezes: Dotychczasowe wyniki Allegro w trzecim kwartale powyżej oczekiwań spółki",
-      "link": "https://www.bankier.pl/wiadomosc/Dotychczasowe-wyniki-Allegro-w-trzecim-kwartale-powyzej-oczekiwan-spolki-prezes-9198649.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Dotychczasowe wyniki Allegro w trzecim kwartale są powyżej oczekiwań spółki i były podstawą do korekty w górę założeń na cały 2026 rok - poinformował prezes Allegro Marcin Kuśmierz.",
-      "pubDate": "Thu, 17 Sep 2026 14:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/0/b/20056001f64da2-948-568-0-134-1988-1192.jpg",
-      "dateISO": "2026-09-17T13:10:00.000Z",
       "dateFormatted": "17 września 2026"
     },
     {
@@ -58,18 +358,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/8/66000db814b166-948-568-211-96-3523-2113.jpg",
       "dateISO": "2026-09-17T13:05:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
-      "title": "Śmiertelny wypadek w kopalni Szczygłowice. Nie żyje 38-letni górnik",
-      "link": "https://www.bankier.pl/wiadomosc/Smiertelny-wypadek-w-kopalni-Szczyglowice-Nie-zyje-38-letni-gornik-9198641.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "38-letni górnik zginął w czwartek w kopalni Szczygłowice w Knurowie – poinformowała Jastrzębska Spółka Węglowa. Wypadek nastąpił w likwidowanej ścianie wydobywczej podczas demontażu sekcji obudowy zmechanizowanej. To siódma w tym roku śmiertelna ofiara wypadków w polskim górnictwie węgla kamiennego.",
-      "pubDate": "Thu, 17 Sep 2026 14:01:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/4/7/fa4bb3bd625841-948-568-9-34-1248-749.png",
-      "dateISO": "2026-09-17T13:01:00.000Z",
       "dateFormatted": "17 września 2026"
     },
     {
@@ -97,18 +385,6 @@
       "dateFormatted": "17 września 2026"
     },
     {
-      "title": "Wielka awaria kolei i dwóch zatrzymanych. Prokuratura bada zamach na infrastrukturę",
-      "link": "https://www.bankier.pl/wiadomosc/Wielka-awaria-kolei-i-dwoch-zatrzymanych-Prokuratura-bada-zamach-na-infrastrukture-9198598.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prokuratura Rejonowa Katowice Południe wszczęła w czwartek śledztwo ws. środowej awarii sterowania ruchem kolejowym w Katowicach - poinformował PAP zastępca prokuratora rejonowego prok. Dawid Szulik. Zatrzymano dwóch mężczyzn mających związek z tym zdarzeniem - to obywatele polscy w wieku 50 i 50 la",
-      "pubDate": "Thu, 17 Sep 2026 13:51:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/0/507f296fdbfd57-948-568-0-340-4000-2399.jpg",
-      "dateISO": "2026-09-17T12:51:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
       "title": "Amerykański fast food wchodzi do Polski. Na początek wskazuje pięć lokalizacji",
       "link": "https://businessinsider.com.pl/biznes/sieciowka-z-usa-wchodzi-do-polski-to-konkurencja-dla-popularnych-fast-foodow/px4zkp4",
       "description": "Popularne w Polsce sieciówki gastronomiczne, takie jak KFC czy Popeyes mogą mieć wkrótce silnego konkurenta. Na nasz rynek chce wejść amerykańska sieć fast foodów. Szuka lokalizacji w największych miastach — informuje portal Property News.",
@@ -116,14 +392,14 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/_QKk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy83ZTU0ZjY5MGE4MjI3MjU2ZjI1ZTI4MzE0MWQ2ZjhkYy5qcGeSlQMAzQFezRVfzQwGkwXNCWDNBkDeAAKhMAehMQQ",
+      "image": "https://ocdn.eu/pulscms-transforms/1/RgTk9kpTURBXy83ZTU0ZjY5MGE4MjI3MjU2ZjI1ZTI4MzE0MWQ2ZjhkYy5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-09-17T12:47:50.000Z",
       "dateFormatted": "17 września 2026"
     },
     {
       "title": "Polska buduje koalicję przeciw Mecie. Szuka sojuszników w UE",
       "link": "https://www.bankier.pl/wiadomosc/Polska-buduje-koalicje-przeciw-Mecie-Szuka-sojusznikow-w-UE-9198625.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Polska wezwała inne państwa członkowskie UE do przekazywania materiałów dowodowych do KE ws. oszukańczych reklam, które pojawiają się m.in. na Facebooku i Instagramie - przekazał w czwartek w Sejmie wiceminister cyfryzacji Dariusz Standerski. Pozytywnie na apel odpowiedziały Dania i Finlandia.",
+      "description": "Meta Platforms powinna przedstawić pełne statystyki i działania ws. oszukańczych reklam, które pojawiają się na Facebooku i Instagramie - ocenił podczas sejmowej komisji wiceminister cyfryzacji Dariusz Standerski. Jeśli platforma sobie z tym nie radzi, powinna ograniczyć skalę działalności - dodał.",
       "pubDate": "Thu, 17 Sep 2026 13:45:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
@@ -157,19 +433,7 @@
       "dateFormatted": "17 września 2026"
     },
     {
-      "title": "Niejasne prawo paraliżuje przemysł drzewny. Marnowany jest cenny surowiec",
-      "link": "https://businessinsider.com.pl/biznes/niejasne-prawo-paralizuje-przemysl-drzewny-marnowany-jest-cenny-surowiec/3y1hekf",
-      "description": "W Polsce każdego roku powstaje ok. 1,3 mln t odpadów drzewnych i drewnopochodnych – wynika z raportu Polityki Insight „Więcej z drewna. Jak usprawnić system recyklingu drewna w Polsce”.",
-      "pubDate": "Thu, 17 Sep 2026 12:30:40 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/IY-k9lGaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8xYWNiM2I2OS0zNDMzLTRkMzUtODEwZC00NWRlMDBjODE1ODIuanBlZ5GTBc0JYM0GQN4AAqEwB6ExBA",
-      "dateISO": "2026-09-17T12:30:40.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
-      "title": "Allegro negocjuje z InPostem. „Spodziewamy się dostępu do lepszych cen”",
+      "title": "Allegro podnosi prognozy i dociska InPost. W grze umowa do 2031 roku i niższe ceny",
       "link": "https://www.bankier.pl/wiadomosc/Prezes-Allegro-liczy-na-podpisanie-nowej-umowy-z-InPostem-9198595.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Prezes Allegro Marcin Kuśmierz liczy, że dojdzie do podpisania nowej umowy partnerskiej z InPostem, która ma obowiązywać do końca 2031 roku i dać dostęp do niższych cen dostaw.",
       "pubDate": "Thu, 17 Sep 2026 13:18:00 +0100",
@@ -181,26 +445,14 @@
       "dateFormatted": "17 września 2026"
     },
     {
-      "title": "Światło, które kształtuje doświadczenia - świetliki modułowe VELUX",
-      "link": "https://businessinsider.com.pl/biznes/swiatlo-ktore-ksztaltuje-doswiadczenia-swietliki-modulowe-velux/r5lzlqt",
-      "description": "W salonie Porsche Warszawa Wawer światło dzienne odgrywa kluczową rolę, wpływając na wygląd, funkcjonalność i odbiór całej przestrzeni.",
-      "pubDate": "Thu, 17 Sep 2026 12:16:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/WO_k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy81ZDdmODAzYmQyZGQ5YzM4MmI1NTBjZGU0MTVlMmM3OC5qcGeSlQMAcs0OW80IE5MFzQlgzQZA3gACoTAHoTEE",
-      "dateISO": "2026-09-17T12:16:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
-      "title": "Meta nie pojawiła się w Sejmie. Rozenek-Majdan liczyła na spotkanie",
+      "title": "760 mln zł z oszukańczych reklam? Ostra reakcja w Sejmie po decyzji Mety",
       "link": "https://businessinsider.com.pl/wiadomosci/meta-unika-konfrontacji-w-sejmie-rozenek-majdan-liczylam-na-to-spotkanie/3v3bnl9",
-      "description": "\"Liczyłam na to spotkanie jako obywatelka\" — powiedziała Małgorzata Rozenek-Majdan podczas specjalnego posiedzenia komisji cyfryzacji w sprawie działań amerykańskiego koncernu. Michał Hetmański, prezes fundacji Instrat, także żałuje, że Meta nie odpowie na zarzuty.",
+      "description": "Nawet 760 mln zł w jeden rok mogła zarobić Meta na oszukańczych reklamach w Polsce. Politycy, posłowie, eksperci, a także Małgorzata Rozenek-Majdan, czekali na konfrontację z przedstawicielami giganta. Amerykański koncern nie przyjął zaproszenia i po prostu nie pojawił się na posiedzeniu komisji.",
       "pubDate": "Thu, 17 Sep 2026 12:14:43 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/L_6k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy80NThiZTc2YzBiY2MyYmRlYjg5MWIwNjU3N2FkNTdiNy5qcGeSlQMAJ80HbM0ELJMFzQlgzQZA3gACoTAHoTEE",
+      "image": "https://ocdn.eu/pulscms-transforms/1/lZlk9kpTURBXy80NThiZTc2YzBiY2MyYmRlYjg5MWIwNjU3N2FkNTdiNy5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-09-17T12:14:43.000Z",
       "dateFormatted": "17 września 2026"
     },
@@ -224,7 +476,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/cb2k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9jOGI0ZjkyY2QzYzExZGU5ZmE3NTFhZDkzZmNkZjAxYi5qcGeSlQMAHc0H0M0EZZMFzQlgzQZA3gACoTAHoTEE",
+      "image": "https://ocdn.eu/pulscms-transforms/1/alnk9kpTURBXy9jOGI0ZjkyY2QzYzExZGU5ZmE3NTFhZDkzZmNkZjAxYi5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-09-17T12:08:03.000Z",
       "dateFormatted": "17 września 2026"
     },
@@ -241,18 +493,6 @@
       "dateFormatted": "17 września 2026"
     },
     {
-      "title": "Boom na Wietnam! Te trzy wycieczki biją rekordy, miejsca znikają w mgnieniu oka",
-      "link": "https://businessinsider.com.pl/lifestyle/podroze/boom-na-wietnam-te-3-wycieczki-bija-rekordy-miejsca-znikaja-w-mgnieniu-oka/yr1mxx0",
-      "description": "Wietnam właśnie przeżywa swój wielki turystyczny moment. Linie lotnicze zwiększają liczbę połączeń, biura podróży notują historyczne wyniki, a turyści rezerwują wyjazdy szybciej, niż zdążą pojawić się nowe terminy. Dlaczego akurat teraz? Bo Wietnam to kraj, który działa na zmysły: zapach jaśminu i s",
-      "pubDate": "Thu, 17 Sep 2026 12:05:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/Cosk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy85ZWMxY2QxYjVjNGFiNmViYTE1MjVkZjQzNWI4MzBhNS5qcGeSlQMAIs0E0M0CtZMFzQlgzQZA3gACoTAHoTEE",
-      "dateISO": "2026-09-17T12:05:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
       "title": "Trzy najważniejsze wnioski z pierwszej od trzech lat podwyżki stóp Fed dla twojego portfela",
       "link": "https://businessinsider.com.pl/gospodarka/makroekonomia/fed-podnosi-stopy-procentowe-po-trzech-latach-co-to-oznacza-dla-twojego-portfela/2twnk07",
       "description": "Kevin Warsh podejmuje zdecydowane działania w walce z amerykańskim problemem inflacji. Wraz z Federalnym Komitetem Otwartego Rynku nowy przewodniczący banku centralnego zdecydował w środę o podniesieniu stóp procentowych o 0,25 pkt proc. To pierwszy przypadek, gdy Fed podniósł stopy procentowe od la",
@@ -260,32 +500,8 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/gBSk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8yOWJlMGQ0NDUzNmJhMzM3Mjg0NTE4YzUwOGRiOGQzMy5qcGeSlQMAPs0H0M0EZZMFzQlgzQZA3gACoTAHoTEE",
+      "image": "https://ocdn.eu/pulscms-transforms/1/_Nsk9kpTURBXy8yOWJlMGQ0NDUzNmJhMzM3Mjg0NTE4YzUwOGRiOGQzMy5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-09-17T12:03:28.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
-      "title": "Kieszonkowy tłumacz języków z dotykowym ekranem. Działa offline",
-      "link": "https://businessinsider.com.pl/technologie/kieszonkowy-tlumacz-jezykow-z-dotykowym-ekranem-dziala-offline/mn0scqc",
-      "description": "Wyjazd za granicę bez biegłej znajomości języka nie jest niczym przyjemny. Z tego zresztą powodu wiele osób rezygnuje z wymarzonych wakacji w ciepłych krajach. Problem narasta w miejscach, gdzie brakuje zasięgu sieci komórkowej, a pakiety internetowe w roamingu kosztują fortunę. Przedstawiamy jednak",
-      "pubDate": "Thu, 17 Sep 2026 11:58:47 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/B0_k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9lMTNjYmExY2MzZGExYTVhMDNiNDUyYWRlM2I0OTA5ZC5qcGeSlQMASc0C0M0BlZMFzQlgzQZA3gACoTAHoTEE",
-      "dateISO": "2026-09-17T11:58:47.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
-      "title": "Wielki Mur, Terakotowa Armia i więcej – największe atrakcje Chin w jednej podróży. Świetna cena!",
-      "link": "https://businessinsider.com.pl/lifestyle/podroze/wielki-mur-terakotowa-armia-i-wiecej-najwieksze-atrakcje-chin-w-jednej-podrozy/fgr37lk",
-      "description": "Wielki Mur Chiński, Zakazane Miasto, Armia Terakotowa i podróż jednym z najszybszych systemów kolejowych świata. Ta objazdowa wycieczka do Pekinu i Xi’an pozwala w niespełna dwa tygodnie zobaczyć najważniejsze symbole Państwa Środka, łącząc historię, kulturę i nowoczesność w jednym programie.",
-      "pubDate": "Thu, 17 Sep 2026 11:58:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/0-9k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9iZGNlY2UzOTE5NTY4ZjkwYWJkNTBiYmJkNzllOTUxOS5qcGeSlQMAAM0D6s0CNJMFzQlgzQZA3gACoTAHoTEE",
-      "dateISO": "2026-09-17T11:58:00.000Z",
       "dateFormatted": "17 września 2026"
     },
     {
@@ -308,7 +524,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/anfk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy83M2U3MzFmYWQ4NDE0MTRhYTk5MGM3NmMyODAwM2RhNy5qcGeSlQMAWs0Lcc0GcZMFzQlgzQZA3gACoTAHoTEE",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Tskk9kpTURBXy83M2U3MzFmYWQ4NDE0MTRhYTk5MGM3NmMyODAwM2RhNy5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-09-17T11:46:25.000Z",
       "dateFormatted": "17 września 2026"
     },
@@ -373,42 +589,6 @@
       "dateFormatted": "17 września 2026"
     },
     {
-      "title": "Krynica Morska ma wyjątkowe i malownicze położenie. Teraz wypoczniesz tu w nowym obiekcie",
-      "link": "https://businessinsider.com.pl/lifestyle/podroze/krynica-morska-ma-wyjatkowe-i-malownicze-polozenie-teraz-wypoczniesz-tu-w-nowym/xv92bv4",
-      "description": "Krynica Morska turystów szukających wypoczynku między Bałtykiem a wodami Zalewu Wiślanego. Teraz na mapie tego wyjątkowo położonego kurortu pojawił się nowy adres, który powinien zainteresować wszystkich szukających komfortowego relaksu. Resort Mariner łączy nowoczesne wnętrza, bliskość natury i dog",
-      "pubDate": "Thu, 17 Sep 2026 11:02:29 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/vXHk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy85NmFjYzI1NDM0MWQ2MGQ3ZDhjMjU0MzJiYzUwZjM1YS5qcGeSlQMAOM0D6M0CMpMFzQlgzQZA3gACoTAHoTEE",
-      "dateISO": "2026-09-17T11:02:29.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
-      "title": "\"Zagrożenie atakiem z powietrza\". Alert RCB i wyjące syreny na wschodzie Polski",
-      "link": "https://www.bankier.pl/wiadomosc/Zagrozenie-atakiem-z-powietrza-Alert-RCB-i-wyjace-syreny-na-wschodzie-Polski-9198525.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wojsko poderwało myśliwce, a mieszkańcy województw lubelskiego i podkarpackiego dostali alert o zagrożeniu atakiem z powietrza w czasie czwartkowego nalotu Rosji na zachód Ukrainy. Jeden z rosyjskich dronów uderzył 4 kilometry od granicy z Polską. Nie odnotowano jednak jej naruszenia - podał DORSZ.",
-      "pubDate": "Thu, 17 Sep 2026 12:02:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/1/f9e32683ff06d9-948-568-280-19-3720-2231.jpg",
-      "dateISO": "2026-09-17T11:02:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
-      "title": "Czterogwiazdkowy hotel w Świnoujściu przyciąga przez cały rok. Ma piękny basen. Atrakcyjne ceny",
-      "link": "https://businessinsider.com.pl/lifestyle/podroze/czterogwiazdkowy-hotel-w-swinoujsciu-przyciaga-przez-caly-rok-ma-piekny-basen/xpxvv4z",
-      "description": "Szukasz miejsca, które sprawdzi się zarówno na letni urlop nad Bałtykiem, jak i na relaksujący weekend poza sezonem? Platino Mare Resort & SPA w Świnoujściu udowadnia, że polskie wybrzeże może zachwycać przez cały rok. Nowoczesne wnętrza, imponujący basen, strefa wellness i atrakcyjne ceny sprawiają",
-      "pubDate": "Thu, 17 Sep 2026 10:58:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/IBik9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy82YTlhNTk2MmI0MGE5M2IwN2MwMGRmYWU1Zjc2OGJkZi5qcGeSlQNDAM0EKs0CWJMFzQlgzQZA3gACoTAHoTEE",
-      "dateISO": "2026-09-17T10:58:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
       "title": "Rynek paliw pod presją, czy 15 zł za litr jest możliwe? Ekspert: sky is the limit",
       "link": "https://businessinsider.com.pl/biznes/ceny-paliw-pod-presja-ekspert-ostrzega-przed-mozliwym-szokiem-na-stacjach/6l7xpew",
       "description": "Czy litr paliwa będzie kosztować 15 zł? Według Filipa Rudnika z Ośrodka Studiów Wschodnich trudno wyznaczyć górną granicę. — Biorąc pod uwagę to, jak sytuacja rozwija się negatywnym trendzie, no to \"sky is the limit\" — mówił ekspert w programie \"Onet Rano. Finansowo\".",
@@ -416,7 +596,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/kxMk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8wNjM2ZDNmZTVlMzIwMGVmZmIwMmQ4YTVjNWU2ZDdmOS5qcGeSlQMAAM0H0M0EZZMFzQlgzQZA3gACoTAHoTEE",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Gkqk9kpTURBXy8wNjM2ZDNmZTVlMzIwMGVmZmIwMmQ4YTVjNWU2ZDdmOS5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-09-17T10:55:00.000Z",
       "dateFormatted": "17 września 2026"
     },
@@ -428,7 +608,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/cjBk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy81OWYzZGFiOTFjN2RjMDVmNzBmZWI4NzhlMmM5MTYxMy5qcGeSlQMAPs0H0M0EZZMFzQlgzQZA3gACoTAHoTEE",
+      "image": "https://ocdn.eu/pulscms-transforms/1/8hvk9kpTURBXy81OWYzZGFiOTFjN2RjMDVmNzBmZWI4NzhlMmM5MTYxMy5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-09-17T10:48:07.000Z",
       "dateFormatted": "17 września 2026"
     },
@@ -445,18 +625,6 @@
       "dateFormatted": "17 września 2026"
     },
     {
-      "title": "Przełom w suszeniu grzybów. Załatwisz sprawę w mig. Zimą odwdzięczą się smakiem",
-      "link": "https://businessinsider.com.pl/technologie/przelom-w-suszeniu-grzybow-zalatwisz-sprawe-w-mig-zima-odwdziecza-sie-smakiem/vbstnz6",
-      "description": "Jesienny wysyp grzybów zachęca do spacerów, z których wracamy z pełnymi koszami. Aby jednak cieszyć się ich wyjątkowym smakiem przez cały rok, warto postawić na prostą i sprawdzoną metodę konserwacji. Z odpowiednim sprzętem w mgnieniu oka zamienisz świeże zbiory w aromatyczne zapasy na zimę.",
-      "pubDate": "Thu, 17 Sep 2026 10:25:17 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/E4Fk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9iZGJiMWI3NDY0ZjZiMzAwMWYyNGRhYTk4MzNmNjU2My5qcGeSlQMVzQGlzRQlzQtWkwXNCWDNBkDeAAKhMAehMQQ",
-      "dateISO": "2026-09-17T10:25:17.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
       "title": "Unia Europejska stawia Chinom ultimatum. Bruksela chce zatrzymać zalew tanich hybryd",
       "link": "https://www.bankier.pl/wiadomosc/Unia-Europejska-stawia-Chinom-ultimatum-Bruksela-chce-zatrzymac-zalew-tanich-hybryd-9198494.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Unia Europejska chce, by Chiny dobrowolnie ograniczyły eksport aut hybrydowych do Wspólnoty – pisze w czwartek „Financial Times”. Ma to zapobiec wojnie handlowej i chronić europejski sektor samochodowy.",
@@ -466,30 +634,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/4/3cfe31b46037b1-948-568-0-25-3456-2073.jpg",
       "dateISO": "2026-09-17T10:22:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
-      "title": "Produkcja daje skalę. Marka daje przewagę. Zobacz, jak powstaje biznes gotowy na europejską konkurencję",
-      "link": "https://businessinsider.com.pl/biznes/produkcja-daje-skale-marka-daje-przewage-zobacz-jak-powstaje-biznes-gotowy-na/d92e231",
-      "description": "Jeszcze kilkanaście lat temu przewagą polskich producentów były koszty. Dziś, w starciu z globalną konkurencją, liczą się innowacje, wzornictwo i zdolność do budowania marki. Ta polska spółka postawiła właśnie na taki model rozwoju. Efekt? Ponad 650 mln zł przychodów, obecność na europejskich rynkac",
-      "pubDate": "Thu, 17 Sep 2026 10:00:00 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/rHWk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8wNTc4NTQxMTE4ZGQyZGI0YjUxN2UxODgyZTM2NDFhZS5wbmeSlQMAA80FQM0C9JMFzQlgzQZA3gACoTAHoTEE",
-      "dateISO": "2026-09-17T10:00:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
-      "title": "„Mamy jeszcze bardzo dużo do zrobienia”. Raport SGH pokazuje wyzwania dla Polski",
-      "link": "https://businessinsider.com.pl/wiadomosci/raport-sgh-na-forum-ekonomicznym-nowe-spojrzenie-na-przyszlosc-gospodarki/lpqycx4",
-      "description": "8 września 2026 roku w Karpaczu podczas XXXV Forum Ekonomicznego grupa ekspertów Szkoły Głównej Handlowej w Warszawie zaprezentowała 9. edycję prestiżowego Raportu SGH i Forum Ekonomicznego. To wyjątkowe opracowanie tradycyjnie już zainaugurowało obrad Forum. Wydarzenie rozpoczęło się od uroczystego",
-      "pubDate": "Thu, 17 Sep 2026 09:50:18 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/m9qk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8yODJkMjkzYWMwMmVjNGNjMThiZmI5ZDE0MDc0MGY2Yi5qcGeSlQMAzLvNF3DNDS-TBc0JYM0GQN4AAqEwB6ExBA",
-      "dateISO": "2026-09-17T09:50:18.000Z",
       "dateFormatted": "17 września 2026"
     },
     {
@@ -505,18 +649,6 @@
       "dateFormatted": "17 września 2026"
     },
     {
-      "title": "Miliardy złotych w grze. NBP apeluje o koło ratunkowe dla banków przy likwidacji WIBOR-u",
-      "link": "https://www.bankier.pl/wiadomosc/Miliardy-zlotych-w-grze-NBP-apeluje-o-kolo-ratunkowe-dla-bankow-przy-likwidacji-WIBOR-u-9198463.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Narodowy Bank Polski ocenia, że banki komercyjne powinny mieć możliwość stosowania spreadu korygującego w przypadku zastąpienia w istniejących umowach WIBOR przez POLSTR, w ramach propozycji aneksów do tych umów – podał NBP w odpowiedzi na pytania PAP Biznes dot. projektu ustawy regulującej m.in. st",
-      "pubDate": "Thu, 17 Sep 2026 10:46:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/3/419d628b33ed77-948-568-525-487-2475-1484.jpg",
-      "dateISO": "2026-09-17T09:46:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
       "title": "Włochy znoszą \"znienawidzony\" podatek. Giorgia Meloni chce wygrać tym wybory",
       "link": "https://businessinsider.com.pl/gospodarka/rzad-wloch-znosi-podatek-drogowy-strata-w-budzecie-przekroczy-2-mld-euro/klrsnf9",
       "description": "Włochy planują likwidację jednego z najbardziej nielubianych przez ludzi podatków. Decyzja obciąży budżet państwa na ponad 2 mld euro — informuje Reuters.",
@@ -524,7 +656,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/fLsk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy81YWQxYzMzNWVmNTczMmYzMDlhNzM4MmU1MjkyOGZmYy5qcGeSlQMATs0gQM0SJZMFzQlgzQZA3gACoTAHoTEE",
+      "image": "https://ocdn.eu/pulscms-transforms/1/zAZk9kpTURBXy81YWQxYzMzNWVmNTczMmYzMDlhNzM4MmU1MjkyOGZmYy5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-09-17T09:44:59.000Z",
       "dateFormatted": "17 września 2026"
     },
@@ -541,18 +673,6 @@
       "dateFormatted": "17 września 2026"
     },
     {
-      "title": "Takaichi zrekonstruowała rząd, kluczowi ministrowie zostają",
-      "link": "https://www.bankier.pl/wiadomosc/Takaichi-zrekonstruowala-rzad-kluczowi-ministrowie-zostaja-9198457.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Premierka Japonii Sanae Takaichi dokonała w czwartek rekonstrukcji rządu, pozostawiając na stanowiskach kluczowych ministrów odpowiedzialnych za gospodarkę, finanse i sprawy zagraniczne - podała agencja Kyodo. Do gabinetu po raz pierwszy wszedł przedstawiciel koalicyjnej Japońskiej Partii Innowacji ",
-      "pubDate": "Thu, 17 Sep 2026 10:34:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/a/08db7a0b6881db-948-568-38-23-3033-1820.jpg",
-      "dateISO": "2026-09-17T09:34:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
       "title": "Dyrektor finansowa OpenAI mówi, że AI zastępuje część pracowników. Chodzi o te zadania",
       "link": "https://businessinsider.com.pl/technologie/nowe-technologie/dyrektor-finansowa-openai-mowi-ze-ai-zastepuje-czesc-pracownikow-chodzi-o-te-zadania/g9sdjtp",
       "description": "Sarah Friar, dyrektorka finansowa OpenAI, powiedziała, że sztuczna inteligencja zmniejsza zapotrzebowanie na pracowników. Dotyczy to przede wszystkim osób wykonujących powtarzalne zadania.",
@@ -560,44 +680,32 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/B0nk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy82MTc3NWQyOTZlMzFlODk2ZGRjNWE0MjFmMzVjNzQzMy5qcGeSlQMAcM0H0M0EZZMFzQlgzQZA3gACoTAHoTEE",
+      "image": "https://ocdn.eu/pulscms-transforms/1/V-8k9kpTURBXy82MTc3NWQyOTZlMzFlODk2ZGRjNWE0MjFmMzVjNzQzMy5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-09-17T09:31:29.000Z",
       "dateFormatted": "17 września 2026"
     },
     {
-      "title": "XXXV Forum Ekonomiczne. W Karpaczu znów tętniło gospodarcze serce Polski",
-      "link": "https://businessinsider.com.pl/wiadomosci/nagrody-innowacje-wspolpraca-xxxv-forum-ekonomiczne-pod-znakiem-zmian/ly8wkqd",
-      "description": "Trzy dni intensywnych debat, owocnych rozmów, inspirujących spotkań i ponad 6,5 tys. uczestników — XXXV Forum Ekonomiczne w Karpaczu kolejny raz udowodniło, że jest jednym z największych i najważniejszych wydarzeń w Europie Środkowo-Wschodniej, które gromadzi osoby o decydującym wpływie na losy Pols",
-      "pubDate": "Thu, 17 Sep 2026 09:29:43 GMT",
+      "title": "Polska wśród liderów przyśpieszenia inflacji w Europie. Nawet w Turcji wzrost cen spowolnił",
+      "link": "https://businessinsider.com.pl/gospodarka/inflacja-wedlug-eurostatu-wyzsza-niz-gus-polska-na-tle-innych-krajow-europy/59s0pqb",
+      "description": "Zgodnie z wyliczeniami GUS inflacja wyniosła w sierpniu 3,4 proc. Eurostat ma nieco mniej optymistyczne szacunki. Takie, przy których można by mówić już o górnych widełkach celu NBP, czyli 3,5 proc. Większe przyśpieszenie w porównaniu z lipcem odnotowano tylko w 11. krajach Europy.",
+      "pubDate": "Thu, 17 Sep 2026 09:19:51 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/HUzk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy81NjhiYTgwNDA4MWMzYmNlOTkwMjM3NzBlZGM0YWEzZC5qcGeSlQMAAM0HgM0EOJMFzQlgzQZA3gACoTAHoTEE",
-      "dateISO": "2026-09-17T09:29:43.000Z",
+      "image": "https://ocdn.eu/pulscms-transforms/1/1Srk9kpTURBXy81ZDE0NTQ5NWRlM2IyZjQzMzEzMzkyZDUwMWQzYzE1NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-17T09:19:51.000Z",
       "dateFormatted": "17 września 2026"
     },
     {
-      "title": "Prokuratorskie trzęsienie ziemi w Kijowie. Zełenski wyznacza następcę",
-      "link": "https://www.bankier.pl/wiadomosc/Prokuratorskie-trzesienie-ziemi-w-Kijowie-Zelenski-wyznacza-nastepce-9198434.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent Ukrainy Wołodymyr Zełenski powierzył Antonowi Kowalskiemu wykonywanie obowiązków prokuratora generalnego Ukrainy. Odpowiedni dekret szef państwa podpisał w czwartek. Zgodnie z konstytucją Ukrainy prokuratora generalnego powołuje parlament.",
-      "pubDate": "Thu, 17 Sep 2026 10:12:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/8/88d8ffa675a228-948-568-0-0-3890-2333.jpg",
-      "dateISO": "2026-09-17T09:12:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
-      "title": "HYPE na warszawskiej giełdzie. Debiutuje ETP na token konkurenta Wall Street",
-      "link": "https://www.bankier.pl/wiadomosc/HYPE-na-warszawskiej-gieldzie-Debiutuje-ETP-na-token-konkurenta-Wall-Street-9198372.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W czwartek, 17 września 2026, na Giełdzie Papierów Wartościowych w Warszawie zadebiutował Virtune Hyperliquid ETP. To ósmy instrument oparty na kryptoaktywach wprowadzony na polski parkiet przez szwedzkiego zarządcę Virtune. Instrument oferuje bezpośrednią ekspozycję na natywny token HYPE, zasilając",
-      "pubDate": "Thu, 17 Sep 2026 10:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/5/b23d2bc5355e9f-948-568-202-179-2797-1678.jpg",
-      "dateISO": "2026-09-17T09:10:00.000Z",
+      "title": "Niemcy szukają pracowników w tej branży. Płacą 7 tys. euro",
+      "link": "https://businessinsider.com.pl/praca/pracownicy-w-niemczech-pilnie-poszukiwani-w-tej-branzy-placa-7-tys-euro/057r42f",
+      "description": "Niemcy mają problem z obsadą stanowisk w branży ważnej zarówno dla przedsiębiorców, jak i zwykłych obywateli. Doświadczeni pracownicy mogą tu liczyć na wysokie wynagrodzenie, nawet do 7 tys. euro. Chodzi o pracę związaną z podatkami.",
+      "pubDate": "Thu, 17 Sep 2026 09:09:45 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/jPKk9kpTURBXy8xYjJkM2QwNjkyMTdhYWYxNGU1NTViY2NhNGFmNzJmNC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-17T09:09:45.000Z",
       "dateFormatted": "17 września 2026"
     },
     {
@@ -637,30 +745,6 @@
       "dateFormatted": "17 września 2026"
     },
     {
-      "title": "Zalando zwolni 2700 osób. Pracę straci około 500 Polaków",
-      "link": "https://www.bankier.pl/wiadomosc/Zalando-zamyka-magazyn-Okolo-500-Polakow-bez-pracy-9198404.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Około 500 Polaków straci pracę w związku z zamknięciem centrum logistycznego Zalando w niemieckim Erfurcie. Zakład zakończy działalność z końcem września, a zwolnionych zostanie łącznie około 2700 osób. Firma tłumaczy decyzję nadwyżką mocy operacyjnych w swojej europejskiej sieci logistycznej – info",
-      "pubDate": "Thu, 17 Sep 2026 09:28:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/9/d5a2382ba5558a-948-568-0-133-1892-1135.jpg",
-      "dateISO": "2026-09-17T08:28:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
-      "title": "Revolut przekazał dane klientów oszustom. Wśród poszkodowanych mogą być Polacy",
-      "link": "https://www.bankier.pl/wiadomosc/Revolut-przekazal-dane-klientow-oszustom-Wsrod-poszkodowanych-moga-byc-Polacy-9198397.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Oszustom podszywającym się pod włoskie służby udało się wyłudzić od Revoluta dane klientów. Fałszywe wnioski przychodziły z adresu należącego do domeny włoskiej administracji. Sprawa może dotyczyć około 680 osób, a na liście krajów opublikowanej przez osoby przyznające się do ataku znalazła się takż",
-      "pubDate": "Thu, 17 Sep 2026 09:18:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/e/23ddf7e6e94698-862-517-137-2-862-517.jpg",
-      "dateISO": "2026-09-17T08:18:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
       "title": "Bitcoin stabilny, rynki oceniają podwyżkę stóp Fed i napięcia na Bliskim Wschodzie",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-stabilny-rynki-oceniaja-podwyzke-stop-fed-i-napiecia-na-bliskim-wschodzie-1569737",
       "description": "",
@@ -685,42 +769,6 @@
       "dateFormatted": "17 września 2026"
     },
     {
-      "title": "Turcy śpią na złocie. I nie dadzą go sobie wyciągnąć spod materacy",
-      "link": "https://www.bankier.pl/wiadomosc/Turcy-spia-na-zlocie-I-nie-dadza-go-sobie-wyciagnac-spod-materacy-REPORTAZ-9197487.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Turcja to ósmy rynek złota na świecie, a dzienna wartość obrotu metalami i kamieniami szlachetnych na stambulskiej giełdzie potrafi przekraczać obroty na GPW. Tureckie zamiłowanie do królewskiego metalu jest starsze niż problemy z inflacją. W reportażu ze Stambułu piszemy o dynamicznym rynku kruszcu",
-      "pubDate": "Thu, 17 Sep 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/0/53c5c9cab9a42f-948-568-252-544-3780-2267.jpg",
-      "dateISO": "2026-09-17T05:00:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
-      "title": "KSeF: nowe ważne zmiany. Tokeny nie znikną, a kary za błędy zostaną odroczone",
-      "link": "https://www.bankier.pl/wiadomosc/KSeF-dobre-wiesci-dla-firm-Wbrew-zapowiedziom-tokeny-jednak-nie-znikna-a-kary-za-bledy-zostana-odroczone-9198040.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ministerstwo Finansów wycofuje się z kolejnych zapowiedzi dotyczących Krajowego Systemu e-Faktur, co paradoksalnie jest dobrą wiadomością dla przedsiębiorców. Tokeny jako metoda uwierzytelniania w systemie miały obowiązywać tylko do końca roku, jednak ich ważność zostanie przedłużona. Resort zamierz",
-      "pubDate": "Thu, 17 Sep 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/9/34def8694ec954-948-568-0-0-1195-717.jpg",
-      "dateISO": "2026-09-17T05:00:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
-      "title": "Zdolność kredytowa powoli w dół. Droższe hipoteki zrobiły swoje",
-      "link": "https://www.bankier.pl/wiadomosc/Zdolnosc-kredytowa-w-kredycie-hipotecznym-wrzesien-2026-9197783.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Średnio 8 tys. zł mniej niż miesiąc wcześniej – tak wyglądają zmiany w maksymalnej zdolności kredytowej w hipotekach. Sprawdzamy, jak wyglądają możliwości rodziny „dwa plus jeden” z dochodem 15 tys. zł miesięcznie.",
-      "pubDate": "Thu, 17 Sep 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/e/21d788e6617787-948-568-0-0-1920-1151.jpg",
-      "dateISO": "2026-09-17T05:00:00.000Z",
-      "dateFormatted": "17 września 2026"
-    },
-    {
       "title": "Kanada zbliża się do UE, a Trump się wścieka. USA grożą całkowitym zerwaniem handlu",
       "link": "https://www.bankier.pl/wiadomosc/Kanada-zbliza-sie-do-UE-a-Trump-sie-wscieka-USA-groza-calkowitym-zerwaniem-handlu-9198295.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Prezydent USA Donald Trump zagroził w środę, że może nałożyć „bardzo ciężkie cła” na Unię Europejską, jeśli uzna potencjalne przyjęcie Kanady jako członka stowarzyszonego Unii za „wrogi akt”.",
@@ -731,42 +779,6 @@
       "image": "http://galeria.bankier.pl/p/e/e/7ebb769cf6c3ec-948-568-460-0-2947-1768.jpg",
       "dateISO": "2026-09-17T01:31:00.000Z",
       "dateFormatted": "17 września 2026"
-    },
-    {
-      "title": "Kolejne starcie rządu z prezydentem. Poszło o ratyfikację polsko-brytyjskiego traktatu obronnego",
-      "link": "https://www.bankier.pl/wiadomosc/Kolejne-starcie-rzadu-z-prezydentem-Poszlo-o-ratyfikacje-polsko-brytyjskiego-traktatu-obronnego-9198274.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Kluby koalicyjne zapowiedziały w środę w Sejmie poparcie dla ratyfikacji Traktatu o partnerstwie w dziedzinie bezpieczeństwa między Polską a Wielką Brytanią. Zastrzeżenia zgłosiły kluby PiS, Konfederacji i Rozwoju Plus, oceniając dokument jako zbyt ogólny.",
-      "pubDate": "Wed, 16 Sep 2026 22:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/2/6f5f1a661205b8-948-568-0-215-1689-1013.jpg",
-      "dateISO": "2026-09-16T21:45:00.000Z",
-      "dateFormatted": "16 września 2026"
-    },
-    {
-      "title": "Największe rozszerzenie sankcji w historii UE. Ponad 1,5 tys. Rosjan i ich firm na celowniku Brukseli",
-      "link": "https://www.bankier.pl/wiadomosc/Najwieksze-rozszerzenie-sankcji-w-historii-UE-Ponad-1-5-tys-Rosjan-i-ich-firm-na-celowniku-Brukseli-9198255.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Unijna dyplomacja przedstawiła w środę państwom członkowskim propozycję objęcia sankcjami 1 tys. 576 osób i podmiotów związanych z rosyjską agresją na Ukrainę - podało unijne źródło dyplomatyczne. Jeśli zostanie przyjęte, będzie to największe rozszerzenie listy sankcyjnej w historii UE.",
-      "pubDate": "Wed, 16 Sep 2026 21:19:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/b/e5bddb7ad64ca7-948-567-0-30-1000-599.jpg",
-      "dateISO": "2026-09-16T20:19:00.000Z",
-      "dateFormatted": "16 września 2026"
-    },
-    {
-      "title": "\"Prezydent nie ma do tego uprawnień\". Berek mocno o działaniach kancelarii Nawrockiego",
-      "link": "https://www.bankier.pl/wiadomosc/Prezydent-nie-ma-do-tego-uprawnien-Berek-mocno-o-dzialaniach-kancelarii-Nawrockiego-9198254.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wybrany na sędziego TK Maciej Berek zapowiedział w środę, że zwróci się do prezydenta Karola Nawrockiego z jasnym stanowiskiem prawnym, że jego powinnością jest złożenie ślubowania. Berek dodał, że liczy na możliwość złożenia ślubowania „w formie, w miejscu i w czasie, które prezydent wyznaczy”.",
-      "pubDate": "Wed, 16 Sep 2026 21:15:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/6/61a402f8590146-948-568-0-170-3983-2390.jpg",
-      "dateISO": "2026-09-16T20:15:00.000Z",
-      "dateFormatted": "16 września 2026"
     },
     {
       "title": "„Gołębia” podwyżka stóp w Fedzie. FOMC nie planuje cyklu zacieśnienia polityki",
@@ -949,5 +961,5 @@
       "dateFormatted": "11 września 2026"
     }
   ],
-  "updatedAt": "2026-09-17T13:05:54.833Z"
+  "updatedAt": "2026-09-17T17:57:36.356Z"
 }
