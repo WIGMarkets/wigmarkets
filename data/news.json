@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "XRP 10% w górę, na rynku byka",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/xrp-10-w-gore-na-rynku-byka-1573685",
+      "description": "",
+      "pubDate": "2026-09-21 21:39:09",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/LYNXNPEC410B3_M.jpg",
+      "dateISO": "2026-09-21T21:39:09.000Z",
+      "dateFormatted": "21 września 2026"
+    },
+    {
       "title": "Silna zwyżka na Wall Street. Na co liczą inwestorzy?",
       "link": "https://www.bankier.pl/wiadomosc/Silna-zwyzka-na-Wall-Street-Na-co-licza-inwestorzy-9200394.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Nasdaq i S&P500 szybko zbliżyły się do szczytów hossy napędzane przez zwyżkujące notowania akcji firm technologicznych. Najwyraźniej inwestorzy znów polubili spółki zarabiające na hossie w AI.",
@@ -104,7 +116,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/0/f/c054fce945dcfc-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/2/2/cbeb06dd33a8d3-thumb-1000.jpg",
       "dateISO": "2026-09-21T17:56:00.000Z",
       "dateFormatted": "21 września 2026"
     },
@@ -224,7 +236,7 @@
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/d/1/785f181c53f0ce-thumb-1000.jpg",
+      "image": "https://galeria.bankier.pl/p/7/4/2ce22f1888d615-thumb-1000.jpg",
       "dateISO": "2026-09-21T16:58:00.000Z",
       "dateFormatted": "21 września 2026"
     },
@@ -937,18 +949,6 @@
       "dateFormatted": "19 września 2026"
     },
     {
-      "title": "Bitcoin skacze powyżej 81 tys. $, short squeeze neutralizuje presję",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-skacze-powyzej-81-tys--short-squeeze-neutralizuje-presje-1572307",
-      "description": "",
-      "pubDate": "2026-09-19 02:41:38",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/LYNXMPED990HX_M.jpg",
-      "dateISO": "2026-09-19T02:41:38.000Z",
-      "dateFormatted": "19 września 2026"
-    },
-    {
       "title": "Płać za zakupy i zgarnij do 1200 zł. PKO Bank Polski oferuje moneyback na Allegro",
       "link": "https://www.bankier.pl/wiadomosc/1200-zl-za-zakupy-od-PKO-BP-Polacz-konto-z-Allegro-i-zgarniaj-moneyback-na-biezaco-9194419.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "PKO Bank Polski i Allegro – klienci, którzy połączą konto osobiste od największego banku w Polsce z zakupami na platformie sprzedażowej Allegro, mają szansę wzbogacić się o premię w wysokości 1200 zł. Bonus jest wypłacany jako zwrot za dokonane płatności. Bank wprowadza okresowo wyższy poziom moneyb",
@@ -961,5 +961,5 @@
       "dateFormatted": "9 września 2026"
     }
   ],
-  "updatedAt": "2026-09-21T21:46:02.510Z"
+  "updatedAt": "2026-09-22T00:37:22.996Z"
 }
