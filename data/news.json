@@ -1,6 +1,318 @@
 {
   "articles": [
     {
+      "title": "Ekspert o firmach, z których korzystają miliony Polaków. \"Szkody są duże\"",
+      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/dom-sie-wali-ale-mozemy-cos-uratowac-ekspert-ostro-o-social-media/w9scfd2",
+      "description": "Pozwoliliśmy firmom technologicznym na zbyt wiele. Duże szkody już zostały wyrządzone, ale wciąż możemy coś uratować z walącego się domu — mówi Jarosław Kopeć z Fundacji Instrat w Onet Rano Finansowo. Odpowiedzią na problemy mediów społecznościowych mają być nowe obowiązki platform, odpowiedzialność",
+      "pubDate": "Sat, 26 Sep 2026 14:07:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/QGXk9kpTURBXy82YmI2MDQ5NDg3NjFhOTJmOTkxNWY0MDk2YWM3N2NjNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-26T14:07:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Kolejny wyciek danych medycznych. Wicepremier reaguje",
+      "link": "https://businessinsider.com.pl/technologie/wyciek-danych-medycznych-minister-cyfryzacji-zabral-glos/bwv8l2s",
+      "description": "Sektor medyczny w Polsce zmaga się z nasilającymi się cyberatakami. Wicepremier i minister cyfryzacji Krzysztof Gawkowski zaapelował o wzmożenie działań zabezpieczających. Zapowiedział też nowe regulacje dotyczące ochrony danych pacjentów.",
+      "pubDate": "Sat, 26 Sep 2026 13:36:16 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/U5Rk9kpTURBXy8wMTFiZWNlZGI2ZDU4NjFjMDMyYjViNjg4ZjJiZTFjZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-26T13:36:16.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Historyczna misja SpaceX. Starship okrąży Ziemię i wyniesie nowe starlinki",
+      "link": "https://www.bankier.pl/wiadomosc/Historyczna-misja-SpaceX-Starship-okrazy-Ziemie-i-wyniesie-nowe-starlinki-9203152.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W 14. locie Starship ma zostać po raz pierwszy umieszczony na orbicie, na wysokości 275 km i sześciokrotnie okrążyć Ziemię. Umieści przy tym w przestrzeni serię nowych satelitów Starlink. Lot jest planowany na poniedziałek.",
+      "pubDate": "Sat, 26 Sep 2026 14:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/4/0341e07f655cb8-948-568-143-102-1749-1049.jpg",
+      "dateISO": "2026-09-26T13:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Tajna operacja USA w Kanadzie? Ottawa ostrzega przed amerykańską ingerencją w wybory",
+      "link": "https://www.bankier.pl/wiadomosc/Tajna-operacja-USA-w-Kanadzie-Ottawa-ostrzega-przed-amerykanska-ingerencja-w-wybory-9203079.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Celem amerykańskiej ingerencji w kampanię wyborczą w Quebeku ma być wsparcie dla powstania separatystycznego rządu po wyborach do parlamentu prowincji 5 października – podały w piątek kanadyjskie media.",
+      "pubDate": "Sat, 26 Sep 2026 14:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/f/37a4f6ae911f60-948-568-577-689-1862-1117.jpg",
+      "dateISO": "2026-09-26T13:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "USA ruszają z pomocą dla Kijowa. 400 mln dol., ale bez kluczowej broni",
+      "link": "https://www.bankier.pl/wiadomosc/USA-ruszaja-z-pomoca-dla-Kijowa-400-milionow-dolarow-ale-bez-kluczowej-broni-9203162.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Administracja prezydenta USA Donalda Trumpa przystąpiła do realizacji pakietu pomocy wojskowej dla Ukrainy o wartości 400 mln dolarów, jednak prawdopodobnie nie obejmie on pocisków do zestawów Patriot – poinformowała agencja Reutera, powołując się na źródła.",
+      "pubDate": "Sat, 26 Sep 2026 14:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/7/c3bc7602da76c2-948-568-150-0-2640-1583.jpg",
+      "dateISO": "2026-09-26T13:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Obowiązkowe szkolenie wojskowe po szkole średniej. Jest pomysł Rozwoju Plus",
+      "link": "https://www.bankier.pl/wiadomosc/Obowiazkowe-szkolenie-wojskowe-po-szkole-sredniej-Jest-pomysl-Rozwoju-Plus-9200727.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Powszechne obowiązkowe szkolenie obronne dla każdej kobiety i mężczyzny po szkole średniej to element założeń nowej polityki obronnej zaprezentowanej we wtorek w Warszawie przez polityków Rozwoju Plus: b. premiera Mateusza Morawieckiego i europosła Michała Dworczyka.",
+      "pubDate": "Sat, 26 Sep 2026 14:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/e/6a92f3d100c68f-948-568-358-35-1681-1008.jpg",
+      "dateISO": "2026-09-26T13:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Trump omija sprzeciw Kongresu. USA zasypują Izrael bronią wartą miliardy",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-omija-sprzeciw-Kongresu-USA-zasypuje-Izrael-bronia-warta-miliardy-9203181.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Administracja prezydenta USA Donalda Trumpa zatwierdziła od 20 stycznia 2025 r. do 17 września 2026 r. sprzedaż broni i sprzętu wojskowego dla Izraela o wartości 21,6 mld dolarów – informuje w sobotę katarski portal New Arab. Wynika to z informacji przesłanych Kongresowi oraz danych Departamentu Sta",
+      "pubDate": "Sat, 26 Sep 2026 14:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/1/54ef37844e4ff2-948-568-0-150-3970-2381.jpg",
+      "dateISO": "2026-09-26T13:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Europa traci rynki kolejowe. Branża nie może walczyć o kontrakty warte 97 mld euro",
+      "link": "https://www.bankier.pl/wiadomosc/Europa-traci-rynki-kolejowe-Branza-nie-moze-walczyc-o-kontrakty-warte-97-mld-euro-9200735.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Europejski przemysł kolejowy z powodu wykluczenia z prowadzenia działalności na rynkach zagranicznych traci możliwości biznesowe o wartości około 97 mld euro rocznie. Bariery handlowe blokują dostęp do tych rynków – wynika z badania World Rail Market Study 2026, opublikowanego we wtorek.",
+      "pubDate": "Sat, 26 Sep 2026 14:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/3/6917a47fd09df9-948-568-196-220-1432-859.jpg",
+      "dateISO": "2026-09-26T13:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Pięć zaskakujących wydarzeń na warszawskiej giełdzie. GPW europejskim liderem",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/piec-zaskakujacych-wydarzen-na-warszawskiej-gieldzie-gpw-liderem-w-europie/qh2q2nz",
+      "description": "Warszawska giełda zyskuje i jest najsilniejszą w tym roku w Europie, ale głównie za sprawą dużych spółek — małe zostają w tyle. WIG20 pozostaje zdominowany przez dwie branże, a banki wykazują ciekawą zależność z cenami ropy naftowej.",
+      "pubDate": "Sat, 26 Sep 2026 12:51:16 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/qtuk9kpTURBXy9mNGZjOWIzZTU3MDYzMWZhMDQ2YjRjOTZiMTVhZDlhYy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-26T12:51:16.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Nawrocki i Putin przy jednym stole na G20? Przydacz: Prezydent nie zamierza zmieniać planów",
+      "link": "https://www.bankier.pl/wiadomosc/Nawrocki-i-Putin-przy-jednym-stole-na-G20-Przydacz-Prezydent-nie-zamierza-zmieniac-planow-9203183.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Szef Biura Polityki Międzynarodowej prezydenta Marcin Przydacz powiedział, że Polsce nie podoba się fakt zaproszenia Władimira Putina na grudniowy szczyt G20 w USA. Podkreślił, że prezydent Karol Nawrocki wybiera się do Miami i nie zamierza zmieniać planów, bo obecność na szczycie G20 jest w interes",
+      "pubDate": "Sat, 26 Sep 2026 13:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/3/ab129a579aabb0-948-568-120-231-3460-2076.jpg",
+      "dateISO": "2026-09-26T12:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Gospodarczy sukces Polski ma drugą stronę. „Nie tylko wybrane metropolie”",
+      "link": "https://www.bankier.pl/wiadomosc/Gospodarczy-sukces-Polski-ma-druga-strone-Nie-tylko-wybrane-metropolie-9199898.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polska gospodarczo radzi sobie doskonale, jednak tereny wiejskie i grupy wykluczone mają utrudniony dostęp do owoców tego sukcesu – ocenił w rozmowie z PAP Chad Sachs, prezes NESsT, organizacji wspierającej przedsiębiorstwa społeczne. Ocenił, że tego typu podmioty mogą dobrze rozwijać się w Polsce.",
+      "pubDate": "Sat, 26 Sep 2026 13:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/0/ab6cc3ea87ea49-948-568-37-217-2966-1779.jpg",
+      "dateISO": "2026-09-26T12:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Broń atomowa dla Polski? Kaczyński: Droga nie jest zamknięta",
+      "link": "https://www.bankier.pl/wiadomosc/Bron-atomowa-dla-Polski-Kaczynski-Droga-nie-jest-zamknieta-9203186.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polsce potrzebne są setki tysięcy rezerwistów gotowych do służby i walki – powiedział w sobotę prezes PiS Jarosław Kaczyński podczas kongresu Armia w Stalowej Woli. Mówił też o rozbudowie wojska, obronie cywilnej i przemyśle zbrojeniowym. Opowiedział się za utrzymaniem dotychczasowej roli NATO.",
+      "pubDate": "Sat, 26 Sep 2026 13:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/6/3f6d690b10baf1-948-568-18-18-3731-2238.jpg",
+      "dateISO": "2026-09-26T12:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Superinteligencja poza kontrolą? USA i Chiny zwierają szyki w sprawie AI",
+      "link": "https://www.bankier.pl/wiadomosc/Superinteligencja-poza-kontrola-USA-i-Chiny-zwieraja-szyki-w-sprawie-AI-9203153.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Stany Zjednoczone i Chiny utworzą kanał komunikacji służący do reagowania na incydenty związane ze sztuczną inteligencją — poinformował Biały Dom, cytowany w sobotę przez agencję AFP.",
+      "pubDate": "Sat, 26 Sep 2026 13:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/8/b44b0d81cd754d-948-568-840-370-2270-1361.jpg",
+      "dateISO": "2026-09-26T12:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Kolejna odsłona wojny Trumpa z mediami. Dziennikarz CNN wyrzucony z Air Force One",
+      "link": "https://www.bankier.pl/wiadomosc/Kolejna-odslona-wojny-Trumpa-z-mediami-Dziennikarz-CNN-wyrzucony-z-Air-Force-One-9203120.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Biały Dom odmówił reporterowi CNN możliwości podróżowania wraz z prezydentem USA Donaldem Trumpem samolotem Air Force One podczas zaplanowanej na sobotę wizyty amerykańskiego przywódcy w Knoxville w stanie Tennessee. Poinformował o tym „Washington Post”, powołując się na swoje źródła.",
+      "pubDate": "Sat, 26 Sep 2026 13:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/8/4f5a093623b68e-948-567-20-52-980-587.jpg",
+      "dateISO": "2026-09-26T12:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Hawaje szykują się na uderzenie. Potężny huragan Nolo zagraża archipelagowi",
+      "link": "https://www.bankier.pl/wiadomosc/Hawaje-szykuja-sie-na-uderzenie-Potezny-huragan-Nolo-zagraza-archipelagowi-9203133.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W obliczu nadchodzącego huraganu Nolo władze Hawajów ogłosiły stan klęski żywiołowej, zmobilizowały ponad 230 członków Gwardii Narodowej i zamknęły część szkół. Meteorolodzy ostrzegają przed gwałtownymi powodziami, osuwiskami oraz wysokimi falami na Big Island.",
+      "pubDate": "Sat, 26 Sep 2026 13:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/4/c/625310da02a842-948-569-140-145-1541-925.jpg",
+      "dateISO": "2026-09-26T12:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Polska i Włochy chcą ochrony unijnego AGD. „Potrzebujemy ochrony dla naszego przemysłu”",
+      "link": "https://www.bankier.pl/wiadomosc/Polska-i-Wlochy-chca-ochrony-unijnego-AGD-Potrzebujemy-ochrony-dla-naszego-przemyslu-9201952.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polska i Włochy chcą, aby Komisja Europejska przygotowała rozwiązania wspierające unijny przemysł AGD, który mierzy się z rosnącą konkurencją ze strony producentów z państw trzecich, przede wszystkim Chin - poinformował w czwartek w Brukseli wiceminister rozwoju i technologii Michał Baranowski.",
+      "pubDate": "Sat, 26 Sep 2026 13:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/3/ee9488990f5df9-948-568-0-331-4015-2409.jpg",
+      "dateISO": "2026-09-26T12:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "AI zaatakowała rządowe systemy w USA i Australii. Altman ostrzega przed utratą kontroli",
+      "link": "https://www.bankier.pl/wiadomosc/AI-zaatakowala-rzadowe-systemy-w-USA-i-Australii-Altman-ostrzega-przed-utrata-kontroli-9203194.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Korporacja OpenAI przyznała, że jej boty AI dokonywały nieuprawnionych ingerencji w witryny i systemy dziesiątek globalnych instytucji, w tym agencji rządowych USA i Australii - informuje portal BBC, powołując się na komunikat firmy umieszczony w serwisie X.",
+      "pubDate": "Sat, 26 Sep 2026 12:53:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/3/67907e1d67e7ba-948-568-0-0-3600-2159.jpg",
+      "dateISO": "2026-09-26T11:53:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Mija termin na wykorzystanie zaległego urlopu. Czy szef może do tego zmusić? [WYJAŚNIAMY]",
+      "link": "https://businessinsider.com.pl/prawo/praca/czy-szef-moze-zmusic-do-wziecia-urlopu-wyjasniamy-watpliwosci/nz5h0nd",
+      "description": "Prawo mówi, że zaległy urlop wypoczynkowy musi zostać udzielony do końca września kolejnego roku. Co jednak w przypadku, gdy pracownik nie chce teraz wolnego? Czy szef może go do tego przymusić? Wyjaśniamy wątpliwości.",
+      "pubDate": "Sat, 26 Sep 2026 11:47:44 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/WKlk9kpTURBXy8xODAzNTQ0ZWJkZjIwZDYzOTgxZDk1ZjE2OWY5OTg3YS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-26T11:47:44.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Wielka afera wstrząsnęła rynkami w Turcji. Ucierpiało 450 tys. inwestorów",
+      "link": "https://businessinsider.com.pl/gielda/wielka-afera-wstrzasnela-rynkami-w-turcji-ucierpialo-450-tys-inwestorow/vpvqgz9",
+      "description": "Władze w Turcji nakazały likwidację ponad 130 funduszy inwestycyjnych, które nie były w stanie wypłacić pieniędzy inwestorom. W sumie z giełdy wyparowała równowartość 18 mld dol., a ucierpiało blisko pół miliona osób.",
+      "pubDate": "Sat, 26 Sep 2026 11:01:48 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/SXIk9kpTURBXy84OGVkNDgyMGFkNTU1N2U5NDNiZDRmMjNiYThkMDZjYy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-26T11:01:48.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Koniec nadziei na koniec wojny. Trump odrzuca propozycje rozejmu z Iranem",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-nadziei-na-koniec-wojny-Trump-odrzuca-propozycje-rozejmu-z-Iranem-9203118.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump odrzucił propozycję siedmiodniowego zawieszenia broni i odblokowania cieśniny Ormuz w zamian za zniesienie blokady - podał w piątek \"Wall Street Journal\". Trump ma rozważać wznowienie bombardowań Iranu po listopadowych wyborach.",
+      "pubDate": "Sat, 26 Sep 2026 11:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/a/41062f1e0804a5-948-568-102-93-3641-2184.jpg",
+      "dateISO": "2026-09-26T10:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Węgry rezygnują z miliardów z SAFE. Budapeszt ugina się pod presją UE",
+      "link": "https://www.bankier.pl/wiadomosc/Wegry-rezygnuja-z-miliardow-z-SAFE-Budapeszt-ugina-sie-pod-presja-UE-9203113.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Węgry wystąpiły o pożyczkę w wysokości 5,4 mld euro w ramach unijnego instrumentu SAFE – poinformował w piątek na konferencji prasowej rzecznik Komisji Europejskiej Thomas Regnier, cytowany przez tygodnik „HVG”. Węgierski rząd planował poczatkowo zaciągnięcie pożyczki z SAFE na kwotę 16 mld euro.",
+      "pubDate": "Sat, 26 Sep 2026 11:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/5/f6d590410352a9-945-560-0-60-1200-719.jpg",
+      "dateISO": "2026-09-26T10:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Trump chciał wysłać Zełenskiego do Moskwy? Prezydent Ukrainy: Na rakiecie",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-chcial-wyslac-Zelenskiego-do-Moskwy-Prezydent-Ukrainy-Na-rakiecie-9203064.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump w tym tygodniu podczas spotkania z ukraińskim przywódcą Wołodymyrem Zełenskim próbował zachęcić go, by udał się do Moskwy i spotkał z Władimirem Putinem — poinformował w piątek serwis Bloomberg.",
+      "pubDate": "Sat, 26 Sep 2026 11:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/f/a5802675952302-948-568-0-8-2775-1665.jpg",
+      "dateISO": "2026-09-26T10:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Powrót klanu Bolsonaro? Silva prowadzi w wyścigu, ale syn Bolsonaro jest o krok za nim",
+      "link": "https://www.bankier.pl/wiadomosc/Powrot-klanu-Bolsonaro-Silva-prowadzi-w-wyscigu-ale-syn-Bolsonaro-jest-o-krok-za-nim-9203114.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Na tydzień przed wyborami prezydenckimi w Brazylii urzędujący prezydent Luiz Inacio Lula da Silva jest faworytem pierwszej tury głosowania. Powinien otrzymać w niej 40 proc. poparcia - wynika z sondażu ośrodka badawczego Datafolha.",
+      "pubDate": "Sat, 26 Sep 2026 11:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/f/a422764c471e83-948-568-0-43-1583-949.jpg",
+      "dateISO": "2026-09-26T10:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Inwazja na Kubę na horyzoncie? USA szykują grunt pod interwencję",
+      "link": "https://www.bankier.pl/wiadomosc/Inwazja-na-Kube-na-horyzoncie-USA-szykuja-grunt-pod-interwencje-9203073.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rezerwa sił lądowych USA sprawdza, czy jest w stanie zapewnić jednostki wsparcia, które byłyby potrzebne w przypadku operacji przeciwko Kubie - podała telewizja CBS, powołując się na wewnętrzne dokumenty wojskowe.",
+      "pubDate": "Sat, 26 Sep 2026 11:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/f/56843701654f38-948-567-0-40-1000-599.jpg",
+      "dateISO": "2026-09-26T10:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Kraje bałtyckie na celowniku Kremla? Putin: Nie planujemy działań zbrojnych przeciw Europie",
+      "link": "https://www.bankier.pl/wiadomosc/Kraje-baltyckie-na-celowniku-Kremla-Putin-Nie-planujemy-dzialan-zbrojnych-przeciw-Europie-9203062.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rosyjski przywódca Władimir Putin oznajmił w piątek, że jego kraj nie planuje \"żadnych działań zbrojnych przeciwko Europie\". Stwierdził też, że Moskwa wie, iż państwa bałtyckie łamią prawa obywateli rosyjskojęzycznych.",
+      "pubDate": "Sat, 26 Sep 2026 11:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/0/34f01df9c63851-948-568-377-266-1618-971.jpg",
+      "dateISO": "2026-09-26T10:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
+      "title": "Największy sprzedawca części zamiennych w Europie zdradza, czy kupiłby chińskie auto",
+      "link": "https://businessinsider.com.pl/biznes/prezes-inter-cars-zdradza-czy-kupilby-dzis-chinskie-auto/j9dqs0r",
+      "description": "O tym, jak wysokie ceny paliw zmieniły kierowców, czego uczy się od Niemców oraz czy kupiłby sobie chińskie auto, mówi Maciej Oleksowicz, prezes Inter Cars, potentata w dziedzinie sprzedaży części zamiennych do samochodów.",
+      "pubDate": "Sat, 26 Sep 2026 09:58:06 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/V-Uk9kpTURBXy8zODc5MjlkYzVmMjUyOWFlNWE5MDNhMzVjZmJmMDhkNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-26T09:58:06.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
       "title": "Premier nagrał film do prezydenta. \"To co, robimy te tańsze paliwa?\"",
       "link": "https://businessinsider.com.pl/wiadomosci/premier-nagral-film-do-prezydenta-to-co-robimy-te-tansze-paliwa/bcv5k1k",
       "description": "\"To co, robimy te tańsze paliwa?\" — tak premier Donald Tusk zwrócił się w sobotę rano do prezydenta Karola Nawrockiego. \"Czekamy na podpis\" — dodał, mając na myśli wysłaną już do prezydenta ustawę o tzw. windfall tax.",
@@ -8,7 +320,7 @@
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/i0uk9kpTURBXy8yMGZhMTk0ZmFkYzlhNGZlNDM2ZjM1MGRmOTViMzQ5Yy5wbmeRkwLNBLAA3gABoTAB",
+      "image": "https://ocdn.eu/pulscms-transforms/1/qUQk9kpTURBXy9kODc5MWI4MGI0YzM1MzQ2NmI0MWM1MDViZDFlM2M4Yi5wbmeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-09-26T08:50:39.000Z",
       "dateFormatted": "26 września 2026"
     },
@@ -37,14 +349,14 @@
       "dateFormatted": "26 września 2026"
     },
     {
-      "title": "Przychody Newagu w III kwartale nie powinny odbiegać od pierwszych dwóch, w IV mogą spaść",
+      "title": "Rekordowy zysk i portfel zamówień pękający w szwach. Wyniki Newagu w górę o ponad 90 procent",
       "link": "https://www.bankier.pl/wiadomosc/Przychody-Newagu-w-III-kwartale-nie-powinny-odbiegac-od-pierwszych-dwoch-w-IV-moga-spasc-9203169.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Pod względem przychodów trzeci kwartał nie powinien odbiegać od pierwszych dwóch, natomiast czwarty zostanie zamknięty z niższymi przychodami, co wynika z terminów dostaw - poinformował PAP wiceprezes Newagu Józef Michalik. Dodał, że firma ma zakontraktowane dostawy do końca 2029 roku.",
       "pubDate": "Sat, 26 Sep 2026 09:34:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "https://galeria.bankier.pl/p/0/f/5cf4b304c96a2e-thumb-1000.jpg",
+      "image": "http://galeria.bankier.pl/p/3/1/48787b23761d0c-948-568-112-0-1576-945.jpg",
       "dateISO": "2026-09-26T08:34:00.000Z",
       "dateFormatted": "26 września 2026"
     },
@@ -61,6 +373,18 @@
       "dateFormatted": "26 września 2026"
     },
     {
+      "title": "Polska zrezygnuje z zakupów broni w USA? „Albo współprodukcja, albo kupimy broń gdzie indziej”",
+      "link": "https://www.bankier.pl/wiadomosc/Polska-zrezygnuje-z-zakupow-broni-w-USA-Albo-wspolprodukcja-albo-kupimy-bron-gdzie-indziej-9203088.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wiceminister obrony narodowej Magdalena Sobkowiak-Czarnecka ostrzegła w piątek USA, że w przypadku braku szybkich decyzji o współprodukcji w Europie, w tym w Polsce, europejskie rządy mogą zrezygnować z zakupów broni w USA na rzecz innych krajów.",
+      "pubDate": "Sat, 26 Sep 2026 09:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/a/c3e2c5bddf91b0-948-567-0-0-1000-599.jpg",
+      "dateISO": "2026-09-26T08:00:00.000Z",
+      "dateFormatted": "26 września 2026"
+    },
+    {
       "title": "Putin jednak nie pojedzie na G20? Marco Rubio zaprasza, Senat blokuje",
       "link": "https://www.bankier.pl/wiadomosc/Putin-jednak-nie-pojedzie-na-G20-Marco-Rubio-zaprasza-Senat-blokuje-9203090.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Grupa amerykańskich senatorów z Demokratów i Republikanów wezwała prezydenta USA Donalda Trumpa, by wycofał zaproszenie dla przywódcy Rosji Władimira Putina na szczyt G20, który odbędzie się w grudniu na Florydzie — poinformował w piątek dziennik \"Washington Post\".",
@@ -73,14 +397,14 @@
       "dateFormatted": "26 września 2026"
     },
     {
-      "title": "Polska zrezygnuje z zakupów broni w USA? „Albo współprodukcja, albo kupimy broń gdzie indziej”",
-      "link": "https://www.bankier.pl/wiadomosc/Polska-zrezygnuje-z-zakupow-broni-w-USA-Albo-wspolprodukcja-albo-kupimy-bron-gdzie-indziej-9203088.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wiceminister obrony narodowej Magdalena Sobkowiak-Czarnecka ostrzegła w piątek USA, że w przypadku braku szybkich decyzji o współprodukcji w Europie, w tym w Polsce, europejskie rządy mogą zrezygnować z zakupów broni w USA na rzecz innych krajów.",
+      "title": "Polska i sześć krajów UE chcą mniej biurokracji. Proponują przegląd unijnego prawa",
+      "link": "https://www.bankier.pl/wiadomosc/Polska-i-szesc-krajow-UE-chca-mniej-biurokracji-Proponuja-przeglad-unijnego-prawa-9199982.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Siedem państw członkowskich UE, w tym Polska, chce uproszczenia unijnego prawa i ograniczenia obciążeń administracyjnych dla firm. Kraje zaproponowały też przegląd wszystkich przepisów UE i ocenienie czy należy je zmienić czy w ogóle usunąć.",
       "pubDate": "Sat, 26 Sep 2026 09:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/a/c3e2c5bddf91b0-948-567-0-0-1000-599.jpg",
+      "image": "http://galeria.bankier.pl/p/e/7/9be6ff8c9d9bbe-948-568-640-1160-3120-1871.jpg",
       "dateISO": "2026-09-26T08:00:00.000Z",
       "dateFormatted": "26 września 2026"
     },
@@ -97,14 +421,14 @@
       "dateFormatted": "26 września 2026"
     },
     {
-      "title": "Polska i sześć krajów UE chcą mniej biurokracji. Proponują przegląd unijnego prawa",
-      "link": "https://www.bankier.pl/wiadomosc/Polska-i-szesc-krajow-UE-chca-mniej-biurokracji-Proponuja-przeglad-unijnego-prawa-9199982.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Siedem państw członkowskich UE, w tym Polska, chce uproszczenia unijnego prawa i ograniczenia obciążeń administracyjnych dla firm. Kraje zaproponowały też przegląd wszystkich przepisów UE i ocenienie czy należy je zmienić czy w ogóle usunąć.",
+      "title": "Miliony śmieci na orbicie. Polacy budują statek, który ma pomóc rozwiązać problem",
+      "link": "https://www.bankier.pl/wiadomosc/Miliony-smieci-na-orbicie-Polacy-buduja-statek-ktory-ma-pomoc-rozwiazac-problem-9199867.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Europejska Agencja Kosmiczna (ESA) szacuje, że na orbicie jest ok. 1,5 mln obiektów uznawanych za śmieci kosmiczne o rozmiarze od 1 cm do 10 cm i 230 mln obiektów od 1 mm do 1 cm. Eksperci podkreślają, że...",
       "pubDate": "Sat, 26 Sep 2026 09:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/7/9be6ff8c9d9bbe-948-568-640-1160-3120-1871.jpg",
+      "image": "http://galeria.bankier.pl/p/b/6/0c098b7f5f05e6-948-568-0-0-3600-2159.jpg",
       "dateISO": "2026-09-26T08:00:00.000Z",
       "dateFormatted": "26 września 2026"
     },
@@ -189,18 +513,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/b/f/1a1ef97f1fcb17-948-568-15-0-2985-1790.jpg",
-      "dateISO": "2026-09-26T05:00:00.000Z",
-      "dateFormatted": "26 września 2026"
-    },
-    {
-      "title": "„Zęby smoka” atrakcją turystyczną. Turyści jadą na granicę Estonii z Rosją",
-      "link": "https://www.bankier.pl/wiadomosc/Zeby-smoka-atrakcja-turystyczna-Turysci-jada-na-granice-Estonii-z-Rosja-9201100.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Nowo powstająca infrastruktura graniczna i wzniesione już umocnienia tworzące Bałtycką Linię Obrony, w tym przeciwpancerne betonowe „zęby smoka”, stały się jedną z atrakcji turystycznych Estonii. Goście z zagranicy chcą to zobaczyć na własne oczy - podała telewizja ETV.",
-      "pubDate": "Sat, 26 Sep 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/9/a60c077b44fad1-948-568-0-40-4000-2399.jpg",
       "dateISO": "2026-09-26T05:00:00.000Z",
       "dateFormatted": "26 września 2026"
     },
@@ -337,54 +649,6 @@
       "dateFormatted": "25 września 2026"
     },
     {
-      "title": "Polacy znów pójdą do urn. Kto zajmie miejsce zmarłego senatora?",
-      "link": "https://www.bankier.pl/wiadomosc/Polacy-znow-pojda-do-urn-Kto-zajmie-miejsce-zmarlego-senatora-9203027.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Szef KPRP Zbigniew Bogucki poinformował w piątek, że prezydent Karol Nawrocki zarządził wybory uzupełniające do Senatu na 22 listopada. Nowy senator zastąpi zmarłego w sierpniu br. gen. Mirosława Różańskiego.",
-      "pubDate": "Fri, 25 Sep 2026 19:07:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/7/a6bba0cc85b8b2-948-568-10-160-3990-2393.jpg",
-      "dateISO": "2026-09-25T18:07:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Londyn pod presją Brukseli. „Wróćcie do unii celnej albo zapłacicie cenę”",
-      "link": "https://www.bankier.pl/wiadomosc/Londyn-pod-presja-Brukseli-Wroccie-do-unii-celnej-albo-zaplacicie-cene-9203026.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Unia Europejska ostrzegła brytyjski rząd, że jeśli chce uniknąć barier związanych z polityką \"Made in Europe\", powinien podnieść cła na chińskie samochody, a najlepiej – wrócić do unii celnej – pisze w piątek \"Financial Times\".",
-      "pubDate": "Fri, 25 Sep 2026 19:05:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/2/7d797de4546e19-948-568-0-144-992-595.jpg",
-      "dateISO": "2026-09-25T18:05:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Trump boi się zatrzymać AI. „Spowolnienie AI załamie amerykańską gospodarkę”",
-      "link": "https://www.bankier.pl/wiadomosc/Trump-boi-sie-zatrzymac-AI-Spowolnienie-AI-zalamie-amerykanska-gospodarke-9203023.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Każdy tydzień przynosi niepokojące informacje, które budzą nowe obawy przed sztuczną inteligencją. Barack Obama i wielu innych polityków bądź ekspertów apeluje o wdrożenie mechanizmów bezpieczeństwa. Prezydent Donald Trump uważa jednak, że spowolnienie rozwoju AI załamie rozwój gospodarki USA - info",
-      "pubDate": "Fri, 25 Sep 2026 18:58:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/a/225063dbeca47d-948-568-65-28-3684-2210.jpg",
-      "dateISO": "2026-09-25T17:58:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Kanada odwraca się od USA i stawia na Szwecję. Ruszają negocjacje w sprawie samolotów GlobalEye",
-      "link": "https://www.bankier.pl/wiadomosc/Kanada-odwraca-sie-od-USA-i-stawia-na-Szwecje-Ruszaja-negocjacje-w-sprawie-samolotow-GlobalEye-9203019.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rząd Kanady rozpoczął negocjacje ze szwedzkim Saabem w sprawie kupna samolotów wczesnego ostrzegania GlobalEye – poinformowano w piątkowym komunikacie.",
-      "pubDate": "Fri, 25 Sep 2026 18:47:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/7/d48f0b9b9d0631-948-568-0-239-2775-1664.jpg",
-      "dateISO": "2026-09-25T17:47:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
       "title": "Jest komunikat KE w sprawie dostaw gazu i stanu wypełnienia magazynów",
       "link": "https://businessinsider.com.pl/gielda/surowce/europa-przed-sezonem-grzewczym-komisja-europejska-uspokaja-mieszkancow/tv1fj06",
       "description": "Unijni urzędnicy w piątek uspokajali opinię publiczną, wskazując, że gospodarstwa domowe i kluczowe usługi publiczne pozostają chronione. 23 września unijne magazyny gazu były zapełnione w około 70 proc. Dla porównania, na początku miesiąca było 65 proc.",
@@ -394,54 +658,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/fx_k9kpTURBXy83YmJiMzUxZTc2NDJhNzg4ODYwNThkOGRiNTUyMDMxNS5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-09-25T17:41:47.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Służby zaskoczyły somalijskich piratów. Tankowiec z irańską ropą odbity",
-      "link": "https://www.bankier.pl/wiadomosc/Sluzby-zaskoczyly-somalijskich-piratow-Tankowiec-z-iranska-ropa-odbity-9203011.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Władze Puntlandu, autonomicznego regionu Somalii, poinformowały w piątek o odbiciu z rąk piratów przez straż graniczną tankowca objętego amerykańskimi sankcjami. Statek został uprowadzony w sierpniu przez somalijskich piratów u wybrzeży Jemenu.",
-      "pubDate": "Fri, 25 Sep 2026 18:38:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/3/b1f394849bfd26-948-568-70-390-3890-2334.jpg",
-      "dateISO": "2026-09-25T17:38:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Turcja chce bezpieczeństwa Morza Czarnego. Kreml potwierdza propozycję",
-      "link": "https://www.bankier.pl/wiadomosc/Turcja-chce-bezpieczenstwa-Morza-Czarnego-Kreml-potwierdza-propozycje-9203008.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rosja potwierdziła w piątek, że otrzymała turecką propozycję w sprawie bezpieczeństwa żeglugi na Morzu Czarnym - poinformowała agencja Reutera, powołując się na rosyjskie media państwowe. Rzecznik Kremla Dmitrij Pieskow zastrzegł jednak, że na razie nie ma \"żadnych merytorycznych negocjacji\" na ten ",
-      "pubDate": "Fri, 25 Sep 2026 18:35:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/5/aaca6077b111fb-948-568-140-0-3750-2249.jpg",
-      "dateISO": "2026-09-25T17:35:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Niemcy udaremnili zamach w Monachium. Tropy wiodą na Słowację i do Moskwy",
-      "link": "https://www.bankier.pl/wiadomosc/Niemcy-udaremnili-zamach-w-Monachium-Tropy-wioda-na-Slowacje-i-do-Moskwy-9203003.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Za wrześniową próbą ataku na firmę zbrojeniową w Monachium stoi rosyjski wywiad wojskowy GRU; zatrzymani obywatele Bułgarii należeli do zespołu operującego ze Słowacji - podał w piątek dziennik \"Frankfurter Allgemeine Zeitung\", powołując się na źródła w niemieckich kręgach bezpieczeństwa.",
-      "pubDate": "Fri, 25 Sep 2026 18:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/6/3ee975ca7f8ca2-948-568-1640-900-1820-1091.jpg",
-      "dateISO": "2026-09-25T17:20:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Czy wystarczy gazu na zimę? Bruksela zapewnia o stabilności, ale ostrzega przed cenami",
-      "link": "https://www.bankier.pl/wiadomosc/Czy-wystarczy-gazu-na-zime-Bruksela-zapewnia-o-stabilnosci-ale-ostrzega-przed-cenami-9202994.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Komisja Europejska oraz państwa członkowskie potwierdzają, że dostawy gazu do Unii Europejskiej są stabilne - poinformowała w piątek na konferencji w Brukseli rzeczniczka KE Anna-Kaisa Itkonen.",
-      "pubDate": "Fri, 25 Sep 2026 18:08:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/d/63745a430a707a-948-568-0-131-2510-1505.jpg",
-      "dateISO": "2026-09-25T17:08:00.000Z",
       "dateFormatted": "25 września 2026"
     },
     {
@@ -466,18 +682,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/J_Xk9kpTURBXy9kMTAzNmYwMzQ1Yzk1ZGJkNDI0NDg1NDEyOWRlYTJiNS5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-09-25T16:58:25.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Afery Zondacrypto uderza w PiS. Poseł Michał Moskal zawiesza członkostwo",
-      "link": "https://www.bankier.pl/wiadomosc/Afery-Zondacrypto-uderza-w-PiS-Posel-Michal-Moskal-zawiesza-czlonkostwo-9202951.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Poseł PiS Michał Moskal poinformował o zawieszeniu członkostwa w klubie Prawa i Sprawiedliwości do czasu przyjęcia przez kierownictwo partii pełnej informacji dot. wszystkich okoliczności sprawy Zondacrypto. Podkreślił, że jest po rozmowie z prezesem PiS Jarosławem Kaczyńskim.",
-      "pubDate": "Fri, 25 Sep 2026 17:34:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/0/13b3b6519f7493-948-568-9-9-3749-2249.jpg",
-      "dateISO": "2026-09-25T16:34:00.000Z",
       "dateFormatted": "25 września 2026"
     },
     {
@@ -529,114 +733,6 @@
       "dateFormatted": "25 września 2026"
     },
     {
-      "title": "Ukraińska kieszeń świeci pustkami. Zełenski: Dziura budżetowa zagraża dostawom na front",
-      "link": "https://www.bankier.pl/wiadomosc/Ukrainska-kieszen-swieci-pustkami-Zelenski-Dziura-budzetowa-zagraza-dostawom-na-front-9202909.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Około jednej trzeciej z 28 mld dol. deficytu finansowania ukraińskiej obronności przypada na drony, które trzeba zamówić i opłacić już w październiku i listopadzie, aby trafiły do Ukrainy w styczniu i lutym - powiedział w piątek prezydent Wołodymyr Zełenski, cytowany przez portal Ekonomiczna Prawda.",
-      "pubDate": "Fri, 25 Sep 2026 16:48:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/4/932cabcbfc80f5-948-568-0-44-2428-1457.jpg",
-      "dateISO": "2026-09-25T15:48:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Pary jednopłciowe mogą rozliczać się podatkowo jak małżonkowie. Jak to zrobić? [WYJAŚNIAMY]",
-      "link": "https://businessinsider.com.pl/prawo/podatki/minister-uznal-prawa-podatkowe-par-tej-samej-plci-ale-jest-haczyk/wrjnqf0",
-      "description": "Małżeństwa osób tej samej płci, które uzyskały transkrypcję zagranicznego aktu małżeństwa w Polsce, mogą rozliczyć się jak małżonkowie — uznał minister finansów. Tłumaczymy, co to praktyce oznacza i jakie warunki trzeba spełnić.",
-      "pubDate": "Fri, 25 Sep 2026 15:26:55 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/L41k9kpTURBXy9lZmNkNWU2ZTQxOTBjZGM5OTg5NzE1YWRkZjM0MjU1NC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-25T15:26:55.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Grupa PKO BP na szczycie listy podatników. Rząd opublikował zestawienie",
-      "link": "https://businessinsider.com.pl/firmy/podatki/pko-bp-liderem-rankingu-platnikow-cit-orlen-z-najwiekszym-wzrostem/lstv6ej",
-      "description": "Już trzeci rok z rzędu grupa podatkowa banku PKO BP znalazła się na pierwszym miejscu listy płatników podatku dochodowego Ministerstwa Finansów. Orlen był blisko.",
-      "pubDate": "Fri, 25 Sep 2026 15:03:08 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/2t-k9kpTURBXy9mNzFlODdjZTk2ODE4NjE3YjBkNGRkMTU3MGUzYTUwZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-25T15:03:08.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Trump stawia ultimatum Xi. „Wszelka pomoc dla Iranu jest nie do zaakceptowania”",
-      "link": "https://www.bankier.pl/wiadomosc/Trump-stawia-ultimatum-Xi-Wszelka-pomoc-dla-Iranu-jest-nie-do-zaakceptowania-9202856.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent Donald Trump ostrzegł chińskiego przywódcę Xi Jinpinga, że udzielania przez Chiny pomocy Iranowi jest nie do zaakceptowania - powiedział w piątek amerykański ambasador w Pekinie, David Perdue. Dodał, że pomiędzy politykami zaczęła się rozwijać relacja \"pewnego zaufania\".",
-      "pubDate": "Fri, 25 Sep 2026 15:58:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/5/a9cb78a6990a8d-948-568-23-63-2277-1366.jpg",
-      "dateISO": "2026-09-25T14:58:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "27 miast odzyska połączenia kolejowe. Sprawdź nową listę",
-      "link": "https://businessinsider.com.pl/gospodarka/polskie-miasta-zyskaja-kolej-sprawdz-gdzie-pojawia-sie-nowe-trasy/jnyemv8",
-      "description": "Infrastruktura kolejowa w Polsce stale się rozwija, a uruchomiony w ostatnim czasie program Zintegrowanej Sieci Kolejowej przewiduje budowę kolejnych tysięcy kilometrów nowoczesnych tras, w tym odcinków Kolei Dużych Prędkości.",
-      "pubDate": "Fri, 25 Sep 2026 14:55:45 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/rRwk9kpTURBXy82NzJlZGIyYzYyNTVmZTBhMWRiMWUyY2NjNjAxYjdhNC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-25T14:55:45.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "VW wycofuje miliony aut. Zobacz, czy chodzi o Twoje auto",
-      "link": "https://businessinsider.com.pl/technologie/motoryzacja/volkswagen-wycofuje-ponad-2-mln-aut-problem-dotyczy-takze-polski/8jq9tnc",
-      "description": "Volkswagen masowo wycofuje samochody z powodu usterki śruby. Dotyczy to również aut w Polsce.",
-      "pubDate": "Fri, 25 Sep 2026 14:37:51 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/OLsk9kpTURBXy85N2FmNjE4YWIyY2I5MDZhN2U4ZDk5ZTExNzE1MDA1ZS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-25T14:37:51.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Stała baza wojsk USA coraz bliżej. Decyzja zapadnie w grudniu",
-      "link": "https://www.bankier.pl/wiadomosc/Stala-amerykanska-baza-wojskowa-w-Polsce-coraz-blizej-Decyzja-zapadnie-w-grudniu-9202825.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rozmowy na temat stałej amerykańskiej bazy wojskowej w Polsce posuwają się do przodu - poinformował w piątek wiceminister obrony narodowej Paweł Zalewski.",
-      "pubDate": "Fri, 25 Sep 2026 15:23:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/6/b2f8906e3c414f-948-568-0-1257-2573-1544.jpg",
-      "dateISO": "2026-09-25T14:23:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Wspólne PIT-y i ulgi dla małżeństw z transkrypcją. Tusk: Każde małżeństwo będzie miało te same prawa",
-      "link": "https://www.bankier.pl/wiadomosc/Wspolne-PIT-y-i-ulgi-dla-malzenstw-z-transkrypcja-Tusk-Kazde-malzenstwo-bedzie-mialo-te-same-prawa-9202822.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Każde małżeństwo, także to transkrybowane, będzie miało te same prawa, również jeśli chodzi o wspólne rozliczanie się – podkreślił w piątek premier Donald Tusk, odnosząc się do interpretacji ogólnej ministra finansów w tej sprawie.",
-      "pubDate": "Fri, 25 Sep 2026 15:19:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/1/f1820e626b8deb-948-568-614-207-2457-1474.jpg",
-      "dateISO": "2026-09-25T14:19:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Złożył reklamację na dwa rowery. W odpowiedzi dostał listę psychoterapeutów",
-      "link": "https://businessinsider.com.pl/prawo/serwis-rowerowy-zaskoczyl-klienta-zamiast-naprawy-przeslali-liste-psychoterapeutow/rfrqr5s",
-      "description": "Reklamacja pewnego mężczyzny na usługę przeglądu rowerów nie została rozpatrzona w ciągu przepisowych dwóch tygodni. Dopiero zwrot pieniędzy dokonany przez bank zmusił firmę do reakcji, która była bardzo nietypowa.",
-      "pubDate": "Fri, 25 Sep 2026 14:14:18 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/UKFk9kpTURBXy9iOTAxNzVjZGI3MGI5NGJmMTc2Yzg2MjIxZjRlZTk3Yy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-25T14:14:18.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
       "title": "Olej napędowy będzie coraz trudniej dostępny. „Europa znowu ma problem”",
       "link": "https://www.bankier.pl/wiadomosc/Olej-napedowy-bedzie-coraz-trudniej-dostepny-Europa-znowu-ma-problem-9202812.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "O perspektywach dla rynku ropy i gazu mówił w programie Bankiet weekly Michał Stajniak, analityk rynku surowców, XTB. Jego zdaniem niewystarczające moce rafineryjne w Europie oraz problemy z dostępem do ropy sprawią, że będzie problem z dostępnością oleju napędowego, zaś podaż benzyny powinna być na",
@@ -646,54 +742,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/0/5/18d55c6d1ce712-948-568-379-1230-2970-1782.jpg",
       "dateISO": "2026-09-25T14:07:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Rosja masowo atakuje Ukrainę odrzutowymi dronami. Jeszcze niedawno były rzadkością",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/nowe-drony-putina-powstaja-juz-tysiacami/003vnk2",
-      "description": "Rosja gwałtownie zwiększyła wykorzystanie odrzutowych dronów uderzeniowych przeciwko Ukrainie. Według ukraińskich danych jeszcze w czerwcu użyto około 350 takich aparatów, a w sierpniu już 2850. Kijów alarmuje, że szybsze i bardziej zaawansowane konstrukcje stają się jednym z największych wyzwań dla",
-      "pubDate": "Fri, 25 Sep 2026 14:04:25 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/2iJk9kqTURBXy8xMjE0ODhlOTE4MThlMmRmMTI2ZWE5MmQ3Yjc0Yjk3Mi53ZWJwkZMCzQSwAN4AAaEwAQ",
-      "dateISO": "2026-09-25T14:04:25.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Ceny paliw przestały rosnąć. Ale benzyna i ON wciąż są rekordowo drogie",
-      "link": "https://www.bankier.pl/wiadomosc/Ceny-paliw-przestaly-rosnac-Ale-benzyna-i-ON-wciaz-sa-rekordowo-drogie-9202807.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Mijający tydzień przyniósł zamrożenie rekordowo wysokich cen paliw w Polsce. Litr benzyny Pb95 wciąż kosztuje niemal 8 zł, a oleju napędowego średnio aż 9 zł.",
-      "pubDate": "Fri, 25 Sep 2026 15:02:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/1/d0d5cc39de4d8a-948-568-1254-20-2825-1695.jpg",
-      "dateISO": "2026-09-25T14:02:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Koniec darmowej opieki na wycieczkach. Nauczyciele chcą pieniędzy za 3 lata wstecz",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-darmowej-opieki-na-wycieczkach-Nauczyciele-chca-pieniedzy-za-3-lata-wstecz-9202767.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Związek Nauczycielstwa Polskiego wesprze nauczycieli w procesie dochodzenia zapłaty za godziny nadliczbowe, wypracowane podczas wycieczek szkolnych. Związkowcy podkreślili w piątek, że kwestia rozliczania czasu pracy i wynagradzania nauczycieli podczas wycieczek wciąż nie została uregulowana.",
-      "pubDate": "Fri, 25 Sep 2026 14:13:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/a/26bf4cc9b1011a-948-568-0-177-954-572.jpg",
-      "dateISO": "2026-09-25T13:13:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Polska buduje swój własny Starlink. \"Przyszłe wojny będa rozpoczynały się w kosmosie\"",
-      "link": "https://www.bankier.pl/wiadomosc/Polska-buduje-swoj-wlasny-Starlink-Przyszle-wojny-beda-rozpoczynaly-sie-w-kosmosie-9202768.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Polska musi budować swoją odporność w przestrzeni kosmicznej - powiedział w piątek w Warszawie minister finansów i gospodarki Andrzej Domański, otwierając Centrum Technologii Satelitarnych - nową siedzibę firmy ICEYE Polska. Podkreślił, że współczesne bezpieczeństwo buduje się na orbicie.",
-      "pubDate": "Fri, 25 Sep 2026 14:13:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/8/389a33aaeb8bc5-948-568-0-0-3533-2120.jpg",
-      "dateISO": "2026-09-25T13:13:00.000Z",
       "dateFormatted": "25 września 2026"
     },
     {
@@ -718,30 +766,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/f/583db1aa2d7e11-948-568-0-0-2993-1796.jpg",
       "dateISO": "2026-09-25T10:14:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Zwolnienia grupowe w znanym browarze. Bez pracy 125 osób",
-      "link": "https://www.bankier.pl/wiadomosc/Znany-browar-szykuje-ciecia-zniknie-125-miejsc-pracy-9202626.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Do końca 2026 roku zatrudnienie w znanym niemieckim browarze Warsteiner ma spaść o 125 osób. To odpowiedź firmy na kurczący się rynek piwa i konieczność ograniczenia kosztów. Przedsiębiorstwo zapowiada jednak kontynuację inwestycji – podaje portal WDR.",
-      "pubDate": "Fri, 25 Sep 2026 11:05:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/9/29382c65d1accc-948-568-0-299-1876-1125.jpg",
-      "dateISO": "2026-09-25T10:05:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Bloki stoją gotowe, ale wspólnicy skoczyli sobie do gardeł. W tle hipoteki na 20 mln zł",
-      "link": "https://www.bankier.pl/wiadomosc/Bloki-stoja-gotowe-ale-wspolnicy-skoczyli-sobie-do-gardel-W-tle-hipoteki-na-20-mln-zl-9202595.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Choć w ramach poznańskiej inwestycji Projekt Nadolnik do 2024 r. miało powstać ponad tysiąc mikrokawalerek, budowa stanęła w miejscu a najbardziej realnym scenariuszem jest upadłość dewelopera w związku z konfliktem między wspólnikami – informuje Kanał Zero. Poszkodowanych jest co najmniej kilkadzie",
-      "pubDate": "Fri, 25 Sep 2026 10:25:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/e/052def6ed66840-731-438-44-0-731-438.png",
-      "dateISO": "2026-09-25T09:25:00.000Z",
       "dateFormatted": "25 września 2026"
     },
     {
@@ -777,18 +801,6 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/7/b/5a93b9388b73f7-948-568-2-30-997-598.jpg",
-      "dateISO": "2026-09-25T05:00:00.000Z",
-      "dateFormatted": "25 września 2026"
-    },
-    {
-      "title": "Mniejsza rata i dodatkowa gotówka. Sprawdzamy kredyty konsolidacyjne",
-      "link": "https://www.bankier.pl/wiadomosc/Ranking-kredytow-konsolidacyjnych-wrzesien-2026-Ranking-Bankier-pl-9202065.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Niższe miesięczne obciążenia i dodatkowe środki na niezbędne wydatki — taki cel mają kredytobiorcy, dla których banki przygotowały symulacje kredytów konsolidacyjnych. Porównaliśmy warianty z ubezpieczeniem i bez niego.",
-      "pubDate": "Fri, 25 Sep 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/7/b13a3b80b78429-948-568-536-543-1605-963.jpg",
       "dateISO": "2026-09-25T05:00:00.000Z",
       "dateFormatted": "25 września 2026"
     },
@@ -937,5 +949,5 @@
       "dateFormatted": "23 września 2026"
     }
   ],
-  "updatedAt": "2026-09-26T09:13:24.019Z"
+  "updatedAt": "2026-09-26T14:11:04.487Z"
 }
