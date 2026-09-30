@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "title": "W wezwaniu na akcje Zabka Group spełniony został jeden z warunków prawnych",
+      "link": "https://www.bankier.pl/wiadomosc/W-wezwaniu-na-akcje-Zabka-Group-spelniony-zostal-jeden-z-warunkow-prawnych-9205608.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "W wezwaniu Alimentation Couche-Tard na akcje Zabka Group spełniony został jeden z warunków prawnych - wzywający otrzymał decyzję Organu FDI wyrażającą zgodę na przeprowadzenie transakcji przewidzianych w dokumencie wezwania - poinformował pośredniczący w wezwaniu Ipopema Securities.",
+      "pubDate": "Wed, 30 Sep 2026 22:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/7/4/2ce22f1888d615-thumb-1000.jpg",
+      "dateISO": "2026-09-30T21:30:00.000Z",
+      "dateFormatted": "30 września 2026"
+    },
+    {
+      "title": "Komunikat w sprawie spełnienia jednego z warunków prawnych określonego w wezwaniu do zapisywania się na sprzedaż akcji Zabka Group",
+      "link": "https://www.bankier.pl/wiadomosc/Komunikat-w-sprawie-spelnienia-jednego-z-warunkow-prawnych-okreslonego-w-wezwaniu-do-zapisywania-sie-na-sprzedaz-akcji-Zabka-Group-9205601.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Komunikat w sprawie spełnienia jednego z warunków prawnych określonego w wezwaniu do zapisywania się na sprzedaż akcji Zabka Group S.A. ogłoszonym przez Alimentation Couche-Tard Inc. - komunikat.",
+      "pubDate": "Wed, 30 Sep 2026 22:22:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "https://galeria.bankier.pl/p/9/3/8d6d4df8d08771-thumb-1000.jpg",
+      "dateISO": "2026-09-30T21:22:00.000Z",
+      "dateFormatted": "30 września 2026"
+    },
+    {
+      "title": "Rosja ostrzega NATO. W grę wchodzi Kaliningrad",
+      "link": "https://businessinsider.com.pl/polityka/rosja-grozi-nato-uzyciem-broni-jadrowej-kaliningrad-znow-na-celowniku/s5prpc7",
+      "description": "Kreml wchodzi na kolejny poziom eskalacji. Rosja otwarcie grozi NATO użyciem broni jądrowej, jeśli sojusz wojskowy spróbuje odciąć rosyjską eksklawę Kaliningrad od terytorium Rosji.",
+      "pubDate": "Wed, 30 Sep 2026 19:56:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/2P-k9kpTURBXy85ZWQyOTBmYjE1NzU1NDI4OTI5YjQyMzY4NmQwODJmYS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-30T19:56:00.000Z",
+      "dateFormatted": "30 września 2026"
+    },
+    {
       "title": "BNP Paribas BP ma umowę transakcji sekurytyzacji syntetycznej o łącznej wartości 3,6 mld zł",
       "link": "https://www.bankier.pl/wiadomosc/BNP-Paribas-BP-ma-umowe-transakcji-sekurytyzacji-syntetycznej-o-lacznej-wartosci-3-6-mld-zl-9205556.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "BNP Paribas Bank Polska zawarł z Europejskim Funduszem Inwestycyjnym transakcję sekurytyzacji syntetycznej realizowanej na portfelu kredytów korporacyjnych o łącznej wartości wynoszącej 3,6 mld zł - podał bank w komunikacie.",
@@ -14,12 +50,12 @@
     },
     {
       "title": "Polscy miliarderzy wchodzą w atom. Pół miliarda złotych na małe reaktory SMR",
-      "link": "https://www.bankier.pl/wiadomosc/Polscy-miliarderzy-wchodza-w-atom-Pol-miliarda-zlotych-na-male-reaktory-SMR-9205501.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Polscy-miliarderzy-wchodza-w-atom-Pol-miliarda-zlotych-na-male-reaktory-SMR-9205501.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W projekt budowy małych reaktorów modułowych opartych na technologii BWRX-300 polscy przedsiębiorcy zainwestują łącznie pół miliarda złotych - poinformowało SGE w środowym komunikacie prasowym.",
       "pubDate": "Wed, 30 Sep 2026 20:00:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/6/2f45413b660308-942-565-111-27-942-565.jpg",
       "dateISO": "2026-09-30T19:00:00.000Z",
       "dateFormatted": "30 września 2026"
@@ -37,13 +73,25 @@
       "dateFormatted": "30 września 2026"
     },
     {
+      "title": "Słynny miliarder chce opodatkować roboty i AI. Mają płacić jak pracownicy",
+      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/praca-w-dobie-ai-bill-gates-przekonuje-do-opodatkowania-robotow/m43k4w8",
+      "description": "Bill Gates twierdzi, że pracownicy powinni dokładać do wspólnej państwowej kasy swoją sprawiedliwą część — nawet jeśli nie są ludźmi. Według miliardera opodatkowanie robotów wykonujących pracę oraz tokenów AI pozwoli Stanom Zjednoczonym utrzymać system zabezpieczeń społecznych.",
+      "pubDate": "Wed, 30 Sep 2026 18:48:34 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/qfVk9kpTURBXy84ZjNhY2I3YmI0ZjUyNjBjZGEzZmY2MDQyMjhhOGFhMS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-09-30T18:48:34.000Z",
+      "dateFormatted": "30 września 2026"
+    },
+    {
       "title": "PKP Cargo wjeżdża na proste tory. 118 milionów złotych zysku po restrukturyzacji",
-      "link": "https://www.bankier.pl/wiadomosc/Zysk-netto-PKP-Cargo-w-I-pol-26-wyniosl-117-8-mln-zl-9205541.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Zysk-netto-PKP-Cargo-w-I-pol-26-wyniosl-117-8-mln-zl-9205541.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W pierwszym półroczu 2026 roku grupa PKP Cargo w restrukturyzacji osiągnęła zysk netto w wysokości 117,8 mln zł, podczas gdy rok wcześniej grupa miała stratę na poziomie 17,9 mln zł - poinformowała spółka w komunikacie.",
       "pubDate": "Wed, 30 Sep 2026 19:40:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/8/3034a358a0d581-948-568-0-0-1481-888.png",
       "dateISO": "2026-09-30T18:40:00.000Z",
       "dateFormatted": "30 września 2026"
@@ -529,18 +577,6 @@
       "dateFormatted": "30 września 2026"
     },
     {
-      "title": "Mapa polskiej gospodarki. Okazało się, które części kraju wnoszą najwięcej i co stanowi o ich sile",
-      "link": "https://businessinsider.com.pl/gospodarka/gospodarka-polski-mazowsze-wygrywa-z-reszta-kraju-oto-powody/6jc5lqr",
-      "description": "Są części kraju rolnicze, są usługowe, produkcyjne, handlowe, transportowe i budowlane. Każdy z poszczególnych obszarów Polski coś dokłada do gospodarki i każdy na swój sposób. Co ciekawe, Mazowsze, poza stolicą, opiera się na rolnictwie. Stolica to zupełnie inna bajka.",
-      "pubDate": "Wed, 30 Sep 2026 12:41:39 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/kgOk9kpTURBXy8wNDBjMjM5OWVkZjYwYjk4MzA5NWI2NDM0YmVmZDVmNS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-30T12:41:39.000Z",
-      "dateFormatted": "30 września 2026"
-    },
-    {
       "title": "Agenci od Robinhooda będą handlować za inwestorów. „Rynek nigdy nie śpi\"",
       "link": "https://www.bankier.pl/wiadomosc/Robinhood-zaoferuje-agentow-AI-do-handlu-za-inwestorow-Rynek-nigdy-nie-spi-9205124.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Robinhood zaprezentował pakiet innowacji, na czele z wbudowanymi agentami sztucznej inteligencji zdolnymi do autonomicznej analizy rynku i samodzielnego zawierania transakcji. Ponadto ogłosił wprowadzenie całodobowego handlu akcjami również w weekendy oraz rozbudowę oferty instrumentów pochodnych. T",
@@ -562,18 +598,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/3/5/7e70d8f6c53006-948-568-0-52-1600-959.jpg",
       "dateISO": "2026-09-30T12:38:00.000Z",
-      "dateFormatted": "30 września 2026"
-    },
-    {
-      "title": "Liczba ofert pracy związanych z bezpieczeństwem AI wystrzeliła w górę. Oto ile można zarobić",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/boom-na-zawody-zwiazane-z-ai-wynagrodzenia-i-popyt-bija-rekordy/7f96fxs",
-      "description": "Choć rynek pracy pozostaje ostrożny, a wiele firm ogranicza rekrutację, jeden segment rozwija się wyjątkowo szybko. Z najnowszych danych LinkedIn wynika, że liczba stanowisk związanych z bezpieczeństwem sztucznej inteligencji wzrosła w ciągu ostatnich 12 miesięcy o 91 proc.",
-      "pubDate": "Wed, 30 Sep 2026 12:24:14 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/anck9kpTURBXy8yOTNiZDE2NzhhYjA0ZWQyZjBmMmEyNzk3YWFlMDBkMS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-09-30T12:24:14.000Z",
       "dateFormatted": "30 września 2026"
     },
     {
@@ -985,5 +1009,5 @@
       "dateFormatted": "24 września 2026"
     }
   ],
-  "updatedAt": "2026-09-30T18:50:50.538Z"
+  "updatedAt": "2026-09-30T23:31:28.923Z"
 }
