@@ -1,25 +1,481 @@
 {
   "articles": [
     {
-      "title": "Archicom wprowadził do sprzedaży 167 mieszkania w Poznaniu",
-      "link": "https://www.bankier.pl/wiadomosc/Archicom-wprowadzil-do-sprzedazy-167-mieszkania-w-Poznaniu-9208863.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Archicom wprowadził do sprzedaży pierwszy etap Osiedle Bliskie Piątkowo w Poznaniu. W pierwszym etapie powstanie 167 mieszkań - podał deweloper w komunikacie prasowym. Docelowo dwuetapowy projekt obejmie około 360 mieszkań o łącznej powierzchni użytkowej ponad 19 tys. m kw.",
-      "pubDate": "Wed, 7 Oct 2026 14:14:00 +0100",
+      "title": "\"Nie sądzimy, że to broń\". Donald Trump mówi o dżumie",
+      "link": "https://businessinsider.com.pl/wiadomosci/trump-o-dzumie-w-irkucku-rosja-niewiele-mowi/sz6dwwc",
+      "description": "Donald Trump powiedział, że Rosja przekazuje Amerykanom \"trochę\" informacji na temat domniemanego ogniska dżumy w Irkucku, choć powinna przekazywać więcej. Dodał jednak, że nie sądzi, by była to broń biologiczna.",
+      "pubDate": "Wed, 07 Oct 2026 19:27:34 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/5pbk9kpTURBXy9hMDVkMDM2ZjZkMGVjZGZkYTYyOTkwMTZiMGM5N2NmMS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T19:27:34.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Znana sieć rekrutuje. Nawet 7,7 tys. zł za kompletowanie towaru",
+      "link": "https://businessinsider.com.pl/gospodarka/lidl-zatrudni-200-osob-w-jednym-miescie-oto-warunki/b4hy85q",
+      "description": "Lidl startuje z rekrutacją w małopolskiej Skawinie. Sieć potrzebuje nawet 200 osób do centrum dystrybucyjnego.",
+      "pubDate": "Wed, 07 Oct 2026 18:39:44 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/dbNk9kpTURBXy8yNjliYmE3MmJhYmRkZmUzZTBkZWI3YjcyMDFkMTFiOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T18:39:44.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Cztery wnioski o areszt. Chodzi o \"aferę Orlenu\"",
+      "link": "https://businessinsider.com.pl/gospodarka/cztery-wnioski-o-areszt-w-sprawie-orlenu-szkoda-to-41-mld-zl/4g8vtcj",
+      "description": "Prokurator wystąpił do sądu o aresztowanie czterech osób, z pięciu zatrzymanych w śledztwie dotyczącym bezpodstawnego zaniżania cen paliw — poinformował w środę prokurator krajowy Dariusz Korneluk.",
+      "pubDate": "Wed, 07 Oct 2026 17:59:06 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/zmbk9kpTURBXy9mMGI2ZjU4NTY0ZWFlNTllZTY5N2E1NjEwZjViM2ZhNC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T17:59:06.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Oto efekt \"nowego CPN\". Tak zjechały ceny paliw",
+      "link": "https://businessinsider.com.pl/gospodarka/znamy-ceny-paliw-po-wprowadzeniu-cpn-30/9bmvkks",
+      "description": "Ceny paliw biły rekordy, ale nowy pakiet obniżek podatków miał pozytywny efekt. Sprawdziliśmy nowe stawki na stacjach, pierwsze po wprowadzeniu \"CPN 3.0\". Benzyna 95 zjechała poniżej 7 zł za litr.",
+      "pubDate": "Wed, 07 Oct 2026 17:47:17 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Z4dk9kpTURBXy9mYzYwNDYwMzc1NmI0M2UyY2E5ODY2MjY1MTA0OTQyMS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T17:47:17.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Scanway poinformował o uruchomieniu instrumentów optycznych na GYEONGGISat-2A",
+      "link": "https://www.bankier.pl/wiadomosc/Scanway-poinformowal-o-uruchomieniu-instrumentow-optycznych-na-GYEONGGISat-2A-9209099.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Scanway poinformował o uruchomieniu instrumentów optycznych na satelicie GYEONGGISat-2A w projekcie z Nara Space Technologies oraz poprawnym działaniu systemu ATCS - podała spółka w komunikacie.",
+      "pubDate": "Wed, 7 Oct 2026 18:46:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/b/0/1a402daa606bfe-948-568-0-320-3916-2350.jpg",
+      "dateISO": "2026-10-07T17:46:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "„Czeka nas trudna jesień i zima”. Fico żąda od UE elastyczności ws. cen paliw",
+      "link": "https://www.bankier.pl/wiadomosc/Czeka-nas-trudna-jesien-i-zima-Fico-zada-od-UE-elastycznosci-ws-cen-paliw-9209097.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Premier Słowacji Robert Fico powiedział w środę, że pomoc związana z wysokimi cenami paliwa nie powinna być wliczana do długu publicznego i deficytu budżetowego państw UE. Jego zdaniem decyzję w tej sprawie powinien podjąć unijny szczyt. Fico zapowiedział „trudną jesień i zimę”.",
+      "pubDate": "Wed, 7 Oct 2026 18:41:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/5/942d354885c393-948-568-60-105-2940-1763.jpg",
+      "dateISO": "2026-10-07T17:41:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Chciał wysadzić szkołę? Prokurator: Nożownik z Ostrołęki przyniósł bombę",
+      "link": "https://www.bankier.pl/wiadomosc/Chcial-wysadzic-szkole-Prokurator-Nozownik-z-Ostroleki-przyniosl-bombe-9209092.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prokurator krajowy Dariusz Korneluk poinformował w środę wieczorem, że 19-latek, który zaatakował nożem w szkole w Ostrołęce 9 osób, miał w plecaku ładunek wybuchowy domowej konstrukcji. Wskazał, że w związku z tym kwalifikacja czynu jako usiłowanie zabójstwa, „na pewno zostanie rozszerzona”.",
+      "pubDate": "Wed, 7 Oct 2026 18:31:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/f/3/5966f62b1358bb-948-568-0-60-4000-2399.jpg",
+      "dateISO": "2026-10-07T17:31:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Aborcja wraca do Sejmu. Dekryminalizacja i powrót do kompromisu na stole",
+      "link": "https://www.bankier.pl/wiadomosc/Aborcja-wraca-do-Sejmu-Dekryminalizacja-i-powrot-do-kompromisu-na-stole-9209091.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wracamy do projektów dotyczących aborcji. Prezydium Sejmu zwołało na czwartek komisję do spraw prawa aborcyjnego — poinformował w środę marszałek Sejmu Włodzimierz Czarzasty.",
+      "pubDate": "Wed, 7 Oct 2026 18:28:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/0/9f54b9be0469ea-948-568-0-340-2783-1670.jpg",
+      "dateISO": "2026-10-07T17:28:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Lego nawiązuje współpracę ze słynnymi japońskimi firmami. W planach Hello Kitty i Dragon Ball",
+      "link": "https://businessinsider.com.pl/gospodarka/lego-nawiazuje-wspolprace-z-japonskimi-firmami/cy1e75l",
+      "description": "Znany producent klocków Lego ogłosił nawiązanie współpracy z kultowymi japońskimi frimami — Toei Animation oraz Sanrio. Efektem mają być zestawy z postaciami z Dragon Ball i Hello Kitty.",
+      "pubDate": "Wed, 07 Oct 2026 17:05:07 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Xpuk9kpTURBXy83ZWY5YTIzMTA3NDI1NDZlNDFjZTgxMzc5NGM2NTcxNy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T17:05:07.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Spyrosoft planuje przeprowadzić skup akcji własnych",
+      "link": "https://www.bankier.pl/wiadomosc/Spyrosoft-planuje-przeprowadzic-skup-akcji-wlasnych-9209069.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Spyrosoft poinformował o zwołaniu nadzwyczajnego walnego zgromadzenia na dzień 9 listopada 2026 roku, którego przedmiotem będzie podjęcie uchwały w sprawie upoważnienia zarządu do nabywania akcji własnych - poinformowała spółka w komunikacie prasowym.",
+      "pubDate": "Wed, 7 Oct 2026 17:52:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/6/8/1288b01e0a034a-948-568-2-2-997-598.jpg",
+      "dateISO": "2026-10-07T16:52:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "AfD żąda końca sankcji na Rosję. Merz: To gra ekstremistów",
+      "link": "https://www.bankier.pl/wiadomosc/AfD-zada-konca-sankcji-na-Rosje-Merz-To-gra-ekstremistow-9209066.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Skrajnie prawicowa AfD i radykalnie lewicowa BSW chcą na nadzwyczajnym posiedzeniu parlamentu Saksonii-Anhaltu przyjąć uchwałę wzywającą rząd regionalny do zniesienia sankcji wobec Rosji i rozpoczęcia z nią negocjacji pokojowych — podał w środę portal dziennika „Die Welt”. Tymczasem w Niemczech wcią",
+      "pubDate": "Wed, 7 Oct 2026 17:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/5/04c1c68805db66-948-568-51-103-4076-2445.jpg",
+      "dateISO": "2026-10-07T16:50:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Konsorcjum z yarrl ma umowy ramowe z firmą Aplikacje Krytyczne o łącznej max. wartości 244,6 mln zł",
+      "link": "https://www.bankier.pl/wiadomosc/Konsorcjum-z-yarrl-ma-umowy-ramowe-z-firma-Aplikacje-Krytyczne-o-lacznej-max-wartosci-244-6-mln-zl-9209058.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Konsorcjum Euvic i yarrl ma umowy ramowe z firmą Aplikacje Krytyczne, których przedmiotem jest określenie warunków udzielania i realizacji zamówień wykonawczych na świadczenie usług zw. z zapewnieniem zasobów ludzkich z branży IT - podało yarrl w komunikacie. Łączna maksymalna wartość umów wynosi 24",
+      "pubDate": "Wed, 7 Oct 2026 17:46:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/a/a/989b4ed5276ee4-948-568-0-77-4445-2666.jpg",
-      "dateISO": "2026-10-07T13:14:00.000Z",
+      "dateISO": "2026-10-07T16:46:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Szwedzi ewakuują kilkaset osób. Pierwsze takie ćwiczenie od lat 60.",
+      "link": "https://businessinsider.com.pl/wiadomosci/szwedzi-ewakuuja-mieszkancow-gotlandii-pierwsze-takie-cwiczenie-od-lat-60/zxx78n1",
+      "description": "Na położonej pośrodku Morza Bałtyckiego szwedzkiej Gotlandii ewakuowano w środę kilkuset mieszkańców wyspy w ramach przygotowań na wypadek wojny. Były to pierwsze takie praktyczne ćwiczenia na dużą skalę od lat 60. XX wieku.",
+      "pubDate": "Wed, 07 Oct 2026 16:39:48 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/fBck9kpTURBXy9hMjE3MGMxMzVjOGRkNjc2NDU1ZjU2YWJiYjNlYTU1Yy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T16:39:48.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Ostre starcie o budżet. Ministerstwo Finansów odrzuca oskarżenia Rady Fiskalnej",
+      "link": "https://www.bankier.pl/wiadomosc/Ostre-starcie-o-budzet-Ministerstwo-Finansow-odrzuca-oskarzenia-Rady-Fiskalnej-9209049.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zakres ocen zawartych w opinii Rady Fiskalnej na temat projektu budżetu na 2027 r. jest szerszy niż zapisany w ustawie o tej instytucji – stwierdziło w opublikowanym w środę stanowisku MF. Według resortu RF nie może zgodnym z prawem działaniom zarzucać „wadliwości prawnej”.",
+      "pubDate": "Wed, 7 Oct 2026 17:36:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/6/1fcd131b8f73c7-948-568-0-270-4000-2399.jpg",
+      "dateISO": "2026-10-07T16:36:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Odwrót na giełdzie. Szerokie spadki dużych spółek i odbicie na gwiazdach hossy OZE",
+      "link": "https://www.bankier.pl/wiadomosc/Odwrot-na-gieldzie-Szerokie-spadki-duzych-spolek-i-odbicie-na-gwiazdach-hossy-OZE-9209040.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Po wtorkowym ustanowieniu historycznych szczytów, środowa sesja na Giełdzie Papierów Wartościowych w Warszawie przyniosła gwałtowne schłodzenie nastrojów. Na parkiecie doszło do mocnego tąpnięcia, a liderami spadków stały się banki oraz KGHM. Negatywny sentyment w Warszawie żywił się spadkami na głó",
+      "pubDate": "Wed, 7 Oct 2026 17:28:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/3/a/c887678b00874d-945-560-0-604-2630-1577.jpg",
+      "dateISO": "2026-10-07T16:28:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Szansa na koniec chaosu na torach. PKP testują nowe rozwiązanie",
+      "link": "https://businessinsider.com.pl/gospodarka/szansa-na-koniec-chaosu-na-torach-pkp-testuja-nowe-rozwiazanie/bz36kjw",
+      "description": "Zamiast osobnych numerów torów na każdym peronie, tory będą nazywane kolejnymi numerami peronów — taki jest plan PKP PLK. Na razie system będzie testowany na jednym dworcu, a w grudniu — na kolejnych.",
+      "pubDate": "Wed, 07 Oct 2026 16:23:39 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/VLek9kpTURBXy9mZTk3OTNmMjhiMDgyNjYyZGY2YmY1YjMyZjU5NzcyZi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T16:23:39.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Znana marka hoteli chce stawiać na Polskę. \"Rosnące zainteresowanie\"",
+      "link": "https://businessinsider.com.pl/gospodarka/znana-marka-hoteli-chce-stawiac-na-polske-rosnace-zainteresowanie/ls4s6dk",
+      "description": "Marka TRIBE zapowiada kolejny hotel nad Wisłą. — Widzimy rosnące zainteresowanie tymi częściami Europy Środkowo-Wschodniej, które historycznie przyciągały mniej uwagi międzynarodowych podróżnych i inwestorów — wskazuje przedstawicielka marki Pauline Oster.",
+      "pubDate": "Wed, 07 Oct 2026 16:22:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/JMSk9kpTURBXy85NmEyZDE4NzAzYmM5NWIxMzc3ODlhNGM3ODNlNTFkNy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T16:22:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "UE zaostrza kurs wobec Chin. Europarlament mówi \"dość\" ślepemu uzależnieniu",
+      "link": "https://www.bankier.pl/wiadomosc/UE-zaostrza-kurs-wobec-Chin-Europarlament-mowi-dosc-slepemu-uzaleznieniu-9209023.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Parlament Europejski opowiedział się w środę w głosowaniu za bardziej asertywną polityką UE wobec Chin, łączącą dialog z ograniczaniem zależności gospodarczych i mocniejszą ochroną europejskiego bezpieczeństwa.",
+      "pubDate": "Wed, 7 Oct 2026 17:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/b/88119830d7003d-948-568-60-67-2940-1763.jpg",
+      "dateISO": "2026-10-07T16:15:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Czy Putina jeszcze stać na prowadzenie wojny? Ci eksperci najlepiej znają gospodarkę Rosji [ANALIZA]",
+      "link": "https://businessinsider.com.pl/gospodarka/jak-naprawde-wyglada-budzet-rosji-oni-potrafia-oddzielic-propagande-od-rzeczywistosci/nxsm3jx",
+      "description": "Nie ma oznak, aby rosyjskiej gospodarce groziło bezpośrednie załamanie i kryzys — uważają analitycy banku centralnego Finlandii. Wojna pochłania jednak coraz więcej budżetu Kremla, a to oznacza, że coraz większy rachunek płaci społeczeństwo w postaci wyższych podatków i cięć wydatków innych niż woje",
+      "pubDate": "Wed, 07 Oct 2026 16:00:09 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/iGbk9kpTURBXy8wM2FlMjAzOGZiYmJiZWRiMDgwODMwNjRkNTBlYTQ0ZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T16:00:09.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Szykują się zmiany w PPK. Fundusze dostaną wolną rękę",
+      "link": "https://www.bankier.pl/wiadomosc/Szykuja-sie-zmiany-w-PPK-Fundusze-dostana-wolna-reke-9209008.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W ramach przeglądu Pracowniczych Planów Kapitałowych (PPK), Ministerstwo Finansów oceniło, że nie ma potrzeby zmian w fundamentalnych założeniach programu, a dla zwiększenia efektywności PPK resort proponuje skrócenie autozapisu do 3 z 4 lat, bardziej elastyczną politykę inwestycyjną funduszy PPK, c",
+      "pubDate": "Wed, 7 Oct 2026 17:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/6/2d190f3e8dd02c-948-567-0-0-1000-599.jpg",
+      "dateISO": "2026-10-07T16:00:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "W tym mieście zarabia się średnio 20 tys. zł. Sprawdź, jak jest u ciebie [KWOTY]",
+      "link": "https://businessinsider.com.pl/gospodarka/gdzie-zarabia-sie-najlepiej-w-polsce-nie-w-warszawie-ani-innych-duzych-miastach/f1tg67t",
+      "description": "Ponad połowa mieszkańców dolnośląskiej Jerzmanowej zarabia przynajmniej 10 tys. zł brutto miesięcznie. Z kolei w Podkowie Leśnej przeciętne wynagrodzenie przekroczyło już 20 tys. zł brutto miesięcznie. Gdzie zatem zarabia się lepiej? Odpowiedź nie jest taka oczywista.",
+      "pubDate": "Wed, 07 Oct 2026 15:57:29 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/SFtk9kpTURBXy82NzJhNThjYTNjNThjMzVmMGNkYjA4YzY4OGE2ZTJmZi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T15:57:29.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Stopy procentowe już znamy. Dalej może nie być tak przyjemnie",
+      "link": "https://businessinsider.com.pl/finanse/stopy-bez-zmian-emocje-rosna-oto-czego-spodziewa-sie-rynek/hvllnfl",
+      "description": "Rada Polityki Pieniężnej kazała w środę na siebie długo czekać. Zwykle decyzja ogłaszana jest o 15.00, a komentarz o 16.00. Tym razem obrady się mocno przeciągnęły, choć trwały przecież od wtorku. To wskazuje na burzliwą dyskusję. Stopy pozostały jednak bez zmian. Co nie znaczy, że raty kredytobiorc",
+      "pubDate": "Wed, 07 Oct 2026 15:55:53 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/y2Sk9kpTURBXy83YzAxMDFkMzhhOWZkYjNhODlkN2M1NThhM2NmMGU2OS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T15:55:53.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Podwodne drony i AI nową bronią Polski. Szef MON: 800 milionów na bezpieczeństwo Bałtyku",
+      "link": "https://www.bankier.pl/wiadomosc/Podwodne-drony-i-AI-nowa-bronia-Polski-Szef-MON-800-milionow-na-bezpieczenstwo-Baltyku-9208996.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Bezzałogowce i rozwój dronów latających, nawodnych i podwodnych to dla rządu priorytet - powiedział w środę wicepremier, szef MON Władysław Kosiniak-Kamysz w Gdyni podczas konferencji „Kaszubia – Zielony Okręg Przemysłowy – nowe inwestycje i współpraca przemysłowa dla bezpieczeństwa Bałtyku”.",
+      "pubDate": "Wed, 7 Oct 2026 16:49:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/f/e281111085b0d1-948-568-0-109-3999-2399.jpg",
+      "dateISO": "2026-10-07T15:49:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Prezydent rozwiąże Sejm, jeśli politycy się nie dogadają? Radykalny projekt zmian w TK",
+      "link": "https://www.bankier.pl/wiadomosc/Prezydent-rozwiaze-Sejm-jesli-politycy-sie-nie-dogadaja-Radykalny-projekt-zmian-w-TK-9208993.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Przeniesienie obecnych sędziów TK w stan spoczynku, redukcja składu Trybunału do 12 sędziów wybieranych większością 3/5 głosów na maks. 12-letnie kadencje oraz prawo prezydenta do rozwiązania Sejmu w razie klinczu ws. wyboru sędziów TK – to główne elementy konstytucyjnego projektu stowarzyszenia Roz",
+      "pubDate": "Wed, 7 Oct 2026 16:45:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/7/0acf8a24e9deb4-948-568-0-220-4000-2399.jpg",
+      "dateISO": "2026-10-07T15:45:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Unia chce \"bardziej asertywnej\" polityki wobec Chin",
+      "link": "https://businessinsider.com.pl/gospodarka/ograniczyc-zaleznosc-od-pekinu-tego-chce-parlament-europejski/k77g5yl",
+      "description": "Parlament Europejski opowiedział się w głosowaniu za \"bardziej asertywną polityką UE wobec Chin, łączącą dialog z ograniczaniem zależności gospodarczych i mocniejszą ochroną europejskiego bezpieczeństwa\".",
+      "pubDate": "Wed, 07 Oct 2026 15:25:58 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/nUAk9kpTURBXy9kZDNhYjQ0YjE0NTQyZTI0ZmRiN2ViMDE0OTk0ZTI5OC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T15:25:58.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Wielka zmiana w centrach handlowych. To nie sklepy najbardziej zyskują",
+      "link": "https://businessinsider.com.pl/gospodarka/boom-na-centra-handlowe-najbardziej-zyskuje-jedna-kategoria/1qtrscj",
+      "description": "Centra handlowe są odwiedzane coraz częściej, rośnie też liczba klientów. Nie są to jednak spektakularne wzrosty. Te natomiast są bardzo dobrze widoczne w kategorii \"rozrywka\" w takich obiektach.",
+      "pubDate": "Wed, 07 Oct 2026 14:57:19 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/mIXk9kpTURBXy84YWMwY2UxMDhiYzYyZmJlMjM3N2ExMjczMjkwYjE0MS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T14:57:19.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Rada stóp (jeszcze?) nie rusza. Czy będzie podwyżka w listopadzie?",
+      "link": "https://www.bankier.pl/wiadomosc/Rada-stop-jeszcze-nie-rusza-Czy-bedzie-podwyzka-w-listopadzie-9208693.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Normal 0 21 false false false PL X-NONE X-NONE",
+      "pubDate": "Wed, 7 Oct 2026 15:55:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/9/9/431f2ef86cf022-948-568-0-31-2500-1499.jpg",
+      "dateISO": "2026-10-07T14:55:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Zagraniczne media o Polsce: gazowy hub dla regionu",
+      "link": "https://businessinsider.com.pl/gospodarka/plywajacy-terminal-lng-w-gdansku-nowy-rozdzial-dla-polskiej-energetyki/8plqqmh",
+      "description": "W Gdańsku planowana jest budowa pływającego terminala LNG. Inwestycja ta uczyni z Polski hub gazowy dla Europy Wschodniej i sąsiadów z regionu bałtyckiego — pisze \"The Guardian\" w artykule z serii poświęconej polskiej gospodarce.",
+      "pubDate": "Wed, 07 Oct 2026 14:53:36 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/_wMk9kpTURBXy9jNWNhYTIyY2I2MTNmZTFlODJjNTA0MWRmZTBhZTVmMi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T14:53:36.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Chciał sprzedać uran za 700 tys. dolarów. Wpadł w Gruzji z radioaktywnym towarem",
+      "link": "https://www.bankier.pl/wiadomosc/Chcial-sprzedac-uran-za-700-tys-dolarow-Wpadl-w-Gruzji-z-radioaktywnym-towarem-9208945.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Mężczyzna, który usiłował sprzedać cudzoziemcowi uran-238 za 700 tys. dol., został zatrzymany w Gruzji - poinformowała w środę gruzińska służba bezpieczeństwa.",
+      "pubDate": "Wed, 7 Oct 2026 15:45:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/3/f90e3fc900e7ff-948-568-80-70-3920-2351.jpg",
+      "dateISO": "2026-10-07T14:45:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Burza wokół tajnej rozmowy z Trumpem. Kaczyński do Kosiniaka-Kamysza: Niech oświadczy, czy był szantażowany",
+      "link": "https://www.bankier.pl/wiadomosc/Burza-wokol-tajnej-rozmowy-z-Trumpem-Kaczynski-do-Kosiniaka-Kamysza-Niech-oswiadczy-czy-byl-szantazowany-9208920.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezes PiS Jarosław Kaczyński zaapelował do szefa MON Władysława Kosiniaka-Kamysza o informacje dot. jego rozmowy z prezydentem USA Donaldem Trumpem, \"żeby publicznie oświadczył, czy był szantażowany, czy nie\". Prezes PiS wyraził też pełne poparcie dla Adama Bielana, który pomógł w organizacji tego ",
+      "pubDate": "Wed, 7 Oct 2026 15:21:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/f/18bb9a7099cfc6-948-568-180-262-2387-1432.jpg",
+      "dateISO": "2026-10-07T14:21:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Polska firma rozwija wielki projekt w Argentynie. \"To jak kilka połączonych powiatów\"",
+      "link": "https://businessinsider.com.pl/gospodarka/polska-firma-rozwija-wielki-projekt-w-argentynie/0szj7r2",
+      "description": "Polska firma buduje wielkie centrum danych dla firm AI w Patagonii. Skąd decyzja? — Jedna turbina wiatrowa w Argentynie wyprodukuje nam dwa razy więcej energii niż taka sama w Polsce w dobrym miejscu — opowiada Michał Polanowski z Green Capital.",
+      "pubDate": "Wed, 07 Oct 2026 14:12:22 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/-Hak9kpTURBXy9kNWQ2MWU5MDVhMjE2MzIxZjdjZDlhZTVkNGQwNmE4ZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T14:12:22.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Lekarz Dawid K. usłyszał zarzuty. Prokuratura: Ponad pół miliona wyłudzone na „lewe” faktury",
+      "link": "https://www.bankier.pl/wiadomosc/Afera-w-Szpitalu-Poludniowym-Lekarz-Dawid-K-uslyszal-zarzuty-Prokuratura-Ponad-pol-miliona-wyludzone-na-lewe-faktury-9208907.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Lekarz Dawid K. usłyszał zarzut oszustwa na mieniu znacznej wielkości w kwocie ponad 583 tys. zł. poprzez przedłożenie nierzetelnych faktur w Szpitalu Południowym - poinformował w środę rzecznik Prokuratury Okręgowej w Warszawie prok. Piotr Antoni Skiba.",
+      "pubDate": "Wed, 7 Oct 2026 15:03:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/f/f5563d953c67d7-948-568-281-506-2015-1209.jpg",
+      "dateISO": "2026-10-07T14:03:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Historyczny powrót po 26 latach. LOT wraca na trasę do Bangkoku",
+      "link": "https://www.bankier.pl/wiadomosc/Historyczny-powrot-po-26-latach-LOT-wraca-na-trase-do-Bangkoku-9208903.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "PLL LOT uruchomiły w środę bezpośrednie, całoroczne rejsy z Warszawy do Bangkoku - poinformował przewoźnik. Połączenie, obsługiwane przez samoloty Boeing 787 Dreamliner, ma m.in. wzmacniać współpracę i wymianę turystyczną Polski i Tajlandii.",
+      "pubDate": "Wed, 7 Oct 2026 14:59:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/6/e03f8a0b96912d-948-568-4-68-1831-1098.jpg",
+      "dateISO": "2026-10-07T13:59:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Stopy procentowe w Polsce. RPP zdecydowała",
+      "link": "https://businessinsider.com.pl/gospodarka/rpp-podjela-decyzje-o-stopach-procentowych-rynek-spodziewa-sie-podwyzek/98z0nvt",
+      "description": "Światowy trend to podwyżki stóp procentowych. Wynika to z drożejących paliw przez kryzys na Bliskim Wschodzie i wojnę na terenie Ukrainy. W środę stopy podniósł bank centralny Indii. W przypadku RPP prognozy mówiły jednak o stabilizacji.",
+      "pubDate": "Wed, 07 Oct 2026 13:56:38 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/tVLk9kpTURBXy9jYzZiZDU5NmZiYzM2Mjc0NDllMzJkYzJmMmQ1OTFhMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T13:56:38.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Nowy właściciel TVN stworzył giganta. Teraz chce zmienić go w firmę technologiczną",
+      "link": "https://businessinsider.com.pl/technologie/ai-zabierze-ludziom-prace-szef-skydance-david-ellison-mowi-jasno/3hjxn70",
+      "description": "Wielka fuzja Paramount i Warner Bros. Discovery, która weszła w życie we wtorek, symbolizuje rosnące wpływy gigantów technologicznych w Hollywood — pisze CNN.",
+      "pubDate": "Wed, 07 Oct 2026 13:51:27 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/zdnk9kpTURBXy9jYjdjMzE5NDQyMzZmZGU4M2ZmNGNjNjFiZjYxNzNiOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T13:51:27.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Noblista i ojciec chrzestny AI teraz przed nią przestrzega. Oto jaki system proponuje",
+      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/debata-o-przyszlosci-ai-noblista-wskazuje-na-pilne-zagrozenia/6mk8dd3",
+      "description": "Geoffrey Hinton, jeden z pionierów sztucznej inteligencji i laureat Nagrody Nobla, uważa, że firmy rozwijające AI powinny przechodzić rygorystyczny proces bezpieczeństwa przed udostępnieniem nowych modeli. Jego zdaniem technologia osiągnęła już poziom, który wymaga nadzoru podobnego do tego stosowan",
+      "pubDate": "Wed, 07 Oct 2026 13:48:35 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/n4qk9kpTURBXy82ZGZlMTdiYmE4Mjc5YWYxMGI3NDAzNjBlZjFlZTg1My5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T13:48:35.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Rząd idzie na wojnę z gigantami? Gawkowski: Kary to za mało, jesteśmy gotowi wyłączyć X i Metę",
+      "link": "https://www.bankier.pl/wiadomosc/Rzad-idzie-na-wojne-z-gigantami-Gawkowski-Kary-to-za-malo-jestesmy-gotowi-wylaczyc-X-i-Mete-9208890.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Kary finansowe to dla platform cyfrowych za mało. Dlatego za naruszanie ludzkich dóbr, w tym publikowanie zdjęć nagich dzieci, jesteśmy gotowi je wyłączać - zapewnił w środę wicepremier, minister cyfryzacji Krzysztof Gawkowski.",
+      "pubDate": "Wed, 7 Oct 2026 14:43:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/4/85476f34683b4e-948-568-0-10-4000-2399.jpg",
+      "dateISO": "2026-10-07T13:43:00.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Nie tylko \"Fort Trump\". Ten kraj będzie miał \"Trump Liberty Line\"",
+      "link": "https://businessinsider.com.pl/gospodarka/nowe-polaczenie-energetyczne-otrzyma-nazwe-trump-liberty-line/lg6j0ht",
+      "description": "Gdy w Polsce trwa dyskusja o możliwości budowy \"Fort Trump\", nowa linia energetyczna, która ma połączyć Mołdawię i Rumunię, otrzyma nazwę \"Trump Liberty Line\" — wynika z rządowego komunikatu.",
+      "pubDate": "Wed, 07 Oct 2026 13:32:18 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/_90k9kpTURBXy9lZjU3Yzg4YjEwOGIxYTRiNjlhMmVjNTgyYzczZTViNC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T13:32:18.000Z",
+      "dateFormatted": "7 października 2026"
+    },
+    {
+      "title": "Rząd jest gotowy \"wyłączać\" platformy. Wicepremier zapowiada",
+      "link": "https://businessinsider.com.pl/gospodarka/minister-zapowiada-ostrzejsze-kary-w-gre-wchodzi-blokada-big-techow/p9mpv56",
+      "description": "Kary finansowe to dla platform cyfrowych za mało. Dlatego za naruszanie ludzkich dóbr, w tym publikowanie zdjęć nagich dzieci, jesteśmy gotowi je wyłączać — zapewnił wicepremier i minister cyfryzacji Krzysztof Gawkowski.",
+      "pubDate": "Wed, 07 Oct 2026 13:20:39 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Apqk9kpTURBXy80NTQ3ZDBlNmNjYzZmNmJiYjVlZTY1NjA2NDRkNmYzMC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-10-07T13:20:39.000Z",
       "dateFormatted": "7 października 2026"
     },
     {
       "title": "„Wielka siódemka” dyktuje warunki. Ekspert Citi: Mamy bańkę spekulacyjną",
-      "link": "https://www.bankier.pl/wiadomosc/Wielka-siodemka-dyktuje-warunki-Ekspert-Citi-Mamy-banke-spekulacyjna-9208851.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Wielka-siodemka-dyktuje-warunki-Ekspert-Citi-Mamy-banke-spekulacyjna-9208851.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "W obecnym otoczeniu rynkowym mamy do czynienia ze zjawiskiem bańki spekulacyjnej – powiedział PAP Biznes Adam Pickett, dyrektor ds. globalnej strategii makroekonomicznej w Citi. W ocenie Picketta warto obserwować zachowanie siedmiu największych spółek IT, by ocenić perspektywy dla akcji.",
       "pubDate": "Wed, 7 Oct 2026 14:02:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/b/c/6b2aea00153bb2-948-568-157-74-2115-1268.jpg",
       "dateISO": "2026-10-07T13:02:00.000Z",
       "dateFormatted": "7 października 2026"
@@ -61,111 +517,15 @@
       "dateFormatted": "7 października 2026"
     },
     {
-      "title": "Będzie trudniej pracować na Svalbardzie. Norwegia mówi o bezpieczeństwie",
-      "link": "https://businessinsider.com.pl/wiadomosci/bedzie-trudniej-pracowac-na-svalbardzie-norwegia-zmienia-warunki/l6bm338",
-      "description": "Norweski rząd zaostrzył wymagania wobec zagranicznych naukowców, którzy chcą prowadzić badania na Svalbardzie. Nowa strategia ogranicza możliwość tworzenia nowych stacji i zwiększa kontrolę nad działalnością badawczą na arktycznym archipelagu.",
-      "pubDate": "Wed, 07 Oct 2026 12:37:42 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Egvk9kpTURBXy9jYmQ5M2NlMjUwZDA2YmRmMjQxMzAwNjUxMmI4MDQ5Yy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T12:37:42.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Ta firma sprzedawała ostatnio kilka samochodów na kwartał. Tak chce wrócić do gry",
-      "link": "https://businessinsider.com.pl/gospodarka/jaguar-chce-wrocic-do-gry-firma-prezentuje-nowy-model/vpdfgmb",
-      "description": "Jaguar podjął wyjątkowo ryzykowną i kontrowersyjną decyzję - przestał produkować samochody, by mieć czas na kompletną zmianę oferty i wizerunku. Teraz po raz pierwszy od lat firma pokazała nowy model.",
-      "pubDate": "Wed, 07 Oct 2026 12:26:30 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Al7k9kpTURBXy9lOTYwNjkyY2M1MjdmMzFkOGE3ZDg4MTIzN2E0NzYzNC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T12:26:30.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
       "title": "Gigantyczna luka w budżecie AI. Ekosystem potrzebuje 6 bilionów dolarów",
-      "link": "https://www.bankier.pl/wiadomosc/Gigantyczna-luka-w-budzecie-AI-Ekosystem-potrzebuje-6-bilionow-dolarow-9208835.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "link": "https://www.bankier.pl/wiadomosc/Gigantyczna-luka-w-budzecie-AI-Ekosystem-potrzebuje-6-bilionow-dolarow-9208835.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Globalny ekosystem sztucznej inteligencji może potrzebować blisko 6 bln USD rocznych przychodów do 2031 r., aby uzasadnić ekonomicznie skalę inwestycji w infrastrukturę AI - wynika z raportu Bain & Company pt. \"Global Technology Report\".",
       "pubDate": "Wed, 7 Oct 2026 13:26:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
-      "category": "gielda",
+      "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/0/6/7aa49f1fc8a11c-948-569-0-149-1676-1006.jpg",
       "dateISO": "2026-10-07T12:26:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Zasoby Legimi trafią do Spotify. 180 krajów stoi otworem",
-      "link": "https://businessinsider.com.pl/gielda/legimi-laczy-sily-ze-spotify-polskie-tytuly-w-180-krajach/0klpxrj",
-      "description": "Legimi zostało partnerem dystrybucyjnym Spotify w segmencie audiobooków — podała spółka działająca na rynku e-książek w model subskrypcyjnym. Usługa realizowana za pośrednictwem Legimi Content do końca 2026 r. ma być dostępna na ponad 180 rynkach.",
-      "pubDate": "Wed, 07 Oct 2026 12:17:48 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/HmPk9kpTURBXy8yYTZmYTdlOWIxZmJkMDQyZGQ2NmFlNTcxNzgzMGU3NS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T12:17:48.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Ukraińskie drony nie potrzebują GPS. NATO bada sprawdzone rozwiązania na Rosję",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/nato-stawia-na-drony-odporne-na-walke-elektroniczna-czeski-wygrywaja-konkurs/nxjxk2f",
-      "description": "Ukraina udowodniła, że broń dalekiego zasięgu musi działać w warunkach walki elektronicznej, aby była skuteczna. Jeden z europejskich producentów uzbrojenia powiedział, że ta zdolność ma kluczowe znaczenie dla broni na współczesnym polu walki. NATO wykazało zainteresowanie podobnymi rozwiązaniami, k",
-      "pubDate": "Wed, 07 Oct 2026 12:08:38 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/O5kk9kqTURBXy85M2ZlOGM0YjY4NzQ3Y2QzODQ3NjU5NmY3NDk4YTAwYS53ZWJwkZMCzQSwAN4AAaEwAQ",
-      "dateISO": "2026-10-07T12:08:38.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Spotify to już nie tylko muzyka. 20 tysięcy audiobooków od Legimi na start",
-      "link": "https://www.bankier.pl/wiadomosc/Legimi-partnerem-dystrybucyjnym-Spotify-w-segmencie-audiobookow-9208815.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Legimi zostało partnerem dystrybucyjnym Spotify w segmencie audiobooków - podała spółka działająca na rynku e-książek w model subskrypcyjnym w komunikacie prasowym. Usługa realizowana za pośrednictwem Legimi Content do końca 2026 roku ma być dostępna na ponad 180 rynkach.",
-      "pubDate": "Wed, 7 Oct 2026 12:58:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/7/f/f3a777cb0553e3-948-568-0-74-1980-1187.jpg",
-      "dateISO": "2026-10-07T11:58:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Nie ma pieniędzy na infrastrukturę dla uzbrojenia z SAFE. Zabraknie miliardów złotych rocznie",
-      "link": "https://businessinsider.com.pl/gospodarka/ponad-100-mld-zl-na-uzbrojenie-z-safe-brakuje-miliardow-na-infrastrukture/zt0jmvc",
-      "description": "Polsce może zabraknąć pieniędzy na infrastrukturę do uzbrojenia, zakupionego w ramach programu SAFE. Jak ustaliła \"Rzeczpospolita\", nie zabezpieczono odpowiednich funduszy np. na miejsce przechowywania pojazdów bojowych, dronów czy amunicji. To może mieć fatalne skutki dla zakupionego sprzętu.",
-      "pubDate": "Wed, 07 Oct 2026 11:56:56 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/pLWk9kpTURBXy9lMDBmMDA1OTJlM2Y5ODgyN2UyNjVjMjczNzQyOGY4MS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T11:56:56.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Kaczyński nie składa broni. Jest skarga kasacyjna w sprawie słów Sikorskiego",
-      "link": "https://www.bankier.pl/wiadomosc/Kaczynski-idzie-do-Sadu-Najwyzszego-Chodzi-o-slowa-Sikorskiego-o-Lechu-Kaczynskim-9208811.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Jarosław Kaczyński złożył skargę kasacyjną od oddalenia pozwu o naruszenie jego dóbr osobistych przez wicepremiera, szefa MSZ Radosława Sikorskiego. Chodziło o słowa, że brat prezesa PiS prezydent Lech Kaczyński „walnie przyczynił się do katastrofy smoleńskiej”.",
-      "pubDate": "Wed, 7 Oct 2026 12:55:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/c/c1f59099b4a0f8-948-568-0-146-3264-1958.jpg",
-      "dateISO": "2026-10-07T11:55:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "mBank wprowadza wskaźnik POLSTR. Kredyty mieszkaniowe po nowemu",
-      "link": "https://businessinsider.com.pl/poradnik-finansowy/kredyty/polstr-zastepuje-wibor-w-kredytach-mieszkaniowych-co-to-oznacza-dla-klientow/vy1z6jw",
-      "description": "Kolejne banki włączają do oferty nowy wskaźnik POLSTR, który zastępuje WIBOR. Z perspektywy klientów dotyczy to głównie kredytów mieszkaniowych. Od początku 2027 r. wyboru już nie będzie — wszystkie hipoteki o zmiennym oprocentowaniu będą musiały być oparte na indeksie POLSTR.",
-      "pubDate": "Wed, 07 Oct 2026 11:53:29 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/ILMk9kpTURBXy8zNmI4ZjEyYWQwODg5M2FjMDVjYjgxNDE0M2ViNWJhNS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T11:53:29.000Z",
       "dateFormatted": "7 października 2026"
     },
     {
@@ -178,42 +538,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/8/937e51fa9d84d9-948-568-3-0-1197-718.jpg",
       "dateISO": "2026-10-07T11:48:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "SmartLunch chce jeszcze w tym roku wejść na GPW",
-      "link": "https://www.bankier.pl/wiadomosc/SmartLunch-chce-jeszcze-w-tym-roku-wejsc-na-GPW-9208801.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "SmartLunch, technologiczna platforma organizująca żywienie pracowników, chce jeszcze w tym roku wejść na GPW. Firma chce pozyskać środki m.in. na małe akwizycje – poinformowali przedstawiciele spółki. SmartLunch zakłada dodatni wynik netto od 2027 r.",
-      "pubDate": "Wed, 7 Oct 2026 12:46:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/7/7/4017be4c80162d-885-530-0-0-885-530.jpg",
-      "dateISO": "2026-10-07T11:46:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Nowe Su-34 trafiły do rosyjskiego lotnictwa. Moskwa uzupełnia straty",
-      "link": "https://www.bankier.pl/wiadomosc/Nowe-Su-34-trafily-do-rosyjskiego-lotnictwa-Moskwa-uzupelnia-straty-9208803.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Do rosyjskich sił powietrznych trafiła partia samolotów myśliwsko-bombowych Su-34, które od początku pełnoskalowej wojny są wykorzystywane do atakowania Ukrainy, w tym z wykorzystaniem bomb lotniczych KAB – poinformował w środę ukraiński portal Militarnyj.",
-      "pubDate": "Wed, 7 Oct 2026 12:46:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/2/be00cd95e3108c-948-568-48-67-3488-2092.jpg",
-      "dateISO": "2026-10-07T11:46:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Koszmar w Ostrołęce. 19-latek rzucił się z nożem na uczniów. Prezydent zamyka szkoły",
-      "link": "https://www.bankier.pl/wiadomosc/Koszmar-w-Ostrolece-19-latek-rzucil-sie-z-nozem-na-uczniow-Prezydent-zamyka-szkoly-9208802.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "19-latek zaatakował nożem w Zespole Szkół Zawodowych nr 4 w Ostrołęce. Co najmniej siedem osób zostało rannych i trafiło do szpitala. Agresora zatrzymała policja. - Wydałem dyspozycję, aby we wszystkich pozostałych szkołach prowadzonych przez Miasto Ostrołęka nie wpuszczać na teren placówek osób pos",
-      "pubDate": "Wed, 7 Oct 2026 12:46:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/7/b8ff9fab5e787e-943-566-2-411-943-566.jpg",
-      "dateISO": "2026-10-07T11:46:00.000Z",
       "dateFormatted": "7 października 2026"
     },
     {
@@ -241,18 +565,6 @@
       "dateFormatted": "7 października 2026"
     },
     {
-      "title": "Generacja Z ma większy majątek niż rodzice. Wciąż boi się o finanse",
-      "link": "https://businessinsider.com.pl/finanse/finanse-i-stres-u-pokolenia-z-dlaczego-mlodzi-nie-czuja-sie-bezpiecznie/9w7e0n2",
-      "description": "Pokolenie Z się boi. Że AI odbierze im pracę. Że nigdy nie kupią domu. Że zbankrutują, opiekując się rodzicami. Że zostają w tyle za rówieśnikami. Że nigdy nie przejdą na emeryturę. A jednocześnie pokolenie Z jest w całkiem dobrej sytuacji.",
-      "pubDate": "Wed, 07 Oct 2026 11:39:26 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Md7k9kpTURBXy81N2YwMGIxYWMwZmY5OWFhZjAxZDM4NzdjN2EzZmJiOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T11:39:26.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
       "title": "Czarna lista wydłuża się o ponad 1600 nazwisk i firm. UE bierze na celownik ludzi Putina i zbrojeniówkę",
       "link": "https://www.bankier.pl/wiadomosc/Czarna-lista-wydluza-sie-o-ponad-1600-nazwisk-i-firm-UE-bierze-na-celownik-ludzi-Putina-i-zbrojeniowke-9208781.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Państwa członkowskie UE wstępnie zatwierdziły w środę największy pakiet sankcji indywidualnych w swojej historii - poinformował PAP unijny dyplomata. Według niego sankcje obejmą ponad 1,6 tys. osób i podmiotów związanych z Dumą Państwową (niższą izbą parlamentu) Rosji oraz z rosyjskim kompleksem woj",
@@ -265,18 +577,6 @@
       "dateFormatted": "7 października 2026"
     },
     {
-      "title": "\"Putin przygotowany na eskalację\". Widać to w budżecie Rosji",
-      "link": "https://businessinsider.com.pl/gospodarka/wojna-w-ukrainie-wydatki-rosji-na-wojsko-beda-w-tym-roku-rekordowe/z4y7exf",
-      "description": "Władimir Putin przeznaczy w tym roku na wojnę rekordowe 200 mld dol., znacznie więcej niż pierwotnie planował. \"Na Kremlu uznano, że porozumienie z Ukrainą jest nieosiągalne, a wysiłki podejmowane pod przewodnictwem USA nie przyniosły przełomu\" — pisze Bloomberg.",
-      "pubDate": "Wed, 07 Oct 2026 11:23:06 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/vaek9kpTURBXy8wMTIxNTA1YmUyZmUyMWUwNDQ3MGEyNzk3MTAwMzRmYS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T11:23:06.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
       "title": "Przepis na Wrocław 2035. Jak stworzyć najbezpieczniejsze miasto dla biznesu?",
       "link": "https://www.bankier.pl/wiadomosc/Przepis-na-Wroclaw-2035-Jak-stworzyc-najbezpieczniejsze-miasto-dla-biznesu-9208774.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Czego biznes oczekuje od samorządu i środowiska akademickiego? Jak z lokalnego przedsiębiorstwa zbudować markę o globalnym zasięgu? Już 23 października, podczas trzeciej edycji Forum Finansów Bankier.pl, przedstawiciele biznesu, władz samorządowych i nauki spotkają się, by porozmawiać o strategii, k",
@@ -286,18 +586,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/1/9/c46268ba221c85-948-568-0-0-948-568.jpg",
       "dateISO": "2026-10-07T11:23:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Legenda Wall Street ostrzega przed nowym zagrożeniem AI. \"Ryzyko wzrosło dziesięciokrotnie\"",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/ai-ujawnia-nieznane-luki-jamie-dimon-komentuje-zagrozenia-dla-bankowosci/9jzkxnn",
-      "description": "Prezes JPMorgan Chase Jamie Dimon uważa, że najnowsze modele sztucznej inteligencji znacząco zwiększyły zagrożenia dla cyberbezpieczeństwa. Jego zdaniem przełomowym momentem było pojawienie się modelu Mythos firmy Anthropic, który ujawnił słabości, o których wcześniej firmy nawet nie wiedziały.",
-      "pubDate": "Wed, 07 Oct 2026 11:16:43 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/9F5k9kpTURBXy9kYjAzZWIxNjdkMzIyMGNjN2ZjYTc1OGU5ODIxMGIxZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T11:16:43.000Z",
       "dateFormatted": "7 października 2026"
     },
     {
@@ -325,42 +613,6 @@
       "dateFormatted": "7 października 2026"
     },
     {
-      "title": "Nobel z chemii 2026 dla dwóch badaczy. Ich odkrycie pomogło wyjaśnić zagadkę życia",
-      "link": "https://www.bankier.pl/wiadomosc/Nobel-z-chemii-2026-dla-dwoch-badaczy-Ich-odkrycie-pomoglo-wyjasnic-zagadke-zycia-9208759.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Francuz Henri B. Kagan i Japończyk Kenso Soai zostali tegorocznymi laureatami Nagrody Nobla z chemii - ogłosił w środę w Sztokholmie Komitet Noblowski. Badaczy doceniono za „odkrycie efektów nieliniowych i autokatalizy w asymetrycznej syntezie organicznej”.",
-      "pubDate": "Wed, 7 Oct 2026 12:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/c/b3987c87917ff8-948-568-69-0-1560-936.jpg",
-      "dateISO": "2026-10-07T11:10:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Rośnie armia niezadowolonych. Sondaż CBOS to prawdziwy zimny prysznic dla premiera",
-      "link": "https://www.bankier.pl/wiadomosc/Rosnie-armia-niezadowolonych-Sondaz-CBOS-to-prawdziwy-zimny-prysznic-dla-premiera-9208765.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "We wrześniu 45 proc. ankietowanych określiło się jako przeciwnicy rządu; 33 proc. to zwolennicy obecnego gabinetu – wynika z sondażu CBOS. 55 proc. badanych negatywnie oceniło, że na czele rządu stoi Donald Tusk; zadowolonych z tego jest 33 proc.",
-      "pubDate": "Wed, 7 Oct 2026 12:08:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/4/18264ebcf4473b-948-568-62-172-1848-1108.jpg",
-      "dateISO": "2026-10-07T11:08:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Od polityki do Hollywood. Słynny polityk dołącza do medialnego kolosa",
-      "link": "https://businessinsider.com.pl/biznes/skydance-z-nowym-doradca-tony-blair-ma-wspierac-medialnego-giganta/68e5h65",
-      "description": "Były premier Wielkiej Brytanii Tony Blair dołącza do grona doradców Skydance, medialnego giganta powstałego po fuzji Paramount i Warner Bros. Discovery. Nowa firma, wyceniana na około 110 mld dolarów, będzie kontrolować rozległe imperium rozrywkowe obejmujące m.in. platformę HBO, markę Harry Potter ",
-      "pubDate": "Wed, 07 Oct 2026 11:05:01 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Vtwk9kpTURBXy9mMmJiOTIzNDgzZDY5MTJkNWE4NDBkNjFmOTljYTU5NC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T11:05:01.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
       "title": "Bitcoin spada po atakach Iranu; obawy o stopy procentowe rosną",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-po-atakach-iranu-obawy-o-stopy-procentowe-rosna-1592312",
       "description": "",
@@ -385,54 +637,6 @@
       "dateFormatted": "7 października 2026"
     },
     {
-      "title": "Ceny maksymalne paliw na czwartek obniżone. Są nowe liczby od ministra",
-      "link": "https://businessinsider.com.pl/gospodarka/drozyzna-na-stacjach-troche-mniejsza-minister-oglasza-nowe-ceny-maksymalne/qjfelkl",
-      "description": "Minister energii podał najnowsze ceny maksymalne, powyżej których stacje nie mogą liczyć sobie więcej za paliwa. Za kluczowy dla inflacji olej napędowy kierowcy będą w najbliższy czwartek płacić nie więcej niż 7,74 zł za litr. Ceny będą niższe niż w środę. Tymczasem na światowych rynkach zarówno ben",
-      "pubDate": "Wed, 07 Oct 2026 10:34:18 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/5zhk9kpTURBXy9kZWRiNTc5YjZmMmVmYTY3ZjM2M2FmNWFiNjE5NDY1MC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T10:34:18.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Co jeśli rosyjski sabotaż zabije cywilów? Tajne narady w Brukseli na wypadek najgorszego",
-      "link": "https://www.bankier.pl/wiadomosc/Co-jesli-rosyjski-sabotaz-zabije-cywilow-Tajne-narady-w-Brukseli-na-wypadek-najgorszego-9208741.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Państwa członkowskie Unii Europejskiej prowadzą poufne rozmowy na temat reakcji Wspólnoty na zmasowane ataki hybrydowe ze strony Rosji, które mogłyby skutkować ofiarami śmiertelnymi – przekazał w środę portal Politico.",
-      "pubDate": "Wed, 7 Oct 2026 11:32:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/a/0f10b08c26009c-948-569-121-0-1031-619.png",
-      "dateISO": "2026-10-07T10:32:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Niemcy i Francja sprzeciwiają się UE. Chodzi o ważną branżę",
-      "link": "https://businessinsider.com.pl/gospodarka/zakaz-aut-spalinowych-ue-pod-znakiem-zapytania-merz-i-macron-proponuja-zmiany/d84spp0",
-      "description": "To może być największa zmiana w europejskiej polityce motoryzacyjnej od lat. Niemcy i Francja chcą znacząco złagodzić planowany zakaz sprzedaży aut spalinowych, dając producentom więcej czasu i większą swobodę w spełnianiu wymogów klimatycznych.",
-      "pubDate": "Wed, 07 Oct 2026 10:30:41 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/_WXk9kpTURBXy9hN2E0OWZmZTNmZTUwYmExNDRkNTYwYmUyMTNhN2MyOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T10:30:41.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Producent kultowych mebli składa wniosek o upadłość. Setki etatów zagrożonych",
-      "link": "https://businessinsider.com.pl/biznes/znana-fabryka-mebli-z-wnioskiem-o-upadlosc-zagrozonych-500-miejsc-pracy/9kyrfhp",
-      "description": "Jeden z najstarszych w Polsce i znanych na całym świecie producentów mebli giętych złożył wniosek o upadłość. Fabryka działała od ponad 140 lat, teraz ma poważne kłopoty. Pracę może stracić 100 proc. załogi — czyli ok. 500 osób.",
-      "pubDate": "Wed, 07 Oct 2026 10:30:33 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/7Rsk9kpTURBXy9mMGI5ZjA0OWYzMzU1NmZiNWI3NzZiZTc2MjUzMzU5Ni5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T10:30:33.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
       "title": "Miliony czy wiarygodność? Książulo wchodzi w kontrowersyjną współpracę z Żabką",
       "link": "https://www.bankier.pl/wiadomosc/Miliony-czy-wiarygodnosc-Ksiazulo-wchodzi-w-kontrowersyjna-wspolprace-z-Zabka-9208690.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "O tej współpracy mówi cały polski internet. Książulo, bezkompromisowy influencer, który zasłynął z oceniania gastronomii, wypuszcza własną pizzę we współpracy z Żabką. Zarobi miliony czy straci zaufanie odbiorców?",
@@ -442,42 +646,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/4/2/3571ddb7b6c4d6-948-568-0-3-1493-896.jpg",
       "dateISO": "2026-10-07T10:30:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "1000 zł kary za każdy dzień zwłoki dla klienta. UOKiK bezlitosny dla nieuczciwych praktyk giganta OZE",
-      "link": "https://www.bankier.pl/wiadomosc/1000-zl-kary-za-kazdy-dzien-zwloki-dla-klienta-UOKiK-bezlitosny-dla-nieuczciwych-praktyk-giganta-OZE-9208737.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezes UOKiK uznał 21 klauzul stosowanych przez spółkę Nasz Prąd za niedozwolone i nałożył na nią 21,475 mln zł kary - poinformował urząd w komunikacie. Za niedozwoloną uznał m.in. klauzulę, w której spółka zastrzegła sobie możliwość zmiany mocy pompy ciepła.",
-      "pubDate": "Wed, 7 Oct 2026 11:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/f/d040f199254027-948-568-0-216-1920-1151.jpg",
-      "dateISO": "2026-10-07T10:30:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Giganty na Bałtyku już stoją. \"Każda polska miejscowość zyskała dostęp do morza\"",
-      "link": "https://www.bankier.pl/wiadomosc/Wszystkie-turbiny-Baltic-Power-zostaly-zainstalowane-prad-poplynie-za-kilka-miesiecy-9208736.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Po niespełna dwóch latach prac budowlanych na morzu wszystkie turbiny Baltic Power są już zainstalowane. Pierwsza w historii Polski morska farma wiatrowa jest w fazie rozruchu i przechodzi testy, by za kilka miesięcy zapewniać energię elektryczną wystarczającą do zasilenia ponad 1,5 mln gospodarstw ",
-      "pubDate": "Wed, 7 Oct 2026 11:28:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/0/0/b655fa527786b4-948-568-1400-1400-1990-1193.jpg",
-      "dateISO": "2026-10-07T10:28:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Cena ropy rośnie. \"Ryzyko pozostaje wysokie\"",
-      "link": "https://businessinsider.com.pl/gielda/wiadomosci/cena-ropy-w-gore-po-atakach-na-tankowce-w-ciesninie-ormuz-rynek-w-niepokoju/t9cpylf",
-      "description": "Cena ropy rośnie w środę do ponad 101 dol. za baryłkę Brent. Nasilenie ataków na tankowce w cieśninie Ormuz na nowo wzbudziło obawy o dostawy surowca.",
-      "pubDate": "Wed, 07 Oct 2026 10:25:28 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/ROlk9kpTURBXy82YjE2MGU0YTkwODRhMjVhMTg0MGIyMDU3NTdhYTQ3MS5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T10:25:28.000Z",
       "dateFormatted": "7 października 2026"
     },
     {
@@ -493,30 +661,6 @@
       "dateFormatted": "7 października 2026"
     },
     {
-      "title": "ChatGPT radzi w sprawach zdrowia 300 mln ludzi. Armia lekarzy szuka w nim zagrożeń",
-      "link": "https://businessinsider.com.pl/rozwoj-osobisty/zdrowie/openai-stawia-na-lekarzy-chatgpt-ma-zmienic-porady-zdrowotne/k0qbhjn",
-      "description": "Ponad 300 mln osób tygodniowo pyta ChatGPT o zdrowie. Aby ograniczyć ryzyko błędnych porad, OpenAI stworzyło globalną sieć setek lekarzy, którzy analizują odpowiedzi sztucznej inteligencji i wskazują jej najsłabsze punkty. To ambitny eksperyment, który może zmienić sposób korzystania z medycyny, ale",
-      "pubDate": "Wed, 07 Oct 2026 10:02:52 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/uz2k9kpTURBXy8yYTIyNDhiY2M3YzRjZTgzYTgwZmVlNTkyZjdhYTJlYS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T10:02:52.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Putin robi to od lat. Czy podobny mechanizm pojawia się na Zachodzie? [OPINIA]",
-      "link": "https://businessinsider.com.pl/polityka/apel-o-jednosc-w-niemczech-i-rosji-czy-demokracja-wytrzyma-presje-kryzysu/jf4b1pe",
-      "description": "\"Stańmy ramię w ramię\" — ten slogan w Rosji oznacza podporządkowanie się państwu i eliminację krytyków. Podobne apele o jedność coraz częściej słychać również w Niemczech. I choć oba kraje dzieli przepaść ustrojowa, mechanizm politycznego wyciszania sporów może być zaskakująco podobny.",
-      "pubDate": "Wed, 07 Oct 2026 09:39:51 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/xkrk9kpTURBXy9iZDdmYzRjYzdiMTY4OWRlYzBhNGM0ZjczMTJhZDA5ZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T09:39:51.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
       "title": "Chiny o krok od wyprzedzenia rezerw złota Francji i Włoch. Bank ujawnił największe zakupy od trzech lat",
       "link": "https://www.bankier.pl/wiadomosc/Ludowy-Bank-Chin-ujawnil-najwieksze-zakupy-zlota-od-trzech-lat-Za-chwile-bedzie-mial-wiecej-zlota-niz-banki-Francji-i-Wloch-9208702.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Ludowy Bank Chin jest na najlepszej drodze do wyprzedzenia pod względem zgromadzonych rezerw złota banków centralnych Francji i Włoch. Według najnowszych danych Pekin powiększył miesięczną skalę zakupów do ponad 23 ton, a to oznacza, że jeszcze przed końcem roku więcej złota w rezerwach mogą mieć ty",
@@ -526,30 +670,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/1/a/951564646a7c57-948-568-289-20-2470-1482.png",
       "dateISO": "2026-10-07T09:35:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Rośnie liczba milionerów w Polsce. Eksperci wskazują główne przyczyny",
-      "link": "https://businessinsider.com.pl/biznes/lawina-nowych-milionerow-w-polsce-ich-liczba-wzrosla-o-109-proc/8xqk56j",
-      "description": "\"Polska staje się nowym centrum ultrabogatych\" — informuje niemiecki portal Focus.de. Skąd biorą się nowi polscy milionerzy? Według ekspertów przyczyn jest kilka — jako jedną z nich wskazują umacnianie się złotego wobec dolara. To jednak nie wszystko.",
-      "pubDate": "Wed, 07 Oct 2026 09:21:18 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/n0qk9kpTURBXy85OTg5NTliY2NkODEwYjc5M2E3NWMwYjY2Y2UwODJkMS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T09:21:18.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Zaskakujące dane z Niemiec. Polska niekoniecznie powinna się cieszyć",
-      "link": "https://businessinsider.com.pl/gospodarka/dane-z-niemiec-daja-nadzieje-tez-polsce-ruszyla-fala-ozywienia/rxlc9hx",
-      "description": "Do Niemiec wysyłamy ponad jedną czwartą naszego eksportu, a znaczącą część stanowi eksport zakładów pracujących w Polsce dla niemieckich gigantów przemysłowych. Najnowsze dane z przemysłu naszego zachodniego sąsiada pokazują, że pracy dla fabryk w naszym kraju może być więcej, choć są i niepokojące ",
-      "pubDate": "Wed, 07 Oct 2026 09:16:57 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/Sjnk9kpTURBXy8yNGM1ZDY3YWU3ODgyZTg2NWIwMjYwMzk2MDhhYWI1Zi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T09:16:57.000Z",
       "dateFormatted": "7 października 2026"
     },
     {
@@ -565,18 +685,6 @@
       "dateFormatted": "7 października 2026"
     },
     {
-      "title": "Plan na dzień po inwazji. Ujawniono, co chińscy stratedzy szykują dla Tajwanu \"po zjednoczeniu\"",
-      "link": "https://www.bankier.pl/wiadomosc/Plan-na-dzien-po-inwazji-Ujawniono-co-chinscy-stratedzy-szykuja-dla-Tajwanu-po-zjednoczeniu-9208686.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Chińskie ośrodki analityczne opracowują scenariusze zarządzania Tajwanem po ewentualnym „zjednoczeniu” z Chinami kontynentalnymi – podał hongkoński „South China Morning Post”. Zakres autonomii wyspy miałby zależeć od ścieżki przejęcia kontroli: od szerokiej autonomii po wariant zredukowania jej do „",
-      "pubDate": "Wed, 7 Oct 2026 10:13:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/f/77cd11286ba306-948-568-9-134-1910-1146.jpg",
-      "dateISO": "2026-10-07T09:13:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
       "title": "Wall Street nocą w XTB. Ruszył całodobowy handel akcjami z USA",
       "link": "https://www.bankier.pl/wiadomosc/Wall-Street-noca-w-XTB-Ruszyl-calodobowy-handel-akcjami-z-USA-9208667.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Platforma inwestycyjna XTB uruchomiła handel wybranymi akcjami z rynku amerykańskiego w formule 24/5. Funkcja umożliwia składanie i wykonywanie zleceń poza standardowymi godzinami sesji na giełdach w Nowym Jorku. Równolegle broker rozszerzył ofertę o węgierskie rachunki podatkowe TBSZ oraz wydłużył ",
@@ -589,18 +697,6 @@
       "dateFormatted": "7 października 2026"
     },
     {
-      "title": "Statek zatonął po ataku drona. Bułgaria wstrzymała poszukiwania załogi",
-      "link": "https://www.bankier.pl/wiadomosc/Statek-zatonal-po-ataku-drona-Bulgaria-wstrzymala-poszukiwania-zalogi-9208679.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Bułgarskie służby ratunkowe poinformowały w środę o wstrzymaniu poszukiwań załogi statku handlowego, który zatonął dzień wcześniej na Morzu Czarnym po ataku drona. Dodano, że akcja nie zostanie już wznowiona.",
-      "pubDate": "Wed, 7 Oct 2026 10:03:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/9/4116c805f2a8c4-948-568-0-202-3000-1799.jpg",
-      "dateISO": "2026-10-07T09:03:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
       "title": "Kupowali mieszkania za miliony. W tle afera z lewymi dyplomami",
       "link": "https://www.bankier.pl/wiadomosc/Kupowali-mieszkania-za-miliony-W-tle-afera-z-lewymi-dyplomami-9208634.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Afera związana z fikcyjnymi dyplomami polskich uczelni może być znacznie większa, niż wynikało z dotychczasowych ustaleń. Jak opisuje „Rzeczpospolita”, grupa powiązana z Michaiłem P., byłym dyrektorem filii Collegium Humanum w Uzbekistanie, miała przez lata zarabiać na sprowadzaniu cudzoziemców do P",
@@ -610,30 +706,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/b/f/3bb932b51f32a4-948-568-0-103-1971-1182.jpg",
       "dateISO": "2026-10-07T09:00:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Grad rakiet i dronów nad Arabią Saudyjską. Huti uderzają w najważniejsze lotniska i bazy",
-      "link": "https://www.bankier.pl/wiadomosc/Grad-rakiet-i-dronow-nad-Arabia-Saudyjska-Huti-uderzaja-w-najwazniejsze-lotniska-i-bazy-9208655.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Jemeńscy rebelianci Huti poinformowali w środę rano o przeprowadzeniu serii ataków z użyciem dronów i rakiet balistycznych na lotniska i instalacje wojskowe w Arabii Saudyjskiej.",
-      "pubDate": "Wed, 7 Oct 2026 09:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/4/9a9dfe353dcfe0-948-568-0-0-3000-1799.jpg",
-      "dateISO": "2026-10-07T08:40:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "To może być skutek uboczny pakietu CPN. Polskie stacje szykują się na szturm",
-      "link": "https://businessinsider.com.pl/gospodarka/pakiet-cpn-obnizyl-ceny-paliw-polskie-stacje-szykuja-sie-na-szturm-z-zagranicy/2msnl2r",
-      "description": "Po wprowadzeniu pakietu CPN, obniżającego stawki na paliwa w Polsce, ceny benzyny i oleju napędowego mogą zacząć przyciągać paliwowych turystów, jako jedne z najniższych w Europie.",
-      "pubDate": "Wed, 07 Oct 2026 08:28:59 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/5Rsk9kpTURBXy84ZDM1MWRmNzIwMTMzNWU4NjM1MzBlYmQ0OGZhOWJhNi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T08:28:59.000Z",
       "dateFormatted": "7 października 2026"
     },
     {
@@ -661,18 +733,6 @@
       "dateFormatted": "7 października 2026"
     },
     {
-      "title": "Co szef nowego właściciela TVN powiedział pracownikom? Wyciekło nagranie",
-      "link": "https://businessinsider.com.pl/biznes/kto-jest-w-wlascicielem-tvn-david-ellison-o-czterech-priorytetach-skydance/3yvkn55",
-      "description": "David Ellison — szef nowego giganta medialnego, który przejął m.in. TVN — przemówił do pracowników po raz pierwszy. \"Połączenie dwóch firm tej wielkości i o tak złożonej strukturze będzie wymagało podjęcia trudnych decyzji\" — zapowiedział.",
-      "pubDate": "Wed, 07 Oct 2026 08:26:22 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/4MDk9kpTURBXy83NzMwYzIxMzYzMWM5OThkMTg3YzgyNzBlYWJmMWZhMC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-10-07T08:26:22.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
       "title": "Produkowali kultowe krzesła. Teraz pracę może stracić 500 osób",
       "link": "https://www.bankier.pl/wiadomosc/Upada-producent-kultowych-krzesel-Zagrozonych-500-miejsc-pracy-9208639.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Fameg z Radomska, jeden z największych europejskich wytwórców drewnianych krzeseł giętych, wystąpił o ogłoszenie upadłości. Na koniec 2024 r. przedsiębiorstwo zatrudniało ponad 500 osób. Teraz pracę może stracić cała załoga – podaje serwis Dlahandlu.pl.",
@@ -682,30 +742,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/2/1/53a63bb909c6ce-948-568-0-0-2000-1199.jpg",
       "dateISO": "2026-10-07T08:08:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Dopłacą Ci, żebyś nie leciał. Koniec z usuwaniem pasażerów z samolotów",
-      "link": "https://www.bankier.pl/wiadomosc/Doplaca-Ci-zebys-nie-lecial-Koniec-z-usuwaniem-pasazerow-z-samolotow-9208609.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Koniec z przymusowym usuwaniem pasażerów przy nadkomplecie miejsc na pokładzie. Jeden z głównych przewoźników zmienia politykę - choć sam overbooking zostaje utrzymany, wypraszanie pasażerów bez ich zgody przechodzi do historii. To wyraźny krok w stronę praw konsumenta.",
-      "pubDate": "Wed, 7 Oct 2026 08:54:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/7/f5a626be72bbee-948-568-0-240-4000-2399.jpg",
-      "dateISO": "2026-10-07T07:54:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Chiny uderzają w Niemcy i Francję po liście: Protekcjonizm wam nie pomoże",
-      "link": "https://www.bankier.pl/wiadomosc/Chiny-uderzaja-w-Niemcy-i-Francje-po-liscie-Protekcjonizm-wam-nie-pomoze-9208623.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Chińskie ministerstwo handlu skrytykowało apel Niemiec i Francji o zaostrzenie ochrony rynku Unii Europejskiej przed nieuczciwymi praktykami – przekazały w środę rządowe media. Zdaniem władz w Pekinie działania protekcjonistyczne nie przyczynią się do wzrostu konkurencyjności europejskiej gospodarki",
-      "pubDate": "Wed, 7 Oct 2026 08:41:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/5/cabe1de8e56280-948-567-0-40-1000-599.jpg",
-      "dateISO": "2026-10-07T07:41:00.000Z",
       "dateFormatted": "7 października 2026"
     },
     {
@@ -721,19 +757,7 @@
       "dateFormatted": "7 października 2026"
     },
     {
-      "title": "240 zł za godzinę dla lekarza? \"To sposób na zamknięcie części oddziałów\"",
-      "link": "https://www.bankier.pl/wiadomosc/240-zl-za-godzine-dla-lekarza-To-sposob-na-zamkniecie-czesci-oddzialow-9208593.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Planowane zmiany dotyczące wynagrodzeń lekarzy mogą poważnie odbić się na funkcjonowaniu szpitali powiatowych – ostrzega Waldemar Malinowski, prezes Ogólnopolskiego Związku Pracodawców Szpitali Powiatowych. Jego zdaniem problemem jest nie tylko wysokość wynagrodzeń, ale przede wszystkim sposób, w ja",
-      "pubDate": "Wed, 7 Oct 2026 07:55:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/5/848c3f970ed7de-945-560-0-115-3543-2125.jpg",
-      "dateISO": "2026-10-07T06:55:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "Bitcoin spada poniżej 84 tys. $ pod presją cen ropy i rentowności",
+      "title": "Bitcoin spada do 83 tys. $ pod presją cen ropy i rentowności",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-do-84-tys--pod-presja-cen-ropy-i-rentownosci-1591798",
       "description": "",
       "pubDate": "2026-10-07 06:54:08",
@@ -754,18 +778,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/1/6/1a4aeee395b186-948-568-10-100-3990-2393.jpg",
       "dateISO": "2026-10-07T06:26:00.000Z",
-      "dateFormatted": "7 października 2026"
-    },
-    {
-      "title": "13 tysięcy brutto to za mało? Urzędnicy narzekają na pensje i szefów",
-      "link": "https://www.bankier.pl/wiadomosc/13-tysiecy-brutto-to-za-malo-Urzednicy-narzekaja-na-pensje-i-szefow-9208546.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Niskie płace, przeciążenie obowiązkami, stres, nepotyzm i kolesiostwo to najczęstsze bolączki wskazywane przez członków korpusu służby cywilnej w pracy — informuje w środę „Dziennik Gazeta Prawna”.",
-      "pubDate": "Wed, 7 Oct 2026 04:01:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/2/c4c9081ece0424-948-568-0-114-1900-1139.jpg",
-      "dateISO": "2026-10-07T03:01:00.000Z",
       "dateFormatted": "7 października 2026"
     },
     {
@@ -913,5 +925,5 @@
       "dateFormatted": "25 września 2026"
     }
   ],
-  "updatedAt": "2026-10-07T12:48:03.971Z"
+  "updatedAt": "2026-10-07T19:46:06.814Z"
 }
