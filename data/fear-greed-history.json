@@ -8984,20 +8984,20 @@
   },
   {
     "date": "2026-10-13",
-    "value": 43,
+    "value": 41,
     "label": "Strach",
     "color": "#ea580c",
     "indicators": [
       {
         "name": "Siła wolumenu",
-        "value": 63,
+        "value": 56,
         "label": "Chciwość",
-        "description": "Stosunek wolumenu w dniach wzrostowych do spadkowych na GPW (30 sesji). Przewaga kupujących to sygnał chciwości. Ratio: 1.13.",
+        "description": "Stosunek wolumenu w dniach wzrostowych do spadkowych na GPW (30 sesji). Przewaga kupujących to sygnał chciwości. Ratio: 1.06.",
         "weight": 0.1,
         "details": {
-          "upVol": 573174097,
-          "downVol": 506979459,
-          "ratio": 1.13
+          "upVol": 522669928,
+          "downVol": 493696209,
+          "ratio": 1.06
         }
       },
       {
@@ -9025,6 +9025,6 @@
       }
     ],
     "indicatorsUsed": 3,
-    "updatedAt": "2026-10-13T00:21:47.846Z"
+    "updatedAt": "2026-10-13T22:26:20.720Z"
   }
 ]
