@@ -709,18 +709,6 @@
       "dateFormatted": "17 października 2026"
     },
     {
-      "title": "Inflacja przyspiesza, Polacy szukają bezpieczeństwa w obligacjach",
-      "link": "https://www.bankier.pl/wiadomosc/Inflacja-przyspiesza-Polacy-szukaja-bezpieczenstwa-w-obligacjach-9212967.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Wrześniowy szok paliwowy podbił inflację w Polsce i Europie, a ceny na stacjach rosły mimo obniżonego VAT-u. Jednocześnie Polacy masowo ogłaszają bankructwo, miliardy złotych płyną na rynek obligacji, a azjatyckie giełdy boleśnie odczuwają obawy o trwałość boomu na sztuczną inteligencję. W najnowszy",
-      "pubDate": "Sat, 17 Oct 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/b/7/411e4344b012bc-948-568-0-0-1991-1195.jpg",
-      "dateISO": "2026-10-17T05:00:00.000Z",
-      "dateFormatted": "17 października 2026"
-    },
-    {
       "title": "Najwięksi na Wall Street ostrzegają. Lista zagrożeń jest długa",
       "link": "https://www.bankier.pl/wiadomosc/Najwieksi-na-Wall-Street-ostrzegaja-Lista-zagrozen-jest-dluga-9213999.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Sezon publikacji wyników finansowych przez banki dał inwestorom doskonałą okazję, by usłyszeć, co o amerykańskiej gospodarce, inflacji i sytuacji na giełdzie myślą najwięksi gracze sektora finansowego. Wiele do myślenia inwestorom instytucjonalnym dało również ostatnie spotkanie z kierownictwem firm",
@@ -729,6 +717,18 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/d/2/e1d475d872946e-948-567-0-15-1000-599.jpg",
+      "dateISO": "2026-10-17T05:00:00.000Z",
+      "dateFormatted": "17 października 2026"
+    },
+    {
+      "title": "Inflacja przyspiesza, Polacy szukają bezpieczeństwa w obligacjach",
+      "link": "https://www.bankier.pl/wiadomosc/Inflacja-przyspiesza-Polacy-szukaja-bezpieczenstwa-w-obligacjach-9212967.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Wrześniowy szok paliwowy podbił inflację w Polsce i Europie, a ceny na stacjach rosły mimo obniżonego VAT-u. Jednocześnie Polacy masowo ogłaszają bankructwo, miliardy złotych płyną na rynek obligacji, a azjatyckie giełdy boleśnie odczuwają obawy o trwałość boomu na sztuczną inteligencję. W najnowszy",
+      "pubDate": "Sat, 17 Oct 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/b/7/411e4344b012bc-948-568-0-0-1991-1195.jpg",
       "dateISO": "2026-10-17T05:00:00.000Z",
       "dateFormatted": "17 października 2026"
     },
@@ -889,5 +889,5 @@
       "dateFormatted": "14 października 2026"
     }
   ],
-  "updatedAt": "2026-10-17T23:48:05.641Z"
+  "updatedAt": "2026-10-18T03:25:35.883Z"
 }
