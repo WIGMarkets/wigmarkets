@@ -1,6 +1,66 @@
 {
   "articles": [
     {
+      "title": "Binance szacuje straty po incydencie bezpieczeństwa na ok. 6,3 mld $",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/binance-szacuje-straty-po-incydencie-bezpieczenstwa-na-ok-63-mld--432SI-1625730",
+      "description": "",
+      "pubDate": "2026-10-30 03:12:02",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/Cryptocurrencies_800x533_L_1556444885.jpg",
+      "dateISO": "2026-10-30T03:12:02.000Z",
+      "dateFormatted": "30 października 2026"
+    },
+    {
+      "title": "Kurs Litecoina traci 10%, na rynku niedźwiedzia",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/kurs-litecoina-traci-10-na-rynku-niedzwiedzia-1625691",
+      "description": "",
+      "pubDate": "2026-10-30 00:25:04",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/LYNXMPED0415S_M.jpg",
+      "dateISO": "2026-10-30T00:25:04.000Z",
+      "dateFormatted": "30 października 2026"
+    },
+    {
+      "title": "Kurs Cardano traci 10%, na rynku niedźwiedzia",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/kurs-cardano-traci-10-na-rynku-niedzwiedzia-1625690",
+      "description": "",
+      "pubDate": "2026-10-30 00:23:05",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/LYNXMPEBBM0M5_M.jpg",
+      "dateISO": "2026-10-30T00:23:05.000Z",
+      "dateFormatted": "30 października 2026"
+    },
+    {
+      "title": "Bitcoin spada do 78 tys. $ po ataku hakerskim na Binance za 5,3 mld $",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-do-78-tys--po-ataku-hakerskim-na-binance-za-53-mld--1625675",
+      "description": "",
+      "pubDate": "2026-10-29 23:55:09",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/LYNXMPED703B3_M.jpg",
+      "dateISO": "2026-10-29T23:55:09.000Z",
+      "dateFormatted": "29 października 2026"
+    },
+    {
+      "title": "Binance wstrzymuje wypłaty po hakerskim ataku na ponad 5 mld $",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/binance-wstrzymuje-wyplaty-po-kradziezy-53-mld--1625672",
+      "description": "",
+      "pubDate": "2026-10-29 23:35:33",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/LYNXMPEA7U0A9_M.jpg",
+      "dateISO": "2026-10-29T23:35:33.000Z",
+      "dateFormatted": "29 października 2026"
+    },
+    {
       "title": "Rusza rozbudowa jednej z najbardziej ruchliwych dróg w Polsce. Utrudnienia dla kierowców od 4 listopada",
       "link": "https://businessinsider.com.pl/technologie/motoryzacja/utrudnienia-na-a2-od-4-listopada-utrudnienia-dla-kierowcow/2s0cw88",
       "description": "Od 4 listopada kierowcy jadący autostradą A2 muszą liczyć się z utrudnieniami. Na odcinku między Łodzią a Warszawą rozpoczyna się rozbudowa.",
@@ -875,67 +935,7 @@
       "image": "https://content-media.investing.com/news/Ripple_800x533_L_1556445453.jpg",
       "dateISO": "2026-10-27T12:04:03.000Z",
       "dateFormatted": "27 października 2026"
-    },
-    {
-      "title": "Bitget Wallet dodaje konta USD i EUR z automatyczną konwersją na stablecoiny",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitget-wallet-dodaje-konta-usd-i-eur-z-automatyczna-konwersja-na-stablecoiny-1618535",
-      "description": "",
-      "pubDate": "2026-10-27 11:00:55",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/LYNXNPED8B0RG_M.jpg",
-      "dateISO": "2026-10-27T11:00:55.000Z",
-      "dateFormatted": "27 października 2026"
-    },
-    {
-      "title": "Bitcoin stabilny przy 80 tys. $, Strategy wstrzymuje zakupy",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-ponizej-80-tys--gdy-strategy-wstrzymuje-zakupy-1617917",
-      "description": "",
-      "pubDate": "2026-10-27 06:26:49",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/LYNXNPEB701AO_M.jpg",
-      "dateISO": "2026-10-27T06:26:49.000Z",
-      "dateFormatted": "27 października 2026"
-    },
-    {
-      "title": "Bitcoin bez zmian przy 80,4 tys. $, obawy o ropę i stopy hamują krypto",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-zatrzymany-na-poziomie-80-200--ceny-ropy-i-stopy-procentowe-ciaza-kryptowalutom-1615979",
-      "description": "",
-      "pubDate": "2026-10-26 06:24:50",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/LYNXMPED0415S_M.jpg",
-      "dateISO": "2026-10-26T06:24:50.000Z",
-      "dateFormatted": "26 października 2026"
-    },
-    {
-      "title": "Bitcoin stabilizuje się przy 80 400 $, rynek czeka na Fed",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/cena-bitcoina-dzis-btc-odbija-do-80-800-przed-posiedzeniem-fed-1615778",
-      "description": "",
-      "pubDate": "2026-10-25 04:54:18",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/459eb40204b66dee321ef4b9b4c72fdc_M.jpg",
-      "dateISO": "2026-10-25T04:54:18.000Z",
-      "dateFormatted": "25 października 2026"
-    },
-    {
-      "title": "Bitcoin celuje w 84 000 $, rosną wypłaty wielorybów i aktywność instytucji",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-celuje-w-84-000--gdy-wieloryby-wyplacaja-srodki-1615677",
-      "description": "",
-      "pubDate": "2026-10-24 05:15:14",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/LYNXMPEA74100_M.jpg",
-      "dateISO": "2026-10-24T05:15:14.000Z",
-      "dateFormatted": "24 października 2026"
     }
   ],
-  "updatedAt": "2026-10-29T22:30:14.561Z"
+  "updatedAt": "2026-10-30T04:44:03.566Z"
 }
