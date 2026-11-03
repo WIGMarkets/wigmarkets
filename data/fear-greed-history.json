@@ -9614,47 +9614,47 @@
   },
   {
     "date": "2026-11-03",
-    "value": 43,
+    "value": 36,
     "label": "Strach",
     "color": "#ea580c",
     "indicators": [
       {
         "name": "Siła wolumenu",
-        "value": 65,
+        "value": 57,
         "label": "Chciwość",
-        "description": "Stosunek wolumenu w dniach wzrostowych do spadkowych na GPW (30 sesji). Przewaga kupujących to sygnał chciwości. Ratio: 1.15.",
+        "description": "Stosunek wolumenu w dniach wzrostowych do spadkowych na GPW (30 sesji). Przewaga kupujących to sygnał chciwości. Ratio: 1.07.",
         "weight": 0.1,
         "details": {
-          "upVol": 520128719,
-          "downVol": 454247958,
-          "ratio": 1.15
+          "upVol": 509314373,
+          "downVol": 475556028,
+          "ratio": 1.07
         }
       },
       {
         "name": "Szerokość rynku",
-        "value": 38,
+        "value": 31,
         "label": "Strach",
-        "description": "Procent spółek GPW notujących powyżej 50-sesyjnej średniej. Im więcej spółek rośnie, tym wyższy wskaźnik. Obecnie 47 z 124 spółek.",
+        "description": "Procent spółek GPW notujących powyżej 50-sesyjnej średniej. Im więcej spółek rośnie, tym wyższy wskaźnik. Obecnie 39 z 124 spółek.",
         "weight": 0.2,
         "details": {
-          "above": 47,
+          "above": 39,
           "total": 124,
-          "pct": 37.9
+          "pct": 31.45
         }
       },
       {
         "name": "Nowe szczyty vs dołki",
-        "value": 35,
+        "value": 28,
         "label": "Strach",
-        "description": "Stosunek spółek blisko 52-tygodniowych maksimów do tych blisko minimów. Obecnie 16 spółek blisko szczytów, 30 blisko dołków.",
+        "description": "Stosunek spółek blisko 52-tygodniowych maksimów do tych blisko minimów. Obecnie 13 spółek blisko szczytów, 33 blisko dołków.",
         "weight": 0.15,
         "details": {
-          "highs": 16,
-          "lows": 30
+          "highs": 13,
+          "lows": 33
         }
       }
     ],
     "indicatorsUsed": 3,
-    "updatedAt": "2026-11-03T00:45:06.980Z"
+    "updatedAt": "2026-11-03T23:01:26.983Z"
   }
 ]
