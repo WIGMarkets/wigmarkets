@@ -1,6 +1,234 @@
 {
   "articles": [
     {
+      "title": "S&P obniża rating Polski. Agencja ostrzega przed długiem i deficytem",
+      "link": "https://www.bankier.pl/wiadomosc/S-P-obniza-rating-Polski-Agencja-ostrzega-przed-dlugiem-i-deficytem-9225364.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Agencja S&P Global Ratings potwierdziła w piątek wieczorem długoterminowy rating Polski w walucie obcej na poziomie \"A-\", a w walucie lokalnej obniżyła długoterminowy rating do \"A-\" z \"A\" - poinformowała agencja w komunikacie. Perspektywy obu ratingów obniżono do negatywnej ze stabilnej.",
+      "pubDate": "Fri, 6 Nov 2026 22:17:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/6/2/20ca0a8f24156e-948-568-65-390-3105-1863.jpg",
+      "dateISO": "2026-11-06T21:17:00.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Wall Street odrabia straty. Nvidia i spółki AI wracają do gry",
+      "link": "https://www.bankier.pl/wiadomosc/Wall-Street-odrabia-straty-Nvidia-i-spolki-AI-wracaja-do-gry-9225362.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Piątkowa sesja na Wall Street przyniosła przewagę wzrostów i odrabianie części strat po czwartkowej mocnej wyprzedaży. Do łask inwestorów wracają akcje spółek związanych ze sztuczną inteligencją.",
+      "pubDate": "Fri, 6 Nov 2026 22:08:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/2/7/68ac93fff2efa1-948-568-0-74-3000-1799.jpg",
+      "dateISO": "2026-11-06T21:08:00.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Jest decyzja w sprawie ratingu Polski. To poważne ostrzeżenie",
+      "link": "https://businessinsider.com.pl/gospodarka/jest-decyzja-w-sprawie-ratingu-polski-to-powazne-ostrzezenie/s1pl0js",
+      "description": "Agencja S&P potwierdziła rating Polski w walucie obcej na poziomie \"A-\", ale obniżyła perspektywę do negatywnej. To pierwszy krok, po którym może dojść do bolesnego cięcia oceny.",
+      "pubDate": "Fri, 06 Nov 2026 21:07:03 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/u9Ck9kpTURBXy8wNjdmYTM1OWM5YmY2Yzc1OTMzMTNhZDg2MzU2YzNjZS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-06T21:07:03.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Daniel Obajtek: weźcie z Orlenu 5-6 mld zł, zawróćcie ceny paliw",
+      "link": "https://businessinsider.com.pl/polityka/ceny-paliw-wedlug-daniela-obajtka-wezcie-z-orlenu-5-6-mld-zl-zawroccie-ceny-paliw/hn7yc7f",
+      "description": "Daniel Obajtek w rozmowie z \"Rzeczpospolitą\" odniósł się w piątek do konfliktu wokół Trybunału Konstytucyjnego, sytuacji na rynku paliw oraz przyszłości politycznej Prawa i Sprawiedliwości. Były prezes Orlenu zaproponował także wykorzystanie części zysków koncernu do obniżenia cen paliw i ocenił, z ",
+      "pubDate": "Fri, 06 Nov 2026 20:36:01 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/NVJk9kpTURBXy8zYzAwNmNlYmRkOGM3NDU0OWM5ZGRkOWFlMGNhOTFlMi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-06T20:36:01.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Jest decyzja w sprawie łuku Donalda Trumpa",
+      "link": "https://businessinsider.com.pl/prawo/luk-triumfalny-donalda-trumpa-na-razie-nie-powstanie-sad-bada-legalnosc-projektu/1vk66h4",
+      "description": "Amerykański sąd tymczasowo wstrzymał prace nad monumentalnym łukiem triumfalnym, który z inicjatywy Donalda Trumpa miałby stanąć w Waszyngtonie. Zakaz obowiązuje przez dwa tygodnie. W tym czasie sąd ma zbadać zgodność projektu z prawem.",
+      "pubDate": "Fri, 06 Nov 2026 20:20:36 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/pIJk9kpTURBXy8zY2RjNjQ2MWEzYThhM2VjZmRiN2RhYjQ2N2M0NWY4OC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-06T20:20:36.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Trump stawia na twardogłowego doradcę. Stephen Miller przejmuje stery w Białym Domu",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-stawia-na-twardoglowego-doradce-Stephen-Miller-przejmuje-stery-w-Bialym-Domu-9225341.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent USA Donald Trump ogłosił w piątek, że jeden z jego najbliższych doradców Stephen Miller zostanie nowym szefem personelu Białego Domu. Miller zastąpi w tej kluczowej roli Susie Wiles, byłą szefową kampanii Trumpa.",
+      "pubDate": "Fri, 6 Nov 2026 20:46:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/a/881291fa8fcdac-948-568-16-28-2160-1296.jpg",
+      "dateISO": "2026-11-06T19:46:00.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Rachunki za prąd wzrosną. Resort energii proponuje wyższą opłatę",
+      "link": "https://businessinsider.com.pl/finanse/rachunki-za-prad-w-2027-r-oplata-kogeneracyjna-moze-pojsc-w-gore-o-te-kwote/5b0ys4v",
+      "description": "Ministerstwo Energii proponuje podniesienie w 2027 r. opłaty kogeneracyjnej doliczanej do rachunków za energię elektryczną. Stawka miałaby wzrosnąć z obecnych 3 zł do 3,83 zł za megawatogodzinę. Resort oszacował, jak to przełoży się na rachunki przeciętnej rodziny.",
+      "pubDate": "Fri, 06 Nov 2026 19:38:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/xlYk9kpTURBXy9kODZmYWE2MGYyZDUzYmU2MjM3NzQwYjcwNDk3Y2U3YS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-06T19:38:00.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Miał być całkowity zakaz reklamy alkoholu. Senat zrobił wyłom",
+      "link": "https://www.bankier.pl/wiadomosc/Mial-byc-calkowity-zakaz-reklamy-alkoholu-Senat-zrobil-wylom-9225006.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Senat opowiedział się w piątek za nowelizacją ustawy o wychowaniu w trzeźwości z poprawkami. Mają one m.in. umożliwić reklamę piwa 0 proc. i nocną sprzedaż alkoholu na lotniskach.",
+      "pubDate": "Fri, 6 Nov 2026 20:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/0/251d17205afa51-948-568-1130-1490-1950-1170.jpg",
+      "dateISO": "2026-11-06T19:00:00.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Ważna decyzja sądu w sprawie głośnej inwestycji państwowej spółki. Orlen w grze",
+      "link": "https://businessinsider.com.pl/biznes/sad-zatwierdzil-uklad-grupy-azoty-polyolefins-orlen-coraz-blizej-przejecia/vfy31hw",
+      "description": "Sąd zatwierdził układ częściowy Grupy Azoty Polyolefins z wierzycielami. Decyzja może otworzyć drogę do przejęcia spółki przez Orlen i pomóc Grupie Azoty ograniczyć obciążenia związane z inwestycją Polimery Police. Postanowienie nie jest jeszcze prawomocne.",
+      "pubDate": "Fri, 06 Nov 2026 18:55:17 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/pFCk9kpTURBXy9hNzBhNmIyNTdiNTQwODIzNWZlMjJmZDY1NzlkNGZhNS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-06T18:55:17.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Demokraci biorą pod lupę zięcia Trumpa. Pytają o miliardy i tajne konta",
+      "link": "https://www.bankier.pl/wiadomosc/Demokraci-biora-pod-lupe-ziecia-Trumpa-Pytaja-o-miliardy-i-tajne-konta-9225316.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Jared Kushner, zięć prezydenta USA Donalda Trumpa i jego wysłannik ds. wojen z Iranem i w Ukrainie, znalazł się „pod lupą” Demokratów. Chodzi o zarzuty dotyczące pieniędzy od bliskowschodnich przywódców, możliwego konfliktu interesów i ryzyko szantażu przez zagraniczny wywiad.",
+      "pubDate": "Fri, 6 Nov 2026 19:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/0/afacdafa653b5f-948-568-40-110-3960-2375.jpg",
+      "dateISO": "2026-11-06T18:30:00.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Uchylenie immunitetu Bogdana Święczkowskiego i zatrzymanie. Wiadomo, kiedy zapadną decyzje",
+      "link": "https://businessinsider.com.pl/prawo/17-listopada-kluczowe-glosowanie-w-tk-co-dalej-z-bogdanem-swieczkowskim/rzm14ec",
+      "description": "Jeszcze w tym miesiącu Zgromadzenie Ogólne Sędziów Trybunału Konstytucyjnego ma zająć się wnioskami prokuratora generalnego o uchylenie immunitetu Bogdanowi Święczkowskiemu. Jeden z nich obejmuje również zgodę na jego ewentualne zatrzymanie i tymczasowe aresztowanie.",
+      "pubDate": "Fri, 06 Nov 2026 18:18:41 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/3Rok9kpTURBXy9jMmRkYjM4NGY4NDFkNWQ2Njk3NDM3MWJjZTM0MzU4Ny5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-06T18:18:41.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Kolejny zwrot w sporze o neosędziów. Żurek chce odzyskać wypłacone odszkodowania",
+      "link": "https://www.bankier.pl/wiadomosc/Kolejny-zwrot-w-sporze-o-neosedziow-Zurek-chce-odzyskac-wyplacone-odszkodowania-9225287.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Minister sprawiedliwości Waldemar Żurek podpisał w piątek pierwsze wezwania do zapłaty skierowane do tzw. neosędziów. Sprawa wiąże się z wieloletnim sporem o ich status, orzeczeniami europejskich trybunałów oraz nową ustawą mającą uregulować sytuację sędziów powołanych z udziałem KRS.",
+      "pubDate": "Fri, 6 Nov 2026 19:10:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/3/8/0a890737f03da6-948-568-10-260-3990-2393.jpg",
+      "dateISO": "2026-11-06T18:10:00.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Przełom w sprawie Polimerów Police. Sąd otworzył drogę do przejęcia przez Orlen",
+      "link": "https://www.bankier.pl/wiadomosc/Sad-zatwierdzil-uklad-czesciowy-z-wierzycielami-Grupy-Azoty-Polyolefins-9225306.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sąd zatwierdził układ częściowy z wierzycielami Grupy Azoty Polyolefins - podała Grupa Azoty w komunikacie prasowym. Wskazano, że decyzja przybliża grupę do rozwiązania kwestii inwestycji Polimery Police, a także otwiera drogę do finalizacji transakcji sprzedaży GA Polyolefins na rzecz Orlenu.",
+      "pubDate": "Fri, 6 Nov 2026 19:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/5/9/85a9a840cdb824-948-568-7-82-2992-1795.jpg",
+      "dateISO": "2026-11-06T18:00:00.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Zawiesił kampanię, a i tak wygrał. Oto najbardziej niezwykli zwycięzcy wyborów w USA",
+      "link": "https://www.bankier.pl/wiadomosc/Zaskoczyli-Ameryke-Oto-politycy-ktorzy-zapisali-sie-w-historii-tych-wyborow-9225285.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Tegoroczne wybory połówkowe w USA przyniosły nie tylko polityczne trzęsienie ziemi i zwycięstwo Demokratów, którzy przejęli kontrolę nad obiema izbami Kongresu. Wyłoniły też grupę wyjątkowo interesujących zwycięzców. Jeden zdobył mandat, choć dwa miesiące wcześniej zawiesił kampanię z powodu problem",
+      "pubDate": "Fri, 6 Nov 2026 19:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/9/14de5d0c5879d0-945-560-17-280-3482-2089.jpg",
+      "dateISO": "2026-11-06T18:00:00.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Wielki wyciek danych pasażerów. Hakerzy mogli przejąć numery paszportów",
+      "link": "https://www.bankier.pl/wiadomosc/Wielki-wyciek-danych-pasazerow-Hakerzy-mogli-przejac-numery-paszportow-9225288.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Dane pracowników ponad 190 norweskich instytucji państwowych, podróżujących samolotami, a także firm mogły zostać wykradzione przez hakerów; doszło do rozległego wycieku wrażliwych informacji - powiadomił w piątek norweski wywiad. Hakerzy mogli mieć dostęp do danych podróżnych w ciągu ostatnich trze",
+      "pubDate": "Fri, 6 Nov 2026 19:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/c/dba98e64c39096-948-567-0-67-1000-599.jpg",
+      "dateISO": "2026-11-06T18:00:00.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Ceny gazu w 2027 r. z limitami. Ministerstwo Energii chce specjalnej ochrony",
+      "link": "https://businessinsider.com.pl/gospodarka/cena-gazu-dla-gospodarstw-domowych-pod-kontrola-rzad-szykuje-zmiany-na-2027-r/8b11e3z",
+      "description": "Ministerstwo Energii chce, aby w 2027 r. gospodarstwa domowe oraz inni odbiorcy chronieni korzystali z maksymalnej ceny gazu. Nowy projekt przewiduje także rekompensaty dla przedsiębiorstw energetycznych oraz daninę od części firm osiągających przychody ze sprzedaży gazu na krajowym rynku.",
+      "pubDate": "Fri, 06 Nov 2026 17:31:59 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/UoFk9kpTURBXy85NmNiZDMyY2IwNDU2YmY3NmQxMGI4MGEwZjIwMDQ1Mi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-06T17:31:59.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Rząd chce zamrozić ceny gazu na 2027 rok",
+      "link": "https://www.bankier.pl/wiadomosc/Rzad-chce-zamrozic-ceny-gazu-na-2027-rok-9225253.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Projekt resortu energii o ochronie niektórych odbiorców paliw gazowych w 2027 r. będzie zakładać zagwarantowanie maksymalnej ceny paliw gazowych w rozliczeniach m.in. z gospodarstwami domowymi - wynika z wpisu ME do wykazu prac rządu. Planowane są też rekompensaty dla przedsiębiorstw sektora obrotu ",
+      "pubDate": "Fri, 6 Nov 2026 18:19:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/7/d/40642fd531bb6a-948-568-216-115-1704-1022.jpg",
+      "dateISO": "2026-11-06T17:19:00.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Tusk ujawnia kulisy spotkania z Nawrockim. „Prezydent póki co się wycofał”",
+      "link": "https://www.bankier.pl/wiadomosc/Tusk-ujawnia-kulisy-spotkania-z-Nawrockim-Prezydent-poki-co-sie-wycofal-9225276.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Karol Nawrocki z jakichś powodów wolał się na razie wycofać z zaproszenia - powiedział w piątek wieczorem premier Donald Tusk, pytany o planowane spotkanie w cztery oczy z prezydentem. Szef rządu zadeklarował, że nie jest to na pewno ostatnia próba, i pewnie do spotkania w przyszłości dojd",
+      "pubDate": "Fri, 6 Nov 2026 18:17:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/b/f/92935c9991b7f2-948-568-7-52-2992-1795.jpg",
+      "dateISO": "2026-11-06T17:17:00.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Majątek finansowy Polaków bije rekordy. Ponad 4,2 bln zł na kontach i w inwestycjach",
+      "link": "https://www.bankier.pl/wiadomosc/Majatek-finansowy-Polakow-bije-rekordy-Ponad-4-2-bln-zl-na-kontach-i-w-inwestycjach-9225269.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wartość aktywów finansowych posiadanych przez polskie gospodarstwa domowe osiągnęła rekordowy poziomo 4,2 bln zł - przekazał w piątek Polski Fundusz Rozwoju (PFR). Jak zauważyli eksperci, przyczyniła się do tego m.in. dobra koniunktura na rynku akcji.",
+      "pubDate": "Fri, 6 Nov 2026 18:04:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/0/6b7b36e39122d7-948-568-0-0-2557-1534.png",
+      "dateISO": "2026-11-06T17:04:00.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
       "title": "Łatwogang pod ostrzałem po ogłoszeniu o pracę. Teraz się tłumaczy. „Płacę serio bardzo dobrze”",
       "link": "https://www.bankier.pl/wiadomosc/Latwogang-pod-ostrzalem-po-ogloszeniu-o-prace-Teraz-sie-tlumaczy-Place-serio-bardzo-dobrze-9225150.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Łatwogang znalazł się w centrum internetowej burzy po opublikowaniu ogłoszenia o pracę dla asystenta lub asystentki. Internauci zwrócili uwagę na wysokie wymagania wobec kandydatów, konieczność dyspozycyjności również w weekendy, umowę-zlecenie i brak informacji o wynagrodzeniu. Influencer postanowi",
@@ -22,6 +250,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/5/5f4287d3adb46f-948-568-0-157-3000-1799.jpg",
       "dateISO": "2026-11-06T17:00:00.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Iran szykuje się na kolejny atak USA. Na celowniku także cywilne aktywa",
+      "link": "https://www.bankier.pl/wiadomosc/Iran-szykuje-sie-na-kolejny-atak-USA-Na-celowniku-takze-cywilne-aktywa-9225258.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Teheran obawia się, że prezydent Donald Trump zdecyduje się wznowić wojnę z Iranem, a tamtejszy konserwatywny establishment przygotowuje się do ataków na aktywa i polityków USA - ocenia think tank Soufan Center.",
+      "pubDate": "Fri, 6 Nov 2026 17:56:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/d/10c28bbd75a422-948-568-0-70-4000-2399.jpg",
+      "dateISO": "2026-11-06T16:56:00.000Z",
       "dateFormatted": "6 listopada 2026"
     },
     {
@@ -82,6 +322,18 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/5/e/532f8f546c2168-948-568-0-240-4000-2399.jpg",
       "dateISO": "2026-11-06T16:32:00.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Pensje nauczycieli w górę. Sejm uchwalił ważną zmianę",
+      "link": "https://www.bankier.pl/wiadomosc/Pensje-nauczycieli-w-gore-Sejm-uchwalil-wazna-zmiane-9225240.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Sejm uchwalił nowelizację ustawy podwyższającą wskaźnik do obliczania średniego wynagrodzenia nauczycieli początkujących do 122,76 proc. kwoty bazowej. W efekcie ich średnie wynagrodzenie ma rosnąć w takim samym tempie procentowym jak nauczycieli mianowanych i dyplomowanych.",
+      "pubDate": "Fri, 6 Nov 2026 17:30:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/5/0bd592b4084c80-948-568-0-202-3000-1799.jpg",
+      "dateISO": "2026-11-06T16:30:00.000Z",
       "dateFormatted": "6 listopada 2026"
     },
     {
@@ -217,18 +469,6 @@
       "dateFormatted": "6 listopada 2026"
     },
     {
-      "title": "Aborcja bez kar dla pomagających? Prawniczka wskazuje, czego nadal brakuje",
-      "link": "https://www.bankier.pl/wiadomosc/Aborcja-bez-kar-dla-pomagajacych-Prawniczka-wskazuje-czego-nadal-brakuje-9225138.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Poparta w piątek przez Senat zmiana Kodeksu karnego zakłada zniesienie karalności pomocy w aborcji - powiedziała PAP adw. Sabrina Mana-Walasek. Oceniła, że nawet jeśli zmienione przepisy wejdą w życie, to nadal wiele Polek będzie wybierać aborcję za granicą.",
-      "pubDate": "Fri, 6 Nov 2026 16:04:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/d/e/6a30585b6f6e10-948-568-0-7-992-595.jpg",
-      "dateISO": "2026-11-06T15:04:00.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
       "title": "Awantura w Sejmie, nagranie obiegło sieć. Jest wniosek o ukaranie posła PiS",
       "link": "https://www.bankier.pl/wiadomosc/Awantura-w-Sejmie-nagranie-obieglo-siec-Jest-wniosek-o-ukaranie-posla-PiS-9225127.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Marszałek Sejmu Włodzimierz Czarzasty poinformował w piątek, że skierował do komisji etyki wniosek o ukaranie posła PiS Dariusza Mateckiego w związku z jego zachowaniem podczas konferencji PSL. „Ponowne chamskie zachowanie posła, jest wina, będzie kara” - napisał Czarzasty.",
@@ -262,18 +502,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/aAqk9kpTURBXy9mZWE1YTA0ZTY2M2FiNDM5NGRkZjVjNmZiYzg4YmNiOS5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-11-06T14:59:55.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "Zełenski uderza w Kliczkę. „Najtrudniejsza sytuacja jest w Kijowie”",
-      "link": "https://www.bankier.pl/wiadomosc/Zelenski-uderza-w-Kliczke-Najtrudniejsza-sytuacja-jest-w-Kijowie-9225132.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent Ukrainy Wołodymyr Zełenski, podsumowując naradę na temat dostaw energii w regionach, oświadczył w piątek, że najtrudniejsza sytuacja panuje w Kijowie. Jako przyczynę wskazał niewykonanie przez władze miasta decyzji dotyczących przygotowań do zimy.",
-      "pubDate": "Fri, 6 Nov 2026 15:42:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/6/5894d7c1a7cf9d-948-568-0-0-1773-1063.jpg",
-      "dateISO": "2026-11-06T14:42:00.000Z",
       "dateFormatted": "6 listopada 2026"
     },
     {
@@ -313,18 +541,6 @@
       "dateFormatted": "6 listopada 2026"
     },
     {
-      "title": "Konserwatyści zaczynają odwracać się od Trumpa. Biały Dom reaguje",
-      "link": "https://www.bankier.pl/wiadomosc/Konserwatysci-zaczynaja-odwracac-sie-od-Trumpa-Bialy-Dom-reaguje-9225090.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Biały Dom ostrzegł w czwartek konserwatywnych działaczy, że obserwuje ich wypowiedzi - podał „Wall Street Journal”. Po porażce w wyborach połówkowych administracja stara się utrzymać konserwatywną koalicję, w której zaczęły pojawiać się podziały.",
-      "pubDate": "Fri, 6 Nov 2026 15:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/9/b1d765f6d9ae41-948-568-0-0-3920-2351.jpg",
-      "dateISO": "2026-11-06T14:30:00.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
       "title": "Najem krótkoterminowy pod lupą. Wspólnoty będą mogły zakazać wynajmu",
       "link": "https://www.bankier.pl/wiadomosc/Najem-krotkoterminowy-pod-lupa-Wspolnoty-beda-mogly-zakazac-wynajmu-9225053.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Senat zaproponował w piątek szereg poprawek do nowelizacji wprowadzającej regulacje rynku najmu krótkoterminowego. Ustawa umożliwia wprowadzenie przez samorządy, wspólnoty i spółdzielnie mieszkaniowe zakazu świadczenia takich usług w określonych strefach i nieruchomościach.",
@@ -346,30 +562,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/RlYk9kpTURBXy9iMGM3MTRiZmVlMmVmZjBmODY3MWQzZDRjYjY3NjNkYy5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-11-06T14:21:48.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "Apel w sprawie Trybunału Konstytucyjnego. 18 organizacji wzywa do porozumienia",
-      "link": "https://www.bankier.pl/wiadomosc/Apel-w-sprawie-Trybunalu-Konstytucyjnego-18-organizacji-wzywa-do-porozumienia-9225045.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "18 organizacji zrzeszających m.in. prawników, ekonomistów, naukowców, społeczników i pracodawców zaapelowało w piątek do środowisk politycznych o uspokojenie emocji, deeskalację i wypracowanie ponadpartyjnego porozumienia w sprawie resetu Trybunału Konstytucyjnego.",
-      "pubDate": "Fri, 6 Nov 2026 15:20:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/4/be7deba851c6f7-948-568-0-10-2047-1228.jpg",
-      "dateISO": "2026-11-06T14:20:00.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "Mentzen i Kosiniak-Kamysz pokazali wspólne zdjęcie. Czarzasty: „Trzymam kciuki”",
-      "link": "https://www.bankier.pl/wiadomosc/Mentzen-i-Kosiniak-Kamysz-pokazali-wspolne-zdjecie-Czarzasty-Trzymam-kciuki-9225049.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Marszałek Sejmu Włodzimierz Czarzasty, pytany o spotkanie wicepremiera Władysława Kosiniaka-Kamysza z jednym z liderów Konfederacji Sławomirem Mentzenem, ocenił, że szef ludowców „szuka głosów wsparcia po stronie niedemokratycznej”. Jednocześnie dodał, że każdy z liderów koalicji ma prawo do spotyka",
-      "pubDate": "Fri, 6 Nov 2026 15:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/f/4ae73c013a1ca2-948-568-1110-110-2633-1580.jpg",
-      "dateISO": "2026-11-06T14:10:00.000Z",
       "dateFormatted": "6 listopada 2026"
     },
     {
@@ -421,7 +613,7 @@
       "dateFormatted": "6 listopada 2026"
     },
     {
-      "title": "Jak NBP dochodził do złotego celu. Czy dokupił kilka ton na początku listopada?",
+      "title": "Glapiński ogłosił sukces, ale jest zagadka. Czy NBP dokupił jeszcze kilka ton złota?",
       "link": "https://www.bankier.pl/wiadomosc/Jak-NBP-dochodzil-do-zlotego-celu-Czy-NBP-dokupil-kilka-ton-na-poczatku-listopada-9225031.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Narodowy Bank Polski zgromadził już 700 ton złota, realizując cel postanowiony w styczniu – stwierdził w czwartek prezes NBP Adam Glapiński. Jednak z szacunków Bankier.pl wynika, że jeszcze 30 października kilku ton jeszcze mogło brakować.",
       "pubDate": "Fri, 6 Nov 2026 14:19:00 +0100",
@@ -442,54 +634,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/Ng2k9kpTURBXy9iYmEwNjA4Mzk5MWM4NWFhZDE3MmYyNmI1ZWVhNTk3Ny5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-11-06T13:17:19.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "Alarmy bombowe w europejskich mediach. Ewakuowano redakcje, zagrożenie dotarło do Londynu",
-      "link": "https://www.bankier.pl/wiadomosc/Alarmy-bombowe-w-europejskich-mediach-Ewakuowano-redakcje-zagrozenie-dotarlo-do-Londynu-9225028.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Brytyjski nadawca Sky News poinformował w piątek o otrzymaniu ostrzeżenia dotyczącego bezpieczeństwa. Kilka godzin wcześniej w Dublinie ewakuowano siedziby kilku irlandzkich redakcji, w tym publicznego nadawcy RTE, w związku z podobnymi zgłoszeniami.",
-      "pubDate": "Fri, 6 Nov 2026 14:17:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/e/1/67d8d67bfcfe00-948-568-0-87-2508-1504.jpg",
-      "dateISO": "2026-11-06T13:17:00.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "KNF ostrzega przed nowymi podmiotami. Na liście znalazł się „Narodowy Bank”",
-      "link": "https://www.bankier.pl/wiadomosc/KNF-ostrzega-przed-nowymi-podmiotami-Na-liscie-znalazl-sie-Narodowy-Bank-9224989.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Na listę ostrzeżeń publicznych Komisji Nadzoru Finansowego wpisany został nowy podmiot - Slovenske podielove druzstvo ROD oraz niezidentyfikowane osoby działające pod nazwą „Złota Wielka Polska PL” i „Złota Wielka Polska” - poinformowała w piątek KNF.",
-      "pubDate": "Fri, 6 Nov 2026 13:46:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/6/4053709ab12e4f-948-568-0-175-1360-815.jpg",
-      "dateISO": "2026-11-06T12:46:00.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "Europa może wrócić do rozmów o Ukrainie. Kushner stawia jeden warunek",
-      "link": "https://www.bankier.pl/wiadomosc/Europa-moze-wrocic-do-rozmow-o-Ukrainie-Kushner-stawia-jeden-warunek-9224985.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Jared Kushner nie wykluczył w piątek udziału państw Europy w rokowaniach ws. zakończenia wojny na Ukrainie, zaplanowanych na przyszły tydzień w Zjednoczonych Emiratach Arabskich (ZEA). Wysłannik prezydenta USA Donalda Trumpa we wpisie na X podkreślił, że będzie to zależeć od postępu negocjacji.",
-      "pubDate": "Fri, 6 Nov 2026 13:44:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/a/1c2466c2d1bb56-948-568-0-70-4000-2399.jpg",
-      "dateISO": "2026-11-06T12:44:00.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "Państwo dopłaci artystom do składek ZUS. Senat zdecydował",
-      "link": "https://www.bankier.pl/wiadomosc/Panstwo-doplaci-artystom-do-skladek-ZUS-Senat-zdecydowal-9224976.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Senat zaproponował w piątek poprawki do ustawy o zabezpieczeniu społecznym osób wykonujących zawód artystyczny — mają one charakter doprecyzowujący i redakcyjno-legislacyjny.",
-      "pubDate": "Fri, 6 Nov 2026 13:33:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/c/cfb08e3413667d-948-568-0-215-4096-2457.jpg",
-      "dateISO": "2026-11-06T12:33:00.000Z",
       "dateFormatted": "6 listopada 2026"
     },
     {
@@ -517,39 +661,15 @@
       "dateFormatted": "6 listopada 2026"
     },
     {
-      "title": "Sąd Najwyższy zdecydował. Chodzi o skargę prezesa TK w sprawie Święczkowskiego",
+      "title": "Sąd Najwyższy zdecydował. Chodzi o odwołanie prezesa TK Bogdana Święczkowskiego",
       "link": "https://businessinsider.com.pl/prawo/sedzia-sadu-najwyzszego-nie-rozpatrzy-skargi-prezesa-tk-sprawa-trafia-dalej/2sf1pls",
-      "description": "Sędzia Sądu Najwyższego Zbigniew Korzeniowski wydał ważne postanowienie w sprawie skargi prezesa Trybunału Konstytucyjnego Bogdana Święczkowskiego i wiceprezesa Bartłomieja Sochańskiego. Uznał, że nie może się nimi zająć. Chodzi o odsunięcie ich od pracy.",
+      "description": "Sędzia Sądu Najwyższego Zbigniew Korzeniowski wydał ważne postanowienie w sprawie skarg prezesa Trybunału Konstytucyjnego Bogdana Święczkowskiego i wiceprezesa Bartłomieja Sochańskiego. Uznał, że nie może się nimi zająć. Chodzi o odsunięcie ich od pracy.",
       "pubDate": "Fri, 06 Nov 2026 12:23:58 GMT",
       "source": "Business Insider Polska",
       "sourceColor": "#2c3e50",
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/CiLk9kpTURBXy9iOTgwOWE1MGE2MjhhYjU0Nzk5NDZkZjA0YWIwZGFkMy5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-11-06T12:23:58.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "Rachunek za węglowy pomnik absurdu. 25 osób z zarzutami za miliardowe straty w Ostrołęce",
-      "link": "https://www.bankier.pl/wiadomosc/Rachunek-za-weglowy-pomnik-absurdu-25-osob-z-zarzutami-za-miliardowe-straty-w-Ostrolece-9224899.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "25 osobom prokuratura postawiła zarzuty w śledztwie dotyczącym niegospodarności przy niedoszłej budowie bloku węglowego Elektrowni Ostrołęka. Nie było wniosków o areszt, nikt z podejrzanych nie przyznaje się do winy.",
-      "pubDate": "Fri, 6 Nov 2026 13:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/3/47c87010a2dbb0-749-449-123-53-749-449.jpg",
-      "dateISO": "2026-11-06T12:00:00.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "Zmiany w dowództwie Wojska Polskiego. Znamy nazwiska oficerów",
-      "link": "https://www.bankier.pl/wiadomosc/Zmiany-w-dowodztwie-Wojska-Polskiego-Znamy-nazwiska-oficerow-9224938.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wicepremier, minister obrony narodowej Władysław Kosiniak-Kamysz wręczył w piątek grupie oficerów Wojska Polskiego decyzje o wyznaczeniu ich na nowe stanowiska służbowe.",
-      "pubDate": "Fri, 6 Nov 2026 12:57:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/f/0/f90ce1658b25af-948-568-0-126-1536-921.jpg",
-      "dateISO": "2026-11-06T11:57:00.000Z",
       "dateFormatted": "6 listopada 2026"
     },
     {
@@ -589,18 +709,6 @@
       "dateFormatted": "6 listopada 2026"
     },
     {
-      "title": "Senat przyjął reformę PIT, CIT i ryczałtu. Został tylko podpis prezydenta",
-      "link": "https://businessinsider.com.pl/prawo/podatki/senat-uchwalil-ustawe-o-nowych-progach-pit-i-wyzszych-podatkach-dla-firm/jb453zc",
-      "description": "Senat uchwalił ustawę, która podnosi próg PIT do 130 tys. zł, dodaje nową, 24-proc. stawkę PIT, a także podnosi stawkę CIT dla największych firm do 22 proc. i obniża limit ryczałtu. W praktyce to zmiany korzystne dla ok. 3,5 mln etatowców i niekorzystne dla ok. 60 tys. przedsiębiorców.",
-      "pubDate": "Fri, 06 Nov 2026 11:49:27 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/4Ouk9kpTURBXy9hMDQ3YWRkNGM2ZGJkZWE4ZWZiYmI2NTg1MDdkMWVlNC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-06T11:49:27.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
       "title": "Znana marka kawy zmieni właściciela. Słynny hotel, spożywczy gigant i presja Buffetta",
       "link": "https://www.bankier.pl/wiadomosc/Imperium-na-ktorym-sparzyl-sie-Warren-Buffett-wyprzedaje-aktywa-Znana-marka-kawy-Maxwell-House-pod-mlotkiem-9224896.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Kraft Heinz pozbywa się swoich kultowych marek kawy, w tym słynnej Maxwell House. Transakcja o wartości 650 milionów dolarów to kolejny zwrot w burzliwej historii giganta spożywczego, w którym miliardowe udziały posiada kontrolowany przez Warrena Buffetta holding Berkshire Hathaway. W Polsce kawa Ma",
@@ -613,54 +721,6 @@
       "dateFormatted": "6 listopada 2026"
     },
     {
-      "title": "Ma doświadczenie w dyplomacji i edukacji. \"Prawa ręka\" prezesa NBP wraca do gry",
-      "link": "https://businessinsider.com.pl/gospodarka/przerwa-w-karierze-trwala-tylko-kilka-miesiecy-marta-kightley-wraca-do-nbp/0kn4njx",
-      "description": "Po kilku miesiącach od zakończenia kadencji na stanowisku wiceprezesa Narodowego Banku Polskiego Marta Kightley powraca do swojej dawnej roli. Aktualnie pracuje jako wykładowczyni, ma też doświadczenie w dyplomacji.",
-      "pubDate": "Fri, 06 Nov 2026 11:28:12 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/SdWk9kpTURBXy8zZmJkYmZmZWE3Y2QzNWRhZGIyYzVkZTZiNThjM2Q2Zi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-06T11:28:12.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "Burger Drwala wraca do McDonald’s. Znamy termin i cenę",
-      "link": "https://businessinsider.com.pl/finanse/handel/burger-drwala-2026-kiedy-premiera-i-ile-kosztuje/qdwsvzf",
-      "description": "Burger Drwala ponownie pojawi się w menu McDonald’s. W restauracjach pojawi się 12 listopada 2026 r., a tegoroczna premiera sezonowego produktu odbędzie się w Kielcach.",
-      "pubDate": "Fri, 06 Nov 2026 11:08:11 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": null,
-      "dateISO": "2026-11-06T11:08:11.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "Ministerstwo ogłasza nowe ceny maksymalne paliw. Tankowanie coraz tańsze",
-      "link": "https://businessinsider.com.pl/wiadomosci/ceny-maksymalne-paliw-w-polsce-znowu-spadaja-rzad-oglosil-stawki-na-weekend/rx75yxk",
-      "description": "Rząd opublikował ceny maksymalne paliw, które będą obowiązywały na polskich stacjach w najbliższy weekend i poniedziałek. Za litr benzyny 95 zapłacimy 6 zł 12 gr, najmniej odkąd funkcjonuje trzecia edycja programu CPN.",
-      "pubDate": "Fri, 06 Nov 2026 11:07:36 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/JI4k9kpTURBXy9mYzJlMzE4NzU5NWQ5OWQxMTVjNzM1MzVkOGFhY2ZkMC5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-06T11:07:36.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "Paliwa tanieją od soboty. Ministerstwo Energii podało nowy cennik",
-      "link": "https://www.bankier.pl/wiadomosc/Paliwa-tanieja-od-soboty-Ministerstwo-Energii-podalo-nowy-cennik-9224877.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W najbliższą sobotę, niedzielę i poniedziałek litr benzyny 95 będzie kosztował nie więcej niż 6,12 zł, benzyny 98 – 6,80 zł, a oleju napędowego - 7,83 zł – wynika z piątkowego obwieszczenia Ministra Energii. Ceny maksymalne tych paliw będą więc niższe niż w piątek.",
-      "pubDate": "Fri, 6 Nov 2026 12:07:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/e/d03efcbf8f209f-948-568-2-67-995-597.jpg",
-      "dateISO": "2026-11-06T11:07:00.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
       "title": "Spór w rządzie o drogi pellet. Hennig-Kloska odpiera zarzuty o ograniczenia wycinki",
       "link": "https://www.bankier.pl/wiadomosc/Spor-w-rzadzie-o-drogi-pellet-Hennig-Kloska-odpiera-zarzuty-o-ograniczenia-wycinki-9224830.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Choć sezon grzewczy rozkręca się na dobre, temperatura w debacie publicznej rośnie z zupełnie innego powodu. Ceny pelletu drzewnego w handlu detalicznym poszybowały w górę, a w obozie rządzącym doszło do otwartego starcia na linii Ministerstwo Klimatu i Środowiska (MKiŚ) a resorty odpowiedzialne za ",
@@ -670,42 +730,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/e/27d8854357e094-948-568-16-82-3275-1965.jpg",
       "dateISO": "2026-11-06T11:00:00.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "Donald Trump podjął decyzję w sprawie Gabinetu Owalnego. \"Nikt nie będzie mógł go tknąć\"",
-      "link": "https://businessinsider.com.pl/gospodarka/donald-trump-podjal-decyzje-w-sprawie-gabinetu-owalnego-bedzie-pomnikiem-narodowym/cbdhnh9",
-      "description": "Prezydent USA Donald Trump chce uniknąć zmian w Gabinecie Owalnym Białego Domu, do których mogłoby dojść po porażce Republikanów w wyborach środka kadencji. Podpisał proklamację, która w praktyce uniemożliwi jego przeciwnikom wszelkie ruchy.",
-      "pubDate": "Fri, 06 Nov 2026 10:50:51 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/XW0k9kpTURBXy9lNmUzYzA0ZDI4MjQ1MWE1YzFkYTVmNjIxNDE2MmMxOC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-06T10:50:51.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "Rząd przeznacza miliony na TVN i Polsat. Znamy szczegóły umów",
-      "link": "https://businessinsider.com.pl/biznes/media/ponad-36-mln-zl-dla-tvn-i-polsatu-od-rzadu-donalda-tuska/05n3r09",
-      "description": "Ponad 3,6 mln zł trafi do TVN i Telewizji Polsat na podstawie siedmiu umów zawartych w październiku z instytucjami rządowymi. Największym beneficjentem został Polsat, który otrzyma ponad 2,4 mln zł.",
-      "pubDate": "Fri, 06 Nov 2026 10:28:19 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/OxMk9kpTURBXy9lM2VkMjM0ZDU4NzVhMzBjZmIxNDY1NDVkMDRkMjNkMS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-06T10:28:19.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "Hegseth pod ostrzałem własnej partii. Głosowanie nad impeachmentem w przyszłym tygodniu",
-      "link": "https://businessinsider.com.pl/wiadomosci/pete-hegseth-pod-ogromna-presja-impeachment-coraz-bardziej-realny/mtdfqtf",
-      "description": "Karty do głosowania zostały już policzone, ale frustracja po porażce w wyborach śródokresowych wśród wielu Republikanów jest ogromna. Znajdujący się pod presją sekretarz obrony Pete Hegseth ma już w przyszłym tygodniu stanąć w obliczu procedury impeachmentu. I nie chcą tego nawet zwycięzcy wyborów —",
-      "pubDate": "Fri, 06 Nov 2026 10:17:59 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/q5Ak9kpTURBXy9kZDEzOGNmNTQ3NjYzMjBhM2QxYWNiZDYzNWQ1ZmRhNy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-06T10:17:59.000Z",
       "dateFormatted": "6 listopada 2026"
     },
     {
@@ -742,18 +766,6 @@
       "category": "gielda",
       "image": "https://content-media.investing.com/news/LYNXMPEA7U0A9_M.jpg",
       "dateISO": "2026-11-06T06:23:03.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "Rok 2027 może przynieść wstrząs. Eksperci wskazują, gdzie czai się ryzyko",
-      "link": "https://www.bankier.pl/wiadomosc/Akcje-czy-obligacje-Zloto-czy-dolar-Czyli-co-moze-czekac-rynki-finansowe-w-2027-roku-9223570.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Po bardzo zmiennym i emocjonującym roku 2026 powoli zaczynamy się zastanawiać, co nas może czekać w A.D. 2027. Nad potencjalnymi zagrożeniami i szansami inwestycyjnymi zastanawiali się rynkowi eksperci podczas debaty w ramach Forum Finansów Bankier.pl.",
-      "pubDate": "Fri, 6 Nov 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/c/a/5abf28b713dabd-948-568-15-145-1983-1190.jpg",
-      "dateISO": "2026-11-06T05:00:00.000Z",
       "dateFormatted": "6 listopada 2026"
     },
     {
@@ -803,18 +815,6 @@
       "image": "https://content-media.investing.com/news/LYNXMPED6U1NX_M.jpg",
       "dateISO": "2026-11-06T03:21:24.000Z",
       "dateFormatted": "6 listopada 2026"
-    },
-    {
-      "title": "Demokraci są jednak jak zaraza. Wall Street zmienia zdanie",
-      "link": "https://www.bankier.pl/wiadomosc/Demokraci-sa-jednak-jak-zaraza-Wall-Street-zmienia-zdanie-9224591.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Czwartkowa sesja na nowojorskich giełdach przyniosła najcięższe spadki od 19 miesięcy. Inwestorzy panice wyprzedawali akcje firm powiązanych z boomem AI, obawiając się przejęcia Kongresu przez Demokratów.",
-      "pubDate": "Thu, 5 Nov 2026 22:05:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/a/1/4f080c929afbcd-948-568-47-179-3664-2198.jpg",
-      "dateISO": "2026-11-05T21:05:00.000Z",
-      "dateFormatted": "5 listopada 2026"
     },
     {
       "title": "Grecja wprowadza 10% podatek od zysków kapitałowych z kryptowalut",
@@ -889,5 +889,5 @@
       "dateFormatted": "2 listopada 2026"
     }
   ],
-  "updatedAt": "2026-11-06T17:13:37.561Z"
+  "updatedAt": "2026-11-06T22:46:26.190Z"
 }
