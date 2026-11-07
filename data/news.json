@@ -769,18 +769,6 @@
       "dateFormatted": "6 listopada 2026"
     },
     {
-      "title": "Wall Street bez wychodzenia z domu. Jak KDPW \"importuje\" akcje na GPW?",
-      "link": "https://www.bankier.pl/wiadomosc/Wall-Street-bez-wychodzenia-z-domu-Jak-KDPW-importuje-akcje-na-GPW-9224140.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Inwestorzy znad Wisły chcą wychodzić na świat i mają wiele możliwości, by to zrobić. Jedną z nich jest kupno akcji Apple czy BMW za polskie złote i na polskiej giełdzie, ale takie rozwiązanie ma specyficzne wady oraz zalety. Za notowaniami na rynku GlobalConnect stoi złożony mechanizm depozytu wtórn",
-      "pubDate": "Fri, 6 Nov 2026 06:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/1/9/123f176184895f-945-560-0-73-1732-1039.jpg",
-      "dateISO": "2026-11-06T05:00:00.000Z",
-      "dateFormatted": "6 listopada 2026"
-    },
-    {
       "title": "Pokolenie Z w świecie finansów. Jak zdobyć zaufanie młodych inwestorów",
       "link": "https://www.bankier.pl/wiadomosc/Pokolenie-Z-w-swiecie-finansow-Jak-zdobyc-zaufanie-mlodych-inwestorow-9218239.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Pokolenie Z dorastało w świecie smartfonów, błyskawicznego dostępu do informacji i usług dostępnych na wyciągnięcie ręki. Dla młodych ludzi korzystanie z aplikacji, zakupy online czy zarządzanie codziennymi sprawami przez internet są czymś naturalnym. Nie oznacza to jednak, że w każdym obszarze życi",
@@ -789,6 +777,18 @@
       "sourceColor": "#e74c3c",
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/6/a/bf4afd616da354-948-568-57-0-1800-1079.png",
+      "dateISO": "2026-11-06T05:00:00.000Z",
+      "dateFormatted": "6 listopada 2026"
+    },
+    {
+      "title": "Wall Street bez wychodzenia z domu. Jak KDPW \"importuje\" akcje na GPW?",
+      "link": "https://www.bankier.pl/wiadomosc/Wall-Street-bez-wychodzenia-z-domu-Jak-KDPW-importuje-akcje-na-GPW-9224140.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Inwestorzy znad Wisły chcą wychodzić na świat i mają wiele możliwości, by to zrobić. Jedną z nich jest kupno akcji Apple czy BMW za polskie złote i na polskiej giełdzie, ale takie rozwiązanie ma specyficzne wady oraz zalety. Za notowaniami na rynku GlobalConnect stoi złożony mechanizm depozytu wtórn",
+      "pubDate": "Fri, 6 Nov 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/1/9/123f176184895f-945-560-0-73-1732-1039.jpg",
       "dateISO": "2026-11-06T05:00:00.000Z",
       "dateFormatted": "6 listopada 2026"
     },
@@ -889,5 +889,5 @@
       "dateFormatted": "2 listopada 2026"
     }
   ],
-  "updatedAt": "2026-11-06T22:46:26.190Z"
+  "updatedAt": "2026-11-07T04:58:03.510Z"
 }
