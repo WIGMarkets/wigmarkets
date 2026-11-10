@@ -1,6 +1,462 @@
 {
   "articles": [
     {
+      "title": "RTV Euro AGD rezygnuje z reklam w Republice. Tomasz Sakiewicz wzywa do bojkotu",
+      "link": "https://businessinsider.com.pl/biznes/media/story-bez-tytulu/ewjszvv",
+      "description": "Decyzja RTV Euro AGD o wstrzymaniu emisji reklam w Telewizji Republika wywołała ostrą reakcję kierownictwa stacji. Tomasz Sakiewicz zaapelował do widzów o bojkot sieci elektromarketów.",
+      "pubDate": "Tue, 10 Nov 2026 06:31:34 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/a1Gk9kpTURBXy8zYmU1YjZhZGQ4MWUwZjUzYTgxODhlOWQ3ZWYyMGI3NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T06:31:34.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "USA wycofują samoloty z kolejnej bazy w Europie. W tle zagrożenie ze strony Iranu",
+      "link": "https://www.bankier.pl/wiadomosc/USA-wycofuja-samoloty-z-kolejnej-bazy-w-Europie-W-tle-zagrozenie-ze-strony-Iranu-9226523.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Wojsko USA ewakuowało w poniedziałek samoloty z drugiej już bazy lotniczej w Wielkiej Brytanii w związku z zagrożeniem ze strony Iranu - poinformował przekazała agencja Reutera, powołując się na ustalenia dziennika „Wall Street Journal”.",
+      "pubDate": "Tue, 10 Nov 2026 07:26:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/6/111dd094350365-948-568-0-170-4000-2399.jpg",
+      "dateISO": "2026-11-10T06:26:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Koniec ze zdjęciami dzieci w sieci? MEN szykuje całkowity zakaz dla przedszkoli",
+      "link": "https://www.bankier.pl/wiadomosc/Koniec-ze-zdjeciami-dzieci-w-sieci-MEN-szykuje-calkowity-zakaz-dla-przedszkoli-9226471.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "MEN pracuje nad ustawą, która ma lepiej chronić prywatność dzieci i młodzieży. Przedszkola nie będą już mogły publicznie udostępniać zdjęć dzieci w internecie; nawet za zgodą rodziców. Nowe zasady w tym zakresie czekają również szkoły - pisze we wtorkowym „Dziennik Gazeta Prawna” („DGP”).",
+      "pubDate": "Tue, 10 Nov 2026 07:25:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/e/ecdbba17690c81-948-568-261-137-1754-1052.png",
+      "dateISO": "2026-11-10T06:25:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Portret polskiego żołnierza. Z tych regionów płynie najwięcej ochotników",
+      "link": "https://www.bankier.pl/wiadomosc/Portret-polskiego-zolnierza-Z-tych-regionow-plynie-najwiecej-ochotnikow-9226473.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Mazowsze oraz Warmia i Mazury wysyłają najwięcej młodych ludzi do wojska, średni wiek oficera to 39 lat, szeregowego - 32 lata. „Rzeczpospolita” („Rz”) publikuje we wtorkowym wydaniu portret żołnierza polskiej armii.",
+      "pubDate": "Tue, 10 Nov 2026 07:20:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/9/0d05b37d848676-948-568-0-0-3528-2116.jpg",
+      "dateISO": "2026-11-10T06:20:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Pieniądze jednak dają szczęście? Nigdzie satysfakcja z życia nie rośnie tak szybko",
+      "link": "https://www.bankier.pl/wiadomosc/Pieniadze-jednak-daja-szczescie-Nigdzie-satysfakcja-z-zycia-nie-rosnie-tak-szybko-9226477.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Zadowolenie z życia w Polsce bardzo szybko rośnie, a poprawa obejmuje niemal cały kraj. Od Lubuskiego przez Śląskie i Łódzkie aż po Mazowieckie i Wielkopolskie. Jest tylko jeden wyjątek. Na Podlasiu ludzie są coraz mniej szczęśliwi - pisze we wtorek „Puls Biznesu” („PB”).",
+      "pubDate": "Tue, 10 Nov 2026 07:18:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/5/4c7a2ca226642f-948-568-0-53-1618-971.jpg",
+      "dateISO": "2026-11-10T06:18:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Bitcoin poniżej 75 tys. $: niepewność regulacyjna i odpływy z ETF",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-ponizej-75-tys--niepewnosc-regulacyjna-i-odplywy-z-etf-1645258",
+      "description": "",
+      "pubDate": "2026-11-10 06:04:03",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/LYNXMPEDA611J_M.jpg",
+      "dateISO": "2026-11-10T06:04:03.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Kurs JPY/PLN 10 listopada 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-jena-dzisiaj-po-ile-jest-jen-japonski-10-listopada-2026-r/s4fdjhy",
+      "description": "Poznaj kurs japońskiego jena na dzień 10 listopada 2026. Jen jest jedną z głównych walut rezerwowych świata, dlatego ma znaczenie dla światowej gospodarki. Jednak jego kurs interesuje także podróżujących do Japonii w celach turystycznych. Z tego powodu pokazujemy obecny kurs waluty, jak też zmiany k",
+      "pubDate": "Tue, 10 Nov 2026 06:03:13 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/-b6k9kpTURBXy9lZjMwZWQ5NzAzMGNjN2RiZjcxYWZlMzIwMDk4N2EyZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T06:03:13.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Kurs EUR/PLN 10 listopada 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-euro-dzisiaj-po-ile-jest-euro-10-listopada-2026-r/d178xvj",
+      "description": "Przedstawiamy bieżące notowania kursu waluty EUR oraz zmiany w ujęciu tygodniowym i dzień po dniu na 10 listopada 2026. Pokazujemy, jak zmienia się kurs euro w stosunku do polskiego złotego. Czy nasza waluta obecnie traci? Wczoraj kurs EUR wynosił: 4,3854 zł. Wszystkiego dowiesz się z poniższego art",
+      "pubDate": "Tue, 10 Nov 2026 06:03:12 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/DEhk9kpTURBXy9kNzYwMDkzOTZiYjgwZGY2NTI0N2JhMjRjY2EzYzY0Mi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T06:03:12.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Kurs USD/PLN 10 listopada 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-dolara-dzisiaj-po-ile-jest-dolar-amerykanski-10-listopada-2026-r/5nd9ycj",
+      "description": "Poznaj bieżący kurs dolara na dzień 10 listopada 2026. Informujemy, jak przedstawia się obecny kurs USD oraz jak zmienił się on w perspektywie tygodniowej. Wczorajszy kurs amerykańskiej waluty to 3,9073 zł.",
+      "pubDate": "Tue, 10 Nov 2026 06:03:09 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/4E4k9kpTURBXy9mYWY4OTY5NDdiYzU5NjdiOGYyZjM1YTZmYjg1NmMyMy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T06:03:09.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Kurs CHF/PLN 10 listopada 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-franka-dzisiaj-po-ile-jest-frank-szwajcarski-10-listopada-2026-r/v4bf132",
+      "description": "Poznaj szczegółowe zmiany kursu CHF/PLN. Jak kształtuje się kurs złotego do franka? Jak silna jest waluta, od której zależy wysokość raty kredytowej wielu pożyczkobiorców? Wczoraj kurs franka wynosił 4,7671 zł. O tym, jak kształtuje się on dziś, dowiesz się z tego artykułu. Sprawdź, czy opłaca się w",
+      "pubDate": "Tue, 10 Nov 2026 06:03:09 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/d92k9kpTURBXy81NTJkOGYzYzQzMGVmNGVmMWVkMmY4ZWJiMjdhZTIwNy5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T06:03:09.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Kurs GBP/PLN 10 listopada 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-funta-dzisiaj-po-ile-jest-funt-brytyjski-10-listopada-2026-r/x1h9tht",
+      "description": "Chcesz sprawdzić, jaki jest kurs GBP na dziś 10 listopada 2026? Interesują cię bieżące notowania waluty? Jesteś w odpowiednim miejscu. Poniżej sprawdzisz, czy złotówka umacnia się, czy słabnie względem funta brytyjskiego. Wczorajszy kurs wynosił 5,2539 zł. Warto wiedzieć jak kurs wymiany prezentuje ",
+      "pubDate": "Tue, 10 Nov 2026 06:03:07 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/6Onk9kpTURBXy85YjgzMGFmZjYwZGZkMjJhODU5Mzg2OWY0YjEzZmY3MC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T06:03:07.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Kurs CZK/PLN 10 listopada 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-czeskiej-dzisiaj-po-ile-jest-korona-10-listopada-2026-r/0mq9sjd",
+      "description": "Jak dziś wygląda aktualny kurs korony czeskiej względem złotego? Czy opłaca się wymieniać korony czeskie na polskie złotówki? Wczoraj wartość CZK wyniosła: 0,1802 zł. Sprawdź dane dla 10 listopada 2026.",
+      "pubDate": "Tue, 10 Nov 2026 06:03:04 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/MPMk9kpTURBXy84NDIwMmNiNDNiZTc0OWEzOWViNGNlNThkMWQ3MTAyOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T06:03:04.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Kurs SEK/PLN 10 listopada 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-szwedzkiej-dzisiaj-po-ile-jest-korona-10-listopada-2026-r/9ypfemd",
+      "description": "Jeśli chcesz poznać aktualny kurs korony szwedzkiej, to jesteś we właściwym miejscu. Tutaj znajdziesz bieżące notowania SEK i sprawdzisz, czy polski złoty umacnia się, czy słabnie względem szwedzkiej waluty. Wczorajszy kurs wynosił 0,3988 zł.",
+      "pubDate": "Tue, 10 Nov 2026 06:03:03 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/8Kwk9kpTURBXy9iYTA4ODkyYWI0MTcxMWIwMjRiOTEyM2ZjZjI1YjMxMi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T06:03:03.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Kurs NOK/PLN 10 listopada 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-norweskiej-dzisiaj-po-ile-jest-korona-10-listopada-2026-r/smp4gxy",
+      "description": "Pokazujemy bieżące notowania kursu korony norweskiej oraz zmiany kursu w ujęciu dziennym. Wczoraj kurs NOK wynosił 0,4158 zł. Dzisiejszą zmianę sprawdzisz w poniższym artykule.",
+      "pubDate": "Tue, 10 Nov 2026 06:03:03 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/-32k9kpTURBXy9lM2FlNTdhZjBiMDM3ODBmNmE1MTA2YTc3Mzk2ZWQ1Yi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T06:03:03.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Kurs DKK/PLN 10 listopada 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-korony-dunskiej-dzisiaj-po-ile-jest-korona-10-listopada-2026-r/8mldvn1",
+      "description": "Jeśli planujesz wyjazd do Danii lub korzystasz z koron duńskich w swojej działalności biznesowej, warto sprawdzić bieżące notowania kursu w stosunku do złotego. W tym artykule znajdziesz aktualny kurs korony duńskiej i będziesz mógł na bieżąco na wykresie sprawdzać zmiany notowań. Wczoraj kurs DKK w",
+      "pubDate": "Tue, 10 Nov 2026 06:03:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/IFxk9kpTURBXy8xNWVlZDQ3MzM0MDAxMzhiZGY5Y2IzMjA4ZjdiZTBiOS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T06:03:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Kurs TRY/PLN 10 listopada 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-liry-dzisiaj-po-ile-jest-lira-turecka-10-listopada-2026-r/wheexwz",
+      "description": "Zapraszamy do zapoznania się z najnowszymi notowaniami zmian kursu tureckiej liry. Są one szczególnie intersujące dla turystów. Turcja to jeden z najpopularniejszych kierunków urlopowych dla Polaków.",
+      "pubDate": "Tue, 10 Nov 2026 06:02:59 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/XMbk9kpTURBXy9iOTJmZjZjYjNlMWZkMzQxNjhjNmZkYjI5ZWRiOGRiOC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T06:02:59.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Kurs HUF/PLN 10 listopada 2026 r.",
+      "link": "https://businessinsider.com.pl/gielda/kursy-walut/kurs-forinta-dzisiaj-po-ile-jest-forint-wegierski-10-listopada-2026-r/qwt1dyy",
+      "description": "Poznaj zmiany kursu HUF/PLN 10 listopada 2026. Jak dziś wygląda siła węgierskiej waluty względem złotego? Czy jadąc np. na urlop na Węgry, opłaca się dziś wymienić pieniądze? Bieżący kurs forinta sprawdzisz w tym artykule.",
+      "pubDate": "Tue, 10 Nov 2026 06:02:58 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/0TBk9kpTURBXy9mZDgxYzc2YTk2MzIyNDM3MzIzZGRkYjg1NjFlOGM5MC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T06:02:58.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Z Palantira do rządowej agencji. Michael LoSapio dyrektorem CISA",
+      "link": "https://www.bankier.pl/wiadomosc/Z-Palantira-do-rzadowej-agencji-Michael-LoSapio-dyrektorem-CISA-9226502.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Biały Dom poinformował w poniedziałek, o niminacji Michaela LoSapio z firmy Palantir na stanowisko dyrektora Agencji ds. Cyberbezpieczeństwa i Bezpieczeństwa Infrastruktury (CISA), w ramach ministerstwa bezpieczeństwa wewnętrznego (DHS). Od blisko dwóch lat na stanowisku szefa CISA jest wakat.",
+      "pubDate": "Tue, 10 Nov 2026 07:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/c/b212809c16bfd0-948-568-60-157-2940-1763.jpg",
+      "dateISO": "2026-11-10T06:00:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Proces o zabójstwo Charliego Kirka dopiero w 2028 roku. Zamachowcy grozi kara śmierci",
+      "link": "https://www.bankier.pl/wiadomosc/Proces-o-zabojstwo-Charliego-Kirka-dopiero-w-2028-roku-Zamachowcy-grozi-kara-smierci-9226492.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rodzina zamordowanego konserwatywnego aktywisty Charliego Kirka uznała w poniedziałek za „głęboko rozczarowującą” decyzję o rozpoczęciu procesu oskarżonego o jego zabójstwo Tylera Robinsona dopiero latem 2028 roku. Oskarżonemu grozi kara śmierci.",
+      "pubDate": "Tue, 10 Nov 2026 07:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/d/a/60861cb8cc0959-948-568-327-143-2745-1647.jpg",
+      "dateISO": "2026-11-10T06:00:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "AI sforsowało zabezpieczenia rządowego portalu. Australia zapowiada kary i regulacje",
+      "link": "https://www.bankier.pl/wiadomosc/AI-sforsowalo-zabezpieczenia-rzadowego-portalu-Australia-zapowiada-kary-i-regulacje-9226488.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Australia nakaże firmom sektora sztucznej inteligencji (AI) zgłaszanie naruszeń bezpieczeństwa i powoła urząd ds. regulacji AI - ogłosił we wtorek premier Anthony Albanese. To reakcja na incydent z czerwca, kiedy agent OpenAI uzyskał nieautoryzowany dostęp do rządowego portalu statystyk medycznych.",
+      "pubDate": "Tue, 10 Nov 2026 07:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/4/79edfde31fbfc8-948-568-1104-480-1616-969.jpg",
+      "dateISO": "2026-11-10T06:00:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Papież do ludzi pracy: gospodarka powinna służyć człowiekowi, a nie człowiek gospodarce",
+      "link": "https://www.bankier.pl/wiadomosc/Papiez-do-ludzi-pracy-gospodarka-powinna-sluzyc-czlowiekowi-a-nie-czlowiek-gospodarce-9226425.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Papież Leon XIV podczas spotkania z przedstawicielami świata pracy w poniedziałek na Uniwersytecie Katolickim w stolicy Argentyny- Buenos Aires powiedział, że gospodarka powinna służyć człowiekowi, a nie człowiek gospodarce. Przestrzegał przed „prawem silniejszych”, które prowadzi do tego, że praca ",
+      "pubDate": "Tue, 10 Nov 2026 06:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/2/c/d688d0f429f081-948-568-65-228-3667-2200.jpg",
+      "dateISO": "2026-11-10T05:50:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Iran dementuje rozmowy z USA. „Przestańcie fabrykować fałszywe informacje”",
+      "link": "https://www.bankier.pl/wiadomosc/Iran-dementuje-rozmowy-z-USA-Przestancie-fabrykowac-falszywe-informacje-9226467.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Szef irańskich służb bezpieczeństwa Mohsen Rezaei wezwał we wtorek USA do zaprzestania „fabrykowania fałszywych informacji o fikcyjnych negocjacjach”. Podkreślił, że Waszyngton musi najpierw spełnić siedem warunków Teheranu – poinformował w poniedziałek w nocy Reuters.",
+      "pubDate": "Tue, 10 Nov 2026 06:50:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/a/6/5212c36d9436c4-948-568-10-280-3983-2390.jpg",
+      "dateISO": "2026-11-10T05:50:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Szef Rady Fiskalnej ostrzega: im dłużej trwa gnicie, tym bardziej bolesna będzie naprawa",
+      "link": "https://businessinsider.com.pl/gospodarka/makroekonomia/szef-rady-fiskalnej-ostrzega-im-dluzej-trwa-gnicie-tym-bardziej-bolesna-bedzie/swwe4lm",
+      "description": "Polskie finanse publiczne znalazły się na niebezpiecznej ścieżce. — Im dłużej trwa gnicie finansów publicznych, tym bardziej bolesna będzie późniejsza naprawa — skomentował rozmowie z \"Rzeczpospolitą\" Sławomir Dudek, przewodniczący Rady Fiskalnej.",
+      "pubDate": "Tue, 10 Nov 2026 05:48:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/9gkk9kpTURBXy81MjQ4OGYwNDdiOTY5YzMwODM1MzAxNDAyYzc1NTExMS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T05:48:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Trump: Szef Nvidii nie wiedział, że miał do czynienia z chińską agentką",
+      "link": "https://www.bankier.pl/wiadomosc/Trump-Szef-Nvidii-nie-wiedzial-ze-mial-do-czynienia-z-chinska-agentka-9226464.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Prezydent USA Donald Trump powiedział w poniedziałek, że prezes spółki Nvidia, Jensen Huang zapewnił go, iż nie wiedział, że kobieta, z którą wdał się w romans, jest prawdopodobnie chińską agentką. Trump podkreślił, że wierzy szefowi technologicznego giganta.",
+      "pubDate": "Tue, 10 Nov 2026 06:44:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/c/5/94b25846b982db-948-568-0-6-2468-1480.jpg",
+      "dateISO": "2026-11-10T05:44:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Dokąd płynie światowy kapitał? Przepływ do tych spółek nabiera tempa",
+      "link": "https://businessinsider.com.pl/gielda/wiadomosci/spolki-defensywne-przyciagaja-kapital-inwestorzy-obawiaja-sie-konca-hossy-ai/s1yfjn1",
+      "description": "Inwestorzy zwiększają zaangażowanie w akcje tak zwanych spółek defensywnych, czyli bardziej odpornych na giełdowe korekty i załamania, obawiając się, że hossa napędzana przez sztuczną inteligencję może dobiegać końca — pisze \"Financial Times\". Według brytyjskiego dziennika na światowych rynkach trwa",
+      "pubDate": "Tue, 10 Nov 2026 05:39:20 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/CBZk9kpTURBXy85MTk2ZDNhYjVhODMwZjkxNmViYjE0ZDc2M2FkN2Q2NC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T05:39:20.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "1,5 mld zł dla Policji i Straży Granicznej. MON szykuje dodatkowe pieniądze",
+      "link": "https://www.bankier.pl/wiadomosc/1-5-mld-zl-dla-Policji-i-Strazy-Granicznej-MON-szykuje-dodatkowe-pieniadze-9226428.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Około 1,5 mld zł ma trafić w przyszłym roku na pozamilitarne przygotowanie obronne, w tym na potrzeby Policji i Straży Granicznej - powiedział w poniedziałek wicepremier, szef MON Władysław Kosiniak-Kamysz. Jak przekazał, wniosek w tej sprawie w najbliższym czasie trafi pod obrady Rady Ministrów.",
+      "pubDate": "Tue, 10 Nov 2026 06:27:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/f/c8945855ad630c-948-568-10-0-3970-2381.jpg",
+      "dateISO": "2026-11-10T05:27:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Prokuratura chce zatrzymać prezesa TK. Decyzja za tydzień",
+      "link": "https://businessinsider.com.pl/prawo/trybunal-konstytucyjny-przed-kluczowa-decyzja-bogdan-swieczkowski-zagrozony-aresztem/f17qvqs",
+      "description": "We wtorek po raz drugi zbierze się Zgromadzenie Ogólne Sędziów Trybunału Konstytucyjnego zwołane przez Annę Korwin-Piotrowską. Sędziowie mają zmienić regulamin pracy, ale także zaopiniować odwołanie dyrektora Biura Służby Prawnej. Kluczowe decyzje mają jednak zapaść za tydzień, 17 listopada. Chodzi ",
+      "pubDate": "Tue, 10 Nov 2026 05:17:04 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ZThk9kpTURBXy9hMmU1ZjhlNTI0ZTY2ZGJjOWRmMzY3NmUxM2E0MDYzMS5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T05:17:04.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Polskie miasta reagują po zamachu w Krakowie. Nadzwyczajne zakupy, kamizelki i zapory",
+      "link": "https://businessinsider.com.pl/gospodarka/miasta-reaguja-po-zamachu-w-krakowie-wzmozone-patrole-i-betonowe-zapory/vy73tt1",
+      "description": "Dodatkowe patrole w centrach miast, kamizelki kuloodporne, betonowe zapory oraz bariery uniemożliwiające wjazd samochodów w tłum. Po zamachu w Krakowie największe polskie miasta wzmacniają ochronę i planują dodatkowe zakupy. Jednocześnie policja zastrzega, że nie ma informacji o konkretnym zagrożeni",
+      "pubDate": "Tue, 10 Nov 2026 05:11:33 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/iU0k9kpTURBXy81NWFiNTc4NGUxYTAzOTRiNzc1NmQ1MDgxZjAyYjBiMC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T05:11:33.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Kolejni kredytobiorcy idą do sądów. Bankowy związek tworzy specjalną podgrupę",
+      "link": "https://businessinsider.com.pl/finanse/kredytobiorcy-z-hipotekami-w-euro-ida-do-sadow-banki-bija-na-alarm/fe05f1q",
+      "description": "Kredytobiorcy spłacający hipoteki w euro dołączają do frankowiczów. Skala problemu jest nieporównywalna, ale banki są zaniepokojone tendencją i mówią o nadużyciu prawa.",
+      "pubDate": "Tue, 10 Nov 2026 05:07:34 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/znOk9kpTURBXy8xOGZhODNjZDAxNzA3MzRiMzYyZWFmZGFhYzM2YWFmMC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T05:07:34.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Rewolucja w PIT: koniec z dwiema ulgami, w trzeciej odliczenie będzie podwojone",
+      "link": "https://www.bankier.pl/wiadomosc/Rewolucja-w-PIT-koniec-z-dwiema-ulgami-w-trzeciej-odliczenie-bedzie-podwojone-9226212.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W przyszłym roku mają wejść w życie rewolucyjne zmiany dotyczące preferencji podatkowych. Jedna z najpopularniejszych, czyli ulga na internet, ma zniknąć. Podobny los czeka ulgę na ekspansję. Z drugiej strony odliczenie dla honorowych dawców krwi zostanie podwojone. Nowe przepisy mają obowiązywać od",
+      "pubDate": "Tue, 10 Nov 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/c/d351e8cf8b74e0-948-568-110-115-2206-1324.jpg",
+      "dateISO": "2026-11-10T05:00:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Wojna o refinansowanie hipotek zaczyna przygasać, ale oferty coraz lepsze",
+      "link": "https://www.bankier.pl/wiadomosc/Wojna-o-refinansowanie-hipotek-zaczyna-przygasac-ale-oferty-coraz-lepsze-9225988.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Niemal 21 proc. sprzedaży kredytów hipotecznych w III kw. stanowiło refinansowanie, wynika z danych Związku Banków Polskich. To wynik odległy od rekordów odnotowanych na początku roku. Tymczasem proponowane przez niektóre banki warunki mogą zdecydowanie zachęcać do przeprowadzki.",
+      "pubDate": "Tue, 10 Nov 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/0/d4f7807db4b4d6-948-568-0-133-1980-1187.jpg",
+      "dateISO": "2026-11-10T05:00:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Genialne jednostki, przeciętna innowacyjność. Prof. Karwowski: Kreatywność z całą pewnością nie wystarczy",
+      "link": "https://www.bankier.pl/wiadomosc/Genialne-jednostki-przecietna-innowacyjnosc-Prof-Karwowski-Kreatywnosc-z-cala-pewnoscia-nie-wystarczy-9226151.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Polska od lat zajmuje przeciętne pozycje w międzynarodowych rankingach innowacyjności, choć pod względem indywidualnego potencjału twórczego plasujemy się w ścisłej światowej czołówce. O źródłach tego rozdźwięku, barierach kulturowych oraz szansach i zagrożeniach związanych ze sztuczną inteligencją ",
+      "pubDate": "Tue, 10 Nov 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/1/c0c81df6b4f6db-948-568-32-0-1200-720.jpg",
+      "dateISO": "2026-11-10T05:00:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "„Nasze emerytury mogą być naprawdę niewesołe”. Kapitał nie odłoży się sam",
+      "link": "https://www.bankier.pl/wiadomosc/Nasze-emerytury-moga-byc-naprawde-niewesole-Kapital-nie-odlozy-sie-sam-9218250.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Emerytura, która zapewni finansowe bezpieczeństwo po zakończeniu aktywności zawodowej, nie powstanie sama. W obliczu zmian demograficznych i wyzwań stojących przed systemem emerytalnym coraz większego znaczenia nabiera samodzielne budowanie kapitału na przyszłość.",
+      "pubDate": "Tue, 10 Nov 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/0/6b76797bb04085-948-568-14-14-1776-1065.png",
+      "dateISO": "2026-11-10T05:00:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Bon do Rossmanna od znajomego? Tak oszuści rozsyłają fałszywą promocję",
+      "link": "https://www.bankier.pl/wiadomosc/Bon-do-Rossmanna-od-znajomego-Tak-oszusci-rozsylaja-falszywa-promocje-9225936.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Oszuści wykorzystują znane marki, by wyłudzić pieniądze od swoich ofiar. W nowym odcinku Scam Alert opisuję przekręt „na bon z Rossmana” i fałszywe maile od Spotify. Rusza też śledztwo w sprawie wezwań do zapłaty wysyłanych pod szyldem Urzędu Patentowego.",
+      "pubDate": "Tue, 10 Nov 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/c/3a3bbf0042fb1b-948-568-0-129-2592-1555.jpg",
+      "dateISO": "2026-11-10T05:00:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Co z portfelami Polaków po negatywnej rewizji ratingu? Grozi nam rumuński scenariusz",
+      "link": "https://businessinsider.com.pl/gospodarka/sandp-wysyla-ostrzezenie-rzadowi-co-to-oznacza-dla-finansow-polakow/594lv98",
+      "description": "Decyzję S&P, która jest wystawieniem żółtej kartki rządowi, można traktować nie tyle jako zagrożenie dla oszczędności Polaków już dziś, ile jako ostrzeżenie, że czas na spokojne porządkowanie finansów publicznych zaczyna się kończyć. Jeśli politycy to zignorują, skutki w końcu odczuje praktycznie ka",
+      "pubDate": "Tue, 10 Nov 2026 05:00:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/U1bk9kpTURBXy8zODg0ZTZiMzE4YWI3MzM3MmJiNWQ0N2MzMGQxNDNhZC5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T05:00:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Tyle do polskich metropolii przynoszą turyści. Tragedia w Krakowie nie zamrozi sektora",
+      "link": "https://businessinsider.com.pl/gospodarka/zamach-w-krakowie-nie-zniecheci-do-turystyki-w-polsce-dane-sa-jednoznaczne/5gzp4lc",
+      "description": "Turystyka to dla największych polskich miast zastrzyk pieniędzy do lokalnej gospodarki. Z miejskich danych wynika, że w 2025 r. turyści wydali w Krakowie ok. 15,4 mld zł. Doświadczenia zachodnich metropolii dotkniętych zamachami terrorystycznymi pokazują, że tragiczne wydarzenia mogą wiązać się z ob",
+      "pubDate": "Tue, 10 Nov 2026 05:00:00 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://ocdn.eu/pulscms-transforms/1/p5Hk9kpTURBXy8yM2U0ZjY3YjEyMDY2MTcwMDc3ODU4NDEzOWFjMDM2Zi5qcGeRkwLNBLAA3gABoTAB",
+      "dateISO": "2026-11-10T05:00:00.000Z",
+      "dateFormatted": "10 listopada 2026"
+    },
+    {
+      "title": "Mocne odbicie na Wall Street. Inwestorzy znów kupują akcje technologicznych gigantów",
+      "link": "https://www.bankier.pl/wiadomosc/Mocne-odbicie-na-Wall-Street-Inwestorzy-znow-kupuja-akcje-technologicznych-gigantow-9226455.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Poniedziałkowa sesja na Wall Street przyniosła wzrosty głównych indeksów, a Dow Jones zyskał na koniec dnia 1.100 punktów. Wzrosty na giełdzie wspierane były spadkiem cen ropy naftowej, a także zwyżkami akcji spółek technologicznych po ubiegłotygodniowych gwałtownych wahaniach.",
+      "pubDate": "Mon, 9 Nov 2026 22:59:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/0/a/d29d93a7d5f16e-948-568-150-179-2850-1709.jpg",
+      "dateISO": "2026-11-09T21:59:00.000Z",
+      "dateFormatted": "9 listopada 2026"
+    },
+    {
+      "title": "Rosja, Ukraina i USA przy jednym stole. Trump mówi o przełomie",
+      "link": "https://www.bankier.pl/wiadomosc/Rosja-Ukraina-i-USA-przy-jednym-stole-Trump-mowi-o-przelomie-9226441.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Rozmowy na temat wojny w Ukrainie, które odbędą się w tym tygodniu w Abu Zabi, mogą przynieść przełom - ocenił w poniedziałek w rozmowie z agencją Reutera prezydent Donald Trump.",
+      "pubDate": "Mon, 9 Nov 2026 22:05:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/c/9/ca628086e676d4-948-568-0-69-3978-2386.jpg",
+      "dateISO": "2026-11-09T21:05:00.000Z",
+      "dateFormatted": "9 listopada 2026"
+    },
+    {
       "title": "Czarne chmury nad szefem Pentagonu. Jest wniosek o impeachment",
       "link": "https://businessinsider.com.pl/gospodarka/kongresmen-usa-chce-impeachmentu-petea-hegsetha-glosowanie-w-srode/dstqglw",
       "description": "Republikański kongresman Thomas Massie zgłosił wniosek o postawienie sekretarza obrony Pete’a Hegsetha w stan oskarżenia zaledwie tydzień po porażce Republikanów w wyborach połówkowych w USA — informuje Bloomberg. Postawił mu osiem zarzutów.",
@@ -10,18 +466,6 @@
       "category": "finanse",
       "image": "https://ocdn.eu/pulscms-transforms/1/xKWk9kpTURBXy9iOTdkODgyYmZlOWUzZDNmZTE3YjRhYzdlOTI5NGYwMy5qcGeRkwLNBLAA3gABoTAB",
       "dateISO": "2026-11-09T20:59:05.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Rumuńskie media piszą o Polsce. Wskazują na nietypowy zakład pod Poznaniem",
-      "link": "https://businessinsider.com.pl/gospodarka/volkswagen-zatrudnil-100-owiec-pracuja-w-fabryce-pod-poznaniem/xs2xldl",
-      "description": "Zakład Volkswagena we Wrześni pod Poznaniem zatrudnia ponad 3 tys. osób, ponad 600 autonomicznych robotów i do tego stado 100 owiec. Jak podkreśla rumuński portal Jurnalul.ro, to fabryka jedyna w swoim rodzaju.",
-      "pubDate": "Mon, 09 Nov 2026 20:35:35 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/U2Jk9kpTURBXy82MTM2MmU3YjMxMTdiNWU4MGJmYWE5MDVlMTJlZmRlOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-09T20:35:35.000Z",
       "dateFormatted": "9 listopada 2026"
     },
     {
@@ -49,18 +493,6 @@
       "dateFormatted": "9 listopada 2026"
     },
     {
-      "title": "Co dalej ze zmianą czasu? Polski rząd przygotowuje plan na pięć lat",
-      "link": "https://businessinsider.com.pl/lifestyle/nie-ma-porozumienia-w-sprawie-zmiany-czasu-polski-rzad-szykuje-plan-na-piec-lat/1vewqrg",
-      "description": "Dyskusja na temat sensowności zmieniania czasu z letniego na zimowy i odwrotnie trwa już od lat i do tej pory państwa Unii Europejskiej nie osiągnęły porozumienia. Jak informuje portal Pulshr.pl, rząd przygotowuje rozporządzenie, które ma ustalić plan zmiany czasu na najbliższe pięć lat.",
-      "pubDate": "Mon, 09 Nov 2026 19:53:25 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/l3rk9kpTURBXy9kZjEwOWIwYzk4OTRlMTMzY2Y4ZDZmNzBkYjQ5NTJiZC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-09T19:53:25.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
       "title": "Impeachment Hegsetha. Republikański kongresmen złożył wniosek",
       "link": "https://www.bankier.pl/wiadomosc/Impeachment-Hegsetha-Republikanski-kongresmen-zlozyl-wniosek-9226418.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Ustępujący republikański kongresmen Thomas Massie zgłosił w poniedziałek wniosek o postawienie ministra obrony USA Pete'a Hegsetha w stan oskarżenia (impeachment), m.in. w związku z jego działaniami podczas wojny z Iranem. Głosowanie nad wnioskiem ma odbyć się w ciągu dwóch dni.",
@@ -82,18 +514,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/9/7/a3d0fe15be902e-948-568-384-714-2572-1543.jpg",
       "dateISO": "2026-11-09T19:29:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Kijów ostrzega przed rosyjskim planem. Moskwa ma odciąć wschód Ukrainy",
-      "link": "https://businessinsider.com.pl/wiadomosci/rosyjskie-plany-wobec-ukrainy-zelenski-apeluje-do-unii-europejskiej/1h4e7r7",
-      "description": "Prezydent Ukrainy ostrzegł europejskich partnerów przed możliwością rozpoczęcia przez Rosję długotrwałych ataków na mosty przerzucone przez Dniepr — pisze \"Financial Times\". Brytyjski dziennik dodaje, że celem Moskwy miałoby być odcięcie wschodniej części Ukrainy, graniczącej z Rosją, od zachodniej ",
-      "pubDate": "Mon, 09 Nov 2026 19:28:08 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/bLqk9kpTURBXy9jMzRjZDJhNDA3MWNkMDRiYmRlMjg4OTA2NTRiNWU2NC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-09T19:28:08.000Z",
       "dateFormatted": "9 listopada 2026"
     },
     {
@@ -121,18 +541,6 @@
       "dateFormatted": "9 listopada 2026"
     },
     {
-      "title": "Rosja reaguje na ukraińskie ataki na rafinerie. Jest decyzja państwowego giganta",
-      "link": "https://businessinsider.com.pl/gospodarka/rosnieft-wprowadza-limity-na-paliwa-w-rosji-to-reakcja-na-dzialania-ukrainy/1sn55bf",
-      "description": "Ataki sił ukraińskich na rosyjskie rafinerie zmusiły rosyjski koncern naftowy Rosnieft do drastycznych decyzji. Wprowadzono limity na paliwa w Rosji.",
-      "pubDate": "Mon, 09 Nov 2026 19:01:30 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/GU5k9kpTURBXy84NzgxZmU5ODA4N2QxOWUwNWM3NjY1NjYxZWZlZjI5Ny5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-09T19:01:30.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
       "title": "Ukraina może dostać gwarancje podobne do NATO. USA ujawniają szczegóły",
       "link": "https://www.bankier.pl/wiadomosc/Ukraina-moze-dostac-gwarancje-podobne-do-NATO-USA-ujawniaja-szczegoly-9226383.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Poprosiliśmy Rosjan o zgodę na to, byśmy mogli udzielić Ukrainie gwarancji bezpieczeństwa na wzór artykułu 4 i artykułu 5 NATO - powiedział w poniedziałek mediom amerykański urzędnik przed rozmowami trójstronnymi w Abu Zabi. Gwarancji miałby udzielić też Sojusz Północnoatlantycki.",
@@ -142,18 +550,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/e/675a12020ef350-948-568-0-0-1773-1063.jpg",
       "dateISO": "2026-11-09T18:44:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "To oni mieli wyłączyć lodówki w sklepach. Francja wskazuje sprawców",
-      "link": "https://businessinsider.com.pl/gospodarka/to-oni-mieli-wylaczyc-lodowki-w-sklepach-francja-wskazuje-sprawcow-i-zapowiada-odwet/w28p221",
-      "description": "Francja wskazała sprawcę niedawnych cyberataków, które unieruchomiły lodówki w setkach hipermarketów w całym kraju, zmuszając sklepy do wyrzucenia ton zepsutej żywności. Francuski minister spraw zagranicznych otwarcie oskarżył o głównego wroga USA — informuje Bloomberg.",
-      "pubDate": "Mon, 09 Nov 2026 18:37:50 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/oyRk9kpTURBXy9kYWZiOTNiZTVhMDM2MWUxMGY4MzY0MjIwYWFlN2ZmNy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-09T18:37:50.000Z",
       "dateFormatted": "9 listopada 2026"
     },
     {
@@ -205,6 +601,18 @@
       "dateFormatted": "9 listopada 2026"
     },
     {
+      "title": "Demokraci chcą zmienić sposób wyboru prezydenta USA. Jest szansa na przełom",
+      "link": "https://www.bankier.pl/wiadomosc/Demokraci-chca-zmienic-sposob-wyboru-prezydenta-USA-Jest-szansa-na-przelom-9226367.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Przejęcie kontroli przez Demokratów w kilku stanach po niedawnych wyborach połówkowych może im pozwolić na zmarginalizowanie Kolegium Elektorów USA i zwiększenie znaczenia głosów wyborców w wyborach prezydenckich - ocenia „New York Times”.",
+      "pubDate": "Mon, 9 Nov 2026 19:15:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/0/4/1026dd37812760-948-568-9-0-1890-1134.jpg",
+      "dateISO": "2026-11-09T18:15:00.000Z",
+      "dateFormatted": "9 listopada 2026"
+    },
+    {
       "title": "Oxford otwiera się na Polskę. Nowe centrum i granty dla naukowców",
       "link": "https://www.bankier.pl/wiadomosc/Oxford-otwiera-sie-na-Polske-Nowe-centrum-i-granty-dla-naukowcow-9226365.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Oxford-Poland Hub, centrum współpracy między badaczami z Polski i uniwersytetu w Oksfordzie, rozpoczęło w poniedziałek działalność w południowej Anglii. Pierwszy program grantowy - kładący nacisk na nauki społeczne i humanistykę - ma ruszyć jeszcze w tym roku.",
@@ -214,42 +622,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/2/d/6058bd677128d4-945-560-0-0-1500-899.jpg",
       "dateISO": "2026-11-09T18:00:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Von der Leyen stawia warunek. Najpierw rozejm w Ukrainie, potem rozmowy o bezpieczeństwie",
-      "link": "https://www.bankier.pl/wiadomosc/Von-der-Leyen-stawia-warunek-Najpierw-rozejm-w-Ukrainie-potem-rozmowy-o-bezpieczenstwie-9226368.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Przewodnicząca Komisji Europejskiej Ursula von der Leyen oświadczyła w poniedziałek, że jakiekolwiek merytoryczne dyskusje na temat architektury bezpieczeństwa w Europie mogą rozpocząć się dopiero po osiągnięciu zawieszenia broni w Ukrainie. Jak dodała, muszą się one odbywać z udziałem państw NATO i",
-      "pubDate": "Mon, 9 Nov 2026 19:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/0/a39ce0651c2578-948-568-10-260-3990-2393.jpg",
-      "dateISO": "2026-11-09T18:00:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Badania, przechowywanie broni i strzelnice bez nadzoru. Trzy zapalne problemy",
-      "link": "https://businessinsider.com.pl/prawo/strzelanina-w-krakowie-wywoluje-debate-co-zmienic-w-przepisach-o-broni/5nmg4wv",
-      "description": "Tragiczna strzelanina w Krakowie stanowi impuls do analizy zasad wydawania pozwoleń na broń, jej przechowywania, w tym posiadania wielu egzemplarzy. Zapytaliśmy dwóch ekspertów, jak działają obecne przepisy i co ich zdaniem wymaga poprawy. Największe kontrowersje budzą trzy kwestie: badania, przecho",
-      "pubDate": "Mon, 09 Nov 2026 17:59:18 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/HEgk9kpTURBXy85NzU0ZTk5NTM3MWMzYzIyNGZjNWFiZmU1ZWE0YWNjNi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-09T17:59:18.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Polska firma robi superekologiczne ubrania. Przywraca do łask zapomniany biznes z czasów PRL",
-      "link": "https://www.bankier.pl/wiadomosc/Polska-firma-robi-superekologiczne-ubrania-Przywraca-do-lask-zapomniany-biznes-z-czasow-PRL-9226214.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Polska branża konopna przechodzi renesans, przekształcając niszowe uprawy w nowoczesne produkty włókiennicze i zielarskie. W podcaście „Z prądem” Maciej Kowalski, założyciel Kombinatu Konopnego, przedstawia perspektywy rozwoju tego sektora, walkę z dominacją syntetyków w odzieży oraz drogę spółki od",
-      "pubDate": "Mon, 9 Nov 2026 18:45:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/1/7a5ad2a1ac07c3-948-568-147-0-1514-908.png",
-      "dateISO": "2026-11-09T17:45:00.000Z",
       "dateFormatted": "9 listopada 2026"
     },
     {
@@ -301,18 +673,6 @@
       "dateFormatted": "9 listopada 2026"
     },
     {
-      "title": "Polska może dostać dodatkowe miliardy euro. Decyzja do końca listopada",
-      "link": "https://businessinsider.com.pl/gospodarka/polska-moze-dostac-dodatkowe-miliardy-euro-z-safe-decyzja-do-konca-listopada/xmcnmx9",
-      "description": "Do końca listopada ma zapaść decyzja o tym, czy Polska będzie starać się o dodatkowe środki z unijnego budżetu. Do rozdysponowania zostało 21,3 mld euro.",
-      "pubDate": "Mon, 09 Nov 2026 17:04:15 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/HILk9kpTURBXy8zNWUyYWM1Njc2OTI4MTI0MjkwYjNlMzI3ZTYxMjNhYi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-09T17:04:15.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
       "title": "Atak na zakład Astarty. Produkcja soi wstrzymana po rosyjskim uderzeniu",
       "link": "https://www.bankier.pl/wiadomosc/Zaklad-przetwarzania-soi-Astarty-zostal-uszkodzony-w-wyniku-ataku-lotniczego-z-8-XI-9226343.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Zakład przetwarzania soi spółki Astarta Holding, w wyniku wyniku ataku z użyciem lotniczych środków rażenia przeprowadzonego 8 listopada 2026 r., został uszkodzony - podał ukraiński holding rolno-przemysłowy w komunikacie. Po ataku działalność zakładu została zawieszona.",
@@ -337,30 +697,6 @@
       "dateFormatted": "9 listopada 2026"
     },
     {
-      "title": "Alexandria Ocasio-Cortez w wyścigu o Biały Dom? Zwolennicy już działają",
-      "link": "https://www.bankier.pl/wiadomosc/Alexandria-Ocasio-Cortez-w-wyscigu-o-Bialy-Dom-Zwolennicy-juz-dzialaja-9226330.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Powstała nowa organizacja polityczna „Ready for AOC”, która ogłosiła w poniedziałek, że zamierza nakłonić kongresmenkę z lewicowej frakcji Demokratów Alexandrię Ocasio-Cortez do startu w wyborach prezydenckich w 2028 roku - podaje „New York Times”.",
-      "pubDate": "Mon, 9 Nov 2026 18:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/3/c/2094bb67fc02cf-948-568-0-0-4000-2399.jpg",
-      "dateISO": "2026-11-09T17:00:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Niemcy grożą blokadą budżetu UE. Chcą gwarancji wsparcia dla Ukrainy",
-      "link": "https://businessinsider.com.pl/finanse/budzet-ue-zagrozony-niemcy-zadaja-gwarancji-pomocy-dla-ukrainy/w5bvw9p",
-      "description": "Kanclerz Niemiec ostrzegł, iż zablokuje przyjęcie kolejnego siedmioletniego budżetu Unii Europejskiej, jeśli wszystkie państwa członkowskie nie zobowiążą się do finansowania Ukrainy w 2027 r. i w kolejnych latach — pisze \"Financial Times\".",
-      "pubDate": "Mon, 09 Nov 2026 16:30:13 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/cPfk9kpTURBXy8xYzg4M2M4NDlhNTE5YzJjNzY3YTViYzI2OTkyMDljZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-09T16:30:13.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
       "title": "Giełdowa wycena Orlenu spadła już o 44 mld zł. Na zaciągniętym hamulcu ręcznym indeksy poszły w górę",
       "link": "https://www.bankier.pl/wiadomosc/Gieldowa-wycena-Orlenu-spadla-juz-o-44-mld-zl-Na-zaciagnietym-hamulcu-recznym-indeksy-poszly-w-gore-9226314.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Początek nowego tygodnia na GPW przyniósł odrabiania piątkowej przeceny. Na warszawskim parkiecie motorem napędowym poniedziałkowych zwyżek były przede wszystkim rozpędzony sektor bankowy, dynamiczne odbicie miedziowego giganta KGHM oraz rajd akcji Modivo. Przed większymi wzrostami indeks WIG20 pows",
@@ -370,18 +706,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/d/a/b86f474ab95658-948-568-0-99-4403-2642.jpg",
       "dateISO": "2026-11-09T16:15:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Iran chce wyjść z impasu. Chamenei wydał ważne polecenie",
-      "link": "https://www.bankier.pl/wiadomosc/Iran-chce-wyjsc-z-impasu-Chamenei-wydal-wazne-polecenie-9226301.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Prezydent Iranu Masud Pezeszkian oświadczył w poniedziałek, że najwyższy przywódca duchowy i polityczny kraju, Modżtaba Chamenei, nakazał zakończenie stanu „ni to wojny, ni pokoju”.",
-      "pubDate": "Mon, 9 Nov 2026 17:06:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/3/259ed9c812a936-948-568-68-58-3829-2297.jpg",
-      "dateISO": "2026-11-09T16:06:00.000Z",
       "dateFormatted": "9 listopada 2026"
     },
     {
@@ -421,54 +745,6 @@
       "dateFormatted": "9 listopada 2026"
     },
     {
-      "title": "Ruszył przetarg na potężną polską inwestycję na Bałtyku. Jest opór Niemców",
-      "link": "https://businessinsider.com.pl/gospodarka/przyladek-pomerania-niemcy-stawiaja-opor-strategicznej-inwestycji-polakow/51hbxph",
-      "description": "Polska ruszyła z kolejnym etapem gigantycznej inwestycji nad Bałtykiem. Ogłoszono przetarg na prace przy budowie Przylądka Pomerania. Strona niemiecka wciąż stawia twardy opór i domaga się badań — pisze serwis Nordkurier.de.",
-      "pubDate": "Mon, 09 Nov 2026 15:31:58 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/vxPk9kqTURBXy8xY2E5M2VkMTcxNWUyNjlmNzUyMmQ0ZDZiZmZjNzU2OS5qcGVnkZMCzQSwAN4AAaEwAQ",
-      "dateISO": "2026-11-09T15:31:58.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Rosjanie masowo opuszczają kraj. Trzy państwa biją rekordy z 17 lat",
-      "link": "https://www.bankier.pl/wiadomosc/Rosjanie-masowo-opuszczaja-kraj-Trzy-panstwa-bija-rekordy-z-17-lat-9226235.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W trzecim kwartale tego roku Rosjanie masowo wyjeżdżali do Gruzji, Armenii i Serbii - kraje te odnotowały w tym okresie największą liczbę przyjezdnych od 17 lat. Portal Moscow Times powiązał wzrost liczby wyjazdów z pogłoskami o nowej fali mobilizacji w Rosji.",
-      "pubDate": "Mon, 9 Nov 2026 16:03:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/0/9aaf451262c4a6-948-568-30-250-3970-2381.jpg",
-      "dateISO": "2026-11-09T15:03:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Ekspertka: Po raz pierwszy po tragedii Polacy się nie jednoczą",
-      "link": "https://www.bankier.pl/wiadomosc/Ekspertka-Po-raz-pierwszy-po-tragedii-Polacy-sie-nie-jednocza-9226134.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Zamach w Krakowie to pierwsza wielka tragedia, która nie zjednoczyła Polaków – powiedziała PAP prof. Katarzyna Bąkowicz z SWPS. Dr Krzysztof Grzegorzewski wskazał na zjawisko paralelizmu politycznego mediów, który można zdefiniować zdaniem: powiedz, jaką telewizję oglądasz, a powiem ci, jak będziesz",
-      "pubDate": "Mon, 9 Nov 2026 16:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/9/5/76379997e667d5-948-568-20-0-3980-2387.jpg",
-      "dateISO": "2026-11-09T15:00:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "ETS przynosi Polsce miliardy. Komisja Europejska podała nowe dane",
-      "link": "https://www.bankier.pl/wiadomosc/ETS-przynosi-Polsce-miliardy-Komisja-Europejska-podala-nowe-dane-9226215.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Dochody Polski z ogólnych aukcji uprawnień do emisji CO2 w ramach unijnego systemu EU ETS w 2025 r. wyniosły blisko 3.852 mln euro, a przychody ze sprzedaży uprawnień z Funduszu Modernizacyjnego w 2025 r. wyniosły blisko 1.639 mln euro - wynika z raportu KE dotyczącego m.in. rynku uprawnień do emisj",
-      "pubDate": "Mon, 9 Nov 2026 15:38:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/a/a2873a8a5e4651-948-568-0-429-1759-1055.png",
-      "dateISO": "2026-11-09T14:38:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
       "title": "Bariery na ulicach wokół Rynku Głównego. Kraków reaguje po tragedii",
       "link": "https://www.bankier.pl/wiadomosc/Bariery-na-ulicach-wokol-Rynku-Glownego-Krakow-reaguje-po-tragedii-9226197.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Tymczasowe bariery pojawią się na ulicach prowadzących do Rynku Głównego i Małego Rynku – zapowiedział krakowski urząd miasta. Montaż zaporowych elementów zaplanowano na najbliższe dni.",
@@ -493,54 +769,6 @@
       "dateFormatted": "9 listopada 2026"
     },
     {
-      "title": "Ukraina szykuje nowy sposób na Rosjan. Powstanie specjalna formacja wojskowa",
-      "link": "https://businessinsider.com.pl/technologie/ukraina-tworzy-nowa-formacje-wojskowa-uderza-w-rosjan-w-przestrzeni-kosmicznej/fzdg055",
-      "description": "Rada Najwyższa Ukrainy przegłosowała projekt ustawy umożliwiającej stworzenie Sił Kosmicznych jako części Sił Zbrojnych państwa. Celem jest skuteczne odstraszanie Rosjan, ale też atakowanie wroga w przestrzeni kosmicznej — informuje agencja Unian.",
-      "pubDate": "Mon, 09 Nov 2026 14:08:42 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/p9-k9kpTURBXy9kZWY5NDNkYzM4NjIxMmMwNjJhMmVmMDg2OWQ4N2Y0NC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-09T14:08:42.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "JSW pożyczy ponad miliard złotych od ARP. Pieniądze na ratowanie spółki",
-      "link": "https://www.bankier.pl/wiadomosc/Agencja-Rozwoju-Przemyslu-udzieli-JSW-do-1-066-mln-zl-pozyczki-9226190.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Jastrzębska Spółka Węglowa ma umowę pożyczki w wysokości do 1.066 mln zł z Agencją Rozwoju Przemysłu m.in. na rozliczenie zaliczki 400 mln zł z tytułu przedwstępnej umowy sprzedaży udziałów i akcji oraz na finansowanie działalności JSW prowadzonej w okresie realizacji programu naprawczego Grupy - po",
-      "pubDate": "Mon, 9 Nov 2026 15:08:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/6/1/5a1fcbc2cd1852-948-568-0-119-1773-1063.jpg",
-      "dateISO": "2026-11-09T14:08:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Przegląd popularnych kont osobistych. Co oferują banki i czym się różnią?",
-      "link": "https://businessinsider.com.pl/poradnik-finansowy/konto-osobiste-w-dziewieciu-bankach-porownanie-warunkow-oplat-i-bonusow/6rgebk2",
-      "description": "Konto osobiste to podstawowy produkt bankowy, który powinien mieć każdy, ale nie wszystkie rachunki są równie dobre. Ich oferty często na pierwszy rzut oka wyglądają podobnie, jednak diabeł tkwi w szczegółach.",
-      "pubDate": "Mon, 09 Nov 2026 14:06:35 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/hpQk9kpTURBXy83MDBkNDMzZjZmODNhZDRjOTBjMGZhNTI1NjFhYmRhOS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-09T14:06:35.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Stacje dają ceny wyższe od maksymalnych. Są dane z kontroli KAS",
-      "link": "https://businessinsider.com.pl/gospodarka/stacje-daja-ceny-wyzsze-od-maksymalnych-sa-dane-z-kontroli-kas/yethg6n",
-      "description": "Z danych Krajowej Administracji Skarbowej wynika, że średnio jedna na 40 stacji benzynowych w Polsce nie stosuje się do maksymalnych cen paliw wyznaczanych przez rząd i je zwyczajnie zawyża.",
-      "pubDate": "Mon, 09 Nov 2026 13:55:14 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/vmdk9kpTURBXy9mZjQ4MTYzOTUwNTZmYjUxYzBhNWEzYzcyOWM1MWFiOC5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-09T13:55:14.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
       "title": "PiS nie odpuszcza protestu przed TK. „Miasteczko musi trwać”",
       "link": "https://www.bankier.pl/wiadomosc/PiS-nie-odpuszcza-protestu-przed-TK-Miasteczko-musi-trwac-9226164.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Rzecznik PiS Rafał Bochenek oświadczył w poniedziałek, że „miasteczko przed Trybunałem Konstytucyjnym musi trwać”. „Jego cel jakim jest obrona Polski przed zamachem stanu jest wciąż aktualny” - podkreślił.",
@@ -550,54 +778,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/a/5/1f880d311abb91-948-568-20-10-3980-2387.jpg",
       "dateISO": "2026-11-09T13:43:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Tyle średnio zarabia strażak. Resort łagodzi zasady naboru do służby",
-      "link": "https://businessinsider.com.pl/praca/ile-zarabia-strazak-oferty-pracy-w-strazy-pozarnej-zarobki-kwoty/73v7zml",
-      "description": "Braki personalne pozostają problemem Państwowej Straży Pożarnej. MSWiA zdecydowało się nawet złagodzić kryteria naboru. Ile zarabia strażak?",
-      "pubDate": "Mon, 09 Nov 2026 13:41:38 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/aUpk9kpTURBXy80ZTcyZWYyNTk5ODRjYTZjMDE5ZDViYWQyMDQ0ZjJiMy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-09T13:41:38.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "GPM Vindexus wyemituje do 500 tys. obligacji serii A3 za maks. 50 mln zł",
-      "link": "https://www.bankier.pl/wiadomosc/GPM-Vindexus-wyemituje-do-500-tys-obligacji-serii-A3-za-maks-50-mln-zl-9226161.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Zarząd Giełdy Praw Majątkowych \"Vindexus\" podjął uchwałę w sprawie emisji do 500.000 obligacji serii A3 w cenie emisyjnej 100 zł za sztukę - podała spółka w komunikacie. Termin wykupu będzie przypadał na 10 grudnia 2030 r.",
-      "pubDate": "Mon, 9 Nov 2026 14:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": null,
-      "dateISO": "2026-11-09T13:40:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Świat nie nadąża z walką o klimat. Na COP31 padło ostrzeżenie",
-      "link": "https://www.bankier.pl/wiadomosc/Swiat-nie-nadaza-z-walka-o-klimat-Na-COP31-padlo-ostrzezenie-9226160.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W Antalyi na południu Turcji ruszył w poniedziałek szczyt klimatyczny ONZ - COP31. Podczas wydarzenia, które potrwa do 20 listopada, delegaci omówią wsparcie dla krajów rozwijających się, zarówno w zakresie kosztów przystosowania się do rosnących temperatur, jak i procesu odchodzenia od paliw kopaln",
-      "pubDate": "Mon, 9 Nov 2026 14:39:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/c/f0c9ce56a76bcc-948-568-50-10-3950-2369.jpg",
-      "dateISO": "2026-11-09T13:39:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "W Polsce ciągle ponad 900 tys. bezrobotnych, ale jest lekka poprawa. Są nowe dane",
-      "link": "https://businessinsider.com.pl/praca/bezrobotnych-w-polsce-lekko-ubylo-jak-wyglada-sytuacja-nowe-dane/j66qldt",
-      "description": "Liczba zarejestrowanych bezrobotnych w Polsce nieznacznie spadła, choć nadal przekracza 900 tys. osób. Według szacunków Ministerstwa Rodziny, Pracy i Polityki Społecznej stopa bezrobocia na koniec października 2026 r. wyniosła 5,8 proc.",
-      "pubDate": "Mon, 09 Nov 2026 13:31:49 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/_zkk9kpTURBXy80MWU1Y2I4YWFiOTlmMzY3NjU5YTI3Yjc3YmE5ODQ2Yy5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-09T13:31:49.000Z",
       "dateFormatted": "9 listopada 2026"
     },
     {
@@ -613,42 +793,6 @@
       "dateFormatted": "9 listopada 2026"
     },
     {
-      "title": "Poważny problem w Fordach. Amerykanie wszczęli śledztwo w sprawie 1,2 mln samochodów",
-      "link": "https://businessinsider.com.pl/technologie/motoryzacja/ponad-milion-fordow-moze-miec-powazny-problem-amerykanie-wszczeli-sledztwo/xcxmpd0",
-      "description": "Niektóre elementy wyposażenia w Fordach mogą powodować poważne obrażenia u kierowców i pasażerów. Amerykański urząd do spraw bezpieczeństwa ruchu drogowego NHTSA wszczął dochodzenie w sprawie 1,2 mln samochodów tej marki — informuje Reuters.",
-      "pubDate": "Mon, 09 Nov 2026 13:19:17 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/3LAk9kpTURBXy85MTQ3YTZjMzNmNjMzZWRmODZiMWYzYzAwZDBiMDNiZi5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-09T13:19:17.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Gigantyczna nieruchomość na sprzedaż. \"Stan wizualny nie jest najlepszy\"",
-      "link": "https://businessinsider.com.pl/nieruchomosci/zamek-za-jedyne-1-euro-mieszkancy-musieli-opuscic-posiadlosc/p32h9p6",
-      "description": "Każdy, kto choć raz chciałby poczuć się jak właściciel zamku, może skorzystać z tej okazji. Miasto Bad Düben poszukuje \"wybawcy\" dla liczącej około 800 lat posiadłości w Saksonii. Cena zakupu: symboliczne 1 euro. Jest jednak haczyk.",
-      "pubDate": "Mon, 09 Nov 2026 13:00:25 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/lcrk9kqTURBXy9jYTg1NzQwZWZiNmIxMjRjMWMzOGE5OTA5Y2QxZDVkYS5qcGVnkZMCzQSwAN4AAaEwAQ",
-      "dateISO": "2026-11-09T13:00:25.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "We wtorek maksymalne ceny paliw niższe niż w poniedziałek",
-      "link": "https://www.bankier.pl/wiadomosc/We-wtorek-maksymalne-ceny-paliw-nizsze-niz-w-poniedzialek-9226107.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "We wtorek litr benzyny 95 ma kosztować nie więcej niż 6,04 zł, benzyny 98 - 6,67 zł, a oleju napędowego - 7,74 zł - wynika z poniedziałkowego obwieszczenia Ministra Energii. Oznacza to, że ceny maksymalne benzyny i oleju napędowego będą niższe niż w poniedziałek.",
-      "pubDate": "Mon, 9 Nov 2026 13:30:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/a/0c8f87daa97184-948-568-0-10-3548-2128.jpg",
-      "dateISO": "2026-11-09T12:30:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
       "title": "Uczniowie skandowali wulgarne hasła przed TK. MEN wszczyna pilną kontrolę",
       "link": "https://www.bankier.pl/wiadomosc/Uczniowie-skandowali-wulgarne-hasla-przed-TK-MEN-wszczyna-pilna-kontrole-9226100.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Ministra edukacji Barbara Nowacka poinformowała w poniedziałek, że trwa pilna kontrola w związku z doniesieniami o udziale uczniów niepublicznego liceum w Zamościu (Lubelskie) w demonstracji przed Trybunałem Konstytucyjnym. Założycielka szkoły apeluje o „powściągnięcie emocji”.",
@@ -661,54 +805,6 @@
       "dateFormatted": "9 listopada 2026"
     },
     {
-      "title": "Maksymalne ceny paliw we wtorek 10 listopada. Tyle będzie kosztować benzyna i diesel",
-      "link": "https://businessinsider.com.pl/gospodarka/ceny-paliw-we-wtorek-10-listopada-2026-r-nie-moze-byc-drozej/q3fhsjb",
-      "description": "Decyzją ministra energii benzyna Pb 95 we wtorek nie może kosztować więcej niż 6 zł 4 gr za litr. To o 8 gr mniej niż w poniedziałek. Tanieje również olej napędowy.",
-      "pubDate": "Mon, 09 Nov 2026 12:21:59 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/p3Pk9kpTURBXy82OTMwZjVkZmQyOWYzNWIyYzQwY2E5OGM1MTk3ZWU0NS5qcGeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-09T12:21:59.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "21 miliardów euro do podziału w Brukseli. Polska rozważa kolejne unijne pożyczki na zbrojenia",
-      "link": "https://www.bankier.pl/wiadomosc/21-miliardow-euro-do-podzialu-w-Brukseli-Polska-rozwaza-kolejne-unijne-pozyczki-na-zbrojenia-9226045.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Minister finansów i gospodarki Andrzej Domański oświadczył w poniedziałek, że do końca listopada zapadnie decyzja o tym, czy Polska będzie zabiegać o dodatkowe pożyczki z unijnego programu obronnego SAFE. Jak dodał, Polsce zależy na funduszach na obronność w kolejnym unijnym budżecie.",
-      "pubDate": "Mon, 9 Nov 2026 13:15:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/2/5/7e5d145df42ff7-948-568-250-80-3750-2249.jpg",
-      "dateISO": "2026-11-09T12:15:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Miała być zielona rewolucja, a jest spalanie diesla i awaria. Miasto zapomniało o... ładowarce",
-      "link": "https://www.bankier.pl/wiadomosc/Miala-byc-zielona-rewolucja-a-jest-spalanie-diesla-i-awaria-Miasto-zapomnialo-o-ladowarce-9226043.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Miał być dumą Nowego Jorku i symbolem zielonej transformacji miejskiego transportu. Skończyło się wizerunkową wpadką i spalaniem drogiego oleju napędowego. Nowojorski hybrydowo-elektryczny prom, warty 33 miliony dolarów, nie ma skąd czerpać prądu, ponieważ miasto wciąż nie postawiło dla niego stacji",
-      "pubDate": "Mon, 9 Nov 2026 13:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/0/3ad0628fd08952-948-568-528-393-3543-2126.jpg",
-      "dateISO": "2026-11-09T12:00:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Reset obywatelski. Po tragedii na krakowskim Rynku kolejnej szansy możemy nie dostać [OPINIA]",
-      "link": "https://businessinsider.com.pl/wiadomosci/zamach-w-krakowie-i-swieto-niepodleglosci-kolejnej-szansy-mozemy-juz-nie-dostac/20lwnfq",
-      "description": "W miniony weekend jeden z moich pełnoletnich, ale wciąż przecież nieopierzonych synów, który dopiero — często przecierając oczy ze zdumienia — uczy się świata dorosłych, pierwszy raz od wielu miesięcy spędzał wolny czas z przyjaciółmi w Krakowie. Chyba nie muszę wyjaśniać, jakie myśli przeleciały mi",
-      "pubDate": "Mon, 09 Nov 2026 11:50:26 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://ocdn.eu/pulscms-transforms/1/PZrk9kpTURBXy9jYTk0ODJkYmFjYWY2NWI4NTUzNGE2NTY2Y2Y2NTIyMi5wbmeRkwLNBLAA3gABoTAB",
-      "dateISO": "2026-11-09T11:50:26.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
       "title": "Zawieszona spółka z GPW publikuje przełomowe orzeczenie TSUE. Rosyjski oligarcha, zamrożone rachunki i prąd dla Możejek",
       "link": "https://www.bankier.pl/wiadomosc/Rosyjski-oligarcha-zamrozone-rachunki-i-bunt-mniejszosciowych-akcjonariuszy-zawieszonej-spolki-z-GPW-Wygrala-z-Orlenem-i-litewskimi-wladzami-9226037.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Od paniki na GPW i zawieszenia notowań, przez utratę koncesji i bankructwo, aż po spektakularne zwycięstwa w sądach nad rynkowymi gigantami. Historia litewskiej spółki energetycznej AB INTER RAO Lietuva to gotowy scenariusz na finansowy thriller.",
@@ -718,102 +814,6 @@
       "category": "gielda",
       "image": "http://galeria.bankier.pl/p/5/0/c311a2654c0e88-948-568-10-280-3983-2390.jpg",
       "dateISO": "2026-11-09T11:42:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Biedronka uruchamia własną aplikację do zakupów online. Biek debiutuje w 16 miastach",
-      "link": "https://www.bankier.pl/wiadomosc/Biedronka-uruchamia-wlasna-aplikacje-do-zakupow-online-Biek-debiutuje-w-16-miastach-9226051.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Sieć sklepów Biedronka uruchamia własną aplikację Biek do zakupów online - poinformowała sieć w komunikacie prasowym. Aplikacja będzie dostępna we wszystkich 16 miastach, w których obecnie działa Biek.",
-      "pubDate": "Mon, 9 Nov 2026 12:24:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/5/984577aee884c5-948-568-50-330-1950-1169.jpg",
-      "dateISO": "2026-11-09T11:24:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Koniec kupowania z półki. MON stawia warunki USA: Nie chcemy być już tylko klientem",
-      "link": "https://www.bankier.pl/wiadomosc/Koniec-kupowania-z-polki-MON-stawia-warunki-USA-Nie-chcemy-byc-juz-tylko-klientem-9226049.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wiceszefowa MON Magdalena Sobkowiak-Czarnecka stwierdziła w poniedziałek podczas polsko-amerykańskiego forum przemysłów obronnych, że w relacjach z zagranicznym przemysłem zbrojeniowym - w tym amerykańskim - Polska „nie chce już być tylko kupującym, ale chce przejść do roli partnera”.",
-      "pubDate": "Mon, 9 Nov 2026 12:21:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/4/6/541b73f663a62a-948-568-85-117-3216-1929.jpg",
-      "dateISO": "2026-11-09T11:21:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Pot na palcach paraliżował granice UE. Bruksela domaga się milionów od IBM",
-      "link": "https://www.bankier.pl/wiadomosc/Pot-na-palcach-paralizowal-granice-UE-Bruksela-domaga-sie-milionow-od-IBM-9225982.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Unia Europejska straciła cierpliwość do inteligentnego systemu kontroli granicznej \"Wjazd i Wyjazd\" (w skrócie EES). Dostarczony przez IBM i partnerów produkt nie spełnił jednak pokładanych w nim nadziei. Stąd w obliczu powtarzających się opóźnień, Buksela zdecydowała się na pozew - informuje \"Finan",
-      "pubDate": "Mon, 9 Nov 2026 11:42:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/1/dc14a2a79adc2e-948-568-131-262-2406-1443.jpg",
-      "dateISO": "2026-11-09T10:42:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Zarobki górników gonią IT, a \"średnia krajowa\" reszty oscyluje wokół 9 tys. zł",
-      "link": "https://www.bankier.pl/wiadomosc/Zarobki-gornikow-gonia-IT-a-srednia-krajowa-reszty-oscyluje-wokol-9-tys-zl-9225950.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Przeciętne miesięczne wynagrodzenie brutto w III kwartale 2026 roku wyniosło 9317,01 zł brutto. To oznacza wzrost o 6,2 proc. Analiza danych pokazuje, że tempo podwyżek wyraźnie wyhamowało w porównaniu z \"szalonymi\" poprzednimi latami. Wciąż rosną one jednak szybciej niż ceny w sklepach.",
-      "pubDate": "Mon, 9 Nov 2026 11:13:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/1/6/ff8571c744502f-948-569-7-72-991-595.jpg",
-      "dateISO": "2026-11-09T10:13:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Tego w walizce InPostu nie było. LOT wypuszcza \"swój\" bagaż napakowany gadżetami",
-      "link": "https://www.bankier.pl/wiadomosc/Tego-w-walizce-InPostu-nie-bylo-LOT-wypuszcza-swoj-bagaz-napakowany-gadzetami-9225939.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Po sukcesie walizki InPostu LOT postanowił wypuścić swój model bagażu we współpracy z firmą Wittchen. Przygotowane przez ten duet kabinówki są wyposażone m.in. w port USB, dzięki któremu można m.in. ładować telefon. To jednak nie jedyna niespodzianka.",
-      "pubDate": "Mon, 9 Nov 2026 10:10:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/a/a1becbbeeb5291-948-568-0-52-3000-1799.jpg",
-      "dateISO": "2026-11-09T09:10:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Rewolucja w odprawach Ryanaira. Koniec z nerwami tuż przed lotem",
-      "link": "https://www.bankier.pl/wiadomosc/Rewolucja-w-odprawach-Ryanaira-Koniec-z-nerwami-tuz-przed-lotem-9225930.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Stało się. Ryanair podjął decyzję o wydłużeniu darmowej odprawy. Pasażerowie, którzy nie opłacili wyboru miejsca, już nie muszą odliczać godzin do doby przed wylotem. Mogą się odprawić nawet na 72 godziny przed odlotem.",
-      "pubDate": "Mon, 9 Nov 2026 09:08:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/4/00555d31c797a5-948-568-4-110-1915-1149.jpg",
-      "dateISO": "2026-11-09T08:08:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Ukraińskie drony uderzyły w drugą największą rafinerię w Rosji. Potężny pożar pod Petersburgiem",
-      "link": "https://www.bankier.pl/wiadomosc/Ukrainskie-drony-uderzyly-w-druga-najwieksza-rafinerie-w-Rosji-Potezny-pozar-pod-Petersburgiem-9225911.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Drony ukraińskiej armii zaatakowały rafinerię w rosyjskim obwodzie leningradzkim, w pobliżu Petersburga, powodując duży pożar i serię wybuchów – poinformował w poniedziałek rano portal Ukrainska Prawda. To drugie pod względem wielkości zakłady rafineryjne w Rosji.",
-      "pubDate": "Mon, 9 Nov 2026 08:04:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/7/56f82a1a4eb40d-948-568-0-255-2950-1770.jpg",
-      "dateISO": "2026-11-09T07:04:00.000Z",
-      "dateFormatted": "9 listopada 2026"
-    },
-    {
-      "title": "Binance zamyka konta Polaków i wprowadza opłatę za przetrzymywanie środków",
-      "link": "https://www.bankier.pl/wiadomosc/Binance-zamyka-konta-Polakow-i-wprowadza-oplate-za-przetrzymywanie-srodkow-9225908.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Binance zamknie konta użytkowników z Polski 31 grudnia 2026 roku. Kto nie wypłaci swoich aktywów przed końcem listopada, musi liczyć się z nowymi, słonymi opłatami za ich przetrzymywanie. To pokłosie braku unijnej licencji MiCA, która zmusiła giganta do wyjścia z polskiego rynku.",
-      "pubDate": "Mon, 9 Nov 2026 07:57:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/8/6/4ae5148420b34e-948-568-0-180-4000-2399.jpg",
-      "dateISO": "2026-11-09T06:57:00.000Z",
       "dateFormatted": "9 listopada 2026"
     },
     {
@@ -947,19 +947,7 @@
       "image": "https://content-media.investing.com/news/Cryptocurrencies_800x533_L_1556444856.jpg",
       "dateISO": "2026-11-05T15:51:44.000Z",
       "dateFormatted": "5 listopada 2026"
-    },
-    {
-      "title": "Bitcoin umacnia się na poziomie 80 500 $, wybory w USA napędzają apetyt na ryzyko",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-umacnia-sie-na-poziomie-80-500--wybory-w-usa-napedzaja-apetyt-na-ryzyko-1636886",
-      "description": "",
-      "pubDate": "2026-11-05 06:00:46",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/LYNXMPEA74100_M.jpg",
-      "dateISO": "2026-11-05T06:00:46.000Z",
-      "dateFormatted": "5 listopada 2026"
     }
   ],
-  "updatedAt": "2026-11-09T23:58:28.147Z"
+  "updatedAt": "2026-11-10T07:01:37.260Z"
 }
