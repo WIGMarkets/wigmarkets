@@ -9845,14 +9845,14 @@
     "indicators": [
       {
         "name": "Siła wolumenu",
-        "value": 65,
+        "value": 66,
         "label": "Chciwość",
-        "description": "Stosunek wolumenu w dniach wzrostowych do spadkowych na GPW (30 sesji). Przewaga kupujących to sygnał chciwości. Ratio: 1.15.",
+        "description": "Stosunek wolumenu w dniach wzrostowych do spadkowych na GPW (30 sesji). Przewaga kupujących to sygnał chciwości. Ratio: 1.16.",
         "weight": 0.1,
         "details": {
-          "upVol": 533709977,
-          "downVol": 462390260,
-          "ratio": 1.15
+          "upVol": 535503952,
+          "downVol": 460178544,
+          "ratio": 1.16
         }
       },
       {
@@ -9880,6 +9880,6 @@
       }
     ],
     "indicatorsUsed": 3,
-    "updatedAt": "2026-11-12T00:16:50.740Z"
+    "updatedAt": "2026-11-12T23:21:42.306Z"
   }
 ]
