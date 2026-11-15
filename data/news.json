@@ -1,6 +1,30 @@
 {
   "articles": [
     {
+      "title": "Sztuka jako katalizator innowacji. Dlaczego biznes technologiczny potrzebuje artystów?",
+      "link": "https://www.bankier.pl/wiadomosc/Sztuka-jako-katalizator-innowacji-Dlaczego-biznes-technologiczny-potrzebuje-artystow-9226864.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Obecność instytucji kultury na konferencjach poświęconych technologiom i startupom może na pierwszy rzut oka budzić zaskoczenie, jednak świat biznesu i sztuki łączy znacznie więcej, niż mogłoby się wydawać. Podczas wydarzenia Made in Wrocław w studiu Bankier.pl gościła Katarzyna Młyńczak-Sachs, prez",
+      "pubDate": "Sun, 15 Nov 2026 06:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/d/d97985f3118baa-948-568-57-12-1152-691.jpg",
+      "dateISO": "2026-11-15T05:00:00.000Z",
+      "dateFormatted": "15 listopada 2026"
+    },
+    {
+      "title": "Kurs Ethereum traci 10%, na rynku niedźwiedzia",
+      "link": "https://pl.investing.com/news/cryptocurrency-news/kurs-ethereum-traci-10-na-rynku-niedzwiedzia-1652979",
+      "description": "",
+      "pubDate": "2026-11-15 01:04:04",
+      "source": "Investing.com PL",
+      "sourceColor": "#e67e22",
+      "category": "gielda",
+      "image": "https://content-media.investing.com/news/LYNXMPED990HX_M.jpg",
+      "dateISO": "2026-11-15T01:04:04.000Z",
+      "dateFormatted": "15 listopada 2026"
+    },
+    {
       "title": "Kurs XRP traci 10%, podczas wyprzedaży",
       "link": "https://pl.investing.com/news/cryptocurrency-news/kurs-xrp-traci-10-podczas-wyprzedazy-1652963",
       "description": "",
@@ -229,18 +253,6 @@
       "dateFormatted": "14 listopada 2026"
     },
     {
-      "title": "Energetyka, przemysł i handel z potencjałem. Ekspert ocenia perspektywy GPW",
-      "link": "https://www.bankier.pl/wiadomosc/Energetyka-przemysl-i-handel-z-potencjalem-Ekspert-ocenia-perspektywy-GPW-9227833.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Mimo bardzo wysokich wzrostów w tym roku, warszawska giełda ma szanse na dalsze zwyżki. Przemawiają za tym solidne fundamenty gospodarki, napływ kapitału na GPW i pozytywne nastawienie inwestorów zagranicznych – ocenia Tomasz Matras, dyrektor Biura Rynku Akcji TFI PZU. Jego zdaniem, in plus mogą wyr",
-      "pubDate": "Sat, 14 Nov 2026 14:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/6/8/1288b01e0a034a-948-568-12-75-987-592.jpg",
-      "dateISO": "2026-11-14T13:00:00.000Z",
-      "dateFormatted": "14 listopada 2026"
-    },
-    {
       "title": "Polacy gromadzą coraz więcej w PPK. Aktywa funduszy biją rekordy",
       "link": "https://www.bankier.pl/wiadomosc/Polacy-gromadza-coraz-wiecej-w-PPK-Aktywa-funduszy-bija-rekordy-9227957.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Aktywa krajowych funduszy inwestycyjnych wzrosły w październiku o 781 mln zł, do rekordowych 492,1 mld zł. Niemal cały przyrost przypadł na PPK - wynika z komunikatu Analiz.pl, na podstawie danych IZFiA.",
@@ -253,6 +265,18 @@
       "dateFormatted": "14 listopada 2026"
     },
     {
+      "title": "Energetyka, przemysł i handel z potencjałem. Ekspert ocenia perspektywy GPW",
+      "link": "https://www.bankier.pl/wiadomosc/Energetyka-przemysl-i-handel-z-potencjalem-Ekspert-ocenia-perspektywy-GPW-9227833.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Mimo bardzo wysokich wzrostów w tym roku, warszawska giełda ma szanse na dalsze zwyżki. Przemawiają za tym solidne fundamenty gospodarki, napływ kapitału na GPW i pozytywne nastawienie inwestorów zagranicznych – ocenia Tomasz Matras, dyrektor Biura Rynku Akcji TFI PZU. Jego zdaniem, in plus mogą wyr",
+      "pubDate": "Sat, 14 Nov 2026 14:00:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "gielda",
+      "image": "http://galeria.bankier.pl/p/6/8/1288b01e0a034a-948-568-12-75-987-592.jpg",
+      "dateISO": "2026-11-14T13:00:00.000Z",
+      "dateFormatted": "14 listopada 2026"
+    },
+    {
       "title": "USA po raz pierwszy zapytały Ukrainę o wejście do NATO w zamian za wycofanie z Donbasu",
       "link": "https://www.bankier.pl/wiadomosc/Zelenski-USA-po-raz-pierwszy-zaproponowaly-Ukrainie-mozliwosc-wejscia-do-NATO-w-zamian-za-wycofanie-sie-z-Donbasu-opis-9228918.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "USA po raz pierwszy postawiły przed Ukrainą możliwość przystąpienia do NATO w zamian za wycofanie się z Donbasu – przekazał prezydent Ukrainy Wołodymyr Zełenski. Ukraina omawia z partnerami kompleksowy pakiet gwarancji bezpieczeństwa, nie przedstawiono jednak konkretnej propozycji - dodał.",
@@ -261,18 +285,6 @@
       "sourceColor": "#e74c3c",
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/0/f/cb29cc303ea4e5-948-568-100-20-3900-2339.jpg",
-      "dateISO": "2026-11-14T13:00:00.000Z",
-      "dateFormatted": "14 listopada 2026"
-    },
-    {
-      "title": "Gotówka zakopana w lesie. Tak ukrywano pieniądze w sprawie byłego ministra Orbana",
-      "link": "https://www.bankier.pl/wiadomosc/Gotowka-zakopana-w-lesie-Tak-ukrywano-pieniadze-w-sprawie-bylego-ministra-Orbana-9228912.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Węgierskie władze poinformowały, że przejęły około 6,5 mld forintów (około 18 mln euro) w gotówce w ramach sprawy korupcyjnej dotyczącej Miklosa Sesztaka, byłego ministra rozwoju w rządzie Viktora Orbana. Pieniądze były poukrywane m.in. w lesie oraz magazynach i budynkach gospodarczych.",
-      "pubDate": "Sat, 14 Nov 2026 14:00:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/5/4/6ee879349ac005-948-568-7-104-2992-1795.jpg",
       "dateISO": "2026-11-14T13:00:00.000Z",
       "dateFormatted": "14 listopada 2026"
     },
@@ -517,18 +529,6 @@
       "dateFormatted": "14 listopada 2026"
     },
     {
-      "title": "Nowe cła i opłaty hamują zakupy z Chin? W lipcu liczba paczek spadła o połowę",
-      "link": "https://www.bankier.pl/wiadomosc/Nowe-cla-i-oplaty-hamuja-zakupy-z-Chin-W-lipcu-liczba-paczek-spadla-o-polowe-9227265.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Ponad 6,2 mln przesyłek o wartości do 150 euro trafiło do Polski od 1 lipca do 30 września z państw trzecich, z tego 90 proc., czyli ok. 5,6 mln z Chin - wynika z informacji Ministerstwa Finansów. Liczba chińskich przesyłek rok do roku spadła o ponad 31,2 tys.",
-      "pubDate": "Sat, 14 Nov 2026 08:17:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/6/f/f919ccb0406bed-948-567-0-54-950-569.jpg",
-      "dateISO": "2026-11-14T07:17:00.000Z",
-      "dateFormatted": "14 listopada 2026"
-    },
-    {
       "title": "Przewaga spadków na Wall Street po odejściu szefa Nvidii. Inwestorzy analizują dane",
       "link": "https://www.bankier.pl/wiadomosc/Przewaga-spadkow-na-Wall-Street-po-odejsciu-szefa-Nvidii-Inwestorzy-analizuja-dane-9228871.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
       "description": "Piątkowa sesja na Wall Street zakończyła się przewagą spadków wśród głównych indeksów, a rynkowi w dalszym ciągu ciążyły zniżkujące akcje koncernu Nvidia. W centrum uwagi inwestorów były też dane o PPI w Stanach Zjednoczonych.",
@@ -745,6 +745,18 @@
       "dateFormatted": "13 listopada 2026"
     },
     {
+      "title": "Za chwilę Nvidia ujawni swoje tajemnice, a Fed kulisy swojej decyzji. W planie także polski przemysł i inflacja",
+      "link": "https://www.bankier.pl/wiadomosc/Kalendarz-ekonomiczny-16-22-11-2026-Nvidia-KGHM-i-PZU-pokaza-wyniki-W-planie-takze-Warsh-polski-przemysl-i-inflacja-9228369.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Nadchodzący tydzień na rynkach finansowych zapowiada się wyjątkowo gorąco zarówno za oceanem, jak i na warszawskim parkiecie. Inwestorzy z całego świata będą w napięciu wyczekiwać raportu kwartalnego Nvidii, która mierzy się z kryzysem wizerunkowym po głośnym odejściu Jensena Huanga. Na krajowym pod",
+      "pubDate": "Fri, 13 Nov 2026 11:38:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/6/e/d04d5376016882-948-568-0-95-3456-2073.jpg",
+      "dateISO": "2026-11-13T10:38:00.000Z",
+      "dateFormatted": "13 listopada 2026"
+    },
+    {
       "title": "Latające cysterny dla Polski coraz bliżej. Hiszpania podpisała umowę z Airbusem",
       "link": "https://www.bankier.pl/wiadomosc/Latajace-cysterny-dla-Polski-coraz-blizej-Hiszpania-podpisala-umowe-z-Airbusem-9228360.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Hiszpania podpisała umowę ramową z Airbusem na tankowce A330 MRTT, które kupi razem z Polską w ramach programu SAFE – poinformowała w piątek wiceszefowa MON Magdalena Sobkowiak-Czarnecka. Następnym krokiem jest podpisanie umowy wykonawczej przez Polskę, która ma zostać sfinalizowana do końca roku.",
@@ -863,19 +875,7 @@
       "image": "http://galeria.bankier.pl/p/d/4/766ad3d954ad97-948-568-549-0-2241-1344.png",
       "dateISO": "2026-11-12T05:00:00.000Z",
       "dateFormatted": "12 listopada 2026"
-    },
-    {
-      "title": "Bitcoin spada poniżej 74 tys. $, gorące dane CPI podbijają oczekiwania",
-      "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-spada-ponizej-74-tys--gorace-dane-cpi-podbijaja-oczekiwania-1647432",
-      "description": "",
-      "pubDate": "2026-11-11 06:31:13",
-      "source": "Investing.com PL",
-      "sourceColor": "#e67e22",
-      "category": "gielda",
-      "image": "https://content-media.investing.com/news/LYNXNPEC6413U_M.jpg",
-      "dateISO": "2026-11-11T06:31:13.000Z",
-      "dateFormatted": "11 listopada 2026"
     }
   ],
-  "updatedAt": "2026-11-14T22:01:49.013Z"
+  "updatedAt": "2026-11-15T05:14:43.178Z"
 }
