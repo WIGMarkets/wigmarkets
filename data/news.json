@@ -1,15 +1,123 @@
 {
   "articles": [
     {
-      "title": "Grupa OT Logistics po III kw. 2026 r. miała 47,1 mln zł EBITDA i 12 mln zł straty netto",
-      "link": "https://www.bankier.pl/wiadomosc/Grupa-OT-Logistics-po-III-kw-2026-r-miala-47-1-mln-zl-EBITDA-i-12-mln-zl-straty-netto-9230482.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
-      "description": "Grupa OT Logistics miała w okresie I-III kw. 2026 roku 47,1 mln zł EBITDA, co oznacza wzrost o 65,8 proc. rdr oraz 12 mln zł straty netto wobec 27,1 mln zł straty rok wcześniej - poinformowała spółka w komunikacie prasowym.",
-      "pubDate": "Tue, 17 Nov 2026 18:20:00 +0100",
+      "title": "Nvidia znów to zrobiła. Przychody i zyski zostały podwojone",
+      "link": "https://www.bankier.pl/wiadomosc/Nvidia-znow-to-zrobila-Przychody-i-zyski-zostaly-podwojone-9230579.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Gielda",
+      "description": "Nvidia pokazała dwukrotnie wyższe niż rok wcześniej przychody ze sprzedaży jak również zysk netto. Obie kategorie przebiły rynkowy konsensus.",
+      "pubDate": "Tue, 17 Nov 2026 22:58:00 +0100",
       "source": "Bankier.pl",
       "sourceColor": "#e74c3c",
       "category": "gielda",
-      "image": "http://galeria.bankier.pl/p/a/a/989b4ed5276ee4-948-568-0-77-4445-2666.jpg",
-      "dateISO": "2026-11-17T17:20:00.000Z",
+      "image": "http://galeria.bankier.pl/p/2/7/68ac93fff2efa1-948-568-0-74-3000-1799.jpg",
+      "dateISO": "2026-11-17T21:58:00.000Z",
+      "dateFormatted": "17 listopada 2026"
+    },
+    {
+      "title": "Skandynawski patent na ogrzewanie. Można zacząć od drobiazgów",
+      "link": "https://businessinsider.com.pl/technologie/jak-ogrzac-dom-zima-norwegowie-znalezli-sposob/9hhsn55",
+      "description": "Norweskie podejście do ogrzewania nie polega jedynie na zainstalowaniu urządzenia o większej mocy. Chodzi raczej o to, by najpierw zatrzymać ciepło, a następnie efektywnie je rozprowadzić.",
+      "pubDate": "Tue, 17 Nov 2026 20:28:10 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://cdn.businessinsider.com.pl/1/RXVk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9lZmFlZWRkYjllZGIyYjMzZWMzNThkNWUzZjk2M2U3OS5qcGeSlQMAzM7NB9DNBGWTBc0JYM0GQN4AAqEwB6ExBA",
+      "dateISO": "2026-11-17T20:28:10.000Z",
+      "dateFormatted": "17 listopada 2026"
+    },
+    {
+      "title": "Andrzej Domański o przedłużeniu pakietu CPN. \"To są poważne, wysokie kwoty\"",
+      "link": "https://businessinsider.com.pl/gospodarka/pakiet-cpn-do-kiedy-obowiazuje-czy-bedzie-przedluzony/6kq9p15",
+      "description": "Co dalej z pakietem CPN? W najbliższych tygodniach rząd podejmie decyzję, czy pakiet powinien być przedłużony w pierwszych miesiącach 2027 r. — powiedział minister finansów i gospodarki Andrzej Domański.",
+      "pubDate": "Tue, 17 Nov 2026 19:40:23 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://cdn.businessinsider.com.pl/1/2c9k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9lYzA2YjVjZDY1ZGYyMzZiNzM2ODRhYTIwZWMyOTBmZC5wbmeSlQMAAM0HgM0EOJMFzQlgzQZA3gACoTAHoTEE",
+      "dateISO": "2026-11-17T19:40:23.000Z",
+      "dateFormatted": "17 listopada 2026"
+    },
+    {
+      "title": "Decyzja o immunitetach sędziów TK. Zgromadzenie Ogólne zakończyło obrady",
+      "link": "https://businessinsider.com.pl/prawo/decyzja-o-immunitetach-sedziow-tk-zgromadzenie-ogolne-zakonczylo-obrady/b1yp03h",
+      "description": "Nowi sędziowie zakończyli Zgromadzenie Ogólne Trybunału Konstytucyjnego. Dziś jednak nie będą informować o wynikach. Komunikat w sprawie wniosków o uchylenie immunitetu Bogdanowi Święczkowskiemu i Bartłomiejowi Sochańskiemu mają wydać jutro.",
+      "pubDate": "Tue, 17 Nov 2026 19:19:10 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://cdn.businessinsider.com.pl/1/opik9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy85ZTg2NTMyNzVmOWYzMzUzNTYyMDI2NzNkZTA0ZDU2NS5wbmeSlQMAZ80GAM0DYJMFzQlgzQZA3gACoTAHoTEE",
+      "dateISO": "2026-11-17T19:19:10.000Z",
+      "dateFormatted": "17 listopada 2026"
+    },
+    {
+      "title": "Polska firma działa od ponad 30 lat. Zamyka zakład i zwalnia ponad 180 osób",
+      "link": "https://businessinsider.com.pl/praca/dostawca-ikea-zamyka-fabryke-w-polsce-zwolnienia-grupowe-obejma-184-osoby/rh50jpw",
+      "description": "Andrewex, wieloletni dostawca IKEA, rezygnuje z wytwarzania mebli z litego drewna i zamyka zakład w Sławnie. Pracę straci ponad 180 osób.",
+      "pubDate": "Tue, 17 Nov 2026 19:15:42 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://cdn.businessinsider.com.pl/1/mM_k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9kNGY2MjAyNWFlY2NkZDRmZDY5MTk5MmMyOWNhZTBkZi5qcGeSlQPNAcXNAT7NBYjNAx2TBc0JYM0GQN4AAqEwB6ExBA",
+      "dateISO": "2026-11-17T19:15:42.000Z",
+      "dateFormatted": "17 listopada 2026"
+    },
+    {
+      "title": "Ważą się losy przedłużenia programu CPN. Domańki: Decyzja zapadnie w najbliższych tygodniach",
+      "link": "https://www.bankier.pl/wiadomosc/Waza-sie-losy-przedluzenia-programu-CPN-Domanki-Decyzja-zapadnie-w-najblizszych-tygodniach-9230528.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "W najbliższych tygodniach rząd podejmie decyzję, czy pakiet Ceny Paliwa Niżej powinien być w całości lub częściowo przedłużony w pierwszych miesiącach 2027 r. - poinformował minister finansów i gospodarki Andrzej Domański. Obecnie CPN ma działać jedynie do końca roku.",
+      "pubDate": "Tue, 17 Nov 2026 20:06:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/9/0/b41dce3c418283-948-568-40-40-4003-2402.jpg",
+      "dateISO": "2026-11-17T19:06:00.000Z",
+      "dateFormatted": "17 listopada 2026"
+    },
+    {
+      "title": "Kontrowersje wokół SCT w dużym polskim mieście. Ekspert szacuje straty",
+      "link": "https://businessinsider.com.pl/technologie/motoryzacja/krakow-rezygnuje-z-milionow-z-sct-zastepca-lukasza-gibaly-wyjasnia/mb7m5cf",
+      "description": "Kraków straci 60-80 mln zł w dwa lata przez ograniczenie SCT — ostrzega Krakowski Alarm Smogowy. — Realizujemy wolę mieszkańców — odpowiada magistrat.",
+      "pubDate": "Tue, 17 Nov 2026 18:25:11 GMT",
+      "source": "Business Insider Polska",
+      "sourceColor": "#2c3e50",
+      "category": "finanse",
+      "image": "https://cdn.businessinsider.com.pl/1/_Aek9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy80ODk3Mzg5ZDkwNjQwMzkwYWJmZjdlYTI2YTQwMGY0Yi5qcGeSlQMAAM0H0M0EZZMFzQlgzQZA3gACoTAHoTEE",
+      "dateISO": "2026-11-17T18:25:11.000Z",
+      "dateFormatted": "17 listopada 2026"
+    },
+    {
+      "title": "Kto stanie na czele EBC? Hernandez de Cos z największą szansą na prezesurę",
+      "link": "https://www.bankier.pl/wiadomosc/Kto-stanie-na-czele-EBC-Hernandez-de-Cos-z-najwieksza-szansa-na-prezesure-9230513.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Berlin zgłosi prof. Markusa Brunnermeiera z Uniwersytetu Princeton na stanowisko głównego ekonomisty Europejskiego Banku Centralnego (EBC), co toruje drogę do kierowania EBC Hiszpanowi Pablo Hernandezowi de Cos, byłemu szefowi Banku Hiszpanii – poinformował we wtorek dziennik „Financial Times”.",
+      "pubDate": "Tue, 17 Nov 2026 19:12:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/1/e/6fd4f3c6a67702-945-560-0-9-3840-2303.jpg",
+      "dateISO": "2026-11-17T18:12:00.000Z",
+      "dateFormatted": "17 listopada 2026"
+    },
+    {
+      "title": "Zełenski proponuje wymianę rakiet: Dajcie nam z zapasów, w zamian dostaniecie nowe",
+      "link": "https://www.bankier.pl/wiadomosc/Zelenski-proponuje-wymiane-rakiet-Dajcie-nam-z-zapasow-w-zamian-dostaniecie-nowe-9230510.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Prezydent Ukrainy Wołodymyr Zełenski zaproponował we wtorek partnerom wymianę rakiet zamówionych przez Ukrainę na pociski przechwytujące do systemów obrony powietrznej Patriot i IRIS-T, które znajdują się w ich zapasach. W zamian za przekazanie rakiet partnerzy otrzymają nowsze uzbrojenie - dodał.",
+      "pubDate": "Tue, 17 Nov 2026 19:10:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/e/8/703629e1620fe0-948-568-0-52-2040-1223.jpg",
+      "dateISO": "2026-11-17T18:10:00.000Z",
+      "dateFormatted": "17 listopada 2026"
+    },
+    {
+      "title": "Rozłam w koalicji wokół TK? Tusk: Nie gniewam się, że szukają innych rozwiązań",
+      "link": "https://www.bankier.pl/wiadomosc/Rozlam-w-koalicji-wokol-TK-Tusk-Nie-gniewam-sie-ze-szukaja-innych-rozwiazan-9230485.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+      "description": "Nie gniewam się na koalicjantów Władysława Kosiniaka-Kamysza i Szymona Hołownię za to, że szukają innych rozwiązań konfliktu wokół Trybunału Konstytucyjnego - podkreślił premier Donald Tusk. Jednak, jak dodał, stanowczo obstaje, że „wreszcie” pracują legalnie wybrani sędziowie TK.",
+      "pubDate": "Tue, 17 Nov 2026 18:29:00 +0100",
+      "source": "Bankier.pl",
+      "sourceColor": "#e74c3c",
+      "category": "wiadomosci",
+      "image": "http://galeria.bankier.pl/p/8/7/0acf8a24e9deb4-948-568-0-220-4000-2399.jpg",
+      "dateISO": "2026-11-17T17:29:00.000Z",
       "dateFormatted": "17 listopada 2026"
     },
     {
@@ -313,18 +421,6 @@
       "dateFormatted": "17 listopada 2026"
     },
     {
-      "title": "Rząd uszczelnia system zapasów ropy i paliw. Większa rola RARS i twardszy nadzór nad rynkiem",
-      "link": "https://www.bankier.pl/wiadomosc/Rzad-uszczelnia-system-zapasow-ropy-i-paliw-Wieksza-rola-RARS-i-twardszy-nadzor-nad-rynkiem-9230286.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Rada Ministrów przyjęła projekt nowelizacji przepisów dotyczących zapasów ropy naftowej i paliw, co ma zapewnić ciągłość utrzymywania zapasów, ograniczyć możliwość unikania obowiązków przez przedsiębiorców i usprawnić zarządzanie zapasami interwencyjnymi - podał w komunikacie resort energii (ME).",
-      "pubDate": "Tue, 17 Nov 2026 14:40:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/c/0/181b83bdff5ba3-948-568-0-129-1995-1196.jpg",
-      "dateISO": "2026-11-17T13:40:00.000Z",
-      "dateFormatted": "17 listopada 2026"
-    },
-    {
       "title": "Kalifornia pozywa twórcę ChatGPT. To efekt ataku zbuntowanych botów",
       "link": "https://businessinsider.com.pl/prawo/kalifornia-pozywa-openai-po-cyberatakach-chatgpt-nowe-zarzuty-wobec-giganta-ai/zfvp991",
       "description": "Kalifornia pozywa OpenAI, twórcę ChatGPT, po serii cyberataków przeprowadzonych przez jego modele AI podczas testów. Wygląda na to, że na jednym stanie się nie skończy.",
@@ -361,18 +457,6 @@
       "dateFormatted": "17 listopada 2026"
     },
     {
-      "title": "To będzie najwyższy apartamentowiec na świecie. Budowa wchodzi w kluczowy etap",
-      "link": "https://businessinsider.com.pl/technologie/senna-tower-ma-byc-najwyzszym-budynkiem-mieszkalnym-na-swiecie-544-m-wysokosci/kv5p8c8",
-      "description": "W brazylijskim mieście Balneário Camboriú trwa budowa Senna Tower — wieżowca, który zdetronizuje Central Park Tower w Nowym Jorku i będzie najwyższym budynkiem mieszkalnym na świecie. Budowa wkroczyła w kolejną już fazę.",
-      "pubDate": "Tue, 17 Nov 2026 13:16:14 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/gfvk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy83ZDQ0M2Q3Y2E4N2VmNTI2OTEzNzVmZmIxZDMwZmI0Ni5wbmeSlQMAAM0EsM0Co5MFzQlgzQZA3gACoTAHoTEE",
-      "dateISO": "2026-11-17T13:16:14.000Z",
-      "dateFormatted": "17 listopada 2026"
-    },
-    {
       "title": "Nie tylko baza wojsk USA. Polska coraz bliżej programu Nuclear Sharing",
       "link": "https://www.bankier.pl/wiadomosc/Nie-tylko-baza-wojsk-USA-Polska-coraz-blizej-programu-Nuclear-Sharing-9230258.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Wicepremier, minister obrony narodowej Władysław Kosiniak-Kamysz powiedział we wtorek, że Polska idzie w dobrym kierunku, jeśli chodzi o zaangażowanie w program Nuclear Sharing. Jak wskazał, w tej sprawie zostały podjęte już „pewne ustalenia\" na szczycie NATO w lipcu w Ankarze.",
@@ -382,54 +466,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/e/f/e281111085b0d1-948-568-0-109-3999-2399.jpg",
       "dateISO": "2026-11-17T13:05:00.000Z",
-      "dateFormatted": "17 listopada 2026"
-    },
-    {
-      "title": "Orlen z wyższym podatkiem na Litwie? Branża grzmi o \"oszustwie\"",
-      "link": "https://businessinsider.com.pl/biznes/orlen-lietuva-z-wyzszym-podatkiem-branza-grzmi-o-oszustwie/0echl1j",
-      "description": "Spór o dodatkowy podatek od nadmiernych zysków Orlen Lietuva dotyczy nie tylko wpływów do budżetu, ale też sygnału wysyłanego inwestorom. Marius Dubnikovas, wiceprezes Litewskiej Konfederacji Biznesu, ostrzega, że taki ruch może zniechęcić zagraniczny kapitał.",
-      "pubDate": "Tue, 17 Nov 2026 13:04:55 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/xwwk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy82YTA1MzA5NDEyZDFjMDUxODk1ZWI4Y2E4MTNiMzk4ZS5qcGeSlQMAzKvNFWDNDAaTBc0JYM0GQN4AAqEwB6ExBA",
-      "dateISO": "2026-11-17T13:04:55.000Z",
-      "dateFormatted": "17 listopada 2026"
-    },
-    {
-      "title": "Ten kompaktowy agregat kosztuje mniej niż 500 zł. 4 litry benzyny i nawet 6,5 godz. pracy",
-      "link": "https://businessinsider.com.pl/technologie/ten-kompaktowy-agregat-kosztuje-mniej-niz-500-zl-4-litry-benzyny-i-nawet-65-godz/v4p5jv3",
-      "description": "Awaria prądu, prace w ogrodzie albo wyjazd w miejsce, w którym nie ma dostępu do gniazdka. W takich sytuacjach przydaje się własne źródło energii. Nie musi to być od razu ogromna i droga maszyna. Einhell TC-PG 10/E5 kosztuje mniej niż 500 zł, mieści 4 litry benzyny i według producenta może pracować ",
-      "pubDate": "Tue, 17 Nov 2026 12:53:51 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/w8Ck9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy84MWMyNDQ5OGJmYjk1YjNjZjRjYTZhNDE1ZDk2ODk5Yy5qcGeSlQPNAdR_zQR8zQKGkwXNCWDNBkDeAAKhMAehMQQ",
-      "dateISO": "2026-11-17T12:53:51.000Z",
-      "dateFormatted": "17 listopada 2026"
-    },
-    {
-      "title": "Ten blender ma 1200 W, dwa rozdrabniacze i 10-letnią gwarancję. Lepszego nie znajdziesz",
-      "link": "https://businessinsider.com.pl/technologie/ten-blender-ma-1200-w-dwa-rozdrabniacze-i-10-letnia-gwarancje-lepszego-nie-znajdziesz/nx01bgm",
-      "description": "Dobry blender ręczny potrafi znacznie ułatwić codzienne gotowanie. Przydaje się nie tylko do przygotowania aksamitnych zup kremów czy koktajli, ale też siekania warzyw, ubijania piany i przyrządzania domowych deserów. Bosch Serie 6 ErgoMaster to urządzenie, które może z powodzeniem zastąpić kilka ku",
-      "pubDate": "Tue, 17 Nov 2026 12:49:02 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/rIkk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8yMDcxNzYzZWVmNzQ5YWM5MWRlZjYwNDYyZTRiNjI3YS5qcGeSlQPNAtXNAv3NEVXNCcCTBc0JYM0GQN4AAqEwB6ExBA",
-      "dateISO": "2026-11-17T12:49:02.000Z",
-      "dateFormatted": "17 listopada 2026"
-    },
-    {
-      "title": "Szef giganta radzi programistom. W erze AI liczą się konkretne rzeczy",
-      "link": "https://businessinsider.com.pl/technologie/nowe-technologie/satya-nadella-o-przyszlosci-inzynierii-oprogramowania-ai-zmienia-zasady-gry/rzs9pre",
-      "description": "Satya Nadella uważa, że inżynierowie oprogramowania powinni zdobywać praktyczne doświadczenie w tworzeniu z użyciem AI. Microsoft uruchomił program \"preceptorship\", aby pomóc inżynierom na początku kariery nauczyć się pracy z AI. Nadella powiedział, że wyłania się \"nowa inżynieria oprogramowania\".",
-      "pubDate": "Tue, 17 Nov 2026 12:41:01 GMT",
-      "source": "Business Insider Polska",
-      "sourceColor": "#2c3e50",
-      "category": "finanse",
-      "image": "https://cdn.businessinsider.com.pl/1/GxEk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8xMzQ0NmU0Yjg2OTFkMzZhNDA0ODVjMjJjZGE0ODgyMi5qcGeSlQMAPs0H0M0EZZMFzQlgzQZA3gACoTAHoTEE",
-      "dateISO": "2026-11-17T12:41:01.000Z",
       "dateFormatted": "17 listopada 2026"
     },
     {
@@ -505,18 +541,6 @@
       "dateFormatted": "17 listopada 2026"
     },
     {
-      "title": "Maksymalne ceny paliw w środę w dół. Minister Energii ogłosił nowe stawki",
-      "link": "https://www.bankier.pl/wiadomosc/Maksymalne-ceny-paliw-w-srode-w-dol-Minister-Energii-oglosil-nowe-stawki-9230191.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W środę litr benzyny 95 będzie kosztował nie więcej niż 5,99 zł, benzyny 98 – 6,64 zł, a oleju napędowego - 7,57 zł – wynika z wtorkowego obwieszczenia Ministra Energii. Ceny maksymalne tych paliw będą więc niższe niż we wtorek.",
-      "pubDate": "Tue, 17 Nov 2026 12:47:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/7/4/f020967d5c2801-948-568-0-0-3749-2249.jpg",
-      "dateISO": "2026-11-17T11:47:00.000Z",
-      "dateFormatted": "17 listopada 2026"
-    },
-    {
       "title": "Ceny gazu zamrożone na 2027 rok. Tusk podał stawkę dla gospodarstw domowych",
       "link": "https://www.bankier.pl/wiadomosc/Ceny-gazu-zamrozone-na-2027-rok-Tusk-podal-stawke-dla-gospodarstw-domowych-9230183.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "Rząd zamierza pracować nad rozwiązaniami dotyczącymi poziomu cen energii elektrycznej - wynika z wtorkowej wypowiedzi premiera Donalda Tuska przed posiedzeniem rządu. Dodał, że w 2027 roku ceny gazu m.in. dla gospodarstw domowych mają być zamrożone na tegorocznym poziomie.",
@@ -526,18 +550,6 @@
       "category": "wiadomosci",
       "image": "http://galeria.bankier.pl/p/6/4/59ba45645c3e86-948-568-240-0-3383-2029.jpg",
       "dateISO": "2026-11-17T11:42:00.000Z",
-      "dateFormatted": "17 listopada 2026"
-    },
-    {
-      "title": "Kosiniak-Kamysz: Jest zielone światło z Pentagonu dla stałej bazy USA w Polsce",
-      "link": "https://www.bankier.pl/wiadomosc/Kosiniak-Kamysz-Jest-zielone-swiatlo-z-Pentagonu-dla-stalej-bazy-USA-w-Polsce-9230179.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "Wicepremier, minister obrony narodowej Władysław Kosiniak-Kamysz powiedział we wtorek po spotkaniu z podsekretarzem obrony USA Elbridge'em Colbym w Brukseli, że w Pentagonie jest zielone światło dla stałej amerykańskiej bazy w Polsce. Wyraził nadzieję, że zostanie to potwierdzone w Białym Domu.",
-      "pubDate": "Tue, 17 Nov 2026 12:38:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/b/e/1be41091edaf5f-948-568-0-147-4182-2509.jpg",
-      "dateISO": "2026-11-17T11:38:00.000Z",
       "dateFormatted": "17 listopada 2026"
     },
     {
@@ -601,18 +613,6 @@
       "dateFormatted": "17 listopada 2026"
     },
     {
-      "title": "Możliwy strajk w Biedronce. Ruszyło referendum",
-      "link": "https://www.bankier.pl/wiadomosc/Strajk-w-Biedronce-coraz-blizej-Pracownicy-glosuja-9230038.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
-      "description": "W poniedziałek, 16 listopada 2026 roku, w Biedronce rozpoczęło się ogólnopolskie referendum strajkowe. Pracownicy mogą głosować przez internet. Związkowcy z NSZZ „Solidarność” chcą m.in. podwyżek o 1 tys. zł, większej obsady sklepów i skrócenia godzin ich pracy.",
-      "pubDate": "Tue, 17 Nov 2026 09:47:00 +0100",
-      "source": "Bankier.pl",
-      "sourceColor": "#e74c3c",
-      "category": "wiadomosci",
-      "image": "http://galeria.bankier.pl/p/a/a/c3c8b005e2c87e-948-568-0-185-1900-1139.jpg",
-      "dateISO": "2026-11-17T08:47:00.000Z",
-      "dateFormatted": "17 listopada 2026"
-    },
-    {
       "title": "\"Grypa GTA\" dotrze do Polski? Premiera gry może wywołać falę zwolnień lekarskich",
       "link": "https://www.bankier.pl/wiadomosc/Grypa-GTA-dotrze-do-Polski-Premiera-gry-moze-wywolac-fale-zwolnien-lekarskich-9229994.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
       "description": "19 listopada zadebiutuje GTA VI, jedna z najbardziej wyczekiwanych gier ostatnich lat. Premiera może odbić się nie tylko na branży gamingowej, ale również na frekwencji w firmach. W USA aż 32 proc. pracowników z pokolenia Z planuje tego dnia wolne, a część graczy rozważa zgłoszenie choroby zamiast u",
@@ -649,7 +649,7 @@
       "dateFormatted": "17 listopada 2026"
     },
     {
-      "title": "Bitcoin stabilny przy 65 tys. $; Strategy kupuje kolejne monety",
+      "title": "Bitcoin spada do 64 700 $; Strategy kupuje kolejne monety",
       "link": "https://pl.investing.com/news/cryptocurrency-news/bitcoin-ponizej-65-tys--strategy-kupuje-kolejne-monety-1655418",
       "description": "",
       "pubDate": "2026-11-17 06:34:50",
@@ -865,5 +865,5 @@
       "dateFormatted": "13 listopada 2026"
     }
   ],
-  "updatedAt": "2026-11-17T17:25:42.209Z"
+  "updatedAt": "2026-11-18T00:38:29.825Z"
 }
