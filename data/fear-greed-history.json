@@ -10064,47 +10064,47 @@
   },
   {
     "date": "2026-11-20",
-    "value": 47,
-    "label": "Neutralny",
-    "color": "#ca8a04",
+    "value": 44,
+    "label": "Strach",
+    "color": "#ea580c",
     "indicators": [
       {
         "name": "Siła wolumenu",
-        "value": 70,
+        "value": 66,
         "label": "Chciwość",
-        "description": "Stosunek wolumenu w dniach wzrostowych do spadkowych na GPW (30 sesji). Przewaga kupujących to sygnał chciwości. Ratio: 1.20.",
+        "description": "Stosunek wolumenu w dniach wzrostowych do spadkowych na GPW (30 sesji). Przewaga kupujących to sygnał chciwości. Ratio: 1.16.",
         "weight": 0.1,
         "details": {
-          "upVol": 575113882,
-          "downVol": 480414213,
-          "ratio": 1.2
+          "upVol": 569824043,
+          "downVol": 491238133,
+          "ratio": 1.16
         }
       },
       {
         "name": "Szerokość rynku",
-        "value": 41,
+        "value": 40,
         "label": "Strach",
-        "description": "Procent spółek GPW notujących powyżej 50-sesyjnej średniej. Im więcej spółek rośnie, tym wyższy wskaźnik. Obecnie 51 z 124 spółek.",
+        "description": "Procent spółek GPW notujących powyżej 50-sesyjnej średniej. Im więcej spółek rośnie, tym wyższy wskaźnik. Obecnie 49 z 124 spółek.",
         "weight": 0.2,
         "details": {
-          "above": 51,
+          "above": 49,
           "total": 124,
-          "pct": 41.13
+          "pct": 39.52
         }
       },
       {
         "name": "Nowe szczyty vs dołki",
-        "value": 39,
+        "value": 35,
         "label": "Strach",
-        "description": "Stosunek spółek blisko 52-tygodniowych maksimów do tych blisko minimów. Obecnie 19 spółek blisko szczytów, 30 blisko dołków.",
+        "description": "Stosunek spółek blisko 52-tygodniowych maksimów do tych blisko minimów. Obecnie 17 spółek blisko szczytów, 32 blisko dołków.",
         "weight": 0.15,
         "details": {
-          "highs": 19,
-          "lows": 30
+          "highs": 17,
+          "lows": 32
         }
       }
     ],
     "indicatorsUsed": 3,
-    "updatedAt": "2026-11-20T00:25:31.528Z"
+    "updatedAt": "2026-11-20T23:48:40.882Z"
   }
 ]
